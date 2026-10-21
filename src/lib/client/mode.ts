@@ -25,6 +25,12 @@ export const FILLER_LABEL: Record<FillerRole, string> = {
   other: "그 외 (지인·돌봄 등)",
 };
 
+/**
+ * 조부모님·어르신 가족 (2026-10-21 인터뷰: 어머니가 100세 넘은 할머니를 모심) — 판정은 부모님 찾기와 같고 문구만 바꾼다.
+ * '부모님께'·'부모님이' 처럼 붙은 말도 그대로 '어르신께'·'어르신이'.
+ */
+export const elderText = (t: string) => t.replace(/부모님/g, "어르신");
+
 export function isParentMode(mode: FindMode | null | undefined): boolean {
   return mode === "parent";
 }

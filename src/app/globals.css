@@ -751,3 +751,26 @@ html[data-kiosk="1"] .crumbs { display: none; }
 @media (min-width: 48rem) {
   html[data-kiosk="1"] .gq-opts { max-width: none; grid-template-columns: repeat(2, minmax(0, 1fr)); }
 }
+
+/* (2026-10-21 인터뷰) 쉬운 찾기 — 큰 예/아니요 두 단추 · 조부모님·어르신 보기 */
+.gq-opt.gq-elder { text-align: left; }
+.gq-opt .gq-sub { display: block; font-size: 0.875rem; font-weight: 500; color: var(--muted); margin-top: 0.125rem; }
+.gq-easy .gq-q { font-size: clamp(1.5rem, 5vw, 2rem); line-height: 1.35; }
+.gq-yn { display: grid; grid-template-columns: 1fr 1fr; gap: 0.75rem; margin-top: 1.5rem; }
+.gq-yn button { min-height: 5rem; border-radius: 1rem; font-size: 1.5rem; font-weight: 800; cursor: pointer; }
+.gq-yes { background: #15803d; color: #fff; border: 2px solid #15803d; }
+.gq-yes:hover:not(:disabled) { background: #116b33; }
+.gq-no { background: #fff; color: var(--ink); border: 2px solid var(--ink-2); }
+.gq-no:hover:not(:disabled) { background: var(--surface-2); }
+.gq-yn button:disabled { opacity: 0.6; cursor: default; }
+.gq-yn-more { display: flex; flex-wrap: wrap; gap: 0.5rem 1.5rem; justify-content: center; margin-top: 1rem; }
+.gq-yn-more .link-btn { min-height: 2.75rem; font-size: 1rem; }
+@media (max-width: 23rem) { .gq-yn { grid-template-columns: 1fr; } }
+.easy-results .easy-h { margin: 0.5rem 0 0.75rem; }
+.easy-list { list-style: none; padding: 0; margin: 1.25rem 0; display: grid; gap: 0.875rem; }
+.easy-card { border: 1px solid var(--line); border-radius: 1rem; padding: 1rem 1.125rem; background: #fff; display: grid; gap: 0.375rem; }
+.easy-card .v2-badge { justify-self: start; }
+.easy-name { font-size: 1.375rem; font-weight: 800; margin: 0; }
+.easy-name a { color: var(--ink); }
+.easy-where { display: flex; gap: 0.5rem; align-items: flex-start; font-size: 1.0625rem; margin: 0.25rem 0 0; }
+.easy-actions { display: flex; flex-wrap: wrap; gap: 0.75rem; margin-top: 1.5rem; }

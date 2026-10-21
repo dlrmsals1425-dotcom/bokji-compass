@@ -10,7 +10,7 @@ import { clearPrefill } from "@/lib/client/parse";
 import { quickSituation, readQuickText, rememberQuickText } from "@/lib/client/quickSituation";
 import { situationTarget } from "@/lib/client/situationTarget";
 import { saveSituation } from "@/lib/client/start";
-import { saveFiller } from "@/lib/client/storage";
+import { saveFiller, setElder } from "@/lib/client/storage";
 import { SituationForm } from "./SituationForm";
 import styles from "@/components/VoiceSearch.module.css";
 
@@ -63,6 +63,7 @@ function QuickEntry() {
       clearPrefill();
       rememberQuickText(value.trim());
       saveSituation(sit, target, undefined, true, true);
+      setElder(false);
       if (target === "parent") saveFiller("child");
       const path = resultsPath(target);
       router.push(`${path}${path.includes("?") ? "&" : "?"}quick=1`);

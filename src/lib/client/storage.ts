@@ -15,6 +15,8 @@ const SETTINGS_KEY = "bn.settings.v1";
 const EXAMPLE_KEY = "bn.example.v1";
 const MODE_KEY = "bn.mode.v1";
 const FILLER_KEY = "bn.filler.v1";
+/** (2026-10-21) 부모님 찾기를 조부모님·어르신 가족으로 — 문구만 '어르신' (판정은 같음, 기기에만 저장) */
+const ELDER_KEY = "bn.elder.v1";
 /** v2 시험판: 항목별 '모름'까지 담은 상황 답 (기기에만 저장) */
 const EXTRAS_KEY = "bn.facts.v1";
 /** (QA 8차) 본인·부모님 답을 따로 — 대상을 바꿔도 다른 사람의 나이·소득·하는 일이 넘어가지 않게 (기기에만 저장) */
@@ -49,7 +51,7 @@ function emit() {
 function subscribe(cb: () => void) {
   listeners.add(cb);
   const onStorage = (e: StorageEvent) => {
-    if (e.key === PROFILE_KEY || e.key === SETTINGS_KEY || e.key === EXAMPLE_KEY || e.key === MODE_KEY || e.key === FILLER_KEY || e.key === EXTRAS_KEY || e.key === DRAFT_KEY || e.key === SEARCH_REGION_KEY || e.key === RECEIVING_KEY || e.key === QUICK_RECEIVING_KEY) emit();
+    if (e.key === PROFILE_KEY || e.key === SETTINGS_KEY || e.key === EXAMPLE_KEY || e.key === MODE_KEY || e.key === FILLER_KEY || e.key === ELDER_KEY || e.key === EXTRAS_KEY || e.key === DRAFT_KEY || e.key === SEARCH_REGION_KEY || e.key === RECEIVING_KEY || e.key === QUICK_RECEIVING_KEY) emit();
   };
   window.addEventListener("storage", onStorage);
   return () => {
@@ -93,7 +95,7 @@ export function setSettings(patch: Partial<Settings>) {
   if (prev.shared !== next.shared) {
     const from = prev.shared ? sessionStorage : localStorage;
     const to = next.shared ? sessionStorage : localStorage;
-    for (const key of [PROFILE_KEY, EXAMPLE_KEY, MODE_KEY, FILLER_KEY, EXTRAS_KEY, DRAFT_KEY, SEARCH_REGION_KEY, RECEIVING_KEY, QUICK_RECEIVING_KEY, EXAMPLE_REGION_KEY]) {
+    for (const key of [PROFILE_KEY, EXAMPLE_KEY, MODE_KEY, FILLER_KEY, ELDER_KEY, EXTRAS_KEY, DRAFT_KEY, SEARCH_REGION_KEY, RECEIVING_KEY, QUICK_RECEIVING_KEY, EXAMPLE_REGION_KEY]) {
       const raw = safeGet(from, key);
       try {
         from.removeItem(key);
@@ -324,6 +326,21 @@ export function useFiller(): FillerRole | undefined {
   return useSyncExternalStore(subscribe, readFiller, () => undefined);
 }
 
+/* ---------- 조부모님·어르신 가족 (문구만) ---------- */
+const readElder = (): boolean => safeGet(profileStore(), ELDER_KEY) === "1";
+
+export function setElder(on: boolean) {
+  try {
+    if (on) profileStore().setItem(ELDER_KEY, "1");
+    else profileStore().removeItem(ELDER_KEY);
+  } catch {}
+  emit();
+}
+
+export function useElder(): boolean | undefined {
+  return useSyncExternalStore(subscribe, readElder, () => undefined);
+}
+
 /** '이 기기에서 지우기' — 두 저장소 모두에서 삭제 */
 export function clearProfile() {
   try {
@@ -332,6 +349,7 @@ export function clearProfile() {
       store.removeItem(EXAMPLE_KEY);
       store.removeItem(MODE_KEY);
       store.removeItem(FILLER_KEY);
+      store.removeItem(ELDER_KEY);
       store.removeItem(EXTRAS_KEY);
       store.removeItem(DRAFT_KEY);
       store.removeItem(SEARCH_REGION_KEY);
