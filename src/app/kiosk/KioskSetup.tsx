@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
 import { loadRegions } from "@/lib/client/bundles";
 import { sidoOptionLabel } from "@/lib/client/regionLabel";
+import { KIOSK_HOME } from "@/components/KioskGuard";
 import { setKiosk, useSettings } from "@/lib/client/storage";
 import type { RegionIndex } from "@/lib/data/types";
 
@@ -29,12 +30,12 @@ export function KioskSetup() {
     const g = sidoObj?.sigungus.find((x) => x.code === sgg);
     if (!sidoObj || !g) return;
     setKiosk({ sido: sidoObj.code, sigungu: g.code, label: `${sidoObj.short ?? sidoObj.name} ${g.name}`, idleSec: idle });
-    router.push("/ask");
+    router.push(KIOSK_HOME);
   };
   return (
     <div className="narrow page">
       <h1 className="h1">키오스크 설정</h1>
-      <p className="body">주민센터·복지관 태블릿에서 쓰는 모드예요. 질문 따라 찾기로 바로 시작하고, 사는 곳은 아래 지역으로 묻고, 손대지 않으면 답을 지우고 처음으로 돌아가요.</p>
+      <p className="body">주민센터·복지관 태블릿에서 쓰는 모드예요. 예/아니요로만 답하는 쉬운 찾기로 바로 시작하고, 사는 곳은 아래 지역으로 묻고, 손대지 않으면 답을 지우고 처음으로 돌아가요.</p>
       {on && (
         <div className="notice" data-testid="kiosk-on">
           <p>

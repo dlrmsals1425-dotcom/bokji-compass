@@ -13,7 +13,7 @@ import { Icon } from "@/components/Icon";
 import { loadForRegion, loadRegions } from "@/lib/client/bundles";
 import { suggestLocation } from "@/lib/client/locationSuggestion";
 import { FLOW_LIMIT, FLOW_DIM_BY_ID, QUESTION_NAME, blankSituation, childrenApply, flowAnswers, flowStep, nextQuestion, rareApply, rarePicks, type FlowStep, type FlowQuestionId } from "@/lib/client/guided";
-import { EASY_LIMIT, easyNext, easyResolve } from "@/lib/client/easy";
+import { EASY_TAPS, easyNext, easyResolve } from "@/lib/client/easy";
 import { elderText, resultsPath, type FindMode } from "@/lib/client/mode";
 import { sidoOptionLabel } from "@/lib/client/regionLabel";
 import { saveSituation } from "@/lib/client/start";
@@ -25,7 +25,7 @@ import { CHILD_BUCKETS, CHILD_LABEL, type ChildBucket } from "@/lib/engine/profi
 type Where = { sido: string; sigungu: string; label: string };
 type LocStatus = { kind: "idle" } | { kind: "busy" } | { kind: "found"; where: Where } | { kind: "error"; text: string };
 /** 질문 단계 하나 (이전으로 돌아갈 때 그대로 되돌린다) */
-type Snap = { sit: Situation; st: FlowStep; asked: FlowQuestionId[]; q: FlowQuestionId | null; picks: Picked[] };
+type Snap = { sit: Situation; st: FlowStep; asked: FlowQuestionId[]; q: FlowQuestionId | null; picks: Picked[]; taps: number };
 /** 고른 답 (끝 화면 요약·고치기 — 2026-10-16 회의) */
 type Picked = { q: FlowQuestionId | "rare"; label: string };
 type Phase = "who" | "where" | "loading" | "ask" | "rare" | "done";
@@ -50,8 +50,10 @@ export function GuidedFlow({ easy = false }: { easy?: boolean } = {}) {
   // 조부모님·어르신 — 판정은 부모님 찾기, 문구만 '어르신'
   const [elder, setElderPick] = useState(false);
   const say = (t: string) => (elder ? elderText(t) : t);
-  const limit = easy ? EASY_LIMIT : FLOW_LIMIT;
-  const pickNext = (st: FlowStep, sit: Situation, asked: FlowQuestionId[]) => (easy ? easyNext(st, sit, asked) : (nextQuestion(st, sit, asked)?.id ?? null));
+  // 쉬운 찾기는 누르는 횟수(EASY_TAPS)로, 골라서 찾기는 질문 수(FLOW_LIMIT)로 끊는다
+  const pickNext = (st: FlowStep, sit: Situation, asked: FlowQuestionId[], tapsLeft = Infinity) =>
+    easy ? easyNext(st, sit, asked, tapsLeft) : (nextQuestion(st, sit, asked)?.id ?? null);
+  const overLimit = (snap: Pick<Snap, "asked" | "taps">) => (easy ? snap.taps >= EASY_TAPS : snap.asked.length >= FLOW_LIMIT);
   const [regions, setRegions] = useState<RegionIndex | null>(null);
   const [loc, setLoc] = useState<LocStatus>({ kind: "idle" });
   const [manual, setManual] = useState(false);
@@ -151,13 +153,13 @@ export function GuidedFlow({ easy = false }: { easy?: boolean } = {}) {
     setHistory([]);
     setExtra(false);
     setRareOn([]);
-    advance({ sit, st, asked: [], q: null, picks: [] }, false);
+    advance({ sit, st, asked: [], q: null, picks: [], taps: 0 }, false);
   };
 
   /** 다음 질문을 고르고, 다 물었으면 드문 사항 → 끝 */
   const advance = (snap: Snap, more: boolean) => {
-    const limitHit = !more && snap.asked.length >= limit;
-    const q = limitHit ? null : pickNext(snap.st, snap.sit, snap.asked);
+    const limitHit = !more && !easy && overLimit(snap);
+    const q = limitHit ? null : pickNext(snap.st, snap.sit, snap.asked, more ? Infinity : EASY_TAPS - snap.taps);
     const next: Snap = { ...snap, q };
     setCur(next);
     if (q) setPhase("ask");
@@ -172,7 +174,7 @@ export function GuidedFlow({ easy = false }: { easy?: boolean } = {}) {
   };
 
   /** 답(또는 건너뛰기)을 반영하고 다시 계산 */
-  const answer = async (sit2: Situation | null, label: string) => {
+  const answer = async (sit2: Situation | null, label: string, used = 1) => {
     if (!cur || !cur.q || busy) return;
     setBusy(true);
     await nextFrame();
@@ -180,7 +182,7 @@ export function GuidedFlow({ easy = false }: { easy?: boolean } = {}) {
     const sit = sit2 ?? cur.sit;
     const st = sit2 ? flowStep(cur.st.pool, sit, cur.st) : cur.st;
     setHistory((h) => [...h, { snap: cur, phase: "ask" }]);
-    advance({ sit, st, asked, q: null, picks: [...cur.picks, { q: cur.q, label }] }, extra);
+    advance({ sit, st, asked, q: null, picks: [...cur.picks, { q: cur.q, label }], taps: cur.taps + used }, extra);
     setBusy(false);
   };
 
@@ -209,7 +211,7 @@ export function GuidedFlow({ easy = false }: { easy?: boolean } = {}) {
     const shown = rarePicks(cur.sit);
     const label = on === null ? "건너뛰기" : on.length ? shown.filter((r) => on.includes(r.key)).map((r) => r.label).join(", ") : "해당 없음";
     setHistory((h) => [...h, { snap: cur, phase: "rare" }]);
-    setCur({ sit, st, asked: cur.asked, q: null, picks: [...cur.picks, { q: "rare", label }] });
+    setCur({ sit, st, asked: cur.asked, q: null, picks: [...cur.picks, { q: "rare", label }], taps: cur.taps + 1 });
     toDone({ sit, st, asked: cur.asked });
     setBusy(false);
   };
@@ -231,7 +233,7 @@ export function GuidedFlow({ easy = false }: { easy?: boolean } = {}) {
     const past = history[i];
     setHistory(history.slice(0, i));
     setCur(past.snap);
-    setExtra(past.snap.asked.length >= limit);
+    setExtra(overLimit(past.snap));
     setRareOn([]);
     setPhase(past.phase);
   };
@@ -246,7 +248,7 @@ export function GuidedFlow({ easy = false }: { easy?: boolean } = {}) {
 
   const asked = cur?.asked.length ?? 0;
   const counts = cur?.st.counts;
-  const progress = phase === "who" ? 0 : phase === "where" || phase === "loading" ? 8 : phase === "done" ? 100 : phase === "rare" ? 92 : Math.min(90, 15 + (asked / limit) * 75);
+  const progress = phase === "who" ? 0 : phase === "where" || phase === "loading" ? 8 : phase === "done" ? 100 : phase === "rare" ? 92 : Math.min(90, 15 + ((easy ? (cur?.taps ?? 0) / EASY_TAPS : asked / FLOW_LIMIT)) * 75);
   const sidoObj = regions?.sidos.find((s) => s.code === pickSido);
 
   return (
@@ -602,7 +604,7 @@ function EasyQuestion(props: {
   extra: boolean;
   busy: boolean;
   headRef: React.RefObject<HTMLHeadingElement | null>;
-  onAnswer: (s: Situation | null, label: string) => void;
+  onAnswer: (s: Situation | null, label: string, used?: number) => void;
   say: (t: string) => string;
 }) {
   const { id, sit, n, extra, busy, headRef, onAnswer, say } = props;
@@ -610,7 +612,7 @@ function EasyQuestion(props: {
   const r = easyResolve(id, sit, trail);
   // 이 상황에서 예/아니요로 물을 수 없는 질문(예: 가구원 수를 몰라 소득 금액을 정할 수 없음)은 건너뛴다
   useEffect(() => {
-    if (r.kind === "skip" && trail.length === 0) onAnswer(null, "건너뛰기");
+    if (r.kind === "skip" && trail.length === 0) onAnswer(null, "건너뛰기", 0);
     // eslint-disable-next-line react-hooks/exhaustive-deps -- 질문이 바뀔 때(key) 한 번만
   }, []);
   useEffect(() => {
@@ -620,14 +622,14 @@ function EasyQuestion(props: {
     const t = [...trail, yes];
     const next = easyResolve(id, sit, t);
     if (next.kind === "ask") setTrail(t);
-    else if (next.kind === "done") onAnswer(next.apply(sit), next.label);
-    else onAnswer(null, "건너뛰기");
+    else if (next.kind === "done") onAnswer(next.apply(sit), next.label, t.length);
+    else onAnswer(null, "건너뛰기", t.length);
   };
   if (r.kind !== "ask") return <p className="muted" role="status">다음 질문으로 넘어가는 중…</p>;
   return (
     <section aria-labelledby="gq-h" data-testid="gq-question" data-dim={id} data-easy="1" className="gq-easy">
       <p className="gq-step" data-testid="gq-step">
-        {extra && n > EASY_LIMIT ? `더 답하기 · 질문 ${n}` : `질문 ${n}`} · {QUESTION_NAME[id]}
+        {extra ? `더 답하기 · 질문 ${n}` : `질문 ${n}`} · {QUESTION_NAME[id]}
       </p>
       <h1 className="h2 gq-q" id="gq-h" tabIndex={-1} ref={headRef}>
         {say(r.q)}
@@ -642,7 +644,7 @@ function EasyQuestion(props: {
         </button>
       </div>
       <div className="gq-yn-more">
-        <button type="button" className="link-btn" disabled={busy} onClick={() => onAnswer(null, "잘 모르겠어요")} data-testid="gq-a-unknown">
+        <button type="button" className="link-btn" disabled={busy} onClick={() => onAnswer(null, "잘 모르겠어요", trail.length + 1)} data-testid="gq-a-unknown">
           잘 모르겠어요
         </button>
         {trail.length > 0 && (

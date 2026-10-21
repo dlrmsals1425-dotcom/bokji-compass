@@ -11,8 +11,11 @@ import { FLOW_DIM_BY_ID, childrenApply, flowAnswers, nextQuestion, rarePicks, ty
 import type { FindMode } from "./mode";
 import { DIM_BY_ID, ageBoundsOf, type Answer, type DimId, type Situation } from "./v2";
 
-/** 쉬운 찾기 기본 질문 수(누르는 횟수) — 넘으면 끝 화면에서 '더 답하기' */
-export const EASY_LIMIT = 18;
+/**
+ * 쉬운 찾기 기본으로 누르는 횟수 (2026-10-21 인터뷰 "18~19번") — 어떤 답을 해도 넘지 않게,
+ * 새 질문은 끝까지 답했을 때 가장 많이 누르는 횟수가 남은 횟수 안에 들 때만 시작한다. 넘으면 끝 화면에서 '더 답하기'.
+ */
+export const EASY_TAPS = 19;
 
 export type EasyResolve =
   | { kind: "ask"; q: string; help?: string }
@@ -156,10 +159,25 @@ export function easyResolve(id: FlowQuestionId, s: Situation, trail: readonly bo
   }
 }
 
-/** 다음에 물을 질문: 질문 따라 찾기와 같은 순서 → 남으면 드문 사항(보훈·다문화 등)을 하나씩 */
-export function easyNext(st: FlowStep, s: Situation, asked: readonly FlowQuestionId[]): FlowQuestionId | null {
-  const q = nextQuestion(st, s, asked)?.id;
-  if (q) return q;
-  return rarePicks(s).map((r) => r.key).find((k) => !asked.includes(k)) ?? null;
+/** 이 질문을 끝까지 답할 때 가장 많이 누르는 횟수 ('잘 모르겠어요' 포함 — 언제든 한 번으로 끝남) */
+export function easyMaxTaps(id: FlowQuestionId, s: Situation): number {
+  const walk = (trail: boolean[]): number => {
+    const r = easyResolve(id, s, trail);
+    return r.kind === "ask" ? Math.max(walk([...trail, true]), walk([...trail, false])) : trail.length;
+  };
+  return walk([]);
+}
+
+/**
+ * 다음에 물을 질문: 질문 따라 찾기와 같은 순서 → 남으면 드문 사항(보훈·다문화 등)을 하나씩.
+ * tapsLeft: 남은 누르는 횟수 — 끝까지 답해도 그 안에 드는 질문만 (안 드는 질문은 건너뛰고 다음 것)
+ */
+export function easyNext(st: FlowStep, s: Situation, asked: readonly FlowQuestionId[], tapsLeft = Infinity): FlowQuestionId | null {
+  const seen = [...asked];
+  for (let q = nextQuestion(st, s, seen)?.id; q; q = nextQuestion(st, s, seen)?.id) {
+    if (easyMaxTaps(q, s) <= tapsLeft) return q;
+    seen.push(q);
+  }
+  return rarePicks(s).map((r) => r.key).find((k) => !seen.includes(k) && easyMaxTaps(k, s) <= tapsLeft) ?? null;
 }
 

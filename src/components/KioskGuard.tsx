@@ -1,7 +1,7 @@
 "use client";
 /**
  * 키오스크 모드 (2026-10-16 회의: 주민센터 12인치 태블릿, 터치만).
- * - 첫 화면은 질문 따라 찾기(/ask). 홈으로 가도 그리로
+ * - 첫 화면은 쉬운 찾기(/easy, 예/아니요로만 — 2026-10-21 소유자). 홈으로 가도 그리로
  * - 손대지 않으면 안내 → 20초 뒤 답을 모두 지우고 처음으로 (다음 분에게 앞사람 답이 보이지 않게)
  * - 화면 아래 '처음으로'(답 지우기) 단추
  * 설정은 /kiosk 에서 (기관 담당자). 답은 원래대로 이 기기 안에서만, 공용 기기 모드라 브라우저를 닫으면 사라짐.
@@ -10,7 +10,7 @@ import { useCallback, useEffect, useRef, useState } from "react";
 import { usePathname, useRouter } from "next/navigation";
 import { clearProfile, useSettings } from "@/lib/client/storage";
 
-export const KIOSK_HOME = "/ask";
+export const KIOSK_HOME = "/easy";
 const WARN_SEC = 20;
 
 export function KioskGuard() {

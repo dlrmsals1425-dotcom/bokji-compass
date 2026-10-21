@@ -1,7 +1,7 @@
 /** 쉬운 찾기 (2026-10-21 인터뷰): 보기가 여럿인 질문을 예/아니요로 나눠 물어도 질문 따라 찾기와 같은 값으로 정해진다 */
 import { existsSync, readFileSync } from "node:fs";
 import { describe, expect, it } from "vitest";
-import { easyNext, easyResolve, type EasyResolve } from "@/lib/client/easy";
+import { EASY_TAPS, easyMaxTaps, easyNext, easyResolve, type EasyResolve } from "@/lib/client/easy";
 import { FLOW_DIM_BY_ID, blankSituation, flowAnswers, flowStep, type FlowQuestionId } from "@/lib/client/guided";
 import type { Situation } from "@/lib/client/v2";
 import { refineProgram } from "@/lib/data/refine";
@@ -130,4 +130,44 @@ describe("질문 순서", () => {
     }
     expect(asked).toEqual(expect.arrayContaining(["veteran", "multicultural"]));
   });
+});
+
+describe("누르는 횟수 (인터뷰: 18~19번)", () => {
+  const load = (f: string): Program[] => (existsSync(f) ? JSON.parse(readFileSync(f, "utf8")).programs : []);
+  const progs = [...load(`public/bundles/v1/sigungu/${SUWON.sigungu}.json`), ...load(`public/bundles/v1/sido/${SUWON.sido}.json`), ...load("public/bundles/v1/national.json")].map(refineProgram);
+  /** 화면과 같은 순서로 끝까지: answer(질문, 몇 번째) → 예/아니요 */
+  const run = (start: Situation, answer: (q: string, i: number) => boolean) => {
+    let s = start;
+    let st = flowStep(progs, s);
+    const asked: FlowQuestionId[] = [];
+    let taps = 0;
+    for (let q = easyNext(st, s, asked, EASY_TAPS - taps); q; q = easyNext(st, s, asked, EASY_TAPS - taps)) {
+      const trail: boolean[] = [];
+      for (let r = easyResolve(q, s, trail); ; r = easyResolve(q, s, trail)) {
+        if (r.kind === "ask") { trail.push(answer(r.q, taps + trail.length)); continue; }
+        if (r.kind === "done") { s = r.apply(s); st = flowStep(st.pool, s, st); }
+        break;
+      }
+      taps += trail.length;
+      asked.push(q);
+    }
+    return { taps, asked };
+  };
+  it("질문마다 끝까지 답할 때 가장 많이 누르는 횟수", () => {
+    expect(easyMaxTaps("age", parent())).toBe(3);
+    expect(easyMaxTaps("alone", parent())).toBe(5);
+    expect(easyMaxTaps("care", parent())).toBe(1);
+    expect(easyMaxTaps("income", self())).toBe(0);
+  });
+  const rand = (seed: number) => () => ((seed = (seed * 1103515245 + 12345) % 2 ** 31) / 2 ** 31) < 0.5;
+  for (const [who, start] of [["부모님", parent], ["본인", self]] as const) {
+    it(`${who}: 모두 예·모두 아니요·번갈아·무작위 어떤 답이든 ${EASY_TAPS}번을 넘지 않고, 나이·가구원 수는 물음`, () => {
+      const answers: ((q: string, i: number) => boolean)[] = [() => true, () => false, (_q, i) => i % 2 === 0, ...[1, 2, 3, 4, 5].map((k) => { const r = rand(k); return () => r(); })];
+      for (const a of answers) {
+        const { taps, asked } = run(start(), a);
+        expect(taps).toBeLessThanOrEqual(EASY_TAPS);
+        expect(asked).toEqual(expect.arrayContaining(["age", "alone"]));
+      }
+    }, 120_000);
+  }
 });
