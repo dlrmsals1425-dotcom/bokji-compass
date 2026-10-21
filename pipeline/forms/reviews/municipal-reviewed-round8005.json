@@ -1,0 +1,1212 @@
+{
+  "schema": 1,
+  "checkedAt": "2026-10-19",
+  "rows": [
+    {
+      "formId": "agency-41590-bokjiro-WLF00000284-20230109UUWBM1405150016381710",
+      "candidateId": "page-66310cc961e09e19a259",
+      "programIds": [
+        "g41590.bokjiro-WLF00000284"
+      ],
+      "programNames": [
+        "치매정밀검사 의료비 지원 확대"
+      ],
+      "sourceKind": "agency",
+      "formTitle": "치매검사비 지원 신청서",
+      "sourceMetadataTitle": "(서식) 치매검사비 지원 신청서.hwp",
+      "verifiedDocumentTitle": "치매검사비 지원 신청서",
+      "role": "application",
+      "use": "main",
+      "condition": "화성시 치매정밀검사 확대지원의 검사비 지원 신청용입니다. 신청자·대상자·협약병원·진단/감별검사 구분을 작성하고, 대리신청인 경우 원문에 적힌 위임·관계 확인서류를 준비합니다. 병원의 검사비 정산 청구서가 아닙니다.",
+      "regionCode": "41590",
+      "regionLabel": "경기 화성시",
+      "agencyName": "경기도 화성시 만세구보건소 건강증진과",
+      "authorityKind": "government",
+      "authorityEvidenceKind": "government",
+      "authorityEvidenceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00000284&wlfareInfoReldBztpCd=02",
+      "authorityEvidenceNote": "대상자와 본인·대리신청인, 진단검사 1·2단계/감별검사, 협약병원, 개인정보 제3자 제공 동의와 서명을 받는 서식2-4 전체를 읽었다. 현재 정확한 WLF00000284 페이지가 화성시 확대지원의 방문접수와 이 URL의 첨부를 제공한다. 검사비를 협약병원에 지급하더라도 원본 신청 주체는 시민이다.",
+      "authorityBasis": {
+        "kind": "official-program",
+        "title": "치매정밀검사 의료비 지원 확대",
+        "evidenceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00000284&wlfareInfoReldBztpCd=02",
+        "checkedAt": "2026-10-19",
+        "evidenceNote": "대상자와 본인·대리신청인, 진단검사 1·2단계/감별검사, 협약병원, 개인정보 제3자 제공 동의와 서명을 받는 서식2-4 전체를 읽었다. 현재 정확한 WLF00000284 페이지가 화성시 확대지원의 방문접수와 이 URL의 첨부를 제공한다. 검사비를 협약병원에 지급하더라도 원본 신청 주체는 시민이다.",
+        "pageSHA256": "43c8033a1bc1355a3c02b966f9210f3888e983d730e92a54b85c5abb1f25640e"
+      },
+      "sourcePageUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00000284&wlfareInfoReldBztpCd=02",
+      "sourceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twata/CmmFileUtil/getDownload.do?atcflId=20230109UUWBM1405150016381710&atcflSn=1&wlfareInfoId=WLF00000284",
+      "finalUrl": "https://www.bokjiro.go.kr/ssis-tbu/twata/CmmFileUtil/getDownload.do?atcflId=20230109UUWBM1405150016381710&atcflSn=1&wlfareInfoId=WLF00000284",
+      "attachmentId": "20230109UUWBM1405150016381710",
+      "attachmentIdentifier": {
+        "queryParam": "atcflId",
+        "value": "20230109UUWBM1405150016381710"
+      },
+      "sourcePageSha256": "43c8033a1bc1355a3c02b966f9210f3888e983d730e92a54b85c5abb1f25640e",
+      "sourcePageHttpStatus": 200,
+      "sourcePageProgramSpecific": true,
+      "sourcePageProgramId": "WLF00000284",
+      "programEvidenceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00000284&wlfareInfoReldBztpCd=02",
+      "evidenceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00000284&wlfareInfoReldBztpCd=02",
+      "evidenceNote": "대상자와 본인·대리신청인, 진단검사 1·2단계/감별검사, 협약병원, 개인정보 제3자 제공 동의와 서명을 받는 서식2-4 전체를 읽었다. 현재 정확한 WLF00000284 페이지가 화성시 확대지원의 방문접수와 이 URL의 첨부를 제공한다. 검사비를 협약병원에 지급하더라도 원본 신청 주체는 시민이다.",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "fullBodyReviewed": true,
+      "independentBodyReview": true,
+      "sha256": "d627b3a7c365175135e57329b587a3dadf7efed89750ce17e76c217e12575748",
+      "bytes": 88576,
+      "originalFormat": "hwp",
+      "originalPath": "pipeline/forms/originals/agency-41590-bokjiro-WLF00000284-20230109UUWBM1405150016381710.hwp",
+      "textScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "BodyText/Section0"
+      ],
+      "reviewedParts": [
+        {
+          "number": "2-4",
+          "title": "치매검사비 지원 신청서",
+          "use": "main",
+          "author": "치매검사 지원 대상자 또는 적법한 대리신청인"
+        }
+      ],
+      "selectedParts": [
+        {
+          "number": "2-4",
+          "title": "치매검사비 지원 신청서",
+          "use": "main",
+          "author": "치매검사 지원 대상자 또는 적법한 대리신청인"
+        }
+      ],
+      "applicant": "치매검사 지원 대상자 또는 적법한 대리신청인",
+      "roleBasis": "대상자와 본인·대리신청인, 진단검사 1·2단계/감별검사, 협약병원, 개인정보 제3자 제공 동의와 서명을 받는 서식2-4 전체를 읽었다. 현재 정확한 WLF00000284 페이지가 화성시 확대지원의 방문접수와 이 URL의 첨부를 제공한다. 검사비를 협약병원에 지급하더라도 원본 신청 주체는 시민이다.",
+      "roleEvidenceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twata/CmmFileUtil/getDownload.do?atcflId=20230109UUWBM1405150016381710&atcflSn=1&wlfareInfoId=WLF00000284",
+      "roleCheckedAt": "2026-10-19",
+      "checkedAt": "2026-10-19",
+      "dateKind": "checked",
+      "effectiveDate": "2026-10-19",
+      "annexId": "",
+      "annexNumber": "",
+      "lawId": "",
+      "lawTitle": "",
+      "lawEvidenceUrl": "",
+      "lawEffectiveDate": "",
+      "lawCurrentCheckedAt": "",
+      "legalReferencesAsCited": [
+        "치매관리법"
+      ],
+      "currentUseConfirmed": true,
+      "noFilledPersonalDataObserved": true,
+      "proposalStatus": "ready_for_coordinator_exact_agency_gate",
+      "publicationApproved": false,
+      "sourceProof": {
+        "originalExtractionRecord": "logs/forms-completion/search-gap-20261019/extracted/page-66310cc961e09e19a259.json",
+        "actualOriginalBytesRechecked": true,
+        "sourcePageRecord": "logs/forms-completion/gyeonggi-20261019/team2/sources/program-WLF00000284.json",
+        "sourcePageRecordSha256": "2b0f2bf4884e479b7837bfeb453e67af9736112666b361a5537494ff1aa28d47",
+        "directAttachmentOnExactProgramPage": true,
+        "freshDownloadRecord": "logs/forms-completion/gyeonggi-20261019/team2/documents/verify-page-66310cc961e09e19a259.json",
+        "freshHTTPStatus": 200
+      },
+      "coordinatorReason": "대상자와 본인·대리신청인, 진단검사 1·2단계/감별검사, 협약병원, 개인정보 제3자 제공 동의와 서명을 받는 서식2-4 전체를 읽었다. 현재 정확한 WLF00000284 페이지가 화성시 확대지원의 방문접수와 이 URL의 첨부를 제공한다. 검사비를 협약병원에 지급하더라도 원본 신청 주체는 시민이다."
+    },
+    {
+      "formId": "agency-41220-bokjiro-WLF00005525-20230109UUWBM1405150016381710",
+      "candidateId": "page-54e1126c238eabcd44b3",
+      "programIds": [
+        "g41220.bokjiro-WLF00005525"
+      ],
+      "programNames": [
+        "치매정밀검사 의료비 지원 확대"
+      ],
+      "sourceKind": "agency",
+      "formTitle": "치매검사비 지원 신청서",
+      "sourceMetadataTitle": "(서식) 치매검사비 지원 신청서.hwp",
+      "verifiedDocumentTitle": "치매검사비 지원 신청서",
+      "role": "application",
+      "use": "main",
+      "condition": "평택시 치매정밀검사 확대지원의 검사비 지원 신청용입니다. 대상자·신청자·협약병원·검사 구분을 적고 평택·송탄 치매안심센터 또는 안내된 접수처 절차를 따릅니다. 의료기관의 비용 정산 서류로 안내하지 않습니다.",
+      "regionCode": "41220",
+      "regionLabel": "경기 평택시",
+      "agencyName": "경기도 평택시 평택보건소 건강증진과 치매안심센터",
+      "authorityKind": "government",
+      "authorityEvidenceKind": "government",
+      "authorityEvidenceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00005525&wlfareInfoReldBztpCd=02",
+      "authorityEvidenceNote": "원본 서식2-4의 전체 본문을 읽었으며 시민의 검사비 신청과 대리신청 조건을 확인했다. 같은 HWP가 화성에서도 배포되지만 현재 WLF00005525가 정확한 평택 사업에 결속된 wlfareInfoId로 이 첨부를 직접 배포한다. 현재 안내의 검사 의뢰·본인부담 검사비 지원과 목적이 일치한다.",
+      "authorityBasis": {
+        "kind": "official-program",
+        "title": "치매정밀검사 의료비 지원 확대",
+        "evidenceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00005525&wlfareInfoReldBztpCd=02",
+        "checkedAt": "2026-10-19",
+        "evidenceNote": "원본 서식2-4의 전체 본문을 읽었으며 시민의 검사비 신청과 대리신청 조건을 확인했다. 같은 HWP가 화성에서도 배포되지만 현재 WLF00005525가 정확한 평택 사업에 결속된 wlfareInfoId로 이 첨부를 직접 배포한다. 현재 안내의 검사 의뢰·본인부담 검사비 지원과 목적이 일치한다.",
+        "pageSHA256": "e7b5ccef47f5da56bc8d441751db02ece306dc7d3e3fc0c8cfadc07f9e5f6a05"
+      },
+      "sourcePageUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00005525&wlfareInfoReldBztpCd=02",
+      "sourceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twata/CmmFileUtil/getDownload.do?atcflId=20230109UUWBM1405150016381710&atcflSn=1&wlfareInfoId=WLF00005525",
+      "finalUrl": "https://www.bokjiro.go.kr/ssis-tbu/twata/CmmFileUtil/getDownload.do?atcflId=20230109UUWBM1405150016381710&atcflSn=1&wlfareInfoId=WLF00005525",
+      "attachmentId": "20230109UUWBM1405150016381710",
+      "attachmentIdentifier": {
+        "queryParam": "atcflId",
+        "value": "20230109UUWBM1405150016381710"
+      },
+      "sourcePageSha256": "e7b5ccef47f5da56bc8d441751db02ece306dc7d3e3fc0c8cfadc07f9e5f6a05",
+      "sourcePageHttpStatus": 200,
+      "sourcePageProgramSpecific": true,
+      "sourcePageProgramId": "WLF00005525",
+      "programEvidenceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00005525&wlfareInfoReldBztpCd=02",
+      "evidenceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00005525&wlfareInfoReldBztpCd=02",
+      "evidenceNote": "원본 서식2-4의 전체 본문을 읽었으며 시민의 검사비 신청과 대리신청 조건을 확인했다. 같은 HWP가 화성에서도 배포되지만 현재 WLF00005525가 정확한 평택 사업에 결속된 wlfareInfoId로 이 첨부를 직접 배포한다. 현재 안내의 검사 의뢰·본인부담 검사비 지원과 목적이 일치한다.",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "fullBodyReviewed": true,
+      "independentBodyReview": true,
+      "sha256": "d627b3a7c365175135e57329b587a3dadf7efed89750ce17e76c217e12575748",
+      "bytes": 88576,
+      "originalFormat": "hwp",
+      "originalPath": "pipeline/forms/originals/agency-41220-bokjiro-WLF00005525-20230109UUWBM1405150016381710.hwp",
+      "textScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "BodyText/Section0"
+      ],
+      "reviewedParts": [
+        {
+          "number": "2-4",
+          "title": "치매검사비 지원 신청서",
+          "use": "main",
+          "author": "치매검사 지원 대상자 또는 적법한 대리신청인"
+        }
+      ],
+      "selectedParts": [
+        {
+          "number": "2-4",
+          "title": "치매검사비 지원 신청서",
+          "use": "main",
+          "author": "치매검사 지원 대상자 또는 적법한 대리신청인"
+        }
+      ],
+      "applicant": "치매검사 지원 대상자 또는 적법한 대리신청인",
+      "roleBasis": "원본 서식2-4의 전체 본문을 읽었으며 시민의 검사비 신청과 대리신청 조건을 확인했다. 같은 HWP가 화성에서도 배포되지만 현재 WLF00005525가 정확한 평택 사업에 결속된 wlfareInfoId로 이 첨부를 직접 배포한다. 현재 안내의 검사 의뢰·본인부담 검사비 지원과 목적이 일치한다.",
+      "roleEvidenceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twata/CmmFileUtil/getDownload.do?atcflId=20230109UUWBM1405150016381710&atcflSn=1&wlfareInfoId=WLF00005525",
+      "roleCheckedAt": "2026-10-19",
+      "checkedAt": "2026-10-19",
+      "dateKind": "checked",
+      "effectiveDate": "2026-10-19",
+      "annexId": "",
+      "annexNumber": "",
+      "lawId": "",
+      "lawTitle": "",
+      "lawEvidenceUrl": "",
+      "lawEffectiveDate": "",
+      "lawCurrentCheckedAt": "",
+      "legalReferencesAsCited": [
+        "치매관리법"
+      ],
+      "currentUseConfirmed": true,
+      "noFilledPersonalDataObserved": true,
+      "proposalStatus": "ready_for_coordinator_exact_agency_gate",
+      "publicationApproved": false,
+      "sourceProof": {
+        "originalExtractionRecord": "logs/forms-completion/search-gap-20261019/extracted/page-54e1126c238eabcd44b3.json",
+        "actualOriginalBytesRechecked": true,
+        "sourcePageRecord": "logs/forms-completion/gyeonggi-20261019/team2/sources/program-WLF00005525.json",
+        "sourcePageRecordSha256": "0ee48944d6a0bdbaf72496e9767d0137624fe6ef2ff8b0a25e1b0af5f0e144ef",
+        "directAttachmentOnExactProgramPage": true,
+        "freshDownloadRecord": "logs/forms-completion/gyeonggi-20261019/team2/documents/verify-page-54e1126c238eabcd44b3.json",
+        "freshHTTPStatus": 200
+      },
+      "coordinatorReason": "원본 서식2-4의 전체 본문을 읽었으며 시민의 검사비 신청과 대리신청 조건을 확인했다. 같은 HWP가 화성에서도 배포되지만 현재 WLF00005525가 정확한 평택 사업에 결속된 wlfareInfoId로 이 첨부를 직접 배포한다. 현재 안내의 검사 의뢰·본인부담 검사비 지원과 목적이 일치한다."
+    },
+    {
+      "formId": "agency-41830-bokjiro-WLF00006106-20230109UUWBM1405150016381710",
+      "candidateId": "page-afc34627b688c4189183",
+      "programIds": [
+        "g41830.bokjiro-WLF00006106"
+      ],
+      "programNames": [
+        "양평군 치매조기검진비 확대 지원사업"
+      ],
+      "sourceKind": "agency",
+      "formTitle": "치매검사비 지원 신청서",
+      "sourceMetadataTitle": "(서식) 치매검사비 지원 신청서.hwp",
+      "verifiedDocumentTitle": "치매검사비 지원 신청서",
+      "role": "application",
+      "use": "main",
+      "condition": "양평군 치매조기검진비 확대지원의 진단·감별검사비 신청용입니다. 양평군치매안심센터에 제출하며 대리신청 시 원문에서 정한 위임·관계 확인서류를 준비합니다.",
+      "regionCode": "41830",
+      "regionLabel": "경기 양평군",
+      "agencyName": "경기도 양평군 보건소 건강증진과",
+      "authorityKind": "government",
+      "authorityEvidenceKind": "government",
+      "authorityEvidenceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00006106&wlfareInfoReldBztpCd=02",
+      "authorityEvidenceNote": "원본 전체의 대상자·신청자·검사 구분·협약병원·동의·서명과 현재 WLF00006106의 양평군 방문신청·진단/감별검사 지원을 대조했다. 동일한 국가 공통 형식이라는 이유로 승인한 것이 아니라 이 정확한 양평 사업 페이지의 직접 배포 첨부임을 확인했다.",
+      "authorityBasis": {
+        "kind": "official-program",
+        "title": "양평군 치매조기검진비 확대 지원사업",
+        "evidenceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00006106&wlfareInfoReldBztpCd=02",
+        "checkedAt": "2026-10-19",
+        "evidenceNote": "원본 전체의 대상자·신청자·검사 구분·협약병원·동의·서명과 현재 WLF00006106의 양평군 방문신청·진단/감별검사 지원을 대조했다. 동일한 국가 공통 형식이라는 이유로 승인한 것이 아니라 이 정확한 양평 사업 페이지의 직접 배포 첨부임을 확인했다.",
+        "pageSHA256": "efab7e598d685e577e6daa413c4aecaeba821273d5a26cd5c3176f1f65b0db11"
+      },
+      "sourcePageUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00006106&wlfareInfoReldBztpCd=02",
+      "sourceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twata/CmmFileUtil/getDownload.do?atcflId=20230109UUWBM1405150016381710&atcflSn=1&wlfareInfoId=WLF00006106",
+      "finalUrl": "https://www.bokjiro.go.kr/ssis-tbu/twata/CmmFileUtil/getDownload.do?atcflId=20230109UUWBM1405150016381710&atcflSn=1&wlfareInfoId=WLF00006106",
+      "attachmentId": "20230109UUWBM1405150016381710",
+      "attachmentIdentifier": {
+        "queryParam": "atcflId",
+        "value": "20230109UUWBM1405150016381710"
+      },
+      "sourcePageSha256": "efab7e598d685e577e6daa413c4aecaeba821273d5a26cd5c3176f1f65b0db11",
+      "sourcePageHttpStatus": 200,
+      "sourcePageProgramSpecific": true,
+      "sourcePageProgramId": "WLF00006106",
+      "programEvidenceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00006106&wlfareInfoReldBztpCd=02",
+      "evidenceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00006106&wlfareInfoReldBztpCd=02",
+      "evidenceNote": "원본 전체의 대상자·신청자·검사 구분·협약병원·동의·서명과 현재 WLF00006106의 양평군 방문신청·진단/감별검사 지원을 대조했다. 동일한 국가 공통 형식이라는 이유로 승인한 것이 아니라 이 정확한 양평 사업 페이지의 직접 배포 첨부임을 확인했다.",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "fullBodyReviewed": true,
+      "independentBodyReview": true,
+      "sha256": "d627b3a7c365175135e57329b587a3dadf7efed89750ce17e76c217e12575748",
+      "bytes": 88576,
+      "originalFormat": "hwp",
+      "originalPath": "pipeline/forms/originals/agency-41830-bokjiro-WLF00006106-20230109UUWBM1405150016381710.hwp",
+      "textScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "BodyText/Section0"
+      ],
+      "reviewedParts": [
+        {
+          "number": "2-4",
+          "title": "치매검사비 지원 신청서",
+          "use": "main",
+          "author": "치매검사 지원 대상자 또는 적법한 대리신청인"
+        }
+      ],
+      "selectedParts": [
+        {
+          "number": "2-4",
+          "title": "치매검사비 지원 신청서",
+          "use": "main",
+          "author": "치매검사 지원 대상자 또는 적법한 대리신청인"
+        }
+      ],
+      "applicant": "치매검사 지원 대상자 또는 적법한 대리신청인",
+      "roleBasis": "원본 전체의 대상자·신청자·검사 구분·협약병원·동의·서명과 현재 WLF00006106의 양평군 방문신청·진단/감별검사 지원을 대조했다. 동일한 국가 공통 형식이라는 이유로 승인한 것이 아니라 이 정확한 양평 사업 페이지의 직접 배포 첨부임을 확인했다.",
+      "roleEvidenceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twata/CmmFileUtil/getDownload.do?atcflId=20230109UUWBM1405150016381710&atcflSn=1&wlfareInfoId=WLF00006106",
+      "roleCheckedAt": "2026-10-19",
+      "checkedAt": "2026-10-19",
+      "dateKind": "checked",
+      "effectiveDate": "2026-10-19",
+      "annexId": "",
+      "annexNumber": "",
+      "lawId": "",
+      "lawTitle": "",
+      "lawEvidenceUrl": "",
+      "lawEffectiveDate": "",
+      "lawCurrentCheckedAt": "",
+      "legalReferencesAsCited": [
+        "양평군 치매관리 및 지원에 관한 조례"
+      ],
+      "currentUseConfirmed": true,
+      "noFilledPersonalDataObserved": true,
+      "proposalStatus": "ready_for_coordinator_exact_agency_gate",
+      "publicationApproved": false,
+      "sourceProof": {
+        "originalExtractionRecord": "logs/forms-completion/search-gap-20261019/extracted/page-afc34627b688c4189183.json",
+        "actualOriginalBytesRechecked": true,
+        "sourcePageRecord": "logs/forms-completion/gyeonggi-20261019/team2/sources/program-WLF00006106.json",
+        "sourcePageRecordSha256": "655278b3592ff749ea90cf6656b2ee33563ac573bc9297cb235e7af1fdf4d44b",
+        "directAttachmentOnExactProgramPage": true,
+        "freshDownloadRecord": "logs/forms-completion/gyeonggi-20261019/team2/documents/verify-page-afc34627b688c4189183.json",
+        "freshHTTPStatus": 200
+      },
+      "coordinatorReason": "원본 전체의 대상자·신청자·검사 구분·협약병원·동의·서명과 현재 WLF00006106의 양평군 방문신청·진단/감별검사 지원을 대조했다. 동일한 국가 공통 형식이라는 이유로 승인한 것이 아니라 이 정확한 양평 사업 페이지의 직접 배포 첨부임을 확인했다."
+    },
+    {
+      "formId": "agency-41130-bokjiro-WLF00001382-20230518UUWBM1435130035230995",
+      "candidateId": "page-83752576ea1a4bba136f",
+      "programIds": [
+        "g41130.bokjiro-WLF00001382"
+      ],
+      "programNames": [
+        "중증장애인활동지원사업(시비)"
+      ],
+      "sourceKind": "agency",
+      "formTitle": "중증장애인활동지원서비스 시추가 지원 신청서",
+      "sourceMetadataTitle": "중증장애인활동지원서비스 시추가 지원 신청서.hwp",
+      "verifiedDocumentTitle": "중증장애인활동지원서비스 시추가 지원 신청서",
+      "role": "application",
+      "use": "conditional",
+      "condition": "이 사업이 현재 안내하는 도비 추가지원 대상자의 성남시 월10시간 추가지원 신청에 한해 첫 번째 선택란을 사용합니다. 같은 파일의 월60시간·193시간 선택란을 이 수록 사업의 지원 범위로 확대하지 않습니다. 대리신청 시 위임장과 대리인 신분증을 준비합니다.",
+      "regionCode": "41130",
+      "regionLabel": "경기 성남시",
+      "agencyName": "경기도 성남시 복지국 장애인복지과",
+      "authorityKind": "government",
+      "authorityEvidenceKind": "government",
+      "authorityEvidenceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00001382&wlfareInfoReldBztpCd=02",
+      "authorityEvidenceNote": "성남시장 수신, 신청자 주소·생년월일·이용기관·장애유형 및 신청 서명 전체를 읽었다. 현재 WLF00001382의 대상·선정기준·지원내용은 도비 추가대상 희망자 월10시간을 명시하고 정확한 첨부를 제공한다. 원본 첫 선택란과 일치하는 부분만 한정하며 다른60/193시간 급여는 승인범위에서 제외한다.",
+      "authorityBasis": {
+        "kind": "official-program",
+        "title": "중증장애인활동지원사업(시비)",
+        "evidenceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00001382&wlfareInfoReldBztpCd=02",
+        "checkedAt": "2026-10-19",
+        "evidenceNote": "성남시장 수신, 신청자 주소·생년월일·이용기관·장애유형 및 신청 서명 전체를 읽었다. 현재 WLF00001382의 대상·선정기준·지원내용은 도비 추가대상 희망자 월10시간을 명시하고 정확한 첨부를 제공한다. 원본 첫 선택란과 일치하는 부분만 한정하며 다른60/193시간 급여는 승인범위에서 제외한다.",
+        "pageSHA256": "befef2ddb9e8e014461eb5bcf086ccaffb1ca31dd1dc1791dd77a85dac3115ec"
+      },
+      "sourcePageUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00001382&wlfareInfoReldBztpCd=02",
+      "sourceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twata/CmmFileUtil/getDownload.do?atcflId=20230518UUWBM1435130035230995&atcflSn=1&wlfareInfoId=WLF00001382",
+      "finalUrl": "https://www.bokjiro.go.kr/ssis-tbu/twata/CmmFileUtil/getDownload.do?atcflId=20230518UUWBM1435130035230995&atcflSn=1&wlfareInfoId=WLF00001382",
+      "attachmentId": "20230518UUWBM1435130035230995",
+      "attachmentIdentifier": {
+        "queryParam": "atcflId",
+        "value": "20230518UUWBM1435130035230995"
+      },
+      "sourcePageSha256": "befef2ddb9e8e014461eb5bcf086ccaffb1ca31dd1dc1791dd77a85dac3115ec",
+      "sourcePageHttpStatus": 200,
+      "sourcePageProgramSpecific": true,
+      "sourcePageProgramId": "WLF00001382",
+      "programEvidenceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00001382&wlfareInfoReldBztpCd=02",
+      "evidenceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00001382&wlfareInfoReldBztpCd=02",
+      "evidenceNote": "성남시장 수신, 신청자 주소·생년월일·이용기관·장애유형 및 신청 서명 전체를 읽었다. 현재 WLF00001382의 대상·선정기준·지원내용은 도비 추가대상 희망자 월10시간을 명시하고 정확한 첨부를 제공한다. 원본 첫 선택란과 일치하는 부분만 한정하며 다른60/193시간 급여는 승인범위에서 제외한다.",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "fullBodyReviewed": true,
+      "independentBodyReview": true,
+      "sha256": "e464b615ad3437da523a8a251e25095116294e2197ef587c3a76702f4538b9ea",
+      "bytes": 40960,
+      "originalFormat": "hwp",
+      "originalPath": "pipeline/forms/originals/agency-41130-bokjiro-WLF00001382-20230518UUWBM1435130035230995.hwp",
+      "textScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "BodyText/Section0"
+      ],
+      "reviewedParts": [
+        {
+          "number": "인쇄 번호 없음",
+          "title": "중증장애인활동지원서비스 시추가 지원 신청서",
+          "use": "conditional",
+          "author": "성남시 활동지원 수급자 또는 대리신청인"
+        }
+      ],
+      "selectedParts": [
+        {
+          "number": "인쇄 번호 없음",
+          "title": "중증장애인활동지원서비스 시추가 지원 신청서",
+          "use": "conditional",
+          "author": "성남시 활동지원 수급자 또는 대리신청인"
+        }
+      ],
+      "applicant": "성남시 활동지원 수급자 또는 대리신청인",
+      "roleBasis": "성남시장 수신, 신청자 주소·생년월일·이용기관·장애유형 및 신청 서명 전체를 읽었다. 현재 WLF00001382의 대상·선정기준·지원내용은 도비 추가대상 희망자 월10시간을 명시하고 정확한 첨부를 제공한다. 원본 첫 선택란과 일치하는 부분만 한정하며 다른60/193시간 급여는 승인범위에서 제외한다.",
+      "roleEvidenceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twata/CmmFileUtil/getDownload.do?atcflId=20230518UUWBM1435130035230995&atcflSn=1&wlfareInfoId=WLF00001382",
+      "roleCheckedAt": "2026-10-19",
+      "checkedAt": "2026-10-19",
+      "dateKind": "checked",
+      "effectiveDate": "2026-10-19",
+      "annexId": "",
+      "annexNumber": "",
+      "lawId": "",
+      "lawTitle": "",
+      "lawEvidenceUrl": "",
+      "lawEffectiveDate": "",
+      "lawCurrentCheckedAt": "",
+      "legalReferencesAsCited": [
+        "장애인활동지원시자체추가지원사업계획"
+      ],
+      "currentUseConfirmed": true,
+      "noFilledPersonalDataObserved": true,
+      "proposalStatus": "ready_for_coordinator_exact_agency_gate",
+      "publicationApproved": false,
+      "sourceProof": {
+        "originalExtractionRecord": "logs/forms-completion/search-gap-20261019/extracted/page-83752576ea1a4bba136f.json",
+        "actualOriginalBytesRechecked": true,
+        "sourcePageRecord": "logs/forms-completion/gyeonggi-20261019/team2/sources/program-WLF00001382.json",
+        "sourcePageRecordSha256": "ba373bcbbd23a687d1ea6c612f20d9f9ee5ec9741b27bbff1796698c510fb618",
+        "directAttachmentOnExactProgramPage": true,
+        "freshDownloadRecord": "logs/forms-completion/gyeonggi-20261019/team2/documents/verify-page-83752576ea1a4bba136f.json",
+        "freshHTTPStatus": 200
+      },
+      "excludedParts": [
+        {
+          "title": "월60시간 및 월193시간 선택란",
+          "reason": "현재 정확한 수록 사업은 도비추가대상 월10시간만 특정함"
+        }
+      ],
+      "coordinatorReason": "성남시장 수신, 신청자 주소·생년월일·이용기관·장애유형 및 신청 서명 전체를 읽었다. 현재 WLF00001382의 대상·선정기준·지원내용은 도비 추가대상 희망자 월10시간을 명시하고 정확한 첨부를 제공한다. 원본 첫 선택란과 일치하는 부분만 한정하며 다른60/193시간 급여는 승인범위에서 제외한다."
+    },
+    {
+      "formId": "agency-41590-bokjiro-WLF00004393-20230519UUWBM1803080035449844",
+      "candidateId": "page-b80d31bb7fe64f010443",
+      "programIds": [
+        "g41590.gov24-553000000115"
+      ],
+      "programNames": [
+        "장수수당"
+      ],
+      "sourceKind": "agency",
+      "formTitle": "화성시 장수수당 신청서",
+      "sourceMetadataTitle": "장수수당 지원 신청서.hwp",
+      "verifiedDocumentTitle": "화성시 장수수당 신청서",
+      "role": "application",
+      "use": "main",
+      "condition": "화성시 장수수당을 신청하는 대상자 또는 대리인이 작성합니다. 대상자 통장사본·초본 등 현재 안내된 구비서류를 준비합니다.",
+      "regionCode": "41590",
+      "regionLabel": "경기 화성시",
+      "agencyName": "경기도 화성시",
+      "authorityKind": "government",
+      "authorityEvidenceKind": "government",
+      "authorityEvidenceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00004393&wlfareInfoReldBztpCd=02",
+      "authorityEvidenceNote": "실제 별지1 전체는 대상자·대리신청인·관계·은행계좌와 서명을 받고 화성시장에게 장수수당을 신청하는 문서다. 현재 WLF00004393이 같은 파일을 직접 배포하며 1년 주소·85세 이상·기초연금 미수급자의 월3만원 및 주소지 읍면동 신청을 명시한다. 수록 g41590.gov24-553000000115의 merged sources에 해당 WLF가 정확히 포함됨을 확인했다.",
+      "authorityBasis": {
+        "kind": "official-program",
+        "title": "장수수당 지원",
+        "evidenceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00004393&wlfareInfoReldBztpCd=02",
+        "checkedAt": "2026-10-19",
+        "evidenceNote": "실제 별지1 전체는 대상자·대리신청인·관계·은행계좌와 서명을 받고 화성시장에게 장수수당을 신청하는 문서다. 현재 WLF00004393이 같은 파일을 직접 배포하며 1년 주소·85세 이상·기초연금 미수급자의 월3만원 및 주소지 읍면동 신청을 명시한다. 수록 g41590.gov24-553000000115의 merged sources에 해당 WLF가 정확히 포함됨을 확인했다.",
+        "pageSHA256": "7cebbc35ba24fa233430b003a92bfe56f045b88cb9bd3e68c4a3fe7665bdda6e"
+      },
+      "sourcePageUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00004393&wlfareInfoReldBztpCd=02",
+      "sourceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twata/CmmFileUtil/getDownload.do?atcflId=20230519UUWBM1803080035449844&atcflSn=1&wlfareInfoId=WLF00004393",
+      "finalUrl": "https://www.bokjiro.go.kr/ssis-tbu/twata/CmmFileUtil/getDownload.do?atcflId=20230519UUWBM1803080035449844&atcflSn=1&wlfareInfoId=WLF00004393",
+      "attachmentId": "20230519UUWBM1803080035449844",
+      "attachmentIdentifier": {
+        "queryParam": "atcflId",
+        "value": "20230519UUWBM1803080035449844"
+      },
+      "sourcePageSha256": "7cebbc35ba24fa233430b003a92bfe56f045b88cb9bd3e68c4a3fe7665bdda6e",
+      "sourcePageHttpStatus": 200,
+      "sourcePageProgramSpecific": true,
+      "sourcePageProgramId": "WLF00004393",
+      "programEvidenceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00004393&wlfareInfoReldBztpCd=02",
+      "evidenceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00004393&wlfareInfoReldBztpCd=02",
+      "evidenceNote": "실제 별지1 전체는 대상자·대리신청인·관계·은행계좌와 서명을 받고 화성시장에게 장수수당을 신청하는 문서다. 현재 WLF00004393이 같은 파일을 직접 배포하며 1년 주소·85세 이상·기초연금 미수급자의 월3만원 및 주소지 읍면동 신청을 명시한다. 수록 g41590.gov24-553000000115의 merged sources에 해당 WLF가 정확히 포함됨을 확인했다.",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "fullBodyReviewed": true,
+      "independentBodyReview": true,
+      "sha256": "f6b9697e52756aca79ea1f06ba06fb28af09450512125e8b246d359a26c7def2",
+      "bytes": 31744,
+      "originalFormat": "hwp",
+      "originalPath": "pipeline/forms/originals/agency-41590-bokjiro-WLF00004393-20230519UUWBM1803080035449844.hwp",
+      "textScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "BodyText/Section0"
+      ],
+      "reviewedParts": [
+        {
+          "number": "1",
+          "title": "화성시 장수수당 신청서",
+          "use": "main",
+          "author": "지급 대상자 또는 대리신청인"
+        }
+      ],
+      "selectedParts": [
+        {
+          "number": "1",
+          "title": "화성시 장수수당 신청서",
+          "use": "main",
+          "author": "지급 대상자 또는 대리신청인"
+        }
+      ],
+      "applicant": "지급 대상자 또는 대리신청인",
+      "roleBasis": "실제 별지1 전체는 대상자·대리신청인·관계·은행계좌와 서명을 받고 화성시장에게 장수수당을 신청하는 문서다. 현재 WLF00004393이 같은 파일을 직접 배포하며 1년 주소·85세 이상·기초연금 미수급자의 월3만원 및 주소지 읍면동 신청을 명시한다. 수록 g41590.gov24-553000000115의 merged sources에 해당 WLF가 정확히 포함됨을 확인했다.",
+      "roleEvidenceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twata/CmmFileUtil/getDownload.do?atcflId=20230519UUWBM1803080035449844&atcflSn=1&wlfareInfoId=WLF00004393",
+      "roleCheckedAt": "2026-10-19",
+      "checkedAt": "2026-10-19",
+      "dateKind": "checked",
+      "effectiveDate": "2026-10-19",
+      "annexId": "",
+      "annexNumber": "",
+      "lawId": "",
+      "lawTitle": "",
+      "lawEvidenceUrl": "",
+      "lawEffectiveDate": "",
+      "lawCurrentCheckedAt": "",
+      "legalReferencesAsCited": [
+        "화성시 장수수당 지급 조례"
+      ],
+      "currentUseConfirmed": true,
+      "noFilledPersonalDataObserved": true,
+      "proposalStatus": "ready_for_coordinator_exact_agency_gate",
+      "publicationApproved": false,
+      "sourceProof": {
+        "originalExtractionRecord": "logs/forms-completion/search-gap-20261019/extracted/page-b80d31bb7fe64f010443.json",
+        "actualOriginalBytesRechecked": true,
+        "sourcePageRecord": "logs/forms-completion/gyeonggi-20261019/team2/sources/program-WLF00004393.json",
+        "sourcePageRecordSha256": "0683471e3d722a605555d85f632260786291061f5302fdb433925c3cbcdc302b",
+        "directAttachmentOnExactProgramPage": true,
+        "freshDownloadRecord": "logs/forms-completion/gyeonggi-20261019/team2/documents/verify-page-b80d31bb7fe64f010443.json",
+        "freshHTTPStatus": 200
+      },
+      "coordinatorReason": "실제 별지1 전체는 대상자·대리신청인·관계·은행계좌와 서명을 받고 화성시장에게 장수수당을 신청하는 문서다. 현재 WLF00004393이 같은 파일을 직접 배포하며 1년 주소·85세 이상·기초연금 미수급자의 월3만원 및 주소지 읍면동 신청을 명시한다. 수록 g41590.gov24-553000000115의 merged sources에 해당 WLF가 정확히 포함됨을 확인했다."
+    },
+    {
+      "formId": "agency-41830-bokjiro-WLF00006105-20250527UUWBM1439230139569874",
+      "candidateId": "page-6d6e6f4dd53a9c098d3b",
+      "programIds": [
+        "g41830.bokjiro-WLF00006105"
+      ],
+      "programNames": [
+        "양평군 치매치료관리비 확대 지원사업"
+      ],
+      "sourceKind": "agency",
+      "formTitle": "치매치료관리비 지원 신청서",
+      "sourceMetadataTitle": "[서식6-4]치매치료관리비 신청서.hwp",
+      "verifiedDocumentTitle": "치매치료관리비 지원 신청서",
+      "role": "application",
+      "use": "main",
+      "condition": "양평군 치매치료관리비 확대지원 신청용입니다. 신청인·연락처·급여 계좌를 작성하며 대리신청 시 원문에 정한 위임 및 관계확인 절차를 따릅니다. 진단·감별검사비 신청서와는 다른 서식입니다.",
+      "regionCode": "41830",
+      "regionLabel": "경기 양평군",
+      "agencyName": "경기도 양평군 보건소 건강증진과",
+      "authorityKind": "government",
+      "authorityEvidenceKind": "government",
+      "authorityEvidenceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00006105&wlfareInfoReldBztpCd=02",
+      "authorityEvidenceNote": "서식6-4 전체의 지원 대상자·대리신청·가족 연락망·계좌·신청 서명 및 대리인별 제출서류를 읽었다. 현재 WLF00006105가 양평군의 치매치료제 복용자·기준중위140% 초과 확대지원, 월3만원/연36만원의 치료관리비와 방문접수를 명시하고 이 정확한 첨부를 제공한다. 의료기관 정산 서식이 아니다.",
+      "authorityBasis": {
+        "kind": "official-program",
+        "title": "양평군 치매치료관리비 확대 지원사업",
+        "evidenceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00006105&wlfareInfoReldBztpCd=02",
+        "checkedAt": "2026-10-19",
+        "evidenceNote": "서식6-4 전체의 지원 대상자·대리신청·가족 연락망·계좌·신청 서명 및 대리인별 제출서류를 읽었다. 현재 WLF00006105가 양평군의 치매치료제 복용자·기준중위140% 초과 확대지원, 월3만원/연36만원의 치료관리비와 방문접수를 명시하고 이 정확한 첨부를 제공한다. 의료기관 정산 서식이 아니다.",
+        "pageSHA256": "8e54e2e2907047b8c03851bdc47569cb6b3d41efaef692678ae6188d82bb71fb"
+      },
+      "sourcePageUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00006105&wlfareInfoReldBztpCd=02",
+      "sourceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twata/CmmFileUtil/getDownload.do?atcflId=20250527UUWBM1439230139569874&atcflSn=1&wlfareInfoId=WLF00006105",
+      "finalUrl": "https://www.bokjiro.go.kr/ssis-tbu/twata/CmmFileUtil/getDownload.do?atcflId=20250527UUWBM1439230139569874&atcflSn=1&wlfareInfoId=WLF00006105",
+      "attachmentId": "20250527UUWBM1439230139569874",
+      "attachmentIdentifier": {
+        "queryParam": "atcflId",
+        "value": "20250527UUWBM1439230139569874"
+      },
+      "sourcePageSha256": "8e54e2e2907047b8c03851bdc47569cb6b3d41efaef692678ae6188d82bb71fb",
+      "sourcePageHttpStatus": 200,
+      "sourcePageProgramSpecific": true,
+      "sourcePageProgramId": "WLF00006105",
+      "programEvidenceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00006105&wlfareInfoReldBztpCd=02",
+      "evidenceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00006105&wlfareInfoReldBztpCd=02",
+      "evidenceNote": "서식6-4 전체의 지원 대상자·대리신청·가족 연락망·계좌·신청 서명 및 대리인별 제출서류를 읽었다. 현재 WLF00006105가 양평군의 치매치료제 복용자·기준중위140% 초과 확대지원, 월3만원/연36만원의 치료관리비와 방문접수를 명시하고 이 정확한 첨부를 제공한다. 의료기관 정산 서식이 아니다.",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "fullBodyReviewed": true,
+      "independentBodyReview": true,
+      "sha256": "8dc2b1b66e86dd3f2ae031a8eebc1b35c6dbd955ce1947ccdfa022e0b43e089c",
+      "bytes": 80896,
+      "originalFormat": "hwp",
+      "originalPath": "pipeline/forms/originals/agency-41830-bokjiro-WLF00006105-20250527UUWBM1439230139569874.hwp",
+      "textScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "BodyText/Section0"
+      ],
+      "reviewedParts": [
+        {
+          "number": "6-4",
+          "title": "치매치료관리비 지원 신청서",
+          "use": "main",
+          "author": "치매치료관리비 지원 대상자 또는 적법한 대리신청인"
+        }
+      ],
+      "selectedParts": [
+        {
+          "number": "6-4",
+          "title": "치매치료관리비 지원 신청서",
+          "use": "main",
+          "author": "치매치료관리비 지원 대상자 또는 적법한 대리신청인"
+        }
+      ],
+      "applicant": "치매치료관리비 지원 대상자 또는 적법한 대리신청인",
+      "roleBasis": "서식6-4 전체의 지원 대상자·대리신청·가족 연락망·계좌·신청 서명 및 대리인별 제출서류를 읽었다. 현재 WLF00006105가 양평군의 치매치료제 복용자·기준중위140% 초과 확대지원, 월3만원/연36만원의 치료관리비와 방문접수를 명시하고 이 정확한 첨부를 제공한다. 의료기관 정산 서식이 아니다.",
+      "roleEvidenceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twata/CmmFileUtil/getDownload.do?atcflId=20250527UUWBM1439230139569874&atcflSn=1&wlfareInfoId=WLF00006105",
+      "roleCheckedAt": "2026-10-19",
+      "checkedAt": "2026-10-19",
+      "dateKind": "checked",
+      "effectiveDate": "2026-10-19",
+      "annexId": "",
+      "annexNumber": "",
+      "lawId": "",
+      "lawTitle": "",
+      "lawEvidenceUrl": "",
+      "lawEffectiveDate": "",
+      "lawCurrentCheckedAt": "",
+      "legalReferencesAsCited": [
+        "치매치료관리비 지원 추진계획"
+      ],
+      "currentUseConfirmed": true,
+      "noFilledPersonalDataObserved": true,
+      "proposalStatus": "ready_for_coordinator_exact_agency_gate",
+      "publicationApproved": false,
+      "sourceProof": {
+        "originalExtractionRecord": "logs/forms-completion/search-gap-20261019/extracted/page-6d6e6f4dd53a9c098d3b.json",
+        "actualOriginalBytesRechecked": true,
+        "sourcePageRecord": "logs/forms-completion/gyeonggi-20261019/team2/sources/program-WLF00006105.json",
+        "sourcePageRecordSha256": "7277efc1078ab3b038b4e4afb0835a04a04a34f3ea9aa6496242b5e1774b4efc",
+        "directAttachmentOnExactProgramPage": true,
+        "freshDownloadRecord": "logs/forms-completion/gyeonggi-20261019/team2/documents/verify-page-6d6e6f4dd53a9c098d3b.json",
+        "freshHTTPStatus": 200
+      },
+      "coordinatorReason": "서식6-4 전체의 지원 대상자·대리신청·가족 연락망·계좌·신청 서명 및 대리인별 제출서류를 읽었다. 현재 WLF00006105가 양평군의 치매치료제 복용자·기준중위140% 초과 확대지원, 월3만원/연36만원의 치료관리비와 방문접수를 명시하고 이 정확한 첨부를 제공한다. 의료기관 정산 서식이 아니다."
+    },
+    {
+      "formId": "agency-41830-bokjiro-WLF00006105-20250527UUWBM1446200139571761",
+      "candidateId": "page-e54927a39288b6a200aa",
+      "programIds": [
+        "g41830.bokjiro-WLF00006105"
+      ],
+      "programNames": [
+        "양평군 치매치료관리비 확대 지원사업"
+      ],
+      "sourceKind": "agency",
+      "formTitle": "행정정보 공동이용 사전 동의서",
+      "sourceMetadataTitle": "행정정보 공동이용 사전 동의서(치매사업).hwp",
+      "verifiedDocumentTitle": "행정정보 공동이용 사전 동의서",
+      "role": "consent",
+      "use": "conditional",
+      "condition": "양평군 치매치료관리비 확대지원을 신청하면서 행정정보 공동이용에 동의하는 경우의 부속서류입니다. 이용사무 중 치매치료관리비 지원을 표시합니다. 동의하지 않으면 해당 구비서류를 직접 제출하는 원문의 선택권을 유지하며, 주신청서로 사용하지 않습니다.",
+      "regionCode": "41830",
+      "regionLabel": "경기 양평군",
+      "agencyName": "경기도 양평군 보건소 건강증진과",
+      "authorityKind": "government",
+      "authorityEvidenceKind": "government",
+      "authorityEvidenceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00006105&wlfareInfoReldBztpCd=02",
+      "authorityEvidenceNote": "서식6-6 전체는 치매안심센터의 주민등록·보험료·수급자격 확인을 위한 정보주체의 동의서이고 거부 시 직접 서류 제출 가능성을 명시한다. 현재 정확한 치료관리비 WLF00006105가 이 첨부를 함께 제공한다. 신청서와 분리한 조건부 동의로만 제안한다.",
+      "authorityBasis": {
+        "kind": "official-program",
+        "title": "양평군 치매치료관리비 확대 지원사업",
+        "evidenceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00006105&wlfareInfoReldBztpCd=02",
+        "checkedAt": "2026-10-19",
+        "evidenceNote": "서식6-6 전체는 치매안심센터의 주민등록·보험료·수급자격 확인을 위한 정보주체의 동의서이고 거부 시 직접 서류 제출 가능성을 명시한다. 현재 정확한 치료관리비 WLF00006105가 이 첨부를 함께 제공한다. 신청서와 분리한 조건부 동의로만 제안한다.",
+        "pageSHA256": "8e54e2e2907047b8c03851bdc47569cb6b3d41efaef692678ae6188d82bb71fb"
+      },
+      "sourcePageUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00006105&wlfareInfoReldBztpCd=02",
+      "sourceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twata/CmmFileUtil/getDownload.do?atcflId=20250527UUWBM1446200139571761&atcflSn=1&wlfareInfoId=WLF00006105",
+      "finalUrl": "https://www.bokjiro.go.kr/ssis-tbu/twata/CmmFileUtil/getDownload.do?atcflId=20250527UUWBM1446200139571761&atcflSn=1&wlfareInfoId=WLF00006105",
+      "attachmentId": "20250527UUWBM1446200139571761",
+      "attachmentIdentifier": {
+        "queryParam": "atcflId",
+        "value": "20250527UUWBM1446200139571761"
+      },
+      "sourcePageSha256": "8e54e2e2907047b8c03851bdc47569cb6b3d41efaef692678ae6188d82bb71fb",
+      "sourcePageHttpStatus": 200,
+      "sourcePageProgramSpecific": true,
+      "sourcePageProgramId": "WLF00006105",
+      "programEvidenceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00006105&wlfareInfoReldBztpCd=02",
+      "evidenceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00006105&wlfareInfoReldBztpCd=02",
+      "evidenceNote": "서식6-6 전체는 치매안심센터의 주민등록·보험료·수급자격 확인을 위한 정보주체의 동의서이고 거부 시 직접 서류 제출 가능성을 명시한다. 현재 정확한 치료관리비 WLF00006105가 이 첨부를 함께 제공한다. 신청서와 분리한 조건부 동의로만 제안한다.",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "fullBodyReviewed": true,
+      "independentBodyReview": true,
+      "sha256": "53afb5687ce83db985b318e7f7a14f2533fc22a44337c9f84083777bf4c967ab",
+      "bytes": 69632,
+      "originalFormat": "hwp",
+      "originalPath": "pipeline/forms/originals/agency-41830-bokjiro-WLF00006105-20250527UUWBM1446200139571761.hwp",
+      "textScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "BodyText/Section0"
+      ],
+      "reviewedParts": [
+        {
+          "number": "6-6",
+          "title": "행정정보 공동이용 사전 동의서",
+          "use": "conditional",
+          "author": "정보주체 또는 원문에 따른 대리동의인"
+        }
+      ],
+      "selectedParts": [
+        {
+          "number": "6-6",
+          "title": "행정정보 공동이용 사전 동의서",
+          "use": "conditional",
+          "author": "정보주체 또는 원문에 따른 대리동의인"
+        }
+      ],
+      "applicant": "정보주체 또는 원문에 따른 대리동의인",
+      "roleBasis": "서식6-6 전체는 치매안심센터의 주민등록·보험료·수급자격 확인을 위한 정보주체의 동의서이고 거부 시 직접 서류 제출 가능성을 명시한다. 현재 정확한 치료관리비 WLF00006105가 이 첨부를 함께 제공한다. 신청서와 분리한 조건부 동의로만 제안한다.",
+      "roleEvidenceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twata/CmmFileUtil/getDownload.do?atcflId=20250527UUWBM1446200139571761&atcflSn=1&wlfareInfoId=WLF00006105",
+      "roleCheckedAt": "2026-10-19",
+      "checkedAt": "2026-10-19",
+      "dateKind": "checked",
+      "effectiveDate": "2026-10-19",
+      "annexId": "",
+      "annexNumber": "",
+      "lawId": "",
+      "lawTitle": "",
+      "lawEvidenceUrl": "",
+      "lawEffectiveDate": "",
+      "lawCurrentCheckedAt": "",
+      "legalReferencesAsCited": [
+        "치매치료관리비 지원 추진계획"
+      ],
+      "currentUseConfirmed": true,
+      "noFilledPersonalDataObserved": true,
+      "proposalStatus": "ready_for_coordinator_exact_agency_gate",
+      "publicationApproved": false,
+      "sourceProof": {
+        "originalExtractionRecord": "logs/forms-completion/search-gap-20261019/extracted/page-e54927a39288b6a200aa.json",
+        "actualOriginalBytesRechecked": true,
+        "sourcePageRecord": "logs/forms-completion/gyeonggi-20261019/team2/sources/program-WLF00006105.json",
+        "sourcePageRecordSha256": "7277efc1078ab3b038b4e4afb0835a04a04a34f3ea9aa6496242b5e1774b4efc",
+        "directAttachmentOnExactProgramPage": true,
+        "freshDownloadRecord": "logs/forms-completion/gyeonggi-20261019/team2/documents/verify-page-e54927a39288b6a200aa.json",
+        "freshHTTPStatus": 200
+      },
+      "coordinatorReason": "서식6-6 전체는 치매안심센터의 주민등록·보험료·수급자격 확인을 위한 정보주체의 동의서이고 거부 시 직접 서류 제출 가능성을 명시한다. 현재 정확한 치료관리비 WLF00006105가 이 첨부를 함께 제공한다. 신청서와 분리한 조건부 동의로만 제안한다."
+    },
+    {
+      "formId": "agency-41830-bokjiro-WLF00006106-20250527UUWBM1446200139571761",
+      "candidateId": "page-e83420cb6636bad8c136",
+      "programIds": [
+        "g41830.bokjiro-WLF00006106"
+      ],
+      "programNames": [
+        "양평군 치매조기검진비 확대 지원사업"
+      ],
+      "sourceKind": "agency",
+      "formTitle": "행정정보 공동이용 사전 동의서",
+      "sourceMetadataTitle": "행정정보 공동이용 사전 동의서(치매사업).hwp",
+      "verifiedDocumentTitle": "행정정보 공동이용 사전 동의서",
+      "role": "consent",
+      "use": "conditional",
+      "condition": "양평군 치매조기검진비 확대지원의 자격 확인을 위해 행정정보 공동이용에 동의하는 경우에만 작성합니다. 이용사무 중 치매안심센터 사업을 표시하며 동의하지 않으면 해당 구비서류를 직접 제출할 수 있습니다. 주신청서가 아닙니다.",
+      "regionCode": "41830",
+      "regionLabel": "경기 양평군",
+      "agencyName": "경기도 양평군 보건소 건강증진과",
+      "authorityKind": "government",
+      "authorityEvidenceKind": "government",
+      "authorityEvidenceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00006106&wlfareInfoReldBztpCd=02",
+      "authorityEvidenceNote": "동일한6-6 동의서 바이트가 치료관리비와 조기검진 사업에 각각 배포되어 있으므로 현재 WLF00006106 페이지의 정확한 별도 다운로드 URL도 대조했다. 원본에는 치매안심센터 사업 선택란이 있고 현재 조기검진 안내는 소득·재산 확인과 센터 방문신청을 설명한다. 해당 자격확인 동의만 조건부 연결하며 치료관리비 신청으로 혼동하지 않는다.",
+      "authorityBasis": {
+        "kind": "official-program",
+        "title": "양평군 치매조기검진비 확대 지원사업",
+        "evidenceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00006106&wlfareInfoReldBztpCd=02",
+        "checkedAt": "2026-10-19",
+        "evidenceNote": "동일한6-6 동의서 바이트가 치료관리비와 조기검진 사업에 각각 배포되어 있으므로 현재 WLF00006106 페이지의 정확한 별도 다운로드 URL도 대조했다. 원본에는 치매안심센터 사업 선택란이 있고 현재 조기검진 안내는 소득·재산 확인과 센터 방문신청을 설명한다. 해당 자격확인 동의만 조건부 연결하며 치료관리비 신청으로 혼동하지 않는다.",
+        "pageSHA256": "efab7e598d685e577e6daa413c4aecaeba821273d5a26cd5c3176f1f65b0db11"
+      },
+      "sourcePageUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00006106&wlfareInfoReldBztpCd=02",
+      "sourceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twata/CmmFileUtil/getDownload.do?atcflId=20250527UUWBM1446200139571761&atcflSn=1&wlfareInfoId=WLF00006106",
+      "finalUrl": "https://www.bokjiro.go.kr/ssis-tbu/twata/CmmFileUtil/getDownload.do?atcflId=20250527UUWBM1446200139571761&atcflSn=1&wlfareInfoId=WLF00006106",
+      "attachmentId": "20250527UUWBM1446200139571761",
+      "attachmentIdentifier": {
+        "queryParam": "atcflId",
+        "value": "20250527UUWBM1446200139571761"
+      },
+      "sourcePageSha256": "efab7e598d685e577e6daa413c4aecaeba821273d5a26cd5c3176f1f65b0db11",
+      "sourcePageHttpStatus": 200,
+      "sourcePageProgramSpecific": true,
+      "sourcePageProgramId": "WLF00006106",
+      "programEvidenceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00006106&wlfareInfoReldBztpCd=02",
+      "evidenceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00006106&wlfareInfoReldBztpCd=02",
+      "evidenceNote": "동일한6-6 동의서 바이트가 치료관리비와 조기검진 사업에 각각 배포되어 있으므로 현재 WLF00006106 페이지의 정확한 별도 다운로드 URL도 대조했다. 원본에는 치매안심센터 사업 선택란이 있고 현재 조기검진 안내는 소득·재산 확인과 센터 방문신청을 설명한다. 해당 자격확인 동의만 조건부 연결하며 치료관리비 신청으로 혼동하지 않는다.",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "fullBodyReviewed": true,
+      "independentBodyReview": true,
+      "sha256": "53afb5687ce83db985b318e7f7a14f2533fc22a44337c9f84083777bf4c967ab",
+      "bytes": 69632,
+      "originalFormat": "hwp",
+      "originalPath": "pipeline/forms/originals/agency-41830-bokjiro-WLF00006106-20250527UUWBM1446200139571761.hwp",
+      "textScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "BodyText/Section0"
+      ],
+      "reviewedParts": [
+        {
+          "number": "6-6",
+          "title": "행정정보 공동이용 사전 동의서",
+          "use": "conditional",
+          "author": "정보주체 또는 원문에 따른 대리동의인"
+        }
+      ],
+      "selectedParts": [
+        {
+          "number": "6-6",
+          "title": "행정정보 공동이용 사전 동의서",
+          "use": "conditional",
+          "author": "정보주체 또는 원문에 따른 대리동의인"
+        }
+      ],
+      "applicant": "정보주체 또는 원문에 따른 대리동의인",
+      "roleBasis": "동일한6-6 동의서 바이트가 치료관리비와 조기검진 사업에 각각 배포되어 있으므로 현재 WLF00006106 페이지의 정확한 별도 다운로드 URL도 대조했다. 원본에는 치매안심센터 사업 선택란이 있고 현재 조기검진 안내는 소득·재산 확인과 센터 방문신청을 설명한다. 해당 자격확인 동의만 조건부 연결하며 치료관리비 신청으로 혼동하지 않는다.",
+      "roleEvidenceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twata/CmmFileUtil/getDownload.do?atcflId=20250527UUWBM1446200139571761&atcflSn=1&wlfareInfoId=WLF00006106",
+      "roleCheckedAt": "2026-10-19",
+      "checkedAt": "2026-10-19",
+      "dateKind": "checked",
+      "effectiveDate": "2026-10-19",
+      "annexId": "",
+      "annexNumber": "",
+      "lawId": "",
+      "lawTitle": "",
+      "lawEvidenceUrl": "",
+      "lawEffectiveDate": "",
+      "lawCurrentCheckedAt": "",
+      "legalReferencesAsCited": [
+        "양평군 치매관리 및 지원에 관한 조례"
+      ],
+      "currentUseConfirmed": true,
+      "noFilledPersonalDataObserved": true,
+      "proposalStatus": "ready_for_coordinator_exact_agency_gate",
+      "publicationApproved": false,
+      "sourceProof": {
+        "originalExtractionRecord": "logs/forms-completion/search-gap-20261019/extracted/page-e83420cb6636bad8c136.json",
+        "actualOriginalBytesRechecked": true,
+        "sourcePageRecord": "logs/forms-completion/gyeonggi-20261019/team2/sources/program-WLF00006106.json",
+        "sourcePageRecordSha256": "655278b3592ff749ea90cf6656b2ee33563ac573bc9297cb235e7af1fdf4d44b",
+        "directAttachmentOnExactProgramPage": true,
+        "freshDownloadRecord": "logs/forms-completion/gyeonggi-20261019/team2/documents/verify-page-e83420cb6636bad8c136.json",
+        "freshHTTPStatus": 200
+      },
+      "coordinatorReason": "동일한6-6 동의서 바이트가 치료관리비와 조기검진 사업에 각각 배포되어 있으므로 현재 WLF00006106 페이지의 정확한 별도 다운로드 URL도 대조했다. 원본에는 치매안심센터 사업 선택란이 있고 현재 조기검진 안내는 소득·재산 확인과 센터 방문신청을 설명한다. 해당 자격확인 동의만 조건부 연결하며 치료관리비 신청으로 혼동하지 않는다."
+    },
+    {
+      "formId": "agency-41220-bokjiro-WLF00003327-20250602UUWBM0936570140303465",
+      "candidateId": "page-ba698dd2c313e3795df4",
+      "programIds": [
+        "g41220.bokjiro-WLF00003327"
+      ],
+      "programNames": [
+        "행려자 귀향여비,숙식비(본청)"
+      ],
+      "sourceKind": "agency",
+      "formTitle": "행려자 귀향 여비 지급 확인서 및 개인정보 동의서",
+      "sourceMetadataTitle": "행려자 여비 신청서식.hwp",
+      "verifiedDocumentTitle": "행려자 귀향 여비 지급 확인서 및 개인정보 동의서",
+      "role": "application",
+      "use": "conditional",
+      "condition": "평택시 본청 관할의 행려자 귀향여비 신청에 사용하는 서류입니다. 신청금액·사유와 본인 서명을 작성합니다. 같은 사업의 무연고 사망자 장례비 또는 기관 의료비 청구로 확대하지 않습니다.",
+      "regionCode": "41220",
+      "regionLabel": "경기 평택시",
+      "agencyName": "경기도 평택시 복지국 사회복지과",
+      "authorityKind": "government",
+      "authorityEvidenceKind": "government",
+      "authorityEvidenceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00003327&wlfareInfoReldBztpCd=02",
+      "authorityEvidenceNote": "원문 제목은 지급 확인서이나 전체 본문은 성명·주소·신청금액·신청사유와 신청인 서명을 받는 주민 작성 신청 양식이며 뒤에 개인정보 동의가 있다. 현재 WLF00003327은 선정기준에서 신분증·신청서·개인정보 동의를 명시하고 사회복지과/당직실 방문접수와 이 직접 첨부를 제공한다. 제목만으로 기관용 정산서로 분류하지 않았다.",
+      "authorityBasis": {
+        "kind": "official-program",
+        "title": "행려자 귀향여비,숙식비(본청)",
+        "evidenceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00003327&wlfareInfoReldBztpCd=02",
+        "checkedAt": "2026-10-19",
+        "evidenceNote": "원문 제목은 지급 확인서이나 전체 본문은 성명·주소·신청금액·신청사유와 신청인 서명을 받는 주민 작성 신청 양식이며 뒤에 개인정보 동의가 있다. 현재 WLF00003327은 선정기준에서 신분증·신청서·개인정보 동의를 명시하고 사회복지과/당직실 방문접수와 이 직접 첨부를 제공한다. 제목만으로 기관용 정산서로 분류하지 않았다.",
+        "pageSHA256": "cf9fd56dab3e95c9aaaac6b7061bf6d6a14aa13ea67d0c25191316efc5f52964"
+      },
+      "sourcePageUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00003327&wlfareInfoReldBztpCd=02",
+      "sourceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twata/CmmFileUtil/getDownload.do?atcflId=20250602UUWBM0936570140303465&atcflSn=1&wlfareInfoId=WLF00003327",
+      "finalUrl": "https://www.bokjiro.go.kr/ssis-tbu/twata/CmmFileUtil/getDownload.do?atcflId=20250602UUWBM0936570140303465&atcflSn=1&wlfareInfoId=WLF00003327",
+      "attachmentId": "20250602UUWBM0936570140303465",
+      "attachmentIdentifier": {
+        "queryParam": "atcflId",
+        "value": "20250602UUWBM0936570140303465"
+      },
+      "sourcePageSha256": "cf9fd56dab3e95c9aaaac6b7061bf6d6a14aa13ea67d0c25191316efc5f52964",
+      "sourcePageHttpStatus": 200,
+      "sourcePageProgramSpecific": true,
+      "sourcePageProgramId": "WLF00003327",
+      "programEvidenceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00003327&wlfareInfoReldBztpCd=02",
+      "evidenceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00003327&wlfareInfoReldBztpCd=02",
+      "evidenceNote": "원문 제목은 지급 확인서이나 전체 본문은 성명·주소·신청금액·신청사유와 신청인 서명을 받는 주민 작성 신청 양식이며 뒤에 개인정보 동의가 있다. 현재 WLF00003327은 선정기준에서 신분증·신청서·개인정보 동의를 명시하고 사회복지과/당직실 방문접수와 이 직접 첨부를 제공한다. 제목만으로 기관용 정산서로 분류하지 않았다.",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "fullBodyReviewed": true,
+      "independentBodyReview": true,
+      "sha256": "c69e52e12b08542666e50ceae40fb66c31974cddff1ec3255eab4152cbb5a098",
+      "bytes": 26112,
+      "originalFormat": "hwp",
+      "originalPath": "pipeline/forms/originals/agency-41220-bokjiro-WLF00003327-20250602UUWBM0936570140303465.hwp",
+      "textScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "BodyText/Section0"
+      ],
+      "reviewedParts": [
+        {
+          "number": "인쇄 번호 없음",
+          "title": "행려자 귀향 여비 지급 확인서",
+          "use": "conditional",
+          "author": "귀향여비를 신청하는 행려자"
+        },
+        {
+          "number": "인쇄 번호 없음",
+          "title": "개인정보 수집·이용 및 제3자 제공 동의서",
+          "use": "additional",
+          "author": "귀향여비 신청인"
+        }
+      ],
+      "selectedParts": [
+        {
+          "number": "인쇄 번호 없음",
+          "title": "행려자 귀향 여비 지급 확인서",
+          "use": "conditional",
+          "author": "귀향여비를 신청하는 행려자"
+        },
+        {
+          "number": "인쇄 번호 없음",
+          "title": "개인정보 수집·이용 및 제3자 제공 동의서",
+          "use": "additional",
+          "author": "귀향여비 신청인"
+        }
+      ],
+      "applicant": "귀향여비를 신청하는 행려자",
+      "roleBasis": "원문 제목은 지급 확인서이나 전체 본문은 성명·주소·신청금액·신청사유와 신청인 서명을 받는 주민 작성 신청 양식이며 뒤에 개인정보 동의가 있다. 현재 WLF00003327은 선정기준에서 신분증·신청서·개인정보 동의를 명시하고 사회복지과/당직실 방문접수와 이 직접 첨부를 제공한다. 제목만으로 기관용 정산서로 분류하지 않았다.",
+      "roleEvidenceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twata/CmmFileUtil/getDownload.do?atcflId=20250602UUWBM0936570140303465&atcflSn=1&wlfareInfoId=WLF00003327",
+      "roleCheckedAt": "2026-10-19",
+      "checkedAt": "2026-10-19",
+      "dateKind": "checked",
+      "effectiveDate": "2026-10-19",
+      "annexId": "",
+      "annexNumber": "",
+      "lawId": "",
+      "lawTitle": "",
+      "lawEvidenceUrl": "",
+      "lawEffectiveDate": "",
+      "lawCurrentCheckedAt": "",
+      "legalReferencesAsCited": [
+        "노숙인 등의 복지 및 자립지원에 관한 법률 제3조"
+      ],
+      "currentUseConfirmed": true,
+      "noFilledPersonalDataObserved": true,
+      "proposalStatus": "ready_for_coordinator_exact_agency_gate",
+      "publicationApproved": false,
+      "sourceProof": {
+        "originalExtractionRecord": "logs/forms-completion/search-gap-20261019/extracted/page-ba698dd2c313e3795df4.json",
+        "actualOriginalBytesRechecked": true,
+        "sourcePageRecord": "logs/forms-completion/gyeonggi-20261019/team2/sources/program-WLF00003327.json",
+        "sourcePageRecordSha256": "7a68c1695427b4784582b88280e6aeb214dd22633b1a8f9ccfdb928ed0f93aa8",
+        "directAttachmentOnExactProgramPage": true,
+        "freshDownloadRecord": "logs/forms-completion/gyeonggi-20261019/team2/documents/verify-page-ba698dd2c313e3795df4.json",
+        "freshHTTPStatus": 200
+      },
+      "coordinatorReason": "원문 제목은 지급 확인서이나 전체 본문은 성명·주소·신청금액·신청사유와 신청인 서명을 받는 주민 작성 신청 양식이며 뒤에 개인정보 동의가 있다. 현재 WLF00003327은 선정기준에서 신분증·신청서·개인정보 동의를 명시하고 사회복지과/당직실 방문접수와 이 직접 첨부를 제공한다. 제목만으로 기관용 정산서로 분류하지 않았다."
+    },
+    {
+      "formId": "agency-41670-bokjiro-WLF00004815-20260313UUWBM1434150180378524",
+      "candidateId": "page-f251d0e0070e577bfa0f",
+      "programIds": [
+        "g41670.gov24-570000000135"
+      ],
+      "programNames": [
+        "여주시 초등학생 입학축하금 지원"
+      ],
+      "sourceKind": "agency",
+      "formTitle": "2026년 여주시 초등학생 입학축하금 신청서",
+      "sourceMetadataTitle": "2026_초등학생 입학축하금 안내문 및 신청서식.hwp",
+      "verifiedDocumentTitle": "2026년 여주시 초등학생 입학축하금 신청서",
+      "role": "application",
+      "use": "main",
+      "condition": "2026년 여주시 초등학교 최초 입학자의 보호자가 작성하는 입학축하금 신청서입니다. 신청기간은 2026년 입학일 이후부터 12월31일까지입니다. 앞쪽 안내를 읽고 뒤쪽 빈 신청서를 작성하며 신청인·휴대폰·지역화폐카드 명의 일치와 중복지원 제한을 확인합니다. 관외·대안학교 등은 해당 재학증명서를 준비합니다.",
+      "regionCode": "41670",
+      "regionLabel": "경기 여주시",
+      "agencyName": "경기도 여주시",
+      "authorityKind": "government",
+      "authorityEvidenceKind": "government",
+      "authorityEvidenceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00004815&wlfareInfoReldBztpCd=02",
+      "authorityEvidenceNote": "2026 안내문과 뒤 신청서 전체2693자를 읽었다. 지원10만원 지역화폐, 보호자 신청, 2026-12-31 마감, 관내외·대안학교의 증빙 및 중복금지, 신청·동의·담당확인 단계가 현재 프로그램과 일치한다. 현재 WLF00004815는 이2026 원본과 구독립 신청서를 함께 배포하므로 명의일치 안내가 보완된2026 파일을 제안하고 구파일을 중복 승인하지 않는다.",
+      "authorityBasis": {
+        "kind": "official-program",
+        "title": "여주시 초등학생 입학축하금 지원사업",
+        "evidenceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00004815&wlfareInfoReldBztpCd=02",
+        "checkedAt": "2026-10-19",
+        "evidenceNote": "2026 안내문과 뒤 신청서 전체2693자를 읽었다. 지원10만원 지역화폐, 보호자 신청, 2026-12-31 마감, 관내외·대안학교의 증빙 및 중복금지, 신청·동의·담당확인 단계가 현재 프로그램과 일치한다. 현재 WLF00004815는 이2026 원본과 구독립 신청서를 함께 배포하므로 명의일치 안내가 보완된2026 파일을 제안하고 구파일을 중복 승인하지 않는다.",
+        "pageSHA256": "946be5e9c8c39edf275f12c94387d88a6827a41eba985277a79423342bec849e"
+      },
+      "sourcePageUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00004815&wlfareInfoReldBztpCd=02",
+      "sourceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twata/CmmFileUtil/getDownload.do?atcflId=20260313UUWBM1434150180378524&atcflSn=1&wlfareInfoId=WLF00004815",
+      "finalUrl": "https://www.bokjiro.go.kr/ssis-tbu/twata/CmmFileUtil/getDownload.do?atcflId=20260313UUWBM1434150180378524&atcflSn=1&wlfareInfoId=WLF00004815",
+      "attachmentId": "20260313UUWBM1434150180378524",
+      "attachmentIdentifier": {
+        "queryParam": "atcflId",
+        "value": "20260313UUWBM1434150180378524"
+      },
+      "sourcePageSha256": "946be5e9c8c39edf275f12c94387d88a6827a41eba985277a79423342bec849e",
+      "sourcePageHttpStatus": 200,
+      "sourcePageProgramSpecific": true,
+      "sourcePageProgramId": "WLF00004815",
+      "programEvidenceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00004815&wlfareInfoReldBztpCd=02",
+      "evidenceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00004815&wlfareInfoReldBztpCd=02",
+      "evidenceNote": "2026 안내문과 뒤 신청서 전체2693자를 읽었다. 지원10만원 지역화폐, 보호자 신청, 2026-12-31 마감, 관내외·대안학교의 증빙 및 중복금지, 신청·동의·담당확인 단계가 현재 프로그램과 일치한다. 현재 WLF00004815는 이2026 원본과 구독립 신청서를 함께 배포하므로 명의일치 안내가 보완된2026 파일을 제안하고 구파일을 중복 승인하지 않는다.",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "fullBodyReviewed": true,
+      "independentBodyReview": true,
+      "sha256": "ead5f6a1d7c67b898c84f9d9b1d86fae3fbed390729eeb49e205362a910d458b",
+      "bytes": 427520,
+      "originalFormat": "hwp",
+      "originalPath": "pipeline/forms/originals/agency-41670-bokjiro-WLF00004815-20260313UUWBM1434150180378524.hwp",
+      "textScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "BodyText/Section0"
+      ],
+      "reviewedParts": [
+        {
+          "number": "인쇄 번호 없음",
+          "title": "여주시 초등학생 입학 축하금 지원 신청서",
+          "use": "main",
+          "author": "입학 아동의 보호자"
+        }
+      ],
+      "selectedParts": [
+        {
+          "number": "인쇄 번호 없음",
+          "title": "여주시 초등학생 입학 축하금 지원 신청서",
+          "use": "main",
+          "author": "입학 아동의 보호자"
+        }
+      ],
+      "applicant": "입학 아동의 보호자",
+      "roleBasis": "2026 안내문과 뒤 신청서 전체2693자를 읽었다. 지원10만원 지역화폐, 보호자 신청, 2026-12-31 마감, 관내외·대안학교의 증빙 및 중복금지, 신청·동의·담당확인 단계가 현재 프로그램과 일치한다. 현재 WLF00004815는 이2026 원본과 구독립 신청서를 함께 배포하므로 명의일치 안내가 보완된2026 파일을 제안하고 구파일을 중복 승인하지 않는다.",
+      "roleEvidenceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twata/CmmFileUtil/getDownload.do?atcflId=20260313UUWBM1434150180378524&atcflSn=1&wlfareInfoId=WLF00004815",
+      "roleCheckedAt": "2026-10-19",
+      "checkedAt": "2026-10-19",
+      "dateKind": "checked",
+      "effectiveDate": "2026-10-19",
+      "annexId": "",
+      "annexNumber": "",
+      "lawId": "",
+      "lawTitle": "",
+      "lawEvidenceUrl": "",
+      "lawEffectiveDate": "",
+      "lawCurrentCheckedAt": "",
+      "legalReferencesAsCited": [
+        "여주시 초등학생 입학 축하금 지원 조례"
+      ],
+      "currentUseConfirmed": true,
+      "noFilledPersonalDataObserved": true,
+      "proposalStatus": "ready_for_coordinator_exact_agency_gate",
+      "publicationApproved": false,
+      "sourceProof": {
+        "originalExtractionRecord": "logs/forms-completion/search-gap-20261019/extracted/page-f251d0e0070e577bfa0f.json",
+        "actualOriginalBytesRechecked": true,
+        "sourcePageRecord": "logs/forms-completion/gyeonggi-20261019/team2/sources/program-WLF00004815.json",
+        "sourcePageRecordSha256": "6451bee12bf8aea1cdcd477c2d000d26095c2494fc636ada02de22160023d8c7",
+        "directAttachmentOnExactProgramPage": true,
+        "freshDownloadRecord": "logs/forms-completion/gyeonggi-20261019/team2/documents/verify-page-f251d0e0070e577bfa0f.json",
+        "freshHTTPStatus": 200
+      },
+      "applicationPeriod": {
+        "from": "2026년 입학일 이후",
+        "to": "2026-12-31",
+        "status": "current_period_on_check_date"
+      },
+      "coordinatorReason": "2026 안내문과 뒤 신청서 전체2693자를 읽었다. 지원10만원 지역화폐, 보호자 신청, 2026-12-31 마감, 관내외·대안학교의 증빙 및 중복금지, 신청·동의·담당확인 단계가 현재 프로그램과 일치한다. 현재 WLF00004815는 이2026 원본과 구독립 신청서를 함께 배포하므로 명의일치 안내가 보완된2026 파일을 제안하고 구파일을 중복 승인하지 않는다."
+    },
+    {
+      "formId": "agency-41220-bokjiro-WLF00001309-7951GOWF14GOWF147951",
+      "candidateId": "page-c5e95ec826765fe9da08",
+      "programIds": [
+        "g41220.bokjiro-WLF00000783"
+      ],
+      "programNames": [
+        "행려자 귀향여비 및 급식비(송탄출장소)"
+      ],
+      "sourceKind": "agency",
+      "formTitle": "행려자 귀향 여비(숙박비) 지급 확인서 및 개인정보 동의서",
+      "sourceMetadataTitle": "행려자 귀향 여비 지급 확인서 및 개인정보 동의서 양식.hwp",
+      "verifiedDocumentTitle": "행려자 귀향 여비(숙박비) 지급 확인서 및 개인정보 동의서",
+      "role": "application",
+      "use": "conditional",
+      "condition": "통합 수록 사업 중 복지로 WLF00001309가 안내하는 평택시 서부권역 안중출장소의 귀향여비·숙박비 신청에만 사용합니다. 송탄출장소 공통서식이라고 표시하거나 장제비·의료비 기관 청구에 사용하지 않습니다.",
+      "regionCode": "41220",
+      "regionLabel": "경기 평택시",
+      "agencyName": "경기도 평택시 송탄출장소 사회복지과",
+      "authorityKind": "government",
+      "authorityEvidenceKind": "government",
+      "authorityEvidenceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00001309&wlfareInfoReldBztpCd=02",
+      "authorityEvidenceNote": "전체 원문은 신청인이 금액·사유를 기입해 서명하는 지급확인서와 개인정보 동의서다. 현재 파일 배포 페이지 WLF00001309는 안중출장소 서부권역 방문신청을 명시한다. 그 출처가 현재 g41220.bokjiro-WLF00000783의 sources에 병합되어 있지만 기본 제목은 송탄출장소이므로 안중 경로에만 명시적으로 조건을 붙인다. 기관 또는 지급대장이 아니라 신청인 문서임을 확인했다.",
+      "authorityBasis": {
+        "kind": "official-program",
+        "title": "행려자 귀향여비 및 급식비(안중출장소)",
+        "evidenceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00001309&wlfareInfoReldBztpCd=02",
+        "checkedAt": "2026-10-19",
+        "evidenceNote": "전체 원문은 신청인이 금액·사유를 기입해 서명하는 지급확인서와 개인정보 동의서다. 현재 파일 배포 페이지 WLF00001309는 안중출장소 서부권역 방문신청을 명시한다. 그 출처가 현재 g41220.bokjiro-WLF00000783의 sources에 병합되어 있지만 기본 제목은 송탄출장소이므로 안중 경로에만 명시적으로 조건을 붙인다. 기관 또는 지급대장이 아니라 신청인 문서임을 확인했다.",
+        "pageSHA256": "53c3682c6019a931b794c00aba4820e15c14003b7feae7d6d0dc476010929340"
+      },
+      "sourcePageUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00001309&wlfareInfoReldBztpCd=02",
+      "sourceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twata/CmmFileUtil/getDownload.do?atcflId=7951GOWF14GOWF147951&atcflSn=1&wlfareInfoId=WLF00001309",
+      "finalUrl": "https://www.bokjiro.go.kr/ssis-tbu/twata/CmmFileUtil/getDownload.do?atcflId=7951GOWF14GOWF147951&atcflSn=1&wlfareInfoId=WLF00001309",
+      "attachmentId": "7951GOWF14GOWF147951",
+      "attachmentIdentifier": {
+        "queryParam": "atcflId",
+        "value": "7951GOWF14GOWF147951"
+      },
+      "sourcePageSha256": "53c3682c6019a931b794c00aba4820e15c14003b7feae7d6d0dc476010929340",
+      "sourcePageHttpStatus": 200,
+      "sourcePageProgramSpecific": true,
+      "sourcePageProgramId": "WLF00001309",
+      "programEvidenceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00001309&wlfareInfoReldBztpCd=02",
+      "evidenceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00001309&wlfareInfoReldBztpCd=02",
+      "evidenceNote": "전체 원문은 신청인이 금액·사유를 기입해 서명하는 지급확인서와 개인정보 동의서다. 현재 파일 배포 페이지 WLF00001309는 안중출장소 서부권역 방문신청을 명시한다. 그 출처가 현재 g41220.bokjiro-WLF00000783의 sources에 병합되어 있지만 기본 제목은 송탄출장소이므로 안중 경로에만 명시적으로 조건을 붙인다. 기관 또는 지급대장이 아니라 신청인 문서임을 확인했다.",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "fullBodyReviewed": true,
+      "independentBodyReview": true,
+      "sha256": "79ec61749d3cc6f479ec56f6fb17f29a221d497795aa02e4e8b7a46dc1f2ca59",
+      "bytes": 14848,
+      "originalFormat": "hwp",
+      "originalPath": "pipeline/forms/originals/agency-41220-bokjiro-WLF00001309-7951GOWF14GOWF147951.hwp",
+      "textScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "BodyText/Section0"
+      ],
+      "reviewedParts": [
+        {
+          "number": "인쇄 번호 없음",
+          "title": "행려자 귀향 여비(숙박비) 지급 확인서",
+          "use": "conditional",
+          "author": "귀향여비·숙박비를 신청하는 행려자"
+        },
+        {
+          "number": "인쇄 번호 없음",
+          "title": "개인정보 수집·이용 및 제3자 제공 동의서",
+          "use": "additional",
+          "author": "행려자 신청인"
+        }
+      ],
+      "selectedParts": [
+        {
+          "number": "인쇄 번호 없음",
+          "title": "행려자 귀향 여비(숙박비) 지급 확인서",
+          "use": "conditional",
+          "author": "귀향여비·숙박비를 신청하는 행려자"
+        },
+        {
+          "number": "인쇄 번호 없음",
+          "title": "개인정보 수집·이용 및 제3자 제공 동의서",
+          "use": "additional",
+          "author": "행려자 신청인"
+        }
+      ],
+      "applicant": "귀향여비·숙박비를 신청하는 행려자",
+      "roleBasis": "전체 원문은 신청인이 금액·사유를 기입해 서명하는 지급확인서와 개인정보 동의서다. 현재 파일 배포 페이지 WLF00001309는 안중출장소 서부권역 방문신청을 명시한다. 그 출처가 현재 g41220.bokjiro-WLF00000783의 sources에 병합되어 있지만 기본 제목은 송탄출장소이므로 안중 경로에만 명시적으로 조건을 붙인다. 기관 또는 지급대장이 아니라 신청인 문서임을 확인했다.",
+      "roleEvidenceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twata/CmmFileUtil/getDownload.do?atcflId=7951GOWF14GOWF147951&atcflSn=1&wlfareInfoId=WLF00001309",
+      "roleCheckedAt": "2026-10-19",
+      "checkedAt": "2026-10-19",
+      "dateKind": "checked",
+      "effectiveDate": "2026-10-19",
+      "annexId": "",
+      "annexNumber": "",
+      "lawId": "",
+      "lawTitle": "",
+      "lawEvidenceUrl": "",
+      "lawEffectiveDate": "",
+      "lawCurrentCheckedAt": "",
+      "legalReferencesAsCited": [
+        "노숙인 등의 복지 및 자립지원에 관한 법률"
+      ],
+      "currentUseConfirmed": true,
+      "noFilledPersonalDataObserved": true,
+      "proposalStatus": "ready_for_coordinator_exact_agency_gate",
+      "publicationApproved": false,
+      "sourceProof": {
+        "originalExtractionRecord": "logs/forms-completion/search-gap-20261019/extracted/page-c5e95ec826765fe9da08.json",
+        "actualOriginalBytesRechecked": true,
+        "sourcePageRecord": "logs/forms-completion/gyeonggi-20261019/team2/sources/program-WLF00001309.json",
+        "sourcePageRecordSha256": "ce572c1bee873734e4d6f1b82ce37eec28941ab50f250c80ff09d5f1fc9637bd",
+        "directAttachmentOnExactProgramPage": true,
+        "freshDownloadRecord": "logs/forms-completion/gyeonggi-20261019/team2/documents/verify-page-c5e95ec826765fe9da08.json",
+        "freshHTTPStatus": 200
+      },
+      "coordinatorReason": "전체 원문은 신청인이 금액·사유를 기입해 서명하는 지급확인서와 개인정보 동의서다. 현재 파일 배포 페이지 WLF00001309는 안중출장소 서부권역 방문신청을 명시한다. 그 출처가 현재 g41220.bokjiro-WLF00000783의 sources에 병합되어 있지만 기본 제목은 송탄출장소이므로 안중 경로에만 명시적으로 조건을 붙인다. 기관 또는 지급대장이 아니라 신청인 문서임을 확인했다."
+    }
+  ],
+  "sourceReview": {
+    "coordinatorPlanSHA256": "18acd0a3550547440e23b4d61dbbc6b859729ea86986fa4b609195239a62729d",
+    "frozenScopeFile": "pipeline/forms/reviews/agency-originals-scope-round8005.json",
+    "frozenScopeSHA256": "1f35fceb94448e83c477882053619c4e5e78a83cbd0d1c65f59bb5d9e45b03f7"
+  }
+}

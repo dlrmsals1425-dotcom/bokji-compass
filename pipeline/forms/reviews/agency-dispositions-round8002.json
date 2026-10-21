@@ -1,0 +1,45 @@
+{
+  "schema": 1,
+  "checkedAt": "2026-10-19",
+  "status": "complete",
+  "items": [
+    {
+      "formId": "agency-31710-61699-1",
+      "sha256": "e368026fe4d12296b3875cc72cad03e92495347a0198af61be432fd09cbfa116",
+      "disposition": "approved",
+      "fullBodyReviewed": true,
+      "reason": "코디네이터가 군 공식2026-64호 공고와 새 HWP 전체4431자·신청서 앞뒤와 위임장, 현행1966081 제1~12조/부칙 및 정확2026 청소년성장지원금 사업을 대조했다. 새 신청서는 옛 분기25만원 표를 제거하고 실제 교통비20만원+분기포인트20만원 공고·현재접수2.9~11.30과 일치한다. 붙임1 신청·동의와 허용대리인의 붙임2만 용도별 안내한다. 현행조례·공고12/20 대 신청서뒤12/19 포인트 만료 차이는 보존하고 조건에 표시하며 임의 정정하지 않는다. 옛 ordin 원본ID/SHA를 덮어쓰지 않는다.",
+      "evidenceUrl": "https://www.ulju.ulsan.kr/eunyang/bbs/view.do?mId=0401000000&ptIdx=229&bIdx=61699",
+      "checkedAt": "2026-10-19",
+      "relatedProgramIds": [
+        "g31710.gov24-373000000113"
+      ],
+      "reviewedProgramPairs": [
+        {
+          "programId": "g31710.gov24-373000000113",
+          "disposition": "approved"
+        }
+      ],
+      "sourceProposal": "logs/forms-completion/official-followup/root/ulju-normalized-reviewed.json",
+      "sourceProposalSHA256": "7567c0bccf133019e8d236ee8296f05aaf2d8bbbea665602275ddbf18d1d4b1f",
+      "sourceLawBodySHA256": "3db164b4aaa836174847f852c06945557866f101259bf62f0677a6a381b0465b",
+      "selectedParts": [
+        {
+          "number": "붙임1 앞·뒤",
+          "title": "울주군 청소년 성장지원금 지급 신청서",
+          "use": "main",
+          "author": "지원대상 청소년 본인 또는 공고가 허용하는 대리신청인"
+        },
+        {
+          "number": "붙임2",
+          "title": "위임장",
+          "use": "conditional",
+          "author": "지원대상 청소년과 위임받은 대리신청인",
+          "condition": "공고에서 허용한 직계혈족·배우자·후견인·사회복지시설관계인 등이 대리 신청하는 경우"
+        }
+      ]
+    }
+  ],
+  "scopeFile": "pipeline/forms/reviews/agency-originals-scope-round8002.json",
+  "scopeSHA256": "402dd0ff42d3b16ddf743a3a653f4c7abd854154565971e3dcbaa427a93acb8b"
+}

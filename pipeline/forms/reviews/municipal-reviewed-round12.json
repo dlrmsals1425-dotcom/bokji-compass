@@ -1,0 +1,2432 @@
+{
+  "schema": 1,
+  "checkedAt": "2026-10-18",
+  "scopeFile": "logs/forms-completion/starter-review-2.json",
+  "verificationMethod": "Independent full-body reading, actual-byte reinspection and exact official law/annex/flSeq binding; original title or candidate rank alone is not proof.",
+  "rows": [
+    {
+      "sourceKind": "ordin",
+      "lawTitle": "양주시 장애인 이동용 보조기기 수리 지원 조례",
+      "lawId": "1537003",
+      "annexId": "20665049",
+      "annexNumber": "000500",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=154789471&flNm=%EB%B3%84%EC%A7%80+%EC%A0%9C5%ED%98%B8%EC%84%9C%EC%8B%9D.+%EC%96%91%EC%A3%BC%EC%8B%9C+%EC%9E%A5%EC%95%A0%EC%9D%B8+%EC%9D%B4%EB%8F%99%EC%9A%A9+%EB%B3%B4%EC%A1%B0%EA%B8%B0%EA%B8%B0+%EC%88%98%EB%A6%AC%EB%B9%84%EC%9A%A9+%EC%B2%AD%EA%B5%AC%EC%84%9C",
+      "officialPdfUrl": null,
+      "dateKind": "effective",
+      "effectiveDate": "2020-10-12",
+      "regionCode": "41630",
+      "regionLabel": "경기도 양주시",
+      "programIds": [
+        "g41630.gov24-559000000118"
+      ],
+      "programNames": [
+        "장애인 이동용 보조기기 수리 비용 지원"
+      ],
+      "formId": "ordin-20665049",
+      "use": "main",
+      "formTitle": "별지 제5호서식. 양주시 장애인 이동용 보조기기 수리비용 청구서",
+      "sourceMetadataTitle": "별지 제5호서식. 양주시 장애인 이동용 보조기기 수리비용 청구서",
+      "verifiedDocumentTitle": "장애인 이동용 보조기기 수리비용 청구서",
+      "evidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1537003",
+      "evidenceNote": "제8조제3항은 지원대상 장애인이 별지 제5호와 수리내역·사진·영수증을 동장에게 제출하도록 정한다. 실제 원본도 장애인·수급유형·기기종류·본인계좌와 신청인 서명을 받으며 지정업체 대표가 청구하는 서식이 아니다. 제7조의 수리후90일·지원한도와 사업 목적이 일치한다. 동일 공식 법규 ID·별표키·flSeq와 실제 원본 SHA256·전체 본문 섹션을 대조했다.",
+      "checkedAt": "2026-10-18",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "sha256": "4b2b4efad346cd15b8bd85673c7ef44c7c0fcfdf2c18b05c343561f2012ec386",
+      "bytes": 98816,
+      "signature": "d0cf11e0a1b11ae1",
+      "originalFormat": "hwp",
+      "originalTextScope": "all_body_sections_or_pages",
+      "textScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "BodyText/Section0"
+      ],
+      "reviewedParts": [
+        {
+          "number": "5",
+          "title": "장애인 이동용 보조기기 수리비용 청구서",
+          "use": "main",
+          "author": "수리받은 장애인"
+        }
+      ],
+      "role": "application",
+      "roleBasis": "제8조제3항은 지원대상 장애인이 별지 제5호와 수리내역·사진·영수증을 동장에게 제출하도록 정한다. 실제 원본도 장애인·수급유형·기기종류·본인계좌와 신청인 서명을 받으며 지정업체 대표가 청구하는 서식이 아니다. 제7조의 수리후90일·지원한도와 사업 목적이 일치한다.",
+      "roleEvidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1537003",
+      "roleCheckedAt": "2026-10-18",
+      "bodyEvidenceText": "제7조(지원대상 및 기준)① 지원대상은 수리 신청일을 기준으로 시에 주민등록을 두고 실제 거주하는 장애인으로서 지원기준은 다음 각 호와 같다.1.「국민기초생활보장법」에 따른 수급자 또는 차상위 계층: 수리 비용 연간  20만원 이내2. 제1호에 해당하지 않는 장애인: 수리비용 연간 10만원 이내② 제6조에 따른 이동용 보조기기의 수리비 지원은 제3조에 따라 지정된 수리센터를 이용하는 경우에만 해당된다.③ 수리는 출고 시에 장착된 부품의 수리를 원칙으로 하며 개인이 장착한 부품ㆍ장비ㆍ액세서리 등은 지원에서 제외한다. 단, 배터리 교체비용은 구입 후 1년 6개월이 경과한 경우 지원할 수 있다.④ 수리비용 중 법령이나 다른 조례에 따라 지원받는 금액은 중복하여 지원하지 아니한다.⑤ 수리비용은 수리일부터 90일 이내에 신청하여야 하며, 제1항 각 호의 연간 지원금액은 청구일을 기준으로 한다.\n제8조(지원절차)① 이동용 보조기기를 수리받고자 하는 사람은 지정된 수리센터에서 수리를 받아야 한다.② 수리센터는 수리를 완료한 후 별지 제4호서식의 수리내역서를 구비서류와 함께 지원대상자에게 발급해주어야 한다.③ 수리비용은 지원대상자가 별지 제5호서식에 따른 수리비용 청구서 및 구비서류를 갖추어 주소지 읍ㆍ면ㆍ동장에게 신청하여야 한다.④ 읍ㆍ면ㆍ동장은 제3항에 따른 신청이 있는 경우 제7조의 사항을 검토하여 수리비용 지원대상자를 결정하고 별지 제5호서식의 수리비용 청구서와 구비서류를 시장에게 제출하여야 한다.⑤ 시장은 읍ㆍ면ㆍ동장으로부터 제출받은 서류의 적정여부를 확인한 후 청구금액을 지원대상자에게 지급하여야 한다.",
+      "independentBodyReview": true,
+      "condition": "지정 수리센터에서 수리받은 뒤 수리일부터 90일 이내 비용을 청구하는 서식."
+    },
+    {
+      "sourceKind": "ordin",
+      "lawTitle": "서울특별시 서대문구 장애인 이동기기 수리 지원에 관한 조례",
+      "lawId": "1541871",
+      "annexId": "19127531",
+      "annexNumber": "000100",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=148066029&flNm=%EB%B3%84%EC%A7%80%EC%84%9C%EC%8B%9D",
+      "officialPdfUrl": null,
+      "dateKind": "effective",
+      "effectiveDate": "2020-11-04",
+      "regionCode": "11410",
+      "regionLabel": "서울특별시 서대문구",
+      "programIds": [
+        "g11410.gov24-312000000124",
+        "g11410.bokjiro-WLF00002208"
+      ],
+      "programNames": [
+        "장애인 이동기기 수리비 지원사업",
+        "장애인 이동기기 수리센터 운영"
+      ],
+      "formId": "ordin-19127531",
+      "use": "main",
+      "formTitle": "별지서식",
+      "sourceMetadataTitle": "별지서식",
+      "verifiedDocumentTitle": "장애인 이동기기 수리 신청서(묶음 중 별지 제1호)",
+      "evidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1541871",
+      "evidenceNote": "원본 전체는 제1호 주민 수리신청서와 제2호 업체 청구서를 함께 담는다. 제6조제1항이 장애인의 제1호 신청을, 제2항이 업체의 제2호 청구를 명확히 나눈다. 제1호의 기기·수급유형·신청인 서명을 확인했다. 같은 지역 추가검색으로 찾은 복지로 수리센터 운영 사업도 실제 대상과 혜택이 동일한 개인 수리비 지원임을 상세본문에서 확인했다. 동일 공식 법규 ID·별표키·flSeq와 실제 원본 SHA256·전체 본문 섹션을 대조했다.",
+      "checkedAt": "2026-10-18",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "sha256": "870ab584741a51857e1b4ce4db2a1ee785436fd47476d0a6f2807ab9d2dc41d4",
+      "bytes": 19968,
+      "signature": "d0cf11e0a1b11ae1",
+      "originalFormat": "hwp",
+      "originalTextScope": "all_body_sections_or_pages",
+      "textScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "BodyText/Section0"
+      ],
+      "reviewedParts": [
+        {
+          "number": "1",
+          "title": "장애인 이동기기 수리 신청서",
+          "use": "main",
+          "author": "장애인 이용자"
+        }
+      ],
+      "role": "application",
+      "roleBasis": "원본 전체는 제1호 주민 수리신청서와 제2호 업체 청구서를 함께 담는다. 제6조제1항이 장애인의 제1호 신청을, 제2항이 업체의 제2호 청구를 명확히 나눈다. 제1호의 기기·수급유형·신청인 서명을 확인했다. 같은 지역 추가검색으로 찾은 복지로 수리센터 운영 사업도 실제 대상과 혜택이 동일한 개인 수리비 지원임을 상세본문에서 확인했다.",
+      "roleEvidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1541871",
+      "roleCheckedAt": "2026-10-18",
+      "bodyEvidenceText": "제5조(지원기준)① 장애인 이동기기의 수리비는 제3조에 따라 구청장이 지정·운영하는 수리센터 등을 이용한 경우에만 지원한다.② 지원대상은 서대문구에 주민등록을 두고 실제 거주하는 장애인으로서 구체적인 지원기준은 예산의 범위에서 구청장이 정한다.\n제6조(지원절차)① 장애인 이동기기 수리를 받고자 하는 자는 별지 제1호서식의 신청서에 다음 각 호의 어느 하나에 해당하는 증명서류를 첨부하여 지정수리업체에 신청하여야 한다.1. 수급자 또는 차상위계층 장애인: 수급자·차상위 증명서류2. 그 밖의 장애인: 장애인 복지카드 등 증명서류② 지정수리업체는 제1항에 따른 신청서의 확인 결과 지원대상으로 인정되면 수리를 완료한 후 매달 1일부터 말일까지의 수리 내역을 별지 제2호서식의 청구서에 관련 증명서류를 첨부하여 다음 달 10일까지 구청장에게 제출하여야 한다.③ 구청장은 지정수리업체로부터 제출받은 수리내역과 청구서를 확인한 후 제출받은 달 20일 이내 수리업체의 지정계좌에 청구된 금액을 입금하여야 한다.④ 제3조에 따라 수리센터 사무를 위탁할 경우에는 지원절차를 구청장이 따로 정할 수 있다.",
+      "independentBodyReview": true,
+      "condition": "파일의 별지 제1호 수리 신청서만 작성. 뒤쪽 별지 제2호 청구서는 수리업체용.",
+      "excludedParts": [
+        {
+          "number": "2",
+          "title": "장애인 이동기기 수리비용 청구서",
+          "reason": "지정 수리업체의 비용 청구용"
+        }
+      ],
+      "displayTitle": "장애인 이동기기 수리 신청서(묶음 중 별지 제1호)"
+    },
+    {
+      "sourceKind": "ordin",
+      "lawTitle": "대전광역시 중구 장애인가정의 출산지원금 지급 조례",
+      "lawId": "1558343",
+      "annexId": "21651351",
+      "annexNumber": "000100",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=162338579&flNm=%EB%B3%84%EC%A7%80%EC%84%9C%EC%8B%9D",
+      "officialPdfUrl": null,
+      "dateKind": "effective",
+      "effectiveDate": "2020-12-28",
+      "regionCode": "30140",
+      "regionLabel": "대전광역시 중구",
+      "programIds": [
+        "g30140.bokjiro-WLF00001432"
+      ],
+      "programNames": [
+        "장애인가정 출산지원"
+      ],
+      "formId": "ordin-21651351",
+      "use": "main",
+      "formTitle": "별지서식",
+      "sourceMetadataTitle": "별지서식",
+      "verifiedDocumentTitle": "장애인가정의 출산지원금 지급 신청서",
+      "evidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1558343",
+      "evidenceNote": "대전 중구 원본 별지의 출산자·출산일·지급계좌·장애정도 확인과 부모/후견인 신청을 읽었다. 제5조제1~3항은 부모 또는 후견인이 출생일부터1년 내 이 별지로 신청하도록 한다. 제3·4조의 장애인가정 출산지원 목적이 실제 사업과 일치한다. 동일 공식 법규 ID·별표키·flSeq와 실제 원본 SHA256·전체 본문 섹션을 대조했다.",
+      "checkedAt": "2026-10-18",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "sha256": "49cc62148127875749bed246923201f1e2753fcb0e642071d6ef74615544b6b9",
+      "bytes": 14848,
+      "signature": "d0cf11e0a1b11ae1",
+      "originalFormat": "hwp",
+      "originalTextScope": "all_body_sections_or_pages",
+      "textScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "BodyText/Section0"
+      ],
+      "reviewedParts": [
+        {
+          "number": "별지",
+          "title": "장애인가정의 출산지원금 지급 신청서",
+          "use": "main",
+          "author": "부모 또는 후견인"
+        }
+      ],
+      "role": "application",
+      "roleBasis": "대전 중구 원본 별지의 출산자·출산일·지급계좌·장애정도 확인과 부모/후견인 신청을 읽었다. 제5조제1~3항은 부모 또는 후견인이 출생일부터1년 내 이 별지로 신청하도록 한다. 제3·4조의 장애인가정 출산지원 목적이 실제 사업과 일치한다.",
+      "roleEvidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1558343",
+      "roleCheckedAt": "2026-10-18",
+      "bodyEvidenceText": "제3조(지원대상)① 지원금 지원대상은 신생아 출산일을 기준으로 계속해서 대전광역시 중구에 주민등록을 두고 거주하고 있는 장애인 가정으로 한다.<개정 2020.12.28.>② 지원금은 신생아 부 또는 모에게 지급한다. 다만, 신생아 출생 후 부득이한 사유(사망 등)로 신생아의 부모에게 지급하는 것이 곤란할 경우에는 후견인에게 지급할 수 있다.\n제4조(지원금)① 대전광역시 중구청장(이하“구청장”이라 한다)은 지원금으로 신생아의 부 또는 모의 장애정도에 따라 장애의 정도가 심한 장애는 1,000,000원, 장애의 정도가 심하지 않은 장애는 500,000원을 예산의 범위에서 지원할 수 있다. 다만, 쌍생아 이상인 경우에는 신생아 1명마다 지원액의 100분의 50을 가산하여 지급할 수 있다.<개정 2019.7.16.>② 제1항의 규정에도 불구하고 국·시비사업으로 장애인대상 출산지원금을 지원받은 가정에 대해서는 중복하여 지급하지 아니한다. 다만, 국·시비사업으로 지급받은 금액이 제1항에 따른 금액에 이르지 않은 경우에는 그 차액을 지급할 수 있다.<개정 2015.6.26>\n제5조(지원신청 등)① 지원금 지원 신청인은 신생아의 부 또는 모가 신청하되, 제3조제2항의 단서의 경우에는 후견인이 신청할 수 있다.② 각 동행정복지센터 동장(이하 “동장”이라 한다)은 출생신고서를 접수할 때 지원금 지원대상 여부를 확인하고 대상자에게 알려주어 별지서식에 의하여 신청하도록 하여야 한다.<개정 2018.12.24>③ 지원금 지원 대상자는 신생아 출생일로부터 1년 이내에 출산지원금을 신청하여야 한다.",
+      "independentBodyReview": true,
+      "displayTitle": "장애인가정의 출산지원금 지급 신청서"
+    },
+    {
+      "sourceKind": "ordin",
+      "lawTitle": "서울특별시 양천구 저소득 중증장애인가구 유료방송 이용요금 지원 조례",
+      "lawId": "1560379",
+      "annexId": "21335075",
+      "annexNumber": "000100",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=160461005&flNm=%EB%B3%84%EC%A7%80+%EC%84%9C%EC%8B%9D",
+      "officialPdfUrl": null,
+      "dateKind": "effective",
+      "effectiveDate": "2020-12-30",
+      "regionCode": "11470",
+      "regionLabel": "서울특별시 양천구",
+      "programIds": [
+        "g11470.bokjiro-WLF00002838",
+        "g11470.gov24-314000000113"
+      ],
+      "programNames": [
+        "저소득 중증장애인 유료방송 이용요금 지원",
+        "저소득 중증장애인가구 유료방송 이용요금 지원"
+      ],
+      "formId": "ordin-21335075",
+      "use": "main",
+      "formTitle": "별지 서식",
+      "sourceMetadataTitle": "별지 서식",
+      "verifiedDocumentTitle": "유료방송 이용요금 지원 신청서(묶음 중 별지 제1호)",
+      "evidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1560379",
+      "evidenceNote": "원본 전체에 제1호 주민 신청과 제2·3호 접수/지원대장이 들어 있다. 제6조는 저소득 중증장애인·법정대리인·보호자가 제1호를 제출하도록 지정한다. 본문의 수급/차상위 및 심한장애 대상과 방송료 지원이 두 사업과 일치하고 지급처가 방송사여도 신청인은 주민이다. 동일 공식 법규 ID·별표키·flSeq와 실제 원본 SHA256·전체 본문 섹션을 대조했다.",
+      "checkedAt": "2026-10-18",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "sha256": "d7a9698006da3b1e2c3fe022d6f6c847ad37645f94afef916ff5d7d4bf902440",
+      "bytes": 17920,
+      "signature": "d0cf11e0a1b11ae1",
+      "originalFormat": "hwp",
+      "originalTextScope": "all_body_sections_or_pages",
+      "textScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "BodyText/Section0"
+      ],
+      "reviewedParts": [
+        {
+          "number": "1",
+          "title": "유료방송 이용요금 지원 신청서",
+          "use": "main",
+          "author": "장애인 또는 법정대리인·보호자"
+        }
+      ],
+      "role": "application",
+      "roleBasis": "원본 전체에 제1호 주민 신청과 제2·3호 접수/지원대장이 들어 있다. 제6조는 저소득 중증장애인·법정대리인·보호자가 제1호를 제출하도록 지정한다. 본문의 수급/차상위 및 심한장애 대상과 방송료 지원이 두 사업과 일치하고 지급처가 방송사여도 신청인은 주민이다.",
+      "roleEvidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1560379",
+      "roleCheckedAt": "2026-10-18",
+      "bodyEvidenceText": "제3조(지원대상) 유료방송 이용요금(이하 “이용요금”이라 한다) 지원대상은 서울특별시 양천구(이하 “구”라 한다)에 실제 거주하고 주민등록이 되어 있는 저소득 중증장애인이 생활하고 있는 가구로 한다.\n제5조(지원내용)① 제3조의 지원대상에게 지원할 수 있는 이용요금은 다음 각 호의 어느 하나로 한다.1. 「방송법」 제2조제3호의 종합유선방송사업자 및 위성방송사업자가 제공하는 방송의 기본요금 및 STB(Set Top Box) 사용료2. 「인터넷 멀티미디어 방송사업법」제2조의 인터넷 멀티미디어 방송의 기본요금 및 STB(Set Top Box) 사용료② 구청장은 제1항의 이용요금 중 방송사와의 협약에 의한 경감액을 제외한 비용을 예산의 범위에서 지원할 수 있다.\n제6조(지원신청)① 이용요금 지원 신청은 저소득 중증장애인이나 그 법정대리인 또는 「장애인복지법 시행령」제20조에 따른 보호자(이하 “신청인”이라 한다)가 별지 제1호서식의 이용요금 지원 신청서(이하“신청서”라 한다)를 작성하여 거주지 관할 동장에게 제출하여야 한다.② 동장은 신청서가 접수되면 제3조에 따른 지원대상 인지를 해당 행정전산망자료 등 행정정보를 통하여 확인하여야 한다.③ 동장은 제2항에 따른 확인결과 지원대상으로 인정되면 신청서의 확인란에 기록 및 날인하여 신청서를 접수한 날부터 10일 이내에 구청장에게 송부하여야 한다.④ 구청장은 제2항에 따라 송부된 신청서를 검토하여 지원여부를 결정하고 지원대상으로 확정하였을 때에는 해당 내용을 제4조에 따라 협약을 체결한 방송사와 신청인에게 통보하여야 한다.",
+      "independentBodyReview": true,
+      "condition": "별지 제1호 신청서만 사용하며 뒤쪽 접수·지원대장은 작성하지 않음.",
+      "excludedParts": [
+        {
+          "number": "2",
+          "title": "유료방송 이용요금 신청 접수대장",
+          "reason": "행정용"
+        },
+        {
+          "number": "3",
+          "title": "유료방송 이용요금 지원대장",
+          "reason": "행정용"
+        }
+      ],
+      "displayTitle": "유료방송 이용요금 지원 신청서(묶음 중 별지 제1호)"
+    },
+    {
+      "sourceKind": "ordin",
+      "lawTitle": "태안군 국가보훈대상자 예우 및 지원에 관한 조례 시행규칙",
+      "lawId": "1600403",
+      "annexId": "11236961",
+      "annexNumber": "000100",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=102725725&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C1%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%5B+%5D+%EC%A3%BC%EA%B1%B0%EA%B8%89%EC%97%AC+%EC%A7%80%EA%B8%89%5B+%5D+%EC%83%9D%ED%99%9C%EB%B3%B4%EC%A1%B0+%EC%A7%80%EC%9B%90%EC%88%98%EB%8B%B9+%EC%A7%80%EA%B8%89%5B+%5D+%EA%B1%B4%EA%B0%95%EC%83%9D%ED%99%9C+%EC%A7%80%EC%9B%90%EC%88%98%EB%8B%B9+%EC%A7%80%EA%B8%89+%5B+%5D+%EC%8B%A0%EC%B2%AD%EC%84%9C%5B+%5D+%EB%B3%80%EA%B2%BD%EC%8B%A0%EA%B3%A0%EC%84%9C",
+      "officialPdfUrl": null,
+      "dateKind": "effective",
+      "effectiveDate": "2021-05-31",
+      "regionCode": "44825",
+      "regionLabel": "충청남도 태안군",
+      "programIds": [
+        "g44825.bokjiro-WLF00000147",
+        "g44825.gov24-462000000315"
+      ],
+      "programNames": [
+        "무주택 보훈대상자 주거급여 지원",
+        "저소득 보훈대상자 주거급여 지원"
+      ],
+      "formId": "ordin-11236961",
+      "use": "main",
+      "formTitle": "[별지 제1호서식] [ ] 주거급여 지급[ ] 생활보조 지원수당 지급[ ] 건강생활 지원수당 지급 [ ] 신청서[ ] 변경신고서",
+      "sourceMetadataTitle": "[별지 제1호서식] [ ] 주거급여 지급[ ] 생활보조 지원수당 지급[ ] 건강생활 지원수당 지급 [ ] 신청서[ ] 변경신고서",
+      "verifiedDocumentTitle": "주거급여·생활보조·건강생활 지원수당 신청서",
+      "evidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1600403",
+      "evidenceNote": "시행규칙 제2조는 주거급여8만원·생활보조10만원·건강생활30만원을 구별하고 제3조는 국가보훈대상자가 별지 제1호로 신청하도록 한다. 제4조제2항은 건강생활수당을 보훈의료카드로 지급한다고 명시해 해당 카드 사업도 정확히 일치한다. 원본의 세 급여 선택 및 신규/변경을 확인했으며 명예·참전·배우자·생일수당은 별개다. 동일 공식 법규 ID·별표키·flSeq와 실제 원본 SHA256·전체 본문 섹션을 대조했다.",
+      "checkedAt": "2026-10-18",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "sha256": "c13e551f874a47f49eabfddbaa80413db10069666619d703577fbf5a77ee7b5d",
+      "bytes": 49152,
+      "signature": "d0cf11e0a1b11ae1",
+      "originalFormat": "hwp",
+      "originalTextScope": "all_body_sections_or_pages",
+      "textScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "BodyText/Section0"
+      ],
+      "reviewedParts": [
+        {
+          "number": "1",
+          "title": "주거급여·생활보조·건강생활 지원수당 신청서",
+          "use": "main",
+          "author": "국가보훈 지원대상자"
+        }
+      ],
+      "role": "application",
+      "roleBasis": "시행규칙 제2조는 주거급여8만원·생활보조10만원·건강생활30만원을 구별하고 제3조는 국가보훈대상자가 별지 제1호로 신청하도록 한다. 제4조제2항은 건강생활수당을 보훈의료카드로 지급한다고 명시해 해당 카드 사업도 정확히 일치한다. 원본의 세 급여 선택 및 신규/변경을 확인했으며 명예·참전·배우자·생일수당은 별개다.",
+      "roleEvidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1600403",
+      "roleCheckedAt": "2026-10-18",
+      "bodyEvidenceText": "제2조(지원기준) 「태안군 국가보훈대상자 예우 및 지원에 관한 조례」 제6조제4호 및 제6호, 제8조제1항제6호에 따른 국가보훈대상자에 대한 지원 기준은 다음 각 호와 같다. <개정 2021.5.31.>1. 무주택 국가보훈대상자 주거급여: 월 8만 원(단, 「국민기초생활보장법」 제2조 규정에 따른 수급자 제외)2. 저소득 국가보훈대상자 생활보조 수당: 월 10만 원3. 저소득 국가보훈대상자 건강생활 수당: 연 30만 원4. 명절위문금: 1인당 5만 원(설, 추석)5. 장수축하금: 1회 100만 원(100세가 되는 달)\n제3조(지급 신청 및 결정) ① 제2조의 급여 및 수당을 지급 받고자 하는 국가보훈대상자는 별지 제1호서식에 따라 주민등록상 주소지 관할 읍·면장에게 신청하고, 읍·면장은 태안군 복지급여 대상자 여부를 확인한 후 군수에게 제출하여야 한다.② 군수는 제1항에 따른 지급신청서를 받으면 관련 서류를 검토한 후 지급 여부를 결정하여야 한다. 만약, 지급하지 않기로 결정한 때에는 그 이유를 보훈대상자에게 통지하여야 한다.\n제4조(지급방법) ① 주거급여 및 생활보조 수당은 신청한 날이 속하는 달부터 지급하고, 중지 사유가 발생한 경우에는 사유가 발생한 달까지만 지급한다. <개정 2021.5.31.>② 건강생활 수당은 태안군 보훈의료카드를 제작하여 지원하고 신규 신청자의 경우 신청한 날이 속하는 달부터 월할 지급한다. <개정 2021.5.31.>③ 명절 위문금은 설ㆍ추석이 속한 달의 전월부터 지급일까지 계속하여 군에 주민등록을 둔 국가보훈대상자에게 지급한다. <신설 2021.5.31.>④ 장수축하금은 주민등록상 100세를 맞이하는 날 현재  6개월 이상 계속하여 군에 주민등록을 둔 국가유공자에게 지급한다. <신설 2021.5.31.>⑤ 수당 등은 본인 실명의 예금계좌에 입금하는 것을 원칙으로 한다. 다만, 본인계좌 개설이 어려운 경우 「국민기초생활보장법」제27조의3에 따른다.<신설 2021.5.31.>",
+      "independentBodyReview": true,
+      "condition": "주거급여 지급 및 신청을 선택. 현행 시행규칙 제2조제1호에는 국민기초생활보장법 수급자 제외가 있으므로 해당 신청자의 지원대상 여부는 담당기관 확인."
+    },
+    {
+      "sourceKind": "ordin",
+      "lawTitle": "태안군 국가보훈대상자 예우 및 지원에 관한 조례 시행규칙",
+      "lawId": "1600403",
+      "annexId": "11236961",
+      "annexNumber": "000100",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=102725725&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C1%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%5B+%5D+%EC%A3%BC%EA%B1%B0%EA%B8%89%EC%97%AC+%EC%A7%80%EA%B8%89%5B+%5D+%EC%83%9D%ED%99%9C%EB%B3%B4%EC%A1%B0+%EC%A7%80%EC%9B%90%EC%88%98%EB%8B%B9+%EC%A7%80%EA%B8%89%5B+%5D+%EA%B1%B4%EA%B0%95%EC%83%9D%ED%99%9C+%EC%A7%80%EC%9B%90%EC%88%98%EB%8B%B9+%EC%A7%80%EA%B8%89+%5B+%5D+%EC%8B%A0%EC%B2%AD%EC%84%9C%5B+%5D+%EB%B3%80%EA%B2%BD%EC%8B%A0%EA%B3%A0%EC%84%9C",
+      "officialPdfUrl": null,
+      "dateKind": "effective",
+      "effectiveDate": "2021-05-31",
+      "regionCode": "44825",
+      "regionLabel": "충청남도 태안군",
+      "programIds": [
+        "g44825.gov24-462000000329"
+      ],
+      "programNames": [
+        "저소득 보훈대상자 생활보조수당"
+      ],
+      "formId": "ordin-11236961",
+      "use": "main",
+      "formTitle": "[별지 제1호서식] [ ] 주거급여 지급[ ] 생활보조 지원수당 지급[ ] 건강생활 지원수당 지급 [ ] 신청서[ ] 변경신고서",
+      "sourceMetadataTitle": "[별지 제1호서식] [ ] 주거급여 지급[ ] 생활보조 지원수당 지급[ ] 건강생활 지원수당 지급 [ ] 신청서[ ] 변경신고서",
+      "verifiedDocumentTitle": "주거급여·생활보조·건강생활 지원수당 신청서",
+      "evidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1600403",
+      "evidenceNote": "시행규칙 제2조는 주거급여8만원·생활보조10만원·건강생활30만원을 구별하고 제3조는 국가보훈대상자가 별지 제1호로 신청하도록 한다. 제4조제2항은 건강생활수당을 보훈의료카드로 지급한다고 명시해 해당 카드 사업도 정확히 일치한다. 원본의 세 급여 선택 및 신규/변경을 확인했으며 명예·참전·배우자·생일수당은 별개다. 동일 공식 법규 ID·별표키·flSeq와 실제 원본 SHA256·전체 본문 섹션을 대조했다.",
+      "checkedAt": "2026-10-18",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "sha256": "c13e551f874a47f49eabfddbaa80413db10069666619d703577fbf5a77ee7b5d",
+      "bytes": 49152,
+      "signature": "d0cf11e0a1b11ae1",
+      "originalFormat": "hwp",
+      "originalTextScope": "all_body_sections_or_pages",
+      "textScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "BodyText/Section0"
+      ],
+      "reviewedParts": [
+        {
+          "number": "1",
+          "title": "주거급여·생활보조·건강생활 지원수당 신청서",
+          "use": "main",
+          "author": "국가보훈 지원대상자"
+        }
+      ],
+      "role": "application",
+      "roleBasis": "시행규칙 제2조는 주거급여8만원·생활보조10만원·건강생활30만원을 구별하고 제3조는 국가보훈대상자가 별지 제1호로 신청하도록 한다. 제4조제2항은 건강생활수당을 보훈의료카드로 지급한다고 명시해 해당 카드 사업도 정확히 일치한다. 원본의 세 급여 선택 및 신규/변경을 확인했으며 명예·참전·배우자·생일수당은 별개다.",
+      "roleEvidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1600403",
+      "roleCheckedAt": "2026-10-18",
+      "bodyEvidenceText": "제2조(지원기준) 「태안군 국가보훈대상자 예우 및 지원에 관한 조례」 제6조제4호 및 제6호, 제8조제1항제6호에 따른 국가보훈대상자에 대한 지원 기준은 다음 각 호와 같다. <개정 2021.5.31.>1. 무주택 국가보훈대상자 주거급여: 월 8만 원(단, 「국민기초생활보장법」 제2조 규정에 따른 수급자 제외)2. 저소득 국가보훈대상자 생활보조 수당: 월 10만 원3. 저소득 국가보훈대상자 건강생활 수당: 연 30만 원4. 명절위문금: 1인당 5만 원(설, 추석)5. 장수축하금: 1회 100만 원(100세가 되는 달)\n제3조(지급 신청 및 결정) ① 제2조의 급여 및 수당을 지급 받고자 하는 국가보훈대상자는 별지 제1호서식에 따라 주민등록상 주소지 관할 읍·면장에게 신청하고, 읍·면장은 태안군 복지급여 대상자 여부를 확인한 후 군수에게 제출하여야 한다.② 군수는 제1항에 따른 지급신청서를 받으면 관련 서류를 검토한 후 지급 여부를 결정하여야 한다. 만약, 지급하지 않기로 결정한 때에는 그 이유를 보훈대상자에게 통지하여야 한다.\n제4조(지급방법) ① 주거급여 및 생활보조 수당은 신청한 날이 속하는 달부터 지급하고, 중지 사유가 발생한 경우에는 사유가 발생한 달까지만 지급한다. <개정 2021.5.31.>② 건강생활 수당은 태안군 보훈의료카드를 제작하여 지원하고 신규 신청자의 경우 신청한 날이 속하는 달부터 월할 지급한다. <개정 2021.5.31.>③ 명절 위문금은 설ㆍ추석이 속한 달의 전월부터 지급일까지 계속하여 군에 주민등록을 둔 국가보훈대상자에게 지급한다. <신설 2021.5.31.>④ 장수축하금은 주민등록상 100세를 맞이하는 날 현재  6개월 이상 계속하여 군에 주민등록을 둔 국가유공자에게 지급한다. <신설 2021.5.31.>⑤ 수당 등은 본인 실명의 예금계좌에 입금하는 것을 원칙으로 한다. 다만, 본인계좌 개설이 어려운 경우 「국민기초생활보장법」제27조의3에 따른다.<신설 2021.5.31.>",
+      "independentBodyReview": true,
+      "condition": "생활보조 지원수당 지급 및 신청을 선택."
+    },
+    {
+      "sourceKind": "ordin",
+      "lawTitle": "태안군 국가보훈대상자 예우 및 지원에 관한 조례 시행규칙",
+      "lawId": "1600403",
+      "annexId": "11236961",
+      "annexNumber": "000100",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=102725725&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C1%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%5B+%5D+%EC%A3%BC%EA%B1%B0%EA%B8%89%EC%97%AC+%EC%A7%80%EA%B8%89%5B+%5D+%EC%83%9D%ED%99%9C%EB%B3%B4%EC%A1%B0+%EC%A7%80%EC%9B%90%EC%88%98%EB%8B%B9+%EC%A7%80%EA%B8%89%5B+%5D+%EA%B1%B4%EA%B0%95%EC%83%9D%ED%99%9C+%EC%A7%80%EC%9B%90%EC%88%98%EB%8B%B9+%EC%A7%80%EA%B8%89+%5B+%5D+%EC%8B%A0%EC%B2%AD%EC%84%9C%5B+%5D+%EB%B3%80%EA%B2%BD%EC%8B%A0%EA%B3%A0%EC%84%9C",
+      "officialPdfUrl": null,
+      "dateKind": "effective",
+      "effectiveDate": "2021-05-31",
+      "regionCode": "44825",
+      "regionLabel": "충청남도 태안군",
+      "programIds": [
+        "g44825.bokjiro-WLF00002264",
+        "g44825.gov24-462000000332"
+      ],
+      "programNames": [
+        "저소득 보훈대상자 건강생활수당",
+        "태안군 보훈의료카드"
+      ],
+      "formId": "ordin-11236961",
+      "use": "main",
+      "formTitle": "[별지 제1호서식] [ ] 주거급여 지급[ ] 생활보조 지원수당 지급[ ] 건강생활 지원수당 지급 [ ] 신청서[ ] 변경신고서",
+      "sourceMetadataTitle": "[별지 제1호서식] [ ] 주거급여 지급[ ] 생활보조 지원수당 지급[ ] 건강생활 지원수당 지급 [ ] 신청서[ ] 변경신고서",
+      "verifiedDocumentTitle": "주거급여·생활보조·건강생활 지원수당 신청서",
+      "evidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1600403",
+      "evidenceNote": "시행규칙 제2조는 주거급여8만원·생활보조10만원·건강생활30만원을 구별하고 제3조는 국가보훈대상자가 별지 제1호로 신청하도록 한다. 제4조제2항은 건강생활수당을 보훈의료카드로 지급한다고 명시해 해당 카드 사업도 정확히 일치한다. 원본의 세 급여 선택 및 신규/변경을 확인했으며 명예·참전·배우자·생일수당은 별개다. 동일 공식 법규 ID·별표키·flSeq와 실제 원본 SHA256·전체 본문 섹션을 대조했다.",
+      "checkedAt": "2026-10-18",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "sha256": "c13e551f874a47f49eabfddbaa80413db10069666619d703577fbf5a77ee7b5d",
+      "bytes": 49152,
+      "signature": "d0cf11e0a1b11ae1",
+      "originalFormat": "hwp",
+      "originalTextScope": "all_body_sections_or_pages",
+      "textScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "BodyText/Section0"
+      ],
+      "reviewedParts": [
+        {
+          "number": "1",
+          "title": "주거급여·생활보조·건강생활 지원수당 신청서",
+          "use": "main",
+          "author": "국가보훈 지원대상자"
+        }
+      ],
+      "role": "application",
+      "roleBasis": "시행규칙 제2조는 주거급여8만원·생활보조10만원·건강생활30만원을 구별하고 제3조는 국가보훈대상자가 별지 제1호로 신청하도록 한다. 제4조제2항은 건강생활수당을 보훈의료카드로 지급한다고 명시해 해당 카드 사업도 정확히 일치한다. 원본의 세 급여 선택 및 신규/변경을 확인했으며 명예·참전·배우자·생일수당은 별개다.",
+      "roleEvidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1600403",
+      "roleCheckedAt": "2026-10-18",
+      "bodyEvidenceText": "제2조(지원기준) 「태안군 국가보훈대상자 예우 및 지원에 관한 조례」 제6조제4호 및 제6호, 제8조제1항제6호에 따른 국가보훈대상자에 대한 지원 기준은 다음 각 호와 같다. <개정 2021.5.31.>1. 무주택 국가보훈대상자 주거급여: 월 8만 원(단, 「국민기초생활보장법」 제2조 규정에 따른 수급자 제외)2. 저소득 국가보훈대상자 생활보조 수당: 월 10만 원3. 저소득 국가보훈대상자 건강생활 수당: 연 30만 원4. 명절위문금: 1인당 5만 원(설, 추석)5. 장수축하금: 1회 100만 원(100세가 되는 달)\n제3조(지급 신청 및 결정) ① 제2조의 급여 및 수당을 지급 받고자 하는 국가보훈대상자는 별지 제1호서식에 따라 주민등록상 주소지 관할 읍·면장에게 신청하고, 읍·면장은 태안군 복지급여 대상자 여부를 확인한 후 군수에게 제출하여야 한다.② 군수는 제1항에 따른 지급신청서를 받으면 관련 서류를 검토한 후 지급 여부를 결정하여야 한다. 만약, 지급하지 않기로 결정한 때에는 그 이유를 보훈대상자에게 통지하여야 한다.\n제4조(지급방법) ① 주거급여 및 생활보조 수당은 신청한 날이 속하는 달부터 지급하고, 중지 사유가 발생한 경우에는 사유가 발생한 달까지만 지급한다. <개정 2021.5.31.>② 건강생활 수당은 태안군 보훈의료카드를 제작하여 지원하고 신규 신청자의 경우 신청한 날이 속하는 달부터 월할 지급한다. <개정 2021.5.31.>③ 명절 위문금은 설ㆍ추석이 속한 달의 전월부터 지급일까지 계속하여 군에 주민등록을 둔 국가보훈대상자에게 지급한다. <신설 2021.5.31.>④ 장수축하금은 주민등록상 100세를 맞이하는 날 현재  6개월 이상 계속하여 군에 주민등록을 둔 국가유공자에게 지급한다. <신설 2021.5.31.>⑤ 수당 등은 본인 실명의 예금계좌에 입금하는 것을 원칙으로 한다. 다만, 본인계좌 개설이 어려운 경우 「국민기초생활보장법」제27조의3에 따른다.<신설 2021.5.31.>",
+      "independentBodyReview": true,
+      "condition": "건강생활 지원수당 지급 및 신청을 선택. 해당 수당은 시행규칙 제4조에 따라 보훈의료카드로 지원."
+    },
+    {
+      "sourceKind": "ordin",
+      "lawTitle": "부산광역시 남구 노인 성인용 보행기 지원 조례",
+      "lawId": "1620911",
+      "annexId": "18276029",
+      "annexNumber": "000100",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=142930431&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C1%ED%98%B8%EC%84%9C%EC%8B%9D%5D%EB%85%B8%EC%9D%B8+%EB%B3%B4%ED%96%89%EA%B8%B0+%EC%A7%80%EC%9B%90+%EC%8B%A0%EC%B2%AD%EC%84%9C",
+      "officialPdfUrl": null,
+      "dateKind": "effective",
+      "effectiveDate": "2021-08-09",
+      "regionCode": "26290",
+      "regionLabel": "부산광역시 남구",
+      "programIds": [
+        "g26290.gov24-331000000104"
+      ],
+      "programNames": [
+        "노인 성인용 보행기 지원"
+      ],
+      "formId": "ordin-18276029",
+      "use": "main",
+      "formTitle": "[별지 제1호서식]노인 보행기 지원 신청서",
+      "sourceMetadataTitle": "[별지 제1호서식]노인 보행기 지원 신청서",
+      "verifiedDocumentTitle": "노인 보행기 지원 신청서",
+      "evidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1620911",
+      "evidenceNote": "부산 남구 제5조는 성인용 보행기를 지원받는 노인이 별지 제1호를 제출하도록 한다. 원본의 보행기 품목·건강/경제/중복지원 확인·신청인과 대상자 관계가 제3조 및 사업의 저소득 거동불편 노인 지원과 일치한다. 동일 공식 법규 ID·별표키·flSeq와 실제 원본 SHA256·전체 본문 섹션을 대조했다.",
+      "checkedAt": "2026-10-18",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "sha256": "02b995f795c1ff19643edf799ef601fe185bde90fb2bd9eaabff7f889576d7e5",
+      "bytes": 14336,
+      "signature": "d0cf11e0a1b11ae1",
+      "originalFormat": "hwp",
+      "originalTextScope": "all_body_sections_or_pages",
+      "textScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "BodyText/Section0"
+      ],
+      "reviewedParts": [
+        {
+          "number": "1",
+          "title": "노인 보행기 지원 신청서",
+          "use": "main",
+          "author": "노인 또는 관계 신청인"
+        }
+      ],
+      "role": "application",
+      "roleBasis": "부산 남구 제5조는 성인용 보행기를 지원받는 노인이 별지 제1호를 제출하도록 한다. 원본의 보행기 품목·건강/경제/중복지원 확인·신청인과 대상자 관계가 제3조 및 사업의 저소득 거동불편 노인 지원과 일치한다.",
+      "roleEvidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1620911",
+      "roleCheckedAt": "2026-10-18",
+      "bodyEvidenceText": "제3조(지원대상자) 「국민기초생활보장법」에 따른 수급자 및 차상위 계층, 「의료급여법」에 따른 수급자 중 다음 각 호의 어느 하나에 해당하는 노인으로 한다.1. 「노인장기요양보험법」제15조제2항에 따른 장기요양 인정 수급자로 판정을 받지 못한 등급 외의 자(국민건강보험공단에서 정한 등급 외 A, B판정을 받은 자)2. 그 밖에 재해·상해·질병 등으로 신체활동이 불편하여 성인용보행기 지원이 필요하다고 구청장이 인정하는 자[전문개정 2021.8.9]\n제4조(지원기준)① 구청장은 제3조의 지원대상자에 대하여 예산의 범위 내에서 지원할 수 있다② 지원 횟수는 5년을 주기로 1대를 지원할 수 있다. 다만, 추가 지원하여야 할 상당한 사유가 있다고 인정될 경우에는 예외로 한다.\n제5조(지원신청·선정)① 성인용 보행기 지원을 받고자 하는 노인은 별지 제1호 서식에 따라 주소지 동javaScript:Inset();장에게 신청서 및 증빙서류를 제출하여야 한다.② 구청장은 제1항에 따라 제출된 신청서 및 증빙서류를 검토하여 지원여부를 결정하여야 한다.",
+      "independentBodyReview": true,
+      "condition": "장기요양 등급외 A/B 또는 제3조제2호의 거동불편 사유 증빙은 접수기관 안내에 따라 첨부."
+    },
+    {
+      "sourceKind": "ordin",
+      "lawTitle": "평택시 장애인 보조기기 수리 지원에 관한 조례",
+      "lawId": "1627457",
+      "annexId": "20711311",
+      "annexNumber": "000100",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=154965177&flNm=%EB%B3%84%EC%A7%80+%EC%A0%9C1%ED%98%B8%EC%84%9C%EC%8B%9D+~+%EB%B3%84%EC%A7%80+%EC%A0%9C5%ED%98%B8%EC%84%9C%EC%8B%9D",
+      "officialPdfUrl": null,
+      "dateKind": "effective",
+      "effectiveDate": "2021-09-27",
+      "regionCode": "41220",
+      "regionLabel": "경기도 평택시",
+      "programIds": [
+        "g41220.gov24-391000000130"
+      ],
+      "programNames": [
+        "장애인 보조기기 수리비용 지원"
+      ],
+      "formId": "ordin-20711311",
+      "use": "main",
+      "formTitle": "별지 제1호서식 ~ 별지 제5호서식",
+      "sourceMetadataTitle": "별지 제1호서식 ~ 별지 제5호서식",
+      "verifiedDocumentTitle": "장애인 보조기기 수리 신청서(묶음 중 별지 제3호)",
+      "evidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1627457",
+      "evidenceNote": "평택시 묶음 전체 제1~5호를 읽고 시민 신청은 제3호임을 확인했다. 제8조제1항은 지원대상 장애인 또는 배우자·직계혈족·형제자매의 제3호 제출을 지정한다. 제3호의 수급/차상위·기기종류·수리부위·신청인서명이 사업 목적과 일치하며 업체 지정·의뢰·정산은 제외했다. 동일 공식 법규 ID·별표키·flSeq와 실제 원본 SHA256·전체 본문 섹션을 대조했다.",
+      "checkedAt": "2026-10-18",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "sha256": "eac42b2b4360db7940ebd609e81676e6faba0e09a810b2e711c29e16cf9e8426",
+      "bytes": 26624,
+      "signature": "d0cf11e0a1b11ae1",
+      "originalFormat": "hwp",
+      "originalTextScope": "all_body_sections_or_pages",
+      "textScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "BodyText/Section0"
+      ],
+      "reviewedParts": [
+        {
+          "number": "3",
+          "title": "장애인 보조기기 수리 신청서",
+          "use": "main",
+          "author": "장애인 또는 허용 가족 대리인"
+        }
+      ],
+      "role": "application",
+      "roleBasis": "평택시 묶음 전체 제1~5호를 읽고 시민 신청은 제3호임을 확인했다. 제8조제1항은 지원대상 장애인 또는 배우자·직계혈족·형제자매의 제3호 제출을 지정한다. 제3호의 수급/차상위·기기종류·수리부위·신청인서명이 사업 목적과 일치하며 업체 지정·의뢰·정산은 제외했다.",
+      "roleEvidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1627457",
+      "roleCheckedAt": "2026-10-18",
+      "bodyEvidenceText": "제4조(지원대상자) 지원대상자는 평택시(이하 “시”라 한다)에 주민등록을 두고 실제 거주하는 장애인으로서 다음 각 호의 어느 하나에 해당하는 자로 한다.1. 「국민기초생활보장법」 제7조에 따른 생계·주거·의료·교육 급여 수급자2. 「국민기초생활보장법」 제2조제10호에 따른 차상위계층\n제5조(수리업체 지정운영 등)① 시장은 「의료기기법」 제2조제3항에 따른 자 중 장애인 보조기기를 수리할 수 있는 수리업체(이하 “수리업체”라 한다)를 지정하여 운영할 수 있다.② 제1항의 경우 공개모집방식으로 하고, 시 관할 구역에 있는 수리업체를 선정하되, 원활한 수리서비스 제공을 위해 시 관할 구역 외에 있는 수리업체를 선정할 수 있다.③ 제1항에 따라 수리업체로 지정받고자 하는 자는 시장에게 별지 제1호서식의 신청서를 제출하여야 하며, 시장은 수리업체 지정 시 별지 제2호서식의 수리업체 지정서를 교부한다.\n제8조(지원신청 등)① 장애인 보조기기 수리비용 지원을 받고자 하는 지원대상자는 별지 제3호서식에 따른 신청서를 주소지 관할 읍·면·동장에게 제출하여야 한다. 다만, 지원대상자가 거동불가 등의 부득이한 사유로 직접 신청할 수 없는 경우에는 지원대상자의 배우자, 직계혈족 또는 형제자매가 신청할 수 있다.② 제1항에 따라 신청서를 받은 읍·면·동장은 제4조에 따른 지원대상 적정 여부를 확인한 후 시장에게 신청서를 송부하고, 시장은 지원대상자를 결정하여 수리업체에 별지 제4호서식에 따른 수리 의뢰서를 송부하여야 한다.③ 제2항에 따라 수리 의뢰를 받은 수리업체는 수리를 완료한 후 별지 제5호서식에 따른 장애인 보조기기 수리비용 청구서 및 관련 증빙서류를 시장에게 제출하여야 한다.④ 시장은 수리업체가 제출한 수리비용 청구서 및 관련 증빙서류를 확인한 후 수리업체에게 청구금액을 지급하여야 한다.",
+      "independentBodyReview": true,
+      "condition": "묶음 파일의 별지 제3호 수리 신청서만 작성. 제1·2·4·5호는 업체·행정용.",
+      "excludedParts": [
+        {
+          "number": "1",
+          "title": "수리 서비스 제공 업체 지정 신청서",
+          "reason": "업체용"
+        },
+        {
+          "number": "2",
+          "title": "수리 업체 지정서",
+          "reason": "기관 발급용"
+        },
+        {
+          "number": "4",
+          "title": "수리 의뢰서",
+          "reason": "행정기관 발급용"
+        },
+        {
+          "number": "5",
+          "title": "수리비용 청구서",
+          "reason": "업체 정산용"
+        }
+      ],
+      "displayTitle": "장애인 보조기기 수리 신청서(묶음 중 별지 제3호)"
+    },
+    {
+      "sourceKind": "ordin",
+      "lawTitle": "보은군 장수노인 수당 지급 조례",
+      "lawId": "1645829",
+      "annexId": "17820831",
+      "annexNumber": "000100",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=141939819&flNm=%EB%B3%84%EC%A7%80+%EC%A0%9C1%ED%98%B8+%EC%84%9C%EC%8B%9D%28%EC%9E%A5%EC%88%98%EC%88%98%EB%8B%B9+%EC%A7%80%EA%B8%89+%EC%8B%A0%EC%B2%AD%EC%84%9C%29",
+      "officialPdfUrl": null,
+      "dateKind": "effective",
+      "effectiveDate": "2021-12-10",
+      "regionCode": "43720",
+      "regionLabel": "충청북도 보은군",
+      "programIds": [
+        "g43720.gov24-442000000118"
+      ],
+      "programNames": [
+        "장수노인수당"
+      ],
+      "formId": "ordin-17820831",
+      "use": "main",
+      "formTitle": "별지 제1호 서식(장수수당 지급 신청서)",
+      "sourceMetadataTitle": "별지 제1호 서식(장수수당 지급 신청서)",
+      "verifiedDocumentTitle": "장수노인 수당 지급 신청서",
+      "evidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1645829",
+      "evidenceNote": "보은군 제5조제1항은 지급대상 노인 또는 허용 대리인이 별지 제1호를 제출하도록 한다. 원본의 대상자·계좌·관계·서명 및 사업의 기존 장수수당 대상자 신청이 맞는다. 제3조의 2021년 이전 거주 기준은 현행 제한이며 서식이 폐지됐다는 뜻이 아니다. 동일 공식 법규 ID·별표키·flSeq와 실제 원본 SHA256·전체 본문 섹션을 대조했다.",
+      "checkedAt": "2026-10-18",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "sha256": "83fd2cf592423c3f0c24b58cf2285354db77919887b41c902a6fa0d0af4c75c8",
+      "bytes": 12800,
+      "signature": "d0cf11e0a1b11ae1",
+      "originalFormat": "hwp",
+      "originalTextScope": "all_body_sections_or_pages",
+      "textScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "BodyText/Section0"
+      ],
+      "reviewedParts": [
+        {
+          "number": "1",
+          "title": "장수노인 수당 지급 신청서",
+          "use": "main",
+          "author": "지급대상 노인 또는 대리인"
+        }
+      ],
+      "role": "application",
+      "roleBasis": "보은군 제5조제1항은 지급대상 노인 또는 허용 대리인이 별지 제1호를 제출하도록 한다. 원본의 대상자·계좌·관계·서명 및 사업의 기존 장수수당 대상자 신청이 맞는다. 제3조의 2021년 이전 거주 기준은 현행 제한이며 서식이 폐지됐다는 뜻이 아니다.",
+      "roleEvidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1645829",
+      "roleCheckedAt": "2026-10-18",
+      "bodyEvidenceText": "제3조(지급대상자의 범위) 장수수당 지급대상자는 2021년 12월 31일 이전에 보은군에 주민등록을 두고 1년 이상 계속하여 거주하고 있는 장수노인으로 한다.<개정 2021.12.10.>\n제5조(지급신청 및 방법 등)①장수수당을 지급받고자 하는 자는 별지 제1호 서식에 의한 신청서를 주소지를 관할하는 읍·면장에게 제출하여야 하며, 본인이 부득이한 사유로 신청할 수 없을 경우에는 배우자, 부양의무자 또는 위임 받은 자(위임장 소지자)가 신청할 수 있다.②제1항의 신청서를 접수한 읍·면장은 지체없이 신청서를 군수에게 제출하여야 한다.③군수는 지급대상자를 확정하여 매월 25일까지 지급대상자 명의의 개인별 금융계좌로 지급한다. 다만, 특별한 사유가 있을 경우에는 지급대상자의 동의를 얻어 대리인계좌로 지급할 수 있다.④장수수당은 신청한 월부터 지급하고, 제6조의 규정에 의한 지급중지 사유 발생시는 그 사유가 발생한 월까지 지급한다.",
+      "independentBodyReview": true,
+      "condition": "현행 조례와 사업 안내의 기존 장수수당 지급대상자 신청용."
+    },
+    {
+      "sourceKind": "ordin",
+      "lawTitle": "보은군 장수노인 수당 지급 조례",
+      "lawId": "1645829",
+      "annexId": "17820833",
+      "annexNumber": "000200",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=141939821&flNm=%EB%B3%84%EC%A7%80+%EC%A0%9C2%ED%98%B8+%EC%84%9C%EC%8B%9D%28%EC%9E%A5%EC%88%98%EC%88%98%EB%8B%B9+%EC%A7%80%EA%B8%89%EC%8B%A0%EC%B2%AD+%EC%9C%84%EC%9E%84%EC%9E%A5%29",
+      "officialPdfUrl": null,
+      "dateKind": "effective",
+      "effectiveDate": "2021-12-10",
+      "regionCode": "43720",
+      "regionLabel": "충청북도 보은군",
+      "programIds": [
+        "g43720.gov24-442000000118"
+      ],
+      "programNames": [
+        "장수노인수당"
+      ],
+      "formId": "ordin-17820833",
+      "use": "conditional",
+      "formTitle": "별지 제2호 서식(장수수당 지급신청 위임장)",
+      "sourceMetadataTitle": "별지 제2호 서식(장수수당 지급신청 위임장)",
+      "verifiedDocumentTitle": "장수노인 수당 지급신청 위임장",
+      "evidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1645829",
+      "evidenceNote": "보은군 제5조제1항은 본인이 신청할 수 없으면 위임장 소지자가 대신 신청할 수 있도록 한다. 공식 별지 제2호 실제 본문은 위임자·수임자·관계·사유와 위임자 날인으로 해당 장수수당 신청만 위임한다. 동일 공식 법규 ID·별표키·flSeq와 실제 원본 SHA256·전체 본문 섹션을 대조했다.",
+      "checkedAt": "2026-10-18",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "sha256": "7dba1935331208fa882cc60c917c14f75a8b7b2e6a11ed60772b813e6af3640a",
+      "bytes": 12800,
+      "signature": "d0cf11e0a1b11ae1",
+      "originalFormat": "hwp",
+      "originalTextScope": "all_body_sections_or_pages",
+      "textScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "BodyText/Section0"
+      ],
+      "reviewedParts": [
+        {
+          "number": "2",
+          "title": "장수노인 수당 지급신청 위임장",
+          "use": "conditional",
+          "author": "장수수당 신청을 위임하는 대상자"
+        }
+      ],
+      "role": "delegation",
+      "roleBasis": "보은군 제5조제1항은 본인이 신청할 수 없으면 위임장 소지자가 대신 신청할 수 있도록 한다. 공식 별지 제2호 실제 본문은 위임자·수임자·관계·사유와 위임자 날인으로 해당 장수수당 신청만 위임한다.",
+      "roleEvidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1645829",
+      "roleCheckedAt": "2026-10-18",
+      "bodyEvidenceText": "제5조(지급신청 및 방법 등)①장수수당을 지급받고자 하는 자는 별지 제1호 서식에 의한 신청서를 주소지를 관할하는 읍·면장에게 제출하여야 하며, 본인이 부득이한 사유로 신청할 수 없을 경우에는 배우자, 부양의무자 또는 위임 받은 자(위임장 소지자)가 신청할 수 있다.②제1항의 신청서를 접수한 읍·면장은 지체없이 신청서를 군수에게 제출하여야 한다.③군수는 지급대상자를 확정하여 매월 25일까지 지급대상자 명의의 개인별 금융계좌로 지급한다. 다만, 특별한 사유가 있을 경우에는 지급대상자의 동의를 얻어 대리인계좌로 지급할 수 있다.④장수수당은 신청한 월부터 지급하고, 제6조의 규정에 의한 지급중지 사유 발생시는 그 사유가 발생한 월까지 지급한다.",
+      "independentBodyReview": true,
+      "condition": "본인이 직접 신청하지 못해 위임받은 사람이 장수수당을 신청하는 경우에 첨부."
+    },
+    {
+      "sourceKind": "ordin",
+      "lawTitle": "정읍시 노인 성인용 보행기 지원에 관한 조례",
+      "lawId": "1652279",
+      "annexId": "20166439",
+      "annexNumber": "000100",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=152720437&flNm=%5B%EB%B3%84%EC%A7%80%EC%84%9C%EC%8B%9D%5D+%EB%85%B8%EC%9D%B8+%EC%84%B1%EC%9D%B8%EC%9A%A9+%EB%B3%B4%ED%96%89%EA%B8%B0+%EC%A7%80%EC%9B%90+%EC%8B%A0%EC%B2%AD%EC%84%9C",
+      "officialPdfUrl": null,
+      "dateKind": "effective",
+      "effectiveDate": "2021-12-24",
+      "regionCode": "52180",
+      "regionLabel": "전북특별자치도 정읍시",
+      "programIds": [
+        "g52180.bokjiro-WLF00004279"
+      ],
+      "programNames": [
+        "노인용품 공급 및 건강증진"
+      ],
+      "formId": "ordin-20166439",
+      "use": "conditional",
+      "formTitle": "[별지서식] 노인 성인용 보행기 지원 신청서",
+      "sourceMetadataTitle": "[별지서식] 노인 성인용 보행기 지원 신청서",
+      "verifiedDocumentTitle": "노인 성인용 보행기 지원 신청서",
+      "evidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1652279",
+      "evidenceNote": "정읍시 원본 전체의 성인용 보행기·건강/경제/중복지원 확인·등급외 통보서 또는 의사소견서를 읽었다. 제5조는 노인이 별지로 신청하도록 하며 제3조와 포괄사업의 노인용품 공급 부분에 일치한다. 건강보험료 대납은 다른 급여다. 동일 공식 법규 ID·별표키·flSeq와 실제 원본 SHA256·전체 본문 섹션을 대조했다.",
+      "checkedAt": "2026-10-18",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "sha256": "4cc854afd1dd921def93b5769e3a4961f5717f91c026ac04537d8fd3d5006b78",
+      "bytes": 56832,
+      "signature": "d0cf11e0a1b11ae1",
+      "originalFormat": "hwp",
+      "originalTextScope": "all_body_sections_or_pages",
+      "textScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "BodyText/Section0"
+      ],
+      "reviewedParts": [
+        {
+          "number": "별지",
+          "title": "노인 성인용 보행기 지원 신청서",
+          "use": "conditional",
+          "author": "거동불편 노인 또는 관계 신청인"
+        }
+      ],
+      "role": "application",
+      "roleBasis": "정읍시 원본 전체의 성인용 보행기·건강/경제/중복지원 확인·등급외 통보서 또는 의사소견서를 읽었다. 제5조는 노인이 별지로 신청하도록 하며 제3조와 포괄사업의 노인용품 공급 부분에 일치한다. 건강보험료 대납은 다른 급여다.",
+      "roleEvidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1652279",
+      "roleCheckedAt": "2026-10-18",
+      "bodyEvidenceText": "제3조(지원대상자) ·「노인장기요양보험법」제15조제2항에 따른 장기요양인정 등급 외(국민건강보험공단에서 정한 등급외 A, B) 판정을 받았거나 거동이 불편한 노인으로서 다음 각호의 어느 하나에 해당하는 사람으로 한다.1. 「국민기초생활 보장법」에 따른 수급자· 및 차상위계층2. 제1호의 수급자를 제외한 「의료급여법」에 따른 수급자3. 그 외 정읍시장(이하 “시장”이라 한다)이 인정하는 보행이 불편한 사람② 제1항제3호에 해당하는 사람이 성인용 보행기 지원을 받으려는 경우에는 의사의 진단서 또는 소견서를 제출하여야 한다.\n제5조(지원신청ㆍ선정)① 성인용 보행기 지원을 받으려는 노인은 별지 서식에 따라 주소지 관할 읍ㆍ면·동장에게 신청서 및 증빙서류를 제출하여야 한다.② 시장은 제 1항에 따라 송부된 신청서 등을 검토하여 성인용 보행기의 지원 여부를 결정하여야 한다.",
+      "independentBodyReview": true,
+      "condition": "노인용품 공급 및 건강증진 사업 중 성인용 보행기 지원 신청용. 노인세대 건강보험료 지원에는 사용하지 않음."
+    },
+    {
+      "sourceKind": "ordin",
+      "lawTitle": "태백시 출산양육비 지원 조례",
+      "lawId": "1660525",
+      "annexId": "21833055",
+      "annexNumber": "000100",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=164040069&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C1%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EC%B6%9C%EC%82%B0+%EA%B8%89%EB%B6%80+%ED%86%B5%ED%95%A9%EC%B2%98%EB%A6%AC+%EC%8B%A0%EC%B2%AD%EC%84%9C",
+      "officialPdfUrl": null,
+      "dateKind": "effective",
+      "effectiveDate": "2022-01-01",
+      "regionCode": "51190",
+      "regionLabel": "강원특별자치도 태백시",
+      "programIds": [
+        "g51190.bokjiro-WLF00003285",
+        "g51190.gov24-422000000124"
+      ],
+      "programNames": [
+        "출산양육 지원금 지원",
+        "출산양육비 지원"
+      ],
+      "formId": "ordin-21833055",
+      "use": "main",
+      "formTitle": "[별지 제1호서식] 출산 급부 통합처리 신청서",
+      "sourceMetadataTitle": "[별지 제1호서식] 출산 급부 통합처리 신청서",
+      "verifiedDocumentTitle": "출산 급부 통합처리 신청서",
+      "evidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1660525",
+      "evidenceNote": "태백시 제6조는 출산양육비에 별지 제1호를 지정한다. 원본의 태백시 자체급부 출산양육비·첫째/둘째/셋째이상·입양아·보호자와 거주기간을 확인했고 제3·4조의 금액/지원대상이 두 사업과 맞는다. 일반급부의 오래된 안내부분을 다른 사업 연결 근거로 쓰지 않았다. 동일 공식 법규 ID·별표키·flSeq와 실제 원본 SHA256·전체 본문 섹션을 대조했다.",
+      "checkedAt": "2026-10-18",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "sha256": "fe89d68adbd861c8cd782bc3c3cf8f8e3f183ce9efcef27f67fe11fde0372c61",
+      "bytes": 20992,
+      "signature": "d0cf11e0a1b11ae1",
+      "originalFormat": "hwp",
+      "originalTextScope": "all_body_sections_or_pages",
+      "textScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "BodyText/Section0"
+      ],
+      "reviewedParts": [
+        {
+          "number": "1",
+          "title": "출산 급부 통합처리 신청서 중 태백시 출산양육비",
+          "use": "main",
+          "author": "출생·입양아 부모 또는 보호자"
+        }
+      ],
+      "role": "application",
+      "roleBasis": "태백시 제6조는 출산양육비에 별지 제1호를 지정한다. 원본의 태백시 자체급부 출산양육비·첫째/둘째/셋째이상·입양아·보호자와 거주기간을 확인했고 제3·4조의 금액/지원대상이 두 사업과 맞는다. 일반급부의 오래된 안내부분을 다른 사업 연결 근거로 쓰지 않았다.",
+      "roleEvidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1660525",
+      "roleCheckedAt": "2026-10-18",
+      "bodyEvidenceText": "제3조(지원대상)① 출산양육비의 지원대상은 출산일 현재 시에 주민등록을 두고, 계속하여 1년 이상 실제 거주하고 있는 영아의 부ㆍ모로 한다. 다만, 전입세대의 경우 전입일로부터 1년이 경과한 후 출산양육비를 지급한다. 이 경우 셋째 이상 영아가 있는 전입세대의 경우 전입일로부터 1년이 경과한 후 출생일 기준 잔여 개월에 대해서 지원할 수 있다.② 관외 지역의 영아를 「입양특례법」에 의하여 입양한 양부ㆍ양모는 영아의 입양일 현재 시에 주민등록을 두고, 계속하여 1년 이상 실제 거주하고 있는 경우 지원대상으로 인정한다.③ 재혼 가정의 경우 신청인이 같은 주소지에서 실제로 양육하고 있는 본인 및 배우자의 자녀에 대해서만 지원대상으로 인정한다.④ 부ㆍ모 모두 사망한 영아의 경우 같은 주소지에서 실제로 양육하고 있는 보호자에게 지원할 수 있다.\n제4조(지원내용) 태백시장(이하“시장”이라 한다)은 예산의 범위에서 출생순위에 따라 다음 각 호에 해당하는 금액을 지원할 수 있다. 이 경우 다태아는 출생순위에 따라 각각 지원할 수 있다.1. 첫째아의 경우: 1회 50만원2. 둘째아의 경우: 1회 100만원3. 셋째아 이상의 경우: 출생일부터 1년간 매월 30만원\n제6조(지원신청)① 신청인은 영아의 출생일부터 1년 이내에 동장에게 별지 제1호서식에 따른 출산급부통합처리신청서(이하 “신청서”라 한다)와 다음 각 호의 서류를 동장에게 제출하여야 한다. 다만, 「전자정부법」 제38조제1항 및 제42조제1항에 따른 행정정보의 공동이용을 통하여 다음 각 호의 사항을 확인하는 것에 동의하는 경우 해당하는 서류 제출은 생략할 수 있다.1. 출산급부통합처리신청서(별지 제1호서식)2. 신청인의 신분증 및 주민등록등본3. 신청인의 은행계좌 사본4. 가족관계증명서(영아와 주소가 다른 경우 등 가족관계증명서가 필요한 경우에 한정함)5. 보호자의 경우 그 입증서류② 제1항에도 불구하고 영아의 출생일 전 30일 이내에 시로 전입한 신청인은 영아의 출생일부터 1년이 되는 날부터 30일 이내에 제1항에 따른 신청서를 동장에게 제출할 수 있다.③ 신청인이 「재한외국인 처우 기본법」 제2조제3호의 결혼이민자로서, 행정정보공동이용을 통한 지원대상 여부 확인이 어려운 경우 「출입국관리법」 제32조의 외국인등록사항으로 주민등록사항 등을 확인할 수 있으며, 이 경우 신청인은 확인을 위하여 필요한 절차에 협조하여야 한다.",
+      "independentBodyReview": true,
+      "condition": "태백시 자체급부의 출산양육비와 출생순위에 해당하는 항목만 신청. 일반 보육·양육·공공요금 부분은 별도 최신 안내 확인."
+    },
+    {
+      "sourceKind": "ordin",
+      "lawTitle": "평창군 출산축하금 지원 조례",
+      "lawId": "1660871",
+      "annexId": "19227165",
+      "annexNumber": "000100",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=148280785&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C1%ED%98%B8+%EC%84%9C%EC%8B%9D%5D",
+      "officialPdfUrl": null,
+      "dateKind": "effective",
+      "effectiveDate": "2022-01-01",
+      "regionCode": "51760",
+      "regionLabel": "강원특별자치도 평창군",
+      "programIds": [
+        "g51760.gov24-428000000119"
+      ],
+      "programNames": [
+        "출산축하금 지원"
+      ],
+      "formId": "ordin-19227165",
+      "use": "main",
+      "formTitle": "[별지 제1호 서식]",
+      "sourceMetadataTitle": "[별지 제1호 서식]",
+      "verifiedDocumentTitle": "출산 서비스 통합처리 신청서",
+      "evidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1660871",
+      "evidenceNote": "평창군 제5조는 출생신고/입양신고 후 출산서비스 통합신청서를 제출하도록 한다. 동일 법규 별지 제1호 원본의 자체급부 출산축하금·출생순위·출생입양일·전입일·계좌를 읽어 사업의 출생순위별 축하금과 대조했다. 보험료 항목도 있으나 별도 보험료 조례를 공식 MCP로 읽으니 그 조례의 별도 제1호를 지정하므로 현 파일을 보험료 사업에 추가 승인하지 않았다. 동일 공식 법규 ID·별표키·flSeq와 실제 원본 SHA256·전체 본문 섹션을 대조했다.",
+      "checkedAt": "2026-10-18",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "sha256": "389771b0579408ebd723f8ff29a72481ea6feefbe9bac4609c26dc096619a8b1",
+      "bytes": 24576,
+      "signature": "d0cf11e0a1b11ae1",
+      "originalFormat": "hwp",
+      "originalTextScope": "all_body_sections_or_pages",
+      "textScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "BodyText/Section0"
+      ],
+      "reviewedParts": [
+        {
+          "number": "1",
+          "title": "출산 서비스 통합처리 신청서 중 출산축하금",
+          "use": "main",
+          "author": "출생·입양아의 부모 또는 실제 양육자"
+        }
+      ],
+      "role": "application",
+      "roleBasis": "평창군 제5조는 출생신고/입양신고 후 출산서비스 통합신청서를 제출하도록 한다. 동일 법규 별지 제1호 원본의 자체급부 출산축하금·출생순위·출생입양일·전입일·계좌를 읽어 사업의 출생순위별 축하금과 대조했다. 보험료 항목도 있으나 별도 보험료 조례를 공식 MCP로 읽으니 그 조례의 별도 제1호를 지정하므로 현 파일을 보험료 사업에 추가 승인하지 않았다.",
+      "roleEvidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1660871",
+      "roleCheckedAt": "2026-10-18",
+      "bodyEvidenceText": "제3조(지원대상)① 신생아 출생일 또는 입양일을 기준으로 1년 전부터 계속하여 평창군(이하 \"군“ 이라 한다)에 주민등록을 두고 실제 거주하며, 신생아, 입양아와 함께 주민등록이 군에 등재되어 있는 부 또는 모로 한다. 단, 신생아의 출생일 또는 입양아의 입양일 현재 군 관내에 주민등록을 두고 거주한 기간이 1년 미만인 경우에는 1년이 경과되어야 지원대상이 된다.<개정 2016. 10. 14., 2021.12.31.>② 부모가 이혼 또는 사망한 경우에는 영아와 함께 관내에 주민등록을 두고 영아를 사실상 양육하고 있는 사람으로 한다.  <개정 2021.12.31.>\n제4조(지원기준) 평창군수(이하 “군수”라 한다)는 축하금을 예산의 범위에서 출생순위에 따라 1인당 100만원씩을 다음 각 호와 같이 지원한다. 단, 신생아가 쌍생아 이상인 경우에는 출생순위에 따라 자녀별로 지원하며, 재혼, 입양아일 경우에는 주민등록상에 기재되어 있는 자녀 순위로 지원한다.1. 첫째아 : 1회 100만원2. 둘째아 : 1회 100만원과 분기 50만원 2회 지급3. 셋째아 : 1회 100만원과 분기 50만원 4회 지급4. 넷째아 이상은 1회 100만원과 분기 50만원씩을 추가 지급한다.\n제5조(지원신청)① 축하금 신청인은 신생아의 부 또는 모가 되며, 제3조제2항의 경우에는 영아를 사실상 양육하고 있는 보호자가 신청인이 된다.② 읍ㆍ면장은 출생신고서 또는 입양신고서를 접수한 사람이 축하금 지원대상자일 경우에는 임신ㆍ출산관련 서비스 통합처리에 관한 규정의 별지 제1호 서식에 따른 축하금을 신청할 수 있도록 안내하여야 한다.<개정 2016. 10. 14>③ 제3조제1항에 따라 축하금을 지원 받고자 하는 사람은 출생신고 또는 입양신고 후 6개월 이내 읍ㆍ면장에게 신청서를 제출하여야 한다. 단, 거주기간이 미 도래한 사람은 거주기간 도래 일부터 6개월 이내에 신청서를 제출하여야 한다.<개정 2016. 10. 14., 2021.12.31.>④ 축하금 신청 시 구비서류는 다음과 같다1. 출산 서비스 통합처리 신청서 1부<개정 2016. 10. 14>2. 삭제<2016. 10. 14>3. 신청인 명의의 통장사본 1부",
+      "independentBodyReview": true,
+      "condition": "평창군 출산축하금 항목을 선택. 출생아 건강보험료와 일반 급여의 별도 신청서로 확장하지 않음.",
+      "displayTitle": "출산 서비스 통합처리 신청서"
+    },
+    {
+      "sourceKind": "ordin",
+      "lawTitle": "영천시 장애인 등 자동차 종합검사비 지원 조례",
+      "lawId": "1661833",
+      "annexId": "17052055",
+      "annexNumber": "000200",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=137161199&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C2%ED%98%B8%EC%84%9C%EC%8B%9D%5D%EC%9E%90%EB%8F%99%EC%B0%A8+%EC%A2%85%ED%95%A9%EA%B2%80%EC%82%AC%EB%B9%84+%EC%A7%80%EC%9B%90+%EC%8B%A0%EC%B2%AD%EC%84%9C%28%EA%B0%9C%EC%9D%B8%EC%9A%A9%29",
+      "officialPdfUrl": null,
+      "dateKind": "effective",
+      "effectiveDate": "2021-12-31",
+      "regionCode": "47230",
+      "regionLabel": "경상북도 영천시",
+      "programIds": [
+        "g47230.gov24-510000000112"
+      ],
+      "programNames": [
+        "장애인(중증대상자) 자동차종합검사비 지원"
+      ],
+      "formId": "ordin-17052055",
+      "use": "conditional",
+      "formTitle": "[별지 제2호서식]자동차 종합검사비 지원 신청서(개인용)",
+      "sourceMetadataTitle": "[별지 제2호서식]자동차 종합검사비 지원 신청서(개인용)",
+      "verifiedDocumentTitle": "자동차 종합검사비 지원 신청서(개인용)",
+      "evidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1661833",
+      "evidenceNote": "제5조제2항은 자동차 소유자가 검사 후1개월 내 제2호로 직접 지원을 신청할 수 있도록 한다. 실제 개인용 원본의 소유자·차량번호·검사일·검사비·계좌·소유자 서명을 확인했다. 사업의 중증장애인 검사비50% 최대3만원 직접 환급 절차와 일치한다. 동일 공식 법규 ID·별표키·flSeq와 실제 원본 SHA256·전체 본문 섹션을 대조했다.",
+      "checkedAt": "2026-10-18",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "sha256": "85aef8060d96cfca081716ab48ec62838dd209fbf15096833e8a4c2c8ae14996",
+      "bytes": 14848,
+      "signature": "d0cf11e0a1b11ae1",
+      "originalFormat": "hwp",
+      "originalTextScope": "all_body_sections_or_pages",
+      "textScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "BodyText/Section0"
+      ],
+      "reviewedParts": [
+        {
+          "number": "2",
+          "title": "자동차 종합검사비 지원 신청서(개인용)",
+          "use": "conditional",
+          "author": "지원대상 자동차 소유자"
+        }
+      ],
+      "role": "application",
+      "roleBasis": "제5조제2항은 자동차 소유자가 검사 후1개월 내 제2호로 직접 지원을 신청할 수 있도록 한다. 실제 개인용 원본의 소유자·차량번호·검사일·검사비·계좌·소유자 서명을 확인했다. 사업의 중증장애인 검사비50% 최대3만원 직접 환급 절차와 일치한다.",
+      "roleEvidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1661833",
+      "roleCheckedAt": "2026-10-18",
+      "bodyEvidenceText": "제3조(지원대상 등)① 영천시장(이하 “시장”이라 한다)은 다음 각 호의 어느 하나에 해당하는 경우 자동차 종합검사비 일부를 예산의 범위에서 지원할 수 있다.1. 장애인 및 국가유공자가 「지방세특례제한법」 제17조, 제29조 및 「영천시 시세 감면 조례」 제2조에 따라 취득세 또는 자동차세를 감면받는 자동차 1대2. 「한부모가족지원법」제5조에 따른 지원대상자의 자동차 1대3.「지방세특례제한법」제22조의2에 따른 다자녀 감면 대상으로 취득세를 면제 또는 감면 받은 자동차 1대② 지원대상자는 자동차세 및 취득세 감면 대상임을 확인하는 서류 또는 한부모가족 확인서 등 지원대상임을 증명할 수 있는 서류를 종합검사 지정정비사업자에게 제출하여야 한다.\n제4조(지원금액)① 지원금액은 자동차 종합검사비의 50퍼센트로 30,000원을 초과할 수 없고, 지원규정이 중복되는 경우 1대만 지원한다.② 자동차 종합검사비 지원대상 자동차로 종합검사 지정정비사업자에게 검사를 받은 경우에만 지원한다.\n제5조(지원신청)① 시는 종합검사 지정정비사업자에게 3개월 범위에서 지원금을 일괄지급 할 수 있다. 이 경우 해당 사업자는 별지 제1호서식에 따른 신청서를 작성하여 시장에게 제출하여야 한다.② 제1항에도 불구하고 자동차 종합검사비를 직접 지원받으려는 자동차 소유자는 종합검사를 받은 날부터 1개월 이내에 별지 제2호서식에 따른 신청서를 시장에게 제출하여야 한다.",
+      "independentBodyReview": true,
+      "condition": "정비사업자 현장 감면 대신 차량 소유자가 검사일부터1개월 내 직접 지원금을 신청하는 경우. 장애인 감면 확인 등 지원대상 증빙 첨부."
+    },
+    {
+      "sourceKind": "ordin",
+      "lawTitle": "대구광역시 달성군 출산축하금 지원 조례",
+      "lawId": "1682429",
+      "annexId": "22578039",
+      "annexNumber": "000100",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=169157239&flNm=%EB%B3%84%EC%A7%80+%EC%A0%9C1%ED%98%B8%EC%84%9C%EC%8B%9D~%EC%A0%9C3%ED%98%B8%EC%84%9C%EC%8B%9D",
+      "officialPdfUrl": null,
+      "dateKind": "effective",
+      "effectiveDate": "2022-01-01",
+      "regionCode": "27710",
+      "regionLabel": "대구광역시 달성군",
+      "programIds": [
+        "g27710.gov24-348000000395"
+      ],
+      "programNames": [
+        "장애인가정 출산축하금 지원"
+      ],
+      "formId": "ordin-22578039",
+      "use": "main",
+      "formTitle": "별지 제1호서식~제3호서식",
+      "sourceMetadataTitle": "별지 제1호서식~제3호서식",
+      "verifiedDocumentTitle": "출산서비스 통합처리 신청서(묶음 중 별지 제1호)",
+      "evidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1682429",
+      "evidenceNote": "달성군 원본 전체는 제1호 통합신청과 접수/지급/환수대장을 함께 담는다. 제3조제3항의 장애인가정 추가지원과 제5조제1항의 제1호 제출을 대조했고 원본에 장애인가정 부모 장애란이 별도로 있다. 지역검색으로 찾은 일반 출산축하금 사업도 상세의 거주기간별25/50·155/230·300/450만원이 제3조제1·2항과 정확히 같고 구비서류에 통합신청서를 명시해 연결했다. 동일 공식 법규 ID·별표키·flSeq와 실제 원본 SHA256·전체 본문 섹션을 대조했다.",
+      "checkedAt": "2026-10-18",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "sha256": "17c3d840f84d3b6e250012eb0a050d64be78d45974bd457544723599fbdbe86b",
+      "bytes": 61440,
+      "signature": "d0cf11e0a1b11ae1",
+      "originalFormat": "hwp",
+      "originalTextScope": "all_body_sections_or_pages",
+      "textScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "BodyText/Section0"
+      ],
+      "reviewedParts": [
+        {
+          "number": "1",
+          "title": "출산서비스 통합처리 신청서 및 그 안내·동의 뒷면",
+          "use": "main",
+          "author": "영아의 부모 또는 보호자"
+        }
+      ],
+      "role": "application",
+      "roleBasis": "달성군 원본 전체는 제1호 통합신청과 접수/지급/환수대장을 함께 담는다. 제3조제3항의 장애인가정 추가지원과 제5조제1항의 제1호 제출을 대조했고 원본에 장애인가정 부모 장애란이 별도로 있다. 지역검색으로 찾은 일반 출산축하금 사업도 상세의 거주기간별25/50·155/230·300/450만원이 제3조제1·2항과 정확히 같고 구비서류에 통합신청서를 명시해 연결했다.",
+      "roleEvidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1682429",
+      "roleCheckedAt": "2026-10-18",
+      "bodyEvidenceText": "제3조(지원대상의 범위 및 지원금액)① 영아 출생일을 기준으로 군에 주민등록을 두고 실제로 거주하고 있는 기간이 1년 미만인 영아의 부 또는 모로 하며, 지원금액은 다음 각 호와 같다.(개정 2021.12.30.)1. 첫째아이 : 25만원(개정 2017.12.29.)2. 둘째아이: 155만원(개정 2017.12.29., 2021.12.30.)3. 셋째아이 이상 : 300만원(신설 2017.12.29., 개정 2021.12.30.)② 영아 출생일을 기준으로 1년 전부터 계속해서 군에 주민등록을 두고 실제로 거주해오고 있는 영아의 부 또는 모로 하며, 지원금액은 다음 각 호와 같다.(개정 2021.12.30.)1. 첫째아이 : 50만원(개정 2017.12.29.)2. 둘째아이 : 230만원(개정 2017.12.29., 2021.12.30.)3. 셋째아이 이상 : 450만원(개정 2017.12.29., 2021.12.30.)③영아의 부 또는 모가 장애인복지법에 따른 등록장애인인 경우 그 장애 정도에 따라 다음과 같이 추가지원 한다.(개정 2019.7.10.)1. 장애의 정도가 심한 장애인 : 30만원2. 장애의 정도가 심하지 않은 장애인 : 20만원3. 영아의 부모가 모두 장애인인 경우에는 중복하여 지급하지 아니하며, 부모 중 지급받는 지원액이 많은 금액으로 지급한다.④ 제2조제3호의 규정 외 다음 각 호의 어느 하나에 해당하는 경우에 는 지원대상 가정이 된다. (개정2011.6.10)1. 영아의 부 또는 모가 사망, 이혼, 직업상 등의 사유로 함께 거주할  수 없는 경우로서 영아 부모 중 1명과 함께 군에 주민등록을 두고 거주하는  경우(개정 2021.12.30.)2. 영아 출생 후 제1호 등의 사유로 부 또는 모가 아닌 친권자 또는 후견인이 군에 주민등록을 같이 두고 거주하는 경우 (개정 2015.4.30., 2021.12.30.)\n제4조(신청인)① 출산축하금 신청인(이하 \"신청인\" 이라 한다)은 영아의 부 또는 모가 된다.② 제3조의 경우에는 영아와 주민등록이 같이 되어 있고 사실상 양육하는 친권자 또는 후견인이 신청인이 될 수 있다. (개정 2015.4.30)\n제5조(신청 및 지원절차)① 신청인은 영아의 출생신고 후 별지 제1호 서식의 출산서비스 통합처리 신청서(이하 \"신청서\"라 한다)를 주소지 관할 읍ㆍ면장에게 제출하여야 한다. (개정2011.6.10, 2014.7.10, 2015.4.30, 개정 2016.7.11)② 읍ㆍ면장은 신청이 있을시 신청서 기재사실을 확인하여야 하며, 제3조 제1항, 제2항 대상자를 구분하여, 매월 1일부터 말일까지의 신청서를 다음달 3일까지 보건소장에게 제출하여야 한다.③ 보건소장은 신청서를 검토하여 지원여부를 결정하고, 신청서를 송부 받은 달의 15일까지 신청인의 통장에 입금 조치하여야 한다.\n제8조(대장 등 비치) 보건소장은 업무의 효율적 추진을 위하여 별지 제2-1호서식, 별지 제2-2호서식, 별지 제2-3호서식, 별지 제3호서식의 출산축하금 지원대장 등을 비치 관리하여야 한다.(개정2011.6.10, 2014.7.10)",
+      "independentBodyReview": true,
+      "condition": "제1호 신청서에서 장애인가정 추가지원 관련 출산축하금·부모 장애 항목을 작성. 뒤의 접수/지급/환수대장은 제외.",
+      "excludedParts": [
+        {
+          "number": "2-1·2-2·2-3",
+          "title": "출생순위별 출산축하금 접수 및 지급대장",
+          "reason": "행정대장"
+        },
+        {
+          "number": "3",
+          "title": "출산축하금 환수 대장",
+          "reason": "행정대장"
+        }
+      ],
+      "displayTitle": "출산서비스 통합처리 신청서(묶음 중 별지 제1호)"
+    },
+    {
+      "sourceKind": "ordin",
+      "lawTitle": "대구광역시 달성군 출산축하금 지원 조례",
+      "lawId": "1682429",
+      "annexId": "22578039",
+      "annexNumber": "000100",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=169157239&flNm=%EB%B3%84%EC%A7%80+%EC%A0%9C1%ED%98%B8%EC%84%9C%EC%8B%9D~%EC%A0%9C3%ED%98%B8%EC%84%9C%EC%8B%9D",
+      "officialPdfUrl": null,
+      "dateKind": "effective",
+      "effectiveDate": "2022-01-01",
+      "regionCode": "27710",
+      "regionLabel": "대구광역시 달성군",
+      "programIds": [
+        "g27710.gov24-348000000341"
+      ],
+      "programNames": [
+        "출산축하금 지원"
+      ],
+      "formId": "ordin-22578039",
+      "use": "main",
+      "formTitle": "별지 제1호서식~제3호서식",
+      "sourceMetadataTitle": "별지 제1호서식~제3호서식",
+      "verifiedDocumentTitle": "출산서비스 통합처리 신청서(묶음 중 별지 제1호)",
+      "evidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1682429",
+      "evidenceNote": "달성군 원본 전체는 제1호 통합신청과 접수/지급/환수대장을 함께 담는다. 제3조제3항의 장애인가정 추가지원과 제5조제1항의 제1호 제출을 대조했고 원본에 장애인가정 부모 장애란이 별도로 있다. 지역검색으로 찾은 일반 출산축하금 사업도 상세의 거주기간별25/50·155/230·300/450만원이 제3조제1·2항과 정확히 같고 구비서류에 통합신청서를 명시해 연결했다. 동일 공식 법규 ID·별표키·flSeq와 실제 원본 SHA256·전체 본문 섹션을 대조했다.",
+      "checkedAt": "2026-10-18",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "sha256": "17c3d840f84d3b6e250012eb0a050d64be78d45974bd457544723599fbdbe86b",
+      "bytes": 61440,
+      "signature": "d0cf11e0a1b11ae1",
+      "originalFormat": "hwp",
+      "originalTextScope": "all_body_sections_or_pages",
+      "textScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "BodyText/Section0"
+      ],
+      "reviewedParts": [
+        {
+          "number": "1",
+          "title": "출산서비스 통합처리 신청서 및 그 안내·동의 뒷면",
+          "use": "main",
+          "author": "영아의 부모 또는 보호자"
+        }
+      ],
+      "role": "application",
+      "roleBasis": "달성군 원본 전체는 제1호 통합신청과 접수/지급/환수대장을 함께 담는다. 제3조제3항의 장애인가정 추가지원과 제5조제1항의 제1호 제출을 대조했고 원본에 장애인가정 부모 장애란이 별도로 있다. 지역검색으로 찾은 일반 출산축하금 사업도 상세의 거주기간별25/50·155/230·300/450만원이 제3조제1·2항과 정확히 같고 구비서류에 통합신청서를 명시해 연결했다.",
+      "roleEvidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1682429",
+      "roleCheckedAt": "2026-10-18",
+      "bodyEvidenceText": "제3조(지원대상의 범위 및 지원금액)① 영아 출생일을 기준으로 군에 주민등록을 두고 실제로 거주하고 있는 기간이 1년 미만인 영아의 부 또는 모로 하며, 지원금액은 다음 각 호와 같다.(개정 2021.12.30.)1. 첫째아이 : 25만원(개정 2017.12.29.)2. 둘째아이: 155만원(개정 2017.12.29., 2021.12.30.)3. 셋째아이 이상 : 300만원(신설 2017.12.29., 개정 2021.12.30.)② 영아 출생일을 기준으로 1년 전부터 계속해서 군에 주민등록을 두고 실제로 거주해오고 있는 영아의 부 또는 모로 하며, 지원금액은 다음 각 호와 같다.(개정 2021.12.30.)1. 첫째아이 : 50만원(개정 2017.12.29.)2. 둘째아이 : 230만원(개정 2017.12.29., 2021.12.30.)3. 셋째아이 이상 : 450만원(개정 2017.12.29., 2021.12.30.)③영아의 부 또는 모가 장애인복지법에 따른 등록장애인인 경우 그 장애 정도에 따라 다음과 같이 추가지원 한다.(개정 2019.7.10.)1. 장애의 정도가 심한 장애인 : 30만원2. 장애의 정도가 심하지 않은 장애인 : 20만원3. 영아의 부모가 모두 장애인인 경우에는 중복하여 지급하지 아니하며, 부모 중 지급받는 지원액이 많은 금액으로 지급한다.④ 제2조제3호의 규정 외 다음 각 호의 어느 하나에 해당하는 경우에 는 지원대상 가정이 된다. (개정2011.6.10)1. 영아의 부 또는 모가 사망, 이혼, 직업상 등의 사유로 함께 거주할  수 없는 경우로서 영아 부모 중 1명과 함께 군에 주민등록을 두고 거주하는  경우(개정 2021.12.30.)2. 영아 출생 후 제1호 등의 사유로 부 또는 모가 아닌 친권자 또는 후견인이 군에 주민등록을 같이 두고 거주하는 경우 (개정 2015.4.30., 2021.12.30.)\n제4조(신청인)① 출산축하금 신청인(이하 \"신청인\" 이라 한다)은 영아의 부 또는 모가 된다.② 제3조의 경우에는 영아와 주민등록이 같이 되어 있고 사실상 양육하는 친권자 또는 후견인이 신청인이 될 수 있다. (개정 2015.4.30)\n제5조(신청 및 지원절차)① 신청인은 영아의 출생신고 후 별지 제1호 서식의 출산서비스 통합처리 신청서(이하 \"신청서\"라 한다)를 주소지 관할 읍ㆍ면장에게 제출하여야 한다. (개정2011.6.10, 2014.7.10, 2015.4.30, 개정 2016.7.11)② 읍ㆍ면장은 신청이 있을시 신청서 기재사실을 확인하여야 하며, 제3조 제1항, 제2항 대상자를 구분하여, 매월 1일부터 말일까지의 신청서를 다음달 3일까지 보건소장에게 제출하여야 한다.③ 보건소장은 신청서를 검토하여 지원여부를 결정하고, 신청서를 송부 받은 달의 15일까지 신청인의 통장에 입금 조치하여야 한다.\n제8조(대장 등 비치) 보건소장은 업무의 효율적 추진을 위하여 별지 제2-1호서식, 별지 제2-2호서식, 별지 제2-3호서식, 별지 제3호서식의 출산축하금 지원대장 등을 비치 관리하여야 한다.(개정2011.6.10, 2014.7.10)",
+      "independentBodyReview": true,
+      "condition": "제1호에서 달성군 출산축하금과 출생순위를 선택. 전국공통 급여와 행정대장은 연결 범위에서 제외.",
+      "excludedParts": [
+        {
+          "number": "2-1·2-2·2-3",
+          "title": "출생순위별 출산축하금 접수 및 지급대장",
+          "reason": "행정대장"
+        },
+        {
+          "number": "3",
+          "title": "출산축하금 환수 대장",
+          "reason": "행정대장"
+        }
+      ],
+      "displayTitle": "출산서비스 통합처리 신청서(묶음 중 별지 제1호)"
+    },
+    {
+      "sourceKind": "ordin",
+      "lawTitle": "남양주시 장애인가정 출산지원금 지원에 관한 조례",
+      "lawId": "1683229",
+      "annexId": "21869297",
+      "annexNumber": "000200",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=164229519&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C2%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EA%B0%9C%EC%9D%B8%EC%A0%95%EB%B3%B4+%EC%88%98%EC%A7%91%EC%9D%B4%EC%9A%A9+%EB%8F%99%EC%9D%98%EC%84%9C",
+      "officialPdfUrl": null,
+      "dateKind": "effective",
+      "effectiveDate": "2022-02-10",
+      "regionCode": "41360",
+      "regionLabel": "경기도 남양주시",
+      "programIds": [
+        "g41360.gov24-399000000102"
+      ],
+      "programNames": [
+        "장애인가정 출산지원금 지원"
+      ],
+      "formId": "ordin-21869297",
+      "use": "additional",
+      "formTitle": "[별지 제2호서식] 개인정보 수집이용 동의서",
+      "sourceMetadataTitle": "[별지 제2호서식] 개인정보 수집이용 동의서",
+      "verifiedDocumentTitle": "개인정보 수집·이용 동의서",
+      "evidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1683229",
+      "evidenceNote": "남양주시 제5조제3항이 장애인가정 출산지원금 신청서 제1호에 제2호를 첨부하도록 명시한다. 실제 제2호는 해당 지원금의 자격 확인, 등록장애·가족관계·주소이력 수집과 신청인 동의를 받으므로 일반 안내가 아닌 필수 첨부서류다. 동일 공식 법규 ID·별표키·flSeq와 실제 원본 SHA256·전체 본문 섹션을 대조했다.",
+      "checkedAt": "2026-10-18",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "sha256": "decb74c1c2fd83f59cb4efc6307a7735407b808b346a7fd1976c6e0f5357c968",
+      "bytes": 47104,
+      "signature": "d0cf11e0a1b11ae1",
+      "originalFormat": "hwp",
+      "originalTextScope": "all_body_sections_or_pages",
+      "textScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "BodyText/Section0"
+      ],
+      "reviewedParts": [
+        {
+          "number": "2",
+          "title": "개인정보 수집·이용 동의서",
+          "use": "additional",
+          "author": "출산지원금 신청인 또는 대리인"
+        }
+      ],
+      "role": "consent",
+      "roleBasis": "남양주시 제5조제3항이 장애인가정 출산지원금 신청서 제1호에 제2호를 첨부하도록 명시한다. 실제 제2호는 해당 지원금의 자격 확인, 등록장애·가족관계·주소이력 수집과 신청인 동의를 받으므로 일반 안내가 아닌 필수 첨부서류다.",
+      "roleEvidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1683229",
+      "roleCheckedAt": "2026-10-18",
+      "bodyEvidenceText": "제3조(지원대상자)① 지원금 지급대상은 신생아의 출생일을 기준으로 신생아의 부 또는 모가 남양주시에 주민등록을 두고 실제 거주 중인 장애인가정으로 한다.② 지원금은 신생아의 부 또는 모에게 지급한다. 다만, 사고 등으로 인하여 신생아의 부모에게 지급할 수 없을 때에는 신생아가 속한 가구의 가구원으로서 그 가구의 생계를 부양하고 있는 사람에게 지급할 수 있다.\n제4조(지원액)① 지원금은 예산의 범위에서 다음 각 호와 같이 지급한다. 다만, 쌍생아 이상인 경우에는 추가 출생 영아 1명마다 지원액의 100분의 50을 가산하여 지급할 수 있다.1. 장애 정도가 심한 장애인: 150만원2. 장애 정도가 심하지 않은 장애인: 100만원② 지원금은 신생아의 부모 모두가 장애인인 경우 중복하여 지급할 수 없으며, 부모 중 지원액이 많은 금액으로 지급한다.③ 보건복지부의 장애인복지사업에 따른 여성장애인 출산비용 지원, 「국민기초생활 보장법」제13조에 따른 해산급여, 「남양주시 출산장려금 지급 조례」에 따라 지원되는 출산장려금은 중복하여 지원할 수 있다.\n제5조(지원신청 등)① 지원금 신청인은 신생아를 출산한 장애인가정의 부 또는 모가 된다. 다만, 사고 등으로 인하여 신생아의 부 또는 모가 신청할 수 없을 때에는 신생아 부모의 직계혈족, 형제·자매가 신청할 수 있다.② 읍·면·동장은 출생신고서 접수 시 지원대상 여부를 확인하고 대상자에게 알려 신청하도록 하여야 한다.③ 지원금 신청인은 신생아의 출생신고를 한 후 1년 이내에 별지 제1호서식에 별지 제2호서식을 첨부하여 지원금을 신청하여야 한다.",
+      "independentBodyReview": true,
+      "condition": "남양주시 장애인가정 출산지원금 제1호 신청서에 첨부하는 개인정보 동의서."
+    },
+    {
+      "sourceKind": "ordin",
+      "lawTitle": "서울특별시 동작구 장애인 휠체어 등 수리 지원에 관한 조례",
+      "lawId": "1687743",
+      "annexId": "22612901",
+      "annexNumber": "000100",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=169359409&flNm=%EB%B3%84%EC%A7%80+%EC%A0%9C1%ED%98%B8%EC%84%9C%EC%8B%9D.+%EC%9E%A5%EC%95%A0%EC%9D%B8+%ED%9C%A0%EC%B2%B4%EC%96%B4+%EB%93%B1+%EC%88%98%EB%A6%AC%EC%8B%A0%EC%B2%AD%EC%84%9C",
+      "officialPdfUrl": null,
+      "dateKind": "effective",
+      "effectiveDate": "2022-03-03",
+      "regionCode": "11590",
+      "regionLabel": "서울특별시 동작구",
+      "programIds": [
+        "g11590.gov24-319000000109"
+      ],
+      "programNames": [
+        "재활보조기구 수리비용 지원"
+      ],
+      "formId": "ordin-22612901",
+      "use": "main",
+      "formTitle": "별지 제1호서식. 장애인 휠체어 등 수리신청서",
+      "sourceMetadataTitle": "별지 제1호서식. 장애인 휠체어 등 수리신청서",
+      "verifiedDocumentTitle": "장애인 휠체어 등 수리신청서",
+      "evidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1687743",
+      "evidenceNote": "동작구 원본 전체의 장애정도·수급유형·휠체어/스쿠터·수리요청과 동의란을 읽었다. 제6조제1항은 장애인의 제1호 제출을, 제3항은 업체 제4호를 구별한다. 제5조 지원금액도 사이트 사업의30만원/15만원과 일치한다. 동일 공식 법규 ID·별표키·flSeq와 실제 원본 SHA256·전체 본문 섹션을 대조했다.",
+      "checkedAt": "2026-10-18",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "sha256": "6042aa7013bc018153ca3ed58594f437be8c66b29576439a0c5dc0ec2baf418e",
+      "bytes": 22528,
+      "signature": "d0cf11e0a1b11ae1",
+      "originalFormat": "hwp",
+      "originalTextScope": "all_body_sections_or_pages",
+      "textScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "BodyText/Section0",
+        "BodyText/Section1"
+      ],
+      "reviewedParts": [
+        {
+          "number": "1",
+          "title": "장애인 휠체어 등 수리신청서 및 개인정보 동의",
+          "use": "main",
+          "author": "장애인 이용자"
+        }
+      ],
+      "role": "application",
+      "roleBasis": "동작구 원본 전체의 장애정도·수급유형·휠체어/스쿠터·수리요청과 동의란을 읽었다. 제6조제1항은 장애인의 제1호 제출을, 제3항은 업체 제4호를 구별한다. 제5조 지원금액도 사이트 사업의30만원/15만원과 일치한다.",
+      "roleEvidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1687743",
+      "roleCheckedAt": "2026-10-18",
+      "bodyEvidenceText": "제5조(수리비용 지원기준)① 제4조에 따른 수리비용의 지원은 구청장이 지정 또는 위탁을 체결한 수리업체(이하 “지정수리업체”라 한다)를 이용한 경우에 한하여 지원할 수 있다.② 지원대상자는 구에 주민등록을 두고 실제 거주하는 장애인으로서 다음 각 호와 같이 지원한다. <개정 2018.5.3.>1.「국민기초생활 보장법」에 따른 수급자 및 차상위계층의 장애인은 수리비용의 전부 또는 일부를 연간 30만원 이내에서 지원 <개정 2022.3.3.>2. 제1호에 해당하지 아니하는 장애인은 수리비용의 1/2을 지원하되, 연간 15만원 이내에서 지원 <개정 2022.3.3.>③ 제2항에 따른 장애인휠체어의 수리비용은 제3조에 따라 구청장이 지정 또는 위탁하여 협약을 체결한 수리업체에서 수리한 경우에 한하여 지원하되, 지원기준을 초과한 수리비용에 대해서는 지원대상자가 부담한다.④ 장애인 휠체어 등의 수리는 출고시에 장착된 부품 등의 수리를 윈칙으로 하고, 개인이 장착한 부품, 장비, 악세사리 등은 지원에서 제외한다.\n제6조(수리비용 지원절차)① 구청장은 장애인이 별지 제1호서식의 수리신청서를 제출하면 다음 각 호의 사항을 검토하여 수리비용 지원대상 여부를 결정한다. <개정 2022.3.3.>1. 관내 거주 휠체어 등 이용 등록장애인 여부2. 국민기초생활보장수급자 및 차상위계층 해당 여부② 구청장은 제1항에 따라 지원대상자로 결정되는 경우에는 별지 제2호서식의 수리의뢰서를 발급하여 지정수리업체에 수리를 의뢰하고, 지정수리업체는 수리의뢰서에 따라 수리를 완료한 후 해당 장애인에게 인도한다.③ 지정수리업체는 수리를 완료한 후 매달 1일부터 말일까지의 수리내역을 별지 제3호서식에 기재하여 별지 제4호서식의 수리비용 청구서에 관련 증빙서류를 첨부하여 다음달 10일까지 구청장에게 제출하여야 한다.④ 구청장은 지정수리업체로부터 제출받은 수리내역과 청구서를 확인한 후 제출받은 달의 익월 5일까지 수리업체의 지정계좌에 청구된 금액을 입금하여야 한다.",
+      "independentBodyReview": true
+    },
+    {
+      "sourceKind": "ordin",
+      "lawTitle": "무주군 혈액투석환자 교통비 지원 조례",
+      "lawId": "1690127",
+      "annexId": "20940825",
+      "annexNumber": "000100",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=157353199&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C1%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%ED%98%88%EC%95%A1%ED%88%AC%EC%84%9D%ED%99%98%EC%9E%90+%EA%B5%90%ED%86%B5%EB%B9%84+%EC%A7%80%EC%9B%90%28%EC%A7%80%EA%B8%89%EA%B3%84%EC%A2%8C+%EB%B3%80%EA%B2%BD%29+%EC%8B%A0%EC%B2%AD%EC%84%9C",
+      "officialPdfUrl": null,
+      "dateKind": "effective",
+      "effectiveDate": "2022-03-02",
+      "regionCode": "52730",
+      "regionLabel": "전북특별자치도 무주군",
+      "programIds": [
+        "g52730.gov24-474000000120"
+      ],
+      "programNames": [
+        "혈액투석환자 교통비 지원"
+      ],
+      "formId": "ordin-20940825",
+      "use": "main",
+      "formTitle": "[별지 제1호서식] 혈액투석환자 교통비 지원(지급계좌 변경) 신청서",
+      "sourceMetadataTitle": "[별지 제1호서식] 혈액투석환자 교통비 지원(지급계좌 변경) 신청서",
+      "verifiedDocumentTitle": "혈액투석환자 교통비 지원·지급계좌 변경 신청서",
+      "evidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1690127",
+      "evidenceNote": "무주군 제4조제1항은 신규 교통비, 제3항은 계좌변경을 같은 제1호로 신청하도록 한다. 원본 두 선택란·환자·보호자·계좌·소견서·동의를 확인해 변경 전용으로 오인하지 않았다. 제3·4조의 신장장애·주2회투석·월10만원과 사업이 일치한다. 동일 공식 법규 ID·별표키·flSeq와 실제 원본 SHA256·전체 본문 섹션을 대조했다.",
+      "checkedAt": "2026-10-18",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "sha256": "ddd6898bb51c5f6674b8d828ad92afc79321f237d838187a704a2bc6ae9a7fb1",
+      "bytes": 16896,
+      "signature": "d0cf11e0a1b11ae1",
+      "originalFormat": "hwp",
+      "originalTextScope": "all_body_sections_or_pages",
+      "textScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "BodyText/Section0"
+      ],
+      "reviewedParts": [
+        {
+          "number": "1",
+          "title": "혈액투석환자 교통비 지원·지급계좌 변경 신청서",
+          "use": "main",
+          "author": "혈액투석환자 또는 허용 대리인"
+        }
+      ],
+      "role": "application",
+      "roleBasis": "무주군 제4조제1항은 신규 교통비, 제3항은 계좌변경을 같은 제1호로 신청하도록 한다. 원본 두 선택란·환자·보호자·계좌·소견서·동의를 확인해 변경 전용으로 오인하지 않았다. 제3·4조의 신장장애·주2회투석·월10만원과 사업이 일치한다.",
+      "roleEvidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1690127",
+      "roleCheckedAt": "2026-10-18",
+      "bodyEvidenceText": "제3조(지원기준)① 무주군수(이하“군수”라 한다)는 혈액투석환자에게 혈액투석을 위한 내원 교통비(이하 “교통비”라 한다)를 예산의 범위에서 지원할 수 있다.② 교통비 지원대상은 신청일 현재 무주군에 주민등록을 두고 있는 신장장애인으로 한다. 다만, 시설입소자 및 장기입원자는 지원대상에서 제외한다.③ 제1항에 따른 교통비 지원금액은 월 100,000원으로 한다.\n제4조(지원신청)① 교통비를 지원받으려는 사람은 별지 제1호서식에 따른 신청서에 다음 각 호의 서류를 첨부하여 군수에게 제출하여야 한다.1. 주 2회 이상 혈액투석이 필요하다는 소견이 명시된 의사소견서2. 주민등록표 등본3. 장애인증명서4. 통장사본5. 혈액투석환자 교통비 지원 신청 동의서(별지 제2호서식)② 군수는 제1항에 따른 신청을 받은 경우 「전자정부법」 제 36조제1항에 따른 행정정보 공동이용을 통하여 제1항제2호  및 같은 항 제3호의 사항을 확인할 수 있다. 다만, 신청인이 확인에 동의하지 아니하는 경우에는 그러하지 아니하다. <개정 2022.3.2.>③ 지원대상자로 선정된 사람이 교통비 지원금(이하 “지원금”이라 한다) 지급 계좌를 변경하려는 경우에는 별지 제1호서식에 따른 신청서에 통장사본을 첨부하여 제출하여야 한다.④ 제1항에 따른 신청을 환자 본인이 하기 곤란한 경우에는 지원대상자와 주민등록표상 같은 세대를 등록하고 생활을 함께 하는 다음 각 호의 사람 또는 관계 공무원이 대리하여 신청할 수 있다.1. 배우자2. 직계존비속3. 형제자매",
+      "independentBodyReview": true,
+      "condition": "신규 신청 시 교통비 지원, 기존 계좌변경 시 지급계좌 변경 항목을 선택."
+    },
+    {
+      "sourceKind": "ordin",
+      "lawTitle": "무주군 혈액투석환자 교통비 지원 조례",
+      "lawId": "1690127",
+      "annexId": "20940827",
+      "annexNumber": "000200",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=157353201&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C2%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%ED%98%88%EC%95%A1%ED%88%AC%EC%84%9D%ED%99%98%EC%9E%90+%EA%B5%90%ED%86%B5%EB%B9%84+%EC%A7%80%EC%9B%90+%EC%8B%A0%EC%B2%AD+%EB%8F%99%EC%9D%98%EC%84%9C",
+      "officialPdfUrl": null,
+      "dateKind": "effective",
+      "effectiveDate": "2022-03-02",
+      "regionCode": "52730",
+      "regionLabel": "전북특별자치도 무주군",
+      "programIds": [
+        "g52730.gov24-474000000120"
+      ],
+      "programNames": [
+        "혈액투석환자 교통비 지원"
+      ],
+      "formId": "ordin-20940827",
+      "use": "additional",
+      "formTitle": "[별지 제2호서식] 혈액투석환자 교통비 지원 신청 동의서",
+      "sourceMetadataTitle": "[별지 제2호서식] 혈액투석환자 교통비 지원 신청 동의서",
+      "verifiedDocumentTitle": "혈액투석환자 교통비 지원 신청 동의서",
+      "evidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1690127",
+      "evidenceNote": "제4조제1항제5호는 제1호 신청에 별지 제2호 동의서를 첨부하도록 명시한다. 원본은 교통비 수령으로 다른 공적 자격·연금수급에 영향이 생길 수 있다는 확인과 본인 동의를 받는 해당 사업 첨부서류다. 동일 공식 법규 ID·별표키·flSeq와 실제 원본 SHA256·전체 본문 섹션을 대조했다.",
+      "checkedAt": "2026-10-18",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "sha256": "bc5eed4a781715404c5177334572469cb7103abfba140e9d74f27b93cc93a16d",
+      "bytes": 10752,
+      "signature": "d0cf11e0a1b11ae1",
+      "originalFormat": "hwp",
+      "originalTextScope": "all_body_sections_or_pages",
+      "textScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "BodyText/Section0"
+      ],
+      "reviewedParts": [
+        {
+          "number": "2",
+          "title": "혈액투석환자 교통비 지원 신청 동의서",
+          "use": "additional",
+          "author": "혈액투석환자 본인"
+        }
+      ],
+      "role": "consent",
+      "roleBasis": "제4조제1항제5호는 제1호 신청에 별지 제2호 동의서를 첨부하도록 명시한다. 원본은 교통비 수령으로 다른 공적 자격·연금수급에 영향이 생길 수 있다는 확인과 본인 동의를 받는 해당 사업 첨부서류다.",
+      "roleEvidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1690127",
+      "roleCheckedAt": "2026-10-18",
+      "bodyEvidenceText": "제4조(지원신청)① 교통비를 지원받으려는 사람은 별지 제1호서식에 따른 신청서에 다음 각 호의 서류를 첨부하여 군수에게 제출하여야 한다.1. 주 2회 이상 혈액투석이 필요하다는 소견이 명시된 의사소견서2. 주민등록표 등본3. 장애인증명서4. 통장사본5. 혈액투석환자 교통비 지원 신청 동의서(별지 제2호서식)② 군수는 제1항에 따른 신청을 받은 경우 「전자정부법」 제 36조제1항에 따른 행정정보 공동이용을 통하여 제1항제2호  및 같은 항 제3호의 사항을 확인할 수 있다. 다만, 신청인이 확인에 동의하지 아니하는 경우에는 그러하지 아니하다. <개정 2022.3.2.>③ 지원대상자로 선정된 사람이 교통비 지원금(이하 “지원금”이라 한다) 지급 계좌를 변경하려는 경우에는 별지 제1호서식에 따른 신청서에 통장사본을 첨부하여 제출하여야 한다.④ 제1항에 따른 신청을 환자 본인이 하기 곤란한 경우에는 지원대상자와 주민등록표상 같은 세대를 등록하고 생활을 함께 하는 다음 각 호의 사람 또는 관계 공무원이 대리하여 신청할 수 있다.1. 배우자2. 직계존비속3. 형제자매",
+      "independentBodyReview": true,
+      "condition": "혈액투석환자 교통비 제1호 신청서와 함께 제출하는 지원신청 동의서."
+    },
+    {
+      "sourceKind": "ordin",
+      "lawTitle": "서울특별시 구로구 국가보훈대상자 등 예우 및 지원에 관한 조례",
+      "lawId": "1703705",
+      "annexId": "14993523",
+      "annexNumber": "000300",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=124550287&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C3%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EC%82%AC%EC%8B%A4%ED%99%95%EC%9D%B8%EC%84%9C",
+      "officialPdfUrl": null,
+      "dateKind": "effective",
+      "effectiveDate": "2022-05-01",
+      "regionCode": "11530",
+      "regionLabel": "서울특별시 구로구",
+      "programIds": [
+        "g11530.gov24-316000000122"
+      ],
+      "programNames": [
+        "국가보훈대상자 지원"
+      ],
+      "formId": "ordin-14993523",
+      "use": "conditional",
+      "formTitle": "[별지 제3호서식] 사실확인서",
+      "sourceMetadataTitle": "[별지 제3호서식] 사실확인서",
+      "verifiedDocumentTitle": "사실확인서(국가보훈대상자 사망 장례 실시)",
+      "evidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1703705",
+      "evidenceNote": "구로구 공식 별지 제3호 원본은 사망자·장례실시자·사실확인자·제출인 서명을 받아 제11조 사망위로금의 장례실시 사실을 확인한다. 기관이 발급하는 증명서나 월별 수당 신청이 아니다. 실제 장례 실시 확인이 필요한 사망위로금 단계에만 보조서류로 연결하며 월별 예우수당만 있는 복지로 후보는 제외한다. 동일 공식 법규 ID·별표키·flSeq와 실제 원본 SHA256·전체 본문 섹션을 대조했다.",
+      "checkedAt": "2026-10-18",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "sha256": "9c22b0f5ee4514240d479f1d6c480dfd9f98d01ed979fd739727b5c1ff7469ee",
+      "bytes": 52224,
+      "signature": "d0cf11e0a1b11ae1",
+      "originalFormat": "hwp",
+      "originalTextScope": "all_body_sections_or_pages",
+      "textScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "BodyText/Section0"
+      ],
+      "reviewedParts": [
+        {
+          "number": "3",
+          "title": "국가보훈대상자 사망 장례실시 사실확인서",
+          "use": "conditional",
+          "author": "장례 실시자 및 사실확인자"
+        }
+      ],
+      "role": "supporting",
+      "roleBasis": "구로구 공식 별지 제3호 원본은 사망자·장례실시자·사실확인자·제출인 서명을 받아 제11조 사망위로금의 장례실시 사실을 확인한다. 기관이 발급하는 증명서나 월별 수당 신청이 아니다. 실제 장례 실시 확인이 필요한 사망위로금 단계에만 보조서류로 연결하며 월별 예우수당만 있는 복지로 후보는 제외한다.",
+      "roleEvidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1703705",
+      "roleCheckedAt": "2026-10-18",
+      "bodyEvidenceText": "제9조(보훈예우수당의 지급) ① 구청장은 제3조제1호부터 제7호까지의 국가보훈대상자 및 보훈보상대상자로서 지급기준일 현재 구에 주민등록을 둔 사람에게 예산의 범위에서 보훈예우수당(이하 “수당”이라 한다)을 지급할 수 있다.  <개정 2022.4.28.>② 수당을 지급받고자 하는 사람은 별지 제1호서식에 따른 지급신청서를 주민등록지 동장에게 제출하여야 한다. 다만, 본인이 부득이한 사유로 신청할 수 없을 경우에는 배우자, 부양의무자 등이 신청할 수 있다.③ 수당은 신청서가 접수된 날이 속하는 달부터 지급 중단 사유가 발생한 날이 속하는 달까지 매월 25일 이전에 지급한다. 다만, 신청서가 접수된 날이 속한 달의 수당은 다음 달의 지급일에 함께 지급한다.④ 구청장은 수당을 지급받은 자가 다음 각 호의 어느 하나에 해당하는 경우 수당의 전부 또는 일부를 환수할 수 있다.1. 지급대상자가 아닌 사람에게 부당 지급한 것으로 확인된 경우2. 거주할 목적이 아닌 수당을 지급받기 위하여 주민등록 전입신고를 하였다고 판단되는 경우\n제11조(사망위로금 지급) ① 구청장은 제3조제1호부터 제6호까지의 국가보훈대상자가 사망한 때에는 사망위로금(이하 “위로금”이라 한다)을 예산의 범위에서 유족에게 지급할 수 있다.  <개정 2022.4.28.>② 위로금 지급대상은 사망일 현재 구에 주민등록을 두고 1년 이상 계속 거주한 사람으로 한다.③ 위로금 신청은 「국가유공자 등 예우 및 지원에 관한 법률」, 「특수임무유공자 예우 및 단체설립에 관한 법률」 및 「5·18민주유공자예우 및 단체설립에 관한 법률」에 따른 유족이 별지 제2호서식에 따라 사망일로부터 1년 이내에 동 주민센터 또는 구청에 신청하여야 한다.  <개정 2022.4.28.>④ 위로금을 지급받을 순위에 관하여는 「국가유공자 등 예우 및 지원에 관한 법률」 제13조를 따른다.",
+      "independentBodyReview": true,
+      "condition": "통합 사업 중 사망위로금 신청에서 장례를 실시한 사실의 확인을 요구받은 경우에만 첨부. 보훈예우수당·위문금·장례용품의 공통 신청서가 아님."
+    },
+    {
+      "sourceKind": "ordin",
+      "lawTitle": "서산시 신생아 출산지원에 관한 조례",
+      "lawId": "1725137",
+      "annexId": "20324411",
+      "annexNumber": "000200",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=153696839&flNm=%EB%B3%84%EC%A7%80+%EC%A0%9C1%ED%98%B8+%EC%84%9C%EC%8B%9D-+%EC%B6%9C%EC%82%B0+%EC%84%9C%EB%B9%84%EC%8A%A4+%ED%86%B5%ED%95%A9%EC%B2%98%EB%A6%AC+%EC%8B%A0%EC%B2%AD%EC%84%9C",
+      "officialPdfUrl": null,
+      "dateKind": "effective",
+      "effectiveDate": "2022-08-25",
+      "regionCode": "44210",
+      "regionLabel": "충청남도 서산시",
+      "programIds": [
+        "g44210.bokjiro-WLF00005756",
+        "g44210.gov24-453000000201"
+      ],
+      "programNames": [
+        "서산시 신생아 출산지원금",
+        "출산지원서비스"
+      ],
+      "formId": "ordin-20324411",
+      "use": "main",
+      "formTitle": "별지 제1호 서식- 출산 서비스 통합처리 신청서",
+      "sourceMetadataTitle": "별지 제1호 서식- 출산 서비스 통합처리 신청서",
+      "verifiedDocumentTitle": "출산 서비스 통합처리 신청서",
+      "evidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1725137",
+      "evidenceNote": "서산시 전체 원본의 자체서비스 출산지원금·양육비·다자녀가족카드, 출생순위·거주기간·신청인 서명을 읽었다. 신생아출산지원 조례 제5조는 본 제1호를 지정한다. 지역검색의 둘째이후 양육비는 별도 현행 조례 제4조제2항에서 같은 명칭의 통합신청을 허용하고 원본에도 양육비 구분란이 있다. 다자녀카드 실제 정부24 상세는2024.7.1 이후 출생신고자의 통합신청 대체를 명시하고 원본에 카드신청란이 있어 그 경우만 추가 연결했다. 동일 공식 법규 ID·별표키·flSeq와 실제 원본 SHA256·전체 본문 섹션을 대조했다.",
+      "checkedAt": "2026-10-18",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "sha256": "d2a195d09873b9f154b74a1671760a4483ff5054702dcb42be5f5917106f9809",
+      "bytes": 27648,
+      "signature": "d0cf11e0a1b11ae1",
+      "originalFormat": "hwp",
+      "originalTextScope": "all_body_sections_or_pages",
+      "textScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "BodyText/Section0",
+        "BodyText/Section1"
+      ],
+      "reviewedParts": [
+        {
+          "number": "1",
+          "title": "출산 서비스 통합처리 신청서의 서산시 자체서비스",
+          "use": "main",
+          "author": "출생아의 부모 또는 허용 대리인"
+        }
+      ],
+      "role": "application",
+      "roleBasis": "서산시 전체 원본의 자체서비스 출산지원금·양육비·다자녀가족카드, 출생순위·거주기간·신청인 서명을 읽었다. 신생아출산지원 조례 제5조는 본 제1호를 지정한다. 지역검색의 둘째이후 양육비는 별도 현행 조례 제4조제2항에서 같은 명칭의 통합신청을 허용하고 원본에도 양육비 구분란이 있다. 다자녀카드 실제 정부24 상세는2024.7.1 이후 출생신고자의 통합신청 대체를 명시하고 원본에 카드신청란이 있어 그 경우만 추가 연결했다.",
+      "roleEvidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1725137",
+      "roleCheckedAt": "2026-10-18",
+      "bodyEvidenceText": "제3조(지원기준)① 신생아 출산 지원금은 예산의 범위에서 1인당 첫째아는 50만원, 둘째아는 100만원, 셋째아는 500만원, 넷째아 이상은 1,000만원 이내로 지원할 수 있으며, 쌍둥이 이상일 경우에는 태아별로 지원할 수 있다. 단, 재혼으로 인한 출산순위 처리기준은 별표와 같다. <개정 2012. 4. 10., 2018. 4. 9., 2020. 9. 25., 2022. 8. 25.>② 출산용품은 양육에 필요한 10만원 상당의 물품 또는 상품권으로 지원할 수 있다. <신설 2018. 4. 9.>\n제4조(지원대상자의 범위)① 출산지원금의 지원대상자는 신생아의 출산일을 기준(출산일은 불산입한다)으로 서산시 관내에 첫째·둘째아는 1개월 전부터, 셋째아 이상은 12개월 전부터 주민등록을 두고 거주한 사람으로 한다. 다만, 전단의 출산일 기준 서산시 관내 거주일 요건을 충족하지 못한 사람이라 하더라도 첫째아 출산은 25만원, 둘째아 출산은 50만원, 셋째아 이상 출산은 250만원 이내에서 지원할 수 있다.[전문개정 2012.4.10]<개정 2018.4.9. 시행 2018.7.1.><개정 2019.11.8. 시행 2020.1.1.>② 출산용품의 지원대상자는 신생아 출산일을 기준으로 서산시 관내에 주민등록을 두고 거주한 사람으로 한다.<신설 2018. 4. 9.><시행 2018. 7. 1.>\n제5조(지원신청)① 읍·면·동장은 출생신고서 접수시 출산지원금과 출산용품 지원 대상 여부를 확인하여 지원대상자에게 알려주고 별지 제1호 서식의 출산서비스 통합처리 신청서를 제출하도록 안내하여야 한다.② 지원대상자는 출산지원금과 출산용품을 신생아의 출생일로부터 1년 이내에 읍·면·동 행정복지센터에 신청하여야 한다.<본조 신설 2018. 4. 9.><시행 2018. 7. 1.>",
+      "independentBodyReview": true,
+      "condition": "서산시 자체서비스의 출산지원금과 출생순위를 기재. 양육비·다자녀카드·전국공통급여 등은 각 해당 사업의 요건에 따름."
+    },
+    {
+      "sourceKind": "ordin",
+      "lawTitle": "서산시 신생아 출산지원에 관한 조례",
+      "lawId": "1725137",
+      "annexId": "20324411",
+      "annexNumber": "000200",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=153696839&flNm=%EB%B3%84%EC%A7%80+%EC%A0%9C1%ED%98%B8+%EC%84%9C%EC%8B%9D-+%EC%B6%9C%EC%82%B0+%EC%84%9C%EB%B9%84%EC%8A%A4+%ED%86%B5%ED%95%A9%EC%B2%98%EB%A6%AC+%EC%8B%A0%EC%B2%AD%EC%84%9C",
+      "officialPdfUrl": null,
+      "dateKind": "effective",
+      "effectiveDate": "2022-08-25",
+      "regionCode": "44210",
+      "regionLabel": "충청남도 서산시",
+      "programIds": [
+        "g44210.gov24-453000000175"
+      ],
+      "programNames": [
+        "서산시 둘째이후 영유아 양육비 지원"
+      ],
+      "formId": "ordin-20324411",
+      "use": "main",
+      "formTitle": "별지 제1호 서식- 출산 서비스 통합처리 신청서",
+      "sourceMetadataTitle": "별지 제1호 서식- 출산 서비스 통합처리 신청서",
+      "verifiedDocumentTitle": "출산 서비스 통합처리 신청서",
+      "evidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1725137",
+      "evidenceNote": "서산시 전체 원본의 자체서비스 출산지원금·양육비·다자녀가족카드, 출생순위·거주기간·신청인 서명을 읽었다. 신생아출산지원 조례 제5조는 본 제1호를 지정한다. 지역검색의 둘째이후 양육비는 별도 현행 조례 제4조제2항에서 같은 명칭의 통합신청을 허용하고 원본에도 양육비 구분란이 있다. 다자녀카드 실제 정부24 상세는2024.7.1 이후 출생신고자의 통합신청 대체를 명시하고 원본에 카드신청란이 있어 그 경우만 추가 연결했다. 동일 공식 법규 ID·별표키·flSeq와 실제 원본 SHA256·전체 본문 섹션을 대조했다.",
+      "checkedAt": "2026-10-18",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "sha256": "d2a195d09873b9f154b74a1671760a4483ff5054702dcb42be5f5917106f9809",
+      "bytes": 27648,
+      "signature": "d0cf11e0a1b11ae1",
+      "originalFormat": "hwp",
+      "originalTextScope": "all_body_sections_or_pages",
+      "textScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "BodyText/Section0",
+        "BodyText/Section1"
+      ],
+      "reviewedParts": [
+        {
+          "number": "1",
+          "title": "출산 서비스 통합처리 신청서의 서산시 자체서비스",
+          "use": "main",
+          "author": "출생아의 부모 또는 허용 대리인"
+        }
+      ],
+      "role": "application",
+      "roleBasis": "서산시 전체 원본의 자체서비스 출산지원금·양육비·다자녀가족카드, 출생순위·거주기간·신청인 서명을 읽었다. 신생아출산지원 조례 제5조는 본 제1호를 지정한다. 지역검색의 둘째이후 양육비는 별도 현행 조례 제4조제2항에서 같은 명칭의 통합신청을 허용하고 원본에도 양육비 구분란이 있다. 다자녀카드 실제 정부24 상세는2024.7.1 이후 출생신고자의 통합신청 대체를 명시하고 원본에 카드신청란이 있어 그 경우만 추가 연결했다.",
+      "roleEvidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1725137",
+      "roleCheckedAt": "2026-10-18",
+      "bodyEvidenceText": "제3조(지원기준)① 신생아 출산 지원금은 예산의 범위에서 1인당 첫째아는 50만원, 둘째아는 100만원, 셋째아는 500만원, 넷째아 이상은 1,000만원 이내로 지원할 수 있으며, 쌍둥이 이상일 경우에는 태아별로 지원할 수 있다. 단, 재혼으로 인한 출산순위 처리기준은 별표와 같다. <개정 2012. 4. 10., 2018. 4. 9., 2020. 9. 25., 2022. 8. 25.>② 출산용품은 양육에 필요한 10만원 상당의 물품 또는 상품권으로 지원할 수 있다. <신설 2018. 4. 9.>\n제4조(지원대상자의 범위)① 출산지원금의 지원대상자는 신생아의 출산일을 기준(출산일은 불산입한다)으로 서산시 관내에 첫째·둘째아는 1개월 전부터, 셋째아 이상은 12개월 전부터 주민등록을 두고 거주한 사람으로 한다. 다만, 전단의 출산일 기준 서산시 관내 거주일 요건을 충족하지 못한 사람이라 하더라도 첫째아 출산은 25만원, 둘째아 출산은 50만원, 셋째아 이상 출산은 250만원 이내에서 지원할 수 있다.[전문개정 2012.4.10]<개정 2018.4.9. 시행 2018.7.1.><개정 2019.11.8. 시행 2020.1.1.>② 출산용품의 지원대상자는 신생아 출산일을 기준으로 서산시 관내에 주민등록을 두고 거주한 사람으로 한다.<신설 2018. 4. 9.><시행 2018. 7. 1.>\n제5조(지원신청)① 읍·면·동장은 출생신고서 접수시 출산지원금과 출산용품 지원 대상 여부를 확인하여 지원대상자에게 알려주고 별지 제1호 서식의 출산서비스 통합처리 신청서를 제출하도록 안내하여야 한다.② 지원대상자는 출산지원금과 출산용품을 신생아의 출생일로부터 1년 이내에 읍·면·동 행정복지센터에 신청하여야 한다.<본조 신설 2018. 4. 9.><시행 2018. 7. 1.>",
+      "independentBodyReview": true,
+      "condition": "서산시 자체서비스의 양육비 지원을 구분하여 둘째 이후 영유아 양육비로 신청. 출생·입양신고 후90일 이내 접수 요건에 따름.",
+      "additionalEvidenceArticles": [
+        {
+          "lawId": "1851983",
+          "lawTitle": "서산시 출산장려를 위한 둘째 이후 영유아 양육비 지원 조례",
+          "number": "제4조제2항제1호",
+          "evidenceUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=1851983",
+          "text": "출산 서비스 통합처리 신청서 1부(별지 제1호 서식) 또는 양육비 지원신청서 1부(별지 제2호 서식)"
+        }
+      ]
+    },
+    {
+      "sourceKind": "ordin",
+      "lawTitle": "서산시 신생아 출산지원에 관한 조례",
+      "lawId": "1725137",
+      "annexId": "20324411",
+      "annexNumber": "000200",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=153696839&flNm=%EB%B3%84%EC%A7%80+%EC%A0%9C1%ED%98%B8+%EC%84%9C%EC%8B%9D-+%EC%B6%9C%EC%82%B0+%EC%84%9C%EB%B9%84%EC%8A%A4+%ED%86%B5%ED%95%A9%EC%B2%98%EB%A6%AC+%EC%8B%A0%EC%B2%AD%EC%84%9C",
+      "officialPdfUrl": null,
+      "dateKind": "effective",
+      "effectiveDate": "2022-08-25",
+      "regionCode": "44210",
+      "regionLabel": "충청남도 서산시",
+      "programIds": [
+        "g44210.gov24-453000000443"
+      ],
+      "programNames": [
+        "서산시 다자녀 가족카드 신청"
+      ],
+      "formId": "ordin-20324411",
+      "use": "conditional",
+      "formTitle": "별지 제1호 서식- 출산 서비스 통합처리 신청서",
+      "sourceMetadataTitle": "별지 제1호 서식- 출산 서비스 통합처리 신청서",
+      "verifiedDocumentTitle": "출산 서비스 통합처리 신청서",
+      "evidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1725137",
+      "evidenceNote": "서산시 전체 원본의 자체서비스 출산지원금·양육비·다자녀가족카드, 출생순위·거주기간·신청인 서명을 읽었다. 신생아출산지원 조례 제5조는 본 제1호를 지정한다. 지역검색의 둘째이후 양육비는 별도 현행 조례 제4조제2항에서 같은 명칭의 통합신청을 허용하고 원본에도 양육비 구분란이 있다. 다자녀카드 실제 정부24 상세는2024.7.1 이후 출생신고자의 통합신청 대체를 명시하고 원본에 카드신청란이 있어 그 경우만 추가 연결했다. 동일 공식 법규 ID·별표키·flSeq와 실제 원본 SHA256·전체 본문 섹션을 대조했다.",
+      "checkedAt": "2026-10-18",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "sha256": "d2a195d09873b9f154b74a1671760a4483ff5054702dcb42be5f5917106f9809",
+      "bytes": 27648,
+      "signature": "d0cf11e0a1b11ae1",
+      "originalFormat": "hwp",
+      "originalTextScope": "all_body_sections_or_pages",
+      "textScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "BodyText/Section0",
+        "BodyText/Section1"
+      ],
+      "reviewedParts": [
+        {
+          "number": "1",
+          "title": "출산 서비스 통합처리 신청서의 서산시 자체서비스",
+          "use": "main",
+          "author": "출생아의 부모 또는 허용 대리인"
+        }
+      ],
+      "role": "application",
+      "roleBasis": "서산시 전체 원본의 자체서비스 출산지원금·양육비·다자녀가족카드, 출생순위·거주기간·신청인 서명을 읽었다. 신생아출산지원 조례 제5조는 본 제1호를 지정한다. 지역검색의 둘째이후 양육비는 별도 현행 조례 제4조제2항에서 같은 명칭의 통합신청을 허용하고 원본에도 양육비 구분란이 있다. 다자녀카드 실제 정부24 상세는2024.7.1 이후 출생신고자의 통합신청 대체를 명시하고 원본에 카드신청란이 있어 그 경우만 추가 연결했다.",
+      "roleEvidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1725137",
+      "roleCheckedAt": "2026-10-18",
+      "bodyEvidenceText": "제3조(지원기준)① 신생아 출산 지원금은 예산의 범위에서 1인당 첫째아는 50만원, 둘째아는 100만원, 셋째아는 500만원, 넷째아 이상은 1,000만원 이내로 지원할 수 있으며, 쌍둥이 이상일 경우에는 태아별로 지원할 수 있다. 단, 재혼으로 인한 출산순위 처리기준은 별표와 같다. <개정 2012. 4. 10., 2018. 4. 9., 2020. 9. 25., 2022. 8. 25.>② 출산용품은 양육에 필요한 10만원 상당의 물품 또는 상품권으로 지원할 수 있다. <신설 2018. 4. 9.>\n제4조(지원대상자의 범위)① 출산지원금의 지원대상자는 신생아의 출산일을 기준(출산일은 불산입한다)으로 서산시 관내에 첫째·둘째아는 1개월 전부터, 셋째아 이상은 12개월 전부터 주민등록을 두고 거주한 사람으로 한다. 다만, 전단의 출산일 기준 서산시 관내 거주일 요건을 충족하지 못한 사람이라 하더라도 첫째아 출산은 25만원, 둘째아 출산은 50만원, 셋째아 이상 출산은 250만원 이내에서 지원할 수 있다.[전문개정 2012.4.10]<개정 2018.4.9. 시행 2018.7.1.><개정 2019.11.8. 시행 2020.1.1.>② 출산용품의 지원대상자는 신생아 출산일을 기준으로 서산시 관내에 주민등록을 두고 거주한 사람으로 한다.<신설 2018. 4. 9.><시행 2018. 7. 1.>\n제5조(지원신청)① 읍·면·동장은 출생신고서 접수시 출산지원금과 출산용품 지원 대상 여부를 확인하여 지원대상자에게 알려주고 별지 제1호 서식의 출산서비스 통합처리 신청서를 제출하도록 안내하여야 한다.② 지원대상자는 출산지원금과 출산용품을 신생아의 출생일로부터 1년 이내에 읍·면·동 행정복지센터에 신청하여야 한다.<본조 신설 2018. 4. 9.><시행 2018. 7. 1.>",
+      "independentBodyReview": true,
+      "condition": "2024.7.1 이후 출생신고자가 통합신청서로 가족카드를 함께 신청하는 경우에 한해 자체서비스의 다자녀가족카드를 선택. 일반 신규·재발급 신청용으로 확장하지 않음.",
+      "additionalEvidenceArticles": [
+        {
+          "lawId": "2043341",
+          "lawTitle": "서산시 다자녀가정 우대 및 지원에 관한 조례",
+          "number": "제2조·제4조",
+          "evidenceUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=2043341",
+          "text": "둘 이상의 자녀 중18세 이하1명을 포함한 가정과 다자녀 가족카드 정의·우대기준을 확인."
+        },
+        {
+          "evidenceUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/453000000443",
+          "text": "실제 사업 상세에 2024.7.1 이후 출생신고자는 출산서비스 통합신청서로 대체한다고 명시."
+        }
+      ]
+    },
+    {
+      "sourceKind": "ordin",
+      "lawTitle": "서울특별시 강동구 장애인 이동기기 수리 등의 지원 조례",
+      "lawId": "1726677",
+      "annexId": "15475607",
+      "annexNumber": "000100",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=127296841&flNm=%EB%B3%84%EC%A7%80+%EC%A0%9C1%ED%98%B8~%EC%A0%9C4%ED%98%B8%EC%84%9C%EC%8B%9D",
+      "officialPdfUrl": null,
+      "dateKind": "effective",
+      "effectiveDate": "2022-09-07",
+      "regionCode": "11740",
+      "regionLabel": "서울특별시 강동구",
+      "programIds": [
+        "g11740.bokjiro-WLF00002133"
+      ],
+      "programNames": [
+        "장애인 이동기기 수리지원 사업"
+      ],
+      "formId": "ordin-15475607",
+      "use": "main",
+      "formTitle": "별지 제1호~제4호서식",
+      "sourceMetadataTitle": "별지 제1호~제4호서식",
+      "verifiedDocumentTitle": "장애인 휠체어 등 수리 신청서(묶음 중 별지 제1호)",
+      "evidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1726677",
+      "evidenceNote": "강동구 제1~4호 원본 전체에서 제1호의 주민·기기정보·수리부위·서명을 확인했다. 제6조는 장애인 제1호 신청, 구청장 제2호 의뢰, 업체 제3·4호 정산을 구분한다. 지급액 안내 차이는 있어도 개인 신청부분은 해당 이동기기 수리지원 사업과 정확히 맞는다. 동일 공식 법규 ID·별표키·flSeq와 실제 원본 SHA256·전체 본문 섹션을 대조했다.",
+      "checkedAt": "2026-10-18",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "sha256": "401e6c21c7f682a674adc1a617f3488c8dd788c122fbb89d8fd9e8d968f445bd",
+      "bytes": 49152,
+      "signature": "d0cf11e0a1b11ae1",
+      "originalFormat": "hwp",
+      "originalTextScope": "all_body_sections_or_pages",
+      "textScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "BodyText/Section0"
+      ],
+      "reviewedParts": [
+        {
+          "number": "1",
+          "title": "장애인 휠체어 등 수리 신청서",
+          "use": "main",
+          "author": "장애인 이용자"
+        }
+      ],
+      "role": "application",
+      "roleBasis": "강동구 제1~4호 원본 전체에서 제1호의 주민·기기정보·수리부위·서명을 확인했다. 제6조는 장애인 제1호 신청, 구청장 제2호 의뢰, 업체 제3·4호 정산을 구분한다. 지급액 안내 차이는 있어도 개인 신청부분은 해당 이동기기 수리지원 사업과 정확히 맞는다.",
+      "roleEvidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1726677",
+      "roleCheckedAt": "2026-10-18",
+      "bodyEvidenceText": "제5조(지원기준) ① 제4조에 따른 장애인 휠체어 등의 수리비 지원은 제3조에 따라 구청장이 지정·운영하는 수리업체를 이용한 경우에만 해당된다.② 지원대상은 강동구에 주민등록을 두고 실제 거주하는 장애인으로서 다음 각 호와 같이 지원한다.1.「국민기초생활 보장법」에 따른 수급자 또는 차상위계층 장애인의 경우 연간 20만원 이내<개정 2016.09.28.>2. 제1호에 해당되지 않는 장애인은 연간 10만원 이내의 범위에서 지원한다. <개정 2020. 9. 9.>3. <삭제 2020. 9. 9.>\n제6조(지원절차) ① 휠체어 등의 수리비용을 지원받고자 하는 장애인은 관할 거주지 주민센터장(이하“동장”이라 한다)에게 별지 제1호서식의 수리 신청서를 제출하여야 한다.② 동장은 다음 각 호의 사항을 검토하여 지원대상자를 결정한다.1. 관내 실제 거주하는 장애인 여부2. 「국민기초생활 보장법」에 따른 수급자 또는 차상위계층 해당 여부<개정 2016.09.28.>3. <삭제 2020. 9. 9.>③ 동장은 제2항에 따라 지원대상자로 인정되는 경우 별지 제1호서식의 수리 신청서를 구청장에게 제출한다.④ 구청장은 제출된 신청서의 내용을 확인한 후 별지 제2호서식의 수리 의뢰서를 발급하여 수리업체에 수리를 의뢰한다.⑤ 수리업체는 매달 1일부터 말일까지의 수리내역을 별지 제3호서식의 수리 내역서에 기재하여 별지 제4호서식의 수리비용 청구서와 함께 구청장에게 송부하여야 한다.⑥ 구청장은 지원대상자 현황과 수리 내역 및 청구서를 확인한 후 수리 비용을 수리업체의 계좌에 입금한다.",
+      "independentBodyReview": true,
+      "condition": "묶음 중 제1호 신청서만 작성. 제2호는 기관 발급, 제3·4호는 업체용.",
+      "excludedParts": [
+        {
+          "number": "2",
+          "title": "수리 의뢰서",
+          "reason": "구청장 발급용"
+        },
+        {
+          "number": "3·4",
+          "title": "수리내역서·비용청구서",
+          "reason": "업체 정산용"
+        }
+      ],
+      "displayTitle": "장애인 휠체어 등 수리 신청서(묶음 중 별지 제1호)"
+    },
+    {
+      "sourceKind": "ordin",
+      "lawTitle": "서울특별시 송파구 출산ㆍ양육 지원에 관한 조례",
+      "lawId": "1727657",
+      "annexId": "13570059",
+      "annexNumber": "000100",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=119568063&flNm=%EB%B3%84%EC%A7%80",
+      "officialPdfUrl": null,
+      "dateKind": "effective",
+      "effectiveDate": "2022-10-01",
+      "regionCode": "11710",
+      "regionLabel": "서울특별시 송파구",
+      "programIds": [
+        "g11710.gov24-323000000117"
+      ],
+      "programNames": [
+        "출산축하금 지원"
+      ],
+      "formId": "ordin-13570059",
+      "use": "conditional",
+      "formTitle": "별지",
+      "sourceMetadataTitle": "별지",
+      "verifiedDocumentTitle": "출산축하금·출산축하용품 지원신청서(묶음 중 별지 제1호)",
+      "evidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1727657",
+      "evidenceNote": "송파구 원본전체 제1~7호 중 제1호에 첫째~여섯째·국내/국외출생·부모·계좌가 있으며 제5조제1항이 이를 지정한다. 사이트사업 자체가2021.12.31 이전 출생분으로 한정되고 제4조제6항은 국외출생자의6세 미만 신청을 규정하므로 이를 현행 신규 출산 혜택으로 확대하지 않고 해당 과거 출생분의 신청 가능 사례에만 연결한다. 동일 공식 법규 ID·별표키·flSeq와 실제 원본 SHA256·전체 본문 섹션을 대조했다.",
+      "checkedAt": "2026-10-18",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "sha256": "673e9ac0e838dcbda84874afbf6c0048dadf458bcfc722f55caf577266508247",
+      "bytes": 26112,
+      "signature": "d0cf11e0a1b11ae1",
+      "originalFormat": "hwp",
+      "originalTextScope": "all_body_sections_or_pages",
+      "textScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "BodyText/Section0"
+      ],
+      "reviewedParts": [
+        {
+          "number": "1",
+          "title": "출산축하금·출산축하용품 지원신청서",
+          "use": "conditional",
+          "author": "해당 출생아의 부모 또는 보호자"
+        }
+      ],
+      "role": "application",
+      "roleBasis": "송파구 원본전체 제1~7호 중 제1호에 첫째~여섯째·국내/국외출생·부모·계좌가 있으며 제5조제1항이 이를 지정한다. 사이트사업 자체가2021.12.31 이전 출생분으로 한정되고 제4조제6항은 국외출생자의6세 미만 신청을 규정하므로 이를 현행 신규 출산 혜택으로 확대하지 않고 해당 과거 출생분의 신청 가능 사례에만 연결한다.",
+      "roleEvidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1727657",
+      "roleCheckedAt": "2026-10-18",
+      "bodyEvidenceText": "제3조(지원대상) ① 출산축하금 지원대상자는 신생아 출생신고일을 기준으로 6개월 이상 계속하여 구에 주민등록을 두고 거주하고 있는 신생아의 부 또는 모로 하며, 대상자녀는 주민등록상 동일 세대원이어야 한다.<개정 2011.6.7., 2020.11.12.>② 구에 6개월 미만 주민등록이 되어 거주하고 있는 신생아의 부모의 경우, 해당기간이 경과해야 출산축하금 지원대상이 된다.<개정 2011.6.7>③ 출산축하용품 지원대상자는 신청일 현재 송파구에 주민등록을 두고 거주하는 신생아의 부 또는 모로 하며, 대상자녀는 주민등록상 동일 세대원이어야 한다. <신설 2017.9.14.>④ 제1항 및 제3항의 규정에도 불구하고 신생아 부모의 사망, 이혼, 직업 등의 이유로 부모가 아닌 자와 거주하는 경우에는 주민등록이 같이 되어 있으면서 사실상 양육하는 자로 한다..<신설 2011.6.7><개정 2017.9.14.>⑤ 안심보험 지원대상은 보호자(부 또는 모)와 함께 구에 주민등록을 두고 거주하고 있는 해당 연도에 출생한 셋째 자녀 이상의 영유아로, 구와 계약 체결된 보험회사와 보호자가 보험계약서에 청약을 완료한 자로 한다.<개정 2011.6.7., 2011.12.12., 2020.11.12.>⑥ 제5항에 따른 지원은 지원대상자가 타 시군구로 전출 할 경우 지원을 중단한다.<개정 2011.6.7, 2017.9.14.>\n제4조(지원기준) ① 출산축하금은 예산의 범위 내에서 첫째 자녀 20만원, 둘째 자녀 40만원, 셋째 자녀 50만원, 넷째 자녀 100만원, 다섯째 자녀 이상은 200만원을 지원하여야 한다. <개정 2011.6.7., 2020.11.12.>② 출산축하용품은 예산의 범위에서 지원 할 수 있다. <신설 2017.9.14.>③ 안심보험은 예산의 범위에서 5년간 지원한다. <개정 2011.12.12>④ 제1항에 따른 자녀의 출생순위는 부 또는 모의 가족관계등록부 출생순위를 기준으로 결정한다. 다만, 재혼가정의 경우 주민등록상 동일한 세대에 등재된 경우에만 순위에 포함하며, 주민등록 동거인란에 등재된 배우자의 실제 양육자녀도 순위대상에 포함한다. <신설 2020.11.12>⑤ 대상 자녀가 구 외의 다른 지방자치단체에서 출산축하금의 목적과 동일 또는 유사한 내용으로 지원받은 사실이 있는 경우에는 지원하지 않는다.<신설 2020.11.12>⑥ 국외에서 출산한 경우에는 신청일 현재 자녀가 출생 후 6년 미만인 경우에만 제1항에 따른 지원을 한다. <신설 2020.11.12>\n제5조(지원신청) ① 출산축하금 지원대상자는 출생신고 후 180일 이내에, 출산축하용품 지원대상자는 출생일 기준 180일 이내에 출산축하금·출산축하용품 지원신청서(별지 제1호서식)를 주민등록 관할 동장에게 제출하여야 한다.<개정 2017.9.14.>② 셋째 자녀 이상을 출산한 보호자는 출생신고 후 안심보험 가입을 위한 신청서(별지 제2호서식)를 주민등록 관할 동장에게 제출하여야 한다.③ 민원행정과장 및 동장은 출생신고서를 접수한 때(다른 시·군·구에서 접수한 경우도 포함한다)에는 지원대상 여부를 확인한 후 별지 제1호서식 및 제2호서식의 지원신청서(이하“신청서”라 한다)와 구비서류를 신청인에게 안내하여야 한다. <개정 2011.6.7.,2022.9.13.>④ 제1항 및 제2항에 따른 출산축하금과 출산축하용품 및 안심보험 지원신청 시 제출하여야 하는 구비서류는 다음 각 호와 같다.<개정 2011.6.7, 2017.9.14.>1. 신청서 1부2. 예금통장 사본 1부(출산축하금 신청에 한정한다.) <개정 2017.9.14.>3. 제3조제1항에 의한 부모가 아닌 보호자인 경우 제적증명 등 입증서류⑤ 제1항 및 제2항에 따른 신청은 “임신·출산 관련 서비스 통합처리에 관한 규정(행정자치부 예규)”에 따른 “출산서비스 통합처리 신청서”로도 할 수 있다. <신설 2017.9.14.>\n제8조(대장 등 비치) 동장은 신생아 출산축하금·출산축하용품 및 안심보험 신청대장(별지제3호, 제5호 및 제6호서식)을 구청장 및 보건소장은 신생아 출산축하금·출산축하용품 지원대장 및 안심보험 지원대장(별지 제4호 및 제7호서식)을 각각 비치하고 관리하여야 한다. 다만, 대장은 전산으로 관리할 수 있다. <개정 2011.6.7, 2017.9.14., 2020.11.12.>",
+      "independentBodyReview": true,
+      "condition": "사이트 안내상2021.12.31 이전 출생분 중 신청기한·거주요건을 충족하는 경우에만 제1호의 출산축하금을 선택. 국외출생은 신청일 현재6세 미만 여부 등 담당기관 확인. 2022년 이후 출생아용 현행 신규 축하금으로 사용하지 않음.",
+      "excludedParts": [
+        {
+          "number": "2",
+          "title": "송파 다둥이 안심보험 가입신청서",
+          "reason": "별도 보험사업이며 해당 사이트사업 대상과 다름"
+        },
+        {
+          "number": "3·4·5·6·7",
+          "title": "신청·지원·보험료·전출 관리대장",
+          "reason": "행정대장"
+        }
+      ],
+      "displayTitle": "출산축하금·출산축하용품 지원신청서(묶음 중 별지 제1호)"
+    },
+    {
+      "sourceKind": "ordin",
+      "lawTitle": "옹진군 장애인활동 지원사 양성 지원 조례",
+      "lawId": "1740625",
+      "annexId": "19748753",
+      "annexNumber": "000100",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=151282493&flNm=%EB%B3%84%EC%A7%80+%EC%A0%9C1%ED%98%B8%EC%84%9C%EC%8B%9D",
+      "officialPdfUrl": null,
+      "dateKind": "effective",
+      "effectiveDate": "2022-10-26",
+      "regionCode": "28720",
+      "regionLabel": "인천광역시 옹진군",
+      "programIds": [
+        "g28720.bokjiro-WLF00005343"
+      ],
+      "programNames": [
+        "장애인 활동지원사 양성 지원 사업"
+      ],
+      "formId": "ordin-19748753",
+      "use": "main",
+      "formTitle": "별지 제1호서식",
+      "sourceMetadataTitle": "별지 제1호서식",
+      "verifiedDocumentTitle": "활동지원사 교육 지원 신청서 및 청구서",
+      "evidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1740625",
+      "evidenceNote": "옹진군 제3조는 장애인 가족을 둔 관내 주민, 제4조는 교육비·실비 지원, 제5조는 그 지원대상자의 제1호 제출을 정한다. 실제 원본은 신청자·장애인 가족·교육비·교통숙박 실비·개인계좌와 본인 동의를 받아 기관 양성사업 신청서가 아니라 교육받은 주민의 비용지원 신청이다. 동일 공식 법규 ID·별표키·flSeq와 실제 원본 SHA256·전체 본문 섹션을 대조했다.",
+      "checkedAt": "2026-10-18",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "sha256": "3dfa5c5a32a6d880d0146d13fa86f4a39dc759620124afbb9a99db3131de4123",
+      "bytes": 98304,
+      "signature": "d0cf11e0a1b11ae1",
+      "originalFormat": "hwp",
+      "originalTextScope": "all_body_sections_or_pages",
+      "textScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "BodyText/Section0"
+      ],
+      "reviewedParts": [
+        {
+          "number": "1",
+          "title": "활동지원사 교육 지원 신청서 및 청구서",
+          "use": "main",
+          "author": "활동지원사 교육을 받은 장애인 가족 주민"
+        }
+      ],
+      "role": "application",
+      "roleBasis": "옹진군 제3조는 장애인 가족을 둔 관내 주민, 제4조는 교육비·실비 지원, 제5조는 그 지원대상자의 제1호 제출을 정한다. 실제 원본은 신청자·장애인 가족·교육비·교통숙박 실비·개인계좌와 본인 동의를 받아 기관 양성사업 신청서가 아니라 교육받은 주민의 비용지원 신청이다.",
+      "roleEvidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1740625",
+      "roleCheckedAt": "2026-10-18",
+      "bodyEvidenceText": "제3조(지원대상) 활동지원사 양성 지원 대상은 장애인 가족을 둔 관내 주민으로 한다. 다만, 다른 법률 등에 의하여 활동지원사 자격 비용을 지원 받은 경우에는 지원하지 아니한다.\n제4조(지원기준) 옹진군수(이하 “군수”라 한다)는 예산의 범위안에서 활동지원사 교육비와 실비를 지원할 수 있다. 실비는 「옹진군 민간인에 대한 실비 보상조례」를 적용한다.\n제5조(비용의 신청 및 지급방법)① 지원대상자가 지원금을 받고자 하는 때에는 별지 제1호서식을 주소지 면장에게 제출하여야 한다.② 제1항의 지원신청서를 받은 면장은 신청서 검토와 사실여부 등을 확인하여 지원대상 적격자를 군수에게 보고하여야 한다.③ 군수는 면장이 추천한 자에 대하여 지원신청서 및 적격 여부를 검토하여 지원금을 지급하고, 그 결과를 신청자에게 통지하여야 한다.",
+      "independentBodyReview": true,
+      "condition": "교육비 및 실비 영수증을 첨부해 장애인 가족 주민이 교육지원금을 신청·청구.",
+      "displayTitle": "활동지원사 교육 지원 신청서 및 청구서"
+    },
+    {
+      "sourceKind": "ordin",
+      "lawTitle": "서울특별시 동작구 출산지원금 지급에 관한 조례",
+      "lawId": "1746909",
+      "annexId": "22581875",
+      "annexNumber": "000100",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=169188921&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C1%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EC%B6%9C%EC%82%B0%EC%84%9C%EB%B9%84%EC%8A%A4+%ED%86%B5%ED%95%A9%EC%B2%98%EB%A6%AC+%EC%8B%A0%EC%B2%AD%EC%84%9C",
+      "officialPdfUrl": null,
+      "dateKind": "effective",
+      "effectiveDate": "2022-11-10",
+      "regionCode": "11590",
+      "regionLabel": "서울특별시 동작구",
+      "programIds": [
+        "g11590.bokjiro-WLF00002628"
+      ],
+      "programNames": [
+        "동작출산축하금 및 출산축하용품"
+      ],
+      "formId": "ordin-22581875",
+      "use": "main",
+      "formTitle": "[별지 제1호서식] 출산서비스 통합처리 신청서",
+      "sourceMetadataTitle": "[별지 제1호서식] 출산서비스 통합처리 신청서",
+      "verifiedDocumentTitle": "출산 서비스 통합처리 신청서",
+      "evidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1746909",
+      "evidenceNote": "동작구 전체 원본의 동작출산축하금(2022.7.1 이후)·출산축하용품(2023.1.1 이후) 선택란을 읽었다. 제3~5조가 두 급여의 대상과 별지 제1호 제출을 정하고 실제 세 사업의 대상·신청절차에 일치한다. 백일용품 대여는 온라인 예약·배송 방식이며 원본에 대여 신청란이 없어 제외한다. 추가 검색한 보험료 사업은 현행 둘째이상인데 원본 보험란은 셋째이상만 있어 별도 확인 대상으로 남긴다. 동일 공식 법규 ID·별표키·flSeq와 실제 원본 SHA256·전체 본문 섹션을 대조했다.",
+      "checkedAt": "2026-10-18",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "sha256": "d5438a835acb4ebf8ac2e8e77f6fca88ca441926c4b5546d0f719f022f6ed2c8",
+      "bytes": 99237,
+      "signature": "504b030414000000",
+      "originalFormat": "hwpx",
+      "originalTextScope": "all_body_sections_or_pages",
+      "textScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "Contents/section0.xml"
+      ],
+      "reviewedParts": [
+        {
+          "number": "1",
+          "title": "출산 서비스 통합처리 신청서의 동작출산축하금·축하용품",
+          "use": "main",
+          "author": "출생아 부모 또는 보호자"
+        }
+      ],
+      "role": "application",
+      "roleBasis": "동작구 전체 원본의 동작출산축하금(2022.7.1 이후)·출산축하용품(2023.1.1 이후) 선택란을 읽었다. 제3~5조가 두 급여의 대상과 별지 제1호 제출을 정하고 실제 세 사업의 대상·신청절차에 일치한다. 백일용품 대여는 온라인 예약·배송 방식이며 원본에 대여 신청란이 없어 제외한다. 추가 검색한 보험료 사업은 현행 둘째이상인데 원본 보험란은 셋째이상만 있어 별도 확인 대상으로 남긴다.",
+      "roleEvidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1746909",
+      "roleCheckedAt": "2026-10-18",
+      "bodyEvidenceText": "제3조(지원대상자의 범위)① 동작출산축하금 지원대상자는 신생아의 출생신고일을 기준으로 6개월 전부터 신청일 현재까지 서울특별시 동작구(이하 “구”라 한다)에 주민등록을 두고 거주하는 부 또는 모로 하며, 신생아와 주민등록상 동일 세대원이어야 한다.② 동작출산축하용품의 지원대상자는 신청일 현재 구에 주민등록을 두고 거주하는 부 또는 모이며, 신생아와 주민등록상 동일 세대원이어야 한다.③ 제1항 및 제2항의 규정에도 불구하고 부모의 사망, 이혼 등의 사유로 부모가 신생아를 양육하지 않을 경우에는 구에 신생아와 주민등록이 같이 되어 있고 실제 거주하면서 사실상 양육하고 있는 사람(이하 “보호자”라 한다)을 지원대상자로 본다.④ 제1항에도 불구하고 신생아 출생신고일 기준 구에 주민등록을 두고 거주한 기간이 6개월 미만인 사람이 6개월 이상 계속해서 거주하면 그 이후부터 지원대상자가 된다.\n제4조(지원기준)① 서울특별시 동작구청장(이하 “구청장”이라 한다)은 자녀의 출산을 축하하기 위하여 동작출산축하금을 예산의 범위에서 다음 각 호에 따라 지원한다.1. 첫째 자녀: 30만원2. 둘째 자녀: 50만원3. 셋째 자녀: 100만원4. 넷째 자녀 이상: 200만원② 구청장은 출생아를 기준으로 예산의 범위에서 동작출산축하용품을 지원할 수 있다. 다만, 출생 자녀가 쌍둥이 이상일 경우 출생 자녀별로 각각 지원한다.③ 제1항에 따른 자녀 순위는 「민법」에 따라 친권자의 가족관계증명서의 자녀 순위를 기준으로 결정한다. 쌍둥이 이상일 경우 출생 자녀별로 각각 지급한다. 다만, 재혼 가정의 경우 전혼(前婚) 중의 자녀는 지원대상자와 주민등록상 동일한 세대에 등재된 경우에만 그 순서에 포함한다.④ 대상 자녀 친권자의 가족관계증명서에 기재된 사망하거나 입양한 자녀도 자녀 순위를 결정하는 대상에 포함한다.⑤ 국외에서 출산한 자녀의 지원은 「다문화가족지원법」 제2조제1호에 따른 다문화가족이 국외에서 출산한 경우에 제1항 및 제2항에 따른 지원을 한다.\n제5조(지원신청)① 동작출산축하금 및 동작출산축하용품 지원신청은 신생아의 부 또는 모(이하 “신청인”이라 한다)가 하여야 한다. 다만, 제3조제3항의 경우 보호자가 신청인이 된다.② 동작출산축하금 및 동작출산축하용품 지원대상자는 신생아 출생신고 후 1년 이내에 동장에게 별지 제1호서식의 출산 서비스 통합처리 신청서(이하 “신청서”라 한다)를 거주지 관할 동장에게 제출하여야 한다. 다만, 제3조제4항의 지원대상자의 경우 신청기한은 구 거주기간이 6개월이 되는 날로부터 1년 이내로 한다.",
+      "independentBodyReview": true,
+      "condition": "동작출산축하금 또는 동작출산축하용품 해당 항목을 선택. 백일용품 대여·신생아보험·전국공통 급여에는 사용하지 않음."
+    },
+    {
+      "sourceKind": "ordin",
+      "lawTitle": "서울특별시 동작구 출산지원금 지급에 관한 조례",
+      "lawId": "1746909",
+      "annexId": "22581875",
+      "annexNumber": "000100",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=169188921&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C1%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EC%B6%9C%EC%82%B0%EC%84%9C%EB%B9%84%EC%8A%A4+%ED%86%B5%ED%95%A9%EC%B2%98%EB%A6%AC+%EC%8B%A0%EC%B2%AD%EC%84%9C",
+      "officialPdfUrl": null,
+      "dateKind": "effective",
+      "effectiveDate": "2022-11-10",
+      "regionCode": "11590",
+      "regionLabel": "서울특별시 동작구",
+      "programIds": [
+        "g11590.gov24-319000000124"
+      ],
+      "programNames": [
+        "동작구 출산축하금 지원"
+      ],
+      "formId": "ordin-22581875",
+      "use": "main",
+      "formTitle": "[별지 제1호서식] 출산서비스 통합처리 신청서",
+      "sourceMetadataTitle": "[별지 제1호서식] 출산서비스 통합처리 신청서",
+      "verifiedDocumentTitle": "출산 서비스 통합처리 신청서",
+      "evidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1746909",
+      "evidenceNote": "동작구 전체 원본의 동작출산축하금(2022.7.1 이후)·출산축하용품(2023.1.1 이후) 선택란을 읽었다. 제3~5조가 두 급여의 대상과 별지 제1호 제출을 정하고 실제 세 사업의 대상·신청절차에 일치한다. 백일용품 대여는 온라인 예약·배송 방식이며 원본에 대여 신청란이 없어 제외한다. 추가 검색한 보험료 사업은 현행 둘째이상인데 원본 보험란은 셋째이상만 있어 별도 확인 대상으로 남긴다. 동일 공식 법규 ID·별표키·flSeq와 실제 원본 SHA256·전체 본문 섹션을 대조했다.",
+      "checkedAt": "2026-10-18",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "sha256": "d5438a835acb4ebf8ac2e8e77f6fca88ca441926c4b5546d0f719f022f6ed2c8",
+      "bytes": 99237,
+      "signature": "504b030414000000",
+      "originalFormat": "hwpx",
+      "originalTextScope": "all_body_sections_or_pages",
+      "textScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "Contents/section0.xml"
+      ],
+      "reviewedParts": [
+        {
+          "number": "1",
+          "title": "출산 서비스 통합처리 신청서의 동작출산축하금·축하용품",
+          "use": "main",
+          "author": "출생아 부모 또는 보호자"
+        }
+      ],
+      "role": "application",
+      "roleBasis": "동작구 전체 원본의 동작출산축하금(2022.7.1 이후)·출산축하용품(2023.1.1 이후) 선택란을 읽었다. 제3~5조가 두 급여의 대상과 별지 제1호 제출을 정하고 실제 세 사업의 대상·신청절차에 일치한다. 백일용품 대여는 온라인 예약·배송 방식이며 원본에 대여 신청란이 없어 제외한다. 추가 검색한 보험료 사업은 현행 둘째이상인데 원본 보험란은 셋째이상만 있어 별도 확인 대상으로 남긴다.",
+      "roleEvidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1746909",
+      "roleCheckedAt": "2026-10-18",
+      "bodyEvidenceText": "제3조(지원대상자의 범위)① 동작출산축하금 지원대상자는 신생아의 출생신고일을 기준으로 6개월 전부터 신청일 현재까지 서울특별시 동작구(이하 “구”라 한다)에 주민등록을 두고 거주하는 부 또는 모로 하며, 신생아와 주민등록상 동일 세대원이어야 한다.② 동작출산축하용품의 지원대상자는 신청일 현재 구에 주민등록을 두고 거주하는 부 또는 모이며, 신생아와 주민등록상 동일 세대원이어야 한다.③ 제1항 및 제2항의 규정에도 불구하고 부모의 사망, 이혼 등의 사유로 부모가 신생아를 양육하지 않을 경우에는 구에 신생아와 주민등록이 같이 되어 있고 실제 거주하면서 사실상 양육하고 있는 사람(이하 “보호자”라 한다)을 지원대상자로 본다.④ 제1항에도 불구하고 신생아 출생신고일 기준 구에 주민등록을 두고 거주한 기간이 6개월 미만인 사람이 6개월 이상 계속해서 거주하면 그 이후부터 지원대상자가 된다.\n제4조(지원기준)① 서울특별시 동작구청장(이하 “구청장”이라 한다)은 자녀의 출산을 축하하기 위하여 동작출산축하금을 예산의 범위에서 다음 각 호에 따라 지원한다.1. 첫째 자녀: 30만원2. 둘째 자녀: 50만원3. 셋째 자녀: 100만원4. 넷째 자녀 이상: 200만원② 구청장은 출생아를 기준으로 예산의 범위에서 동작출산축하용품을 지원할 수 있다. 다만, 출생 자녀가 쌍둥이 이상일 경우 출생 자녀별로 각각 지원한다.③ 제1항에 따른 자녀 순위는 「민법」에 따라 친권자의 가족관계증명서의 자녀 순위를 기준으로 결정한다. 쌍둥이 이상일 경우 출생 자녀별로 각각 지급한다. 다만, 재혼 가정의 경우 전혼(前婚) 중의 자녀는 지원대상자와 주민등록상 동일한 세대에 등재된 경우에만 그 순서에 포함한다.④ 대상 자녀 친권자의 가족관계증명서에 기재된 사망하거나 입양한 자녀도 자녀 순위를 결정하는 대상에 포함한다.⑤ 국외에서 출산한 자녀의 지원은 「다문화가족지원법」 제2조제1호에 따른 다문화가족이 국외에서 출산한 경우에 제1항 및 제2항에 따른 지원을 한다.\n제5조(지원신청)① 동작출산축하금 및 동작출산축하용품 지원신청은 신생아의 부 또는 모(이하 “신청인”이라 한다)가 하여야 한다. 다만, 제3조제3항의 경우 보호자가 신청인이 된다.② 동작출산축하금 및 동작출산축하용품 지원대상자는 신생아 출생신고 후 1년 이내에 동장에게 별지 제1호서식의 출산 서비스 통합처리 신청서(이하 “신청서”라 한다)를 거주지 관할 동장에게 제출하여야 한다. 다만, 제3조제4항의 지원대상자의 경우 신청기한은 구 거주기간이 6개월이 되는 날로부터 1년 이내로 한다.",
+      "independentBodyReview": true,
+      "condition": "동작출산축하금과 출생순위 항목을 선택."
+    },
+    {
+      "sourceKind": "ordin",
+      "lawTitle": "서울특별시 동작구 출산지원금 지급에 관한 조례",
+      "lawId": "1746909",
+      "annexId": "22581875",
+      "annexNumber": "000100",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=169188921&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C1%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EC%B6%9C%EC%82%B0%EC%84%9C%EB%B9%84%EC%8A%A4+%ED%86%B5%ED%95%A9%EC%B2%98%EB%A6%AC+%EC%8B%A0%EC%B2%AD%EC%84%9C",
+      "officialPdfUrl": null,
+      "dateKind": "effective",
+      "effectiveDate": "2022-11-10",
+      "regionCode": "11590",
+      "regionLabel": "서울특별시 동작구",
+      "programIds": [
+        "g11590.gov24-319000000164"
+      ],
+      "programNames": [
+        "동작구 출산축하용품 구입비 지원"
+      ],
+      "formId": "ordin-22581875",
+      "use": "main",
+      "formTitle": "[별지 제1호서식] 출산서비스 통합처리 신청서",
+      "sourceMetadataTitle": "[별지 제1호서식] 출산서비스 통합처리 신청서",
+      "verifiedDocumentTitle": "출산 서비스 통합처리 신청서",
+      "evidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1746909",
+      "evidenceNote": "동작구 전체 원본의 동작출산축하금(2022.7.1 이후)·출산축하용품(2023.1.1 이후) 선택란을 읽었다. 제3~5조가 두 급여의 대상과 별지 제1호 제출을 정하고 실제 세 사업의 대상·신청절차에 일치한다. 백일용품 대여는 온라인 예약·배송 방식이며 원본에 대여 신청란이 없어 제외한다. 추가 검색한 보험료 사업은 현행 둘째이상인데 원본 보험란은 셋째이상만 있어 별도 확인 대상으로 남긴다. 동일 공식 법규 ID·별표키·flSeq와 실제 원본 SHA256·전체 본문 섹션을 대조했다.",
+      "checkedAt": "2026-10-18",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "sha256": "d5438a835acb4ebf8ac2e8e77f6fca88ca441926c4b5546d0f719f022f6ed2c8",
+      "bytes": 99237,
+      "signature": "504b030414000000",
+      "originalFormat": "hwpx",
+      "originalTextScope": "all_body_sections_or_pages",
+      "textScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "Contents/section0.xml"
+      ],
+      "reviewedParts": [
+        {
+          "number": "1",
+          "title": "출산 서비스 통합처리 신청서의 동작출산축하금·축하용품",
+          "use": "main",
+          "author": "출생아 부모 또는 보호자"
+        }
+      ],
+      "role": "application",
+      "roleBasis": "동작구 전체 원본의 동작출산축하금(2022.7.1 이후)·출산축하용품(2023.1.1 이후) 선택란을 읽었다. 제3~5조가 두 급여의 대상과 별지 제1호 제출을 정하고 실제 세 사업의 대상·신청절차에 일치한다. 백일용품 대여는 온라인 예약·배송 방식이며 원본에 대여 신청란이 없어 제외한다. 추가 검색한 보험료 사업은 현행 둘째이상인데 원본 보험란은 셋째이상만 있어 별도 확인 대상으로 남긴다.",
+      "roleEvidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1746909",
+      "roleCheckedAt": "2026-10-18",
+      "bodyEvidenceText": "제3조(지원대상자의 범위)① 동작출산축하금 지원대상자는 신생아의 출생신고일을 기준으로 6개월 전부터 신청일 현재까지 서울특별시 동작구(이하 “구”라 한다)에 주민등록을 두고 거주하는 부 또는 모로 하며, 신생아와 주민등록상 동일 세대원이어야 한다.② 동작출산축하용품의 지원대상자는 신청일 현재 구에 주민등록을 두고 거주하는 부 또는 모이며, 신생아와 주민등록상 동일 세대원이어야 한다.③ 제1항 및 제2항의 규정에도 불구하고 부모의 사망, 이혼 등의 사유로 부모가 신생아를 양육하지 않을 경우에는 구에 신생아와 주민등록이 같이 되어 있고 실제 거주하면서 사실상 양육하고 있는 사람(이하 “보호자”라 한다)을 지원대상자로 본다.④ 제1항에도 불구하고 신생아 출생신고일 기준 구에 주민등록을 두고 거주한 기간이 6개월 미만인 사람이 6개월 이상 계속해서 거주하면 그 이후부터 지원대상자가 된다.\n제4조(지원기준)① 서울특별시 동작구청장(이하 “구청장”이라 한다)은 자녀의 출산을 축하하기 위하여 동작출산축하금을 예산의 범위에서 다음 각 호에 따라 지원한다.1. 첫째 자녀: 30만원2. 둘째 자녀: 50만원3. 셋째 자녀: 100만원4. 넷째 자녀 이상: 200만원② 구청장은 출생아를 기준으로 예산의 범위에서 동작출산축하용품을 지원할 수 있다. 다만, 출생 자녀가 쌍둥이 이상일 경우 출생 자녀별로 각각 지원한다.③ 제1항에 따른 자녀 순위는 「민법」에 따라 친권자의 가족관계증명서의 자녀 순위를 기준으로 결정한다. 쌍둥이 이상일 경우 출생 자녀별로 각각 지급한다. 다만, 재혼 가정의 경우 전혼(前婚) 중의 자녀는 지원대상자와 주민등록상 동일한 세대에 등재된 경우에만 그 순서에 포함한다.④ 대상 자녀 친권자의 가족관계증명서에 기재된 사망하거나 입양한 자녀도 자녀 순위를 결정하는 대상에 포함한다.⑤ 국외에서 출산한 자녀의 지원은 「다문화가족지원법」 제2조제1호에 따른 다문화가족이 국외에서 출산한 경우에 제1항 및 제2항에 따른 지원을 한다.\n제5조(지원신청)① 동작출산축하금 및 동작출산축하용품 지원신청은 신생아의 부 또는 모(이하 “신청인”이라 한다)가 하여야 한다. 다만, 제3조제3항의 경우 보호자가 신청인이 된다.② 동작출산축하금 및 동작출산축하용품 지원대상자는 신생아 출생신고 후 1년 이내에 동장에게 별지 제1호서식의 출산 서비스 통합처리 신청서(이하 “신청서”라 한다)를 거주지 관할 동장에게 제출하여야 한다. 다만, 제3조제4항의 지원대상자의 경우 신청기한은 구 거주기간이 6개월이 되는 날로부터 1년 이내로 한다.",
+      "independentBodyReview": true,
+      "condition": "동작출산축하용품 항목을 선택하고 육아용품 구입 영수증을 별도로 제출."
+    },
+    {
+      "sourceKind": "ordin",
+      "lawTitle": "울산광역시 북구 보훈명예수당 등 지급 조례",
+      "lawId": "1747555",
+      "annexId": "20812527",
+      "annexNumber": "000200",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=155891785&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C2%ED%98%B8%EC%84%9C%EC%8B%9D%5D%EC%82%AC%EB%A7%9D%EC%9C%84%EB%A1%9C%EA%B8%88+%EC%A7%80%EA%B8%89+%EC%8B%A0%EC%B2%AD%EC%84%9C",
+      "officialPdfUrl": null,
+      "dateKind": "effective",
+      "effectiveDate": "2022-11-03",
+      "regionCode": "31200",
+      "regionLabel": "울산광역시 북구",
+      "programIds": [
+        "g31200.bokjiro-WLF00003816"
+      ],
+      "programNames": [
+        "보훈명예수당 지원"
+      ],
+      "formId": "ordin-20812527",
+      "use": "conditional",
+      "formTitle": "[별지 제2호서식]사망위로금 지급 신청서",
+      "sourceMetadataTitle": "[별지 제2호서식]사망위로금 지급 신청서",
+      "verifiedDocumentTitle": "사망위로금 지급 신청서",
+      "evidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1747555",
+      "evidenceNote": "울산 북구 제6조제2항은 참전유공자의 법정상속인이 별지 제2호를 제출하도록 정한다. 실제 원본의 사망자·유족관계·유족확인·계좌를 확인했고 사이트의 보훈명예수당 지원 상세에 참전유공자 사망위로금20만원이 명시돼 해당 부분에만 연결한다. 동일 공식 법규 ID·별표키·flSeq와 실제 원본 SHA256·전체 본문 섹션을 대조했다.",
+      "checkedAt": "2026-10-18",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "sha256": "391ffe4593ae6870dbe3ea0834db41e643c5dacd6fb004663b0e4c3a1c331e88",
+      "bytes": 53760,
+      "signature": "d0cf11e0a1b11ae1",
+      "originalFormat": "hwp",
+      "originalTextScope": "all_body_sections_or_pages",
+      "textScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "BodyText/Section0"
+      ],
+      "reviewedParts": [
+        {
+          "number": "2",
+          "title": "참전유공자 사망위로금 지급 신청서",
+          "use": "conditional",
+          "author": "사망 참전유공자의 법정상속인 등"
+        }
+      ],
+      "role": "application",
+      "roleBasis": "울산 북구 제6조제2항은 참전유공자의 법정상속인이 별지 제2호를 제출하도록 정한다. 실제 원본의 사망자·유족관계·유족확인·계좌를 확인했고 사이트의 보훈명예수당 지원 상세에 참전유공자 사망위로금20만원이 명시돼 해당 부분에만 연결한다.",
+      "roleEvidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1747555",
+      "roleCheckedAt": "2026-10-18",
+      "bodyEvidenceText": "제3조(지원대상) 지원대상은 지급일  기준 울산광역시 북구에 주소를 두고 거주하는 국가보훈대상자로 다음 각 호의 어느 하나에 해당하는 사람으로 한다.1.「국가유공자등 예우 및 지원에 관한 법률」의 적용을 받는 사람2.「특수임무유공자 예우 및 단체설립에 관한 법률」의 적용을 받는 사람3.「5.18민주유공자예우 및 단체설립에 관한 법률」의 적용을 받는 사람 <개정 22.11.3.>4.「보훈보상대상자 지원에 관한 법률」의 적용을 받는 사람5.「고엽제후유의증 등 환자지원 및 단체설립에 관한 법률」의 적용을 받는 사람 <신설 21.12.23.>[전문개정 17.12.14.]\n제6조(지급방법<개정 22.11.3.>)① 명예수당을 지급받고자 하는 사람은 별지 제1호서식에 따라 지급 신청서를 구청장에게 제출하여야 하며, 구청장은 명예수당을 매월 지급대상자가 지정하는 예금계좌에 입금하여 지급한다. <개정 12. 12. 24, 15.8.10, 16.3.9, 17.12.14. 21.6.17., 22.11.3.>② 사망위로금을 지급받고자 하는 법정상속인은 별지 제2호서식의 사망위로금 지급 신청서를 참전유공자의 사망일로부터 1년 이내에 구청장에게 제출하여야 한다. 다만, 구비서류 중「전자정부법 」제36조제1항에 따른 행정정보의 공동이용을 통하여 확인할 수 있는 주민등록등본 또는 가족관계증명서 등은 첨부를 생략할 수 있다. <개정 12. 12. 24, 17.12.14>③ 사망위로금을 지급받을 대상 및 순위에 대하여는「국가유공자 등 예우 및 지원에 관한 법률」 제13조를 준용한다. 이 경우 같은 법 제13조에 따른 유족이 없을 때에는 장제를 행하는 사람에게 지급할 수 있다. <개정 12. 12. 24>④ 명예수당은 신청한 날이 속하는 달부터 지급중단 사유가 발생한 날이 속하는 달까지 지급한다. 다만, 신청일이 속한 달에 전 거주지에서 명예수당을 지급받은 지급대상자는 그달을 제외하고 지급한다. <개정 14.3.17, 2015.8.10.>",
+      "independentBodyReview": true,
+      "condition": "포괄 보훈명예수당 사업 중 참전유공자 사망위로금 신청용. 월별 명예수당 신청서는 아님."
+    },
+    {
+      "sourceKind": "ordin",
+      "lawTitle": "울산광역시 남구 출산ㆍ양육 지원에 관한 조례 시행규칙",
+      "lawId": "1757841",
+      "annexId": "22767699",
+      "annexNumber": "000100",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=170049961&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C1%ED%98%B8+%EC%84%9C%EC%8B%9D%5D+%EC%B6%9C%EC%82%B0%EC%96%91%EC%9C%A1%EC%9E%A5%EB%A0%A4%EA%B8%88+%EC%A7%80%EA%B8%89%EC%8B%A0%EC%B2%AD%EC%84%9C",
+      "officialPdfUrl": null,
+      "dateKind": "effective",
+      "effectiveDate": "2022-12-16",
+      "regionCode": "31140",
+      "regionLabel": "울산광역시 남구",
+      "programIds": [
+        "g31140.gov24-370000000113"
+      ],
+      "programNames": [
+        "출산·양육 장려금품 지원"
+      ],
+      "formId": "ordin-22767699",
+      "use": "main",
+      "formTitle": "[별지 제1호 서식] 출산양육장려금 지급신청서",
+      "sourceMetadataTitle": "[별지 제1호 서식] 출산양육장려금 지급신청서",
+      "verifiedDocumentTitle": "출산양육장려금품 지급신청서",
+      "evidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1757841",
+      "evidenceNote": "울산 남구 시행규칙 제3조제3항이 출산양육장려금품에 제1호 제출을 지정한다. 실제 원본의 부모·출생아·순위·물품배송지·신청금액·계좌가 장려금품 사업과 일치한다. 교통비는 제6·7조에서 별도의 신청서를 요구하고 본 원본에 교통비 항목이 없어 맘편한교통비 후보는 제외한다. 동일 공식 법규 ID·별표키·flSeq와 실제 원본 SHA256·전체 본문 섹션을 대조했다.",
+      "checkedAt": "2026-10-18",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "sha256": "59744453c8514d7e7ffc29e26274715c77e543e08ec5ac7341616a98624a7f74",
+      "bytes": 19456,
+      "signature": "d0cf11e0a1b11ae1",
+      "originalFormat": "hwp",
+      "originalTextScope": "all_body_sections_or_pages",
+      "textScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "BodyText/Section0"
+      ],
+      "reviewedParts": [
+        {
+          "number": "1",
+          "title": "출산양육장려금품 지급신청서",
+          "use": "main",
+          "author": "출생아 부모 또는 보호자"
+        }
+      ],
+      "role": "application",
+      "roleBasis": "울산 남구 시행규칙 제3조제3항이 출산양육장려금품에 제1호 제출을 지정한다. 실제 원본의 부모·출생아·순위·물품배송지·신청금액·계좌가 장려금품 사업과 일치한다. 교통비는 제6·7조에서 별도의 신청서를 요구하고 본 원본에 교통비 항목이 없어 맘편한교통비 후보는 제외한다.",
+      "roleEvidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1757841",
+      "roleCheckedAt": "2026-10-18",
+      "bodyEvidenceText": "제2조(출산양육장려금품 지원대상)① 「울산광역시 남구 출산ㆍ양육 지원에 관한 조례」(이하 “조례”라 한다) 제3조제1항에 따른 출산양육장려금품 지원대상자(이하 “지원대상자”라 한다)는 신생아 또는 영아의 출생일 현재 1개월 이상 울산광역시 남구(이하 “구”라 한다)에 주민등록이 되어 있고 실제 거주하는 신생아 또는 영아의 부모로 한다.<개정 2017.12.29., 2022.12.16.>② 제1항에도 불구하고 신생아 또는 영아가 부모의 사망, 이혼, 직업 등의 이유로 부모가 아닌 사람과 거주하는 경우에는 주민등록이 같이 되어 있고 사실상 양육하는 보호자로 한다. <개정 2022.12.16.><조제목 개정 2022.12.16.>\n제3조(지원신청 등)① 출산양육장려금품 지원신청인(이하 “신청인”이라 한다)은 신생아나 영아의 부모가 된다. 다만, 제2조제2항의 경우에는 보호자가 신청인이 된다.<개정 2017.12.29.>② 출산양육장려금품 지원은 부모 또는 보호자의 신청에 따른다.<개정 2017.12.29.>③ 거주지 관할 동장(이하 “동장”이라 한다)은 출생신고서가 접수되면 지원대상 여부를 확인하여 별지 제1호서식의 출산양육장려금품 지원신청서(이하 “신청서”라 한다)와 구비서류를 신청인에게 알려주고 제출하도록 하여야 한다.<개정 2017.12.29., 2020.10.8. 2022.12.16.>④ 신청인이 「임신ㆍ출산관련 서비스 통합처리에 관한 규정」에 따라 출산 통합 처리를 신청하는 경우에는 별지 제5호서식의 출산 서비스 통합처리 신청서로 신청할 수 있다.<신설 2016.7.15.><개정 2020.10.8., 2022.12.16.>⑤ 제3항에 따른 구비서류는 다음과 같다.<개정 2016.7.15.>1. 예금통장 사본 1부2. 제2조제2항의 경우에는 입증서류 <개정 2017.12.29.>⑥ 지원대상자는 지원신청 자격취득 후 3개월 이내에 동장에게 신청서를 제출하여야 한다. 다만, 다음 각 호의 어느 하나에 해당하는 경우에는 별지 제4호서식을 첨부하여 12개월 이내까지 신청할 수 있다. <개정 2016.7.15, 2017.1.5>1. 보호자 또는 출생아의 사고ㆍ질병으로 인한 장기 입원치료2. 자연재해 및 천재지변3. 그 밖에 울산광역시 남구청장(이하 \"구청장\"이라 한다)이 인정하는 경우 <개정 2022.12.16.><종전의 제4조에서 이동 2022.12.16.>\n제6조(임산부 및 영아 가정을 위한 교통비 지원대상)① 조례 제3조제3호에 따른 임산부 및 영아 가정을 위한 교통비(이하 “교통비”라 한다) 지원대상자는 임신 16주부터 출산일까지의 임산부 또는 영아의 부모로서 신청일 기준 1개월 이전부터 계속하여 구에 주민등록을 두고 실제 거주하는 사람으로 한다.② 제1항에도 불구하고 영아가 부모의 사망, 이혼 등의 이유로 부모가 아닌 사람과 거주하는 경우에는 주민등록이 같이 되어 있고 사실상 양육하는 보호자로 한다.<신설 2022.12.16.>\n제7조(지원신청 등)① 교통비를 지원받고자 하는 임산부와 영아의 부모 또는 보호자는 별도의 신청서를 구청장에게 제출하여야 한다.② 구청장은 지원대상이 아닌 사람이 거짓 등으로 교통비를 지원받은 것이 확인되었을 때에는 즉시 환수하여야 한다.<신설 2022.12.16.>",
+      "independentBodyReview": true
+    },
+    {
+      "sourceKind": "ordin",
+      "lawTitle": "울산광역시 남구 출산ㆍ양육 지원에 관한 조례 시행규칙",
+      "lawId": "1757841",
+      "annexId": "22767745",
+      "annexNumber": "000400",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=170049967&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C4%ED%98%B8+%EC%84%9C%EC%8B%9D%5D+%EC%82%AC%EC%9C%A0%EC%84%9C",
+      "officialPdfUrl": null,
+      "dateKind": "effective",
+      "effectiveDate": "2022-12-16",
+      "regionCode": "31140",
+      "regionLabel": "울산광역시 남구",
+      "programIds": [
+        "g31140.gov24-370000000113"
+      ],
+      "programNames": [
+        "출산·양육 장려금품 지원"
+      ],
+      "formId": "ordin-22767745",
+      "use": "conditional",
+      "formTitle": "[별지 제4호 서식] 사유서",
+      "sourceMetadataTitle": "[별지 제4호 서식] 사유서",
+      "verifiedDocumentTitle": "출산양육장려금품 기한 내 미신청 사유서",
+      "evidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1757841",
+      "evidenceNote": "울산 남구 시행규칙 제3조제6항은 장기입원·재해 등으로3개월 내 신청하지 못하면 별지 제4호를 첨부해12개월 이내 신청할 수 있도록 한다. 실제 원본의 신청일·출생일·기한내 미신청 사유·보호자 서명을 확인하여 해당 장려금품의 예외 신청 첨부로 연결한다. 교통비의 신청 사유서가 아니다. 동일 공식 법규 ID·별표키·flSeq와 실제 원본 SHA256·전체 본문 섹션을 대조했다.",
+      "checkedAt": "2026-10-18",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "sha256": "745a36de3bce77c5f1b75b8e860c2a4a4f1666070831d93cd9a078793e161c41",
+      "bytes": 15872,
+      "signature": "d0cf11e0a1b11ae1",
+      "originalFormat": "hwp",
+      "originalTextScope": "all_body_sections_or_pages",
+      "textScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "BodyText/Section0"
+      ],
+      "reviewedParts": [
+        {
+          "number": "4",
+          "title": "사유서",
+          "use": "conditional",
+          "author": "출생아 부모 또는 보호자"
+        }
+      ],
+      "role": "supporting",
+      "roleBasis": "울산 남구 시행규칙 제3조제6항은 장기입원·재해 등으로3개월 내 신청하지 못하면 별지 제4호를 첨부해12개월 이내 신청할 수 있도록 한다. 실제 원본의 신청일·출생일·기한내 미신청 사유·보호자 서명을 확인하여 해당 장려금품의 예외 신청 첨부로 연결한다. 교통비의 신청 사유서가 아니다.",
+      "roleEvidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1757841",
+      "roleCheckedAt": "2026-10-18",
+      "bodyEvidenceText": "제3조(지원신청 등)① 출산양육장려금품 지원신청인(이하 “신청인”이라 한다)은 신생아나 영아의 부모가 된다. 다만, 제2조제2항의 경우에는 보호자가 신청인이 된다.<개정 2017.12.29.>② 출산양육장려금품 지원은 부모 또는 보호자의 신청에 따른다.<개정 2017.12.29.>③ 거주지 관할 동장(이하 “동장”이라 한다)은 출생신고서가 접수되면 지원대상 여부를 확인하여 별지 제1호서식의 출산양육장려금품 지원신청서(이하 “신청서”라 한다)와 구비서류를 신청인에게 알려주고 제출하도록 하여야 한다.<개정 2017.12.29., 2020.10.8. 2022.12.16.>④ 신청인이 「임신ㆍ출산관련 서비스 통합처리에 관한 규정」에 따라 출산 통합 처리를 신청하는 경우에는 별지 제5호서식의 출산 서비스 통합처리 신청서로 신청할 수 있다.<신설 2016.7.15.><개정 2020.10.8., 2022.12.16.>⑤ 제3항에 따른 구비서류는 다음과 같다.<개정 2016.7.15.>1. 예금통장 사본 1부2. 제2조제2항의 경우에는 입증서류 <개정 2017.12.29.>⑥ 지원대상자는 지원신청 자격취득 후 3개월 이내에 동장에게 신청서를 제출하여야 한다. 다만, 다음 각 호의 어느 하나에 해당하는 경우에는 별지 제4호서식을 첨부하여 12개월 이내까지 신청할 수 있다. <개정 2016.7.15, 2017.1.5>1. 보호자 또는 출생아의 사고ㆍ질병으로 인한 장기 입원치료2. 자연재해 및 천재지변3. 그 밖에 울산광역시 남구청장(이하 \"구청장\"이라 한다)이 인정하는 경우 <개정 2022.12.16.><종전의 제4조에서 이동 2022.12.16.>\n제7조(지원신청 등)① 교통비를 지원받고자 하는 임산부와 영아의 부모 또는 보호자는 별도의 신청서를 구청장에게 제출하여야 한다.② 구청장은 지원대상이 아닌 사람이 거짓 등으로 교통비를 지원받은 것이 확인되었을 때에는 즉시 환수하여야 한다.<신설 2022.12.16.>",
+      "independentBodyReview": true,
+      "condition": "장기입원·천재지변 등 시행규칙 제3조제6항의 사유로 정규 신청기한을 넘겨12개월 이내 장려금품을 신청하는 경우에 첨부."
+    },
+    {
+      "sourceKind": "ordin",
+      "lawTitle": "울산광역시 남구 출산ㆍ양육 지원에 관한 조례 시행규칙",
+      "lawId": "1757841",
+      "annexId": "22767747",
+      "annexNumber": "000500",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=170049969&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C5%ED%98%B8+%EC%84%9C%EC%8B%9D%5D%EC%B6%9C%EC%82%B0+%EC%84%9C%EB%B9%84%EC%8A%A4+%ED%86%B5%ED%95%A9%EC%B2%98%EB%A6%AC+%EC%8B%A0%EC%B2%AD%EC%84%9C",
+      "officialPdfUrl": null,
+      "dateKind": "effective",
+      "effectiveDate": "2022-12-16",
+      "regionCode": "31140",
+      "regionLabel": "울산광역시 남구",
+      "programIds": [
+        "g31140.gov24-370000000113"
+      ],
+      "programNames": [
+        "출산·양육 장려금품 지원"
+      ],
+      "formId": "ordin-22767747",
+      "use": "main",
+      "formTitle": "[별지 제5호 서식]출산 서비스 통합처리 신청서",
+      "sourceMetadataTitle": "[별지 제5호 서식]출산 서비스 통합처리 신청서",
+      "verifiedDocumentTitle": "출산 서비스 통합처리 신청서",
+      "evidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1757841",
+      "evidenceNote": "울산 남구 시행규칙 제3조제4항은 제1호 대신 통합신청 시 제5호를 사용할 수 있도록 한다. 원본의 울산남구 자체 출산양육장려금품·첫째~넷째 이상·축하용품 배송지와 서명을 확인했다. 맘편한교통비는 제6·7조의 별도 신청으로 제5호에도 해당란이 없다. 동일 공식 법규 ID·별표키·flSeq와 실제 원본 SHA256·전체 본문 섹션을 대조했다.",
+      "checkedAt": "2026-10-18",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "sha256": "2de9e312334fc4f0a2edd228e144fdd062abec5774ef73108f9ee8663234ba4d",
+      "bytes": 29184,
+      "signature": "d0cf11e0a1b11ae1",
+      "originalFormat": "hwp",
+      "originalTextScope": "all_body_sections_or_pages",
+      "textScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "BodyText/Section0"
+      ],
+      "reviewedParts": [
+        {
+          "number": "5",
+          "title": "출산 서비스 통합처리 신청서의 울산남구 장려금품",
+          "use": "main",
+          "author": "출생아 부모 또는 보호자"
+        }
+      ],
+      "role": "application",
+      "roleBasis": "울산 남구 시행규칙 제3조제4항은 제1호 대신 통합신청 시 제5호를 사용할 수 있도록 한다. 원본의 울산남구 자체 출산양육장려금품·첫째~넷째 이상·축하용품 배송지와 서명을 확인했다. 맘편한교통비는 제6·7조의 별도 신청으로 제5호에도 해당란이 없다.",
+      "roleEvidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1757841",
+      "roleCheckedAt": "2026-10-18",
+      "bodyEvidenceText": "제2조(출산양육장려금품 지원대상)① 「울산광역시 남구 출산ㆍ양육 지원에 관한 조례」(이하 “조례”라 한다) 제3조제1항에 따른 출산양육장려금품 지원대상자(이하 “지원대상자”라 한다)는 신생아 또는 영아의 출생일 현재 1개월 이상 울산광역시 남구(이하 “구”라 한다)에 주민등록이 되어 있고 실제 거주하는 신생아 또는 영아의 부모로 한다.<개정 2017.12.29., 2022.12.16.>② 제1항에도 불구하고 신생아 또는 영아가 부모의 사망, 이혼, 직업 등의 이유로 부모가 아닌 사람과 거주하는 경우에는 주민등록이 같이 되어 있고 사실상 양육하는 보호자로 한다. <개정 2022.12.16.><조제목 개정 2022.12.16.>\n제3조(지원신청 등)① 출산양육장려금품 지원신청인(이하 “신청인”이라 한다)은 신생아나 영아의 부모가 된다. 다만, 제2조제2항의 경우에는 보호자가 신청인이 된다.<개정 2017.12.29.>② 출산양육장려금품 지원은 부모 또는 보호자의 신청에 따른다.<개정 2017.12.29.>③ 거주지 관할 동장(이하 “동장”이라 한다)은 출생신고서가 접수되면 지원대상 여부를 확인하여 별지 제1호서식의 출산양육장려금품 지원신청서(이하 “신청서”라 한다)와 구비서류를 신청인에게 알려주고 제출하도록 하여야 한다.<개정 2017.12.29., 2020.10.8. 2022.12.16.>④ 신청인이 「임신ㆍ출산관련 서비스 통합처리에 관한 규정」에 따라 출산 통합 처리를 신청하는 경우에는 별지 제5호서식의 출산 서비스 통합처리 신청서로 신청할 수 있다.<신설 2016.7.15.><개정 2020.10.8., 2022.12.16.>⑤ 제3항에 따른 구비서류는 다음과 같다.<개정 2016.7.15.>1. 예금통장 사본 1부2. 제2조제2항의 경우에는 입증서류 <개정 2017.12.29.>⑥ 지원대상자는 지원신청 자격취득 후 3개월 이내에 동장에게 신청서를 제출하여야 한다. 다만, 다음 각 호의 어느 하나에 해당하는 경우에는 별지 제4호서식을 첨부하여 12개월 이내까지 신청할 수 있다. <개정 2016.7.15, 2017.1.5>1. 보호자 또는 출생아의 사고ㆍ질병으로 인한 장기 입원치료2. 자연재해 및 천재지변3. 그 밖에 울산광역시 남구청장(이하 \"구청장\"이라 한다)이 인정하는 경우 <개정 2022.12.16.><종전의 제4조에서 이동 2022.12.16.>\n제6조(임산부 및 영아 가정을 위한 교통비 지원대상)① 조례 제3조제3호에 따른 임산부 및 영아 가정을 위한 교통비(이하 “교통비”라 한다) 지원대상자는 임신 16주부터 출산일까지의 임산부 또는 영아의 부모로서 신청일 기준 1개월 이전부터 계속하여 구에 주민등록을 두고 실제 거주하는 사람으로 한다.② 제1항에도 불구하고 영아가 부모의 사망, 이혼 등의 이유로 부모가 아닌 사람과 거주하는 경우에는 주민등록이 같이 되어 있고 사실상 양육하는 보호자로 한다.<신설 2022.12.16.>\n제7조(지원신청 등)① 교통비를 지원받고자 하는 임산부와 영아의 부모 또는 보호자는 별도의 신청서를 구청장에게 제출하여야 한다.② 구청장은 지원대상이 아닌 사람이 거짓 등으로 교통비를 지원받은 것이 확인되었을 때에는 즉시 환수하여야 한다.<신설 2022.12.16.>",
+      "independentBodyReview": true,
+      "condition": "울산남구 자체서비스의 출산양육장려금품·축하용품을 통합 신청하는 경우. 맘편한교통비나 다른 전국공통급여 신청서로 확장하지 않음."
+    },
+    {
+      "sourceKind": "ordin",
+      "lawTitle": "영양군 노인 목욕비 및 이ㆍ미용비 지원에 관한 조례",
+      "lawId": "1762287",
+      "annexId": "20109801",
+      "annexNumber": "000200",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=152486713&flNm=%EB%B3%84%EC%A7%80+%EC%A0%9C2%ED%98%B8%EC%84%9C%EC%8B%9D",
+      "officialPdfUrl": null,
+      "dateKind": "effective",
+      "effectiveDate": "2022-12-23",
+      "regionCode": "47760",
+      "regionLabel": "경상북도 영양군",
+      "programIds": [
+        "g47760.gov24-517000000106"
+      ],
+      "programNames": [
+        "무료 목욕 및 이미용 바우처 지급"
+      ],
+      "formId": "ordin-20109801",
+      "use": "conditional",
+      "formTitle": "별지 제2호서식",
+      "sourceMetadataTitle": "별지 제2호서식",
+      "verifiedDocumentTitle": "어르신복지카드 재발급 신청서",
+      "evidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1762287",
+      "evidenceNote": "영양군 제4조제3항은 카드 분실·훼손 때 별지 제2호로 재발급 신청하도록 한다. 실제 원본의 본인 인적사항·재발급사유·서명·훼손카드 반납 안내가 해당 목욕·이미용 바우처 이용자의 신청이다. 신규 일괄지급과 구별해 조건부 연결한다. 동일 공식 법규 ID·별표키·flSeq와 실제 원본 SHA256·전체 본문 섹션을 대조했다.",
+      "checkedAt": "2026-10-18",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "sha256": "909fde4409f699c7064fab4765e38507ed926890d1c9699be60a6da5ffff8b1e",
+      "bytes": 9216,
+      "signature": "d0cf11e0a1b11ae1",
+      "originalFormat": "hwp",
+      "originalTextScope": "all_body_sections_or_pages",
+      "textScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "BodyText/Section0"
+      ],
+      "reviewedParts": [
+        {
+          "number": "2",
+          "title": "어르신복지카드 재발급 신청서",
+          "use": "conditional",
+          "author": "어르신복지카드 이용자"
+        }
+      ],
+      "role": "application",
+      "roleBasis": "영양군 제4조제3항은 카드 분실·훼손 때 별지 제2호로 재발급 신청하도록 한다. 실제 원본의 본인 인적사항·재발급사유·서명·훼손카드 반납 안내가 해당 목욕·이미용 바우처 이용자의 신청이다. 신규 일괄지급과 구별해 조건부 연결한다.",
+      "roleEvidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1762287",
+      "roleCheckedAt": "2026-10-18",
+      "bodyEvidenceText": "제3조(지원내용 등) 노인 목욕비 및 이ㆍ미용비(이하 “지원금”이라 한다)는 영양군 관내 목욕장업소 및 이ㆍ미용업소를 이용할 수 있는 별지 제1호서식의 어르신복지카드(이하 “카드”라 한다)를 지급하며, 지원내용은 다음 각 호와 같다. <개정 2022.12.23.>1. 군수는 지원대상자에게 예산의 범위에서 일정한 금액을 카드에 충전하여 지원하며, 카드한도액을 초과하는 금액은 본인 부담으로 한다. <개정 2022.12.23.>2. 지원금은 반기별로 지급한다.3. 지원금은 소급하여 지급할 수 없다.\n제4조(지원절차)① 지원대상자에 대하여는 별도의 신청 없이 읍ㆍ면장이 행정전산망을 활용하여 매 반기마다 지원대상자를 조사하여 군수에게 보고하며, 군수는 조사결과에 따라 지원대상자를 결정한다. <개정 2022.12.23.>② 군수는 카드를 읍ㆍ면장에게 배부하고, 읍ㆍ면장은 지원대상자에게 카드를 교부한다.③ 카드를 분실하거나 훼손된 경우는 별지 제2호서식에 따라 재발급을 신청하여야 한다. <개정 2022.12.23.>",
+      "independentBodyReview": true,
+      "condition": "이미 지원받는 카드의 분실·훼손 재발급 신청용. 신규 지원 대상자 신청서가 아님.",
+      "displayTitle": "어르신복지카드 재발급 신청서"
+    },
+    {
+      "sourceKind": "ordin",
+      "lawTitle": "청주시 출산장려 및 양육에 대한 지원 조례",
+      "lawId": "1762397",
+      "annexId": "14379643",
+      "annexNumber": "000100",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=123058967&flNm=%5B%EB%B3%84%EC%A7%80+%EC%84%9C%EC%8B%9D%5D+%EC%96%91%EC%9C%A1%EC%A7%80%EC%9B%90%EA%B8%88+%EC%8B%A0%EC%B2%AD%EC%84%9C",
+      "officialPdfUrl": null,
+      "dateKind": "effective",
+      "effectiveDate": "2022-12-23",
+      "regionCode": "43110",
+      "regionLabel": "충청북도 청주시",
+      "programIds": [
+        "g43110.gov24-571000000116"
+      ],
+      "programNames": [
+        "셋째 자녀 이상 양육지원금 지원"
+      ],
+      "formId": "ordin-14379643",
+      "use": "conditional",
+      "formTitle": "[별지 서식] 양육지원금 신청서",
+      "sourceMetadataTitle": "[별지 서식] 양육지원금 신청서",
+      "verifiedDocumentTitle": "양육지원금 신청서",
+      "evidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1762397",
+      "evidenceNote": "청주시 제4~6조와 실제 별지의 셋째아 이상 인적사항·출생/전입일·보호자·계좌를 확인했다. 사이트는2022년말 이전 출생아의60개월까지 지원으로 남아 있어 과거 연도 표기만으로 폐지로 판단하지 않았다. 2023년 이후 통합된 출산육아수당에는 이 원본을 확대하지 않는다. 동일 공식 법규 ID·별표키·flSeq와 실제 원본 SHA256·전체 본문 섹션을 대조했다.",
+      "checkedAt": "2026-10-18",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "sha256": "08b71a27cc68f0ffa39c93679bf48d5b971a2c18423661fdb293c94282e9b7d2",
+      "bytes": 162304,
+      "signature": "d0cf11e0a1b11ae1",
+      "originalFormat": "hwp",
+      "originalTextScope": "all_body_sections_or_pages",
+      "textScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "BodyText/Section0"
+      ],
+      "reviewedParts": [
+        {
+          "number": "별지",
+          "title": "양육지원금 신청서",
+          "use": "conditional",
+          "author": "셋째 이상 대상 자녀의 부모 또는 보호자"
+        }
+      ],
+      "role": "application",
+      "roleBasis": "청주시 제4~6조와 실제 별지의 셋째아 이상 인적사항·출생/전입일·보호자·계좌를 확인했다. 사이트는2022년말 이전 출생아의60개월까지 지원으로 남아 있어 과거 연도 표기만으로 폐지로 판단하지 않았다. 2023년 이후 통합된 출산육아수당에는 이 원본을 확대하지 않는다.",
+      "roleEvidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1762397",
+      "roleCheckedAt": "2026-10-18",
+      "bodyEvidenceText": "제4조(지원대상의 범위) ① 양육지원금은 다음 각 호의 어느 하나에 해당하는 경우 셋째아 이상의 대상자에게 지원한다. <개정 2022.12.23., 시행 2023.1.1.>1. 신생아가 출생신고일 기준 청주시(이하 “시”라 한다)에 주민등록상 주소를 둔 부 또는 모와 주민등록을 같이 하는 경우  <개정 2017.9.29.>2. 신생아가 출생 후 12개월 이내 입양되어 입양일 기준 시에 주민등록상 주소를 둔 부 또는 모와 주민등록을 같이 하는 경우<개정 2015.12.24.>② 양육지원금은 제1항제1호 및 제2호 기준을 충족한 셋째 이상의 대상자가 출생 후 60개월이 도래한 달까지 지원하고, 시에 전입하는 60개월 이하 셋째 이상의 대상자는 전입신고한 달부터 60개월이 도래한 달까지 지원한다.  <개정 2017.7.29.>③ 신생아의 출생순서는 가족관계등록부의 자녀 순서로 하되, 재혼가정의 경우 첫째아와 둘째아가 주민등록상 동일 주소로 되어 있는 셋째아 이상의 부 또는 모에게 지급한다. <신설 2016.7.15.>  <개정 2017.9.29.> <개정 2022.12.23., 시행 2023.1.1.>④ 이 조례 외의 다른 규정에 따라 출산장려와 양육에 관한 지원을 받는 자에게는 지원하지 아니할 수 있다. <개정 2016.7.15.>\n제5조(신청인) ① 양육지원금의 신청인은 출생아의 부 또는 모가 된다. <개정 2022.12.23.>② 제4조제1항제2호 및 같은 조 제2항의 경우에는 신생아와 주민등록이 같이 되어 있고 사실상 양육하는 보호자가 신청인이 될 수 있다.\n제6조(신청절차) 양육지원금의 신청은 제5조에 따라 신청인이 별지 제1호서식 또는 행정안전부예규 「임신ㆍ출산 관련 서비스 통합처리에 관한 규정」에 따른 출산서비스 통합처리 신청서를 읍·면·동장에게 제출하여야 한다. <개정 2016.7.15. 2017.9.29. 2022.12.23.>",
+      "independentBodyReview": true,
+      "condition": "사이트 안내의2022.12.31 이전 출생 셋째 이상 자녀 중60개월 지원기간 등에 해당하는 경우. 2023년 이후 출산육아수당 신청에는 사용하지 않음."
+    },
+    {
+      "sourceKind": "ordin",
+      "lawTitle": "보성군 출산장려 및 양육지원 등에 관한 조례",
+      "lawId": "1764055",
+      "annexId": "21655295",
+      "annexNumber": "000100",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=162357975&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C1%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EC%B6%9C%EC%82%B0+%EC%84%9C%EB%B9%84%EC%8A%A4+%ED%86%B5%ED%95%A9%EC%B2%98%EB%A6%AC+%EC%8B%A0%EC%B2%AD%EC%84%9C",
+      "officialPdfUrl": null,
+      "dateKind": "effective",
+      "effectiveDate": "2023-01-01",
+      "regionCode": "12750",
+      "regionLabel": "전남광주통합특별시 보성군",
+      "programIds": [
+        "g12750.gov24-489000000107"
+      ],
+      "programNames": [
+        "출산장려 및 양육지원금 지원"
+      ],
+      "formId": "ordin-21655295",
+      "use": "main",
+      "formTitle": "[별지 제1호서식] 출산 서비스 통합처리 신청서",
+      "sourceMetadataTitle": "[별지 제1호서식] 출산 서비스 통합처리 신청서",
+      "verifiedDocumentTitle": "출산 서비스 통합처리 신청서",
+      "evidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1764055",
+      "evidenceNote": "보성군2026.3.13 원본 전체의 지역 출산장려·양육비 출생순위 및 신생아 축하물품 방문수령 선택을 읽었다. 제5조가 제1호를 지정하고 제6조제1·2항이 두 급여를 각각 지원한다. 본인부담금 환급은 제6조제3항의 별개 지원이고 원본에 환급금·영수증·청구 항목이 없어 그 후보에는 연결하지 않는다. 출생기본소득 부분도 신청 자체가 아니라 신청 안내 통지 선택이다. 동일 공식 법규 ID·별표키·flSeq와 실제 원본 SHA256·전체 본문 섹션을 대조했다.",
+      "checkedAt": "2026-10-18",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "sha256": "3cad505c9954e035a0967343389590d185d6ac90694b7d7498e2828699f2afa9",
+      "bytes": 74240,
+      "signature": "d0cf11e0a1b11ae1",
+      "originalFormat": "hwp",
+      "originalTextScope": "all_body_sections_or_pages",
+      "textScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "BodyText/Section0"
+      ],
+      "reviewedParts": [
+        {
+          "number": "1",
+          "title": "출산 서비스 통합처리 신청서의 보성군 지역서비스",
+          "use": "main",
+          "author": "출생아의 부모 또는 허용 대리인"
+        }
+      ],
+      "role": "application",
+      "roleBasis": "보성군2026.3.13 원본 전체의 지역 출산장려·양육비 출생순위 및 신생아 축하물품 방문수령 선택을 읽었다. 제5조가 제1호를 지정하고 제6조제1·2항이 두 급여를 각각 지원한다. 본인부담금 환급은 제6조제3항의 별개 지원이고 원본에 환급금·영수증·청구 항목이 없어 그 후보에는 연결하지 않는다. 출생기본소득 부분도 신청 자체가 아니라 신청 안내 통지 선택이다.",
+      "roleEvidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1764055",
+      "roleCheckedAt": "2026-10-18",
+      "bodyEvidenceText": "제4조(지원대상)① 이 조례에 따라  출산장려 및 양육비(이하 \"출산양육비\"라 한다)를 지원 받을 수 있는 대상은 신생아의 부 또는 모가 신생아의 출산일 기준 군에 주민등록을 두고 자녀를 출산한 가정으로 한다.② 군에 주민등록을 둔 가정에서 24개월 미만의 영유아를 입양한 경우에도 출산양육비를 지원할 수 있으며, 이 경우 입양아는 군 외의 지역에서 입양한 영유아여야 한다.③ <삭제, 2021.12.31.>\n제5조(지원대상의 확인)① 보호자의 출생신고시 읍ㆍ면장은 출산양육비 지원대상 여부를 확인해야 하며, 지원대상일 경우에는 출산양육비 지원신청서(이하 \"신청서\"라 한다)와 첨부서류를 신청인에게 알려주고 제출하도록 해야 한다.② 제1항의 출산양육비 신청 첨부서류는 다음 각 호와 같다.1. 출산서비스 통합처리 신청서(별지 제1호서식)2. 예금통장 사본 1부3. 제4조제2항에 해당하는 경우 증명자료 1부<신설, 2021.12.31.>③ 출산양육비 지원대상자는 출생 및 입양신고시 읍ㆍ면장에게 신청서 등을 제출해야 한다.\n제6조(출산양육비 등 지원)① 출산양육비는 출산일(입양의 경우 입양일)을 기준으로 지원하되 제출된 신청서를 확인한 날이 속하는 달부터 신생아가 24개월이 되는 달까지 예산의 범위에서 지원할 수 있으며 지원 기준은 다음 각 호와 같다.<개정, 2022.12.27.>1. 출생아의 출산 순위에 따라 다음과 같이 차등 지원한다.가. 첫째아 600만원(매월 25만원 지급)나. 둘째아 720만원(매월 30만원 지급)다. 셋째아 이상 1,080만원(매월 45만원 지급)2. 출생아가 쌍둥이 이상일 경우에는 태아별 순서로 각 각 지원한다.<신설, 2021.12.31.>3. 신생아의 출산순서는 주민등록 등재순으로 한다.<신설, 2021.12.31.>② 관내에 거주하는 임산부와 영유아 중 보건소에 등록관리 대상자에게 임신과 출산 모자보건 향상에 필요한 여러 가지 검사 또는 탄생 축하기념 물품 등을 지원할 수 있다.<개정, 2021.12.31.>③ 출산가정의 경제적 부담 경감을 위하여 산모ㆍ신생아건강관리서비스비용 본인부담금의 전부 또는 일부를 예산의 범위에서 지원할 수 있다.<개정, 2021.12.31.>",
+      "independentBodyReview": true,
+      "condition": "보성군 출산장려·양육지원금과 주민등록 등재순위를 선택."
+    },
+    {
+      "sourceKind": "ordin",
+      "lawTitle": "보성군 출산장려 및 양육지원 등에 관한 조례",
+      "lawId": "1764055",
+      "annexId": "21655295",
+      "annexNumber": "000100",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=162357975&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C1%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EC%B6%9C%EC%82%B0+%EC%84%9C%EB%B9%84%EC%8A%A4+%ED%86%B5%ED%95%A9%EC%B2%98%EB%A6%AC+%EC%8B%A0%EC%B2%AD%EC%84%9C",
+      "officialPdfUrl": null,
+      "dateKind": "effective",
+      "effectiveDate": "2023-01-01",
+      "regionCode": "12750",
+      "regionLabel": "전남광주통합특별시 보성군",
+      "programIds": [
+        "g12750.gov24-489000000118"
+      ],
+      "programNames": [
+        "출산축하용품(아이사랑마더박스) 지원"
+      ],
+      "formId": "ordin-21655295",
+      "use": "conditional",
+      "formTitle": "[별지 제1호서식] 출산 서비스 통합처리 신청서",
+      "sourceMetadataTitle": "[별지 제1호서식] 출산 서비스 통합처리 신청서",
+      "verifiedDocumentTitle": "출산 서비스 통합처리 신청서",
+      "evidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1764055",
+      "evidenceNote": "보성군2026.3.13 원본 전체의 지역 출산장려·양육비 출생순위 및 신생아 축하물품 방문수령 선택을 읽었다. 제5조가 제1호를 지정하고 제6조제1·2항이 두 급여를 각각 지원한다. 본인부담금 환급은 제6조제3항의 별개 지원이고 원본에 환급금·영수증·청구 항목이 없어 그 후보에는 연결하지 않는다. 출생기본소득 부분도 신청 자체가 아니라 신청 안내 통지 선택이다. 동일 공식 법규 ID·별표키·flSeq와 실제 원본 SHA256·전체 본문 섹션을 대조했다.",
+      "checkedAt": "2026-10-18",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "sha256": "3cad505c9954e035a0967343389590d185d6ac90694b7d7498e2828699f2afa9",
+      "bytes": 74240,
+      "signature": "d0cf11e0a1b11ae1",
+      "originalFormat": "hwp",
+      "originalTextScope": "all_body_sections_or_pages",
+      "textScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "BodyText/Section0"
+      ],
+      "reviewedParts": [
+        {
+          "number": "1",
+          "title": "출산 서비스 통합처리 신청서의 보성군 지역서비스",
+          "use": "main",
+          "author": "출생아의 부모 또는 허용 대리인"
+        }
+      ],
+      "role": "application",
+      "roleBasis": "보성군2026.3.13 원본 전체의 지역 출산장려·양육비 출생순위 및 신생아 축하물품 방문수령 선택을 읽었다. 제5조가 제1호를 지정하고 제6조제1·2항이 두 급여를 각각 지원한다. 본인부담금 환급은 제6조제3항의 별개 지원이고 원본에 환급금·영수증·청구 항목이 없어 그 후보에는 연결하지 않는다. 출생기본소득 부분도 신청 자체가 아니라 신청 안내 통지 선택이다.",
+      "roleEvidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1764055",
+      "roleCheckedAt": "2026-10-18",
+      "bodyEvidenceText": "제4조(지원대상)① 이 조례에 따라  출산장려 및 양육비(이하 \"출산양육비\"라 한다)를 지원 받을 수 있는 대상은 신생아의 부 또는 모가 신생아의 출산일 기준 군에 주민등록을 두고 자녀를 출산한 가정으로 한다.② 군에 주민등록을 둔 가정에서 24개월 미만의 영유아를 입양한 경우에도 출산양육비를 지원할 수 있으며, 이 경우 입양아는 군 외의 지역에서 입양한 영유아여야 한다.③ <삭제, 2021.12.31.>\n제5조(지원대상의 확인)① 보호자의 출생신고시 읍ㆍ면장은 출산양육비 지원대상 여부를 확인해야 하며, 지원대상일 경우에는 출산양육비 지원신청서(이하 \"신청서\"라 한다)와 첨부서류를 신청인에게 알려주고 제출하도록 해야 한다.② 제1항의 출산양육비 신청 첨부서류는 다음 각 호와 같다.1. 출산서비스 통합처리 신청서(별지 제1호서식)2. 예금통장 사본 1부3. 제4조제2항에 해당하는 경우 증명자료 1부<신설, 2021.12.31.>③ 출산양육비 지원대상자는 출생 및 입양신고시 읍ㆍ면장에게 신청서 등을 제출해야 한다.\n제6조(출산양육비 등 지원)① 출산양육비는 출산일(입양의 경우 입양일)을 기준으로 지원하되 제출된 신청서를 확인한 날이 속하는 달부터 신생아가 24개월이 되는 달까지 예산의 범위에서 지원할 수 있으며 지원 기준은 다음 각 호와 같다.<개정, 2022.12.27.>1. 출생아의 출산 순위에 따라 다음과 같이 차등 지원한다.가. 첫째아 600만원(매월 25만원 지급)나. 둘째아 720만원(매월 30만원 지급)다. 셋째아 이상 1,080만원(매월 45만원 지급)2. 출생아가 쌍둥이 이상일 경우에는 태아별 순서로 각 각 지원한다.<신설, 2021.12.31.>3. 신생아의 출산순서는 주민등록 등재순으로 한다.<신설, 2021.12.31.>② 관내에 거주하는 임산부와 영유아 중 보건소에 등록관리 대상자에게 임신과 출산 모자보건 향상에 필요한 여러 가지 검사 또는 탄생 축하기념 물품 등을 지원할 수 있다.<개정, 2021.12.31.>③ 출산가정의 경제적 부담 경감을 위하여 산모ㆍ신생아건강관리서비스비용 본인부담금의 전부 또는 일부를 예산의 범위에서 지원할 수 있다.<개정, 2021.12.31.>",
+      "independentBodyReview": true,
+      "condition": "출산 후 통합신청에서 신생아 축하물품 지원(방문수령)을 선택하는 경우. 보건소 임산부 등록 절차나 산모서비스 본인부담금 환급 신청서는 아님."
+    },
+    {
+      "sourceKind": "ordin",
+      "lawTitle": "여수시 도서지역 노인 목욕비 등 지원 조례",
+      "lawId": "1769511",
+      "annexId": "20063765",
+      "annexNumber": "000200",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=152346991&flNm=%5B%EB%B3%84%EC%A7%80%EC%A0%9C2%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EC%97%AC%EC%88%98%EC%8B%9C+%EB%8F%84%EC%84%9C%EC%A7%80%EC%97%AD+%EB%85%B8%EC%9D%B8+%EB%AA%A9%EC%9A%95%EA%B6%8C+%EC%8B%A0%EC%B2%AD%EC%84%9C",
+      "officialPdfUrl": null,
+      "dateKind": "effective",
+      "effectiveDate": "2022-12-30",
+      "regionCode": "12130",
+      "regionLabel": "전남광주통합특별시 여수시",
+      "programIds": [
+        "g12130.gov24-481000000111"
+      ],
+      "programNames": [
+        "도서지역 어르신 대중목욕탕 이용권 지급"
+      ],
+      "formId": "ordin-20063765",
+      "use": "conditional",
+      "formTitle": "[별지제2호서식] 여수시 도서지역 노인 목욕권 신청서",
+      "sourceMetadataTitle": "[별지제2호서식] 여수시 도서지역 노인 목욕권 신청서",
+      "verifiedDocumentTitle": "여수시 도서지역 노인 목욕권 신청서",
+      "evidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1769511",
+      "evidenceNote": "여수시 제5조제1항은 목욕권을 지급받을 주민이 별지 제2호를 관할 면장에게 제출하도록 한다. 실제 원본의 노인 신청자·전입일·대리인 관계·서명을 확인했다. 사이트의 면사무소 일괄신청 운영과 구분하여 법정 개별 신청이 필요한 경우 사용할 수 있는 해당 사업 서식이다. 동일 공식 법규 ID·별표키·flSeq와 실제 원본 SHA256·전체 본문 섹션을 대조했다.",
+      "checkedAt": "2026-10-18",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "sha256": "e76aa5e2cbe84032c9d67936db959348e181ae24a0908803398395d8a0fc399a",
+      "bytes": 13824,
+      "signature": "d0cf11e0a1b11ae1",
+      "originalFormat": "hwp",
+      "originalTextScope": "all_body_sections_or_pages",
+      "textScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "BodyText/Section0"
+      ],
+      "reviewedParts": [
+        {
+          "number": "2",
+          "title": "여수시 도서지역 노인 목욕권 신청서",
+          "use": "conditional",
+          "author": "도서지역 지원 노인 또는 대리인"
+        }
+      ],
+      "role": "application",
+      "roleBasis": "여수시 제5조제1항은 목욕권을 지급받을 주민이 별지 제2호를 관할 면장에게 제출하도록 한다. 실제 원본의 노인 신청자·전입일·대리인 관계·서명을 확인했다. 사이트의 면사무소 일괄신청 운영과 구분하여 법정 개별 신청이 필요한 경우 사용할 수 있는 해당 사업 서식이다.",
+      "roleEvidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1769511",
+      "roleCheckedAt": "2026-10-18",
+      "bodyEvidenceText": "제4조(지원 기준) 도서지역 노인 목욕비 지원은 시 목욕업소를 이용할 수 있는 별지 제1호 서식의 목욕권을 지급하는 방식으로 하며, 월 2매씩 지급한다. 다만, 예산의 범위에서 추가 또는 축소하여 지급할 수 있다.<개정 2022. 3. 10.>\n제5조(지원 신청 및 결정)① 제4조에 따른 목욕권을 지급받고자 하는 사람은 별지 제2호 서식에 따른 신청서를 주민등록지 관할 면장에게 제출해야 한다.② 제1항에 따른 신청을 받은 면장은 신청자가 제3조제1항에 따른 지원 대상에 해당하는 지 조사하여 시장에게 보고해야 하며, 시장은 면장의 조사 결과를 바탕으로 지원 대상자를 결정한다.",
+      "independentBodyReview": true,
+      "condition": "사업 안내는 면사무소 일괄 처리이므로 신규·누락 등 개별 신청이 필요한 경우 접수기관 안내에 따라 사용하는 조례 제5조의 신청서."
+    },
+    {
+      "sourceKind": "ordin",
+      "lawTitle": "인천광역시 미추홀구 국가보훈대상자 등 예우 및 지원에  관한 조례",
+      "lawId": "1773505",
+      "annexId": "22782589",
+      "annexNumber": "000200",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=170068095&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C2%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EB%8C%80%EB%A6%AC%EC%88%98%EB%A0%B9%EC%9D%B8+%EC%A7%80%EC%A0%95+%EC%8B%A0%EC%B2%AD%EC%84%9C",
+      "officialPdfUrl": null,
+      "dateKind": "effective",
+      "effectiveDate": "2023-01-02",
+      "regionCode": "28177",
+      "regionLabel": "인천광역시 미추홀구",
+      "programIds": [
+        "g28177.bokjiro-WLF00001224",
+        "g28177.gov24-351050000132"
+      ],
+      "programNames": [
+        "보훈예우수당 지원",
+        "국가보훈대상자 보훈예우수당 지원"
+      ],
+      "formId": "ordin-22782589",
+      "use": "conditional",
+      "formTitle": "[별지 제2호서식] 대리수령인 지정 신청서",
+      "sourceMetadataTitle": "[별지 제2호서식] 대리수령인 지정 신청서",
+      "verifiedDocumentTitle": "대리수령인 지정 신청서",
+      "evidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1773505",
+      "evidenceNote": "미추홀구 제11조의 구 보훈예우수당과 제12조제1항을 확인했다. 후견·압류·치매/거동불가 때 별지 제2호로 법정상속인 대리수령을 지정할 수 있으며 실제 원본도 보훈예우수당을 받는 자·신청사유·지정기간·대리수령인 계좌를 받는다. 따라서 보훈예우수당 두 사업의 조건부 서류이며 사망위로금·전몰유족·독립유공 명예수당으로 일반화하지 않는다. 동일 공식 법규 ID·별표키·flSeq와 실제 원본 SHA256·전체 본문 섹션을 대조했다.",
+      "checkedAt": "2026-10-18",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "sha256": "faa9fab48a06c5eef2adc44b08fb6656600abb3798ffa7d65cb9cc215c33b9a2",
+      "bytes": 80421,
+      "signature": "504b030414000000",
+      "originalFormat": "hwpx",
+      "originalTextScope": "all_body_sections_or_pages",
+      "textScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "Contents/section0.xml"
+      ],
+      "reviewedParts": [
+        {
+          "number": "2",
+          "title": "대리수령인 지정 신청서",
+          "use": "conditional",
+          "author": "보훈예우수당 수급권자"
+        }
+      ],
+      "role": "application",
+      "roleBasis": "미추홀구 제11조의 구 보훈예우수당과 제12조제1항을 확인했다. 후견·압류·치매/거동불가 때 별지 제2호로 법정상속인 대리수령을 지정할 수 있으며 실제 원본도 보훈예우수당을 받는 자·신청사유·지정기간·대리수령인 계좌를 받는다. 따라서 보훈예우수당 두 사업의 조건부 서류이며 사망위로금·전몰유족·독립유공 명예수당으로 일반화하지 않는다.",
+      "roleEvidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1773505",
+      "roleCheckedAt": "2026-10-18",
+      "bodyEvidenceText": "제11조(보훈예우수당 지급)① 구청장은 제4조에 해당하는 대상자로서 지급기준일 현재 구에 주민등록을 둔 65세 이상 사람에게 예산의 범위 안에서 보훈예우수당(이하 “수당”이라 한다)을 지급할 수 있다. 다만, 국가보훈관계 법령에 따라 지원 부적격자로 통보된 사람과 「인천광역시 미추홀구 참전유공자 지원에 관한 조례」에 따라 수당을 지급받는 경우에는 수당을 지급하지 아니한다.<개정 2015.7.13, 2017.7.10, 2018.5.21, 2023.1.2>② 수당은 매월 5만원으로 한다. [신설 2011.11.21], <개정 2018.11.12>\n제12조(수당의 신청)① 제11조에 따라 수당을 지급 받고자 하는 사람(이하“수급권자”라 한다)은 별지 제1호 서식에 의한 신청서를 구청장에게 제출 하여야 하며, 수당지급권자가 다음 각 호의 어느 하나에 해당하는 경우에는 별지 제2호 서식에 따라 국가유공자의 배우자, 자녀 등 법정상속인을 대리수령인으로 지정 신청할 수 있다. [신설 2011.11.21], <개정 2015.7.13, 2017.7.10>1. 피성년후견인 또는 피한정후견인<신설 2015.7.13>2. 채무불이행으로 인하여 금전채권이 압류된 경우<신설 2015.7.13>3. 치매 또는 보건복지부장관이 정하는 거동불가의 사유로 인하여 본인명의의 계좌를 개설하거나 사용하기 어려운 경우<신설 2015.7.13>② 보훈예우수당 및 건강생활지원수당을 지급받고 있는 사람이 지급 예금계좌를 변경하려면 별지 제5호 서식에 따라 신청서를 구청장에게 제출하여야 한다.<신설 2017.7.10>,<개정 2017.11.13>",
+      "independentBodyReview": true,
+      "condition": "보훈예우수당 수급자가 후견·채권압류·치매·거동불가 등 제12조제1항 사유로 법정상속인을 대리수령인으로 지정할 때 사용."
+    },
+    {
+      "sourceKind": "ordin",
+      "lawTitle": "인천광역시 미추홀구 국가보훈대상자 등 예우 및 지원에  관한 조례",
+      "lawId": "1773505",
+      "annexId": "22782591",
+      "annexNumber": "000300",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=170068097&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C3%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EA%B5%AD%EA%B0%80%EC%9C%A0%EA%B3%B5%EC%9E%90+%EC%82%AC%EB%A7%9D%EC%9C%84%EB%A1%9C%EA%B8%88+%EC%A7%80%EA%B8%89%EC%8B%A0%EC%B2%AD%EC%84%9C",
+      "officialPdfUrl": null,
+      "dateKind": "effective",
+      "effectiveDate": "2023-01-02",
+      "regionCode": "28177",
+      "regionLabel": "인천광역시 미추홀구",
+      "programIds": [
+        "g28177.gov24-351050000133"
+      ],
+      "programNames": [
+        "국가보훈대상자 사망위로금 지원"
+      ],
+      "formId": "ordin-22782591",
+      "use": "main",
+      "formTitle": "[별지 제3호서식] 국가유공자 사망위로금 지급신청서",
+      "sourceMetadataTitle": "[별지 제3호서식] 국가유공자 사망위로금 지급신청서",
+      "verifiedDocumentTitle": "국가유공자 사망위로금 지급신청서",
+      "evidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1773505",
+      "evidenceNote": "미추홀구 제16조제3항은 사망일부터1년 내 유가족·관계인이 별지 제3호를 제출하도록 한다. 원본의 사망일·유공자 유형·유족관계·사망/가족증빙과 지급계좌를 읽어 사망위로금20만원 사업에만 연결한다. 다른 후보들은 월별수당이며 참전유공자의 별도 사망위로금과도 조례에서 중복지원을 구분한다. 동일 공식 법규 ID·별표키·flSeq와 실제 원본 SHA256·전체 본문 섹션을 대조했다.",
+      "checkedAt": "2026-10-18",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "sha256": "8bb1add84f0ffbedb8cdf76f9e1bab390a86cbbdeb4ef2260a8a41f8e0164982",
+      "bytes": 70404,
+      "signature": "504b030414000000",
+      "originalFormat": "hwpx",
+      "originalTextScope": "all_body_sections_or_pages",
+      "textScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "Contents/section0.xml"
+      ],
+      "reviewedParts": [
+        {
+          "number": "3",
+          "title": "국가유공자 사망위로금 지급신청서",
+          "use": "main",
+          "author": "사망 국가유공자의 유가족 또는 관계인"
+        }
+      ],
+      "role": "application",
+      "roleBasis": "미추홀구 제16조제3항은 사망일부터1년 내 유가족·관계인이 별지 제3호를 제출하도록 한다. 원본의 사망일·유공자 유형·유족관계·사망/가족증빙과 지급계좌를 읽어 사망위로금20만원 사업에만 연결한다. 다른 후보들은 월별수당이며 참전유공자의 별도 사망위로금과도 조례에서 중복지원을 구분한다.",
+      "roleEvidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1773505",
+      "roleCheckedAt": "2026-10-18",
+      "bodyEvidenceText": "제16조(사망위로금 지급)① 구청장은 제4조에 해당하는 사람이 사망한 경우 예산의 범위 안에서 사망위로금(이하 “위로금”이라 한다)을 지급할 수 있다. 다만, 위로금 지급대상자는 지급기준일 현재 구에 주민등록을 둔 사람이어야 하며, 「인천광역시 미추홀구 참전유공자 지원에 관한 조례」에 따른 참전유공자로서 사망위로금을 지급받는 경우에는 중복지원하지 아니한다.<개정 2015.7.13, 2015.12.30, 2015.12.30, 2017.7.10, 2018.5.21>② 위로금은 20만원으로 하며 신청일로부터 30일 이내에 신청자의 예금계좌로 입금한다.③ 위로금은 유가족 또는 관계인이 별지 제3호서식의 국가유공자 사망위로금 지급신청서를 구청장에게 제출해야 한다. 이 경우 사망일로부터 1년 이내에 신청하여야 한다. 다만, 구비서류 중 「전자정부법」제38조제1항에 따른 행정정보의 공동이용을 통하여 확인할 수 있는 주민등록 등본 또는 가족관계증명서 등은 첨부를 생략할 수 있다.<개정 2015.7.13, 2017.7.10>④ 사망위로금 지급의 순위는 「국가유공자 등 예우 및 지원에 관한 법률 」 제5조제1항 각 호의 순위로 한다. [신설 2011.11.21]<개정 2017.7.10>",
+      "independentBodyReview": true
+    },
+    {
+      "sourceKind": "ordin",
+      "lawTitle": "인천광역시 미추홀구 국가보훈대상자 등 예우 및 지원에  관한 조례",
+      "lawId": "1773505",
+      "annexId": "22782595",
+      "annexNumber": "000500",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=170068141&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C5%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EB%B3%B4%ED%9B%88%EC%98%88%EC%9A%B0%EC%88%98%EB%8B%B9%2C+%EA%B1%B4%EA%B0%95%EC%83%9D%ED%99%9C%EC%A7%80%EC%9B%90%EC%88%98%EB%8B%B9+%EC%9E%85%EA%B8%88%EA%B3%84%EC%A2%8C+%EB%B3%80%EA%B2%BD%EC%8B%A0%EC%B2%AD%EC%84%9C",
+      "officialPdfUrl": null,
+      "dateKind": "effective",
+      "effectiveDate": "2023-01-02",
+      "regionCode": "28177",
+      "regionLabel": "인천광역시 미추홀구",
+      "programIds": [
+        "g28177.bokjiro-WLF00001224",
+        "g28177.gov24-351050000132"
+      ],
+      "programNames": [
+        "보훈예우수당 지원",
+        "국가보훈대상자 보훈예우수당 지원"
+      ],
+      "formId": "ordin-22782595",
+      "use": "conditional",
+      "formTitle": "[별지 제5호서식] 보훈예우수당, 건강생활지원수당 입금계좌 변경신청서",
+      "sourceMetadataTitle": "[별지 제5호서식] 보훈예우수당, 건강생활지원수당 입금계좌 변경신청서",
+      "verifiedDocumentTitle": "보훈예우수당·건강생활지원수당 입금계좌 변경신청서",
+      "evidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1773505",
+      "evidenceNote": "미추홀구 제12조제2항은 이미 보훈예우수당 또는 건강생활지원수당을 받는 사람이 제5호로 계좌변경을 신청하도록 한다. 실제 원본 변경전/후 계좌·수당 선택·사유·본인서명과 통장첨부를 읽었다. 사이트에서 확인된 보훈예우수당 두 사업의 사후 변경으로만 연결하며 신규신청·사망위로금·전몰유족/독립유공 명예수당에는 확장하지 않는다. 동일 공식 법규 ID·별표키·flSeq와 실제 원본 SHA256·전체 본문 섹션을 대조했다.",
+      "checkedAt": "2026-10-18",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "sha256": "8291738988fd4d7cee1deeac4735a434f3829d17cc8b3c1c64582aea69fe8274",
+      "bytes": 37758,
+      "signature": "504b030414000000",
+      "originalFormat": "hwpx",
+      "originalTextScope": "all_body_sections_or_pages",
+      "textScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "Contents/section0.xml"
+      ],
+      "reviewedParts": [
+        {
+          "number": "5",
+          "title": "보훈예우수당 입금계좌 변경신청서",
+          "use": "conditional",
+          "author": "기존 보훈예우수당 수급자"
+        }
+      ],
+      "role": "application",
+      "roleBasis": "미추홀구 제12조제2항은 이미 보훈예우수당 또는 건강생활지원수당을 받는 사람이 제5호로 계좌변경을 신청하도록 한다. 실제 원본 변경전/후 계좌·수당 선택·사유·본인서명과 통장첨부를 읽었다. 사이트에서 확인된 보훈예우수당 두 사업의 사후 변경으로만 연결하며 신규신청·사망위로금·전몰유족/독립유공 명예수당에는 확장하지 않는다.",
+      "roleEvidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1773505",
+      "roleCheckedAt": "2026-10-18",
+      "bodyEvidenceText": "제11조(보훈예우수당 지급)① 구청장은 제4조에 해당하는 대상자로서 지급기준일 현재 구에 주민등록을 둔 65세 이상 사람에게 예산의 범위 안에서 보훈예우수당(이하 “수당”이라 한다)을 지급할 수 있다. 다만, 국가보훈관계 법령에 따라 지원 부적격자로 통보된 사람과 「인천광역시 미추홀구 참전유공자 지원에 관한 조례」에 따라 수당을 지급받는 경우에는 수당을 지급하지 아니한다.<개정 2015.7.13, 2017.7.10, 2018.5.21, 2023.1.2>② 수당은 매월 5만원으로 한다. [신설 2011.11.21], <개정 2018.11.12>\n제12조(수당의 신청)① 제11조에 따라 수당을 지급 받고자 하는 사람(이하“수급권자”라 한다)은 별지 제1호 서식에 의한 신청서를 구청장에게 제출 하여야 하며, 수당지급권자가 다음 각 호의 어느 하나에 해당하는 경우에는 별지 제2호 서식에 따라 국가유공자의 배우자, 자녀 등 법정상속인을 대리수령인으로 지정 신청할 수 있다. [신설 2011.11.21], <개정 2015.7.13, 2017.7.10>1. 피성년후견인 또는 피한정후견인<신설 2015.7.13>2. 채무불이행으로 인하여 금전채권이 압류된 경우<신설 2015.7.13>3. 치매 또는 보건복지부장관이 정하는 거동불가의 사유로 인하여 본인명의의 계좌를 개설하거나 사용하기 어려운 경우<신설 2015.7.13>② 보훈예우수당 및 건강생활지원수당을 지급받고 있는 사람이 지급 예금계좌를 변경하려면 별지 제5호 서식에 따라 신청서를 구청장에게 제출하여야 한다.<신설 2017.7.10>,<개정 2017.11.13>\n제16조의2(건강생활지원수당 지급)① 구청장은 제4조에 해당하는 대상자로서 지급기준일 현재 구에 주민등록을 둔 65세 이상 사람에게 예산의 범위 안에서 건강생활지원수당(이하 “건강수당”이라 한다)을 지급할 수 있다.② 건강수당은 매반기 5만원 이내로 6월 20일과 12월 20일에 지급하며, 건강수당 지급일이 토ㆍ공휴일인 경우에는 그 전일에 지급한다.③ 건강수당은 신청일이 속한 달부터 지급사유가 발생한 것으로 보며, 지급중단 사유가 발생한 날이 지급일이 속하는 달이면 그 달까지 지급한다.④ 건강수당을 지급 받고자 하는 사람은 별지 제6호서식에 의한 신청서를 구청장에게 제출하여야 한다.⑤ 건강수당 지급의 중지, 환수조치에 관한 사항은 제14조 및 제15조를 준용한다.[본조신설 2017.11.13]",
+      "independentBodyReview": true,
+      "condition": "기존 보훈예우수당 수급자가 입금계좌를 변경할 때 보훈예우수당 항목을 선택해 제출. 신규 수당 신청서는 아님.",
+      "excludedParts": [
+        {
+          "number": "5-건강생활",
+          "title": "건강생활지원수당 계좌변경 선택",
+          "reason": "대응하는 사이트 사업을 찾지 못해 이 부분의 연결은 승인하지 않음"
+        }
+      ]
+    }
+  ]
+}

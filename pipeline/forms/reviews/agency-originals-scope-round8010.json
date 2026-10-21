@@ -1,0 +1,83 @@
+{
+  "schema": 1,
+  "checkedAt": "2026-10-20",
+  "formCount": 5,
+  "forms": [
+    {
+      "formId": "agency-41220-bokjiro-WLF00000783-20230525UUWBM1328390036214748",
+      "lawId": "",
+      "lawTitle": "",
+      "title": "행려자 귀향 여비 지급 확인서 및 개인정보 동의서",
+      "sourceKind": "agency",
+      "regionCode": "41220",
+      "sourceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twata/CmmFileUtil/getDownload.do?atcflId=20230525UUWBM1328390036214748&atcflSn=1&wlfareInfoId=WLF00000783",
+      "sourcePageUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00000783&wlfareInfoReldBztpCd=02",
+      "attachmentId": "20230525UUWBM1328390036214748",
+      "sha256": "52c51ab35888a593f4ab018b6fff5ffa31d78c0c3ff78e54f5178a10a654ede9",
+      "bytes": 765434,
+      "format": "pdf",
+      "relativePath": "agency-41220-bokjiro-WLF00000783-20230525UUWBM1328390036214748.pdf"
+    },
+    {
+      "formId": "agency-41000-unregistered-alternative-meal-2026",
+      "lawId": "",
+      "lawTitle": "",
+      "title": "2026년 미등록 대안교육기관 급식비 교부신청서·사업계획서",
+      "sourceKind": "agency",
+      "regionCode": "41000",
+      "sourceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twata/CmmFileUtil/getDownload.do?atcflId=20260612UUWBM1441140196722688&atcflSn=1&wlfareInfoId=WLF00001235",
+      "sourcePageUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00001235&wlfareInfoReldBztpCd=02",
+      "attachmentId": "20260612UUWBM1441140196722688",
+      "sha256": "331647d47a69d0dbea7bf127f6f5f70ce9bb6ed6297f29bcbddf800a714d7596",
+      "bytes": 282030,
+      "format": "hwpx",
+      "relativePath": "agency-41000-unregistered-alternative-meal-2026.hwpx"
+    },
+    {
+      "formId": "agency-41000-single-parent-followup-2026-05606",
+      "lawId": "",
+      "lawTitle": "",
+      "title": "2026년 경기도 한부모가족 아동양육비 선정 후 동의서·계좌변경신청서",
+      "sourceKind": "agency",
+      "regionCode": "41000",
+      "sourceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twata/CmmFileUtil/getDownload.do?atcflId=20260710UUWBM1429470200687935&atcflSn=1&wlfareInfoId=WLF00005606",
+      "sourcePageUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00005606&wlfareInfoReldBztpCd=02",
+      "attachmentId": "20260710UUWBM1429470200687935",
+      "sha256": "8a629f76b4a05692a8dadb5e73e32c0dda36845cd68ede18611e538cf6e55022",
+      "bytes": 204691,
+      "format": "hwpx",
+      "relativePath": "agency-41000-single-parent-followup-2026-05606.hwpx"
+    },
+    {
+      "formId": "agency-41820-72921",
+      "lawId": "",
+      "lawTitle": "",
+      "title": "보조기기 수리비 지원 개인정보 수집·이용 및 제3자 제공 동의서",
+      "sourceKind": "agency",
+      "regionCode": "41820",
+      "sourceUrl": "https://sang.gp.go.kr/gapyeong/downloadBbsFile.do?atchmnflNo=72921",
+      "sourcePageUrl": "https://sang.gp.go.kr/gapyeong/selectBbsNttView.do?key=298&bbsNo=175&nttNo=240908&searchCtgry=&searchCnd=all&searchKrwd=&pageIndex=2&integrDeptCode=00000026",
+      "attachmentId": "72921",
+      "sha256": "5a2247012ac2e140850079dcfd21a5ad778f93305b7eed147348eb19967a1bb3",
+      "bytes": 46080,
+      "format": "hwp",
+      "relativePath": "agency-41820-72921.hwp"
+    },
+    {
+      "formId": "agency-41110-bokjiro-WLF00001375-20260814UUWBM1653260204979963",
+      "lawId": "",
+      "lawTitle": "",
+      "title": "수원시 아동담당의 의료비 등록·지원 신청서",
+      "sourceKind": "agency",
+      "regionCode": "41110",
+      "sourceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twata/CmmFileUtil/getDownload.do?atcflId=20260814UUWBM1653260204979963&atcflSn=1&wlfareInfoId=WLF00001375",
+      "sourcePageUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00001375&wlfareInfoReldBztpCd=02",
+      "attachmentId": "20260814UUWBM1653260204979963",
+      "sha256": "0cf8a7c1b9d681ca45c88681b3d7587ee582f318cef0ef31644d56b245bd6c19",
+      "bytes": 621686,
+      "format": "hwpx",
+      "relativePath": "agency-41110-bokjiro-WLF00001375-20260814UUWBM1653260204979963.hwpx"
+    }
+  ],
+  "note": "Separate municipal/agency official-source originals. Existing portal IDs and immutable scopes are unchanged."
+}

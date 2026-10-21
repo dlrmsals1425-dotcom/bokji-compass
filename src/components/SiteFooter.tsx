@@ -1,45 +1,25 @@
 import Link from "next/link";
-import { LogoMark } from "./SiteHeader";
+import styles from "./SiteChrome.module.css";
 
 export function SiteFooter() {
   return (
-    <footer className="site-footer">
-      <div className="wrap">
-        <div className="foot-top">
-          <div>
-            <span className="foot-brand">
-              <LogoMark />
-              복지나침반
-            </span>
-            <p style={{ marginTop: "0.625rem" }}>
-              정부24·복지로 등 공공 데이터를 모아 보여 주는 안내 서비스입니다. 정부 공식 누리집이 아니며, 실제 지원 여부는 담당 기관의 심사로 결정됩니다.
-            </p>
-          </div>
-          <div>
-            <h2>복지 상담</h2>
-            <p>
-              <strong>보건복지상담센터 129</strong> (평일 9시~18시, 긴급 24시간)
-              <br />
-              <strong>정부민원안내 110</strong>
-            </p>
-          </div>
-          <div>
-            <h2>신청은 공식 창구에서</h2>
-            <p>주소지 행정복지센터(주민센터), 복지로, 정부24에서 신청하세요.</p>
-          </div>
+    <footer className={styles.footer}>
+      <div className={styles.footerInner}>
+        <div className={styles.footerTop}>
+          <span>복지나침반</span>
+          <ul className={styles.footerLinks}>
+            <li><Link href="/about">출처·판정 기준</Link></li>
+            <li><Link href="/about#privacy">개인정보</Link></li>
+            <li><Link href="/forms">신청 서식</Link></li>
+            <li><Link href="/search">서비스 검색</Link></li>
+          </ul>
         </div>
-        <ul className="foot-links">
-          <li>
-            <Link href="/about#privacy">개인정보 원칙</Link>
-          </li>
-          <li>
-            <Link href="/about">데이터 출처와 판정 기준</Link>
-          </li>
-          <li>
-            <Link href="/search">서비스 검색</Link>
-          </li>
-        </ul>
-        <p>입력하신 정보는 서버로 보내지 않고 이 기기에서만 판정합니다. 주민등록번호는 받지 않습니다.</p>
+        <details className={styles.footerDetails}>
+          <summary>서비스 안내·상담 연락처</summary>
+          <p>정부24·복지로 자료를 활용한 민간 안내 서비스입니다. 최종 지원 여부와 신청 방법은 담당 기관에서 확인하세요.</p>
+          <p>보건복지상담센터 <a href="tel:129">129</a> (평일 9시~18시, 긴급 24시간) · 정부민원안내 <a href="tel:110">110</a></p>
+          <p>복지 판정과 신청서 작성은 이 기기에서 처리합니다. 신청서 입력 내용은 외부로 보내지 않습니다. 음성 입력을 사용하면 녹음한 음성을 OpenAI로 보냅니다.</p>
+        </details>
       </div>
     </footer>
   );

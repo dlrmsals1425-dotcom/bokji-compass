@@ -8,7 +8,7 @@ import { KioskGuard } from "@/components/KioskGuard";
 
 const SITE = process.env.VERCEL_PROJECT_PRODUCTION_URL ? `https://${process.env.VERCEL_PROJECT_PRODUCTION_URL}` : "https://bokji-compass.vercel.app";
 const DESC =
-  "상황을 한 문장으로 적거나 몇 가지만 답하면 중앙정부·시도·시군구·공공기관 복지 중 받으실 수 있는 혜택, 신청할 때 확인할 혜택, 신청할 곳을 이유와 함께 알려드려요. 로그인 없이, 입력한 정보는 이 기기에서만 써요.";
+  "상황을 한 문장으로 적거나 몇 가지만 답하면 중앙정부·시도·시군구·공공기관 복지 중 받으실 수 있는 혜택, 신청할 때 확인할 혜택, 신청할 곳을 이유와 함께 알려드려요. 로그인 없이, 복지 판정은 이 기기에서 해요.";
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE),
@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     locale: "ko_KR",
     siteName: "복지나침반",
     title: "복지나침반 — 로그인 없이 찾는 맞춤 복지",
-    description: "받으실 수 있는 복지 혜택과 신청할 곳을 이유와 함께. 입력한 정보는 이 기기에서만 써요.",
+    description: "받으실 수 있는 복지 혜택과 신청할 곳을 이유와 함께. 복지 판정은 이 기기에서 해요.",
     images: [{ url: "/og.png", width: 1200, height: 630, alt: "복지나침반 — 로그인 없이 찾는 맞춤 복지" }],
   },
   twitter: { card: "summary_large_image", images: ["/og.png"] },
@@ -28,7 +28,7 @@ export const metadata: Metadata = {
 };
 
 export const viewport: Viewport = {
-  themeColor: "#1D4ED8",
+  themeColor: "#fbfcf8",
   width: "device-width",
   initialScale: 1,
 };

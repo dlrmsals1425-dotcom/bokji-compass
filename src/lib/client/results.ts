@@ -178,8 +178,9 @@ const SAME_SETS: string[][] = [
   ["희망저축계좌(Ⅰ·Ⅱ)", "자산형성지원사업(희망저축계좌Ⅰ, Ⅱ)"],
 ];
 const SAME_PROGRAM: Record<string, string> = Object.fromEntries(SAME_SETS.flatMap(([head, ...rest]) => rest.map((n) => [n, head])));
-/** 출처가 다른 같은 제도로 묶인 묶음 키 (판정이 출처마다 갈리면 결과 화면이 더 확실한 쪽을 고른다 — v2 buildView) */
-export const SAME_PROGRAM_KEYS: ReadonlySet<string> = new Set(SAME_SETS.map(([head]) => variantKey(head)));
+const SAME_PROGRAM_NAMES: ReadonlySet<string> = new Set(SAME_SETS.flat());
+/** 원문을 대조한 전국 사업 이름에만 별칭 판정 우선순위를 적용한다. */
+export const isSameProgram = (p: Program): boolean => p.scope === "national" && SAME_PROGRAM_NAMES.has(p.name.trim());
 
 export function variantKey(name: string): string {
   let s = (SAME_PROGRAM[name.trim()] ?? name).normalize("NFC");

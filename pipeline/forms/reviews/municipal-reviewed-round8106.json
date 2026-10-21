@@ -1,0 +1,780 @@
+{
+  "schema": 1,
+  "checkedAt": "2026-10-20",
+  "rows": [
+    {
+      "sourceKind": "ordin",
+      "basisType": "current_law_and_official_program",
+      "formId": "ordin-15008013",
+      "sourceCandidateId": null,
+      "sourcePageUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=1391632",
+      "sourcePageHttpStatus": 200,
+      "sourcePageRecord": "logs/forms-completion/gyeonggi-20261019/current-law-extra3/current-law-bodies/1391632.json.gz",
+      "sourceUrl": "https://www.law.go.kr/flDownload.do?gubun=ELIS&flSeq=124586253&flNm=%EB%B3%84%ED%91%9C+1~3",
+      "finalUrl": "https://www.law.go.kr/flDownload.do?gubun=ELIS&flSeq=124586253&flNm=%EB%B3%84%ED%91%9C+1~3",
+      "attachmentId": "15008013",
+      "attachmentIdentifier": {
+        "queryParam": "flSeq",
+        "value": "124586253"
+      },
+      "attachmentFileSn": null,
+      "officialProgramSourceId": "WLF00000942",
+      "agencyName": "경기도 가평군",
+      "authorityKind": "government",
+      "authorityEvidenceKind": "government",
+      "authorityEvidenceUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=1391632",
+      "authorityEvidenceNote": "총괄이 국가법령정보센터 nw=1 목록으로 현행판을 확인한 법규의 정확별지ID/flSeq를 실제 원본SHA와 결속했다.",
+      "formTitle": "별표 1~3",
+      "sourceMetadataTitle": "별표 1~3",
+      "programIds": [
+        "g41820.bokjiro-WLF00000942"
+      ],
+      "programNames": [
+        "가평군 중·고등학생 무상교복 지원"
+      ],
+      "programEvidenceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00000942&wlfareInfoReldBztpCd=02",
+      "regionCode": "41820",
+      "regionLabel": "경기도 가평군",
+      "checkedAt": "2026-10-20",
+      "dateKind": "effective",
+      "effectiveDate": "2019-04-15",
+      "publishedAt": null,
+      "role": "application",
+      "use": "conditional",
+      "condition": "가평군 중·고등학생 무상교복 지원 대상자가 학교의 학교주관구매 절차에서 신청서 제출을 요청받은 경우, 이 묶음의 별지 제2호 교복구입비 지원신청서만 학교장에게 제출합니다. 현재 지원은 학생에게 교복을 주고 학교가 업체에 대금을 지급하는 현물 방식입니다. 원본의 계좌란을 근거로 학생에게 현금을 지급받는 신청으로 사용하지 않습니다. 별지 제1호 읍면장 제출 신청서와 별지 제3호 검토조서는 이 연결의 작성 대상에서 제외합니다. 주민등록등본 제출 시 원본 안내대로 뒷자리 마스킹을 적용합니다.",
+      "applicant": "무상교복 대상 학생과 학부모",
+      "reviewedParts": [
+        {
+          "number": "별지 제2호서식",
+          "title": "교복구입비 지원신청서(학교장 제출)",
+          "use": "conditional",
+          "author": "학생 및 학부모"
+        }
+      ],
+      "selectedParts": [
+        {
+          "number": "별지 제2호서식",
+          "title": "교복구입비 지원신청서(학교장 제출)",
+          "use": "conditional",
+          "author": "학생 및 학부모"
+        }
+      ],
+      "verificationStatus": "verified",
+      "decision": "propose_approval",
+      "publicationApproved": false,
+      "requiresCoordinatorReview": true,
+      "officialAttachmentMatched": true,
+      "evidenceUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=1391632",
+      "evidenceNote": "현행 가평군 교복 지원 조례1391632 전체8개 조문 및 부칙을 읽었다. 제6조제1·2항은 지원금을 학교에 지급하고 학교가 업체에 대금을 지급하여 학생에게 현물을 제공하며, 제3항은 학생이 학교에 교복구매 신청하도록 정한다. 현재 정확 복지로WLF00000942도 학교에서 학교주관구매로 신청 받아1인40만원 이내 현물 지원한다고 안내한다. 현재 법정첨부15008013 전체2개 섹션1188자를 읽어 별지1 읍면 제출·별지2 학교장 제출 신청·별지3 검토조서를 구별했다. 학생·학부모 서명과 중복지원 확인을 갖춘 별지2만 학교에서 신청서 제출을 요청하는 단계에 연결하며 학교 현물지원 사업을 학생 현금청구로 바꾸지 않는다.",
+      "roleBasis": "현행 가평군 교복 지원 조례1391632 전체8개 조문 및 부칙을 읽었다. 제6조제1·2항은 지원금을 학교에 지급하고 학교가 업체에 대금을 지급하여 학생에게 현물을 제공하며, 제3항은 학생이 학교에 교복구매 신청하도록 정한다. 현재 정확 복지로WLF00000942도 학교에서 학교주관구매로 신청 받아1인40만원 이내 현물 지원한다고 안내한다. 현재 법정첨부15008013 전체2개 섹션1188자를 읽어 별지1 읍면 제출·별지2 학교장 제출 신청·별지3 검토조서를 구별했다. 학생·학부모 서명과 중복지원 확인을 갖춘 별지2만 학교에서 신청서 제출을 요청하는 단계에 연결하며 학교 현물지원 사업을 학생 현금청구로 바꾸지 않는다.",
+      "roleEvidenceUrl": "https://www.law.go.kr/flDownload.do?gubun=ELIS&flSeq=124586253&flNm=%EB%B3%84%ED%91%9C+1~3",
+      "roleCheckedAt": "2026-10-20",
+      "sha256": "fc0e4692d5d09e14566ce269df0d4231f4a871774dea0ba29aa026ee77bd9510",
+      "bytes": 21504,
+      "originalFormat": "hwp",
+      "originalPath": "pipeline/forms/originals/ordin-15008013.hwp",
+      "textEvidencePath": "logs/forms-completion/gyeonggi-20261019/team1/raw-cited/extracted/ordin-15008013.json",
+      "textScope": "all_body_sections_or_pages",
+      "originalTextScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "BodyText/Section0",
+        "BodyText/Section1"
+      ],
+      "fullBodyReviewed": true,
+      "textLength": 1188,
+      "bodyTextSha256": "54b4c0de5edfd268cc12c4cc692efe5ae7c0d8f29c3fc7a81258432518ccfadc",
+      "independentlyReextracted": false,
+      "embeddedImageCount": 0,
+      "reviewedBy": "/root/forms_source_audit",
+      "referencedLaws": [
+        "가평군 교복 지원 조례"
+      ],
+      "excludedParts": [
+        {
+          "number": "별지 제1호서식",
+          "title": "교복구입비 지원신청서(읍면장 제출)",
+          "reason": "관외 현금지원 경로이며 이 현물/학교구매 사업 연결에서는 제외"
+        },
+        {
+          "number": "별지 제3호서식",
+          "title": "교복구입비 지원 검토조서",
+          "reason": "학교·기관 심사작성용"
+        }
+      ],
+      "sourceIssues": [
+        "2019 개정 본문은 학교 현물구매로 정리되어 있지만 첨부 별지의 계좌란과 제6조제1항 관련 표제는 그대로 남아 있다. 전체 묶음을 현금청구서로 안내하지 않으며 현재 학교 신청 경로에 해당하는 별지2만 선택한다.",
+        "현재 별지2가 모든 학교에서 반드시 요구된다고 단정하지 않는다. 학교가 이 신청서 제출을 요청한 경우에 한한 자료다."
+      ],
+      "lawId": "1391632",
+      "lawTitle": "가평군 교복 지원 조례",
+      "lawEvidenceUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=1391632",
+      "annexId": "15008013",
+      "annexNumber": "1",
+      "programPageRecord": "logs/forms-completion/gyeonggi-20261019/current-pages/WLF00000942.json",
+      "programPageSHA256": "6d21d9762b5ddcfaff20f97af1c75222dbd271a8a9bb52a8edcdc4e43d63e716",
+      "originalHttpStatus": 200,
+      "verifiedDocumentTitle": "교복구입비 지원신청서(학교장 제출)",
+      "lawUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=1391632",
+      "flSeq": "124586253",
+      "currentLawEvidence": {
+        "auditRecord": "logs/forms-completion/gyeonggi-20261019/current-law-extra3/audit.json",
+        "bodyRecord": "logs/forms-completion/gyeonggi-20261019/current-law-extra3/current-law-bodies/1391632.json.gz",
+        "lawId": "1391632",
+        "stableLawId": "2179866",
+        "effectiveDate": "20190415",
+        "annex": {
+          "annexId": "15008013",
+          "number": "1",
+          "kind": "서식",
+          "title": "별표 1~3",
+          "fileFormat": "hwp",
+          "url": "https://www.law.go.kr/flDownload.do?gubun=ELIS&flSeq=124586253&flNm=%EB%B3%84%ED%91%9C+1~3",
+          "flSeq": "124586253",
+          "pdfUrl": "",
+          "contentChars": 0,
+          "deleted": false
+        },
+        "bodySHA256": "f0a7e5207f394f0e39534efb45c6de8595caf8b0305f67c8a103d4a4b2b92a5e",
+        "allArticlesAndAddendaRead": true
+      },
+      "lawBodyRecordSHA256": "f0a7e5207f394f0e39534efb45c6de8595caf8b0305f67c8a103d4a4b2b92a5e",
+      "originalShaVerified": true,
+      "originalByteVerificationRecord": "logs/forms-completion/gyeonggi-20261019/team1/raw-cited/gapyeong-uniform-byte-proof.json",
+      "programPageProgramSpecific": true,
+      "displayTitle": "교복구입비 지원신청서(학교장 제출)",
+      "coordinatorApproved": true,
+      "coordinatorReason": "현행 가평군 교복 지원 조례1391632 전체8개 조문 및 부칙을 읽었다. 제6조제1·2항은 지원금을 학교에 지급하고 학교가 업체에 대금을 지급하여 학생에게 현물을 제공하며, 제3항은 학생이 학교에 교복구매 신청하도록 정한다. 현재 정확 복지로WLF00000942도 학교에서 학교주관구매로 신청 받아1인40만원 이내 현물 지원한다고 안내한다. 현재 법정첨부15008013 전체2개 섹션1188자를 읽어 별지1 읍면 제출·별지2 학교장 제출 신청·별지3 검토조서를 구별했다. 학생·학부모 서명과 중복지원 확인을 갖춘 별지2만 학교에서 신청서 제출을 요청하는 단계에 연결하며 학교 현물지원 사업을 학생 현금청구로 바꾸지 않는다.",
+      "currentAnnexBinding": {
+        "binding": "bound",
+        "bindingReason": "OFFICIAL_ANNEX_BOUND_WITH_SAME_FILE",
+        "officialAnnexId": "15008013",
+        "officialAnnexNumber": "1",
+        "officialAnnexTitle": "별표 1~3",
+        "officialFlSeq": "124586253",
+        "officialAnnexUrl": "https://www.law.go.kr/flDownload.do?gubun=ELIS&flSeq=124586253&flNm=%EB%B3%84%ED%91%9C+1~3",
+        "officialAnnexDeleted": false
+      }
+    },
+    {
+      "sourceKind": "ordin",
+      "basisType": "current_law_and_official_program",
+      "formId": "ordin-21219351",
+      "sourceCandidateId": null,
+      "sourcePageUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=2095721",
+      "sourcePageHttpStatus": 200,
+      "sourcePageRecord": "logs/forms-completion/gyeonggi-20261019/current-law-extra4/current-law-bodies/2095721.json.gz",
+      "sourceUrl": "https://www.law.go.kr/flDownload.do?gubun=ELIS&flSeq=159455241&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C3%ED%98%B8%EC%84%9C%EC%8B%9D%5D%EB%B3%B4%ED%9B%88%EB%AA%85%EC%98%88%EC%88%98%EB%8B%B9+%EB%93%B1+%EC%A7%80%EA%B8%89%EC%8B%A0%EC%B2%AD+%EB%B3%80%EA%B2%BD%EC%82%AC%ED%95%AD+%EC%8B%A0%EA%B3%A0%EC%84%9C",
+      "finalUrl": "https://www.law.go.kr/flDownload.do?gubun=ELIS&flSeq=159455241&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C3%ED%98%B8%EC%84%9C%EC%8B%9D%5D%EB%B3%B4%ED%9B%88%EB%AA%85%EC%98%88%EC%88%98%EB%8B%B9+%EB%93%B1+%EC%A7%80%EA%B8%89%EC%8B%A0%EC%B2%AD+%EB%B3%80%EA%B2%BD%EC%82%AC%ED%95%AD+%EC%8B%A0%EA%B3%A0%EC%84%9C",
+      "attachmentId": "21219351",
+      "attachmentIdentifier": {
+        "queryParam": "flSeq",
+        "value": "159455241"
+      },
+      "attachmentFileSn": null,
+      "officialProgramSourceId": "560000000104",
+      "agencyName": "경기도 포천시",
+      "authorityKind": "government",
+      "authorityEvidenceKind": "government",
+      "authorityEvidenceUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=2095721",
+      "authorityEvidenceNote": "총괄이 국가법령정보센터 nw=1 목록으로 현행판을 확인한 법규의 정확별지ID/flSeq를 실제 원본SHA와 결속했다.",
+      "formTitle": "[별지 제3호서식]보훈명예수당 등 지급신청 변경사항 신고서",
+      "sourceMetadataTitle": "[별지 제3호서식]보훈명예수당 등 지급신청 변경사항 신고서",
+      "programIds": [
+        "g41650.gov24-560000000104"
+      ],
+      "programNames": [
+        "보훈명예수당"
+      ],
+      "programEvidenceUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/560000000104",
+      "regionCode": "41650",
+      "regionLabel": "경기도 포천시",
+      "checkedAt": "2026-10-20",
+      "dateKind": "effective",
+      "effectiveDate": "2026-01-01",
+      "publishedAt": null,
+      "role": "application",
+      "use": "conditional",
+      "condition": "포천시 보훈명예수당 등 지급 대상자의 주소 또는 예금계좌가 바뀐 경우에만 제출하는 변경신고서입니다. 계좌 변경 시 통장사본을 첨부합니다. 신규 수당 신청이나 사망위로금 청구서가 아닙니다. 정부24 안내(2026.1.30 수정)는 보훈명예수당 월25만원, 현행 포천시 조례 제9조(2026.1.1 시행)는 월30만원으로 다르게 표시합니다. 이 원본에는 지급금액란이 없으며 주소·계좌 변경에만 사용하고 실제 지급액은 포천시에서 확인합니다.",
+      "applicant": "포천시 보훈명예수당 등 지급 대상자",
+      "reviewedParts": [
+        {
+          "number": "별지 제3호서식",
+          "title": "보훈명예수당 등 지급신청 변경사항 신고서",
+          "use": "conditional",
+          "author": "포천시 보훈명예수당 등 지급 대상자"
+        }
+      ],
+      "selectedParts": [
+        {
+          "number": "별지 제3호서식",
+          "title": "보훈명예수당 등 지급신청 변경사항 신고서",
+          "use": "conditional",
+          "author": "포천시 보훈명예수당 등 지급 대상자"
+        }
+      ],
+      "verificationStatus": "verified",
+      "decision": "propose_approval",
+      "publicationApproved": false,
+      "requiresCoordinatorReview": true,
+      "officialAttachmentMatched": true,
+      "evidenceUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=2095721",
+      "evidenceNote": "현행 포천시 국가보훈대상자 조례2095721 전체21조와 부칙을 읽고 제13조의 주소·예금계좌 변경 시 별지3 신고 의무를 확인했다. 현재 정확 정부24사업560000000104는 동일 조례의 보훈명예·참전·독립유공자·배우자수당을 한 사업으로 안내한다. 원본 전체에서 신고인·변경주소·금융기관/계좌/예금주·서명과 계좌변경 시 통장사본만 요구하는 것을 확인했다. 조례와Gov24 금액 차이는 원본 변형 없이 공개 조건에 명시한다.",
+      "roleBasis": "현행 포천시 국가보훈대상자 조례2095721 전체21조와 부칙을 읽고 제13조의 주소·예금계좌 변경 시 별지3 신고 의무를 확인했다. 현재 정확 정부24사업560000000104는 동일 조례의 보훈명예·참전·독립유공자·배우자수당을 한 사업으로 안내한다. 원본 전체에서 신고인·변경주소·금융기관/계좌/예금주·서명과 계좌변경 시 통장사본만 요구하는 것을 확인했다. 조례와Gov24 금액 차이는 원본 변형 없이 공개 조건에 명시한다.",
+      "roleEvidenceUrl": "https://www.law.go.kr/flDownload.do?gubun=ELIS&flSeq=159455241&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C3%ED%98%B8%EC%84%9C%EC%8B%9D%5D%EB%B3%B4%ED%9B%88%EB%AA%85%EC%98%88%EC%88%98%EB%8B%B9+%EB%93%B1+%EC%A7%80%EA%B8%89%EC%8B%A0%EC%B2%AD+%EB%B3%80%EA%B2%BD%EC%82%AC%ED%95%AD+%EC%8B%A0%EA%B3%A0%EC%84%9C",
+      "roleCheckedAt": "2026-10-20",
+      "sha256": "858cab147363c7bbf8c18d8444208f2edaef66f047e1a1fd939adac83b1ac88f",
+      "bytes": 54784,
+      "originalFormat": "hwp",
+      "originalPath": "pipeline/forms/originals/ordin-21219351.hwp",
+      "textEvidencePath": "logs/forms-completion/gyeonggi-20261019/team1/raw-cited/extracted/ordin-21219351.json",
+      "textScope": "all_body_sections_or_pages",
+      "originalTextScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "BodyText/Section0"
+      ],
+      "fullBodyReviewed": true,
+      "textLength": 338,
+      "bodyTextSha256": "42fe888595984771640ce0c5bb105a082c483fa0643393d63e09abd89261f28e",
+      "independentlyReextracted": false,
+      "embeddedImageCount": 0,
+      "reviewedBy": "/root/forms_source_audit",
+      "referencedLaws": [
+        "포천시 국가보훈대상자 등 예우 및 지원에 관한 조례"
+      ],
+      "excludedParts": [],
+      "sourceIssues": [
+        "정부24 월25만원과 현행2026조례 월30만원 차이를 공개조건에 보존한다. 프로그램의 금액 데이터는 수정하지 않는다."
+      ],
+      "lawId": "2095721",
+      "lawTitle": "포천시 국가보훈대상자 등 예우 및 지원에 관한 조례",
+      "lawEvidenceUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=2095721",
+      "annexId": "21219351",
+      "annexNumber": "3",
+      "programPageRecord": "logs/forms-completion/gyeonggi-20261019/team1/pages/program-g41650.gov24-560000000104.json",
+      "programPageSHA256": "08496766819fd596531eb54384cbd363de55f0545a0f421d9691265dc1b2c94a",
+      "originalHttpStatus": 200,
+      "verifiedDocumentTitle": "보훈명예수당 등 지급신청 변경사항 신고서",
+      "lawUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=2095721",
+      "flSeq": "159455241",
+      "currentLawEvidence": {
+        "auditRecord": "logs/forms-completion/gyeonggi-20261019/current-law-extra4/audit.json",
+        "bodyRecord": "logs/forms-completion/gyeonggi-20261019/current-law-extra4/current-law-bodies/2095721.json.gz",
+        "lawId": "2095721",
+        "stableLawId": "2143151",
+        "effectiveDate": "20260101",
+        "annex": {
+          "annexId": "21219351",
+          "number": "3",
+          "kind": "서식",
+          "title": "[별지 제3호서식]보훈명예수당 등 지급신청 변경사항 신고서",
+          "fileFormat": "hwp",
+          "url": "https://www.law.go.kr/flDownload.do?gubun=ELIS&flSeq=159455241&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C3%ED%98%B8%EC%84%9C%EC%8B%9D%5D%EB%B3%B4%ED%9B%88%EB%AA%85%EC%98%88%EC%88%98%EB%8B%B9+%EB%93%B1+%EC%A7%80%EA%B8%89%EC%8B%A0%EC%B2%AD+%EB%B3%80%EA%B2%BD%EC%82%AC%ED%95%AD+%EC%8B%A0%EA%B3%A0%EC%84%9C",
+          "flSeq": "159455241",
+          "pdfUrl": "",
+          "contentChars": 0,
+          "deleted": false
+        },
+        "bodySHA256": "3b777fa80f4936535f3ad16e3f2ebfaf6c4f0fa20992637002ca242a7339670c",
+        "bodyRead": true,
+        "allArticlesAndAddendaRead": true,
+        "articleContentState": "read",
+        "currentAnnexBindingVerified": true
+      },
+      "lawBodyRecordSHA256": "3b777fa80f4936535f3ad16e3f2ebfaf6c4f0fa20992637002ca242a7339670c",
+      "originalShaVerified": true,
+      "originalByteVerificationRecord": "logs/forms-completion/gyeonggi-20261019/team1/current-portal-byte-proof-20261020.json",
+      "programPageProgramSpecific": true,
+      "displayTitle": "보훈명예수당 등 지급신청 변경사항 신고서",
+      "coordinatorApproved": true,
+      "coordinatorReason": "현행 포천시 국가보훈대상자 조례2095721 전체21조와 부칙을 읽고 제13조의 주소·예금계좌 변경 시 별지3 신고 의무를 확인했다. 현재 정확 정부24사업560000000104는 동일 조례의 보훈명예·참전·독립유공자·배우자수당을 한 사업으로 안내한다. 원본 전체에서 신고인·변경주소·금융기관/계좌/예금주·서명과 계좌변경 시 통장사본만 요구하는 것을 확인했다. 조례와Gov24 금액 차이는 원본 변형 없이 공개 조건에 명시한다.",
+      "currentAnnexBinding": {
+        "binding": "bound",
+        "bindingReason": "OFFICIAL_ANNEX_BOUND_WITH_SAME_FILE",
+        "officialAnnexId": "21219351",
+        "officialAnnexNumber": "3",
+        "officialAnnexTitle": "[별지 제3호서식]보훈명예수당 등 지급신청 변경사항 신고서",
+        "officialFlSeq": "159455241",
+        "officialAnnexUrl": "https://www.law.go.kr/flDownload.do?gubun=ELIS&flSeq=159455241&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C3%ED%98%B8%EC%84%9C%EC%8B%9D%5D%EB%B3%B4%ED%9B%88%EB%AA%85%EC%98%88%EC%88%98%EB%8B%B9+%EB%93%B1+%EC%A7%80%EA%B8%89%EC%8B%A0%EC%B2%AD+%EB%B3%80%EA%B2%BD%EC%82%AC%ED%95%AD+%EC%8B%A0%EA%B3%A0%EC%84%9C",
+        "officialAnnexDeleted": false
+      }
+    },
+    {
+      "sourceKind": "ordin",
+      "basisType": "official_program_document_reference_and_current_annex",
+      "formId": "ordin-21338669",
+      "sourceCandidateId": null,
+      "sourcePageUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=2105321",
+      "sourcePageHttpStatus": 200,
+      "sourcePageRecord": "logs/forms-completion/gyeonggi-20261019/current-law-extra4/current-law-bodies/2105321.json.gz",
+      "sourceUrl": "https://www.law.go.kr/flDownload.do?gubun=ELIS&flSeq=160466383&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C2%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EA%B7%80%EB%86%8D%EC%9D%B8%EC%8B%A0%EA%B3%A0%EC%84%9C",
+      "finalUrl": "https://www.law.go.kr/flDownload.do?gubun=ELIS&flSeq=160466383&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C2%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EA%B7%80%EB%86%8D%EC%9D%B8%EC%8B%A0%EA%B3%A0%EC%84%9C",
+      "attachmentId": "21338669",
+      "attachmentIdentifier": {
+        "queryParam": "flSeq",
+        "value": "160466383"
+      },
+      "attachmentFileSn": null,
+      "officialProgramSourceId": "414000000118",
+      "agencyName": "경기도 연천군",
+      "authorityKind": "government",
+      "authorityEvidenceKind": "government",
+      "authorityEvidenceUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=2105321",
+      "authorityEvidenceNote": "총괄이 국가법령정보센터 nw=1 목록으로 현행판을 확인한 법규의 정확별지ID/flSeq를 실제 원본SHA와 결속했다.",
+      "formTitle": "[별지 제2호서식] 귀농인신고서",
+      "sourceMetadataTitle": "[별지 제2호서식] 귀농인신고서",
+      "programIds": [
+        "g41800.gov24-414000000118"
+      ],
+      "programNames": [
+        "귀농귀촌인 정착 지원"
+      ],
+      "programEvidenceUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/414000000118",
+      "regionCode": "41800",
+      "regionLabel": "경기도 연천군",
+      "checkedAt": "2026-10-20",
+      "dateKind": "effective",
+      "effectiveDate": "2026-01-01",
+      "publishedAt": null,
+      "role": "application",
+      "use": "conditional",
+      "condition": "연천군 귀농귀촌인 정착 지원 중 영농정착금 신청자가 귀농 사실을 신고하고 동의서를 제출하는 추가 절차에 사용합니다. 현재 정부24 안내에 따라 전입일로부터1년 이내 주소지 읍면 행정복지센터에 제출하며, 장려금 신청서·농업경영체 등록확인서·농자재 구입견적서·지출증빙 등 안내된 서류를 함께 준비합니다. 단독주택 수리비·설계비만 신청하는 사람이나 일반 전입 정착지원금 신청자에게 일괄 요구하는 서식은 아닙니다.",
+      "applicant": "연천군 영농정착금 지원을 신청하는 귀농인",
+      "reviewedParts": [
+        {
+          "number": "별지 제2호서식 앞·뒷면",
+          "title": "귀농인 신고서 및 개인정보 수집·이용 동의서",
+          "use": "conditional",
+          "author": "연천군 영농정착금 지원을 신청하는 귀농인"
+        }
+      ],
+      "selectedParts": [
+        {
+          "number": "별지 제2호서식 앞·뒷면",
+          "title": "귀농인 신고서 및 개인정보 수집·이용 동의서",
+          "use": "conditional",
+          "author": "연천군 영농정착금 지원을 신청하는 귀농인"
+        }
+      ],
+      "verificationStatus": "verified",
+      "decision": "propose_approval",
+      "publicationApproved": false,
+      "requiresCoordinatorReview": true,
+      "officialAttachmentMatched": true,
+      "evidenceUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=2105321",
+      "evidenceNote": "2026-10-20 현재 정부24의 정확 사업414000000118 구비서류가 영농정착금 항목에서 귀농인 신고서 및 귀농인 신고 관련 개인정보 동의서를 명시한다. 현행 목록에서 확인된 시행규칙2105321의 정확 별지21338669/flSeq160466383이 전체 서식과 같은 SHA로 재다운로드됐다. 전체 앞·뒷면은 귀농인 인적사항·전현주소·영농현황·이주정착계획·본인 신고와 개인정보 동의이며 가평 등 타지역 서식이 아니다. 현행 DRF 및 기존 ELIS 법규본문은 미수록/미확인 상태이므로 조문내용을 추정하지 않았다. 이 연결은 공식 사업의 제출서류 지정과 정확 현행 첨부 결속에 근거한다.",
+      "roleBasis": "2026-10-20 현재 정부24의 정확 사업414000000118 구비서류가 영농정착금 항목에서 귀농인 신고서 및 귀농인 신고 관련 개인정보 동의서를 명시한다. 현행 목록에서 확인된 시행규칙2105321의 정확 별지21338669/flSeq160466383이 전체 서식과 같은 SHA로 재다운로드됐다. 전체 앞·뒷면은 귀농인 인적사항·전현주소·영농현황·이주정착계획·본인 신고와 개인정보 동의이며 가평 등 타지역 서식이 아니다. 현행 DRF 및 기존 ELIS 법규본문은 미수록/미확인 상태이므로 조문내용을 추정하지 않았다. 이 연결은 공식 사업의 제출서류 지정과 정확 현행 첨부 결속에 근거한다.",
+      "roleEvidenceUrl": "https://www.law.go.kr/flDownload.do?gubun=ELIS&flSeq=160466383&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C2%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EA%B7%80%EB%86%8D%EC%9D%B8%EC%8B%A0%EA%B3%A0%EC%84%9C",
+      "roleCheckedAt": "2026-10-20",
+      "sha256": "55bd0f91ba206b446889a219516103c6f289ff43e774f1a27910aa3184036d37",
+      "bytes": 35840,
+      "originalFormat": "hwp",
+      "originalPath": "pipeline/forms/originals/ordin-21338669.hwp",
+      "textEvidencePath": "logs/forms-completion/gyeonggi-20261019/team1/raw-cited/extracted/ordin-21338669.json",
+      "textScope": "all_body_sections_or_pages",
+      "originalTextScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "BodyText/Section0"
+      ],
+      "fullBodyReviewed": true,
+      "textLength": 795,
+      "bodyTextSha256": "ce40d14570434f001e27cb915511d7a46419da44abbb319e1c23179ebc2bb452",
+      "independentlyReextracted": false,
+      "embeddedImageCount": 0,
+      "reviewedBy": "/root/forms_source_audit",
+      "referencedLaws": [
+        "연천군 인구유입시책에 관한 조례 시행규칙"
+      ],
+      "excludedParts": [],
+      "sourceIssues": [
+        "시행규칙2105321의 현재 DRF 수집 조문 수는0이며 법규본문 전체판독을 하지 못했다. currentLawEvidence.bodyRead=false로 명시한다.",
+        "서식 본문에는 구 제명 '연천군인구유입시책 지원에 관한 조례'를 인쇄하고 있으나 현재 목록의 정확 동일별지로 결속된다. 현재 사업이 같은 귀농인 신고서를 제출서류로 직접 지칭하는 범위만 연결한다."
+      ],
+      "lawId": "2105321",
+      "lawTitle": "연천군 인구유입시책에 관한 조례 시행규칙",
+      "lawEvidenceUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=2105321",
+      "annexId": "21338669",
+      "annexNumber": "2",
+      "programPageRecord": "logs/forms-completion/gyeonggi-20261019/team1/pages/program-g41800.gov24-414000000118.json",
+      "programPageSHA256": "bd5c7f3605a72e59b1be72976316dcf6e37882b8f094d70f60e9164d9bf12e69",
+      "originalHttpStatus": 200,
+      "verifiedDocumentTitle": "귀농인 신고서 및 개인정보 수집·이용 동의서",
+      "lawUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=2105321",
+      "flSeq": "160466383",
+      "currentLawEvidence": {
+        "auditRecord": "logs/forms-completion/gyeonggi-20261019/current-law-extra4/audit.json",
+        "bodyRecord": "logs/forms-completion/gyeonggi-20261019/current-law-extra4/current-law-bodies/2105321.json.gz",
+        "lawId": "2105321",
+        "stableLawId": "2147794",
+        "effectiveDate": "20260101",
+        "annex": {
+          "annexId": "21338669",
+          "number": "2",
+          "kind": "서식",
+          "title": "[별지 제2호서식] 귀농인신고서",
+          "fileFormat": "HWP",
+          "url": "https://www.law.go.kr/flDownload.do?gubun=ELIS&flSeq=160466383&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C2%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EA%B7%80%EB%86%8D%EC%9D%B8%EC%8B%A0%EA%B3%A0%EC%84%9C",
+          "flSeq": "160466383",
+          "pdfUrl": "",
+          "contentChars": 0,
+          "deleted": false
+        },
+        "bodySHA256": "524a11c34c1d9c5f072323b67ca7d85c2eb2f44927174efdcca39a243b273147",
+        "bodyRead": false,
+        "allArticlesAndAddendaRead": false,
+        "articleContentState": "missing_in_current_collector",
+        "currentAnnexBindingVerified": true
+      },
+      "lawBodyRecordSHA256": "524a11c34c1d9c5f072323b67ca7d85c2eb2f44927174efdcca39a243b273147",
+      "originalShaVerified": true,
+      "originalByteVerificationRecord": "logs/forms-completion/gyeonggi-20261019/team1/current-portal-byte-proof-20261020.json",
+      "programPageProgramSpecific": true,
+      "lawBodyRead": false,
+      "displayTitle": "귀농인 신고서 및 개인정보 수집·이용 동의서",
+      "coordinatorApproved": true,
+      "coordinatorReason": "2026-10-20 현재 정부24의 정확 사업414000000118 구비서류가 영농정착금 항목에서 귀농인 신고서 및 귀농인 신고 관련 개인정보 동의서를 명시한다. 현행 목록에서 확인된 시행규칙2105321의 정확 별지21338669/flSeq160466383이 전체 서식과 같은 SHA로 재다운로드됐다. 전체 앞·뒷면은 귀농인 인적사항·전현주소·영농현황·이주정착계획·본인 신고와 개인정보 동의이며 가평 등 타지역 서식이 아니다. 현행 DRF 및 기존 ELIS 법규본문은 미수록/미확인 상태이므로 조문내용을 추정하지 않았다. 이 연결은 공식 사업의 제출서류 지정과 정확 현행 첨부 결속에 근거한다.",
+      "currentAnnexBinding": {
+        "binding": "bound",
+        "bindingReason": "OFFICIAL_ANNEX_BOUND_WITH_SAME_FILE",
+        "officialAnnexId": "21338669",
+        "officialAnnexNumber": "2",
+        "officialAnnexTitle": "[별지 제2호서식] 귀농인신고서",
+        "officialFlSeq": "160466383",
+        "officialAnnexUrl": "https://www.law.go.kr/flDownload.do?gubun=ELIS&flSeq=160466383&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C2%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EA%B7%80%EB%86%8D%EC%9D%B8%EC%8B%A0%EA%B3%A0%EC%84%9C",
+        "officialAnnexDeleted": false
+      }
+    },
+    {
+      "sourceKind": "ordin",
+      "basisType": "current_law_and_official_program",
+      "formId": "ordin-18138737",
+      "sourceCandidateId": null,
+      "sourcePageUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=1784715",
+      "sourcePageHttpStatus": 200,
+      "sourcePageRecord": "logs/forms-completion/gyeonggi-20261019/current-law-extra5/current-law-bodies/1784715.json.gz",
+      "sourceUrl": "https://www.law.go.kr/flDownload.do?gubun=ELIS&flSeq=142541561&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C1%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EC%95%84%EB%8F%99%EA%B8%89%EC%8B%9D+%EC%8B%A0%EC%B2%AD%28%EC%B6%94%EC%B2%9C%29%EC%84%9C",
+      "finalUrl": "https://www.law.go.kr/flDownload.do?gubun=ELIS&flSeq=142541561&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C1%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EC%95%84%EB%8F%99%EA%B8%89%EC%8B%9D+%EC%8B%A0%EC%B2%AD%28%EC%B6%94%EC%B2%9C%29%EC%84%9C",
+      "attachmentId": "18138737",
+      "attachmentIdentifier": {
+        "queryParam": "flSeq",
+        "value": "142541561"
+      },
+      "attachmentFileSn": null,
+      "officialProgramSourceId": "641000000171",
+      "agencyName": "경기도 포천시",
+      "authorityKind": "government",
+      "authorityEvidenceKind": "government",
+      "authorityEvidenceUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=1784715",
+      "authorityEvidenceNote": "총괄이 국가법령정보센터 nw=1 목록으로 현행판을 확인한 법규의 정확별지ID/flSeq를 실제 원본SHA와 결속했다.",
+      "formTitle": "[별지 제1호서식] 아동급식 신청(추천)서",
+      "sourceMetadataTitle": "[별지 제1호서식] 아동급식 신청(추천)서",
+      "programIds": [
+        "s41000.gov24-641000000171"
+      ],
+      "programNames": [
+        "결식아동급식지원"
+      ],
+      "programEvidenceUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/641000000171",
+      "regionCode": "41650",
+      "regionLabel": "경기도 포천시",
+      "checkedAt": "2026-10-20",
+      "dateKind": "effective",
+      "effectiveDate": "2023-02-22",
+      "publishedAt": null,
+      "role": "application",
+      "use": "conditional",
+      "condition": "포천시 거주 아동의 포천시 접수 전용입니다.18세 미만 결식우려 아동 중 경기도 사업과 포천시 조례의 대상에 해당할 때 주소지 읍면동장에게 신청서·소득/결식우려 증빙을 제출합니다. 가족·이웃·교사·사회복지사·이통장 등의 신청은 현행 포천시 조례 제4조 범위에서 사용합니다. 서식의 기존 여름방학 지원자 재신청 안내는 그대로 보존하며 신규 신청서가 모든 기존수급자에게 재제출 의무를 만드는 것은 아닙니다.",
+      "applicant": "포천시 대상 아동·보호자 또는 현행 조례가 허용한 신청·추천인",
+      "reviewedParts": [
+        {
+          "number": "별지 제1호서식 앞·뒷면",
+          "title": "아동급식 신청(추천)서",
+          "use": "conditional",
+          "author": "포천시 대상 아동·보호자 또는 현행 조례가 허용한 신청·추천인"
+        }
+      ],
+      "selectedParts": [
+        {
+          "number": "별지 제1호서식 앞·뒷면",
+          "title": "아동급식 신청(추천)서",
+          "use": "conditional",
+          "author": "포천시 대상 아동·보호자 또는 현행 조례가 허용한 신청·추천인"
+        }
+      ],
+      "verificationStatus": "verified",
+      "decision": "propose_approval",
+      "publicationApproved": false,
+      "requiresCoordinatorReview": true,
+      "officialAttachmentMatched": true,
+      "evidenceUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=1784715",
+      "evidenceNote": "Grok의 전체본문 판독 결과를 받은 뒤 Codex가 실제 원본 전체를 독립 재추출·판독하고 SHA/text를 대조했다. 현행 포천시 조례1784715 전체10개 조문·부칙에서 제2조 수급/차상위·한부모·중위52%·외국국적 등 대상과 제4조제2항의 별지1 읍면동 제출을 확인했다. 현재 경기도 정부24사업641000000171의 동일급식대상·현물/카드급식·읍면동접수·급식신청서 제출과 일치한다. 빈 신청인·아동·추천사유·급식유형·동의·서명 전체를 확인했으며 기관급식비 청구서가 아니다.",
+      "roleBasis": "Grok의 전체본문 판독 결과를 받은 뒤 Codex가 실제 원본 전체를 독립 재추출·판독하고 SHA/text를 대조했다. 현행 포천시 조례1784715 전체10개 조문·부칙에서 제2조 수급/차상위·한부모·중위52%·외국국적 등 대상과 제4조제2항의 별지1 읍면동 제출을 확인했다. 현재 경기도 정부24사업641000000171의 동일급식대상·현물/카드급식·읍면동접수·급식신청서 제출과 일치한다. 빈 신청인·아동·추천사유·급식유형·동의·서명 전체를 확인했으며 기관급식비 청구서가 아니다.",
+      "roleEvidenceUrl": "https://www.law.go.kr/flDownload.do?gubun=ELIS&flSeq=142541561&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C1%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EC%95%84%EB%8F%99%EA%B8%89%EC%8B%9D+%EC%8B%A0%EC%B2%AD%28%EC%B6%94%EC%B2%9C%29%EC%84%9C",
+      "roleCheckedAt": "2026-10-20",
+      "sha256": "870768df2fae1616bc1825c8470685dc091ada1fcae6d730e352818e05688f64",
+      "bytes": 62976,
+      "originalFormat": "hwp",
+      "originalPath": "pipeline/forms/originals/ordin-18138737.hwp",
+      "textEvidencePath": "logs/forms-completion/gyeonggi-20261019/team1/uncited/extracted/ordin-18138737.json",
+      "textScope": "all_body_sections_or_pages",
+      "originalTextScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "BodyText/Section0"
+      ],
+      "fullBodyReviewed": true,
+      "textLength": 1616,
+      "bodyTextSha256": "a771b1835c58c3c2d2fe8b5bac2b5e62c369380db4ebcc2e22bf240a1225dc6f",
+      "independentlyReextracted": false,
+      "embeddedImageCount": 0,
+      "reviewedBy": "/root/forms_source_audit",
+      "referencedLaws": [
+        "포천시 아동급식 지원에 관한 조례"
+      ],
+      "excludedParts": [],
+      "sourceIssues": [
+        "원문에 '아동관의 관계', '구급시설', 미닫힘 괄호 등의 인쇄 표기가 있지만 원본을 변경하지 않았다."
+      ],
+      "lawId": "1784715",
+      "lawTitle": "포천시 아동급식 지원에 관한 조례",
+      "lawEvidenceUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=1784715",
+      "annexId": "18138737",
+      "annexNumber": "1",
+      "programPageRecord": "logs/forms-completion/gyeonggi-20261019/team1/pages/program-s41000.gov24-641000000171-20261020.json",
+      "programPageSHA256": "9cd3447bcd18fd7cadfd5c0e08e08694330c48b706e00c85f2b28fc9bc27e7dc",
+      "originalHttpStatus": 200,
+      "verifiedDocumentTitle": "아동급식 신청(추천)서",
+      "lawUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=1784715",
+      "flSeq": "142541561",
+      "currentLawEvidence": {
+        "auditRecord": "logs/forms-completion/gyeonggi-20261019/current-law-extra5/audit.json",
+        "bodyRecord": "logs/forms-completion/gyeonggi-20261019/current-law-extra5/current-law-bodies/1784715.json.gz",
+        "lawId": "1784715",
+        "stableLawId": "2188050",
+        "effectiveDate": "20230222",
+        "annex": {
+          "annexId": "18138737",
+          "number": "1",
+          "kind": "서식",
+          "title": "[별지 제1호서식] 아동급식 신청(추천)서",
+          "fileFormat": "hwp",
+          "url": "https://www.law.go.kr/flDownload.do?gubun=ELIS&flSeq=142541561&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C1%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EC%95%84%EB%8F%99%EA%B8%89%EC%8B%9D+%EC%8B%A0%EC%B2%AD%28%EC%B6%94%EC%B2%9C%29%EC%84%9C",
+          "flSeq": "142541561",
+          "pdfUrl": "",
+          "contentChars": 0,
+          "deleted": false
+        },
+        "bodySHA256": "1974bea873680e8a7a209dd57315114ec83bcb1df7931b3086cfa33439137872",
+        "bodyRead": true,
+        "allArticlesAndAddendaRead": true,
+        "articleContentState": "read",
+        "currentAnnexBindingVerified": true
+      },
+      "lawBodyRecordSHA256": "1974bea873680e8a7a209dd57315114ec83bcb1df7931b3086cfa33439137872",
+      "originalShaVerified": true,
+      "originalByteVerificationRecord": "logs/forms-completion/gyeonggi-20261019/team1/current-portal-byte-proof-20261020.json",
+      "programPageProgramSpecific": true,
+      "scopeBasis": "municipal-application-reference",
+      "municipalApplicationReference": {
+        "sido": "41000",
+        "sigungu": "41650",
+        "municipality": "포천시",
+        "programEvidenceUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/641000000171",
+        "httpStatus": 200,
+        "programSpecific": true,
+        "checkedAt": "2026-10-20",
+        "reference": "Grok의 전체본문 판독 결과를 받은 뒤 Codex가 실제 원본 전체를 독립 재추출·판독하고 SHA/text를 대조했다. 현행 포천시 조례1784715 전체10개 조문·부칙에서 제2조 수급/차상위·한부모·중위52%·외국국적 등 대상과 제4조제2항의 별지1 읍면동 제출을 확인했다. 현재 경기도 정부24사업641000000171의 동일급식대상·현물/카드급식·읍면동접수·급식신청서 제출과 일치한다. 빈 신청인·아동·추천사유·급식유형·동의·서명 전체를 확인했으며 기관급식비 청구서가 아니다.",
+        "formEvidence": "포천시 원본 전체1616자를 읽어 별지 제1호서식 앞·뒷면의 실제 신청인·아동정보·서명·첨부서류를 대조했다. Grok의 전체본문 판독 결과를 받은 뒤 Codex가 실제 원본 전체를 독립 재추출·판독하고 SHA/text를 대조했다. 현행 포천시 조례1784715 전체10개 조문·부칙에서 제2조 수급/차상위·한부모·중위52%·외국국적 등 대상과 제4조제2항의 별지1 읍면동 제출을 확인했다. 현재 경기도 정부24사업641000000171의 동일급식대상·현물/카드급식·읍면동접수·급식신청서 제출과 일치한다. 빈 신청인·아동·추천사유·급식유형·동의·서명 전체를 확인했으며 기관급식비 청구서가 아니다.",
+        "scopeRestriction": "포천시 거주 아동의 포천시 접수 전용",
+        "municipalArticle": "포천시 아동급식 지원에 관한 조례 제4조"
+      },
+      "externalBodyReview": {
+        "reviewedBy": "actual-grok-cli",
+        "record": "logs/forms-completion/gyeonggi-20261019/grok-law-review-2/validated-reviewed.json",
+        "sourceSHA256": "870768df2fae1616bc1825c8470685dc091ada1fcae6d730e352818e05688f64",
+        "textSHA256": "a771b1835c58c3c2d2fe8b5bac2b5e62c369380db4ebcc2e22bf240a1225dc6f",
+        "nativeIndependentFullBodyReviewed": true,
+        "nativeReviewer": "/root/forms_source_audit",
+        "publicationApprovedByExternal": false
+      },
+      "displayTitle": "아동급식 신청(추천)서",
+      "coordinatorApproved": true,
+      "coordinatorReason": "Grok의 전체본문 판독 결과를 받은 뒤 Codex가 실제 원본 전체를 독립 재추출·판독하고 SHA/text를 대조했다. 현행 포천시 조례1784715 전체10개 조문·부칙에서 제2조 수급/차상위·한부모·중위52%·외국국적 등 대상과 제4조제2항의 별지1 읍면동 제출을 확인했다. 현재 경기도 정부24사업641000000171의 동일급식대상·현물/카드급식·읍면동접수·급식신청서 제출과 일치한다. 빈 신청인·아동·추천사유·급식유형·동의·서명 전체를 확인했으며 기관급식비 청구서가 아니다.",
+      "currentAnnexBinding": {
+        "binding": "bound",
+        "bindingReason": "OFFICIAL_ANNEX_BOUND_WITH_SAME_FILE",
+        "officialAnnexId": "18138737",
+        "officialAnnexNumber": "1",
+        "officialAnnexTitle": "[별지 제1호서식] 아동급식 신청(추천)서",
+        "officialFlSeq": "142541561",
+        "officialAnnexUrl": "https://www.law.go.kr/flDownload.do?gubun=ELIS&flSeq=142541561&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C1%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EC%95%84%EB%8F%99%EA%B8%89%EC%8B%9D+%EC%8B%A0%EC%B2%AD%28%EC%B6%94%EC%B2%9C%29%EC%84%9C",
+        "officialAnnexDeleted": false
+      }
+    },
+    {
+      "sourceKind": "ordin",
+      "basisType": "current_law_and_official_program",
+      "formId": "ordin-18138741",
+      "sourceCandidateId": null,
+      "sourcePageUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=1784715",
+      "sourcePageHttpStatus": 200,
+      "sourcePageRecord": "logs/forms-completion/gyeonggi-20261019/current-law-extra5/current-law-bodies/1784715.json.gz",
+      "sourceUrl": "https://www.law.go.kr/flDownload.do?gubun=ELIS&flSeq=142541565&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C3%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EC%9D%B4%EC%9D%98%EC%8B%A0%EC%B2%AD%EC%84%9C",
+      "finalUrl": "https://www.law.go.kr/flDownload.do?gubun=ELIS&flSeq=142541565&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C3%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EC%9D%B4%EC%9D%98%EC%8B%A0%EC%B2%AD%EC%84%9C",
+      "attachmentId": "18138741",
+      "attachmentIdentifier": {
+        "queryParam": "flSeq",
+        "value": "142541565"
+      },
+      "attachmentFileSn": null,
+      "officialProgramSourceId": "641000000171",
+      "agencyName": "경기도 포천시",
+      "authorityKind": "government",
+      "authorityEvidenceKind": "government",
+      "authorityEvidenceUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=1784715",
+      "authorityEvidenceNote": "총괄이 국가법령정보센터 nw=1 목록으로 현행판을 확인한 법규의 정확별지ID/flSeq를 실제 원본SHA와 결속했다.",
+      "formTitle": "[별지 제3호서식] 이의신청서",
+      "sourceMetadataTitle": "[별지 제3호서식] 이의신청서",
+      "programIds": [
+        "s41000.gov24-641000000171"
+      ],
+      "programNames": [
+        "결식아동급식지원"
+      ],
+      "programEvidenceUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/641000000171",
+      "regionCode": "41650",
+      "regionLabel": "경기도 포천시",
+      "checkedAt": "2026-10-20",
+      "dateKind": "effective",
+      "effectiveDate": "2023-02-22",
+      "publishedAt": null,
+      "role": "application",
+      "use": "conditional",
+      "condition": "포천시에서 아동급식 지원 부적합 결정을 받은 신청자의 포천시 이의신청 전용입니다. 현행 포천시 조례 제6조의2에 따라 결과를 통지받은 날부터60일 이내에 이의신청 취지·사유와 확인서류를 작성해 포천시장에게 제출합니다. 인쇄된10일은 접수기관의 결정·처리기간이며 신청인의60일 제출기간과 다릅니다. 신규 급식지원 신청에는 별지 제1호를 사용합니다.",
+      "applicant": "포천시 아동급식 부적합 결정에 이의가 있는 신청인",
+      "reviewedParts": [
+        {
+          "number": "별지 제3호서식",
+          "title": "아동급식 지원 부적합 결정 이의신청서",
+          "use": "conditional",
+          "author": "포천시 아동급식 부적합 결정에 이의가 있는 신청인"
+        }
+      ],
+      "selectedParts": [
+        {
+          "number": "별지 제3호서식",
+          "title": "아동급식 지원 부적합 결정 이의신청서",
+          "use": "conditional",
+          "author": "포천시 아동급식 부적합 결정에 이의가 있는 신청인"
+        }
+      ],
+      "verificationStatus": "verified",
+      "decision": "propose_approval",
+      "publicationApproved": false,
+      "requiresCoordinatorReview": true,
+      "officialAttachmentMatched": true,
+      "evidenceUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=1784715",
+      "evidenceNote": "Grok의 전체본문 판독 후 Codex도 전체 빈 서식을 독립 재추출·판독했다. 현행 포천시 조례1784715 제6조의2는 급식지원 결과 통지 후60일 이내 별지3 이의신청 및 접수 후10일 이내 심의·결정을 명시한다. 원본의 신청인·아동과 관계·통지일·부적합내용·이의취지·본인서명과 첨부서류를 대조했다. 경기도 결식아동 사업641000000171의 포천시 선정 절차에 대한 사후서류이며 다른 급여의 포괄 이의신청으로 연결하지 않는다.",
+      "roleBasis": "Grok의 전체본문 판독 후 Codex도 전체 빈 서식을 독립 재추출·판독했다. 현행 포천시 조례1784715 제6조의2는 급식지원 결과 통지 후60일 이내 별지3 이의신청 및 접수 후10일 이내 심의·결정을 명시한다. 원본의 신청인·아동과 관계·통지일·부적합내용·이의취지·본인서명과 첨부서류를 대조했다. 경기도 결식아동 사업641000000171의 포천시 선정 절차에 대한 사후서류이며 다른 급여의 포괄 이의신청으로 연결하지 않는다.",
+      "roleEvidenceUrl": "https://www.law.go.kr/flDownload.do?gubun=ELIS&flSeq=142541565&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C3%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EC%9D%B4%EC%9D%98%EC%8B%A0%EC%B2%AD%EC%84%9C",
+      "roleCheckedAt": "2026-10-20",
+      "sha256": "8362f3c2c3aadd53509bf9f609be1ff795bda0f4e313448c5d4f9d958c15e0e7",
+      "bytes": 38400,
+      "originalFormat": "hwp",
+      "originalPath": "pipeline/forms/originals/ordin-18138741.hwp",
+      "textEvidencePath": "logs/forms-completion/gyeonggi-20261019/team1/uncited/extracted/ordin-18138741.json",
+      "textScope": "all_body_sections_or_pages",
+      "originalTextScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "BodyText/Section0"
+      ],
+      "fullBodyReviewed": true,
+      "textLength": 463,
+      "bodyTextSha256": "1c906d4eeeaf68a08b1385773c1a6c446ce2403d5ef74795a9c26f89892914d1",
+      "independentlyReextracted": false,
+      "embeddedImageCount": 0,
+      "reviewedBy": "/root/forms_source_audit",
+      "referencedLaws": [
+        "포천시 아동급식 지원에 관한 조례"
+      ],
+      "excludedParts": [],
+      "sourceIssues": [],
+      "lawId": "1784715",
+      "lawTitle": "포천시 아동급식 지원에 관한 조례",
+      "lawEvidenceUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=1784715",
+      "annexId": "18138741",
+      "annexNumber": "3",
+      "programPageRecord": "logs/forms-completion/gyeonggi-20261019/team1/pages/program-s41000.gov24-641000000171-20261020.json",
+      "programPageSHA256": "9cd3447bcd18fd7cadfd5c0e08e08694330c48b706e00c85f2b28fc9bc27e7dc",
+      "originalHttpStatus": 200,
+      "verifiedDocumentTitle": "아동급식 지원 부적합 결정 이의신청서",
+      "lawUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=1784715",
+      "flSeq": "142541565",
+      "currentLawEvidence": {
+        "auditRecord": "logs/forms-completion/gyeonggi-20261019/current-law-extra5/audit.json",
+        "bodyRecord": "logs/forms-completion/gyeonggi-20261019/current-law-extra5/current-law-bodies/1784715.json.gz",
+        "lawId": "1784715",
+        "stableLawId": "2188050",
+        "effectiveDate": "20230222",
+        "annex": {
+          "annexId": "18138741",
+          "number": "3",
+          "kind": "서식",
+          "title": "[별지 제3호서식] 이의신청서",
+          "fileFormat": "hwp",
+          "url": "https://www.law.go.kr/flDownload.do?gubun=ELIS&flSeq=142541565&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C3%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EC%9D%B4%EC%9D%98%EC%8B%A0%EC%B2%AD%EC%84%9C",
+          "flSeq": "142541565",
+          "pdfUrl": "",
+          "contentChars": 0,
+          "deleted": false
+        },
+        "bodySHA256": "1974bea873680e8a7a209dd57315114ec83bcb1df7931b3086cfa33439137872",
+        "bodyRead": true,
+        "allArticlesAndAddendaRead": true,
+        "articleContentState": "read",
+        "currentAnnexBindingVerified": true
+      },
+      "lawBodyRecordSHA256": "1974bea873680e8a7a209dd57315114ec83bcb1df7931b3086cfa33439137872",
+      "originalShaVerified": true,
+      "originalByteVerificationRecord": "logs/forms-completion/gyeonggi-20261019/team1/current-portal-byte-proof-20261020.json",
+      "programPageProgramSpecific": true,
+      "scopeBasis": "municipal-application-reference",
+      "municipalApplicationReference": {
+        "sido": "41000",
+        "sigungu": "41650",
+        "municipality": "포천시",
+        "programEvidenceUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/641000000171",
+        "httpStatus": 200,
+        "programSpecific": true,
+        "checkedAt": "2026-10-20",
+        "reference": "Grok의 전체본문 판독 후 Codex도 전체 빈 서식을 독립 재추출·판독했다. 현행 포천시 조례1784715 제6조의2는 급식지원 결과 통지 후60일 이내 별지3 이의신청 및 접수 후10일 이내 심의·결정을 명시한다. 원본의 신청인·아동과 관계·통지일·부적합내용·이의취지·본인서명과 첨부서류를 대조했다. 경기도 결식아동 사업641000000171의 포천시 선정 절차에 대한 사후서류이며 다른 급여의 포괄 이의신청으로 연결하지 않는다.",
+        "formEvidence": "포천시 원본 전체463자를 읽어 별지 제3호서식의 실제 신청인·아동정보·서명·첨부서류를 대조했다. Grok의 전체본문 판독 후 Codex도 전체 빈 서식을 독립 재추출·판독했다. 현행 포천시 조례1784715 제6조의2는 급식지원 결과 통지 후60일 이내 별지3 이의신청 및 접수 후10일 이내 심의·결정을 명시한다. 원본의 신청인·아동과 관계·통지일·부적합내용·이의취지·본인서명과 첨부서류를 대조했다. 경기도 결식아동 사업641000000171의 포천시 선정 절차에 대한 사후서류이며 다른 급여의 포괄 이의신청으로 연결하지 않는다.",
+        "scopeRestriction": "포천시 거주 아동의 포천시 접수 전용",
+        "municipalArticle": "포천시 아동급식 지원에 관한 조례 제6조의2"
+      },
+      "externalBodyReview": {
+        "reviewedBy": "actual-grok-cli",
+        "record": "logs/forms-completion/gyeonggi-20261019/grok-law-review-2/validated-reviewed.json",
+        "sourceSHA256": "8362f3c2c3aadd53509bf9f609be1ff795bda0f4e313448c5d4f9d958c15e0e7",
+        "textSHA256": "1c906d4eeeaf68a08b1385773c1a6c446ce2403d5ef74795a9c26f89892914d1",
+        "nativeIndependentFullBodyReviewed": true,
+        "nativeReviewer": "/root/forms_source_audit",
+        "publicationApprovedByExternal": false
+      },
+      "displayTitle": "아동급식 지원 부적합 결정 이의신청서",
+      "coordinatorApproved": true,
+      "coordinatorReason": "Grok의 전체본문 판독 후 Codex도 전체 빈 서식을 독립 재추출·판독했다. 현행 포천시 조례1784715 제6조의2는 급식지원 결과 통지 후60일 이내 별지3 이의신청 및 접수 후10일 이내 심의·결정을 명시한다. 원본의 신청인·아동과 관계·통지일·부적합내용·이의취지·본인서명과 첨부서류를 대조했다. 경기도 결식아동 사업641000000171의 포천시 선정 절차에 대한 사후서류이며 다른 급여의 포괄 이의신청으로 연결하지 않는다.",
+      "currentAnnexBinding": {
+        "binding": "bound",
+        "bindingReason": "OFFICIAL_ANNEX_BOUND_WITH_SAME_FILE",
+        "officialAnnexId": "18138741",
+        "officialAnnexNumber": "3",
+        "officialAnnexTitle": "[별지 제3호서식] 이의신청서",
+        "officialFlSeq": "142541565",
+        "officialAnnexUrl": "https://www.law.go.kr/flDownload.do?gubun=ELIS&flSeq=142541565&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C3%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EC%9D%B4%EC%9D%98%EC%8B%A0%EC%B2%AD%EC%84%9C",
+        "officialAnnexDeleted": false
+      }
+    }
+  ],
+  "sourceReview": {
+    "scopeFile": "pipeline/forms/reviews/gyeonggi-portal-originals-scope-round8106.json"
+  }
+}

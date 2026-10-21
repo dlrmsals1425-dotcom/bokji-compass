@@ -1,0 +1,13 @@
+.panel { margin-top: .5rem; padding: 1.5rem; border: 1px solid var(--line); border-radius: .875rem; background: #fff; }
+.title { margin: 0 0 .75rem; font-size: 1.25rem; font-weight: 650; }
+.help, .notice, .status { font-size: .9rem; line-height: 1.6; margin: .5rem 0; color: var(--ink-2); }
+.notice { padding: .875rem 0; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
+.consent { display: flex; align-items: flex-start; gap: .6rem; padding: .5rem 0; font-size: .9rem; line-height: 1.6; cursor: pointer; }
+.consent input { margin-top: .3rem; width: 1.1rem; height: 1.1rem; flex-shrink: 0; }
+.actions { display: flex; gap: .75rem; align-items: center; flex-wrap: wrap; margin-top: .75rem; }
+.actions button, .confirm button { min-height: 3.5rem; padding: .875rem 1.5rem; }
+.actions button:first-child { background: var(--accent); color: var(--accent-ink) !important; border-color: transparent; }
+.actions button:first-child:hover:not(:disabled) { background: var(--accent-hover); }
+.confirm { border-top: 1px solid var(--line); margin-top: 1rem; padding-top: 1rem; }
+.confirm textarea { width: 100%; resize: vertical; }
+@media(max-width:40rem) { .panel { padding: 1.125rem; } .actions button:first-child { width: 100%; } }

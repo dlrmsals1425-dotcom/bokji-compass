@@ -1,0 +1,969 @@
+{
+  "schema": 1,
+  "checkedAt": "2026-10-19",
+  "rows": [
+    {
+      "sourceKind": "ordin",
+      "basisType": "current_law_and_official_program",
+      "formId": "ordin-20406127",
+      "sourceCandidateId": null,
+      "sourcePageUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1850929",
+      "sourcePageSHA256": "619afbfdcc32c56305877f9f93431842ff6f26150b3f76935bbc999d1d58237a",
+      "sourcePageHttpStatus": 200,
+      "sourcePageRecord": "logs/forms-completion/gyeonggi-20261019/team1/pages/gapyeong-childcare-law1850929.json",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=154077373&flNm=%EB%B3%84%EC%A7%80+%EC%A0%9C1%ED%98%B8%EC%84%9C%EC%8B%9D",
+      "finalUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=154077373&flNm=%EB%B3%84%EC%A7%80+%EC%A0%9C1%ED%98%B8%EC%84%9C%EC%8B%9D",
+      "attachmentId": "20406127",
+      "attachmentIdentifier": {
+        "queryParam": "flSeq",
+        "value": "154077373"
+      },
+      "attachmentFileSn": null,
+      "officialProgramSourceId": "WLF00002656",
+      "agencyName": "경기도 가평군 행정안전국 사회복지과",
+      "authorityKind": "government",
+      "authorityEvidenceKind": "government",
+      "authorityEvidenceUrl": "https://www.elis.go.kr/alrpop/alrDtlsPop?alrNo=41820104249041&histNo=003",
+      "authorityEvidenceNote": "ELIS 현행목록의 정확 alrNo/histNo와 본문 제6조·별지1이 결속된 다운로드의 실제SHA가 국가법령정보센터 flSeq154077373 원본과 동일하다.",
+      "formTitle": "별지 제1호서식",
+      "sourceMetadataTitle": "별지 제1호서식",
+      "programIds": [
+        "g41820.bokjiro-WLF00002656"
+      ],
+      "programNames": [
+        "아이돌봄서비스 지원"
+      ],
+      "programEvidenceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00002656&wlfareInfoReldBztpCd=02",
+      "regionCode": "41820",
+      "regionLabel": "경기도 가평군",
+      "checkedAt": "2026-10-19",
+      "dateKind": "effective",
+      "effectiveDate": "2023-09-13",
+      "publishedAt": null,
+      "role": "application",
+      "use": "main",
+      "condition": "가평군 아이돌봄서비스 이용자의 본인부담금 지원 신청용이다. 아동과 함께 가평군에 거주하는 부모 또는 실제 양육자가 작성하며, 서비스유형 확인란은 담당자 확인사항이다.",
+      "applicant": "아동과 주민등록상 함께 거주하는 부모 또는 실제 양육자",
+      "reviewedParts": [
+        {
+          "number": "별지 제1호서식",
+          "title": "가평군 아이돌봄서비스 지원 신청서(제6조 관련)",
+          "use": "main",
+          "author": "아동과 주민등록상 함께 거주하는 부모 또는 실제 양육자"
+        }
+      ],
+      "selectedParts": [
+        {
+          "number": "별지 제1호서식",
+          "title": "가평군 아이돌봄서비스 지원 신청서(제6조 관련)",
+          "use": "main",
+          "author": "아동과 주민등록상 함께 거주하는 부모 또는 실제 양육자"
+        }
+      ],
+      "verificationStatus": "verified",
+      "decision": "propose_approval",
+      "publicationApproved": false,
+      "requiresCoordinatorReview": true,
+      "officialAttachmentMatched": true,
+      "evidenceUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=1850929",
+      "evidenceNote": "현재 ELIS 가평군 법규목록은2023-09-13 시행 제3130호 판을 지정한다. 해당판 제3조의 관내 거주·동거·서비스이용 대상, 제6조의 별지1 주소지읍면장 제출, 모든부칙을 읽었다. ELIS의별지1과 국가법령정보센터20406127/flSeq154077373을 각각GET200으로 받아18432바이트/SHA동일함을 확인하고, 신청인·아동3명·동거·유형·계좌·양육공백·서명·행정정보동의까지 전체Section0을 확인했다. 현재복지로의 가평사업 대상/읍면 신청과도 일치한다.",
+      "roleBasis": "현재 ELIS 가평군 법규목록은2023-09-13 시행 제3130호 판을 지정한다. 해당판 제3조의 관내 거주·동거·서비스이용 대상, 제6조의 별지1 주소지읍면장 제출, 모든부칙을 읽었다. ELIS의별지1과 국가법령정보센터20406127/flSeq154077373을 각각GET200으로 받아18432바이트/SHA동일함을 확인하고, 신청인·아동3명·동거·유형·계좌·양육공백·서명·행정정보동의까지 전체Section0을 확인했다. 현재복지로의 가평사업 대상/읍면 신청과도 일치한다.",
+      "roleEvidenceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=154077373&flNm=%EB%B3%84%EC%A7%80+%EC%A0%9C1%ED%98%B8%EC%84%9C%EC%8B%9D",
+      "roleCheckedAt": "2026-10-19",
+      "sha256": "4b78673824c829831b91285f942291a56864b6a3381e5f0354a776e27d58998d",
+      "bytes": 18432,
+      "originalFormat": "hwp",
+      "originalPath": "pipeline/forms/originals/ordin-20406127.hwp",
+      "textEvidencePath": "logs/forms-completion/gyeonggi-20261019/team1/gapyeong-childcare-ordin-20406127.json",
+      "textScope": "all_body_sections_or_pages",
+      "originalTextScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "BodyText/Section0"
+      ],
+      "fullBodyReviewed": true,
+      "textLength": 765,
+      "bodyTextSha256": "8f04fa56a85350ccdfa1527b984f0ea6dd9b446fa28d2799cbf4c218fdfc7937",
+      "independentlyReextracted": true,
+      "embeddedImageCount": 0,
+      "reviewedBy": "/root/forms_source_audit",
+      "referencedLaws": [
+        "가평군 아이돌봄서비스 지원 조례"
+      ],
+      "excludedParts": [],
+      "sourceIssues": [
+        "기존 복지로 첨부 조례안에는 일반가정50% 등 과거 기준이 남아 있다. 그 묶음은 교체제안 대상이며 현행 별지1 단독 원본에는 해당 고정 지원율이 인쇄되어 있지 않다."
+      ],
+      "lawId": "1850929",
+      "lawTitle": "가평군 아이돌봄서비스 지원 조례",
+      "lawEvidenceUrl": "https://www.elis.go.kr/alrpop/alrDtlsPop?alrNo=41820104249041&histNo=003",
+      "annexId": "20406127",
+      "annexNumber": "2",
+      "programPageRecord": "logs/forms-completion/gyeonggi-20261019/current-pages/WLF00002656.json",
+      "programPageSHA256": "e077417f3bac2e5e1e2edcbd781556550900b6d4274385f02535157f5e3262f2",
+      "originalHttpStatus": 200,
+      "replacesCandidateId": "page-5f0570bcdc6fe69516a8",
+      "verifiedDocumentTitle": "가평군 아이돌봄서비스 지원 신청서(제6조 관련)",
+      "lawUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1850929",
+      "flSeq": "154077373",
+      "printedAnnexNumber": "별지 제1호서식",
+      "currentLawEvidence": {
+        "listRecord": "logs/forms-completion/gyeonggi-20261019/team1/pages/gapyeong-childcare-current-list.json",
+        "listUrl": "https://www.elis.go.kr/alrpop/locgovAlrPopup?ctpvCd=41&sggCd=820",
+        "listPageSHA256": "7d2ddd346e4e4a2cae753e244fdc7514fcb35a8ca88e59293f35dd3ab07a34cc",
+        "bodyRecord": "logs/forms-completion/gyeonggi-20261019/team1/pages/gapyeong-childcare-elis-current.json",
+        "bodyUrl": "https://www.elis.go.kr/alrpop/alrDtlsPop?alrNo=41820104249041&histNo=003",
+        "bodyPageSHA256": "2e21a44aef44f96a10f184f42550e60cdd8717cf732f1464fcc0cd151c2fa447",
+        "alrNo": "41820104249041",
+        "histNo": "003",
+        "attlistSn": "002",
+        "reportedCurrentDate": "2023-09-13",
+        "elisOriginalRecord": "logs/forms-completion/gyeonggi-20261019/team1/gapyeong-childcare-elis-current.json",
+        "elisDownloadUrl": "https://www.elis.go.kr/allalr/attListDown?alrNo=41820104249041&histNo=003&attlistSn=002",
+        "elisOriginalSHA256": "4b78673824c829831b91285f942291a56864b6a3381e5f0354a776e27d58998d",
+        "portalOriginalSHA256": "4b78673824c829831b91285f942291a56864b6a3381e5f0354a776e27d58998d",
+        "byteIdentical": true
+      },
+      "displayTitle": "가평군 아이돌봄서비스 지원 신청서(제6조 관련)",
+      "coordinatorApproved": true,
+      "coordinatorReason": "현재 ELIS 가평군 법규목록은2023-09-13 시행 제3130호 판을 지정한다. 해당판 제3조의 관내 거주·동거·서비스이용 대상, 제6조의 별지1 주소지읍면장 제출, 모든부칙을 읽었다. ELIS의별지1과 국가법령정보센터20406127/flSeq154077373을 각각GET200으로 받아18432바이트/SHA동일함을 확인하고, 신청인·아동3명·동거·유형·계좌·양육공백·서명·행정정보동의까지 전체Section0을 확인했다. 현재복지로의 가평사업 대상/읍면 신청과도 일치한다.",
+      "currentAnnexBinding": {
+        "binding": "bound",
+        "bindingReason": "OFFICIAL_ANNEX_BOUND_WITH_SAME_FILE",
+        "officialAnnexId": "20406127",
+        "officialAnnexNumber": "2",
+        "officialAnnexTitle": "별지 제1호서식",
+        "officialFlSeq": "154077373",
+        "officialAnnexUrl": "https://www.law.go.kr/flDownload.do?gubun=ELIS&flSeq=154077373&flNm=%EB%B3%84%EC%A7%80+%EC%A0%9C1%ED%98%B8%EC%84%9C%EC%8B%9D",
+        "officialAnnexDeleted": false
+      }
+    },
+    {
+      "sourceKind": "ordin",
+      "lawTitle": "여주시 노인 성인용 보행기 비용 지원 조례",
+      "lawId": "1488745",
+      "annexId": "22863613",
+      "annexNumber": "1",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=170440583&flNm=%EC%97%AC%EC%A3%BC%EC%8B%9C+%EB%85%B8%EC%9D%B8+%EC%84%B1%EC%9D%B8%EC%9A%A9+%EB%B3%B4%ED%96%89%EA%B8%B0+%EB%B9%84%EC%9A%A9+%EC%A7%80%EC%9B%90+%EC%A1%B0%EB%A1%80",
+      "officialPdfUrl": null,
+      "dateKind": "effective",
+      "regionCode": "41670",
+      "regionLabel": "경기도 여주시",
+      "formId": "ordin-22863613",
+      "stableLawId": "2197667",
+      "effectiveDate": "2020-04-08",
+      "lawCurrentCheckedAt": "2026-10-19",
+      "programIds": [
+        "g41670.bokjiro-WLF00003819"
+      ],
+      "programNames": [
+        "노인 성인용보행기 비용 지원"
+      ],
+      "use": "main",
+      "role": "application",
+      "formTitle": "여주시 노인 성인용 보행기 비용 지원 조례",
+      "sourceMetadataTitle": "여주시 노인 성인용 보행기 비용 지원 조례",
+      "verifiedDocumentTitle": "여주시 노인 보행기 지원 신청서 및 구입비 청구서",
+      "evidenceUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=1488745",
+      "evidenceNote": "현행 1488745의8개 조문·부칙과 별표22863613/flSeq170440583의 실제 HWP 전체를 읽었다. 제5조①은 별지1 신청·동의,③은 선정 후60일 이내 구입 뒤 별지2 지급청구,⑤는 기관관리대장3으로 구분한다. 원문1호/2호와 뒤동의·붙임1 위임의 실제작성란을 확인하고기관관리대장은제외한다. 같은시현재WLF00003819의20/18만원·60일구입과 직접배포 업무매뉴얼의해당빈양식이동일목적·내용이다. 위임범위는현재매뉴얼이허용한배우자/자녀의이사업신청에만한정한다.",
+      "checkedAt": "2026-10-19",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "sha256": "6b4b253a614ab05e6d7bf6102ecf9eee13926e86715c1384b25b73ace11f6ce8",
+      "bytes": 26624,
+      "signature": "d0cf11e0a1b11ae1",
+      "originalFormat": "hwp",
+      "originalTextScope": "all_body_sections_or_pages",
+      "textScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "BodyText/Section0"
+      ],
+      "reviewedParts": [
+        {
+          "number": "1",
+          "title": "노인 보행기 지원 신청서",
+          "use": "main",
+          "author": "여주 지원 대상 노인 또는 배우자·자녀인 대리신청인"
+        },
+        {
+          "number": "1",
+          "partLocation": "뒷면",
+          "title": "개인정보제공 동의서",
+          "use": "additional",
+          "author": "지원 신청 정보주체"
+        },
+        {
+          "number": "2",
+          "title": "노인 성인용보행기 지원비 지급청구서",
+          "use": "conditional",
+          "author": "선정 후 보행기를 구입한 대상자 또는 청구 대리인"
+        },
+        {
+          "number": "2",
+          "partLocation": "뒷면",
+          "title": "노인 성인용 보행기 지원비 지급을 위한 개인정보 수집·이용 동의서",
+          "use": "conditional",
+          "author": "지급청구 정보주체"
+        },
+        {
+          "number": "붙임1",
+          "title": "위임장",
+          "use": "conditional",
+          "author": "해당 지원 신청을 위임하는 대상 노인"
+        }
+      ],
+      "selectedParts": [
+        {
+          "number": "1",
+          "title": "노인 보행기 지원 신청서",
+          "use": "main",
+          "author": "여주 지원 대상 노인 또는 배우자·자녀인 대리신청인"
+        },
+        {
+          "number": "1",
+          "partLocation": "뒷면",
+          "title": "개인정보제공 동의서",
+          "use": "additional",
+          "author": "지원 신청 정보주체"
+        },
+        {
+          "number": "2",
+          "title": "노인 성인용보행기 지원비 지급청구서",
+          "use": "conditional",
+          "author": "선정 후 보행기를 구입한 대상자 또는 청구 대리인"
+        },
+        {
+          "number": "2",
+          "partLocation": "뒷면",
+          "title": "노인 성인용 보행기 지원비 지급을 위한 개인정보 수집·이용 동의서",
+          "use": "conditional",
+          "author": "지급청구 정보주체"
+        },
+        {
+          "number": "붙임1",
+          "title": "위임장",
+          "use": "conditional",
+          "author": "해당 지원 신청을 위임하는 대상 노인"
+        }
+      ],
+      "roleBasis": "현행 1488745의8개 조문·부칙과 별표22863613/flSeq170440583의 실제 HWP 전체를 읽었다. 제5조①은 별지1 신청·동의,③은 선정 후60일 이내 구입 뒤 별지2 지급청구,⑤는 기관관리대장3으로 구분한다. 원문1호/2호와 뒤동의·붙임1 위임의 실제작성란을 확인하고기관관리대장은제외한다. 같은시현재WLF00003819의20/18만원·60일구입과 직접배포 업무매뉴얼의해당빈양식이동일목적·내용이다. 위임범위는현재매뉴얼이허용한배우자/자녀의이사업신청에만한정한다.",
+      "roleEvidenceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=170440583&flNm=%EC%97%AC%EC%A3%BC%EC%8B%9C+%EB%85%B8%EC%9D%B8+%EC%84%B1%EC%9D%B8%EC%9A%A9+%EB%B3%B4%ED%96%89%EA%B8%B0+%EB%B9%84%EC%9A%A9+%EC%A7%80%EC%9B%90+%EC%A1%B0%EB%A1%80",
+      "roleCheckedAt": "2026-10-19",
+      "bodyEvidenceText": "제3조(지원대상)① 「노인장기요양보험법」제15조제2항에 따른 장기요양등급자로 판정을 받지 못한 등급외자(노인장기요양 A, B 등급자)에 해당하는 노인으로 다음 각 호의 순서에 따른다.1. 「국민기초생활보장법」에 따른 기초생활수급자2. 차상위 계층3. 제1호의 수급자를 제외한 「의료급여법」에 따른 수급자② 제1항의 대상자 이외에 재해ㆍ상해ㆍ질병 등으로 인하여 보행이 불편한 노인으로서 성인용 보행기가 필요하다고 여주시장(이하 “시장”이라 한다)이 인정한 사람도 지원할 수 있다.③ 제1항 및 제2항의 지원대상자는 장기요양등급 판정 결과서 또는 의사의 소견서와 신분증 및 통장사본을 제출하여야 한다.\n제5조(지원 신청 및 선정)① 성인용 보행기 비용 지원을 받고자 하는 노인은 별지 제1호서식에 따라 주소지 읍ㆍ면ㆍ동장에게 신청서 및 개인정보동의서를 제출하여야 한다.② 시장은 제1항에 따라 제출된 신청서 및 증빙서류를 검토하여 지원 여부를 결정하여야 한다.③ 성인용 보행기 지원대상자로 선정된 사람은 성인용 보행기를 60일 이내에 구입한 후 별지 제2호서식에 따라 노인 성인용 보행기 비용 지급청구서 및 증빙서류를 읍ㆍ면ㆍ동장에게 제출하여야 한다.④ 시장은 제3항에 따라 제출된 지급청구서 및 증빙서류를 검토하여 제출받은 달의 말일까지 청구된 금액을 지원대상자의 계좌로 지급하여야 한다.⑤ 시장은 별지 제3호서식의 성인용 보행기 관리대장을 갖추어 관리하여야 한다.",
+      "fullBodyReviewed": true,
+      "independentBodyReview": true,
+      "condition": "여주시 노인 보행기 지원의 신규 신청에는 별지1과 뒷면 동의를 작성합니다. 대상자로 선정된 후60일 이내 구입한 경우에만 별지2·뒷면 동의와 영수증·통장 등 증빙으로 지원비를 청구합니다. 검수확인서의 수령확인은 수령자가, 확인자란은 읍면장이 작성합니다. 현재 사업안내가 허용한 배우자·자녀의 대리신청 때만 붙임1을 쓰며 기관용 별지3 관리대장은 주민 작성 부분에서 제외합니다.",
+      "originalPath": "pipeline/forms/originals/ordin-22863613.hwp",
+      "currentLawProof": {
+        "annexCount": 1,
+        "articleCount": 8,
+        "bodyPath": "logs/forms-completion/gyeonggi-20261019/current-law-bodies/1488745.json.gz",
+        "bodySHA256": "39ded778fcf1322a4ff3122030e5496d7270c62ad56b74ccbb259e7a3f55b961",
+        "candidates": [
+          {
+            "effectiveDate": "20200408",
+            "lawId": "1488745",
+            "org": "경기도 여주시",
+            "stableLawId": "2197667",
+            "title": "여주시 노인 성인용 보행기 비용 지원 조례"
+          }
+        ],
+        "checkedAt": "2026-10-19",
+        "currentLaw": {
+          "effectiveDate": "20200408",
+          "lawId": "1488745",
+          "org": "경기도 여주시",
+          "stableLawId": "2197667",
+          "title": "여주시 노인 성인용 보행기 비용 지원 조례"
+        },
+        "currentLawId": "1488745",
+        "lawId": "1488745",
+        "searchPath": "logs/forms-completion/gyeonggi-20261019/current-law-searches/1488745.json",
+        "searchSHA256": "01a2ca4054398ae294e7d385618397b8a03baf336edfd445a0468c5031ea17ab",
+        "sourceTitle": "여주시 노인 성인용 보행기 비용 지원 조례",
+        "state": "source_current"
+      },
+      "sourceProof": {
+        "downloadRecord": "logs/forms-completion/gyeonggi-20261019/team2/documents/yeoju-portal-ordin-22863613.json",
+        "downloadRecordSha256": "b102bb90275113ff0de821eec3f8eeaadd9687633f95b49b903db99f99904717",
+        "actualOriginalBytesRechecked": true,
+        "lawBodyPath": "logs/forms-completion/gyeonggi-20261019/current-law-bodies/1488745.json.gz",
+        "lawBodySHA256": "39ded778fcf1322a4ff3122030e5496d7270c62ad56b74ccbb259e7a3f55b961",
+        "flSeq": "170440583",
+        "sourcePageRecord": "logs/forms-completion/gyeonggi-20261019/current-pages/WLF00003819.json",
+        "sourcePageSHA256": "5934ebe61fa5afeaa0404ebf558c9ae6375fbcc4d712da41fc7dbc0977902fc5"
+      },
+      "programDocumentEvidence": {
+        "kind": "official-application-reference",
+        "programId": "g41670.bokjiro-WLF00003819",
+        "programSourceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00003819&wlfareInfoReldBztpCd=02",
+        "sourcePageSHA256": "5934ebe61fa5afeaa0404ebf558c9ae6375fbcc4d712da41fc7dbc0977902fc5",
+        "sourceAttachmentUrl": "https://www.bokjiro.go.kr/ssis-tbu/twata/CmmFileUtil/getDownload.do?atcflId=2941GOWF16GOWF162941&atcflSn=1&wlfareInfoId=WLF00003819",
+        "sourceAttachmentSHA256": "637fa9e51bb2efb88b5d022fd8edf87e7e1e156fb8606edd9e6ec1a026f075b5",
+        "actualFormPurposeMatches": true,
+        "doesNotAssertProgramDirectlyCitesLaw": true
+      },
+      "noFilledPersonalDataObserved": true,
+      "embeddedImageCount": 0,
+      "publicationApproved": false,
+      "proposalStatus": "prefer_portal_original_over_equivalent_agency_proposal",
+      "replacesProposedAgencyFormId": "agency-41670-bokjiro-WLF00003819-2941GOWF16GOWF162941",
+      "excludedParts": [
+        {
+          "number": "3",
+          "title": "성인용 보행기 관리대장",
+          "reason": "기관관리용"
+        }
+      ],
+      "semanticReplacementProof": {
+        "wholeFileSHAEqual": false,
+        "selectedFormTailWhitespaceNormalizedEqual": true,
+        "note": "양식 본문만 비교. 전체파일은 조례/매뉴얼 또는 개정표시 차이로 다른바이트이므로 SHA를승계하지않음."
+      },
+      "displayTitle": "여주시 노인 보행기 지원 신청서 및 구입비 청구서",
+      "coordinatorApproved": true,
+      "coordinatorReason": "현행 1488745의8개 조문·부칙과 별표22863613/flSeq170440583의 실제 HWP 전체를 읽었다. 제5조①은 별지1 신청·동의,③은 선정 후60일 이내 구입 뒤 별지2 지급청구,⑤는 기관관리대장3으로 구분한다. 원문1호/2호와 뒤동의·붙임1 위임의 실제작성란을 확인하고기관관리대장은제외한다. 같은시현재WLF00003819의20/18만원·60일구입과 직접배포 업무매뉴얼의해당빈양식이동일목적·내용이다. 위임범위는현재매뉴얼이허용한배우자/자녀의이사업신청에만한정한다.",
+      "currentAnnexBinding": {
+        "binding": "bound",
+        "bindingReason": "OFFICIAL_ANNEX_BOUND_WITH_SAME_FILE",
+        "officialAnnexId": "22863613",
+        "officialAnnexNumber": "1",
+        "officialAnnexTitle": "여주시 노인 성인용 보행기 비용 지원 조례",
+        "officialFlSeq": "170440583",
+        "officialAnnexUrl": "https://www.law.go.kr/flDownload.do?gubun=ELIS&flSeq=170440583&flNm=%EC%97%AC%EC%A3%BC%EC%8B%9C+%EB%85%B8%EC%9D%B8+%EC%84%B1%EC%9D%B8%EC%9A%A9+%EB%B3%B4%ED%96%89%EA%B8%B0+%EB%B9%84%EC%9A%A9+%EC%A7%80%EC%9B%90+%EC%A1%B0%EB%A1%80",
+        "officialAnnexDeleted": false
+      }
+    },
+    {
+      "sourceKind": "ordin",
+      "lawTitle": "여주시 고령노인 목욕비 및 이ㆍ미용비 지원 조례",
+      "lawId": "1918689",
+      "annexId": "22185907",
+      "annexNumber": "1",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=167550603&flNm=%EC%97%AC%EC%A3%BC%EC%8B%9C+%EA%B3%A0%EB%A0%B9%EB%85%B8%EC%9D%B8+%EB%AA%A9%EC%9A%95%EB%B9%84+%EB%B0%8F+%EC%9D%B4%E3%86%8D%EB%AF%B8%EC%9A%A9%EB%B9%84+%EC%A7%80%EC%9B%90+%EC%A1%B0%EB%A1%80",
+      "officialPdfUrl": null,
+      "dateKind": "effective",
+      "regionCode": "41670",
+      "regionLabel": "경기도 여주시",
+      "formId": "ordin-22185907",
+      "stableLawId": "2176004",
+      "effectiveDate": "2024-04-02",
+      "lawCurrentCheckedAt": "2026-10-19",
+      "programIds": [
+        "g41670.gov24-570000000123"
+      ],
+      "programNames": [
+        "고령노인 목욕비 및 이미용비 지원"
+      ],
+      "use": "main",
+      "role": "application",
+      "formTitle": "여주시 고령노인 목욕비 및 이ㆍ미용비 지원 조례",
+      "sourceMetadataTitle": "여주시 고령노인 목욕비 및 이ㆍ미용비 지원 조례",
+      "verifiedDocumentTitle": "여주시 고령노인 목욕비 및 이·미용비 지원 신청서",
+      "evidenceUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=1918689",
+      "evidenceNote": "현행1918689의10개조문·부칙과 별표22185907/flSeq167550603의실제HWP전체를읽었다. 제4조②의주민신청·④의시장절차와 실제별지1신청/2재발급/3신청위임을대조했다. 기관카드배부대장4는제외한다. 현재WLF00006580(정확gov24-570000000123병합출처)은1호신청/3호대리위임과현재75세대상·시설무료서비스제외를직접명시하고공식복지로배포본도같은선택양식을담고있다. 법규조문의별표목록순번1을인쇄된1~3호로오인하지않았다.",
+      "checkedAt": "2026-10-19",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "sha256": "2ae5cdca275252fb6248635d5c3cbe3fab0cfee04528a2262c9f8e55b3a401c4",
+      "bytes": 64512,
+      "signature": "d0cf11e0a1b11ae1",
+      "originalFormat": "hwp",
+      "originalTextScope": "all_body_sections_or_pages",
+      "textScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "BodyText/Section0"
+      ],
+      "reviewedParts": [
+        {
+          "number": "1",
+          "title": "여주시 고령노인 목욕비 및 이·미용비 지원 신청서",
+          "use": "main",
+          "author": "여주시 지원 대상 고령노인 또는 대리신청인"
+        },
+        {
+          "number": "2",
+          "title": "여주시 고령노인 목욕비 및 이·미용비 카드 재발급 신청서",
+          "use": "conditional",
+          "author": "발급된 카드의 재발급을 신청하는 지원 대상자 또는 대리신청인"
+        },
+        {
+          "number": "3",
+          "title": "여주시 고령노인 목욕비 및 이·미용비 신청 위임장",
+          "use": "conditional",
+          "author": "신청을 대리인에게 위임하는 지원 대상 노인"
+        }
+      ],
+      "selectedParts": [
+        {
+          "number": "1",
+          "title": "여주시 고령노인 목욕비 및 이·미용비 지원 신청서",
+          "use": "main",
+          "author": "여주시 지원 대상 고령노인 또는 대리신청인"
+        },
+        {
+          "number": "2",
+          "title": "여주시 고령노인 목욕비 및 이·미용비 카드 재발급 신청서",
+          "use": "conditional",
+          "author": "발급된 카드의 재발급을 신청하는 지원 대상자 또는 대리신청인"
+        },
+        {
+          "number": "3",
+          "title": "여주시 고령노인 목욕비 및 이·미용비 신청 위임장",
+          "use": "conditional",
+          "author": "신청을 대리인에게 위임하는 지원 대상 노인"
+        }
+      ],
+      "roleBasis": "현행1918689의10개조문·부칙과 별표22185907/flSeq167550603의실제HWP전체를읽었다. 제4조②의주민신청·④의시장절차와 실제별지1신청/2재발급/3신청위임을대조했다. 기관카드배부대장4는제외한다. 현재WLF00006580(정확gov24-570000000123병합출처)은1호신청/3호대리위임과현재75세대상·시설무료서비스제외를직접명시하고공식복지로배포본도같은선택양식을담고있다. 법규조문의별표목록순번1을인쇄된1~3호로오인하지않았다.",
+      "roleEvidenceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=167550603&flNm=%EC%97%AC%EC%A3%BC%EC%8B%9C+%EA%B3%A0%EB%A0%B9%EB%85%B8%EC%9D%B8+%EB%AA%A9%EC%9A%95%EB%B9%84+%EB%B0%8F+%EC%9D%B4%E3%86%8D%EB%AF%B8%EC%9A%A9%EB%B9%84+%EC%A7%80%EC%9B%90+%EC%A1%B0%EB%A1%80",
+      "roleCheckedAt": "2026-10-19",
+      "bodyEvidenceText": "제2조(지원대상)① 여주시장(이하 “시장”이라 한다)은 노인 건강증진 및 삶의 질 향상을 위하여 예산의 범위에서 목욕비 및 이ㆍ미용비를 지원할 수 있다.② 제1항에 따른 목욕비 및 이ㆍ미용비 지원대상(이하 “지원대상”이라 한다)은 지급기준일 현재 여주시에 주민등록을 두고 거주하는 75세 이상 노인으로 한다. 다만, 노인의료복지시설 등으로부터 목욕 및 이ㆍ미용 서비스를 무료로 제공받는 사람은 지원대상에서 제외한다. <일부개정 2023.10.16.>③ 이 조례에 따른 지원대상인 “75세 이상 노인”에는 「국민기초생활 보장법」에 따른 국민기초생활보장 수급자 및 법정 차상위계층을 포함한다. <신설 2024.4.2.>\n제4조(지원방법)① 시장은 목욕비 및 이ㆍ미용비 지원금을 쿠폰 또는 「경기 여주사랑 지역화폐 발행 및 운영 조례」제2조제1호에 따른 여주시 지역화폐(이하 “지역화폐 등”이라 한다)의 형태로 지원할 수 있다. <일부개정 2023.10.16.> <일부개정 2024.4.2.>② 목욕비 및 이ㆍ미용비를 지원받고자 하는 사람은 별지 서식에 따른 신청서를 작성하여 주민등록지 읍ㆍ면ㆍ동장에게 제출하여야 한다. <일부개정 2023.10.16.>③ 당해연도 말일까지 사용하지 않은 잔액은 소멸한다.④ 제1항부터 제3항까지에서 규정한 사항 이외에 목욕비 및 이ㆍ미용비 신청절차, 운영 방법에 관하여 필요한 사항은 시장이 따로 정한다. <신설 2023.10.16.>",
+      "fullBodyReviewed": true,
+      "independentBodyReview": true,
+      "condition": "여주시 고령노인 목욕비·이·미용비 최초 신청에는 별지1을 작성합니다. 별지2는 이미 발급된 카드의 재발급 시에만 쓰며 훼손 카드는 반납합니다. 대리신청 때만 별지3과 대상자 신분증·도장 및 대리인 신분증을 준비합니다. 행정정보 공동이용에 동의하지 않으면 관련 증빙을 직접 제출할 수 있습니다. 별지4 카드·쿠폰 배부대장은 기관용이므로 작성 대상이 아닙니다.",
+      "originalPath": "pipeline/forms/originals/ordin-22185907.hwp",
+      "currentLawProof": {
+        "annexCount": 1,
+        "articleCount": 10,
+        "bodyPath": "logs/forms-completion/gyeonggi-20261019/current-law-bodies/1918689.json.gz",
+        "bodySHA256": "800c6e76108ef51d1dfa1fc0efdab15049d821a5a22ee51c6e22f53fa206dbc2",
+        "candidates": [
+          {
+            "effectiveDate": "20240402",
+            "lawId": "1918689",
+            "org": "경기도 여주시",
+            "stableLawId": "2176004",
+            "title": "여주시 고령노인 목욕비 및 이ㆍ미용비 지원 조례"
+          }
+        ],
+        "checkedAt": "2026-10-19",
+        "currentLaw": {
+          "effectiveDate": "20240402",
+          "lawId": "1918689",
+          "org": "경기도 여주시",
+          "stableLawId": "2176004",
+          "title": "여주시 고령노인 목욕비 및 이ㆍ미용비 지원 조례"
+        },
+        "currentLawId": "1918689",
+        "lawId": "1918689",
+        "searchPath": "logs/forms-completion/gyeonggi-20261019/current-law-searches/1918689.json",
+        "searchSHA256": "f98232eb1fc48b1c80f3d554432edee897957694e2f2282303af44a91ffa5b18",
+        "sourceTitle": "여주시 고령노인 목욕비 및 이ㆍ미용비 지원 조례",
+        "state": "source_current"
+      },
+      "sourceProof": {
+        "downloadRecord": "logs/forms-completion/gyeonggi-20261019/team2/documents/yeoju-portal-ordin-22185907.json",
+        "downloadRecordSha256": "fae2dc88c51de27c02ad1d2617a10a13f2f8a7dbb1f9ff83155bab8f855430db",
+        "actualOriginalBytesRechecked": true,
+        "lawBodyPath": "logs/forms-completion/gyeonggi-20261019/current-law-bodies/1918689.json.gz",
+        "lawBodySHA256": "800c6e76108ef51d1dfa1fc0efdab15049d821a5a22ee51c6e22f53fa206dbc2",
+        "flSeq": "167550603",
+        "sourcePageRecord": "logs/forms-completion/gyeonggi-20261019/current-pages/WLF00006580.json",
+        "sourcePageSHA256": "066520e163170f8675a2f9dff464b785cb480485949919c61a856133311633fa"
+      },
+      "programDocumentEvidence": {
+        "kind": "official-application-reference",
+        "programId": "g41670.gov24-570000000123",
+        "programSourceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00006580&wlfareInfoReldBztpCd=02",
+        "sourcePageSHA256": "066520e163170f8675a2f9dff464b785cb480485949919c61a856133311633fa",
+        "sourceAttachmentUrl": "https://www.bokjiro.go.kr/ssis-tbu/twata/CmmFileUtil/getDownload.do?atcflId=20260714UUWBM1117530201069528&atcflSn=1&wlfareInfoId=WLF00006580",
+        "sourceAttachmentSHA256": "4529bc2c204a4f8a29892146f4911366a2e366ae263eabb858bad56450e2f2b2",
+        "actualFormPurposeMatches": true,
+        "doesNotAssertProgramDirectlyCitesLaw": true
+      },
+      "noFilledPersonalDataObserved": true,
+      "embeddedImageCount": 0,
+      "publicationApproved": false,
+      "proposalStatus": "prefer_portal_original_over_equivalent_agency_proposal",
+      "replacesProposedAgencyFormId": "agency-41670-bokjiro-WLF00006580-20260714UUWBM1117530201069528",
+      "excludedParts": [
+        {
+          "number": "4",
+          "title": "고령노인 목욕비 및 이·미용비 카드(쿠폰) 배부대장",
+          "reason": "기관관리용"
+        }
+      ],
+      "semanticReplacementProof": {
+        "wholeFileSHAEqual": false,
+        "selectedFormTailWhitespaceNormalizedEqual": true,
+        "note": "양식 본문만 비교. 전체파일은 조례/매뉴얼 또는 개정표시 차이로 다른바이트이므로 SHA를승계하지않음."
+      },
+      "displayTitle": "여주시 고령노인 목욕비 및 이·미용비 지원 신청서",
+      "coordinatorApproved": true,
+      "coordinatorReason": "현행1918689의10개조문·부칙과 별표22185907/flSeq167550603의실제HWP전체를읽었다. 제4조②의주민신청·④의시장절차와 실제별지1신청/2재발급/3신청위임을대조했다. 기관카드배부대장4는제외한다. 현재WLF00006580(정확gov24-570000000123병합출처)은1호신청/3호대리위임과현재75세대상·시설무료서비스제외를직접명시하고공식복지로배포본도같은선택양식을담고있다. 법규조문의별표목록순번1을인쇄된1~3호로오인하지않았다.",
+      "currentAnnexBinding": {
+        "binding": "bound",
+        "bindingReason": "OFFICIAL_ANNEX_BOUND_WITH_SAME_FILE",
+        "officialAnnexId": "22185907",
+        "officialAnnexNumber": "1",
+        "officialAnnexTitle": "여주시 고령노인 목욕비 및 이ᆞ미용비 지원 조례",
+        "officialFlSeq": "167550603",
+        "officialAnnexUrl": "https://www.law.go.kr/flDownload.do?gubun=ELIS&flSeq=167550603&flNm=%EC%97%AC%EC%A3%BC%EC%8B%9C+%EA%B3%A0%EB%A0%B9%EB%85%B8%EC%9D%B8+%EB%AA%A9%EC%9A%95%EB%B9%84+%EB%B0%8F+%EC%9D%B4%E3%86%8D%EB%AF%B8%EC%9A%A9%EB%B9%84+%EC%A7%80%EC%9B%90+%EC%A1%B0%EB%A1%80",
+        "officialAnnexDeleted": false
+      }
+    },
+    {
+      "sourceKind": "ordin",
+      "basisType": "current_law_and_official_program",
+      "formId": "ordin-20588831",
+      "sourceCandidateId": null,
+      "sourcePageUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1795155",
+      "sourcePageHttpStatus": 200,
+      "sourcePageRecord": "logs/forms-completion/gyeonggi-20261019/current-law-bodies/1795155.json.gz",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=154562589&flNm=%EB%B3%84%EC%A7%80",
+      "finalUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=154562589&flNm=%EB%B3%84%EC%A7%80",
+      "attachmentId": "20588831",
+      "attachmentIdentifier": {
+        "queryParam": "flSeq",
+        "value": "154562589"
+      },
+      "attachmentFileSn": null,
+      "officialProgramSourceId": "641000000129",
+      "agencyName": "경기도 동두천시",
+      "authorityKind": "government",
+      "authorityEvidenceKind": "government",
+      "authorityEvidenceUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=1795155",
+      "authorityEvidenceNote": "총괄이 국가법령정보센터 nw=1 목록으로 현행판을 확인한 법규의 정확별지ID/flSeq를 실제 원본SHA와 결속했다.",
+      "formTitle": "별지",
+      "sourceMetadataTitle": "별지",
+      "programIds": [
+        "s41000.gov24-641000000129"
+      ],
+      "programNames": [
+        "경기도민 중고등 신입생 교복비 지원(대안교육기관, 다른 시도)"
+      ],
+      "programEvidenceUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/641000000129",
+      "regionCode": "41250",
+      "regionLabel": "경기도 동두천시",
+      "checkedAt": "2026-10-19",
+      "dateKind": "effective",
+      "effectiveDate": "2023-04-01",
+      "publishedAt": null,
+      "role": "application",
+      "use": "conditional",
+      "condition": "동두천시 거주자의 동두천시 접수 전용. 경기도 대안교육기관·다른 시도 중고교 1학년 교복비 지원을 신청할 때 사용한다. 현행 도사업은 경기민원24 온라인 신청이 기본이며 부득이한 방문신청은 동두천시 담당부서 확인 후 진행한다. 다른 시군 또는 경기도 내 일반학교 현물지원용으로 확대하지 않는다.",
+      "applicant": "대안교육기관 또는 다른 시도 학교에 입학한 학생의 부모·보호자",
+      "reviewedParts": [
+        {
+          "number": "별지 서식",
+          "title": "대안교육기관 등 학생 교복 지원 신청서",
+          "use": "conditional",
+          "author": "부모 또는 보호자"
+        }
+      ],
+      "selectedParts": [
+        {
+          "number": "별지 서식",
+          "title": "대안교육기관 등 학생 교복 지원 신청서",
+          "use": "conditional",
+          "author": "부모 또는 보호자"
+        }
+      ],
+      "verificationStatus": "verified",
+      "decision": "propose_approval",
+      "publicationApproved": false,
+      "requiresCoordinatorReview": true,
+      "officialAttachmentMatched": true,
+      "evidenceUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=1795155",
+      "evidenceNote": "현행 동두천 교복 조례1795155 제6조제2호는 대안교육기관/관외학교에 경기도 대안교육기관 등 학생 교복지원 조례 제6조를 준용하고 도지사를 시장으로 보며 신청서는 해당 별지로 정한다. 현재 도 정부24는 동두천시 접수 담당처와2026 온라인/예외방문 접수를 명시한다. 전체 원본1149자는 같은 학생유형·보호자·중복수혜·영수증·계좌·동의를 담으며 고정 구금액을 인쇄하지 않는다.",
+      "roleBasis": "현행 동두천 교복 조례1795155 제6조제2호는 대안교육기관/관외학교에 경기도 대안교육기관 등 학생 교복지원 조례 제6조를 준용하고 도지사를 시장으로 보며 신청서는 해당 별지로 정한다. 현재 도 정부24는 동두천시 접수 담당처와2026 온라인/예외방문 접수를 명시한다. 전체 원본1149자는 같은 학생유형·보호자·중복수혜·영수증·계좌·동의를 담으며 고정 구금액을 인쇄하지 않는다.",
+      "roleEvidenceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=154562589&flNm=%EB%B3%84%EC%A7%80",
+      "roleCheckedAt": "2026-10-19",
+      "sha256": "c551cfc4cbaaa222bcf5fc00049f330f364a2f961c69a5d9911f8508d9119171",
+      "bytes": 72704,
+      "originalFormat": "hwp",
+      "originalPath": "pipeline/forms/originals/ordin-20588831.hwp",
+      "textEvidencePath": "logs/forms-completion/gyeonggi-20261019/team1/uncited/extracted/ordin-20588831.json",
+      "textScope": "all_body_sections_or_pages",
+      "originalTextScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "BodyText/Section0"
+      ],
+      "fullBodyReviewed": true,
+      "textLength": 1149,
+      "bodyTextSha256": "0a87407f6d9216f5160fb66fe7b1010d6959ccf79cb4400148cfaa68c4f85c4f",
+      "independentlyReextracted": false,
+      "embeddedImageCount": 0,
+      "reviewedBy": "/root/forms_source_audit",
+      "referencedLaws": [
+        "동두천시 교복 지원 조례"
+      ],
+      "excludedParts": [],
+      "sourceIssues": [
+        "조례의 전체 지원범위는1·2학년을 포함하나 연결하는 도사업은1학년 입(전)학생이다. 이 연결은 도사업 대상인1학년으로 한정한다."
+      ],
+      "lawId": "1795155",
+      "lawTitle": "동두천시 교복 지원 조례",
+      "lawEvidenceUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=1795155",
+      "annexId": "20588831",
+      "annexNumber": "1",
+      "programPageRecord": "logs/forms-completion/gyeonggi-20261019/team1/pages/program-s41000.gov24-641000000129.json",
+      "programPageSHA256": "75c0aff8faeabc589e898d4e925662c747ca5b526b78ce86f4cfd7caf033d30f",
+      "originalHttpStatus": 200,
+      "verifiedDocumentTitle": "대안교육기관 등 학생 교복 지원 신청서",
+      "lawUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1795155",
+      "flSeq": "154562589",
+      "currentLawEvidence": {
+        "auditRecord": "logs/forms-completion/gyeonggi-20261019/current-law-batch-audit.json",
+        "bodyRecord": "logs/forms-completion/gyeonggi-20261019/current-law-bodies/1795155.json.gz",
+        "lawId": "1795155",
+        "stableLawId": "2179374",
+        "effectiveDate": "20230401",
+        "annex": {
+          "annexId": "20588831",
+          "number": "1",
+          "kind": "서식",
+          "title": "별지",
+          "fileFormat": "hwp",
+          "url": "https://www.law.go.kr/flDownload.do?gubun=ELIS&flSeq=154562589&flNm=%EB%B3%84%EC%A7%80",
+          "flSeq": "154562589",
+          "pdfUrl": "",
+          "contentChars": 0,
+          "deleted": false
+        },
+        "bodySHA256": "bfa03f868c2aa6a794d2b5a9632a1465df0068d68239361cde0acfecab44b21c"
+      },
+      "scopeBasis": "municipal-application-reference",
+      "municipalApplicationReference": {
+        "sido": "41000",
+        "sigungu": "41250",
+        "municipality": "동두천시",
+        "programEvidenceUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/641000000129",
+        "httpStatus": 200,
+        "programSpecific": true,
+        "checkedAt": "2026-10-19",
+        "reference": "현행 동두천 교복 조례1795155 제6조제2호는 대안교육기관/관외학교에 경기도 대안교육기관 등 학생 교복지원 조례 제6조를 준용하고 도지사를 시장으로 보며 신청서는 해당 별지로 정한다. 현재 도 정부24는 동두천시 접수 담당처와2026 온라인/예외방문 접수를 명시한다. 전체 원본1149자는 같은 학생유형·보호자·중복수혜·영수증·계좌·동의를 담으며 고정 구금액을 인쇄하지 않는다.",
+        "formEvidence": "동두천시의 실제 원본 전체를 읽어 학생/아동 또는 보호자의 신청·추천 정보와 계좌/동의·서명, 제출처가 해당 동두천시임을 확인했다. 현행 동두천 교복 조례1795155 제6조제2호는 대안교육기관/관외학교에 경기도 대안교육기관 등 학생 교복지원 조례 제6조를 준용하고 도지사를 시장으로 보며 신청서는 해당 별지로 정한다. 현재 도 정부24는 동두천시 접수 담당처와2026 온라인/예외방문 접수를 명시한다. 전체 원본1149자는 같은 학생유형·보호자·중복수혜·영수증·계좌·동의를 담으며 고정 구금액을 인쇄하지 않는다.",
+        "scopeRestriction": "동두천시 거주자의 동두천시 접수 전용",
+        "municipalArticle": "동두천시 교복 지원 조례 제6조"
+      },
+      "lawBodyRecordSHA256": "bfa03f868c2aa6a794d2b5a9632a1465df0068d68239361cde0acfecab44b21c",
+      "originalShaVerified": true,
+      "displayTitle": "대안교육기관 등 학생 교복 지원 신청서",
+      "coordinatorApproved": true,
+      "coordinatorReason": "현행 동두천 교복 조례1795155 제6조제2호는 대안교육기관/관외학교에 경기도 대안교육기관 등 학생 교복지원 조례 제6조를 준용하고 도지사를 시장으로 보며 신청서는 해당 별지로 정한다. 현재 도 정부24는 동두천시 접수 담당처와2026 온라인/예외방문 접수를 명시한다. 전체 원본1149자는 같은 학생유형·보호자·중복수혜·영수증·계좌·동의를 담으며 고정 구금액을 인쇄하지 않는다.",
+      "currentAnnexBinding": {
+        "binding": "bound",
+        "bindingReason": "OFFICIAL_ANNEX_BOUND_WITH_SAME_FILE",
+        "officialAnnexId": "20588831",
+        "officialAnnexNumber": "1",
+        "officialAnnexTitle": "별지",
+        "officialFlSeq": "154562589",
+        "officialAnnexUrl": "https://www.law.go.kr/flDownload.do?gubun=ELIS&flSeq=154562589&flNm=%EB%B3%84%EC%A7%80",
+        "officialAnnexDeleted": false
+      }
+    },
+    {
+      "sourceKind": "ordin",
+      "basisType": "current_law_and_official_program",
+      "formId": "ordin-20406387",
+      "sourceCandidateId": null,
+      "sourcePageUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2013733",
+      "sourcePageHttpStatus": 200,
+      "sourcePageRecord": "logs/forms-completion/gyeonggi-20261019/current-law-bodies/2013733.json.gz",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=154077643&flNm=%EB%B3%84%EC%A7%80+%EC%A0%9C1%ED%98%B8%EC%84%9C%EC%8B%9D+~+%EB%B3%84%EC%A7%80+%EC%A0%9C2%ED%98%B8%EC%84%9C%EC%8B%9D",
+      "finalUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=154077643&flNm=%EB%B3%84%EC%A7%80+%EC%A0%9C1%ED%98%B8%EC%84%9C%EC%8B%9D+~+%EB%B3%84%EC%A7%80+%EC%A0%9C2%ED%98%B8%EC%84%9C%EC%8B%9D",
+      "attachmentId": "20406387",
+      "attachmentIdentifier": {
+        "queryParam": "flSeq",
+        "value": "154077643"
+      },
+      "attachmentFileSn": null,
+      "officialProgramSourceId": "WLF00000943",
+      "agencyName": "경기도 가평군",
+      "authorityKind": "government",
+      "authorityEvidenceKind": "government",
+      "authorityEvidenceUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=2013733",
+      "authorityEvidenceNote": "총괄이 국가법령정보센터 nw=1 목록으로 현행판을 확인한 법규의 정확별지ID/flSeq를 실제 원본SHA와 결속했다.",
+      "formTitle": "별지 제1호서식 ~ 별지 제2호서식",
+      "sourceMetadataTitle": "별지 제1호서식 ~ 별지 제2호서식",
+      "programIds": [
+        "g41820.bokjiro-WLF00000943"
+      ],
+      "programNames": [
+        "다문화가족 정착장려금"
+      ],
+      "programEvidenceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00000943&wlfareInfoReldBztpCd=02",
+      "regionCode": "41820",
+      "regionLabel": "경기도 가평군",
+      "checkedAt": "2026-10-19",
+      "dateKind": "effective",
+      "effectiveDate": "2025-02-05",
+      "publishedAt": null,
+      "role": "application",
+      "use": "conditional",
+      "condition": "가평군 다문화가족 정착장려금 최초 신청은 별지1 신청서와 뒷면 개인정보 동의서를 가족센터에 제출한다. 별지2 청구서는 법정 교육을90%이상 이수한 대상자가 가족센터의 교육실적증명서·통장사본과 함께 제출하는 지급청구 단계에만 사용한다.",
+      "applicant": "다문화가족 정착장려금 지원 신청인",
+      "reviewedParts": [
+        {
+          "number": "별지 제1호서식 앞·뒷면",
+          "title": "다문화가족 정착장려금 지원 신청서 및 개인정보이용동의서",
+          "use": "main",
+          "author": "지원 신청인"
+        },
+        {
+          "number": "별지 제2호서식",
+          "title": "다문화가족 정착장려금 청구서",
+          "use": "conditional",
+          "author": "교육을 이수한 지원대상자(가족센터 확인)"
+        }
+      ],
+      "selectedParts": [
+        {
+          "number": "별지 제1호서식 앞·뒷면",
+          "title": "다문화가족 정착장려금 지원 신청서 및 개인정보이용동의서",
+          "use": "main",
+          "author": "지원 신청인"
+        },
+        {
+          "number": "별지 제2호서식",
+          "title": "다문화가족 정착장려금 청구서",
+          "use": "conditional",
+          "author": "교육을 이수한 지원대상자(가족센터 확인)"
+        }
+      ],
+      "verificationStatus": "verified",
+      "decision": "propose_approval",
+      "publicationApproved": false,
+      "requiresCoordinatorReview": true,
+      "officialAttachmentMatched": true,
+      "evidenceUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=2013733",
+      "evidenceNote": "현행 시행규칙2013733 제2조는 매년100만원3년 지급, 제3조제1항은 별지1 가족센터 신청, 제3조제4항은90%교육이수 후 별지2 청구를 명시한다. 전체 원본1606자에서 혼인·외국인등록·센터교육·신청인 서명·개인정보 동의·교육이수 청구계좌를 확인했다. 현재 복지로WLF00000943은 동일 가평 다문화가족 정착장려금과 가족센터 신청을 특정하고 있어 기관운영 신청이 아닌 실제 대상가족의 두 단계 서식으로 제안한다.",
+      "roleBasis": "현행 시행규칙2013733 제2조는 매년100만원3년 지급, 제3조제1항은 별지1 가족센터 신청, 제3조제4항은90%교육이수 후 별지2 청구를 명시한다. 전체 원본1606자에서 혼인·외국인등록·센터교육·신청인 서명·개인정보 동의·교육이수 청구계좌를 확인했다. 현재 복지로WLF00000943은 동일 가평 다문화가족 정착장려금과 가족센터 신청을 특정하고 있어 기관운영 신청이 아닌 실제 대상가족의 두 단계 서식으로 제안한다.",
+      "roleEvidenceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=154077643&flNm=%EB%B3%84%EC%A7%80+%EC%A0%9C1%ED%98%B8%EC%84%9C%EC%8B%9D+~+%EB%B3%84%EC%A7%80+%EC%A0%9C2%ED%98%B8%EC%84%9C%EC%8B%9D",
+      "roleCheckedAt": "2026-10-19",
+      "sha256": "12b62796eb9f7b5b16f5e91b2528718a038b3312f49fe091b6dffef6de45e450",
+      "bytes": 71168,
+      "originalFormat": "hwp",
+      "originalPath": "pipeline/forms/originals/ordin-20406387.hwp",
+      "textEvidencePath": "logs/forms-completion/gyeonggi-20261019/team1/uncited/extracted/ordin-20406387.json",
+      "textScope": "all_body_sections_or_pages",
+      "originalTextScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "BodyText/Section0"
+      ],
+      "fullBodyReviewed": true,
+      "textLength": 1606,
+      "bodyTextSha256": "cf0bc957461bd6f91967a9a67fc5795abed0a9ea833c76308d1c95feb4caa1ed",
+      "independentlyReextracted": false,
+      "embeddedImageCount": 0,
+      "reviewedBy": "/root/forms_source_audit",
+      "referencedLaws": [
+        "가평군 다문화가족 및 외국인주민 지원 조례 시행규칙"
+      ],
+      "excludedParts": [],
+      "sourceIssues": [
+        "현재 사업 데이터는 구 조례명을 인용하지만2025 개정 현행규칙의 사업명·작성자·가족센터 접수·교육요건과 실제사업을 직접 대조했다. 기존프로그램의 법령목록은 수정하지 않는다."
+      ],
+      "lawId": "2013733",
+      "lawTitle": "가평군 다문화가족 및 외국인주민 지원 조례 시행규칙",
+      "lawEvidenceUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=2013733",
+      "annexId": "20406387",
+      "annexNumber": "1",
+      "programPageRecord": "logs/forms-completion/gyeonggi-20261019/current-pages/WLF00000943.json",
+      "programPageSHA256": "eadf60a18d9dd60aed3efacd18df04458e4730e640c041a47edca99706e919aa",
+      "originalHttpStatus": 200,
+      "verifiedDocumentTitle": "가평군 다문화가족 정착장려금 신청서·개인정보 동의서 및 청구서",
+      "lawUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2013733",
+      "flSeq": "154077643",
+      "currentLawEvidence": {
+        "auditRecord": "logs/forms-completion/gyeonggi-20261019/current-law-batch-audit.json",
+        "bodyRecord": "logs/forms-completion/gyeonggi-20261019/current-law-bodies/2013733.json.gz",
+        "lawId": "2013733",
+        "stableLawId": "2184866",
+        "effectiveDate": "20250205",
+        "annex": {
+          "annexId": "20406387",
+          "number": "1",
+          "kind": "서식",
+          "title": "별지 제1호서식 ~ 별지 제2호서식",
+          "fileFormat": "hwp",
+          "url": "https://www.law.go.kr/flDownload.do?gubun=ELIS&flSeq=154077643&flNm=%EB%B3%84%EC%A7%80+%EC%A0%9C1%ED%98%B8%EC%84%9C%EC%8B%9D+~+%EB%B3%84%EC%A7%80+%EC%A0%9C2%ED%98%B8%EC%84%9C%EC%8B%9D",
+          "flSeq": "154077643",
+          "pdfUrl": "",
+          "contentChars": 0,
+          "deleted": false
+        },
+        "bodySHA256": "02404ff5c5fa7841c7b359b929a552e3388406b66eefbbdb07868ab01a9fe7e7"
+      },
+      "lawBodyRecordSHA256": "02404ff5c5fa7841c7b359b929a552e3388406b66eefbbdb07868ab01a9fe7e7",
+      "originalShaVerified": true,
+      "displayTitle": "가평군 다문화가족 정착장려금 신청서·개인정보 동의서 및 청구서",
+      "coordinatorApproved": true,
+      "coordinatorReason": "현행 시행규칙2013733 제2조는 매년100만원3년 지급, 제3조제1항은 별지1 가족센터 신청, 제3조제4항은90%교육이수 후 별지2 청구를 명시한다. 전체 원본1606자에서 혼인·외국인등록·센터교육·신청인 서명·개인정보 동의·교육이수 청구계좌를 확인했다. 현재 복지로WLF00000943은 동일 가평 다문화가족 정착장려금과 가족센터 신청을 특정하고 있어 기관운영 신청이 아닌 실제 대상가족의 두 단계 서식으로 제안한다.",
+      "currentAnnexBinding": {
+        "binding": "bound",
+        "bindingReason": "OFFICIAL_ANNEX_BOUND_WITH_SAME_FILE",
+        "officialAnnexId": "20406387",
+        "officialAnnexNumber": "1",
+        "officialAnnexTitle": "별지 제1호서식 ~ 별지 제2호서식",
+        "officialFlSeq": "154077643",
+        "officialAnnexUrl": "https://www.law.go.kr/flDownload.do?gubun=ELIS&flSeq=154077643&flNm=%EB%B3%84%EC%A7%80+%EC%A0%9C1%ED%98%B8%EC%84%9C%EC%8B%9D+~+%EB%B3%84%EC%A7%80+%EC%A0%9C2%ED%98%B8%EC%84%9C%EC%8B%9D",
+        "officialAnnexDeleted": false
+      }
+    },
+    {
+      "sourceKind": "ordin",
+      "basisType": "current_law_and_official_program",
+      "formId": "ordin-21777279",
+      "sourceCandidateId": null,
+      "sourcePageUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2124391",
+      "sourcePageHttpStatus": 200,
+      "sourcePageRecord": "logs/forms-completion/gyeonggi-20261019/current-law-bodies/2124391.json.gz",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=163593427&flNm=%EB%B3%84%EC%A7%80+%EC%A0%9C1%ED%98%B8%EC%84%9C%EC%8B%9D+~+%EB%B3%84%EC%A7%80+%EC%A0%9C2%ED%98%B8%EC%84%9C%EC%8B%9D",
+      "finalUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=163593427&flNm=%EB%B3%84%EC%A7%80+%EC%A0%9C1%ED%98%B8%EC%84%9C%EC%8B%9D+~+%EB%B3%84%EC%A7%80+%EC%A0%9C2%ED%98%B8%EC%84%9C%EC%8B%9D",
+      "attachmentId": "21777279",
+      "attachmentIdentifier": {
+        "queryParam": "flSeq",
+        "value": "163593427"
+      },
+      "attachmentFileSn": null,
+      "officialProgramSourceId": "641000000171",
+      "agencyName": "경기도 가평군",
+      "authorityKind": "government",
+      "authorityEvidenceKind": "government",
+      "authorityEvidenceUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=2124391",
+      "authorityEvidenceNote": "총괄이 국가법령정보센터 nw=1 목록으로 현행판을 확인한 법규의 정확별지ID/flSeq를 실제 원본SHA와 결속했다.",
+      "formTitle": "별지 제1호서식 ~ 별지 제2호서식",
+      "sourceMetadataTitle": "별지 제1호서식 ~ 별지 제2호서식",
+      "programIds": [
+        "s41000.gov24-641000000171"
+      ],
+      "programNames": [
+        "결식아동급식지원"
+      ],
+      "programEvidenceUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/641000000171",
+      "regionCode": "41820",
+      "regionLabel": "경기도 가평군",
+      "checkedAt": "2026-10-19",
+      "dateKind": "effective",
+      "effectiveDate": "2026-04-20",
+      "publishedAt": null,
+      "role": "application",
+      "use": "conditional",
+      "condition": "가평군 거주 아동의 가평군 접수 전용. 최초 급식지원은 별지1 아동급식 신청(추천)서와 필요한 증빙을 관할 읍·면에 제출한다. 별지2는 가평군의 급식지원 선정결과에 이의가 있는 경우 통지받은 날부터60일 이내에만 사용한다. 다른 시군 신청서로 확대하지 않는다.",
+      "applicant": "지원 아동·보호자 또는 현행 조례가 정한 신청·추천인",
+      "reviewedParts": [
+        {
+          "number": "별지 제1호서식 앞·뒷면",
+          "title": "아동급식 신청(추천)서 및 행정정보 공동이용 동의",
+          "use": "main",
+          "author": "아동·보호자 또는 허용된 가족·이웃·교사·사회복지사·이장·반장·공무원"
+        },
+        {
+          "number": "별지 제2호서식",
+          "title": "아동급식 지원 부적합 결정 이의신청서",
+          "use": "conditional",
+          "author": "가평군 선정결과에 이의가 있는 신청인"
+        }
+      ],
+      "selectedParts": [
+        {
+          "number": "별지 제1호서식 앞·뒷면",
+          "title": "아동급식 신청(추천)서 및 행정정보 공동이용 동의",
+          "use": "main",
+          "author": "아동·보호자 또는 허용된 가족·이웃·교사·사회복지사·이장·반장·공무원"
+        },
+        {
+          "number": "별지 제2호서식",
+          "title": "아동급식 지원 부적합 결정 이의신청서",
+          "use": "conditional",
+          "author": "가평군 선정결과에 이의가 있는 신청인"
+        }
+      ],
+      "verificationStatus": "verified",
+      "decision": "propose_approval",
+      "publicationApproved": false,
+      "requiresCoordinatorReview": true,
+      "officialAttachmentMatched": true,
+      "evidenceUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=2124391",
+      "evidenceNote": "현재 경기도 결식아동급식지원 정부24는 도내 결식우려아동에 읍면동 방문 급식신청서 제출을 명시한다. 현행 가평 조례2124391 제2조의52%/가족유형/외국국적 기준이 도사업 및 실제양식과 일치하고 제4조는 관할 읍면장에게 별지1 제출 및 허용 신청인을 명시한다. 전체2014자에서 해당아동2명·결식 유형·희망 급식방법·신청추천 사유·서명·동의와 별지2 이의를 확인했으며 제13조의60일/10일 처리도 대조했다.",
+      "roleBasis": "현재 경기도 결식아동급식지원 정부24는 도내 결식우려아동에 읍면동 방문 급식신청서 제출을 명시한다. 현행 가평 조례2124391 제2조의52%/가족유형/외국국적 기준이 도사업 및 실제양식과 일치하고 제4조는 관할 읍면장에게 별지1 제출 및 허용 신청인을 명시한다. 전체2014자에서 해당아동2명·결식 유형·희망 급식방법·신청추천 사유·서명·동의와 별지2 이의를 확인했으며 제13조의60일/10일 처리도 대조했다.",
+      "roleEvidenceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=163593427&flNm=%EB%B3%84%EC%A7%80+%EC%A0%9C1%ED%98%B8%EC%84%9C%EC%8B%9D+~+%EB%B3%84%EC%A7%80+%EC%A0%9C2%ED%98%B8%EC%84%9C%EC%8B%9D",
+      "roleCheckedAt": "2026-10-19",
+      "sha256": "f7dfb143b0a6981018db11d56e40e435a25eeabe3c0f3949cad874dc4a3bf3c7",
+      "bytes": 28160,
+      "originalFormat": "hwp",
+      "originalPath": "pipeline/forms/originals/ordin-21777279.hwp",
+      "textEvidencePath": "logs/forms-completion/gyeonggi-20261019/team1/uncited/extracted/ordin-21777279.json",
+      "textScope": "all_body_sections_or_pages",
+      "originalTextScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "BodyText/Section0"
+      ],
+      "fullBodyReviewed": true,
+      "textLength": 2014,
+      "bodyTextSha256": "8b1712230776a79a2e31f2ca6ab3db2f7636305251349d6decc77b59e374c34e",
+      "independentlyReextracted": false,
+      "embeddedImageCount": 0,
+      "reviewedBy": "/root/forms_source_audit",
+      "referencedLaws": [
+        "가평군 아동급식 지원에 관한 조례"
+      ],
+      "excludedParts": [],
+      "sourceIssues": [],
+      "lawId": "2124391",
+      "lawTitle": "가평군 아동급식 지원에 관한 조례",
+      "lawEvidenceUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=2124391",
+      "annexId": "21777279",
+      "annexNumber": "1",
+      "programPageRecord": "logs/forms-completion/gyeonggi-20261019/team1/pages/program-s41000.gov24-641000000171.json",
+      "programPageSHA256": "0ad6a96799b989e2a4b0f272d6d238f10e1922f6c7fe6ff2e0f8f9143f0c43ae",
+      "originalHttpStatus": 200,
+      "verifiedDocumentTitle": "가평군 아동급식 신청(추천)서 및 이의신청서",
+      "lawUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2124391",
+      "flSeq": "163593427",
+      "currentLawEvidence": {
+        "auditRecord": "logs/forms-completion/gyeonggi-20261019/current-law-batch-audit.json",
+        "bodyRecord": "logs/forms-completion/gyeonggi-20261019/current-law-bodies/2124391.json.gz",
+        "lawId": "2124391",
+        "stableLawId": "2019849",
+        "effectiveDate": "20260420",
+        "annex": {
+          "annexId": "21777279",
+          "number": "1",
+          "kind": "서식",
+          "title": "별지 제1호서식 ~ 별지 제2호서식",
+          "fileFormat": "hwp",
+          "url": "https://www.law.go.kr/flDownload.do?gubun=ELIS&flSeq=163593427&flNm=%EB%B3%84%EC%A7%80+%EC%A0%9C1%ED%98%B8%EC%84%9C%EC%8B%9D+~+%EB%B3%84%EC%A7%80+%EC%A0%9C2%ED%98%B8%EC%84%9C%EC%8B%9D",
+          "flSeq": "163593427",
+          "pdfUrl": "",
+          "contentChars": 0,
+          "deleted": false
+        },
+        "bodySHA256": "7045c80b9b08c2fba34c7d24bec1d123864dbcd5e20cc1072e0f47d63b1985fc"
+      },
+      "scopeBasis": "municipal-application-reference",
+      "municipalApplicationReference": {
+        "sido": "41000",
+        "sigungu": "41820",
+        "municipality": "가평군",
+        "programEvidenceUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/641000000171",
+        "httpStatus": 200,
+        "programSpecific": true,
+        "checkedAt": "2026-10-19",
+        "reference": "가평군 접수 경로 확인. 현재 경기도 결식아동급식지원 정부24는 도내 결식우려아동에 읍면동 방문 급식신청서 제출을 명시한다. 현행 가평 조례2124391 제2조의52%/가족유형/외국국적 기준이 도사업 및 실제양식과 일치하고 제4조는 관할 읍면장에게 별지1 제출 및 허용 신청인을 명시한다. 전체2014자에서 해당아동2명·결식 유형·희망 급식방법·신청추천 사유·서명·동의와 별지2 이의를 확인했으며 제13조의60일/10일 처리도 대조했다.",
+        "formEvidence": "가평군의 실제 원본 전체를 읽어 학생/아동 또는 보호자의 신청·추천 정보와 계좌/동의·서명, 제출처가 해당 가평군임을 확인했다. 현재 경기도 결식아동급식지원 정부24는 도내 결식우려아동에 읍면동 방문 급식신청서 제출을 명시한다. 현행 가평 조례2124391 제2조의52%/가족유형/외국국적 기준이 도사업 및 실제양식과 일치하고 제4조는 관할 읍면장에게 별지1 제출 및 허용 신청인을 명시한다. 전체2014자에서 해당아동2명·결식 유형·희망 급식방법·신청추천 사유·서명·동의와 별지2 이의를 확인했으며 제13조의60일/10일 처리도 대조했다.",
+        "scopeRestriction": "가평군 거주 아동의 가평군 읍·면 접수 전용",
+        "municipalArticle": "가평군 아동급식 지원에 관한 조례 제4조"
+      },
+      "lawBodyRecordSHA256": "7045c80b9b08c2fba34c7d24bec1d123864dbcd5e20cc1072e0f47d63b1985fc",
+      "originalShaVerified": true,
+      "displayTitle": "가평군 아동급식 신청(추천)서 및 이의신청서",
+      "coordinatorApproved": true,
+      "coordinatorReason": "현재 경기도 결식아동급식지원 정부24는 도내 결식우려아동에 읍면동 방문 급식신청서 제출을 명시한다. 현행 가평 조례2124391 제2조의52%/가족유형/외국국적 기준이 도사업 및 실제양식과 일치하고 제4조는 관할 읍면장에게 별지1 제출 및 허용 신청인을 명시한다. 전체2014자에서 해당아동2명·결식 유형·희망 급식방법·신청추천 사유·서명·동의와 별지2 이의를 확인했으며 제13조의60일/10일 처리도 대조했다.",
+      "currentAnnexBinding": {
+        "binding": "bound",
+        "bindingReason": "OFFICIAL_ANNEX_BOUND_WITH_SAME_FILE",
+        "officialAnnexId": "21777279",
+        "officialAnnexNumber": "1",
+        "officialAnnexTitle": "별지 제1호서식 ~ 별지 제2호서식",
+        "officialFlSeq": "163593427",
+        "officialAnnexUrl": "https://www.law.go.kr/flDownload.do?gubun=ELIS&flSeq=163593427&flNm=%EB%B3%84%EC%A7%80+%EC%A0%9C1%ED%98%B8%EC%84%9C%EC%8B%9D+~+%EB%B3%84%EC%A7%80+%EC%A0%9C2%ED%98%B8%EC%84%9C%EC%8B%9D",
+        "officialAnnexDeleted": false
+      }
+    }
+  ],
+  "sourceReview": {
+    "scopeFile": "pipeline/forms/reviews/gyeonggi-portal-originals-scope-round8101.json"
+  }
+}

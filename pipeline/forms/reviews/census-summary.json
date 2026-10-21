@@ -1,0 +1,100 @@
+{
+  "schema": 1,
+  "finishedAt": "2026-10-17T00:40:26.366161+09:00",
+  "allProgramRecordsAccountedFor": true,
+  "allApplicationFormsVerified": false,
+  "programRecords": 23578,
+  "regions": 247,
+  "approvedForms": 112,
+  "programsWithApprovedForms": 126,
+  "approvedProgramFormLinks": 186,
+  "investigation": {
+    "totalPrograms": 23578,
+    "counts": {
+      "confirmed": 126,
+      "candidate": 5139,
+      "attachment_found": 4502,
+      "document_mentioned": 994,
+      "automatic": 286,
+      "institution": 75,
+      "needs_source": 12456
+    },
+    "lawQueries": 5901,
+    "lawBodiesRead": 4999,
+    "lawFailures": 902,
+    "lawUnresolvedCitations": 336,
+    "pageUrls": 16641,
+    "pagesRead": 15792,
+    "pageFailures": 849,
+    "officialAttachments": 5585
+  },
+  "lawAudit": {
+    "failed": 6,
+    "pendingQueries": 0,
+    "plannedQueries": 5901,
+    "programs": 23578,
+    "queries": 5901,
+    "read": 4999,
+    "resolved": 5005,
+    "unresolved": 896,
+    "unresolvedCitations": 336
+  },
+  "pageAudit": {
+    "programs": 23578,
+    "urls": 16641,
+    "read": 15792,
+    "blocked": 61,
+    "failed": 788,
+    "attachments": 6001,
+    "attempted": 16179,
+    "pending": 0,
+    "unsupported": 632,
+    "unavailable": 156,
+    "rejectedUrlOccurrences": 188,
+    "suppressedAttachments": 5
+  },
+  "indexMatching": {
+    "status": "complete",
+    "indexedForms": 408267,
+    "checkedPrograms": 23578,
+    "checkedAt": "2026-10-16T15:37:48.971218+00:00",
+    "sources": [
+      {
+        "kind": "licbyl",
+        "total": 40036,
+        "collected": 40036
+      },
+      {
+        "kind": "ordinbyl",
+        "total": 283751,
+        "collected": 283751
+      },
+      {
+        "kind": "admbyl",
+        "total": 84484,
+        "collected": 84484
+      }
+    ],
+    "candidateEligibleForms": 94996,
+    "unresolvedJurisdiction": 182,
+    "candidateComparisons": 131693,
+    "matchedPrograms": 7853,
+    "matchedForms": 8320,
+    "collectionStartedAt": "2026-10-16T07:57:02.115838+00:00",
+    "collectionFinishedAt": "2026-10-16T07:58:42.157878+00:00",
+    "duplicateRows": 4
+  },
+  "manualReview": "round3-source-verification.json",
+  "validation": {
+    "pythonTests": 128,
+    "unitTests": 947,
+    "unitNote": "940 initial passes; four 5s timeouts passed on targeted rerun with 20s limit. Three additional unit cases passed. Final forms unit suite: 44 passed.",
+    "browserTests": 42,
+    "originalDownloadHeaderChecks": 58,
+    "typecheck": "passed",
+    "lint": "passed",
+    "productionBuild": "passed",
+    "sourceBundlesChanged": false,
+    "deploymentEnabled": false
+  }
+}

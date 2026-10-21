@@ -1,0 +1,472 @@
+{
+  "schema": 1,
+  "checkedAt": "2026-10-19",
+  "batchId": "batch-069",
+  "rows": [
+    {
+      "sourceKind": "ordin",
+      "lawTitle": "청도군 전동보장구 수리 지원에 관한 조례",
+      "lawId": "927024",
+      "annexId": "19953779",
+      "annexNumber": "000400",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=152163225&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C4%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EC%9E%A5%EC%95%A0%EC%9D%B8+%EC%A0%84%EB%8F%99%EB%B3%B4%EC%9E%A5%EA%B5%AC+%EC%88%98%EB%A6%AC%EB%B9%84%EC%9A%A9+%EC%B2%AD%EA%B5%AC%EC%84%9C",
+      "dateKind": "effective",
+      "effectiveDate": "2015-02-26",
+      "regionCode": "47820",
+      "regionLabel": "경상북도 청도군",
+      "formId": "ordin-19953779",
+      "formTitle": "[별지 제4호서식] 장애인 전동보장구 수리비용 청구서",
+      "sourceMetadataTitle": "[별지 제4호서식] 장애인 전동보장구 수리비용 청구서",
+      "programIds": [
+        "g47820.bokjiro-WLF00003456"
+      ],
+      "programNames": [
+        "장애인 전동보장구 수리 지원"
+      ],
+      "use": "conditional",
+      "checkedAt": "2026-10-19",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "evidenceUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=927024",
+      "evidenceNote": "청도 수리업체의 장애인·기기·수리부위·산출비용 청구를 전체 읽었다.제7조3·4항의 월별 업체청구·지급과 복지로 사업 apply의 '수리업체→군 청구/군→업체지급' 단계가 직접 일치한다.장애인의 최초 신청으로 혼동하지 않도록 제공업체 정산만 조건부로 연결한다. 실제 원본 전체 본문, 출처 법규ID에 연결된 별지, 원본 SHA256 및 flSeq를 대조했다.",
+      "sha256": "ed9a225e905fac639f127622b24559afb9f9f18d83d60fe5b14bb7a71dd5e3e2",
+      "bytes": 13824,
+      "originalFormat": "hwp",
+      "textScope": "all_body_sections_or_pages",
+      "originalTextScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "BodyText/Section0"
+      ],
+      "fullBodyReviewed": true,
+      "role": "application",
+      "roleBasis": "청도 수리업체의 장애인·기기·수리부위·산출비용 청구를 전체 읽었다.제7조3·4항의 월별 업체청구·지급과 복지로 사업 apply의 '수리업체→군 청구/군→업체지급' 단계가 직접 일치한다.장애인의 최초 신청으로 혼동하지 않도록 제공업체 정산만 조건부로 연결한다. 실제 원본 전체 본문, 출처 법규ID에 연결된 별지, 원본 SHA256 및 flSeq를 대조했다.",
+      "roleEvidenceUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=927024",
+      "roleCheckedAt": "2026-10-19",
+      "bodyEvidenceArticle": "제7조",
+      "bodyEvidenceText": "제7조(수리비용 지원절차)① 장애인이 관할거주지 읍·면장에게 별지 제1호서식의 신청서를 제출하면, 읍ㆍ면장은 다음 각 호의 사항을 검토하여 수리비용 지원대상자를 결정한다.1. 관내 거주 등록 장애인 여부2. 수급자 및 차상위계층 해당 여부② 제1항에 따라 지원대상자로 인정되는 경우에는 읍ㆍ면장은 별지 제2호서식의 지원의뢰서를 발급하고, 수리를 받으려는 자는 지원센터에 지원의뢰서를 제출하여 수리를 의뢰하면, 수리업자는 그 의뢰서에 따라 전동보장구에 대하여 수리를 완료한 후 해당 장애인에게 교부한다.③ 읍ㆍ면장은 매달 1일부터 말일까지의 지원대상자 결정현황을 그 다음달 5일까지 군수에게 송부하고, 수리업체는 매달 1일부터 말일까지의 수리내역을 별지 제3호서식에 기재하여 별지 제4호서식의 수리비용 청구서와 함께 그 다음달 10일까지 군수에게 송부하여야 한다.④ 군수는 읍ㆍ면장으로부터 송부 받은 지원대상자 결정현황과 수리업체로부터 송부 받은 수리내역 및 청구서를 확인한 후 송부 받은 달의 말일까지 수리업체의 계좌에 입금 조치하여야 한다.",
+      "reviewedParts": [
+        {
+          "number": "별지 제4호",
+          "title": "[별지 제4호서식] 장애인 전동보장구 수리비용 청구서",
+          "use": "conditional",
+          "author": "지정 지원센터 등 실제 수리업체"
+        }
+      ],
+      "condition": "읍면 지원의뢰에 따라 전동보장구 수리를 완료한 수리업체가 매월 비용을 정산 청구할 때만 사용.장애인의 최초 수리지원 신청서는 별지1."
+    },
+    {
+      "sourceKind": "ordin",
+      "lawTitle": "청도군 신생아 및 입양영아 건강보험료 지원 조례",
+      "lawId": "931767",
+      "annexId": "17293821",
+      "annexNumber": "000100",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=138721427&flNm=%EB%B3%84%EC%A7%80+%EC%A0%9C1%ED%98%B8%EC%84%9C%EC%8B%9D",
+      "dateKind": "effective",
+      "effectiveDate": "2010-12-22",
+      "regionCode": "47820",
+      "regionLabel": "경상북도 청도군",
+      "formId": "ordin-17293821",
+      "formTitle": "별지 제1호서식",
+      "sourceMetadataTitle": "별지 제1호서식",
+      "programIds": [
+        "g47820.gov24-519000000128"
+      ],
+      "programNames": [
+        "출산지원금 및 신생아·입양영아 건강보험료 지원"
+      ],
+      "use": "conditional",
+      "checkedAt": "2026-10-19",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "evidenceUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=931767",
+      "evidenceNote": "청도 신생아 건강보험료 신청의 보호자·출생순위·주소·출생정보를 읽었다.제6조는 신생아 및 입양영아 보험지원에 별지1을 제출하도록 하며 통합 출산지원 중 보험료 지원항목의 읍면접수와 일치한다.현금 출산장려금 부분과 구별한다. 실제 원본 전체 본문, 출처 법규ID에 연결된 별지, 원본 SHA256 및 flSeq를 대조했다.",
+      "sha256": "d045ba7c6544e624b77505e8381cfd85917e6c601c276918546cf2f9c375c375",
+      "bytes": 14848,
+      "originalFormat": "hwp",
+      "textScope": "all_body_sections_or_pages",
+      "originalTextScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "BodyText/Section0"
+      ],
+      "fullBodyReviewed": true,
+      "role": "application",
+      "roleBasis": "청도 신생아 건강보험료 신청의 보호자·출생순위·주소·출생정보를 읽었다.제6조는 신생아 및 입양영아 보험지원에 별지1을 제출하도록 하며 통합 출산지원 중 보험료 지원항목의 읍면접수와 일치한다.현금 출산장려금 부분과 구별한다. 실제 원본 전체 본문, 출처 법규ID에 연결된 별지, 원본 SHA256 및 flSeq를 대조했다.",
+      "roleEvidenceUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=931767",
+      "roleCheckedAt": "2026-10-19",
+      "bodyEvidenceArticle": "제6조",
+      "bodyEvidenceText": "제6조(지원신청) 읍·면장은 보호자가 신생아 및 입양영아 신고시 건강보험료 지원대상 여부를 확인하고신고인에게 별지 제1호서식 신생아 및 입양영아 건강보험료 지원신청서(이하 신청서 라 한다)를 제출토록 하여야 한다.",
+      "reviewedParts": [
+        {
+          "number": "별지 제1호",
+          "title": "신생아 건강보험료 지원신청서",
+          "use": "main",
+          "author": "지원대상 영아의 보호자"
+        }
+      ],
+      "condition": "통합사업 중 신생아·입양영아 건강보험료 지원의 개별 신청에만 사용.출산지원금 현금신청서가 아님.",
+      "verifiedDocumentTitle": "신생아 건강보험료 지원신청서",
+      "displayTitle": "신생아 건강보험료 지원신청서"
+    },
+    {
+      "sourceKind": "ordin",
+      "lawTitle": "청도군 친환경농업 육성 조례 시행규칙",
+      "lawId": "935965",
+      "annexId": "22722233",
+      "annexNumber": "000100",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=169778039&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C1%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EC%B9%9C%ED%99%98%EA%B2%BD%EB%86%8D%EC%97%85%EC%9C%A1%EC%84%B1+%EC%A7%80%EC%9B%90%EC%82%AC%EC%97%85+%EC%8B%A0%EC%B2%AD%EC%84%9C",
+      "dateKind": "effective",
+      "effectiveDate": "2007-08-07",
+      "regionCode": "47820",
+      "regionLabel": "경상북도 청도군",
+      "formId": "ordin-22722233",
+      "formTitle": "[별지 제1호서식] 친환경농업육성 지원사업 신청서",
+      "sourceMetadataTitle": "[별지 제1호서식] 친환경농업육성 지원사업 신청서",
+      "programIds": [
+        "g47820.gov24-519000000110"
+      ],
+      "programNames": [
+        "고품질 친환경 쌀 생산지원"
+      ],
+      "use": "conditional",
+      "checkedAt": "2026-10-19",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "evidenceUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=935965",
+      "evidenceNote": "청도 친환경농업육성 신청의 벼 생산단지·농가·재배·품목·보조자부담 및 세부사업계획 전체를 읽었다.국가법령 API시행일99991231은 그대로 보존하되 ELIS현행목록·제정2007.8.7·공포즉시시행 부칙과 현재별지1의 정확히 같은 원본SHA를 독립 확인했다.제6조가 조례13조 친환경사업에 이 신청서를 요구하며 고품질 친환경쌀 사업의 해당 품목·읍면접수와 일치한다. 실제 원본 전체 본문, 출처 법규ID에 연결된 별지, 원본 SHA256 및 flSeq를 대조했다.",
+      "sha256": "add0456d726572f64ce093675febafbb1ebe1d087ecf1b9e70d564701a877537",
+      "bytes": 45056,
+      "originalFormat": "hwp",
+      "textScope": "all_body_sections_or_pages",
+      "originalTextScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "BodyText/Section0"
+      ],
+      "fullBodyReviewed": true,
+      "role": "application",
+      "roleBasis": "청도 친환경농업육성 신청의 벼 생산단지·농가·재배·품목·보조자부담 및 세부사업계획 전체를 읽었다.국가법령 API시행일99991231은 그대로 보존하되 ELIS현행목록·제정2007.8.7·공포즉시시행 부칙과 현재별지1의 정확히 같은 원본SHA를 독립 확인했다.제6조가 조례13조 친환경사업에 이 신청서를 요구하며 고품질 친환경쌀 사업의 해당 품목·읍면접수와 일치한다. 실제 원본 전체 본문, 출처 법규ID에 연결된 별지, 원본 SHA256 및 flSeq를 대조했다.",
+      "roleEvidenceUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=935965",
+      "roleCheckedAt": "2026-10-19",
+      "bodyEvidenceArticle": "제6조 · 제7조",
+      "bodyEvidenceText": "제6조(신청 구비서류) 조례 제13조제2항의 규정에 의거 사업신청 농업인은 다음 각호의 서류를제출하여야 한다. 다만, 행정기관에서 확인 가능한 것은 제외한다.1. 친환경농업 육성지원 사업 신청서[별지 제1호 서식]2. 친환경농산물 품질인증서 사본3. 농지원부\n제7조(신청서 접수처 및 기간) 신청서는 매년 1~3월중에 읍ㆍ면사무소에 접수한다. 단, 예산사정및 기타 사정에 따라 신청 시기를 조정할 수 있다.",
+      "reviewedParts": [
+        {
+          "number": "별지 제1호",
+          "title": "[별지 제1호서식] 친환경농업육성 지원사업 신청서",
+          "use": "main",
+          "author": "해당 벼 재배 농업인 또는 생산자조직 대표"
+        }
+      ],
+      "condition": "고품질 친환경 쌀 지원 중 조례 제13조의 친환경농업육성지원 사업을 신청할 때 사업명·품목·세부계획을 작성하여 사용.접수시기와 해당연도 지원품목은 공식사업공고 확인.",
+      "currencyResolution": {
+        "state": "official_elis_confirmed",
+        "checkedAt": "2026-10-19",
+        "lawId": "935965",
+        "stableLawId": "2125626",
+        "org": "경상북도 청도군",
+        "effectiveDate": "2007-08-07",
+        "sourceMetadataEffectiveDate": "99991231",
+        "lawTitle": "청도군 친환경농업 육성 조례 시행규칙",
+        "alrNo": "47820113237008",
+        "histNo": "001",
+        "annexId": "22722233",
+        "annexSha256": "add0456d726572f64ce093675febafbb1ebe1d087ecf1b9e70d564701a877537",
+        "annexBytes": 45056,
+        "lawEvidenceUrl": "https://www.elis.go.kr/alrpop/alrDtlsPop?alrNo=47820113237008&histNo=001",
+        "lawPageSha256": "c09a29ab0a92462e201f9ef355c5120d2120a7b6d8af0f69d4d1c3c41868b58c",
+        "listEvidenceUrl": "https://www.elis.go.kr/alrpop/locgovAlrPopup?ctpvCd=47&sggCd=820",
+        "listPageSha256": "8262a1dd22edff9076f0049a7b0086fc0d98d678f2c2881b296addeb7e3be9bc",
+        "annexEvidenceUrl": "https://www.elis.go.kr/allalr/attListDown?alrNo=47820113237008&histNo=001&attlistSn=001",
+        "evidence": "ELIS 현행 청도군 목록의 제정2007.8.7 규칙1170호와 본문 부칙 공포즉시시행을 직접GET 확인.해당 별지1 원본이 국가법령센터22722233과 바이트 SHA256·길이까지 같음.99991231은 현재판에 함께 노출되는 API시행일 미확정값으로 보존하며2027시행판으로 간주하지 않음."
+      },
+      "sourceMetadataEffectiveDate": "9999-12-31",
+      "additionalEvidence": {
+        "officialElisCurrencyResolution": {
+          "state": "official_elis_confirmed",
+          "checkedAt": "2026-10-19",
+          "lawId": "935965",
+          "stableLawId": "2125626",
+          "org": "경상북도 청도군",
+          "effectiveDate": "2007-08-07",
+          "sourceMetadataEffectiveDate": "99991231",
+          "lawTitle": "청도군 친환경농업 육성 조례 시행규칙",
+          "alrNo": "47820113237008",
+          "histNo": "001",
+          "annexId": "22722233",
+          "annexSha256": "add0456d726572f64ce093675febafbb1ebe1d087ecf1b9e70d564701a877537",
+          "annexBytes": 45056,
+          "lawEvidenceUrl": "https://www.elis.go.kr/alrpop/alrDtlsPop?alrNo=47820113237008&histNo=001",
+          "lawPageSha256": "c09a29ab0a92462e201f9ef355c5120d2120a7b6d8af0f69d4d1c3c41868b58c",
+          "listEvidenceUrl": "https://www.elis.go.kr/alrpop/locgovAlrPopup?ctpvCd=47&sggCd=820",
+          "listPageSha256": "8262a1dd22edff9076f0049a7b0086fc0d98d678f2c2881b296addeb7e3be9bc",
+          "annexEvidenceUrl": "https://www.elis.go.kr/allalr/attListDown?alrNo=47820113237008&histNo=001&attlistSn=001",
+          "evidence": "ELIS 현행 청도군 목록의 제정2007.8.7 규칙1170호와 본문 부칙 공포즉시시행을 직접GET 확인.해당 별지1 원본이 국가법령센터22722233과 바이트 SHA256·길이까지 같음.99991231은 현재판에 함께 노출되는 API시행일 미확정값으로 보존하며2027시행판으로 간주하지 않음."
+        },
+        "sourcePrintIssue": "원본에2026.9.29개정 머리말과200 년도 빈자리 표기가 공존.원본변경없이 보존.ELIS와법령센터의 원본바이트는 동일."
+      }
+    },
+    {
+      "sourceKind": "ordin",
+      "lawTitle": "진천군 농어업ㆍ농촌 지원에 관한 기본 조례 시행규칙",
+      "lawId": "952875",
+      "annexId": "7832169",
+      "annexNumber": "000100",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=55691905&flNm=%EB%B3%84%EC%A7%801-3%ED%98%B8",
+      "dateKind": "effective",
+      "effectiveDate": "2011-12-20",
+      "regionCode": "43750",
+      "regionLabel": "충청북도 진천군",
+      "formId": "ordin-7832169",
+      "formTitle": "별지1-3호",
+      "sourceMetadataTitle": "별지1-3호",
+      "programIds": [
+        "g43750.gov24-445000000117"
+      ],
+      "programNames": [
+        "과수 영양제 구입비 지원"
+      ],
+      "use": "main",
+      "checkedAt": "2026-10-19",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "evidenceUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=952875",
+      "evidenceNote": "진천 묶음의 별지1 농어업·농촌 지원신청과 별지2 기관결정통지 전체를 읽었다.제2조는 본 조례15조의 농어업사업 신청서·계획서를 지정하며 사과·배 농가의 과수영양제 구입비 지원은 같은 기본조례 근거의 농업지원이다.사업명·금액·재배계획을 작성하는 별지1만 승인하고 결정통지는 제외한다. 실제 원본 전체 본문, 출처 법규ID에 연결된 별지, 원본 SHA256 및 flSeq를 대조했다.",
+      "sha256": "6de64add5bfa2f287d9545508ace99c734b1d613762570b3a5d70dbbefd03ba8",
+      "bytes": 14848,
+      "originalFormat": "hwp",
+      "textScope": "all_body_sections_or_pages",
+      "originalTextScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "BodyText/Section0"
+      ],
+      "fullBodyReviewed": true,
+      "role": "application",
+      "roleBasis": "진천 묶음의 별지1 농어업·농촌 지원신청과 별지2 기관결정통지 전체를 읽었다.제2조는 본 조례15조의 농어업사업 신청서·계획서를 지정하며 사과·배 농가의 과수영양제 구입비 지원은 같은 기본조례 근거의 농업지원이다.사업명·금액·재배계획을 작성하는 별지1만 승인하고 결정통지는 제외한다. 실제 원본 전체 본문, 출처 법규ID에 연결된 별지, 원본 SHA256 및 flSeq를 대조했다.",
+      "roleEvidenceUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=952875",
+      "roleCheckedAt": "2026-10-19",
+      "bodyEvidenceArticle": "제2조",
+      "bodyEvidenceText": "제2조(지원신청서 등) ①조례 제15조제1항에 따른 농어업·농촌사업(이하 “사업”이라 한다) 지원신청서는 별지 제1호서식에 의한다.②제1항의 신청에 따른 사업계획서에는 다음 각 호의 사항이 포함되어야한다.1. 신청자의 영농규모와 재배현황 및 시설현황2. 신청자의 자산과 부채에 관한 사항3. 사업의 경영계획에 관한 사항4. 지원 받고자 하는 금액과 산출기초5. 사업에 소요되는 사업비의 충당 및 사용방법6. 사업에 소요되는 경영비 중 지원금 이외의 사업비 부담자의 성명, 부담금액 및 방법7. 사업으로 인하여 예상되는 소득금에 관한 사항8. 사업으로 인하여 얻어지는 파급효과 및 향후 계획③사업지원 신청서 및 사업계획서의 첨부서류, 제출기일 등 필요한 사항은 군수가 따로 정한다.",
+      "reviewedParts": [
+        {
+          "number": "별지 제1호",
+          "title": "농어업·농촌사업 지원신청서",
+          "use": "main",
+          "author": "과수영양제 구입비 지원 신청 농가·법인·단체"
+        }
+      ],
+      "condition": "과수영양제 구입비 지원사업명·재배현황·사업비를 기재한 별지1 및 사업계획서로 신청.기관결정통지서는 작성 대상 아님.",
+      "displayTitle": "농어업·농촌사업 지원신청서"
+    },
+    {
+      "sourceKind": "ordin",
+      "lawTitle": "서울특별시 용산구 전문가 무료상담실 설치 및 운영 조례",
+      "lawId": "958509",
+      "annexId": "14875211",
+      "annexNumber": "000100",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=124224709&flNm=%EB%B3%84%EC%A7%80+1~2",
+      "dateKind": "effective",
+      "effectiveDate": "2013-12-31",
+      "regionCode": "11170",
+      "regionLabel": "서울특별시 용산구",
+      "formId": "ordin-14875211",
+      "formTitle": "별지 1~2",
+      "sourceMetadataTitle": "별지 1~2",
+      "programIds": [
+        "g11170.gov24-302000000121"
+      ],
+      "programNames": [
+        "전문가 무료상담 서비스"
+      ],
+      "use": "conditional",
+      "checkedAt": "2026-10-19",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "evidenceUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=958509",
+      "evidenceNote": "용산 상담기록카드는 신청인의 인적사항·서명·상담할 내용 작성요령이 명시된 실제 이용자 부분과 상담관 의견란을 함께 담고 있다.방문상담을 원칙으로 하는 제7조·제10조 및 전문가무료상담 사업의 해당 대면상담 단계에 일치한다.예약 자체 및 기관 접수처리기록부 별지2와 구분한다. 실제 원본 전체 본문, 출처 법규ID에 연결된 별지, 원본 SHA256 및 flSeq를 대조했다.",
+      "sha256": "bb13e4980e41cde64d04d3bee4a5d58df0c478740bf7d4c252a51c343fbffb7e",
+      "bytes": 432128,
+      "originalFormat": "hwp",
+      "textScope": "all_body_sections_or_pages",
+      "originalTextScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "BodyText/Section0",
+        "BodyText/Section1"
+      ],
+      "fullBodyReviewed": true,
+      "role": "supporting",
+      "roleBasis": "용산 상담기록카드는 신청인의 인적사항·서명·상담할 내용 작성요령이 명시된 실제 이용자 부분과 상담관 의견란을 함께 담고 있다.방문상담을 원칙으로 하는 제7조·제10조 및 전문가무료상담 사업의 해당 대면상담 단계에 일치한다.예약 자체 및 기관 접수처리기록부 별지2와 구분한다. 실제 원본 전체 본문, 출처 법규ID에 연결된 별지, 원본 SHA256 및 flSeq를 대조했다.",
+      "roleEvidenceUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=958509",
+      "roleCheckedAt": "2026-10-19",
+      "bodyEvidenceArticle": "제7조 · 제10조",
+      "bodyEvidenceText": "제7조(상담방법) ① 상담은 상담실 방문상담을 원칙으로 하되, 전화ㆍ서면 또는 인터넷 온라인 상담 등도 병행할 수 있다.② 상담은 공휴일을 제외한 월요일부터 금요일까지로 하고, 상담시간과 요일은 상담책임관이 조정할수 있다.\n제10조(상담처리) ① 상담시 방문상담은 현장 답변을 원칙으로 한다. 다만, 현장 답변을 할수 없는 검토가 필요한 사항이나 관련부서와의 협의가 필요한 사항에 대하여는 서면 또는 전화로 회신할수 있다.② 상담에서 발견되는 중요한 행정상 참고사항은 상담책임관이 관련부서 및 기관에 통보하여 행정에 반영하게 할 수 있다.③ 상담책임관은 상담과정에 관계 공무원의 답변이나 관련자료가 필요하다고 인정될 때에는 관계공무원의 배석 또는 자료를 요청할 수 있으며, 요청받은 공무원은 특별한 사정이 없는 한 이에 응하여야 한다.④ 상담책임관은 상담결과 행정처분의 위법 또는 부당함이 확인된 때에는 관계 부서ㆍ기관에 서면으로 통보 및 시정을 권고할수 있으며, 시정을 요구받은 부서ㆍ기관장은 이에 협조하여야 한다.",
+      "reviewedParts": [
+        {
+          "number": "별지1 신청인 부분",
+          "title": "상담기록카드",
+          "use": "conditional",
+          "author": "전문가무료상담 이용자"
+        }
+      ],
+      "condition": "전화·온라인으로 상담을 예약한 뒤 방문상담 시 본인의 인적사항과 상담내용을 적는 별지1 신청인 부분에만 사용.상담관 의견·별지2 기관기록부는 작성 대상 아님.",
+      "displayTitle": "상담기록카드"
+    },
+    {
+      "sourceKind": "ordin",
+      "lawTitle": "장흥군 귀농어업인 지원 조례 시행규칙",
+      "lawId": "976286",
+      "annexId": "20679293",
+      "annexNumber": "000600",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=154825097&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C4%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EA%B7%80%EB%86%8D%EC%96%B4%EC%97%85%EC%9D%B8+%EB%86%8D%EC%96%B4%EC%97%85%EC%B0%BD%EC%97%85+%EC%82%AC%EC%97%85%EC%8B%A0%EC%B2%AD%EC%84%9C",
+      "dateKind": "effective",
+      "effectiveDate": "2010-04-19",
+      "regionCode": "12770",
+      "regionLabel": "전남광주통합특별시 장흥군",
+      "formId": "ordin-20679293",
+      "formTitle": "[별지 제4호서식] 귀농어업인 농어업창업 사업신청서",
+      "sourceMetadataTitle": "[별지 제4호서식] 귀농어업인 농어업창업 사업신청서",
+      "programIds": [
+        "g12770.gov24-491000000109"
+      ],
+      "programNames": [
+        "귀농어업인 창업 및 주택수리 지원"
+      ],
+      "use": "conditional",
+      "checkedAt": "2026-10-19",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "evidenceUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=976286",
+      "evidenceNote": "장흥 귀농어업인의 영농규모·교육·전입·창업사업내용·보조자부담 및 계획서 제출을 읽었다.제4조제3항 별지4와 통합 귀농어업 창업·주택수리 사업의 창업보조 항목에 일치한다. 실제 원본 전체 본문, 출처 법규ID에 연결된 별지, 원본 SHA256 및 flSeq를 대조했다.",
+      "sha256": "b4af5ce23e6efd2c9301646cde3507d2e9f2a5eb7725b7b5bb45dfa07cf2a373",
+      "bytes": 50688,
+      "originalFormat": "hwp",
+      "textScope": "all_body_sections_or_pages",
+      "originalTextScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "BodyText/Section0"
+      ],
+      "fullBodyReviewed": true,
+      "role": "application",
+      "roleBasis": "장흥 귀농어업인의 영농규모·교육·전입·창업사업내용·보조자부담 및 계획서 제출을 읽었다.제4조제3항 별지4와 통합 귀농어업 창업·주택수리 사업의 창업보조 항목에 일치한다. 실제 원본 전체 본문, 출처 법규ID에 연결된 별지, 원본 SHA256 및 flSeq를 대조했다.",
+      "roleEvidenceUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=976286",
+      "roleCheckedAt": "2026-10-19",
+      "bodyEvidenceArticle": "제4조",
+      "bodyEvidenceText": "제4조(사업의 지원)① 조례 제8조 제1항에서 규정한 구체적인 보조지원 사업은 다음과 같다.1. 경종분야 : 시설채소, 특용작물, 임산물, 화훼, 과원조성 등 식재 또는 재배에 필요한 농림식품가공 및 저장시설 설치 등 농림기반 시설 (단, 농지구입 및 시설부지 구입자금 제외)2. 축산분야 : 축사증축, 시설개보수 등 축산업 기반시설 (단, 시설부지 구입, 축사신축, 가축입식자금 제외)3. 수산분야 : 양식장, 양어장, 어선, 가공시설 등 수산업 기반시설 (단, 시설부지 구입자금 제외)② 사업비 지원금액은 최고 3천만원 한도로 하고, 가구당 보조율은 총사업비의 50%이내로 한다.③ 보조금을 지원받고자 하는 자는 별지 제4호서식의 신청서를 제출하여야 한다.④ 군수는 사업 신청서가 제출되면 사업주관 실과소장으로 하여금 별표 1 또는 별표 2의 사업계획의 타당성, 귀농어 정착의욕 등을 종합적으로 평가하여 위원회에 부의하고 위원회는 예산범위 안에서 지원자의 우선 순위를 결정하여야 한다.⑤ 읍면장과 사업주관 실과소장은 사업의 추진 , 준공 , 사후관리에 관한 책임을 진다.⑥ 이밖에 장흥군(이하“군”이라 한다)에서 시행하고 있는 각종 농림수산사업을 귀농어업인의 안정적인 정착을 위하여 우선하여 지원할 수 있다.",
+      "reviewedParts": [
+        {
+          "number": "별지 제4호",
+          "title": "[별지 제4호서식] 귀농어업인 농어업창업 사업신청서",
+          "use": "main",
+          "author": "귀농어업 창업지원 신청인"
+        }
+      ],
+      "condition": "통합지원 중 귀농어업 창업사업 보조를 신청할 때 사용.주택수리 신청은 별지7."
+    },
+    {
+      "sourceKind": "ordin",
+      "lawTitle": "장흥군 귀농어업인 지원 조례 시행규칙",
+      "lawId": "976286",
+      "annexId": "20679299",
+      "annexNumber": "000900",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=154825223&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C7%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EA%B7%80%EB%86%8D%EC%96%B4%EC%97%85%EC%9D%B8+%EB%86%8D%EA%B0%80%EC%A3%BC%ED%83%9D%EC%88%98%EB%A6%AC%EB%B9%84+%EC%A7%80%EC%9B%90%EC%82%AC%EC%97%85+%EC%8B%A0%EC%B2%AD%EC%84%9C",
+      "dateKind": "effective",
+      "effectiveDate": "2010-04-19",
+      "regionCode": "12770",
+      "regionLabel": "전남광주통합특별시 장흥군",
+      "formId": "ordin-20679299",
+      "formTitle": "[별지 제7호서식] 귀농어업인 농가주택수리비 지원사업 신청서",
+      "sourceMetadataTitle": "[별지 제7호서식] 귀농어업인 농가주택수리비 지원사업 신청서",
+      "programIds": [
+        "g12770.gov24-491000000109"
+      ],
+      "programNames": [
+        "귀농어업인 창업 및 주택수리 지원"
+      ],
+      "use": "conditional",
+      "checkedAt": "2026-10-19",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "evidenceUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=976286",
+      "evidenceNote": "장흥 귀농어업인의 농가주택 매매·임차·수리계획·사업비 및 증빙을 읽었다.제5조 별지7과500만원 한도 농가주택수리 지원항목에 일치한다. 실제 원본 전체 본문, 출처 법규ID에 연결된 별지, 원본 SHA256 및 flSeq를 대조했다.",
+      "sha256": "72fa0eed50b994d2d36b158441250bf088219c2811e002133b3bbe5704773cd1",
+      "bytes": 51712,
+      "originalFormat": "hwp",
+      "textScope": "all_body_sections_or_pages",
+      "originalTextScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "BodyText/Section0"
+      ],
+      "fullBodyReviewed": true,
+      "role": "application",
+      "roleBasis": "장흥 귀농어업인의 농가주택 매매·임차·수리계획·사업비 및 증빙을 읽었다.제5조 별지7과500만원 한도 농가주택수리 지원항목에 일치한다. 실제 원본 전체 본문, 출처 법규ID에 연결된 별지, 원본 SHA256 및 flSeq를 대조했다.",
+      "roleEvidenceUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=976286",
+      "roleCheckedAt": "2026-10-19",
+      "bodyEvidenceArticle": "제5조",
+      "bodyEvidenceText": "제5조(주거지원) 조례 제9조에 따른 주거지원은 농가주택(빈집) 수리비 지원으로 하며, 다음 각 호에 따라 예산의 범위 안에서 지원할 수 있다.1. 지원대상 : 귀 농어업인이 농가주택(빈집)을 구입하거나 5년이상 임차하여 별지 제7호서식의 신청서를 제출한 자2. 지 원 액 : 가구당 500만원 한도",
+      "reviewedParts": [
+        {
+          "number": "별지 제7호",
+          "title": "[별지 제7호서식] 귀농어업인 농가주택수리비 지원사업 신청서",
+          "use": "main",
+          "author": "농가주택 수리비 신청 귀농어업인"
+        }
+      ],
+      "condition": "귀농어업인 농가주택 수리비 보조를 신청할 때 사용.창업사업 신청과 구분."
+    },
+    {
+      "sourceKind": "ordin",
+      "lawTitle": "구리시 장애인 이동기기 수리 등에 관한 조례",
+      "lawId": "976785",
+      "annexId": "11128483",
+      "annexNumber": "000200",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=101432507&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C2%ED%98%B8%EC%84%9C%EC%8B%9D+%EC%9E%A5%EC%95%A0%EC%9D%B8+%ED%9C%A0%EC%B2%B4%EC%96%B4+%EB%93%B1+%EC%88%98%EB%A6%AC%EB%B9%84%EC%9A%A9+%EC%B2%AD%EA%B5%AC%EC%84%9C%5D",
+      "dateKind": "effective",
+      "effectiveDate": "2013-12-24",
+      "regionCode": "41310",
+      "regionLabel": "경기도 구리시",
+      "formId": "ordin-11128483",
+      "formTitle": "[별지 제2호서식 장애인 휠체어 등 수리비용 청구서]",
+      "sourceMetadataTitle": "[별지 제2호서식 장애인 휠체어 등 수리비용 청구서]",
+      "programIds": [
+        "g41310.gov24-398000000114"
+      ],
+      "programNames": [
+        "장애인 이동기기 수리비 지원"
+      ],
+      "use": "conditional",
+      "checkedAt": "2026-10-19",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "evidenceUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=976785",
+      "evidenceNote": "구리 수리센터의 업체·월별 수리건수·장애인별 기기·수리부위·금액 청구서를 전체 읽었다.제6조2·3항 업체월정산·지급과 사이트 benefit의 등록수리업체에 비용지급이 직접 일치한다.장애인의 최초 수리신청과 구분해 지정센터의 실제 지급청구만 승인한다. 실제 원본 전체 본문, 출처 법규ID에 연결된 별지, 원본 SHA256 및 flSeq를 대조했다.",
+      "sha256": "ef6bdd6149ead6b32c53b3e585848a9c89de0589f1e470eec6186337b74898d0",
+      "bytes": 15872,
+      "originalFormat": "hwp",
+      "textScope": "all_body_sections_or_pages",
+      "originalTextScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "BodyText/Section0"
+      ],
+      "fullBodyReviewed": true,
+      "role": "application",
+      "roleBasis": "구리 수리센터의 업체·월별 수리건수·장애인별 기기·수리부위·금액 청구서를 전체 읽었다.제6조2·3항 업체월정산·지급과 사이트 benefit의 등록수리업체에 비용지급이 직접 일치한다.장애인의 최초 수리신청과 구분해 지정센터의 실제 지급청구만 승인한다. 실제 원본 전체 본문, 출처 법규ID에 연결된 별지, 원본 SHA256 및 flSeq를 대조했다.",
+      "roleEvidenceUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=976785",
+      "roleCheckedAt": "2026-10-19",
+      "bodyEvidenceArticle": "제6조",
+      "bodyEvidenceText": "제6조(지원절차) ① 장애인 휠체어등을 수리 받고자 하는 자는 별지 제1호서식의 신청서에 다음 각 호의 어느 하나에 해당하는 증명서류를 첨부하여 지정 수리센터등에 신청하여야 한다.1. 수급자 또는 차상위계층 장애인: 수급자 증명서 등 증명서류2. 그 밖의 장애인 : 장애인 복지카드 등 증명서류② 지정 수리센터등에서는 제1항에 따른 신청서의 확인 결과 지원대상으로 인정되면 수리를 완료한 후 매달 1일부터 말일까지의 수리 내역을 별지 제2호서식의 청구서에 관련 증명서류를 첨부하여 다음 달 5일까지 시장에게 제출하여야 한다.③ 시장은 지정 수리센터등으로부터 제출받은 수리내역과 청구서를 확인한 후 다음 달 10일 이내 지정 수리센터등의 지정계좌에 청구된 금액을 입금하여야 한다.",
+      "reviewedParts": [
+        {
+          "number": "별지 제2호",
+          "title": "[별지 제2호서식 장애인 휠체어 등 수리비용 청구서]",
+          "use": "conditional",
+          "author": "해당 등록·지정 수리센터"
+        }
+      ],
+      "condition": "장애인의 이동기기 수리를 완료한 등록·지정 수리센터가 월별 수리내역과 증빙으로 비용을 청구할 때만 사용.장애인 최초신청은 별지1."
+    }
+  ],
+  "sourceReview": {
+    "file": "logs/forms-completion/reviews/team3-batch-069-reviewed.json",
+    "sha256": "6cdd4b85300caef4082708e993ba8c6f78b3d76594c96db9b1518ebf4f21fc05",
+    "dispositionsSHA256": "3b59d1a64e76a12670fc2cdb7b06b8f80e37dc79fe3c46f3f65a96fafb0d34da",
+    "assignmentSHA256": "e21bc29d4a71aece3e2591f0e0157f5f4d0d7b50c451fe5eac707d249c9861dc"
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "schema": 1,
+  "checkedAt": "2026-10-19",
+  "scope": "New current-law supplements only; separate from original1854 source-law audit. Source collection does not approve any programme match.",
+  "pendingLaws": 0,
+  "laws": {
+    "2153139": {
+      "checkedAt": "2026-10-19",
+      "state": "source_current",
+      "currentLawId": "2153139",
+      "currentLaw": {
+        "lawId": "2153139",
+        "stableLawId": "2266556",
+        "title": "남동구 참전유공자 예우 및 지원에 관한 조례",
+        "org": "인천광역시 남동구",
+        "effectiveDate": "20260723"
+      },
+      "candidates": [
+        {
+          "lawId": "2153139",
+          "stableLawId": "2266556",
+          "title": "남동구 참전유공자 예우 및 지원에 관한 조례",
+          "org": "인천광역시 남동구",
+          "effectiveDate": "20260723"
+        }
+      ],
+      "currentBodyArticleState": "available",
+      "articleCount": 9,
+      "currentBodyUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=2153139",
+      "bodySha256": "f1ffa51a20aebf489fb74ad9b6cf17ce68fb31b82b6fdd7d9ced45c5fe1d4ba0",
+      "currentSearchSha256": "c198ef6dcd531535f2d37856302fc6d807b1b23027ebc25349aaa3472ca55591",
+      "forms": {
+        "ordin-22713587": {
+          "binding": "bound",
+          "bindingReason": "OFFICIAL_ANNEX_BOUND_WITH_SAME_FILE",
+          "officialAnnexId": "22713587",
+          "officialAnnexNumber": "1",
+          "officialAnnexTitle": "[별지 제1호서식]",
+          "officialFlSeq": "169690643",
+          "officialAnnexUrl": "https://www.law.go.kr/flDownload.do?gubun=ELIS&flSeq=169690643&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C1%ED%98%B8%EC%84%9C%EC%8B%9D%5D",
+          "officialAnnexDeleted": false
+        },
+        "ordin-22713589": {
+          "binding": "bound",
+          "bindingReason": "OFFICIAL_ANNEX_BOUND_WITH_SAME_FILE",
+          "officialAnnexId": "22713589",
+          "officialAnnexNumber": "2",
+          "officialAnnexTitle": "[별지 제2호서식]",
+          "officialFlSeq": "169690645",
+          "officialAnnexUrl": "https://www.law.go.kr/flDownload.do?gubun=ELIS&flSeq=169690645&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C2%ED%98%B8%EC%84%9C%EC%8B%9D%5D",
+          "officialAnnexDeleted": false
+        },
+        "ordin-22713591": {
+          "binding": "bound",
+          "bindingReason": "OFFICIAL_ANNEX_BOUND_WITH_SAME_FILE",
+          "officialAnnexId": "22713591",
+          "officialAnnexNumber": "3",
+          "officialAnnexTitle": "[별지 제3호서식]",
+          "officialFlSeq": "169690647",
+          "officialAnnexUrl": "https://www.law.go.kr/flDownload.do?gubun=ELIS&flSeq=169690647&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C3%ED%98%B8%EC%84%9C%EC%8B%9D%5D",
+          "officialAnnexDeleted": false
+        },
+        "ordin-22713593": {
+          "binding": "bound",
+          "bindingReason": "OFFICIAL_ANNEX_BOUND_WITH_SAME_FILE",
+          "officialAnnexId": "22713593",
+          "officialAnnexNumber": "4",
+          "officialAnnexTitle": "[별지 제4호서식]",
+          "officialFlSeq": "169690649",
+          "officialAnnexUrl": "https://www.law.go.kr/flDownload.do?gubun=ELIS&flSeq=169690649&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C4%ED%98%B8%EC%84%9C%EC%8B%9D%5D",
+          "officialAnnexDeleted": false
+        }
+      }
+    }
+  }
+}

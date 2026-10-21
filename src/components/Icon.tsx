@@ -1,5 +1,11 @@
 /** 선 아이콘 (lucide 계열 24px 스트로크, 장식용이면 aria-hidden) */
 const PATHS = {
+  mic: (
+    <>
+      <rect x="9" y="2" width="6" height="12" rx="3" />
+      <path d="M5 10v2a7 7 0 0 0 14 0v-2M12 19v3M8 22h8" />
+    </>
+  ),
   chevronRight: <path d="m9 18 6-6-6-6" />,
   chevronDown: <path d="m6 9 6 6 6-6" />,
   arrowLeft: (

@@ -1,0 +1,2530 @@
+{
+  "schema": 1,
+  "checkedAt": "2026-10-16T13:15:49.098771+00:00",
+  "summary": {
+    "forms": 27,
+    "downloadUrls": 38,
+    "downloadPassed": 38,
+    "httpStatuses": {
+      "200": 38
+    },
+    "formats": {
+      "hwp": 21,
+      "pdf": 11,
+      "hwpx": 6
+    },
+    "programLinks": 36,
+    "uniquePrograms": 29,
+    "missingProgramIds": [],
+    "jurisdictionMismatches": [],
+    "metadataRowsReviewed": 27,
+    "majorTitleAnnexRegionMismatches": 0,
+    "conditionalRows": 3,
+    "conditionalRowsPassed": 3,
+    "municipalOfficialAttachmentIdsMatched": 15,
+    "officialPdfPages": 27,
+    "blockingIssues": 0,
+    "informationalSourceNotes": 5,
+    "hwpXFormIds": [
+      "rule-3260263",
+      "rule-3265529",
+      "rule-3265541",
+      "ordin-18834939",
+      "ordin-22409393",
+      "ordin-22297979"
+    ]
+  },
+  "scope": "Public anonymous downloads, file signatures, extracted form content and target program metadata only. No eligibility determination.",
+  "rows": [
+    {
+      "formId": "law-17621759",
+      "inputFile": "national-reviewed-round2.json",
+      "metadata": {
+        "sourceKind": "law",
+        "lawTitle": "재난적의료비 지원에 관한 법률 시행규칙",
+        "lawId": "273903",
+        "annexId": "17621759",
+        "annexNumber": "000100",
+        "formTitle": "재난적의료비 지급신청서(기초생활 수급자, 차상위계층, 그 외 지원대상자)",
+        "regionCode": null,
+        "regionLabel": null,
+        "use": "main",
+        "condition": null,
+        "evidenceUrl": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=273903&efYd=20250919",
+        "evidenceNote": "현행 재난적의료비 지원에 관한 법률 시행규칙 제2조제2항이 별지 제1호 재난적의료비 지급신청서를 지정한다. 별지 원문은 법 제10조에 따른 지급신청이며, 프로그램 상세도 동일 신청서와 진료·보험 관련 구비서류를 안내한다. 의료기관 직접지급 확인서나 기관용 청구서와 구분했다."
+      },
+      "downloads": [
+        {
+          "formId": "law-17621759",
+          "urlKind": "sourceUrl",
+          "requestedUrl": "https://www.law.go.kr/LSW/flDownload.do?flSeq=156417061",
+          "httpStatus": 200,
+          "bytes": 68608,
+          "sha256": "208df020bd35d4d72dfcce37d5f4035e69ee9c31b544f267ebe67a447d2c5481",
+          "mime": "application/hwp;;charset=UTF-8",
+          "detectedFormat": "hwp",
+          "validContainer": true,
+          "empty": false,
+          "htmlError": false,
+          "finalUrl": "https://www.law.go.kr/LSW/flDownload.do?flSeq=156417061",
+          "contentDisposition": "attachment; filename=\"%5B%EB%B3%84%EC%A7%80%20%EC%A0%9C1%ED%98%B8%EC%84%9C%EC%8B%9D%5D%20%EC%9E%AC%EB%82%9C%EC%A0%81%EC%9D%98%EB%A3%8C%EB%B9%84%20%EC%A7%80%EA%B8%89%EC%8B%A0%EC%B2%AD%EC%84%9C%28%EA%B8%B0%EC%B4%88%EC%83%9D%ED%99%9C%20%EC%88%98%EA%B8%89%EC%9E%90%C2%B8%20%EC%B0%A8%EC%83%81%EC%9C%84%EA%B3%84%EC%B8%B5%C2%B8%20%EA%B7%B8%20%EC%99%B8%20%EC%A7%80%EC%9B%90%EB%8C%80%EC%83%81%EC%9E%90%29%28%EC%9E%AC%EB%82%9C%EC%A0%81%EC%9D%98%EB%A3%8C%EB%B9%84%20%EC%A7%80%EC%9B%90%EC%97%90%20%EA%B4%80%ED%95%9C%20%EB%B2%95%EB%A5%A0%20%EC%8B%9C%ED%96%89%EA%B7%9C%EC%B9%99%29.hwp\"",
+          "contentLength": null,
+          "signatureHex": "d0cf11e0a1b11ae10000000000000000",
+          "textMethod": "HWP BodyText paragraph records with 8-unit inline/extended controls excluded",
+          "textLength": 3403,
+          "textTruncated": false,
+          "passed": true
+        },
+        {
+          "formId": "law-17621759",
+          "urlKind": "officialPdfUrl",
+          "requestedUrl": "https://www.law.go.kr/LSW/flDownload.do?flSeq=156417063",
+          "httpStatus": 200,
+          "bytes": 80524,
+          "sha256": "06d27f0a22ac0afbe108462c3a12f6864e91a98c5f299fbdc761b164c25761e9",
+          "mime": "application/pdf;;charset=UTF-8",
+          "detectedFormat": "pdf",
+          "validContainer": true,
+          "empty": false,
+          "htmlError": false,
+          "finalUrl": "https://www.law.go.kr/LSW/flDownload.do?flSeq=156417063",
+          "contentDisposition": "attachment; filename=\"%5B%EB%B3%84%EC%A7%80%20%EC%A0%9C1%ED%98%B8%EC%84%9C%EC%8B%9D%5D%20%EC%9E%AC%EB%82%9C%EC%A0%81%EC%9D%98%EB%A3%8C%EB%B9%84%20%EC%A7%80%EA%B8%89%EC%8B%A0%EC%B2%AD%EC%84%9C%28%EA%B8%B0%EC%B4%88%EC%83%9D%ED%99%9C%20%EC%88%98%EA%B8%89%EC%9E%90%C2%B8%20%EC%B0%A8%EC%83%81%EC%9C%84%EA%B3%84%EC%B8%B5%C2%B8%20%EA%B7%B8%20%EC%99%B8%20%EC%A7%80%EC%9B%90%EB%8C%80%EC%83%81%EC%9E%90%29%28%EC%9E%AC%EB%82%9C%EC%A0%81%EC%9D%98%EB%A3%8C%EB%B9%84%20%EC%A7%80%EC%9B%90%EC%97%90%20%EA%B4%80%ED%95%9C%20%EB%B2%95%EB%A5%A0%20%EC%8B%9C%ED%96%89%EA%B7%9C%EC%B9%99%29.pdf\"",
+          "contentLength": null,
+          "signatureHex": "255044462d312e340a25aaabacad0a31",
+          "pages": 2,
+          "textMethod": "PyMuPDF page text extraction",
+          "textLength": 3289,
+          "textTruncated": false,
+          "passed": true
+        }
+      ],
+      "programChecks": [
+        {
+          "id": "n.gov24-SD0000008743",
+          "exists": true,
+          "jurisdictionMatches": true,
+          "name": "재난적 의료비 지원 사업",
+          "scope": "national",
+          "region": null,
+          "applyType": "self",
+          "applyMethod": "방문(퇴원 후 180일 이내 신청)",
+          "documents": "재난적의료비 지급신청서(신분증 첨부), 개인정보 수집/이용 및 제공/조회 동의서, 가족관계증명서, 민간보험 가입서류, 입퇴원 확인서 등\n본인 확인 필요: 해당없음\n담당 공무원이 확인: 해당없음",
+          "laws": [
+            "재난적의료비 지원에 관한 법률",
+            "재난적의료비 지원에 관한 법률 시행령(제0조의0, 제0항)",
+            "재난적의료비 지원에 관한 법률 시행규칙(제0조의0, 제0항)"
+          ]
+        }
+      ],
+      "linkStructureIssues": [],
+      "manualReviewStatus": "passed",
+      "printedAnnexLabel": "[별지 제1호서식]",
+      "majorTitleAnnexRegionMismatch": false,
+      "linkUseReview": {
+        "passed": true,
+        "note": "원본의 신청 목적·제목·조례 또는 법령 인용이 대상 사업의 명칭·documents·신청 경로와 부합한다. main/추가/조건부 구분에서 확인된 충돌 없음."
+      },
+      "metadataTextCheck": {
+        "scope": "national",
+        "sourceHeading": "■ 재난적의료비 지원에 관한 법률 시행규칙 [별지 제1호서식] <개정 2024. 7. 30.> 재난적의료비 지급신청서 [ ] 기초생활 수급자 [ ] 차상위계층 [ ] 그 외 지원대상자 ※ [ ]에는 해당되는 곳에 √ 표시를 하고, 해당 내용을 기재하시기 바랍니다. (앞쪽) 접수번호 접수일 처리기간 30일(연장 시 60일) 환자 성명 주민등록번호 (외국인등록번호) - 주소 전화번호 또는 휴대전화번호 의료기관명 질병·부상명 질병분류기호 입원기간 진료 구분 [ ] 입원 [ ] 외래 [ ] 약국 대리인 성명 생년월일 전화번호 또는 휴대전화번호 유형 [ ] 가족 [ ] 친족 [ ] 이해관계인(환자와의 관계: ) [ ] 의료기관 사회복지사 [ ] 사회복지전담공무원 지급 계좌 환자와의 관계 예금주 성명 금융기관명 계좌번",
+        "officialPdfHeaderMatches": true,
+        "note": "원본과 공식 PDF의 서식명·별지번호·신청/확인 목적을 대조했으며 서로 다른 급여/관할 서식으로 볼 현저한 차이를 발견하지 못함."
+      }
+    },
+    {
+      "formId": "law-18552403",
+      "inputFile": "national-reviewed-round2.json",
+      "metadata": {
+        "sourceKind": "law",
+        "lawTitle": "구직자 취업촉진 및 생활안정지원에 관한 법률 시행규칙",
+        "lawId": "291203",
+        "annexId": "18552403",
+        "annexNumber": "000100",
+        "formTitle": "취업지원 신청서",
+        "regionCode": null,
+        "regionLabel": null,
+        "use": "main",
+        "condition": null,
+        "evidenceUrl": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=291203&efYd=20261014",
+        "evidenceNote": "2026.10.14. 시행 규칙 제4조제2항은 취업지원 신청을 별지 제1호로 정한다. 원문에는 취업지원서비스 및 구직촉진수당 수급자격 인정 신청과 가구원 개인정보·고유식별정보 제공 동의가 함께 포함되어 있다. 프로그램 상세의 필수 취업지원신청서 및 동의서와 일치한다. 이후 회차별 구직촉진수당 지급신청서(별지 제11호)를 최초 참여신청으로 대체하지 않았다."
+      },
+      "downloads": [
+        {
+          "formId": "law-18552403",
+          "urlKind": "sourceUrl",
+          "requestedUrl": "https://www.law.go.kr/LSW/flDownload.do?flSeq=170472949",
+          "httpStatus": 200,
+          "bytes": 98816,
+          "sha256": "272f240e87040dc9054a68f9243018688e97ac82ef0dd0614618129d068aa5a3",
+          "mime": "application/hwp;;charset=UTF-8",
+          "detectedFormat": "hwp",
+          "validContainer": true,
+          "empty": false,
+          "htmlError": false,
+          "finalUrl": "https://www.law.go.kr/LSW/flDownload.do?flSeq=170472949",
+          "contentDisposition": "attachment; filename=\"%5B%EB%B3%84%EC%A7%80%20%EC%A0%9C1%ED%98%B8%EC%84%9C%EC%8B%9D%5D%20%EC%B7%A8%EC%97%85%EC%A7%80%EC%9B%90%20%EC%8B%A0%EC%B2%AD%EC%84%9C%28%EA%B5%AC%EC%A7%81%EC%9E%90%20%EC%B7%A8%EC%97%85%EC%B4%89%EC%A7%84%20%EB%B0%8F%20%EC%83%9D%ED%99%9C%EC%95%88%EC%A0%95%EC%A7%80%EC%9B%90%EC%97%90%20%EA%B4%80%ED%95%9C%20%EB%B2%95%EB%A5%A0%20%EC%8B%9C%ED%96%89%EA%B7%9C%EC%B9%99%29.hwp\"",
+          "contentLength": null,
+          "signatureHex": "d0cf11e0a1b11ae10000000000000000",
+          "textMethod": "HWP BodyText paragraph records with 8-unit inline/extended controls excluded",
+          "textLength": 9100,
+          "textTruncated": false,
+          "passed": true
+        },
+        {
+          "formId": "law-18552403",
+          "urlKind": "officialPdfUrl",
+          "requestedUrl": "https://www.law.go.kr/LSW/flDownload.do?flSeq=170472951",
+          "httpStatus": 200,
+          "bytes": 132689,
+          "sha256": "2bd8bef6c96f936bbd19900c6c1ebee465e35ae106139c690d9b0ad764ad0160",
+          "mime": "application/pdf;;charset=UTF-8",
+          "detectedFormat": "pdf",
+          "validContainer": true,
+          "empty": false,
+          "htmlError": false,
+          "finalUrl": "https://www.law.go.kr/LSW/flDownload.do?flSeq=170472951",
+          "contentDisposition": "attachment; filename=\"%5B%EB%B3%84%EC%A7%80%20%EC%A0%9C1%ED%98%B8%EC%84%9C%EC%8B%9D%5D%20%EC%B7%A8%EC%97%85%EC%A7%80%EC%9B%90%20%EC%8B%A0%EC%B2%AD%EC%84%9C%28%EA%B5%AC%EC%A7%81%EC%9E%90%20%EC%B7%A8%EC%97%85%EC%B4%89%EC%A7%84%20%EB%B0%8F%20%EC%83%9D%ED%99%9C%EC%95%88%EC%A0%95%EC%A7%80%EC%9B%90%EC%97%90%20%EA%B4%80%ED%95%9C%20%EB%B2%95%EB%A5%A0%20%EC%8B%9C%ED%96%89%EA%B7%9C%EC%B9%99%29.pdf\"",
+          "contentLength": null,
+          "signatureHex": "255044462d312e340a25aaabacad0a31",
+          "pages": 4,
+          "textMethod": "PyMuPDF page text extraction",
+          "textLength": 8931,
+          "textTruncated": false,
+          "passed": true
+        }
+      ],
+      "programChecks": [
+        {
+          "id": "n.gov24-149200005007",
+          "exists": true,
+          "jurisdictionMatches": true,
+          "name": "국민취업지원제도",
+          "scope": "national",
+          "region": null,
+          "applyType": "self",
+          "applyMethod": "참여를 희망하는 본인이 직접 거주지 관할 고용센터에 방문하거나 온라인(www.work24.go.kr)을 통해 신청",
+          "documents": "(필수) 취업지원신청서 및 지원자격 확인을 위한 개인정보 수집, 이용 및 제공 동의서\n(필요시 추가서류)\n- 가구단위 증빙서류: 가족관계증명원, 이혼소송확인서, 실종신고서 등\n- 특정취약계층 증빙서류: 관련 추천서, 확인서 등\n- 전산망으로 확인불가 또는 전산망에 실시간 연계되지 않은 소득, 재산, 취업경험 관련정보: 사업주 확인자료 등 관련 증빙자료\n본인 확인 필요: 해당없음\n담당 공무원이 확인: 해당없음",
+          "laws": [
+            "구직자 취업촉진 및 생활안정지원에 관한 법률",
+            "구직자 취업촉진 및 생활안정지원에 관한 법률 시행령",
+            "구직자 취업촉진 및 생활안정지원에 관한 법률 시행규칙"
+          ]
+        }
+      ],
+      "linkStructureIssues": [],
+      "manualReviewStatus": "passed",
+      "printedAnnexLabel": "[별지 제1호서식]",
+      "majorTitleAnnexRegionMismatch": false,
+      "linkUseReview": {
+        "passed": true,
+        "note": "원본의 신청 목적·제목·조례 또는 법령 인용이 대상 사업의 명칭·documents·신청 경로와 부합한다. main/추가/조건부 구분에서 확인된 충돌 없음."
+      },
+      "metadataTextCheck": {
+        "scope": "national",
+        "sourceHeading": "■ 구직자 취업촉진 및 생활안정지원에 관한 법률 시행규칙 [별지 제1호서식] <개정 2026. 10. 14.> 취업지원 신청서 ※ 제4쪽의 유의사항 및 작성방법을 읽고 작성하시기 바라며, 색상이 어두운 난은 신청인이 적지 않습니다. ※ [ ]에는 해당되는 곳에 “√” 표시를 합니다. (4쪽 중 1쪽) 접수번호 접수일시 처리기간 1개월 ①신청인 성명 주민등록번호(외국인등록번호) 주소 전화번호(휴대전화) 전자우편주소 ②동의자 (신청인의 가구원) 성명 주민등록번호 (외국인등록번호) 신청인과의 관계 휴대전화 번호 가구원 포함ㆍ 제외사유(필요시) [ ] 안내 문자 수신 동의 [ ] 안내 문자 수신 동의 [ ] 안내 문자 수신 동의 [ ] 안내 문자 수신 동의 [ ] 안내 문자 수신 동의 ※ “동의자(신청인의 가구원)",
+        "officialPdfHeaderMatches": true,
+        "note": "원본과 공식 PDF의 서식명·별지번호·신청/확인 목적을 대조했으며 서로 다른 급여/관할 서식으로 볼 현저한 차이를 발견하지 못함."
+      }
+    },
+    {
+      "formId": "law-18479307",
+      "inputFile": "national-reviewed-round2.json",
+      "metadata": {
+        "sourceKind": "law",
+        "lawTitle": "고용보험법 시행규칙",
+        "lawId": "288723",
+        "annexId": "18479307",
+        "annexNumber": "007500",
+        "formTitle": "수급자격 인정(국민연금 가입기간 추가 산입)신청서",
+        "regionCode": null,
+        "regionLabel": null,
+        "use": "main",
+        "condition": null,
+        "evidenceUrl": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=288723&efYd=20260918",
+        "evidenceNote": "현행 고용보험법 시행규칙 제82조제2항은 시행령 제61조의 수급자격 인정신청서를 별지 제75호로 정한다. 공식 PDF의 구직급여 신청 대상 및 수급자격 인정 문구를 확인했고 상세 documents의 수급자격 인정 신청서와 대조했다. 국민연금 가입기간 추가 산입은 같은 서식의 별도 선택 항목이며 구직급여 신청의 필수 동의로 취급하지 않는다."
+      },
+      "downloads": [
+        {
+          "formId": "law-18479307",
+          "urlKind": "sourceUrl",
+          "requestedUrl": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169482645",
+          "httpStatus": 200,
+          "bytes": 108544,
+          "sha256": "10bdd4f93f69ef78182d7a3f71c12073aee28eb0c16a0b7d394267c70f9dd67c",
+          "mime": "application/hwp;;charset=UTF-8",
+          "detectedFormat": "hwp",
+          "validContainer": true,
+          "empty": false,
+          "htmlError": false,
+          "finalUrl": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169482645",
+          "contentDisposition": "attachment; filename=\"%5B%EB%B3%84%EC%A7%80%20%EC%A0%9C75%ED%98%B8%EC%84%9C%EC%8B%9D%5D%20%EC%88%98%EA%B8%89%EC%9E%90%EA%B2%A9%20%EC%9D%B8%EC%A0%95%28%EA%B5%AD%EB%AF%BC%EC%97%B0%EA%B8%88%20%EA%B0%80%EC%9E%85%EA%B8%B0%EA%B0%84%20%EC%B6%94%EA%B0%80%20%EC%82%B0%EC%9E%85%29%EC%8B%A0%EC%B2%AD%EC%84%9C%28%EA%B3%A0%EC%9A%A9%EB%B3%B4%ED%97%98%EB%B2%95%20%EC%8B%9C%ED%96%89%EA%B7%9C%EC%B9%99%29.hwp\"",
+          "contentLength": null,
+          "signatureHex": "d0cf11e0a1b11ae10000000000000000",
+          "textMethod": "HWP BodyText paragraph records with 8-unit inline/extended controls excluded",
+          "textLength": 4733,
+          "textTruncated": false,
+          "passed": true
+        },
+        {
+          "formId": "law-18479307",
+          "urlKind": "officialPdfUrl",
+          "requestedUrl": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169482647",
+          "httpStatus": 200,
+          "bytes": 161366,
+          "sha256": "062116632dd4010542c7a06f41afcfcd484c1cb49a9e3bc8bd8a7384f26aa5fa",
+          "mime": "application/pdf;;charset=UTF-8",
+          "detectedFormat": "pdf",
+          "validContainer": true,
+          "empty": false,
+          "htmlError": false,
+          "finalUrl": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169482647",
+          "contentDisposition": "attachment; filename=\"%5B%EB%B3%84%EC%A7%80%20%EC%A0%9C75%ED%98%B8%EC%84%9C%EC%8B%9D%5D%20%EC%88%98%EA%B8%89%EC%9E%90%EA%B2%A9%20%EC%9D%B8%EC%A0%95%28%EA%B5%AD%EB%AF%BC%EC%97%B0%EA%B8%88%20%EA%B0%80%EC%9E%85%EA%B8%B0%EA%B0%84%20%EC%B6%94%EA%B0%80%20%EC%82%B0%EC%9E%85%29%EC%8B%A0%EC%B2%AD%EC%84%9C%28%EA%B3%A0%EC%9A%A9%EB%B3%B4%ED%97%98%EB%B2%95%20%EC%8B%9C%ED%96%89%EA%B7%9C%EC%B9%99%29.pdf\"",
+          "contentLength": null,
+          "signatureHex": "255044462d312e340a25aaabacad0a31",
+          "pages": 3,
+          "textMethod": "PyMuPDF page text extraction",
+          "textLength": 4584,
+          "textTruncated": false,
+          "passed": true
+        }
+      ],
+      "programChecks": [
+        {
+          "id": "n.gov24-SD0000015536",
+          "exists": true,
+          "jurisdictionMatches": true,
+          "name": "구직급여",
+          "scope": "national",
+          "region": null,
+          "applyType": "self",
+          "applyMethod": "○ 수급자격 인정 신청서는 방문하여 신청, 이후 실업인정 신청서는 인터넷 등으로 제출 가능",
+          "documents": "구직신청서, 수급자격 인정 신청서\n본인 확인 필요: 해당없음\n담당 공무원이 확인: 해당없음",
+          "laws": [
+            "고용보험법(제40조의0, 제0항)"
+          ]
+        }
+      ],
+      "linkStructureIssues": [],
+      "manualReviewStatus": "passed",
+      "printedAnnexLabel": "[별지 제75호서식]",
+      "majorTitleAnnexRegionMismatch": false,
+      "linkUseReview": {
+        "passed": true,
+        "note": "원본의 신청 목적·제목·조례 또는 법령 인용이 대상 사업의 명칭·documents·신청 경로와 부합한다. main/추가/조건부 구분에서 확인된 충돌 없음."
+      },
+      "metadataTextCheck": {
+        "scope": "national",
+        "sourceHeading": "■ 고용보험법 시행규칙 [별지 제75호서식] <개정 2025. 7. 1.> 수급자격 인정(국민연금 가입기간 추가 산입)신청서 ※ 1쪽 및 2쪽을 모두 작성하기 바라며, [ ]에는 해당되는 곳에 “√”표시를 합니다. (3쪽 중 1쪽) 접수번호 접수일시 처리기간 14일(5일) 신청인 (이직자) ① 성명 ② 주민등록번호 ③ 주소 (전화번호: ) 전자우편 주소: (휴대전화번호: ) 최종 이직 사업장 ④ 사업장명 ⑤ 소재지 ⑥ 자격취득일(입사일) 년 월 일 ⑦ 이직일(마지막 일한 날) 년 월 일 ⑧ 구체적 이직 사유 구직급여 신청 대상 피보험자격 * 둘 이상의 피보험자격을 취득하였다가 이직한 사람만 작성 [ ]상용근로자 [ ]예술인 [ ]노무제공자 [ ]일용근로자 [ ]단기예술인 [ ]단기노무제공자 ⑨ 현재 취직 중",
+        "officialPdfHeaderMatches": true,
+        "note": "원본과 공식 PDF의 서식명·별지번호·신청/확인 목적을 대조했으며 서로 다른 급여/관할 서식으로 볼 현저한 차이를 발견하지 못함."
+      }
+    },
+    {
+      "formId": "law-17832001",
+      "inputFile": "national-reviewed-round2.json",
+      "metadata": {
+        "sourceKind": "law",
+        "lawTitle": "노인장기요양보험법 시행규칙",
+        "lawId": "280315",
+        "annexId": "17832001",
+        "annexNumber": "001700",
+        "formTitle": "가족요양비 지급 신청서",
+        "regionCode": null,
+        "regionLabel": null,
+        "use": "main",
+        "condition": null,
+        "evidenceUrl": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=280315&efYd=20251212",
+        "evidenceNote": "현행 노인장기요양보험법 시행규칙 제20조제1항·제2항은 가족요양비 최초 지급 또는 가족요양비로 급여종류 변경 시 별지 제17호를 제출하도록 정한다. 별지에는 가족요양비 신청 사유·요양제공자·수급자 계좌가 있고 프로그램 상세의 가족요양비 지급 신청서와 일치한다. 일반 장기요양인정 신청이나 요양보호사 가족요양 서비스와 구분했다."
+      },
+      "downloads": [
+        {
+          "formId": "law-17832001",
+          "urlKind": "sourceUrl",
+          "requestedUrl": "https://www.law.go.kr/LSW/flDownload.do?flSeq=159226005",
+          "httpStatus": 200,
+          "bytes": 24064,
+          "sha256": "26e8993733d038854e085aec2fcbc0fcc92db23efff766808d5e93b4619cf80f",
+          "mime": "application/hwp;;charset=UTF-8",
+          "detectedFormat": "hwp",
+          "validContainer": true,
+          "empty": false,
+          "htmlError": false,
+          "finalUrl": "https://www.law.go.kr/LSW/flDownload.do?flSeq=159226005",
+          "contentDisposition": "attachment; filename=\"%5B%EB%B3%84%EC%A7%80%20%EC%A0%9C17%ED%98%B8%EC%84%9C%EC%8B%9D%5D%20%EA%B0%80%EC%A1%B1%EC%9A%94%EC%96%91%EB%B9%84%20%EC%A7%80%EA%B8%89%20%EC%8B%A0%EC%B2%AD%EC%84%9C%28%EB%85%B8%EC%9D%B8%EC%9E%A5%EA%B8%B0%EC%9A%94%EC%96%91%EB%B3%B4%ED%97%98%EB%B2%95%20%EC%8B%9C%ED%96%89%EA%B7%9C%EC%B9%99%29.hwp\"",
+          "contentLength": null,
+          "signatureHex": "d0cf11e0a1b11ae10000000000000000",
+          "textMethod": "HWP BodyText paragraph records with 8-unit inline/extended controls excluded",
+          "textLength": 3556,
+          "textTruncated": false,
+          "passed": true
+        },
+        {
+          "formId": "law-17832001",
+          "urlKind": "officialPdfUrl",
+          "requestedUrl": "https://www.law.go.kr/LSW/flDownload.do?flSeq=159226007",
+          "httpStatus": 200,
+          "bytes": 110835,
+          "sha256": "3997510a5283f57fbe7f291b45b88b98afc0e7587749d2201842be8fd4d16e28",
+          "mime": "application/pdf;;charset=UTF-8",
+          "detectedFormat": "pdf",
+          "validContainer": true,
+          "empty": false,
+          "htmlError": false,
+          "finalUrl": "https://www.law.go.kr/LSW/flDownload.do?flSeq=159226007",
+          "contentDisposition": "attachment; filename=\"%5B%EB%B3%84%EC%A7%80%20%EC%A0%9C17%ED%98%B8%EC%84%9C%EC%8B%9D%5D%20%EA%B0%80%EC%A1%B1%EC%9A%94%EC%96%91%EB%B9%84%20%EC%A7%80%EA%B8%89%20%EC%8B%A0%EC%B2%AD%EC%84%9C%28%EB%85%B8%EC%9D%B8%EC%9E%A5%EA%B8%B0%EC%9A%94%EC%96%91%EB%B3%B4%ED%97%98%EB%B2%95%20%EC%8B%9C%ED%96%89%EA%B7%9C%EC%B9%99%29.pdf\"",
+          "contentLength": null,
+          "signatureHex": "255044462d312e340a25aaabacad0a31",
+          "pages": 3,
+          "textMethod": "PyMuPDF page text extraction",
+          "textLength": 3444,
+          "textTruncated": false,
+          "passed": true
+        }
+      ],
+      "programChecks": [
+        {
+          "id": "n.gov24-999000000048",
+          "exists": true,
+          "jurisdictionMatches": true,
+          "name": "특별현금급여 (가족요양비)",
+          "scope": "national",
+          "region": null,
+          "applyType": "self",
+          "applyMethod": "○ 가족요양비를 지급받으려는 자는 노인장기요양보험법 시행규칙 제20조 별지 제17호 서식의 가족요양비 지급 신청서와 가족요양비 지급 대상임을 증명하는 서류를 국민건강보험공단에 제출하여야 함",
+          "documents": "○ 신청인 제출서류\n- 가족요양비 지급 신청서, 진단서, 장애인 등록증 등\n본인 확인 필요: 해당없음\n담당 공무원이 확인: 해당없음",
+          "laws": [
+            "노인장기요양보험법(제24조의1, 제0항)"
+          ]
+        }
+      ],
+      "linkStructureIssues": [],
+      "manualReviewStatus": "passed",
+      "printedAnnexLabel": "[별지 제17호서식]",
+      "majorTitleAnnexRegionMismatch": false,
+      "linkUseReview": {
+        "passed": true,
+        "note": "원본의 신청 목적·제목·조례 또는 법령 인용이 대상 사업의 명칭·documents·신청 경로와 부합한다. main/추가/조건부 구분에서 확인된 충돌 없음."
+      },
+      "metadataTextCheck": {
+        "scope": "national",
+        "sourceHeading": "■ 노인장기요양보험법 시행규칙 [별지 제17호서식] <개정 2021. 1. 18.> 가족요양비 지급 신청서 ※ 3쪽의 작성방법 및 유의사항을 읽고 작성하시고, [ ]에는 해당되는 곳에 √표를 합니다. (3쪽 중 1쪽) 접수번호 접수일시 처리기간 30일 ① 신청인 (본인) 성명 장기요양인정번호 주소(실제 거주지) 전화번호(또는 휴대전화번호) ② 대리인 성명 주민등록번호 주소 전화번호(또는 휴대전화번호) 유형 [ ] 1. 가족ㆍ친족ㆍ이해관계인(신청인과의 관계: ) [ ] 2. 사회복지전담공무원 [ ] 3. 치매안심센터의 장(신청인이 치매환자인 경우로 한정합니다) [ ] 4. 특별자치시장ㆍ특별자치도지사ㆍ시장ㆍ군수ㆍ구청장이 지정한 사람 ③ 보호자 ※ 대리인과 보호자가 동일한 경우에는 적지 않습니다. 성명 신청인과의",
+        "officialPdfHeaderMatches": true,
+        "note": "원본과 공식 PDF의 서식명·별지번호·신청/확인 목적을 대조했으며 서로 다른 급여/관할 서식으로 볼 현저한 차이를 발견하지 못함."
+      }
+    },
+    {
+      "formId": "law-18479369",
+      "inputFile": "national-reviewed-round2.json",
+      "metadata": {
+        "sourceKind": "law",
+        "lawTitle": "고용보험법 시행규칙",
+        "lawId": "288723",
+        "annexId": "18479369",
+        "annexNumber": "010000",
+        "formTitle": "(육아휴직 급여, 육아기 근로시간 단축 급여)신청서",
+        "regionCode": null,
+        "regionLabel": null,
+        "use": "main",
+        "condition": "육아휴직 급여 또는 육아기 근로시간 단축 급여 신청에 사용. 통합 모성보호육아지원 항목에서는 해당 급여를 선택.",
+        "evidenceUrl": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=288723&efYd=20260918",
+        "evidenceNote": "현행 고용보험법 시행규칙 제116조제1항은 육아휴직 급여와 육아기 근로시간 단축 급여를 별지 제100호로 신청하도록 정한다. 별지 원문의 두 급여 선택항목, 제70조·제73조의2 인용 및 첨부서류를 확인했다. 각 상세 documents와 모성보호육아지원 통합 프로그램의 별지 제100호 첨부 안내에 대조했다."
+      },
+      "downloads": [
+        {
+          "formId": "law-18479369",
+          "urlKind": "sourceUrl",
+          "requestedUrl": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169482857",
+          "httpStatus": 200,
+          "bytes": 204800,
+          "sha256": "0b5106ca77f6ccc7c5c85e1a6f330125cf46017978430638f3cca27ac5ce3186",
+          "mime": "application/hwp;;charset=UTF-8",
+          "detectedFormat": "hwp",
+          "validContainer": true,
+          "empty": false,
+          "htmlError": false,
+          "finalUrl": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169482857",
+          "contentDisposition": "attachment; filename=\"%5B%EB%B3%84%EC%A7%80%20%EC%A0%9C100%ED%98%B8%EC%84%9C%EC%8B%9D%5D%20%28%EC%9C%A1%EC%95%84%ED%9C%B4%EC%A7%81%20%EA%B8%89%EC%97%AC%C2%B8%20%EC%9C%A1%EC%95%84%EA%B8%B0%20%EA%B7%BC%EB%A1%9C%EC%8B%9C%EA%B0%84%20%EB%8B%A8%EC%B6%95%20%EA%B8%89%EC%97%AC%29%EC%8B%A0%EC%B2%AD%EC%84%9C%28%EA%B3%A0%EC%9A%A9%EB%B3%B4%ED%97%98%EB%B2%95%20%EC%8B%9C%ED%96%89%EA%B7%9C%EC%B9%99%29.hwp\"",
+          "contentLength": null,
+          "signatureHex": "d0cf11e0a1b11ae10000000000000000",
+          "textMethod": "HWP BodyText paragraph records with 8-unit inline/extended controls excluded",
+          "textLength": 7986,
+          "textTruncated": false,
+          "passed": true
+        },
+        {
+          "formId": "law-18479369",
+          "urlKind": "officialPdfUrl",
+          "requestedUrl": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169482859",
+          "httpStatus": 200,
+          "bytes": 128233,
+          "sha256": "af4def8d0abb33014e36ff2e70277a8e7a1cf402caa3437e2cfebd06d09a3d7a",
+          "mime": "application/pdf;;charset=UTF-8",
+          "detectedFormat": "pdf",
+          "validContainer": true,
+          "empty": false,
+          "htmlError": false,
+          "finalUrl": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169482859",
+          "contentDisposition": "attachment; filename=\"%5B%EB%B3%84%EC%A7%80%20%EC%A0%9C100%ED%98%B8%EC%84%9C%EC%8B%9D%5D%20%28%EC%9C%A1%EC%95%84%ED%9C%B4%EC%A7%81%20%EA%B8%89%EC%97%AC%C2%B8%20%EC%9C%A1%EC%95%84%EA%B8%B0%20%EA%B7%BC%EB%A1%9C%EC%8B%9C%EA%B0%84%20%EB%8B%A8%EC%B6%95%20%EA%B8%89%EC%97%AC%29%EC%8B%A0%EC%B2%AD%EC%84%9C%28%EA%B3%A0%EC%9A%A9%EB%B3%B4%ED%97%98%EB%B2%95%20%EC%8B%9C%ED%96%89%EA%B7%9C%EC%B9%99%29.pdf\"",
+          "contentLength": null,
+          "signatureHex": "255044462d312e340a25aaabacad0a31",
+          "pages": 3,
+          "textMethod": "PyMuPDF page text extraction",
+          "textLength": 7864,
+          "textTruncated": false,
+          "passed": true
+        }
+      ],
+      "programChecks": [
+        {
+          "id": "n.gov24-999000000008",
+          "exists": true,
+          "jurisdictionMatches": true,
+          "name": "육아휴직급여",
+          "scope": "national",
+          "region": null,
+          "applyType": "self",
+          "applyMethod": "가까운 고용센터를 방문하거나 온라인, 우편으로 신청",
+          "documents": "○ 육아휴직 급여 신청서\n○ 육아휴직 확인서 1부\n○ 통상임금을 확인할 수 있는 증명자료(임금대장, 근로계약서 등) 사본 1부\n○ 육아휴직 기간 동안 사업주로부터 금품을 지급받은 경우 이를 확인할 수 있는 자료의 사본 1부\n○ 단기 육아휴직 급여를 신청할 경우, 단기 육아휴직에 해당하는 사유를 확인할 수 있는 자료\n본인 확인 필요: 해당없음\n담당 공무원이 확인: 해당없음",
+          "laws": [
+            "고용보험법(제70조의0, 제0항)",
+            "남녀고용평등과 일ㆍ가정 양립 지원에 관한 법률(제19조의0, 제0항)"
+          ]
+        },
+        {
+          "id": "n.gov24-999000000007",
+          "exists": true,
+          "jurisdictionMatches": true,
+          "name": "육아기 근로시간 단축 급여",
+          "scope": "national",
+          "region": null,
+          "applyType": "self",
+          "applyMethod": "가까운 관할 고용센터를 방문하거나 온라인(고용24 홈페이지: www.work24.go.kr) 또는 우편으로 신청",
+          "documents": "- 육아기 근로시간 단축 급여 신청서(고용보험법 시행규칙 별지 제100호서식)\n- 육아기 근로시간 단축 확인서(고용보험법 시행규칙 별지 제102호서식) 1부(최초 1회로 한정)\n- 육아기 근로시간 단축 전ㆍ후의 소정근로시간, 통상임금 등의 근로조건을 확인할 수 있는 증명자료(임금대장, 근로계약서 등) 사본 1부\n- 육아기 근로시간 단축기간 동안 사업주로부터 지급받은 금품을 확인할 수 있는 자료(단축된 소정근로시간을 초과한 근로를 이유로 지급받은 금품은 별도로 확인할 수 있어야 함) 사본 1부\n본인 확인 필요: 해당없음\n담당 공무원이 확인: 해당없음",
+          "laws": [
+            "남녀고용평등과 일ㆍ가정 양립 지원에 관한 법률(제19조의2)",
+            "고용보험법(제73조의2)"
+          ]
+        },
+        {
+          "id": "n.bokjiro-WLF00003226",
+          "exists": true,
+          "jurisdictionMatches": true,
+          "name": "모성보호육아지원(출산전후휴가(유산ㆍ사산휴가 포함) 급여, 육아휴직등 급여)",
+          "scope": "national",
+          "region": null,
+          "applyType": "self",
+          "applyMethod": "거주지 읍/면/동 주민센터, 고용센터에서 처리에서 ‘서비스 신청’\n담당 시/군/구청 또는 고용센터에서 처리에서 조사 및 심사\n담당 시/군/구청 또는 고용센터에서 처리에서 보장 결정\n담당 시/군/구청 또는 고용센터에서 처리에서 대상자에게 서비스 제공\n담당 시/군/구청 또는 고용센터에서 처리에서 서비스 제공 이후 대상자의 상황 관리",
+          "documents": "관련 서식·안내: 출산전후휴가 급여등 신청서 (출산전후휴가¸ 유산ㆍ사산휴가¸ 배우자 출산휴가¸ 난임치료휴가).hwp, [별지 제105호의2서식] 출산전후휴가 급여등(출산전후휴가¸유산ㆍ사산휴가¸배우자 출산휴가)대위 신청서(고용보험법 시행규칙).hwp, [별지 제105호의3서식] 예술인 출산전후급여등 신청서(고용보험법 시행규칙).hwp, [별지 제100호서식] (육아휴직¸ 육아기 근로시간 단축) 급여 신청서(고용보험법 시행규칙) (2).hwp",
+          "laws": [
+            "고용보험법"
+          ]
+        }
+      ],
+      "linkStructureIssues": [],
+      "manualReviewStatus": "passed",
+      "printedAnnexLabel": "[별지 제100호서식]",
+      "majorTitleAnnexRegionMismatch": false,
+      "linkUseReview": {
+        "passed": true,
+        "note": "별지 제100호는 육아휴직/육아기 근로시간 단축 급여 선택형 신청서이다. 통합 모성보호육아지원 프로그램에서도 해당 급여를 선택한다는 main 조건을 보존한다."
+      },
+      "metadataTextCheck": {
+        "scope": "national",
+        "sourceHeading": "■ 고용보험법 시행규칙 [별지 제100호서식] <개정 2026. 8. 19.> [ ] 육아휴직 급여 신청서 [ ] 육아기 근로시간 단축 급여 ※ 2쪽의 공지사항 및 작성방법을 읽고 작성하기 바라며, [ ]에는 해당되는 곳에 √표시를 합니다. (3쪽 중 1쪽) 접수번호 접수일 처리기간 : 14일 1. 신청인 정보 성명 주민등록번호 주소 (연락처: ) 대상 자녀의 주민등록번호 출산 예정일 2. 신청내용 ① 급여 신청기간 년 월 일 ~ 년 월 일 ①-1: 위 급여 신청기간에 ｢남녀고용평등과 일ㆍ가정 양립 지원에 관한 법률｣ 제19조제2항 단서에 따른 육아휴직 추가 부여기간(6개월)이 포함되어 있습니까? [ ] 예 [ ] 아니오 ①-2(①-1란을 ‘예’로 선택한 경우). 육아휴직 추가 부여기간(6개월)이 포함된 경",
+        "officialPdfHeaderMatches": true,
+        "note": "원본과 공식 PDF의 서식명·별지번호·신청/확인 목적을 대조했으며 서로 다른 급여/관할 서식으로 볼 현저한 차이를 발견하지 못함."
+      }
+    },
+    {
+      "formId": "law-18479373",
+      "inputFile": "national-reviewed-round2.json",
+      "metadata": {
+        "sourceKind": "law",
+        "lawTitle": "고용보험법 시행규칙",
+        "lawId": "288723",
+        "annexId": "18479373",
+        "annexNumber": "010200",
+        "formTitle": "(육아휴직, 육아기 근로시간 단축) 확인서",
+        "regionCode": null,
+        "regionLabel": null,
+        "use": "conditional",
+        "condition": "육아휴직 또는 육아기 근로시간 단축 급여의 최초 신청 시 필요한 사업주 작성 확인서. 사업주가 전산 제출한 경우의 처리 방법은 고용센터 안내 확인.",
+        "evidenceUrl": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=288723&efYd=20260918",
+        "evidenceNote": "시행규칙 제116조제1항의 구비서류 및 제118조는 사업주가 별지 제102호의 육아휴직·육아기 근로시간 단축 확인서를 발급하도록 정한다. 제100호 신청서의 첨부서류도 최초 1회 제출을 명시한다. 확인서 원문에는 사업장·휴직기간·통상임금 등 사업주 확인란이 있다."
+      },
+      "downloads": [
+        {
+          "formId": "law-18479373",
+          "urlKind": "sourceUrl",
+          "requestedUrl": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169482873",
+          "httpStatus": 200,
+          "bytes": 70656,
+          "sha256": "4894a9477252a24b1a98d050522f1c4aab0ef18c0f817c4866cb048d653d9ab8",
+          "mime": "application/hwp;;charset=UTF-8",
+          "detectedFormat": "hwp",
+          "validContainer": true,
+          "empty": false,
+          "htmlError": false,
+          "finalUrl": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169482873",
+          "contentDisposition": "attachment; filename=\"%5B%EB%B3%84%EC%A7%80%20%EC%A0%9C102%ED%98%B8%EC%84%9C%EC%8B%9D%5D%20%28%EC%9C%A1%EC%95%84%ED%9C%B4%EC%A7%81%C2%B8%20%EC%9C%A1%EC%95%84%EA%B8%B0%20%EA%B7%BC%EB%A1%9C%EC%8B%9C%EA%B0%84%20%EB%8B%A8%EC%B6%95%29%20%ED%99%95%EC%9D%B8%EC%84%9C%28%EA%B3%A0%EC%9A%A9%EB%B3%B4%ED%97%98%EB%B2%95%20%EC%8B%9C%ED%96%89%EA%B7%9C%EC%B9%99%29.hwp\"",
+          "contentLength": null,
+          "signatureHex": "d0cf11e0a1b11ae10000000000000000",
+          "textMethod": "HWP BodyText paragraph records with 8-unit inline/extended controls excluded",
+          "textLength": 3791,
+          "textTruncated": false,
+          "passed": true
+        },
+        {
+          "formId": "law-18479373",
+          "urlKind": "officialPdfUrl",
+          "requestedUrl": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169482875",
+          "httpStatus": 200,
+          "bytes": 71918,
+          "sha256": "260b5435d1112e5f5da48c986053238bcdc549a03f8a0a727df94848d5da200a",
+          "mime": "application/pdf;;charset=UTF-8",
+          "detectedFormat": "pdf",
+          "validContainer": true,
+          "empty": false,
+          "htmlError": false,
+          "finalUrl": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169482875",
+          "contentDisposition": "attachment; filename=\"%5B%EB%B3%84%EC%A7%80%20%EC%A0%9C102%ED%98%B8%EC%84%9C%EC%8B%9D%5D%20%28%EC%9C%A1%EC%95%84%ED%9C%B4%EC%A7%81%C2%B8%20%EC%9C%A1%EC%95%84%EA%B8%B0%20%EA%B7%BC%EB%A1%9C%EC%8B%9C%EA%B0%84%20%EB%8B%A8%EC%B6%95%29%20%ED%99%95%EC%9D%B8%EC%84%9C%28%EA%B3%A0%EC%9A%A9%EB%B3%B4%ED%97%98%EB%B2%95%20%EC%8B%9C%ED%96%89%EA%B7%9C%EC%B9%99%29.pdf\"",
+          "contentLength": null,
+          "signatureHex": "255044462d312e340a25aaabacad0a31",
+          "pages": 2,
+          "textMethod": "PyMuPDF page text extraction",
+          "textLength": 3693,
+          "textTruncated": false,
+          "passed": true
+        }
+      ],
+      "programChecks": [
+        {
+          "id": "n.gov24-999000000008",
+          "exists": true,
+          "jurisdictionMatches": true,
+          "name": "육아휴직급여",
+          "scope": "national",
+          "region": null,
+          "applyType": "self",
+          "applyMethod": "가까운 고용센터를 방문하거나 온라인, 우편으로 신청",
+          "documents": "○ 육아휴직 급여 신청서\n○ 육아휴직 확인서 1부\n○ 통상임금을 확인할 수 있는 증명자료(임금대장, 근로계약서 등) 사본 1부\n○ 육아휴직 기간 동안 사업주로부터 금품을 지급받은 경우 이를 확인할 수 있는 자료의 사본 1부\n○ 단기 육아휴직 급여를 신청할 경우, 단기 육아휴직에 해당하는 사유를 확인할 수 있는 자료\n본인 확인 필요: 해당없음\n담당 공무원이 확인: 해당없음",
+          "laws": [
+            "고용보험법(제70조의0, 제0항)",
+            "남녀고용평등과 일ㆍ가정 양립 지원에 관한 법률(제19조의0, 제0항)"
+          ]
+        },
+        {
+          "id": "n.gov24-999000000007",
+          "exists": true,
+          "jurisdictionMatches": true,
+          "name": "육아기 근로시간 단축 급여",
+          "scope": "national",
+          "region": null,
+          "applyType": "self",
+          "applyMethod": "가까운 관할 고용센터를 방문하거나 온라인(고용24 홈페이지: www.work24.go.kr) 또는 우편으로 신청",
+          "documents": "- 육아기 근로시간 단축 급여 신청서(고용보험법 시행규칙 별지 제100호서식)\n- 육아기 근로시간 단축 확인서(고용보험법 시행규칙 별지 제102호서식) 1부(최초 1회로 한정)\n- 육아기 근로시간 단축 전ㆍ후의 소정근로시간, 통상임금 등의 근로조건을 확인할 수 있는 증명자료(임금대장, 근로계약서 등) 사본 1부\n- 육아기 근로시간 단축기간 동안 사업주로부터 지급받은 금품을 확인할 수 있는 자료(단축된 소정근로시간을 초과한 근로를 이유로 지급받은 금품은 별도로 확인할 수 있어야 함) 사본 1부\n본인 확인 필요: 해당없음\n담당 공무원이 확인: 해당없음",
+          "laws": [
+            "남녀고용평등과 일ㆍ가정 양립 지원에 관한 법률(제19조의2)",
+            "고용보험법(제73조의2)"
+          ]
+        },
+        {
+          "id": "n.bokjiro-WLF00003226",
+          "exists": true,
+          "jurisdictionMatches": true,
+          "name": "모성보호육아지원(출산전후휴가(유산ㆍ사산휴가 포함) 급여, 육아휴직등 급여)",
+          "scope": "national",
+          "region": null,
+          "applyType": "self",
+          "applyMethod": "거주지 읍/면/동 주민센터, 고용센터에서 처리에서 ‘서비스 신청’\n담당 시/군/구청 또는 고용센터에서 처리에서 조사 및 심사\n담당 시/군/구청 또는 고용센터에서 처리에서 보장 결정\n담당 시/군/구청 또는 고용센터에서 처리에서 대상자에게 서비스 제공\n담당 시/군/구청 또는 고용센터에서 처리에서 서비스 제공 이후 대상자의 상황 관리",
+          "documents": "관련 서식·안내: 출산전후휴가 급여등 신청서 (출산전후휴가¸ 유산ㆍ사산휴가¸ 배우자 출산휴가¸ 난임치료휴가).hwp, [별지 제105호의2서식] 출산전후휴가 급여등(출산전후휴가¸유산ㆍ사산휴가¸배우자 출산휴가)대위 신청서(고용보험법 시행규칙).hwp, [별지 제105호의3서식] 예술인 출산전후급여등 신청서(고용보험법 시행규칙).hwp, [별지 제100호서식] (육아휴직¸ 육아기 근로시간 단축) 급여 신청서(고용보험법 시행규칙) (2).hwp",
+          "laws": [
+            "고용보험법"
+          ]
+        }
+      ],
+      "linkStructureIssues": [],
+      "manualReviewStatus": "passed",
+      "printedAnnexLabel": "[별지 제102호서식]",
+      "majorTitleAnnexRegionMismatch": false,
+      "linkUseReview": {
+        "passed": true,
+        "note": "별지 제100호 공식 PDF 첨부서류가 확인서 최초 1회 제출을 명시하며 제102호 원본·PDF는 사업장명/대표자 확인란과 사업주의 작성·확인 협력을 명시한다. use=conditional, 최초 신청 및 사업주 작성이라는 조건이 부합한다."
+      },
+      "metadataTextCheck": {
+        "scope": "national",
+        "sourceHeading": "■ 고용보험법 시행규칙 [별지 제102호서식] <개정 2026. 8. 19.> [ ]육아휴직 [ ]육아기 근로시간 단축 확인서 ※ 뒤쪽의 작성방법을 읽고 작성하시기 바라며, [ ]에는 해당하는 곳에 “√” 표시를 합니다. (앞쪽) 기 본 사 항 ①사업장관리번호 ②사업장명 ③사업장소재지 및 담당자 사업장소재지: 담당자: 연락처(전화번호: 이메일: ) ④근로자 성명 ⑤근로자 주민등록번호 ⑥대상 자녀의 성명 육아휴직 ⑦대상 자녀의 주민등록번호 (출산 예정일) 육아휴직 육아기 근로시간 단축 육아기 근로시간 단축 ⑧육아휴직 또는 육아기 근로시간 단축 기간 년 월 일 ~ 년 월 일 ⑧-1. 위 육아휴직 기간에 ｢남녀고용평등과 일·가정 양립 지원에 관한 법률｣ 제19조제2항 단서에 따른 육아휴직 추가 부여기간(6개월)이",
+        "officialPdfHeaderMatches": true,
+        "note": "원본과 공식 PDF의 서식명·별지번호·신청/확인 목적을 대조했으며 서로 다른 급여/관할 서식으로 볼 현저한 차이를 발견하지 못함."
+      }
+    },
+    {
+      "formId": "law-18479379",
+      "inputFile": "national-reviewed-round2.json",
+      "metadata": {
+        "sourceKind": "law",
+        "lawTitle": "고용보험법 시행규칙",
+        "lawId": "288723",
+        "annexId": "18479379",
+        "annexNumber": "010500",
+        "formTitle": "출산전후휴가 급여등 신청서(출산전후휴가, 유산ㆍ사산휴가, 배우자 출산전후휴가, 난임치료휴가, 배우자 유산ㆍ사산휴가)",
+        "regionCode": null,
+        "regionLabel": null,
+        "use": "main",
+        "condition": "출산전후휴가 급여 또는 유산·사산휴가 급여 신청 시 해당 항목 선택.",
+        "evidenceUrl": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=288723&efYd=20260918",
+        "evidenceNote": "현행 고용보험법 시행규칙 제121조제1항은 출산전후휴가 급여등 신청에 별지 제105호를 지정한다. 공식 PDF에서 출산전후휴가 및 유산·사산휴가 선택란과 법 제75조·규칙 제121조 인용을 확인했다. 해당 프로그램의 documents가 별지 제105호를 명시한다. 예술인·노무제공자 신청서 또는 사업주의 대위 신청서와 구분했다."
+      },
+      "downloads": [
+        {
+          "formId": "law-18479379",
+          "urlKind": "sourceUrl",
+          "requestedUrl": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169482893",
+          "httpStatus": 200,
+          "bytes": 94208,
+          "sha256": "d9f40db6340f75b74738ec1438f821d8867df761389befc779ecac38d908ede0",
+          "mime": "application/hwp;;charset=UTF-8",
+          "detectedFormat": "hwp",
+          "validContainer": true,
+          "empty": false,
+          "htmlError": false,
+          "finalUrl": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169482893",
+          "contentDisposition": "attachment; filename=\"%5B%EB%B3%84%EC%A7%80%20%EC%A0%9C105%ED%98%B8%EC%84%9C%EC%8B%9D%5D%20%EC%B6%9C%EC%82%B0%EC%A0%84%ED%9B%84%ED%9C%B4%EA%B0%80%20%EA%B8%89%EC%97%AC%EB%93%B1%20%EC%8B%A0%EC%B2%AD%EC%84%9C%28%EC%B6%9C%EC%82%B0%EC%A0%84%ED%9B%84%ED%9C%B4%EA%B0%80%C2%B8%20%EC%9C%A0%EC%82%B0%E3%86%8D%EC%82%AC%EC%82%B0%ED%9C%B4%EA%B0%80%C2%B8%20%EB%B0%B0%EC%9A%B0%EC%9E%90%20%EC%B6%9C%EC%82%B0%EC%A0%84%ED%9B%84%ED%9C%B4%EA%B0%80%C2%B8%20%EB%82%9C%EC%9E%84%EC%B9%98%EB%A3%8C%ED%9C%B4%EA%B0%80%C2%B8%20%EB%B0%B0%EC%9A%B0%EC%9E%90%20%EC%9C%A0%EC%82%B0%E3%86%8D%EC%82%AC%EC%82%B0%ED%9C%B4%EA%B0%80%29%28%EA%B3%A0%EC%9A%A9%EB%B3%B4%ED%97%98%EB%B2%95%20%EC%8B%9C%ED%96%89%EA%B7%9C%EC%B9%99%29.hwp\"",
+          "contentLength": null,
+          "signatureHex": "d0cf11e0a1b11ae10000000000000000",
+          "textMethod": "HWP BodyText paragraph records with 8-unit inline/extended controls excluded",
+          "textLength": 4301,
+          "textTruncated": false,
+          "passed": true
+        },
+        {
+          "formId": "law-18479379",
+          "urlKind": "officialPdfUrl",
+          "requestedUrl": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169482895",
+          "httpStatus": 200,
+          "bytes": 103334,
+          "sha256": "01d3b621b74a29c296824740eaf311c4bb3dc8c561c48cc22945399917bbfd27",
+          "mime": "application/pdf;;charset=UTF-8",
+          "detectedFormat": "pdf",
+          "validContainer": true,
+          "empty": false,
+          "htmlError": false,
+          "finalUrl": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169482895",
+          "contentDisposition": "attachment; filename=\"%5B%EB%B3%84%EC%A7%80%20%EC%A0%9C105%ED%98%B8%EC%84%9C%EC%8B%9D%5D%20%EC%B6%9C%EC%82%B0%EC%A0%84%ED%9B%84%ED%9C%B4%EA%B0%80%20%EA%B8%89%EC%97%AC%EB%93%B1%20%EC%8B%A0%EC%B2%AD%EC%84%9C%28%EC%B6%9C%EC%82%B0%EC%A0%84%ED%9B%84%ED%9C%B4%EA%B0%80%C2%B8%20%EC%9C%A0%EC%82%B0%E3%86%8D%EC%82%AC%EC%82%B0%ED%9C%B4%EA%B0%80%C2%B8%20%EB%B0%B0%EC%9A%B0%EC%9E%90%20%EC%B6%9C%EC%82%B0%EC%A0%84%ED%9B%84%ED%9C%B4%EA%B0%80%C2%B8%20%EB%82%9C%EC%9E%84%EC%B9%98%EB%A3%8C%ED%9C%B4%EA%B0%80%C2%B8%20%EB%B0%B0%EC%9A%B0%EC%9E%90%20%EC%9C%A0%EC%82%B0%E3%86%8D%EC%82%AC%EC%82%B0%ED%9C%B4%EA%B0%80%29%28%EA%B3%A0%EC%9A%A9%EB%B3%B4%ED%97%98%EB%B2%95%20%EC%8B%9C%ED%96%89%EA%B7%9C%EC%B9%99%29.pdf\"",
+          "contentLength": null,
+          "signatureHex": "255044462d312e340a25aaabacad0a31",
+          "pages": 2,
+          "textMethod": "PyMuPDF page text extraction",
+          "textLength": 4186,
+          "textTruncated": false,
+          "passed": true
+        }
+      ],
+      "programChecks": [
+        {
+          "id": "n.gov24-WII000001460",
+          "exists": true,
+          "jurisdictionMatches": true,
+          "name": "출산전후(유산ㆍ사산)휴가 급여",
+          "scope": "national",
+          "region": null,
+          "applyType": "self",
+          "applyMethod": "가까운 관할 고용센터를 방문하거나 온라인(고용24 홈페이지: www.work24.go.kr) 또는 우편으로 신청",
+          "documents": "○ 출산전후휴가 급여\n- 출산전후휴가 급여등 신청서 (고용보험법 시행규칙 별지 제105호서식) * 출산전후휴가에 체크\n- 출산전후휴가 확인서(고용보험법 시행규칙 별지 제107호서식, 최초 1회만 해당)\n- 통상임금을 확인할 수 있는 자료(임금대장, 근로계약서 등) 사본\n- 휴가기간 동안 사업주로부터 금품을 지급받은 경우 이를 확인할 수 있는 자료\n- 미숙아를 출산한 사실을 증명할 수 있는 의료기관의 진단서(미숙아 출산으로 출산전후휴가를 받은 경우만 해당)\n○ 유산ㆍ사산휴가 급여\n- 출산전후휴가 급여등 신청서 (고용보험법 시행규칙 별지 제105호서식) * 유산ㆍ사산휴가에 체크\n- 유산ㆍ사산휴가 확인서(고용보험법 시행규칙 별지 제107호서식, 최초 1회만 해당)\n- 통상임금을 확인할 수 있는 자료(임금대장, 근로계약서 등) 사본\n- 휴가 기간 동안 사업주로부터 금품을 지급받은 경우 이를 확인할 수 있는 자료\n- 유산이나 사산을 한 사실을 증명할 수 있는 의료기관의 진단서(임신기간이 적혀 있어야 함)\n본인 확인 필요: 해당없음\n담당 공무원이 확인: 해당없음",
+          "laws": [
+            "남녀고용평등과 일ㆍ가정 양립 지원에 관한 법률(제18조)",
+            "고용보험법(제75조)"
+          ]
+        },
+        {
+          "id": "n.bokjiro-WLF00003226",
+          "exists": true,
+          "jurisdictionMatches": true,
+          "name": "모성보호육아지원(출산전후휴가(유산ㆍ사산휴가 포함) 급여, 육아휴직등 급여)",
+          "scope": "national",
+          "region": null,
+          "applyType": "self",
+          "applyMethod": "거주지 읍/면/동 주민센터, 고용센터에서 처리에서 ‘서비스 신청’\n담당 시/군/구청 또는 고용센터에서 처리에서 조사 및 심사\n담당 시/군/구청 또는 고용센터에서 처리에서 보장 결정\n담당 시/군/구청 또는 고용센터에서 처리에서 대상자에게 서비스 제공\n담당 시/군/구청 또는 고용센터에서 처리에서 서비스 제공 이후 대상자의 상황 관리",
+          "documents": "관련 서식·안내: 출산전후휴가 급여등 신청서 (출산전후휴가¸ 유산ㆍ사산휴가¸ 배우자 출산휴가¸ 난임치료휴가).hwp, [별지 제105호의2서식] 출산전후휴가 급여등(출산전후휴가¸유산ㆍ사산휴가¸배우자 출산휴가)대위 신청서(고용보험법 시행규칙).hwp, [별지 제105호의3서식] 예술인 출산전후급여등 신청서(고용보험법 시행규칙).hwp, [별지 제100호서식] (육아휴직¸ 육아기 근로시간 단축) 급여 신청서(고용보험법 시행규칙) (2).hwp",
+          "laws": [
+            "고용보험법"
+          ]
+        }
+      ],
+      "linkStructureIssues": [],
+      "manualReviewStatus": "passed",
+      "printedAnnexLabel": "[별지 제105호서식]",
+      "majorTitleAnnexRegionMismatch": false,
+      "linkUseReview": {
+        "passed": true,
+        "note": "별지 제105호는 여러 휴가 급여 선택형 신청서이다. 연결된 출산전후·유산사산휴가 프로그램 및 통합 프로그램에서 해당 급여를 선택한다는 main 조건이 원본 선택항목과 부합한다."
+      },
+      "metadataTextCheck": {
+        "scope": "national",
+        "sourceHeading": "■ 고용보험법 시행규칙 [별지 제105호서식] <개정 2026. 8. 19.> 출산전후휴가 급여등 신청서( 회차) [ ] 출산전후휴가 [ ] 유산ㆍ사산휴가 [ ] 배우자 출산전후휴가 [ ] 난임치료휴가 [ ] 배우자 유산ㆍ사산휴가 ※ 뒤쪽의 작성방법을 읽고 작성하시기 바라며, [ ]에는 해당되는 곳에 √표시를 합니다. ※ 색상이 어두운 칸은 작성하지 않습니다. (앞쪽) 접수번호 접수일 처리기간: 14일 1. 신청인 정보 ① 성명 ② 주민등록번호 ③ 주소 및 연락처 (연락처: ) ④ 출산일(출산예정일, 유산ㆍ사산일) 년 월 일 ⑤ 영아의 주민등록번호 ⑥ 다태아(多胎兒) 여부 [ ] 예 [ ] 아니오 ⑦ 미숙아(未熟兒) 여부 [ ] 예 [ ] 아니오 2. 신청내용 ⑧ 이번 회차 신청기간 년 월 일 ~ 년 월 일",
+        "officialPdfHeaderMatches": true,
+        "note": "원본과 공식 PDF의 서식명·별지번호·신청/확인 목적을 대조했으며 서로 다른 급여/관할 서식으로 볼 현저한 차이를 발견하지 못함."
+      }
+    },
+    {
+      "formId": "law-18479389",
+      "inputFile": "national-reviewed-round2.json",
+      "metadata": {
+        "sourceKind": "law",
+        "lawTitle": "고용보험법 시행규칙",
+        "lawId": "288723",
+        "annexId": "18479389",
+        "annexNumber": "010700",
+        "formTitle": "(출산전후휴가, 유산ㆍ사산휴가)확인서",
+        "regionCode": null,
+        "regionLabel": null,
+        "use": "conditional",
+        "condition": "출산전후휴가 또는 유산·사산휴가 급여의 최초 신청 시 필요한 사업주 작성 확인서. 사업주가 전산 제출한 경우의 처리 방법은 고용센터 안내 확인.",
+        "evidenceUrl": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=288723&efYd=20260918",
+        "evidenceNote": "현행 시행규칙 제121조제1항제1호는 출산전후휴가·유산사산휴가 확인서를 최초 1회 첨부하도록 정하고, 제123조는 별지 제107호를 사업주가 발급하도록 정한다. 별지 제105호 첨부 안내 및 제107호 원문의 휴가 사실 확인란을 대조했다."
+      },
+      "downloads": [
+        {
+          "formId": "law-18479389",
+          "urlKind": "sourceUrl",
+          "requestedUrl": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169482931",
+          "httpStatus": 200,
+          "bytes": 57856,
+          "sha256": "7a43af231ae22d532616d58204cde99f0ecb800df0bfb67b9d8d4f31ee302c5e",
+          "mime": "application/hwp;;charset=UTF-8",
+          "detectedFormat": "hwp",
+          "validContainer": true,
+          "empty": false,
+          "htmlError": false,
+          "finalUrl": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169482931",
+          "contentDisposition": "attachment; filename=\"%5B%EB%B3%84%EC%A7%80%20%EC%A0%9C107%ED%98%B8%EC%84%9C%EC%8B%9D%5D%20%28%EC%B6%9C%EC%82%B0%EC%A0%84%ED%9B%84%ED%9C%B4%EA%B0%80%C2%B8%20%EC%9C%A0%EC%82%B0%E3%86%8D%EC%82%AC%EC%82%B0%ED%9C%B4%EA%B0%80%29%ED%99%95%EC%9D%B8%EC%84%9C%28%EA%B3%A0%EC%9A%A9%EB%B3%B4%ED%97%98%EB%B2%95%20%EC%8B%9C%ED%96%89%EA%B7%9C%EC%B9%99%29.hwp\"",
+          "contentLength": null,
+          "signatureHex": "d0cf11e0a1b11ae10000000000000000",
+          "textMethod": "HWP BodyText paragraph records with 8-unit inline/extended controls excluded",
+          "textLength": 3312,
+          "textTruncated": false,
+          "passed": true
+        },
+        {
+          "formId": "law-18479389",
+          "urlKind": "officialPdfUrl",
+          "requestedUrl": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169482933",
+          "httpStatus": 200,
+          "bytes": 75357,
+          "sha256": "527641dae0c5ef45ba40bebfa6b2aa9b8e6225dd92e82f1b6906619bb349ca29",
+          "mime": "application/pdf;;charset=UTF-8",
+          "detectedFormat": "pdf",
+          "validContainer": true,
+          "empty": false,
+          "htmlError": false,
+          "finalUrl": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169482933",
+          "contentDisposition": "attachment; filename=\"%5B%EB%B3%84%EC%A7%80%20%EC%A0%9C107%ED%98%B8%EC%84%9C%EC%8B%9D%5D%20%28%EC%B6%9C%EC%82%B0%EC%A0%84%ED%9B%84%ED%9C%B4%EA%B0%80%C2%B8%20%EC%9C%A0%EC%82%B0%E3%86%8D%EC%82%AC%EC%82%B0%ED%9C%B4%EA%B0%80%29%ED%99%95%EC%9D%B8%EC%84%9C%28%EA%B3%A0%EC%9A%A9%EB%B3%B4%ED%97%98%EB%B2%95%20%EC%8B%9C%ED%96%89%EA%B7%9C%EC%B9%99%29.pdf\"",
+          "contentLength": null,
+          "signatureHex": "255044462d312e340a25aaabacad0a31",
+          "pages": 2,
+          "textMethod": "PyMuPDF page text extraction",
+          "textLength": 3220,
+          "textTruncated": false,
+          "passed": true
+        }
+      ],
+      "programChecks": [
+        {
+          "id": "n.gov24-WII000001460",
+          "exists": true,
+          "jurisdictionMatches": true,
+          "name": "출산전후(유산ㆍ사산)휴가 급여",
+          "scope": "national",
+          "region": null,
+          "applyType": "self",
+          "applyMethod": "가까운 관할 고용센터를 방문하거나 온라인(고용24 홈페이지: www.work24.go.kr) 또는 우편으로 신청",
+          "documents": "○ 출산전후휴가 급여\n- 출산전후휴가 급여등 신청서 (고용보험법 시행규칙 별지 제105호서식) * 출산전후휴가에 체크\n- 출산전후휴가 확인서(고용보험법 시행규칙 별지 제107호서식, 최초 1회만 해당)\n- 통상임금을 확인할 수 있는 자료(임금대장, 근로계약서 등) 사본\n- 휴가기간 동안 사업주로부터 금품을 지급받은 경우 이를 확인할 수 있는 자료\n- 미숙아를 출산한 사실을 증명할 수 있는 의료기관의 진단서(미숙아 출산으로 출산전후휴가를 받은 경우만 해당)\n○ 유산ㆍ사산휴가 급여\n- 출산전후휴가 급여등 신청서 (고용보험법 시행규칙 별지 제105호서식) * 유산ㆍ사산휴가에 체크\n- 유산ㆍ사산휴가 확인서(고용보험법 시행규칙 별지 제107호서식, 최초 1회만 해당)\n- 통상임금을 확인할 수 있는 자료(임금대장, 근로계약서 등) 사본\n- 휴가 기간 동안 사업주로부터 금품을 지급받은 경우 이를 확인할 수 있는 자료\n- 유산이나 사산을 한 사실을 증명할 수 있는 의료기관의 진단서(임신기간이 적혀 있어야 함)\n본인 확인 필요: 해당없음\n담당 공무원이 확인: 해당없음",
+          "laws": [
+            "남녀고용평등과 일ㆍ가정 양립 지원에 관한 법률(제18조)",
+            "고용보험법(제75조)"
+          ]
+        },
+        {
+          "id": "n.bokjiro-WLF00003226",
+          "exists": true,
+          "jurisdictionMatches": true,
+          "name": "모성보호육아지원(출산전후휴가(유산ㆍ사산휴가 포함) 급여, 육아휴직등 급여)",
+          "scope": "national",
+          "region": null,
+          "applyType": "self",
+          "applyMethod": "거주지 읍/면/동 주민센터, 고용센터에서 처리에서 ‘서비스 신청’\n담당 시/군/구청 또는 고용센터에서 처리에서 조사 및 심사\n담당 시/군/구청 또는 고용센터에서 처리에서 보장 결정\n담당 시/군/구청 또는 고용센터에서 처리에서 대상자에게 서비스 제공\n담당 시/군/구청 또는 고용센터에서 처리에서 서비스 제공 이후 대상자의 상황 관리",
+          "documents": "관련 서식·안내: 출산전후휴가 급여등 신청서 (출산전후휴가¸ 유산ㆍ사산휴가¸ 배우자 출산휴가¸ 난임치료휴가).hwp, [별지 제105호의2서식] 출산전후휴가 급여등(출산전후휴가¸유산ㆍ사산휴가¸배우자 출산휴가)대위 신청서(고용보험법 시행규칙).hwp, [별지 제105호의3서식] 예술인 출산전후급여등 신청서(고용보험법 시행규칙).hwp, [별지 제100호서식] (육아휴직¸ 육아기 근로시간 단축) 급여 신청서(고용보험법 시행규칙) (2).hwp",
+          "laws": [
+            "고용보험법"
+          ]
+        }
+      ],
+      "linkStructureIssues": [],
+      "manualReviewStatus": "passed",
+      "printedAnnexLabel": "[별지 제107호서식]",
+      "majorTitleAnnexRegionMismatch": false,
+      "linkUseReview": {
+        "passed": true,
+        "note": "별지 제105호의 첨부서류 및 해당 정부24 documents가 확인서 최초 1회 제출을 명시한다. 제107호 원본·PDF는 사업장명/대표자 확인 및 사업주의 작성·확인 협력을 명시한다. use=conditional과 대상 휴가 조건이 부합한다."
+      },
+      "metadataTextCheck": {
+        "scope": "national",
+        "sourceHeading": "■ 고용보험법 시행규칙[별지 제107호서식] <개정 2026. 8. 19.> [ ] 출산전후휴가 [ ] 유산ㆍ사산휴가 확인서 ※ 뒤쪽의 작성방법을 읽고 작성하시기 바라며, [ ]에는 해당되는 곳에 “√” 표시를 합니다. (앞쪽) 기 본 사 항 ① 사업장관리번호 ② 우선지원대상기업 [ ] 해당 [ ] 비해당 (「고용보험법 시행령」제12조에 따름) ③ 사업장명 ④ 사업장소재지 및 담당자 사업장소재지: 담당자: 연락처(전화번호: 전자우편: ) ⑤ 근로자 성명 ⑥ 근로자 주민등록번호 ⑦ 임신기간 (유산ㆍ사산휴가인 경우에만 작성) [ ] 11주 이내 [ ] 12주~15주 [ ] 16주~21주 [ ] 22주~27주 [ ] 28주 이상 ⑧ 출산(예정)일 년 월 일 ⑨ 분할사용 여부 [ ] 예 [ ] 아니오 ⑩ 다태아(多",
+        "officialPdfHeaderMatches": true,
+        "note": "원본과 공식 PDF의 서식명·별지번호·신청/확인 목적을 대조했으며 서로 다른 급여/관할 서식으로 볼 현저한 차이를 발견하지 못함."
+      }
+    },
+    {
+      "formId": "rule-2305415",
+      "inputFile": "national-reviewed-round2.json",
+      "metadata": {
+        "sourceKind": "rule",
+        "lawTitle": "장기요양 본인부담금 감경에 관한 고시",
+        "lawId": "2100000206468",
+        "annexId": "2305415",
+        "annexNumber": "000100",
+        "formTitle": "본인부담금 감경신청서",
+        "regionCode": null,
+        "regionLabel": null,
+        "use": "conditional",
+        "condition": "공단이 보험료·재산 기준에 따른 감경대상 여부를 확인할 수 없어 별도 신청이 필요한 경우. 일반적인 감경은 공단 확인으로 처리되므로 모든 대상자에게 제출을 요구하지 않음.",
+        "evidenceUrl": "https://www.law.go.kr/LSW/admRulInfoP.do?admRulSeq=2100000206468",
+        "evidenceNote": "현행 장기요양 본인부담금 감경에 관한 고시 제3조제1항은 공단 확인에 의한 감경을 원칙으로 하며, 확인할 수 없는 경우 제2항에 따라 별지 제1호 감경신청서를 제출하도록 정한다. 별지 원문과 gov24 상세의 별도 신청 불필요·감경 해지 후 보험료 변동 등 예외 안내를 대조했다."
+      },
+      "downloads": [
+        {
+          "formId": "rule-2305415",
+          "urlKind": "sourceUrl",
+          "requestedUrl": "https://www.law.go.kr/LSW/flDownload.do?flSeq=110260101",
+          "httpStatus": 200,
+          "bytes": 56320,
+          "sha256": "6523488c910915efba75922c5473c5d826bad5731e619946e8940d5836f8a93a",
+          "mime": "application/hwp;;charset=UTF-8",
+          "detectedFormat": "hwp",
+          "validContainer": true,
+          "empty": false,
+          "htmlError": false,
+          "finalUrl": "https://www.law.go.kr/LSW/flDownload.do?flSeq=110260101",
+          "contentDisposition": "attachment; filename=\"%5B%EB%B3%84%EC%A7%80%201%5D%20%EB%B3%B8%EC%9D%B8%EB%B6%80%EB%8B%B4%EA%B8%88%20%EA%B0%90%EA%B2%BD%EC%8B%A0%EC%B2%AD%EC%84%9C%28%EC%9E%A5%EA%B8%B0%EC%9A%94%EC%96%91%20%EB%B3%B8%EC%9D%B8%EB%B6%80%EB%8B%B4%EA%B8%88%20%EA%B0%90%EA%B2%BD%EC%97%90%20%EA%B4%80%ED%95%9C%20%EA%B3%A0%EC%8B%9C%29.hwp\"",
+          "contentLength": null,
+          "signatureHex": "d0cf11e0a1b11ae10000000000000000",
+          "textMethod": "HWP BodyText paragraph records with 8-unit inline/extended controls excluded",
+          "textLength": 1365,
+          "textTruncated": false,
+          "passed": true
+        }
+      ],
+      "programChecks": [
+        {
+          "id": "n.gov24-135200005031",
+          "exists": true,
+          "jurisdictionMatches": true,
+          "name": "장기요양급여비용 본인부담금 감경",
+          "scope": "national",
+          "region": null,
+          "applyType": "auto",
+          "applyMethod": "해당 서비스는 별도의 신청 절차 없이 자격대상자에게 자동적으로 제공되나, 공단이 장기요양 본인부담금 감경에 관한 고시 제2조제1항제4호 및 제2조제2항제1호의 감경 적용기준에 따른 감경대상 여부를 확인할 수 없는 경우에는 장기요양보험가입자 또는 그 피부양자로부터 본인부담금 감경신청을 받아 본인부담금을 감경할 수 있음\n이 경우 동 고시 별지 제1호 서식에 따른 본인부담금 감경신청서를 공단에 제출",
+          "documents": "별도 신청절차 없으나, 감경 해지자 중 보험료가 변동되는 등의 사유로 감경기준에 해당될 시 장기요양 본인부담금 감경에 관한 고시 별지 제1호 서식에 따른 본인부담금 감경신청서 제출 필요\n본인 확인 필요: 해당없음\n담당 공무원이 확인: 수급자의 건강보험료 (국민건강보험공단 확인)",
+          "laws": [
+            "노인장기요양보험법(제40조, 제4항)"
+          ]
+        },
+        {
+          "id": "n.bokjiro-WLF00001177",
+          "exists": true,
+          "jurisdictionMatches": true,
+          "name": "장기요양 본인부담금 감경",
+          "scope": "national",
+          "region": null,
+          "applyType": "self",
+          "applyMethod": "거주지 읍/면/동 주민센터, 국민건강보험공단에서 ‘서비스 신청’\n담당 시/군/구청 또는 국민건강보험공단에서 조사 및 심사\n담당 시/군/구청 또는 국민건강보험공단에서 보장 결정\n담당 시/군/구청 또는 국민건강보험공단에서 대상자에게 서비스 제공\n담당 시/군/구청 또는 국민건강보험공단에서 서비스 제공 이후 대상자의 상황 관리",
+          "documents": "관련 서식·안내: 장기요양_본인부담금_감경에_관한_고시(전문).hwpx, 장기요양_본인부담금_감경에_관한_고시(전문).hwpx",
+          "laws": [
+            "노인장기요양보험법 시행규칙",
+            "노인장기요양보험법"
+          ]
+        }
+      ],
+      "linkStructureIssues": [],
+      "manualReviewStatus": "passed",
+      "independentArticleCheck": {
+        "url": "https://www.law.go.kr/LSW/admRulLsInfoR.do?admRulSeq=2100000206468",
+        "found": true,
+        "excerpt": "제3조(감경 절차) ① 공단은 법 제15조 에 따른 수급자로 판정된 자(이하 \"수급자\"라 한다) 제2조제1항 및 제2항 각 호에 해당하는 자로 확인된 경우 본인부담금을 감경한다. 다만, 공단이 제2조제1항제4호 및 제2조제2항제1호 의 감경 적용기준에 따른 감경대상 여부를 확인할 수 없는 경우에는 장기요양보험가입자 또는 그 피부양자로부터 본인부담금 감경신청을 받아 본인부담금을 감경할 수 있다. ② 제1항의 단서에 따라 장기요양보험가입자 또는 그 피부양자가 본인부담금 감경신청을 하는 경우에는 별지 제1호 서식 에 따른 본인부담금 감경신청서를 공단에 제출하여야 한다. ③ 공단은 수급자가 각 호에 해당하게 된 경우, 각 호의 구분에 따라 필요한 조치를 하여야 한다. 1. 제2조 의 감경기준에 따른 감경 대상자로 확인된 경우: 별지 제2호 서식 의 본인부담금 감경대상자 증명서를 수급자에게 지체없이 송부하여야 한다 2. 제2조 에 따라 본인부담금 감경률이 변경된 경우 : 별지 제 2-2호서식의 본인부담금 감경률 변경 통보서를 수급자에게 지체없이 송부하여야 한다 3. 감경대상자에서 제외된 경우: 별지 제3호서식 의 본인부담금 감경해지 통보서를 수급자에게 지체없이 송부하여야 한다 제4조(감경 적용시기) ① 제2조제1항제2호 에 따른 감경은 공단이 「국민건강보험법 시행규칙」 제15조 에 따라 경감인정을 한 날부터 발생하는 본인부담액부터 적용한다. ② 제2조제1항제4호 및 제2조제2항제1호 에 따른 감경의 적용시기는 공단이 매월 해당요건을 확인한 날이 속하는 달의 다음 달부터 적용한다. 다만, 다음 각 호 어느 하나에 해당하는 경우에는 각 호의 구분에 따라 감경 적용할 수 있다. 1. 「국민건강보험법」 제8조제1항제1호 , 제3호 또는 제4호에 따라 국민건강보험 자격을 취득한 자는 취득 후 최초로 산정된 보험료액 및 재산과표액 등이 제2조제1항제4호 또는 제2조제2항제1호 에 해당하는 경우 자격취득일부터 적용 2. 장기요양 인정유효기간 시작 날의 직전 달 보험료액 및 재산과표액 등이 제2조제1항제4호 또는 제2조제2항제1호 에 해당하는 경우 인정유효기간 시작 날부터 적용 ③ 공단은 「국민건강보험법」 제8조부터 제10조 까지의 규정에 따라 가입자격이 취득, 변동 또는 상실되는 때에는 해당 보험료액 및 재산과표액 등에 따른 감경적용기준을 확인하여 감경대상자로 결정하여야 한다. 제5조(감경 적용기간) ① 제2조제1항제2호 에 따른 감경은 공단이 「국민건강보험법시행규칙」 제15조 에 따라 경감 제외결정을 한 날까지 적용한다. ② 제2조제1항제4호 및 제2조제2항제1호 에 따른 감경은 공단이 감경대상자가 감경적용기준에 해당하지 아니함을 확인한 날이 속하는 달까지 적용한다. 제6조(세부사항) 그 밖에 감경적용에 필요한 세부사항은 공단의 이사장이 정한다. 제7조(재검토기한) 보건복지부 장관은 「훈령ㆍ예규 등의 발령 및 관리에 관한 규정」 (대통령훈령 제 334호)에 따라 이 고시에 대하여 2018년 7월1일을 기준으로 매 3년이 되는 시점(6월 30일까지를 말한다)마다 그 타당성을 검토하여 개선 등의 조치를 하여야 한다. 조문목록 없음\" src=\"/LSW/images/button/btn_dot.gif\" /> 체크박스\" value=\"841135\" /> ');return false;\" href=\"#AJAX\"> 부 칙 <제2008-160호,2008. 12. 18.> 이 고시는 2009년 1월 1일부터 시행한다. 조문목록 없음\" src=\"/LSW/images/button/btn_dot.gif\" /> 체크박스\" value=\"841137\" /> ');return false;\" href=\"#AJAX\"> 부 칙 <제2009-108호,2009. 6. 16.> (시행일)이 고시는 2009년 7월 1일부터 시행한다. 조문목록 없음\" src=\"/LSW/images/button/btn_dot.gif\" /> 체크박스\" value=\"841139\" /> ');return false;\" href=\"#AJAX\"> 부 칙 <제2009-150호,2009. 8. 24.> 이 고시는 2009년 8월 24일부터 시행한다. 조문목록 없음\" src=\"/LSW/images/button/btn_dot.gif\" /> 체크박스\" value=\"841141\" /> ');return false;\" href=\"#AJAX\"> 부 칙 <제2010-13호,2010. 1. 27.> (시행일)이 고시는 2010년 2월 1일부터 시행한다. 조문목록 없음\" src=\"/LSW/images/button/btn_dot.gif\" /> 체크박스\" value=\"841143\" /> ');return false;\" href=\"#AJAX\"> 부 칙 <제2011-14호,2011. 1. 31.> (시행일)이 고시는 2011년 1월 31일부터 시행한다. 조문목록 없음\" src=\"/LSW/images/button/btn_dot.gif\" /> 체크박스\" value=\"841145\" /> ');return false;\" href=\"#AJAX\"> 부 칙 <제2012-12호,2012. 1. 26.> (시행일)이 고시는 2012년 1월 31일부터 시행한다. 조문목록 없음\" src=\"/LSW/images/button/btn_dot.gif\" /> 체크박스\" value=\"841147\" /> ');return false;\" href=\"#AJAX\"> 부 칙 <제2012-106호,2012. 8. 28.> (시행일) 이 고시는 2012년 9월 1일부터 시행한다. 조문목록 없음\" src="
+      },
+      "printedAnnexLabel": "[별지 제1호서식]",
+      "majorTitleAnnexRegionMismatch": false,
+      "linkUseReview": {
+        "passed": true,
+        "note": "고시 제3조제1항 단서 및 제2항을 별도 공개 본문에서 확인했다. 정부24 applyType은 auto이며 applyMethod도 공단이 감경 여부를 확인할 수 없는 예외에서 신청서를 요구한다. use=conditional과 현재 condition이 이 예외를 보존하므로 적정하다. 복지로의 applyType=self는 같은 법정 서식의 예외 조건을 삭제하는 근거로 쓰지 않는다."
+      },
+      "metadataTextCheck": {
+        "scope": "national",
+        "sourceHeading": "■ 장기요양 본인부담금 감경에 관한 고시 [별지 제1호서식] 본인부담금 감경신청서 접수번호 접수일 처리기간 14일 신청인 (수급자) 성 명 (전화번호) (☎: ) 장기요양 인정번호 (장기요양등급 : ) 주 소 대리인 성 명 생년월일 유 형 1. 가족ㆍ친족ㆍ이해관계인 등 2. 사회복지전담공무원 주 소 전화번호 (휴대전화) 신청사유 「노인장기요양보험법」제40조제3항제2호, 같은 법 시행규칙 제4조제2항제4호, 제35조제1항제3호 및 제36조제2항제3호에 따른 본인부담금 감경을 신청합니다. 20 년 월 일 신청인(대리인) : (서명 또는 인) 신청인과의 관계 : 국민건강보험공단 이사장 귀하 첨부서류 (대리인 관련 서류) 1. 수급자의 가족ㆍ친족ㆍ이해관계인 등 : 수급자와의 신분관계를 증명하는 서류 2. 사회복지전",
+        "officialPdfHeaderMatches": true,
+        "note": "원본과 공식 PDF의 서식명·별지번호·신청/확인 목적을 대조했으며 서로 다른 급여/관할 서식으로 볼 현저한 차이를 발견하지 못함."
+      }
+    },
+    {
+      "formId": "rule-3260263",
+      "inputFile": "national-reviewed-round2.json",
+      "metadata": {
+        "sourceKind": "rule",
+        "lawTitle": "임신ㆍ출산 진료비 등의 의료급여기준 및 방법",
+        "lawId": "2100000282172",
+        "annexId": "3260263",
+        "annexNumber": "000100",
+        "formTitle": "의료급여 임신ㆍ출산 진료비 지원(변경)신청서",
+        "regionCode": null,
+        "regionLabel": null,
+        "use": "main",
+        "condition": null,
+        "evidenceUrl": "https://www.law.go.kr/LSW/admRulInfoP.do?admRulSeq=2100000282172",
+        "evidenceNote": "현행 임신·출산 진료비 등의 의료급여기준 및 방법 제2조제1항은 의료급여 수급권자의 신청에 별지 제1호와 임신·출산 사실 증빙자료를 제출하도록 정한다. 실제 별지는 의료급여법 시행규칙 제8조의2를 인용하며 임신·출산 지원/변경 항목을 둔다. 두 프로그램의 법령·첨부서류와 일치하며 건강보험 가입자용 지급신청서와 구분했다."
+      },
+      "downloads": [
+        {
+          "formId": "rule-3260263",
+          "urlKind": "sourceUrl",
+          "requestedUrl": "https://www.law.go.kr/LSW/flDownload.do?flSeq=166976649",
+          "httpStatus": 200,
+          "bytes": 23005,
+          "sha256": "1ac7a3e743d6ba7ba5343eb25fc01a19c6cf9b040647ed99902d2b305c0693c7",
+          "mime": "application/hwp+zip;;charset=UTF-8",
+          "detectedFormat": "hwpx",
+          "validContainer": true,
+          "empty": false,
+          "htmlError": false,
+          "finalUrl": "https://www.law.go.kr/LSW/flDownload.do?flSeq=166976649",
+          "contentDisposition": "attachment; filename=\"%5B%EB%B3%84%EC%A7%80%201%5D%20%EC%9D%98%EB%A3%8C%EA%B8%89%EC%97%AC%20%EC%9E%84%EC%8B%A0%E3%86%8D%EC%B6%9C%EC%82%B0%20%EC%A7%84%EB%A3%8C%EB%B9%84%20%EC%A7%80%EC%9B%90%28%EB%B3%80%EA%B2%BD%29%EC%8B%A0%EC%B2%AD%EC%84%9C%28%EC%9E%84%EC%8B%A0%E3%86%8D%EC%B6%9C%EC%82%B0%20%EC%A7%84%EB%A3%8C%EB%B9%84%20%EB%93%B1%EC%9D%98%20%EC%9D%98%EB%A3%8C%EA%B8%89%EC%97%AC%EA%B8%B0%EC%A4%80%20%EB%B0%8F%20%EB%B0%A9%EB%B2%95%29.hwpx\"",
+          "contentLength": null,
+          "signatureHex": "504b03041400000000000000210082f0",
+          "containerMime": "application/hwp+zip",
+          "textMethod": "HWPX section XML text nodes",
+          "textLength": 1818,
+          "textTruncated": false,
+          "passed": true
+        },
+        {
+          "formId": "rule-3260263",
+          "urlKind": "officialPdfUrl",
+          "requestedUrl": "https://www.law.go.kr/LSW/flDownload.do?flSeq=166976655&bylClsCd=200203",
+          "httpStatus": 200,
+          "bytes": 100354,
+          "sha256": "fd078f602f8b87d4596f476033aefd2a8a29a300a2f3c8fb5fdc6bff4ae2b81c",
+          "mime": "application/pdf;;charset=UTF-8",
+          "detectedFormat": "pdf",
+          "validContainer": true,
+          "empty": false,
+          "htmlError": false,
+          "finalUrl": "https://www.law.go.kr/LSW/flDownload.do?flSeq=166976655&bylClsCd=200203",
+          "contentDisposition": "attachment; filename=\"%5B%EB%B3%84%EC%A7%80%201%5D%20%EC%9D%98%EB%A3%8C%EA%B8%89%EC%97%AC%20%EC%9E%84%EC%8B%A0%E3%86%8D%EC%B6%9C%EC%82%B0%20%EC%A7%84%EB%A3%8C%EB%B9%84%20%EC%A7%80%EC%9B%90%28%EB%B3%80%EA%B2%BD%29%EC%8B%A0%EC%B2%AD%EC%84%9C%28%EC%9E%84%EC%8B%A0%E3%86%8D%EC%B6%9C%EC%82%B0%20%EC%A7%84%EB%A3%8C%EB%B9%84%20%EB%93%B1%EC%9D%98%20%EC%9D%98%EB%A3%8C%EA%B8%89%EC%97%AC%EA%B8%B0%EC%A4%80%20%EB%B0%8F%20%EB%B0%A9%EB%B2%95%29.pdf\"",
+          "contentLength": null,
+          "signatureHex": "255044462d312e340a25aaabacad0a31",
+          "pages": 2,
+          "textMethod": "PyMuPDF page text extraction",
+          "textLength": 1792,
+          "textTruncated": false,
+          "passed": true
+        }
+      ],
+      "programChecks": [
+        {
+          "id": "n.gov24-SD0000012326",
+          "exists": true,
+          "jurisdictionMatches": true,
+          "name": "의료급여 (임신·출산진료비)",
+          "scope": "national",
+          "region": null,
+          "applyType": "self",
+          "applyMethod": "시군구청, 읍면동 행정복지센터에 방문하여 신청",
+          "documents": "의료급여 임신·출산 진료비 지원 신청서, 임신출산 사실 증명서\n본인 확인 필요: 해당없음\n담당 공무원이 확인: 해당없음",
+          "laws": [
+            "의료급여법 시행규칙(제8조의2)",
+            "임신·출산 진료비 등의 의료급여기준 및 방법"
+          ]
+        },
+        {
+          "id": "n.bokjiro-WLF00000061",
+          "exists": true,
+          "jurisdictionMatches": true,
+          "name": "의료급여 임신·출산 진료비 지원",
+          "scope": "national",
+          "region": null,
+          "applyType": "self",
+          "applyMethod": "거주지 읍/면/동 주민센터, 시군구 또는 복지로 웹사이트(PC/모바일앱)에서 ‘서비스 신청’\n담당 시/군/구청 또는 시군구에서 조사 및 심사\n담당 시/군/구청 또는 시군구에서 보장 결정\n담당 시/군/구청 또는 의료기관에서 대상자에게 서비스 제공\n담당 시/군/구청 또는 시군구에서 서비스 제공 이후 대상자의 상황 관리",
+          "documents": "관련 서식·안내: 의료급여 임신·출산 진료비 지원(변경)신청서.hwp, 2026 의료급여사업 안내.pdf",
+          "laws": [
+            "의료급여법 시행규칙"
+          ]
+        }
+      ],
+      "linkStructureIssues": [],
+      "manualReviewStatus": "passed",
+      "printedAnnexLabel": "[별지 제1호 서식]",
+      "majorTitleAnnexRegionMismatch": false,
+      "linkUseReview": {
+        "passed": true,
+        "note": "원본의 신청 목적·제목·조례 또는 법령 인용이 대상 사업의 명칭·documents·신청 경로와 부합한다. main/추가/조건부 구분에서 확인된 충돌 없음."
+      },
+      "metadataTextCheck": {
+        "scope": "national",
+        "sourceHeading": "[별지 제1호 서식] ※ 유의사항 및 작성방법은 뒷면을 참고하여 주시기 바라며, 바탕색이 어두운 란은 신청인이 적지 않습니다. (앞쪽) 의료급여 임신ㆍ출산 진료비 지원(변경)신청서 처리기간 3일 □ 신규(제공)신청 □ 변경(추가) 신청 ① 임산부 성명 주민등록번호 전화번호 전자우편주소 ② 영아 (진료 대상자에 영아를 추가할 경우 작성) 성명 주민등록번호 ③ 임신ㆍ출산확인서 발급기관 (의료급여기관기호) ④ 임신확인일 (임신 중 신청자만 작성) 년 월 일 ⑤ 분만예정일/유산일/출산일 년 월 일 ⑥ 다태아구분 □ 단태아 □ 다태아 ⑦ 태아수(명) ( )태아 지자체 확 인 ⑧ 주민등록지 □ 임신ㆍ출산 진료비 추가금 지급 대상 지역 □ 그 밖의 지역 ⑨ 최초 전입일 년 월 일 ⑩ 지원기간 20 . . 부터 20 . ",
+        "officialPdfHeaderMatches": true,
+        "note": "원본과 공식 PDF의 서식명·별지번호·신청/확인 목적을 대조했으며 서로 다른 급여/관할 서식으로 볼 현저한 차이를 발견하지 못함."
+      }
+    },
+    {
+      "formId": "rule-3265529",
+      "inputFile": "national-reviewed-round2.json",
+      "metadata": {
+        "sourceKind": "rule",
+        "lawTitle": "의료급여수가의 기준 및 일반기준",
+        "lawId": "2100000281444",
+        "annexId": "3265529",
+        "annexNumber": "002100",
+        "formTitle": "의료급여 틀니 대상자 등록 신청서",
+        "regionCode": null,
+        "regionLabel": null,
+        "use": "main",
+        "condition": "의료급여 틀니 대상자 등록을 신청하는 경우. 같은 프로그램에 묶인 임플란트 등록에는 별지 제27호를 사용.",
+        "evidenceUrl": "https://www.law.go.kr/LSW/admRulInfoP.do?admRulSeq=2100000281444",
+        "evidenceNote": "현행 의료급여수가의 기준 및 일반기준 제17조의3제2항이 틀니 등록을 별지 제21호로 정한다. 공식 PDF는 의료급여 틀니 신규/재등록 신청서이며 의료급여기관·담당의사 확인란과 의료급여법 제10조·시행령 제13조 인용을 확인했다. 프로그램 상세의 틀니 대상자 등록 서류와 일치하며 건강보험 틀니 경감 사업에는 연결하지 않았다."
+      },
+      "downloads": [
+        {
+          "formId": "rule-3265529",
+          "urlKind": "sourceUrl",
+          "requestedUrl": "https://www.law.go.kr/LSW/flDownload.do?flSeq=167071547",
+          "httpStatus": 200,
+          "bytes": 24926,
+          "sha256": "79d54e79273f84be6b055eb160cead3bd3fb7c9202cc0096fb1faa48df01e0af",
+          "mime": "application/hwp+zip;;charset=UTF-8",
+          "detectedFormat": "hwpx",
+          "validContainer": true,
+          "empty": false,
+          "htmlError": false,
+          "finalUrl": "https://www.law.go.kr/LSW/flDownload.do?flSeq=167071547",
+          "contentDisposition": "attachment; filename=\"%5B%EB%B3%84%EC%A7%80%2021%5D%20%EC%9D%98%EB%A3%8C%EA%B8%89%EC%97%AC%20%ED%8B%80%EB%8B%88%20%EB%8C%80%EC%83%81%EC%9E%90%20%EB%93%B1%EB%A1%9D%20%EC%8B%A0%EC%B2%AD%EC%84%9C%28%EC%9D%98%EB%A3%8C%EA%B8%89%EC%97%AC%EC%88%98%EA%B0%80%EC%9D%98%20%EA%B8%B0%EC%A4%80%20%EB%B0%8F%20%EC%9D%BC%EB%B0%98%EA%B8%B0%EC%A4%80%29.hwpx\"",
+          "contentLength": null,
+          "signatureHex": "504b03041400000000000000210082f0",
+          "containerMime": "application/hwp+zip",
+          "textMethod": "HWPX section XML text nodes",
+          "textLength": 3159,
+          "textTruncated": false,
+          "passed": true
+        },
+        {
+          "formId": "rule-3265529",
+          "urlKind": "officialPdfUrl",
+          "requestedUrl": "https://www.law.go.kr/LSW/flDownload.do?flSeq=167071553&bylClsCd=200203",
+          "httpStatus": 200,
+          "bytes": 82619,
+          "sha256": "052480d62c6d00bd74c1027fbb03e2b69d902134219d1d5b17354f7feef6e2ee",
+          "mime": "application/pdf;;charset=UTF-8",
+          "detectedFormat": "pdf",
+          "validContainer": true,
+          "empty": false,
+          "htmlError": false,
+          "finalUrl": "https://www.law.go.kr/LSW/flDownload.do?flSeq=167071553&bylClsCd=200203",
+          "contentDisposition": "attachment; filename=\"%5B%EB%B3%84%EC%A7%80%2021%5D%20%EC%9D%98%EB%A3%8C%EA%B8%89%EC%97%AC%20%ED%8B%80%EB%8B%88%20%EB%8C%80%EC%83%81%EC%9E%90%20%EB%93%B1%EB%A1%9D%20%EC%8B%A0%EC%B2%AD%EC%84%9C%28%EC%9D%98%EB%A3%8C%EA%B8%89%EC%97%AC%EC%88%98%EA%B0%80%EC%9D%98%20%EA%B8%B0%EC%A4%80%20%EB%B0%8F%20%EC%9D%BC%EB%B0%98%EA%B8%B0%EC%A4%80%29.pdf\"",
+          "contentLength": null,
+          "signatureHex": "255044462d312e340a25aaabacad0a31",
+          "pages": 2,
+          "textMethod": "PyMuPDF page text extraction",
+          "textLength": 3023,
+          "textTruncated": false,
+          "passed": true
+        }
+      ],
+      "programChecks": [
+        {
+          "id": "n.gov24-135200000002",
+          "exists": true,
+          "jurisdictionMatches": true,
+          "name": "의료급여 틀니·치과임플란트 지원",
+          "scope": "national",
+          "region": null,
+          "applyType": "self",
+          "applyMethod": "1)시군구청에 방문하여 신청 또는 2)치과(의료기관)에서 전산등록 후 시군구청에서 승인하여 대상자 등록 가능\n※ 주의사항 : 틀니나 임플란트 시술 후 소급적용을 위한 사후 등록 불가, 꼭 사전에 등록해야만 함 (시술 전에 대상자로 적합하다는 의료급여기관 및 보장기관의 판단에 따라 사전 등록한 대상자에 한하여 급여)",
+          "documents": "의료급여 틀니, 치과임플란트 대상자 등록 신청서\n본인 확인 필요: 해당없음\n담당 공무원이 확인: 해당없음",
+          "laws": [
+            "의료급여법(제10조의0, 제0항)",
+            "의료급여법 시행령(제13조의0, 제1항)"
+          ]
+        }
+      ],
+      "linkStructureIssues": [],
+      "manualReviewStatus": "passed",
+      "independentArticleCheck": {
+        "url": "https://www.law.go.kr/LSW/admRulLsInfoR.do?admRulSeq=2100000281444",
+        "found": true,
+        "excerpt": "제17조의3(틀니 및 치과임플란트에 대한 의료급여) ① 영 제13조제1항 별표 1 제1호라목 및 제2호마목에서 \"보건복지부장관이 정하여 고시하는 기준 및 방법\"이란 「요양급여의 적용기준 및 방법에 관한 세부사항」 을 말한다. ② 제1항에 따라 틀니에 대한 의료급여를 받고자 하는 수급권자는 별지 제21호서식 의 틀니 등록 신청서를 보건복지부장관이 정하는 바에 따라 시장ㆍ군수ㆍ구청장에게 제출하여야 한다. ③ 제2항에 따라 제출한 내용의 변경ㆍ해지ㆍ취소가 필요한 경우 별지 제22호서식 또는 별지 제24호서식 을 관할 시장ㆍ군수ㆍ구청장에게 제출하여야 한다. ④ 영 제13조제1항 별표 1 제1호마목 및 제2호바목에서 \"보건복지부장관이 정하여 고시하는 기준 및 방법\"이란 「요양급여의 적용기준 및 방법에 관한 세부사항」 을 말한다. ⑤ 제4항에 따라 치과임플란트에 대한 의료급여를 받고자 하는 수급권자는 별지 제27호서식 에 따른 치과임플란트 등록 신청서를 보건복지부장관이 정하는 바에 따라 시장ㆍ군수ㆍ구청장에게 제출하여야 한다. ⑥ 제5항에 따른 신청을 중지ㆍ변경ㆍ해지ㆍ취소하고자 할 경우 별지 제28호서식 에 따른 신청서를 시장ㆍ군수ㆍ구청장에게 제출하여야 한다. ⑦ 「국민건강보험법」 제5조 에 따른 건강보험가입자 또는 피부양자에서 의료급여 수급권자로 자격이 변동된 자에 대하여는 제1항부터 제3항까지의 틀니 및 제4항부터 제6항까지의 치과임플란트에 대한 등록내역 등을 연계하여 적용한다. 제17조의4(가정간호 본인일부부담) 「의료법」 제33조 및 같은 법 시행규칙 제24조 에 따른 가정간호에 대한 의료급여 시에도 영 제13조제1항 별표 1 제1호가목, 제2호가목에 따라 1종수급권자는 급여비용을 부담하지 아니하고, 2종수급권자는 급여비용의 100분의 10에 해당하는 금액을 본인이 부담한다. 제17조의5(사회복지시설의 본인일부부담) 의료급여기관에 소속된 계약의사가 시설 내에서 진료 후 사회복지시설 입소자에게 제15조제1항제5호 에 따라 원외처방전을 발행하거나 원내 직접 조제ㆍ투약한 경우에는 영 제13조 제1항 별표 1 제1호 가목 및 제2호 가목에 따라 제1차의료급여기관의 본인일부부담금을 본인이 부담한다. 다만, 1종수급권자 중 영 제13조 제1항 별표 1 제1호 다목에 해당하는 경우에는 본인일부부담금을 면제한다. 제17조의6(고위험임신부에 대한 의료급여) 영 제13조제1항 별표 1 제2호사목에서 \"보건복지부장관이 정하여 고시하는 기준 및 방법\"이란 「요양급여의 적용기준 및 방법에 관한 세부사항」 을 말한다. 제17조의7(약제비 본인일부부담) 영 제13조제1항 [ 별표1 ] 제1호바목 및 제2호아목에 따라 상급종합병원 또는 종합병원 외래진료시 약국 급여비용 총액의 100분의 97에 해당하는 금액을 기금에서 부담하는 \"보건복지부장관이 정하여 고시하는 질병\"이란 「본인일부부담 산정특례에 관한 기준」[ 별표6 ] \"약국 요양급여비용총액의 본인부담률 산정특례 대상\"과 같다. 제17조의8(임신부, 조산아와 저체중 출생아에 대한 의료급여) ① 영 제13조제1항 별표 1 제2호 자목의 \"임신부\"란 임신이 확인된 이후 임신이 유지되는 기간에 있는 사람(유산ㆍ사산으로 인한 외래진료를 받는 사람을 포함한다)을 말하며, 차목의 \"조산아와 저체중 출생아\"에 대한 의료급여의 대상과 기간은 「요양급여의 적용기준 및 방법에 관한 세부사항」 에서 정하는 바에 따른다. ② 제1항에 따른 조산아와 저체중 출생아는 의료급여기관에서 확인한 별지 제29호서식 의 의료급여2종 조산아와 저체중 출생아 등록 신청서를 보장기관에 제출한다. ③ 출생일로부터 31일 이내에 제2항의 등록을 신청한 경우에는 출생일로부터 지원하고, 31일을 초과하여 제2항의 등록을 신청한 경우에는 등록신청일로부터 최대 31일까지 소급하여 지원한다. 제17조의9(정신질환 외래진료에 대한 의료급여) ① 영 별표1 제2호 타목1)에서의 \"보건복지부장관이 정하여 고시하는 정신질환\"이란 조현병(F20∼29)을 말한다. ② 영 별표1 제1호 사목 및 제2호 카목에서의 \"보건복지부 장관이 고시하는 항정신병 장기지속형주사제\"란 Paliperidone palmitate 주사제, Risperidone 주사제, Aripiprazole 주사제를 말한다. 제17조의10(난임진료에 대한 의료급여) <2024.10.25. 삭제> 제17조의11(추나요법에 대한 의료급여) 추나요법에 대한 의료급여의 적용기준 및 방법은 「요양급여의 적용기준 및 방법에 관한 세부사항」 에 따르며, 급여비용의 부담은 영 제13조 제1항 별표 1 과 같다. 제17조의12(회송료에 대한 의료급여) 회송료에 대한 의료급여의 적용기준 및 방법은 「요양급여의 적용기준 및 방법에 관한 세부사항」 에 따른다. 이 경우 「요양급여의 적용기준 및 방법에 관한 세부사항」 중 \"2단계 요양급여를 담당하는 요양기관\"은 \"3차의료급여기관\"과 같고, \"1단계 요양급여를 담당하는 요양기관\"은 \"2차의료급여기관 또는 1차의료급여기관\"과 같다. 제17조의13(잠복결핵 치료에 대한 의료급여) 영 제13조제1항 별표 1 제1호자목 및 제2호서목에서의 \"잠복결핵 치료\"란 결핵예방법 제2조제5호 의 잠복결핵감염자가 해당 상병으로 의료급여를 받은 진료를 말한다. 제17조의14(감염병 환자에 대한 의료급여) ① 영 별표 1 제3호마목에서의 \"보건복지부장관이 정하여 고시하는 항목\"이란 코로나바이러스감염증-19(COVID-19)환자에 투여하는 Nirmatrelvir와 Ritonavir의 복합 경구제와 Remdesivir 주사제"
+      },
+      "printedAnnexLabel": "[별지 제21호서식]",
+      "majorTitleAnnexRegionMismatch": false,
+      "linkUseReview": {
+        "passed": true,
+        "note": "동일 의료급여 틀니·치과임플란트 프로그램 내 틀니용 별지 제21호를 main으로 두고 틀니 등록에 한정하는 condition이 있다. 공개 고시 제17조의3제2항 및 원본/공식 PDF와 부합하며 임플란트 서식을 추가 필수서류로 취급하지 않는다."
+      },
+      "metadataTextCheck": {
+        "scope": "national",
+        "sourceHeading": "■ 의료급여수가의 기준 및 일반기준 [별지 제21호서식] <개정 2026.1.1.> 의료급여 틀니 대상자 등록 신청서 ① ( [ ] 신규 [ ] 재등록 ) ※ 유의사항 및 작성방법은 뒷면을 참고하여 주시기 바라며, 색상이 어두운 란은 신청인이 적지 않습니다. (앞 쪽) 등록번호 상악 접수일자 하악 ② 수급권자 성명 주민등록번호 종별 주소 ( ) 휴대전화 자택전화 등록결과 ■ 문자서비스(SMS) 통보방법 ※ 의료급여기관에서 등록 결과 확인 가능 ③ 의료급여기관 확인란 상병명 사고, 발치 또는 국한성 치주병에 의한 치아상실 상병기호 K08.1 시술시작일 (신청서발급일) 확인사항 (1) 시술 부위 [ ] 상악 [ ] 하악 (2) 틀니 종류 [ ] 완전틀니 (레진상) [ ] 완전틀니 (금속상) [ ] 부분틀니 (3",
+        "officialPdfHeaderMatches": true,
+        "note": "원본과 공식 PDF의 서식명·별지번호·신청/확인 목적을 대조했으며 서로 다른 급여/관할 서식으로 볼 현저한 차이를 발견하지 못함."
+      }
+    },
+    {
+      "formId": "rule-3265541",
+      "inputFile": "national-reviewed-round2.json",
+      "metadata": {
+        "sourceKind": "rule",
+        "lawTitle": "의료급여수가의 기준 및 일반기준",
+        "lawId": "2100000281444",
+        "annexId": "3265541",
+        "annexNumber": "002700",
+        "formTitle": "의료급여 치과임플란트 대상자 등록 신청서(신규, 재등록)",
+        "regionCode": null,
+        "regionLabel": null,
+        "use": "main",
+        "condition": "의료급여 치과임플란트 대상자 등록을 신청하는 경우. 같은 프로그램에 묶인 틀니 등록에는 별지 제21호를 사용.",
+        "evidenceUrl": "https://www.law.go.kr/LSW/admRulInfoP.do?admRulSeq=2100000281444",
+        "evidenceNote": "현행 의료급여수가의 기준 및 일반기준 제17조의3제5항이 치과임플란트 등록을 별지 제27호로 정한다. 공식 PDF의 의료급여 치과임플란트 신규/재등록 선택, 시술치식·의료급여기관 확인란을 대조했다. 프로그램 상세의 치과임플란트 등록 서류와 일치하며 변경·해지·취소용 별지 제28호를 주신청서로 사용하지 않았다."
+      },
+      "downloads": [
+        {
+          "formId": "rule-3265541",
+          "urlKind": "sourceUrl",
+          "requestedUrl": "https://www.law.go.kr/LSW/flDownload.do?flSeq=167071585",
+          "httpStatus": 200,
+          "bytes": 22194,
+          "sha256": "3cc83903087143bd604cad86fb4b26b00b7964e421a4468cc433db7e78d2d740",
+          "mime": "application/hwp+zip;;charset=UTF-8",
+          "detectedFormat": "hwpx",
+          "validContainer": true,
+          "empty": false,
+          "htmlError": false,
+          "finalUrl": "https://www.law.go.kr/LSW/flDownload.do?flSeq=167071585",
+          "contentDisposition": "attachment; filename=\"%5B%EB%B3%84%EC%A7%80%2027%5D%20%EC%9D%98%EB%A3%8C%EA%B8%89%EC%97%AC%20%EC%B9%98%EA%B3%BC%EC%9E%84%ED%94%8C%EB%9E%80%ED%8A%B8%20%EB%8C%80%EC%83%81%EC%9E%90%20%EB%93%B1%EB%A1%9D%20%EC%8B%A0%EC%B2%AD%EC%84%9C%28%EC%8B%A0%EA%B7%9C%C2%B8%20%EC%9E%AC%EB%93%B1%EB%A1%9D%29%28%EC%9D%98%EB%A3%8C%EA%B8%89%EC%97%AC%EC%88%98%EA%B0%80%EC%9D%98%20%EA%B8%B0%EC%A4%80%20%EB%B0%8F%20%EC%9D%BC%EB%B0%98%EA%B8%B0%EC%A4%80%29.hwpx\"",
+          "contentLength": null,
+          "signatureHex": "504b03041400000000000000210082f0",
+          "containerMime": "application/hwp+zip",
+          "textMethod": "HWPX section XML text nodes",
+          "textLength": 2552,
+          "textTruncated": false,
+          "passed": true
+        },
+        {
+          "formId": "rule-3265541",
+          "urlKind": "officialPdfUrl",
+          "requestedUrl": "https://www.law.go.kr/LSW/flDownload.do?flSeq=167071591&bylClsCd=200203",
+          "httpStatus": 200,
+          "bytes": 75194,
+          "sha256": "b46f460cb4b4f578ba4025a212076b8812be09e76bf73d3463e1f0687a0a5317",
+          "mime": "application/pdf;;charset=UTF-8",
+          "detectedFormat": "pdf",
+          "validContainer": true,
+          "empty": false,
+          "htmlError": false,
+          "finalUrl": "https://www.law.go.kr/LSW/flDownload.do?flSeq=167071591&bylClsCd=200203",
+          "contentDisposition": "attachment; filename=\"%5B%EB%B3%84%EC%A7%80%2027%5D%20%EC%9D%98%EB%A3%8C%EA%B8%89%EC%97%AC%20%EC%B9%98%EA%B3%BC%EC%9E%84%ED%94%8C%EB%9E%80%ED%8A%B8%20%EB%8C%80%EC%83%81%EC%9E%90%20%EB%93%B1%EB%A1%9D%20%EC%8B%A0%EC%B2%AD%EC%84%9C%28%EC%8B%A0%EA%B7%9C%C2%B8%20%EC%9E%AC%EB%93%B1%EB%A1%9D%29%28%EC%9D%98%EB%A3%8C%EA%B8%89%EC%97%AC%EC%88%98%EA%B0%80%EC%9D%98%20%EA%B8%B0%EC%A4%80%20%EB%B0%8F%20%EC%9D%BC%EB%B0%98%EA%B8%B0%EC%A4%80%29.pdf\"",
+          "contentLength": null,
+          "signatureHex": "255044462d312e340a25aaabacad0a31",
+          "pages": 2,
+          "textMethod": "PyMuPDF page text extraction",
+          "textLength": 2425,
+          "textTruncated": false,
+          "passed": true
+        }
+      ],
+      "programChecks": [
+        {
+          "id": "n.gov24-135200000002",
+          "exists": true,
+          "jurisdictionMatches": true,
+          "name": "의료급여 틀니·치과임플란트 지원",
+          "scope": "national",
+          "region": null,
+          "applyType": "self",
+          "applyMethod": "1)시군구청에 방문하여 신청 또는 2)치과(의료기관)에서 전산등록 후 시군구청에서 승인하여 대상자 등록 가능\n※ 주의사항 : 틀니나 임플란트 시술 후 소급적용을 위한 사후 등록 불가, 꼭 사전에 등록해야만 함 (시술 전에 대상자로 적합하다는 의료급여기관 및 보장기관의 판단에 따라 사전 등록한 대상자에 한하여 급여)",
+          "documents": "의료급여 틀니, 치과임플란트 대상자 등록 신청서\n본인 확인 필요: 해당없음\n담당 공무원이 확인: 해당없음",
+          "laws": [
+            "의료급여법(제10조의0, 제0항)",
+            "의료급여법 시행령(제13조의0, 제1항)"
+          ]
+        }
+      ],
+      "linkStructureIssues": [],
+      "manualReviewStatus": "passed",
+      "independentArticleCheck": {
+        "url": "https://www.law.go.kr/LSW/admRulLsInfoR.do?admRulSeq=2100000281444",
+        "found": true,
+        "excerpt": "제17조의3(틀니 및 치과임플란트에 대한 의료급여) ① 영 제13조제1항 별표 1 제1호라목 및 제2호마목에서 \"보건복지부장관이 정하여 고시하는 기준 및 방법\"이란 「요양급여의 적용기준 및 방법에 관한 세부사항」 을 말한다. ② 제1항에 따라 틀니에 대한 의료급여를 받고자 하는 수급권자는 별지 제21호서식 의 틀니 등록 신청서를 보건복지부장관이 정하는 바에 따라 시장ㆍ군수ㆍ구청장에게 제출하여야 한다. ③ 제2항에 따라 제출한 내용의 변경ㆍ해지ㆍ취소가 필요한 경우 별지 제22호서식 또는 별지 제24호서식 을 관할 시장ㆍ군수ㆍ구청장에게 제출하여야 한다. ④ 영 제13조제1항 별표 1 제1호마목 및 제2호바목에서 \"보건복지부장관이 정하여 고시하는 기준 및 방법\"이란 「요양급여의 적용기준 및 방법에 관한 세부사항」 을 말한다. ⑤ 제4항에 따라 치과임플란트에 대한 의료급여를 받고자 하는 수급권자는 별지 제27호서식 에 따른 치과임플란트 등록 신청서를 보건복지부장관이 정하는 바에 따라 시장ㆍ군수ㆍ구청장에게 제출하여야 한다. ⑥ 제5항에 따른 신청을 중지ㆍ변경ㆍ해지ㆍ취소하고자 할 경우 별지 제28호서식 에 따른 신청서를 시장ㆍ군수ㆍ구청장에게 제출하여야 한다. ⑦ 「국민건강보험법」 제5조 에 따른 건강보험가입자 또는 피부양자에서 의료급여 수급권자로 자격이 변동된 자에 대하여는 제1항부터 제3항까지의 틀니 및 제4항부터 제6항까지의 치과임플란트에 대한 등록내역 등을 연계하여 적용한다. 제17조의4(가정간호 본인일부부담) 「의료법」 제33조 및 같은 법 시행규칙 제24조 에 따른 가정간호에 대한 의료급여 시에도 영 제13조제1항 별표 1 제1호가목, 제2호가목에 따라 1종수급권자는 급여비용을 부담하지 아니하고, 2종수급권자는 급여비용의 100분의 10에 해당하는 금액을 본인이 부담한다. 제17조의5(사회복지시설의 본인일부부담) 의료급여기관에 소속된 계약의사가 시설 내에서 진료 후 사회복지시설 입소자에게 제15조제1항제5호 에 따라 원외처방전을 발행하거나 원내 직접 조제ㆍ투약한 경우에는 영 제13조 제1항 별표 1 제1호 가목 및 제2호 가목에 따라 제1차의료급여기관의 본인일부부담금을 본인이 부담한다. 다만, 1종수급권자 중 영 제13조 제1항 별표 1 제1호 다목에 해당하는 경우에는 본인일부부담금을 면제한다. 제17조의6(고위험임신부에 대한 의료급여) 영 제13조제1항 별표 1 제2호사목에서 \"보건복지부장관이 정하여 고시하는 기준 및 방법\"이란 「요양급여의 적용기준 및 방법에 관한 세부사항」 을 말한다. 제17조의7(약제비 본인일부부담) 영 제13조제1항 [ 별표1 ] 제1호바목 및 제2호아목에 따라 상급종합병원 또는 종합병원 외래진료시 약국 급여비용 총액의 100분의 97에 해당하는 금액을 기금에서 부담하는 \"보건복지부장관이 정하여 고시하는 질병\"이란 「본인일부부담 산정특례에 관한 기준」[ 별표6 ] \"약국 요양급여비용총액의 본인부담률 산정특례 대상\"과 같다. 제17조의8(임신부, 조산아와 저체중 출생아에 대한 의료급여) ① 영 제13조제1항 별표 1 제2호 자목의 \"임신부\"란 임신이 확인된 이후 임신이 유지되는 기간에 있는 사람(유산ㆍ사산으로 인한 외래진료를 받는 사람을 포함한다)을 말하며, 차목의 \"조산아와 저체중 출생아\"에 대한 의료급여의 대상과 기간은 「요양급여의 적용기준 및 방법에 관한 세부사항」 에서 정하는 바에 따른다. ② 제1항에 따른 조산아와 저체중 출생아는 의료급여기관에서 확인한 별지 제29호서식 의 의료급여2종 조산아와 저체중 출생아 등록 신청서를 보장기관에 제출한다. ③ 출생일로부터 31일 이내에 제2항의 등록을 신청한 경우에는 출생일로부터 지원하고, 31일을 초과하여 제2항의 등록을 신청한 경우에는 등록신청일로부터 최대 31일까지 소급하여 지원한다. 제17조의9(정신질환 외래진료에 대한 의료급여) ① 영 별표1 제2호 타목1)에서의 \"보건복지부장관이 정하여 고시하는 정신질환\"이란 조현병(F20∼29)을 말한다. ② 영 별표1 제1호 사목 및 제2호 카목에서의 \"보건복지부 장관이 고시하는 항정신병 장기지속형주사제\"란 Paliperidone palmitate 주사제, Risperidone 주사제, Aripiprazole 주사제를 말한다. 제17조의10(난임진료에 대한 의료급여) <2024.10.25. 삭제> 제17조의11(추나요법에 대한 의료급여) 추나요법에 대한 의료급여의 적용기준 및 방법은 「요양급여의 적용기준 및 방법에 관한 세부사항」 에 따르며, 급여비용의 부담은 영 제13조 제1항 별표 1 과 같다. 제17조의12(회송료에 대한 의료급여) 회송료에 대한 의료급여의 적용기준 및 방법은 「요양급여의 적용기준 및 방법에 관한 세부사항」 에 따른다. 이 경우 「요양급여의 적용기준 및 방법에 관한 세부사항」 중 \"2단계 요양급여를 담당하는 요양기관\"은 \"3차의료급여기관\"과 같고, \"1단계 요양급여를 담당하는 요양기관\"은 \"2차의료급여기관 또는 1차의료급여기관\"과 같다. 제17조의13(잠복결핵 치료에 대한 의료급여) 영 제13조제1항 별표 1 제1호자목 및 제2호서목에서의 \"잠복결핵 치료\"란 결핵예방법 제2조제5호 의 잠복결핵감염자가 해당 상병으로 의료급여를 받은 진료를 말한다. 제17조의14(감염병 환자에 대한 의료급여) ① 영 별표 1 제3호마목에서의 \"보건복지부장관이 정하여 고시하는 항목\"이란 코로나바이러스감염증-19(COVID-19)환자에 투여하는 Nirmatrelvir와 Ritonavir의 복합 경구제와 Remdesivir 주사제"
+      },
+      "printedAnnexLabel": "[별지 제27호서식]",
+      "majorTitleAnnexRegionMismatch": false,
+      "linkUseReview": {
+        "passed": true,
+        "note": "동일 의료급여 틀니·치과임플란트 프로그램 내 임플란트용 별지 제27호를 main으로 두고 임플란트 등록에 한정하는 condition이 있다. 공개 고시 제17조의3제5항 및 원본/공식 PDF와 부합하며 틀니 서식을 추가 필수서류로 취급하지 않는다."
+      },
+      "metadataTextCheck": {
+        "scope": "national",
+        "sourceHeading": "■ 의료급여수가의 기준 및 일반기준 [별지 제27호서식] <개정 2026.1.1.> 의료급여 치과임플란트 대상자 등록 신청서 ① ( [ ] 신규 [ ] 재등록 ) ※ 유의사항 및 작성방법은 뒷면을 참고하여 주시기 바라며, 색상이 어두운 란은 신청인이 적지 않습니다. (앞 쪽) 등록번호 접수일자 ②수급권자 성명 주민등록번호 종별 주소 ( ) 전화번호 ③ 의료 급여 기관 확인란 상병명 사고, 발치 또는 국한성 치주병에 의한 치아상실 상병기호 K08.1 시술시작일 치식번호 * 치식번호: 우상(11~18), 좌상(21~28), 좌하(31~38), 우하(41~48) 보철재료 [ ] 비귀금속도재관(PFM Crown) [ ] 지르코니아 크라운 재등록 ※재등록시에만 작성합니다. 재등록 구분 의료급여기관 구분 재등록 시술 ",
+        "officialPdfHeaderMatches": true,
+        "note": "원본과 공식 PDF의 서식명·별지번호·신청/확인 목적을 대조했으며 서로 다른 급여/관할 서식으로 볼 현저한 차이를 발견하지 못함."
+      }
+    },
+    {
+      "formId": "ordin-19998995",
+      "inputFile": "municipal-reviewed-round2.json",
+      "metadata": {
+        "sourceKind": "ordin",
+        "lawTitle": "인천광역시 계양구 장수축하금 지급에 관한 조례",
+        "lawId": "1833043",
+        "annexId": "19998995",
+        "annexNumber": "000100",
+        "formTitle": "[별지 제1호서식] 장수축하금 지급 신청서",
+        "regionCode": "28245",
+        "regionLabel": "인천광역시 계양구",
+        "use": "main",
+        "condition": null,
+        "evidenceUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=1833043",
+        "evidenceNote": "제5조제1항은 장수축하금을 받으려는 사람이 별지 제1호 신청서를 주소지 동장에게 제출하도록 지정한다. 원본 HWP의 지급대상자·전입일·지급계좌와 동일 조례 제5조 인용 및 계양구청장 수신처를 확인했다. 사업 documents에도 같은 제1호 신청서가 명시되어 있다. 제2호 위임장은 대리신청 시 조건부 서류이고 제3호 명부는 행정용이므로 주 신청서로 연결하지 않았다."
+      },
+      "downloads": [
+        {
+          "formId": "ordin-19998995",
+          "urlKind": "sourceUrl",
+          "requestedUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=152228691&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C1%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EC%9E%A5%EC%88%98%EC%B6%95%ED%95%98%EA%B8%88+%EC%A7%80%EA%B8%89+%EC%8B%A0%EC%B2%AD%EC%84%9C",
+          "httpStatus": 200,
+          "bytes": 17920,
+          "sha256": "742f268d6abfb71cfb0ef9f8751c07eb913d7d6720782f0edd3d30317acffccc",
+          "mime": "application/hwp;;charset=UTF-8",
+          "detectedFormat": "hwp",
+          "validContainer": true,
+          "empty": false,
+          "htmlError": false,
+          "finalUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=152228691&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C1%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EC%9E%A5%EC%88%98%EC%B6%95%ED%95%98%EA%B8%88+%EC%A7%80%EA%B8%89+%EC%8B%A0%EC%B2%AD%EC%84%9C",
+          "contentDisposition": "attachment; filename=\"%5B%EB%B3%84%EC%A7%80%20%EC%A0%9C1%ED%98%B8%EC%84%9C%EC%8B%9D%5D%20%EC%9E%A5%EC%88%98%EC%B6%95%ED%95%98%EA%B8%88%20%EC%A7%80%EA%B8%89%20%EC%8B%A0%EC%B2%AD%EC%84%9C%28%EC%9D%B8%EC%B2%9C%EA%B4%91%EC%97%AD%EC%8B%9C%20%EA%B3%84%EC%96%91%EA%B5%AC%20%EC%9E%A5%EC%88%98%EC%B6%95%ED%95%98%EA%B8%88%20%EC%A7%80%EA%B8%89%EC%97%90%20%EA%B4%80%ED%95%9C%20%EC%A1%B0%EB%A1%80%29.hwp\"",
+          "contentLength": null,
+          "signatureHex": "d0cf11e0a1b11ae10000000000000000",
+          "textMethod": "HWP BodyText paragraph records with 8-unit inline/extended controls excluded",
+          "textLength": 714,
+          "textTruncated": false,
+          "passed": true
+        }
+      ],
+      "programChecks": [
+        {
+          "id": "g28245.bokjiro-WLF00005321",
+          "exists": true,
+          "jurisdictionMatches": true,
+          "name": "장수축하금",
+          "scope": "sigungu",
+          "region": {
+            "sido": "28000",
+            "sigungu": "28245",
+            "label": "인천 계양구"
+          },
+          "applyType": "self",
+          "applyMethod": "장수어르신 주소지 관할 동 행정복지센터에 방문 신청(대상자가 고령인 점을 감안해 장수어르신 본인이 요청할 경우 방문하여 접수)",
+          "documents": "관련 서식·안내: 인천광역시 계양구 장수축하금 지급에 관한 조례.pdf, [별지 제2호서식] 장수축하금 지급신청 위임장.hwp, [별지 제1호서식] 장수축하금 지급 신청서.hwp",
+          "laws": [
+            "인천광역시 계양구 장수축하금 지급에 관한 조례"
+          ]
+        }
+      ],
+      "linkStructureIssues": [],
+      "manualReviewStatus": "passed",
+      "officialAttachmentCheck": {
+        "bodyUrl": "https://www.law.go.kr/LSW/ordinInfoR.do?ordinSeq=1833043&gubun=ELIS&chrClsCd=010202",
+        "annexIdFound": true,
+        "downloadSeqFound": true
+      },
+      "metadataTextCheck": {
+        "regionTextFound": true,
+        "sourceHeading": "[별지 제1호서식]\n\n\n\n장수축하금 지급 신청서\n\n 지급\n\n대상자\n\n성     명\n\n생년월일\n\n주  소\n\n                             (전화 :         )\n\n전입일\n\n   년    월    일 \n\n (거주기간 :                )      \n\n※담당 공무원\n\n 확인 후 기재\n\n지급계좌\n\n예 금 주\n\n은행명\n\n계좌번호\n\n「인천광역시 계양구 장수축하금 지급에 관한 조례」제5조에 따라 위와 같이 장수축하금 지급을 신청합니다.",
+        "note": "문서 본문 제목 및 지자체 인용 대조. annexNumber는 법령 데이터의 별표번호로, 인쇄된 별지 제n호와 동일한 숫자라는 가정은 하지 않음."
+      },
+      "printedAnnexLabel": "[별지 제1호서식]",
+      "majorTitleAnnexRegionMismatch": false,
+      "linkUseReview": {
+        "passed": true,
+        "note": "원본의 신청 목적·제목·조례 또는 법령 인용이 대상 사업의 명칭·documents·신청 경로와 부합한다. main/추가/조건부 구분에서 확인된 충돌 없음."
+      }
+    },
+    {
+      "formId": "ordin-18360043",
+      "inputFile": "municipal-reviewed-round2.json",
+      "metadata": {
+        "sourceKind": "ordin",
+        "lawTitle": "의령군 장수축하금 지급 조례",
+        "lawId": "1821643",
+        "annexId": "18360043",
+        "annexNumber": "000100",
+        "formTitle": "[별지 제1호서식] 장수축하금 지급 신청서",
+        "regionCode": "48720",
+        "regionLabel": "경상남도 의령군",
+        "use": "main",
+        "condition": null,
+        "evidenceUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=1821643",
+        "evidenceNote": "제6조제1항은 장수축하금을 받으려는 사람이 별지 제1호 장수축하금 지급 신청서를 읍·면장에게 제출하도록 정한다. 사업 documents가 같은 제1호 신청서를 명시하며, 원본 HWP의 지급대상자·가족상황·지급계좌 및 의령군 조례 제6조제1항 인용을 확인했다. 제2호 위임장과 제3호 지급대상자 관리대장을 주 신청서에서 제외했다."
+      },
+      "downloads": [
+        {
+          "formId": "ordin-18360043",
+          "urlKind": "sourceUrl",
+          "requestedUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=143282873&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C1%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EC%9E%A5%EC%88%98%EC%B6%95%ED%95%98%EA%B8%88+%EC%A7%80%EA%B8%89+%EC%8B%A0%EC%B2%AD%EC%84%9C",
+          "httpStatus": 200,
+          "bytes": 17408,
+          "sha256": "37311f43865257ef1070d064a60e5a4baed8d8f54719ac5c80d2f950f1d216e9",
+          "mime": "application/hwp;;charset=UTF-8",
+          "detectedFormat": "hwp",
+          "validContainer": true,
+          "empty": false,
+          "htmlError": false,
+          "finalUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=143282873&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C1%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EC%9E%A5%EC%88%98%EC%B6%95%ED%95%98%EA%B8%88+%EC%A7%80%EA%B8%89+%EC%8B%A0%EC%B2%AD%EC%84%9C",
+          "contentDisposition": "attachment; filename=\"%5B%EB%B3%84%EC%A7%80%20%EC%A0%9C1%ED%98%B8%EC%84%9C%EC%8B%9D%5D%20%EC%9E%A5%EC%88%98%EC%B6%95%ED%95%98%EA%B8%88%20%EC%A7%80%EA%B8%89%20%EC%8B%A0%EC%B2%AD%EC%84%9C%28%EC%9D%98%EB%A0%B9%EA%B5%B0%20%EC%9E%A5%EC%88%98%EC%B6%95%ED%95%98%EA%B8%88%20%EC%A7%80%EA%B8%89%20%EC%A1%B0%EB%A1%80%29.hwp\"",
+          "contentLength": null,
+          "signatureHex": "d0cf11e0a1b11ae10000000000000000",
+          "textMethod": "HWP BodyText paragraph records with 8-unit inline/extended controls excluded",
+          "textLength": 584,
+          "textTruncated": false,
+          "passed": true
+        }
+      ],
+      "programChecks": [
+        {
+          "id": "g48720.bokjiro-WLF00005690",
+          "exists": true,
+          "jurisdictionMatches": true,
+          "name": "장수축하금 지급",
+          "scope": "sigungu",
+          "region": {
+            "sido": "48000",
+            "sigungu": "48720",
+            "label": "경남 의령군"
+          },
+          "applyType": "self",
+          "applyMethod": "지급 신청서를 주소지 관할 읍·면장에게 제출",
+          "documents": "관련 서식·안내: [별지 제1호서식] 장수축하금 지급 신청서.hwp",
+          "laws": [
+            "의령군 장수축하금 지급 조례"
+          ]
+        }
+      ],
+      "linkStructureIssues": [],
+      "manualReviewStatus": "passed",
+      "officialAttachmentCheck": {
+        "bodyUrl": "https://www.law.go.kr/LSW/ordinInfoR.do?ordinSeq=1821643&gubun=ELIS&chrClsCd=010202",
+        "annexIdFound": true,
+        "downloadSeqFound": true
+      },
+      "metadataTextCheck": {
+        "regionTextFound": true,
+        "sourceHeading": "[별지 제1호서식]\n\n\n\n장수축하금 지급 신청서\n\n① 지  급\n\n   대상자\n\n성     명\n\n생년월일\n\n주     소\n\n                             (전화 :         )\n\n② 가족상황\n\n본인과의 \n\n관    계\n\n성    명\n\n생년 월일\n\n동거여부\n\n직   업\n\n③ 지급계좌\n\n예 금 주\n\n은행명\n\n계좌번호\n\n  「의령군 장수축하금 지급 조례」 제6조제1항에 따라 위와 같이 장수축하금 지급을 신청합니다.\n\n년      월      ",
+        "note": "문서 본문 제목 및 지자체 인용 대조. annexNumber는 법령 데이터의 별표번호로, 인쇄된 별지 제n호와 동일한 숫자라는 가정은 하지 않음."
+      },
+      "printedAnnexLabel": "[별지 제1호서식]",
+      "majorTitleAnnexRegionMismatch": false,
+      "linkUseReview": {
+        "passed": true,
+        "note": "원본의 신청 목적·제목·조례 또는 법령 인용이 대상 사업의 명칭·documents·신청 경로와 부합한다. main/추가/조건부 구분에서 확인된 충돌 없음."
+      }
+    },
+    {
+      "formId": "ordin-20659845",
+      "inputFile": "municipal-reviewed-round2.json",
+      "metadata": {
+        "sourceKind": "ordin",
+        "lawTitle": "대구광역시 달성군 장수축하금 지급 조례",
+        "lawId": "1890913",
+        "annexId": "20659845",
+        "annexNumber": "000100",
+        "formTitle": "[별지 제1호서식] 장수축하금 지급신청서",
+        "regionCode": "27710",
+        "regionLabel": "대구광역시 달성군",
+        "use": "main",
+        "condition": null,
+        "evidenceUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=1890913",
+        "evidenceNote": "제6조제1항은 장수축하금 신청자가 별지 제1호 신청서를 주소지 읍·면장에게 제출하도록 정한다. 원본 HWP에 지급대상자·가족상황·상품 또는 현금 신청 구분 및 달성군 조례 제6조 인용이 있다. 사업의 100세 장수노인 축하금 목적 및 읍·면 신청 경로가 일치한다. 제9조의 별지 제2호서식 관리대장은 행정용이므로 제외했다."
+      },
+      "downloads": [
+        {
+          "formId": "ordin-20659845",
+          "urlKind": "sourceUrl",
+          "requestedUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=154783705&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C1%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EC%9E%A5%EC%88%98%EC%B6%95%ED%95%98%EA%B8%88+%EC%A7%80%EA%B8%89%EC%8B%A0%EC%B2%AD%EC%84%9C",
+          "httpStatus": 200,
+          "bytes": 80384,
+          "sha256": "458687cb7a3230cf888dcfefd3918f9dfac2ed9991b3ef61842c333dd7506cb6",
+          "mime": "application/hwp;;charset=UTF-8",
+          "detectedFormat": "hwp",
+          "validContainer": true,
+          "empty": false,
+          "htmlError": false,
+          "finalUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=154783705&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C1%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EC%9E%A5%EC%88%98%EC%B6%95%ED%95%98%EA%B8%88+%EC%A7%80%EA%B8%89%EC%8B%A0%EC%B2%AD%EC%84%9C",
+          "contentDisposition": "attachment; filename=\"%5B%EB%B3%84%EC%A7%80%20%EC%A0%9C1%ED%98%B8%EC%84%9C%EC%8B%9D%5D%20%EC%9E%A5%EC%88%98%EC%B6%95%ED%95%98%EA%B8%88%20%EC%A7%80%EA%B8%89%EC%8B%A0%EC%B2%AD%EC%84%9C%28%EB%8C%80%EA%B5%AC%EA%B4%91%EC%97%AD%EC%8B%9C%20%EB%8B%AC%EC%84%B1%EA%B5%B0%20%EC%9E%A5%EC%88%98%EC%B6%95%ED%95%98%EA%B8%88%20%EC%A7%80%EA%B8%89%20%EC%A1%B0%EB%A1%80%29.hwp\"",
+          "contentLength": null,
+          "signatureHex": "d0cf11e0a1b11ae10000000000000000",
+          "textMethod": "HWP BodyText paragraph records with 8-unit inline/extended controls excluded",
+          "textLength": 463,
+          "textTruncated": false,
+          "passed": true
+        }
+      ],
+      "programChecks": [
+        {
+          "id": "g27710.gov24-348000000361",
+          "exists": true,
+          "jurisdictionMatches": true,
+          "name": "장수축하금 지원",
+          "scope": "sigungu",
+          "region": {
+            "sido": "27000",
+            "sigungu": "27710",
+            "label": "대구 달성군"
+          },
+          "applyType": "self",
+          "applyMethod": "○ 방문 신청\n- 주민센터 : 거주지 관할 주민센터에 방문 신청",
+          "documents": "신청서, 주민등록초본, 대상자 신분증 및 통장 사본, 위임장(필요시)\n본인 확인 필요: 해당없음\n담당 공무원이 확인: 해당없음",
+          "laws": [
+            "대구광역시 달성군 장수축하금 지급 조례"
+          ]
+        }
+      ],
+      "linkStructureIssues": [],
+      "manualReviewStatus": "passed",
+      "officialAttachmentCheck": {
+        "bodyUrl": "https://www.law.go.kr/LSW/ordinInfoR.do?ordinSeq=1890913&gubun=ELIS&chrClsCd=010202",
+        "annexIdFound": true,
+        "downloadSeqFound": true
+      },
+      "metadataTextCheck": {
+        "regionTextFound": true,
+        "sourceHeading": "[별지 제1호서식] (개정 2014.7.10)\n\n\n\n장수축하금 지급신청서\n\n지급대상자\n\n성  명\n\n생년월일\n\n주  소\n\n                          (전화 :            )\n\n가족상황\n\n대상자와의 관      계\n\n성  명\n\n생년월일\n\n동거여부\n\n직  업\n\n신청내용\n\n상품명(상품신청시)\n\n현  금\n\n신청시\n\n예금주\n\n은행명\n\n계좌번호\n\n  「대구광역시 달성군 장수축하금 지급 조례」제6조의 규정에 의하여\n\n 위와 같이 장수축하금 지급을 ",
+        "note": "문서 본문 제목 및 지자체 인용 대조. annexNumber는 법령 데이터의 별표번호로, 인쇄된 별지 제n호와 동일한 숫자라는 가정은 하지 않음."
+      },
+      "printedAnnexLabel": "[별지 제1호서식]",
+      "majorTitleAnnexRegionMismatch": false,
+      "linkUseReview": {
+        "passed": true,
+        "note": "원본의 신청 목적·제목·조례 또는 법령 인용이 대상 사업의 명칭·documents·신청 경로와 부합한다. main/추가/조건부 구분에서 확인된 충돌 없음."
+      }
+    },
+    {
+      "formId": "ordin-18834939",
+      "inputFile": "municipal-reviewed-round2.json",
+      "metadata": {
+        "sourceKind": "ordin",
+        "lawTitle": "울산광역시 울주군 장수축하물품 지급에 관한 조례",
+        "lawId": "1989547",
+        "annexId": "18834939",
+        "annexNumber": "000100",
+        "formTitle": "[별지 제1호서식] 장수축하물품 지급 신청서",
+        "regionCode": "31710",
+        "regionLabel": "울산광역시 울주군",
+        "use": "main",
+        "condition": null,
+        "evidenceUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=1989547",
+        "evidenceNote": "제6조제2항은 신청하는 장수어르신에게 별지 제1호 신청서를 관할 행정복지센터로 제출하도록 정한다. 원본 HWPX에 지급대상자·신청내용·같은 울주군 조례 제6조 인용 및 울주군수 수신처가 있다. 사업의 100세 이상 어르신 장수축하물품 목적과 동일하다. 제2호 위임장과 제3호 지급현황 서식은 주 신청서에서 제외했다."
+      },
+      "downloads": [
+        {
+          "formId": "ordin-18834939",
+          "urlKind": "sourceUrl",
+          "requestedUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=146067903&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C1%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EC%9E%A5%EC%88%98%EC%B6%95%ED%95%98%EB%AC%BC%ED%92%88+%EC%A7%80%EA%B8%89+%EC%8B%A0%EC%B2%AD%EC%84%9C",
+          "httpStatus": 200,
+          "bytes": 53359,
+          "sha256": "77b91b2459e145504448f49a59b2c0d23303d1a4844821ae4bac936232921311",
+          "mime": "application/hwp+zip;;charset=UTF-8",
+          "detectedFormat": "hwpx",
+          "validContainer": true,
+          "empty": false,
+          "htmlError": false,
+          "finalUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=146067903&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C1%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EC%9E%A5%EC%88%98%EC%B6%95%ED%95%98%EB%AC%BC%ED%92%88+%EC%A7%80%EA%B8%89+%EC%8B%A0%EC%B2%AD%EC%84%9C",
+          "contentDisposition": "attachment; filename=\"%5B%EB%B3%84%EC%A7%80%20%EC%A0%9C1%ED%98%B8%EC%84%9C%EC%8B%9D%5D%20%EC%9E%A5%EC%88%98%EC%B6%95%ED%95%98%EB%AC%BC%ED%92%88%20%EC%A7%80%EA%B8%89%20%EC%8B%A0%EC%B2%AD%EC%84%9C%28%EC%9A%B8%EC%82%B0%EA%B4%91%EC%97%AD%EC%8B%9C%20%EC%9A%B8%EC%A3%BC%EA%B5%B0%20%EC%9E%A5%EC%88%98%EC%B6%95%ED%95%98%EB%AC%BC%ED%92%88%20%EC%A7%80%EA%B8%89%EC%97%90%20%EA%B4%80%ED%95%9C%20%EC%A1%B0%EB%A1%80%29.hwpx\"",
+          "contentLength": null,
+          "signatureHex": "504b03041400000000000000210082f0",
+          "containerMime": "application/hwp+zip",
+          "textMethod": "HWPX section XML text nodes",
+          "textLength": 1834,
+          "textTruncated": false,
+          "passed": true
+        }
+      ],
+      "programChecks": [
+        {
+          "id": "g31710.bokjiro-WLF00005973",
+          "exists": true,
+          "jurisdictionMatches": true,
+          "name": "장수축하물품 지급",
+          "scope": "sigungu",
+          "region": {
+            "sido": "31000",
+            "sigungu": "31710",
+            "label": "울산 울주군"
+          },
+          "applyType": "self",
+          "applyMethod": "지원대상 : 관내 1년 이상 주민등록 및 실거주하는 주민등록상 100세 이상 장수어르신신청방법 : 주민등록상 100세가 되는 날부터 1년 이내 읍면 행정복지센터에서 신청지원내용 : 50만원 이내 장수축하물품 지급 (생애 1회 한)",
+          "documents": "관련 서식·안내: 울산광역시 울주군 장수축하물품 지급에 관한 조례.hwp",
+          "laws": [
+            "울산광역시 울주군 장수축하물품 지급에 관한 조례"
+          ]
+        }
+      ],
+      "linkStructureIssues": [],
+      "manualReviewStatus": "passed",
+      "officialAttachmentCheck": {
+        "bodyUrl": "https://www.law.go.kr/LSW/ordinInfoR.do?ordinSeq=1989547&gubun=ELIS&chrClsCd=010202",
+        "annexIdFound": true,
+        "downloadSeqFound": true
+      },
+      "metadataTextCheck": {
+        "regionTextFound": true,
+        "sourceHeading": "【별지 제1호서식】\n장수축하물품 지급 신청서\n지급대상자\n성     명\n생년월일\n주     소\n                             (전화 :                )\n신청내용\n「울산광역시 울주군 장수축하물품 지급에 관한 조례」 제6조에 따라 \n위와 같이 장수축하물품 지급을 신청합니다.\n제출서류\n (대리 신청 시) 신분증, 별지 제2호서식\n신청시\n유의사항\n※ 지급 제외\n \n- 장수어르신이 신청일 또는 지급일 기준으로 사망하거나 전출 또는 주민등",
+        "note": "문서 본문 제목 및 지자체 인용 대조. annexNumber는 법령 데이터의 별표번호로, 인쇄된 별지 제n호와 동일한 숫자라는 가정은 하지 않음."
+      },
+      "printedAnnexLabel": "【별지 제1호서식】",
+      "majorTitleAnnexRegionMismatch": false,
+      "linkUseReview": {
+        "passed": true,
+        "note": "원본의 신청 목적·제목·조례 또는 법령 인용이 대상 사업의 명칭·documents·신청 경로와 부합한다. main/추가/조건부 구분에서 확인된 충돌 없음."
+      }
+    },
+    {
+      "formId": "ordin-20722129",
+      "inputFile": "municipal-reviewed-round2.json",
+      "metadata": {
+        "sourceKind": "ordin",
+        "lawTitle": "천안시 장수축하물품 지급에 관한 조례",
+        "lawId": "2061825",
+        "annexId": "20722129",
+        "annexNumber": "000100",
+        "formTitle": "[별지 제1호서식] 장수축하물품 지급 신청서",
+        "regionCode": "44130",
+        "regionLabel": "충청남도 천안시",
+        "use": "main",
+        "condition": null,
+        "evidenceUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=2061825",
+        "evidenceNote": "제6조제1항은 장수축하물품 신청자가 별지 제1호 신청서를 읍·면·동장에게 제출하도록 정한다. 원본 HWP에서 지급대상자·전입일·같은 천안시 조례 제6조 인용·천안시장 수신처 및 행정정보 공동이용 동의란을 확인했다. 사업의 100세 어르신 장수축하물품과 신청 경로가 일치한다. 대리인용 제2호 위임장 및 행정용 제3호 관리대장을 주 신청서에서 제외했다."
+      },
+      "downloads": [
+        {
+          "formId": "ordin-20722129",
+          "urlKind": "sourceUrl",
+          "requestedUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=155029741&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C1%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EC%9E%A5%EC%88%98%EC%B6%95%ED%95%98%EB%AC%BC%ED%92%88+%EC%A7%80%EA%B8%89+%EC%8B%A0%EC%B2%AD%EC%84%9C",
+          "httpStatus": 200,
+          "bytes": 66560,
+          "sha256": "c9a87dd218bbad0f26f98a1aac059102958a77aa391c6614fb341362015bb3f4",
+          "mime": "application/hwp;;charset=UTF-8",
+          "detectedFormat": "hwp",
+          "validContainer": true,
+          "empty": false,
+          "htmlError": false,
+          "finalUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=155029741&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C1%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EC%9E%A5%EC%88%98%EC%B6%95%ED%95%98%EB%AC%BC%ED%92%88+%EC%A7%80%EA%B8%89+%EC%8B%A0%EC%B2%AD%EC%84%9C",
+          "contentDisposition": "attachment; filename=\"%5B%EB%B3%84%EC%A7%80%20%EC%A0%9C1%ED%98%B8%EC%84%9C%EC%8B%9D%5D%20%EC%9E%A5%EC%88%98%EC%B6%95%ED%95%98%EB%AC%BC%ED%92%88%20%EC%A7%80%EA%B8%89%20%EC%8B%A0%EC%B2%AD%EC%84%9C%28%EC%B2%9C%EC%95%88%EC%8B%9C%20%EC%9E%A5%EC%88%98%EC%B6%95%ED%95%98%EB%AC%BC%ED%92%88%20%EC%A7%80%EA%B8%89%EC%97%90%20%EA%B4%80%ED%95%9C%20%EC%A1%B0%EB%A1%80%29.hwp\"",
+          "contentLength": null,
+          "signatureHex": "d0cf11e0a1b11ae10000000000000000",
+          "textMethod": "HWP BodyText paragraph records with 8-unit inline/extended controls excluded",
+          "textLength": 697,
+          "textTruncated": false,
+          "passed": true
+        }
+      ],
+      "programChecks": [
+        {
+          "id": "g44130.bokjiro-WLF00006501",
+          "exists": true,
+          "jurisdictionMatches": true,
+          "name": "천안시 장수축하물품 지원",
+          "scope": "sigungu",
+          "region": {
+            "sido": "44000",
+            "sigungu": "44130",
+            "label": "충남 천안시"
+          },
+          "applyType": "self",
+          "applyMethod": "주소지 읍·면·동 행정복지센터 신청(100세가 되는 달의 1개월 전부터 신청 가능)*인터넷 신청 불가",
+          "documents": "관련 서식·안내: 천안시 장수축하물품 지급에 관한 조례.pdf",
+          "laws": [
+            "천안시 장수축하물품 지급에 관한 조례"
+          ]
+        }
+      ],
+      "linkStructureIssues": [],
+      "manualReviewStatus": "passed",
+      "officialAttachmentCheck": {
+        "bodyUrl": "https://www.law.go.kr/LSW/ordinInfoR.do?ordinSeq=2061825&gubun=ELIS&chrClsCd=010202",
+        "annexIdFound": true,
+        "downloadSeqFound": true
+      },
+      "metadataTextCheck": {
+        "regionTextFound": true,
+        "sourceHeading": "[별지 제1호서식]\n\n\n\n장수축하물품 지급 신청서\n\n지  급\n\n대상자\n\n성  명\n\n성별\n\n□ 남\n\n□ 여\n\n생년월일\n\n주  소\n\n                         \n\n    (전화 :                  )\n\n전입일\n\n   년    월    일 \n\n (거주기간 :                )      \n\n※담당 공무원\n\n   확인 후 기재\n\n「천안시 장수축하물품 지급에 관한 조례」제6조에 따라 \n\n위와 같이 장수축하물품 지급을 신청합니다.",
+        "note": "문서 본문 제목 및 지자체 인용 대조. annexNumber는 법령 데이터의 별표번호로, 인쇄된 별지 제n호와 동일한 숫자라는 가정은 하지 않음."
+      },
+      "printedAnnexLabel": "[별지 제1호서식]",
+      "majorTitleAnnexRegionMismatch": false,
+      "linkUseReview": {
+        "passed": true,
+        "note": "원본의 신청 목적·제목·조례 또는 법령 인용이 대상 사업의 명칭·documents·신청 경로와 부합한다. main/추가/조건부 구분에서 확인된 충돌 없음."
+      }
+    },
+    {
+      "formId": "ordin-22409393",
+      "inputFile": "municipal-reviewed-round2.json",
+      "metadata": {
+        "sourceKind": "ordin",
+        "lawTitle": "진안군 효행 장려 및 지원에 관한 조례",
+        "lawId": "2162703",
+        "annexId": "22409393",
+        "annexNumber": "000100",
+        "formTitle": "[별지 제1호 서식] 효도수당 지급신청서",
+        "regionCode": "52720",
+        "regionLabel": "전북특별자치도 진안군",
+        "use": "main",
+        "condition": null,
+        "evidenceUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=2162703",
+        "evidenceNote": "제14조제1항은 효도수당을 받으려는 사람이 별지 제1호 신청서를 관할 행정복지센터에 제출하도록 지정한다. 2026년 8월 18일 개정 원본 HWPX에서 효도수당 지급신청서 제목, 가족사항·동거여부·예금계좌 및 같은 조례 제14조 인용을 확인했다. 사업의 3대 이상 동거가정 효도수당 목적과 읍·면 신청 경로가 일치한다. 현행 전북특별자치도 진안군 코드 52720으로 매칭했다."
+      },
+      "downloads": [
+        {
+          "formId": "ordin-22409393",
+          "urlKind": "sourceUrl",
+          "requestedUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=168295533&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C1%ED%98%B8+%EC%84%9C%EC%8B%9D%5D+%ED%9A%A8%EB%8F%84%EC%88%98%EB%8B%B9+%EC%A7%80%EA%B8%89%EC%8B%A0%EC%B2%AD%EC%84%9C",
+          "httpStatus": 200,
+          "bytes": 44895,
+          "sha256": "3c1fb2b76de32e644d511db506ecb03a03d2938898011e4ae0a62a3ef594de82",
+          "mime": "application/hwp+zip;;charset=UTF-8",
+          "detectedFormat": "hwpx",
+          "validContainer": true,
+          "empty": false,
+          "htmlError": false,
+          "finalUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=168295533&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C1%ED%98%B8+%EC%84%9C%EC%8B%9D%5D+%ED%9A%A8%EB%8F%84%EC%88%98%EB%8B%B9+%EC%A7%80%EA%B8%89%EC%8B%A0%EC%B2%AD%EC%84%9C",
+          "contentDisposition": "attachment; filename=\"%5B%EB%B3%84%EC%A7%80%20%EC%A0%9C1%ED%98%B8%20%EC%84%9C%EC%8B%9D%5D%20%ED%9A%A8%EB%8F%84%EC%88%98%EB%8B%B9%20%EC%A7%80%EA%B8%89%EC%8B%A0%EC%B2%AD%EC%84%9C%28%EC%A7%84%EC%95%88%EA%B5%B0%20%ED%9A%A8%ED%96%89%20%EC%9E%A5%EB%A0%A4%20%EB%B0%8F%20%EC%A7%80%EC%9B%90%EC%97%90%20%EA%B4%80%ED%95%9C%20%EC%A1%B0%EB%A1%80%29.hwpx\"",
+          "contentLength": null,
+          "signatureHex": "504b03041400000000000000210082f0",
+          "containerMime": "application/hwp+zip",
+          "textMethod": "HWPX section XML text nodes",
+          "textLength": 468,
+          "textTruncated": false,
+          "passed": true
+        }
+      ],
+      "programChecks": [
+        {
+          "id": "g52720.bokjiro-WLF00003795",
+          "exists": true,
+          "jurisdictionMatches": true,
+          "name": "효도수당 지원",
+          "scope": "sigungu",
+          "region": {
+            "sido": "52000",
+            "sigungu": "52720",
+            "label": "전북 진안군"
+          },
+          "applyType": "self",
+          "applyMethod": "1) 신청방법 : 읍/면사무소에 신청\n2) 지급시기 및 지급방법\n- 지급개시일 : 신청한 달부터 지급\n- 지급방법 : 대상자 계좌에 직접 입금",
+          "documents": "관련 서식·안내: 진안군 효행 장려 및 지원에 관한 조례.hwp",
+          "laws": [
+            "진안군 효행장려 및 지원에 관한 조례"
+          ]
+        }
+      ],
+      "linkStructureIssues": [],
+      "manualReviewStatus": "passed",
+      "officialAttachmentCheck": {
+        "bodyUrl": "https://www.law.go.kr/LSW/ordinInfoR.do?ordinSeq=2162703&gubun=ELIS&chrClsCd=010202",
+        "annexIdFound": true,
+        "downloadSeqFound": true
+      },
+      "metadataTextCheck": {
+        "regionTextFound": true,
+        "sourceHeading": "[별지 제1호 서식] <개정 2026. 8. 18.>\n효도수당 지급신청서\n처리기간\n30일\n신청인\n성      명\n생 년 월 일\n주      소\n \n가족사항\n본인과의\n관계\n성명\n생 년 월 일\n동거여부\n직업\n비 고\n예금계좌\n금융기관명\n계좌번호\n예금주성명\n  \n   「진안군 효행 장려 및 지원에 관한 조례」 제14조에 따라\n     효도수당 지급을 신청합니다.\n                          년      월      일\n                  ",
+        "note": "문서 본문 제목 및 지자체 인용 대조. annexNumber는 법령 데이터의 별표번호로, 인쇄된 별지 제n호와 동일한 숫자라는 가정은 하지 않음."
+      },
+      "printedAnnexLabel": "[별지 제1호 서식]",
+      "majorTitleAnnexRegionMismatch": false,
+      "linkUseReview": {
+        "passed": true,
+        "note": "원본의 신청 목적·제목·조례 또는 법령 인용이 대상 사업의 명칭·documents·신청 경로와 부합한다. main/추가/조건부 구분에서 확인된 충돌 없음."
+      }
+    },
+    {
+      "formId": "ordin-19953773",
+      "inputFile": "municipal-reviewed-round2.json",
+      "metadata": {
+        "sourceKind": "ordin",
+        "lawTitle": "청도군 전동보장구 수리 지원에 관한 조례",
+        "lawId": "927024",
+        "annexId": "19953773",
+        "annexNumber": "000100",
+        "formTitle": "[별지 제1호서식] 장애인 전동보장구 수리 지원신청서",
+        "regionCode": "47820",
+        "regionLabel": "경상북도 청도군",
+        "use": "main",
+        "condition": null,
+        "evidenceUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=927024",
+        "evidenceNote": "제7조제1항은 장애인이 읍·면장에게 별지 제1호 신청서를 제출하도록 정한다. 두 사업은 동일한 청도군 전동휠체어·전동스쿠터 수리 지원이며 documents와 신청 절차가 같은 신청서를 가리킨다. 원본 HWP의 인적사항·수급유형·보장구 유형·수리부위 및 제7조제1항 인용을 확인했다. 원본의 인용 제명에는 현행 제명보다 장애인이라는 단어가 추가되어 있지만 현행 법규 HTML의 첨부 ID와 다운로드 ID가 모두 일치한다. 제2호 의뢰서·제3호 내역·제4호 업체청구서는 주 신청서에서 제외했다."
+      },
+      "downloads": [
+        {
+          "formId": "ordin-19953773",
+          "urlKind": "sourceUrl",
+          "requestedUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=152163219&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C1%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EC%9E%A5%EC%95%A0%EC%9D%B8+%EC%A0%84%EB%8F%99%EB%B3%B4%EC%9E%A5%EA%B5%AC+%EC%88%98%EB%A6%AC+%EC%A7%80%EC%9B%90%EC%8B%A0%EC%B2%AD%EC%84%9C",
+          "httpStatus": 200,
+          "bytes": 12800,
+          "sha256": "2a0613b70350074bc5dd081def2cd8aa8aa3129db40ee4ca2707e713047f59ce",
+          "mime": "application/hwp;;charset=UTF-8",
+          "detectedFormat": "hwp",
+          "validContainer": true,
+          "empty": false,
+          "htmlError": false,
+          "finalUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=152163219&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C1%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EC%9E%A5%EC%95%A0%EC%9D%B8+%EC%A0%84%EB%8F%99%EB%B3%B4%EC%9E%A5%EA%B5%AC+%EC%88%98%EB%A6%AC+%EC%A7%80%EC%9B%90%EC%8B%A0%EC%B2%AD%EC%84%9C",
+          "contentDisposition": "attachment; filename=\"%5B%EB%B3%84%EC%A7%80%20%EC%A0%9C1%ED%98%B8%EC%84%9C%EC%8B%9D%5D%20%EC%9E%A5%EC%95%A0%EC%9D%B8%20%EC%A0%84%EB%8F%99%EB%B3%B4%EC%9E%A5%EA%B5%AC%20%EC%88%98%EB%A6%AC%20%EC%A7%80%EC%9B%90%EC%8B%A0%EC%B2%AD%EC%84%9C%28%EC%B2%AD%EB%8F%84%EA%B5%B0%20%EC%A0%84%EB%8F%99%EB%B3%B4%EC%9E%A5%EA%B5%AC%20%EC%88%98%EB%A6%AC%20%EC%A7%80%EC%9B%90%EC%97%90%20%EA%B4%80%ED%95%9C%20%EC%A1%B0%EB%A1%80%29.hwp\"",
+          "contentLength": null,
+          "signatureHex": "d0cf11e0a1b11ae10000000000000000",
+          "textMethod": "HWP BodyText paragraph records with 8-unit inline/extended controls excluded",
+          "textLength": 435,
+          "textTruncated": false,
+          "passed": true
+        }
+      ],
+      "programChecks": [
+        {
+          "id": "g47820.bokjiro-WLF00003456",
+          "exists": true,
+          "jurisdictionMatches": true,
+          "name": "장애인 전동보장구 수리 지원",
+          "scope": "sigungu",
+          "region": {
+            "sido": "47000",
+            "sigungu": "47820",
+            "label": "경북 청도군"
+          },
+          "applyType": "self",
+          "applyMethod": "- 전동보장구 수리지원 신청서 제출 (장애인 → 읍·면사무소)\n- 읍·면에서 수리지원 의뢰서 발급 (읍·면사무소 → 장애인)\n- 의뢰서 제출 및 확인 후 수리 (장애인 → 수리업체)\n- 매월 10일까지 전월의 수리비용 청구 (수리업체 → 군 청)\n- 수리비용 지급 (군 청 → 수리업체)",
+          "documents": "관련 서식·안내: 청도군 전동보장구 수리 지원에 관한 조례(경상북도 청도군조례)(제2120호)(20150226).hwp, [별지 제1호서식] 장애인 전동보장구 수리 지원신청서.hwp",
+          "laws": [
+            "청도군 전동보장구 수리 지원에 관한 조례"
+          ]
+        },
+        {
+          "id": "g47820.gov24-519000000113",
+          "exists": true,
+          "jurisdictionMatches": true,
+          "name": "장애인 전동보장구 수리비 지원",
+          "scope": "sigungu",
+          "region": {
+            "sido": "47000",
+            "sigungu": "47820",
+            "label": "경북 청도군"
+          },
+          "applyType": "self",
+          "applyMethod": "○ 방문 신청\n- 주민센터 : 주소지 관할 읍면 주민센터에 방문하여 전동보장구 수리지원 신청",
+          "documents": "<신청인 제출 서류>\n장애인 전동보장구 수리 지원 신청서\n<공무원이 확인하는 서류>\n주민등록 등본\n본인 확인 필요: 해당없음\n담당 공무원이 확인: 해당없음",
+          "laws": [
+            "청도군 전동보장구 수리 지원에 관한 조례"
+          ]
+        }
+      ],
+      "linkStructureIssues": [],
+      "manualReviewStatus": "passed",
+      "officialAttachmentCheck": {
+        "bodyUrl": "https://www.law.go.kr/LSW/ordinInfoR.do?ordinSeq=927024&gubun=ELIS&chrClsCd=010202",
+        "annexIdFound": true,
+        "downloadSeqFound": true
+      },
+      "metadataTextCheck": {
+        "regionTextFound": true,
+        "sourceHeading": "[별지 제1호서식]\n\n\n\n장애인 전동보장구 수리 지원신청서\n\n 1. 인적사항(해당란에 ☑표시)\n\n성  명\n\n생년월일\n\n성별\n\n남․여\n\n주  소\n\n(전화번호 :                )\n\n장 애 명\n\n \n\n장애등급\n\n        급\n\n수급유형\n\n □수급자          □차상위          □일반\n\n 2. 수리 신청내용(해당란에 ☑표시)\n\n보장구 유형\n\n □전동휠체어          □전동스쿠터\n\n수리가 필요한 부위\n\n수리와 관련하여 특별히 희망하는 ",
+        "note": "문서 본문 제목 및 지자체 인용 대조. annexNumber는 법령 데이터의 별표번호로, 인쇄된 별지 제n호와 동일한 숫자라는 가정은 하지 않음."
+      },
+      "printedAnnexLabel": "[별지 제1호서식]",
+      "majorTitleAnnexRegionMismatch": false,
+      "linkUseReview": {
+        "passed": true,
+        "note": "원본의 신청 목적·제목·조례 또는 법령 인용이 대상 사업의 명칭·documents·신청 경로와 부합한다. main/추가/조건부 구분에서 확인된 충돌 없음."
+      }
+    },
+    {
+      "formId": "ordin-21146293",
+      "inputFile": "municipal-reviewed-round2.json",
+      "metadata": {
+        "sourceKind": "ordin",
+        "lawTitle": "양산시 장애인휠체어 등 수리 지원에 관한 조례",
+        "lawId": "2089659",
+        "annexId": "21146293",
+        "annexNumber": "000100",
+        "formTitle": "[별지 제1호서식] 장애인 휠체어 등 수리 신청서",
+        "regionCode": "48330",
+        "regionLabel": "경상남도 양산시",
+        "use": "main",
+        "condition": null,
+        "evidenceUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=2089659",
+        "evidenceNote": "제7조제1항은 장애인이 읍·면·동장에게 별지 제1호 신청서를 제출하도록 정한다. 원본 HWP에 휠체어·전동휠체어·전동스쿠터 선택, 수급유형·수리 필요 부위 및 같은 양산시 조례 제7조제1항 인용이 있다. 사업의 이동기기 수리비 목적과 신청 경로가 일치한다. 제2호 수리의뢰서 및 제3~4호 업체 수리내역·청구서를 주 신청서에서 제외했다."
+      },
+      "downloads": [
+        {
+          "formId": "ordin-21146293",
+          "urlKind": "sourceUrl",
+          "requestedUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=158791387&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C1%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EC%9E%A5%EC%95%A0%EC%9D%B8+%ED%9C%A0%EC%B2%B4%EC%96%B4+%EB%93%B1+%EC%88%98%EB%A6%AC+%EC%8B%A0%EC%B2%AD%EC%84%9C",
+          "httpStatus": 200,
+          "bytes": 12800,
+          "sha256": "ba480624b974cdea961598f38ec41e03e27890d74e98a3139f019731eebf4506",
+          "mime": "application/hwp;;charset=UTF-8",
+          "detectedFormat": "hwp",
+          "validContainer": true,
+          "empty": false,
+          "htmlError": false,
+          "finalUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=158791387&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C1%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EC%9E%A5%EC%95%A0%EC%9D%B8+%ED%9C%A0%EC%B2%B4%EC%96%B4+%EB%93%B1+%EC%88%98%EB%A6%AC+%EC%8B%A0%EC%B2%AD%EC%84%9C",
+          "contentDisposition": "attachment; filename=\"%5B%EB%B3%84%EC%A7%80%20%EC%A0%9C1%ED%98%B8%EC%84%9C%EC%8B%9D%5D%20%EC%9E%A5%EC%95%A0%EC%9D%B8%20%ED%9C%A0%EC%B2%B4%EC%96%B4%20%EB%93%B1%20%EC%88%98%EB%A6%AC%20%EC%8B%A0%EC%B2%AD%EC%84%9C%28%EC%96%91%EC%82%B0%EC%8B%9C%20%EC%9E%A5%EC%95%A0%EC%9D%B8%ED%9C%A0%EC%B2%B4%EC%96%B4%20%EB%93%B1%20%EC%88%98%EB%A6%AC%20%EC%A7%80%EC%9B%90%EC%97%90%20%EA%B4%80%ED%95%9C%20%EC%A1%B0%EB%A1%80%29.hwp\"",
+          "contentLength": null,
+          "signatureHex": "d0cf11e0a1b11ae10000000000000000",
+          "textMethod": "HWP BodyText paragraph records with 8-unit inline/extended controls excluded",
+          "textLength": 449,
+          "textTruncated": false,
+          "passed": true
+        }
+      ],
+      "programChecks": [
+        {
+          "id": "g48330.gov24-538000000110",
+          "exists": true,
+          "jurisdictionMatches": true,
+          "name": "장애인 보장구 수리비 지원",
+          "scope": "sigungu",
+          "region": {
+            "sido": "48000",
+            "sigungu": "48330",
+            "label": "경남 양산시"
+          },
+          "applyType": "self",
+          "applyMethod": "○ 방문 신청\n- 주민센터 : 거주지 관할 읍면동 주민센터에 방문 신청",
+          "documents": "해당없음\n본인 확인 필요: 해당없음\n담당 공무원이 확인: 해당없음",
+          "laws": [
+            "양산시 장애인휠체어 등 수리 지원에 관한 조례"
+          ]
+        }
+      ],
+      "linkStructureIssues": [],
+      "manualReviewStatus": "passed",
+      "officialAttachmentCheck": {
+        "bodyUrl": "https://www.law.go.kr/LSW/ordinInfoR.do?ordinSeq=2089659&gubun=ELIS&chrClsCd=010202",
+        "annexIdFound": true,
+        "downloadSeqFound": true
+      },
+      "metadataTextCheck": {
+        "regionTextFound": true,
+        "sourceHeading": "[별지 제1호서식] <개정 2019.7.1>\n\n\n\n장애인 휠체어 등 수리 신청서\n\n 1. 인적사항(해당란에 ☑표시)\n\n성  명\n\n생년월일\n\n성별\n\n남․여\n\n주  소\n\n(전화번호 :                )\n\n장 애 명\n\n \n\n장애정도\n\n수급유형\n\n □수급자          □차상위          □일반\n\n 2. 수리 신청내용(해당란에 ☑표시)\n\n보장구 유형\n\n □휠체어          □전동휠체어          □전동스쿠터\n\n수리가 필요한 부위\n\n수리와",
+        "note": "문서 본문 제목 및 지자체 인용 대조. annexNumber는 법령 데이터의 별표번호로, 인쇄된 별지 제n호와 동일한 숫자라는 가정은 하지 않음."
+      },
+      "printedAnnexLabel": "[별지 제1호서식]",
+      "majorTitleAnnexRegionMismatch": false,
+      "linkUseReview": {
+        "passed": true,
+        "note": "원본의 신청 목적·제목·조례 또는 법령 인용이 대상 사업의 명칭·documents·신청 경로와 부합한다. main/추가/조건부 구분에서 확인된 충돌 없음."
+      }
+    },
+    {
+      "formId": "ordin-22766629",
+      "inputFile": "municipal-reviewed-round2.json",
+      "metadata": {
+        "sourceKind": "ordin",
+        "lawTitle": "대전광역시 서구 장애인 휠체어 등 수리 지원에 관한 조례",
+        "lawId": "1863101",
+        "annexId": "22766629",
+        "annexNumber": "000100",
+        "formTitle": "[별지 제1호서식] 장애인 휠체어 등 수리 신청서",
+        "regionCode": "30170",
+        "regionLabel": "대전광역시 서구",
+        "use": "main",
+        "condition": null,
+        "evidenceUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=1863101",
+        "evidenceNote": "제6조제1항은 장애인이 거주지 동장에게 별지 제1호 신청서를 제출하도록 정한다. 원본 HWP에 신청인·수급유형·보장구 유형·제품정보·수리부위, 동일 조례 제6조제1항 인용과 대전광역시 서구청장 수신처가 있어 다른 시도의 서구 서식과 구분된다. 제2호 수리의뢰서와 제3~4호 업체 수리내역·청구서는 제외했다. 사업 관할 코드 30170 및 수리 지원 목적이 일치한다."
+      },
+      "downloads": [
+        {
+          "formId": "ordin-22766629",
+          "urlKind": "sourceUrl",
+          "requestedUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=170048805&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C1%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EC%9E%A5%EC%95%A0%EC%9D%B8+%ED%9C%A0%EC%B2%B4%EC%96%B4+%EB%93%B1+%EC%88%98%EB%A6%AC+%EC%8B%A0%EC%B2%AD%EC%84%9C",
+          "httpStatus": 200,
+          "bytes": 13824,
+          "sha256": "119bbe5be964fac35c42a16de3ae1cc60cbf4f62112339e150360cf0e85920c4",
+          "mime": "application/hwp;;charset=UTF-8",
+          "detectedFormat": "hwp",
+          "validContainer": true,
+          "empty": false,
+          "htmlError": false,
+          "finalUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=170048805&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C1%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EC%9E%A5%EC%95%A0%EC%9D%B8+%ED%9C%A0%EC%B2%B4%EC%96%B4+%EB%93%B1+%EC%88%98%EB%A6%AC+%EC%8B%A0%EC%B2%AD%EC%84%9C",
+          "contentDisposition": "attachment; filename=\"%5B%EB%B3%84%EC%A7%80%20%EC%A0%9C1%ED%98%B8%EC%84%9C%EC%8B%9D%5D%20%EC%9E%A5%EC%95%A0%EC%9D%B8%20%ED%9C%A0%EC%B2%B4%EC%96%B4%20%EB%93%B1%20%EC%88%98%EB%A6%AC%20%EC%8B%A0%EC%B2%AD%EC%84%9C%28%EB%8C%80%EC%A0%84%EA%B4%91%EC%97%AD%EC%8B%9C%20%EC%84%9C%EA%B5%AC%20%EC%9E%A5%EC%95%A0%EC%9D%B8%20%ED%9C%A0%EC%B2%B4%EC%96%B4%20%EB%93%B1%20%EC%88%98%EB%A6%AC%20%EC%A7%80%EC%9B%90%EC%97%90%20%EA%B4%80%ED%95%9C%20%EC%A1%B0%EB%A1%80%29.hwp\"",
+          "contentLength": null,
+          "signatureHex": "d0cf11e0a1b11ae10000000000000000",
+          "textMethod": "HWP BodyText paragraph records with 8-unit inline/extended controls excluded",
+          "textLength": 550,
+          "textTruncated": false,
+          "passed": true
+        }
+      ],
+      "programChecks": [
+        {
+          "id": "g30170.gov24-366000000105",
+          "exists": true,
+          "jurisdictionMatches": true,
+          "name": "장애인 휠체어 등 수리 지원",
+          "scope": "sigungu",
+          "region": {
+            "sido": "30000",
+            "sigungu": "30170",
+            "label": "대전 서구"
+          },
+          "applyType": "self",
+          "applyMethod": "○ 방문 신청\n- 행정복지센터 : 거주지 관할 행정복지터에 방문 신청",
+          "documents": "신청서\n본인 확인 필요: 해당없음\n담당 공무원이 확인: 장애인증명서\n주민등록등초본\n수급자 및 차상위 증명서",
+          "laws": [
+            "대전광역시 서구 장애인 휠체어 등 수리 지원에 관한 조례",
+            "대전광역시 서구 장애인 휠체어 등 수리 지원에 관한 조례(제3조)"
+          ]
+        }
+      ],
+      "linkStructureIssues": [],
+      "manualReviewStatus": "passed",
+      "officialAttachmentCheck": {
+        "bodyUrl": "https://www.law.go.kr/LSW/ordinInfoR.do?ordinSeq=1863101&gubun=ELIS&chrClsCd=010202",
+        "annexIdFound": true,
+        "downloadSeqFound": true
+      },
+      "metadataTextCheck": {
+        "regionTextFound": true,
+        "sourceHeading": "[별지 제1호서식] <개정 2019. 7. 5.>\n\n\n\n장애인 휠체어 등 수리 신청서\n\n 1. 인적사항(해당란에 ☑표시)\n\n성  명\n\n생년월일\n\n성별\n\n남 ․ 여\n\n주  소\n\n(전화번호:                  )\n\n장 애 명\n\n         \n\n수급유형\n\n   □ 수급자               □ 차상위                □ 일반\n\n 2. 수리 신청내용(해당란에 ☑표시)\n\n 보장구유형\n\n   □ 휠체어               □ 전동휠체어",
+        "note": "문서 본문 제목 및 지자체 인용 대조. annexNumber는 법령 데이터의 별표번호로, 인쇄된 별지 제n호와 동일한 숫자라는 가정은 하지 않음."
+      },
+      "printedAnnexLabel": "[별지 제1호서식]",
+      "majorTitleAnnexRegionMismatch": false,
+      "linkUseReview": {
+        "passed": true,
+        "note": "원본의 신청 목적·제목·조례 또는 법령 인용이 대상 사업의 명칭·documents·신청 경로와 부합한다. main/추가/조건부 구분에서 확인된 충돌 없음."
+      }
+    },
+    {
+      "formId": "ordin-11128481",
+      "inputFile": "municipal-reviewed-round2.json",
+      "metadata": {
+        "sourceKind": "ordin",
+        "lawTitle": "구리시 장애인 이동기기 수리 등에 관한 조례",
+        "lawId": "976785",
+        "annexId": "11128481",
+        "annexNumber": "000100",
+        "formTitle": "[별지 제1호서식 장애인 휠체어 등 수리 신청서]",
+        "regionCode": "41310",
+        "regionLabel": "경기도 구리시",
+        "use": "main",
+        "condition": null,
+        "evidenceUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=976785",
+        "evidenceNote": "제6조제1항은 휠체어 등을 수리받으려는 사람이 별지 제1호 신청서와 해당 증명서류를 지정 수리센터에 제출하도록 정한다. 원본 HWP의 이동기기 유형·수리부위·수급자/장애인 증명서류와 같은 구리시 조례 제6조제1항 인용을 확인했다. 사업의 신청처도 이동기기 수리센터이므로 주민용 주 신청서로 연결한다. 제2호는 센터가 시에 제출하는 청구서로 제외했다. 자동 portal-matches 결과는 not_found였으나 현행 법규 본문과 실제 원본으로 추가 검증했다."
+      },
+      "downloads": [
+        {
+          "formId": "ordin-11128481",
+          "urlKind": "sourceUrl",
+          "requestedUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=101432505&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C1%ED%98%B8%EC%84%9C%EC%8B%9D+%EC%9E%A5%EC%95%A0%EC%9D%B8+%ED%9C%A0%EC%B2%B4%EC%96%B4+%EB%93%B1+%EC%88%98%EB%A6%AC+%EC%8B%A0%EC%B2%AD%EC%84%9C%5D",
+          "httpStatus": 200,
+          "bytes": 14848,
+          "sha256": "bb713c98fc8a102ca40e937fb53660f4b41b038b3fb0dff461a7e8f01c0f9da5",
+          "mime": "application/hwp;;charset=UTF-8",
+          "detectedFormat": "hwp",
+          "validContainer": true,
+          "empty": false,
+          "htmlError": false,
+          "finalUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=101432505&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C1%ED%98%B8%EC%84%9C%EC%8B%9D+%EC%9E%A5%EC%95%A0%EC%9D%B8+%ED%9C%A0%EC%B2%B4%EC%96%B4+%EB%93%B1+%EC%88%98%EB%A6%AC+%EC%8B%A0%EC%B2%AD%EC%84%9C%5D",
+          "contentDisposition": "attachment; filename=\"%5B%EB%B3%84%EC%A7%80%20%EC%A0%9C1%ED%98%B8%EC%84%9C%EC%8B%9D%20%EC%9E%A5%EC%95%A0%EC%9D%B8%20%ED%9C%A0%EC%B2%B4%EC%96%B4%20%EB%93%B1%20%EC%88%98%EB%A6%AC%20%EC%8B%A0%EC%B2%AD%EC%84%9C%5D%28%EA%B5%AC%EB%A6%AC%EC%8B%9C%20%EC%9E%A5%EC%95%A0%EC%9D%B8%20%EC%9D%B4%EB%8F%99%EA%B8%B0%EA%B8%B0%20%EC%88%98%EB%A6%AC%20%EB%93%B1%EC%97%90%20%EA%B4%80%ED%95%9C%20%EC%A1%B0%EB%A1%80%29.hwp\"",
+          "contentLength": null,
+          "signatureHex": "d0cf11e0a1b11ae10000000000000000",
+          "textMethod": "HWP BodyText paragraph records with 8-unit inline/extended controls excluded",
+          "textLength": 525,
+          "textTruncated": false,
+          "passed": true
+        }
+      ],
+      "programChecks": [
+        {
+          "id": "g41310.gov24-398000000114",
+          "exists": true,
+          "jurisdictionMatches": true,
+          "name": "장애인 이동기기 수리비 지원",
+          "scope": "sigungu",
+          "region": {
+            "sido": "41000",
+            "sigungu": "41310",
+            "label": "경기 구리시"
+          },
+          "applyType": "self",
+          "applyMethod": "○ 방문 신청\n- 기타 : 이동기기 수리센터",
+          "documents": "장애인증명서\n수급자증명서(해당자)\n차상위증명서(해당자)\n본인 확인 필요: 해당없음\n담당 공무원이 확인: 해당없음",
+          "laws": [
+            "구리시 장애인 이동기기 수리 등에 관한 조례"
+          ]
+        }
+      ],
+      "linkStructureIssues": [],
+      "manualReviewStatus": "passed",
+      "officialAttachmentCheck": {
+        "bodyUrl": "https://www.law.go.kr/LSW/ordinInfoR.do?ordinSeq=976785&gubun=ELIS&chrClsCd=010202",
+        "annexIdFound": true,
+        "downloadSeqFound": true
+      },
+      "metadataTextCheck": {
+        "regionTextFound": true,
+        "sourceHeading": "[별지 제1호서식]\n\n\n\n장애인 휠체어 등 수리 신청서\n\n 1. 인적사항(해당란에 ☑표시)\n\n성  명\n\n생년월일\n\n-\n\n성별\n\n남․여\n\n주  소\n\n전화번호:                )\n\n장애명\n\n         \n\n장애등급\n\n             급\n\n수급유형\n\n □ 수급자‧․차상위   □ 일반\n\n 2. 수리 신청내용(해당란에 ☑표시)\n\n이동기기\n\n유형\n\n   □ 수동휠체어           □ 전동휠체어            □ 전동스쿠터 \n\n수리가 필요한",
+        "note": "문서 본문 제목 및 지자체 인용 대조. annexNumber는 법령 데이터의 별표번호로, 인쇄된 별지 제n호와 동일한 숫자라는 가정은 하지 않음."
+      },
+      "printedAnnexLabel": "[별지 제1호서식]",
+      "majorTitleAnnexRegionMismatch": false,
+      "linkUseReview": {
+        "passed": true,
+        "note": "입력 제목은 제목 전체가 대괄호에 포함되어 있으나 실제 HWP 본문은 [별지 제1호서식]과 장애인 휠체어 등 수리 신청서가 분리되어 있다. 본문에 구리시 장애인 이동기기 수리 등에 관한 조례 제6조제1항을 인용한다. 공식 본문의 annexId 11128481, flSeq 101432505 및 관할 41310이 일치하므로 다른 서식으로 판단하지 않는다."
+      }
+    },
+    {
+      "formId": "ordin-22297979",
+      "inputFile": "municipal-reviewed-round2.json",
+      "metadata": {
+        "sourceKind": "ordin",
+        "lawTitle": "하남시 장애인가정 출산지원금 지원에 관한 조례",
+        "lawId": "2157417",
+        "annexId": "22297979",
+        "annexNumber": "000100",
+        "formTitle": "[별지 서식] 장애인가정 출산지원금 신청서",
+        "regionCode": "41450",
+        "regionLabel": "경기도 하남시",
+        "use": "main",
+        "condition": null,
+        "evidenceUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=2157417",
+        "evidenceNote": "제5조제2항은 출산지원금을 받으려는 사람이 별지 신청서를 동장에게 제출하도록 정한다. 2026년 8월 5일 개정 원본 HWPX에서 신청인·장애유형과 정도·출생아·지급정보 및 같은 하남시 조례 제5조 인용을 확인했다. 서식에는 조건부 위임장도 포함된다. 사업의 장애인가정 출산지원금 목적과 신청 조항이 일치한다. 원본상 장애인증명서·주민등록등본은 담당공무원 확인사항이며, 카탈로그의 제출서류 안내와 차이가 있어 별도 검토사항으로 남겼다."
+      },
+      "downloads": [
+        {
+          "formId": "ordin-22297979",
+          "urlKind": "sourceUrl",
+          "requestedUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=167839873&flNm=%5B%EB%B3%84%EC%A7%80+%EC%84%9C%EC%8B%9D%5D+%EC%9E%A5%EC%95%A0%EC%9D%B8%EA%B0%80%EC%A0%95+%EC%B6%9C%EC%82%B0%EC%A7%80%EC%9B%90%EA%B8%88+%EC%8B%A0%EC%B2%AD%EC%84%9C",
+          "httpStatus": 200,
+          "bytes": 55033,
+          "sha256": "af06ae089b4d321be415af8a2e6e8ff065aa0c9f6f2de90d5d63f02b8d11807e",
+          "mime": "application/hwp+zip;;charset=UTF-8",
+          "detectedFormat": "hwpx",
+          "validContainer": true,
+          "empty": false,
+          "htmlError": false,
+          "finalUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=167839873&flNm=%5B%EB%B3%84%EC%A7%80+%EC%84%9C%EC%8B%9D%5D+%EC%9E%A5%EC%95%A0%EC%9D%B8%EA%B0%80%EC%A0%95+%EC%B6%9C%EC%82%B0%EC%A7%80%EC%9B%90%EA%B8%88+%EC%8B%A0%EC%B2%AD%EC%84%9C",
+          "contentDisposition": "attachment; filename=\"%5B%EB%B3%84%EC%A7%80%20%EC%84%9C%EC%8B%9D%5D%20%EC%9E%A5%EC%95%A0%EC%9D%B8%EA%B0%80%EC%A0%95%20%EC%B6%9C%EC%82%B0%EC%A7%80%EC%9B%90%EA%B8%88%20%EC%8B%A0%EC%B2%AD%EC%84%9C%28%ED%95%98%EB%82%A8%EC%8B%9C%20%EC%9E%A5%EC%95%A0%EC%9D%B8%EA%B0%80%EC%A0%95%20%EC%B6%9C%EC%82%B0%EC%A7%80%EC%9B%90%EA%B8%88%20%EC%A7%80%EC%9B%90%EC%97%90%20%EA%B4%80%ED%95%9C%20%EC%A1%B0%EB%A1%80%29.hwpx\"",
+          "contentLength": null,
+          "signatureHex": "504b03041400000000000000210082f0",
+          "containerMime": "application/hwp+zip",
+          "textMethod": "HWPX section XML text nodes",
+          "textLength": 738,
+          "textTruncated": false,
+          "passed": true
+        }
+      ],
+      "programChecks": [
+        {
+          "id": "g41450.gov24-404000000107",
+          "exists": true,
+          "jurisdictionMatches": true,
+          "name": "장애인가정 출산지원금 지원",
+          "scope": "sigungu",
+          "region": {
+            "sido": "41000",
+            "sigungu": "41450",
+            "label": "경기 하남시"
+          },
+          "applyType": "self",
+          "applyMethod": "○ 방문 신청\n- 주민센터 : 거주지 관할 동 행정복지센터 신청에 방문 신청",
+          "documents": "1. 출생증명서 1부.(출생신고를 했을 경우 생략)\n2. 통장 사본 1부.\n3. 장애인 등록증 사본 또는 장애인 증명서 1부.\n4. 출생아가 등재된 주민등록등본 1부.\n본인 확인 필요: 해당없음\n담당 공무원이 확인: 해당없음",
+          "laws": [
+            "하남시 장애인가정 출산지원금 지원에 관한 조례",
+            "하남시 장애인가정 출산지원금 지원에 관한 조례"
+          ]
+        }
+      ],
+      "linkStructureIssues": [],
+      "manualReviewStatus": "passed",
+      "officialAttachmentCheck": {
+        "bodyUrl": "https://www.law.go.kr/LSW/ordinInfoR.do?ordinSeq=2157417&gubun=ELIS&chrClsCd=010202",
+        "annexIdFound": true,
+        "downloadSeqFound": true
+      },
+      "metadataTextCheck": {
+        "regionTextFound": true,
+        "sourceHeading": "[별지 서식] <개정 2026. 8. 5.>\n장애인가정 출산지원금 신청서\n접수번호\n접수일\n처리기간       \n신청인\n성명\n생년월일\n주소\n연락처\n장애유형·정도\n출생아\n성명\n출생일\n지급정보\n금융기관명\n예금주\n계좌번호\n  「하남시 장애인가정 출산지원금 지원에 관한 조례」 제5조에 따라 위와 같이 장애인가정 출산지원금을 신청합니다.\n년     월     일\n신청인(대표자)                           \n \n(서명 또는 인)\n \n하남시장\n 귀하\n신청인",
+        "note": "문서 본문 제목 및 지자체 인용 대조. annexNumber는 법령 데이터의 별표번호로, 인쇄된 별지 제n호와 동일한 숫자라는 가정은 하지 않음."
+      },
+      "printedAnnexLabel": "[별지 서식]",
+      "majorTitleAnnexRegionMismatch": false,
+      "linkUseReview": {
+        "passed": true,
+        "note": "원본의 신청 목적·제목·조례 또는 법령 인용이 대상 사업의 명칭·documents·신청 경로와 부합한다. main/추가/조건부 구분에서 확인된 충돌 없음."
+      }
+    },
+    {
+      "formId": "ordin-21751939",
+      "inputFile": "municipal-reviewed-round2.json",
+      "metadata": {
+        "sourceKind": "ordin",
+        "lawTitle": "보령시 출산양육지원금 지급에 관한 조례",
+        "lawId": "2121445",
+        "annexId": "21751939",
+        "annexNumber": "000100",
+        "formTitle": "[별지 제1호 서식] 보령시 출산양육지원금 지원신청서",
+        "regionCode": "44180",
+        "regionLabel": "충청남도 보령시",
+        "use": "main",
+        "condition": null,
+        "evidenceUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=2121445",
+        "evidenceNote": "제6조제1항은 보호자가 별지 제1호 출산양육지원금 지원신청서 또는 임신·출산 관련 서비스 통합처리 규정의 통합 신청서로 신청할 수 있도록 정한다. 원본 HWP에 보호자·출생아·출생순위·입금계좌와 같은 보령시 조례 제6조 인용이 있다. 사업 목적과 통장 사본 첨부 안내가 일치한다. 이 별지는 조례가 허용하는 주 신청서 중 하나이며 유일한 신청서로 단정하지 않는다. 제2호 신청 및 지원 관리대장은 제외했다."
+      },
+      "downloads": [
+        {
+          "formId": "ordin-21751939",
+          "urlKind": "sourceUrl",
+          "requestedUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=163395679&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C1%ED%98%B8+%EC%84%9C%EC%8B%9D%5D+%EB%B3%B4%EB%A0%B9%EC%8B%9C+%EC%B6%9C%EC%82%B0%EC%96%91%EC%9C%A1%EC%A7%80%EC%9B%90%EA%B8%88+%EC%A7%80%EC%9B%90%EC%8B%A0%EC%B2%AD%EC%84%9C",
+          "httpStatus": 200,
+          "bytes": 76800,
+          "sha256": "c9690fe92b647684c20a4bda69b68dfceb846f404b77647756732528e63d7bb1",
+          "mime": "application/hwp;;charset=UTF-8",
+          "detectedFormat": "hwp",
+          "validContainer": true,
+          "empty": false,
+          "htmlError": false,
+          "finalUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=163395679&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C1%ED%98%B8+%EC%84%9C%EC%8B%9D%5D+%EB%B3%B4%EB%A0%B9%EC%8B%9C+%EC%B6%9C%EC%82%B0%EC%96%91%EC%9C%A1%EC%A7%80%EC%9B%90%EA%B8%88+%EC%A7%80%EC%9B%90%EC%8B%A0%EC%B2%AD%EC%84%9C",
+          "contentDisposition": "attachment; filename=\"%5B%EB%B3%84%EC%A7%80%20%EC%A0%9C1%ED%98%B8%20%EC%84%9C%EC%8B%9D%5D%20%EB%B3%B4%EB%A0%B9%EC%8B%9C%20%EC%B6%9C%EC%82%B0%EC%96%91%EC%9C%A1%EC%A7%80%EC%9B%90%EA%B8%88%20%EC%A7%80%EC%9B%90%EC%8B%A0%EC%B2%AD%EC%84%9C%28%EB%B3%B4%EB%A0%B9%EC%8B%9C%20%EC%B6%9C%EC%82%B0%EC%96%91%EC%9C%A1%EC%A7%80%EC%9B%90%EA%B8%88%20%EC%A7%80%EA%B8%89%EC%97%90%20%EA%B4%80%ED%95%9C%20%EC%A1%B0%EB%A1%80%29.hwp\"",
+          "contentLength": null,
+          "signatureHex": "d0cf11e0a1b11ae10000000000000000",
+          "textMethod": "HWP BodyText paragraph records with 8-unit inline/extended controls excluded",
+          "textLength": 2251,
+          "textTruncated": false,
+          "passed": true
+        }
+      ],
+      "programChecks": [
+        {
+          "id": "g44180.gov24-451000000142",
+          "exists": true,
+          "jurisdictionMatches": true,
+          "name": "출산양육지원금 지원",
+          "scope": "sigungu",
+          "region": {
+            "sido": "44000",
+            "sigungu": "44180",
+            "label": "충남 보령시"
+          },
+          "applyType": "self",
+          "applyMethod": "○ 방문 신청\n- 주민센터 : 읍·면·동 주민센터 방문신청",
+          "documents": "○ 지원대상 자녀 또는 그 보호자의 통장 사본\n본인 확인 필요: 해당없음\n담당 공무원이 확인: 해당없음",
+          "laws": [
+            "보령시 출산양육지원금 지급에 관한 조례"
+          ]
+        }
+      ],
+      "linkStructureIssues": [],
+      "manualReviewStatus": "passed",
+      "officialAttachmentCheck": {
+        "bodyUrl": "https://www.law.go.kr/LSW/ordinInfoR.do?ordinSeq=2121445&gubun=ELIS&chrClsCd=010202",
+        "annexIdFound": true,
+        "downloadSeqFound": true
+      },
+      "metadataTextCheck": {
+        "regionTextFound": true,
+        "sourceHeading": "〔별지 제1호 서식〕 \n\n보령시 출산양육지원금 지원신청서\n\n (앞면)\n\n\n\n신청인\n\n성    명\n\n생년월일\n\n전화번호\n\n출생아와의 관계\n\n주    소\n\n전자우편\n\n출생아\n\n성    명\n\n생년월일\n\n출생일자\n\n년   월   일\n\n출생기관\n\n출생순위\n\n첫째(     ), 둘째(     ), 셋째(     ), 넷째(     ), 다섯째 이후(     )\n\n부\n\n성   명\n\n생년월일\n\n재혼가정의\n\n경우\n\n전혼자녀수:\n\n모\n\n성   명\n\n생년월일\n\n실양육여부:\n\n부모 ",
+        "note": "문서 본문 제목 및 지자체 인용 대조. annexNumber는 법령 데이터의 별표번호로, 인쇄된 별지 제n호와 동일한 숫자라는 가정은 하지 않음."
+      },
+      "printedAnnexLabel": "〔별지 제1호 서식〕",
+      "majorTitleAnnexRegionMismatch": false,
+      "linkUseReview": {
+        "passed": true,
+        "note": "원본의 신청 목적·제목·조례 또는 법령 인용이 대상 사업의 명칭·documents·신청 경로와 부합한다. main/추가/조건부 구분에서 확인된 충돌 없음."
+      }
+    },
+    {
+      "formId": "ordin-20885301",
+      "inputFile": "municipal-reviewed-round2.json",
+      "metadata": {
+        "sourceKind": "ordin",
+        "lawTitle": "부산광역시 금정구 출산장려 지원 조례",
+        "lawId": "1867325",
+        "annexId": "20885301",
+        "annexNumber": "000100",
+        "formTitle": "[별지 서식] 출산 서비스 통합처리 신청서",
+        "regionCode": "26410",
+        "regionLabel": "부산광역시 금정구",
+        "use": "main",
+        "condition": null,
+        "evidenceUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=1867325",
+        "evidenceNote": "제7조는 제3조제1호·제2호의 출산장려 지원 신청자가 별지 출산 서비스 통합처리 신청서를 주민등록지 동장에게 제출하도록 정한다. 원본 HWP의 지방자치단체 서비스에 부산 금정구가 명시되고 출산 축하금 및 자녀 순위별 선택란이 실제로 있어 해당 급여와 지역을 직접 확인했다. 공통 출산서식이라는 이유만으로 다른 지역 서식을 연결한 것이 아니다."
+      },
+      "downloads": [
+        {
+          "formId": "ordin-20885301",
+          "urlKind": "sourceUrl",
+          "requestedUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=157027539&flNm=%5B%EB%B3%84%EC%A7%80+%EC%84%9C%EC%8B%9D%5D+%EC%B6%9C%EC%82%B0+%EC%84%9C%EB%B9%84%EC%8A%A4+%ED%86%B5%ED%95%A9%EC%B2%98%EB%A6%AC+%EC%8B%A0%EC%B2%AD%EC%84%9C",
+          "httpStatus": 200,
+          "bytes": 27136,
+          "sha256": "d36540e228a2e57016f7b596f286b6216e075cafb366b49d10193d834988c0fa",
+          "mime": "application/hwp;;charset=UTF-8",
+          "detectedFormat": "hwp",
+          "validContainer": true,
+          "empty": false,
+          "htmlError": false,
+          "finalUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=157027539&flNm=%5B%EB%B3%84%EC%A7%80+%EC%84%9C%EC%8B%9D%5D+%EC%B6%9C%EC%82%B0+%EC%84%9C%EB%B9%84%EC%8A%A4+%ED%86%B5%ED%95%A9%EC%B2%98%EB%A6%AC+%EC%8B%A0%EC%B2%AD%EC%84%9C",
+          "contentDisposition": "attachment; filename=\"%5B%EB%B3%84%EC%A7%80%20%EC%84%9C%EC%8B%9D%5D%20%EC%B6%9C%EC%82%B0%20%EC%84%9C%EB%B9%84%EC%8A%A4%20%ED%86%B5%ED%95%A9%EC%B2%98%EB%A6%AC%20%EC%8B%A0%EC%B2%AD%EC%84%9C%28%EB%B6%80%EC%82%B0%EA%B4%91%EC%97%AD%EC%8B%9C%20%EA%B8%88%EC%A0%95%EA%B5%AC%20%EC%B6%9C%EC%82%B0%EC%9E%A5%EB%A0%A4%20%EC%A7%80%EC%9B%90%20%EC%A1%B0%EB%A1%80%29.hwp\"",
+          "contentLength": null,
+          "signatureHex": "d0cf11e0a1b11ae10000000000000000",
+          "textMethod": "HWP BodyText paragraph records with 8-unit inline/extended controls excluded",
+          "textLength": 4201,
+          "textTruncated": false,
+          "passed": true
+        }
+      ],
+      "programChecks": [
+        {
+          "id": "g26410.gov24-335000000101",
+          "exists": true,
+          "jurisdictionMatches": true,
+          "name": "출산축하금 지원",
+          "scope": "sigungu",
+          "region": {
+            "sido": "26000",
+            "sigungu": "26410",
+            "label": "부산 금정구"
+          },
+          "applyType": "self",
+          "applyMethod": "○ 방문 신청\n- 동 주민센터 : 거주지 관할 주민센터에 방문 신청",
+          "documents": "해당없음\n본인 확인 필요: 해당없음\n담당 공무원이 확인: 해당없음",
+          "laws": [
+            "부산광역시 금정구 출산장려 지원 조례(제3조)"
+          ]
+        }
+      ],
+      "linkStructureIssues": [],
+      "manualReviewStatus": "passed",
+      "officialAttachmentCheck": {
+        "bodyUrl": "https://www.law.go.kr/LSW/ordinInfoR.do?ordinSeq=1867325&gubun=ELIS&chrClsCd=010202",
+        "annexIdFound": true,
+        "downloadSeqFound": true
+      },
+      "metadataTextCheck": {
+        "regionTextFound": true,
+        "sourceHeading": "\n\n [별지 서식]\n\n[앞쪽]\n\n출산 서비스 통합처리 신청서\n\n※ 색상이 어두운 난은 신청인이 작성하지 아니하며, [ ]에는 해당되는 곳에 √표를 합니다.\n\n접수번호\n\n접수일자\n\n처리기간\n\n신청 시 별도안내\n\n신청인\n\n(대리\n\n 신청인)\n\n성명\n\n주민등록번호\n\n(외국인등록번호)\n\n출산자와의\n\n관계\n\n\n\n휴대전화\n\n집전화\n\n도로명주소\n\n(주민등록주소지)\n\n출산자\n\n(산모)\n\n성명\n\n주민등록번호\n\n(외국인등록번호)\n\n휴대전화\n\n집전화\n\n도로명주소\n\n(주민등록주소지)",
+        "note": "문서 본문 제목 및 지자체 인용 대조. annexNumber는 법령 데이터의 별표번호로, 인쇄된 별지 제n호와 동일한 숫자라는 가정은 하지 않음."
+      },
+      "printedAnnexLabel": "[별지 서식]",
+      "majorTitleAnnexRegionMismatch": false,
+      "linkUseReview": {
+        "passed": true,
+        "note": "원본의 신청 목적·제목·조례 또는 법령 인용이 대상 사업의 명칭·documents·신청 경로와 부합한다. main/추가/조건부 구분에서 확인된 충돌 없음."
+      }
+    },
+    {
+      "formId": "ordin-22826375",
+      "inputFile": "municipal-reviewed-round2.json",
+      "metadata": {
+        "sourceKind": "ordin",
+        "lawTitle": "춘천시 아이돌봄서비스 이용자 본인부담금 지원 조례",
+        "lawId": "2176519",
+        "annexId": "22826375",
+        "annexNumber": "000200",
+        "formTitle": "[별지 서식] 춘천시 아이돌봄서비스 이용자 본인부담금 지원 신청서",
+        "regionCode": "51110",
+        "regionLabel": "강원특별자치도 춘천시",
+        "use": "main",
+        "condition": null,
+        "evidenceUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=2176519",
+        "evidenceNote": "제5조제1항은 아이돌봄서비스 본인부담금을 지원받으려는 사람이 별지 신청서를 주소지 읍·면·동장에게 제출하도록 지정한다. 원본 HWP 제목이 춘천시 아이돌봄서비스 이용자 본인부담금 지원 신청서이며, 보호자·서비스 이용 아동·서비스 유형·양육공백 유형·입금계좌와 같은 조례 제5조 인용을 확인했다. 사업의 대상·읍면동 방문신청·신분증과 통장 및 양육공백 자료 안내가 일치한다."
+      },
+      "downloads": [
+        {
+          "formId": "ordin-22826375",
+          "urlKind": "sourceUrl",
+          "requestedUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=170251371&flNm=%5B%EB%B3%84%EC%A7%80+%EC%84%9C%EC%8B%9D%5D+%EC%B6%98%EC%B2%9C%EC%8B%9C+%EC%95%84%EC%9D%B4%EB%8F%8C%EB%B4%84%EC%84%9C%EB%B9%84%EC%8A%A4+%EC%9D%B4%EC%9A%A9%EC%9E%90+%EB%B3%B8%EC%9D%B8%EB%B6%80%EB%8B%B4%EA%B8%88+%EC%A7%80%EC%9B%90+%EC%8B%A0%EC%B2%AD%EC%84%9C",
+          "httpStatus": 200,
+          "bytes": 64000,
+          "sha256": "8c82bf8e4fea39f511b09ec52923b6cc99f53b103bacc92e8ffb9f7acbd30f91",
+          "mime": "application/hwp;;charset=UTF-8",
+          "detectedFormat": "hwp",
+          "validContainer": true,
+          "empty": false,
+          "htmlError": false,
+          "finalUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=170251371&flNm=%5B%EB%B3%84%EC%A7%80+%EC%84%9C%EC%8B%9D%5D+%EC%B6%98%EC%B2%9C%EC%8B%9C+%EC%95%84%EC%9D%B4%EB%8F%8C%EB%B4%84%EC%84%9C%EB%B9%84%EC%8A%A4+%EC%9D%B4%EC%9A%A9%EC%9E%90+%EB%B3%B8%EC%9D%B8%EB%B6%80%EB%8B%B4%EA%B8%88+%EC%A7%80%EC%9B%90+%EC%8B%A0%EC%B2%AD%EC%84%9C",
+          "contentDisposition": "attachment; filename=\"%5B%EB%B3%84%EC%A7%80%20%EC%84%9C%EC%8B%9D%5D%20%EC%B6%98%EC%B2%9C%EC%8B%9C%20%EC%95%84%EC%9D%B4%EB%8F%8C%EB%B4%84%EC%84%9C%EB%B9%84%EC%8A%A4%20%EC%9D%B4%EC%9A%A9%EC%9E%90%20%EB%B3%B8%EC%9D%B8%EB%B6%80%EB%8B%B4%EA%B8%88%20%EC%A7%80%EC%9B%90%20%EC%8B%A0%EC%B2%AD%EC%84%9C%28%EC%B6%98%EC%B2%9C%EC%8B%9C%20%EC%95%84%EC%9D%B4%EB%8F%8C%EB%B4%84%EC%84%9C%EB%B9%84%EC%8A%A4%20%EC%9D%B4%EC%9A%A9%EC%9E%90%20%EB%B3%B8%EC%9D%B8%EB%B6%80%EB%8B%B4%EA%B8%88%20%EC%A7%80%EC%9B%90%20%EC%A1%B0%EB%A1%80%29.hwp\"",
+          "contentLength": null,
+          "signatureHex": "d0cf11e0a1b11ae10000000000000000",
+          "textMethod": "HWP BodyText paragraph records with 8-unit inline/extended controls excluded",
+          "textLength": 872,
+          "textTruncated": false,
+          "passed": true
+        }
+      ],
+      "programChecks": [
+        {
+          "id": "g51110.bokjiro-WLF00006143",
+          "exists": true,
+          "jurisdictionMatches": true,
+          "name": "아이돌봄서비스 이용자 본인부담금 지원",
+          "scope": "sigungu",
+          "region": {
+            "sido": "51000",
+            "sigungu": "51110",
+            "label": "강원 춘천시"
+          },
+          "applyType": "self",
+          "applyMethod": "신청방법: 본인부담금 신청서를 통한 방문신청(읍.면.동)구비서류: 신청인 신분증 사본, 신청인 통장 사본, 양육공백 증명자료 1부",
+          "documents": null,
+          "laws": [
+            "춘천시 아이돌봄서비스 이용자 본인부담금 지원 조례"
+          ]
+        }
+      ],
+      "linkStructureIssues": [],
+      "manualReviewStatus": "passed",
+      "officialAttachmentCheck": {
+        "bodyUrl": "https://www.law.go.kr/LSW/ordinInfoR.do?ordinSeq=2176519&gubun=ELIS&chrClsCd=010202",
+        "annexIdFound": true,
+        "downloadSeqFound": true
+      },
+      "metadataTextCheck": {
+        "regionTextFound": true,
+        "sourceHeading": "[별지 서식]\n\n\n\n춘천시 아이돌봄서비스 이용자 본인부담금 지원 신청서\n\n신 청 인\n\n(보호자)\n\n성  명\n\n생년월일\n\n주  소\n\n \n\n서비스 이용\n\n대상자\n\n신청인과의 관계\n\n성  명\n\n생년월일\n\n신청인과의\n\n동거여부\n\n서비스 유형 (담당자 확인)\n\n가형 □ 나형 □ 다형 □ 라형 □\n\n가형 □ 나형 □ 다형 □ 라형 □\n\n \n\n가형 □ 나형 □ 다형 □ 라형 □\n\n연 락 처\n\n자  택\n\n휴대전화\n\n입금계좌\n\n금융기관명\n\n예금주\n\n계좌번호\n\n양육공백 \n\n유  ",
+        "note": "문서 본문 제목 및 지자체 인용 대조. annexNumber는 법령 데이터의 별표번호로, 인쇄된 별지 제n호와 동일한 숫자라는 가정은 하지 않음."
+      },
+      "printedAnnexLabel": "[별지 서식]",
+      "majorTitleAnnexRegionMismatch": false,
+      "linkUseReview": {
+        "passed": true,
+        "note": "원본의 신청 목적·제목·조례 또는 법령 인용이 대상 사업의 명칭·documents·신청 경로와 부합한다. main/추가/조건부 구분에서 확인된 충돌 없음."
+      }
+    },
+    {
+      "formId": "ordin-22520035",
+      "inputFile": "municipal-reviewed-round2.json",
+      "metadata": {
+        "sourceKind": "ordin",
+        "lawTitle": "부안군 아이돌봄서비스 지원 조례",
+        "lawId": "2163647",
+        "annexId": "22520035",
+        "annexNumber": "000200",
+        "formTitle": "[별지 제1호 서식] 부안군 아이돌봄서비스 지원 신청서",
+        "regionCode": "52800",
+        "regionLabel": "전북특별자치도 부안군",
+        "use": "main",
+        "condition": null,
+        "evidenceUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=2163647",
+        "evidenceNote": "제5조제1항은 본인부담금 지원을 받으려는 보호자가 별지 제1호 부안군 아이돌봄서비스 지원 신청서를 읍·면장에게 제출하도록 지정한다. 사업 documents가 같은 제1호 서식을 명시하며, 원본 HWP에서 보호자·서비스 이용 아동·시간제/종일제 선택·양육공백 유형·계좌 및 같은 조례 제5조 인용을 확인했다. 제8조 아이돌봄사 처우개선과 별개인 이용 가정의 신청서임을 조문과 원본으로 확인했다."
+      },
+      "downloads": [
+        {
+          "formId": "ordin-22520035",
+          "urlKind": "sourceUrl",
+          "requestedUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=168858223&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C1%ED%98%B8+%EC%84%9C%EC%8B%9D%5D+%EB%B6%80%EC%95%88%EA%B5%B0+%EC%95%84%EC%9D%B4%EB%8F%8C%EB%B4%84%EC%84%9C%EB%B9%84%EC%8A%A4+%EC%A7%80%EC%9B%90+%EC%8B%A0%EC%B2%AD%EC%84%9C",
+          "httpStatus": 200,
+          "bytes": 55808,
+          "sha256": "a7a7f29ee2fb40fb375f0b40e2d9186c8b993717522e4cbb5fd9e624f1656631",
+          "mime": "application/hwp;;charset=UTF-8",
+          "detectedFormat": "hwp",
+          "validContainer": true,
+          "empty": false,
+          "htmlError": false,
+          "finalUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=168858223&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C1%ED%98%B8+%EC%84%9C%EC%8B%9D%5D+%EB%B6%80%EC%95%88%EA%B5%B0+%EC%95%84%EC%9D%B4%EB%8F%8C%EB%B4%84%EC%84%9C%EB%B9%84%EC%8A%A4+%EC%A7%80%EC%9B%90+%EC%8B%A0%EC%B2%AD%EC%84%9C",
+          "contentDisposition": "attachment; filename=\"%5B%EB%B3%84%EC%A7%80%20%EC%A0%9C1%ED%98%B8%20%EC%84%9C%EC%8B%9D%5D%20%EB%B6%80%EC%95%88%EA%B5%B0%20%EC%95%84%EC%9D%B4%EB%8F%8C%EB%B4%84%EC%84%9C%EB%B9%84%EC%8A%A4%20%EC%A7%80%EC%9B%90%20%EC%8B%A0%EC%B2%AD%EC%84%9C%28%EB%B6%80%EC%95%88%EA%B5%B0%20%EC%95%84%EC%9D%B4%EB%8F%8C%EB%B4%84%EC%84%9C%EB%B9%84%EC%8A%A4%20%EC%A7%80%EC%9B%90%20%EC%A1%B0%EB%A1%80%29.hwp\"",
+          "contentLength": null,
+          "signatureHex": "d0cf11e0a1b11ae10000000000000000",
+          "textMethod": "HWP BodyText paragraph records with 8-unit inline/extended controls excluded",
+          "textLength": 859,
+          "textTruncated": false,
+          "passed": true
+        }
+      ],
+      "programChecks": [
+        {
+          "id": "g52800.bokjiro-WLF00005117",
+          "exists": true,
+          "jurisdictionMatches": true,
+          "name": "부안군 아이돌봄서비스 본인부담금 지원",
+          "scope": "sigungu",
+          "region": {
+            "sido": "52000",
+            "sigungu": "52800",
+            "label": "전북 부안군"
+          },
+          "applyType": "self",
+          "applyMethod": "- 부안군 아이돌봄서비스 지원신청서 주소지 읍면장에게 제출- 구비서류(신청인 신분증 사본 1부, 신청인 통장사본 1부, 양육공백 증빙자료 1부)",
+          "documents": "관련 서식·안내: 부안군 아이돌봄서비스 지원 조례.hwpx, [별지 제1호서식] 부안군 아이돌봄서비스 지원 신청서 .hwp",
+          "laws": [
+            "부안군 아이돌봄서비스 지원 조례"
+          ]
+        }
+      ],
+      "linkStructureIssues": [],
+      "manualReviewStatus": "passed",
+      "officialAttachmentCheck": {
+        "bodyUrl": "https://www.law.go.kr/LSW/ordinInfoR.do?ordinSeq=2163647&gubun=ELIS&chrClsCd=010202",
+        "annexIdFound": true,
+        "downloadSeqFound": true
+      },
+      "metadataTextCheck": {
+        "regionTextFound": true,
+        "sourceHeading": "[별지 제1호서식]<개정 2025. 10. 10.>\n\n\n\n부안군 아이돌봄서비스 지원 신청서\n\n신 청 인\n\n성  명\n\n생년월일\n\n성 별\n\n주  소\n\n \n\n서비스 이용\n\n대상자\n\n신청인과의 \n\n관계\n\n성  명\n\n생년월일\n\n성별\n\n신청인과의\n\n동거여부\n\n서비스 유형 (담당자 확인)\n\n시간제(기본□종합□)/종일제□\n\n시간제(기본□종합□)/종일제□\n\n \n\n시간제(기본□종합□)/종일제□\n\n연 락 처\n\n자  택\n\n휴대전화\n\n입금계좌\n\n금융기관명\n\n예금주\n\n계좌번호\n\n양육공백",
+        "note": "문서 본문 제목 및 지자체 인용 대조. annexNumber는 법령 데이터의 별표번호로, 인쇄된 별지 제n호와 동일한 숫자라는 가정은 하지 않음."
+      },
+      "printedAnnexLabel": "[별지 제1호서식]",
+      "majorTitleAnnexRegionMismatch": false,
+      "linkUseReview": {
+        "passed": true,
+        "note": "원본의 신청 목적·제목·조례 또는 법령 인용이 대상 사업의 명칭·documents·신청 경로와 부합한다. main/추가/조건부 구분에서 확인된 충돌 없음."
+      }
+    }
+  ],
+  "issues": [
+    {
+      "formId": "ordin-11128481",
+      "severity": "info",
+      "blocking": false,
+      "type": "official-title-brackets",
+      "note": "공식 첨부 목록/입력 formTitle은 [별지 제1호서식 장애인 휠체어 등 수리 신청서] 형태이다. 실제 본문은 별지 표기와 제목이 분리되어 있고 구리시 제6조제1항을 인용한다. 제목 전체를 별지 접두사로 간주해 삭제하면 빈 제목이 되므로 제목 표시에서 보존할 필요가 있다. 입력 JSON은 변경하지 않음."
+    },
+    {
+      "formId": "ordin-22297979",
+      "severity": "info",
+      "blocking": false,
+      "type": "existing-program-document-guidance",
+      "note": "공식 HWPX는 장애인증명서와 주민등록등본을 담당공무원 확인사항(제출하지 않아도 되는 서류)으로 분류한다. 현재 사업 documents의 제출서류 안내와 차이가 있다. 서식 자체의 대상/지역 연결은 일치하며 기존 데이터 안내는 변경하지 않았다."
+    },
+    {
+      "formId": "ordin-19953773",
+      "severity": "info",
+      "blocking": false,
+      "type": "official-original-title-variation",
+      "note": "원본은 청도군 장애인 전동보장구 수리 지원에 관한 조례로 인용하며 현행 metadata 조례명에는 장애인이 없다. 같은 공식 법규 본문이 해당 annexId/flSeq를 제공하며 관할/신청 목적이 일치해 연결 차단 사유로 보지 않았다."
+    },
+    {
+      "formId": "ordin-22520035",
+      "severity": "info",
+      "blocking": false,
+      "type": "annex-storage-number-vs-printed-number",
+      "note": "입력 annexNumber는 000200이고 실제 인쇄 표기는 별지 제1호서식이다. 공식 본문에서 해당 annexId/flSeq가 모두 일치한다. 저장용 별표번호와 인쇄된 서식 번호를 동일하게 보지 않았으며 metadata를 임의 수정하지 않았다."
+    },
+    {
+      "formId": "ordin-22826375",
+      "severity": "info",
+      "blocking": false,
+      "type": "annex-storage-number-vs-printed-number",
+      "note": "입력 annexNumber는 000200이고 실제 인쇄 표기는 번호 없는 별지 서식이다. 공식 본문에서 해당 annexId/flSeq가 모두 일치한다. 저장용 별표번호를 인쇄 제목에 덧붙이지 않는다."
+    }
+  ],
+  "passed": true,
+  "completedAt": "2026-10-16T13:18:14.561025+00:00",
+  "limitations": [
+    "다운로드·컨테이너·텍스트·기존 사업 연결을 확인한 결과이며, 전체 페이지 시각 조판 검수나 새로운 급여 자격 판정을 수행한 것이 아니다.",
+    "검토 중인 코드, public 파일, 입력 review JSON, git 상태는 수정하지 않았다. 저장한 파일은 이 logs 결과뿐이다.",
+    "본문 인용의 개정일과 현행 법령 시행일은 서로 다른 날짜일 수 있으며 이를 임의로 같게 고치지 않았다."
+  ]
+}

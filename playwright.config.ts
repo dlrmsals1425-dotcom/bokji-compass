@@ -9,7 +9,7 @@ export default defineConfig({
   fullyParallel: false,
   retries: 0,
   reporter: [["list"]],
-  use: { baseURL, headless: true, locale: "ko-KR", timezoneId: "Asia/Seoul", trace: "retain-on-failure" },
+  use: { baseURL, headless: true, locale: "ko-KR", timezoneId: "Asia/Seoul", trace: "retain-on-failure", channel: process.env.E2E_BROWSER_CHANNEL === "chrome" ? "chrome" : undefined },
   projects: [
     { name: "desktop-chromium", use: { ...devices["Desktop Chrome"], viewport: { width: 1280, height: 800 } } },
     { name: "mobile-chromium", use: { ...devices["Pixel 7"], viewport: { width: 390, height: 844 } }, grep: /@mobile/ },

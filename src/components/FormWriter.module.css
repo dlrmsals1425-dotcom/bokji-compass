@@ -1,0 +1,72 @@
+.page { max-width: 52rem; padding: 1.5rem 0 3rem; font-size: 1.125rem; line-height: 1.75; }
+.back { display: inline-block; padding: .6rem 0; font-size: 1.0625rem; font-weight: 600; }
+.title { font-size: 1.6rem; line-height: 1.4; margin: .4rem 0 .5rem; }
+.basis { color: var(--muted); font-size: 1rem; margin: 0 0 1rem; }
+.notice { border: 1px solid var(--line-2); background: var(--surface-2); border-radius: var(--radius); padding: 1rem 1.1rem; margin: 0 0 1.25rem; }
+.notice p { margin: .3rem 0; font-size: 1.0625rem; }
+
+.progress { display: flex; flex-wrap: wrap; gap: .4rem; margin: 0 0 1.1rem; padding: 0; list-style: none; }
+.progress li { font-size: .9375rem; color: var(--muted); border: 1px solid var(--line-2); border-radius: 999px; padding: .2rem .7rem; }
+.progress li[data-now="1"] { color: #fff; background: var(--primary); border-color: var(--primary); font-weight: 700; }
+.progress li[data-done="1"] { color: var(--primary-60); background: var(--primary-5); border-color: var(--primary-10); }
+
+.step { border: 1px solid var(--line-2); border-radius: var(--radius); padding: 1.25rem; background: #fff; box-shadow: var(--shadow); }
+.stepHead { margin: 0 0 .3rem; font-size: 1.35rem; line-height: 1.4; }
+.stepCount { display: block; font-size: 1rem; font-weight: 600; color: var(--muted); margin-bottom: .2rem; }
+.stepNote { margin: .2rem 0 1rem; font-size: 1rem; color: var(--ink-2); }
+
+.group { border-top: 1px solid var(--hair); padding-top: 1.1rem; margin-top: 1.1rem; }
+.group:first-of-type { border-top: 0; padding-top: 0; margin-top: 0; }
+.groupTitle { font-size: 1.1875rem; font-weight: 800; margin: 0 0 .4rem; line-height: 1.45; }
+.groupNote { font-size: .9375rem; color: var(--muted); margin: 0 0 .7rem; }
+.nested { margin-left: 0; padding-left: .9rem; border-left: 3px solid var(--primary-10); }
+
+.fields { display: grid; gap: 1rem; margin: .6rem 0; }
+.field label { display: block; font-weight: 700; font-size: 1.0625rem; margin-bottom: .3rem; }
+.field input { width: 100%; font-size: 1.125rem; min-height: 3.25rem; padding: .55rem .9rem; border: 1px solid var(--line); border-radius: var(--radius-sm); background: #fff; }
+.field input:focus { outline: 3px solid var(--focus); outline-offset: 1px; }
+.field input[aria-invalid="true"] { border-color: var(--error); border-width: 2px; }
+.hint { display: block; font-size: .9375rem; color: var(--muted); font-weight: 500; margin-top: .15rem; }
+.error { color: var(--error); font-size: .9375rem; font-weight: 700; margin: .25rem 0 0; }
+
+.checks { display: grid; gap: .5rem; margin: .6rem 0; padding: 0; list-style: none; }
+.check { display: flex; gap: .7rem; align-items: flex-start; padding: .6rem .7rem; border: 1px solid var(--line-2); border-radius: var(--radius-sm); cursor: pointer; }
+.check:hover { background: var(--surface-2); }
+.check input { width: 1.6rem; height: 1.6rem; margin: .1rem 0 0; flex: none; accent-color: var(--primary); }
+.check span { font-size: 1.0625rem; line-height: 1.6; }
+.lead { border-color: var(--primary-20); background: var(--primary-5); }
+.lead span { font-weight: 700; }
+
+.row { border: 1px solid var(--line-2); border-radius: var(--radius-sm); padding: .9rem 1rem; margin-bottom: .8rem; }
+.rowTitle { font-weight: 800; font-size: 1.0625rem; margin: 0 0 .6rem; }
+.more { margin-top: .2rem; }
+
+.nav { display: flex; gap: .75rem; flex-wrap: wrap; margin-top: 1.5rem; }
+.nav .btnWide { flex: 1 1 10rem; }
+
+.review { display: grid; gap: .5rem; margin: .8rem 0; padding: 0; list-style: none; }
+.review li { display: grid; grid-template-columns: 11rem 1fr; gap: .2rem 1rem; padding: .55rem 0; border-bottom: 1px solid var(--hair); font-size: 1.0625rem; }
+.review dt, .reviewLabel { font-weight: 700; color: var(--ink-2); }
+.reviewValue { overflow-wrap: anywhere; }
+.reviewGroup { font-size: 1.1rem; font-weight: 800; margin: 1rem 0 .3rem; }
+.empty { color: var(--muted); }
+
+.manual { margin: 1rem 0 0; padding: 1rem 1.1rem; border: 1px solid var(--warm-5); background: var(--warm-5); border-radius: var(--radius-sm); }
+.manual h3 { font-size: 1.0625rem; margin: 0 0 .4rem; }
+.manual ul { margin: .3rem 0 0; padding-left: 1.2rem; }
+.manual li { margin: .3rem 0; font-size: 1rem; line-height: 1.7; }
+
+.failure { color: var(--error); font-weight: 700; margin-top: .8rem; }
+.disclosure { margin: 1rem 0; border: 1px solid var(--hair); border-radius: var(--radius-sm); padding: .8rem 1rem; }
+.disclosure summary { min-height: 44px; cursor: pointer; font-weight: 700; line-height: 1.6; }
+.disclosure p { white-space: pre-line; overflow-wrap: anywhere; font-size: 1rem; line-height: 1.8; margin: .75rem 0; }
+.done { margin-top: .8rem; padding: .9rem 1rem; border: 1px solid var(--primary-10); background: var(--primary-5); border-radius: var(--radius-sm); font-size: 1.0625rem; }
+
+@media (max-width: 640px) {
+  .page { font-size: 1.0625rem; }
+  .step { padding: 1rem; }
+  .review li { grid-template-columns: 1fr; }
+  .nav { flex-direction: column; }
+  .nav .btnWide { width: 100%; flex: none; min-height: 3.5rem; }
+  .progress li:not([data-now="1"]) { display: none; }
+}

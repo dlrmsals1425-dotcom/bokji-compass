@@ -11,12 +11,6 @@ export function ResumeBanner() {
   if (!p) return null;
   const parent = mode === "parent";
   return (
-    <p className="notice" style={{ marginTop: "1.25rem", maxWidth: "36rem" }}>
-      <Icon name="info" size={18} />
-      <span>
-        이 기기에 저장된 {parent ? "부모님 " : ""}상황이 있어요.{" "}
-        <Link href={resultsPath(mode ?? "self")}>지난 결과 이어서 보기</Link>
-      </span>
-    </p>
+    <Link href={resultsPath(mode ?? "self")}>{parent ? "부모님 " : ""}지난 결과 보기 <Icon name="arrowRight" size={16} /></Link>
   );
 }

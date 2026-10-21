@@ -30,11 +30,13 @@ test("axe 접근성: 주요 화면 serious/critical 0건 @mobile", async ({ page
   for (const pg of PAGES) {
     if (pg.sentence) {
       await page.goto("/");
+      await page.getByText("혜택 이름으로 검색", { exact: true }).click();
       await page.locator("#home-q").fill(pg.sentence);
       await page.locator("#home-q").press("Enter");
       await expect(page.getByTestId("prefill-banner")).toBeVisible({ timeout: 20_000 });
     } else if (pg.preset) {
       await page.goto("/");
+      await page.getByText("가상 예시 보기", { exact: false }).click();
       await page.getByTestId(`preset-${pg.preset}`).click();
       await expect(page.getByTestId("top-picks")).toBeVisible({ timeout: 20_000 });
     } else {
@@ -47,6 +49,7 @@ test("axe 접근성: 주요 화면 serious/critical 0건 @mobile", async ({ page
   }
   // 큰 글씨 모드의 결과 화면
   await page.goto("/");
+  await page.getByText("가상 예시 보기", { exact: false }).click();
   await page.getByTestId("preset-bucheon-disability").click();
   await expect(page.getByTestId("top-picks")).toBeVisible({ timeout: 20_000 });
   await page.getByTestId("large-text").click();
@@ -61,8 +64,8 @@ test("axe 접근성: 주요 화면 serious/critical 0건 @mobile", async ({ page
   const ra = await new AxeBuilder({ page }).withTags(["wcag2a", "wcag2aa", "wcag21a", "wcag21aa"]).analyze();
   summary["결과(자동으로 받는 혜택 펼침)"] = { violations: ra.violations.map((v) => ({ id: v.id, impact: v.impact, nodes: v.nodes.length, help: v.help })) };
   // 맞지 않아 뺀 혜택 · 답하면 정해져요 펼침
-  await page.getByTestId("v2-no").locator("summary").click();
-  if (await page.getByTestId("v2-ask").count()) await page.getByTestId("v2-ask").locator("summary").click();
+  await page.getByTestId("v2-no").locator(":scope > summary").click();
+  if (await page.getByTestId("v2-ask").count()) await page.getByTestId("v2-ask").locator(":scope > summary").click();
   await settle(page);
   const rv = await new AxeBuilder({ page }).withTags(["wcag2a", "wcag2aa", "wcag21a", "wcag21aa"]).analyze();
   summary["결과(부천, 뺀 혜택 펼침)"] = { violations: rv.violations.map((v) => ({ id: v.id, impact: v.impact, nodes: v.nodes.length, help: v.help })) };

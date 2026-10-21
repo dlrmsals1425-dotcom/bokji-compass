@@ -1,0 +1,59 @@
+{
+  "checkedAt": "2026-10-19",
+  "sourceRecords": 23578,
+  "approvedProgramRecords": 2431,
+  "officialAttachmentsFoundOnUnapprovedRecords": 3360,
+  "unapprovedDistinctAttachmentURLs": 4021,
+  "namedHangulFormCandidates": 530,
+  "foundAttachmentsIncorrectlyShownMissing": 1656,
+  "missingRecordsFromIntegratedCareMenus": 10050,
+  "noClaimThatTheseAreDistinctNationalBenefitTypes": true,
+  "noAutomaticPublication": true,
+  "statusCorrection": {
+    "reclassifiedMissingToReview": 1656,
+    "after": {
+      "available": 2431,
+      "online": 1773,
+      "review": 6352,
+      "missing": 13022
+    },
+    "approvedOriginalFilesUnchanged": 2658,
+    "approvedAssociationsUnchanged": 3346
+  },
+  "additionalCollection": {
+    "candidateCount": 530,
+    "states": {
+      "original_and_extracted_text_saved": 527,
+      "original_saved_body_needs_review": 3
+    },
+    "uniqueContentCount": 475,
+    "previouslyStoredSameContentFiles": 7,
+    "notPreviouslyStoredSameContentFiles": 523,
+    "semanticReviewsCompleted": 0,
+    "publicationApprovals": 0,
+    "manualMatchingPending": 530
+  },
+  "modelWork": {
+    "ClaudeCode": "Actual CLI edited the status function, build call and regression tests.",
+    "Grok": "Actual CLI independently checked count changes and warned against treating file discovery as approval.",
+    "Codex": "Source-data audit, additional530 collection and extraction, code review, integration and verification."
+  },
+  "verification": {
+    "relatedUnitTestsPassed": 74,
+    "desktopAndMobileRegressionPassed": 2,
+    "productionBuild": "passed",
+    "lint": "passed",
+    "allExistingFormMetadataAndApprovedAssociationsUnchanged": true
+  },
+  "expandedOfficialAttachmentScope": {
+    "schema": 1,
+    "checkedAt": "2026-10-19",
+    "scope": "All already discovered official attachment URLs of unapproved program records; filenames are priorities only and never grounds for exclusion or approval.",
+    "attachmentURLs": 4021,
+    "programRecords": 3360,
+    "priorityHangulFormsCollected": 530,
+    "otherAttachmentsAwaitingCollection": 3491,
+    "semanticReviewsCompleted": 0,
+    "publicationApprovals": 0
+  }
+}

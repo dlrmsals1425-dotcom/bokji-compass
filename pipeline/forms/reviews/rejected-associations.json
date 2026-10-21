@@ -1,0 +1,78 @@
+{
+  "schema": 1,
+  "scope": "Exact benefit/form pairs rejected after reading the actual official original; not a global form exclusion",
+  "rows": [
+    {
+      "programId": "g51720.bokjiro-WLF00006174",
+      "formId": "ordin-19848357",
+      "checkedAt": "2026-10-17",
+      "evidenceUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=2020023",
+      "reason": "제9조제1항제2호는 수령 포기를 지원 중지 사유로 정하고 원본2호도 효행장려금 수령 포기를 신청한다. 수혜를 신청하거나 필요한 보조서류를 제출하는 용도가 아니므로 제안main을 승인하지 않는다. 실제 최초신청서의 존재 여부와는 별개이다.",
+      "sha256": "805185c1a3c8667fed418a0d4cbce5ce4fa2969fadf4972544f9882347c4f28e"
+    },
+    {
+      "programId": "g52720.gov24-473000000128",
+      "formId": "ordin-22409405",
+      "checkedAt": "2026-10-17",
+      "evidenceUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=2162705",
+      "reason": "원본 별지 제5호의 작성자는 서비스를 파견 제공한 건강관리사이며 제공대상 산모·파견일수·교통비를 청구한다. 전체 제16조제1항은 건강관리사에게 지급한다고 명시한다. 산모 이용료 신청은 제15조제1항의 별지 제3호이므로 산모 대상 서비스 사업에 제5호를 연결할 수 없다.",
+      "sha256": "a9b4a348f1446a461d283630a0bb116cfa70fc057b4ccc49dea1c19c2560a915"
+    },
+    {
+      "programId": "g52130.gov24-O00029000001",
+      "formId": "ordin-20138809",
+      "checkedAt": "2026-10-17",
+      "evidenceUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=1985349",
+      "reason": "원본 별지 제18호의 대상은 빗물이용시설 설치자이고 시설용량·설치일·빗물사용현황을 적는다. 같은 제37조에 많은 서식이 나열돼 있으나 취약계층 3톤 감면 신청은 제4호가 별지 제21호로 별도 지정한다. 수급자·장애인·다자녀 사업과 목적이 다르다.",
+      "sha256": "9e8ff31d93b40f9b947387bb7299bd3b904d7668011459c8a781f42341dd640b"
+    },
+    {
+      "programId": "g11440.gov24-313000000117",
+      "formId": "ordin-22518041",
+      "checkedAt": "2026-10-17",
+      "evidenceUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=2126525",
+      "reason": "실제 별지 제1호와 제7조는 국가보훈대상자 사망위로금 전용이다. 연결 후보인 보훈대상자 지원 사업의 benefit은 보훈예우·참전명예·배우자복지수당 세 가지이며 사망위로금이 없다. 같은 조례를 인용해도 이 사업에 첨부할 수 없다.",
+      "sha256": "4f5c3925f7da1dbc6c4a4c07fbabfb60bd2e19c47e0f46e0d1edfc9a1847480d"
+    },
+    {
+      "programId": "g47170.gov24-507000000756",
+      "formId": "ordin-18978935",
+      "checkedAt": "2026-10-17",
+      "evidenceUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=2000657",
+      "reason": "공식 제5조의 별지 지정과 원본 전체 본문을 대조했다. 원본은 참전유공자 또는 배우자 복지수당 대상자가 사망한 뒤 유족이 내는 사망위로금 신청서이며, 생존 배우자의 월 복지수당 신청서가 아니다. 동일 법규 ID 2000657, 별표 ID 18978935, 다운로드 flSeq 147419283 및 실제 원본 SHA256·길이를 재검증했다.",
+      "sha256": "9f0ecda6feae8f12d965a6bd8af595da6d0f6a3d730328886beee711998a2219"
+    },
+    {
+      "programId": "g51820.bokjiro-WLF00000445",
+      "formId": "ordin-20082747",
+      "checkedAt": "2026-10-17",
+      "evidenceUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=1719413",
+      "reason": "공식 제38조의 별지 지정과 원본 전체 본문을 대조했다. 원본과 조문은 다자녀가구 전용 감면 신청이다. 대상 사업은 국민기초생활수급자 감면만 명시하므로 동일 혜택으로 승인하지 않는다. 동일 법규 ID 1719413, 별표 ID 20082747, 다운로드 flSeq 152415331 및 실제 원본 SHA256·길이를 재검증했다.",
+      "sha256": "7e800dba77f9533baac887346ea1a6e4ab28caf3c2d3c3d83d3ae8c6332c2684"
+    },
+    {
+      "programId": "g12820.gov24-496000000123",
+      "formId": "ordin-20286251",
+      "checkedAt": "2026-10-17",
+      "evidenceUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=1213913",
+      "reason": "공식 제6조의 별지 지정과 원본 전체 본문을 대조했다. 원본은 교복구입 영수증과 의류별 구입내용을 요구하는 교복구입비 신청이다. 사업의 책가방·수학여행비 지원과 목적이 다르다. 동일 법규 ID 1213913, 별표 ID 20286251, 다운로드 flSeq 153384429 및 실제 원본 SHA256·길이를 재검증했다.",
+      "sha256": "3f78349c2239eab8eca3aed793cef97d8095eea87cb523ab7a131a667d7daa19"
+    },
+    {
+      "programId": "g44200.gov24-452000000110",
+      "formId": "ordin-22407981",
+      "checkedAt": "2026-10-17",
+      "evidenceUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=2162563",
+      "reason": "공식 제6조의 별지 지정과 원본 전체 본문을 대조했다. 사망일·유족 관계와 사망 증빙을 요구하는 사망위로금 서식이다. 생존 참전유공자의 월 수당 사업과 구분했다. 동일 법규 ID 2162563, 별표 ID 22407981, 다운로드 flSeq 168293211 및 실제 원본 SHA256·길이를 재검증했다.",
+      "sha256": "b75249df05247dbb356858fcceed41292885f514ea3fd411fdb1dd15abeafc76"
+    },
+    {
+      "programId": "g51210.bokjiro-WLF00003878",
+      "formId": "ordin-22515099",
+      "checkedAt": "2026-10-17",
+      "evidenceUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=1768829",
+      "reason": "공식 제5조의 별지 지정과 원본 전체 본문을 대조했다. 실제 원본과 조문은 사망한 참전유공자의 배우자 수당 전용이다. 사업에 명시된 참전유공자 본인 월수당·사망위로금과는 목적이 다르다. 동일 법규 ID 1768829, 별표 ID 22515099, 다운로드 flSeq 168796889 및 실제 원본 SHA256·길이를 재검증했다.",
+      "sha256": "863de62f6c18d4191ff913358b1dac44f2d9ae49e88c9f635fc8e4ff070bba34"
+    }
+  ]
+}

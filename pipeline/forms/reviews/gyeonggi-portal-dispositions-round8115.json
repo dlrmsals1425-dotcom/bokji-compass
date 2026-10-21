@@ -1,0 +1,90 @@
+{
+  "schema": 1,
+  "checkedAt": "2026-10-20",
+  "items": [
+    {
+      "formId": "ordin-20004391",
+      "sha256": "9bf9f27072b5e9906307a114a412155c7364c7b6b22b31ebf8b621bfbfc50393",
+      "disposition": "approved",
+      "fullBodyReviewed": true,
+      "checkedAt": "2026-10-20",
+      "programIds": [
+        "g41130.bokjiro-WLF00001629"
+      ],
+      "use": "main",
+      "condition": "환자·보호자 등이 작성하는 별지 제1호 3쪽 전체 중 신청인 작성 부분을 사용합니다. 입원·외래를 합산해 신청하면 제2쪽 청구 세부내역도 작성하고 제3쪽 제출서류·행정정보 공동이용 동의를 확인합니다. 최종 진료일 다음 날부터 1년 이내 신청하는 개인 지급신청이며, 의료기관이 비용을 직접 청구하는 별지 제6호는 아닙니다. 담당직원 확인란은 담당자가 작성합니다.",
+      "sourceProposal": "logs/forms-completion/gyeonggi-20261019/team2/raw-existing-original-additional-link-20261020.json",
+      "sourceProposalSHA256": "bdf8bc5f72bd10e76ef30cb8d933e8549f03f81c2766c38b640c206f07efeef5",
+      "currentSearchSHA256": "ea92242afad07c30e2dcf6d5d8c4f689b6017bc576a4221961608decfe094677",
+      "currentBodySHA256": "9ce52bb07acaf19751f3de8d6ee9523c0605590c3dcb2b598f27e47a80d671d1",
+      "annexBinding": {
+        "binding": "bound",
+        "bindingReason": "OFFICIAL_ANNEX_BOUND_WITH_SAME_FILE",
+        "officialAnnexId": "20004391",
+        "officialAnnexNumber": "1",
+        "officialAnnexTitle": "[별지 제1호서식]아동의료비 본인부담 100만원 상한제 지급 신청서(환자용)",
+        "officialFlSeq": "152239455",
+        "officialAnnexUrl": "https://www.law.go.kr/flDownload.do?gubun=ELIS&flSeq=152239455&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C1%ED%98%B8%EC%84%9C%EC%8B%9D%5D%EC%95%84%EB%8F%99%EC%9D%98%EB%A3%8C%EB%B9%84+%EB%B3%B8%EC%9D%B8%EB%B6%80%EB%8B%B4+100%EB%A7%8C%EC%9B%90+%EC%83%81%ED%95%9C%EC%A0%9C+%EC%A7%80%EA%B8%89+%EC%8B%A0%EC%B2%AD%EC%84%9C%28%ED%99%98%EC%9E%90%EC%9A%A9%29",
+        "officialAnnexDeleted": false
+      },
+      "independentVerification": {
+        "reviewedBy": "/root/national_form_audit",
+        "checkedAt": "2026-10-20",
+        "fullBodyRead": true,
+        "sectionsRead": [
+          "BodyText/Section0",
+          "BodyText/Section1",
+          "BodyText/Section2"
+        ],
+        "textLength": 2597,
+        "textSHA256": "954c53e1bb7790aa1107fb7cf2f584b7f987124cf3df090499162ceffad4168f",
+        "actualBytesSHA256": "9bf9f27072b5e9906307a114a412155c7364c7b6b22b31ebf8b621bfbfc50393",
+        "currentSearchPath": "logs/forms-completion/gyeonggi-20261019/current-law-extra14/current-law-searches/2041475.json",
+        "currentSearchSHA256": "ea92242afad07c30e2dcf6d5d8c4f689b6017bc576a4221961608decfe094677",
+        "currentBodyPath": "logs/forms-completion/gyeonggi-20261019/current-law-extra14/current-law-bodies/2041475.json.gz",
+        "currentBodySHA256": "9ce52bb07acaf19751f3de8d6ee9523c0605590c3dcb2b598f27e47a80d671d1",
+        "currentAuditPath": "logs/forms-completion/gyeonggi-20261019/current-law-extra14/audit.json",
+        "currentAuditSHA256": "8a051b560f7a783b8d5be4abc32f6c1a8db633aee2e0e47fdd29d7f4e99f50f2",
+        "rawAnnexId": "20004391",
+        "rawAnnexNumber": "000100",
+        "rawAnnexTitle": "[별지 제1호서식]아동의료비 본인부담 100만원 상한제 지급 신청서(환자용)",
+        "rawFlSeq": "152239455",
+        "officialAnnexDeleted": false,
+        "sourceLawId": "2041475",
+        "officialBodyLawTitle": "성남시 아동의료비 본인부담 100만원 상한제 조례 시행규칙",
+        "proposalLawTitle": "성남시 아동의료비 본인부담 100만원 상한제 조례 시행규칙",
+        "lawTitleNFKCEqual": true,
+        "printedParts": [
+          "1 (제1~3쪽)"
+        ]
+      },
+      "reviewedParts": [
+        {
+          "number": "1 (제1~3쪽)",
+          "title": "아동의료비 본인부담 100만원 상한제 지급 신청서(환자용)",
+          "use": "main",
+          "author": "아동 환자 또는 보호자 등 신청인"
+        }
+      ],
+      "reason": "현재 복지로 WLF00001629는 정확히 이 1호 환자용 HWPX를 직접 배포한다. 20일 GET한 3개 XML 섹션 전체와 국가법령포털의 현행 동일 1호 HWP 3개 BodyText 섹션 전체를 각각 읽고, 공백 제거 전체 본문이 동일함을 확인했다. 환자·보호자 신청/서명, 초과 의료비와 타 지원 공제, 청구 세부내역 및 제출서류/행정정보 동의를 갖춘다. 현행 규칙 제3조제1항·제2항이 최종진료 다음날부터 1년 이내 1호를 제출하도록 지정한다. 기존에는 같은 원본이 정확 정부24 378000000137에 주신청서로 공개됐고 복지로 WLF00001629에는 보조서류만 연결되어 있어 이 동일 사업의 누락 주신청 연결 1개를 추가 제안한다. 원본 자체는 신규 원본 수에 포함하지 않는다.",
+      "newOriginalCount": 0,
+      "associationOnly": true
+    }
+  ],
+  "counts": {
+    "uniqueOriginals": 1,
+    "newOriginals": 0,
+    "rows": 1,
+    "programmeAssociations": 1
+  },
+  "sourceGate": "passed_independent_bytes_sections_current_raw_annex_binding",
+  "importerDryGate": {
+    "round": 8115,
+    "dryGate": "passed",
+    "newOriginals": 0,
+    "newAssociations": 1,
+    "reviewRows": 1,
+    "totalDryForms": 2775,
+    "totalDryAssociations": 3489
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "schema": 1,
+  "note": "Individually verified official law identities. This does not approve any program association.",
+  "histories": {
+    "2013333": {
+      "stableLawId": "2143324",
+      "priorLawId": "1043959",
+      "transitionLawId": "1903575",
+      "priorRuleTitle": "전라북도 저소득계층 임대보증금 지원조례 시행규칙",
+      "currentRuleTitle": "전북특별자치도 저소득계층과 청년 및 신혼부부 주거 지원 조례 시행규칙",
+      "provinceCode": "52000",
+      "checkedAt": "2026-10-19",
+      "editions": [
+        {
+          "lawId": "1043959",
+          "stableLawId": "2143324",
+          "lawTitle": "전라북도 저소득계층 임대보증금 지원조례 시행규칙",
+          "effectiveDate": "20110603",
+          "evidenceUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=1043959",
+          "snapshotSHA256": "c9cebc87731b2496defc5a52baf50270c1ddeaf93315c1ec49d1d56124671eb1"
+        },
+        {
+          "lawId": "1903575",
+          "stableLawId": "2143324",
+          "lawTitle": "전북특별자치도 저소득계층과 청년 및 신혼부부 주거 지원 조례 시행규칙",
+          "effectiveDate": "20240118",
+          "evidenceUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=1903575",
+          "snapshotSHA256": "08b56342e38789555564c04b6c2d71cd2e4c441ad71fb41e49f6b844143ae08f"
+        },
+        {
+          "lawId": "2013333",
+          "stableLawId": "2143324",
+          "lawTitle": "전북특별자치도 저소득계층과 청년 및 신혼부부 주거 지원 조례 시행규칙",
+          "effectiveDate": "20250131",
+          "evidenceUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=2013333",
+          "snapshotSHA256": "5b57538d7c81e8cdd185a1039c41394ffa097cb3ef6c5e503a7271b49158da9f"
+        }
+      ],
+      "basis": "공식nw=2 목록과 두 시점 기본정보가 동일stable2143324를 표시한다.1903575 기본정보는2024-01-18 시행의 현행제명이고 제1조에2024-01-12 개정 표시가 있다. 부칙3233은 특자도 설치에 따른 명칭변경 일괄개정과2024-01-18 시행을 명시한다. 별도의 제명을 OO로 한다는 개정문 문장은 제공된 본문에 없으므로 그런 문장을 확인했다고 주장하지 않는다."
+    }
+  }
+}

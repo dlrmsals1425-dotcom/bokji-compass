@@ -1,0 +1,2123 @@
+{
+  "schema": 1,
+  "batchId": "batch-009",
+  "checkedAt": "2026-10-18",
+  "complete": true,
+  "summary": {
+    "scopeForms": 52,
+    "reviewed": 52,
+    "pending": 0,
+    "approvedForms": 25,
+    "approvedAssociations": 28
+  },
+  "items": [
+    {
+      "formId": "ordin-20123317",
+      "sha256": "9a886eafc88893eee92e8cc3bed0131d7adb285e7bb363c3873dbcb4067b4c83",
+      "disposition": "no_matching_site_program",
+      "reason": "개인 성명·생년월일과 사업계획을 적는 개인용 자활기금 신청서다. 현행 규칙은 개인 융자도 두지만 현재 신안군 사이트 사업은 자활기업·지역자활센터 활성화 지원만 명시한다. 개인 복지증진 융자 사업은 같은 관할 전체 목록에서 찾지 못해 기관용 신청과 구분했다.",
+      "fullBodyReviewed": true,
+      "reviewedProgramPairs": [
+        {
+          "programId": "g12870.bokjiro-WLF00000430",
+          "programName": "자활기금",
+          "disposition": "not_applicable",
+          "reason": "원본 신청 주체·목적과 이 사업의 지원 범위를 대조했으며 이 연결은 승인하지 않음."
+        }
+      ],
+      "sourceEvidence": {
+        "lawId": "1602735",
+        "lawTitle": "신안군 자활기금 설치 및 운용 조례 시행규칙",
+        "annexId": "20123317",
+        "flSeq": "152545087",
+        "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=152545087&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C1%ED%98%B8%EC%84%9C%EC%8B%9D%5D%EC%9E%90%ED%99%9C%EA%B8%B0%EA%B8%88+%EC%A7%80%EC%9B%90%EC%8B%A0%EC%B2%AD%EC%84%9C%28%EA%B0%9C%EC%9D%B8%29%28%EC%A0%9C4%EC%A1%B0+%EA%B4%80%EB%A0%A8%29",
+        "publicLawUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=1602735",
+        "exactSourceBinding": true,
+        "lawTextRead": true,
+        "articleNumbers": [
+          "제4조",
+          "제7조"
+        ],
+        "articleTexts": [
+          "제4조(지원신청 및 결정)① 기금을 지원받고자 하는 자는 다음 각 호의 서류를 첨부하여 군수에게 제출하여야 한다.1. 자활기금 지원신청서(별지 제1호서식 또는 별지 제2호서식)2. 사업계획서3. 법인ㆍ기관ㆍ단체 등의 정관4. 법인ㆍ기관ㆍ단체 등의 최근 1년간 활동실적② 군수는 제1항에 따라 기금을 대여할 때에는 담보나 재정보증 등 채권보전 조치를 하거나 신용보증재단의 보증을 원칙으로 한다.③ 제2항에도 불구하고 다음 각 호의 경우 무담보나 무보증으로 대여할 수 있다.1. 조례 제3조제4호에 따른 용도로 1,000만원 이하의 대여2. 자활의지가 있는 자 또는 자활기업 등에 대한 대여로 위원회에서 인정하는 경우④ 군수는 제1항에 따라 기금 지원신청서를 접수한 때에는 다음 각 호의 사항을 조사ㆍ검토한 후에 위원회의 심의를 거치거나 위원회가 정하는 방법에 따라 그 지원여부와 지원금액을 결정한다.1. 기금의 설치목적에의 부합여부2. 지원사업 내용의 적정여부3. 지원금액 산정의 적정여부4. 자체부담액의 부담능력 여부5. 최근 1년간 자활사업의 활동실적⑤ 군수는 제4항에 따라 결정된 내용을 지원 신청접수 후 1개월 이내에 신청인에게 통보하여야 한다.",
+          "제7조(대여 및 상환)① 조례 제6조제1항에 따른 자활기업에 대한 사업자금 대여금액은 기업당 1억원 이내, 전세점포 임대자금 대여금액은 기업당 1억원 이내로 한다.② 시설ㆍ장비설치 사업자금을 대여받은 자활기업은 5년 거치 5년 균등분할 상환 또는 10년 이내 일시 상환하여야 하고, 전세점포 임대자금은 2년 이내 상환을 원칙으로 하되, 최대 3회(최장 6년까지 연장 가능)에 걸쳐 이를 연장해 줄 수 있다.③ 수급자 및 차상위자의 복지증진을 위한 사업자금의 대여금액은 1가구당 2천만원 범위에서 사업계획의 타당성을 고려하여 군수가 결정한다.④ 제3항에 따라 기금을 대여받은 사람은 2년 거치 후 5년 매분기 균등분할 상환하거나 7년 이내에 일시상환하여야 한다.⑤ 제4항에 따라 수급자 및 차상위자에 대한 대여금 상환은 거치 기간이 지난 분기부터 매분기 납부한다.⑥ 조례 제6조제2항에 따라 대여이율은 연 1% 이내로 하고, 상환기한이 경과한 경우에는 수탁금융기관 등의 여신규정에 따른 연체율을 적용한다."
+        ],
+        "originalBytes": 45056,
+        "bodyTextSha256": "832b2116368ee0e58c73c649a7bf0199e3237d68e61bed9c02e5aa3413b6d8bb",
+        "textLength": 294,
+        "textScope": "all_body_sections_or_pages",
+        "sectionsRead": [
+          "BodyText/Section0"
+        ]
+      },
+      "checkedAt": "2026-10-18",
+      "sameJurisdictionSearch": "신안군 전체 사업의 자활·기금·생활안정 지원을 조회: g12870.bokjiro-WLF00000430만 확인"
+    },
+    {
+      "formId": "ordin-20123319",
+      "sha256": "a16e9edc20cde78f99600070328f82de29f5e7fc21ddb873786d66fcd173cd4e",
+      "disposition": "approved",
+      "reason": "기관·단체명, 대표자, 사업내용·사업비와 첨부 사업계획서를 제출하는 자활기금 지원신청서다. 사이트 지원대상이 자활기업·지역자활센터이며 군청 신청 후 위원회 심의 절차여서 신청 주체와 목적이 일치한다.",
+      "fullBodyReviewed": true,
+      "reviewedProgramPairs": [
+        {
+          "programId": "g12870.bokjiro-WLF00000430",
+          "programName": "자활기금",
+          "disposition": "approved",
+          "reason": "기관·단체명, 대표자, 사업내용·사업비와 첨부 사업계획서를 제출하는 자활기금 지원신청서다. 사이트 지원대상이 자활기업·지역자활센터이며 군청 신청 후 위원회 심의 절차여서 신청 주체와 목적이 일치한다."
+        }
+      ],
+      "sourceEvidence": {
+        "lawId": "1602735",
+        "lawTitle": "신안군 자활기금 설치 및 운용 조례 시행규칙",
+        "annexId": "20123319",
+        "flSeq": "152545089",
+        "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=152545089&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C2%ED%98%B8%EC%84%9C%EC%8B%9D%5D%EC%9E%90%ED%99%9C%EA%B8%B0%EA%B8%88+%EC%A7%80%EC%9B%90%EC%8B%A0%EC%B2%AD%EC%84%9C%28%EA%B8%B0%EA%B4%80%E3%86%8D%EB%8B%A8%EC%B2%B4%29%28%EC%A0%9C4%EC%A1%B0+%EA%B4%80%EB%A0%A8%29",
+        "publicLawUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=1602735",
+        "exactSourceBinding": true,
+        "lawTextRead": true,
+        "articleNumbers": [
+          "제4조"
+        ],
+        "articleTexts": [
+          "제4조(지원신청 및 결정)① 기금을 지원받고자 하는 자는 다음 각 호의 서류를 첨부하여 군수에게 제출하여야 한다.1. 자활기금 지원신청서(별지 제1호서식 또는 별지 제2호서식)2. 사업계획서3. 법인ㆍ기관ㆍ단체 등의 정관4. 법인ㆍ기관ㆍ단체 등의 최근 1년간 활동실적② 군수는 제1항에 따라 기금을 대여할 때에는 담보나 재정보증 등 채권보전 조치를 하거나 신용보증재단의 보증을 원칙으로 한다.③ 제2항에도 불구하고 다음 각 호의 경우 무담보나 무보증으로 대여할 수 있다.1. 조례 제3조제4호에 따른 용도로 1,000만원 이하의 대여2. 자활의지가 있는 자 또는 자활기업 등에 대한 대여로 위원회에서 인정하는 경우④ 군수는 제1항에 따라 기금 지원신청서를 접수한 때에는 다음 각 호의 사항을 조사ㆍ검토한 후에 위원회의 심의를 거치거나 위원회가 정하는 방법에 따라 그 지원여부와 지원금액을 결정한다.1. 기금의 설치목적에의 부합여부2. 지원사업 내용의 적정여부3. 지원금액 산정의 적정여부4. 자체부담액의 부담능력 여부5. 최근 1년간 자활사업의 활동실적⑤ 군수는 제4항에 따라 결정된 내용을 지원 신청접수 후 1개월 이내에 신청인에게 통보하여야 한다."
+        ],
+        "originalBytes": 51712,
+        "bodyTextSha256": "16df2d55ea51a94bd35c731b73d5534a4eb83f810e7a96ac8fb615d3402386b9",
+        "textLength": 317,
+        "textScope": "all_body_sections_or_pages",
+        "sectionsRead": [
+          "BodyText/Section0"
+        ]
+      },
+      "checkedAt": "2026-10-18"
+    },
+    {
+      "formId": "ordin-20123329",
+      "sha256": "d7c2a5e0413f74296e6aab80f734be86a27185bff6a3cd54db15a6606c012194",
+      "disposition": "approved",
+      "reason": "자활기금 대여금의 당초 상환기한과 연장사유를 적는 별지 7호이며 규칙 제10조의 기존 차주의 연장신청 절차와 일치한다.",
+      "fullBodyReviewed": true,
+      "reviewedProgramPairs": [
+        {
+          "programId": "g12870.bokjiro-WLF00000430",
+          "programName": "자활기금",
+          "disposition": "approved",
+          "reason": "자활기금 대여금의 당초 상환기한과 연장사유를 적는 별지 7호이며 규칙 제10조의 기존 차주의 연장신청 절차와 일치한다."
+        }
+      ],
+      "sourceEvidence": {
+        "lawId": "1602735",
+        "lawTitle": "신안군 자활기금 설치 및 운용 조례 시행규칙",
+        "annexId": "20123329",
+        "flSeq": "152545139",
+        "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=152545139&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C7%ED%98%B8%EC%84%9C%EC%8B%9D%5D%EC%9E%90%ED%99%9C%EA%B8%B0%EA%B8%88+%EC%83%81%ED%99%98%EA%B8%B0%ED%95%9C+%EC%97%B0%EC%9E%A5+%EC%8B%A0%EC%B2%AD%EC%84%9C%28%EC%A0%9C10%EC%A1%B0+%EA%B4%80%EB%A0%A8%29",
+        "publicLawUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=1602735",
+        "exactSourceBinding": true,
+        "lawTextRead": true,
+        "articleNumbers": [
+          "제10조"
+        ],
+        "articleTexts": [
+          "제10조(상환기한 연장)① 군수는 기금의 대여를 받은 자가 기간이 경과하여도 대여금을 상환하지 아니할 경우에는 그 이행을 촉구하고, 채권 확보를 위하여 필요한 조치를 하여야 한다.② 제1항에도 불구하고 군수는 천재지변 등 그 밖의 불가피한 사유로 기한까지 상환이 곤란할 경우에는 상환기한을 연장할 수 있다.③ 상환의무자가 제2항에 따라 상환기한의 연장을 받고자 할 때에는 연장을 필요로 하는 사유를 증명할 수 있는 서류를 갖추어 상환기일 30일 전까지 군수에게 별지 제7호서식의 자활기금 상환기한 연장신청서를 제출하여야 한다."
+        ],
+        "originalBytes": 84480,
+        "bodyTextSha256": "977cc42279d2ae7337e0235e1334c60d44c19838c301c1489ee936811c4c08a8",
+        "textLength": 367,
+        "textScope": "all_body_sections_or_pages",
+        "sectionsRead": [
+          "BodyText/Section0"
+        ]
+      },
+      "checkedAt": "2026-10-18"
+    },
+    {
+      "formId": "ordin-20123331",
+      "sha256": "6c6103afecbd750bebcad430b038dac87b6e83b62ad9d1dfc9bb5bfe5c4f2625",
+      "disposition": "approved",
+      "reason": "기존 대여금·이자와 감면사유를 적는 별지 8호 감면신청서다. 규칙 제11조가 신청 후 조사와 위원회 심의를 명시하므로 신규 지원 신청과 분리한다.",
+      "fullBodyReviewed": true,
+      "reviewedProgramPairs": [
+        {
+          "programId": "g12870.bokjiro-WLF00000430",
+          "programName": "자활기금",
+          "disposition": "approved",
+          "reason": "기존 대여금·이자와 감면사유를 적는 별지 8호 감면신청서다. 규칙 제11조가 신청 후 조사와 위원회 심의를 명시하므로 신규 지원 신청과 분리한다."
+        }
+      ],
+      "sourceEvidence": {
+        "lawId": "1602735",
+        "lawTitle": "신안군 자활기금 설치 및 운용 조례 시행규칙",
+        "annexId": "20123331",
+        "flSeq": "152545141",
+        "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=152545141&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C8%ED%98%B8%EC%84%9C%EC%8B%9D%5D%EC%9E%90%ED%99%9C%EA%B8%B0%EA%B8%88+%EB%8C%80%EC%97%AC%EA%B8%88+%EA%B0%90%EB%A9%B4+%EC%8B%A0%EC%B2%AD%EC%84%9C%28%EC%A0%9C11%EC%A1%B0+%EA%B4%80%EB%A0%A8%29",
+        "publicLawUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=1602735",
+        "exactSourceBinding": true,
+        "lawTextRead": true,
+        "articleNumbers": [
+          "제11조"
+        ],
+        "articleTexts": [
+          "제11조(감면조치)① 군수는 기금을 대여받은 자가 제10조에 따라 상환기한을 연장하였으나 천재지변, 사업실패, 고령, 기타 부득이한 사유발생 등으로 근로능력을 상실하였다고 인정되는 경우에 한하여 위원회의 심의ㆍ의결을 거쳐 당해 채권과 그 이자 및 연체이자를 감면할 수 있다.② 대여금에 대하여 감면을 받고자 하는 자는 별지 제8호서식의 자활기금 대여금 감면 신청서를 군수에게 제출하여야 한다.③ 자활업무 담당자는 자활기금 대여금 감면신청서를 제출받은 때에는 대여금을 감면받고자 하는 자의 사정을 구체적으로 조사하여 별지 제11호서식의 조사서를 위원회에 제출하여야 한다.④ 기금 대여금 감면은 위원회 심의를 거쳐 감면 여부를 결정하되 재적위원 과반수의 찬성으로 한다."
+        ],
+        "originalBytes": 78336,
+        "bodyTextSha256": "3a67cda91e61badb004c403f40bfe23b4b1785819eb80c4fa3684f766a49eee6",
+        "textLength": 336,
+        "textScope": "all_body_sections_or_pages",
+        "sectionsRead": [
+          "BodyText/Section0"
+        ]
+      },
+      "checkedAt": "2026-10-18"
+    },
+    {
+      "formId": "ordin-20123335",
+      "sha256": "218c2a39faddf867947f2d867277f7a6491ea52612a0c02941b26336bf8a8640",
+      "disposition": "approved",
+      "reason": "사업계획·예산의 당초안과 변경안을 작성하는 지원받은 자의 승인신청서로 제13조 목적과 일치한다. 원본 머리말은 별지 제10호이나 현행 제13조는 제9호라 번호 불일치를 기록한다. 정확한 annexId/flSeq에 붙은 실제 본문은 정산보고가 아닌 사업계획변경 신청임을 확인했다.",
+      "fullBodyReviewed": true,
+      "reviewedProgramPairs": [
+        {
+          "programId": "g12870.bokjiro-WLF00000430",
+          "programName": "자활기금",
+          "disposition": "approved",
+          "reason": "사업계획·예산의 당초안과 변경안을 작성하는 지원받은 자의 승인신청서로 제13조 목적과 일치한다. 원본 머리말은 별지 제10호이나 현행 제13조는 제9호라 번호 불일치를 기록한다. 정확한 annexId/flSeq에 붙은 실제 본문은 정산보고가 아닌 사업계획변경 신청임을 확인했다."
+        }
+      ],
+      "sourceEvidence": {
+        "lawId": "1602735",
+        "lawTitle": "신안군 자활기금 설치 및 운용 조례 시행규칙",
+        "annexId": "20123335",
+        "flSeq": "152545145",
+        "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=152545145&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C10%ED%98%B8%EC%84%9C%EC%8B%9D%5D%EC%82%AC%EC%97%85%EA%B3%84%ED%9A%8D%EB%B3%80%EA%B2%BD+%EC%8A%B9%EC%9D%B8%EC%8B%A0%EC%B2%AD%EC%84%9C%28%EC%A0%9C13%EC%A1%B0+%EA%B4%80%EB%A0%A8%29",
+        "publicLawUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=1602735",
+        "exactSourceBinding": true,
+        "lawTextRead": true,
+        "articleNumbers": [
+          "제13조"
+        ],
+        "articleTexts": [
+          "제13조(사업계획ㆍ예산 변경) 기금을 지원받은 자가 지원받은 기금으로 추진하는 사업내용을 변경하거나 지원받은 예산을 변경 사용하려는 경우에는 미리 별지 제9호서식의 사업계획변경 승인신청서를 제출하여 군수의 승인을 받아야 한다."
+        ],
+        "originalBytes": 83456,
+        "bodyTextSha256": "f4818ffdb87a2c26833de999deea4cf2b1eb84ee3620ad66ecb736856576f0c4",
+        "textLength": 378,
+        "textScope": "all_body_sections_or_pages",
+        "sectionsRead": [
+          "BodyText/Section0"
+        ]
+      },
+      "checkedAt": "2026-10-18"
+    },
+    {
+      "formId": "ordin-20390303",
+      "sha256": "c0d7733425be3e07db533358510cee33eced6bd4d1ab968d55d5ac6da7decbc7",
+      "disposition": "no_matching_site_program",
+      "reason": "가맹점 사업자등록번호·대표자·환전액과 계좌를 적는 환전청구서다. 사이트 남원사랑상품권 사업은 일반 시민의 선할인 구매 지원이며 가맹점 환전 신청은 명시하지 않는다. 소비자 구매 신청서로 연결하지 않는다.",
+      "fullBodyReviewed": true,
+      "reviewedProgramPairs": [
+        {
+          "programId": "g52190.gov24-470000000117",
+          "programName": "지역화폐(남원사랑상품권)",
+          "disposition": "not_applicable",
+          "reason": "원본 신청 주체·목적과 이 사업의 지원 범위를 대조했으며 이 연결은 승인하지 않음."
+        }
+      ],
+      "sourceEvidence": {
+        "lawId": "1606365",
+        "lawTitle": "남원사랑상품권 발행 및 운영 조례 시행규칙",
+        "annexId": "20390303",
+        "flSeq": "154025245",
+        "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=154025245&flNm=%EB%B3%84%EC%A7%80+%EC%A0%9C1%ED%98%B8%EC%84%9C%EC%8B%9D%28%EB%82%A8%EC%9B%90%EC%82%AC%EB%9E%91%EC%83%81%ED%92%88%EA%B6%8C+%ED%99%98%EC%A0%84+%EC%B2%AD%EA%B5%AC%EC%84%9C%29",
+        "publicLawUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=1606365",
+        "exactSourceBinding": true,
+        "lawTextRead": true,
+        "articleNumbers": [
+          "제6조"
+        ],
+        "articleTexts": [
+          "제6조(환전청구 및 환전기한)① 가맹점은 조례 제10조에 따라 상품권을 환전하고자 할 때에는 별지 제1호서식의 상품권 환전 청구서를 작성하여 판매대행점에 청구한다.② 조례 제10조제2항에 따른 환전기한은 판매대행점의 영업일 기준 3일 이내로 한다."
+        ],
+        "originalBytes": 16384,
+        "bodyTextSha256": "e1fe7f9c048dea8ec8f7ba3d43dc57cc8e700cf536be7047d8a6a20c3b9b80da",
+        "textLength": 763,
+        "textScope": "all_body_sections_or_pages",
+        "sectionsRead": [
+          "BodyText/Section0"
+        ]
+      },
+      "checkedAt": "2026-10-18",
+      "sameJurisdictionSearch": "남원시 전체 목록의 상품권·가맹점 검색 결과 소비자 선할인 g52190.gov24-470000000117만 확인"
+    },
+    {
+      "formId": "ordin-22682355",
+      "sha256": "35f0622cce75f472f600071e2c678c54566eca9e978fff90b224380d1c92f54a",
+      "disposition": "approved",
+      "reason": "6개 서식을 모두 읽었다. 보호자의 장학금 신청서 1호와 학교장 추천서 2호는 제2조 최초 신청 서류이고, 학생·보호자 서약서 3호 및 지급신청 5호는 제4조 선발 후 제출 서류다. 구청·새마을지회의 추천명부 4호와 발급 장학증서 6호는 신청 부분에서 제외한다.",
+      "fullBodyReviewed": true,
+      "reviewedProgramPairs": [
+        {
+          "programId": "s30000.gov24-630000000120",
+          "programName": "새마을지도자 자녀 장학금",
+          "disposition": "approved",
+          "reason": "6개 서식을 모두 읽었다. 보호자의 장학금 신청서 1호와 학교장 추천서 2호는 제2조 최초 신청 서류이고, 학생·보호자 서약서 3호 및 지급신청 5호는 제4조 선발 후 제출 서류다. 구청·새마을지회의 추천명부 4호와 발급 장학증서 6호는 신청 부분에서 제외한다."
+        }
+      ],
+      "sourceEvidence": {
+        "lawId": "1607907",
+        "lawTitle": "대전광역시 새마을장학금 지급조례 시행규칙",
+        "annexId": "22682355",
+        "flSeq": "169605361",
+        "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=169605361&flNm=%5B%EB%B3%84%EC%A7%80%5D",
+        "publicLawUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=1607907",
+        "exactSourceBinding": true,
+        "lawTextRead": true,
+        "articleNumbers": [
+          "제2조",
+          "제4조"
+        ],
+        "articleTexts": [
+          "제2조(장학금의 신청) 장학금의 지급을 받고자 하는 자의 보호자(친권자, 부양자를 포함한다. 이하 같다)는 장학금 신청서(별지 제1호서식)와 추천서(별지 제2호서식)를 동새마을지도자협의회장, 부녀회장 및 문고분회장을 거쳐 새마을운동중앙회대전광역시 구지회장(이하“구지회장”이라 한다)에게 제출하여야 한다.[전문개정 2021.6.30.]",
+          "제4조(선정)①시새마을회장이 장학생을 선정할 때에는 대전광역시장(이하“시장”이라 한다)과 협의ㆍ결정하고, 결정한 사항을 새마을운동중앙회장에게 보고하여야 한다. <개정 1990.10.16., 1995.1.1., 2004.6.18.>②시새마을회장은 장학생을 선발 확정하였을 때에는 장학금지급을 신청하도록 본인에게 알려야 한다. <개정 1995.1.1., 2004.6.18., 2021.6.30.>③통보를 받은 장학생은 통보받은 날부터 7일 이내에 구청장에게 장학금지급신청서(별지 제5호서식) 및 서약서(별지 제3호서식)를 제출하여야 한다. <개정 2021.6.30.>④제3항의 신청이 없을 때에는 장학금을 지급받을 의사가 없는 것으로 보아 선발을 취소할 수 있다. 이 경우 재선발은 하지 아니한다."
+        ],
+        "originalBytes": 20992,
+        "bodyTextSha256": "e0572df4e393052dce8685c41a6bb4bd4fb1d81f0992221320fb98f35fd994b5",
+        "textLength": 2314,
+        "textScope": "all_body_sections_or_pages",
+        "sectionsRead": [
+          "BodyText/Section0"
+        ]
+      },
+      "checkedAt": "2026-10-18"
+    },
+    {
+      "formId": "ordin-21876551",
+      "sha256": "3db49a331062e3a49f70184370a3c1968adf6a7c30cb00a7628d69f9fe70b64c",
+      "disposition": "approved",
+      "reason": "사회보장급여(사회서비스이용권) 통합 신청서 전체를 읽고 산모·신생아 건강관리 항목과 소득기준 완화 예외지원 선택란을 확인했다. 조례 제4조 지정 별지이며 제6조 소득기준 초과자 지원과 사이트 추가형 사업이 일치한다. 다른 사회서비스 항목은 이 연결에 포함하지 않는다.",
+      "fullBodyReviewed": true,
+      "reviewedProgramPairs": [
+        {
+          "programId": "g41360.gov24-399000000112",
+          "programName": "산모·신생아 건강관리 지원(추가형)",
+          "disposition": "approved",
+          "reason": "사회보장급여(사회서비스이용권) 통합 신청서 전체를 읽고 산모·신생아 건강관리 항목과 소득기준 완화 예외지원 선택란을 확인했다. 조례 제4조 지정 별지이며 제6조 소득기준 초과자 지원과 사이트 추가형 사업이 일치한다. 다른 사회서비스 항목은 이 연결에 포함하지 않는다."
+        }
+      ],
+      "sourceEvidence": {
+        "lawId": "1608595",
+        "lawTitle": "남양주시 산모ᆞ신생아 건강관리 지원 조례",
+        "annexId": "21876551",
+        "flSeq": "164263135",
+        "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=164263135&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C1%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EC%82%B0%EB%AA%A8%E3%86%8D%EC%8B%A0%EC%83%9D%EC%95%84+%EA%B1%B4%EA%B0%95%EA%B4%80%EB%A6%AC+%EC%84%9C%EB%B9%84%EC%8A%A4+%EC%A7%80%EC%9B%90+%EC%8B%A0%EC%B2%AD%EC%84%9C",
+        "publicLawUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=1608595",
+        "exactSourceBinding": true,
+        "lawTextRead": true,
+        "articleNumbers": [
+          "제4조",
+          "제6조"
+        ],
+        "articleTexts": [
+          "제4조(지원신청) 산모ㆍ신생아 건강관리 서비스 지원 신청은 출산예정일 40일전부터 출산 후 30일까지 별지 제1호 서식에 따라 남양주시장(이하“시장”이라 한다)에게 제출하여야 한다.",
+          "제6조(지원금액) 지원 금액은 매년 보건복지부에서 정하는 소득기준 초과자(예외지원)에 대한 정부지원금액에 해당하는 금액으로 한다."
+        ],
+        "originalBytes": 212992,
+        "bodyTextSha256": "f5bad04ea5c3725a698f4740181961bab143c96faf3d8e5099ffd7a73e9f6293",
+        "textLength": 5108,
+        "textScope": "all_body_sections_or_pages",
+        "sectionsRead": [
+          "BodyText/Section0"
+        ]
+      },
+      "checkedAt": "2026-10-18"
+    },
+    {
+      "formId": "ordin-12733693",
+      "sha256": "313d12ea4a3f0135ae1dafdbfe597fe317dba0e469433c17d83cc49b4889886e",
+      "disposition": "no_matching_site_program",
+      "reason": "법인·단체가 산지유통센터 자체의 관리운영을 위탁받기 위한 신청서로 법인등기·정관·운영계획을 요구한다. 후보 사업은 농업경영체의 장기저장 처리제·소형 선별기 등 지원이며 센터 운영 위탁·휴폐업 지원이 아니다.",
+      "fullBodyReviewed": true,
+      "reviewedProgramPairs": [
+        {
+          "programId": "g47280.gov24-512000000110",
+          "programName": "농산물 유통기반 조성 지원",
+          "disposition": "not_applicable",
+          "reason": "원본 신청 주체·목적과 이 사업의 지원 범위를 대조했으며 이 연결은 승인하지 않음."
+        }
+      ],
+      "sourceEvidence": {
+        "lawId": "1609187",
+        "lawTitle": "문경시 농산물 산지유통센터 운영 및 관리 조례",
+        "annexId": "12733693",
+        "flSeq": "114527949",
+        "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=114527949&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C1%ED%98%B8%EC%84%9C%EC%8B%9D%5D%EB%AC%B8%EA%B2%BD%EC%8B%9C+%EB%86%8D%EC%82%B0%EB%AC%BC+%EC%82%B0%EC%A7%80%EC%9C%A0%ED%86%B5%EC%84%BC%ED%84%B0+%EA%B4%80%EB%A6%AC%EC%9A%B4%EC%98%81+%EC%9C%84%ED%83%81+%EC%8B%A0%EC%B2%AD%EC%84%9C",
+        "publicLawUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=1609187",
+        "exactSourceBinding": true,
+        "lawTextRead": true,
+        "articleNumbers": [
+          "제13조"
+        ],
+        "articleTexts": [
+          "제13조(위탁신청 등) ①유통센터의 관리·운영을 위탁받고자 하는 자는 별지 제1호서식의 사용 신청서에 다음 각 호의 서류를 첨부하여 시장에게 제출하여야 한다. <개정 2021.7.1.>1. 법인등기부등본2. 정관3. 신청당시의 해당 법인의 대차대조표4. 사업개시년도부터 3년간의 사업계획서(안정적인 원물확보계획, 운영에 필요한 자본조달계획, 시설관리 전문인력 확보계획, 마케팅계획, 손실발생 시 보전대책, 투자계획 등을 포함 한다.)5. 그 밖에 유통센터 위탁관리운영의 타당성 검토를 위하여 필요하다고 판단하여 정하는 사항②시장은 제1항의 규정에 따라 사용 신청서가 접수된 경우 위원회에 회부하여 심사한 후 허가 여부를 결정한다. <개정 2021.7.1.>③시장은 운영주체가 선정되면 협약을 체결한 후, 별지 제2호서식에 의한 사용허가서를 교부하여야 한다. <개정 2021.7.1.>"
+        ],
+        "originalBytes": 11776,
+        "bodyTextSha256": "a53d6233de095c0cbde29dd0b22fb221f9769c2e21ade6fb4074cde27339e85f",
+        "textLength": 327,
+        "textScope": "all_body_sections_or_pages",
+        "sectionsRead": [
+          "BodyText/Section0"
+        ]
+      },
+      "checkedAt": "2026-10-18",
+      "sameJurisdictionSearch": "문경시 전체 목록의 유통·센터·위탁 관련 사업을 확인했으나 이 시설 운영 위탁 절차에 해당하는 사업 없음"
+    },
+    {
+      "formId": "ordin-12733697",
+      "sha256": "233d1e3e5bf03e9bd3cf463e107a1a4be0c0ddd0945c334d6fe19ef4ceea1911",
+      "disposition": "no_matching_site_program",
+      "reason": "이미 유통센터 운영을 위탁받은 자의 휴업 승인신청서다. 후보 사업은 농업경영체의 장기저장 처리제·소형 선별기 등 지원이며 센터 운영 위탁·휴폐업 지원이 아니다.",
+      "fullBodyReviewed": true,
+      "reviewedProgramPairs": [
+        {
+          "programId": "g47280.gov24-512000000110",
+          "programName": "농산물 유통기반 조성 지원",
+          "disposition": "not_applicable",
+          "reason": "원본 신청 주체·목적과 이 사업의 지원 범위를 대조했으며 이 연결은 승인하지 않음."
+        }
+      ],
+      "sourceEvidence": {
+        "lawId": "1609187",
+        "lawTitle": "문경시 농산물 산지유통센터 운영 및 관리 조례",
+        "annexId": "12733697",
+        "flSeq": "114527953",
+        "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=114527953&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C3%ED%98%B8%EC%84%9C%EC%8B%9D%5D%EB%AC%B8%EA%B2%BD%EC%8B%9C+%EB%86%8D%EC%82%B0%EB%AC%BC+%EC%82%B0%EC%A7%80%EC%9C%A0%ED%86%B5%EC%84%BC%ED%84%B0+%EA%B4%80%EB%A6%AC%EC%9A%B4%EC%98%81+%EC%9C%84%ED%83%81+%ED%9C%B4%EC%97%85+%EC%8A%B9%EC%9D%B8+%EC%8B%A0%EC%B2%AD%EC%84%9C",
+        "publicLawUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=1609187",
+        "exactSourceBinding": true,
+        "lawTextRead": true,
+        "articleNumbers": [
+          "제24조"
+        ],
+        "articleTexts": [
+          "제24조(휴·폐업 허가) ①운영주체는 휴업하고자 할 때에는 휴업 60일전에 별지 제3호서식의 휴업 승인신청서를 제출하여 시장의 승인을 얻어야 하며, 승인을 받은 즉시 출하자, 유통인 등이 인지할 수 있도록 필요한 조치를 하여야 한다. <개정 2021.7.1.>②운영주체가 영업을 폐업하고자 할 때에는 폐업 90일전에 별지 제4호서식 폐업신청서를 제출하여 시장의 허가를 받아야 하며, 시장은 폐업 허가를 한 때에는 이를 공고하여야 한다."
+        ],
+        "originalBytes": 11776,
+        "bodyTextSha256": "030fce661de4522da99ee3fb78de600888defff5f1e22b2fc447fe9b5f0410fa",
+        "textLength": 220,
+        "textScope": "all_body_sections_or_pages",
+        "sectionsRead": [
+          "BodyText/Section0"
+        ]
+      },
+      "checkedAt": "2026-10-18",
+      "sameJurisdictionSearch": "문경시 전체 목록의 유통·센터·위탁 관련 사업을 확인했으나 이 시설 운영 위탁 절차에 해당하는 사업 없음"
+    },
+    {
+      "formId": "ordin-12733699",
+      "sha256": "9d788d1d47f342010ba66a629f13a97bf06b672f9fe7e60a365d5b16f3d59563",
+      "disposition": "no_matching_site_program",
+      "reason": "유통센터 운영주체의 폐업 허가신청서다. 후보 사업은 농업경영체의 장기저장 처리제·소형 선별기 등 지원이며 센터 운영 위탁·휴폐업 지원이 아니다.",
+      "fullBodyReviewed": true,
+      "reviewedProgramPairs": [
+        {
+          "programId": "g47280.gov24-512000000110",
+          "programName": "농산물 유통기반 조성 지원",
+          "disposition": "not_applicable",
+          "reason": "원본 신청 주체·목적과 이 사업의 지원 범위를 대조했으며 이 연결은 승인하지 않음."
+        }
+      ],
+      "sourceEvidence": {
+        "lawId": "1609187",
+        "lawTitle": "문경시 농산물 산지유통센터 운영 및 관리 조례",
+        "annexId": "12733699",
+        "flSeq": "114527955",
+        "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=114527955&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C4%ED%98%B8%EC%84%9C%EC%8B%9D%5D%EB%AC%B8%EA%B2%BD%EC%8B%9C+%EB%86%8D%EC%82%B0%EB%AC%BC+%EC%82%B0%EC%A7%80%EC%9C%A0%ED%86%B5%EC%84%BC%ED%84%B0+%EA%B4%80%EB%A6%AC%EC%9A%B4%EC%98%81+%EC%9C%84%ED%83%81+%ED%8F%90%EC%97%85+%ED%97%88%EA%B0%80+%EC%8B%A0%EC%B2%AD%EC%84%9C",
+        "publicLawUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=1609187",
+        "exactSourceBinding": true,
+        "lawTextRead": true,
+        "articleNumbers": [
+          "제24조"
+        ],
+        "articleTexts": [
+          "제24조(휴·폐업 허가) ①운영주체는 휴업하고자 할 때에는 휴업 60일전에 별지 제3호서식의 휴업 승인신청서를 제출하여 시장의 승인을 얻어야 하며, 승인을 받은 즉시 출하자, 유통인 등이 인지할 수 있도록 필요한 조치를 하여야 한다. <개정 2021.7.1.>②운영주체가 영업을 폐업하고자 할 때에는 폐업 90일전에 별지 제4호서식 폐업신청서를 제출하여 시장의 허가를 받아야 하며, 시장은 폐업 허가를 한 때에는 이를 공고하여야 한다."
+        ],
+        "originalBytes": 11776,
+        "bodyTextSha256": "723711f773dc6268025a883ad7ad625493f880fcfefe60e48e17f28f8db6ad26",
+        "textLength": 221,
+        "textScope": "all_body_sections_or_pages",
+        "sectionsRead": [
+          "BodyText/Section0"
+        ]
+      },
+      "checkedAt": "2026-10-18",
+      "sameJurisdictionSearch": "문경시 전체 목록의 유통·센터·위탁 관련 사업을 확인했으나 이 시설 운영 위탁 절차에 해당하는 사업 없음"
+    },
+    {
+      "formId": "ordin-11397795",
+      "sha256": "4dd1444a007269167867377d0c7290d7b89ab085e067c1e9586b7c88f205d2fb",
+      "disposition": "approved",
+      "reason": "보훈대상자 본인이 인적사항·보훈번호·수령계좌를 작성하는 보훈영예수당 최초 지급신청서로 제3조제1항 및 사이트 월 수당 지원과 일치한다.",
+      "fullBodyReviewed": true,
+      "reviewedProgramPairs": [
+        {
+          "programId": "g51790.bokjiro-WLF00004436",
+          "programName": "보훈영예수당",
+          "disposition": "approved",
+          "reason": "보훈대상자 본인이 인적사항·보훈번호·수령계좌를 작성하는 보훈영예수당 최초 지급신청서로 제3조제1항 및 사이트 월 수당 지원과 일치한다."
+        }
+      ],
+      "sourceEvidence": {
+        "lawId": "1611417",
+        "lawTitle": "화천군 국가보훈대상자 예우 및 지원에 관한 조례 시행규칙",
+        "annexId": "11397795",
+        "flSeq": "104639105",
+        "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=104639105&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C1%ED%98%B8%EC%84%9C%EC%8B%9D%5D%EB%B3%B4%ED%9B%88%EC%98%81%EC%98%88%EC%88%98%EB%8B%B9+%EC%A7%80%EA%B8%89%EC%8B%A0%EC%B2%AD%EC%84%9C",
+        "publicLawUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=1611417",
+        "exactSourceBinding": true,
+        "lawTextRead": true,
+        "articleNumbers": [
+          "제3조"
+        ],
+        "articleTexts": [
+          "제3조(보훈영예수당 지급신청) ① 보훈영예수당을 지급받고자 하는 사람은 별지 제1호서식의 보훈영예수당 지급신청서를 주소지 관할 읍·면장에게 제출하여야 하며, 읍·면장은 매월 5일까지 신청서를 군수에게 제출하여야 한다.② 제1항에 따라 지급신청을 받은 사람이 지급방법 또는 예금계좌를 변경하고자 할 때에는 별지 제2호서식의 보훈영예수당 지급변경신청서를 군수에게 제출하여야 한다."
+        ],
+        "originalBytes": 14848,
+        "bodyTextSha256": "9d7cfb4805c2a58fe00950364f2f14954772ebbed7882f872ee1b747783dcb97",
+        "textLength": 507,
+        "textScope": "all_body_sections_or_pages",
+        "sectionsRead": [
+          "BodyText/Section0"
+        ]
+      },
+      "checkedAt": "2026-10-18"
+    },
+    {
+      "formId": "ordin-11397797",
+      "sha256": "60f0ba6904898b6dab3d8767b9ee67f8814c4f4fb10b170c5956720eda43ba8c",
+      "disposition": "approved",
+      "reason": "지급받는 사람의 지급방법·예금계좌 변경 전후를 적는 별지 2호이며 제3조제2항이 기존 수급자의 변경신청으로 지정한다.",
+      "fullBodyReviewed": true,
+      "reviewedProgramPairs": [
+        {
+          "programId": "g51790.bokjiro-WLF00004436",
+          "programName": "보훈영예수당",
+          "disposition": "approved",
+          "reason": "지급받는 사람의 지급방법·예금계좌 변경 전후를 적는 별지 2호이며 제3조제2항이 기존 수급자의 변경신청으로 지정한다."
+        }
+      ],
+      "sourceEvidence": {
+        "lawId": "1611417",
+        "lawTitle": "화천군 국가보훈대상자 예우 및 지원에 관한 조례 시행규칙",
+        "annexId": "11397797",
+        "flSeq": "104639107",
+        "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=104639107&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C2%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EB%B3%B4%ED%9B%88%EC%98%81%EC%98%88%EC%88%98%EB%8B%B9+%EC%A7%80%EA%B8%89%EB%B3%80%EA%B2%BD%EC%8B%A0%EC%B2%AD%EC%84%9C",
+        "publicLawUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=1611417",
+        "exactSourceBinding": true,
+        "lawTextRead": true,
+        "articleNumbers": [
+          "제3조"
+        ],
+        "articleTexts": [
+          "제3조(보훈영예수당 지급신청) ① 보훈영예수당을 지급받고자 하는 사람은 별지 제1호서식의 보훈영예수당 지급신청서를 주소지 관할 읍·면장에게 제출하여야 하며, 읍·면장은 매월 5일까지 신청서를 군수에게 제출하여야 한다.② 제1항에 따라 지급신청을 받은 사람이 지급방법 또는 예금계좌를 변경하고자 할 때에는 별지 제2호서식의 보훈영예수당 지급변경신청서를 군수에게 제출하여야 한다."
+        ],
+        "originalBytes": 14336,
+        "bodyTextSha256": "8e171129556087660d3cb59a853f2f7939a3f77da951bfc83002e6e8b56302b7",
+        "textLength": 385,
+        "textScope": "all_body_sections_or_pages",
+        "sectionsRead": [
+          "BodyText/Section0"
+        ]
+      },
+      "checkedAt": "2026-10-18"
+    },
+    {
+      "formId": "ordin-11399825",
+      "sha256": "8230d7685a3602d37fb0e78248b42b7ff05b4c7d58bf2fe656789f7da156b0fd",
+      "disposition": "non_applicant",
+      "reason": "생활폐기물 수집·운반·처리 대행업자의 시설·장비·인력 및 사업계획을 제출하는 대행신청서다. 수급자·장애인 가구에 자동 지급하는 봉투지원의 주민 신청서가 아니다. 원본 전체 본문은 읽었으나 법규 캐시와 공식 공개 본문 모두 조문이 비어 있어 조문 전체를 읽은 것으로 처리하지 않는다.",
+      "fullBodyReviewed": true,
+      "reviewedProgramPairs": [
+        {
+          "programId": "g48880.gov24-547000000124",
+          "programName": "기초생활수급자 및 장애인 쓰레기봉투지원",
+          "disposition": "not_applicable",
+          "reason": "원본 신청 주체·목적과 이 사업의 지원 범위를 대조했으며 이 연결은 승인하지 않음."
+        }
+      ],
+      "sourceEvidence": {
+        "lawId": "1611501",
+        "lawTitle": "거창군 폐기물관리에 관한 조례 시행규칙",
+        "annexId": "11399825",
+        "flSeq": "104641461",
+        "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=104641461&flNm=%EB%B3%84%EC%A7%80+%EC%A0%9C1%ED%98%B8%EC%84%9C%EC%8B%9D%28%EC%83%9D%ED%99%9C%ED%8F%90%EA%B8%B0%EB%AC%BC%EC%88%98%EC%A7%91%EC%9A%B4%EB%B0%98%EC%B2%98%EB%A6%AC%EB%8C%80%ED%96%89%EC%8B%A0%EC%B2%AD%EC%84%9C%29.hwp",
+        "publicLawUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=1611501",
+        "exactSourceBinding": true,
+        "lawTextRead": false,
+        "articleNumbers": [],
+        "articleTexts": [],
+        "originalBytes": 55296,
+        "bodyTextSha256": "e27b7f8d963665034cbe597b4df53a907ef12fce27a3725e86b5578c939536bf",
+        "textLength": 1431,
+        "textScope": "all_body_sections_or_pages",
+        "sectionsRead": [
+          "BodyText/Section0"
+        ]
+      },
+      "checkedAt": "2026-10-18",
+      "additionalEvidence": {
+        "url": "https://www.law.go.kr/LSW/ordinInfoR.do?ordinSeq=1611501&gubun=ELIS&chrClsCd=010202",
+        "checkedAt": "2026-10-18",
+        "httpStatus": 200,
+        "observation": "법규 제목·시행일과 정확한 별지 목록만 반환되며 조문 본문은 없음. 원본 용도로 해당 봉투지원 연결을 배제."
+      }
+    },
+    {
+      "formId": "ordin-11399835",
+      "sha256": "8e74a3cd312a029d0b2b3773aa3a99f69d44198aaa04d1eb97c33ff13798bee9",
+      "disposition": "non_applicant",
+      "reason": "종량제봉투 판매소 사업자가 판매 대행을 신청하는 서식이다. 수급자·장애인 가구에 자동 지급하는 봉투지원의 주민 신청서가 아니다. 원본 전체 본문은 읽었으나 법규 캐시와 공식 공개 본문 모두 조문이 비어 있어 조문 전체를 읽은 것으로 처리하지 않는다.",
+      "fullBodyReviewed": true,
+      "reviewedProgramPairs": [
+        {
+          "programId": "g48880.gov24-547000000124",
+          "programName": "기초생활수급자 및 장애인 쓰레기봉투지원",
+          "disposition": "not_applicable",
+          "reason": "원본 신청 주체·목적과 이 사업의 지원 범위를 대조했으며 이 연결은 승인하지 않음."
+        }
+      ],
+      "sourceEvidence": {
+        "lawId": "1611501",
+        "lawTitle": "거창군 폐기물관리에 관한 조례 시행규칙",
+        "annexId": "11399835",
+        "flSeq": "104641471",
+        "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=104641471&flNm=%EB%B3%84%EC%A7%80+%EC%A0%9C5%EC%9D%982%ED%98%B8%EC%84%9C%EC%8B%9D%28%EC%A2%85%EB%9F%89%EC%A0%9C%EB%B4%89%ED%88%AC%ED%8C%90%EB%A7%A4%EB%8C%80%ED%96%89%EC%8B%A0%EC%B2%AD%EC%84%9C%29",
+        "publicLawUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=1611501",
+        "exactSourceBinding": true,
+        "lawTextRead": false,
+        "articleNumbers": [],
+        "articleTexts": [],
+        "originalBytes": 71168,
+        "bodyTextSha256": "60b916bb07bf22b4986dfff6a6af3093ad13f612ceece1416bba4010eac2dd0f",
+        "textLength": 863,
+        "textScope": "all_body_sections_or_pages",
+        "sectionsRead": [
+          "BodyText/Section0"
+        ]
+      },
+      "checkedAt": "2026-10-18",
+      "additionalEvidence": {
+        "url": "https://www.law.go.kr/LSW/ordinInfoR.do?ordinSeq=1611501&gubun=ELIS&chrClsCd=010202",
+        "checkedAt": "2026-10-18",
+        "httpStatus": 200,
+        "observation": "법규 제목·시행일과 정확한 별지 목록만 반환되며 조문 본문은 없음. 원본 용도로 해당 봉투지원 연결을 배제."
+      }
+    },
+    {
+      "formId": "ordin-11399853",
+      "sha256": "d1d8dbf7c77c10f22960e8052f1157573bc97cf21f99d83c76c2507802904c3d",
+      "disposition": "non_applicant",
+      "reason": "청소차량의 폐기물 반입량·중량을 관리하는 계량대장이다. 수급자·장애인 가구에 자동 지급하는 봉투지원의 주민 신청서가 아니다. 원본 전체 본문은 읽었으나 법규 캐시와 공식 공개 본문 모두 조문이 비어 있어 조문 전체를 읽은 것으로 처리하지 않는다.",
+      "fullBodyReviewed": true,
+      "reviewedProgramPairs": [
+        {
+          "programId": "g48880.gov24-547000000124",
+          "programName": "기초생활수급자 및 장애인 쓰레기봉투지원",
+          "disposition": "not_applicable",
+          "reason": "원본 신청 주체·목적과 이 사업의 지원 범위를 대조했으며 이 연결은 승인하지 않음."
+        }
+      ],
+      "sourceEvidence": {
+        "lawId": "1611501",
+        "lawTitle": "거창군 폐기물관리에 관한 조례 시행규칙",
+        "annexId": "11399853",
+        "flSeq": "104641489",
+        "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=104641489&flNm=%EB%B3%84%EC%A7%80+%EC%A0%9C14%ED%98%B8%EC%84%9C%EC%8B%9D",
+        "publicLawUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=1611501",
+        "exactSourceBinding": true,
+        "lawTextRead": false,
+        "articleNumbers": [],
+        "articleTexts": [],
+        "originalBytes": 30720,
+        "bodyTextSha256": "6b40ff2409d410130bb6f8bd986cbab482ae6d50015101a157b7477d079429f2",
+        "textLength": 207,
+        "textScope": "all_body_sections_or_pages",
+        "sectionsRead": [
+          "BodyText/Section0"
+        ]
+      },
+      "checkedAt": "2026-10-18",
+      "additionalEvidence": {
+        "url": "https://www.law.go.kr/LSW/ordinInfoR.do?ordinSeq=1611501&gubun=ELIS&chrClsCd=010202",
+        "checkedAt": "2026-10-18",
+        "httpStatus": 200,
+        "observation": "법규 제목·시행일과 정확한 별지 목록만 반환되며 조문 본문은 없음. 원본 용도로 해당 봉투지원 연결을 배제."
+      }
+    },
+    {
+      "formId": "ordin-11399855",
+      "sha256": "6d1f8c6ba498005e77c3e6039f2ac4a064cd617d7284a3eb9bd83a8210e1e1d5",
+      "disposition": "non_applicant",
+      "reason": "일반차량의 반입자·중량·부과액을 기록하는 계량대장이다. 수급자·장애인 가구에 자동 지급하는 봉투지원의 주민 신청서가 아니다. 원본 전체 본문은 읽었으나 법규 캐시와 공식 공개 본문 모두 조문이 비어 있어 조문 전체를 읽은 것으로 처리하지 않는다.",
+      "fullBodyReviewed": true,
+      "reviewedProgramPairs": [
+        {
+          "programId": "g48880.gov24-547000000124",
+          "programName": "기초생활수급자 및 장애인 쓰레기봉투지원",
+          "disposition": "not_applicable",
+          "reason": "원본 신청 주체·목적과 이 사업의 지원 범위를 대조했으며 이 연결은 승인하지 않음."
+        }
+      ],
+      "sourceEvidence": {
+        "lawId": "1611501",
+        "lawTitle": "거창군 폐기물관리에 관한 조례 시행규칙",
+        "annexId": "11399855",
+        "flSeq": "104641491",
+        "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=104641491&flNm=%EB%B3%84%EC%A7%80+%EC%A0%9C15%ED%98%B8%EC%84%9C%EC%8B%9D",
+        "publicLawUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=1611501",
+        "exactSourceBinding": true,
+        "lawTextRead": false,
+        "articleNumbers": [],
+        "articleTexts": [],
+        "originalBytes": 14848,
+        "bodyTextSha256": "d1279a57ce5bca009d70905cf8bd80c669b869d95f9b4356e1bcef15f7f655e1",
+        "textLength": 125,
+        "textScope": "all_body_sections_or_pages",
+        "sectionsRead": [
+          "BodyText/Section0"
+        ]
+      },
+      "checkedAt": "2026-10-18",
+      "additionalEvidence": {
+        "url": "https://www.law.go.kr/LSW/ordinInfoR.do?ordinSeq=1611501&gubun=ELIS&chrClsCd=010202",
+        "checkedAt": "2026-10-18",
+        "httpStatus": 200,
+        "observation": "법규 제목·시행일과 정확한 별지 목록만 반환되며 조문 본문은 없음. 원본 용도로 해당 봉투지원 연결을 배제."
+      }
+    },
+    {
+      "formId": "ordin-11399857",
+      "sha256": "d96b05c32bfadd62690d878aa514e70de0ae441c407380b7912a542bb0f8a04c",
+      "disposition": "non_applicant",
+      "reason": "대형생활폐기물 품명·규격·수량·금액을 기록하는 처리대장이다. 수급자·장애인 가구에 자동 지급하는 봉투지원의 주민 신청서가 아니다. 원본 전체 본문은 읽었으나 법규 캐시와 공식 공개 본문 모두 조문이 비어 있어 조문 전체를 읽은 것으로 처리하지 않는다.",
+      "fullBodyReviewed": true,
+      "reviewedProgramPairs": [
+        {
+          "programId": "g48880.gov24-547000000124",
+          "programName": "기초생활수급자 및 장애인 쓰레기봉투지원",
+          "disposition": "not_applicable",
+          "reason": "원본 신청 주체·목적과 이 사업의 지원 범위를 대조했으며 이 연결은 승인하지 않음."
+        }
+      ],
+      "sourceEvidence": {
+        "lawId": "1611501",
+        "lawTitle": "거창군 폐기물관리에 관한 조례 시행규칙",
+        "annexId": "11399857",
+        "flSeq": "104641493",
+        "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=104641493&flNm=%EB%B3%84%EC%A7%80+%EC%A0%9C16%ED%98%B8%EC%84%9C%EC%8B%9D",
+        "publicLawUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=1611501",
+        "exactSourceBinding": true,
+        "lawTextRead": false,
+        "articleNumbers": [],
+        "articleTexts": [],
+        "originalBytes": 22528,
+        "bodyTextSha256": "a043ccdf1c451b6840dee604a2d6de673da0a28404b8791dd3aa7135a63811cd",
+        "textLength": 87,
+        "textScope": "all_body_sections_or_pages",
+        "sectionsRead": [
+          "BodyText/Section0"
+        ]
+      },
+      "checkedAt": "2026-10-18",
+      "additionalEvidence": {
+        "url": "https://www.law.go.kr/LSW/ordinInfoR.do?ordinSeq=1611501&gubun=ELIS&chrClsCd=010202",
+        "checkedAt": "2026-10-18",
+        "httpStatus": 200,
+        "observation": "법규 제목·시행일과 정확한 별지 목록만 반환되며 조문 본문은 없음. 원본 용도로 해당 봉투지원 연결을 배제."
+      }
+    },
+    {
+      "formId": "ordin-15475445",
+      "sha256": "6e93e3985e4168aa2928ede711719a2d8266f0965af08dbd9c268afb1e63a233",
+      "disposition": "approved",
+      "reason": "입양부모가 아동·입양일·입양기관·계좌를 적고 신청인 통장과 입양확인서를 제출하는 입양축하금 신청서다. 하단 구청 확인란은 신청인이 쓰지 않도록 명시하며 제8조 및 두 사이트 입양축하금 지원과 일치한다.",
+      "fullBodyReviewed": true,
+      "reviewedProgramPairs": [
+        {
+          "programId": "g11740.gov24-324000000111",
+          "programName": "입양축하금 지원",
+          "disposition": "approved",
+          "reason": "입양부모가 아동·입양일·입양기관·계좌를 적고 신청인 통장과 입양확인서를 제출하는 입양축하금 신청서다. 하단 구청 확인란은 신청인이 쓰지 않도록 명시하며 제8조 및 두 사이트 입양축하금 지원과 일치한다."
+        },
+        {
+          "programId": "g11740.bokjiro-WLF00002441",
+          "programName": "입양아동 가족지원 (입양축하금)",
+          "disposition": "approved",
+          "reason": "입양부모가 아동·입양일·입양기관·계좌를 적고 신청인 통장과 입양확인서를 제출하는 입양축하금 신청서다. 하단 구청 확인란은 신청인이 쓰지 않도록 명시하며 제8조 및 두 사이트 입양축하금 지원과 일치한다."
+        }
+      ],
+      "sourceEvidence": {
+        "lawId": "1611643",
+        "lawTitle": "서울특별시 강동구 입양가정 지원에 관한 조례",
+        "annexId": "15475445",
+        "flSeq": "127296651",
+        "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=127296651&flNm=%EB%B3%84%EC%A7%80+%EC%A0%9C1%ED%98%B8+%EC%84%9C%EC%8B%9D",
+        "publicLawUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=1611643",
+        "exactSourceBinding": true,
+        "lawTextRead": true,
+        "articleNumbers": [
+          "제8조"
+        ],
+        "articleTexts": [
+          "제8조(축하금 지원신청) ① 축하금 지원 신청인은 입양부모가 되며, 입양신고 후 60일 이내에 입양축하금 지원 신청서(이하 “신청서”라 한다)를 구청장에게 제출하여야 한다.② 제1항에 따른 축하금 신청 시 구비서류는 다음 각 호와 같다.1. 신청서 1부(별지 제1호 서식)2. 예금통장 사본 1부3. 입양기관의 입양확인서 1부4. 입양아동이 장애아동일 경우 관련 서류(장애정도 확인서 등)"
+        ],
+        "originalBytes": 15872,
+        "bodyTextSha256": "f529def6e245f118217d7c9d53f98a6337494b88ef374184c24b2855fa7d839d",
+        "textLength": 720,
+        "textScope": "all_body_sections_or_pages",
+        "sectionsRead": [
+          "BodyText/Section0"
+        ]
+      },
+      "checkedAt": "2026-10-18"
+    },
+    {
+      "formId": "ordin-15475447",
+      "sha256": "e63610b91f5e5483a188c92a3894398247d49e7fed8cb587e9f4ec94c2ed7d19",
+      "disposition": "non_applicant",
+      "reason": "여러 신청인의 신청일·입양일·거주기간·입금내역을 누적 관리하는 대장이다. 제11조가 구청장의 비치·관리를 규정하며 개별 입양부모 신청서가 아니다.",
+      "fullBodyReviewed": true,
+      "reviewedProgramPairs": [
+        {
+          "programId": "g11740.gov24-324000000111",
+          "programName": "입양축하금 지원",
+          "disposition": "not_applicable",
+          "reason": "원본 신청 주체·목적과 이 사업의 지원 범위를 대조했으며 이 연결은 승인하지 않음."
+        },
+        {
+          "programId": "g11740.bokjiro-WLF00002441",
+          "programName": "입양아동 가족지원 (입양축하금)",
+          "disposition": "not_applicable",
+          "reason": "원본 신청 주체·목적과 이 사업의 지원 범위를 대조했으며 이 연결은 승인하지 않음."
+        }
+      ],
+      "sourceEvidence": {
+        "lawId": "1611643",
+        "lawTitle": "서울특별시 강동구 입양가정 지원에 관한 조례",
+        "annexId": "15475447",
+        "flSeq": "127296653",
+        "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=127296653&flNm=%EB%B3%84%EC%A7%80+%EC%A0%9C2%ED%98%B8+%EC%84%9C%EC%8B%9D",
+        "publicLawUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=1611643",
+        "exactSourceBinding": true,
+        "lawTextRead": true,
+        "articleNumbers": [
+          "제10조",
+          "제11조"
+        ],
+        "articleTexts": [
+          "제10조(축하금 환수조치) ① 구청장은 지원대상이 아닌 사람이 축하금을 지원받은 것으로 확인된 때에는 지체없이 이를 환수하여야 한다.② 제1항에 따라 축하금을 환수한 경우에는 입양축하금 지원신청 대장(별지 제2호 서식) 비고란에 환수사유 및 일자 등을 기재하여 관리한다.",
+          "제11조(대장관리) 구청장은 별지 제2호 서식의 입양축하금 신청 및 지원신청 대장을 비치하여 관리해야 한다."
+        ],
+        "originalBytes": 14848,
+        "bodyTextSha256": "9aa09e6af7d002072cfd212ca5ec4890186a5504f720d9064c5a273074b3ce8a",
+        "textLength": 150,
+        "textScope": "all_body_sections_or_pages",
+        "sectionsRead": [
+          "BodyText/Section0"
+        ]
+      },
+      "checkedAt": "2026-10-18"
+    },
+    {
+      "formId": "ordin-11427535",
+      "sha256": "f2c75e77764f0f0f1db86ef3af52cda0da5f6c050eb3400605208e413ccaeda2",
+      "disposition": "approved",
+      "reason": "벼 실제 경작자가 농지 소재지·면적·소유 및 계좌를 적는 경영안정지원 신청서다. 도 및 시군 사업의 도내 벼 재배 경영안정지원과 같고 제7조가 별지 1호 및 공익직불 신청 갈음 절차를 지정한다. 사이트와 조문 신청기한 표기가 달라 접수기간은 해당 연도 공고 확인 조건으로 둔다.",
+      "fullBodyReviewed": true,
+      "reviewedProgramPairs": [
+        {
+          "programId": "s43000.gov24-643000000130",
+          "programName": "벼 재배농업인 경영안정 지원",
+          "disposition": "approved",
+          "reason": "벼 실제 경작자가 농지 소재지·면적·소유 및 계좌를 적는 경영안정지원 신청서다. 도 및 시군 사업의 도내 벼 재배 경영안정지원과 같고 제7조가 별지 1호 및 공익직불 신청 갈음 절차를 지정한다. 사이트와 조문 신청기한 표기가 달라 접수기간은 해당 연도 공고 확인 조건으로 둔다."
+        },
+        {
+          "programId": "g43745.gov24-557000000107",
+          "programName": "벼 재배농업인 경영안정 지원",
+          "disposition": "approved",
+          "reason": "벼 실제 경작자가 농지 소재지·면적·소유 및 계좌를 적는 경영안정지원 신청서다. 도 및 시군 사업의 도내 벼 재배 경영안정지원과 같고 제7조가 별지 1호 및 공익직불 신청 갈음 절차를 지정한다. 사이트와 조문 신청기한 표기가 달라 접수기간은 해당 연도 공고 확인 조건으로 둔다."
+        }
+      ],
+      "sourceEvidence": {
+        "lawId": "1613001",
+        "lawTitle": "충청북도 농업인 경영안정지원 조례",
+        "annexId": "11427535",
+        "flSeq": "104830519",
+        "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=104830519&flNm=%EB%B3%84%EC%A7%80%EC%84%9C%EC%8B%9D",
+        "publicLawUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=1613001",
+        "exactSourceBinding": true,
+        "lawTextRead": true,
+        "articleNumbers": [
+          "제7조"
+        ],
+        "articleTexts": [
+          "제7조(지원 신청) ① 제5조제1호에 따른 경영안정지원금을 받고자 하는 농업인은 매년 7월 말일까지 별지 제1호서식에 따라 경영안정지원 신청서를 농지 소재지 관할 읍&#8231;면&#8231;동장에게 제출하여야 한다.② 읍&#8231;면&#8231;동장은 제1항에 따라 현지 확인 등 필요한 조사를 하고 그 결과를 시장&#8231;군수에게 제출하여야 한다.③ 「농업·농촌 공익기능 증진 직접지불제도 운영에 관한 법률」 제15조에 따라 등록신청을 한 경우에는 제1항의 신청서를 제출한 것으로 본다.<개정 2016. 02. 26, 2021.7.9.>"
+        ],
+        "originalBytes": 29184,
+        "bodyTextSha256": "7ed91d49c12a69ef263a7181f4ffec379507fa196c8ac4dab8718e8906b027cb",
+        "textLength": 412,
+        "textScope": "all_body_sections_or_pages",
+        "sectionsRead": [
+          "BodyText/Section0"
+        ]
+      },
+      "checkedAt": "2026-10-18"
+    },
+    {
+      "formId": "ordin-19990957",
+      "sha256": "7939c6e21ae6a3b9e42698d04b8e407ebe32c5cf0a615de21b1f4f9881446f44",
+      "disposition": "approved",
+      "reason": "공영장례 신청인이 사망자와의 관계·사망일·장례수행자를 적는 지원 신청서이며 제4조 최초 지원 절차와 사이트의 연고자 신청 단계가 일치한다.",
+      "fullBodyReviewed": true,
+      "reviewedProgramPairs": [
+        {
+          "programId": "g50130.bokjiro-WLF00003912",
+          "programName": "공영장례 지원",
+          "disposition": "approved",
+          "reason": "공영장례 신청인이 사망자와의 관계·사망일·장례수행자를 적는 지원 신청서이며 제4조 최초 지원 절차와 사이트의 연고자 신청 단계가 일치한다."
+        }
+      ],
+      "sourceEvidence": {
+        "lawId": "1613097",
+        "lawTitle": "제주특별자치도 공영장례 지원 조례 시행규칙",
+        "annexId": "19990957",
+        "flSeq": "152200985",
+        "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=152200985&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C1%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EA%B3%B5%EC%98%81%EC%9E%A5%EB%A1%80+%EC%A7%80%EC%9B%90+%EC%8B%A0%EC%B2%AD%EC%84%9C",
+        "publicLawUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=1613097",
+        "exactSourceBinding": true,
+        "lawTextRead": true,
+        "articleNumbers": [
+          "제4조"
+        ],
+        "articleTexts": [
+          "제4조(지원 신청)① 조례 제9조제1항에 따라 공영장례 지원을 신청하려는 사람(이하 “신청인”이라 한다)은 지원 대상자의 사망진단서 또는 사체검안서 발급일부터 30일 이내에 다음 각 호의 서류와 함께 별지 제1호서식의 공영장례 지원 신청서를 작성하여 제주특별자치도지사(이하 “도지사”라 한다)에게 제출하여야 한다.1. 가족관계증명서2. 사망진단서 또는 사체검안서3. 제2조 각 호에 해당하는 자임을 증명하는 자료(제2조에 해당하는 경우에 한정한다)② 제1항에도 불구하고 다른 법령에 따른 검시(檢視)·수사(搜査) 등의 사유로 기한 내 신청이 어려운 경우에는 관련 서류와 함께 해당 검시·수사 등이 끝난 후 30일 이내에 신청할 수 있다."
+        ],
+        "originalBytes": 56832,
+        "bodyTextSha256": "20c3b6e4c21a1ffe90451373af671e31042227a540c2d6e5af58c76798638dac",
+        "textLength": 869,
+        "textScope": "all_body_sections_or_pages",
+        "sectionsRead": [
+          "BodyText/Section0"
+        ]
+      },
+      "checkedAt": "2026-10-18"
+    },
+    {
+      "formId": "ordin-19990959",
+      "sha256": "c5dbaf0a3be904930c143cb2716d5f2754b287ad888aaed474beb66e19ac4ed8",
+      "disposition": "approved",
+      "reason": "공영장례 지원결정 후 신청인이 장례처리 결과·수행업체·집행액·수령계좌와 영수증을 제출하는 비용청구서다. 업체의 일괄 대금청구가 아니라 제6조 지원 결정된 신청인의 후속 청구이며 사이트도 연고자의 비용 청구를 명시한다.",
+      "fullBodyReviewed": true,
+      "reviewedProgramPairs": [
+        {
+          "programId": "g50130.bokjiro-WLF00003912",
+          "programName": "공영장례 지원",
+          "disposition": "approved",
+          "reason": "공영장례 지원결정 후 신청인이 장례처리 결과·수행업체·집행액·수령계좌와 영수증을 제출하는 비용청구서다. 업체의 일괄 대금청구가 아니라 제6조 지원 결정된 신청인의 후속 청구이며 사이트도 연고자의 비용 청구를 명시한다."
+        }
+      ],
+      "sourceEvidence": {
+        "lawId": "1613097",
+        "lawTitle": "제주특별자치도 공영장례 지원 조례 시행규칙",
+        "annexId": "19990959",
+        "flSeq": "152200987",
+        "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=152200987&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C2%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EA%B3%B5%EC%98%81%EC%9E%A5%EB%A1%80+%EB%B9%84%EC%9A%A9+%EC%B2%AD%EA%B5%AC%EC%84%9C",
+        "publicLawUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=1613097",
+        "exactSourceBinding": true,
+        "lawTextRead": true,
+        "articleNumbers": [
+          "제6조"
+        ],
+        "articleTexts": [
+          "제6조(비용 청구) 제5조에 따라 공영장례 지원이 결정된 신청인은 결정일부터 30일 이내에 다음 각 호의 서류와 함께 별지 제2호서식의 공영장례 비용 청구서를 작성하여 도지사에게 제출하여야 한다.1. 지급 계좌 통장 사본2. 장례 비용 견적서3. 세금계산서(또는 영수증)4. 장례수행업체 사업자등록증 사본5. 화장 증명서6. 봉안당 안치 증명서 등 안치했음을 증명하는 서류"
+        ],
+        "originalBytes": 54272,
+        "bodyTextSha256": "8a4de60e782479d01af625c963a2e7b6ef313308fa59ecb2126ad3e7eabb7758",
+        "textLength": 806,
+        "textScope": "all_body_sections_or_pages",
+        "sectionsRead": [
+          "BodyText/Section0"
+        ]
+      },
+      "checkedAt": "2026-10-18"
+    },
+    {
+      "formId": "ordin-22113489",
+      "sha256": "2e6c0ad58bb1d7e450ee6eab56bd5e9d8133780bf4f663c5f35af3c29369ad32",
+      "disposition": "no_matching_site_program",
+      "reason": "급수공사 신설·개조·수선·철거를 신청하고 공사비를 부담하는 서식이다. 실제 감면 사유·신청을 기재하는 서식 또는 감면의 필수절차로 확인되지 않으며 사이트는 수급자·보훈·다자녀·누수·자동납부 등 요금감면 사업만 제공한다.",
+      "fullBodyReviewed": true,
+      "reviewedProgramPairs": [
+        {
+          "programId": "g43730.gov24-O00034300001",
+          "programName": "상수도요금 감면",
+          "disposition": "not_applicable",
+          "reason": "원본 신청 주체·목적과 이 사업의 지원 범위를 대조했으며 이 연결은 승인하지 않음."
+        }
+      ],
+      "sourceEvidence": {
+        "lawId": "1614503",
+        "lawTitle": "옥천군 수도 급수 조례 시행규칙",
+        "annexId": "22113489",
+        "flSeq": "166993485",
+        "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=166993485&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C1%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EA%B8%89%EC%88%98%EA%B3%B5%EC%82%AC+%EC%8B%9C%ED%96%89+%EC%8B%A0%EC%B2%AD%EC%84%9C",
+        "publicLawUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=1614503",
+        "exactSourceBinding": true,
+        "lawTextRead": true,
+        "articleNumbers": [
+          "제3조"
+        ],
+        "articleTexts": [
+          "제3조(급수공사의신청) 조례 제6조제1항에 따른 급수공사를 하려는자는 별지 제1호서식에 따라 신청하되 다음 각 호에 따른다.<개정 2019.10.25.>1. 전용급수 및 사설소화용 급수는 가옥주 세대주 또는 대표자의명의로 신청 하여야 한다.2. 급수용구 소유자와 급수사용자가 상이할 때에는 연서로서 신청하되 양자를 명시햐여야 한다.3. 타인의 토지 또는 건물안에 급수용구를 설치하고자 할 때에는 토지 또는 건물 소유자의 승낙서를 첨부하여야 한다.4. 급수관 끝에 흡수정 및 가압장치 또는 특수 가압시설을 하거나 구경 40미리이상의 급수관으로 급수조시설 또는 자연수와 병용할 때에는 시방서 및 설계도면을 첨부하여야 한다. 급수 승인후 시설을 변경할 때에도 또한 같다."
+        ],
+        "originalBytes": 34816,
+        "bodyTextSha256": "01cf190034f14f7f4a83ba2a24fe6e079817fe58fe1a95403cc2002c56405035",
+        "textLength": 362,
+        "textScope": "all_body_sections_or_pages",
+        "sectionsRead": [
+          "BodyText/Section0"
+        ]
+      },
+      "checkedAt": "2026-10-18",
+      "sameJurisdictionSearch": "옥천군 전체 수도·급수·요금 사업에서 상수도요금 감면 외 해당 시설/변경/납기 절차 지원 사업을 찾지 못함"
+    },
+    {
+      "formId": "ordin-22113491",
+      "sha256": "8c801c277715bf92adb33febec358c5fe5673179a4ed4906412e780279106a31",
+      "disposition": "no_matching_site_program",
+      "reason": "수익자들이 연서하여 공용급수전을 자체부담으로 설치하는 신청서이다. 실제 감면 사유·신청을 기재하는 서식 또는 감면의 필수절차로 확인되지 않으며 사이트는 수급자·보훈·다자녀·누수·자동납부 등 요금감면 사업만 제공한다.",
+      "fullBodyReviewed": true,
+      "reviewedProgramPairs": [
+        {
+          "programId": "g43730.gov24-O00034300001",
+          "programName": "상수도요금 감면",
+          "disposition": "not_applicable",
+          "reason": "원본 신청 주체·목적과 이 사업의 지원 범위를 대조했으며 이 연결은 승인하지 않음."
+        }
+      ],
+      "sourceEvidence": {
+        "lawId": "1614503",
+        "lawTitle": "옥천군 수도 급수 조례 시행규칙",
+        "annexId": "22113491",
+        "flSeq": "166993487",
+        "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=166993487&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C2%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EA%B3%B5%EC%9A%A9%EA%B8%89%EC%88%98%EC%A0%84+%EC%84%A4%EC%B9%98+%EC%8B%A0%EC%B2%AD%EC%84%9C",
+        "publicLawUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=1614503",
+        "exactSourceBinding": true,
+        "lawTextRead": true,
+        "articleNumbers": [
+          "제4조"
+        ],
+        "articleTexts": [
+          "제4조(공용 급수전의 설치기준)① 조례 제8조에 따른 공용 급수전은 기존 공용 급수전으로부터 150미터 이상의 거리를 두고 설치한다. 다만, 급수수요 가구 및 지역적인 여건을 참작하여 공용급수전의 설치가 불가피할 때에는 예외로 한다.<개정 2015.11.30. 2019.10.25.>② 공용 급수전을 수익자 부담으로 설치하고자 할 때에는 다음의 서류를 구비하여 급수를 받을 주민의 대표자가 그 주민과 연서하여 공용 급수전을 설치 신청서(별지 제2호서식)를 군수에게 제출하여야 한다.1. 설치위치의 약도 및 지적도2. 개인토지일 때에는 사용 승락서3. 급수대상 가구수 및 급수 인구수4. 소요공사비 자체부담 확약서5. 공용 급수전 기부채납서"
+        ],
+        "originalBytes": 28160,
+        "bodyTextSha256": "e0ab39812879d05866b23677fa4755e17818a9f1fbc59e3a4a96df20257c425e",
+        "textLength": 313,
+        "textScope": "all_body_sections_or_pages",
+        "sectionsRead": [
+          "BodyText/Section0"
+        ]
+      },
+      "checkedAt": "2026-10-18",
+      "sameJurisdictionSearch": "옥천군 전체 수도·급수·요금 사업에서 상수도요금 감면 외 해당 시설/변경/납기 절차 지원 사업을 찾지 못함"
+    },
+    {
+      "formId": "ordin-22113495",
+      "sha256": "3c7e9c27b8d74af20c22322484f9cb8e96c4b30a2b9d3c3f3526b5ce5bd4af8f",
+      "disposition": "no_matching_site_program",
+      "reason": "수도전의 개전·폐전·휴전을 신청하는 서식이다. 실제 감면 사유·신청을 기재하는 서식 또는 감면의 필수절차로 확인되지 않으며 사이트는 수급자·보훈·다자녀·누수·자동납부 등 요금감면 사업만 제공한다.",
+      "fullBodyReviewed": true,
+      "reviewedProgramPairs": [
+        {
+          "programId": "g43730.gov24-O00034300001",
+          "programName": "상수도요금 감면",
+          "disposition": "not_applicable",
+          "reason": "원본 신청 주체·목적과 이 사업의 지원 범위를 대조했으며 이 연결은 승인하지 않음."
+        }
+      ],
+      "sourceEvidence": {
+        "lawId": "1614503",
+        "lawTitle": "옥천군 수도 급수 조례 시행규칙",
+        "annexId": "22113495",
+        "flSeq": "166993491",
+        "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=166993491&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C4%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EA%B8%89%EC%88%98%28%EA%B0%9C%EC%A0%84%2C+%ED%8F%90%EC%A0%84%2C+%ED%9C%B4%EC%A0%84%29+%EC%8B%A0%EC%B2%AD%EC%84%9C",
+        "publicLawUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=1614503",
+        "exactSourceBinding": true,
+        "lawTextRead": true,
+        "articleNumbers": [
+          "제26조"
+        ],
+        "articleTexts": [
+          "제26조(급수중지 및 폐전)① 조례 제22조제1항에 따라 급수사용자가 급수를 중지 또는 폐전하고자 할 때에는 별지 제4호서식에 따라 군수에게 신고하여야 한다.<개정 2015.11.30., 2019.10.25.>② 군수는 전항의 신고에 따라 해당 수도전의 미납금을 정산케 한 후 급수를 중지 또는 폐전 조치하여야 한다.<개정 2019.10.25.>③ 특수 가압시설을 이용하여 급수를 받는 자가 해당 가압시설의 규약을 위배 또는 준수하지 아니하여 당해 특수가압시설의 관리책임자가 군수에게 급수 중지 의뢰한 경우도 또한 같다.<개정 2019.10.25.>"
+        ],
+        "originalBytes": 27648,
+        "bodyTextSha256": "253faf94caa101ccc41764bccc0593cfe194c34571a4f575cb9e2f86024564e2",
+        "textLength": 212,
+        "textScope": "all_body_sections_or_pages",
+        "sectionsRead": [
+          "BodyText/Section0"
+        ]
+      },
+      "checkedAt": "2026-10-18",
+      "sameJurisdictionSearch": "옥천군 전체 수도·급수·요금 사업에서 상수도요금 감면 외 해당 시설/변경/납기 절차 지원 사업을 찾지 못함"
+    },
+    {
+      "formId": "ordin-22113497",
+      "sha256": "5a09c4e3b79cafb604e89705d66963095192f947462a3b168835d70c73827252",
+      "disposition": "no_matching_site_program",
+      "reason": "특수가압시설 설치와 기부채납을 신청하는 서식이다. 실제 감면 사유·신청을 기재하는 서식 또는 감면의 필수절차로 확인되지 않으며 사이트는 수급자·보훈·다자녀·누수·자동납부 등 요금감면 사업만 제공한다.",
+      "fullBodyReviewed": true,
+      "reviewedProgramPairs": [
+        {
+          "programId": "g43730.gov24-O00034300001",
+          "programName": "상수도요금 감면",
+          "disposition": "not_applicable",
+          "reason": "원본 신청 주체·목적과 이 사업의 지원 범위를 대조했으며 이 연결은 승인하지 않음."
+        }
+      ],
+      "sourceEvidence": {
+        "lawId": "1614503",
+        "lawTitle": "옥천군 수도 급수 조례 시행규칙",
+        "annexId": "22113497",
+        "flSeq": "166993493",
+        "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=166993493&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C5%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%ED%8A%B9%EC%88%98%EA%B0%80%EC%95%95%EC%8B%9C%EC%84%A4+%EC%84%A4%EC%B9%98+%EC%8B%A0%EC%B2%AD%EC%84%9C",
+        "publicLawUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=1614503",
+        "exactSourceBinding": true,
+        "lawTextRead": true,
+        "articleNumbers": [
+          "제9조"
+        ],
+        "articleTexts": [
+          "제9조(특수 가압시설의 허가기준)① 조례 제6조의2의 특수 가압시설은 급수범위가 100세대를 초과하는 지역에 설치할 수 있다.<개정 2015.11.30.>② 특수 가압시설의 설치허가 신청에는 지역주민의 대표가 다음 서류를 구비 하여 군수에게 제출하여야 한다.<개정 2015.11.30.>1. 신청서(별지 제5호서식)2. 특수 가압시설 운영계획서3. 기부 체납원4. 등기부등본5. 토지(건물)사용 승낙서 <개정 2021.7.14.>6. 소요자금 조달 내역서7. 대표자 증명원8. 설계도서9. 기타 이전등기에 필요한 서류③ 설계의 기준은 군수가 정한 설계기준 보통 일위대가표 및 시방서에 따른다.<개정 2019.10.25.>  다만, 펌푸실 인입관 전방에 필요에 의하여 주양수기를 설치할 수 있다."
+        ],
+        "originalBytes": 38912,
+        "bodyTextSha256": "98afefc438662ffd7cbfd17ee446351ea05f67556e313ac4b5fa7ec1f620b820",
+        "textLength": 583,
+        "textScope": "all_body_sections_or_pages",
+        "sectionsRead": [
+          "BodyText/Section0"
+        ]
+      },
+      "checkedAt": "2026-10-18",
+      "sameJurisdictionSearch": "옥천군 전체 수도·급수·요금 사업에서 상수도요금 감면 외 해당 시설/변경/납기 절차 지원 사업을 찾지 못함"
+    },
+    {
+      "formId": "ordin-22113503",
+      "sha256": "49c3c2895ad8971478cf89bfd0f9aa5e2b1cbb0960cf1533d894d8a70147b7fc",
+      "disposition": "no_matching_site_program",
+      "reason": "수도전 소유권·권리의무를 승계하는 명의변경 신청서이다. 실제 감면 사유·신청을 기재하는 서식 또는 감면의 필수절차로 확인되지 않으며 사이트는 수급자·보훈·다자녀·누수·자동납부 등 요금감면 사업만 제공한다.",
+      "fullBodyReviewed": true,
+      "reviewedProgramPairs": [
+        {
+          "programId": "g43730.gov24-O00034300001",
+          "programName": "상수도요금 감면",
+          "disposition": "not_applicable",
+          "reason": "원본 신청 주체·목적과 이 사업의 지원 범위를 대조했으며 이 연결은 승인하지 않음."
+        }
+      ],
+      "sourceEvidence": {
+        "lawId": "1614503",
+        "lawTitle": "옥천군 수도 급수 조례 시행규칙",
+        "annexId": "22113503",
+        "flSeq": "166993499",
+        "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=166993499&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C8%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EC%88%98%EC%A0%84%EB%AA%85%EC%9D%98%EB%B3%80%EA%B2%BD%EC%8B%A0%EC%B2%AD%EC%84%9C",
+        "publicLawUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=1614503",
+        "exactSourceBinding": true,
+        "lawTextRead": true,
+        "articleNumbers": [
+          "제16조"
+        ],
+        "articleTexts": [
+          "제16조(명의 변경) 조례 제20조제1항에 따라 급수용구의 소유권을 취득한 자는 별지 제8호서식에 따라 군수에게 신고하여야 한다. <개정 2019.10.25.>다만, 부득이한 경우 구두 혹은 전화로 신고할 수 있다.<개정 2015.11.30.>"
+        ],
+        "originalBytes": 27648,
+        "bodyTextSha256": "9b759da43b89b6dad6ffc0cbcccebdd2e306b24499580d734ab474bad719e982",
+        "textLength": 198,
+        "textScope": "all_body_sections_or_pages",
+        "sectionsRead": [
+          "BodyText/Section0"
+        ]
+      },
+      "checkedAt": "2026-10-18",
+      "sameJurisdictionSearch": "옥천군 전체 수도·급수·요금 사업에서 상수도요금 감면 외 해당 시설/변경/납기 절차 지원 사업을 찾지 못함"
+    },
+    {
+      "formId": "ordin-22113505",
+      "sha256": "466e4d715961a62f76bc6c20c5aec9c38e4bb7011cb7c65de01d0ec7348d4f75",
+      "disposition": "no_matching_site_program",
+      "reason": "공공기관의 예산부족 등으로 수도요금 납기 연장을 신청하는 서식이다. 실제 감면 사유·신청을 기재하는 서식 또는 감면의 필수절차로 확인되지 않으며 사이트는 수급자·보훈·다자녀·누수·자동납부 등 요금감면 사업만 제공한다.",
+      "fullBodyReviewed": true,
+      "reviewedProgramPairs": [
+        {
+          "programId": "g43730.gov24-O00034300001",
+          "programName": "상수도요금 감면",
+          "disposition": "not_applicable",
+          "reason": "원본 신청 주체·목적과 이 사업의 지원 범위를 대조했으며 이 연결은 승인하지 않음."
+        }
+      ],
+      "sourceEvidence": {
+        "lawId": "1614503",
+        "lawTitle": "옥천군 수도 급수 조례 시행규칙",
+        "annexId": "22113505",
+        "flSeq": "166993501",
+        "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=166993501&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C9%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EB%82%A9%EA%B8%B0+%EC%97%B0%EC%9E%A5+%EC%8B%A0%EC%B2%AD%EC%84%9C",
+        "publicLawUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=1614503",
+        "exactSourceBinding": true,
+        "lawTextRead": true,
+        "articleNumbers": [
+          "제24조"
+        ],
+        "articleTexts": [
+          "제24조(납기연장)① 공공기관으로서 자금영달의 지연 또는 예산부족등 불가피 한 관계로 납기한을 연장받고자 할 때에는 별지 제9호서식에 따른 납기연장 신청서를 군수에게 제출하여야 한다.<개정 2015.11.30., 2019.10.25.>② 군수는 제1항에 따라 납기연장 신청이 있을 때에는 납입기일을 연장할 수 있다.<개정 2019.10.25.>"
+        ],
+        "originalBytes": 27136,
+        "bodyTextSha256": "5c3dbc004e802cf2abf4d6c08b5707f6036e2d375847513bea480922c12955f9",
+        "textLength": 264,
+        "textScope": "all_body_sections_or_pages",
+        "sectionsRead": [
+          "BodyText/Section0"
+        ]
+      },
+      "checkedAt": "2026-10-18",
+      "sameJurisdictionSearch": "옥천군 전체 수도·급수·요금 사업에서 상수도요금 감면 외 해당 시설/변경/납기 절차 지원 사업을 찾지 못함"
+    },
+    {
+      "formId": "ordin-22113509",
+      "sha256": "4f259c01a85e85bc2790412ebbec806b77e3f2c9ebae8806b068828eef80105d",
+      "disposition": "non_applicant",
+      "reason": "수도관계 공무원의 소속·직위·사진과 급수설비 검사·체납처분 권한을 증명하는 증표다. 제27조 휴대·제시용이고 수용가 제출서가 아니다.",
+      "fullBodyReviewed": true,
+      "reviewedProgramPairs": [
+        {
+          "programId": "g43730.gov24-O00034300001",
+          "programName": "상수도요금 감면",
+          "disposition": "not_applicable",
+          "reason": "원본 신청 주체·목적과 이 사업의 지원 범위를 대조했으며 이 연결은 승인하지 않음."
+        }
+      ],
+      "sourceEvidence": {
+        "lawId": "1614503",
+        "lawTitle": "옥천군 수도 급수 조례 시행규칙",
+        "annexId": "22113509",
+        "flSeq": "166993505",
+        "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=166993505&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C11%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EC%A6%9D%EB%AA%85%EC%84%9C",
+        "publicLawUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=1614503",
+        "exactSourceBinding": true,
+        "lawTextRead": true,
+        "articleNumbers": [
+          "제27조"
+        ],
+        "articleTexts": [
+          "제27조(증표) 조례 제38조에 따른 급수에 관한 조사 및 검사 또는 개수공사를 시행하거나 조례 제22조에 따른 급수의 중지 또는 폐전하거나, 제23조부터 제31조에 따른 체납 처분의 명을 받은 공무원은 그 권한을 증명하는 별지 제11호서식에 의한 증표를 휴대하고 이해관계인에게 제시하여야 한다.<개정 2015.11.30., 2019.10.25.>"
+        ],
+        "originalBytes": 28160,
+        "bodyTextSha256": "e6f72d564f9099d48b3df6099b68b90c6e38f76a169ee5839ec0df8cd5fdf0f1",
+        "textLength": 351,
+        "textScope": "all_body_sections_or_pages",
+        "sectionsRead": [
+          "BodyText/Section0"
+        ]
+      },
+      "checkedAt": "2026-10-18"
+    },
+    {
+      "formId": "ordin-22113511",
+      "sha256": "84985033df1c26bf0a5ac3fa92c20f0ba88c395a6968044f5f1a9bf4af547f53",
+      "disposition": "no_matching_site_program",
+      "reason": "수도계량기의 수리·시험을 요청하는 청구서로 기재된 청구 목적은 계량기 점검이다. 후보 요금감면의 누수공사 신청은 별지 13호이며 본 계량기시험서가 감면 신청 필수서류라는 근거는 없다.",
+      "fullBodyReviewed": true,
+      "reviewedProgramPairs": [
+        {
+          "programId": "g43730.gov24-O00034300001",
+          "programName": "상수도요금 감면",
+          "disposition": "not_applicable",
+          "reason": "원본 신청 주체·목적과 이 사업의 지원 범위를 대조했으며 이 연결은 승인하지 않음."
+        }
+      ],
+      "sourceEvidence": {
+        "lawId": "1614503",
+        "lawTitle": "옥천군 수도 급수 조례 시행규칙",
+        "annexId": "22113511",
+        "flSeq": "166993507",
+        "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=166993507&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C12%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EC%88%98%EB%8F%84%EA%B3%84%EB%9F%89%EA%B8%B0+%EC%88%98%EB%A6%AC%EC%8B%9C%ED%97%98+%EC%B2%AD%EA%B5%AC%EC%84%9C",
+        "publicLawUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=1614503",
+        "exactSourceBinding": true,
+        "lawTextRead": true,
+        "articleNumbers": [
+          "제19조"
+        ],
+        "articleTexts": [
+          "제19조(수도계량기 시험청구) 조례 제28조에 따른 수도계량기의 시험 청구를 하고자 하는 별지 제12호서식에 따른다.<개정 2019.10.25.> 다만, 부득이한 경우 구두 혹은 전화로 신고할 수 있다.<개정 2015.11.30.>"
+        ],
+        "originalBytes": 22528,
+        "bodyTextSha256": "46a5d8254ff7e9eaadbed0a73f1ae9eab34a6dbc7c4ce0d85e71a208729418dd",
+        "textLength": 237,
+        "textScope": "all_body_sections_or_pages",
+        "sectionsRead": [
+          "BodyText/Section0"
+        ]
+      },
+      "checkedAt": "2026-10-18",
+      "sameJurisdictionSearch": "옥천군 수도 관련 사이트 사업은 요금감면 1건으로 계량기 수리시험 지원 사업 없음"
+    },
+    {
+      "formId": "ordin-22113513",
+      "sha256": "b6747c96e2ea02b1efbda1598f794e709e5d055bad929ff135b6eca51c5b5d14",
+      "disposition": "approved",
+      "reason": "누수위치·원인·공사일시·공사업자와 수리사진을 제출하는 누수감면 적용신청서다. 제28조 별지 13호 및 사이트 누수감면 항목과 정확히 일치한다.",
+      "fullBodyReviewed": true,
+      "reviewedProgramPairs": [
+        {
+          "programId": "g43730.gov24-O00034300001",
+          "programName": "상수도요금 감면",
+          "disposition": "approved",
+          "reason": "누수위치·원인·공사일시·공사업자와 수리사진을 제출하는 누수감면 적용신청서다. 제28조 별지 13호 및 사이트 누수감면 항목과 정확히 일치한다."
+        }
+      ],
+      "sourceEvidence": {
+        "lawId": "1614503",
+        "lawTitle": "옥천군 수도 급수 조례 시행규칙",
+        "annexId": "22113513",
+        "flSeq": "166993509",
+        "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=166993509&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C13%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EC%83%81%EC%88%98%EB%8F%84+%EB%88%84%EC%88%98%EA%B0%90%EB%A9%B4+%EC%A0%81%EC%9A%A9%EC%8B%A0%EC%B2%AD%EC%84%9C",
+        "publicLawUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=1614503",
+        "exactSourceBinding": true,
+        "lawTextRead": true,
+        "articleNumbers": [
+          "제28조"
+        ],
+        "articleTexts": [
+          "제28조(요금 감면) 조례 제36조제1항에 따라 요금을 감면받고자 하는 경우에는 별지 제13호서식에 따르고, 같은 조 제2항의 요금을 감면받고자 하는 경우에는 별지 제14호에서 제15호서식에 따른다.<신설 2015.11.30., 개정 2021.7.14.>"
+        ],
+        "originalBytes": 33792,
+        "bodyTextSha256": "0283a60d62414b5d430aef26263a68ad71e87dff51ac40b606dd87c1af133a48",
+        "textLength": 318,
+        "textScope": "all_body_sections_or_pages",
+        "sectionsRead": [
+          "BodyText/Section0"
+        ]
+      },
+      "checkedAt": "2026-10-18"
+    },
+    {
+      "formId": "ordin-22113515",
+      "sha256": "4c2c99fa5bb3916fd4e365ec37a6894eab92c4d7114a5a9efab744c4766b4fb6",
+      "disposition": "approved",
+      "reason": "수급자·국가보훈·장애인 차상위·착한가격업소·다자녀 등의 사유를 선택하는 수도요금 감면신청서다. 제28조 별지 14호이고 사이트가 명시한 감면 항목과 일치한다.",
+      "fullBodyReviewed": true,
+      "reviewedProgramPairs": [
+        {
+          "programId": "g43730.gov24-O00034300001",
+          "programName": "상수도요금 감면",
+          "disposition": "approved",
+          "reason": "수급자·국가보훈·장애인 차상위·착한가격업소·다자녀 등의 사유를 선택하는 수도요금 감면신청서다. 제28조 별지 14호이고 사이트가 명시한 감면 항목과 일치한다."
+        }
+      ],
+      "sourceEvidence": {
+        "lawId": "1614503",
+        "lawTitle": "옥천군 수도 급수 조례 시행규칙",
+        "annexId": "22113515",
+        "flSeq": "166993511",
+        "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=166993511&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C14%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EC%88%98%EB%8F%84%EC%9A%94%EA%B8%88+%EA%B0%90%EB%A9%B4+%EC%8B%A0%EC%B2%AD%EC%84%9C",
+        "publicLawUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=1614503",
+        "exactSourceBinding": true,
+        "lawTextRead": true,
+        "articleNumbers": [
+          "제28조"
+        ],
+        "articleTexts": [
+          "제28조(요금 감면) 조례 제36조제1항에 따라 요금을 감면받고자 하는 경우에는 별지 제13호서식에 따르고, 같은 조 제2항의 요금을 감면받고자 하는 경우에는 별지 제14호에서 제15호서식에 따른다.<신설 2015.11.30., 개정 2021.7.14.>"
+        ],
+        "originalBytes": 57856,
+        "bodyTextSha256": "0d5da01a39860e29476d13a644ddac9dc52cae7333e82ef9851d4f5a215d1b4f",
+        "textLength": 705,
+        "textScope": "all_body_sections_or_pages",
+        "sectionsRead": [
+          "BodyText/Section0"
+        ]
+      },
+      "checkedAt": "2026-10-18"
+    },
+    {
+      "formId": "ordin-22113517",
+      "sha256": "1674fba4b96d447d4e9cef368986b6f75efd8b1a400c2ee8695f46a660b8ce40",
+      "disposition": "no_matching_site_program",
+      "reason": "건축물 용도·중수도 처리용량과 설치확인서를 제출하는 중수도 시설 요금감면 신청서다. 현행 규칙에 존재하지만 사이트의 지원내용·대상은 취약계층·누수·자동납부·문자고지 등으로 중수도 시설 감면을 포함하지 않는다.",
+      "fullBodyReviewed": true,
+      "reviewedProgramPairs": [
+        {
+          "programId": "g43730.gov24-O00034300001",
+          "programName": "상수도요금 감면",
+          "disposition": "not_applicable",
+          "reason": "원본 신청 주체·목적과 이 사업의 지원 범위를 대조했으며 이 연결은 승인하지 않음."
+        }
+      ],
+      "sourceEvidence": {
+        "lawId": "1614503",
+        "lawTitle": "옥천군 수도 급수 조례 시행규칙",
+        "annexId": "22113517",
+        "flSeq": "166993513",
+        "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=166993513&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C15%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%28%EC%A4%91%EC%88%98%EB%8F%84%29+%EC%83%81%EC%88%98%EB%8F%84%EC%9A%94%EA%B8%88+%EA%B0%90%EB%A9%B4%EC%8B%A0%EC%B2%AD%EC%84%9C",
+        "publicLawUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=1614503",
+        "exactSourceBinding": true,
+        "lawTextRead": true,
+        "articleNumbers": [
+          "제28조"
+        ],
+        "articleTexts": [
+          "제28조(요금 감면) 조례 제36조제1항에 따라 요금을 감면받고자 하는 경우에는 별지 제13호서식에 따르고, 같은 조 제2항의 요금을 감면받고자 하는 경우에는 별지 제14호에서 제15호서식에 따른다.<신설 2015.11.30., 개정 2021.7.14.>"
+        ],
+        "originalBytes": 34304,
+        "bodyTextSha256": "2d07f6bca1f34c3eb7a1e41f0326e02ebd25634ff4e8bb8a39856a73ea333f61",
+        "textLength": 349,
+        "textScope": "all_body_sections_or_pages",
+        "sectionsRead": [
+          "BodyText/Section0"
+        ]
+      },
+      "checkedAt": "2026-10-18",
+      "sameJurisdictionSearch": "옥천군 전체 수도 관련 사업에서 중수도 설치·요금감면 대상 사업을 별도로 찾지 못함"
+    },
+    {
+      "formId": "ordin-22113519",
+      "sha256": "4dd9f55044725e374dcad4d7e2dad30d0e1faac47ad0a88a676ac8bd36195abf",
+      "disposition": "approved",
+      "reason": "수용가가 은행·예금주·계좌로 상하수도 자동납부를 신청·변경하는 서식이다. 제29조가 별지 16호로 자동이체 요금할인을 신청하도록 명시하고 사이트도 1% 할인을 설명한다.",
+      "fullBodyReviewed": true,
+      "reviewedProgramPairs": [
+        {
+          "programId": "g43730.gov24-O00034300001",
+          "programName": "상수도요금 감면",
+          "disposition": "approved",
+          "reason": "수용가가 은행·예금주·계좌로 상하수도 자동납부를 신청·변경하는 서식이다. 제29조가 별지 16호로 자동이체 요금할인을 신청하도록 명시하고 사이트도 1% 할인을 설명한다."
+        }
+      ],
+      "sourceEvidence": {
+        "lawId": "1614503",
+        "lawTitle": "옥천군 수도 급수 조례 시행규칙",
+        "annexId": "22113519",
+        "flSeq": "166993515",
+        "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=166993515&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C16%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EC%83%81%ED%95%98%EC%88%98%EB%8F%84%EC%82%AC%EC%9A%A9%EB%A3%8C+%EC%9E%90%EB%8F%99%EB%82%A9%EB%B6%80%28%EC%8B%A0%EC%B2%AD%2C%ED%95%B4%EC%A7%80%2C%EB%B3%80%EA%B2%BD%29+%EC%8B%A0%EC%B2%AD%EC%84%9C",
+        "publicLawUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=1614503",
+        "exactSourceBinding": true,
+        "lawTextRead": true,
+        "articleNumbers": [
+          "제29조"
+        ],
+        "articleTexts": [
+          "제29조(요금 할인)① 조례 제37조에 따른 요금할인 범위는 다음 각 호와 같다. 다만, 월 사용량이 1톤 이상인 수용가를 대상으로 적용한다.1. 수도요금을 금용기관에 자동이체로 납부하는 경우에는 당해 납기 수도요금의 1퍼센트를 할인하되, 그 상한금액은 5천원으로 한다.2. 수도요금의 청구통지서 또는 납부고지서를 휴대전화로 수령하는 경우에는 수용가당 200원을 할인한다.② 제1항에 따라 할인받으려는 자는 별지 제16호 및 제17호서식에 따라 할인신청서를 군수에게 제출하여야 한다.<본조신설 2021.7.14.>"
+        ],
+        "originalBytes": 38912,
+        "bodyTextSha256": "201b1394fb04deaaaf60e686eef4ce98e8d438438c18873478c34b8c528a4f89",
+        "textLength": 420,
+        "textScope": "all_body_sections_or_pages",
+        "sectionsRead": [
+          "BodyText/Section0"
+        ]
+      },
+      "checkedAt": "2026-10-18"
+    },
+    {
+      "formId": "ordin-22113521",
+      "sha256": "810b39fd2002d3d1fbdd489f343d19afbfe8b4329fcc1b0890a3e7cecfa3e2e7",
+      "disposition": "approved",
+      "reason": "수용가·휴대전화 번호와 동의를 적는 전화고지 신청서에 월 200원 할인 문구가 있고 제29조의 별지 17호 할인 신청 및 사이트 문자고지 혜택과 일치한다.",
+      "fullBodyReviewed": true,
+      "reviewedProgramPairs": [
+        {
+          "programId": "g43730.gov24-O00034300001",
+          "programName": "상수도요금 감면",
+          "disposition": "approved",
+          "reason": "수용가·휴대전화 번호와 동의를 적는 전화고지 신청서에 월 200원 할인 문구가 있고 제29조의 별지 17호 할인 신청 및 사이트 문자고지 혜택과 일치한다."
+        }
+      ],
+      "sourceEvidence": {
+        "lawId": "1614503",
+        "lawTitle": "옥천군 수도 급수 조례 시행규칙",
+        "annexId": "22113521",
+        "flSeq": "166993517",
+        "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=166993517&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C17%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EC%83%81%ED%95%98%EC%88%98%EB%8F%84%EC%9A%94%EA%B8%88+%ED%9C%B4%EB%8C%80%EC%A0%84%ED%99%94+%EA%B3%A0%EC%A7%80%EC%8B%A0%EC%B2%AD%EC%84%9C",
+        "publicLawUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=1614503",
+        "exactSourceBinding": true,
+        "lawTextRead": true,
+        "articleNumbers": [
+          "제29조"
+        ],
+        "articleTexts": [
+          "제29조(요금 할인)① 조례 제37조에 따른 요금할인 범위는 다음 각 호와 같다. 다만, 월 사용량이 1톤 이상인 수용가를 대상으로 적용한다.1. 수도요금을 금용기관에 자동이체로 납부하는 경우에는 당해 납기 수도요금의 1퍼센트를 할인하되, 그 상한금액은 5천원으로 한다.2. 수도요금의 청구통지서 또는 납부고지서를 휴대전화로 수령하는 경우에는 수용가당 200원을 할인한다.② 제1항에 따라 할인받으려는 자는 별지 제16호 및 제17호서식에 따라 할인신청서를 군수에게 제출하여야 한다.<본조신설 2021.7.14.>"
+        ],
+        "originalBytes": 39424,
+        "bodyTextSha256": "8c1476833cd5350f37f1c8f28838b5c23de403afd70769f3340f6e1154e33edf",
+        "textLength": 591,
+        "textScope": "all_body_sections_or_pages",
+        "sectionsRead": [
+          "BodyText/Section0"
+        ]
+      },
+      "checkedAt": "2026-10-18"
+    },
+    {
+      "formId": "ordin-20291893",
+      "sha256": "bf59a9a8a761536b409e2f43bf7df54dde2d5be9ada15b7d6bd0b9d22d438a32",
+      "disposition": "non_applicant",
+      "reason": "제목은 사용 신청서이나 본문 말미는 시장 명의 '사용을 허가합니다'이며 허가조건·사용료가 표시된다. 현행 제4조제2항도 별지 3호를 교부하는 허가서로 지정하므로 실제 신청인 제출서가 아니다.",
+      "fullBodyReviewed": true,
+      "reviewedProgramPairs": [
+        {
+          "programId": "g48270.gov24-O00012600001",
+          "programName": "체육시설 이용요금 감면",
+          "disposition": "not_applicable",
+          "reason": "원본 신청 주체·목적과 이 사업의 지원 범위를 대조했으며 이 연결은 승인하지 않음."
+        }
+      ],
+      "sourceEvidence": {
+        "lawId": "1615531",
+        "lawTitle": "밀양시 체육시설관리 운영 조례 시행규칙",
+        "annexId": "20291893",
+        "flSeq": "153487425",
+        "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=153487425&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C3%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EB%B0%80%EC%96%91%EC%8B%9C+%EC%B2%B4%EC%9C%A1%EC%8B%9C%EC%84%A4+%EC%82%AC%EC%9A%A9+%EC%8B%A0%EC%B2%AD%EC%84%9C",
+        "publicLawUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=1615531",
+        "exactSourceBinding": true,
+        "lawTextRead": true,
+        "articleNumbers": [
+          "제4조"
+        ],
+        "articleTexts": [
+          "제4조(사용허가)① 조례 제3조에 따른 체육시설을 사용하고자 하는 자는 \"별지 제1호서식\"의 체육시설 사용허가 신청서를 제출하여야 하며, 체육시설 사용변경 신청을 하고자 할 때는 \"별지 제2호서식\"에 의한다. <개정 2020.3.26.>② 제1항의 신청서를 접수하였을 때는 \"별지 제3호서식\" 및 \"별지 제4호서식\"에 의하여 허가서를 교부하여야 한다.③ 조례 제3조제5항에 따른 사용은 \"별지 제5호서식\"에 의한 이용(사용)허가원의 접수와 동시 사용료를 징수하고 \"별지 제6호서식\"의 이용(연습)권을 교부한다.<개정 2020.3.26.>④ 조례 제3조제6항에 따른 체육동호인 단체는 \"별지 제7호서식\"에 동호인 단체회원 등록신청을 하고 허가를 받아 월회비를 납부하여야 한다. 이 경우의 회원 월 사용료는 1인당 해당 기본사용료의 15일분에 해당하는 금액으로 한다.<개정 2020.3.26.>⑤ 체육동호인 단체회원으로 가입된 자에 대하여는 \"별지 제8호서식\"에 따라 회원증을 교부할 수 있다. <개정 2020.3.26.>"
+        ],
+        "originalBytes": 27136,
+        "bodyTextSha256": "6adc64f8148299adf79e02c48e8ea46e55d0e6a76f5740fff115440803cab6e7",
+        "textLength": 440,
+        "textScope": "all_body_sections_or_pages",
+        "sectionsRead": [
+          "BodyText/Section0"
+        ]
+      },
+      "checkedAt": "2026-10-18"
+    },
+    {
+      "formId": "ordin-20291895",
+      "sha256": "e51d111a1b86af63514427d129b510e792983fd4dc030248f115b683d9341cbd",
+      "disposition": "non_applicant",
+      "reason": "제목은 변경 신청서이나 본문은 시장 명의 '사용 변경 허가합니다'인 발급 허가서다. 제4조제2항의 별지 4호 교부용과 일치하며 실제 변경신청 별지 2호와 구분한다.",
+      "fullBodyReviewed": true,
+      "reviewedProgramPairs": [
+        {
+          "programId": "g48270.gov24-O00012600001",
+          "programName": "체육시설 이용요금 감면",
+          "disposition": "not_applicable",
+          "reason": "원본 신청 주체·목적과 이 사업의 지원 범위를 대조했으며 이 연결은 승인하지 않음."
+        }
+      ],
+      "sourceEvidence": {
+        "lawId": "1615531",
+        "lawTitle": "밀양시 체육시설관리 운영 조례 시행규칙",
+        "annexId": "20291895",
+        "flSeq": "153487427",
+        "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=153487427&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C4%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EB%B0%80%EC%96%91%EC%8B%9C+%EC%B2%B4%EC%9C%A1%EC%8B%9C%EC%84%A4+%EC%82%AC%EC%9A%A9%ED%97%88%EA%B0%80+%EB%B3%80%EA%B2%BD+%EC%8B%A0%EC%B2%AD%EC%84%9C",
+        "publicLawUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=1615531",
+        "exactSourceBinding": true,
+        "lawTextRead": true,
+        "articleNumbers": [
+          "제4조"
+        ],
+        "articleTexts": [
+          "제4조(사용허가)① 조례 제3조에 따른 체육시설을 사용하고자 하는 자는 \"별지 제1호서식\"의 체육시설 사용허가 신청서를 제출하여야 하며, 체육시설 사용변경 신청을 하고자 할 때는 \"별지 제2호서식\"에 의한다. <개정 2020.3.26.>② 제1항의 신청서를 접수하였을 때는 \"별지 제3호서식\" 및 \"별지 제4호서식\"에 의하여 허가서를 교부하여야 한다.③ 조례 제3조제5항에 따른 사용은 \"별지 제5호서식\"에 의한 이용(사용)허가원의 접수와 동시 사용료를 징수하고 \"별지 제6호서식\"의 이용(연습)권을 교부한다.<개정 2020.3.26.>④ 조례 제3조제6항에 따른 체육동호인 단체는 \"별지 제7호서식\"에 동호인 단체회원 등록신청을 하고 허가를 받아 월회비를 납부하여야 한다. 이 경우의 회원 월 사용료는 1인당 해당 기본사용료의 15일분에 해당하는 금액으로 한다.<개정 2020.3.26.>⑤ 체육동호인 단체회원으로 가입된 자에 대하여는 \"별지 제8호서식\"에 따라 회원증을 교부할 수 있다. <개정 2020.3.26.>"
+        ],
+        "originalBytes": 11776,
+        "bodyTextSha256": "858e20ffc6b9a16c793b4ee821010bc4414fbbffdb91fa1eca647a3c6ea18fd5",
+        "textLength": 273,
+        "textScope": "all_body_sections_or_pages",
+        "sectionsRead": [
+          "BodyText/Section0"
+        ]
+      },
+      "checkedAt": "2026-10-18"
+    },
+    {
+      "formId": "ordin-20291907",
+      "sha256": "9b0bf6fe31eaa57df98ea117193e33346f9f64fb0af2113864a945929fa66160",
+      "disposition": "non_applicant",
+      "reason": "행사 주최자가 유료·무료 관람권 매수와 금액의 검인을 요청하고 시와 결재하는 서식이다. 일반 시설이용자의 이용료 감면 신청이 아니며 감면은 제6조 별지 9호로 구분된다.",
+      "fullBodyReviewed": true,
+      "reviewedProgramPairs": [
+        {
+          "programId": "g48270.gov24-O00012600001",
+          "programName": "체육시설 이용요금 감면",
+          "disposition": "not_applicable",
+          "reason": "원본 신청 주체·목적과 이 사업의 지원 범위를 대조했으며 이 연결은 승인하지 않음."
+        }
+      ],
+      "sourceEvidence": {
+        "lawId": "1615531",
+        "lawTitle": "밀양시 체육시설관리 운영 조례 시행규칙",
+        "annexId": "20291907",
+        "flSeq": "153487439",
+        "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=153487439&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C10%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EA%B2%80%EC%9D%B8%EC%8B%A0%EC%B2%AD%EC%84%9C",
+        "publicLawUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=1615531",
+        "exactSourceBinding": true,
+        "lawTextRead": true,
+        "articleNumbers": [
+          "제7조"
+        ],
+        "articleTexts": [
+          "제7조(검인신청)① 조례 제15조제1항에 따른 관람권, 초대권(초청장 포함) 입장권, 임원증, 선수증의 발행에 대해서는 \"별지 제10호서식\"의 검인신청서를 제출하여야 한다. <개정 2020.3.26.>② 검인되지 아니한 관람권, 초대권(초청장 포함), 입장권은 원칙적으로 무효로 하며 이미 입장한 자에 대해서는 유료관람권에 준하여 사용료를 징수한다.<개정 2020.3.26.>"
+        ],
+        "originalBytes": 13824,
+        "bodyTextSha256": "df4f005436201cd78d325659ab3d6b2ba5c46301f6243029232900266b73c1e2",
+        "textLength": 457,
+        "textScope": "all_body_sections_or_pages",
+        "sectionsRead": [
+          "BodyText/Section0"
+        ]
+      },
+      "checkedAt": "2026-10-18"
+    },
+    {
+      "formId": "ordin-20291909",
+      "sha256": "93d52eac6783189ff943bb70689c4e035392a37ab2910d8496b4f48ed6ba21cc",
+      "disposition": "non_applicant",
+      "reason": "전용사용 행사 주최자가 발행 관람권 예매 매수·수탁자와 인수서를 작성하는 서식이다. 할인 이용자 본인의 예약·감면 신청과 목적이 다르다.",
+      "fullBodyReviewed": true,
+      "reviewedProgramPairs": [
+        {
+          "programId": "g48270.gov24-O00012600001",
+          "programName": "체육시설 이용요금 감면",
+          "disposition": "not_applicable",
+          "reason": "원본 신청 주체·목적과 이 사업의 지원 범위를 대조했으며 이 연결은 승인하지 않음."
+        }
+      ],
+      "sourceEvidence": {
+        "lawId": "1615531",
+        "lawTitle": "밀양시 체육시설관리 운영 조례 시행규칙",
+        "annexId": "20291909",
+        "flSeq": "153487441",
+        "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=153487441&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C11%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EC%98%88%EB%A7%A4%EC%8B%A0%EC%B2%AD%EC%84%9C",
+        "publicLawUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=1615531",
+        "exactSourceBinding": true,
+        "lawTextRead": true,
+        "articleNumbers": [
+          "제9조"
+        ],
+        "articleTexts": [
+          "제9조(관람권의 예매)① 사용자가 발행하는 관람권을 예매하고자 할 때에는 별지 제11호서식에 의한 예매신청서를 제출하여야 한다.② 예매되지 아니한 관람권은 경기(행사) 전일 정오까지 반환하여야한다. 이때에 반환되지 아니한 예매권에 대해서는 이미 예매한 것으로 간주하고, 조례 제11조에 따른 관람료 수입액으로 환산하여 징수한다. <개정 2020.3.26.>③ 초대권, 초청장(이와 유사한 무료관람권)은 조례 별표 2의 이용료 수입에 의한 사용료로 징수한다."
+        ],
+        "originalBytes": 26112,
+        "bodyTextSha256": "d007e053e460cea0171e1767783483fe2a7dd0da65888aaf5f1b243c53a40e5e",
+        "textLength": 515,
+        "textScope": "all_body_sections_or_pages",
+        "sectionsRead": [
+          "BodyText/Section0"
+        ]
+      },
+      "checkedAt": "2026-10-18"
+    },
+    {
+      "formId": "ordin-20291913",
+      "sha256": "1be254ff5dace8bd38621a599eae12fe60a8fe4baa6912e128e0b253caa4b7aa",
+      "disposition": "non_applicant",
+      "reason": "행사 종료 후 주최자·시 담당자가 남은 관람권의 회수·소각과 매수를 확인하는 정산용 서식이다. 시설이용자의 할인 신청용이 아니다.",
+      "fullBodyReviewed": true,
+      "reviewedProgramPairs": [
+        {
+          "programId": "g48270.gov24-O00012600001",
+          "programName": "체육시설 이용요금 감면",
+          "disposition": "not_applicable",
+          "reason": "원본 신청 주체·목적과 이 사업의 지원 범위를 대조했으며 이 연결은 승인하지 않음."
+        }
+      ],
+      "sourceEvidence": {
+        "lawId": "1615531",
+        "lawTitle": "밀양시 체육시설관리 운영 조례 시행규칙",
+        "annexId": "20291913",
+        "flSeq": "153487445",
+        "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=153487445&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C13%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EA%B4%80%EB%9E%8C%EA%B6%8C+%EC%86%8C%EA%B0%81+%ED%99%95%EC%9D%B8%EC%84%9C",
+        "publicLawUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=1615531",
+        "exactSourceBinding": true,
+        "lawTextRead": true,
+        "articleNumbers": [
+          "제10조"
+        ],
+        "articleTexts": [
+          "제10조(관람권의 소각) 잔여관람권에 대해서는 경기(행사)가 끝난 후 전용사용자의 입회하에 \"별지 제12호서식\"의 정산서와 \"별지 제13호서식\"의 관람권의 소각 확인서를 작성하고 잔여표는 소각한다.<개정 2020.3.26.>"
+        ],
+        "originalBytes": 13824,
+        "bodyTextSha256": "53a79bc5e485f10b3508c5ce131c65704787ea542c96ab8a04805675729f9fb1",
+        "textLength": 465,
+        "textScope": "all_body_sections_or_pages",
+        "sectionsRead": [
+          "BodyText/Section0"
+        ]
+      },
+      "checkedAt": "2026-10-18"
+    },
+    {
+      "formId": "ordin-20123423",
+      "sha256": "dffe3469d2bd5b4f6049b60155e0da9e9c21d051151975ffce6e8a55977837c2",
+      "disposition": "approved",
+      "reason": "화장을 치른 연고자가 사망자·화장일·안치시설과 지급계좌를 적고 화장증명·영수증 등을 제출하는 신청서다. 제5조 별지 1호와 사이트 신안군 화장장려금 지급 목적이 일치한다.",
+      "fullBodyReviewed": true,
+      "reviewedProgramPairs": [
+        {
+          "programId": "g12870.gov24-501000000107",
+          "programName": "신안군 화장장려금 지원",
+          "disposition": "approved",
+          "reason": "화장을 치른 연고자가 사망자·화장일·안치시설과 지급계좌를 적고 화장증명·영수증 등을 제출하는 신청서다. 제5조 별지 1호와 사이트 신안군 화장장려금 지급 목적이 일치한다."
+        }
+      ],
+      "sourceEvidence": {
+        "lawId": "1616881",
+        "lawTitle": "신안군 화장 장려금 지원 조례",
+        "annexId": "20123423",
+        "flSeq": "152545187",
+        "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=152545187&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C1%ED%98%B8%EC%84%9C%EC%8B%9D%5D%ED%99%94%EC%9E%A5+%EC%9E%A5%EB%A0%A4%EA%B8%88+%EC%A7%80%EC%9B%90+%EC%8B%A0%EC%B2%AD%EC%84%9C",
+        "publicLawUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=1616881",
+        "exactSourceBinding": true,
+        "lawTextRead": true,
+        "articleNumbers": [
+          "제5조"
+        ],
+        "articleTexts": [
+          "제5조(신청방법)① 장려금을 신청하고자 할 때에는 별지 제1호서식에 따른 장려금 지원신청서를 사망일(개장 시 화장일)로부터 6개월 이내에 주소지 관할 읍·면장에게 제출하여야 한다.(개정 2018.12.28., 2021.07.01.)② 제1항에도 불구하고 다음 각 호의 어느 하나에 해당하는 경우에는 그 사유가 해소된 날부터 6개월 이내에 장려금을 신청할 수 있다.(신설 2021.07.01.)1. 장기, 시신 등의 기증으로 인한 절차 이행으로 화장이 지연된 경우2. 천재지변, 질병, 상해 등으로 기한 내 장려금을 신청하지 못한 경우3. 그 밖에 제1호, 제2호에 준하는 경우로서 군수가 필요하다고 인정하는 경우③ 읍·면장은 신청서를 접수한 날부터 7일 이내에 연고자 여부, 거주기간 등 장려금 지급 적격여부를 조사하여 군수에게 보고하여야 한다.(개정 2018.12.28.)(기존 제2항에서 이동 2021.07.01.)"
+        ],
+        "originalBytes": 98816,
+        "bodyTextSha256": "5bc67219bc4b198717161140b138f5e67d67cd844f5c215e11ea23489291f908",
+        "textLength": 435,
+        "textScope": "all_body_sections_or_pages",
+        "sectionsRead": [
+          "BodyText/Section0"
+        ]
+      },
+      "checkedAt": "2026-10-18"
+    },
+    {
+      "formId": "ordin-13519823",
+      "sha256": "d6fc071e804cad10c0b75cf663ad5d3e74568cdc374898807a18068b86951b3b",
+      "disposition": "approved",
+      "reason": "입양부모가 입양아동·입양기관·입양일·계좌와 확인서류를 제출하는 구 입양축하금 신청서다. 제8조 별지 1호와 두 사이트 금천구 지원 목적이 일치한다. 정부24의 국가 지원 설명과 별도로 구 지원 부분에만 연결한다.",
+      "fullBodyReviewed": true,
+      "reviewedProgramPairs": [
+        {
+          "programId": "g11545.gov24-317000000111",
+          "programName": "국내 입양가정 입양축하금 지원",
+          "disposition": "approved",
+          "reason": "입양부모가 입양아동·입양기관·입양일·계좌와 확인서류를 제출하는 구 입양축하금 신청서다. 제8조 별지 1호와 두 사이트 금천구 지원 목적이 일치한다. 정부24의 국가 지원 설명과 별도로 구 지원 부분에만 연결한다."
+        },
+        {
+          "programId": "g11545.bokjiro-WLF00002797",
+          "programName": "금천구 입양축하금 지원",
+          "disposition": "approved",
+          "reason": "입양부모가 입양아동·입양기관·입양일·계좌와 확인서류를 제출하는 구 입양축하금 신청서다. 제8조 별지 1호와 두 사이트 금천구 지원 목적이 일치한다. 정부24의 국가 지원 설명과 별도로 구 지원 부분에만 연결한다."
+        }
+      ],
+      "sourceEvidence": {
+        "lawId": "1617937",
+        "lawTitle": "서울특별시 금천구 입양가정 지원에 관한 조례",
+        "annexId": "13519823",
+        "flSeq": "119011727",
+        "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=119011727&flNm=%EB%B3%84%EC%A7%80+%EC%A0%9C1%ED%98%B8%EC%84%9C%EC%8B%9D+%EC%9E%85%EC%96%91%EC%B6%95%ED%95%98%EA%B8%88+%EC%A7%80%EC%9B%90+%EC%8B%A0%EC%B2%AD%EC%84%9C",
+        "publicLawUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=1617937",
+        "exactSourceBinding": true,
+        "lawTextRead": true,
+        "articleNumbers": [
+          "제8조"
+        ],
+        "articleTexts": [
+          "제8조(입양축하금 지원신청) <개정 2021.7.9>① 입양축하금 지원 신청인은 입양부모가 되며, 입양 신고 후 90일 이내에 입양축하금 지원 신청서(이하 “신청서”라 한다)를 구청장에게 제출하여야 한다. <개정 2021.7.9>② 제1항에 따른 입양축하금 신청 시 구비서류는 다음 각 호와 같다.1. 입양축하금 지원 신청서 1부 (별지 제1호서식)2. 입양사실확인서(입양기관 발급)3. 예금통장 사본 1부4. 입양아동이 장애아동임을 증명하는 서류(장애아동을 입양한 가정에 한정함)<개정 2019.7.19, 2021.7.9.>"
+        ],
+        "originalBytes": 15360,
+        "bodyTextSha256": "3fc3be900da025d547e064a70db110e566cfb979594191e7ea319e805e22fe75",
+        "textLength": 781,
+        "textScope": "all_body_sections_or_pages",
+        "sectionsRead": [
+          "BodyText/Section0"
+        ]
+      },
+      "checkedAt": "2026-10-18"
+    },
+    {
+      "formId": "ordin-22650553",
+      "sha256": "c1f154cfd97be83877a13f41d0fa7449ba9f6e3502e77c4c9363d522379641fc",
+      "disposition": "non_applicant",
+      "reason": "묶음 1호는 도의 예산 통보, 2호는 공급센터의 납품 물량·대금 보조금 청구, 3호는 보조금 정산서다. 사이트 상주 유치원 친환경급식의 실제 신청은 유치원→교육청→시 공문이며 공급센터 납품청구와 다르다. 기관 신청이라는 이유만으로 승인하지 않고 실제 기관·목적을 대조했다.",
+      "fullBodyReviewed": true,
+      "reviewedProgramPairs": [
+        {
+          "programId": "g47250.gov24-511000000124",
+          "programName": "친환경 농산물 유치원 급식 지원",
+          "disposition": "not_applicable",
+          "reason": "원본 신청 주체·목적과 이 사업의 지원 범위를 대조했으며 이 연결은 승인하지 않음."
+        }
+      ],
+      "sourceEvidence": {
+        "lawId": "1618295",
+        "lawTitle": "경상북도 친환경 학교급식 지원조례 시행규칙",
+        "annexId": "22650553",
+        "flSeq": "169463953",
+        "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=169463953&flNm=%EB%B3%84%EC%A7%80+%EC%A0%9C1%ED%98%B8+%EC%84%9C%EC%8B%9D+~%EB%B3%84%EC%A7%80+%EC%A0%9C3%ED%98%B8+%EC%84%9C%EC%8B%9D",
+        "publicLawUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=1618295",
+        "exactSourceBinding": true,
+        "lawTextRead": true,
+        "articleNumbers": [
+          "제2조",
+          "제3조"
+        ],
+        "articleTexts": [
+          "제2조(지원신청 및 지원체계)① 도지사는 예산이 확정되면 별지 제1호 서식에 의거 교육감 및 시장ㆍ군수에게 통보하여야 한다.② 시장ㆍ군수는 조례 제3조에 의한 종합계획을 바탕으로 친환경 학교급식지원심의위원회를 거쳐 지원계획을 확정하고 그 내용을 시ㆍ군 교육지원청 및 지원대상자에게 통지하여야 한다.③ 친환경 학교급식 보조금을 지원받고자 하는 자는 조례 제6조 제3항에 의하여 별지 제2호 서식에 의한 신청서를 익월 10일까지 시장ㆍ군수 및 학교장에게 제출하여야 한다.④ 시장ㆍ군수 및 학교장은 특별한 사유가 없는 한 보조금을 익월 20일까지 지원대상자에게 교부하여야 한다.",
+          "제3조(지원금 사용내역 제출 및 정산)① 지원대상자는 조례 제7조제3항의 규정에 따른 보조금 사용내역을 회계연도 종료 후 15일 이내 별지 제3호 서식에 따라 시장ㆍ군수에게 제출하여야 한다.② 시장ㆍ군수는 회계연도 종료 후 20일 이내에 「경상북도 보조금 관리 조례」에 따라 정산서를 작성하여 도지사에게 제출하여야 하며 정산결과 반납금액이 있을 경우 출납폐쇄기한 이전에 반납 조치하여야 한다."
+        ],
+        "originalBytes": 23040,
+        "bodyTextSha256": "b1268071d2dbc6d178438daddf0bc325565b71dc25f597ce0cb98ef59d6b1aaa",
+        "textLength": 842,
+        "textScope": "all_body_sections_or_pages",
+        "sectionsRead": [
+          "BodyText/Section0"
+        ]
+      },
+      "checkedAt": "2026-10-18",
+      "sameJurisdictionSearch": "경북 전체 친환경·학교급식 사업을 조회해 g47250.gov24-511000000124를 확인했으며 공급센터 대금청구를 신청 절차로 둔 사업은 찾지 못함"
+    },
+    {
+      "formId": "ordin-21445543",
+      "sha256": "32229b0377f36d9410170019f92184fbeb8185560b5ad6b3ea29bb2d26c1221d",
+      "disposition": "approved",
+      "reason": "별지 1호는 일용·특수고용·사업소득 노동자의 입원·검진 생계비 신청 및 동의·부정수급 확약, 2호는 대리신청 위임장이다. 제6조가 본인 또는 부득이한 사유의 수임인 신청과 이 두 별지를 명시하며 사이트 유급병가 지급과 일치한다.",
+      "fullBodyReviewed": true,
+      "reviewedProgramPairs": [
+        {
+          "programId": "g41390.bokjiro-WLF00004964",
+          "programName": "시흥시 노동취약계층 유급병가 지원사업",
+          "disposition": "approved",
+          "reason": "별지 1호는 일용·특수고용·사업소득 노동자의 입원·검진 생계비 신청 및 동의·부정수급 확약, 2호는 대리신청 위임장이다. 제6조가 본인 또는 부득이한 사유의 수임인 신청과 이 두 별지를 명시하며 사이트 유급병가 지급과 일치한다."
+        }
+      ],
+      "sourceEvidence": {
+        "lawId": "1620657",
+        "lawTitle": "시흥시 노동취약계층 유급병가 지원에 관한 조례",
+        "annexId": "21445543",
+        "flSeq": "160996061",
+        "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=160996061&flNm=%EB%B3%84%EC%A7%80+%EC%84%9C%EC%8B%9D",
+        "publicLawUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=1620657",
+        "exactSourceBinding": true,
+        "lawTextRead": true,
+        "articleNumbers": [
+          "제6조"
+        ],
+        "articleTexts": [
+          "제6조(지원신청 및 지원결정)① 제5조에 따른 지원이 필요한 사람은 본인이 시장에게 유급병가지원 신청(이하 “신청”이라 한다)을 해야 한다. 다만, 부득이한 사유로 본인이 신청할 수 없는 경우에는 신청을 위임받은 사람(이하 “대리인”이라 한다)이 신청할 수 있다.② 본인 또는 대리인(이하 “신청인”이라 한다)이 신청하는 경우에는 다음 각 호의 서류를 제출해야 한다. 다만, 신청인이 「전자정부법」 제36조제1항에 따른 행정정보의 공동이용에 동의하는 경우에는 제2호부터 제5호까지의 서류 제출을 아니 할 수 있다.1. 유급병가지원 신청서(별지 제1호서식)2. 주민등록표 등본 또는 초본3. 건강보험자격득실확인서 및 건강검진결과통보서4. 고용보험일용근로내역서5. 사업자등록증6. 입원·퇴원확인서7. 위임장(별지 제2호서식). 이 경우 제1항 단서에 따른 경우에 한정한다.8. 그 밖에 지원대상자의 결정에 필요한 서류③ 시장은 제1항에 따른 신청을 받은 경우 지원 대상 여부를 결정하여 신청인에게 선정결과를 지체 없이 통지해야 한다."
+        ],
+        "originalBytes": 18944,
+        "bodyTextSha256": "807259a41f32d2ff2fc84cad21a8d99f4c02048e80de50b57b1a4188f645fd9e",
+        "textLength": 2061,
+        "textScope": "all_body_sections_or_pages",
+        "sectionsRead": [
+          "BodyText/Section0"
+        ]
+      },
+      "checkedAt": "2026-10-18"
+    },
+    {
+      "formId": "ordin-20628447",
+      "sha256": "e4732056b953612ad8329d6c272d6123e9c182acb74e80add2946faba9d5a956",
+      "disposition": "approved",
+      "reason": "체육시설명·기간·감면종류·사유 및 수급·장애·보훈 등 증빙 확인을 담은 감면신청서다. 후보로 제시된 상수도 2사업은 잘못된 연결이므로 배제하고 같은 보령시 시설공단 체육시설 감면 사업을 확인했다. 제5조가 서면 제출을 지정하지만 사이트는 별도 개인 신청 없이 증빙 제시라고 설명하므로 서면 요구 시 조건부로 한정한다.",
+      "fullBodyReviewed": true,
+      "reviewedProgramPairs": [
+        {
+          "programId": "g44180.gov24-O00032100005",
+          "programName": "체육시설 이용요금 감면",
+          "disposition": "approved",
+          "reason": "체육시설명·기간·감면종류·사유 및 수급·장애·보훈 등 증빙 확인을 담은 감면신청서다. 후보로 제시된 상수도 2사업은 잘못된 연결이므로 배제하고 같은 보령시 시설공단 체육시설 감면 사업을 확인했다. 제5조가 서면 제출을 지정하지만 사이트는 별도 개인 신청 없이 증빙 제시라고 설명하므로 서면 요구 시 조건부로 한정한다."
+        },
+        {
+          "programId": "g44180.gov24-451000000153",
+          "programName": "국가유공자 상수도 사용료 감면",
+          "disposition": "not_applicable",
+          "reason": "상수도 사용료 감면은 체육시설 사용·이용료와 다른 요금이므로 연결 배제"
+        },
+        {
+          "programId": "g44180.gov24-451000000151",
+          "programName": "수급자 상수도 사용료 감면",
+          "disposition": "not_applicable",
+          "reason": "상수도 사용료 감면은 체육시설 사용·이용료와 다른 요금이므로 연결 배제"
+        }
+      ],
+      "sourceEvidence": {
+        "lawId": "1623367",
+        "lawTitle": "보령시 체육시설 관리 및 운영 조례 시행규칙",
+        "annexId": "20628447",
+        "flSeq": "154692517",
+        "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=154692517&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C11%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EC%82%AC%EC%9A%A9%EB%A3%8C%28%EC%9D%B4%EC%9A%A9%EB%A3%8C%29+%EA%B0%90%EB%A9%B4+%EC%8B%A0%EC%B2%AD%EC%84%9C",
+        "publicLawUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=1623367",
+        "exactSourceBinding": true,
+        "lawTextRead": true,
+        "articleNumbers": [
+          "제5조"
+        ],
+        "articleTexts": [
+          "제5조(사용료 등의 감면)① 조례 제13조에 따라 체육시설 사용료 등을 감면 받으려는 자는 별지 제11호서식에 따른 사용료(이용료) 감면 신청서를 시장에게 제출해야 한다. <개정 2021.8.30.>② 사용료 등을 감면받고자 할 경우에는 이에 해당하는 증빙서류 또는 신분증을 제시하여야한다."
+        ],
+        "originalBytes": 47616,
+        "bodyTextSha256": "0d3bb80e8bd8135d1e3e30aeffa2b429835ed1eeb224eba2e99d76ac4791756e",
+        "textLength": 577,
+        "textScope": "all_body_sections_or_pages",
+        "sectionsRead": [
+          "BodyText/Section0"
+        ]
+      },
+      "checkedAt": "2026-10-18",
+      "sameJurisdictionSearch": "보령시 전체 체육·시설·이용료 사업에서 g44180.gov24-O00032100005 확인"
+    },
+    {
+      "formId": "ordin-11692327",
+      "sha256": "4372700f7ee0ce88b2ee9f3157d531e68b8b9f2fcd8aee2a06d7e4118c59783e",
+      "disposition": "approved",
+      "reason": "기존 가맹점의 소재지·대표자 등 등록사항 변경신청서다. 사이트는 소비자 할인뿐 아니라 가맹점 매출·수수료 절감 혜택도 명시하므로 가맹점의 해당 후속 절차에만 조건부 연결한다.",
+      "fullBodyReviewed": true,
+      "reviewedProgramPairs": [
+        {
+          "programId": "g12170.gov24-483000000108",
+          "programName": "지역상품권(나주사랑상품권)",
+          "disposition": "approved",
+          "reason": "기존 가맹점의 소재지·대표자 등 등록사항 변경신청서다. 사이트는 소비자 할인뿐 아니라 가맹점 매출·수수료 절감 혜택도 명시하므로 가맹점의 해당 후속 절차에만 조건부 연결한다."
+        }
+      ],
+      "sourceEvidence": {
+        "lawId": "1623631",
+        "lawTitle": "나주사랑상품권 관리 및 운영 조례 시행규칙",
+        "annexId": "11692327",
+        "flSeq": "107189949",
+        "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=107189949&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C4%ED%98%B8+%EC%84%9C%EC%8B%9D%5D%EB%82%98%EC%A3%BC%EC%82%AC%EB%9E%91%EC%83%81%ED%92%88%EA%B6%8C+%EA%B0%80%EB%A7%B9%EC%A0%90+%EB%93%B1%EB%A1%9D+%EB%B3%80%EA%B2%BD+%EC%8B%A0%EC%B2%AD%EC%84%9C",
+        "publicLawUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=1623631",
+        "exactSourceBinding": true,
+        "lawTextRead": true,
+        "articleNumbers": [
+          "제3조"
+        ],
+        "articleTexts": [
+          "제3조(가맹점 등록 및 관리) ① 조례 제8조제1항에 따라 가맹점으로 등록하고자 하는 자는 가맹점 등록 신청서를 소재지 읍ㆍ면ㆍ동 행정복지센터에 제출하여야 한다. 다만, 조례 제8조제2항제3호에 따른 노점상은 소속 상인회를 통하여 가맹점 등록 신청을 할 수 있다.② 시장은 등록된 가맹점에 대하여 별지 제3호 서식의 상품권 가맹점 등록서를 발급하여야 하고 가맹점으로 등록된 업소는 가맹점 준수사항을 성실히 이행하여야 한다.③ 조례 제11조제5항에 따라 가맹점의 소재지, 대표자 등을 변경하고자 하는 자는 별지 제4호 서식의 변경신청서에 변경사실을 증명하는 서류를 첨부하여 나주시장(이하 “시장”이라 한다)에게 제출하여야 하고, 상품권 가맹점 등록을 철회하고자 하는 자는 별지 제5호 서식의 등록 철회 신청서를 시장에게 제출하여야 한다."
+        ],
+        "originalBytes": 13824,
+        "bodyTextSha256": "ae4a5e8c51177b3c7635393f1f95b19023d9256b2da682949654c200a3c51906",
+        "textLength": 390,
+        "textScope": "all_body_sections_or_pages",
+        "sectionsRead": [
+          "BodyText/Section0"
+        ]
+      },
+      "checkedAt": "2026-10-18"
+    },
+    {
+      "formId": "ordin-11692329",
+      "sha256": "f8ded6aecb23c665ced894705a979f194c7935f655fa9639e143c7ad1436cf8b",
+      "disposition": "approved",
+      "reason": "기존 가맹점의 등록 철회 신청서다. 사이트는 소비자 할인뿐 아니라 가맹점 매출·수수료 절감 혜택도 명시하므로 가맹점의 해당 후속 절차에만 조건부 연결한다.",
+      "fullBodyReviewed": true,
+      "reviewedProgramPairs": [
+        {
+          "programId": "g12170.gov24-483000000108",
+          "programName": "지역상품권(나주사랑상품권)",
+          "disposition": "approved",
+          "reason": "기존 가맹점의 등록 철회 신청서다. 사이트는 소비자 할인뿐 아니라 가맹점 매출·수수료 절감 혜택도 명시하므로 가맹점의 해당 후속 절차에만 조건부 연결한다."
+        }
+      ],
+      "sourceEvidence": {
+        "lawId": "1623631",
+        "lawTitle": "나주사랑상품권 관리 및 운영 조례 시행규칙",
+        "annexId": "11692329",
+        "flSeq": "107189951",
+        "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=107189951&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C5%ED%98%B8+%EC%84%9C%EC%8B%9D%5D%EB%82%98%EC%A3%BC%EC%82%AC%EB%9E%91%EC%83%81%ED%92%88%EA%B6%8C+%EA%B0%80%EB%A7%B9%EC%A0%90+%EB%93%B1%EB%A1%9D+%EC%B2%A0%ED%9A%8C+%EC%8B%A0%EC%B2%AD%EC%84%9C",
+        "publicLawUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=1623631",
+        "exactSourceBinding": true,
+        "lawTextRead": true,
+        "articleNumbers": [
+          "제3조"
+        ],
+        "articleTexts": [
+          "제3조(가맹점 등록 및 관리) ① 조례 제8조제1항에 따라 가맹점으로 등록하고자 하는 자는 가맹점 등록 신청서를 소재지 읍ㆍ면ㆍ동 행정복지센터에 제출하여야 한다. 다만, 조례 제8조제2항제3호에 따른 노점상은 소속 상인회를 통하여 가맹점 등록 신청을 할 수 있다.② 시장은 등록된 가맹점에 대하여 별지 제3호 서식의 상품권 가맹점 등록서를 발급하여야 하고 가맹점으로 등록된 업소는 가맹점 준수사항을 성실히 이행하여야 한다.③ 조례 제11조제5항에 따라 가맹점의 소재지, 대표자 등을 변경하고자 하는 자는 별지 제4호 서식의 변경신청서에 변경사실을 증명하는 서류를 첨부하여 나주시장(이하 “시장”이라 한다)에게 제출하여야 하고, 상품권 가맹점 등록을 철회하고자 하는 자는 별지 제5호 서식의 등록 철회 신청서를 시장에게 제출하여야 한다."
+        ],
+        "originalBytes": 12800,
+        "bodyTextSha256": "3811e053808092854206a2f686e9e159c4d162956b3f4dc809622897a919f22b",
+        "textLength": 299,
+        "textScope": "all_body_sections_or_pages",
+        "sectionsRead": [
+          "BodyText/Section0"
+        ]
+      },
+      "checkedAt": "2026-10-18"
+    },
+    {
+      "formId": "ordin-11692331",
+      "sha256": "02c3ed352a3fa4b6bc674b95b4c63220d56130ed8b3490e4205fdebc271d8fe3",
+      "disposition": "approved",
+      "reason": "가맹점이 수취한 상품권의 종류·매수·대금과 은행계좌를 적는 환전청구서다. 사이트는 소비자 할인뿐 아니라 가맹점 매출·수수료 절감 혜택도 명시하므로 가맹점의 해당 후속 절차에만 조건부 연결한다.",
+      "fullBodyReviewed": true,
+      "reviewedProgramPairs": [
+        {
+          "programId": "g12170.gov24-483000000108",
+          "programName": "지역상품권(나주사랑상품권)",
+          "disposition": "approved",
+          "reason": "가맹점이 수취한 상품권의 종류·매수·대금과 은행계좌를 적는 환전청구서다. 사이트는 소비자 할인뿐 아니라 가맹점 매출·수수료 절감 혜택도 명시하므로 가맹점의 해당 후속 절차에만 조건부 연결한다."
+        }
+      ],
+      "sourceEvidence": {
+        "lawId": "1623631",
+        "lawTitle": "나주사랑상품권 관리 및 운영 조례 시행규칙",
+        "annexId": "11692331",
+        "flSeq": "107189953",
+        "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=107189953&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C6%ED%98%B8+%EC%84%9C%EC%8B%9D%5D%EB%82%98%EC%A3%BC%EC%82%AC%EB%9E%91%EC%83%81%ED%92%88%EA%B6%8C+%ED%99%98%EC%A0%84+%EC%B2%AD%EA%B5%AC%EC%84%9C",
+        "publicLawUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=1623631",
+        "exactSourceBinding": true,
+        "lawTextRead": true,
+        "articleNumbers": [
+          "제6조"
+        ],
+        "articleTexts": [
+          "제6조(환전청구 및 환전기한) 가맹점은 조례 제13조제1항에 따라 상품권을 환전하고자 할 때에는 별지 제6호 서식의 상품권 환전 청구서를 작성하여 판매대행점에 청구한다."
+        ],
+        "originalBytes": 14848,
+        "bodyTextSha256": "5c67fd4a914b4285cc732f273b0d9b421c2684c7ecf17d74ac9c7c0cdfae5efb",
+        "textLength": 437,
+        "textScope": "all_body_sections_or_pages",
+        "sectionsRead": [
+          "BodyText/Section0"
+        ]
+      },
+      "checkedAt": "2026-10-18"
+    },
+    {
+      "formId": "ordin-22782225",
+      "sha256": "ca9438f831ce23109c0a2aadf15a2de91104bde336a9ee201e9970bd47a3efc1",
+      "disposition": "non_applicant",
+      "reason": "슈퍼·담배가게·편의점 등 사업자가 규격봉투 판매소 지정을 받는 서식이다. 수급자 가구에 봉투를 지급하는 두 사이트 사업은 신청 불필요이며 판매소 영업신청은 별도 주체·목적이다.",
+      "fullBodyReviewed": true,
+      "reviewedProgramPairs": [
+        {
+          "programId": "g28177.bokjiro-WLF00002331",
+          "programName": "국민기초생활보장수급자 쓰레기봉투 및 음식물쓰레기봉투 지원",
+          "disposition": "not_applicable",
+          "reason": "원본 신청 주체·목적과 이 사업의 지원 범위를 대조했으며 이 연결은 승인하지 않음."
+        },
+        {
+          "programId": "g28177.gov24-351050000106",
+          "programName": "쓰레기봉투 지원",
+          "disposition": "not_applicable",
+          "reason": "원본 신청 주체·목적과 이 사업의 지원 범위를 대조했으며 이 연결은 승인하지 않음."
+        }
+      ],
+      "sourceEvidence": {
+        "lawId": "1623783",
+        "lawTitle": "인천광역시 미추홀구 폐기물 관리에 관한 조례 시행규칙",
+        "annexId": "22782225",
+        "flSeq": "170067723",
+        "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=170067723&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C1%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%ED%8C%90%EB%A7%A4%EC%86%8C+%EC%A7%80%EC%A0%95%EC%8B%A0%EC%B2%AD%EC%84%9C",
+        "publicLawUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=1623783",
+        "exactSourceBinding": true,
+        "lawTextRead": true,
+        "articleNumbers": [
+          "제3조",
+          "제10조"
+        ],
+        "articleTexts": [
+          "제3조(종량제 규격봉투 및 대형폐기물스티커 판매소 지정)①조례 제12조와 관련하여 종량제 규격봉투 및 대형폐기물스티커 판매소(이하 \"판매소\"라 한다)를 개설하고자 하는 자는 별지 제1호서식에 따라 판매소지정신청서를 인천광역시 미추홀구청장(이하 “구청장”이라 한다)에게 제출하여야 한다. <개정 2001.3.22, 2017.8.7, 2021.9.6.>②구청장은 제1항에 따라 주민편의와 지역여건 등을 고려한 후, 별지 제2호서식에 따라 판매소지정서를 교부한다. <개정 2017.8.7, 2021.9.6.>③대형폐기물스티커 판매소의 신규지정은 기존 봉투판매소 중에서 동별 5~10개소 내외로 지정 운영하여야 한다. 다만, 동 여건을 고려하여 확대 지정이 필요하다고 구청장이 인정하는 경우에는 그러하지 아니하다.<개정 2021.9.6.>",
+          "제10조(수수료의 감면)①조례 제15조제1항제2호의 사회복지시설은 다음 각 호의 시설에 한한다. <개정 2017.8.7>1. 향진원2. 해성보육원3. 인천보육원②조례 제15조제1항제4호의 구청장이 정하는 자는 다음 각 호의 자에 한정한다. <개정 2017.8.7, 2021.9.6.>1. 대한상이군경회 다만, 인천광역시 미추홀구지회회원에 한정함.<개정 2021.9.6.>2. 대한무공수훈회 다만, 인천광역시 미추홀구지회회원에 한정함.<개정 2021.9.6.>3. 전몰군경유족회 다만, 인천광역시 미추홀구지회회원에 한정함. <신설 2001.8.11>,<개정 2021.9.6.>4. 전몰군경미망인회 다만, 인천광역시 미추홀구지회지원에 한정함.<신설 2001.8.11>,<개정 2021.9.6.>5. 고엽제후유의증전우회 다만, 인천광역시 미추홀구지회 회원에 한정함. <신설 2006.3.8>,<개정 2021.9.6.>6. 6ㆍ25참전유공자회 다만, 인천광역시 미추홀구지회 회원중 저소득층에 한정함. <신설 2006.3.8>,<개정 2021.9.6.>"
+        ],
+        "originalBytes": 49078,
+        "bodyTextSha256": "bead643fcc8bd719fb15486d3bc39e4e8f2611c48d4d0e78353e66ddcd80cda3",
+        "textLength": 592,
+        "textScope": "all_body_sections_or_pages",
+        "sectionsRead": [
+          "Contents/section0.xml"
+        ]
+      },
+      "checkedAt": "2026-10-18"
+    },
+    {
+      "formId": "ordin-20063251",
+      "sha256": "08a24f9400936d99ac09a7b591b49d4da56e43d781b0db595305516b92b9163a",
+      "disposition": "approved",
+      "reason": "12개 별지 전체를 읽었다. 5호 장학금 신청서는 학생 또는 보호자가 가족·소득·재산·성적을 적어 읍면동에 내며 제10조 및 저소득주민자녀 장학금 사업과 일치한다. 6호 읍면동장 추천, 7호 발급증서, 1~4·8~12호 기금대여·관리·변경 서류는 이 장학금 연결에서 제외한다. 여수 전체 기금·융자·자활 목록에는 해당 별도 기금대여 사업이 없다.",
+      "fullBodyReviewed": true,
+      "reviewedProgramPairs": [
+        {
+          "programId": "g12130.gov24-481000000116",
+          "programName": "저소득주민자녀 장학금 지원",
+          "disposition": "approved",
+          "reason": "12개 별지 전체를 읽었다. 5호 장학금 신청서는 학생 또는 보호자가 가족·소득·재산·성적을 적어 읍면동에 내며 제10조 및 저소득주민자녀 장학금 사업과 일치한다. 6호 읍면동장 추천, 7호 발급증서, 1~4·8~12호 기금대여·관리·변경 서류는 이 장학금 연결에서 제외한다. 여수 전체 기금·융자·자활 목록에는 해당 별도 기금대여 사업이 없다."
+        }
+      ],
+      "sourceEvidence": {
+        "lawId": "1624569",
+        "lawTitle": "여수시 사회복지기금설치 및 운용 조례 시행규칙",
+        "annexId": "20063251",
+        "flSeq": "152345413",
+        "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=152345413&flNm=%EC%82%AC%ED%9A%8C%EB%B3%B5%EC%A7%80%EA%B8%B0%EA%B8%88%28%EA%B8%B0%EC%B4%88%EC%83%9D%ED%99%9C%EB%B3%B4%EC%9E%A5%EC%82%AC%EC%97%85%29+%EB%8C%80%EC%97%AC%EC%8B%A0%EC%B2%AD%EC%84%9C+%EC%99%B8",
+        "publicLawUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=1624569",
+        "exactSourceBinding": true,
+        "lawTextRead": true,
+        "articleNumbers": [
+          "제10조"
+        ],
+        "articleTexts": [
+          "제10조(장학생 추천)① 장학금을 지원받고자 하는 자 또는 그 보호자는 다음 각 호의 서류를 읍·면·동장에게 제출하여야 한다.1. 장학금 신청서(별제 제5호 서식)2. 학생의 성적 또는 특기를 증명하는 서류(학교장 또는 관계기관장 발행) 1통② 제1항의 장학금 신청서를 접수한 읍·면·동장은 신청서 내용 및 자격 유무를 조사·확인하여 추천서(별지 제6호 서식)를 시장에게 송부한다."
+        ],
+        "originalBytes": 23040,
+        "bodyTextSha256": "52c2f9e03a2219dfb0877263e5d226d25c21f03e551d78a5a1c2472c09ffb2ff",
+        "textLength": 4346,
+        "textScope": "all_body_sections_or_pages",
+        "sectionsRead": [
+          "BodyText/Section0"
+        ]
+      },
+      "checkedAt": "2026-10-18",
+      "sameJurisdictionSearch": "여수시 전체 기금·융자·자활·생활안정·장학 사업 재조회: 장학금 외 본 묶음의 기금대여 사업은 없음"
+    },
+    {
+      "formId": "ordin-21422053",
+      "sha256": "3dd24a2ec161a9e767c9d2e5ecc868e1ac69b71f8a75fbb4384dbd71d6a6f22e",
+      "disposition": "approved",
+      "reason": "입양축하금과 입학준비금을 선택하는 공통 신청서로 입학통지서·입양확인서·가족관계·계좌 제출란을 확인했다. 사이트 사업은 입학지원금만이므로 입학준비금 항목에 한정한다.",
+      "fullBodyReviewed": true,
+      "reviewedProgramPairs": [
+        {
+          "programId": "g27290.bokjiro-WLF00004790",
+          "programName": "대구광역시 달서구 입양아동 입학지원금 지급",
+          "disposition": "approved",
+          "reason": "입양축하금과 입학준비금을 선택하는 공통 신청서로 입학통지서·입양확인서·가족관계·계좌 제출란을 확인했다. 사이트 사업은 입학지원금만이므로 입학준비금 항목에 한정한다."
+        }
+      ],
+      "sourceEvidence": {
+        "lawId": "1626059",
+        "lawTitle": "대구광역시달서구 입양가정 지원 조례",
+        "annexId": "21422053",
+        "flSeq": "160891215",
+        "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=160891215&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C1%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EC%9E%85%EC%96%91%EC%A7%80%EC%9B%90%EA%B8%88%EC%8B%A0%EC%B2%AD%EC%84%9C",
+        "publicLawUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=1626059",
+        "exactSourceBinding": true,
+        "lawTextRead": true,
+        "articleNumbers": [
+          "제6조"
+        ],
+        "articleTexts": [
+          "제6조(지원 신청)① 제4조에 따른 지원금을 신청하려는 사람(이하 “신청인”이라 한다)은 입양축하금은 입양신고일 이후 1년 이내에, 입학준비금은 입양아동의 초·중·고등학교 입학일 이후 1개월 이내에 별지 제1호서식의 입양지원금 신청서(이하 “신청서”라 한다)를 구청장에게 제출하여야 한다.② 제1항에 따라 지원금을 신청할 때 구비해야 하는 서류는 다음 각 호와 같다.1. 별지 제1호서식의 신청서2. 입양기관의 장이 발급한 입양사실 확인서3. 가족관계증명서4. 입양아동이 장애아동임을 증명하는 서류(장애아동을 입양한 가정에만 해당한다)5. 입양아동의 초·중·고등학교 입학통지서 또는 입학을 확인할 수 있는 서류(입학준비금을 신청하는 경우에만 해당한다)6. 신청인의 예금통장 사본"
+        ],
+        "originalBytes": 17408,
+        "bodyTextSha256": "ad8f84bff13d59d19ea83a6d530cbb802b154092191ad84e8a22d20e55dbd61d",
+        "textLength": 1084,
+        "textScope": "all_body_sections_or_pages",
+        "sectionsRead": [
+          "BodyText/Section0"
+        ]
+      },
+      "checkedAt": "2026-10-18"
+    }
+  ]
+}

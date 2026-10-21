@@ -1,0 +1,6 @@
+# Government originals are opaque download artifacts. Preserve CP949, line
+# endings and alignment spaces; Git must not merge or normalize their contents.
+pipeline/forms/originals/** binary
+pipeline/forms/previews/** binary
+pipeline/forms/source-archives/** binary
+public/forms/files/** binary

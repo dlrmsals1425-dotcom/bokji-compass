@@ -1,26 +1,26 @@
 /*
- * 복지나침반 — 공공 서비스형 디자인 2차 (KRDS 색상 토큰 · 정부24/복지로식 구조)
- * - 색: KRDS primary(정부 파랑) + secondary(차분한 남색) + 회색 단계. point(적색)는 쓰지 않음.
- * - 구조: 옅은 파랑 머리 띠, 대상별 바로가기 아이콘, 흰/회색 번갈아 쓰는 구역, 가는 테두리 카드(카드 안 카드 없음).
- * - 이모지 아이콘·알약 배지 남발 없음. 지원형태만 작은 테두리 라벨로.
+ * 복지나침반 — 짙은 녹색 글자와 라임 강조, 넓은 선택 영역.
+ * 페이지별 배치는 CSS Modules로 관리하고 공통 색·글자 크기·접근성은 여기서 유지한다.
  * - 크기는 rem — html[data-large] 에서 전체 125%.
  */
 :root {
-  --ink: #1e2124; --ink-2: #464c53; --muted: #5d6670; --line: #cdd1d5; --line-2: #e3e6ea; --hair: #eef0f2;
-  --surface: #f4f5f6; --surface-2: #f8f9fa;
-  --primary: #256ef4; --primary-60: #0b50d0; --primary-70: #083891; --primary-80: #052561;
-  --primary-5: #ecf2fe; --primary-10: #d8e5fd; --primary-20: #b1cefb;
+  --ink: #183b25; --ink-2: #3b5042; --muted: #56634f; --line: #a9b7a5; --line-2: #dbe2d7; --hair: #edf0e8;
+  --paper: #fbfcf8; --surface: #f0f3ea; --surface-2: #f6f8f1;
+  --primary: #28553a; --primary-60: #234a32; --primary-70: #1b3b28; --primary-80: #152e20;
+  --primary-5: #f1f7e5; --primary-10: #e6f1cf; --primary-20: #c6dba8;
+  --accent: #c7ed68; --accent-hover: #b7df53; --accent-ink: #183b25;
   --secondary: #346fb2; --secondary-5: #eef3f9; --secondary-10: #dbe6f2; --secondary-70: #1f4573;
   --warm-5: #fff6e8; --warm-60: #8a5300;
-  --focus: #ffb114; --error: #de3412; --success: #228738;
+  --focus: #1d653c; --error: #bf2c14; --success: #228738;
   --radius: 0.75rem; --radius-sm: 0.5rem;
   --shadow: 0 1px 2px rgba(30, 33, 36, 0.04), 0 2px 8px rgba(30, 33, 36, 0.04);
   --font: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "맑은 고딕", system-ui, sans-serif;
+  --font-editorial: Georgia, "Batang", "바탕", serif;
 }
 html { font-size: 100%; -webkit-text-size-adjust: 100%; }
 html[data-large="1"] { font-size: 125%; }
 * { box-sizing: border-box; }
-body { margin: 0; font-family: var(--font); color: var(--ink); background: #fff; font-size: 1.0625rem; line-height: 1.7; letter-spacing: -0.01em; word-break: keep-all; overflow-wrap: anywhere; -webkit-font-smoothing: antialiased; }
+body { margin: 0; font-family: var(--font); color: var(--ink); background: var(--paper); font-size: 1.0625rem; line-height: 1.7; letter-spacing: -0.01em; word-break: keep-all; overflow-wrap: anywhere; -webkit-font-smoothing: antialiased; }
 a { color: var(--primary-60); text-underline-offset: 0.2em; text-decoration-thickness: 1px; }
 a:hover { color: var(--primary-70); text-decoration-thickness: 2px; }
 img, svg { display: block; }
@@ -71,7 +71,7 @@ p { margin: 0; }
 .site-header .wrap { display: flex; align-items: center; gap: 2rem; min-height: 4.5rem; }
 .logo { display: inline-flex; align-items: center; gap: 0.625rem; color: var(--ink) !important; text-decoration: none; font-weight: 800; font-size: 1.25rem; letter-spacing: -0.03em; }
 .logo-img { display: block; height: 2rem; width: auto; aspect-ratio: 916 / 212; }
-.logo-symbol { display: block; height: 1.75rem; width: auto; aspect-ratio: 710 / 650; flex: none; }
+.logo-symbol { display: block; height: 1.6875rem; width: 1.6875rem; aspect-ratio: 1; flex: none; }
 .header-nav { display: flex; gap: 0.25rem; font-size: 1.0625rem; font-weight: 700; }
 .header-nav a { color: var(--ink); text-decoration: none; padding: 1.4rem 0.875rem 1.2rem; border-bottom: 0.1875rem solid transparent; }
 .header-nav a:hover { color: var(--primary-60); }

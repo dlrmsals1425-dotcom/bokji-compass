@@ -1,0 +1,109 @@
+{
+  "schema": 1,
+  "checkedAt": "2026-10-20",
+  "status": "complete",
+  "items": [
+    {
+      "formId": "agency-41280-a881d8eb-2c45-4110-b4e2-6731130f8922",
+      "sha256": "74e7b23b6546d703dbcb5e56c0edda93d23fceea0ff4a8f79027c4a78ec559b0",
+      "disposition": "approved",
+      "fullBodyReviewed": true,
+      "reason": "2026-03-03 고양시 행신2동 공식 배포 게시물은 정확 신청서 다운로드와40만원·2026.3.9~12.11 접수·대안교육기관/타시도1학년·입전학일 고양 거주를 함께 안내한다. 현재 복지로WLF00002809의 대상·40만원·고양 동센터/경기민원24 신청과 일치한다. 실제90112바이트 HWP 전체1개 본문섹션3244자를 읽어 빈 신청/개인정보동의/영수증첨부와 뒤쪽 명시된 작성사례를 구분했다. 내장그림은 없고 사례의 이름·전화·계좌는 서식 작성방법을 보여주는 명확한 가상값이다. 다른 신청인의 완성된 제출문서가 아니다.",
+      "evidenceUrl": "https://www.goyang.go.kr/dong/user/bbs/BD_selectBbs.do?q_bbsCode=1071&q_bbscttSn=20260303112725340&q_clCode=12&q_pClCode=",
+      "checkedAt": "2026-10-20",
+      "relatedProgramIds": [
+        "g41280.bokjiro-WLF00002809"
+      ],
+      "reviewedProgramPairs": [
+        {
+          "programId": "g41280.bokjiro-WLF00002809",
+          "disposition": "approved"
+        }
+      ],
+      "sourceProposal": "logs/forms-completion/gyeonggi-20261019/root/normalized-round8011.json",
+      "sourceProposalSHA256": "fc260ff58a84342ab0683d08e21cbf31533677178f4e7146df93034f249cd2ff",
+      "sourceLawBodySHA256": null,
+      "sourcePageSHA256": "37367ebfafadc1a5de1a81b21a64ca868548c5fd089b7cd06ad0c722552733d8",
+      "authorityBasis": {
+        "kind": "official-program",
+        "title": "2026년 경기도·고양시 대안교육기관 등 학생 교복 지원 신청서 공식 배포 안내",
+        "evidenceUrl": "https://www.goyang.go.kr/dong/user/bbs/BD_selectBbs.do?q_bbsCode=1071&q_bbscttSn=20260303112725340&q_clCode=12&q_pClCode=",
+        "checkedAt": "2026-10-20",
+        "evidenceNote": "2026-03-03 고양시 행신2동 공식 배포 게시물은 정확 신청서 다운로드와40만원·2026.3.9~12.11 접수·대안교육기관/타시도1학년·입전학일 고양 거주를 함께 안내한다. 현재 복지로WLF00002809의 대상·40만원·고양 동센터/경기민원24 신청과 일치한다. 실제90112바이트 HWP 전체1개 본문섹션3244자를 읽어 빈 신청/개인정보동의/영수증첨부와 뒤쪽 명시된 작성사례를 구분했다. 내장그림은 없고 사례의 이름·전화·계좌는 서식 작성방법을 보여주는 명확한 가상값이다. 다른 신청인의 완성된 제출문서가 아니다.",
+        "pageSHA256": "37367ebfafadc1a5de1a81b21a64ca868548c5fd089b7cd06ad0c722552733d8"
+      },
+      "selectedParts": [
+        {
+          "number": "무번호 신청서(앞부분)",
+          "title": "경기도·고양시 대안교육기관 등 학생 교복 지원 신청서 및 개인정보 동의",
+          "use": "main",
+          "author": "신청인(부모·보호자; 보호자가 없으면 안내문상 학생)"
+        },
+        {
+          "number": "무번호 첨부란",
+          "title": "구입 영수증 및 구입내역서",
+          "use": "additional",
+          "author": "신청인"
+        }
+      ]
+    },
+    {
+      "formId": "agency-41820-96924",
+      "sha256": "6c1f38f578cd68ea7953a4fba3c3bc1bb1b1857383287a9fd8b2e968a36f850b",
+      "disposition": "approved",
+      "fullBodyReviewed": true,
+      "reason": "가평군 상면 공식2026-10-13 게시물289812가 이 HWPX 첨부96924와 공고96925/FAQ96926을 직접 배포한다. 공고 제2026-2286호(문서작성2026-10-01)의10/1~10/30접수·2026상반기이자150만원·대출주택/혼인/주소/소득요건과 현재복지로WLF00004881을 대조했다. 실제 신청원본96603바이트의3개 전체섹션3704자를 읽어 신청·서약·신청인/배우자 별도동의를 구별했고 모두 빈 작성란이며 내장그림은 없다. 공고4222자와 FAQ5004자 전체 및 그 내장그림10개도 읽었으나 게시할 원본은 빈 신청서 묶음만이다.",
+      "evidenceUrl": "https://gp.go.kr/sang/selectBbsNttView.do?bbsNo=150&integrDeptCode=&key=375&nttNo=289812&pageIndex=1&searchCnd=all&searchCtgry=&searchKrwd=",
+      "checkedAt": "2026-10-20",
+      "relatedProgramIds": [
+        "g41820.bokjiro-WLF00004881"
+      ],
+      "reviewedProgramPairs": [
+        {
+          "programId": "g41820.bokjiro-WLF00004881",
+          "disposition": "approved"
+        }
+      ],
+      "sourceProposal": "logs/forms-completion/gyeonggi-20261019/root/normalized-round8011.json",
+      "sourceProposalSHA256": "fc260ff58a84342ab0683d08e21cbf31533677178f4e7146df93034f249cd2ff",
+      "sourceLawBodySHA256": null,
+      "sourcePageSHA256": "9971521bff850c72512797ed213a0b85e3c6d1980b8acc980441f4be3f98bf56",
+      "authorityBasis": {
+        "kind": "official-program",
+        "title": "2026년 하반기 가평군 신혼부부 주거자금 대출이자 신청서·서약서·동의서 공식 배포 안내",
+        "evidenceUrl": "https://gp.go.kr/sang/selectBbsNttView.do?bbsNo=150&integrDeptCode=&key=375&nttNo=289812&pageIndex=1&searchCnd=all&searchCtgry=&searchKrwd=",
+        "checkedAt": "2026-10-20",
+        "evidenceNote": "가평군 상면 공식2026-10-13 게시물289812가 이 HWPX 첨부96924와 공고96925/FAQ96926을 직접 배포한다. 공고 제2026-2286호(문서작성2026-10-01)의10/1~10/30접수·2026상반기이자150만원·대출주택/혼인/주소/소득요건과 현재복지로WLF00004881을 대조했다. 실제 신청원본96603바이트의3개 전체섹션3704자를 읽어 신청·서약·신청인/배우자 별도동의를 구별했고 모두 빈 작성란이며 내장그림은 없다. 공고4222자와 FAQ5004자 전체 및 그 내장그림10개도 읽었으나 게시할 원본은 빈 신청서 묶음만이다.",
+        "pageSHA256": "9971521bff850c72512797ed213a0b85e3c6d1980b8acc980441f4be3f98bf56"
+      },
+      "selectedParts": [
+        {
+          "number": "무번호 신청서(공고 목록 별지1)",
+          "title": "신혼부부 주거자금 대출이자 지원 신청서",
+          "use": "main",
+          "author": "신청인; 공동이용 동의는 신청인과 배우자"
+        },
+        {
+          "number": "무번호 서약서(공고 목록 별지2)",
+          "title": "신혼부부 주거자금 대출이자 지원 신청 서약서 및 동의서",
+          "use": "additional",
+          "author": "신청인"
+        },
+        {
+          "number": "무번호 동의서(공고 목록 별지3)",
+          "title": "개인정보 수집·이용 동의서(신청자 제출용)",
+          "use": "additional",
+          "author": "신청인"
+        },
+        {
+          "number": "무번호 동의서(공고 목록 별지4)",
+          "title": "개인정보 수집·이용 동의서(배우자 제출용)",
+          "use": "additional",
+          "author": "배우자"
+        }
+      ]
+    }
+  ],
+  "scopeFile": "pipeline/forms/reviews/agency-originals-scope-round8011.json",
+  "scopeSHA256": "bd72665df8516448bf4ac2d8c30d2b8602d4dea7545aa834a29dc149f7853b07"
+}

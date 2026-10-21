@@ -1,0 +1,630 @@
+{
+  "schema": 1,
+  "checkedAt": "2026-10-19",
+  "team": 2,
+  "batchId": "batch-032",
+  "verificationMethod": "Independent actual complete-body and applicant/purpose review with exact official law/annex/flSeq and actual-byte hash checks.",
+  "rows": [
+    {
+      "sourceKind": "ordin",
+      "lawTitle": "보령시 상수도 급수 조례 시행규칙",
+      "lawId": "1984603",
+      "annexId": "20590997",
+      "annexNumber": "002600",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=154564771&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C22%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EC%83%81%EC%88%98%EB%8F%84%EC%82%AC%EC%9A%A9%EB%A3%8C+%EA%B0%90%EB%A9%B4+%EC%8B%A0%EC%B2%AD%EC%84%9C",
+      "officialPdfUrl": null,
+      "dateKind": "effective",
+      "effectiveDate": "2024-11-11",
+      "regionCode": "44180",
+      "regionLabel": "충청남도 보령시",
+      "programIds": [
+        "g44180.gov24-451000000151",
+        "g44180.gov24-451000000153"
+      ],
+      "programNames": [
+        "수급자 상수도 사용료 감면",
+        "국가유공자 상수도 사용료 감면"
+      ],
+      "formId": "ordin-20590997",
+      "use": "main",
+      "formTitle": "[별지 제22호서식] 상수도사용료 감면 신청서",
+      "sourceMetadataTitle": "[별지 제22호서식] 상수도사용료 감면 신청서",
+      "verifiedDocumentTitle": "상수도사용료 감면 신청서",
+      "evidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1984603",
+      "evidenceNote": "보령시 시행규칙 제29조제6항제1호는 수급자·국가유공자 등 감면을 별지 제22호와 자격증빙으로 신청하도록 정한다. 원문은 생계·의료급여 수급 및 국가유공자 선택, 수용가번호·관계·거주 확인·본인 서명과 해당 증빙을 받는다. 두 사이트 사업의 각각 수급자·국가유공자 감면 신청 및 전출입 재신청과 일치한다. 병역명문가 항목은 이 두 사업의 연결 범위에서 제외한다. 공식 법규 ID·별표키·flSeq와 실제 원본의 SHA256·전체 본문 섹션을 재대조했다.",
+      "checkedAt": "2026-10-19",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "sha256": "1e9a0de5f779a18240a3c1f2911f4cb0a188c1ead2d665f4e3034db58966f67e",
+      "bytes": 65536,
+      "signature": "d0cf11e0a1b11ae1",
+      "originalFormat": "hwp",
+      "originalTextScope": "all_body_sections_or_pages",
+      "textScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "BodyText/Section0"
+      ],
+      "reviewedParts": [
+        {
+          "number": "별지 제22호 수급자·국가유공자 선택 부분",
+          "title": "상수도사용료 감면 신청서",
+          "use": "main",
+          "author": "해당 수급자 또는 국가유공자 가구의 신청인"
+        }
+      ],
+      "role": "application",
+      "roleBasis": "보령시 시행규칙 제29조제6항제1호는 수급자·국가유공자 등 감면을 별지 제22호와 자격증빙으로 신청하도록 정한다. 원문은 생계·의료급여 수급 및 국가유공자 선택, 수용가번호·관계·거주 확인·본인 서명과 해당 증빙을 받는다. 두 사이트 사업의 각각 수급자·국가유공자 감면 신청 및 전출입 재신청과 일치한다. 병역명문가 항목은 이 두 사업의 연결 범위에서 제외한다.",
+      "roleEvidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1984603",
+      "roleCheckedAt": "2026-10-19",
+      "bodyEvidenceText": "제29조(사용요금의 감면신청) <제목개정 2022.9.13.>① 조례 제42조제1항제2호에 따른 사용자의 책임이 없는 지하의 누수가 있는 경우란 다음 각 호와 같다.1. 지하·벽체 속 및 계량기 보호통 내의 누수2. 수도사용자의 고의 또는 과실이 아닌 경우3. 누수된 월로부터 3개월 이내에 신청하는 경우4. 육안식별이 가능한 누수(변기, 물탱크, 보일러 등)는 감면 제외② 제1항에 따른 누수로 요금감면을 신청할 때에는 별지 제20호 서식의 신청서와 누수 수리를 확인할 수 있는 서류(수리영수증, 자재구입영수증 등) 및 현장사진(전ㆍ중ㆍ후) 3매를 붙여 제출하여야 한다. <개정 2022.9.13.>③ 시장은 제2항에 따른 신청서를 접수한 때에는 누수여부를 확인 후 1개월에 한정하여 요금감면을 하여야 하고 2개월에 걸쳐 누수된 경우에는 1개월을 추가하여 감면할 수 있다. 다만, 누수발생을 신고한 날부터 최근 2년간 1회 이상 누수감면을 받은 사실이 있는 경우에는 제외한다. <개정 2022.9.13.>④ 제3항에 따른 수도사용자의 상·하수도 사용료는 누수가 있기 직전 3개월 동안의 평균사용량에 해당하는 금액(이하 “정상요금” 이라 한다)을 뺀 후 남은 금액의 100분의 50분을 감면하고 나머지 금액과 정상요금을 합산한다.⑤ 조례 제42조제1항제4호에 따른 「유아교육법」제2조제2호의 유치원 및 「영유아보육법」제2조제3호의 어린이집은 수용가의 신청에 따라 감면할 수 있다. 다만, 단일계량기로 공급되는 2세대 이상 급수대상시설 및 가정용 급수대상시설은 제외한다.(신설 2018. 6. 20.)⑥ 조례 제42조제1항제5호 및 제7호부터 제8의2호까지에 따른 감면을 받으려는 자는 다음 각 호에 따른 신청서와 첨부서류를 제출하여야 한다.(신설 2018. 6. 20, 개정 2022. 9. 13, 2024.11.11.)1. 조례 제42조제1항제5호, 제8호, 제8의2호: 별지 제22호서식, 감면대상자임을 증명할 수 있는 서류(수급자증명서, 국가유공자증 사본, 병역명문가증 사본) <신설 2022.9.13, 개정 2024.11.11.>2. 조례 제42조제1항제7호: 별지 제23호서식, 주민등록 등본 <신설 2022.9.13, 개정 2024.11.11.>3. <신설 2022.9.13.> 삭제 <2024.11.11.>⑦ 조례 제42조에 따라 수도요금을 감면할 때 둘 이상의 감면 규정이 적용되는 경우에는 그 중 감면금액이 높은 것 하나만 적용한다. 다만, 조례 제42조제1항제2호 및 제6호는 중복하여 감면할 수 있다. <신설 2022.9.13.>",
+      "independentBodyReview": true,
+      "excludedParts": [
+        {
+          "number": "별지 제22호 병역명문가 선택",
+          "title": "병역명문가 감면",
+          "reason": "두 사이트 사업에 포함되지 않는 별도 감면 대상"
+        }
+      ]
+    },
+    {
+      "sourceKind": "ordin",
+      "lawTitle": "옹진군 노인 보청기 및 실명예방을 위한 의료비 지원 조례",
+      "lawId": "1984773",
+      "annexId": "19756697",
+      "annexNumber": "000100",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=151380243&flNm=%EB%B3%84%EC%A7%80+%EC%A0%9C1%ED%98%B8%EC%84%9C%EC%8B%9D",
+      "officialPdfUrl": null,
+      "dateKind": "effective",
+      "effectiveDate": "2024-11-13",
+      "regionCode": "28720",
+      "regionLabel": "인천광역시 옹진군",
+      "programIds": [
+        "g28720.bokjiro-WLF00003138"
+      ],
+      "programNames": [
+        "저소득 어르신 보청기 지원"
+      ],
+      "formId": "ordin-19756697",
+      "use": "conditional",
+      "formTitle": "별지 제1호서식",
+      "sourceMetadataTitle": "별지 제1호서식",
+      "verifiedDocumentTitle": "보청기 구입비 지원 신청서 및 동의서",
+      "evidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1984773",
+      "evidenceNote": "옹진군 현행 제3조의65세 이상·군1년 거주·수급/차상위/기초연금, 제5조 보청기 구입비와 제6조 구입 후1년 이내 별지 제1호를 확인했다. 원문은 보청기 모델·구입일·가격·청력검사·영수증·본인 계좌·서명을 받는다. 사이트의 보청기 지원 처리 중 구입 및 비용청구 단계에만 연결하며 구입 전 대상자 사전선정 신청으로 표시하지 않는다. 원문에 남은 제7조 표기는 현행 제6조로 이동된 신청 조문과 구분했다. 공식 법규 ID·별표키·flSeq와 실제 원본의 SHA256·전체 본문 섹션을 재대조했다.",
+      "checkedAt": "2026-10-19",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "sha256": "cb8d711bba02af070db20c363ffd5c6871228f6944e5f0d3a8548a488b1c46e7",
+      "bytes": 61440,
+      "signature": "d0cf11e0a1b11ae1",
+      "originalFormat": "hwp",
+      "originalTextScope": "all_body_sections_or_pages",
+      "textScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "BodyText/Section0"
+      ],
+      "reviewedParts": [
+        {
+          "number": "별지 제1호",
+          "title": "보청기 구입비 지원 신청서 및 정보동의",
+          "use": "conditional",
+          "author": "옹진군 노인성 난청 지원 대상자 또는 신청인"
+        }
+      ],
+      "role": "application",
+      "roleBasis": "옹진군 현행 제3조의65세 이상·군1년 거주·수급/차상위/기초연금, 제5조 보청기 구입비와 제6조 구입 후1년 이내 별지 제1호를 확인했다. 원문은 보청기 모델·구입일·가격·청력검사·영수증·본인 계좌·서명을 받는다. 사이트의 보청기 지원 처리 중 구입 및 비용청구 단계에만 연결하며 구입 전 대상자 사전선정 신청으로 표시하지 않는다. 원문에 남은 제7조 표기는 현행 제6조로 이동된 신청 조문과 구분했다.",
+      "roleEvidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1984773",
+      "roleCheckedAt": "2026-10-19",
+      "bodyEvidenceText": "제3조(지원 대상) 이 조례에 의한 지원대상은 노인성 난청 및 노인성 안질환 진단을 받은 65세 이상의 노인으로서, 신청일 기준 1년 이상 옹진군에 주민등록을 둔 다음 각 호의 어느 하나에 해당하는 사람으로 한다. <개정 2024. 11. 13.>1. 국민기초생활수급자2. 차상위 계층3. 기초연금수급자\n제5조(지원 범위)① 옹진군수(이하 “군수”라 한다)는 제3조의 지원 대상에게 예산의 범위에서 보청기 구입비 또는 실명예방 의료비(이하 “지원금”이라 한다)를 지원할 수 있다.② 제1항에 따른 지원금의 지원 범위는 다음 각 호와 같다.1. 보청기 구입비: 「국민건강보험법 시행규칙」 제26조제1항의 장애인 보조기기에 대한 보험급여기준 중 보청기에 대한 공단 부담금액 한도 내2. 실명예방 의료비: 70만원 한도 내[전문개정 2024. 11. 13.]\n제6조(지원신청 및 지급)① 제5조에 따라 지원금을 지원 받고자 하는 사람은 보청기 구입일 또는 수술일 후 1년 이내에 별지 제1호 및 제2호서식에 따라 신청서를 작성하여 증빙서류와 함께 군수에게 제출하여야 한다. <개정 2024. 11. 13.>② 군수는 제1항에 따른 신청서를 접수한 군수는 지원 대상 여부를 결정한 후 대상자의 개인 금융계좌로 지급하여야 한다. <개정 2024. 11. 13.>[종전 제6조 삭제, 제7조에서 이동] <2024. 11. 13.>",
+      "independentBodyReview": true,
+      "condition": "보청기를 구입한 뒤 구입비를 청구하는 단계에서 사용합니다. 현행 조례는 구입일부터1년 이내 신청하도록 정합니다.",
+      "displayTitle": "보청기 구입비 지원 신청서 및 정보동의"
+    },
+    {
+      "sourceKind": "ordin",
+      "lawTitle": "옹진군 노인 보청기 및 실명예방을 위한 의료비 지원 조례",
+      "lawId": "1984773",
+      "annexId": "19756699",
+      "annexNumber": "000200",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=151380245&flNm=%EB%B3%84%EC%A7%80+%EC%A0%9C2%ED%98%B8%EC%84%9C%EC%8B%9D",
+      "officialPdfUrl": null,
+      "dateKind": "effective",
+      "effectiveDate": "2024-11-13",
+      "regionCode": "28720",
+      "regionLabel": "인천광역시 옹진군",
+      "programIds": [
+        "g28720.gov24-358000000135"
+      ],
+      "programNames": [
+        "노인 백내장 시술비 지원"
+      ],
+      "formId": "ordin-19756699",
+      "use": "main",
+      "formTitle": "별지 제2호서식",
+      "sourceMetadataTitle": "별지 제2호서식",
+      "verifiedDocumentTitle": "노인 실명예방 의료비 지원 신청서 및 동의서",
+      "evidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1984773",
+      "evidenceNote": "원문은 보청기가 아니라 백내장·녹내장 등 안질환 시술비·영수증·진단·수술확인·개인계좌·환자 서명을 받는다. 현행 제3·5·6조의65세 이상 취약노인·1년 거주·최대70만원·수술 후1년 신청과, 관할 전체에서 새로 찾은 정부24 노인 백내장 시술비 사업의 동일 조건·제출서류·보건소 신청이 일치한다. 병원란은 진료 증빙이며 병원이 청구하는 비용정산서가 아니다. 공식 법규 ID·별표키·flSeq와 실제 원본의 SHA256·전체 본문 섹션을 재대조했다.",
+      "checkedAt": "2026-10-19",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "sha256": "d24903a77ed84d0cfe68e508e511997dafd0e912bb1f387f48f8134840541488",
+      "bytes": 28160,
+      "signature": "d0cf11e0a1b11ae1",
+      "originalFormat": "hwp",
+      "originalTextScope": "all_body_sections_or_pages",
+      "textScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "BodyText/Section0"
+      ],
+      "reviewedParts": [
+        {
+          "number": "별지 제2호",
+          "title": "노인 실명예방 의료비 지원 신청서",
+          "use": "main",
+          "author": "안질환 시술을 받은 옹진군 노인 또는 신청 보호자"
+        }
+      ],
+      "role": "application",
+      "roleBasis": "원문은 보청기가 아니라 백내장·녹내장 등 안질환 시술비·영수증·진단·수술확인·개인계좌·환자 서명을 받는다. 현행 제3·5·6조의65세 이상 취약노인·1년 거주·최대70만원·수술 후1년 신청과, 관할 전체에서 새로 찾은 정부24 노인 백내장 시술비 사업의 동일 조건·제출서류·보건소 신청이 일치한다. 병원란은 진료 증빙이며 병원이 청구하는 비용정산서가 아니다.",
+      "roleEvidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1984773",
+      "roleCheckedAt": "2026-10-19",
+      "bodyEvidenceText": "제3조(지원 대상) 이 조례에 의한 지원대상은 노인성 난청 및 노인성 안질환 진단을 받은 65세 이상의 노인으로서, 신청일 기준 1년 이상 옹진군에 주민등록을 둔 다음 각 호의 어느 하나에 해당하는 사람으로 한다. <개정 2024. 11. 13.>1. 국민기초생활수급자2. 차상위 계층3. 기초연금수급자\n제5조(지원 범위)① 옹진군수(이하 “군수”라 한다)는 제3조의 지원 대상에게 예산의 범위에서 보청기 구입비 또는 실명예방 의료비(이하 “지원금”이라 한다)를 지원할 수 있다.② 제1항에 따른 지원금의 지원 범위는 다음 각 호와 같다.1. 보청기 구입비: 「국민건강보험법 시행규칙」 제26조제1항의 장애인 보조기기에 대한 보험급여기준 중 보청기에 대한 공단 부담금액 한도 내2. 실명예방 의료비: 70만원 한도 내[전문개정 2024. 11. 13.]\n제6조(지원신청 및 지급)① 제5조에 따라 지원금을 지원 받고자 하는 사람은 보청기 구입일 또는 수술일 후 1년 이내에 별지 제1호 및 제2호서식에 따라 신청서를 작성하여 증빙서류와 함께 군수에게 제출하여야 한다. <개정 2024. 11. 13.>② 군수는 제1항에 따른 신청서를 접수한 군수는 지원 대상 여부를 결정한 후 대상자의 개인 금융계좌로 지급하여야 한다. <개정 2024. 11. 13.>[종전 제6조 삭제, 제7조에서 이동] <2024. 11. 13.>",
+      "independentBodyReview": true,
+      "displayTitle": "노인 실명예방 의료비 지원 신청서"
+    },
+    {
+      "sourceKind": "ordin",
+      "lawTitle": "김해시 장애인가정 출산지원금 지원에 관한 조례",
+      "lawId": "1985569",
+      "annexId": "18771629",
+      "annexNumber": "000100",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=145476457&flNm=%5B%EB%B3%84%EC%A7%80%EC%84%9C%EC%8B%9D%5D+%EC%9E%A5%EC%95%A0%EC%9D%B8%EA%B0%80%EC%A0%95+%EC%B6%9C%EC%82%B0%EC%A7%80%EC%9B%90%EA%B8%88+%EC%8B%A0%EC%B2%AD%EC%84%9C",
+      "officialPdfUrl": null,
+      "dateKind": "effective",
+      "effectiveDate": "2025-01-01",
+      "regionCode": "48250",
+      "regionLabel": "경상남도 김해시",
+      "programIds": [
+        "g48250.bokjiro-WLF00006005"
+      ],
+      "programNames": [
+        "김해시 장애인가정 출산지원금 지원"
+      ],
+      "formId": "ordin-18771629",
+      "use": "main",
+      "formTitle": "[별지서식] 장애인가정 출산지원금 신청서",
+      "sourceMetadataTitle": "[별지서식] 장애인가정 출산지원금 신청서",
+      "verifiedDocumentTitle": "장애인가정 출산지원금 신청서",
+      "evidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1985569",
+      "evidenceNote": "김해시 제3·4조의 거주 장애인가정·장애정도별100/150만원·여성장애인 비용 등 차액 지원과 사이트 내용이 일치한다. 제5조는 별지 서식으로 읍면동장에게1년 이내 신청하도록 정한다. 원문은 부모 장애정도·출생아·계좌·신청인 서명 및 출생증명·통장사본을 받으므로 해당 출산지원금의 주민 신청에 정확히 해당한다. 공식 법규 ID·별표키·flSeq와 실제 원본의 SHA256·전체 본문 섹션을 재대조했다.",
+      "checkedAt": "2026-10-19",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "sha256": "9f4318b8a928dea46ce8efeda4944f8cad1a7b77c47a6559b37b749112f8b735",
+      "bytes": 35328,
+      "signature": "d0cf11e0a1b11ae1",
+      "originalFormat": "hwp",
+      "originalTextScope": "all_body_sections_or_pages",
+      "textScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "BodyText/Section0"
+      ],
+      "reviewedParts": [
+        {
+          "number": "별지 서식",
+          "title": "장애인가정 출산지원금 신청서",
+          "use": "main",
+          "author": "김해시 장애인가정의 신생아 부모 또는 실질 양육자"
+        }
+      ],
+      "role": "application",
+      "roleBasis": "김해시 제3·4조의 거주 장애인가정·장애정도별100/150만원·여성장애인 비용 등 차액 지원과 사이트 내용이 일치한다. 제5조는 별지 서식으로 읍면동장에게1년 이내 신청하도록 정한다. 원문은 부모 장애정도·출생아·계좌·신청인 서명 및 출생증명·통장사본을 받으므로 해당 출산지원금의 주민 신청에 정확히 해당한다.",
+      "roleEvidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1985569",
+      "roleCheckedAt": "2026-10-19",
+      "bodyEvidenceText": "제2조(정의) 이 조례에서 사용하는 용어의 뜻은 다음과 같다.1. “장애인가정”이란 신생아의 부 또는 모가 「장애인복지법」 제32조에 따라 장애등록을 한 장애인으로 신생아와 주민등록을 같이 하는 세대를 말한다.2. “출산지원금”이란 신생아를 출산한 장애인가정에 산모와 신생아의 건강 관리를 위하여 지원해주는 일정 금액을 말한다.\n제3조(지원대상) 출산지원금 지원대상은 신생아의 출생일을 기준으로 신생아의 부 또는 모가 김해시에 주민등록을 두고 거주중인 장애인가정으로 한다.\n제4조(지급기준 및 지원금)① 출산지원금은 신생아의 부 또는 모에게 지급한다. 다만, 불가피한 사유로 신생아의 부 또는 모에게 지급할 수 없을 때에는 신생아가 속한 세대의 세대원으로서 신생아를 실질적으로 양육하고 있는 사람에게 지급할 수 있다.② 김해시장(이하 “시장”이라 한다)은 장애인가정에 대하여 신생아의 부 또는 모의 장애정도에 따라 예산의 범위에서 신생아 1명마다 다음 각 호의 기준에 따라 지원금을 지급한다. 다만, 쌍생아 이상인 경우에는 추가 신생아 1명당 지원액의 100분의 150을 지급한다.1. 장애의 정도가 심한 장애인 : 150만원2. 장애의 정도가 심하지 않은 장애인 : 100만원③ 제1항에도 불구하고 보건복지부 여성장애인 출산비용지원 사업비를 지원받거나 「경상남도 한부모가족 등 지원 조례」에 따라 출산과 관련된 사업비를 지원받은 사람에게는 그 차액을 지급한다.④ 지원금은 신생아의 부모 모두가 장애인인 경우에는 중복하여 지급할 수 없으며, 부모 중 지급받는 지원금이 많은 금액으로 지원한다.\n제5조(지원신청 등)① 출산지원금은 신생아의 부 또는 모가 별지 서식에 따라 주소지 관할 읍ㆍ면ㆍ동장에게 신청한다. 다만, 제4조제1항의 경우에는 신생아가 속한 세대의 세대원으로서 신생아를 실질적으로 양육하고 있는 사람이 신청할 수 있다.② 읍ㆍ면ㆍ동장은 출생신고서 접수 시 지원금 지원대상 여부를 확인하고 대상자에게 안내하여야 한다.③ 출산지원금 지원대상자는 신생아 출산일로부터 1년 이내에 지원금을 신청하여야 한다.",
+      "independentBodyReview": true
+    },
+    {
+      "sourceKind": "ordin",
+      "lawTitle": "서울특별시 용산구 출산 및 양육지원에 관한 조례",
+      "lawId": "1985773",
+      "annexId": "18776255",
+      "annexNumber": "000100",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=145514699&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C1%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EC%B6%9C%EC%82%B0%EC%A7%80%EC%9B%90%EA%B8%88+%EC%8B%A0%EC%B2%AD%EC%84%9C",
+      "officialPdfUrl": null,
+      "dateKind": "effective",
+      "effectiveDate": "2024-11-15",
+      "regionCode": "11170",
+      "regionLabel": "서울특별시 용산구",
+      "programIds": [
+        "g11170.bokjiro-WLF00002444",
+        "g11170.gov24-302000000113"
+      ],
+      "programNames": [
+        "출산장려 지원사업(출산지원금 지원)",
+        "출산지원금 지원"
+      ],
+      "formId": "ordin-18776255",
+      "use": "main",
+      "formTitle": "[별지 제1호서식] 출산지원금 신청서",
+      "sourceMetadataTitle": "[별지 제1호서식] 출산지원금 신청서",
+      "verifiedDocumentTitle": "출산지원금 신청서",
+      "evidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1985773",
+      "evidenceNote": "용산구 현행 제7조는 셋째200만원·넷째 이상400만원, 제9조는 별지 제1호 또는 출산서비스 통합신청을 허용한다. 실제 원문은 출생순위가 빈칸이라 셋째·넷째 이상 모두 기재 가능하며 부모·자녀·거주·계좌·본인 서명과 쌍생아별 작성 안내를 포함한다. 두 사이트 기록의 같은 다자녀 출산 현금지원과 일치하며 자료의 과거 적용 시작연도 차이는 서식의 특정연도 제한이 아니다. 공식 법규 ID·별표키·flSeq와 실제 원본의 SHA256·전체 본문 섹션을 재대조했다.",
+      "checkedAt": "2026-10-19",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "sha256": "b82f648f8b71dcc736d8fd083146108713f6dc70682ce1433a9652e0331ec454",
+      "bytes": 53760,
+      "signature": "d0cf11e0a1b11ae1",
+      "originalFormat": "hwp",
+      "originalTextScope": "all_body_sections_or_pages",
+      "textScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "BodyText/Section0"
+      ],
+      "reviewedParts": [
+        {
+          "number": "별지 제1호",
+          "title": "출산지원금 신청서",
+          "use": "main",
+          "author": "용산구 셋째 이상 출생아 부모 또는 조례상 보호자"
+        }
+      ],
+      "role": "application",
+      "roleBasis": "용산구 현행 제7조는 셋째200만원·넷째 이상400만원, 제9조는 별지 제1호 또는 출산서비스 통합신청을 허용한다. 실제 원문은 출생순위가 빈칸이라 셋째·넷째 이상 모두 기재 가능하며 부모·자녀·거주·계좌·본인 서명과 쌍생아별 작성 안내를 포함한다. 두 사이트 기록의 같은 다자녀 출산 현금지원과 일치하며 자료의 과거 적용 시작연도 차이는 서식의 특정연도 제한이 아니다.",
+      "roleEvidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1985773",
+      "roleCheckedAt": "2026-10-19",
+      "bodyEvidenceText": "제6조(출산지원금 지원대상자의 범위)① 출산지원금 지원대상자(이하 “지원대상자”로 한다)는 신생아의 출생일 기준으로 1년 전부터 용산구에 주민등록을 두고 실제 거주하고 있는 신생아의 부 또는 모로 하며 대상아동은 부 또는 모와 서울특별시 용산구에 동일 세대로 주민등록을 두고 거주하여야 한다.② 제1항에도 불구하고 신생아 부 또는 모의 사망, 이혼, 직업 등의 이유로 부 또는 모가 아닌 자와 거주하는 경우에는 주민등록이 같이 되어 있으면서 사실상 양육하는 보호자를 지원대상자로 본다.③ 지원대상자가 신생아의 출생일 현재 용산구에 1년 미만 거주자인 때에는 실제 거주기간이 1년이 지나야 지원대상이 된다.④ 신생아가 해외(외국)에서 출생한 경우 출산지원금을 지원하지 아니한다. 다만, 다문화가족의 신생아일 경우 예외로 한다.\n제7조(출산지원금 지원기준) 출산지원금은 예산의 범위에서 셋째아이 200만원, 넷째아이 이상 400만원을 지원하며, 쌍생아를 출산할 경우에는 출생아별로 지원한다.\n제9조(출산지원금 지원신청 등)① 출산지원금 지원신청인(이하 “신청인”이라 한다)은 신생아 부 또는 모가 된다. 다만, 제6조제2항의 경우에는 신생아와 주민등록이 같이 되어 있고 사실상 양육하는 보호자가 신청인이 된다.② 거주지 관할 동장(이하 “동장”이라 한다)은 출생신고서가 접수되면 지원 대상 여부를 확인하여 별지 제1호서식의 출산지원금 신청서(이하 “신청서”라 한다)와 구비서류를 신청인에게 안내하고 신청하도록 하여야 한다. 이 경우 신청인이 출산서비스 통합처리를 원할 때에는 「임신ㆍ출산 관련 서비스 통합처리에 관한 규정」에 따른 출산서비스 통합처리 신청서로도 신청할 수 있다.③ 제2항에 따른 신청서 구비서류는 각 호와 같다.1. 신청서 1부(별지 제1호서식) 또는 「임신ㆍ출산 관련 서비스 통합처리에 관한 규정」에 따른 출산 서비스 통합처리 신청서2. 예금통장 사본 1부3. 제6조제2항의 경우에는 가족관계등록부 등 입증서류④ 출산지원금 지원신청은 출생일로부터 1년 이내 동장에게 별지 제1호서식의 신청서를 제출하여야 한다. 다만, 제6조제3항에 따라 용산구 거주기간이 1년 미만인 경우에는 1년이 경과한 날부터 180일 이내에 신청서를 제출하여야 한다.",
+      "independentBodyReview": true
+    },
+    {
+      "sourceKind": "ordin",
+      "lawTitle": "양구군 어르신 봉양수당 지급에 관한 조례",
+      "lawId": "1986025",
+      "annexId": "20208689",
+      "annexNumber": "000100",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=152880761&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C1%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EC%96%91%EA%B5%AC%EA%B5%B0+%EC%96%B4%EB%A5%B4%EC%8B%A0+%EB%B4%89%EC%96%91%EC%88%98%EB%8B%B9+%EC%A7%80%EA%B8%89%EC%8B%A0%EC%B2%AD%EC%84%9C",
+      "officialPdfUrl": null,
+      "dateKind": "effective",
+      "effectiveDate": "2024-11-15",
+      "regionCode": "51800",
+      "regionLabel": "강원특별자치도 양구군",
+      "programIds": [
+        "g51800.gov24-432000000229"
+      ],
+      "programNames": [
+        "어르신 봉양수당"
+      ],
+      "formId": "ordin-20208689",
+      "use": "main",
+      "formTitle": "[별지 제1호서식] 양구군 어르신 봉양수당 지급신청서",
+      "sourceMetadataTitle": "[별지 제1호서식] 양구군 어르신 봉양수당 지급신청서",
+      "verifiedDocumentTitle": "양구군 어르신 봉양수당 지급·변경신청서",
+      "evidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1986025",
+      "evidenceNote": "양구군 제2~5조의80세 이상·동일 주소와 건물에서 실질 봉양·월5만원 및 추가인당2만원과 사이트의1인5만원/2인7만원이 일치한다. 제4조는 별지 제1호를 지정하며 원문은 어르신 인적·봉양자 관계·계좌·본인 서명을 받는다. 제목에 변경이 함께 있어도 신규 지급 부분이 명확히 존재한다. 공식 법규 ID·별표키·flSeq와 실제 원본의 SHA256·전체 본문 섹션을 재대조했다.",
+      "checkedAt": "2026-10-19",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "sha256": "0f7cf438f6465a368aa1b2082f58f7de3297f5fd3436831305961c1aa220d313",
+      "bytes": 33792,
+      "signature": "d0cf11e0a1b11ae1",
+      "originalFormat": "hwp",
+      "originalTextScope": "all_body_sections_or_pages",
+      "textScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "BodyText/Section0"
+      ],
+      "reviewedParts": [
+        {
+          "number": "별지 제1호 지급 신청 부분",
+          "title": "어르신 봉양수당 지급신청서",
+          "use": "main",
+          "author": "80세 이상 어르신을 실제 봉양하는 세대주 또는 가족대표"
+        }
+      ],
+      "role": "application",
+      "roleBasis": "양구군 제2~5조의80세 이상·동일 주소와 건물에서 실질 봉양·월5만원 및 추가인당2만원과 사이트의1인5만원/2인7만원이 일치한다. 제4조는 별지 제1호를 지정하며 원문은 어르신 인적·봉양자 관계·계좌·본인 서명을 받는다. 제목에 변경이 함께 있어도 신규 지급 부분이 명확히 존재한다.",
+      "roleEvidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1986025",
+      "roleCheckedAt": "2026-10-19",
+      "bodyEvidenceText": "제2조(정의) 이 조례에서 사용하는 용어의 정의는 다음과 같다.1. “어르신”이라 함은 주민등록상 80세 이상의 노인을 말한다.<개정 2024.11.15.>2. “지급대상자”라 함은 어르신을 사실상 봉양하는 가정의 세대주 또는 가족대표 1인을 말한다.\n제3조(지급대상 및 기준)①지급대상은 양구군(이하 “군”이라 한다.)에 주소를 두고, 어르신을 한건물 내에서 모시며 생활하는 봉양자를 말한다. <개정 2021.2.10.>②지급기준은 예산의 범위 안에서 다음 각호에 따라 지급한다.1. 어르신 1인을 모시고 생활하는 자 : 월 50,000원 <개정 2021.2.10.>2. 어르신 2인 이상을 모시고 생활하는 자 : 1인당 월 20,000원 추가 <개정 2021.2.10.>\n제4조(지급신청 등)①제3조의 규정에 의한 수당을 지급받고자 하는 자는 모시고 있는 어르신이 80세 속하는 달에 주소지 읍·면장에게 신청하여야 한다.<개정 2024.11.15.>②읍·면장은 지급대상 여부를 확인하여 지급대상자에게 어르신 봉양수당 지급신청서(별지 제1호 서식)를 작성하여 제출하도록 알려주어야 한다.③수당을 지급받는 자가 사망, 전출 등 어르신을 봉양할 수 없는 사유가 발생할 경우 어르신과 생계를 함께하는 자 중에서 지급대상자를 변경 신청할 수 있다.\n제5조(대상 확인 및 지급절차)①읍·면장은 신청서가 접수되면 다음 각 호의 사항을 확인한다.1. 어르신과 신청인의 주민등록이 함께 등재되어 있는지 여부확인2. 동일 건물내 사실상 함께 거주하면서 성실하게 어르신을 모시고 생활하는지 여부확인3. 기타 봉양상태 및 특이사항 등②읍·면장은 지급대상자를 확인하고, 접수된 신청서를 취합하여 그 다음 달 5일까지 양구군수(이하 “군수“라 한다.)에게 제출한다.③군수는 읍·면장으로부터 신청현황을 제출받아 지급여부를 결정하여 신청한 다음 달부터 지급대상자에게 매월 지급한다.",
+      "independentBodyReview": true
+    },
+    {
+      "sourceKind": "ordin",
+      "lawTitle": "화성시 장학관 설치 및 운영에 관한 조례 시행규칙",
+      "lawId": "1987077",
+      "annexId": "21451325",
+      "annexNumber": "000200",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=161006275&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C1%ED%98%B8%EC%84%9C%EC%8B%9D%5D+~+%5B%EB%B3%84%EC%A7%80+%EC%A0%9C4%ED%98%B8%EC%84%9C%EC%8B%9D%5D",
+      "officialPdfUrl": null,
+      "dateKind": "effective",
+      "effectiveDate": "2026-03-01",
+      "regionCode": "41590",
+      "regionLabel": "경기도 화성시",
+      "programIds": [
+        "g41590.gov24-O00058400003"
+      ],
+      "programNames": [
+        "화성시장학관지원사업"
+      ],
+      "formId": "ordin-21451325",
+      "use": "main",
+      "formTitle": "[별지 제1호서식] ~ [별지 제4호서식]",
+      "sourceMetadataTitle": "[별지 제1호서식] ~ [별지 제4호서식]",
+      "verifiedDocumentTitle": "화성시장학관 입사원서 및 개인정보 동의서",
+      "evidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1987077",
+      "evidenceNote": "화성시 규칙 제7조제1·8호는 입사원서 제1호와 개인정보 동의서 제4호를 지정한다. 실제 제1호는 동작·도봉나래관 선택, 신입/재학/고시 구분·지원자 및 보호자 서명을 받아 사이트의 동일 장학관 입사 지원과 일치한다. 제6조의2026-03-01 적용 선발 구분도 이미 시행된 내용이다. 묶음 중 삭제 표시된 제2·3호만 제외하고 유효한1·4호를 확인했다. 공식 법규 ID·별표키·flSeq와 실제 원본의 SHA256·전체 본문 섹션을 재대조했다.",
+      "checkedAt": "2026-10-19",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "sha256": "435949fbfda0aca9480b6f78f09c5cb9e6c86db9af8504725db0db356efdff50",
+      "bytes": 89600,
+      "signature": "d0cf11e0a1b11ae1",
+      "originalFormat": "hwp",
+      "originalTextScope": "all_body_sections_or_pages",
+      "textScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "BodyText/Section0"
+      ],
+      "reviewedParts": [
+        {
+          "number": "별지 제1호",
+          "title": "입사원서",
+          "use": "main",
+          "author": "화성시장학관 입사 희망 대학생·고시생과 보호자"
+        },
+        {
+          "number": "별지 제4호",
+          "title": "개인정보 수집·이용 동의서",
+          "use": "additional",
+          "author": "지원자 및 부모·친권자"
+        }
+      ],
+      "role": "application",
+      "roleBasis": "화성시 규칙 제7조제1·8호는 입사원서 제1호와 개인정보 동의서 제4호를 지정한다. 실제 제1호는 동작·도봉나래관 선택, 신입/재학/고시 구분·지원자 및 보호자 서명을 받아 사이트의 동일 장학관 입사 지원과 일치한다. 제6조의2026-03-01 적용 선발 구분도 이미 시행된 내용이다. 묶음 중 삭제 표시된 제2·3호만 제외하고 유효한1·4호를 확인했다.",
+      "roleEvidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1987077",
+      "roleCheckedAt": "2026-10-19",
+      "bodyEvidenceText": "제6조(입사생 선발)① 입사생 선발은 동작ㆍ도봉나래관, 신입생ㆍ재학생, 남ㆍ여로 각각 구분하여 선발하고, 평가방법은 생활수준, 성적, 통학거리, 관내거주, 가산점을 합산한 점수가 고득점인 순으로 하며, 세부적인 평정대상 및 평정방법은 별표 2와 같다. (개정 2019. 1. 7, 2019. 12. 13, 2026. 1. 13)② 5급 공채(행정, 기술, 외교, 입법, 법원)를 준비하는 고시생(전년도 1차 시험 합격자에 한함)을 정원의 2퍼센트 이내로 선발한다. (개정 2009. 12. 29, 2011. 12. 27, 2013. 1. 18, 2019. 1. 7, 2019. 12. 13)③ 재지원자의 경우 제5조 규정에 어긋나지 않는 한 다음연도 입사지원 자격이 있으며, 벌점 5점 미만이어야 하고 별표 3에 의한 자원봉사 활동실적을 갖추어야 한다. (개정 2011. 12. 27, 2019. 12. 13)④ 삭제 (2019. 12. 13)⑤ 장학관 입사는 1가구당 1명 입사를 원칙으로 한다. 다만, 신청자가 모집정원에 미치지 못할 경우는 예외로 한다. (개정 2011. 12. 27, 2019. 1. 7)⑥ 그 밖에 입사생 선발에 필요한 사항은 입사생선발위원회에서 정한다. (개정 2019. 1. 7)[시행일 2026. 3. 1]\n제7조(입사신청) 장학관에 입사하고자 하는 사람은 다음 각 호의 서류를 구비하여 시장에게 제출하여야 한다. 이 경우 제출하는 서류 중 주민등록번호 표기항목은 생년월일만 표기되도록 처리하여 제출한다. (개정 2014. 1. 20, 2016. 10. 25, 2019. 1. 7, 2019. 12. 13)1. 입사원서(별지 제1호서식) 1부2. 재학증명서(신입생은 합격증명서, 휴학생은 복학예정증명서) 1부3. 성적증명서 1부가. 신입생은 고교 직전 2개 학기 성적증명서 또는 해당연도 수능성적표 원본나. 재학생은 직전 2개 학기 성적증명서(단, 휴학생은 휴학 직전 2개 학기분)4. 주민등록 초본(최근 5년 주소이력 포함) 1부5. 가족관계증명서 1부6. 별표 4에 규정된 입사생 부담금 감면 대상이 입사생 부담금 감면을 원할 경우 이를 증명하는 서류7. 생활정도 산정을 위한 서류 1부가. 신입생은 본인과 보호자의 건강보험 납부확인서 등 접수일 기준 최근 3개월의 건강보험료 납부내역을 확인할 수 있는 건강보험공단에서 발급받은 서류나. 재학생은 한국장학재단 소득분위 확인서8. 개인정보 수집·이용 동의서(별지 제4호서식) 1부[전문개정 2011. 12. 27]",
+      "independentBodyReview": true,
+      "condition": "화성시장학관 입사에는 별지 제1호 입사원서와 제4호 개인정보 동의서만 작성합니다. 제2호와 제3호는 삭제된 서식으로 사용하지 않습니다.",
+      "excludedParts": [
+        {
+          "number": "별지 제2호",
+          "title": "삭제 서식",
+          "reason": "본문에2019-12-13 삭제 표시"
+        },
+        {
+          "number": "별지 제3호",
+          "title": "삭제 서식",
+          "reason": "본문에2019-01-07 삭제 표시"
+        }
+      ],
+      "displayTitle": "입사원서 · 개인정보 수집·이용 동의서"
+    },
+    {
+      "sourceKind": "ordin",
+      "lawTitle": "춘천시 체육시설 관리운영 조례 시행규칙",
+      "lawId": "1987181",
+      "annexId": "20179459",
+      "annexNumber": "000200",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=152769575&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C1%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EC%B2%B4%EC%9C%A1%EC%8B%9C%EC%84%A4+%EC%82%AC%EC%9A%A9+%EC%8B%A0%EC%B2%AD%EC%84%9C",
+      "officialPdfUrl": null,
+      "dateKind": "effective",
+      "effectiveDate": "2024-11-19",
+      "regionCode": "51110",
+      "regionLabel": "강원특별자치도 춘천시",
+      "programIds": [
+        "g51110.gov24-O00002300005"
+      ],
+      "programNames": [
+        "문화시설 이용요금 감면(국민 생활관)"
+      ],
+      "formId": "ordin-20179459",
+      "use": "conditional",
+      "formTitle": "[별지 제1호서식] 체육시설 사용 신청서",
+      "sourceMetadataTitle": "[별지 제1호서식] 체육시설 사용 신청서",
+      "verifiedDocumentTitle": "체육시설 사용 신청서 및 허가서",
+      "evidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1987181",
+      "evidenceNote": "춘천시 규칙 제3조제3항은 조례 제12조 감면을 서면 신청할 때 별지 제1호 사용 신청과 제3호 감면 신청을 함께 제출하도록 직접 정한다. 상위 조례2102577 제3조는 개인연습·체력단련도 시설 사용에 포함하고 제12조는 사이트의 장애·보훈·노인·수급자50% 감면을 규정한다. 원문 상단은 개인 이름 또는 단체명·사용시설·목적·서명을 받으므로 서면 감면 접수의 첨부 사용신청에만 연결한다. 사이트의 일일발권 증빙제시 절차에 이 서식이 항상 필수라고 안내하지 않는다. 공식 법규 ID·별표키·flSeq와 실제 원본의 SHA256·전체 본문 섹션을 재대조했다.",
+      "checkedAt": "2026-10-19",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "sha256": "32dbe4b8409c3cd7536dee16453a65ec4cb6e415adaafd588b535b7844cfa4b1",
+      "bytes": 49664,
+      "signature": "d0cf11e0a1b11ae1",
+      "originalFormat": "hwp",
+      "originalTextScope": "all_body_sections_or_pages",
+      "textScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "BodyText/Section0"
+      ],
+      "reviewedParts": [
+        {
+          "number": "별지 제1호 상단",
+          "title": "체육시설 사용 신청서",
+          "use": "conditional",
+          "author": "춘천 국민생활관 시설 사용 신청자"
+        }
+      ],
+      "role": "supporting",
+      "roleBasis": "춘천시 규칙 제3조제3항은 조례 제12조 감면을 서면 신청할 때 별지 제1호 사용 신청과 제3호 감면 신청을 함께 제출하도록 직접 정한다. 상위 조례2102577 제3조는 개인연습·체력단련도 시설 사용에 포함하고 제12조는 사이트의 장애·보훈·노인·수급자50% 감면을 규정한다. 원문 상단은 개인 이름 또는 단체명·사용시설·목적·서명을 받으므로 서면 감면 접수의 첨부 사용신청에만 연결한다. 사이트의 일일발권 증빙제시 절차에 이 서식이 항상 필수라고 안내하지 않는다.",
+      "roleEvidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1987181",
+      "roleCheckedAt": "2026-10-19",
+      "bodyEvidenceText": "제3조(사용신청 및 허가 등)① 조례 제3조에 따라 체육시설을 사용하고자 하는 자는 체육시설 사용 신청서(별지 제1호서식)를 제출해야 하며, 춘천시장(이하 “시장”이라 한다)은 검토 후 체육시설 사용 허가서를 신청인에게 발급해야 한다.② 제1항에 따라 신고한 내용을 변경하고자 할 때에는 체육시설 사용변경 신청서(별지 제2호서식)를 따른다.③ 조례 제12조에 따라 사용료를 감면받고자 하는 자는 체육시설 사용 신청서와 함께 사용료 감면신청서(별지 제3호서식)를 제출해야 한다. 이 경우 국가 또는 지방자치단체의 경우에는 감면요청 공문서로 갈음할 수 있다.",
+      "independentBodyReview": true,
+      "condition": "국민생활관의 시설 사용료 감면을 서면으로 신청하는 경우 별지 제3호 감면신청서와 함께 쓰는 사용신청 부분입니다. 일일입장은 사이트가 안내한 발권 시 자격증빙 제시 절차를 따릅니다.",
+      "excludedParts": [
+        {
+          "number": "별지 제1호 하단",
+          "title": "체육시설 사용 허가서",
+          "reason": "춘천시가 발급하는 허가 부분"
+        }
+      ],
+      "displayTitle": "체육시설 사용 신청서"
+    },
+    {
+      "sourceKind": "ordin",
+      "lawTitle": "춘천시 체육시설 관리운영 조례 시행규칙",
+      "lawId": "1987181",
+      "annexId": "20179583",
+      "annexNumber": "000400",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=152769699&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C3%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EC%82%AC%EC%9A%A9%EB%A3%8C+%EA%B0%90%EB%A9%B4%EC%8B%A0%EC%B2%AD%EC%84%9C",
+      "officialPdfUrl": null,
+      "dateKind": "effective",
+      "effectiveDate": "2024-11-19",
+      "regionCode": "51110",
+      "regionLabel": "강원특별자치도 춘천시",
+      "programIds": [
+        "g51110.gov24-O00002300005"
+      ],
+      "programNames": [
+        "문화시설 이용요금 감면(국민 생활관)"
+      ],
+      "formId": "ordin-20179583",
+      "use": "main",
+      "formTitle": "[별지 제3호서식] 사용료 감면신청서",
+      "sourceMetadataTitle": "[별지 제3호서식] 사용료 감면신청서",
+      "verifiedDocumentTitle": "사용료 감면신청서",
+      "evidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1987181",
+      "evidenceNote": "춘천시 규칙 제3조제3항은 조례 제12조에 따른 감면을 별지 제3호로 신청하도록 정한다. 상위 조례2102577 제12조제3항에서 등록장애·보훈·노인·기초생활수급자50% 감면을 확인했고 사이트 국민생활관의 대상·감면율과 일치한다. 원문은 사용시설·감면사유·감면금액·신청인 서명을 받는다. 경기·행사 기재란이 있어도 같은 조문이 개인 대상 감면까지 직접 포함하므로 업체 전용으로 오인하지 않았다. 공식 법규 ID·별표키·flSeq와 실제 원본의 SHA256·전체 본문 섹션을 재대조했다.",
+      "checkedAt": "2026-10-19",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "sha256": "b12678765792ffb7495d50aad9f2068806cf1202d2b2c3414dfc5bf0d0ca8147",
+      "bytes": 32256,
+      "signature": "d0cf11e0a1b11ae1",
+      "originalFormat": "hwp",
+      "originalTextScope": "all_body_sections_or_pages",
+      "textScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "BodyText/Section0"
+      ],
+      "reviewedParts": [
+        {
+          "number": "별지 제3호",
+          "title": "체육시설 사용료 감면신청서",
+          "use": "main",
+          "author": "춘천 국민생활관 요금감면 신청인"
+        }
+      ],
+      "role": "application",
+      "roleBasis": "춘천시 규칙 제3조제3항은 조례 제12조에 따른 감면을 별지 제3호로 신청하도록 정한다. 상위 조례2102577 제12조제3항에서 등록장애·보훈·노인·기초생활수급자50% 감면을 확인했고 사이트 국민생활관의 대상·감면율과 일치한다. 원문은 사용시설·감면사유·감면금액·신청인 서명을 받는다. 경기·행사 기재란이 있어도 같은 조문이 개인 대상 감면까지 직접 포함하므로 업체 전용으로 오인하지 않았다.",
+      "roleEvidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1987181",
+      "roleCheckedAt": "2026-10-19",
+      "bodyEvidenceText": "제3조(사용신청 및 허가 등)① 조례 제3조에 따라 체육시설을 사용하고자 하는 자는 체육시설 사용 신청서(별지 제1호서식)를 제출해야 하며, 춘천시장(이하 “시장”이라 한다)은 검토 후 체육시설 사용 허가서를 신청인에게 발급해야 한다.② 제1항에 따라 신고한 내용을 변경하고자 할 때에는 체육시설 사용변경 신청서(별지 제2호서식)를 따른다.③ 조례 제12조에 따라 사용료를 감면받고자 하는 자는 체육시설 사용 신청서와 함께 사용료 감면신청서(별지 제3호서식)를 제출해야 한다. 이 경우 국가 또는 지방자치단체의 경우에는 감면요청 공문서로 갈음할 수 있다.",
+      "independentBodyReview": true
+    },
+    {
+      "sourceKind": "ordin",
+      "lawTitle": "광양시 장애인복지 증진 조례",
+      "lawId": "1988123",
+      "annexId": "18801901",
+      "annexNumber": "000200",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=145778033&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C2%ED%98%B8+%EC%84%9C%EC%8B%9D%5D+%EA%B0%9C%EC%9D%B8%EC%A0%95%EB%B3%B4+%EC%B2%98%EB%A6%AC+%EB%8F%99%EC%9D%98%EC%84%9C",
+      "officialPdfUrl": null,
+      "dateKind": "effective",
+      "effectiveDate": "2024-11-01",
+      "regionCode": "12190",
+      "regionLabel": "전남광주통합특별시 광양시",
+      "programIds": [
+        "g12190.gov24-484000000117"
+      ],
+      "programNames": [
+        "장애인 교통비 지급"
+      ],
+      "formId": "ordin-18801901",
+      "use": "additional",
+      "formTitle": "[별지 제2호 서식] 개인정보 처리 동의서",
+      "sourceMetadataTitle": "[별지 제2호 서식] 개인정보 처리 동의서",
+      "verifiedDocumentTitle": "장애인 교통비 지원 개인정보 처리 동의서",
+      "evidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1988123",
+      "evidenceNote": "광양시 제20조제1항은 장애인 교통비 신청에 제1호와 제2호를 함께 제출하도록 정한다. 실제 제2호의 수집목적은 모든 단락에서 장애인 교통비 지원으로 특정되고 주소·계좌·장애정보 및 본인 서명을 받는다. 사이트 교통비 월2만원 사업에만 연결하고 같은 조례의 유료방송·행복카드 동의서로 확대하지 않는다. 공식 법규 ID·별표키·flSeq와 실제 원본의 SHA256·전체 본문 섹션을 재대조했다.",
+      "checkedAt": "2026-10-19",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "sha256": "18a7cf3b57bf171955dc68a8c4b74f3a241864d8cf81b727f7564c5c1b3a26b1",
+      "bytes": 12288,
+      "signature": "d0cf11e0a1b11ae1",
+      "originalFormat": "hwp",
+      "originalTextScope": "all_body_sections_or_pages",
+      "textScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "BodyText/Section0"
+      ],
+      "reviewedParts": [
+        {
+          "number": "별지 제2호",
+          "title": "개인정보 처리 동의서",
+          "use": "additional",
+          "author": "장애인 교통비 신청자·대리인 또는 법정대리인"
+        }
+      ],
+      "role": "consent",
+      "roleBasis": "광양시 제20조제1항은 장애인 교통비 신청에 제1호와 제2호를 함께 제출하도록 정한다. 실제 제2호의 수집목적은 모든 단락에서 장애인 교통비 지원으로 특정되고 주소·계좌·장애정보 및 본인 서명을 받는다. 사이트 교통비 월2만원 사업에만 연결하고 같은 조례의 유료방송·행복카드 동의서로 확대하지 않는다.",
+      "roleEvidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1988123",
+      "roleCheckedAt": "2026-10-19",
+      "bodyEvidenceText": "제18조(지원대상자의 범위 및 지급시기) 지원대상은 법 제32조에 따라 등록된 장애인으로 장애정도가 심한 장애인으로 하며, 지급시기는 장애인 교통비 급여 신청서를 제출한 날 또는 직권 신청의 경우 수급자의 동의를 받은 날부터 한다. <개정 2019.6.26.>\n제20조(지급신청 및 방법 등)① 장애인교통비를 지급받고자 하는 사람은 별지 제1호 서식, 별지 제2호 서식에 따른 신청서를 주소지 관할 읍·면·동장에게 제출해야 하며, 읍·면·동장은 신청서를 받아 다음 월 15일까지 대상자 명부를 시장에게 제출해야 한다.② 본인이 부득이한 사유로 신청할 수 없을 경우에는 배우자, 부양의무자 또는 위임받은 자(위임장 소지자)가 신청할 수 있다.",
+      "independentBodyReview": true
+    },
+    {
+      "sourceKind": "ordin",
+      "lawTitle": "광양시 장애인복지 증진 조례",
+      "lawId": "1988123",
+      "annexId": "18801903",
+      "annexNumber": "000300",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=145778035&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C3%ED%98%B8+%EC%84%9C%EC%8B%9D%5D+%EC%9C%A0%EB%A3%8C%EB%B0%A9%EC%86%A1+%EC%9D%B4%EC%9A%A9%EC%9A%94%EA%B8%88+%EC%A7%80%EC%9B%90+%EC%8B%A0%EC%B2%AD%EC%84%9C",
+      "officialPdfUrl": null,
+      "dateKind": "effective",
+      "effectiveDate": "2024-11-01",
+      "regionCode": "12190",
+      "regionLabel": "전남광주통합특별시 광양시",
+      "programIds": [
+        "g12190.gov24-484000000139"
+      ],
+      "programNames": [
+        "저소득 중증장애인가구 유료방송 이용요금 지원"
+      ],
+      "formId": "ordin-18801903",
+      "use": "main",
+      "formTitle": "[별지 제3호 서식] 유료방송 이용요금 지원 신청서",
+      "sourceMetadataTitle": "[별지 제3호 서식] 유료방송 이용요금 지원 신청서",
+      "verifiedDocumentTitle": "유료방송 이용요금 지원 신청서",
+      "evidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1988123",
+      "evidenceNote": "광양시 제22·25조는 저소득 중증장애인가구 유료방송 이용료를 별지 제3호로 신청하도록 정한다. 원문은 대상자·신청인 관계·서명 및 읍면동 자격 확인을 받으며 사이트의 중증 시각장애인가구 방송료 지원과 목적·관할·신청 주체가 일치한다. 인쇄된 제31조 인용은 현행 지정 조문 제25조와 구분해 대조했다. 공식 법규 ID·별표키·flSeq와 실제 원본의 SHA256·전체 본문 섹션을 재대조했다.",
+      "checkedAt": "2026-10-19",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "sha256": "c2450b34c4ec734e1ddab5295bdb629ad6c6a5403b43a76ec4bdba59cdd1de5b",
+      "bytes": 11776,
+      "signature": "d0cf11e0a1b11ae1",
+      "originalFormat": "hwp",
+      "originalTextScope": "all_body_sections_or_pages",
+      "textScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "BodyText/Section0"
+      ],
+      "reviewedParts": [
+        {
+          "number": "별지 제3호",
+          "title": "유료방송 이용요금 지원 신청서",
+          "use": "main",
+          "author": "저소득 중증장애인 또는 법정대리인·보호자"
+        }
+      ],
+      "role": "application",
+      "roleBasis": "광양시 제22·25조는 저소득 중증장애인가구 유료방송 이용료를 별지 제3호로 신청하도록 정한다. 원문은 대상자·신청인 관계·서명 및 읍면동 자격 확인을 받으며 사이트의 중증 시각장애인가구 방송료 지원과 목적·관할·신청 주체가 일치한다. 인쇄된 제31조 인용은 현행 지정 조문 제25조와 구분해 대조했다.",
+      "roleEvidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1988123",
+      "roleCheckedAt": "2026-10-19",
+      "bodyEvidenceText": "제22조(지원대상) 「장애인복지법」 제6조 및 제30조에 따라 시에 「주민등록법」제6조에 따라 등록하고 실제 거주하고 있는 저소득 중증장애인이 생활하고 있는 가구에 유료방송 이용요금을 지원할 수 있다.\n제25조(지원신청)① 유료방송 이용요금 지원 신청은 저소득 중증장애인이나 그 법정대리인 또는 「장애인복지법 시행령」 제20조에 따른 보호자(이하 \"신청인\"이라 한다)가 별지 제3호 서식의 이용요금 지원 신청서(이하 \"신청서\"라 한다)를 작성하여 거주지 관할 읍·면·동장에게 제출해야 한다.② 읍·면·동장은 신청서가 접수되면 제22조에 따른 지원대상 여부를 사회복지통합전산망 등 행정정보를 통하여 확인해야 한다.③ 읍·면·동장은 제2항에 따른 확인결과 지원대상으로 인정되면 신청서의 확인란에 기록 및 날인하여 신청서를 접수한 날부터 10일 이내에 시장에게 송부해야 한다.④ 시장은 제2항에 따라 송부된 신청서를 검토하여 지원여부를 결정하고 지원대상으로 확정한 때에는 해당 내용을 제24조에 따라 협약을 체결한 방송사와 신청인에게 통보해야 한다.",
+      "independentBodyReview": true
+    }
+  ],
+  "sourceReview": {
+    "file": "logs/forms-completion/reviews/team2-batch-032-reviewed.json",
+    "sha256": "ad083118d413714bf1d7f3e9bff401230f52a688bab1719b49ee38bbcdc89895",
+    "dispositionsSHA256": "86ca2c5f4b9b2b5c4d81e28c0dba0cca46581fdee820754c3750af553ffef747",
+    "assignmentSHA256": "b9986d85e9328ca57f0147d7c84a0326e5d980f902c7e88e9d4ea4990b715359"
+  }
+}

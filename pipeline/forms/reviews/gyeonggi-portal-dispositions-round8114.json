@@ -1,0 +1,855 @@
+{
+  "schema": 1,
+  "checkedAt": "2026-10-20",
+  "items": [
+    {
+      "formId": "ordin-20011179",
+      "sha256": "b5288d34f736352e4bc4eced303aa84cea73579c1f3be2ae16bd0f3365fd26be",
+      "disposition": "approved",
+      "fullBodyReviewed": true,
+      "checkedAt": "2026-10-20",
+      "programIds": [
+        "g41480.icare-0085-1489599-1-6-3"
+      ],
+      "use": "conditional",
+      "condition": "파주시 감염병 예방관리 중 방역취약가구의 실내·외 방문방역을 신청할 때만 사용합니다. 파주시에 주소를 둔 국가유공자·장애의 정도가 심한 장애인·65세 이상 홀로 사는 노인·수급/차상위·다문화·북한이탈주민 등 현행 조례제2조의 세대로서300세대 미만 공동주택 또는 단독주택에 거주하는 경우 해당 읍면동 행정복지센터에 제출합니다. 원칙적으로 세대당 연2회이며 감염병 환자가정 등 조례가 정한 예외는 별도 확인합니다. 원본의 넓게 적힌 장애인 세대/65세 이상 노인 세대 체크란만으로 일반 장애인·동거노인가구까지 대상이라고 판단하지 않습니다. 소독업자 비용청구 또는 방문방역 접수대장 용도가 아닙니다.",
+      "sourceProposal": "logs/forms-completion/gyeonggi-20261019/team1/proposals-portal-20261020-paju-disinfection.json",
+      "sourceProposalSHA256": "6b0bff49563bf8b5943227318126c69c678203944fc98e1d2fc4c5bc432d0202",
+      "currentSearchSHA256": "d4cb19253e248a33803da730d6ff21a4ad5f5a76e1a959c4f7ba80491417dc40",
+      "currentBodySHA256": "29ccc874182ed707e382285b2df5fa407cb8de2881302b221866e54f1f361075",
+      "annexBinding": {
+        "binding": "bound",
+        "bindingReason": "OFFICIAL_ANNEX_BOUND_WITH_SAME_FILE",
+        "officialAnnexId": "20011179",
+        "officialAnnexNumber": "1",
+        "officialAnnexTitle": "[별지 제1호서식] 방문방역신청서",
+        "officialFlSeq": "152246895",
+        "officialAnnexUrl": "https://www.law.go.kr/flDownload.do?gubun=ELIS&flSeq=152246895&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C1%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EB%B0%A9%EB%AC%B8%EB%B0%A9%EC%97%AD%EC%8B%A0%EC%B2%AD%EC%84%9C",
+        "officialAnnexDeleted": false
+      },
+      "independentVerification": {
+        "reviewedBy": "/root/national_form_audit",
+        "checkedAt": "2026-10-20",
+        "fullBodyRead": true,
+        "sectionsRead": [
+          "Contents/section0.xml"
+        ],
+        "textLength": 602,
+        "textSHA256": "3fa96b9bd55c0ef9bfb81fd4c1af3b806d86f8f65277838de34cf70b52831c0b",
+        "actualBytesSHA256": "b5288d34f736352e4bc4eced303aa84cea73579c1f3be2ae16bd0f3365fd26be",
+        "currentSearchPath": "logs/forms-completion/gyeonggi-20261019/team1/current-laws-20261020-a/searches/1906081.json",
+        "currentSearchSHA256": "d4cb19253e248a33803da730d6ff21a4ad5f5a76e1a959c4f7ba80491417dc40",
+        "currentBodyPath": "logs/forms-completion/gyeonggi-20261019/team1/current-laws-20261020-a/bodies/1906081.json.gz",
+        "currentBodySHA256": "29ccc874182ed707e382285b2df5fa407cb8de2881302b221866e54f1f361075",
+        "currentAuditPath": "logs/forms-completion/gyeonggi-20261019/team1/current-laws-20261020-a/audit.json",
+        "currentAuditSHA256": "f9ea5e96b35980efb1387a554e5e68cc2fe8bc228d119e84c5241b21e02dabc8",
+        "rawAnnexId": "20011179",
+        "rawAnnexNumber": "000100",
+        "rawAnnexTitle": "[별지 제1호서식] 방문방역신청서",
+        "rawFlSeq": "152246895",
+        "officialAnnexDeleted": false,
+        "sourceLawId": "1906081",
+        "officialBodyLawTitle": "파주시 방역취약계층 방문방역 지원에 관한 조례",
+        "proposalLawTitle": "파주시 방역취약계층 방문방역 지원에 관한 조례",
+        "lawTitleNFKCEqual": true,
+        "printedParts": [
+          "별지 제1호서식"
+        ]
+      },
+      "reviewedParts": [
+        {
+          "number": "별지 제1호서식",
+          "title": "방문방역 신청서 및 행정정보 확인동의",
+          "use": "conditional",
+          "author": "현행 조례의 파주시 방역취약세대 신청인"
+        }
+      ],
+      "reason": "현행1906081 전7조와 부칙을 읽어 제2조의 취약가구·300세대미만 대상주택, 제4조 별지1 읍면동신청/연2회, 제5조 보건소 방역기동반 운영을 대조했다. 오늘nw1의 정확관할·제명·시행일과 별지20011179/fl152246895를 검증하고 재GET한 원본SHA가 보존파일과 일치함을 확인했다. 실제HWPX 전체section0 602자 및 내장이미지0을 읽어 세대주/주택/희망일시/서명·행정정보동의를 확인했다. MOHW가 배포한2026.3 파주시 메뉴판 PDF6쪽의 실제본문3번째행(기타 연번2) 감염병예방관리의 방역취약가구·300세대미만 공동/단독주택·보건소 지역특화사업과 정확P ID의 원천행을 결속했다. 12쪽 중 해당6쪽만 전체 텍스트·시각판독했으며 공유메뉴 페이지를 개별사업페이지로 허위표시하지 않았다.",
+      "newOriginalCount": null,
+      "associationOnly": false
+    },
+    {
+      "formId": "ordin-18138579",
+      "sha256": "ae81b2a80da529f66d531f0c8f29fb2a925778045dc9851ad718298df53f6403",
+      "disposition": "approved",
+      "fullBodyReviewed": true,
+      "checkedAt": "2026-10-20",
+      "programIds": [
+        "g41650.bokjiro-WLF00003346"
+      ],
+      "use": "conditional",
+      "condition": "포천시 의사상자지원 대상 중 이미 의사상자 또는 그 유족·가족으로 인정되어 포천시 청소년교육문화센터·포천청소년문화의집·일동청소년문화의집의 시설/프로그램을 이용하려는 사람의50% 감면 신청 전용입니다. 시설명·기간·감면사유를 적고 해당 자격 증명서류를 붙여 시설에 제출합니다. 의사상자 신규 인정신청이나 현금수당 신청이 아닙니다.",
+      "sourceProposal": "logs/forms-completion/gyeonggi-20261019/team1/proposals-portal-20261020-pocheon-facilities.json",
+      "sourceProposalSHA256": "1fa2e8763e5380139293d98e7e5a413e84353026458fd794ab56dc67fe44aad6",
+      "currentSearchSHA256": "435f1d734fa6f34c86ce6e4d1c2f3634eabf2a792a362de990b8cb6f31904341",
+      "currentBodySHA256": "be1b1838aa43fe52c53b9e469ddb5758536003dbaec3423f160f9e1920b1e7d0",
+      "annexBinding": {
+        "binding": "bound",
+        "bindingReason": "OFFICIAL_ANNEX_BOUND_WITH_SAME_FILE",
+        "officialAnnexId": "18138579",
+        "officialAnnexNumber": "6",
+        "officialAnnexTitle": "[별지 제6호서식] 수련시설의 사용료 감·면 신청서",
+        "officialFlSeq": "142541351",
+        "officialAnnexUrl": "https://www.law.go.kr/flDownload.do?gubun=ELIS&flSeq=142541351&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C6%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EC%88%98%EB%A0%A8%EC%8B%9C%EC%84%A4%EC%9D%98+%EC%82%AC%EC%9A%A9%EB%A3%8C+%EA%B0%90%C2%B7%EB%A9%B4+%EC%8B%A0%EC%B2%AD%EC%84%9C",
+        "officialAnnexDeleted": false
+      },
+      "independentVerification": {
+        "reviewedBy": "/root/national_form_audit",
+        "checkedAt": "2026-10-20",
+        "fullBodyRead": true,
+        "sectionsRead": [
+          "BodyText/Section0"
+        ],
+        "textLength": 254,
+        "textSHA256": "6601482a8c7af479e994d6b092e5a07ceba97315ed54e3e183d2f3e69f0cd753",
+        "actualBytesSHA256": "ae81b2a80da529f66d531f0c8f29fb2a925778045dc9851ad718298df53f6403",
+        "currentSearchPath": "logs/forms-completion/gyeonggi-20261019/current-law-extra14/current-law-searches/1572301.json",
+        "currentSearchSHA256": "435f1d734fa6f34c86ce6e4d1c2f3634eabf2a792a362de990b8cb6f31904341",
+        "currentBodyPath": "logs/forms-completion/gyeonggi-20261019/current-law-extra14/current-law-bodies/1572301.json.gz",
+        "currentBodySHA256": "be1b1838aa43fe52c53b9e469ddb5758536003dbaec3423f160f9e1920b1e7d0",
+        "currentAuditPath": "logs/forms-completion/gyeonggi-20261019/current-law-extra14/audit.json",
+        "currentAuditSHA256": "8a051b560f7a783b8d5be4abc32f6c1a8db633aee2e0e47fdd29d7f4e99f50f2",
+        "rawAnnexId": "18138579",
+        "rawAnnexNumber": "000600",
+        "rawAnnexTitle": "[별지 제6호서식] 수련시설의 사용료 감·면 신청서",
+        "rawFlSeq": "142541351",
+        "officialAnnexDeleted": false,
+        "sourceLawId": "1572301",
+        "officialBodyLawTitle": "포천시 청소년수련시설 설치 및 운영에 관한 조례 시행규칙",
+        "proposalLawTitle": "포천시 청소년수련시설 설치 및 운영에 관한 조례 시행규칙",
+        "lawTitleNFKCEqual": true,
+        "printedParts": [
+          "별지 제6호서식"
+        ]
+      },
+      "reviewedParts": [
+        {
+          "number": "별지 제6호서식",
+          "title": "수련시설의 사용료 감·면 신청서",
+          "use": "conditional",
+          "author": "해당 감면 자격을 확인받은 시설이용 신청인 또는 허용된 장례시설 사용신청인"
+        }
+      ],
+      "reason": "원본 전체254자·1본문섹션 및 내장이미지0을 읽고 실제 신청인·서명·사용목적·구비서류를 확인했다. 현재 동일법규1572301의 전조문·부칙과 정확별지18138579/fl142541351를 대조하고20일 재GET 원본SHA 일치를 확인했다. 제21조제2항제2호타목의 의사상자/유족/가족50%감면과 시행규칙제3조 별지6 감면신청을 직접 결속했다. 현행 상위조례2095713와 의사상자지원조례1970263도 전조문·부칙을 읽었다. 오늘 정확복지로WLF00003346의 대상자 인정요건과 시 설치/직영/위탁 시설감면 지원내용을 대조해 그 혜택 이용 단계에만 제한한다.",
+      "newOriginalCount": null,
+      "associationOnly": false
+    },
+    {
+      "formId": "ordin-18138569",
+      "sha256": "8d79546c403dfc54d1c06125d41a434384b9cfee45809f36cca71add31bb84de",
+      "disposition": "approved",
+      "fullBodyReviewed": true,
+      "checkedAt": "2026-10-20",
+      "programIds": [
+        "g41650.bokjiro-WLF00003346"
+      ],
+      "use": "conditional",
+      "condition": "포천시 의사상자지원의 청소년수련시설 감면 대상자가 실제 시설을 대관할 때 사용하는 사용허가/변경 신청 전용입니다. 해당 시설·행사/수련계획·사용기간·인원과 사용료 면제/감액 사항을 적고,50%감면 자격은 별지6 감면신청 및 증명자료로 별도 확인받습니다. 의사상자 인정이나 수당 지급을 이 대관신청서로 신청하지 않습니다.",
+      "sourceProposal": "logs/forms-completion/gyeonggi-20261019/team1/proposals-portal-20261020-pocheon-facilities.json",
+      "sourceProposalSHA256": "1fa2e8763e5380139293d98e7e5a413e84353026458fd794ab56dc67fe44aad6",
+      "currentSearchSHA256": "435f1d734fa6f34c86ce6e4d1c2f3634eabf2a792a362de990b8cb6f31904341",
+      "currentBodySHA256": "be1b1838aa43fe52c53b9e469ddb5758536003dbaec3423f160f9e1920b1e7d0",
+      "annexBinding": {
+        "binding": "bound",
+        "bindingReason": "OFFICIAL_ANNEX_BOUND_WITH_SAME_FILE",
+        "officialAnnexId": "18138569",
+        "officialAnnexNumber": "1",
+        "officialAnnexTitle": "[별지 제1호 서식] 수련시설의 사용허가·변경허가 신청서",
+        "officialFlSeq": "142541341",
+        "officialAnnexUrl": "https://www.law.go.kr/flDownload.do?gubun=ELIS&flSeq=142541341&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C1%ED%98%B8+%EC%84%9C%EC%8B%9D%5D+%EC%88%98%EB%A0%A8%EC%8B%9C%EC%84%A4%EC%9D%98+%EC%82%AC%EC%9A%A9%ED%97%88%EA%B0%80%C2%B7%EB%B3%80%EA%B2%BD%ED%97%88%EA%B0%80+%EC%8B%A0%EC%B2%AD%EC%84%9C",
+        "officialAnnexDeleted": false
+      },
+      "independentVerification": {
+        "reviewedBy": "/root/national_form_audit",
+        "checkedAt": "2026-10-20",
+        "fullBodyRead": true,
+        "sectionsRead": [
+          "BodyText/Section0"
+        ],
+        "textLength": 300,
+        "textSHA256": "f8a5bb26d9798f140575956307dcf4de99decbbc34da79dbd3d21610949eb9f3",
+        "actualBytesSHA256": "8d79546c403dfc54d1c06125d41a434384b9cfee45809f36cca71add31bb84de",
+        "currentSearchPath": "logs/forms-completion/gyeonggi-20261019/current-law-extra14/current-law-searches/1572301.json",
+        "currentSearchSHA256": "435f1d734fa6f34c86ce6e4d1c2f3634eabf2a792a362de990b8cb6f31904341",
+        "currentBodyPath": "logs/forms-completion/gyeonggi-20261019/current-law-extra14/current-law-bodies/1572301.json.gz",
+        "currentBodySHA256": "be1b1838aa43fe52c53b9e469ddb5758536003dbaec3423f160f9e1920b1e7d0",
+        "currentAuditPath": "logs/forms-completion/gyeonggi-20261019/current-law-extra14/audit.json",
+        "currentAuditSHA256": "8a051b560f7a783b8d5be4abc32f6c1a8db633aee2e0e47fdd29d7f4e99f50f2",
+        "rawAnnexId": "18138569",
+        "rawAnnexNumber": "000100",
+        "rawAnnexTitle": "[별지 제1호 서식] 수련시설의 사용허가·변경허가 신청서",
+        "rawFlSeq": "142541341",
+        "officialAnnexDeleted": false,
+        "sourceLawId": "1572301",
+        "officialBodyLawTitle": "포천시 청소년수련시설 설치 및 운영에 관한 조례 시행규칙",
+        "proposalLawTitle": "포천시 청소년수련시설 설치 및 운영에 관한 조례 시행규칙",
+        "lawTitleNFKCEqual": true,
+        "printedParts": [
+          "별지 제1호서식"
+        ]
+      },
+      "reviewedParts": [
+        {
+          "number": "별지 제1호서식",
+          "title": "수련시설의 사용허가·변경허가 신청서",
+          "use": "conditional",
+          "author": "해당 감면 자격을 확인받은 시설이용 신청인 또는 허용된 장례시설 사용신청인"
+        }
+      ],
+      "reason": "원본 전체300자·1본문섹션 및 내장이미지0을 읽고 실제 신청인·서명·사용목적·구비서류를 확인했다. 현재 동일법규1572301의 전조문·부칙과 정확별지18138569/fl142541341를 대조하고20일 재GET 원본SHA 일치를 확인했다. 제18~19조의 시설사용 허가와 제21조제2항제2호타목50%감면, 시행규칙제2조제1항 별지1 및제3조 별지6의 병행 접수 경로를 확인했다. 현행 상위조례2095713와 의사상자지원조례1970263도 전조문·부칙을 읽었다. 오늘 정확복지로WLF00003346의 대상자 인정요건과 시 설치/직영/위탁 시설감면 지원내용을 대조해 그 혜택 이용 단계에만 제한한다.",
+      "newOriginalCount": null,
+      "associationOnly": false
+    },
+    {
+      "formId": "ordin-18138575",
+      "sha256": "d6e3891bc3d1f7b784653ad8b6183de820b72ae3b1d7d50b02dee179fa9f5985",
+      "disposition": "approved",
+      "fullBodyReviewed": true,
+      "checkedAt": "2026-10-20",
+      "programIds": [
+        "g41650.bokjiro-WLF00003346"
+      ],
+      "use": "conditional",
+      "condition": "포천시 의사상자지원의50%감면 대상인 의사상자·유족·가족이 해당 청소년수련시설의 교육 프로그램을 수강할 때만 사용합니다. 과목·수강기간·수강료 등 실제 프로그램을 적고 별지6 감면신청과 자격증빙을 함께 시설에 제출하여 감면을 확인받습니다. 모든 교육기관 수강신청이나 일반 현금 교육비 신청용이 아닙니다.",
+      "sourceProposal": "logs/forms-completion/gyeonggi-20261019/team1/proposals-portal-20261020-pocheon-facilities.json",
+      "sourceProposalSHA256": "1fa2e8763e5380139293d98e7e5a413e84353026458fd794ab56dc67fe44aad6",
+      "currentSearchSHA256": "435f1d734fa6f34c86ce6e4d1c2f3634eabf2a792a362de990b8cb6f31904341",
+      "currentBodySHA256": "be1b1838aa43fe52c53b9e469ddb5758536003dbaec3423f160f9e1920b1e7d0",
+      "annexBinding": {
+        "binding": "bound",
+        "bindingReason": "OFFICIAL_ANNEX_BOUND_WITH_SAME_FILE",
+        "officialAnnexId": "18138575",
+        "officialAnnexNumber": "4",
+        "officialAnnexTitle": "[별지 제4호서식] 수강신청서",
+        "officialFlSeq": "142541347",
+        "officialAnnexUrl": "https://www.law.go.kr/flDownload.do?gubun=ELIS&flSeq=142541347&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C4%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EC%88%98%EA%B0%95%EC%8B%A0%EC%B2%AD%EC%84%9C",
+        "officialAnnexDeleted": false
+      },
+      "independentVerification": {
+        "reviewedBy": "/root/national_form_audit",
+        "checkedAt": "2026-10-20",
+        "fullBodyRead": true,
+        "sectionsRead": [
+          "BodyText/Section0"
+        ],
+        "textLength": 235,
+        "textSHA256": "17c00ad94e58c98e7d503da03c383b38445849433c4c1d6fab53d03ec9814dbd",
+        "actualBytesSHA256": "d6e3891bc3d1f7b784653ad8b6183de820b72ae3b1d7d50b02dee179fa9f5985",
+        "currentSearchPath": "logs/forms-completion/gyeonggi-20261019/current-law-extra14/current-law-searches/1572301.json",
+        "currentSearchSHA256": "435f1d734fa6f34c86ce6e4d1c2f3634eabf2a792a362de990b8cb6f31904341",
+        "currentBodyPath": "logs/forms-completion/gyeonggi-20261019/current-law-extra14/current-law-bodies/1572301.json.gz",
+        "currentBodySHA256": "be1b1838aa43fe52c53b9e469ddb5758536003dbaec3423f160f9e1920b1e7d0",
+        "currentAuditPath": "logs/forms-completion/gyeonggi-20261019/current-law-extra14/audit.json",
+        "currentAuditSHA256": "8a051b560f7a783b8d5be4abc32f6c1a8db633aee2e0e47fdd29d7f4e99f50f2",
+        "rawAnnexId": "18138575",
+        "rawAnnexNumber": "000400",
+        "rawAnnexTitle": "[별지 제4호서식] 수강신청서",
+        "rawFlSeq": "142541347",
+        "officialAnnexDeleted": false,
+        "sourceLawId": "1572301",
+        "officialBodyLawTitle": "포천시 청소년수련시설 설치 및 운영에 관한 조례 시행규칙",
+        "proposalLawTitle": "포천시 청소년수련시설 설치 및 운영에 관한 조례 시행규칙",
+        "lawTitleNFKCEqual": true,
+        "printedParts": [
+          "별지 제4호서식"
+        ]
+      },
+      "reviewedParts": [
+        {
+          "number": "별지 제4호서식",
+          "title": "수강신청서",
+          "use": "conditional",
+          "author": "해당 감면 자격을 확인받은 시설이용 신청인 또는 허용된 장례시설 사용신청인"
+        }
+      ],
+      "reason": "원본 전체235자·1본문섹션 및 내장이미지0을 읽고 실제 신청인·서명·사용목적·구비서류를 확인했다. 현재 동일법규1572301의 전조문·부칙과 정확별지18138575/fl142541347를 대조하고20일 재GET 원본SHA 일치를 확인했다. 조례제21조는 시설 또는 프로그램 이용자와 수강료를 포함하고 의사상자/유족/가족50%감면을 명시한다. 시행규칙제2조제4항이 실제 수강신청에 별지4를 지정한다. 현행 상위조례2095713와 의사상자지원조례1970263도 전조문·부칙을 읽었다. 오늘 정확복지로WLF00003346의 대상자 인정요건과 시 설치/직영/위탁 시설감면 지원내용을 대조해 그 혜택 이용 단계에만 제한한다.",
+      "newOriginalCount": null,
+      "associationOnly": false
+    },
+    {
+      "formId": "ordin-18138581",
+      "sha256": "e3a910cc0f327b28ad02d8823abb74028e2cbc267337fc94a6301202dcb3da2b",
+      "disposition": "approved",
+      "fullBodyReviewed": true,
+      "checkedAt": "2026-10-20",
+      "programIds": [
+        "g41650.bokjiro-WLF00003346"
+      ],
+      "use": "conditional",
+      "condition": "포천시 의사상자지원의 해당 청소년수련시설 감면을 적용받아 이용하던 사람이 사용·수강을 취소하여 실제 납부한 금액의 반환을 요청할 때만 사용하는 사후서류입니다. 사용허가서와 납부영수증을 첨부합니다. 반환 여부·금액은 현행 조례제22조의 시설사정/불가항력/개강전 취소 또는 사용·수강 취소시점별 기준에 따르며 감면액을 현금으로 지급받는 신청이 아닙니다.",
+      "sourceProposal": "logs/forms-completion/gyeonggi-20261019/team1/proposals-portal-20261020-pocheon-facilities.json",
+      "sourceProposalSHA256": "1fa2e8763e5380139293d98e7e5a413e84353026458fd794ab56dc67fe44aad6",
+      "currentSearchSHA256": "435f1d734fa6f34c86ce6e4d1c2f3634eabf2a792a362de990b8cb6f31904341",
+      "currentBodySHA256": "be1b1838aa43fe52c53b9e469ddb5758536003dbaec3423f160f9e1920b1e7d0",
+      "annexBinding": {
+        "binding": "bound",
+        "bindingReason": "OFFICIAL_ANNEX_BOUND_WITH_SAME_FILE",
+        "officialAnnexId": "18138581",
+        "officialAnnexNumber": "7",
+        "officialAnnexTitle": "[별지 제7호 서식] 사용료반환청구서",
+        "officialFlSeq": "142541353",
+        "officialAnnexUrl": "https://www.law.go.kr/flDownload.do?gubun=ELIS&flSeq=142541353&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C7%ED%98%B8+%EC%84%9C%EC%8B%9D%5D+%EC%82%AC%EC%9A%A9%EB%A3%8C%EB%B0%98%ED%99%98%EC%B2%AD%EA%B5%AC%EC%84%9C",
+        "officialAnnexDeleted": false
+      },
+      "independentVerification": {
+        "reviewedBy": "/root/national_form_audit",
+        "checkedAt": "2026-10-20",
+        "fullBodyRead": true,
+        "sectionsRead": [
+          "BodyText/Section0"
+        ],
+        "textLength": 253,
+        "textSHA256": "21f622800acbb8549c3c6790c5a17e09f57f4a6cb7d124291eb8053871d56344",
+        "actualBytesSHA256": "e3a910cc0f327b28ad02d8823abb74028e2cbc267337fc94a6301202dcb3da2b",
+        "currentSearchPath": "logs/forms-completion/gyeonggi-20261019/current-law-extra14/current-law-searches/1572301.json",
+        "currentSearchSHA256": "435f1d734fa6f34c86ce6e4d1c2f3634eabf2a792a362de990b8cb6f31904341",
+        "currentBodyPath": "logs/forms-completion/gyeonggi-20261019/current-law-extra14/current-law-bodies/1572301.json.gz",
+        "currentBodySHA256": "be1b1838aa43fe52c53b9e469ddb5758536003dbaec3423f160f9e1920b1e7d0",
+        "currentAuditPath": "logs/forms-completion/gyeonggi-20261019/current-law-extra14/audit.json",
+        "currentAuditSHA256": "8a051b560f7a783b8d5be4abc32f6c1a8db633aee2e0e47fdd29d7f4e99f50f2",
+        "rawAnnexId": "18138581",
+        "rawAnnexNumber": "000700",
+        "rawAnnexTitle": "[별지 제7호 서식] 사용료반환청구서",
+        "rawFlSeq": "142541353",
+        "officialAnnexDeleted": false,
+        "sourceLawId": "1572301",
+        "officialBodyLawTitle": "포천시 청소년수련시설 설치 및 운영에 관한 조례 시행규칙",
+        "proposalLawTitle": "포천시 청소년수련시설 설치 및 운영에 관한 조례 시행규칙",
+        "lawTitleNFKCEqual": true,
+        "printedParts": [
+          "별지 제7호서식"
+        ]
+      },
+      "reviewedParts": [
+        {
+          "number": "별지 제7호서식",
+          "title": "사용료 반환 청구서",
+          "use": "conditional",
+          "author": "해당 감면 자격을 확인받은 시설이용 신청인 또는 허용된 장례시설 사용신청인"
+        }
+      ],
+      "reason": "원본 전체253자·1본문섹션 및 내장이미지0을 읽고 실제 신청인·서명·사용목적·구비서류를 확인했다. 현재 동일법규1572301의 전조문·부칙과 정확별지18138581/fl142541353를 대조하고20일 재GET 원본SHA 일치를 확인했다. 조례제22조의 실제납부 사용료·수강료 반환조건과 시행규칙제4조 별지7 지정 및 영수증/허가증 첨부를 대조했다. 동일 감면시설의 이미 이용한 수혜자가 취소하는 단계만 연결한다. 현행 상위조례2095713와 의사상자지원조례1970263도 전조문·부칙을 읽었다. 오늘 정확복지로WLF00003346의 대상자 인정요건과 시 설치/직영/위탁 시설감면 지원내용을 대조해 그 혜택 이용 단계에만 제한한다.",
+      "newOriginalCount": null,
+      "associationOnly": false
+    },
+    {
+      "formId": "ordin-18290969",
+      "sha256": "e968fddae58fea754a0254fd60ad7af54c1a09b587da9be8a2c867aea71890ef",
+      "disposition": "approved",
+      "fullBodyReviewed": true,
+      "checkedAt": "2026-10-20",
+      "programIds": [
+        "g41650.bokjiro-WLF00003346"
+      ],
+      "use": "conditional",
+      "condition": "포천시 의사상자지원 중 공설장사시설 사용료 면제를 신청하는 의사상자 또는 그 배우자의 장례에 한해 사용합니다. 사망자가 장사시설 조례제13조의 사용 자격을 충족해야 하며, 사용신청인/유족은 별지1 사용허가 신청과 사망·사용자격 증빙 및 제15조의 의사상자·배우자 면제자격 증명문서를 함께 제출합니다. 모든 가족·모든 민간 장례시설로 면제를 확대하지 않으며 의사상자 인정·현금위로금 신청용이 아닙니다.",
+      "sourceProposal": "logs/forms-completion/gyeonggi-20261019/team1/proposals-portal-20261020-pocheon-facilities.json",
+      "sourceProposalSHA256": "1fa2e8763e5380139293d98e7e5a413e84353026458fd794ab56dc67fe44aad6",
+      "currentSearchSHA256": "4a613f5e0783371a458826845f74a84937c0a965b50320bcc583963ec44d4a57",
+      "currentBodySHA256": "2fb93a0eaab9d92052efec7e1035892021491806c5b99686ad39a424eb542007",
+      "annexBinding": {
+        "binding": "bound",
+        "bindingReason": "OFFICIAL_ANNEX_BOUND_WITH_SAME_FILE",
+        "officialAnnexId": "18290969",
+        "officialAnnexNumber": "2",
+        "officialAnnexTitle": "[별지 제1호서식] 장사시설 사용허가 신청서",
+        "officialFlSeq": "142999653",
+        "officialAnnexUrl": "https://www.law.go.kr/flDownload.do?gubun=ELIS&flSeq=142999653&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C1%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EC%9E%A5%EC%82%AC%EC%8B%9C%EC%84%A4+%EC%82%AC%EC%9A%A9%ED%97%88%EA%B0%80+%EC%8B%A0%EC%B2%AD%EC%84%9C",
+        "officialAnnexDeleted": false
+      },
+      "independentVerification": {
+        "reviewedBy": "/root/national_form_audit",
+        "checkedAt": "2026-10-20",
+        "fullBodyRead": true,
+        "sectionsRead": [
+          "BodyText/Section0"
+        ],
+        "textLength": 814,
+        "textSHA256": "ee72ff1c130e46c0026c455ad7d1d05072ee97d10ba05476bcd26bfc3690f201",
+        "actualBytesSHA256": "e968fddae58fea754a0254fd60ad7af54c1a09b587da9be8a2c867aea71890ef",
+        "currentSearchPath": "logs/forms-completion/gyeonggi-20261019/current-law-extra14/current-law-searches/1388392.json",
+        "currentSearchSHA256": "4a613f5e0783371a458826845f74a84937c0a965b50320bcc583963ec44d4a57",
+        "currentBodyPath": "logs/forms-completion/gyeonggi-20261019/current-law-extra14/current-law-bodies/1388392.json.gz",
+        "currentBodySHA256": "2fb93a0eaab9d92052efec7e1035892021491806c5b99686ad39a424eb542007",
+        "currentAuditPath": "logs/forms-completion/gyeonggi-20261019/current-law-extra14/audit.json",
+        "currentAuditSHA256": "8a051b560f7a783b8d5be4abc32f6c1a8db633aee2e0e47fdd29d7f4e99f50f2",
+        "rawAnnexId": "18290969",
+        "rawAnnexNumber": "000200",
+        "rawAnnexTitle": "[별지 제1호서식] 장사시설 사용허가 신청서",
+        "rawFlSeq": "142999653",
+        "officialAnnexDeleted": false,
+        "sourceLawId": "1388392",
+        "officialBodyLawTitle": "포천시 장사시설의 설치 및 관리 조례 시행규칙",
+        "proposalLawTitle": "포천시 장사시설의 설치 및 관리 조례 시행규칙",
+        "lawTitleNFKCEqual": true,
+        "printedParts": [
+          "별지 제1호서식"
+        ]
+      },
+      "reviewedParts": [
+        {
+          "number": "별지 제1호서식",
+          "title": "장사시설 사용허가 신청서",
+          "use": "conditional",
+          "author": "해당 감면 자격을 확인받은 시설이용 신청인 또는 허용된 장례시설 사용신청인"
+        }
+      ],
+      "reason": "원본 전체814자·1본문섹션 및 내장이미지0을 읽고 실제 신청인·서명·사용목적·구비서류를 확인했다. 현재 동일법규1388392의 전조문·부칙과 정확별지18290969/fl142999653를 대조하고20일 재GET 원본SHA 일치를 확인했다. 의사상자지원 조례1970263 제4조제2항제7호의 장사시설 감면을 장사조례1629249 제15조제1항제4호의 의사상자/배우자 면제 및제2항 증명문서, 제12~14조 사용허가와 동시요금징수, 시행규칙1388392제2조제1항 별지1 경로에 결속했다. 현행 상위조례1629249와 의사상자지원조례1970263도 전조문·부칙을 읽었다. 오늘 정확복지로WLF00003346의 대상자 인정요건과 시 설치/직영/위탁 시설감면 지원내용을 대조해 그 혜택 이용 단계에만 제한한다.",
+      "newOriginalCount": null,
+      "associationOnly": false
+    },
+    {
+      "formId": "ordin-20004409",
+      "sha256": "92383fc976e3252f2999a8d63d55dc7958a16ab6ebf596657666e40b6fe879a2",
+      "disposition": "approved",
+      "fullBodyReviewed": true,
+      "checkedAt": "2026-10-20",
+      "programIds": [
+        "g41130.bokjiro-WLF00001629",
+        "g41130.gov24-378000000137"
+      ],
+      "use": "additional",
+      "condition": "성남시 아동의료비 본인부담 100만원 상한제 지급 신청에 덧붙이는 서류입니다. 환자 또는 법정대리인이 국가·민간보험·사고보상 등 다른 의료비 지원의 수령 내역과 해당 환수 동의를 작성·서명합니다. 최초 지급신청서는 별지 제1호이며, 이 10호만 제출하여 지원을 신청하는 것은 아닙니다.",
+      "sourceProposal": "logs/forms-completion/gyeonggi-20261019/team2/raw-cited-round4-reviewed-20261020.json",
+      "sourceProposalSHA256": "41a13109b9226a9b1e2ca8c71c7dc036da508dd6ff011fe1e45fdec635f8795f",
+      "currentSearchSHA256": "ea92242afad07c30e2dcf6d5d8c4f689b6017bc576a4221961608decfe094677",
+      "currentBodySHA256": "9ce52bb07acaf19751f3de8d6ee9523c0605590c3dcb2b598f27e47a80d671d1",
+      "annexBinding": {
+        "binding": "bound",
+        "bindingReason": "OFFICIAL_ANNEX_BOUND_WITH_SAME_FILE",
+        "officialAnnexId": "20004409",
+        "officialAnnexNumber": "10",
+        "officialAnnexTitle": "[별지 제10호서식]타 의료비 지원금 등 수령내역 신고서",
+        "officialFlSeq": "152239513",
+        "officialAnnexUrl": "https://www.law.go.kr/flDownload.do?gubun=ELIS&flSeq=152239513&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C10%ED%98%B8%EC%84%9C%EC%8B%9D%5D%ED%83%80+%EC%9D%98%EB%A3%8C%EB%B9%84+%EC%A7%80%EC%9B%90%EA%B8%88+%EB%93%B1+%EC%88%98%EB%A0%B9%EB%82%B4%EC%97%AD+%EC%8B%A0%EA%B3%A0%EC%84%9C",
+        "officialAnnexDeleted": false
+      },
+      "independentVerification": {
+        "reviewedBy": "/root/national_form_audit",
+        "checkedAt": "2026-10-20",
+        "fullBodyRead": true,
+        "sectionsRead": [
+          "BodyText/Section0"
+        ],
+        "textLength": 1054,
+        "textSHA256": "0899c8268fdc1d17f3ee9f175423a563478e069df367d7b21773696edb8d6682",
+        "actualBytesSHA256": "92383fc976e3252f2999a8d63d55dc7958a16ab6ebf596657666e40b6fe879a2",
+        "currentSearchPath": "logs/forms-completion/gyeonggi-20261019/current-law-extra14/current-law-searches/2041475.json",
+        "currentSearchSHA256": "ea92242afad07c30e2dcf6d5d8c4f689b6017bc576a4221961608decfe094677",
+        "currentBodyPath": "logs/forms-completion/gyeonggi-20261019/current-law-extra14/current-law-bodies/2041475.json.gz",
+        "currentBodySHA256": "9ce52bb07acaf19751f3de8d6ee9523c0605590c3dcb2b598f27e47a80d671d1",
+        "currentAuditPath": "logs/forms-completion/gyeonggi-20261019/current-law-extra14/audit.json",
+        "currentAuditSHA256": "8a051b560f7a783b8d5be4abc32f6c1a8db633aee2e0e47fdd29d7f4e99f50f2",
+        "rawAnnexId": "20004409",
+        "rawAnnexNumber": "001000",
+        "rawAnnexTitle": "[별지 제10호서식]타 의료비 지원금 등 수령내역 신고서",
+        "rawFlSeq": "152239513",
+        "officialAnnexDeleted": false,
+        "sourceLawId": "2041475",
+        "officialBodyLawTitle": "성남시 아동의료비 본인부담 100만원 상한제 조례 시행규칙",
+        "proposalLawTitle": "성남시 아동의료비 본인부담 100만원 상한제 조례 시행규칙",
+        "lawTitleNFKCEqual": true,
+        "printedParts": [
+          "10"
+        ]
+      },
+      "reviewedParts": [
+        {
+          "number": "10",
+          "title": "타 의료비 지원금 등 수령내역 신고서",
+          "use": "additional",
+          "author": "환자 또는 법정대리인"
+        }
+      ],
+      "reason": "실제 원본 전체 1054자와 모든 BodyText 섹션을 읽었고 내장 그림 및 작성된 개인정보가 없다. 실제 10호 전체는 환자/법정대리인의 다른 의료비 수령내역과 중복 지원 환수 동의·신고 서명을 받는다. 시행규칙 제3조제2항제6호는 보험금 등 지급제외 금품 확인자료를 요구하지만 10호 번호를 직접 지정하지는 않는다. 이 점을 구분하여, 20일 현재 정확 복지로 WLF00001629가 직접 배포하는 10호 HWPX를 GET해 전체 XML 섹션을 읽고 법령포털 HWP와 공백 제거 전체 본문이 동일함을 확인했다. 정부24 378000000137도 동일 성남 18세 미만 아동의 연간 본인부담 100만원 초과 비급여 지원을 명시한다. 두 정확 사업의 신청 부속만 승인하며 기관 6호 직접청구와 혼동하지 않는다.",
+      "newOriginalCount": null,
+      "associationOnly": false
+    },
+    {
+      "formId": "ordin-21518127",
+      "sha256": "f1f3149e009ab2682c6d0131b4f7b92f2a15ef140158852d78b2c3f9a4b5484a",
+      "disposition": "approved",
+      "fullBodyReviewed": true,
+      "checkedAt": "2026-10-20",
+      "programIds": [
+        "g41610.bokjiro-WLF00003045"
+      ],
+      "use": "conditional",
+      "condition": "이 사업으로 개인 자활기금을 융자받은 후 사업을 변경·중단·폐지하려는 경우에만 사용합니다. 규칙 제8조에 따라 해당 변경·중단·폐지일 15일 전에 신고합니다. 개인 창업·운영자금, 전월세보증금 또는 학자금의 해당 용도만 선택하며 자활기업/기관 지원 및 신규 융자 신청은 포함하지 않습니다.",
+      "sourceProposal": "logs/forms-completion/gyeonggi-20261019/team2/raw-cited-round4-reviewed-20261020.json",
+      "sourceProposalSHA256": "41a13109b9226a9b1e2ca8c71c7dc036da508dd6ff011fe1e45fdec635f8795f",
+      "currentSearchSHA256": "4f98736844c75b40ca15b14673eeeb6f4f6ee5541d09e6df7bd91573c7d14804",
+      "currentBodySHA256": "d9d0671bb68b203ef174afc9ba72c7625b78e8dfdb82eda29065782dd7d284f3",
+      "annexBinding": {
+        "binding": "bound",
+        "bindingReason": "OFFICIAL_ANNEX_BOUND_WITH_SAME_FILE",
+        "officialAnnexId": "21518127",
+        "officialAnnexNumber": "8",
+        "officialAnnexTitle": "[별지 제10호서식] 사업변경(중단, 폐지) 신고서",
+        "officialFlSeq": "161545855",
+        "officialAnnexUrl": "https://www.law.go.kr/flDownload.do?gubun=ELIS&flSeq=161545855&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C10%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EC%82%AC%EC%97%85%EB%B3%80%EA%B2%BD%28%EC%A4%91%EB%8B%A8%2C+%ED%8F%90%EC%A7%80%29+%EC%8B%A0%EA%B3%A0%EC%84%9C",
+        "officialAnnexDeleted": false
+      },
+      "independentVerification": {
+        "reviewedBy": "/root/national_form_audit",
+        "checkedAt": "2026-10-20",
+        "fullBodyRead": true,
+        "sectionsRead": [
+          "BodyText/Section0"
+        ],
+        "textLength": 340,
+        "textSHA256": "4fd83c250ce26c402df4293778ec8a82148fe7fab3801cce52bc2b107d79b859",
+        "actualBytesSHA256": "f1f3149e009ab2682c6d0131b4f7b92f2a15ef140158852d78b2c3f9a4b5484a",
+        "currentSearchPath": "logs/forms-completion/gyeonggi-20261019/current-law-extra14/current-law-searches/2109347.json",
+        "currentSearchSHA256": "4f98736844c75b40ca15b14673eeeb6f4f6ee5541d09e6df7bd91573c7d14804",
+        "currentBodyPath": "logs/forms-completion/gyeonggi-20261019/current-law-extra14/current-law-bodies/2109347.json.gz",
+        "currentBodySHA256": "d9d0671bb68b203ef174afc9ba72c7625b78e8dfdb82eda29065782dd7d284f3",
+        "currentAuditPath": "logs/forms-completion/gyeonggi-20261019/current-law-extra14/audit.json",
+        "currentAuditSHA256": "8a051b560f7a783b8d5be4abc32f6c1a8db633aee2e0e47fdd29d7f4e99f50f2",
+        "rawAnnexId": "21518127",
+        "rawAnnexNumber": "000800",
+        "rawAnnexTitle": "[별지 제10호서식] 사업변경(중단, 폐지) 신고서",
+        "rawFlSeq": "161545855",
+        "officialAnnexDeleted": false,
+        "sourceLawId": "2109347",
+        "officialBodyLawTitle": "광주시 자활기금 설치ᆞ운용 조례 시행규칙",
+        "proposalLawTitle": "광주시 자활기금 설치ㆍ운용 조례 시행규칙",
+        "lawTitleNFKCEqual": true,
+        "printedParts": [
+          "10"
+        ]
+      },
+      "reviewedParts": [
+        {
+          "number": "10",
+          "title": "사업변경(중단ㆍ폐지) 신고서",
+          "use": "conditional",
+          "author": "해당 개인 자활기금 융자를 이미 받은 사람"
+        }
+      ],
+      "reason": "실제 원본 전체 340자와 모든 BodyText 섹션을 읽었고 내장 그림 및 작성된 개인정보가 없다. 인쇄된 실제 번호는 10호이나 포털 별표번호는 목록순서 0008이다. 원본 전체에서 기존 융자 용도·변경 전후·변경 사유·본인 서명을 확인했고, 현행 시행규칙 제8조가 기존 융자·지원자가 15일 전에 10호를 제출하도록 정한다. 현재 WLF00003045의 기초수급·차상위 개인 창업/보증금/학자금 융자에 한정한다. 프로그램의 옛 연대보증 설명을 현재 규칙의 보증보험 절차로 임의 덮어쓰지 않고, 이 서식은 금액·재정보증 자격을 다시 승인하는 신규 신청이 아닌 사후 변경 단계로 제한한다.",
+      "newOriginalCount": null,
+      "associationOnly": false
+    },
+    {
+      "formId": "ordin-21518129",
+      "sha256": "953de49aeb9cb1a6cbd05c304c7d0a24d6805a3a712f4f103def7f2ab62365c3",
+      "disposition": "approved",
+      "fullBodyReviewed": true,
+      "checkedAt": "2026-10-20",
+      "programIds": [
+        "g41610.bokjiro-WLF00003045"
+      ],
+      "use": "conditional",
+      "condition": "이 사업으로 개인 자활기금을 융자받은 뒤 사용하는 두 종류의 사후 서류입니다. 사용한 경우 교부일부터 15일 이내 11호에 영수증 등 증빙을 붙이며, 불가피하게 사용하지 못한 경우 12호에 미사용 사유·사용계획과 계좌 잔액증명을 붙입니다. 본인 상황에 맞는 한 부분을 선택합니다. 기관·단체 지원금 정산이나 점포 임대 지원 사업개시 18호, 신규 개인 융자 신청에는 사용하지 않습니다.",
+      "sourceProposal": "logs/forms-completion/gyeonggi-20261019/team2/raw-cited-round4-reviewed-20261020.json",
+      "sourceProposalSHA256": "41a13109b9226a9b1e2ca8c71c7dc036da508dd6ff011fe1e45fdec635f8795f",
+      "currentSearchSHA256": "4f98736844c75b40ca15b14673eeeb6f4f6ee5541d09e6df7bd91573c7d14804",
+      "currentBodySHA256": "d9d0671bb68b203ef174afc9ba72c7625b78e8dfdb82eda29065782dd7d284f3",
+      "annexBinding": {
+        "binding": "bound",
+        "bindingReason": "OFFICIAL_ANNEX_BOUND_WITH_SAME_FILE",
+        "officialAnnexId": "21518129",
+        "officialAnnexNumber": "9",
+        "officialAnnexTitle": "[별지 제11호서식] 기금 사용 신고서",
+        "officialFlSeq": "161545857",
+        "officialAnnexUrl": "https://www.law.go.kr/flDownload.do?gubun=ELIS&flSeq=161545857&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C11%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EA%B8%B0%EA%B8%88+%EC%82%AC%EC%9A%A9+%EC%8B%A0%EA%B3%A0%EC%84%9C",
+        "officialAnnexDeleted": false
+      },
+      "independentVerification": {
+        "reviewedBy": "/root/national_form_audit",
+        "checkedAt": "2026-10-20",
+        "fullBodyRead": true,
+        "sectionsRead": [
+          "BodyText/Section0"
+        ],
+        "textLength": 800,
+        "textSHA256": "4f188d9fba7479a28885189b604e5954be0ac9edebba66759c11270b57505160",
+        "actualBytesSHA256": "953de49aeb9cb1a6cbd05c304c7d0a24d6805a3a712f4f103def7f2ab62365c3",
+        "currentSearchPath": "logs/forms-completion/gyeonggi-20261019/current-law-extra14/current-law-searches/2109347.json",
+        "currentSearchSHA256": "4f98736844c75b40ca15b14673eeeb6f4f6ee5541d09e6df7bd91573c7d14804",
+        "currentBodyPath": "logs/forms-completion/gyeonggi-20261019/current-law-extra14/current-law-bodies/2109347.json.gz",
+        "currentBodySHA256": "d9d0671bb68b203ef174afc9ba72c7625b78e8dfdb82eda29065782dd7d284f3",
+        "currentAuditPath": "logs/forms-completion/gyeonggi-20261019/current-law-extra14/audit.json",
+        "currentAuditSHA256": "8a051b560f7a783b8d5be4abc32f6c1a8db633aee2e0e47fdd29d7f4e99f50f2",
+        "rawAnnexId": "21518129",
+        "rawAnnexNumber": "000900",
+        "rawAnnexTitle": "[별지 제11호서식] 기금 사용 신고서",
+        "rawFlSeq": "161545857",
+        "officialAnnexDeleted": false,
+        "sourceLawId": "2109347",
+        "officialBodyLawTitle": "광주시 자활기금 설치ᆞ운용 조례 시행규칙",
+        "proposalLawTitle": "광주시 자활기금 설치ㆍ운용 조례 시행규칙",
+        "lawTitleNFKCEqual": true,
+        "printedParts": [
+          "11",
+          "12"
+        ]
+      },
+      "reviewedParts": [
+        {
+          "number": "11",
+          "title": "기금 사용 신고서",
+          "use": "conditional",
+          "author": "해당 개인 융자를 받은 사람"
+        },
+        {
+          "number": "12",
+          "title": "기금 미사용 사유서",
+          "use": "conditional",
+          "author": "불가피한 사유로 개인 융자금을 사용하지 못한 사람"
+        }
+      ],
+      "reason": "실제 원본 전체 800자와 모든 BodyText 섹션을 읽었고 내장 그림 및 작성된 개인정보가 없다. 포털 제목은 11호이고 목록번호는 0009이나 실제 원본 800자 전체에는 인쇄된 11호 사용신고서와 12호 미사용 사유서가 함께 있다. 현행 제10조제1항은 융자받은 개인 등의 교부 후 15일 이내 11호 및 증명자료, 제2항은 불가피한 미사용자의 12호를 지정한다. 두 부분의 본인 서명과 영수증/잔액증명을 각각 확인했다. WLF00003045의 개인 창업·주거보증금·학자금 융자 사후 단계만 범위에 포함하며 기관 지원·상가 임대 및 다른 금액/대상은 확장하지 않는다.",
+      "newOriginalCount": null,
+      "associationOnly": false
+    },
+    {
+      "formId": "ordin-20768729",
+      "sha256": "15ec241668904215f3e077eb0f163fbfd2d9e2ef5f90b3470b879ceaf7b2ca2e",
+      "disposition": "approved",
+      "fullBodyReviewed": true,
+      "checkedAt": "2026-10-20",
+      "programIds": [
+        "g41110.gov24-374000000146"
+      ],
+      "use": "conditional",
+      "condition": "이미 수원시 효도수당을 받는 가정에서 직계존속·직계비속의 사망, 주소 변경 등 3세대 가정 구성요건이 달라진 경우에 사용합니다. 변동사유 발생일부터 15일 이내 관할 동 행정복지센터에 제출하며, 공동이용에 동의하지 않으면 가족관계등록부·주민등록등초본을 직접 제출합니다. 신규 효도수당 신청이나 일반 계좌변경을 위한 서식은 아닙니다.",
+      "sourceProposal": "logs/forms-completion/gyeonggi-20261019/team2/raw-cited-round5-reviewed-20261020.json",
+      "sourceProposalSHA256": "305e289ddca8903360f8f7955c0a8245f990cc26502c96eec88cae4e1c241795",
+      "currentSearchSHA256": "eea741545592e44615540d18852f81ee1bb2b63d73889aa3435df78fd5ecf4dc",
+      "currentBodySHA256": "94353b2058bc9cbed502eda3f3940da7b382ab117ab21c5952e48174ca4cea7f",
+      "annexBinding": {
+        "binding": "bound",
+        "bindingReason": "OFFICIAL_ANNEX_BOUND_WITH_SAME_FILE",
+        "officialAnnexId": "20768729",
+        "officialAnnexNumber": "3",
+        "officialAnnexTitle": "[별지 제3호서식] 효도수당 수급자격 변동신고서",
+        "officialFlSeq": "155490815",
+        "officialAnnexUrl": "https://www.law.go.kr/flDownload.do?gubun=ELIS&flSeq=155490815&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C3%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%ED%9A%A8%EB%8F%84%EC%88%98%EB%8B%B9+%EC%88%98%EA%B8%89%EC%9E%90%EA%B2%A9+%EB%B3%80%EB%8F%99%EC%8B%A0%EA%B3%A0%EC%84%9C",
+        "officialAnnexDeleted": false
+      },
+      "independentVerification": {
+        "reviewedBy": "/root/national_form_audit",
+        "checkedAt": "2026-10-20",
+        "fullBodyRead": true,
+        "sectionsRead": [
+          "BodyText/Section0"
+        ],
+        "textLength": 516,
+        "textSHA256": "09b1e970ab1a7d2f016c20d888ac7ffe44078f72795208477c16277255557bb8",
+        "actualBytesSHA256": "15ec241668904215f3e077eb0f163fbfd2d9e2ef5f90b3470b879ceaf7b2ca2e",
+        "currentSearchPath": "logs/forms-completion/gyeonggi-20261019/team2/current-law-round1-20261020/current-law-searches/1503943.json",
+        "currentSearchSHA256": "eea741545592e44615540d18852f81ee1bb2b63d73889aa3435df78fd5ecf4dc",
+        "currentBodyPath": "logs/forms-completion/gyeonggi-20261019/team2/current-law-round1-20261020/current-law-bodies/1503943.json.gz",
+        "currentBodySHA256": "94353b2058bc9cbed502eda3f3940da7b382ab117ab21c5952e48174ca4cea7f",
+        "currentAuditPath": "logs/forms-completion/gyeonggi-20261019/team2/current-law-round1-20261020/audit.json",
+        "currentAuditSHA256": "d0bc828b7aa924baaa5b60ad77c60b072427db2a0ed2bf25847c0636eb4c6aeb",
+        "rawAnnexId": "20768729",
+        "rawAnnexNumber": "000300",
+        "rawAnnexTitle": "[별지 제3호서식] 효도수당 수급자격 변동신고서",
+        "rawFlSeq": "155490815",
+        "officialAnnexDeleted": false,
+        "sourceLawId": "1503943",
+        "officialBodyLawTitle": "수원시 효도수당 지원에 관한 조례",
+        "proposalLawTitle": "수원시 효도수당 지원에 관한 조례",
+        "lawTitleNFKCEqual": true,
+        "printedParts": [
+          "3"
+        ]
+      },
+      "reviewedParts": [
+        {
+          "number": "3",
+          "title": "효도수당 수급자격 변동신고서",
+          "use": "conditional",
+          "author": "기존 효도수당 수급자"
+        }
+      ],
+      "reason": "실제 3호 전체의 직계존속/비속 사망·주소변동·그 외 사유, 기존 3세대 가정 신고 문구, 본인 서명과 공동이용 동의를 읽었다. 20일 공식 현행 법규1503943 제7조는 제6조제1항제1호의 수급자격 변동이 생기면 15일 이내 3호 제출하도록 정확히 정한다. 정부24 374000000146 현재 안내의 80세 이상 직계존속 포함 3세대·수원5년·반기5만원 효도수당과 같은 제도다. 실제 지급 후 자격변동 단계만 보조/조건부로 제공하며 신규 신청1호나 임의 대리수령에 확대하지 않는다.",
+      "newOriginalCount": null,
+      "associationOnly": false
+    },
+    {
+      "formId": "ordin-21767433",
+      "sha256": "705f1cf9f69a4fc97a3a5979198244f19562e8acd011c122a74b1ae3cdb19af2",
+      "disposition": "approved",
+      "fullBodyReviewed": true,
+      "checkedAt": "2026-10-20",
+      "programIds": [
+        "g41670.bokjiro-WLF00002922"
+      ],
+      "use": "main",
+      "condition": "조례 설명 뒤의 별지 제20호와 그 아래 공동이용·개인정보 동의 부분을 작성합니다. 이 사업에 해당하는 수급자·중증장애인·다자녀·국가보훈·한부모/조손/청소년한부모 중 해당 항목을 선택하고 자격 증빙을 준비합니다. 다자녀 칸은 현재 원본의 2명 이상 기준이며 정확 대상요건은 해당 사업 안내를 따릅니다. 모범업소·기타 기관, 누수용19호·중수도18호, 다른 공사·설비 민원, 납부고지·검사·대장과 삭제서식은 이 연결에서 제외합니다.",
+      "sourceProposal": "logs/forms-completion/gyeonggi-20261019/team2/raw-cited-round6-reviewed-20261020.json",
+      "sourceProposalSHA256": "b0a44eafe3332bef58b2b7286e4ba0d354727ff9fd852cf708f221fcd9968011",
+      "currentSearchSHA256": "d3be84546ff263c73105471a8bfdb30354a7a3222a893dd8d80147aee68f5250",
+      "currentBodySHA256": "3ae938aa5fa4dd4f3880233d4563825d67a8359efca351a82f38ee8ab256e648",
+      "annexBinding": {
+        "binding": "bound",
+        "bindingReason": "OFFICIAL_ANNEX_BOUND_WITH_SAME_FILE",
+        "officialAnnexId": "21767433",
+        "officialAnnexNumber": "1",
+        "officialAnnexTitle": "여주시 수도급수 조례 시행규칙",
+        "officialFlSeq": "163523815",
+        "officialAnnexUrl": "https://www.law.go.kr/flDownload.do?gubun=ELIS&flSeq=163523815&flNm=%EC%97%AC%EC%A3%BC%EC%8B%9C+%EC%88%98%EB%8F%84%EA%B8%89%EC%88%98+%EC%A1%B0%EB%A1%80+%EC%8B%9C%ED%96%89%EA%B7%9C%EC%B9%99",
+        "officialAnnexDeleted": false
+      },
+      "independentVerification": {
+        "reviewedBy": "/root/national_form_audit",
+        "checkedAt": "2026-10-20",
+        "fullBodyRead": true,
+        "sectionsRead": [
+          "BodyText/Section0",
+          "BodyText/Section1",
+          "BodyText/Section2",
+          "BodyText/Section3",
+          "BodyText/Section4",
+          "BodyText/Section5",
+          "BodyText/Section6"
+        ],
+        "textLength": 17471,
+        "textSHA256": "376b5c2b862fe7276a773edf9ee5e398d22c17d91f2303924b33726e86052399",
+        "actualBytesSHA256": "705f1cf9f69a4fc97a3a5979198244f19562e8acd011c122a74b1ae3cdb19af2",
+        "currentSearchPath": "logs/forms-completion/gyeonggi-20261019/team2/current-law-round2-20261020/current-law-searches/2123455.json",
+        "currentSearchSHA256": "d3be84546ff263c73105471a8bfdb30354a7a3222a893dd8d80147aee68f5250",
+        "currentBodyPath": "logs/forms-completion/gyeonggi-20261019/team2/current-law-round2-20261020/current-law-bodies/2123455.json.gz",
+        "currentBodySHA256": "3ae938aa5fa4dd4f3880233d4563825d67a8359efca351a82f38ee8ab256e648",
+        "currentAuditPath": "logs/forms-completion/gyeonggi-20261019/team2/current-law-round2-20261020/audit.json",
+        "currentAuditSHA256": "35e6505753a1bd19926918feeefb15645d9e6e208a3b3f61b75a5460970819a2",
+        "rawAnnexId": "21767433",
+        "rawAnnexNumber": "000100",
+        "rawAnnexTitle": "여주시 수도급수 조례 시행규칙",
+        "rawFlSeq": "163523815",
+        "officialAnnexDeleted": false,
+        "sourceLawId": "2123455",
+        "officialBodyLawTitle": "여주시 수도급수 조례 시행규칙",
+        "proposalLawTitle": "여주시 수도급수 조례 시행규칙",
+        "lawTitleNFKCEqual": true,
+        "printedParts": [
+          "20",
+          "20 (신청서 아래)"
+        ]
+      },
+      "reviewedParts": [
+        {
+          "number": "20",
+          "title": "수도요금 감면신청서",
+          "use": "main",
+          "author": "해당 감면 자격을 갖춘 수도사용자"
+        },
+        {
+          "number": "20 (신청서 아래)",
+          "title": "행정정보 공동이용 동의서 / 개인정보 수집·이용 동의서",
+          "use": "additional",
+          "author": "신청인·동의자"
+        }
+      ],
+      "reason": "실제 시행규칙 원본 17,471자의 7개 BodyText 섹션을 전부 읽었고 모든 조문·부칙·1~22호(삭제 표시 포함)를 확인했다. 내장 이미지 및 작성된 개인정보가 없다. 상위 조례 원본도 51조문·부칙·별표 전체 16,445자를 읽었다. 제25조제7항은 20호 제출을 정하며, 실제 2026.4.15 개정 20호에는 수급자·장애정도가 심한 장애인·2명 이상 다자녀·국가보훈·한부모/조손/청소년한부모 및 본인 서명·공동이용/개인정보 동의가 있다. 한부모는 제25조제7항의 열거 목록에는 13호가 누락되어 있으므로 그 항에서 직접 열거했다고 주장하지 않는다. 상위 제37조제1항제13호·규칙 제25조제1항제13호의 지원근거, 현행20호의 명시 선택칸 및 현재 두 공식 사업 안내가 함께 한부모 지원과 제출을 확인한다. 현재 WLF00002922의 다섯 지원대상군과 각 5세제곱미터 감면·읍면동 방문 절차를 정확히 대조했다. 원본 내 다른 수리/설비/고지/누수 신청은 이 복지로 사업 범위로 확장하지 않는다.",
+      "newOriginalCount": null,
+      "associationOnly": false
+    },
+    {
+      "formId": "ordin-21767433",
+      "sha256": "705f1cf9f69a4fc97a3a5979198244f19562e8acd011c122a74b1ae3cdb19af2",
+      "disposition": "approved",
+      "fullBodyReviewed": true,
+      "checkedAt": "2026-10-20",
+      "programIds": [
+        "g41670.gov24-O00008900001"
+      ],
+      "use": "main",
+      "condition": "취약계층·보훈·다자녀·한부모 등 자격으로 감면받으려면 별지 제20호 및 아래 동의를 작성합니다. 본인 책임이 없는 지하·벽체 누수를 복구한 경우에는 별지 제19호를 선택하고 복구 전·중·후 사진과 공사 영수증/완료확인서를 붙입니다. 19호는 고의·과실 또는 변기·물탱크·보일러 등 눈에 보이는 누수에는 사용하지 않습니다. 사유에 맞는 신청 부분만 사용하며 다른 공사/계량기 민원·중수도18호·기관 고지/검사/대장·삭제서식은 제외합니다.",
+      "sourceProposal": "logs/forms-completion/gyeonggi-20261019/team2/raw-cited-round6-reviewed-20261020.json",
+      "sourceProposalSHA256": "b0a44eafe3332bef58b2b7286e4ba0d354727ff9fd852cf708f221fcd9968011",
+      "currentSearchSHA256": "d3be84546ff263c73105471a8bfdb30354a7a3222a893dd8d80147aee68f5250",
+      "currentBodySHA256": "3ae938aa5fa4dd4f3880233d4563825d67a8359efca351a82f38ee8ab256e648",
+      "annexBinding": {
+        "binding": "bound",
+        "bindingReason": "OFFICIAL_ANNEX_BOUND_WITH_SAME_FILE",
+        "officialAnnexId": "21767433",
+        "officialAnnexNumber": "1",
+        "officialAnnexTitle": "여주시 수도급수 조례 시행규칙",
+        "officialFlSeq": "163523815",
+        "officialAnnexUrl": "https://www.law.go.kr/flDownload.do?gubun=ELIS&flSeq=163523815&flNm=%EC%97%AC%EC%A3%BC%EC%8B%9C+%EC%88%98%EB%8F%84%EA%B8%89%EC%88%98+%EC%A1%B0%EB%A1%80+%EC%8B%9C%ED%96%89%EA%B7%9C%EC%B9%99",
+        "officialAnnexDeleted": false
+      },
+      "independentVerification": {
+        "reviewedBy": "/root/national_form_audit",
+        "checkedAt": "2026-10-20",
+        "fullBodyRead": true,
+        "sectionsRead": [
+          "BodyText/Section0",
+          "BodyText/Section1",
+          "BodyText/Section2",
+          "BodyText/Section3",
+          "BodyText/Section4",
+          "BodyText/Section5",
+          "BodyText/Section6"
+        ],
+        "textLength": 17471,
+        "textSHA256": "376b5c2b862fe7276a773edf9ee5e398d22c17d91f2303924b33726e86052399",
+        "actualBytesSHA256": "705f1cf9f69a4fc97a3a5979198244f19562e8acd011c122a74b1ae3cdb19af2",
+        "currentSearchPath": "logs/forms-completion/gyeonggi-20261019/team2/current-law-round2-20261020/current-law-searches/2123455.json",
+        "currentSearchSHA256": "d3be84546ff263c73105471a8bfdb30354a7a3222a893dd8d80147aee68f5250",
+        "currentBodyPath": "logs/forms-completion/gyeonggi-20261019/team2/current-law-round2-20261020/current-law-bodies/2123455.json.gz",
+        "currentBodySHA256": "3ae938aa5fa4dd4f3880233d4563825d67a8359efca351a82f38ee8ab256e648",
+        "currentAuditPath": "logs/forms-completion/gyeonggi-20261019/team2/current-law-round2-20261020/audit.json",
+        "currentAuditSHA256": "35e6505753a1bd19926918feeefb15645d9e6e208a3b3f61b75a5460970819a2",
+        "rawAnnexId": "21767433",
+        "rawAnnexNumber": "000100",
+        "rawAnnexTitle": "여주시 수도급수 조례 시행규칙",
+        "rawFlSeq": "163523815",
+        "officialAnnexDeleted": false,
+        "sourceLawId": "2123455",
+        "officialBodyLawTitle": "여주시 수도급수 조례 시행규칙",
+        "proposalLawTitle": "여주시 수도급수 조례 시행규칙",
+        "lawTitleNFKCEqual": true,
+        "printedParts": [
+          "20",
+          "20 (신청서 아래)",
+          "19"
+        ]
+      },
+      "reviewedParts": [
+        {
+          "number": "20",
+          "title": "수도요금 감면신청서",
+          "use": "main",
+          "author": "해당 감면 자격을 갖춘 수도사용자"
+        },
+        {
+          "number": "20 (신청서 아래)",
+          "title": "행정정보 공동이용 동의서 / 개인정보 수집·이용 동의서",
+          "use": "additional",
+          "author": "신청인·동의자"
+        },
+        {
+          "number": "19",
+          "title": "수도요금 감면 신청서 (누수복구완료)",
+          "use": "conditional",
+          "author": "본인 책임 없는 지하·벽체 누수를 복구한 수도사용자"
+        }
+      ],
+      "reason": "실제 시행규칙 원본 17,471자의 7개 BodyText 섹션을 전부 읽었고 모든 조문·부칙·1~22호(삭제 표시 포함)를 확인했다. 내장 이미지 및 작성된 개인정보가 없다. 상위 조례 원본도 51조문·부칙·별표 전체 16,445자를 읽었다. 제25조제7항은 20호 제출을 정하며, 실제 2026.4.15 개정 20호에는 수급자·장애정도가 심한 장애인·2명 이상 다자녀·국가보훈·한부모/조손/청소년한부모 및 본인 서명·공동이용/개인정보 동의가 있다. 한부모는 제25조제7항의 열거 목록에는 13호가 누락되어 있으므로 그 항에서 직접 열거했다고 주장하지 않는다. 상위 제37조제1항제13호·규칙 제25조제1항제13호의 지원근거, 현행20호의 명시 선택칸 및 현재 두 공식 사업 안내가 함께 한부모 지원과 제출을 확인한다. 현재 정부24 O00008900001은 자격 감면 외에 지하·벽체 누수복구 후 감면을 실제 별도로 명시한다. 규칙 제25조제6항이 19호와 복구 증빙을 지정하고 제1항제2호의 귀책/육안 식별 제외·평균사용량 공제 후 누수량50% 범위를 실제19호의 누수위치·원인·복구완료·신청인 서명과 대조했다. 따라서 이 사업은20호와 조건부19호 두 접수 사유를 구분한다.",
+      "newOriginalCount": null,
+      "associationOnly": false
+    }
+  ],
+  "counts": {
+    "uniqueOriginals": 11,
+    "newOriginals": 11,
+    "rows": 12,
+    "programmeAssociations": 13
+  },
+  "sourceGate": "passed_independent_bytes_sections_current_raw_annex_binding",
+  "importerDryGate": {
+    "round": 8114,
+    "dryGate": "passed",
+    "newOriginals": 11,
+    "newAssociations": 13,
+    "reviewRows": 12,
+    "totalDryForms": 2775,
+    "totalDryAssociations": 3488
+  }
+}

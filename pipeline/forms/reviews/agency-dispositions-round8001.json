@@ -1,0 +1,38 @@
+{
+  "schema": 1,
+  "checkedAt": "2026-10-19",
+  "status": "complete",
+  "items": [
+    {
+      "formId": "agency-44250-36032",
+      "sha256": "9f4f5da862e27f1db4fe81bef9ef0ec4cf46dbedc7f3405b37c362e3f611aee8",
+      "disposition": "approved",
+      "fullBodyReviewed": true,
+      "reason": "코디네이터가 2026.5.12 계룡시청 가족돌봄과의 공식 민원사무편람 게시물·첨부36032 전체 HWP1497자 및 현행1933095 제1~8조와 부칙, 실제 수록 화장장려금 혜택을 대조했다. 새 원본은 1년 이상 거주 확인란을 제거하고 사망·사산/영아·분묘개장 유형, 본인계좌·관계·서명·공동이용 동의와 10만원/5만원 지급기준·6개월 접수를 담아 현행 조례와 맞는다. 옛 ordin17575933을 덮어쓰지 않고 별도 agency 원본으로 정확히 해당 혜택에 제공한다.",
+      "evidenceUrl": "https://gyeryong.go.kr/kr/html/sub01/0102.html?GotoPage=1&mode=V&no=8b4a546e2b7ff4fdc2deabe7d1ec278d",
+      "checkedAt": "2026-10-19",
+      "relatedProgramIds": [
+        "g44250.bokjiro-WLF00002098"
+      ],
+      "reviewedProgramPairs": [
+        {
+          "programId": "g44250.bokjiro-WLF00002098",
+          "disposition": "approved"
+        }
+      ],
+      "sourceProposal": "logs/forms-completion/official-followup/team2/case02-proposed-reviewed.json",
+      "sourceProposalSHA256": "aa1c884396ab86dc9f4fd68c59e9542ce61fd42f674abd14ddf2e2d384c2dc26",
+      "sourceLawBodySHA256": "8423943b75844658b44edf98d3335242123f537a0ad28474ab91bf3f09ed0464",
+      "selectedParts": [
+        {
+          "number": "1",
+          "title": "화장장려금 지원 신청서",
+          "use": "main",
+          "author": "사망자 또는 개장 유골의 연고자"
+        }
+      ]
+    }
+  ],
+  "scopeFile": "pipeline/forms/reviews/agency-originals-scope-round8001.json",
+  "scopeSHA256": "7a7440146334395618bc90b55e0876c5232bd67d92e80ca33475a4aa867036b4"
+}

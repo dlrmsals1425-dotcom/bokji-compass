@@ -1,0 +1,329 @@
+{
+  "schema": 1,
+  "checkedAt": "2026-10-19",
+  "team": 2,
+  "supplementalScope": "current-replacement-originals",
+  "scopePath": "pipeline\\forms\\reviews\\current-replacement-originals-scope.json",
+  "verificationMethod": "Independent entire 9-article law plus appendix review and actual byte/full HWPX body verification; not inherited approval from download status.",
+  "rows": [
+    {
+      "programIds": [
+        "g28200.gov24-353000000108"
+      ],
+      "programNames": [
+        "국가보훈대상자 지원"
+      ],
+      "formId": "ordin-22713587",
+      "use": "conditional",
+      "condition": "남동구 국가보훈대상자 지원 중 참전유공자 본인의 월 명예수당 신청에만 사용합니다. 독립유공자·일반 보훈예우수당, 사망위로금 및 배우자 수당에는 각각 해당 서식을 사용합니다.",
+      "sourceKind": "ordin",
+      "lawTitle": "남동구 참전유공자 예우 및 지원에 관한 조례",
+      "lawId": "2153139",
+      "stableLawId": "2266556",
+      "annexId": "22713587",
+      "annexNumber": "1",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=169690643&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C1%ED%98%B8%EC%84%9C%EC%8B%9D%5D",
+      "officialPdfUrl": null,
+      "dateKind": "effective",
+      "effectiveDate": "2026-07-23",
+      "formTitle": "[별지 제1호서식]",
+      "sourceMetadataTitle": "[별지 제1호서식]",
+      "verifiedDocumentTitle": "참전유공자 명예수당 지급신청서",
+      "regionCode": "28200",
+      "regionLabel": "인천광역시 남동구",
+      "checkedAt": "2026-10-19",
+      "evidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2153139",
+      "evidenceNote": "실제 별지 1호 전체는 참전유공자의 보훈번호·주소·본인 예금계좌·신청 서명 및 정보 동의다. 현행 제3조는 남동구에 주민등록 또는 거소신고를 하고 거주하는 65세 이상 참전유공자, 제4조제1항제1호는 명예수당, 제5조제1항은 1호 제출을 정한다. 사이트의 국가보훈대상자 지원 중 참전유공자수당 부분과 대상·목적·방문신청이 일치한다. 현행 조례 9개 조문·부칙을 읽었으며 2026-07-23 공포 즉시 시행과 nw=1 정확 현행 목록을 대조했다. 실제 HWPX 모든 본문 섹션, 원본 바이트 SHA256, 법규·별표키·flSeq를 재검증했다.",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "sha256": "9ca2b736cdc491b87f374d4c65e18cc3c122a8c9c995530d1f2b78baadad92c8",
+      "bytes": 56650,
+      "signature": "504b030414000000",
+      "originalFormat": "hwpx",
+      "originalTextScope": "all_body_sections_or_pages",
+      "textScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "Contents/section0.xml"
+      ],
+      "reviewedParts": [
+        {
+          "number": "1",
+          "title": "참전유공자 명예수당 지급신청서",
+          "use": "conditional",
+          "author": "대상 참전유공자 본인"
+        }
+      ],
+      "role": "application",
+      "roleBasis": "실제 별지 1호 전체는 참전유공자의 보훈번호·주소·본인 예금계좌·신청 서명 및 정보 동의다. 현행 제3조는 남동구에 주민등록 또는 거소신고를 하고 거주하는 65세 이상 참전유공자, 제4조제1항제1호는 명예수당, 제5조제1항은 1호 제출을 정한다. 사이트의 국가보훈대상자 지원 중 참전유공자수당 부분과 대상·목적·방문신청이 일치한다. 현행 조례 9개 조문·부칙을 읽었으며 2026-07-23 공포 즉시 시행과 nw=1 정확 현행 목록을 대조했다. 실제 HWPX 모든 본문 섹션, 원본 바이트 SHA256, 법규·별표키·flSeq를 재검증했다.",
+      "roleEvidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2153139",
+      "roleCheckedAt": "2026-10-19",
+      "bodyEvidenceText": "제2조(정의) 이 조례에서 사용하는 용어의 뜻은 다음과 같다.1. “참전유공자”란 「참전유공자 예우 및 단체설립에 관한 법률」(이하 “법”이라 한다) 제2조제2호에 따른 사람으로서 법 제5조에 따라 국가보훈부에 참전유공자로 등록된 사람을 말한다.2. “배우자”란 제1호의 참전유공자의 법률상 배우자를 말한다.\n제3조(지원대상자) 지원대상자는 지급기준일 현재 65세 이상의 참전유공자 또는 사망한 참전유공자의 65세 이상의 배우자로서 남동구(이하 “구”라 한다)에 주민등록을 두고 거주하거나 재외동포의 경우 거소신고를 하고 거주하는 사람으로 한다. 다만, 국가보훈부장관이 법 제39조제1항에 따른 지원 부적격자로 통보한 사람은 제외한다.\n제4조(지원사업)① 남동구청장(이하 “구청장”이라 한다)은 다음 각 호의 사업을 예산의 범위에서 지원할 수 있다.1. 참전유공자 명예수당(이하 “명예수당”이라 한다) 지급: 월 8만원 이내2. 참전유공자 사망위로금(이하 “사망위로금”이라 한다) 지급: 10만원 이내3. 사망한 참전유공자 배우자 수당(이하 “배우자 수당”이라 한다) 지급: 월 2만5천원 이내4. 그 밖에 참전유공자의 긍지와 자부심 고취를 위하여 구청장이 필요하다고 인정하는 사업② 제1항제2호의 규정에 따른 사업의 경우 제3조에도 불구하고 65세 미만인 사람에게도 지급할 수 있다.\n제5조(지급신청 등)① 명예수당을 지급받고자 하는 사람은 별지 제1호서식에 따라 신청서를 구청장에게 제출하여야 하며, 참전유공자가 다음 각 호의 어느 하나에 해당하는 경우에는 별지 제4호서식에 따라 참전유공자의 배우자, 자녀 등 법정상속인을 대리수령인으로 지정 신청할 수 있다.1. 피성년후견인 또는 피한정후견인2. 채무불이행으로 인하여 금전채권이 압류된 경우3. 치매 또는 보건복지부장관이 정하는 거동불가의 사유로 인하여 본인 명의의 계좌를 개설하거나 사용하기 어려운 경우② 사망위로금을 지급받고자 하는 참전유공자의 배우자, 자녀 등 법정상속인은 사망일부터 1년 이내에 별지 제2호서식에 따라 신청서를 구청장에게 제출하여야 한다.③ 사망위로금을 지급받을 대상 및 순위에 대하여는 「국가유공자 등 예우 및 지원에 관한 법률」 제13조를 준용한다. 이 경우 같은 법 제13조에 따른 배우자, 자녀 등 법정상속인이 없을 때에는 장례를 행하는 자에게 지급할 수 있다.④ 배우자 수당을 지급받고자 하는 사람은 별지 제3호서식에 따라 신청서를 구청장에게 제출하여야 하며, 제5조제1항 각 호의 어느 하나에 해당하는 경우에는 별지 제4호서식에 따라 자녀 등 법정상속인을 대리수령인으로 지정 신청할 수 있다.⑤ 수당(명예수당과 배우자 수당을 말한다. 이하 같다) 및 사망위로금 신청자에 대한 적격 여부 및 첨부서류는 「전자정부법」 제38조제1항에 따른 행정정보 공동이용을 통하여 확인할 수 있다.\n제6조(지급방법 및 시기)① 명예수당은 지급연령에 도달한 날이 속하는 달부터 지급중단 사유가 발생한 날이 속하는 달까지 지급한다. 다만, 배우자 수당은 신청일이 속한 달부터 지급한다.② 수당은 매월 25일까지 지급대상자가 신청한 계좌에 입금하는 방법으로 지급한다. 다만, 25일이 토요일이거나 공휴일인 경우에는 그 전날을 수당지급일로 한다.③ 다른 시ㆍ군ㆍ구에서 전입한 사람의 경우에는 전입한 날이 속하는 달의 다음 달부터 지급한다.④ 사망위로금은 신청일부터 10일 이내에 지급대상자가 신청한 계좌에 입금하는 방법으로 지급한다.\n제9조(중복지급의 제한) 구의 다른 조례에 따라 수당과 유사한 수당 등을 받는 경우에는 중복하여 수당을 지급하지 아니한다.",
+      "independentBodyReview": true,
+      "applicationStage": "veteran_monthly_allowance",
+      "additionalEvidenceArticles": [
+        {
+          "lawId": "2153139",
+          "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2153139",
+          "article": "부칙 (조례 제2303호, 2026.7.23.)",
+          "text": "부      칙 (조례 제2303호, 2026.7.23.) 이 조례는 공포한 날부터 시행한다."
+        },
+        {
+          "lawId": "2153141",
+          "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2153141",
+          "article": "제8조·제9조",
+          "description": "2026-07-23 배우자 수당 및 신청조항 삭제, 별도 참전 명예·배우자 수당 수급자 제외. 기존 22713603은 062에서 obsolete 유지."
+        }
+      ],
+      "supplementalScope": "current-replacement-originals",
+      "currentCurrencyEvidence": {
+        "sourcePath": "logs\\forms-completion\\current-replacements\\2153139-current-search.json.gz",
+        "lawId": "2153139",
+        "stableLawId": "2266556",
+        "effectiveDate": "2026-07-23"
+      },
+      "displayTitle": "참전유공자 명예수당 지급신청서"
+    },
+    {
+      "programIds": [
+        "g28200.gov24-353000000108"
+      ],
+      "programNames": [
+        "국가보훈대상자 지원"
+      ],
+      "formId": "ordin-22713589",
+      "use": "conditional",
+      "condition": "남동구의 참전유공자 사망위로금을 사망일부터 1년 이내 신청하는 경우만 사용합니다. 법정상속인 순위와 상속인이 없는 경우의 장례 행위자 요건에 따르며, 다른 국가보훈대상자의 별도 사망위로금이나 배우자 월수당에는 사용하지 않습니다.",
+      "sourceKind": "ordin",
+      "lawTitle": "남동구 참전유공자 예우 및 지원에 관한 조례",
+      "lawId": "2153139",
+      "stableLawId": "2266556",
+      "annexId": "22713589",
+      "annexNumber": "2",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=169690645&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C2%ED%98%B8%EC%84%9C%EC%8B%9D%5D",
+      "officialPdfUrl": null,
+      "dateKind": "effective",
+      "effectiveDate": "2026-07-23",
+      "formTitle": "[별지 제2호서식]",
+      "sourceMetadataTitle": "[별지 제2호서식]",
+      "verifiedDocumentTitle": "참전유공자 사망위로금 지급신청서",
+      "regionCode": "28200",
+      "regionLabel": "인천광역시 남동구",
+      "checkedAt": "2026-10-19",
+      "evidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2153139",
+      "evidenceNote": "실제 별지 2호 전체는 사망자의 참전·사망정보와 신청유족 관계·계좌·서명 및 증빙을 받는다. 제5조제2항은 사망일부터 1년 이내 2호 제출, 제3항은 상속 순위 및 법정상속인이 없는 경우 장례를 행한 사람을 정한다. 제4조제2항은 사망위로금에 65세 미만도 허용하므로 월수당 연령을 이 사망 신청에 덧씌우지 않았다. 사이트가 명시한 참전유공자 사망위로금 부분에 한정한다. 현행 조례 9개 조문·부칙을 읽었으며 2026-07-23 공포 즉시 시행과 nw=1 정확 현행 목록을 대조했다. 실제 HWPX 모든 본문 섹션, 원본 바이트 SHA256, 법규·별표키·flSeq를 재검증했다.",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "sha256": "3b9b119305718ce2a9fe302c261c8bfa471d196bae300c86d1ad0afee8d6446d",
+      "bytes": 49234,
+      "signature": "504b030414000000",
+      "originalFormat": "hwpx",
+      "originalTextScope": "all_body_sections_or_pages",
+      "textScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "Contents/section0.xml"
+      ],
+      "reviewedParts": [
+        {
+          "number": "2",
+          "title": "참전유공자 사망위로금 지급신청서",
+          "use": "conditional",
+          "author": "사망 참전유공자의 법정상속인 또는 조례상 장례를 행한 사람"
+        }
+      ],
+      "role": "application",
+      "roleBasis": "실제 별지 2호 전체는 사망자의 참전·사망정보와 신청유족 관계·계좌·서명 및 증빙을 받는다. 제5조제2항은 사망일부터 1년 이내 2호 제출, 제3항은 상속 순위 및 법정상속인이 없는 경우 장례를 행한 사람을 정한다. 제4조제2항은 사망위로금에 65세 미만도 허용하므로 월수당 연령을 이 사망 신청에 덧씌우지 않았다. 사이트가 명시한 참전유공자 사망위로금 부분에 한정한다. 현행 조례 9개 조문·부칙을 읽었으며 2026-07-23 공포 즉시 시행과 nw=1 정확 현행 목록을 대조했다. 실제 HWPX 모든 본문 섹션, 원본 바이트 SHA256, 법규·별표키·flSeq를 재검증했다.",
+      "roleEvidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2153139",
+      "roleCheckedAt": "2026-10-19",
+      "bodyEvidenceText": "제2조(정의) 이 조례에서 사용하는 용어의 뜻은 다음과 같다.1. “참전유공자”란 「참전유공자 예우 및 단체설립에 관한 법률」(이하 “법”이라 한다) 제2조제2호에 따른 사람으로서 법 제5조에 따라 국가보훈부에 참전유공자로 등록된 사람을 말한다.2. “배우자”란 제1호의 참전유공자의 법률상 배우자를 말한다.\n제3조(지원대상자) 지원대상자는 지급기준일 현재 65세 이상의 참전유공자 또는 사망한 참전유공자의 65세 이상의 배우자로서 남동구(이하 “구”라 한다)에 주민등록을 두고 거주하거나 재외동포의 경우 거소신고를 하고 거주하는 사람으로 한다. 다만, 국가보훈부장관이 법 제39조제1항에 따른 지원 부적격자로 통보한 사람은 제외한다.\n제4조(지원사업)① 남동구청장(이하 “구청장”이라 한다)은 다음 각 호의 사업을 예산의 범위에서 지원할 수 있다.1. 참전유공자 명예수당(이하 “명예수당”이라 한다) 지급: 월 8만원 이내2. 참전유공자 사망위로금(이하 “사망위로금”이라 한다) 지급: 10만원 이내3. 사망한 참전유공자 배우자 수당(이하 “배우자 수당”이라 한다) 지급: 월 2만5천원 이내4. 그 밖에 참전유공자의 긍지와 자부심 고취를 위하여 구청장이 필요하다고 인정하는 사업② 제1항제2호의 규정에 따른 사업의 경우 제3조에도 불구하고 65세 미만인 사람에게도 지급할 수 있다.\n제5조(지급신청 등)① 명예수당을 지급받고자 하는 사람은 별지 제1호서식에 따라 신청서를 구청장에게 제출하여야 하며, 참전유공자가 다음 각 호의 어느 하나에 해당하는 경우에는 별지 제4호서식에 따라 참전유공자의 배우자, 자녀 등 법정상속인을 대리수령인으로 지정 신청할 수 있다.1. 피성년후견인 또는 피한정후견인2. 채무불이행으로 인하여 금전채권이 압류된 경우3. 치매 또는 보건복지부장관이 정하는 거동불가의 사유로 인하여 본인 명의의 계좌를 개설하거나 사용하기 어려운 경우② 사망위로금을 지급받고자 하는 참전유공자의 배우자, 자녀 등 법정상속인은 사망일부터 1년 이내에 별지 제2호서식에 따라 신청서를 구청장에게 제출하여야 한다.③ 사망위로금을 지급받을 대상 및 순위에 대하여는 「국가유공자 등 예우 및 지원에 관한 법률」 제13조를 준용한다. 이 경우 같은 법 제13조에 따른 배우자, 자녀 등 법정상속인이 없을 때에는 장례를 행하는 자에게 지급할 수 있다.④ 배우자 수당을 지급받고자 하는 사람은 별지 제3호서식에 따라 신청서를 구청장에게 제출하여야 하며, 제5조제1항 각 호의 어느 하나에 해당하는 경우에는 별지 제4호서식에 따라 자녀 등 법정상속인을 대리수령인으로 지정 신청할 수 있다.⑤ 수당(명예수당과 배우자 수당을 말한다. 이하 같다) 및 사망위로금 신청자에 대한 적격 여부 및 첨부서류는 「전자정부법」 제38조제1항에 따른 행정정보 공동이용을 통하여 확인할 수 있다.\n제6조(지급방법 및 시기)① 명예수당은 지급연령에 도달한 날이 속하는 달부터 지급중단 사유가 발생한 날이 속하는 달까지 지급한다. 다만, 배우자 수당은 신청일이 속한 달부터 지급한다.② 수당은 매월 25일까지 지급대상자가 신청한 계좌에 입금하는 방법으로 지급한다. 다만, 25일이 토요일이거나 공휴일인 경우에는 그 전날을 수당지급일로 한다.③ 다른 시ㆍ군ㆍ구에서 전입한 사람의 경우에는 전입한 날이 속하는 달의 다음 달부터 지급한다.④ 사망위로금은 신청일부터 10일 이내에 지급대상자가 신청한 계좌에 입금하는 방법으로 지급한다.\n제9조(중복지급의 제한) 구의 다른 조례에 따라 수당과 유사한 수당 등을 받는 경우에는 중복하여 수당을 지급하지 아니한다.",
+      "independentBodyReview": true,
+      "applicationStage": "veteran_death_condolence",
+      "additionalEvidenceArticles": [
+        {
+          "lawId": "2153139",
+          "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2153139",
+          "article": "부칙 (조례 제2303호, 2026.7.23.)",
+          "text": "부      칙 (조례 제2303호, 2026.7.23.) 이 조례는 공포한 날부터 시행한다."
+        },
+        {
+          "lawId": "2153141",
+          "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2153141",
+          "article": "제8조·제9조",
+          "description": "2026-07-23 배우자 수당 및 신청조항 삭제, 별도 참전 명예·배우자 수당 수급자 제외. 기존 22713603은 062에서 obsolete 유지."
+        }
+      ],
+      "supplementalScope": "current-replacement-originals",
+      "currentCurrencyEvidence": {
+        "sourcePath": "logs\\forms-completion\\current-replacements\\2153139-current-search.json.gz",
+        "lawId": "2153139",
+        "stableLawId": "2266556",
+        "effectiveDate": "2026-07-23"
+      },
+      "displayTitle": "참전유공자 사망위로금 지급신청서"
+    },
+    {
+      "programIds": [
+        "g28200.gov24-353000000108"
+      ],
+      "programNames": [
+        "국가보훈대상자 지원"
+      ],
+      "formId": "ordin-22713591",
+      "use": "conditional",
+      "condition": "사망한 참전유공자의 65세 이상 법률상 배우자가 남동구에 거주하며 배우자 월수당을 신청하는 경우만 사용합니다. 제9조에 따른 유사 수당의 중복 지급 제한을 확인하며 사망위로금 일시 청구에는 별지 제2호를 사용합니다.",
+      "sourceKind": "ordin",
+      "lawTitle": "남동구 참전유공자 예우 및 지원에 관한 조례",
+      "lawId": "2153139",
+      "stableLawId": "2266556",
+      "annexId": "22713591",
+      "annexNumber": "3",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=169690647&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C3%ED%98%B8%EC%84%9C%EC%8B%9D%5D",
+      "officialPdfUrl": null,
+      "dateKind": "effective",
+      "effectiveDate": "2026-07-23",
+      "formTitle": "[별지 제3호서식]",
+      "sourceMetadataTitle": "[별지 제3호서식]",
+      "verifiedDocumentTitle": "참전유공자 배우자수당 지급신청서",
+      "regionCode": "28200",
+      "regionLabel": "인천광역시 남동구",
+      "checkedAt": "2026-10-19",
+      "evidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2153139",
+      "evidenceNote": "실제 별지 3호 전체는 사망 참전유공자의 법률상 배우자가 참전관계·거주·본인계좌·서명과 배우자 증빙을 제출하는 월수당 신청이다. 제2조제2호·제3조의 배우자 정의와 65세 이상 남동구 거주, 제4조제1항제3호의 배우자 수당 및 제5조제4항의 정확한 3호 지정이 사이트의 참전유공자 배우자수당과 일치한다. 같은 날 일반 보훈 조례 2153141에서 삭제된 옛 별지 5호 22713603을 바꾸어 쓰는 것이 아니라 새로운 조례와 별도 SHA의 현재 원문을 연결한다. 현행 조례 9개 조문·부칙을 읽었으며 2026-07-23 공포 즉시 시행과 nw=1 정확 현행 목록을 대조했다. 실제 HWPX 모든 본문 섹션, 원본 바이트 SHA256, 법규·별표키·flSeq를 재검증했다.",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "sha256": "016406ab322b6171e74dd98f51dfc2c385a641570a1c7d3166a5d8015e1fb224",
+      "bytes": 59041,
+      "signature": "504b030414000000",
+      "originalFormat": "hwpx",
+      "originalTextScope": "all_body_sections_or_pages",
+      "textScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "Contents/section0.xml"
+      ],
+      "reviewedParts": [
+        {
+          "number": "3",
+          "title": "참전유공자 배우자수당 지급신청서",
+          "use": "conditional",
+          "author": "사망 참전유공자의 법률상 배우자"
+        }
+      ],
+      "role": "application",
+      "roleBasis": "실제 별지 3호 전체는 사망 참전유공자의 법률상 배우자가 참전관계·거주·본인계좌·서명과 배우자 증빙을 제출하는 월수당 신청이다. 제2조제2호·제3조의 배우자 정의와 65세 이상 남동구 거주, 제4조제1항제3호의 배우자 수당 및 제5조제4항의 정확한 3호 지정이 사이트의 참전유공자 배우자수당과 일치한다. 같은 날 일반 보훈 조례 2153141에서 삭제된 옛 별지 5호 22713603을 바꾸어 쓰는 것이 아니라 새로운 조례와 별도 SHA의 현재 원문을 연결한다. 현행 조례 9개 조문·부칙을 읽었으며 2026-07-23 공포 즉시 시행과 nw=1 정확 현행 목록을 대조했다. 실제 HWPX 모든 본문 섹션, 원본 바이트 SHA256, 법규·별표키·flSeq를 재검증했다.",
+      "roleEvidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2153139",
+      "roleCheckedAt": "2026-10-19",
+      "bodyEvidenceText": "제2조(정의) 이 조례에서 사용하는 용어의 뜻은 다음과 같다.1. “참전유공자”란 「참전유공자 예우 및 단체설립에 관한 법률」(이하 “법”이라 한다) 제2조제2호에 따른 사람으로서 법 제5조에 따라 국가보훈부에 참전유공자로 등록된 사람을 말한다.2. “배우자”란 제1호의 참전유공자의 법률상 배우자를 말한다.\n제3조(지원대상자) 지원대상자는 지급기준일 현재 65세 이상의 참전유공자 또는 사망한 참전유공자의 65세 이상의 배우자로서 남동구(이하 “구”라 한다)에 주민등록을 두고 거주하거나 재외동포의 경우 거소신고를 하고 거주하는 사람으로 한다. 다만, 국가보훈부장관이 법 제39조제1항에 따른 지원 부적격자로 통보한 사람은 제외한다.\n제4조(지원사업)① 남동구청장(이하 “구청장”이라 한다)은 다음 각 호의 사업을 예산의 범위에서 지원할 수 있다.1. 참전유공자 명예수당(이하 “명예수당”이라 한다) 지급: 월 8만원 이내2. 참전유공자 사망위로금(이하 “사망위로금”이라 한다) 지급: 10만원 이내3. 사망한 참전유공자 배우자 수당(이하 “배우자 수당”이라 한다) 지급: 월 2만5천원 이내4. 그 밖에 참전유공자의 긍지와 자부심 고취를 위하여 구청장이 필요하다고 인정하는 사업② 제1항제2호의 규정에 따른 사업의 경우 제3조에도 불구하고 65세 미만인 사람에게도 지급할 수 있다.\n제5조(지급신청 등)① 명예수당을 지급받고자 하는 사람은 별지 제1호서식에 따라 신청서를 구청장에게 제출하여야 하며, 참전유공자가 다음 각 호의 어느 하나에 해당하는 경우에는 별지 제4호서식에 따라 참전유공자의 배우자, 자녀 등 법정상속인을 대리수령인으로 지정 신청할 수 있다.1. 피성년후견인 또는 피한정후견인2. 채무불이행으로 인하여 금전채권이 압류된 경우3. 치매 또는 보건복지부장관이 정하는 거동불가의 사유로 인하여 본인 명의의 계좌를 개설하거나 사용하기 어려운 경우② 사망위로금을 지급받고자 하는 참전유공자의 배우자, 자녀 등 법정상속인은 사망일부터 1년 이내에 별지 제2호서식에 따라 신청서를 구청장에게 제출하여야 한다.③ 사망위로금을 지급받을 대상 및 순위에 대하여는 「국가유공자 등 예우 및 지원에 관한 법률」 제13조를 준용한다. 이 경우 같은 법 제13조에 따른 배우자, 자녀 등 법정상속인이 없을 때에는 장례를 행하는 자에게 지급할 수 있다.④ 배우자 수당을 지급받고자 하는 사람은 별지 제3호서식에 따라 신청서를 구청장에게 제출하여야 하며, 제5조제1항 각 호의 어느 하나에 해당하는 경우에는 별지 제4호서식에 따라 자녀 등 법정상속인을 대리수령인으로 지정 신청할 수 있다.⑤ 수당(명예수당과 배우자 수당을 말한다. 이하 같다) 및 사망위로금 신청자에 대한 적격 여부 및 첨부서류는 「전자정부법」 제38조제1항에 따른 행정정보 공동이용을 통하여 확인할 수 있다.\n제6조(지급방법 및 시기)① 명예수당은 지급연령에 도달한 날이 속하는 달부터 지급중단 사유가 발생한 날이 속하는 달까지 지급한다. 다만, 배우자 수당은 신청일이 속한 달부터 지급한다.② 수당은 매월 25일까지 지급대상자가 신청한 계좌에 입금하는 방법으로 지급한다. 다만, 25일이 토요일이거나 공휴일인 경우에는 그 전날을 수당지급일로 한다.③ 다른 시ㆍ군ㆍ구에서 전입한 사람의 경우에는 전입한 날이 속하는 달의 다음 달부터 지급한다.④ 사망위로금은 신청일부터 10일 이내에 지급대상자가 신청한 계좌에 입금하는 방법으로 지급한다.\n제9조(중복지급의 제한) 구의 다른 조례에 따라 수당과 유사한 수당 등을 받는 경우에는 중복하여 수당을 지급하지 아니한다.",
+      "independentBodyReview": true,
+      "applicationStage": "surviving_spouse_monthly_allowance",
+      "additionalEvidenceArticles": [
+        {
+          "lawId": "2153139",
+          "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2153139",
+          "article": "부칙 (조례 제2303호, 2026.7.23.)",
+          "text": "부      칙 (조례 제2303호, 2026.7.23.) 이 조례는 공포한 날부터 시행한다."
+        },
+        {
+          "lawId": "2153141",
+          "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2153141",
+          "article": "제8조·제9조",
+          "description": "2026-07-23 배우자 수당 및 신청조항 삭제, 별도 참전 명예·배우자 수당 수급자 제외. 기존 22713603은 062에서 obsolete 유지."
+        }
+      ],
+      "supplementalScope": "current-replacement-originals",
+      "currentCurrencyEvidence": {
+        "sourcePath": "logs\\forms-completion\\current-replacements\\2153139-current-search.json.gz",
+        "lawId": "2153139",
+        "stableLawId": "2266556",
+        "effectiveDate": "2026-07-23"
+      },
+      "displayTitle": "참전유공자 배우자수당 지급신청서"
+    },
+    {
+      "programIds": [
+        "g28200.gov24-353000000108"
+      ],
+      "programNames": [
+        "국가보훈대상자 지원"
+      ],
+      "formId": "ordin-22713593",
+      "use": "conditional",
+      "condition": "참전유공자 명예수당 또는 배우자 수당 수급자가 피성년·피한정후견, 채권 압류, 치매 또는 정해진 거동불가 사유로 법정상속인을 대리수령인으로 지정할 때만 해당 유형을 선택해 사용합니다. 일반 신청 제출 위임, 임의 제3자 수령 또는 사망위로금 수령계좌 지정에는 사용하지 않습니다.",
+      "sourceKind": "ordin",
+      "lawTitle": "남동구 참전유공자 예우 및 지원에 관한 조례",
+      "lawId": "2153139",
+      "stableLawId": "2266556",
+      "annexId": "22713593",
+      "annexNumber": "4",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=169690649&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C4%ED%98%B8%EC%84%9C%EC%8B%9D%5D",
+      "officialPdfUrl": null,
+      "dateKind": "effective",
+      "effectiveDate": "2026-07-23",
+      "formTitle": "[별지 제4호서식]",
+      "sourceMetadataTitle": "[별지 제4호서식]",
+      "verifiedDocumentTitle": "대리수령인 지정 신청서",
+      "regionCode": "28200",
+      "regionLabel": "인천광역시 남동구",
+      "checkedAt": "2026-10-19",
+      "evidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2153139",
+      "evidenceNote": "실제 별지 4호 전체는 참전유공자 또는 참전유공자 배우자를 선택하고 수급권자·대리수령인·사유·관계·계좌·신청서명과 증빙을 제출한다. 제5조제1항의 후견·채권 압류·치매 또는 정해진 거동불가 사유에 해당할 때만 참전유공자의 배우자·자녀 등 법정상속인을 지정할 수 있고, 제4항은 배우자 수당 수급자에게도 같은 사유로 자녀 등 법정상속인 지정을 허용한다. 단순 제출 위임장과 구분하여 application 역할로 제한한다. 현행 조례 9개 조문·부칙을 읽었으며 2026-07-23 공포 즉시 시행과 nw=1 정확 현행 목록을 대조했다. 실제 HWPX 모든 본문 섹션, 원본 바이트 SHA256, 법규·별표키·flSeq를 재검증했다.",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "sha256": "427e6c96fffdb1262094f84499fad7c4e1ee53ad25b228a8e5dc43e4c9f1c867",
+      "bytes": 60145,
+      "signature": "504b030414000000",
+      "originalFormat": "hwpx",
+      "originalTextScope": "all_body_sections_or_pages",
+      "textScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "Contents/section0.xml"
+      ],
+      "reviewedParts": [
+        {
+          "number": "4",
+          "title": "대리수령인 지정 신청서",
+          "use": "conditional",
+          "author": "참전유공자 명예수당 또는 배우자 수당의 해당 수급권자"
+        }
+      ],
+      "role": "application",
+      "roleBasis": "실제 별지 4호 전체는 참전유공자 또는 참전유공자 배우자를 선택하고 수급권자·대리수령인·사유·관계·계좌·신청서명과 증빙을 제출한다. 제5조제1항의 후견·채권 압류·치매 또는 정해진 거동불가 사유에 해당할 때만 참전유공자의 배우자·자녀 등 법정상속인을 지정할 수 있고, 제4항은 배우자 수당 수급자에게도 같은 사유로 자녀 등 법정상속인 지정을 허용한다. 단순 제출 위임장과 구분하여 application 역할로 제한한다. 현행 조례 9개 조문·부칙을 읽었으며 2026-07-23 공포 즉시 시행과 nw=1 정확 현행 목록을 대조했다. 실제 HWPX 모든 본문 섹션, 원본 바이트 SHA256, 법규·별표키·flSeq를 재검증했다.",
+      "roleEvidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2153139",
+      "roleCheckedAt": "2026-10-19",
+      "bodyEvidenceText": "제2조(정의) 이 조례에서 사용하는 용어의 뜻은 다음과 같다.1. “참전유공자”란 「참전유공자 예우 및 단체설립에 관한 법률」(이하 “법”이라 한다) 제2조제2호에 따른 사람으로서 법 제5조에 따라 국가보훈부에 참전유공자로 등록된 사람을 말한다.2. “배우자”란 제1호의 참전유공자의 법률상 배우자를 말한다.\n제3조(지원대상자) 지원대상자는 지급기준일 현재 65세 이상의 참전유공자 또는 사망한 참전유공자의 65세 이상의 배우자로서 남동구(이하 “구”라 한다)에 주민등록을 두고 거주하거나 재외동포의 경우 거소신고를 하고 거주하는 사람으로 한다. 다만, 국가보훈부장관이 법 제39조제1항에 따른 지원 부적격자로 통보한 사람은 제외한다.\n제4조(지원사업)① 남동구청장(이하 “구청장”이라 한다)은 다음 각 호의 사업을 예산의 범위에서 지원할 수 있다.1. 참전유공자 명예수당(이하 “명예수당”이라 한다) 지급: 월 8만원 이내2. 참전유공자 사망위로금(이하 “사망위로금”이라 한다) 지급: 10만원 이내3. 사망한 참전유공자 배우자 수당(이하 “배우자 수당”이라 한다) 지급: 월 2만5천원 이내4. 그 밖에 참전유공자의 긍지와 자부심 고취를 위하여 구청장이 필요하다고 인정하는 사업② 제1항제2호의 규정에 따른 사업의 경우 제3조에도 불구하고 65세 미만인 사람에게도 지급할 수 있다.\n제5조(지급신청 등)① 명예수당을 지급받고자 하는 사람은 별지 제1호서식에 따라 신청서를 구청장에게 제출하여야 하며, 참전유공자가 다음 각 호의 어느 하나에 해당하는 경우에는 별지 제4호서식에 따라 참전유공자의 배우자, 자녀 등 법정상속인을 대리수령인으로 지정 신청할 수 있다.1. 피성년후견인 또는 피한정후견인2. 채무불이행으로 인하여 금전채권이 압류된 경우3. 치매 또는 보건복지부장관이 정하는 거동불가의 사유로 인하여 본인 명의의 계좌를 개설하거나 사용하기 어려운 경우② 사망위로금을 지급받고자 하는 참전유공자의 배우자, 자녀 등 법정상속인은 사망일부터 1년 이내에 별지 제2호서식에 따라 신청서를 구청장에게 제출하여야 한다.③ 사망위로금을 지급받을 대상 및 순위에 대하여는 「국가유공자 등 예우 및 지원에 관한 법률」 제13조를 준용한다. 이 경우 같은 법 제13조에 따른 배우자, 자녀 등 법정상속인이 없을 때에는 장례를 행하는 자에게 지급할 수 있다.④ 배우자 수당을 지급받고자 하는 사람은 별지 제3호서식에 따라 신청서를 구청장에게 제출하여야 하며, 제5조제1항 각 호의 어느 하나에 해당하는 경우에는 별지 제4호서식에 따라 자녀 등 법정상속인을 대리수령인으로 지정 신청할 수 있다.⑤ 수당(명예수당과 배우자 수당을 말한다. 이하 같다) 및 사망위로금 신청자에 대한 적격 여부 및 첨부서류는 「전자정부법」 제38조제1항에 따른 행정정보 공동이용을 통하여 확인할 수 있다.\n제6조(지급방법 및 시기)① 명예수당은 지급연령에 도달한 날이 속하는 달부터 지급중단 사유가 발생한 날이 속하는 달까지 지급한다. 다만, 배우자 수당은 신청일이 속한 달부터 지급한다.② 수당은 매월 25일까지 지급대상자가 신청한 계좌에 입금하는 방법으로 지급한다. 다만, 25일이 토요일이거나 공휴일인 경우에는 그 전날을 수당지급일로 한다.③ 다른 시ㆍ군ㆍ구에서 전입한 사람의 경우에는 전입한 날이 속하는 달의 다음 달부터 지급한다.④ 사망위로금은 신청일부터 10일 이내에 지급대상자가 신청한 계좌에 입금하는 방법으로 지급한다.\n제9조(중복지급의 제한) 구의 다른 조례에 따라 수당과 유사한 수당 등을 받는 경우에는 중복하여 수당을 지급하지 아니한다.",
+      "independentBodyReview": true,
+      "applicationStage": "restricted_proxy_receipt_designation",
+      "additionalEvidenceArticles": [
+        {
+          "lawId": "2153139",
+          "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2153139",
+          "article": "부칙 (조례 제2303호, 2026.7.23.)",
+          "text": "부      칙 (조례 제2303호, 2026.7.23.) 이 조례는 공포한 날부터 시행한다."
+        },
+        {
+          "lawId": "2153141",
+          "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2153141",
+          "article": "제8조·제9조",
+          "description": "2026-07-23 배우자 수당 및 신청조항 삭제, 별도 참전 명예·배우자 수당 수급자 제외. 기존 22713603은 062에서 obsolete 유지."
+        }
+      ],
+      "supplementalScope": "current-replacement-originals",
+      "currentCurrencyEvidence": {
+        "sourcePath": "logs\\forms-completion\\current-replacements\\2153139-current-search.json.gz",
+        "lawId": "2153139",
+        "stableLawId": "2266556",
+        "effectiveDate": "2026-07-23"
+      },
+      "displayTitle": "대리수령인 지정 신청서"
+    }
+  ],
+  "sourceReview": {
+    "file": "logs/forms-completion/reviews/team2-batch-070-reviewed.json",
+    "sha256": "43edf5f42a93349271a97a9a52fc420f16d03230edb728ea57f3792d05b9ef50",
+    "dispositionsSHA256": "8898f4bafb4e700735e2a77e5773a3281a19465ce6d5d101a6cb020fc523c132",
+    "assignmentSHA256": "d4d3a8c23cd70b436f218ccc11b9bebadf84e35c46daae056d31a959187d639c",
+    "workerSourceFile": "logs/forms-completion/reviews/namdong-current-supplement-reviewed.json",
+    "workerDispositionsFile": "logs/forms-completion/reviews/namdong-current-supplement-dispositions.json",
+    "frozenScopeSHA256": "2754854a3f5fac92bede21bc6d59dc3c2048f775a6c6d71d38466addc82f8eae",
+    "currentLawAuditSHA256": "57620f7cfa5a01b19d8a191fc5383eca55bc1ba139dc2fe78093d627de1fbdbe",
+    "scopeKind": "separate-current-replacement-originals"
+  }
+}

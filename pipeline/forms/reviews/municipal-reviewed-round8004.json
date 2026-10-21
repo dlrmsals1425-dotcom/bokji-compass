@@ -1,0 +1,1271 @@
+{
+  "schema": 1,
+  "checkedAt": "2026-10-19",
+  "rows": [
+    {
+      "sourceKind": "agency",
+      "basisType": "official_program",
+      "formId": "agency-41280-bok-20250612UUWBM1104000141730341-1",
+      "sourceCandidateId": "page-b134d14130cda671ceda",
+      "sourcePageUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00004720&wlfareInfoReldBztpCd=02",
+      "sourcePageSHA256": "7c82612a4ed907888a3f2b0f5710cdd6eab32904c28b2590fa6f6bc85e80b5f1",
+      "sourcePageHttpStatus": 200,
+      "sourcePageRecord": "logs/forms-completion/gyeonggi-20261019/team1/pages/source-page-b134d14130cda671ceda.json",
+      "sourceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twata/CmmFileUtil/getDownload.do?atcflId=20250612UUWBM1104000141730341&atcflSn=1&wlfareInfoId=WLF00004720",
+      "finalUrl": "https://www.bokjiro.go.kr/ssis-tbu/twata/CmmFileUtil/getDownload.do?atcflId=20250612UUWBM1104000141730341&atcflSn=1&wlfareInfoId=WLF00004720",
+      "attachmentId": "20250612UUWBM1104000141730341",
+      "attachmentIdentifier": {
+        "queryParam": "atcflId",
+        "value": "20250612UUWBM1104000141730341"
+      },
+      "attachmentFileSn": "1",
+      "officialProgramSourceId": "WLF00004720",
+      "agencyName": "고양시 (복지로 공식 사업안내 배포)",
+      "authorityKind": "government",
+      "authorityEvidenceKind": "government",
+      "authorityEvidenceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00004720&wlfareInfoReldBztpCd=02",
+      "authorityEvidenceNote": "복지로의 해당 지자체 특정 사업 ID를 확인한 현재 공개 사업 페이지에 원본 다운로드가 직접 결속되어 있다.",
+      "formTitle": "미혼 한부모가족 지원 신청서 및 동의서",
+      "sourceMetadataTitle": "미혼 한부모가족 지원 신청서 및 동의서.hwp",
+      "programIds": [
+        "g41280.bokjiro-WLF00004720"
+      ],
+      "programNames": [
+        "고양시 저소득 미혼 한부모 양육생계비 지원"
+      ],
+      "programEvidenceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00004720&wlfareInfoReldBztpCd=02",
+      "regionCode": "41280",
+      "regionLabel": "경기도 고양시",
+      "checkedAt": "2026-10-19",
+      "dateKind": "checked",
+      "effectiveDate": "2026-10-19",
+      "publishedAt": null,
+      "role": "application",
+      "use": "main",
+      "condition": "",
+      "applicant": "지원 대상 미혼 한부모 본인",
+      "reviewedParts": [
+        {
+          "number": "무번호 신청서",
+          "title": "고양시 미혼 한부모가족 양육생계비 지원 신청서",
+          "use": "main",
+          "author": "지원 대상 미혼 한부모 본인"
+        },
+        {
+          "number": "무번호 동의서",
+          "title": "개인정보 수집·이용 및 제3자 제공 동의서",
+          "use": "additional",
+          "author": "지원 신청인"
+        }
+      ],
+      "selectedParts": [
+        {
+          "number": "무번호 신청서",
+          "title": "고양시 미혼 한부모가족 양육생계비 지원 신청서",
+          "use": "main",
+          "author": "지원 대상 미혼 한부모 본인"
+        },
+        {
+          "number": "무번호 동의서",
+          "title": "개인정보 수집·이용 및 제3자 제공 동의서",
+          "use": "additional",
+          "author": "지원 신청인"
+        }
+      ],
+      "verificationStatus": "verified",
+      "decision": "propose_approval",
+      "publicationApproved": false,
+      "requiresCoordinatorReview": true,
+      "officialAttachmentMatched": true,
+      "evidenceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00004720&wlfareInfoReldBztpCd=02",
+      "evidenceNote": "신청인·자녀·고양 전입일·부모교육·통합사례관리 동의·계좌 및 서명을 받는 실제 신청서와 개인정보 동의서 전체를 확인했다. 현 복지로의 정확한 미혼한부모 양육생계비 사업이 이 첨부를 직접 배포하고 고양시의 2026-01-23 수정 안내도 같은 의무교육·동의 및 동 행정복지센터 접수를 안내한다.",
+      "roleBasis": "신청인·자녀·고양 전입일·부모교육·통합사례관리 동의·계좌 및 서명을 받는 실제 신청서와 개인정보 동의서 전체를 확인했다. 현 복지로의 정확한 미혼한부모 양육생계비 사업이 이 첨부를 직접 배포하고 고양시의 2026-01-23 수정 안내도 같은 의무교육·동의 및 동 행정복지센터 접수를 안내한다.",
+      "roleEvidenceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twata/CmmFileUtil/getDownload.do?atcflId=20250612UUWBM1104000141730341&atcflSn=1&wlfareInfoId=WLF00004720",
+      "roleCheckedAt": "2026-10-19",
+      "sha256": "c683451d3e8d0b3658713e9734dbbc39c1d6d17facf8d6a021ad68bd176acaec",
+      "bytes": 40960,
+      "originalFormat": "hwp",
+      "originalPath": "pipeline/forms/originals/agency-41280-bok-20250612UUWBM1104000141730341-1.hwp",
+      "textEvidencePath": "logs/forms-completion/search-gap-20261019/extracted/page-b134d14130cda671ceda.json",
+      "textScope": "all_body_sections_or_pages",
+      "originalTextScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "BodyText/Section0"
+      ],
+      "fullBodyReviewed": true,
+      "textLength": 2308,
+      "bodyTextSha256": "e01c9a7809550dcbcabfd1c88e7a2e38d210a85824eb793fe7b64ca4165564ae",
+      "originalRegetHttpStatus": 200,
+      "originalRegetShaMatched": true,
+      "independentlyReextracted": true,
+      "embeddedImageCount": 0,
+      "reviewedBy": "/root/forms_source_audit",
+      "referencedLaws": [
+        "고양시 한부모가족 지원 조례"
+      ],
+      "excludedParts": [],
+      "sourceIssues": [
+        "복지로 현재 본문의 소득기준 표시에 65%와 63%가 함께 나타난다. 원본에는 해당 고정 소득수치가 없으며 이 제안은 자격기준을 변경하거나 확정하지 않는다."
+      ],
+      "lawId": "",
+      "lawTitle": "",
+      "lawEvidenceUrl": "",
+      "annexId": "",
+      "annexNumber": "",
+      "programPageRecord": "logs/forms-completion/gyeonggi-20261019/team1/pages/source-page-b134d14130cda671ceda.json",
+      "programPageSHA256": "7c82612a4ed907888a3f2b0f5710cdd6eab32904c28b2590fa6f6bc85e80b5f1",
+      "additionalCurrentUseEvidence": {
+        "record": "logs/forms-completion/gyeonggi-20261019/team1/pages/goyang-single-parent.json"
+      },
+      "lawEffectiveDate": "",
+      "lawCurrentCheckedAt": "",
+      "authorityBasis": {
+        "kind": "official-program",
+        "title": "고양시 저소득 미혼 한부모 양육생계비 지원",
+        "evidenceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00004720&wlfareInfoReldBztpCd=02",
+        "checkedAt": "2026-10-19",
+        "evidenceNote": "신청인·자녀·고양 전입일·부모교육·통합사례관리 동의·계좌 및 서명을 받는 실제 신청서와 개인정보 동의서 전체를 확인했다. 현 복지로의 정확한 미혼한부모 양육생계비 사업이 이 첨부를 직접 배포하고 고양시의 2026-01-23 수정 안내도 같은 의무교육·동의 및 동 행정복지센터 접수를 안내한다.",
+        "pageSHA256": "cd1468e5594074668fb485a5aa0f7be839c92297baff36c2f08cba86c73126d9"
+      },
+      "coordinatorReason": "신청인·자녀·고양 전입일·부모교육·통합사례관리 동의·계좌 및 서명을 받는 실제 신청서와 개인정보 동의서 전체를 확인했다. 현 복지로의 정확한 미혼한부모 양육생계비 사업이 이 첨부를 직접 배포하고 고양시의 2026-01-23 수정 안내도 같은 의무교육·동의 및 동 행정복지센터 접수를 안내한다."
+    },
+    {
+      "sourceKind": "agency",
+      "basisType": "official_program",
+      "formId": "agency-41630-bok-20240628UUWBM1116070091665482-1",
+      "sourceCandidateId": "page-aab92b155314dbb8695c",
+      "sourcePageUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00003126&wlfareInfoReldBztpCd=02",
+      "sourcePageSHA256": "f9550ce2d4b01d8774798f4cd974b2ef9d1ded20562b005f7f413ce370965b04",
+      "sourcePageHttpStatus": 200,
+      "sourcePageRecord": "logs/forms-completion/gyeonggi-20261019/team1/pages/source-page-aab92b155314dbb8695c.json",
+      "sourceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twata/CmmFileUtil/getDownload.do?atcflId=20240628UUWBM1116070091665482&atcflSn=1&wlfareInfoId=WLF00003126",
+      "finalUrl": "https://www.bokjiro.go.kr/ssis-tbu/twata/CmmFileUtil/getDownload.do?atcflId=20240628UUWBM1116070091665482&atcflSn=1&wlfareInfoId=WLF00003126",
+      "attachmentId": "20240628UUWBM1116070091665482",
+      "attachmentIdentifier": {
+        "queryParam": "atcflId",
+        "value": "20240628UUWBM1116070091665482"
+      },
+      "attachmentFileSn": "1",
+      "officialProgramSourceId": "WLF00003126",
+      "agencyName": "양주시 (복지로 공식 사업안내 배포)",
+      "authorityKind": "government",
+      "authorityEvidenceKind": "government",
+      "authorityEvidenceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00003126&wlfareInfoReldBztpCd=02",
+      "authorityEvidenceNote": "복지로의 해당 지자체 특정 사업 ID를 확인한 현재 공개 사업 페이지에 원본 다운로드가 직접 결속되어 있다.",
+      "formTitle": "화장장려금지급신청서",
+      "sourceMetadataTitle": "화장장려금지급신청서.hwp",
+      "programIds": [
+        "g41630.bokjiro-WLF00003126"
+      ],
+      "programNames": [
+        "화장장려 정책 추진"
+      ],
+      "programEvidenceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00003126&wlfareInfoReldBztpCd=02",
+      "regionCode": "41630",
+      "regionLabel": "경기도 양주시",
+      "checkedAt": "2026-10-19",
+      "dateKind": "checked",
+      "effectiveDate": "2026-10-19",
+      "publishedAt": null,
+      "role": "application",
+      "use": "main",
+      "condition": "",
+      "applicant": "사망자 또는 개장분묘 화장의 연고자",
+      "reviewedParts": [
+        {
+          "number": "별지 제1호",
+          "title": "화장 장려금 지급 신청서",
+          "use": "main",
+          "author": "사망자 또는 개장분묘 화장의 연고자"
+        }
+      ],
+      "selectedParts": [
+        {
+          "number": "별지 제1호",
+          "title": "화장 장려금 지급 신청서",
+          "use": "main",
+          "author": "사망자 또는 개장분묘 화장의 연고자"
+        }
+      ],
+      "verificationStatus": "verified",
+      "decision": "propose_approval",
+      "publicationApproved": false,
+      "requiresCoordinatorReview": true,
+      "officialAttachmentMatched": true,
+      "evidenceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00003126&wlfareInfoReldBztpCd=02",
+      "evidenceNote": "양주시장 수신의 별지1 전체에서 신청인 계좌·사망자 화장·분묘 개장 후 화장 내역과 신청 서명을 확인했다. 현재 복지로 WLF00003126이 바로 이 원본을 신청서로 배포하고 읍면동 신청·화장 및 개장증명·통장 증빙을 요구하여 주체와 절차가 일치한다.",
+      "roleBasis": "양주시장 수신의 별지1 전체에서 신청인 계좌·사망자 화장·분묘 개장 후 화장 내역과 신청 서명을 확인했다. 현재 복지로 WLF00003126이 바로 이 원본을 신청서로 배포하고 읍면동 신청·화장 및 개장증명·통장 증빙을 요구하여 주체와 절차가 일치한다.",
+      "roleEvidenceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twata/CmmFileUtil/getDownload.do?atcflId=20240628UUWBM1116070091665482&atcflSn=1&wlfareInfoId=WLF00003126",
+      "roleCheckedAt": "2026-10-19",
+      "sha256": "f6af85b5be1169f1e17252c4a856fc01f99f3ae9e99bda25b1ab12a51d61e7f7",
+      "bytes": 36352,
+      "originalFormat": "hwp",
+      "originalPath": "pipeline/forms/originals/agency-41630-bok-20240628UUWBM1116070091665482-1.hwp",
+      "textEvidencePath": "logs/forms-completion/search-gap-20261019/extracted/page-aab92b155314dbb8695c.json",
+      "textScope": "all_body_sections_or_pages",
+      "originalTextScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "BodyText/Section0"
+      ],
+      "fullBodyReviewed": true,
+      "textLength": 383,
+      "bodyTextSha256": "c73bec904299745af0a95bbed9f546688dfeef51e3c33260a8422774034090d5",
+      "originalRegetHttpStatus": 200,
+      "originalRegetShaMatched": true,
+      "independentlyReextracted": true,
+      "embeddedImageCount": 0,
+      "reviewedBy": "/root/forms_source_audit",
+      "referencedLaws": [
+        "양주시 화장장려금 지급 조례"
+      ],
+      "excludedParts": [],
+      "sourceIssues": [],
+      "lawId": "",
+      "lawTitle": "",
+      "lawEvidenceUrl": "",
+      "annexId": "",
+      "annexNumber": "",
+      "programPageRecord": "logs/forms-completion/gyeonggi-20261019/team1/pages/source-page-aab92b155314dbb8695c.json",
+      "programPageSHA256": "f9550ce2d4b01d8774798f4cd974b2ef9d1ded20562b005f7f413ce370965b04",
+      "lawEffectiveDate": "",
+      "lawCurrentCheckedAt": "",
+      "authorityBasis": {
+        "kind": "official-program",
+        "title": "화장장려 정책 추진",
+        "evidenceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00003126&wlfareInfoReldBztpCd=02",
+        "checkedAt": "2026-10-19",
+        "evidenceNote": "양주시장 수신의 별지1 전체에서 신청인 계좌·사망자 화장·분묘 개장 후 화장 내역과 신청 서명을 확인했다. 현재 복지로 WLF00003126이 바로 이 원본을 신청서로 배포하고 읍면동 신청·화장 및 개장증명·통장 증빙을 요구하여 주체와 절차가 일치한다.",
+        "pageSHA256": "9dd054fe40937e18ea5d9e2529ff4f57190742c178c7dbdce3467562f299232b"
+      },
+      "coordinatorReason": "양주시장 수신의 별지1 전체에서 신청인 계좌·사망자 화장·분묘 개장 후 화장 내역과 신청 서명을 확인했다. 현재 복지로 WLF00003126이 바로 이 원본을 신청서로 배포하고 읍면동 신청·화장 및 개장증명·통장 증빙을 요구하여 주체와 절차가 일치한다."
+    },
+    {
+      "sourceKind": "agency",
+      "basisType": "official_program",
+      "formId": "agency-41630-bok-20240628UUWBM1117010091667683-1",
+      "sourceCandidateId": "page-072140bf252fd4b563f1",
+      "sourcePageUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00003126&wlfareInfoReldBztpCd=02",
+      "sourcePageSHA256": "f9550ce2d4b01d8774798f4cd974b2ef9d1ded20562b005f7f413ce370965b04",
+      "sourcePageHttpStatus": 200,
+      "sourcePageRecord": "logs/forms-completion/gyeonggi-20261019/team1/pages/source-page-aab92b155314dbb8695c.json",
+      "sourceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twata/CmmFileUtil/getDownload.do?atcflId=20240628UUWBM1117010091667683&atcflSn=1&wlfareInfoId=WLF00003126",
+      "finalUrl": "https://www.bokjiro.go.kr/ssis-tbu/twata/CmmFileUtil/getDownload.do?atcflId=20240628UUWBM1117010091667683&atcflSn=1&wlfareInfoId=WLF00003126",
+      "attachmentId": "20240628UUWBM1117010091667683",
+      "attachmentIdentifier": {
+        "queryParam": "atcflId",
+        "value": "20240628UUWBM1117010091667683"
+      },
+      "attachmentFileSn": "1",
+      "officialProgramSourceId": "WLF00003126",
+      "agencyName": "양주시 (복지로 공식 사업안내 배포)",
+      "authorityKind": "government",
+      "authorityEvidenceKind": "government",
+      "authorityEvidenceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00003126&wlfareInfoReldBztpCd=02",
+      "authorityEvidenceNote": "복지로의 해당 지자체 특정 사업 ID를 확인한 현재 공개 사업 페이지에 원본 다운로드가 직접 결속되어 있다.",
+      "formTitle": "개인정보동의서(화장장려금)",
+      "sourceMetadataTitle": "개인정보동의서(화장장려금).hwp",
+      "programIds": [
+        "g41630.bokjiro-WLF00003126"
+      ],
+      "programNames": [
+        "화장장려 정책 추진"
+      ],
+      "programEvidenceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00003126&wlfareInfoReldBztpCd=02",
+      "regionCode": "41630",
+      "regionLabel": "경기도 양주시",
+      "checkedAt": "2026-10-19",
+      "dateKind": "checked",
+      "effectiveDate": "2026-10-19",
+      "publishedAt": null,
+      "role": "consent",
+      "use": "additional",
+      "condition": "",
+      "applicant": "양주시 화장장려금 신청인",
+      "reviewedParts": [
+        {
+          "number": "무번호",
+          "title": "화장장려금 지급을 위한 개인정보 수집·이용 동의서",
+          "use": "additional",
+          "author": "양주시 화장장려금 신청인"
+        }
+      ],
+      "selectedParts": [
+        {
+          "number": "무번호",
+          "title": "화장장려금 지급을 위한 개인정보 수집·이용 동의서",
+          "use": "additional",
+          "author": "양주시 화장장려금 신청인"
+        }
+      ],
+      "verificationStatus": "verified",
+      "decision": "propose_approval",
+      "publicationApproved": false,
+      "requiresCoordinatorReview": true,
+      "officialAttachmentMatched": true,
+      "evidenceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00003126&wlfareInfoReldBztpCd=02",
+      "evidenceNote": "전체 원문은 양주시 화장장려금 신청인의 이름·연락처·주소·생년월일을 지급대상자 조회에 사용하는 것에 대한 서명 동의다. WLF00003126의 현재 특정 사업 페이지가 화장장려금 신청서와 함께 직접 첨부하므로 같은 신청의 추가 서류로 제안한다.",
+      "roleBasis": "전체 원문은 양주시 화장장려금 신청인의 이름·연락처·주소·생년월일을 지급대상자 조회에 사용하는 것에 대한 서명 동의다. WLF00003126의 현재 특정 사업 페이지가 화장장려금 신청서와 함께 직접 첨부하므로 같은 신청의 추가 서류로 제안한다.",
+      "roleEvidenceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twata/CmmFileUtil/getDownload.do?atcflId=20240628UUWBM1117010091667683&atcflSn=1&wlfareInfoId=WLF00003126",
+      "roleCheckedAt": "2026-10-19",
+      "sha256": "8b9d5db82ddf668341a6683bd2a93cff3c035be1440c5528a05a735667da425c",
+      "bytes": 54272,
+      "originalFormat": "hwp",
+      "originalPath": "pipeline/forms/originals/agency-41630-bok-20240628UUWBM1117010091667683-1.hwp",
+      "textEvidencePath": "logs/forms-completion/search-gap-20261019/extracted/page-072140bf252fd4b563f1.json",
+      "textScope": "all_body_sections_or_pages",
+      "originalTextScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "BodyText/Section0"
+      ],
+      "fullBodyReviewed": true,
+      "textLength": 410,
+      "bodyTextSha256": "81aa92cbb0f9a53d467014efa3da6ca91ab7ad885c04489a072556e57ae58462",
+      "originalRegetHttpStatus": 200,
+      "originalRegetShaMatched": true,
+      "independentlyReextracted": true,
+      "embeddedImageCount": 0,
+      "reviewedBy": "/root/forms_source_audit",
+      "referencedLaws": [
+        "양주시 화장장려금 지급 조례"
+      ],
+      "excludedParts": [],
+      "sourceIssues": [],
+      "lawId": "",
+      "lawTitle": "",
+      "lawEvidenceUrl": "",
+      "annexId": "",
+      "annexNumber": "",
+      "programPageRecord": "logs/forms-completion/gyeonggi-20261019/team1/pages/source-page-aab92b155314dbb8695c.json",
+      "programPageSHA256": "f9550ce2d4b01d8774798f4cd974b2ef9d1ded20562b005f7f413ce370965b04",
+      "lawEffectiveDate": "",
+      "lawCurrentCheckedAt": "",
+      "authorityBasis": {
+        "kind": "official-program",
+        "title": "화장장려 정책 추진",
+        "evidenceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00003126&wlfareInfoReldBztpCd=02",
+        "checkedAt": "2026-10-19",
+        "evidenceNote": "전체 원문은 양주시 화장장려금 신청인의 이름·연락처·주소·생년월일을 지급대상자 조회에 사용하는 것에 대한 서명 동의다. WLF00003126의 현재 특정 사업 페이지가 화장장려금 신청서와 함께 직접 첨부하므로 같은 신청의 추가 서류로 제안한다.",
+        "pageSHA256": "9dd054fe40937e18ea5d9e2529ff4f57190742c178c7dbdce3467562f299232b"
+      },
+      "coordinatorReason": "전체 원문은 양주시 화장장려금 신청인의 이름·연락처·주소·생년월일을 지급대상자 조회에 사용하는 것에 대한 서명 동의다. WLF00003126의 현재 특정 사업 페이지가 화장장려금 신청서와 함께 직접 첨부하므로 같은 신청의 추가 서류로 제안한다."
+    },
+    {
+      "sourceKind": "agency",
+      "basisType": "official_program",
+      "formId": "agency-41630-bok-20240702UUWBM1118150092155083-1",
+      "sourceCandidateId": "page-c502d1345af3193e899d",
+      "sourcePageUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00005610&wlfareInfoReldBztpCd=02",
+      "sourcePageSHA256": "7a902bbf0fcb5b320de2b98e48dae88a76b430f4461ee1fefe0a58546054552d",
+      "sourcePageHttpStatus": 200,
+      "sourcePageRecord": "logs/forms-completion/gyeonggi-20261019/team1/pages/source-page-c502d1345af3193e899d.json",
+      "sourceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twata/CmmFileUtil/getDownload.do?atcflId=20240702UUWBM1118150092155083&atcflSn=1&wlfareInfoId=WLF00005610",
+      "finalUrl": "https://www.bokjiro.go.kr/ssis-tbu/twata/CmmFileUtil/getDownload.do?atcflId=20240702UUWBM1118150092155083&atcflSn=1&wlfareInfoId=WLF00005610",
+      "attachmentId": "20240702UUWBM1118150092155083",
+      "attachmentIdentifier": {
+        "queryParam": "atcflId",
+        "value": "20240702UUWBM1118150092155083"
+      },
+      "attachmentFileSn": "1",
+      "officialProgramSourceId": "WLF00005610",
+      "agencyName": "양주시 (복지로 공식 사업안내 배포)",
+      "authorityKind": "government",
+      "authorityEvidenceKind": "government",
+      "authorityEvidenceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00005610&wlfareInfoReldBztpCd=02",
+      "authorityEvidenceNote": "복지로의 해당 지자체 특정 사업 ID를 확인한 현재 공개 사업 페이지에 원본 다운로드가 직접 결속되어 있다.",
+      "formTitle": "효행장려지원을 위한 효도수당 지급신청서",
+      "sourceMetadataTitle": "효행장려지원을 위한 효도수당 지급신청서.hwp",
+      "programIds": [
+        "g41630.bokjiro-WLF00005610"
+      ],
+      "programNames": [
+        "효행장려지원"
+      ],
+      "programEvidenceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00005610&wlfareInfoReldBztpCd=02",
+      "regionCode": "41630",
+      "regionLabel": "경기도 양주시",
+      "checkedAt": "2026-10-19",
+      "dateKind": "checked",
+      "effectiveDate": "2026-10-19",
+      "publishedAt": null,
+      "role": "application",
+      "use": "main",
+      "condition": "",
+      "applicant": "양주시 효행장려금 지원 대상 가구의 신청인",
+      "reviewedParts": [
+        {
+          "number": "별지 제1호",
+          "title": "효도(장려금)수당 지급 신청서",
+          "use": "main",
+          "author": "양주시 효행장려금 지원 대상 가구의 신청인"
+        }
+      ],
+      "selectedParts": [
+        {
+          "number": "별지 제1호",
+          "title": "효도(장려금)수당 지급 신청서",
+          "use": "main",
+          "author": "양주시 효행장려금 지원 대상 가구의 신청인"
+        }
+      ],
+      "verificationStatus": "verified",
+      "decision": "propose_approval",
+      "publicationApproved": false,
+      "requiresCoordinatorReview": true,
+      "officialAttachmentMatched": true,
+      "evidenceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00005610&wlfareInfoReldBztpCd=02",
+      "evidenceNote": "별지1 전체는 지급계좌와 4대 가족 구성원의 관계·생년월일·주소·전입일을 신청인이 기재해 읍면동장에게 제출하는 서식이다. 현재 복지로와 정부24의 양주시 효행장려금은 70세 이상 직계존비속 포함4대·주소 및 실거주·연50만원과 해당 신청서를 요구한다. 원문 마지막의 현지 사실조사서 표제는 신청인 작성부분으로 안내하지 않는다.",
+      "roleBasis": "별지1 전체는 지급계좌와 4대 가족 구성원의 관계·생년월일·주소·전입일을 신청인이 기재해 읍면동장에게 제출하는 서식이다. 현재 복지로와 정부24의 양주시 효행장려금은 70세 이상 직계존비속 포함4대·주소 및 실거주·연50만원과 해당 신청서를 요구한다. 원문 마지막의 현지 사실조사서 표제는 신청인 작성부분으로 안내하지 않는다.",
+      "roleEvidenceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twata/CmmFileUtil/getDownload.do?atcflId=20240702UUWBM1118150092155083&atcflSn=1&wlfareInfoId=WLF00005610",
+      "roleCheckedAt": "2026-10-19",
+      "sha256": "7c284c8eaefccb25cb43107fb92869e267c2308898279242a177be9e6ad11586",
+      "bytes": 12800,
+      "originalFormat": "hwp",
+      "originalPath": "pipeline/forms/originals/agency-41630-bok-20240702UUWBM1118150092155083-1.hwp",
+      "textEvidencePath": "logs/forms-completion/search-gap-20261019/extracted/page-c502d1345af3193e899d.json",
+      "textScope": "all_body_sections_or_pages",
+      "originalTextScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "BodyText/Section0"
+      ],
+      "fullBodyReviewed": true,
+      "textLength": 232,
+      "bodyTextSha256": "c64cefcd2df0d98c25ce1552645c6e37686de2e3a0debc074db5594ae4802154",
+      "originalRegetHttpStatus": 200,
+      "originalRegetShaMatched": true,
+      "independentlyReextracted": true,
+      "embeddedImageCount": 0,
+      "reviewedBy": "/root/forms_source_audit",
+      "referencedLaws": [
+        "양주시 효행 장려 및 지원에 관한 조례"
+      ],
+      "excludedParts": [
+        {
+          "title": "현지 사실 조사서",
+          "reason": "기관 조사 표제이며 신청인 작성 대상에서 제외"
+        }
+      ],
+      "sourceIssues": [],
+      "lawId": "",
+      "lawTitle": "",
+      "lawEvidenceUrl": "",
+      "annexId": "",
+      "annexNumber": "",
+      "programPageRecord": "logs/forms-completion/gyeonggi-20261019/team1/pages/source-page-c502d1345af3193e899d.json",
+      "programPageSHA256": "7a902bbf0fcb5b320de2b98e48dae88a76b430f4461ee1fefe0a58546054552d",
+      "lawEffectiveDate": "",
+      "lawCurrentCheckedAt": "",
+      "authorityBasis": {
+        "kind": "official-program",
+        "title": "효행장려지원",
+        "evidenceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00005610&wlfareInfoReldBztpCd=02",
+        "checkedAt": "2026-10-19",
+        "evidenceNote": "별지1 전체는 지급계좌와 4대 가족 구성원의 관계·생년월일·주소·전입일을 신청인이 기재해 읍면동장에게 제출하는 서식이다. 현재 복지로와 정부24의 양주시 효행장려금은 70세 이상 직계존비속 포함4대·주소 및 실거주·연50만원과 해당 신청서를 요구한다. 원문 마지막의 현지 사실조사서 표제는 신청인 작성부분으로 안내하지 않는다.",
+        "pageSHA256": "c53a1187211bfdc007506f46d04324e6fced907f631c37e653d679f7b0bc42b9"
+      },
+      "coordinatorReason": "별지1 전체는 지급계좌와 4대 가족 구성원의 관계·생년월일·주소·전입일을 신청인이 기재해 읍면동장에게 제출하는 서식이다. 현재 복지로와 정부24의 양주시 효행장려금은 70세 이상 직계존비속 포함4대·주소 및 실거주·연50만원과 해당 신청서를 요구한다. 원문 마지막의 현지 사실조사서 표제는 신청인 작성부분으로 안내하지 않는다."
+    },
+    {
+      "sourceKind": "agency",
+      "basisType": "official_program",
+      "formId": "agency-41630-bok-20240702UUWBM1118150092155083-1",
+      "sourceCandidateId": "page-c502d1345af3193e899d",
+      "sourcePageUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00005610&wlfareInfoReldBztpCd=02",
+      "sourcePageSHA256": "7a902bbf0fcb5b320de2b98e48dae88a76b430f4461ee1fefe0a58546054552d",
+      "sourcePageHttpStatus": 200,
+      "sourcePageRecord": "logs/forms-completion/gyeonggi-20261019/team1/pages/source-page-c502d1345af3193e899d.json",
+      "sourceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twata/CmmFileUtil/getDownload.do?atcflId=20240702UUWBM1118150092155083&atcflSn=1&wlfareInfoId=WLF00005610",
+      "finalUrl": "https://www.bokjiro.go.kr/ssis-tbu/twata/CmmFileUtil/getDownload.do?atcflId=20240702UUWBM1118150092155083&atcflSn=1&wlfareInfoId=WLF00005610",
+      "attachmentId": "20240702UUWBM1118150092155083",
+      "attachmentIdentifier": {
+        "queryParam": "atcflId",
+        "value": "20240702UUWBM1118150092155083"
+      },
+      "attachmentFileSn": "1",
+      "officialProgramSourceId": "WLF00005610",
+      "agencyName": "양주시 (복지로 공식 사업안내 배포)",
+      "authorityKind": "government",
+      "authorityEvidenceKind": "government",
+      "authorityEvidenceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00005610&wlfareInfoReldBztpCd=02",
+      "authorityEvidenceNote": "복지로의 해당 지자체 특정 사업 ID를 확인한 현재 공개 사업 페이지에 원본 다운로드가 직접 결속되어 있다.",
+      "formTitle": "효행장려지원을 위한 효도수당 지급신청서",
+      "sourceMetadataTitle": "효행장려지원을 위한 효도수당 지급신청서.hwp",
+      "programIds": [
+        "g41630.gov24-559000000134"
+      ],
+      "programNames": [
+        "효행장려지원"
+      ],
+      "programEvidenceUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/559000000134",
+      "regionCode": "41630",
+      "regionLabel": "경기도 양주시",
+      "checkedAt": "2026-10-19",
+      "dateKind": "checked",
+      "effectiveDate": "2026-10-19",
+      "publishedAt": null,
+      "role": "application",
+      "use": "main",
+      "condition": "",
+      "applicant": "양주시 효행장려금 지원 대상 가구의 신청인",
+      "reviewedParts": [
+        {
+          "number": "별지 제1호",
+          "title": "효도(장려금)수당 지급 신청서",
+          "use": "main",
+          "author": "양주시 효행장려금 지원 대상 가구의 신청인"
+        }
+      ],
+      "selectedParts": [
+        {
+          "number": "별지 제1호",
+          "title": "효도(장려금)수당 지급 신청서",
+          "use": "main",
+          "author": "양주시 효행장려금 지원 대상 가구의 신청인"
+        }
+      ],
+      "verificationStatus": "verified",
+      "decision": "propose_approval",
+      "publicationApproved": false,
+      "requiresCoordinatorReview": true,
+      "officialAttachmentMatched": true,
+      "evidenceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00005610&wlfareInfoReldBztpCd=02",
+      "evidenceNote": "별지1 전체는 지급계좌와 4대 가족 구성원의 관계·생년월일·주소·전입일을 신청인이 기재해 읍면동장에게 제출하는 서식이다. 현재 복지로와 정부24의 양주시 효행장려금은 70세 이상 직계존비속 포함4대·주소 및 실거주·연50만원과 해당 신청서를 요구한다. 원문 마지막의 현지 사실조사서 표제는 신청인 작성부분으로 안내하지 않는다.",
+      "roleBasis": "별지1 전체는 지급계좌와 4대 가족 구성원의 관계·생년월일·주소·전입일을 신청인이 기재해 읍면동장에게 제출하는 서식이다. 현재 복지로와 정부24의 양주시 효행장려금은 70세 이상 직계존비속 포함4대·주소 및 실거주·연50만원과 해당 신청서를 요구한다. 원문 마지막의 현지 사실조사서 표제는 신청인 작성부분으로 안내하지 않는다.",
+      "roleEvidenceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twata/CmmFileUtil/getDownload.do?atcflId=20240702UUWBM1118150092155083&atcflSn=1&wlfareInfoId=WLF00005610",
+      "roleCheckedAt": "2026-10-19",
+      "sha256": "7c284c8eaefccb25cb43107fb92869e267c2308898279242a177be9e6ad11586",
+      "bytes": 12800,
+      "originalFormat": "hwp",
+      "originalPath": "pipeline/forms/originals/agency-41630-bok-20240702UUWBM1118150092155083-1.hwp",
+      "textEvidencePath": "logs/forms-completion/search-gap-20261019/extracted/page-c502d1345af3193e899d.json",
+      "textScope": "all_body_sections_or_pages",
+      "originalTextScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "BodyText/Section0"
+      ],
+      "fullBodyReviewed": true,
+      "textLength": 232,
+      "bodyTextSha256": "c64cefcd2df0d98c25ce1552645c6e37686de2e3a0debc074db5594ae4802154",
+      "originalRegetHttpStatus": 200,
+      "originalRegetShaMatched": true,
+      "independentlyReextracted": true,
+      "embeddedImageCount": 0,
+      "reviewedBy": "/root/forms_source_audit",
+      "referencedLaws": [
+        "양주시 효행 장려 및 지원에 관한 조례"
+      ],
+      "excludedParts": [
+        {
+          "title": "현지 사실 조사서",
+          "reason": "기관 조사 표제이며 신청인 작성 대상에서 제외"
+        }
+      ],
+      "sourceIssues": [],
+      "lawId": "",
+      "lawTitle": "",
+      "lawEvidenceUrl": "",
+      "annexId": "",
+      "annexNumber": "",
+      "programPageRecord": "logs/forms-completion/gyeonggi-20261019/team1/pages/source-page-c502d1345af3193e899d.json",
+      "programPageSHA256": "7a902bbf0fcb5b320de2b98e48dae88a76b430f4461ee1fefe0a58546054552d",
+      "lawEffectiveDate": "",
+      "lawCurrentCheckedAt": "",
+      "authorityBasis": {
+        "kind": "official-program",
+        "title": "효행장려지원",
+        "evidenceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00005610&wlfareInfoReldBztpCd=02",
+        "checkedAt": "2026-10-19",
+        "evidenceNote": "별지1 전체는 지급계좌와 4대 가족 구성원의 관계·생년월일·주소·전입일을 신청인이 기재해 읍면동장에게 제출하는 서식이다. 현재 복지로와 정부24의 양주시 효행장려금은 70세 이상 직계존비속 포함4대·주소 및 실거주·연50만원과 해당 신청서를 요구한다. 원문 마지막의 현지 사실조사서 표제는 신청인 작성부분으로 안내하지 않는다.",
+        "pageSHA256": "c53a1187211bfdc007506f46d04324e6fced907f631c37e653d679f7b0bc42b9"
+      },
+      "coordinatorReason": "별지1 전체는 지급계좌와 4대 가족 구성원의 관계·생년월일·주소·전입일을 신청인이 기재해 읍면동장에게 제출하는 서식이다. 현재 복지로와 정부24의 양주시 효행장려금은 70세 이상 직계존비속 포함4대·주소 및 실거주·연50만원과 해당 신청서를 요구한다. 원문 마지막의 현지 사실조사서 표제는 신청인 작성부분으로 안내하지 않는다."
+    },
+    {
+      "sourceKind": "agency",
+      "basisType": "official_program",
+      "formId": "agency-41630-bok-20240702UUWBM1127550092158628-1",
+      "sourceCandidateId": "page-708274b6b26a9027f368",
+      "sourcePageUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00005610&wlfareInfoReldBztpCd=02",
+      "sourcePageSHA256": "7a902bbf0fcb5b320de2b98e48dae88a76b430f4461ee1fefe0a58546054552d",
+      "sourcePageHttpStatus": 200,
+      "sourcePageRecord": "logs/forms-completion/gyeonggi-20261019/team1/pages/source-page-c502d1345af3193e899d.json",
+      "sourceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twata/CmmFileUtil/getDownload.do?atcflId=20240702UUWBM1127550092158628&atcflSn=1&wlfareInfoId=WLF00005610",
+      "finalUrl": "https://www.bokjiro.go.kr/ssis-tbu/twata/CmmFileUtil/getDownload.do?atcflId=20240702UUWBM1127550092158628&atcflSn=1&wlfareInfoId=WLF00005610",
+      "attachmentId": "20240702UUWBM1127550092158628",
+      "attachmentIdentifier": {
+        "queryParam": "atcflId",
+        "value": "20240702UUWBM1127550092158628"
+      },
+      "attachmentFileSn": "1",
+      "officialProgramSourceId": "WLF00005610",
+      "agencyName": "양주시 (복지로 공식 사업안내 배포)",
+      "authorityKind": "government",
+      "authorityEvidenceKind": "government",
+      "authorityEvidenceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00005610&wlfareInfoReldBztpCd=02",
+      "authorityEvidenceNote": "복지로의 해당 지자체 특정 사업 ID를 확인한 현재 공개 사업 페이지에 원본 다운로드가 직접 결속되어 있다.",
+      "formTitle": "개인정보동의서(효행장려)",
+      "sourceMetadataTitle": "개인정보동의서(효행장려).hwp",
+      "programIds": [
+        "g41630.bokjiro-WLF00005610"
+      ],
+      "programNames": [
+        "효행장려지원"
+      ],
+      "programEvidenceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00005610&wlfareInfoReldBztpCd=02",
+      "regionCode": "41630",
+      "regionLabel": "경기도 양주시",
+      "checkedAt": "2026-10-19",
+      "dateKind": "checked",
+      "effectiveDate": "2026-10-19",
+      "publishedAt": null,
+      "role": "consent",
+      "use": "additional",
+      "condition": "",
+      "applicant": "양주시 효행장려금 신청인",
+      "reviewedParts": [
+        {
+          "number": "무번호",
+          "title": "효도 수당 지급을 위한 개인정보 수집·이용 동의서",
+          "use": "additional",
+          "author": "양주시 효행장려금 신청인"
+        }
+      ],
+      "selectedParts": [
+        {
+          "number": "무번호",
+          "title": "효도 수당 지급을 위한 개인정보 수집·이용 동의서",
+          "use": "additional",
+          "author": "양주시 효행장려금 신청인"
+        }
+      ],
+      "verificationStatus": "verified",
+      "decision": "propose_approval",
+      "publicationApproved": false,
+      "requiresCoordinatorReview": true,
+      "officialAttachmentMatched": true,
+      "evidenceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00005610&wlfareInfoReldBztpCd=02",
+      "evidenceNote": "효행장려금 신청인의 가족구성·지급계좌 등 지급대상 조회에 대한 동의서 전체다. 현재 양주시 효행장려지원 특정 복지로 페이지가 신청서와 함께 직접 배포하고 동일 대상·급여·접수기관인 정부24 사업과 대조했다. 신청을 대신하는 주서류가 아니라 추가 동의서로 제안한다.",
+      "roleBasis": "효행장려금 신청인의 가족구성·지급계좌 등 지급대상 조회에 대한 동의서 전체다. 현재 양주시 효행장려지원 특정 복지로 페이지가 신청서와 함께 직접 배포하고 동일 대상·급여·접수기관인 정부24 사업과 대조했다. 신청을 대신하는 주서류가 아니라 추가 동의서로 제안한다.",
+      "roleEvidenceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twata/CmmFileUtil/getDownload.do?atcflId=20240702UUWBM1127550092158628&atcflSn=1&wlfareInfoId=WLF00005610",
+      "roleCheckedAt": "2026-10-19",
+      "sha256": "5c0fc8b27e5cd39658dc8130240f176b3aa534ebc4311d0e44564a4d02ac812e",
+      "bytes": 12800,
+      "originalFormat": "hwp",
+      "originalPath": "pipeline/forms/originals/agency-41630-bok-20240702UUWBM1127550092158628-1.hwp",
+      "textEvidencePath": "logs/forms-completion/search-gap-20261019/extracted/page-708274b6b26a9027f368.json",
+      "textScope": "all_body_sections_or_pages",
+      "originalTextScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "BodyText/Section0"
+      ],
+      "fullBodyReviewed": true,
+      "textLength": 442,
+      "bodyTextSha256": "49291a2aaeb03d1e3dd17a48114fa4027ae6f524ce027a72bfab14c4675392bb",
+      "originalRegetHttpStatus": 200,
+      "originalRegetShaMatched": true,
+      "independentlyReextracted": true,
+      "embeddedImageCount": 0,
+      "reviewedBy": "/root/forms_source_audit",
+      "referencedLaws": [
+        "양주시 효행 장려 및 지원에 관한 조례"
+      ],
+      "excludedParts": [],
+      "sourceIssues": [],
+      "lawId": "",
+      "lawTitle": "",
+      "lawEvidenceUrl": "",
+      "annexId": "",
+      "annexNumber": "",
+      "programPageRecord": "logs/forms-completion/gyeonggi-20261019/team1/pages/source-page-c502d1345af3193e899d.json",
+      "programPageSHA256": "7a902bbf0fcb5b320de2b98e48dae88a76b430f4461ee1fefe0a58546054552d",
+      "lawEffectiveDate": "",
+      "lawCurrentCheckedAt": "",
+      "authorityBasis": {
+        "kind": "official-program",
+        "title": "효행장려지원",
+        "evidenceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00005610&wlfareInfoReldBztpCd=02",
+        "checkedAt": "2026-10-19",
+        "evidenceNote": "효행장려금 신청인의 가족구성·지급계좌 등 지급대상 조회에 대한 동의서 전체다. 현재 양주시 효행장려지원 특정 복지로 페이지가 신청서와 함께 직접 배포하고 동일 대상·급여·접수기관인 정부24 사업과 대조했다. 신청을 대신하는 주서류가 아니라 추가 동의서로 제안한다.",
+        "pageSHA256": "c53a1187211bfdc007506f46d04324e6fced907f631c37e653d679f7b0bc42b9"
+      },
+      "coordinatorReason": "효행장려금 신청인의 가족구성·지급계좌 등 지급대상 조회에 대한 동의서 전체다. 현재 양주시 효행장려지원 특정 복지로 페이지가 신청서와 함께 직접 배포하고 동일 대상·급여·접수기관인 정부24 사업과 대조했다. 신청을 대신하는 주서류가 아니라 추가 동의서로 제안한다."
+    },
+    {
+      "sourceKind": "agency",
+      "basisType": "official_program",
+      "formId": "agency-41630-bok-20240702UUWBM1127550092158628-1",
+      "sourceCandidateId": "page-708274b6b26a9027f368",
+      "sourcePageUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00005610&wlfareInfoReldBztpCd=02",
+      "sourcePageSHA256": "7a902bbf0fcb5b320de2b98e48dae88a76b430f4461ee1fefe0a58546054552d",
+      "sourcePageHttpStatus": 200,
+      "sourcePageRecord": "logs/forms-completion/gyeonggi-20261019/team1/pages/source-page-c502d1345af3193e899d.json",
+      "sourceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twata/CmmFileUtil/getDownload.do?atcflId=20240702UUWBM1127550092158628&atcflSn=1&wlfareInfoId=WLF00005610",
+      "finalUrl": "https://www.bokjiro.go.kr/ssis-tbu/twata/CmmFileUtil/getDownload.do?atcflId=20240702UUWBM1127550092158628&atcflSn=1&wlfareInfoId=WLF00005610",
+      "attachmentId": "20240702UUWBM1127550092158628",
+      "attachmentIdentifier": {
+        "queryParam": "atcflId",
+        "value": "20240702UUWBM1127550092158628"
+      },
+      "attachmentFileSn": "1",
+      "officialProgramSourceId": "WLF00005610",
+      "agencyName": "양주시 (복지로 공식 사업안내 배포)",
+      "authorityKind": "government",
+      "authorityEvidenceKind": "government",
+      "authorityEvidenceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00005610&wlfareInfoReldBztpCd=02",
+      "authorityEvidenceNote": "복지로의 해당 지자체 특정 사업 ID를 확인한 현재 공개 사업 페이지에 원본 다운로드가 직접 결속되어 있다.",
+      "formTitle": "개인정보동의서(효행장려)",
+      "sourceMetadataTitle": "개인정보동의서(효행장려).hwp",
+      "programIds": [
+        "g41630.gov24-559000000134"
+      ],
+      "programNames": [
+        "효행장려지원"
+      ],
+      "programEvidenceUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/559000000134",
+      "regionCode": "41630",
+      "regionLabel": "경기도 양주시",
+      "checkedAt": "2026-10-19",
+      "dateKind": "checked",
+      "effectiveDate": "2026-10-19",
+      "publishedAt": null,
+      "role": "consent",
+      "use": "additional",
+      "condition": "",
+      "applicant": "양주시 효행장려금 신청인",
+      "reviewedParts": [
+        {
+          "number": "무번호",
+          "title": "효도 수당 지급을 위한 개인정보 수집·이용 동의서",
+          "use": "additional",
+          "author": "양주시 효행장려금 신청인"
+        }
+      ],
+      "selectedParts": [
+        {
+          "number": "무번호",
+          "title": "효도 수당 지급을 위한 개인정보 수집·이용 동의서",
+          "use": "additional",
+          "author": "양주시 효행장려금 신청인"
+        }
+      ],
+      "verificationStatus": "verified",
+      "decision": "propose_approval",
+      "publicationApproved": false,
+      "requiresCoordinatorReview": true,
+      "officialAttachmentMatched": true,
+      "evidenceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00005610&wlfareInfoReldBztpCd=02",
+      "evidenceNote": "효행장려금 신청인의 가족구성·지급계좌 등 지급대상 조회에 대한 동의서 전체다. 현재 양주시 효행장려지원 특정 복지로 페이지가 신청서와 함께 직접 배포하고 동일 대상·급여·접수기관인 정부24 사업과 대조했다. 신청을 대신하는 주서류가 아니라 추가 동의서로 제안한다.",
+      "roleBasis": "효행장려금 신청인의 가족구성·지급계좌 등 지급대상 조회에 대한 동의서 전체다. 현재 양주시 효행장려지원 특정 복지로 페이지가 신청서와 함께 직접 배포하고 동일 대상·급여·접수기관인 정부24 사업과 대조했다. 신청을 대신하는 주서류가 아니라 추가 동의서로 제안한다.",
+      "roleEvidenceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twata/CmmFileUtil/getDownload.do?atcflId=20240702UUWBM1127550092158628&atcflSn=1&wlfareInfoId=WLF00005610",
+      "roleCheckedAt": "2026-10-19",
+      "sha256": "5c0fc8b27e5cd39658dc8130240f176b3aa534ebc4311d0e44564a4d02ac812e",
+      "bytes": 12800,
+      "originalFormat": "hwp",
+      "originalPath": "pipeline/forms/originals/agency-41630-bok-20240702UUWBM1127550092158628-1.hwp",
+      "textEvidencePath": "logs/forms-completion/search-gap-20261019/extracted/page-708274b6b26a9027f368.json",
+      "textScope": "all_body_sections_or_pages",
+      "originalTextScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "BodyText/Section0"
+      ],
+      "fullBodyReviewed": true,
+      "textLength": 442,
+      "bodyTextSha256": "49291a2aaeb03d1e3dd17a48114fa4027ae6f524ce027a72bfab14c4675392bb",
+      "originalRegetHttpStatus": 200,
+      "originalRegetShaMatched": true,
+      "independentlyReextracted": true,
+      "embeddedImageCount": 0,
+      "reviewedBy": "/root/forms_source_audit",
+      "referencedLaws": [
+        "양주시 효행 장려 및 지원에 관한 조례"
+      ],
+      "excludedParts": [],
+      "sourceIssues": [],
+      "lawId": "",
+      "lawTitle": "",
+      "lawEvidenceUrl": "",
+      "annexId": "",
+      "annexNumber": "",
+      "programPageRecord": "logs/forms-completion/gyeonggi-20261019/team1/pages/source-page-c502d1345af3193e899d.json",
+      "programPageSHA256": "7a902bbf0fcb5b320de2b98e48dae88a76b430f4461ee1fefe0a58546054552d",
+      "lawEffectiveDate": "",
+      "lawCurrentCheckedAt": "",
+      "authorityBasis": {
+        "kind": "official-program",
+        "title": "효행장려지원",
+        "evidenceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00005610&wlfareInfoReldBztpCd=02",
+        "checkedAt": "2026-10-19",
+        "evidenceNote": "효행장려금 신청인의 가족구성·지급계좌 등 지급대상 조회에 대한 동의서 전체다. 현재 양주시 효행장려지원 특정 복지로 페이지가 신청서와 함께 직접 배포하고 동일 대상·급여·접수기관인 정부24 사업과 대조했다. 신청을 대신하는 주서류가 아니라 추가 동의서로 제안한다.",
+        "pageSHA256": "c53a1187211bfdc007506f46d04324e6fced907f631c37e653d679f7b0bc42b9"
+      },
+      "coordinatorReason": "효행장려금 신청인의 가족구성·지급계좌 등 지급대상 조회에 대한 동의서 전체다. 현재 양주시 효행장려지원 특정 복지로 페이지가 신청서와 함께 직접 배포하고 동일 대상·급여·접수기관인 정부24 사업과 대조했다. 신청을 대신하는 주서류가 아니라 추가 동의서로 제안한다."
+    },
+    {
+      "sourceKind": "agency",
+      "basisType": "official_program",
+      "formId": "agency-41310-bok-20260608UUWBM1658150195804377-1",
+      "sourceCandidateId": "page-19323433e02456d64908",
+      "sourcePageUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00003554&wlfareInfoReldBztpCd=02",
+      "sourcePageSHA256": "803090805e5481d7df3190ced763b4750e8df353adff7e89653f737200d64ca0",
+      "sourcePageHttpStatus": 200,
+      "sourcePageRecord": "logs/forms-completion/gyeonggi-20261019/team1/pages/source-page-19323433e02456d64908.json",
+      "sourceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twata/CmmFileUtil/getDownload.do?atcflId=20260608UUWBM1658150195804377&atcflSn=1&wlfareInfoId=WLF00003554",
+      "finalUrl": "https://www.bokjiro.go.kr/ssis-tbu/twata/CmmFileUtil/getDownload.do?atcflId=20260608UUWBM1658150195804377&atcflSn=1&wlfareInfoId=WLF00003554",
+      "attachmentId": "20260608UUWBM1658150195804377",
+      "attachmentIdentifier": {
+        "queryParam": "atcflId",
+        "value": "20260608UUWBM1658150195804377"
+      },
+      "attachmentFileSn": "1",
+      "officialProgramSourceId": "WLF00003554",
+      "agencyName": "구리시 (복지로 공식 사업안내 배포)",
+      "authorityKind": "government",
+      "authorityEvidenceKind": "government",
+      "authorityEvidenceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00003554&wlfareInfoReldBztpCd=02",
+      "authorityEvidenceNote": "복지로의 해당 지자체 특정 사업 ID를 확인한 현재 공개 사업 페이지에 원본 다운로드가 직접 결속되어 있다.",
+      "formTitle": "어린이집 이용아동 입소료 지원 신청서(학부모 신청 서식)",
+      "sourceMetadataTitle": "어린이집 이용아동 입소료 지원 신청서(학부모 신청 서식).hwp",
+      "programIds": [
+        "g41310.gov24-398000000109"
+      ],
+      "programNames": [
+        "어린이집 이용아동 입소료 지원"
+      ],
+      "programEvidenceUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/398000000109",
+      "regionCode": "41310",
+      "regionLabel": "경기도 구리시",
+      "checkedAt": "2026-10-19",
+      "dateKind": "checked",
+      "effectiveDate": "2026-10-19",
+      "publishedAt": null,
+      "role": "application",
+      "use": "main",
+      "condition": "학부모가 작성하는 신청서입니다. 관내 어린이집 입소는 어린이집에, 관외 어린이집 입소는 주소지 동 행정복지센터에 접수합니다. 어린이집이 작성하는 별도 취합 신청서와 구분합니다.",
+      "applicant": "지원 대상 아동의 보호자",
+      "reviewedParts": [
+        {
+          "number": "무번호·학부모 신청",
+          "title": "어린이집 입소료 지원 신청서",
+          "use": "main",
+          "author": "지원 대상 아동의 보호자"
+        }
+      ],
+      "selectedParts": [
+        {
+          "number": "무번호·학부모 신청",
+          "title": "어린이집 입소료 지원 신청서",
+          "use": "main",
+          "author": "지원 대상 아동의 보호자"
+        }
+      ],
+      "verificationStatus": "verified",
+      "decision": "propose_approval",
+      "publicationApproved": false,
+      "requiresCoordinatorReview": true,
+      "officialAttachmentMatched": true,
+      "evidenceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00003554&wlfareInfoReldBztpCd=02",
+      "evidenceNote": "학부모 신청이라고 명시된 원문 전체의 보호자·아동·입소료 납입내역·계좌·보호자 서명을 읽었다. 현재 복지로 WLF00003554의2026사업 안내에 정확한 학부모 원본이 첨부되어 있고, 대상구분·최대10만원·어린이집 또는 동행정복지센터 접수가 정부24의 동일 구리시 사업과 일치한다. 별도 어린이집 취합 신청서는 주민용으로 제안하지 않는다.",
+      "roleBasis": "학부모 신청이라고 명시된 원문 전체의 보호자·아동·입소료 납입내역·계좌·보호자 서명을 읽었다. 현재 복지로 WLF00003554의2026사업 안내에 정확한 학부모 원본이 첨부되어 있고, 대상구분·최대10만원·어린이집 또는 동행정복지센터 접수가 정부24의 동일 구리시 사업과 일치한다. 별도 어린이집 취합 신청서는 주민용으로 제안하지 않는다.",
+      "roleEvidenceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twata/CmmFileUtil/getDownload.do?atcflId=20260608UUWBM1658150195804377&atcflSn=1&wlfareInfoId=WLF00003554",
+      "roleCheckedAt": "2026-10-19",
+      "sha256": "6b41ea1fbe8ad852dd50f249b61b98d76240040787281c0a72aa6b37fc2becf7",
+      "bytes": 67584,
+      "originalFormat": "hwp",
+      "originalPath": "pipeline/forms/originals/agency-41310-bok-20260608UUWBM1658150195804377-1.hwp",
+      "textEvidencePath": "logs/forms-completion/search-gap-20261019/extracted/page-19323433e02456d64908.json",
+      "textScope": "all_body_sections_or_pages",
+      "originalTextScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "BodyText/Section0"
+      ],
+      "fullBodyReviewed": true,
+      "textLength": 514,
+      "bodyTextSha256": "b0225539191245f21f23e5d0a75e0a6bf47949ca964ac9e213faac40d5f2c05e",
+      "originalRegetHttpStatus": 200,
+      "originalRegetShaMatched": true,
+      "independentlyReextracted": true,
+      "embeddedImageCount": 0,
+      "reviewedBy": "/root/forms_source_audit",
+      "referencedLaws": [
+        "구리시 영유아보육 조례(제27조)"
+      ],
+      "excludedParts": [],
+      "sourceIssues": [],
+      "lawId": "",
+      "lawTitle": "",
+      "lawEvidenceUrl": "",
+      "annexId": "",
+      "annexNumber": "",
+      "programPageRecord": "logs/forms-completion/gyeonggi-20261019/team1/pages/program-g41310.gov24-398000000109.json",
+      "programPageSHA256": "2da52e7b7d0c65caae28bb7489ea122980c3005afa5ea87157d58d3e7dbe377f",
+      "lawEffectiveDate": "",
+      "lawCurrentCheckedAt": "",
+      "authorityBasis": {
+        "kind": "official-program",
+        "title": "어린이집 이용아동 입소료 지원",
+        "evidenceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00003554&wlfareInfoReldBztpCd=02",
+        "checkedAt": "2026-10-19",
+        "evidenceNote": "학부모 신청이라고 명시된 원문 전체의 보호자·아동·입소료 납입내역·계좌·보호자 서명을 읽었다. 현재 복지로 WLF00003554의2026사업 안내에 정확한 학부모 원본이 첨부되어 있고, 대상구분·최대10만원·어린이집 또는 동행정복지센터 접수가 정부24의 동일 구리시 사업과 일치한다. 별도 어린이집 취합 신청서는 주민용으로 제안하지 않는다.",
+        "pageSHA256": "dc4d81949a7b745a1f2533b310c1d5e40be4e27eaae35272408f03b925c354bc"
+      },
+      "coordinatorReason": "학부모 신청이라고 명시된 원문 전체의 보호자·아동·입소료 납입내역·계좌·보호자 서명을 읽었다. 현재 복지로 WLF00003554의2026사업 안내에 정확한 학부모 원본이 첨부되어 있고, 대상구분·최대10만원·어린이집 또는 동행정복지센터 접수가 정부24의 동일 구리시 사업과 일치한다. 별도 어린이집 취합 신청서는 주민용으로 제안하지 않는다."
+    },
+    {
+      "sourceKind": "agency",
+      "basisType": "official_program",
+      "formId": "agency-41360-bok-20230614UUWBM1332110039090877-1",
+      "sourceCandidateId": "page-9a580d2e2088a2603803",
+      "sourcePageUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00003557&wlfareInfoReldBztpCd=02",
+      "sourcePageSHA256": "0455b687368ccbae4f603d005edeb17bf3be9569efb39372562c6a8597690657",
+      "sourcePageHttpStatus": 200,
+      "sourcePageRecord": "logs/forms-completion/gyeonggi-20261019/team1/pages/source-page-9a580d2e2088a2603803.json",
+      "sourceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twata/CmmFileUtil/getDownload.do?atcflId=20230614UUWBM1332110039090877&atcflSn=1&wlfareInfoId=WLF00003557",
+      "finalUrl": "https://www.bokjiro.go.kr/ssis-tbu/twata/CmmFileUtil/getDownload.do?atcflId=20230614UUWBM1332110039090877&atcflSn=1&wlfareInfoId=WLF00003557",
+      "attachmentId": "20230614UUWBM1332110039090877",
+      "attachmentIdentifier": {
+        "queryParam": "atcflId",
+        "value": "20230614UUWBM1332110039090877"
+      },
+      "attachmentFileSn": "1",
+      "officialProgramSourceId": "WLF00003557",
+      "agencyName": "남양주시 (복지로 공식 사업안내 배포)",
+      "authorityKind": "government",
+      "authorityEvidenceKind": "government",
+      "authorityEvidenceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00003557&wlfareInfoReldBztpCd=02",
+      "authorityEvidenceNote": "복지로의 해당 지자체 특정 사업 ID를 확인한 현재 공개 사업 페이지에 원본 다운로드가 직접 결속되어 있다.",
+      "formTitle": "(서식)가정위탁아동 능력개발비 신청서",
+      "sourceMetadataTitle": "(서식)가정위탁아동 능력개발비 신청서.hwp",
+      "programIds": [
+        "g41360.gov24-399000000111"
+      ],
+      "programNames": [
+        "가정위탁 아동 능력개발비 지원"
+      ],
+      "programEvidenceUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/399000000111",
+      "regionCode": "41360",
+      "regionLabel": "경기도 남양주시",
+      "checkedAt": "2026-10-19",
+      "dateKind": "checked",
+      "effectiveDate": "2026-10-19",
+      "publishedAt": null,
+      "role": "application",
+      "use": "main",
+      "condition": "남양주시 가정위탁아동의 교과목 학원 수강비 신청용입니다. 수강료 납부 영수증과 현재 공식 안내가 요구하는 이전달 출석부를 함께 제출합니다.",
+      "applicant": "가정위탁아동의 보호자 등 신청인",
+      "reviewedParts": [
+        {
+          "number": "무번호",
+          "title": "가정위탁아동 능력개발비 신청서",
+          "use": "main",
+          "author": "가정위탁아동의 보호자 등 신청인"
+        }
+      ],
+      "selectedParts": [
+        {
+          "number": "무번호",
+          "title": "가정위탁아동 능력개발비 신청서",
+          "use": "main",
+          "author": "가정위탁아동의 보호자 등 신청인"
+        }
+      ],
+      "verificationStatus": "verified",
+      "decision": "propose_approval",
+      "publicationApproved": false,
+      "requiresCoordinatorReview": true,
+      "officialAttachmentMatched": true,
+      "evidenceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00003557&wlfareInfoReldBztpCd=02",
+      "evidenceNote": "남양주시장 수신의 원문 전체가 위탁아동·보호자 관계, 학원·수강과목, 신청금액, 계좌 및 영수증 증빙을 받는다. 현재 특정 복지로 WLF00003557이 이 서식을 배포하고 읍면동 신청·월20만원 실비를 안내하며 정부24의 남양주시 교과목 학원비 사업과 일치한다. 정부24가 추가로 요구하는 이전달 출석부는 원본의 첨부목록에 없으므로 준비서류 조건에 함께 보존한다.",
+      "roleBasis": "남양주시장 수신의 원문 전체가 위탁아동·보호자 관계, 학원·수강과목, 신청금액, 계좌 및 영수증 증빙을 받는다. 현재 특정 복지로 WLF00003557이 이 서식을 배포하고 읍면동 신청·월20만원 실비를 안내하며 정부24의 남양주시 교과목 학원비 사업과 일치한다. 정부24가 추가로 요구하는 이전달 출석부는 원본의 첨부목록에 없으므로 준비서류 조건에 함께 보존한다.",
+      "roleEvidenceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twata/CmmFileUtil/getDownload.do?atcflId=20230614UUWBM1332110039090877&atcflSn=1&wlfareInfoId=WLF00003557",
+      "roleCheckedAt": "2026-10-19",
+      "sha256": "9269bf0da895fd8bc849a4d96ea44438cec2bdd8cb9b14364bf3773d1d8dc1b4",
+      "bytes": 48128,
+      "originalFormat": "hwp",
+      "originalPath": "pipeline/forms/originals/agency-41360-bok-20230614UUWBM1332110039090877-1.hwp",
+      "textEvidencePath": "logs/forms-completion/search-gap-20261019/extracted/page-9a580d2e2088a2603803.json",
+      "textScope": "all_body_sections_or_pages",
+      "originalTextScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "BodyText/Section0"
+      ],
+      "fullBodyReviewed": true,
+      "textLength": 490,
+      "bodyTextSha256": "ed05439f61d5956046e14d9a01b6d11e6783a64e38bf77862a4fe5d80846954e",
+      "originalRegetHttpStatus": 200,
+      "originalRegetShaMatched": true,
+      "independentlyReextracted": true,
+      "embeddedImageCount": 0,
+      "reviewedBy": "/root/forms_source_audit",
+      "referencedLaws": [
+        "아동복지법"
+      ],
+      "excludedParts": [],
+      "sourceIssues": [],
+      "lawId": "",
+      "lawTitle": "",
+      "lawEvidenceUrl": "",
+      "annexId": "",
+      "annexNumber": "",
+      "programPageRecord": "logs/forms-completion/gyeonggi-20261019/team1/pages/program-g41360.gov24-399000000111.json",
+      "programPageSHA256": "eb979a90bb589f168c3e74f4b4492d52fccea81f0e1fe59d7b8bfe5cc42d27f4",
+      "lawEffectiveDate": "",
+      "lawCurrentCheckedAt": "",
+      "authorityBasis": {
+        "kind": "official-program",
+        "title": "가정위탁 아동 능력개발비 지원",
+        "evidenceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00003557&wlfareInfoReldBztpCd=02",
+        "checkedAt": "2026-10-19",
+        "evidenceNote": "남양주시장 수신의 원문 전체가 위탁아동·보호자 관계, 학원·수강과목, 신청금액, 계좌 및 영수증 증빙을 받는다. 현재 특정 복지로 WLF00003557이 이 서식을 배포하고 읍면동 신청·월20만원 실비를 안내하며 정부24의 남양주시 교과목 학원비 사업과 일치한다. 정부24가 추가로 요구하는 이전달 출석부는 원본의 첨부목록에 없으므로 준비서류 조건에 함께 보존한다.",
+        "pageSHA256": "ec5178743ddf1048127f5c208a982d7401f160cc661fbe03f58f57487cf8b0c8"
+      },
+      "coordinatorReason": "남양주시장 수신의 원문 전체가 위탁아동·보호자 관계, 학원·수강과목, 신청금액, 계좌 및 영수증 증빙을 받는다. 현재 특정 복지로 WLF00003557이 이 서식을 배포하고 읍면동 신청·월20만원 실비를 안내하며 정부24의 남양주시 교과목 학원비 사업과 일치한다. 정부24가 추가로 요구하는 이전달 출석부는 원본의 첨부목록에 없으므로 준비서류 조건에 함께 보존한다."
+    },
+    {
+      "formId": "agency-41610-bokjiro-WLF00006471-20260625UUWBM1731370198695083",
+      "candidateId": "page-5eb117525d82cdabe6aa",
+      "programIds": [
+        "g41610.gov24-554000000205"
+      ],
+      "programNames": [
+        "다태임신 임산부 교통비 지원"
+      ],
+      "sourceKind": "agency",
+      "formTitle": "다태임신 임산부 교통비 지원 신청서 및 개인정보 수집·이용 동의서",
+      "sourceMetadataTitle": "다태임신 임산부 교통비 지원 신청서(수정 26.4.8.).hwp",
+      "verifiedDocumentTitle": "다태임신 임산부 교통비 지원 신청서 및 개인정보 수집·이용 동의서",
+      "role": "application",
+      "use": "main",
+      "condition": "광주시 다태임신 임산부 교통비를 청구할 때 앞쪽 신청서와 뒤쪽 개인정보·민감정보 동의를 함께 작성합니다. 임산부가 진료내역·교통비·본인 계좌를 적고 진료·교통비 영수증 등 해당 증빙을 제출하는 서류입니다. 한 번의 다태임신당 청구는 1회에 한하며 현재 공식 안내의 거주·진료기간 기준을 따릅니다.",
+      "regionCode": "41610",
+      "regionLabel": "경기 광주시",
+      "agencyName": "광주시보건소",
+      "authorityKind": "government",
+      "authorityEvidenceKind": "government",
+      "authorityEvidenceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00006471&wlfareInfoReldBztpCd=02",
+      "sourcePageUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00006471&wlfareInfoReldBztpCd=02",
+      "sourceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twata/CmmFileUtil/getDownload.do?atcflId=20260625UUWBM1731370198695083&atcflSn=1&wlfareInfoId=WLF00006471",
+      "finalUrl": "https://www.bokjiro.go.kr/ssis-tbu/twata/CmmFileUtil/getDownload.do?atcflId=20260625UUWBM1731370198695083&atcflSn=1&wlfareInfoId=WLF00006471",
+      "attachmentId": "20260625UUWBM1731370198695083",
+      "attachmentIdentifier": {
+        "queryParam": "atcflId",
+        "value": "20260625UUWBM1731370198695083"
+      },
+      "sourcePageSha256": "ca29c51505a37c3361de07a37f5850afa0725aeb067a7cf249f50f681bc90826",
+      "sourcePageHttpStatus": 200,
+      "sourcePageProgramSpecific": true,
+      "sourcePageProgramId": "WLF00006471",
+      "programEvidenceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00006471&wlfareInfoReldBztpCd=02",
+      "programEvidenceUrls": [
+        "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/554000000205",
+        "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00006471&wlfareInfoReldBztpCd=02"
+      ],
+      "evidenceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00006471&wlfareInfoReldBztpCd=02",
+      "evidenceNote": "실제 저장된 HWP 전체와 오늘 같은 복지로 공개 첨부의 GET 바이트를 대조했다. 원본은 광주시장 수신의 임산부 신청서로 신청인·본인 계좌·분만예정일·타교통지원 여부·진료일/기관/교통비 10칸·서명과 개인정보·민감정보 동의를 받는다. 현재 복지로 WLF00006471의 정확한 본문이 광주시 6개월 주소, 다태임신, 임신12주~분만후3개월 진료 교통비 실비 최대50만원·회당5만원, 보건소 방문/보조금24 신청을 명시하고 이 정확한 atcflId를 배포한다. 현재 수록 g41610.gov24-554000000205의 sources에도 해당 WLF가 포함된다. 의료기관은 진료·영수증 확인 대상이며 실제 작성·청구자는 임산부이다.",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "fullBodyReviewed": true,
+      "independentBodyReview": true,
+      "sha256": "28494a4f7080e6445a8f9473d5ce9ce9bc1143d56d67924ccd1f796c687bb975",
+      "bytes": 73216,
+      "originalFormat": "hwp",
+      "originalPath": "pipeline/forms/originals/agency-41610-bokjiro-WLF00006471-20260625UUWBM1731370198695083.hwp",
+      "textScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "BodyText/Section0"
+      ],
+      "reviewedParts": [
+        {
+          "number": "번호 없는 붙임",
+          "title": "다태임신 임산부 교통비 지원 신청서",
+          "use": "main",
+          "author": "지원 대상 임산부"
+        },
+        {
+          "number": "번호 없는 동의서",
+          "title": "개인정보 수집·이용 동의서",
+          "use": "additional",
+          "author": "지원 대상 임산부(만14세 미만은 법정대리인 추가 동의)"
+        }
+      ],
+      "selectedParts": [
+        {
+          "number": "번호 없는 붙임",
+          "title": "다태임신 임산부 교통비 지원 신청서",
+          "use": "main",
+          "author": "지원 대상 임산부"
+        },
+        {
+          "number": "번호 없는 동의서",
+          "title": "개인정보 수집·이용 동의서",
+          "use": "additional",
+          "author": "지원 대상 임산부(만14세 미만은 법정대리인 추가 동의)"
+        }
+      ],
+      "applicant": "지원 대상 임산부",
+      "roleBasis": "앞쪽은 임산부가 본인 인적사항·계좌와 산전후 의료기관 방문 교통비를 기재하고 서명해 광주시장에게 신청한다. 뒤쪽은 같은 임산부의 개인정보 및 건강 관련 민감정보 처리 동의다. 병원·교통업체의 정산 또는 제공기관 지정 신청서가 아니다.",
+      "roleEvidenceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twata/CmmFileUtil/getDownload.do?atcflId=20260625UUWBM1731370198695083&atcflSn=1&wlfareInfoId=WLF00006471",
+      "roleCheckedAt": "2026-10-19",
+      "checkedAt": "2026-10-19",
+      "dateKind": "checked",
+      "effectiveDate": "2026-10-19",
+      "publishedAt": null,
+      "annexId": "",
+      "annexNumber": "",
+      "lawId": "",
+      "lawTitle": "",
+      "legalReferences": [
+        {
+          "title": "모자보건법",
+          "articles": [
+            "제10조의4",
+            "제3조"
+          ],
+          "source": "현재 수록 정부24 사업의 법적 근거 인용",
+          "exactLawIdVerified": false
+        },
+        {
+          "title": "모자보건법 시행규칙",
+          "articles": [
+            "별표1"
+          ],
+          "source": "현재 복지로 선정기준의 임신 주수별 횟수 준용 인용",
+          "exactLawIdVerified": false
+        }
+      ],
+      "authorityBasis": {
+        "kind": "official-program",
+        "title": "다태임신 임산부 교통비 지원",
+        "evidenceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00006471&wlfareInfoReldBztpCd=02",
+        "checkedAt": "2026-10-19",
+        "evidenceNote": "실제 저장된 HWP 전체와 오늘 같은 복지로 공개 첨부의 GET 바이트를 대조했다. 원본은 광주시장 수신의 임산부 신청서로 신청인·본인 계좌·분만예정일·타교통지원 여부·진료일/기관/교통비 10칸·서명과 개인정보·민감정보 동의를 받는다. 현재 복지로 WLF00006471의 정확한 본문이 광주시 6개월 주소, 다태임신, 임신12주~분만후3개월 진료 교통비 실비 최대50만원·회당5만원, 보건소 방문/보조금24 신청을 명시하고 이 정확한 atcflId를 배포한다. 현재 수록 g41610.gov24-554000000205의 sources에도 해당 WLF가 포함된다. 의료기관은 진료·영수증 확인 대상이며 실제 작성·청구자는 임산부이다.",
+        "pageSHA256": "795058acb715cc381960e9f935fb50a413a38c67c05ce2761e85cc7e05172fb3"
+      },
+      "currentUseConfirmed": true,
+      "originalApparentBlank": true,
+      "noFilledPersonalDataObserved": true,
+      "sourceIssues": [
+        "첨부 제목의 수정 26.4.8은 게시일이나 법령 시행일로 사용하지 않았다. 날짜는 공식 배포 확인일이다. 국가법령의 exact ID는 이번 사업 페이지 대조에서 확정하지 않았으며 가짜 자치법규 ID를 만들지 않았다."
+      ],
+      "proposalStatus": "ready_for_coordinator_exact_agency_gate",
+      "publicationApproved": false,
+      "sourceProof": {
+        "extractedRecord": "logs/forms-completion/search-gap-20261019/extracted/page-5eb117525d82cdabe6aa.json",
+        "freshDownloadRecord": "logs/forms-completion/gyeonggi-20261019/team2/documents/gwangju-multiple-pregnancy-transport.json",
+        "sourcePageRecord": "logs/forms-completion/gyeonggi-20261019/team2/sources/program-WLF00006471.json",
+        "sourcePageRecordSha256": "0c570ca60b800f75230e5a1ff98b8b1a9040965bab5f59fb569367359609e2de"
+      },
+      "lawEvidenceUrl": "",
+      "lawEffectiveDate": "",
+      "lawCurrentCheckedAt": "",
+      "authorityEvidenceNote": "실제 저장된 HWP 전체와 오늘 같은 복지로 공개 첨부의 GET 바이트를 대조했다. 원본은 광주시장 수신의 임산부 신청서로 신청인·본인 계좌·분만예정일·타교통지원 여부·진료일/기관/교통비 10칸·서명과 개인정보·민감정보 동의를 받는다. 현재 복지로 WLF00006471의 정확한 본문이 광주시 6개월 주소, 다태임신, 임신12주~분만후3개월 진료 교통비 실비 최대50만원·회당5만원, 보건소 방문/보조금24 신청을 명시하고 이 정확한 atcflId를 배포한다. 현재 수록 g41610.gov24-554000000205의 sources에도 해당 WLF가 포함된다. 의료기관은 진료·영수증 확인 대상이며 실제 작성·청구자는 임산부이다.",
+      "coordinatorReason": "실제 저장된 HWP 전체와 오늘 같은 복지로 공개 첨부의 GET 바이트를 대조했다. 원본은 광주시장 수신의 임산부 신청서로 신청인·본인 계좌·분만예정일·타교통지원 여부·진료일/기관/교통비 10칸·서명과 개인정보·민감정보 동의를 받는다. 현재 복지로 WLF00006471의 정확한 본문이 광주시 6개월 주소, 다태임신, 임신12주~분만후3개월 진료 교통비 실비 최대50만원·회당5만원, 보건소 방문/보조금24 신청을 명시하고 이 정확한 atcflId를 배포한다. 현재 수록 g41610.gov24-554000000205의 sources에도 해당 WLF가 포함된다. 의료기관은 진료·영수증 확인 대상이며 실제 작성·청구자는 임산부이다."
+    },
+    {
+      "formId": "agency-41000-goe-diabetes-20260904",
+      "sourceKind": "agency",
+      "formTitle": "2026 제1형 당뇨병 학생 의료물품 구입비 지원 변경 안내문·신청서",
+      "verifiedDocumentTitle": "제1형 당뇨병 학생 의료물품 구입비 지원 신청서 및 개인정보 동의서",
+      "sourcePageUrl": "https://www.goe.go.kr/goe/na/ntt/selectNttInfo.do?mi=10961&nttSn=2366482",
+      "evidenceUrl": "https://www.goe.go.kr/goe/na/ntt/selectNttInfo.do?mi=10961&nttSn=2366482",
+      "sourceUrl": "https://www.goe.go.kr/goe/na/ntt/comm/nttFileDownload.do?fileKey=1cc79c51135a37e77f922e976c726e7f",
+      "finalUrl": "https://www.goe.go.kr/goe/na/ntt/comm/nttFileDownload.do?fileKey=1cc79c51135a37e77f922e976c726e7f",
+      "attachmentId": "1cc79c51135a37e77f922e976c726e7f",
+      "attachmentIdentifier": {
+        "queryParam": "fileKey",
+        "value": "1cc79c51135a37e77f922e976c726e7f"
+      },
+      "agencyName": "경기도교육청 생활교육과",
+      "authorityKind": "government",
+      "authorityEvidenceKind": "government",
+      "authorityEvidenceUrl": "https://www.goe.go.kr/goe/na/ntt/selectNttInfo.do?mi=10961&nttSn=2366482",
+      "authorityEvidenceNote": "경기도교육청 공식 누리집의2026-09-04 변경공고가 새담당부서·신청서 변경을 고지하며 동일fileKey를 직접 배포한다.",
+      "programIds": [
+        "s41000.bokjiro-WLF00006330"
+      ],
+      "programEvidenceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00006330&wlfareInfoReldBztpCd=02",
+      "lawId": "2096825",
+      "lawTitle": "경기도교육청 당뇨병 학생 지원 조례",
+      "lawEvidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2096825",
+      "lawUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2096825",
+      "lawEffectiveDate": "2025-12-31",
+      "lawCurrentCheckedAt": "2026-10-19",
+      "stableLawId": "2207939",
+      "regionCode": "41000",
+      "regionLabel": "경기도",
+      "annexId": "",
+      "annexNumber": "",
+      "dateKind": "published",
+      "effectiveDate": "2026-09-04",
+      "publishedAt": "2026-09-04",
+      "checkedAt": "2026-10-19",
+      "sha256": "2d676147f06b464fbdf43b9f71f2195ff318a4ca4ed892ab9bb7cbbba8debb79",
+      "bytes": 89345,
+      "originalFormat": "hwpx",
+      "originalPath": "pipeline/forms/originals/agency-41000-goe-diabetes-20260904.hwpx",
+      "textScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "Contents/section0.xml"
+      ],
+      "selectedParts": [
+        {
+          "number": "1",
+          "title": "제1형 당뇨병 학생 의료물품 구입비 지원 신청서",
+          "use": "main",
+          "author": "대상 학생 또는 보호자"
+        },
+        {
+          "number": "2",
+          "title": "개인정보 수집ㆍ이용ㆍ제3자 제공 동의서",
+          "use": "additional",
+          "author": "학생 본인 또는 법정대리인"
+        }
+      ],
+      "reviewedParts": [
+        {
+          "number": "1",
+          "title": "제1형 당뇨병 학생 의료물품 구입비 지원 신청서",
+          "use": "main",
+          "author": "대상 학생 또는 보호자"
+        },
+        {
+          "number": "2",
+          "title": "개인정보 수집ㆍ이용ㆍ제3자 제공 동의서",
+          "use": "additional",
+          "author": "학생 본인 또는 법정대리인"
+        }
+      ],
+      "applicant": "경기도교육청 해당학교의 제1형당뇨 대상 학생 또는 보호자",
+      "use": "main",
+      "role": "application",
+      "condition": "2026년 지원 신청은10월1~20일이며10월20일 우체국 소인까지 유효합니다. 변경공고의 북부청사 생활교육과로 등기 제출하는 신청서1·동의서2입니다. 안내의 구입증빙·통장사본·가족관계/등본·재학증명 등6종을 함께 준비합니다. 2026.1.1~9.30 지출분의 다른기관 중복신청은 제한되며, 10월20일 이후의 신규신청이나 다음연도용으로 안내하지 않습니다.",
+      "applicationWindow": {
+        "start": "2026-10-01",
+        "end": "2026-10-20",
+        "deadlineBasis": "2026-10-20 우체국 소인 날인분까지"
+      },
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "fullBodyReviewed": true,
+      "blankApplicantFormReviewed": true,
+      "evidenceNote": "경기도교육청2026-09-04 변경공고가 담당부서·우편접수주소·신청서 일부를 변경한다고 직접 고지하고 정확fileKey를 배포한다. 새원본 전체Section0(3684자)를 읽어 학생/보호자의 구입비 지원신청1호와 개인정보·민감정보·제3자제공 동의2호 및 제출서류안내임을 확인했다. 현행조례2096825 제6조제2호의 학생의료비지원과 WLF00006330의 제1형당뇨 의료물품 본인부담90% 지원을 대조했다. 기존6월원본과 달리 계좌소유주 식별정보·중복지원 체크·접수부서가 수정되어 최신공고원본을 사용해야 한다.",
+      "roleBasis": "경기도교육청2026-09-04 변경공고가 담당부서·우편접수주소·신청서 일부를 변경한다고 직접 고지하고 정확fileKey를 배포한다. 새원본 전체Section0(3684자)를 읽어 학생/보호자의 구입비 지원신청1호와 개인정보·민감정보·제3자제공 동의2호 및 제출서류안내임을 확인했다. 현행조례2096825 제6조제2호의 학생의료비지원과 WLF00006330의 제1형당뇨 의료물품 본인부담90% 지원을 대조했다. 기존6월원본과 달리 계좌소유주 식별정보·중복지원 체크·접수부서가 수정되어 최신공고원본을 사용해야 한다.",
+      "roleEvidenceUrl": "https://www.goe.go.kr/goe/na/ntt/comm/nttFileDownload.do?fileKey=1cc79c51135a37e77f922e976c726e7f",
+      "roleCheckedAt": "2026-10-19",
+      "reviewedBy": "codex-national_form_audit",
+      "publicationReady": true,
+      "sourceIssues": [
+        "기존6월복지로원본 d08e346a7e5f0f10cbe6e2e50c7e77f7451ea713a16c27460ece4ff82855634f와 다른9월수정본.",
+        "기존사이트의체육건강교육과/접수방법은현재공고에서생활교육과북부청사등기접수로변경됨.",
+        "원본은계좌소유주주민번호13자리기입지시와다른구입증빙의뒷번호마스킹지시를각각담는다."
+      ],
+      "supersedesCandidateId": "page-42bcd92657de8b115057",
+      "supersedesCandidateSha256": "d08e346a7e5f0f10cbe6e2e50c7e77f7451ea713a16c27460ece4ff82855634f",
+      "fullTextRecordPath": "logs/forms-completion/gyeonggi-20261019/team3/goe-diabetes-20260904.json",
+      "coordinatorReason": "경기도교육청2026-09-04 변경공고가 담당부서·우편접수주소·신청서 일부를 변경한다고 직접 고지하고 정확fileKey를 배포한다. 새원본 전체Section0(3684자)를 읽어 학생/보호자의 구입비 지원신청1호와 개인정보·민감정보·제3자제공 동의2호 및 제출서류안내임을 확인했다. 현행조례2096825 제6조제2호의 학생의료비지원과 WLF00006330의 제1형당뇨 의료물품 본인부담90% 지원을 대조했다. 기존6월원본과 달리 계좌소유주 식별정보·중복지원 체크·접수부서가 수정되어 최신공고원본을 사용해야 한다."
+    }
+  ],
+  "sourceReview": {
+    "coordinatorPlanSHA256": "b127d830c8752b6245fa4db7eff7dfd75b992d42fe4579e888ba8b97f00e6bff",
+    "frozenScopeFile": "pipeline/forms/reviews/agency-originals-scope-round8004.json",
+    "frozenScopeSHA256": "0329825bc85b327e86f9aa5f5ce9473580aa4fb2dad611e3b002d2e958cc14b5"
+  }
+}

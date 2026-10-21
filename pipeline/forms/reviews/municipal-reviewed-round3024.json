@@ -1,0 +1,1956 @@
+{
+  "schema": 1,
+  "checkedAt": "2026-10-18",
+  "batchId": "batch-024",
+  "rows": [
+    {
+      "sourceKind": "ordin",
+      "lawTitle": "진안군 상수도 급수 조례",
+      "lawId": "1891515",
+      "annexId": "20578401",
+      "annexNumber": "000900",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=154525919&flNm=%5B%EB%B3%84%EC%A7%80+4%ED%98%B8+%EC%84%9C%EC%8B%9D%5D+%EC%83%81%EC%88%98%EB%8F%84+%EC%9A%94%EA%B8%88+%EA%B0%90%EB%A9%B4+%EC%8B%A0%EC%B2%AD%EC%84%9C",
+      "dateKind": "effective",
+      "effectiveDate": "2023-12-28",
+      "regionCode": "52720",
+      "regionLabel": "전북특별자치도 진안군",
+      "formId": "ordin-20578401",
+      "formTitle": "[별지 4호 서식] 상수도 요금 감면 신청서",
+      "sourceMetadataTitle": "[별지 4호 서식] 상수도 요금 감면 신청서",
+      "programIds": [
+        "g52720.bokjiro-WLF00005802"
+      ],
+      "programNames": [
+        "다자녀가정 수도요금 감면"
+      ],
+      "use": "main",
+      "checkedAt": "2026-10-18",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "evidenceUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=1891515",
+      "evidenceNote": "수용가 정보와 막내자녀 생년월일을 적는 다자녀 선택란이 있는 요금감면 서식이다. 출처 제36조제1항제9호와 사이트 다자녀10톤 감면에 일치한다. 실제 원본 전체 본문, 출처 법규ID에 연결된 별지, 원본 SHA256 및 flSeq를 대조했다.",
+      "sha256": "e0fbb9e56759663e66015d87a770f9489ec21cb3de869c22759edf4907483717",
+      "bytes": 31232,
+      "originalFormat": "hwp",
+      "textScope": "all_body_sections_or_pages",
+      "originalTextScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "BodyText/Section0"
+      ],
+      "fullBodyReviewed": true,
+      "role": "application",
+      "roleBasis": "수용가 정보와 막내자녀 생년월일을 적는 다자녀 선택란이 있는 요금감면 서식이다. 출처 제36조제1항제9호와 사이트 다자녀10톤 감면에 일치한다. 실제 원본 전체 본문, 출처 법규ID에 연결된 별지, 원본 SHA256 및 flSeq를 대조했다.",
+      "roleEvidenceUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=1891515",
+      "roleCheckedAt": "2026-10-18",
+      "bodyEvidenceArticle": "제36조",
+      "bodyEvidenceText": "제36조(요금 등의 감면)① 군수는 다음 각 호의 어느 하나에 해당하는 때에는 수도요금 및 수수료를 감면할 수 있다.1. 「재난 및 안전관리기본법」의 규정에 따른 재난으로 피해를 입은 세대 전액 <2016.01.22. 조례 제2203호>2. 지방자치단체에서 운영하는 분뇨처리장의 수도 사용료 전액3. 상수도 급·배수관의 파손 또는 동결로 1개월 이상 급수가 중단 되었을 때에는 수도 사용료의 구경별 정액요금 전액4. 「물의 재이용 촉진 및 지원에 관한 법률」 제23조제2항에 따른  빗물이용시설 또는 중수도를 설치한 시설물의 소유자 또는 관리자나 하ㆍ폐수처리수 재처리수를 공급받는 자는 월 상수도 사용료 중 100분의 20을 감면<신설 2016.01.22. 조례 제2203호>5. 「식품위생법」에 따라 군에서 모범업소로 선정 통보된 업소, 착한가격물가안정 모범업소로 선정 통보된 업소 : 선정된 기간 동안 상수도 사용료 중 100분의 30을 감면(다만, 감면대상 업소 중 1개의 계량기로 2개 업소 이상이 함께 사용하는 경우는 제외한다) <2016.01.22. 조례 제2203호>6. 「국민기초생활 보장법」에 따른 수급자 중 생계ㆍ의료급여수급자로 구성된 세대와 「장애인복지법」제32조에 따라 등록된 장애의 정도가 심한 장애인세대 : 월 사용량 중 최대 10톤까지 해당 상수도 사용요금 감면 <2016.01.22. 조례 제2203호, 개정 2019.5.9., 다른 조례 제2438호 2019.7.23.>7. 「초·중등교육법」제2조에 해당하는 관내 초·중·고등학교 : 업종별 요율표 중 가정용 20톤 이하 요금 적용<신설 2019.5.9.>8. 「유아교육법」제2조제2호에 따른 유치원 및 「영유아보육법」제2조제3호의 어린이집 : 업종별 요율표 중 가정용 20톤 이하 요금 적용<신설 2019.5.9.>9. 둘째 자녀 이상 자녀를 출산 또는 입양하여 양육하는 가정 중 가장어린자녀가 18세 이하인 다자녀 가정 : 월 상수도 사용량 중 최대 10톤을 감면<신설 2019.5.9., 개정 2023.10.11., 2023.12.28.>10. 사회복지시설 중 노인복지타운, 요양원, 주야간보호센터, 장애인복지관, 장애인 거주시설, 장애인 재활 시설: 업종별 요율표 중 가정용 20톤 이하 요금 적용<신설 2019.5.9.>11. 누수가 발생하였을 때는 평균사용량(직전 3개월 평균사용량)을 초과하여 누수된 수량에 대하여 2분의 1을 감량 조정한다. 다만 감량 조정은 수도사용자 등이 누수를 보수하고 별지 제4호서식에 따라 군수에게 증빙자료를 첨부 신청하여야 하며 이 경우 감량조정은 누수기간의 마지막 3개월 사용량에 한정한다.  <2016.01.22. 조례 제2203호, 2023.12.28.>12. 「국가유공자 등 예우 및 지원에 관한 법률」에 따른 세대별 주민등록표상 세대주 또는 그 배우자의 가정용 사용량 : 월 사용량 중 최대 10톤까지 해당 상수도 사용요금 감면 <신설 2023.12.28.>13. 그 밖에 군수가 공익상 또는 수돗물 공급과정에서 특별히 감면사유가 있다고 인정하는 경우 <2016.01.22. 조례 제2203호, 2023.12.28.>",
+      "reviewedParts": [
+        {
+          "number": "4",
+          "title": "[별지 4호 서식] 상수도 요금 감면 신청서",
+          "use": "main",
+          "author": "해당 지원을 신청하는 사람"
+        }
+      ],
+      "condition": "다자녀 항목을 선택하고 막내자녀 정보를 기재합니다. 국가유공자·누수 항목은 이 연결의 대상이 아닙니다."
+    },
+    {
+      "sourceKind": "ordin",
+      "lawTitle": "통영시 참전유공자 등 지원조례",
+      "lawId": "1892649",
+      "annexId": "20581051",
+      "annexNumber": "000100",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=154528695&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C1%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EC%B0%B8%EC%A0%84%EC%9C%A0%EA%B3%B5%EC%9E%90+%EB%93%B1+%EC%88%98%EB%8B%B9+%EC%A7%80%EA%B8%89%EC%8B%A0%EC%B2%AD%EC%84%9C",
+      "dateKind": "effective",
+      "effectiveDate": "2024-01-01",
+      "regionCode": "48220",
+      "regionLabel": "경상남도 통영시",
+      "formId": "ordin-20581051",
+      "formTitle": "[별지 제1호서식] 참전유공자 등 수당 지급신청서",
+      "sourceMetadataTitle": "[별지 제1호서식] 참전유공자 등 수당 지급신청서",
+      "programIds": [
+        "g48220.bokjiro-WLF00000405"
+      ],
+      "programNames": [
+        "공상군경,전상군경,무공수훈자,보국수훈자 유족 수당"
+      ],
+      "use": "main",
+      "checkedAt": "2026-10-18",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "evidenceUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=1892649",
+      "evidenceNote": "전상·공상군경·무공·보국수훈자 본인과 각 유족·전몰·순직 유족 등의 선택란을 실제 확인했다. 제5조는 참전유공자 본인은 보훈지청 명단으로 처리하고 그 밖의 대상은 이 신청서를 쓰도록 구분한다. 각 사이트의 해당 유형에만 연결하고 독립유공자나 명단 지급 참전자에게 확대하지 않는다. 실제 원본 전체 본문, 출처 법규ID에 연결된 별지, 원본 SHA256 및 flSeq를 대조했다.",
+      "sha256": "d2c3ddff31cf8437f75a200566e19dbabb15b1c5a3d16dcd257533575ef44174",
+      "bytes": 38400,
+      "originalFormat": "hwp",
+      "textScope": "all_body_sections_or_pages",
+      "originalTextScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "BodyText/Section0"
+      ],
+      "fullBodyReviewed": true,
+      "role": "application",
+      "roleBasis": "전상·공상군경·무공·보국수훈자 본인과 각 유족·전몰·순직 유족 등의 선택란을 실제 확인했다. 제5조는 참전유공자 본인은 보훈지청 명단으로 처리하고 그 밖의 대상은 이 신청서를 쓰도록 구분한다. 각 사이트의 해당 유형에만 연결하고 독립유공자나 명단 지급 참전자에게 확대하지 않는다. 실제 원본 전체 본문, 출처 법규ID에 연결된 별지, 원본 SHA256 및 flSeq를 대조했다.",
+      "roleEvidenceUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=1892649",
+      "roleCheckedAt": "2026-10-18",
+      "bodyEvidenceArticle": "제5조",
+      "bodyEvidenceText": "제5조(지급방법 및 시기)① 보훈명예수당(이하 \"수당\"이라 한다)을 지급받고자 하는 사람(이하 \"수급권자\"라 한다)은 별지 제1호서식의 참전유공자 등 수당 지급신청서에 따라 신청서를 시장에게 제출하여야 한다. 다만, 참전명예수당은 지방보훈지청으로부터 참전유공자 명단을 받아 거주여부를 확인한 후 지급한다. (개정 2017.12.29., 2021.12.27., 2023.12.28.)② 수당의 지급은 매월 20일(토요일 또는 공휴일에 해당하는 경우에는 그 전일)에 수급권자가 지정하는 예금계좌에 입금하는 방법에 따른다. 다만, 수급권자가 부득이 한 사유가 있는 경우에는 본인의 신청에 따라 현금으로 직접 지급 할 수 있다.(개정 2017.4.10, 2017.12.29)③ 수당은 신청한 날이 속하는 달부터 지급중지사유가 발생한 날이 속하는 달까지 지급한다. 다만, 참전명예수당은 지급 결정을 한 날이 속하는 달부터 지급중지사유가 발생한 날이 속하는 달까지 지급한다.(개정 2021.12.27.)④ 제4조제1항제2호에 따른 사망위로금은 유가족 또는 관계인이 별지 제2호서식의 참전유공자 및 공상군경 사망위로금 지급신청서에 따라 신청서를 제출하여야 한다. 이 경우 사망일부터 1년 이내에 신청하여야 한다.(개정 2021.12.27., 2023.12.28.)⑤ 제4조제1항제1호라목의 유족에게 지급하는 보훈명예수당, 제4조제1항제2호에 따른 사망위로금 및 장례비용을 지급받을 대상 및 순위에 관하여는 국가유공자법 제13조에 따른다. 이 경우 사망위로금과 장례비용은 같은 국가유공자법 제13조에 따라 유족이 없는 때에는 사망 당시 생활을 같이 하고 있던 친족 중 재산상속인이 될 자의 신청에 따라 해당 재산상속인에게 이를 지급할 수 있고, 재산상속인이 될 사람도 없는 때에는 장제를 행하는 사람에게 이를 지급할 수 있다. (개정 2014.10.15, 2017.12.29, 2019.10.16., 2021.12.27., 2023. 12. 28.)⑥ 제4조제1항에 따른 수당의 지급금액 등 그 밖에 필요한 사항은 시장이 따로 정한다. <신설 2023. 12. 28.>",
+      "reviewedParts": [
+        {
+          "number": "1",
+          "title": "[별지 제1호서식] 참전유공자 등 수당 지급신청서",
+          "use": "main",
+          "author": "해당 지원을 신청하는 사람"
+        }
+      ],
+      "condition": "공상·전상군경·무공·보국수훈자의 유족 수당 항목에 맞춰 신청합니다."
+    },
+    {
+      "sourceKind": "ordin",
+      "lawTitle": "통영시 참전유공자 등 지원조례",
+      "lawId": "1892649",
+      "annexId": "20581051",
+      "annexNumber": "000100",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=154528695&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C1%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EC%B0%B8%EC%A0%84%EC%9C%A0%EA%B3%B5%EC%9E%90+%EB%93%B1+%EC%88%98%EB%8B%B9+%EC%A7%80%EA%B8%89%EC%8B%A0%EC%B2%AD%EC%84%9C",
+      "dateKind": "effective",
+      "effectiveDate": "2024-01-01",
+      "regionCode": "48220",
+      "regionLabel": "경상남도 통영시",
+      "formId": "ordin-20581051",
+      "formTitle": "[별지 제1호서식] 참전유공자 등 수당 지급신청서",
+      "sourceMetadataTitle": "[별지 제1호서식] 참전유공자 등 수당 지급신청서",
+      "programIds": [
+        "g48220.bokjiro-WLF00000407"
+      ],
+      "programNames": [
+        "전상군경,공상군경, 보국수훈자 ,무공수훈자 명예수당"
+      ],
+      "use": "main",
+      "checkedAt": "2026-10-18",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "evidenceUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=1892649",
+      "evidenceNote": "전상·공상군경·무공·보국수훈자 본인과 각 유족·전몰·순직 유족 등의 선택란을 실제 확인했다. 제5조는 참전유공자 본인은 보훈지청 명단으로 처리하고 그 밖의 대상은 이 신청서를 쓰도록 구분한다. 각 사이트의 해당 유형에만 연결하고 독립유공자나 명단 지급 참전자에게 확대하지 않는다. 실제 원본 전체 본문, 출처 법규ID에 연결된 별지, 원본 SHA256 및 flSeq를 대조했다.",
+      "sha256": "d2c3ddff31cf8437f75a200566e19dbabb15b1c5a3d16dcd257533575ef44174",
+      "bytes": 38400,
+      "originalFormat": "hwp",
+      "textScope": "all_body_sections_or_pages",
+      "originalTextScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "BodyText/Section0"
+      ],
+      "fullBodyReviewed": true,
+      "role": "application",
+      "roleBasis": "전상·공상군경·무공·보국수훈자 본인과 각 유족·전몰·순직 유족 등의 선택란을 실제 확인했다. 제5조는 참전유공자 본인은 보훈지청 명단으로 처리하고 그 밖의 대상은 이 신청서를 쓰도록 구분한다. 각 사이트의 해당 유형에만 연결하고 독립유공자나 명단 지급 참전자에게 확대하지 않는다. 실제 원본 전체 본문, 출처 법규ID에 연결된 별지, 원본 SHA256 및 flSeq를 대조했다.",
+      "roleEvidenceUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=1892649",
+      "roleCheckedAt": "2026-10-18",
+      "bodyEvidenceArticle": "제5조",
+      "bodyEvidenceText": "제5조(지급방법 및 시기)① 보훈명예수당(이하 \"수당\"이라 한다)을 지급받고자 하는 사람(이하 \"수급권자\"라 한다)은 별지 제1호서식의 참전유공자 등 수당 지급신청서에 따라 신청서를 시장에게 제출하여야 한다. 다만, 참전명예수당은 지방보훈지청으로부터 참전유공자 명단을 받아 거주여부를 확인한 후 지급한다. (개정 2017.12.29., 2021.12.27., 2023.12.28.)② 수당의 지급은 매월 20일(토요일 또는 공휴일에 해당하는 경우에는 그 전일)에 수급권자가 지정하는 예금계좌에 입금하는 방법에 따른다. 다만, 수급권자가 부득이 한 사유가 있는 경우에는 본인의 신청에 따라 현금으로 직접 지급 할 수 있다.(개정 2017.4.10, 2017.12.29)③ 수당은 신청한 날이 속하는 달부터 지급중지사유가 발생한 날이 속하는 달까지 지급한다. 다만, 참전명예수당은 지급 결정을 한 날이 속하는 달부터 지급중지사유가 발생한 날이 속하는 달까지 지급한다.(개정 2021.12.27.)④ 제4조제1항제2호에 따른 사망위로금은 유가족 또는 관계인이 별지 제2호서식의 참전유공자 및 공상군경 사망위로금 지급신청서에 따라 신청서를 제출하여야 한다. 이 경우 사망일부터 1년 이내에 신청하여야 한다.(개정 2021.12.27., 2023.12.28.)⑤ 제4조제1항제1호라목의 유족에게 지급하는 보훈명예수당, 제4조제1항제2호에 따른 사망위로금 및 장례비용을 지급받을 대상 및 순위에 관하여는 국가유공자법 제13조에 따른다. 이 경우 사망위로금과 장례비용은 같은 국가유공자법 제13조에 따라 유족이 없는 때에는 사망 당시 생활을 같이 하고 있던 친족 중 재산상속인이 될 자의 신청에 따라 해당 재산상속인에게 이를 지급할 수 있고, 재산상속인이 될 사람도 없는 때에는 장제를 행하는 사람에게 이를 지급할 수 있다. (개정 2014.10.15, 2017.12.29, 2019.10.16., 2021.12.27., 2023. 12. 28.)⑥ 제4조제1항에 따른 수당의 지급금액 등 그 밖에 필요한 사항은 시장이 따로 정한다. <신설 2023. 12. 28.>",
+      "reviewedParts": [
+        {
+          "number": "1",
+          "title": "[별지 제1호서식] 참전유공자 등 수당 지급신청서",
+          "use": "main",
+          "author": "해당 지원을 신청하는 사람"
+        }
+      ],
+      "condition": "전상·공상군경·무공·보국수훈자 본인의 수당을 신청합니다."
+    },
+    {
+      "sourceKind": "ordin",
+      "lawTitle": "통영시 참전유공자 등 지원조례",
+      "lawId": "1892649",
+      "annexId": "20581051",
+      "annexNumber": "000100",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=154528695&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C1%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EC%B0%B8%EC%A0%84%EC%9C%A0%EA%B3%B5%EC%9E%90+%EB%93%B1+%EC%88%98%EB%8B%B9+%EC%A7%80%EA%B8%89%EC%8B%A0%EC%B2%AD%EC%84%9C",
+      "dateKind": "effective",
+      "effectiveDate": "2024-01-01",
+      "regionCode": "48220",
+      "regionLabel": "경상남도 통영시",
+      "formId": "ordin-20581051",
+      "formTitle": "[별지 제1호서식] 참전유공자 등 수당 지급신청서",
+      "sourceMetadataTitle": "[별지 제1호서식] 참전유공자 등 수당 지급신청서",
+      "programIds": [
+        "g48220.bokjiro-WLF00003382"
+      ],
+      "programNames": [
+        "참전유공자 및 독립유공자, 전몰군경 유족, 순직군경 유족수당"
+      ],
+      "use": "main",
+      "checkedAt": "2026-10-18",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "evidenceUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=1892649",
+      "evidenceNote": "전상·공상군경·무공·보국수훈자 본인과 각 유족·전몰·순직 유족 등의 선택란을 실제 확인했다. 제5조는 참전유공자 본인은 보훈지청 명단으로 처리하고 그 밖의 대상은 이 신청서를 쓰도록 구분한다. 각 사이트의 해당 유형에만 연결하고 독립유공자나 명단 지급 참전자에게 확대하지 않는다. 실제 원본 전체 본문, 출처 법규ID에 연결된 별지, 원본 SHA256 및 flSeq를 대조했다.",
+      "sha256": "d2c3ddff31cf8437f75a200566e19dbabb15b1c5a3d16dcd257533575ef44174",
+      "bytes": 38400,
+      "originalFormat": "hwp",
+      "textScope": "all_body_sections_or_pages",
+      "originalTextScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "BodyText/Section0"
+      ],
+      "fullBodyReviewed": true,
+      "role": "application",
+      "roleBasis": "전상·공상군경·무공·보국수훈자 본인과 각 유족·전몰·순직 유족 등의 선택란을 실제 확인했다. 제5조는 참전유공자 본인은 보훈지청 명단으로 처리하고 그 밖의 대상은 이 신청서를 쓰도록 구분한다. 각 사이트의 해당 유형에만 연결하고 독립유공자나 명단 지급 참전자에게 확대하지 않는다. 실제 원본 전체 본문, 출처 법규ID에 연결된 별지, 원본 SHA256 및 flSeq를 대조했다.",
+      "roleEvidenceUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=1892649",
+      "roleCheckedAt": "2026-10-18",
+      "bodyEvidenceArticle": "제5조",
+      "bodyEvidenceText": "제5조(지급방법 및 시기)① 보훈명예수당(이하 \"수당\"이라 한다)을 지급받고자 하는 사람(이하 \"수급권자\"라 한다)은 별지 제1호서식의 참전유공자 등 수당 지급신청서에 따라 신청서를 시장에게 제출하여야 한다. 다만, 참전명예수당은 지방보훈지청으로부터 참전유공자 명단을 받아 거주여부를 확인한 후 지급한다. (개정 2017.12.29., 2021.12.27., 2023.12.28.)② 수당의 지급은 매월 20일(토요일 또는 공휴일에 해당하는 경우에는 그 전일)에 수급권자가 지정하는 예금계좌에 입금하는 방법에 따른다. 다만, 수급권자가 부득이 한 사유가 있는 경우에는 본인의 신청에 따라 현금으로 직접 지급 할 수 있다.(개정 2017.4.10, 2017.12.29)③ 수당은 신청한 날이 속하는 달부터 지급중지사유가 발생한 날이 속하는 달까지 지급한다. 다만, 참전명예수당은 지급 결정을 한 날이 속하는 달부터 지급중지사유가 발생한 날이 속하는 달까지 지급한다.(개정 2021.12.27.)④ 제4조제1항제2호에 따른 사망위로금은 유가족 또는 관계인이 별지 제2호서식의 참전유공자 및 공상군경 사망위로금 지급신청서에 따라 신청서를 제출하여야 한다. 이 경우 사망일부터 1년 이내에 신청하여야 한다.(개정 2021.12.27., 2023.12.28.)⑤ 제4조제1항제1호라목의 유족에게 지급하는 보훈명예수당, 제4조제1항제2호에 따른 사망위로금 및 장례비용을 지급받을 대상 및 순위에 관하여는 국가유공자법 제13조에 따른다. 이 경우 사망위로금과 장례비용은 같은 국가유공자법 제13조에 따라 유족이 없는 때에는 사망 당시 생활을 같이 하고 있던 친족 중 재산상속인이 될 자의 신청에 따라 해당 재산상속인에게 이를 지급할 수 있고, 재산상속인이 될 사람도 없는 때에는 장제를 행하는 사람에게 이를 지급할 수 있다. (개정 2014.10.15, 2017.12.29, 2019.10.16., 2021.12.27., 2023. 12. 28.)⑥ 제4조제1항에 따른 수당의 지급금액 등 그 밖에 필요한 사항은 시장이 따로 정한다. <신설 2023. 12. 28.>",
+      "reviewedParts": [
+        {
+          "number": "1",
+          "title": "[별지 제1호서식] 참전유공자 등 수당 지급신청서",
+          "use": "main",
+          "author": "해당 지원을 신청하는 사람"
+        }
+      ],
+      "condition": "이 묶음 사업 중 전몰군경·순직군경 유족수당 신청에만 사용합니다. 참전명예수당 명단지급 또는 독립유공자 유족 신청용은 아닙니다."
+    },
+    {
+      "sourceKind": "ordin",
+      "lawTitle": "창녕군 국가보훈대상자 등의 예우 및 지원에 관한 조례",
+      "lawId": "1892731",
+      "annexId": "20147427",
+      "annexNumber": "000100",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=152644069&flNm=%EB%B3%B4%ED%9B%88%EB%AA%85%EC%98%88%EC%88%98%EB%8B%B9+%EC%A7%80%EA%B8%89%EC%8B%A0%EC%B2%AD%EC%84%9C",
+      "dateKind": "effective",
+      "effectiveDate": "2024-01-01",
+      "regionCode": "48740",
+      "regionLabel": "경상남도 창녕군",
+      "formId": "ordin-20147427",
+      "formTitle": "보훈명예수당 지급신청서",
+      "sourceMetadataTitle": "보훈명예수당 지급신청서",
+      "programIds": [
+        "g48740.bokjiro-WLF00004344"
+      ],
+      "programNames": [
+        "국가보훈대상자 등 명예수당 지급"
+      ],
+      "use": "main",
+      "checkedAt": "2026-10-18",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "evidenceUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=1892731",
+      "evidenceNote": "참전유공자·그 외 국가보훈대상자·사망 참전자의 배우자를 구분해 계좌·관계를 적는 명예수당 신청서다. 제6조 별지1호와 각 사이트 월수당 신청에 일치한다. 실제 원본 전체 본문, 출처 법규ID에 연결된 별지, 원본 SHA256 및 flSeq를 대조했다.",
+      "sha256": "333f30465bbccb456b6599fee5dcca3ce3ffcc856ac763d05f750ff5fecd510a",
+      "bytes": 17408,
+      "originalFormat": "hwp",
+      "textScope": "all_body_sections_or_pages",
+      "originalTextScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "BodyText/Section0"
+      ],
+      "fullBodyReviewed": true,
+      "role": "application",
+      "roleBasis": "참전유공자·그 외 국가보훈대상자·사망 참전자의 배우자를 구분해 계좌·관계를 적는 명예수당 신청서다. 제6조 별지1호와 각 사이트 월수당 신청에 일치한다. 실제 원본 전체 본문, 출처 법규ID에 연결된 별지, 원본 SHA256 및 flSeq를 대조했다.",
+      "roleEvidenceUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=1892731",
+      "roleCheckedAt": "2026-10-18",
+      "bodyEvidenceArticle": "제6조",
+      "bodyEvidenceText": "제6조(지급 신청 및 지급 결정)① 보훈명예수당과 사망위로금을 지급받고자 하는 사람은 각각 “별지 제1호서식”과 “별지 제2호서식”의 신청서를 군수에게 제출하여야 한다. 이 경우 사망위로금의 신청기한은 참전유공자가 사망한 날부터 1년 이내로 한다.② 군수는 제1항에 따른 지급신청서를 받으면 관련 서류를 검토한 후 지급신청을 받은 날부터 30일 이내에 지급 여부를 결정하고 신청인에게 통지하여야 한다.",
+      "reviewedParts": [
+        {
+          "number": "1",
+          "title": "보훈명예수당 지급신청서",
+          "use": "main",
+          "author": "해당 지원을 신청하는 사람"
+        }
+      ],
+      "condition": "해당 국가보훈대상자·참전유공자·배우자의 월 명예수당 신청에 사용합니다."
+    },
+    {
+      "sourceKind": "ordin",
+      "lawTitle": "창녕군 국가보훈대상자 등의 예우 및 지원에 관한 조례",
+      "lawId": "1892731",
+      "annexId": "20147427",
+      "annexNumber": "000100",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=152644069&flNm=%EB%B3%B4%ED%9B%88%EB%AA%85%EC%98%88%EC%88%98%EB%8B%B9+%EC%A7%80%EA%B8%89%EC%8B%A0%EC%B2%AD%EC%84%9C",
+      "dateKind": "effective",
+      "effectiveDate": "2024-01-01",
+      "regionCode": "48740",
+      "regionLabel": "경상남도 창녕군",
+      "formId": "ordin-20147427",
+      "formTitle": "보훈명예수당 지급신청서",
+      "sourceMetadataTitle": "보훈명예수당 지급신청서",
+      "programIds": [
+        "g48740.bokjiro-WLF00004603"
+      ],
+      "programNames": [
+        "보훈가족 선양사업"
+      ],
+      "use": "main",
+      "checkedAt": "2026-10-18",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "evidenceUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=1892731",
+      "evidenceNote": "참전유공자·그 외 국가보훈대상자·사망 참전자의 배우자를 구분해 계좌·관계를 적는 명예수당 신청서다. 제6조 별지1호와 각 사이트 월수당 신청에 일치한다. 실제 원본 전체 본문, 출처 법규ID에 연결된 별지, 원본 SHA256 및 flSeq를 대조했다.",
+      "sha256": "333f30465bbccb456b6599fee5dcca3ce3ffcc856ac763d05f750ff5fecd510a",
+      "bytes": 17408,
+      "originalFormat": "hwp",
+      "textScope": "all_body_sections_or_pages",
+      "originalTextScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "BodyText/Section0"
+      ],
+      "fullBodyReviewed": true,
+      "role": "application",
+      "roleBasis": "참전유공자·그 외 국가보훈대상자·사망 참전자의 배우자를 구분해 계좌·관계를 적는 명예수당 신청서다. 제6조 별지1호와 각 사이트 월수당 신청에 일치한다. 실제 원본 전체 본문, 출처 법규ID에 연결된 별지, 원본 SHA256 및 flSeq를 대조했다.",
+      "roleEvidenceUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=1892731",
+      "roleCheckedAt": "2026-10-18",
+      "bodyEvidenceArticle": "제6조",
+      "bodyEvidenceText": "제6조(지급 신청 및 지급 결정)① 보훈명예수당과 사망위로금을 지급받고자 하는 사람은 각각 “별지 제1호서식”과 “별지 제2호서식”의 신청서를 군수에게 제출하여야 한다. 이 경우 사망위로금의 신청기한은 참전유공자가 사망한 날부터 1년 이내로 한다.② 군수는 제1항에 따른 지급신청서를 받으면 관련 서류를 검토한 후 지급신청을 받은 날부터 30일 이내에 지급 여부를 결정하고 신청인에게 통지하여야 한다.",
+      "reviewedParts": [
+        {
+          "number": "1",
+          "title": "보훈명예수당 지급신청서",
+          "use": "main",
+          "author": "해당 지원을 신청하는 사람"
+        }
+      ],
+      "condition": "참전유공자 또는 사망 참전유공자의 배우자 항목으로 신청합니다."
+    },
+    {
+      "sourceKind": "ordin",
+      "lawTitle": "창녕군 국가보훈대상자 등의 예우 및 지원에 관한 조례",
+      "lawId": "1892731",
+      "annexId": "20147427",
+      "annexNumber": "000100",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=152644069&flNm=%EB%B3%B4%ED%9B%88%EB%AA%85%EC%98%88%EC%88%98%EB%8B%B9+%EC%A7%80%EA%B8%89%EC%8B%A0%EC%B2%AD%EC%84%9C",
+      "dateKind": "effective",
+      "effectiveDate": "2024-01-01",
+      "regionCode": "48740",
+      "regionLabel": "경상남도 창녕군",
+      "formId": "ordin-20147427",
+      "formTitle": "보훈명예수당 지급신청서",
+      "sourceMetadataTitle": "보훈명예수당 지급신청서",
+      "programIds": [
+        "g48740.gov24-541000000107"
+      ],
+      "programNames": [
+        "국가보훈대상자 보훈명예수당"
+      ],
+      "use": "main",
+      "checkedAt": "2026-10-18",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "evidenceUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=1892731",
+      "evidenceNote": "참전유공자·그 외 국가보훈대상자·사망 참전자의 배우자를 구분해 계좌·관계를 적는 명예수당 신청서다. 제6조 별지1호와 각 사이트 월수당 신청에 일치한다. 실제 원본 전체 본문, 출처 법규ID에 연결된 별지, 원본 SHA256 및 flSeq를 대조했다.",
+      "sha256": "333f30465bbccb456b6599fee5dcca3ce3ffcc856ac763d05f750ff5fecd510a",
+      "bytes": 17408,
+      "originalFormat": "hwp",
+      "textScope": "all_body_sections_or_pages",
+      "originalTextScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "BodyText/Section0"
+      ],
+      "fullBodyReviewed": true,
+      "role": "application",
+      "roleBasis": "참전유공자·그 외 국가보훈대상자·사망 참전자의 배우자를 구분해 계좌·관계를 적는 명예수당 신청서다. 제6조 별지1호와 각 사이트 월수당 신청에 일치한다. 실제 원본 전체 본문, 출처 법규ID에 연결된 별지, 원본 SHA256 및 flSeq를 대조했다.",
+      "roleEvidenceUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=1892731",
+      "roleCheckedAt": "2026-10-18",
+      "bodyEvidenceArticle": "제6조",
+      "bodyEvidenceText": "제6조(지급 신청 및 지급 결정)① 보훈명예수당과 사망위로금을 지급받고자 하는 사람은 각각 “별지 제1호서식”과 “별지 제2호서식”의 신청서를 군수에게 제출하여야 한다. 이 경우 사망위로금의 신청기한은 참전유공자가 사망한 날부터 1년 이내로 한다.② 군수는 제1항에 따른 지급신청서를 받으면 관련 서류를 검토한 후 지급신청을 받은 날부터 30일 이내에 지급 여부를 결정하고 신청인에게 통지하여야 한다.",
+      "reviewedParts": [
+        {
+          "number": "1",
+          "title": "보훈명예수당 지급신청서",
+          "use": "main",
+          "author": "해당 지원을 신청하는 사람"
+        }
+      ],
+      "condition": "해당 국가보훈대상자·참전유공자·배우자의 월 명예수당 신청에 사용합니다."
+    },
+    {
+      "sourceKind": "ordin",
+      "lawTitle": "창녕군 국가보훈대상자 등의 예우 및 지원에 관한 조례",
+      "lawId": "1892731",
+      "annexId": "20147429",
+      "annexNumber": "000200",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=152644071&flNm=%EC%B0%B8%EC%A0%84%EC%9C%A0%EA%B3%B5%EC%9E%90+%EC%82%AC%EB%A7%9D%EC%9C%84%EB%A1%9C%EA%B8%88+%EC%A7%80%EA%B8%89%EC%8B%A0%EC%B2%AD%EC%84%9C",
+      "dateKind": "effective",
+      "effectiveDate": "2024-01-01",
+      "regionCode": "48740",
+      "regionLabel": "경상남도 창녕군",
+      "formId": "ordin-20147429",
+      "formTitle": "참전유공자 사망위로금 지급신청서",
+      "sourceMetadataTitle": "참전유공자 사망위로금 지급신청서",
+      "programIds": [
+        "g48740.bokjiro-WLF00004344"
+      ],
+      "programNames": [
+        "국가보훈대상자 등 명예수당 지급"
+      ],
+      "use": "conditional",
+      "checkedAt": "2026-10-18",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "evidenceUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=1892731",
+      "evidenceNote": "사망한 참전유공자와 유족의 관계·사망증빙·계좌를 제출하는 별지2호다. 제6조와 사망위로금을 명시한 복지로·정부24 사업에만 연결한다. 실제 원본 전체 본문, 출처 법규ID에 연결된 별지, 원본 SHA256 및 flSeq를 대조했다.",
+      "sha256": "06b8dd997bea7dfa4f9c038e082a29bb37f2464f8449ac49c105efd0d2da37e4",
+      "bytes": 15360,
+      "originalFormat": "hwp",
+      "textScope": "all_body_sections_or_pages",
+      "originalTextScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "BodyText/Section0"
+      ],
+      "fullBodyReviewed": true,
+      "role": "application",
+      "roleBasis": "사망한 참전유공자와 유족의 관계·사망증빙·계좌를 제출하는 별지2호다. 제6조와 사망위로금을 명시한 복지로·정부24 사업에만 연결한다. 실제 원본 전체 본문, 출처 법규ID에 연결된 별지, 원본 SHA256 및 flSeq를 대조했다.",
+      "roleEvidenceUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=1892731",
+      "roleCheckedAt": "2026-10-18",
+      "bodyEvidenceArticle": "제6조",
+      "bodyEvidenceText": "제6조(지급 신청 및 지급 결정)① 보훈명예수당과 사망위로금을 지급받고자 하는 사람은 각각 “별지 제1호서식”과 “별지 제2호서식”의 신청서를 군수에게 제출하여야 한다. 이 경우 사망위로금의 신청기한은 참전유공자가 사망한 날부터 1년 이내로 한다.② 군수는 제1항에 따른 지급신청서를 받으면 관련 서류를 검토한 후 지급신청을 받은 날부터 30일 이내에 지급 여부를 결정하고 신청인에게 통지하여야 한다.",
+      "reviewedParts": [
+        {
+          "number": "2",
+          "title": "참전유공자 사망위로금 지급신청서",
+          "use": "main",
+          "author": "사망 참전유공자의 유족"
+        }
+      ],
+      "condition": "참전유공자 사망 시 유족의 사망위로금 신청에 사용합니다."
+    },
+    {
+      "sourceKind": "ordin",
+      "lawTitle": "창녕군 국가보훈대상자 등의 예우 및 지원에 관한 조례",
+      "lawId": "1892731",
+      "annexId": "20147429",
+      "annexNumber": "000200",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=152644071&flNm=%EC%B0%B8%EC%A0%84%EC%9C%A0%EA%B3%B5%EC%9E%90+%EC%82%AC%EB%A7%9D%EC%9C%84%EB%A1%9C%EA%B8%88+%EC%A7%80%EA%B8%89%EC%8B%A0%EC%B2%AD%EC%84%9C",
+      "dateKind": "effective",
+      "effectiveDate": "2024-01-01",
+      "regionCode": "48740",
+      "regionLabel": "경상남도 창녕군",
+      "formId": "ordin-20147429",
+      "formTitle": "참전유공자 사망위로금 지급신청서",
+      "sourceMetadataTitle": "참전유공자 사망위로금 지급신청서",
+      "programIds": [
+        "g48740.gov24-541000000107"
+      ],
+      "programNames": [
+        "국가보훈대상자 보훈명예수당"
+      ],
+      "use": "conditional",
+      "checkedAt": "2026-10-18",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "evidenceUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=1892731",
+      "evidenceNote": "사망한 참전유공자와 유족의 관계·사망증빙·계좌를 제출하는 별지2호다. 제6조와 사망위로금을 명시한 복지로·정부24 사업에만 연결한다. 실제 원본 전체 본문, 출처 법규ID에 연결된 별지, 원본 SHA256 및 flSeq를 대조했다.",
+      "sha256": "06b8dd997bea7dfa4f9c038e082a29bb37f2464f8449ac49c105efd0d2da37e4",
+      "bytes": 15360,
+      "originalFormat": "hwp",
+      "textScope": "all_body_sections_or_pages",
+      "originalTextScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "BodyText/Section0"
+      ],
+      "fullBodyReviewed": true,
+      "role": "application",
+      "roleBasis": "사망한 참전유공자와 유족의 관계·사망증빙·계좌를 제출하는 별지2호다. 제6조와 사망위로금을 명시한 복지로·정부24 사업에만 연결한다. 실제 원본 전체 본문, 출처 법규ID에 연결된 별지, 원본 SHA256 및 flSeq를 대조했다.",
+      "roleEvidenceUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=1892731",
+      "roleCheckedAt": "2026-10-18",
+      "bodyEvidenceArticle": "제6조",
+      "bodyEvidenceText": "제6조(지급 신청 및 지급 결정)① 보훈명예수당과 사망위로금을 지급받고자 하는 사람은 각각 “별지 제1호서식”과 “별지 제2호서식”의 신청서를 군수에게 제출하여야 한다. 이 경우 사망위로금의 신청기한은 참전유공자가 사망한 날부터 1년 이내로 한다.② 군수는 제1항에 따른 지급신청서를 받으면 관련 서류를 검토한 후 지급신청을 받은 날부터 30일 이내에 지급 여부를 결정하고 신청인에게 통지하여야 한다.",
+      "reviewedParts": [
+        {
+          "number": "2",
+          "title": "참전유공자 사망위로금 지급신청서",
+          "use": "main",
+          "author": "사망 참전유공자의 유족"
+        }
+      ],
+      "condition": "참전유공자 사망 시 유족의 사망위로금 신청에 사용합니다."
+    },
+    {
+      "sourceKind": "ordin",
+      "lawTitle": "산청군 자활 및 생활안정기금 설치ㆍ운용 조례 시행규칙",
+      "lawId": "1892819",
+      "annexId": "20112651",
+      "annexNumber": "000100",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=152489833&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C1%ED%98%B8%EC%84%9C%EC%8B%9D%5D++%EC%82%B0%EC%B2%AD%EA%B5%B0+%EC%9E%90%ED%99%9C+%EB%B0%8F+%EC%83%9D%ED%99%9C%EC%95%88%EC%A0%95%EC%9E%90%EA%B8%88+%EC%9C%B5%EC%9E%90%EC%8B%A0%EC%B2%AD%EC%84%9C",
+      "dateKind": "effective",
+      "effectiveDate": "2023-12-28",
+      "regionCode": "48860",
+      "regionLabel": "경상남도 산청군",
+      "formId": "ordin-20112651",
+      "formTitle": "[별지 제1호서식]  산청군 자활 및 생활안정자금 융자신청서",
+      "sourceMetadataTitle": "[별지 제1호서식]  산청군 자활 및 생활안정자금 융자신청서",
+      "programIds": [
+        "g48860.bokjiro-WLF00000004"
+      ],
+      "programNames": [
+        "자활 및 생활안정기금사업"
+      ],
+      "use": "main",
+      "checkedAt": "2026-10-18",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "evidenceUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=1892819",
+      "evidenceNote": "자활기금·생활안정자금 신청액과 사업계획을 작성하고 센터장 또는 읍면장 추천을 받는 주민·자활기업용 융자신청서다. 출처 제2조의 두 경로와 사이트 기금 융자지원에 일치한다. 실제 원본 전체 본문, 출처 법규ID에 연결된 별지, 원본 SHA256 및 flSeq를 대조했다.",
+      "sha256": "3c8bb472f8ccc2f0de6367d6ddf53a12e2eb074dcf07adb797d17d3def86218f",
+      "bytes": 13824,
+      "originalFormat": "hwp",
+      "textScope": "all_body_sections_or_pages",
+      "originalTextScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "BodyText/Section0"
+      ],
+      "fullBodyReviewed": true,
+      "role": "application",
+      "roleBasis": "자활기금·생활안정자금 신청액과 사업계획을 작성하고 센터장 또는 읍면장 추천을 받는 주민·자활기업용 융자신청서다. 출처 제2조의 두 경로와 사이트 기금 융자지원에 일치한다. 실제 원본 전체 본문, 출처 법규ID에 연결된 별지, 원본 SHA256 및 flSeq를 대조했다.",
+      "roleEvidenceUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=1892819",
+      "roleCheckedAt": "2026-10-18",
+      "bodyEvidenceArticle": "제2조",
+      "bodyEvidenceText": "제2조(융자금의 신청)① 「산청군 자활 및 생활안정기금 설치·운용 조례」(이하“조례”라 한다)제5조에 따른 융자 대상자가 기금을 융자받고자 할 경우에는 별지 제1호서식에 따른다.② 자활기금을 융자받고자 할 경우 자활기업은 대표자, 가구는 세대주가 신청서를 작성하여 지역자활센터장의 추천을 받아 산청군수(이하“군수”라 한다)에게 신청하여야 한다.③ 생활안정기금을 융자받고자 하는 가구의 세대주는 신청서를 작성하여 주소지 읍 · 면장의 추천을 받아 군수에게 신청하여야 한다.④ 군수는 융자금을 신청한 자에게 융자금액에 상당하는 한도의 보증보험증권을 제출하게 할 수 있다. <개정 2023.12.28.>",
+      "reviewedParts": [
+        {
+          "number": "1",
+          "title": "[별지 제1호서식]  산청군 자활 및 생활안정자금 융자신청서",
+          "use": "main",
+          "author": "해당 가구 세대주 또는 자활기업 대표"
+        }
+      ],
+      "condition": "자활기금은 자활센터, 생활안정기금은 읍면의 접수·추천 경로를 따라 신청합니다."
+    },
+    {
+      "sourceKind": "ordin",
+      "lawTitle": "산청군 자활 및 생활안정기금 설치ㆍ운용 조례 시행규칙",
+      "lawId": "1892819",
+      "annexId": "20112655",
+      "annexNumber": "000300",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=152489837&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C3%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EC%82%B0%EC%B2%AD%EA%B5%B0+%EC%9E%90%ED%99%9C+%EB%B0%8F+%EC%83%9D%ED%99%9C%EC%95%88%EC%A0%95%EA%B8%B0%EA%B8%88+%EC%9C%B5%EC%9E%90%EC%83%81%ED%99%98%EC%97%B0%EC%9E%A5%EC%8B%A0%EC%B2%AD%EC%84%9C",
+      "dateKind": "effective",
+      "effectiveDate": "2023-12-28",
+      "regionCode": "48860",
+      "regionLabel": "경상남도 산청군",
+      "formId": "ordin-20112655",
+      "formTitle": "[별지 제3호서식] 산청군 자활 및 생활안정기금 융자상환연장신청서",
+      "sourceMetadataTitle": "[별지 제3호서식] 산청군 자활 및 생활안정기금 융자상환연장신청서",
+      "programIds": [
+        "g48860.bokjiro-WLF00000004"
+      ],
+      "programNames": [
+        "자활 및 생활안정기금사업"
+      ],
+      "use": "conditional",
+      "checkedAt": "2026-10-18",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "evidenceUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=1892819",
+      "evidenceNote": "기존 융자의 수령액·상환내역·연장사유와 기간을 적는 상환기한 연장신청서다. 제8조의 기존 상환의무자 후속 절차에 해당한다. 실제 원본 전체 본문, 출처 법규ID에 연결된 별지, 원본 SHA256 및 flSeq를 대조했다.",
+      "sha256": "1cf0271b3d413d0959ea14026a1102e7a4bc02a76310f68ef373ebfed60c485a",
+      "bytes": 28744,
+      "originalFormat": "hwpx",
+      "textScope": "all_body_sections_or_pages",
+      "originalTextScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "Contents/section0.xml"
+      ],
+      "fullBodyReviewed": true,
+      "role": "application",
+      "roleBasis": "기존 융자의 수령액·상환내역·연장사유와 기간을 적는 상환기한 연장신청서다. 제8조의 기존 상환의무자 후속 절차에 해당한다. 실제 원본 전체 본문, 출처 법규ID에 연결된 별지, 원본 SHA256 및 flSeq를 대조했다.",
+      "roleEvidenceUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=1892819",
+      "roleCheckedAt": "2026-10-18",
+      "bodyEvidenceArticle": "제8조",
+      "bodyEvidenceText": "제8조(융자금의 상환기한 연장신청) 조례 제14조에 따라 융자금의 상환기한을 연장하고자 할 때에는 별지 제3호서식에 따른 융자금의 상환연장신청서를 작성하고, 그 사유를 증명할 수 있는 증빙자료를 붙여 상환기일 30일 전까지 군수에게 제출하여야 한다.",
+      "reviewedParts": [
+        {
+          "number": "3",
+          "title": "[별지 제3호서식] 산청군 자활 및 생활안정기금 융자상환연장신청서",
+          "use": "main",
+          "author": "해당 지원을 신청하는 사람"
+        }
+      ],
+      "condition": "이미 받은 기금 융자금의 상환기한 연장을 신청할 때만 사용합니다."
+    },
+    {
+      "sourceKind": "ordin",
+      "lawTitle": "산청군 자활 및 생활안정기금 설치ㆍ운용 조례 시행규칙",
+      "lawId": "1892819",
+      "annexId": "20112657",
+      "annexNumber": "000400",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=152489839&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C4%ED%98%B8%EC%84%9C%EC%8B%9D%5D++%EC%82%B0%EC%B2%AD%EA%B5%B0+%EC%9E%90%ED%99%9C+%EB%B0%8F+%EC%83%9D%ED%99%9C%EC%95%88%EC%A0%95%EA%B8%B0%EA%B8%88+%EA%B0%90%EB%A9%B4+%EC%8B%A0%EC%B2%AD%EC%84%9C",
+      "dateKind": "effective",
+      "effectiveDate": "2023-12-28",
+      "regionCode": "48860",
+      "regionLabel": "경상남도 산청군",
+      "formId": "ordin-20112657",
+      "formTitle": "[별지 제4호서식]  산청군 자활 및 생활안정기금 감면 신청서",
+      "sourceMetadataTitle": "[별지 제4호서식]  산청군 자활 및 생활안정기금 감면 신청서",
+      "programIds": [
+        "g48860.bokjiro-WLF00000004"
+      ],
+      "programNames": [
+        "자활 및 생활안정기금사업"
+      ],
+      "use": "conditional",
+      "checkedAt": "2026-10-18",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "evidenceUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=1892819",
+      "evidenceNote": "기존 융자의 원금·연체이자·감면요청액과 사유·입증서류를 내는 감면신청서다. 제9조는 위원회 사실조사·심의를 규정하여 신규 지원과 구분한다. 실제 원본 전체 본문, 출처 법규ID에 연결된 별지, 원본 SHA256 및 flSeq를 대조했다.",
+      "sha256": "00a4e4c97a055688c1391aaf4b7ca0e1624c826255d4f1ac50abaef399526e53",
+      "bytes": 12288,
+      "originalFormat": "hwp",
+      "textScope": "all_body_sections_or_pages",
+      "originalTextScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "BodyText/Section0"
+      ],
+      "fullBodyReviewed": true,
+      "role": "application",
+      "roleBasis": "기존 융자의 원금·연체이자·감면요청액과 사유·입증서류를 내는 감면신청서다. 제9조는 위원회 사실조사·심의를 규정하여 신규 지원과 구분한다. 실제 원본 전체 본문, 출처 법규ID에 연결된 별지, 원본 SHA256 및 flSeq를 대조했다.",
+      "roleEvidenceUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=1892819",
+      "roleCheckedAt": "2026-10-18",
+      "bodyEvidenceArticle": "제9조",
+      "bodyEvidenceText": "제9조(감면조치 등)① 조례 제16조제1항에서 “규칙으로 정하는 불가피한 사유”란 다음 각 호의 어느 하나에 해당하는 경우를 말한다. <개정 2023.12.28.>1. 화재, 사고 그 밖에 이에 준하는 경우2. 기금을 융자받은 자가 사망한 후 그 상속자가 상속을 포기한 경우3. 기금을 융자받은 자가 5년 이상 행방불명인 경우② 기금을 융자받은 자가 조례 제16조제1항에 따라 융자금을 감면받으려는 때에는 별지 제4호서식의 신청서에 그 사유를 증명할 수 있는 서류를 첨부하여 군수에게 신청해야 한다. <개정 2023.12.28.>③ 군수는 제2항에 따른 신청이 있을 경우 그에 대한 사실관계를 조사한 후 감면여부를 심의하기 위하여 위원회의 회의에 부칠 수 있다.④ 군수는 위원회의 심의결과 재적위원 과반수의 찬성이 있는 경우에는 융자금을 감면할 수 있다.",
+      "reviewedParts": [
+        {
+          "number": "4",
+          "title": "[별지 제4호서식]  산청군 자활 및 생활안정기금 감면 신청서",
+          "use": "main",
+          "author": "해당 지원을 신청하는 사람"
+        }
+      ],
+      "condition": "기존 자활·생활안정기금 융자금의 감면을 신청할 때 사용하며 감면 여부는 별도 심의로 결정됩니다."
+    },
+    {
+      "sourceKind": "ordin",
+      "lawTitle": "괴산군 보건위생물품 지원에 관한 조례",
+      "lawId": "1894811",
+      "annexId": "22625991",
+      "annexNumber": "000100",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=169433061&flNm=%EB%B3%84%EC%A7%80+%EC%A0%9C1%ED%98%B8%EC%84%9C%EC%8B%9D%28%EA%B4%B4%EC%82%B0%EA%B5%B0+%EB%B3%B4%EA%B1%B4%EC%9C%84%EC%83%9D%EB%AC%BC%ED%92%88+%EC%A7%80%EC%9B%90+%EC%8B%A0%EC%B2%AD%EC%84%9C%29",
+      "dateKind": "effective",
+      "effectiveDate": "2023-12-29",
+      "regionCode": "43760",
+      "regionLabel": "충청북도 괴산군",
+      "formId": "ordin-22625991",
+      "formTitle": "별지 제1호서식(괴산군 보건위생물품 지원 신청서)",
+      "sourceMetadataTitle": "별지 제1호서식(괴산군 보건위생물품 지원 신청서)",
+      "programIds": [
+        "g43760.bokjiro-WLF00005215"
+      ],
+      "programNames": [
+        "저소득 가임기 여성 보건위생물품 지원"
+      ],
+      "use": "main",
+      "checkedAt": "2026-10-18",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "evidenceUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=1894811",
+      "evidenceNote": "지원 여성 또는 원문에 정한 대리인이 수급·차상위·한부모 유형과 생리대 종류·규격을 선택하는 위생물품 신청·동의서다. 제6조 별지1호와 사이트 괴산 저소득 가임기 여성 물품지원에 일치한다. 실제 원본 전체 본문, 출처 법규ID에 연결된 별지, 원본 SHA256 및 flSeq를 대조했다.",
+      "sha256": "57fed153e5481c5177aa2b7bf04e4abc6731800972e05967b39da98082c956ce",
+      "bytes": 54784,
+      "originalFormat": "hwp",
+      "textScope": "all_body_sections_or_pages",
+      "originalTextScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "BodyText/Section0"
+      ],
+      "fullBodyReviewed": true,
+      "role": "application",
+      "roleBasis": "지원 여성 또는 원문에 정한 대리인이 수급·차상위·한부모 유형과 생리대 종류·규격을 선택하는 위생물품 신청·동의서다. 제6조 별지1호와 사이트 괴산 저소득 가임기 여성 물품지원에 일치한다. 실제 원본 전체 본문, 출처 법규ID에 연결된 별지, 원본 SHA256 및 flSeq를 대조했다.",
+      "roleEvidenceUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=1894811",
+      "roleCheckedAt": "2026-10-18",
+      "bodyEvidenceArticle": "제6조",
+      "bodyEvidenceText": "제6조(지원신청)① 보건위생물품 또는 보건위생물품 이용권을 교부받으려는 대상자는 별지 제1호서식 보건위생물품 지원신청서를 군수에게 제출하여야 한다.② 제1항에 따라 보건위생물품 지원 신청을 받은 군수는 「전자정부법」제36조 제1항에 따른 행정정보 공동이용을 통하여 대상자의 자격을 확인할 수 있으며, 이 경우 신청인이 행정정보 공동이용을 통한 확인에 동의하지 않는 경우에는 해당 서류를 직접 제출하게 하여야 한다.③ 제2항에 의한 자격확인이 되지 않을 경우에는 신청인에게 추가 서류를 제출하게 할 수 있다.",
+      "reviewedParts": [
+        {
+          "number": "1",
+          "title": "별지 제1호서식(괴산군 보건위생물품 지원 신청서)",
+          "use": "main",
+          "author": "지원대상 여성 또는 원문에 정한 대리신청인"
+        }
+      ]
+    },
+    {
+      "sourceKind": "ordin",
+      "lawTitle": "여수시 다문화가족 및 북한이탈주민 희망바우처 지원 조례",
+      "lawId": "1895095",
+      "annexId": "20064277",
+      "annexNumber": "000200",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=152350621&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C2%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EC%97%AC%EC%88%98%EC%8B%9C+%EB%8B%A4%EB%AC%B8%ED%99%94%EA%B0%80%EC%A1%B1+%EB%B6%81%ED%95%9C%EC%9D%B4%ED%83%88%EC%A3%BC%EB%AF%BC+%ED%9D%AC%EB%A7%9D%EB%B0%94%EC%9A%B0%EC%B2%98+%EB%B0%9C%EA%B8%89+%EC%9C%84%EC%9E%84%EC%9E%A5",
+      "dateKind": "effective",
+      "effectiveDate": "2023-12-29",
+      "regionCode": "12130",
+      "regionLabel": "전남광주통합특별시 여수시",
+      "formId": "ordin-20064277",
+      "formTitle": "[별지 제2호서식] 여수시 다문화가족 북한이탈주민 희망바우처 발급 위임장",
+      "sourceMetadataTitle": "[별지 제2호서식] 여수시 다문화가족 북한이탈주민 희망바우처 발급 위임장",
+      "programIds": [
+        "g12130.bokjiro-WLF00006630"
+      ],
+      "programNames": [
+        "다문화가족·북한이탈주민 희망바우처지원사업"
+      ],
+      "use": "conditional",
+      "checkedAt": "2026-10-18",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "evidenceUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=1895095",
+      "evidenceNote": "희망바우처 발급대상자가 법정대리인·시설장 이외 대리인에게 카드 (재)발급을 맡기는 위임장이다. 제5조가 발급대상자 본인의 신청위임과 별지2호 제출을 명시하고 두 사이트 바우처와 동일하다. 실제 원본 전체 본문, 출처 법규ID에 연결된 별지, 원본 SHA256 및 flSeq를 대조했다.",
+      "sha256": "bc34a4513a77bf316e568e82d372a06e8026ab9eef5f1ae37002895636866efc",
+      "bytes": 14848,
+      "originalFormat": "hwp",
+      "textScope": "all_body_sections_or_pages",
+      "originalTextScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "BodyText/Section0"
+      ],
+      "fullBodyReviewed": true,
+      "role": "delegation",
+      "roleBasis": "희망바우처 발급대상자가 법정대리인·시설장 이외 대리인에게 카드 (재)발급을 맡기는 위임장이다. 제5조가 발급대상자 본인의 신청위임과 별지2호 제출을 명시하고 두 사이트 바우처와 동일하다. 실제 원본 전체 본문, 출처 법규ID에 연결된 별지, 원본 SHA256 및 flSeq를 대조했다.",
+      "roleEvidenceUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=1895095",
+      "roleCheckedAt": "2026-10-18",
+      "bodyEvidenceArticle": "제5조",
+      "bodyEvidenceText": "제5조(지원 신청)① 희망바우처를 신청할 수 있는 사람의 자격은 다음 각 호와 같으며, 발급대상자 본인에 한정하여 대리인에게 신청을 위임할 수 있다.1. 발급대상자 본인2. 발급대상자의 법정대리인3. 발급대상자가 소속된 복지시설의 장② 제1항에 따른 신청인은 별지 제1호서식의 발급신청서에 다음 각 호의 서류를 갖추어 시장에게 희망바우처 발급을 신청해야 한다.1. 신청인의 신분증2. 발급대상자임을 증명할 수 있는 서류3. 발급대상자의 주민등록초본(1년 이상 여수시 거주를 확인할 수 있는 주소이력을 포함된 것을 말하며, 제3조제2항제1호 및 제2호의 사람이 신청하는 경우에만 한정한다)4. 법정대리인 또는 소속 복지시설의 장임을 증명할 수 있는 서류(제1항제2호 및 제3호의 사람이 신청하는 경우에만 한정한다)5. 별지제2호서식의 위임장(제5조제1항에 따라 대리인이 신청하는 경우에만 한정한다)",
+      "reviewedParts": [
+        {
+          "number": "2",
+          "title": "[별지 제2호서식] 여수시 다문화가족 북한이탈주민 희망바우처 발급 위임장",
+          "use": "conditional",
+          "author": "신청을 위임하는 발급대상자"
+        }
+      ],
+      "condition": "발급대상자·법정대리인·시설대표자가 아닌 대리인이 희망바우처 발급 또는 재발급을 신청할 때 사용합니다."
+    },
+    {
+      "sourceKind": "ordin",
+      "lawTitle": "여수시 다문화가족 및 북한이탈주민 희망바우처 지원 조례",
+      "lawId": "1895095",
+      "annexId": "20064277",
+      "annexNumber": "000200",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=152350621&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C2%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EC%97%AC%EC%88%98%EC%8B%9C+%EB%8B%A4%EB%AC%B8%ED%99%94%EA%B0%80%EC%A1%B1+%EB%B6%81%ED%95%9C%EC%9D%B4%ED%83%88%EC%A3%BC%EB%AF%BC+%ED%9D%AC%EB%A7%9D%EB%B0%94%EC%9A%B0%EC%B2%98+%EB%B0%9C%EA%B8%89+%EC%9C%84%EC%9E%84%EC%9E%A5",
+      "dateKind": "effective",
+      "effectiveDate": "2023-12-29",
+      "regionCode": "12130",
+      "regionLabel": "전남광주통합특별시 여수시",
+      "formId": "ordin-20064277",
+      "formTitle": "[별지 제2호서식] 여수시 다문화가족 북한이탈주민 희망바우처 발급 위임장",
+      "sourceMetadataTitle": "[별지 제2호서식] 여수시 다문화가족 북한이탈주민 희망바우처 발급 위임장",
+      "programIds": [
+        "g12130.bokjiro-WLF00001766"
+      ],
+      "programNames": [
+        "다문화가족·북한이탈주민 희망바우처지원사업"
+      ],
+      "use": "conditional",
+      "checkedAt": "2026-10-18",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "evidenceUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=1895095",
+      "evidenceNote": "희망바우처 발급대상자가 법정대리인·시설장 이외 대리인에게 카드 (재)발급을 맡기는 위임장이다. 제5조가 발급대상자 본인의 신청위임과 별지2호 제출을 명시하고 두 사이트 바우처와 동일하다. 실제 원본 전체 본문, 출처 법규ID에 연결된 별지, 원본 SHA256 및 flSeq를 대조했다.",
+      "sha256": "bc34a4513a77bf316e568e82d372a06e8026ab9eef5f1ae37002895636866efc",
+      "bytes": 14848,
+      "originalFormat": "hwp",
+      "textScope": "all_body_sections_or_pages",
+      "originalTextScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "BodyText/Section0"
+      ],
+      "fullBodyReviewed": true,
+      "role": "delegation",
+      "roleBasis": "희망바우처 발급대상자가 법정대리인·시설장 이외 대리인에게 카드 (재)발급을 맡기는 위임장이다. 제5조가 발급대상자 본인의 신청위임과 별지2호 제출을 명시하고 두 사이트 바우처와 동일하다. 실제 원본 전체 본문, 출처 법규ID에 연결된 별지, 원본 SHA256 및 flSeq를 대조했다.",
+      "roleEvidenceUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=1895095",
+      "roleCheckedAt": "2026-10-18",
+      "bodyEvidenceArticle": "제5조",
+      "bodyEvidenceText": "제5조(지원 신청)① 희망바우처를 신청할 수 있는 사람의 자격은 다음 각 호와 같으며, 발급대상자 본인에 한정하여 대리인에게 신청을 위임할 수 있다.1. 발급대상자 본인2. 발급대상자의 법정대리인3. 발급대상자가 소속된 복지시설의 장② 제1항에 따른 신청인은 별지 제1호서식의 발급신청서에 다음 각 호의 서류를 갖추어 시장에게 희망바우처 발급을 신청해야 한다.1. 신청인의 신분증2. 발급대상자임을 증명할 수 있는 서류3. 발급대상자의 주민등록초본(1년 이상 여수시 거주를 확인할 수 있는 주소이력을 포함된 것을 말하며, 제3조제2항제1호 및 제2호의 사람이 신청하는 경우에만 한정한다)4. 법정대리인 또는 소속 복지시설의 장임을 증명할 수 있는 서류(제1항제2호 및 제3호의 사람이 신청하는 경우에만 한정한다)5. 별지제2호서식의 위임장(제5조제1항에 따라 대리인이 신청하는 경우에만 한정한다)",
+      "reviewedParts": [
+        {
+          "number": "2",
+          "title": "[별지 제2호서식] 여수시 다문화가족 북한이탈주민 희망바우처 발급 위임장",
+          "use": "conditional",
+          "author": "신청을 위임하는 발급대상자"
+        }
+      ],
+      "condition": "발급대상자·법정대리인·시설대표자가 아닌 대리인이 희망바우처 발급 또는 재발급을 신청할 때 사용합니다."
+    },
+    {
+      "sourceKind": "ordin",
+      "lawTitle": "순천시 장애인보장구 수리비 지원 등에 관한 조례",
+      "lawId": "1895187",
+      "annexId": "20214101",
+      "annexNumber": "000200",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=152886999&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C1%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EC%9E%A5%EC%95%A0%EC%9D%B8+%EC%9D%B4%EB%8F%99%EA%B8%B0%EA%B8%B0+%EC%88%98%EB%A6%AC%EB%B9%84+%EC%A7%80%EC%9B%90+%EB%93%B1+%EC%8B%A0%EC%B2%AD%EC%84%9C",
+      "dateKind": "effective",
+      "effectiveDate": "2023-12-29",
+      "regionCode": "12150",
+      "regionLabel": "전남광주통합특별시 순천시",
+      "formId": "ordin-20214101",
+      "formTitle": "[별지 제1호서식] 장애인 이동기기 수리비 지원 등 신청서",
+      "sourceMetadataTitle": "[별지 제1호서식] 장애인 이동기기 수리비 지원 등 신청서",
+      "programIds": [
+        "g12150.gov24-482000000119"
+      ],
+      "programNames": [
+        "장애인 보장구 수리 및 대여사업"
+      ],
+      "use": "main",
+      "checkedAt": "2026-10-18",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "evidenceUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=1895187",
+      "evidenceNote": "장애인 본인이 보장구 수리 또는 소모품 교체를 선택하고 보장구·고장 부위를 적는 제8조제1항 별지1호다. 사이트의 두 비용지원과 일치하며 무료대여는 별지3호의 다른 절차라 제외한다. 원본 '보장수/교제체비' 오자는 그대로 보존한다. 실제 원본 전체 본문, 출처 법규ID에 연결된 별지, 원본 SHA256 및 flSeq를 대조했다.",
+      "sha256": "f1ecdee779b4a68bc70318c47f600d2a931aaa9ea398b3b194c27f90a915167c",
+      "bytes": 27648,
+      "originalFormat": "hwp",
+      "textScope": "all_body_sections_or_pages",
+      "originalTextScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "BodyText/Section0"
+      ],
+      "fullBodyReviewed": true,
+      "role": "application",
+      "roleBasis": "장애인 본인이 보장구 수리 또는 소모품 교체를 선택하고 보장구·고장 부위를 적는 제8조제1항 별지1호다. 사이트의 두 비용지원과 일치하며 무료대여는 별지3호의 다른 절차라 제외한다. 원본 '보장수/교제체비' 오자는 그대로 보존한다. 실제 원본 전체 본문, 출처 법규ID에 연결된 별지, 원본 SHA256 및 flSeq를 대조했다.",
+      "roleEvidenceUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=1895187",
+      "roleCheckedAt": "2026-10-18",
+      "bodyEvidenceArticle": "제8조",
+      "bodyEvidenceText": "제8조(지원신청 및 지급 등)① 장애인 휠체어등을 수리받고자 하는 사람은 별지 제1호서식의 수리신청서를 주소지 읍·면·동 행정복지센터에 신청해야 한다. 다만, 보장구 무료대여를 받고자 하는 자는 별지 제3호서식에 따라 신청한다.<개정 2017.12.29>② 해당 읍·면·동장은 장애인등록여부를 확인하고 별지 제1호서식의 장애인 이동기기 수리비 지원 등 신청서를 즉시 보장구 수리센터에 통보하여 수리를 받을 수 있도록 하여야 한다.③ 보장구 수리센터는 수리업체로 하여금 별지 제2호서식의 장애인 휠체어 등 수리비용 청구서를 매달 1일부터 말일까지 제출하게 하고 보장구 수리센터는 다음달 10일 이내 지정계좌에 입금하여야 한다.",
+      "reviewedParts": [
+        {
+          "number": "1",
+          "title": "[별지 제1호서식] 장애인 이동기기 수리비 지원 등 신청서",
+          "use": "main",
+          "author": "해당 지원을 신청하는 사람"
+        }
+      ],
+      "condition": "보장구 수리비 또는 소모품 교체비 지원에 사용합니다. 무료대여 신청용은 아닙니다."
+    },
+    {
+      "sourceKind": "ordin",
+      "lawTitle": "안동시 저소득주민 주거안정사업 운영 관리 조례",
+      "lawId": "1895833",
+      "annexId": "18252445",
+      "annexNumber": "000300",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=142815823&flNm=%EB%B3%84%EC%A7%80+%EC%A0%9C2%ED%98%B8+%EC%84%9C%EC%8B%9D-%EC%98%81%EA%B5%AC%EC%9E%84%EB%8C%80%EC%A3%BC%ED%83%9D+%EC%9E%85%EC%A3%BC%EB%B3%B4%EC%A6%9D%EA%B8%88+%EC%9C%B5%EC%9E%90%EC%8B%A0%EC%B2%AD%EC%84%9C",
+      "dateKind": "effective",
+      "effectiveDate": "2024-01-01",
+      "regionCode": "47170",
+      "regionLabel": "경상북도 안동시",
+      "formId": "ordin-18252445",
+      "formTitle": "별지 제2호 서식-영구임대주택 입주보증금 융자신청서",
+      "sourceMetadataTitle": "별지 제2호 서식-영구임대주택 입주보증금 융자신청서",
+      "programIds": [
+        "g47170.bokjiro-WLF00002429"
+      ],
+      "programNames": [
+        "저소득주민 주거안정 지원사업"
+      ],
+      "use": "main",
+      "checkedAt": "2026-10-18",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "evidenceUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=1895833",
+      "evidenceNote": "영구임대주택 입주계약자가 보증금 신청액·용도·상환기한·가족과 계약서를 제출하는 융자신청서다. 제7조제2항 별지2호 및 사이트 LH 계약 후 보증금 융자 단계와 일치한다. 실제 원본 전체 본문, 출처 법규ID에 연결된 별지, 원본 SHA256 및 flSeq를 대조했다.",
+      "sha256": "c1f7559852ca64018210461f07b894ebe2e5b8f7c6ec6af62365afd423b555b6",
+      "bytes": 17920,
+      "originalFormat": "hwp",
+      "textScope": "all_body_sections_or_pages",
+      "originalTextScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "BodyText/Section0"
+      ],
+      "fullBodyReviewed": true,
+      "role": "application",
+      "roleBasis": "영구임대주택 입주계약자가 보증금 신청액·용도·상환기한·가족과 계약서를 제출하는 융자신청서다. 제7조제2항 별지2호 및 사이트 LH 계약 후 보증금 융자 단계와 일치한다. 실제 원본 전체 본문, 출처 법규ID에 연결된 별지, 원본 SHA256 및 flSeq를 대조했다.",
+      "roleEvidenceUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=1895833",
+      "roleCheckedAt": "2026-10-18",
+      "bodyEvidenceArticle": "제7조",
+      "bodyEvidenceText": "제7조(입주보증금 융자)① 영구임대주택 입주보증금 융자대상은 영구임대주택 입주계약자로서 「국민기초생활 보장법」에 따른 생계ㆍ의료급여 수급자로 한다.② 입주보증금 융자를 신청하고자 하는 세대는 별지 제2호 서식의 신청서 및 관계서류를 첨부하여 시장에게 신청하여야 한다.③ 융자금은 세대당 200만원 이하로 무이자로 하며, 융자기간은 3년으로 한다.④ 융자금은 무보증으로 지원하되, 다른 용도로 사용해서는 아니된다.⑤ 시장은 융자대상 세대의 채권확보를 위하여 채권양도양수계약(별지 제4호 서식 ~ 별지 제5호 서식)을 체결하여 한국토지주택공사에 통보하고, 임대계약 해지 시 입주보증금을 즉시 회수한다. <신설 2023ㆍ12ㆍ29>",
+      "reviewedParts": [
+        {
+          "number": "2",
+          "title": "별지 제2호 서식-영구임대주택 입주보증금 융자신청서",
+          "use": "main",
+          "author": "영구임대 입주계약을 체결한 보증금 융자 신청인"
+        }
+      ]
+    },
+    {
+      "sourceKind": "ordin",
+      "lawTitle": "인천광역시 참전유공자 예우 및 지원에 관한 조례 시행규칙",
+      "lawId": "1896561",
+      "annexId": "20393441",
+      "annexNumber": "000100",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=154028499&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C1%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EC%B0%B8%EC%A0%84%EB%AA%85%EC%98%88%EC%88%98%EB%8B%B9+%EC%A7%80%EA%B8%89%EC%8B%A0%EC%B2%AD%EC%84%9C",
+      "dateKind": "effective",
+      "effectiveDate": "2024-01-01",
+      "regionCode": "28000",
+      "regionLabel": "인천광역시",
+      "formId": "ordin-20393441",
+      "formTitle": "[별지 제1호서식] 참전명예수당 지급신청서",
+      "sourceMetadataTitle": "[별지 제1호서식] 참전명예수당 지급신청서",
+      "programIds": [
+        "s28000.bokjiro-WLF00001553"
+      ],
+      "programNames": [
+        "참전유공자 명예수당 및 사망위로금, (사망)참전유공자 배우자수당 지원"
+      ],
+      "use": "main",
+      "checkedAt": "2026-10-18",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "evidenceUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=1896561",
+      "evidenceNote": "참전유공자 본인이 등록번호·계좌와 유공자증을 제출하는 시 명예수당 신청서다. 시행규칙 제2조제1항 및 시 사업·이를 명시적으로 참조한 계양구 묶음 사업의 시 참전명예수당 부분과 일치한다. 실제 원본 전체 본문, 출처 법규ID에 연결된 별지, 원본 SHA256 및 flSeq를 대조했다.",
+      "sha256": "fac591bc16d51c56a352849743fddaeddad9e6cf4772b784048fce57b330487d",
+      "bytes": 52736,
+      "originalFormat": "hwp",
+      "textScope": "all_body_sections_or_pages",
+      "originalTextScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "BodyText/Section0"
+      ],
+      "fullBodyReviewed": true,
+      "role": "application",
+      "roleBasis": "참전유공자 본인이 등록번호·계좌와 유공자증을 제출하는 시 명예수당 신청서다. 시행규칙 제2조제1항 및 시 사업·이를 명시적으로 참조한 계양구 묶음 사업의 시 참전명예수당 부분과 일치한다. 실제 원본 전체 본문, 출처 법규ID에 연결된 별지, 원본 SHA256 및 flSeq를 대조했다.",
+      "roleEvidenceUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=1896561",
+      "roleCheckedAt": "2026-10-18",
+      "bodyEvidenceArticle": "제2조",
+      "bodyEvidenceText": "제2조(지급신청)①「인천광역시 참전유공자 예우 및 지원에 관한 조례」(이하 “조례”라 한다) 제5조제2항에 따른 참전명예수당(이하 “명예수당”이라 한다)을 지급받으려는 사람은 별지 제1호서식의 참전명예수당 지급신청서를 인천광역시장(이하 “시장”이라 한다)에게 제출하여야 한다. <개정 2023.12.29.>② 조례 제5조제3항에 따른 사망위로금을 지급받으려는 사람은 별지 제2호서식의 참전유공자 사망위로금 지급신청서를 사망한 날부터 1년 이내에 시장에게 제출하여야 한다. <개정 2023.12.29.>③ 제2항에 따른 사망위로금을 지급받을 대상 및 순위에 관하여는 「국가유공자 등 예우 및 지원에 관한 법률」 제13조에 따른다. 이 경우 같은 법 제13조에 따른 유족이 없으면 사망 당시 생활을 같이 하고 있던 친족 중 재산상속인이 될 사람의 신청에 따라 해당 재산상속인에게 이를 지급할 수 있고, 재산상속인이 될 사람도 없는 경우에는 장제를 하는 사람에게 이를 지급할 수 있다.④ 조례 제5조제4항에 따른 배우자 수당을 지급받으려는 사람은 별지 제3호서식의 참전유공자 배우자 수당 지급신청서를 시장에게 제출하여야 한다. <신설 2023.12.29.>[전문개정 2022.12.30.]",
+      "reviewedParts": [
+        {
+          "number": "1",
+          "title": "[별지 제1호서식] 참전명예수당 지급신청서",
+          "use": "main",
+          "author": "참전명예수당 신청 참전유공자"
+        }
+      ],
+      "condition": "인천광역시 참전명예수당 신청에 사용합니다. 사망위로금·배우자수당용은 별도 서식입니다."
+    },
+    {
+      "sourceKind": "ordin",
+      "lawTitle": "인천광역시 참전유공자 예우 및 지원에 관한 조례 시행규칙",
+      "lawId": "1896561",
+      "annexId": "20393441",
+      "annexNumber": "000100",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=154028499&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C1%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EC%B0%B8%EC%A0%84%EB%AA%85%EC%98%88%EC%88%98%EB%8B%B9+%EC%A7%80%EA%B8%89%EC%8B%A0%EC%B2%AD%EC%84%9C",
+      "dateKind": "effective",
+      "effectiveDate": "2024-01-01",
+      "regionCode": "28000",
+      "regionLabel": "인천광역시",
+      "formId": "ordin-20393441",
+      "formTitle": "[별지 제1호서식] 참전명예수당 지급신청서",
+      "sourceMetadataTitle": "[별지 제1호서식] 참전명예수당 지급신청서",
+      "programIds": [
+        "s28000.gov24-628000000153"
+      ],
+      "programNames": [
+        "국가보훈대상자 수당 지원"
+      ],
+      "use": "main",
+      "checkedAt": "2026-10-18",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "evidenceUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=1896561",
+      "evidenceNote": "참전유공자 본인이 등록번호·계좌와 유공자증을 제출하는 시 명예수당 신청서다. 시행규칙 제2조제1항 및 시 사업·이를 명시적으로 참조한 계양구 묶음 사업의 시 참전명예수당 부분과 일치한다. 실제 원본 전체 본문, 출처 법규ID에 연결된 별지, 원본 SHA256 및 flSeq를 대조했다.",
+      "sha256": "fac591bc16d51c56a352849743fddaeddad9e6cf4772b784048fce57b330487d",
+      "bytes": 52736,
+      "originalFormat": "hwp",
+      "textScope": "all_body_sections_or_pages",
+      "originalTextScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "BodyText/Section0"
+      ],
+      "fullBodyReviewed": true,
+      "role": "application",
+      "roleBasis": "참전유공자 본인이 등록번호·계좌와 유공자증을 제출하는 시 명예수당 신청서다. 시행규칙 제2조제1항 및 시 사업·이를 명시적으로 참조한 계양구 묶음 사업의 시 참전명예수당 부분과 일치한다. 실제 원본 전체 본문, 출처 법규ID에 연결된 별지, 원본 SHA256 및 flSeq를 대조했다.",
+      "roleEvidenceUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=1896561",
+      "roleCheckedAt": "2026-10-18",
+      "bodyEvidenceArticle": "제2조",
+      "bodyEvidenceText": "제2조(지급신청)①「인천광역시 참전유공자 예우 및 지원에 관한 조례」(이하 “조례”라 한다) 제5조제2항에 따른 참전명예수당(이하 “명예수당”이라 한다)을 지급받으려는 사람은 별지 제1호서식의 참전명예수당 지급신청서를 인천광역시장(이하 “시장”이라 한다)에게 제출하여야 한다. <개정 2023.12.29.>② 조례 제5조제3항에 따른 사망위로금을 지급받으려는 사람은 별지 제2호서식의 참전유공자 사망위로금 지급신청서를 사망한 날부터 1년 이내에 시장에게 제출하여야 한다. <개정 2023.12.29.>③ 제2항에 따른 사망위로금을 지급받을 대상 및 순위에 관하여는 「국가유공자 등 예우 및 지원에 관한 법률」 제13조에 따른다. 이 경우 같은 법 제13조에 따른 유족이 없으면 사망 당시 생활을 같이 하고 있던 친족 중 재산상속인이 될 사람의 신청에 따라 해당 재산상속인에게 이를 지급할 수 있고, 재산상속인이 될 사람도 없는 경우에는 장제를 하는 사람에게 이를 지급할 수 있다.④ 조례 제5조제4항에 따른 배우자 수당을 지급받으려는 사람은 별지 제3호서식의 참전유공자 배우자 수당 지급신청서를 시장에게 제출하여야 한다. <신설 2023.12.29.>[전문개정 2022.12.30.]",
+      "reviewedParts": [
+        {
+          "number": "1",
+          "title": "[별지 제1호서식] 참전명예수당 지급신청서",
+          "use": "main",
+          "author": "참전명예수당 신청 참전유공자"
+        }
+      ],
+      "condition": "인천광역시 참전명예수당 신청에 사용합니다. 사망위로금·배우자수당용은 별도 서식입니다."
+    },
+    {
+      "sourceKind": "ordin",
+      "lawTitle": "인천광역시 참전유공자 예우 및 지원에 관한 조례 시행규칙",
+      "lawId": "1896561",
+      "annexId": "20393441",
+      "annexNumber": "000100",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=154028499&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C1%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EC%B0%B8%EC%A0%84%EB%AA%85%EC%98%88%EC%88%98%EB%8B%B9+%EC%A7%80%EA%B8%89%EC%8B%A0%EC%B2%AD%EC%84%9C",
+      "dateKind": "effective",
+      "effectiveDate": "2024-01-01",
+      "regionCode": "28000",
+      "regionLabel": "인천광역시",
+      "formId": "ordin-20393441",
+      "formTitle": "[별지 제1호서식] 참전명예수당 지급신청서",
+      "sourceMetadataTitle": "[별지 제1호서식] 참전명예수당 지급신청서",
+      "programIds": [
+        "g28245.gov24-355000000107"
+      ],
+      "programNames": [
+        "참전명예수당"
+      ],
+      "use": "main",
+      "checkedAt": "2026-10-18",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "evidenceUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=1896561",
+      "evidenceNote": "참전유공자 본인이 등록번호·계좌와 유공자증을 제출하는 시 명예수당 신청서다. 시행규칙 제2조제1항 및 시 사업·이를 명시적으로 참조한 계양구 묶음 사업의 시 참전명예수당 부분과 일치한다. 실제 원본 전체 본문, 출처 법규ID에 연결된 별지, 원본 SHA256 및 flSeq를 대조했다.",
+      "sha256": "fac591bc16d51c56a352849743fddaeddad9e6cf4772b784048fce57b330487d",
+      "bytes": 52736,
+      "originalFormat": "hwp",
+      "textScope": "all_body_sections_or_pages",
+      "originalTextScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "BodyText/Section0"
+      ],
+      "fullBodyReviewed": true,
+      "role": "application",
+      "roleBasis": "참전유공자 본인이 등록번호·계좌와 유공자증을 제출하는 시 명예수당 신청서다. 시행규칙 제2조제1항 및 시 사업·이를 명시적으로 참조한 계양구 묶음 사업의 시 참전명예수당 부분과 일치한다. 실제 원본 전체 본문, 출처 법규ID에 연결된 별지, 원본 SHA256 및 flSeq를 대조했다.",
+      "roleEvidenceUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=1896561",
+      "roleCheckedAt": "2026-10-18",
+      "bodyEvidenceArticle": "제2조",
+      "bodyEvidenceText": "제2조(지급신청)①「인천광역시 참전유공자 예우 및 지원에 관한 조례」(이하 “조례”라 한다) 제5조제2항에 따른 참전명예수당(이하 “명예수당”이라 한다)을 지급받으려는 사람은 별지 제1호서식의 참전명예수당 지급신청서를 인천광역시장(이하 “시장”이라 한다)에게 제출하여야 한다. <개정 2023.12.29.>② 조례 제5조제3항에 따른 사망위로금을 지급받으려는 사람은 별지 제2호서식의 참전유공자 사망위로금 지급신청서를 사망한 날부터 1년 이내에 시장에게 제출하여야 한다. <개정 2023.12.29.>③ 제2항에 따른 사망위로금을 지급받을 대상 및 순위에 관하여는 「국가유공자 등 예우 및 지원에 관한 법률」 제13조에 따른다. 이 경우 같은 법 제13조에 따른 유족이 없으면 사망 당시 생활을 같이 하고 있던 친족 중 재산상속인이 될 사람의 신청에 따라 해당 재산상속인에게 이를 지급할 수 있고, 재산상속인이 될 사람도 없는 경우에는 장제를 하는 사람에게 이를 지급할 수 있다.④ 조례 제5조제4항에 따른 배우자 수당을 지급받으려는 사람은 별지 제3호서식의 참전유공자 배우자 수당 지급신청서를 시장에게 제출하여야 한다. <신설 2023.12.29.>[전문개정 2022.12.30.]",
+      "reviewedParts": [
+        {
+          "number": "1",
+          "title": "[별지 제1호서식] 참전명예수당 지급신청서",
+          "use": "main",
+          "author": "참전명예수당 신청 참전유공자"
+        }
+      ],
+      "condition": "인천광역시 참전명예수당 신청에 사용합니다. 사망위로금·배우자수당용은 별도 서식입니다.",
+      "scopeBasis": "provincial-law-reference"
+    },
+    {
+      "sourceKind": "ordin",
+      "lawTitle": "인천광역시 참전유공자 예우 및 지원에 관한 조례 시행규칙",
+      "lawId": "1896561",
+      "annexId": "20393443",
+      "annexNumber": "000200",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=154028501&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C2%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EC%B0%B8%EC%A0%84%EC%9C%A0%EA%B3%B5%EC%9E%90+%EC%82%AC%EB%A7%9D%EC%9C%84%EB%A1%9C%EA%B8%88+%EC%A7%80%EA%B8%89%EC%8B%A0%EC%B2%AD%EC%84%9C",
+      "dateKind": "effective",
+      "effectiveDate": "2024-01-01",
+      "regionCode": "28000",
+      "regionLabel": "인천광역시",
+      "formId": "ordin-20393443",
+      "formTitle": "[별지 제2호서식] 참전유공자 사망위로금 지급신청서",
+      "sourceMetadataTitle": "[별지 제2호서식] 참전유공자 사망위로금 지급신청서",
+      "programIds": [
+        "s28000.bokjiro-WLF00001553"
+      ],
+      "programNames": [
+        "참전유공자 명예수당 및 사망위로금, (사망)참전유공자 배우자수당 지원"
+      ],
+      "use": "conditional",
+      "checkedAt": "2026-10-18",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "evidenceUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=1896561",
+      "evidenceNote": "사망 참전유공자와 신청인의 관계·사망일·유족증빙을 제출하는 시 사망위로금 별지2호다. 제2조제2항 및 사망위로금을 명시한 시 복지로·계양구 사업에만 연결한다. 실제 원본 전체 본문, 출처 법규ID에 연결된 별지, 원본 SHA256 및 flSeq를 대조했다.",
+      "sha256": "9ce3bd75f409016d1ea0611b28e3d85e02d0637a46280d6889ced9e2b1b3f484",
+      "bytes": 57344,
+      "originalFormat": "hwp",
+      "textScope": "all_body_sections_or_pages",
+      "originalTextScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "BodyText/Section0"
+      ],
+      "fullBodyReviewed": true,
+      "role": "application",
+      "roleBasis": "사망 참전유공자와 신청인의 관계·사망일·유족증빙을 제출하는 시 사망위로금 별지2호다. 제2조제2항 및 사망위로금을 명시한 시 복지로·계양구 사업에만 연결한다. 실제 원본 전체 본문, 출처 법규ID에 연결된 별지, 원본 SHA256 및 flSeq를 대조했다.",
+      "roleEvidenceUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=1896561",
+      "roleCheckedAt": "2026-10-18",
+      "bodyEvidenceArticle": "제2조",
+      "bodyEvidenceText": "제2조(지급신청)①「인천광역시 참전유공자 예우 및 지원에 관한 조례」(이하 “조례”라 한다) 제5조제2항에 따른 참전명예수당(이하 “명예수당”이라 한다)을 지급받으려는 사람은 별지 제1호서식의 참전명예수당 지급신청서를 인천광역시장(이하 “시장”이라 한다)에게 제출하여야 한다. <개정 2023.12.29.>② 조례 제5조제3항에 따른 사망위로금을 지급받으려는 사람은 별지 제2호서식의 참전유공자 사망위로금 지급신청서를 사망한 날부터 1년 이내에 시장에게 제출하여야 한다. <개정 2023.12.29.>③ 제2항에 따른 사망위로금을 지급받을 대상 및 순위에 관하여는 「국가유공자 등 예우 및 지원에 관한 법률」 제13조에 따른다. 이 경우 같은 법 제13조에 따른 유족이 없으면 사망 당시 생활을 같이 하고 있던 친족 중 재산상속인이 될 사람의 신청에 따라 해당 재산상속인에게 이를 지급할 수 있고, 재산상속인이 될 사람도 없는 경우에는 장제를 하는 사람에게 이를 지급할 수 있다.④ 조례 제5조제4항에 따른 배우자 수당을 지급받으려는 사람은 별지 제3호서식의 참전유공자 배우자 수당 지급신청서를 시장에게 제출하여야 한다. <신설 2023.12.29.>[전문개정 2022.12.30.]",
+      "reviewedParts": [
+        {
+          "number": "2",
+          "title": "[별지 제2호서식] 참전유공자 사망위로금 지급신청서",
+          "use": "main",
+          "author": "사망 참전유공자의 유족 등 조례에 정한 신청인"
+        }
+      ],
+      "condition": "참전유공자 사망 시 인천광역시 사망위로금을 신청할 때 사용합니다."
+    },
+    {
+      "sourceKind": "ordin",
+      "lawTitle": "인천광역시 참전유공자 예우 및 지원에 관한 조례 시행규칙",
+      "lawId": "1896561",
+      "annexId": "20393443",
+      "annexNumber": "000200",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=154028501&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C2%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EC%B0%B8%EC%A0%84%EC%9C%A0%EA%B3%B5%EC%9E%90+%EC%82%AC%EB%A7%9D%EC%9C%84%EB%A1%9C%EA%B8%88+%EC%A7%80%EA%B8%89%EC%8B%A0%EC%B2%AD%EC%84%9C",
+      "dateKind": "effective",
+      "effectiveDate": "2024-01-01",
+      "regionCode": "28000",
+      "regionLabel": "인천광역시",
+      "formId": "ordin-20393443",
+      "formTitle": "[별지 제2호서식] 참전유공자 사망위로금 지급신청서",
+      "sourceMetadataTitle": "[별지 제2호서식] 참전유공자 사망위로금 지급신청서",
+      "programIds": [
+        "g28245.gov24-355000000107"
+      ],
+      "programNames": [
+        "참전명예수당"
+      ],
+      "use": "conditional",
+      "checkedAt": "2026-10-18",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "evidenceUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=1896561",
+      "evidenceNote": "사망 참전유공자와 신청인의 관계·사망일·유족증빙을 제출하는 시 사망위로금 별지2호다. 제2조제2항 및 사망위로금을 명시한 시 복지로·계양구 사업에만 연결한다. 실제 원본 전체 본문, 출처 법규ID에 연결된 별지, 원본 SHA256 및 flSeq를 대조했다.",
+      "sha256": "9ce3bd75f409016d1ea0611b28e3d85e02d0637a46280d6889ced9e2b1b3f484",
+      "bytes": 57344,
+      "originalFormat": "hwp",
+      "textScope": "all_body_sections_or_pages",
+      "originalTextScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "BodyText/Section0"
+      ],
+      "fullBodyReviewed": true,
+      "role": "application",
+      "roleBasis": "사망 참전유공자와 신청인의 관계·사망일·유족증빙을 제출하는 시 사망위로금 별지2호다. 제2조제2항 및 사망위로금을 명시한 시 복지로·계양구 사업에만 연결한다. 실제 원본 전체 본문, 출처 법규ID에 연결된 별지, 원본 SHA256 및 flSeq를 대조했다.",
+      "roleEvidenceUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=1896561",
+      "roleCheckedAt": "2026-10-18",
+      "bodyEvidenceArticle": "제2조",
+      "bodyEvidenceText": "제2조(지급신청)①「인천광역시 참전유공자 예우 및 지원에 관한 조례」(이하 “조례”라 한다) 제5조제2항에 따른 참전명예수당(이하 “명예수당”이라 한다)을 지급받으려는 사람은 별지 제1호서식의 참전명예수당 지급신청서를 인천광역시장(이하 “시장”이라 한다)에게 제출하여야 한다. <개정 2023.12.29.>② 조례 제5조제3항에 따른 사망위로금을 지급받으려는 사람은 별지 제2호서식의 참전유공자 사망위로금 지급신청서를 사망한 날부터 1년 이내에 시장에게 제출하여야 한다. <개정 2023.12.29.>③ 제2항에 따른 사망위로금을 지급받을 대상 및 순위에 관하여는 「국가유공자 등 예우 및 지원에 관한 법률」 제13조에 따른다. 이 경우 같은 법 제13조에 따른 유족이 없으면 사망 당시 생활을 같이 하고 있던 친족 중 재산상속인이 될 사람의 신청에 따라 해당 재산상속인에게 이를 지급할 수 있고, 재산상속인이 될 사람도 없는 경우에는 장제를 하는 사람에게 이를 지급할 수 있다.④ 조례 제5조제4항에 따른 배우자 수당을 지급받으려는 사람은 별지 제3호서식의 참전유공자 배우자 수당 지급신청서를 시장에게 제출하여야 한다. <신설 2023.12.29.>[전문개정 2022.12.30.]",
+      "reviewedParts": [
+        {
+          "number": "2",
+          "title": "[별지 제2호서식] 참전유공자 사망위로금 지급신청서",
+          "use": "main",
+          "author": "사망 참전유공자의 유족 등 조례에 정한 신청인"
+        }
+      ],
+      "condition": "참전유공자 사망 시 인천광역시 사망위로금을 신청할 때 사용합니다.",
+      "scopeBasis": "provincial-law-reference"
+    },
+    {
+      "sourceKind": "ordin",
+      "lawTitle": "인천광역시 참전유공자 예우 및 지원에 관한 조례 시행규칙",
+      "lawId": "1896561",
+      "annexId": "20393445",
+      "annexNumber": "000300",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=154028503&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C3%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EC%B0%B8%EC%A0%84%EC%9C%A0%EA%B3%B5%EC%9E%90+%EB%B0%B0%EC%9A%B0%EC%9E%90+%EC%88%98%EB%8B%B9+%EC%A7%80%EA%B8%89%EC%8B%A0%EC%B2%AD%EC%84%9C",
+      "dateKind": "effective",
+      "effectiveDate": "2024-01-01",
+      "regionCode": "28000",
+      "regionLabel": "인천광역시",
+      "formId": "ordin-20393445",
+      "formTitle": "[별지 제3호서식] 참전유공자 배우자 수당 지급신청서",
+      "sourceMetadataTitle": "[별지 제3호서식] 참전유공자 배우자 수당 지급신청서",
+      "programIds": [
+        "s28000.bokjiro-WLF00001553"
+      ],
+      "programNames": [
+        "참전유공자 명예수당 및 사망위로금, (사망)참전유공자 배우자수당 지원"
+      ],
+      "use": "main",
+      "checkedAt": "2026-10-18",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "evidenceUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=1896561",
+      "evidenceNote": "사망한 참전자의 배우자임을 증명하고 지급계좌를 등록하는 별지3호로 제2조제4항의 배우자수당이다. 시 및 계양구 사업의 사망 참전유공자 배우자 대상에 한정한다. 실제 원본 전체 본문, 출처 법규ID에 연결된 별지, 원본 SHA256 및 flSeq를 대조했다.",
+      "sha256": "cf7b023201798d120af18e9b6a7337ef4e850aeaaa4c4e82217dad97c1e9dd44",
+      "bytes": 115200,
+      "originalFormat": "hwp",
+      "textScope": "all_body_sections_or_pages",
+      "originalTextScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "BodyText/Section0"
+      ],
+      "fullBodyReviewed": true,
+      "role": "application",
+      "roleBasis": "사망한 참전자의 배우자임을 증명하고 지급계좌를 등록하는 별지3호로 제2조제4항의 배우자수당이다. 시 및 계양구 사업의 사망 참전유공자 배우자 대상에 한정한다. 실제 원본 전체 본문, 출처 법규ID에 연결된 별지, 원본 SHA256 및 flSeq를 대조했다.",
+      "roleEvidenceUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=1896561",
+      "roleCheckedAt": "2026-10-18",
+      "bodyEvidenceArticle": "제2조",
+      "bodyEvidenceText": "제2조(지급신청)①「인천광역시 참전유공자 예우 및 지원에 관한 조례」(이하 “조례”라 한다) 제5조제2항에 따른 참전명예수당(이하 “명예수당”이라 한다)을 지급받으려는 사람은 별지 제1호서식의 참전명예수당 지급신청서를 인천광역시장(이하 “시장”이라 한다)에게 제출하여야 한다. <개정 2023.12.29.>② 조례 제5조제3항에 따른 사망위로금을 지급받으려는 사람은 별지 제2호서식의 참전유공자 사망위로금 지급신청서를 사망한 날부터 1년 이내에 시장에게 제출하여야 한다. <개정 2023.12.29.>③ 제2항에 따른 사망위로금을 지급받을 대상 및 순위에 관하여는 「국가유공자 등 예우 및 지원에 관한 법률」 제13조에 따른다. 이 경우 같은 법 제13조에 따른 유족이 없으면 사망 당시 생활을 같이 하고 있던 친족 중 재산상속인이 될 사람의 신청에 따라 해당 재산상속인에게 이를 지급할 수 있고, 재산상속인이 될 사람도 없는 경우에는 장제를 하는 사람에게 이를 지급할 수 있다.④ 조례 제5조제4항에 따른 배우자 수당을 지급받으려는 사람은 별지 제3호서식의 참전유공자 배우자 수당 지급신청서를 시장에게 제출하여야 한다. <신설 2023.12.29.>[전문개정 2022.12.30.]",
+      "reviewedParts": [
+        {
+          "number": "3",
+          "title": "[별지 제3호서식] 참전유공자 배우자 수당 지급신청서",
+          "use": "main",
+          "author": "사망 참전유공자의 배우자"
+        }
+      ],
+      "condition": "사망한 참전유공자의 배우자 수당 신청에만 사용합니다."
+    },
+    {
+      "sourceKind": "ordin",
+      "lawTitle": "인천광역시 참전유공자 예우 및 지원에 관한 조례 시행규칙",
+      "lawId": "1896561",
+      "annexId": "20393445",
+      "annexNumber": "000300",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=154028503&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C3%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EC%B0%B8%EC%A0%84%EC%9C%A0%EA%B3%B5%EC%9E%90+%EB%B0%B0%EC%9A%B0%EC%9E%90+%EC%88%98%EB%8B%B9+%EC%A7%80%EA%B8%89%EC%8B%A0%EC%B2%AD%EC%84%9C",
+      "dateKind": "effective",
+      "effectiveDate": "2024-01-01",
+      "regionCode": "28000",
+      "regionLabel": "인천광역시",
+      "formId": "ordin-20393445",
+      "formTitle": "[별지 제3호서식] 참전유공자 배우자 수당 지급신청서",
+      "sourceMetadataTitle": "[별지 제3호서식] 참전유공자 배우자 수당 지급신청서",
+      "programIds": [
+        "s28000.gov24-628000000153"
+      ],
+      "programNames": [
+        "국가보훈대상자 수당 지원"
+      ],
+      "use": "main",
+      "checkedAt": "2026-10-18",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "evidenceUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=1896561",
+      "evidenceNote": "사망한 참전자의 배우자임을 증명하고 지급계좌를 등록하는 별지3호로 제2조제4항의 배우자수당이다. 시 및 계양구 사업의 사망 참전유공자 배우자 대상에 한정한다. 실제 원본 전체 본문, 출처 법규ID에 연결된 별지, 원본 SHA256 및 flSeq를 대조했다.",
+      "sha256": "cf7b023201798d120af18e9b6a7337ef4e850aeaaa4c4e82217dad97c1e9dd44",
+      "bytes": 115200,
+      "originalFormat": "hwp",
+      "textScope": "all_body_sections_or_pages",
+      "originalTextScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "BodyText/Section0"
+      ],
+      "fullBodyReviewed": true,
+      "role": "application",
+      "roleBasis": "사망한 참전자의 배우자임을 증명하고 지급계좌를 등록하는 별지3호로 제2조제4항의 배우자수당이다. 시 및 계양구 사업의 사망 참전유공자 배우자 대상에 한정한다. 실제 원본 전체 본문, 출처 법규ID에 연결된 별지, 원본 SHA256 및 flSeq를 대조했다.",
+      "roleEvidenceUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=1896561",
+      "roleCheckedAt": "2026-10-18",
+      "bodyEvidenceArticle": "제2조",
+      "bodyEvidenceText": "제2조(지급신청)①「인천광역시 참전유공자 예우 및 지원에 관한 조례」(이하 “조례”라 한다) 제5조제2항에 따른 참전명예수당(이하 “명예수당”이라 한다)을 지급받으려는 사람은 별지 제1호서식의 참전명예수당 지급신청서를 인천광역시장(이하 “시장”이라 한다)에게 제출하여야 한다. <개정 2023.12.29.>② 조례 제5조제3항에 따른 사망위로금을 지급받으려는 사람은 별지 제2호서식의 참전유공자 사망위로금 지급신청서를 사망한 날부터 1년 이내에 시장에게 제출하여야 한다. <개정 2023.12.29.>③ 제2항에 따른 사망위로금을 지급받을 대상 및 순위에 관하여는 「국가유공자 등 예우 및 지원에 관한 법률」 제13조에 따른다. 이 경우 같은 법 제13조에 따른 유족이 없으면 사망 당시 생활을 같이 하고 있던 친족 중 재산상속인이 될 사람의 신청에 따라 해당 재산상속인에게 이를 지급할 수 있고, 재산상속인이 될 사람도 없는 경우에는 장제를 하는 사람에게 이를 지급할 수 있다.④ 조례 제5조제4항에 따른 배우자 수당을 지급받으려는 사람은 별지 제3호서식의 참전유공자 배우자 수당 지급신청서를 시장에게 제출하여야 한다. <신설 2023.12.29.>[전문개정 2022.12.30.]",
+      "reviewedParts": [
+        {
+          "number": "3",
+          "title": "[별지 제3호서식] 참전유공자 배우자 수당 지급신청서",
+          "use": "main",
+          "author": "사망 참전유공자의 배우자"
+        }
+      ],
+      "condition": "사망한 참전유공자의 배우자 수당 신청에만 사용합니다."
+    },
+    {
+      "sourceKind": "ordin",
+      "lawTitle": "인천광역시 참전유공자 예우 및 지원에 관한 조례 시행규칙",
+      "lawId": "1896561",
+      "annexId": "20393445",
+      "annexNumber": "000300",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=154028503&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C3%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EC%B0%B8%EC%A0%84%EC%9C%A0%EA%B3%B5%EC%9E%90+%EB%B0%B0%EC%9A%B0%EC%9E%90+%EC%88%98%EB%8B%B9+%EC%A7%80%EA%B8%89%EC%8B%A0%EC%B2%AD%EC%84%9C",
+      "dateKind": "effective",
+      "effectiveDate": "2024-01-01",
+      "regionCode": "28000",
+      "regionLabel": "인천광역시",
+      "formId": "ordin-20393445",
+      "formTitle": "[별지 제3호서식] 참전유공자 배우자 수당 지급신청서",
+      "sourceMetadataTitle": "[별지 제3호서식] 참전유공자 배우자 수당 지급신청서",
+      "programIds": [
+        "g28245.gov24-355000000107"
+      ],
+      "programNames": [
+        "참전명예수당"
+      ],
+      "use": "main",
+      "checkedAt": "2026-10-18",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "evidenceUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=1896561",
+      "evidenceNote": "사망한 참전자의 배우자임을 증명하고 지급계좌를 등록하는 별지3호로 제2조제4항의 배우자수당이다. 시 및 계양구 사업의 사망 참전유공자 배우자 대상에 한정한다. 실제 원본 전체 본문, 출처 법규ID에 연결된 별지, 원본 SHA256 및 flSeq를 대조했다.",
+      "sha256": "cf7b023201798d120af18e9b6a7337ef4e850aeaaa4c4e82217dad97c1e9dd44",
+      "bytes": 115200,
+      "originalFormat": "hwp",
+      "textScope": "all_body_sections_or_pages",
+      "originalTextScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "BodyText/Section0"
+      ],
+      "fullBodyReviewed": true,
+      "role": "application",
+      "roleBasis": "사망한 참전자의 배우자임을 증명하고 지급계좌를 등록하는 별지3호로 제2조제4항의 배우자수당이다. 시 및 계양구 사업의 사망 참전유공자 배우자 대상에 한정한다. 실제 원본 전체 본문, 출처 법규ID에 연결된 별지, 원본 SHA256 및 flSeq를 대조했다.",
+      "roleEvidenceUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=1896561",
+      "roleCheckedAt": "2026-10-18",
+      "bodyEvidenceArticle": "제2조",
+      "bodyEvidenceText": "제2조(지급신청)①「인천광역시 참전유공자 예우 및 지원에 관한 조례」(이하 “조례”라 한다) 제5조제2항에 따른 참전명예수당(이하 “명예수당”이라 한다)을 지급받으려는 사람은 별지 제1호서식의 참전명예수당 지급신청서를 인천광역시장(이하 “시장”이라 한다)에게 제출하여야 한다. <개정 2023.12.29.>② 조례 제5조제3항에 따른 사망위로금을 지급받으려는 사람은 별지 제2호서식의 참전유공자 사망위로금 지급신청서를 사망한 날부터 1년 이내에 시장에게 제출하여야 한다. <개정 2023.12.29.>③ 제2항에 따른 사망위로금을 지급받을 대상 및 순위에 관하여는 「국가유공자 등 예우 및 지원에 관한 법률」 제13조에 따른다. 이 경우 같은 법 제13조에 따른 유족이 없으면 사망 당시 생활을 같이 하고 있던 친족 중 재산상속인이 될 사람의 신청에 따라 해당 재산상속인에게 이를 지급할 수 있고, 재산상속인이 될 사람도 없는 경우에는 장제를 하는 사람에게 이를 지급할 수 있다.④ 조례 제5조제4항에 따른 배우자 수당을 지급받으려는 사람은 별지 제3호서식의 참전유공자 배우자 수당 지급신청서를 시장에게 제출하여야 한다. <신설 2023.12.29.>[전문개정 2022.12.30.]",
+      "reviewedParts": [
+        {
+          "number": "3",
+          "title": "[별지 제3호서식] 참전유공자 배우자 수당 지급신청서",
+          "use": "main",
+          "author": "사망 참전유공자의 배우자"
+        }
+      ],
+      "condition": "사망한 참전유공자의 배우자 수당 신청에만 사용합니다.",
+      "scopeBasis": "provincial-law-reference"
+    },
+    {
+      "sourceKind": "ordin",
+      "lawTitle": "충청남도 의로운 도민 등에 대한 예우 및 지원에 관한 조례 시행규칙",
+      "lawId": "1896843",
+      "annexId": "22594715",
+      "annexNumber": "000400",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=169279005&flNm=%EB%B3%84%EC%A7%80+%EC%A0%9C5%ED%98%B8+%EC%84%9C%EC%8B%9D+%28%EC%9C%84%EB%A1%9C%EA%B8%88+%EC%A7%80%EA%B8%89%EC%8B%A0%EC%B2%AD%EC%84%9C%29",
+      "dateKind": "effective",
+      "effectiveDate": "2023-12-29",
+      "regionCode": "44000",
+      "regionLabel": "충청남도",
+      "formId": "ordin-22594715",
+      "formTitle": "별지 제5호 서식 (위로금 지급신청서)",
+      "sourceMetadataTitle": "별지 제5호 서식 (위로금 지급신청서)",
+      "programIds": [
+        "s44000.gov24-644000000228"
+      ],
+      "programNames": [
+        "의로운 도민 위로금 지원"
+      ],
+      "use": "conditional",
+      "checkedAt": "2026-10-18",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "evidenceUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=1896843",
+      "evidenceNote": "인정된 의로운 도민의 결정일·증서번호·결정금액과 계좌를 적는 위로금 청구서이며 제5조가 직접 지정한다. 신청인의 식별란이 생년월일인 이 원본과 사이트의 인정 결정 뒤 지급 단계가 일치한다. 실제 원본 전체 본문, 출처 법규ID에 연결된 별지, 원본 SHA256 및 flSeq를 대조했다.",
+      "sha256": "771c26db0168a29ab52ccaa8e39b66931b9b7aaa7ebf93132d93326a8bf977e0",
+      "bytes": 12800,
+      "originalFormat": "hwp",
+      "textScope": "all_body_sections_or_pages",
+      "originalTextScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "BodyText/Section0"
+      ],
+      "fullBodyReviewed": true,
+      "role": "application",
+      "roleBasis": "인정된 의로운 도민의 결정일·증서번호·결정금액과 계좌를 적는 위로금 청구서이며 제5조가 직접 지정한다. 신청인의 식별란이 생년월일인 이 원본과 사이트의 인정 결정 뒤 지급 단계가 일치한다. 실제 원본 전체 본문, 출처 법규ID에 연결된 별지, 원본 SHA256 및 flSeq를 대조했다.",
+      "roleEvidenceUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=1896843",
+      "roleCheckedAt": "2026-10-18",
+      "bodyEvidenceArticle": "제5조",
+      "bodyEvidenceText": "제5조(위로금 등 지급신청) 조례 제8조에 따른 위로금 등을 지급받고자 하는 사람은 별지 제5호 서식에 따라 도지사에게 신청하여야 한다.",
+      "reviewedParts": [
+        {
+          "number": "5",
+          "title": "별지 제5호 서식 (위로금 지급신청서)",
+          "use": "main",
+          "author": "인정된 의로운 도민 또는 조례에 정한 수령자"
+        }
+      ],
+      "condition": "의로운 도민으로 인정되어 결정된 위로금을 청구할 때 사용합니다."
+    },
+    {
+      "sourceKind": "ordin",
+      "lawTitle": "의성군 인구늘리기 지원 조례",
+      "lawId": "1897515",
+      "annexId": "19983833",
+      "annexNumber": "000200",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=152193797&flNm=%EB%B3%84%EC%A7%80%EC%84%9C%EC%8B%9D%281~4%29",
+      "dateKind": "effective",
+      "effectiveDate": "2024-01-01",
+      "regionCode": "47730",
+      "regionLabel": "경상북도 의성군",
+      "formId": "ordin-19983833",
+      "formTitle": "별지서식(1~4)",
+      "sourceMetadataTitle": "별지서식(1~4)",
+      "programIds": [
+        "g47730.gov24-515000000169"
+      ],
+      "programNames": [
+        "의성군 신혼부부 주거비용 지원(인구늘리기 시책)"
+      ],
+      "use": "main",
+      "checkedAt": "2026-10-18",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "evidenceUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=1897515",
+      "evidenceNote": "별지1~4의 모든 본문과 동의를 읽었다. 2호의 신혼부부 주거비용 선택란은 임대료·전세대출이자·지급계좌 증빙으로 신청하며 제5조 및 사이트 주거비용 지원에 일치한다. 1호 전입·학자금·기관·군복무와 2호 결혼장려금은 같은 관할 사이트 사업을 찾지 못했고 3·4호는 대장이므로 승인 부분에서 제외한다. 실제 원본 전체 본문, 출처 법규ID에 연결된 별지, 원본 SHA256 및 flSeq를 대조했다.",
+      "sha256": "3c77d3d0e20cd78ca67a71cf4901dc404cd50f0334298679c49973ce2e0f3fe7",
+      "bytes": 94208,
+      "originalFormat": "hwp",
+      "textScope": "all_body_sections_or_pages",
+      "originalTextScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "BodyText/Section0",
+        "BodyText/Section1",
+        "BodyText/Section2",
+        "BodyText/Section3",
+        "BodyText/Section4"
+      ],
+      "fullBodyReviewed": true,
+      "role": "application",
+      "roleBasis": "별지1~4의 모든 본문과 동의를 읽었다. 2호의 신혼부부 주거비용 선택란은 임대료·전세대출이자·지급계좌 증빙으로 신청하며 제5조 및 사이트 주거비용 지원에 일치한다. 1호 전입·학자금·기관·군복무와 2호 결혼장려금은 같은 관할 사이트 사업을 찾지 못했고 3·4호는 대장이므로 승인 부분에서 제외한다. 실제 원본 전체 본문, 출처 법규ID에 연결된 별지, 원본 SHA256 및 flSeq를 대조했다.",
+      "roleEvidenceUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=1897515",
+      "roleCheckedAt": "2026-10-18",
+      "bodyEvidenceArticle": "제5조",
+      "bodyEvidenceText": "제5조(지원신청 및 절차) <종전 제6조에서 이동 2023.12.31.>① 인구늘리기 시책 지원을 받고자 하는 사람은 별표 1의 신청기한 내에 별지 제1호서식 및 별지 제2호서식의 인구늘리기 시책 지원 신청서(이하 “신청서”라 한다)를 작성하여 관할 읍·면장에게 제출하여야 한다. <개정 2021.09.16., 2023.12.31.>② 읍·면장은 제1항의 신청서가 접수되면 기재 사실 여부를 확인하고 매월 1일부터 말일까지 접수한 신청서와 별지 제3호의 체육시설이용권 발급대장을 다음달 5일까지 군수에게 제출하여야 하며, 방문 신청서 원본은 각 읍·면에서 보관한다. <개정 2023.12.31.>③ 군수는 제2항에 따라 제출된 신청서를 검토하여 지원 여부 및 지원 사항을 결정하여 신청서를 접수한 다음달 말일까지 지급하고, 별지 제4호서식의 관리대장에 기재하여 관리하여야 한다. <개정 2023.12.31.>",
+      "reviewedParts": [
+        {
+          "number": "2",
+          "title": "의성군 인구늘리기 시책 지원신청서 — 신혼부부 주거비용",
+          "use": "main",
+          "author": "신혼부부 신청인"
+        }
+      ],
+      "condition": "묶음 중 별지 2호의 신혼부부 주거비용 지원 항목과 관련 동의서를 작성합니다. 결혼장려금 등 다른 항목은 이 신청에 포함하지 않습니다.",
+      "displayTitle": "의성군 인구늘리기 시책 지원신청서 — 신혼부부 주거비용"
+    },
+    {
+      "sourceKind": "ordin",
+      "lawTitle": "옹진군 국가보훈대상자 등 예우 및 지원에 관한 조례",
+      "lawId": "1898023",
+      "annexId": "16732793",
+      "annexNumber": "000100",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=136289295&flNm=%EB%B3%84%EC%A7%80+%EC%A0%9C1~3%ED%98%B8",
+      "dateKind": "effective",
+      "effectiveDate": "2024-01-01",
+      "regionCode": "28720",
+      "regionLabel": "인천광역시 옹진군",
+      "formId": "ordin-16732793",
+      "formTitle": "별지 제1~3호",
+      "sourceMetadataTitle": "별지 제1~3호",
+      "programIds": [
+        "g28720.gov24-358000000147"
+      ],
+      "programNames": [
+        "보훈예우수당 신청"
+      ],
+      "use": "main",
+      "checkedAt": "2026-10-18",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "evidenceUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=1898023",
+      "evidenceNote": "1호 보훈예우수당·2호 사망위로금·3호 관리대장 전체를 읽었다. 제9·12조의 각 신청 목적이 두 사이트와 일치하며 수당/사망청구 부분을 각각 분리하고 대장은 제외한다. 실제 원본 전체 본문, 출처 법규ID에 연결된 별지, 원본 SHA256 및 flSeq를 대조했다.",
+      "sha256": "e710bfbdf2e286ca84ab6a577b7a0f00a9be3204ee8717300dc6e2d5c5535430",
+      "bytes": 22528,
+      "originalFormat": "hwp",
+      "textScope": "all_body_sections_or_pages",
+      "originalTextScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "BodyText/Section0"
+      ],
+      "fullBodyReviewed": true,
+      "role": "application",
+      "roleBasis": "1호 보훈예우수당·2호 사망위로금·3호 관리대장 전체를 읽었다. 제9·12조의 각 신청 목적이 두 사이트와 일치하며 수당/사망청구 부분을 각각 분리하고 대장은 제외한다. 실제 원본 전체 본문, 출처 법규ID에 연결된 별지, 원본 SHA256 및 flSeq를 대조했다.",
+      "roleEvidenceUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=1898023",
+      "roleCheckedAt": "2026-10-18",
+      "bodyEvidenceArticle": "제9조 · 제12조",
+      "bodyEvidenceText": "제9조(수당의 신청) 제8조에 따라 수당을 지급 받고자 하는 사람(이하 “수급권자”라 한다)은 별지 제1호 서식의 보훈예우수당 지급신청서를 군수에게 제출해야 한다.\n제12조(사망위로금 지급)①  군수는 제3조에 따른 국가보훈대상자가 사망한 경우 예산의 범위에서 사망위로금(이하“위로금”이라 한다)을 지급할 수 있다.  다만, 위로금을 수령할 수 있는 지급대상자는 지급 기준일 현재 군에 주민등록을 두고 둔 사람으로 하되, 「옹진군 참전유공자 지원 조례」에 따라 사망위로금을 지급 받는 경우에는 중복지원하지 않는다..<개정2023.12.27.>1.<삭제2023.12.27.>2.<삭제2023.12.27.>② 위로금은 20만원으로 하며, 신청일로부터 10일 이내에 신청자의 예금계좌로 입금한다.③ 유가족 또는 관계인은 별지 제2호 서식의 국가유공자 및 유족 사망위로금 지급신청서를 사망일로부터 1년 이내에 군수에게 제출하여야 한다. 다만, 구비서류 중「전자정부법」제36조제1항에 따른 행정정보의 공동이용을 통하여 확인할 수 있는 주민등록등본 또는 가족관계증명서 등은 첨부를 생략할 수 있다.④ 위로금의 지급 순위는「국가유공자 등 예우 및 지원에 관한 법률」제  5조제1항에 따른다.",
+      "reviewedParts": [
+        {
+          "number": "1",
+          "title": "보훈예우수당 지급신청서",
+          "use": "main",
+          "author": "보훈예우수당 신청자"
+        }
+      ],
+      "condition": "별지 1호 보훈예우수당 신청서만 작성합니다.",
+      "displayTitle": "보훈예우수당 지급신청서"
+    },
+    {
+      "sourceKind": "ordin",
+      "lawTitle": "옹진군 국가보훈대상자 등 예우 및 지원에 관한 조례",
+      "lawId": "1898023",
+      "annexId": "16732793",
+      "annexNumber": "000100",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=136289295&flNm=%EB%B3%84%EC%A7%80+%EC%A0%9C1~3%ED%98%B8",
+      "dateKind": "effective",
+      "effectiveDate": "2024-01-01",
+      "regionCode": "28720",
+      "regionLabel": "인천광역시 옹진군",
+      "formId": "ordin-16732793",
+      "formTitle": "별지 제1~3호",
+      "sourceMetadataTitle": "별지 제1~3호",
+      "programIds": [
+        "g28720.gov24-358000000148"
+      ],
+      "programNames": [
+        "보훈대상자 사망위로금 지급 신청"
+      ],
+      "use": "main",
+      "checkedAt": "2026-10-18",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "evidenceUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=1898023",
+      "evidenceNote": "1호 보훈예우수당·2호 사망위로금·3호 관리대장 전체를 읽었다. 제9·12조의 각 신청 목적이 두 사이트와 일치하며 수당/사망청구 부분을 각각 분리하고 대장은 제외한다. 실제 원본 전체 본문, 출처 법규ID에 연결된 별지, 원본 SHA256 및 flSeq를 대조했다.",
+      "sha256": "e710bfbdf2e286ca84ab6a577b7a0f00a9be3204ee8717300dc6e2d5c5535430",
+      "bytes": 22528,
+      "originalFormat": "hwp",
+      "textScope": "all_body_sections_or_pages",
+      "originalTextScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "BodyText/Section0"
+      ],
+      "fullBodyReviewed": true,
+      "role": "application",
+      "roleBasis": "1호 보훈예우수당·2호 사망위로금·3호 관리대장 전체를 읽었다. 제9·12조의 각 신청 목적이 두 사이트와 일치하며 수당/사망청구 부분을 각각 분리하고 대장은 제외한다. 실제 원본 전체 본문, 출처 법규ID에 연결된 별지, 원본 SHA256 및 flSeq를 대조했다.",
+      "roleEvidenceUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=1898023",
+      "roleCheckedAt": "2026-10-18",
+      "bodyEvidenceArticle": "제9조 · 제12조",
+      "bodyEvidenceText": "제9조(수당의 신청) 제8조에 따라 수당을 지급 받고자 하는 사람(이하 “수급권자”라 한다)은 별지 제1호 서식의 보훈예우수당 지급신청서를 군수에게 제출해야 한다.\n제12조(사망위로금 지급)①  군수는 제3조에 따른 국가보훈대상자가 사망한 경우 예산의 범위에서 사망위로금(이하“위로금”이라 한다)을 지급할 수 있다.  다만, 위로금을 수령할 수 있는 지급대상자는 지급 기준일 현재 군에 주민등록을 두고 둔 사람으로 하되, 「옹진군 참전유공자 지원 조례」에 따라 사망위로금을 지급 받는 경우에는 중복지원하지 않는다..<개정2023.12.27.>1.<삭제2023.12.27.>2.<삭제2023.12.27.>② 위로금은 20만원으로 하며, 신청일로부터 10일 이내에 신청자의 예금계좌로 입금한다.③ 유가족 또는 관계인은 별지 제2호 서식의 국가유공자 및 유족 사망위로금 지급신청서를 사망일로부터 1년 이내에 군수에게 제출하여야 한다. 다만, 구비서류 중「전자정부법」제36조제1항에 따른 행정정보의 공동이용을 통하여 확인할 수 있는 주민등록등본 또는 가족관계증명서 등은 첨부를 생략할 수 있다.④ 위로금의 지급 순위는「국가유공자 등 예우 및 지원에 관한 법률」제  5조제1항에 따른다.",
+      "reviewedParts": [
+        {
+          "number": "2",
+          "title": "사망위로금 지급신청서",
+          "use": "main",
+          "author": "사망자의 유족 또는 관계인"
+        }
+      ],
+      "condition": "별지 2호 사망위로금 지급신청서만 작성합니다.",
+      "displayTitle": "사망위로금 지급신청서"
+    },
+    {
+      "sourceKind": "ordin",
+      "lawTitle": "옹진군 참전유공자 지원 조례",
+      "lawId": "1898029",
+      "annexId": "20178107",
+      "annexNumber": "000100",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=152767703&flNm=%EB%B3%84%EC%A7%80+%EC%A0%9C1%ED%98%B8%EC%84%9C%EC%8B%9D~%EC%A0%9C2%ED%98%B8%EC%84%9C%EC%8B%9D",
+      "dateKind": "effective",
+      "effectiveDate": "2024-01-01",
+      "regionCode": "28720",
+      "regionLabel": "인천광역시 옹진군",
+      "formId": "ordin-20178107",
+      "formTitle": "별지 제1호서식~제2호서식",
+      "sourceMetadataTitle": "별지 제1호서식~제2호서식",
+      "programIds": [
+        "g28720.gov24-358000000149"
+      ],
+      "programNames": [
+        "참전유공자 명예수당 신청"
+      ],
+      "use": "main",
+      "checkedAt": "2026-10-18",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "evidenceUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=1898029",
+      "evidenceNote": "1호는 참전명예수당과 배우자수당 선택형이며 2호는 유가족 사망위로금 청구다. 제5조가 둘을 지정하고 세 사이트가 각 급여를 분리 제공하므로 해당 부분만 연결한다. 실제 원본 전체 본문, 출처 법규ID에 연결된 별지, 원본 SHA256 및 flSeq를 대조했다.",
+      "sha256": "a6d904c1530c5ce1a1de6c59a8d429edf52fbe2260416135d5a17b2aee6fbe59",
+      "bytes": 65536,
+      "originalFormat": "hwp",
+      "textScope": "all_body_sections_or_pages",
+      "originalTextScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "BodyText/Section0"
+      ],
+      "fullBodyReviewed": true,
+      "role": "application",
+      "roleBasis": "1호는 참전명예수당과 배우자수당 선택형이며 2호는 유가족 사망위로금 청구다. 제5조가 둘을 지정하고 세 사이트가 각 급여를 분리 제공하므로 해당 부분만 연결한다. 실제 원본 전체 본문, 출처 법규ID에 연결된 별지, 원본 SHA256 및 flSeq를 대조했다.",
+      "roleEvidenceUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=1898029",
+      "roleCheckedAt": "2026-10-18",
+      "bodyEvidenceArticle": "제5조",
+      "bodyEvidenceText": "제5조(수당의 지급신청)① 제4조제1호 및 제2호의 수당을 지급받고자 하는 사람은 다음 각 호의 지급 신청서를 군수에게 제출하여야 한다.<개정2023.12.27.>1. 참전유공자 명예수당 및 배우자 수당 : 별지 제1호 서식  <신설2023.12.27.>2. 참전유공자 사망위로금 : 별지 제2호 서식<신설2023.12.27.>② 제1항제2호의 사망위로금의 신청은 사망일로부터 1년 이내에 신청하여야 한다.<개정2023.12.27.>",
+      "reviewedParts": [
+        {
+          "number": "1",
+          "title": "참전유공자 명예수당 지급신청서",
+          "use": "main",
+          "author": "참전유공자 본인"
+        }
+      ],
+      "condition": "별지 1호에서 참전유공자 명예수당을 선택합니다.",
+      "displayTitle": "참전유공자 명예수당 지급신청서"
+    },
+    {
+      "sourceKind": "ordin",
+      "lawTitle": "옹진군 참전유공자 지원 조례",
+      "lawId": "1898029",
+      "annexId": "20178107",
+      "annexNumber": "000100",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=152767703&flNm=%EB%B3%84%EC%A7%80+%EC%A0%9C1%ED%98%B8%EC%84%9C%EC%8B%9D~%EC%A0%9C2%ED%98%B8%EC%84%9C%EC%8B%9D",
+      "dateKind": "effective",
+      "effectiveDate": "2024-01-01",
+      "regionCode": "28720",
+      "regionLabel": "인천광역시 옹진군",
+      "formId": "ordin-20178107",
+      "formTitle": "별지 제1호서식~제2호서식",
+      "sourceMetadataTitle": "별지 제1호서식~제2호서식",
+      "programIds": [
+        "g28720.gov24-358000000150"
+      ],
+      "programNames": [
+        "참전유공자 배우자 수당 신청"
+      ],
+      "use": "main",
+      "checkedAt": "2026-10-18",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "evidenceUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=1898029",
+      "evidenceNote": "1호는 참전명예수당과 배우자수당 선택형이며 2호는 유가족 사망위로금 청구다. 제5조가 둘을 지정하고 세 사이트가 각 급여를 분리 제공하므로 해당 부분만 연결한다. 실제 원본 전체 본문, 출처 법규ID에 연결된 별지, 원본 SHA256 및 flSeq를 대조했다.",
+      "sha256": "a6d904c1530c5ce1a1de6c59a8d429edf52fbe2260416135d5a17b2aee6fbe59",
+      "bytes": 65536,
+      "originalFormat": "hwp",
+      "textScope": "all_body_sections_or_pages",
+      "originalTextScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "BodyText/Section0"
+      ],
+      "fullBodyReviewed": true,
+      "role": "application",
+      "roleBasis": "1호는 참전명예수당과 배우자수당 선택형이며 2호는 유가족 사망위로금 청구다. 제5조가 둘을 지정하고 세 사이트가 각 급여를 분리 제공하므로 해당 부분만 연결한다. 실제 원본 전체 본문, 출처 법규ID에 연결된 별지, 원본 SHA256 및 flSeq를 대조했다.",
+      "roleEvidenceUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=1898029",
+      "roleCheckedAt": "2026-10-18",
+      "bodyEvidenceArticle": "제5조",
+      "bodyEvidenceText": "제5조(수당의 지급신청)① 제4조제1호 및 제2호의 수당을 지급받고자 하는 사람은 다음 각 호의 지급 신청서를 군수에게 제출하여야 한다.<개정2023.12.27.>1. 참전유공자 명예수당 및 배우자 수당 : 별지 제1호 서식  <신설2023.12.27.>2. 참전유공자 사망위로금 : 별지 제2호 서식<신설2023.12.27.>② 제1항제2호의 사망위로금의 신청은 사망일로부터 1년 이내에 신청하여야 한다.<개정2023.12.27.>",
+      "reviewedParts": [
+        {
+          "number": "1",
+          "title": "배우자 수당 지급신청서",
+          "use": "main",
+          "author": "사망 참전유공자의 배우자"
+        }
+      ],
+      "condition": "별지 1호에서 배우자 수당을 선택합니다.",
+      "displayTitle": "배우자 수당 지급신청서"
+    },
+    {
+      "sourceKind": "ordin",
+      "lawTitle": "옹진군 참전유공자 지원 조례",
+      "lawId": "1898029",
+      "annexId": "20178107",
+      "annexNumber": "000100",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=152767703&flNm=%EB%B3%84%EC%A7%80+%EC%A0%9C1%ED%98%B8%EC%84%9C%EC%8B%9D~%EC%A0%9C2%ED%98%B8%EC%84%9C%EC%8B%9D",
+      "dateKind": "effective",
+      "effectiveDate": "2024-01-01",
+      "regionCode": "28720",
+      "regionLabel": "인천광역시 옹진군",
+      "formId": "ordin-20178107",
+      "formTitle": "별지 제1호서식~제2호서식",
+      "sourceMetadataTitle": "별지 제1호서식~제2호서식",
+      "programIds": [
+        "g28720.gov24-358000000151"
+      ],
+      "programNames": [
+        "참전유공자 사망위로금 지급 신청"
+      ],
+      "use": "main",
+      "checkedAt": "2026-10-18",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "evidenceUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=1898029",
+      "evidenceNote": "1호는 참전명예수당과 배우자수당 선택형이며 2호는 유가족 사망위로금 청구다. 제5조가 둘을 지정하고 세 사이트가 각 급여를 분리 제공하므로 해당 부분만 연결한다. 실제 원본 전체 본문, 출처 법규ID에 연결된 별지, 원본 SHA256 및 flSeq를 대조했다.",
+      "sha256": "a6d904c1530c5ce1a1de6c59a8d429edf52fbe2260416135d5a17b2aee6fbe59",
+      "bytes": 65536,
+      "originalFormat": "hwp",
+      "textScope": "all_body_sections_or_pages",
+      "originalTextScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "BodyText/Section0"
+      ],
+      "fullBodyReviewed": true,
+      "role": "application",
+      "roleBasis": "1호는 참전명예수당과 배우자수당 선택형이며 2호는 유가족 사망위로금 청구다. 제5조가 둘을 지정하고 세 사이트가 각 급여를 분리 제공하므로 해당 부분만 연결한다. 실제 원본 전체 본문, 출처 법규ID에 연결된 별지, 원본 SHA256 및 flSeq를 대조했다.",
+      "roleEvidenceUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=1898029",
+      "roleCheckedAt": "2026-10-18",
+      "bodyEvidenceArticle": "제5조",
+      "bodyEvidenceText": "제5조(수당의 지급신청)① 제4조제1호 및 제2호의 수당을 지급받고자 하는 사람은 다음 각 호의 지급 신청서를 군수에게 제출하여야 한다.<개정2023.12.27.>1. 참전유공자 명예수당 및 배우자 수당 : 별지 제1호 서식  <신설2023.12.27.>2. 참전유공자 사망위로금 : 별지 제2호 서식<신설2023.12.27.>② 제1항제2호의 사망위로금의 신청은 사망일로부터 1년 이내에 신청하여야 한다.<개정2023.12.27.>",
+      "reviewedParts": [
+        {
+          "number": "2",
+          "title": "참전유공자 사망위로금 지급신청서",
+          "use": "main",
+          "author": "사망 참전유공자의 유족"
+        }
+      ],
+      "condition": "별지 2호 참전유공자 사망위로금 신청서를 작성합니다.",
+      "displayTitle": "참전유공자 사망위로금 지급신청서"
+    },
+    {
+      "sourceKind": "ordin",
+      "lawTitle": "옹진군 농어촌민박 지원에 관한 조례 시행규칙",
+      "lawId": "1898393",
+      "annexId": "16776739",
+      "annexNumber": "000200",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=136437619&flNm=%EB%B3%84%EC%A7%80+%EC%A0%9C1%ED%98%B8%EC%84%9C%EC%8B%9D~%EC%A0%9C7%ED%98%B8%EC%84%9C%EC%8B%9D",
+      "dateKind": "effective",
+      "effectiveDate": "2023-12-29",
+      "regionCode": "28720",
+      "regionLabel": "인천광역시 옹진군",
+      "formId": "ordin-16776739",
+      "formTitle": "별지 제1호서식~제7호서식",
+      "sourceMetadataTitle": "별지 제1호서식~제7호서식",
+      "programIds": [
+        "g28720.gov24-358000000119"
+      ],
+      "programNames": [
+        "농어촌민박 시설 현대화 지원"
+      ],
+      "use": "conditional",
+      "checkedAt": "2026-10-18",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "evidenceUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=1898393",
+      "evidenceNote": "별지1~7 전체를 읽었다. 1호 민박 보조금 교부신청과 2호 금액·입금계좌 청구는 제7조의 사업자 제출서류다. 실제 사이트가 민박사업자의 소규모 개보수·위생안전 개선을 지원하므로 선정 사업자의 그 부분만 승인한다. 원본 신축·증축 유형과 정산·점검·운영실적·관리대장3~7호는 승인 신청 부분에서 제외한다. 실제 원본 전체 본문, 출처 법규ID에 연결된 별지, 원본 SHA256 및 flSeq를 대조했다.",
+      "sha256": "9d0afef99e0a6faa49dd6b99e340aae911cd75eb570174ef11c6b26fa7af1f89",
+      "bytes": 70656,
+      "originalFormat": "hwp",
+      "textScope": "all_body_sections_or_pages",
+      "originalTextScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "BodyText/Section0",
+        "BodyText/Section1",
+        "BodyText/Section2",
+        "BodyText/Section3"
+      ],
+      "fullBodyReviewed": true,
+      "role": "application",
+      "roleBasis": "별지1~7 전체를 읽었다. 1호 민박 보조금 교부신청과 2호 금액·입금계좌 청구는 제7조의 사업자 제출서류다. 실제 사이트가 민박사업자의 소규모 개보수·위생안전 개선을 지원하므로 선정 사업자의 그 부분만 승인한다. 원본 신축·증축 유형과 정산·점검·운영실적·관리대장3~7호는 승인 신청 부분에서 제외한다. 실제 원본 전체 본문, 출처 법규ID에 연결된 별지, 원본 SHA256 및 flSeq를 대조했다.",
+      "roleEvidenceUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=1898393",
+      "roleCheckedAt": "2026-10-18",
+      "bodyEvidenceArticle": "제7조",
+      "bodyEvidenceText": "제7조(보조금 신청) 보조금을 받고자 하는 사람은 다음 각 호의 서류를 군수에게 제출 하여야 한다.1. 옹진군 농어촌민박 지원사업 보조금 교부신청서(별지 제1호 서식)2. 청구서 및 입급계좌 신청서(별지 제2호 서식)",
+      "reviewedParts": [
+        {
+          "number": "1",
+          "title": "농어촌민박지원사업 보조금 교부신청서",
+          "use": "conditional",
+          "author": "선정된 농어촌민박 사업자"
+        },
+        {
+          "number": "2",
+          "title": "청구서 및 입금계좌 신청서",
+          "use": "additional",
+          "author": "선정된 농어촌민박 사업자"
+        }
+      ],
+      "condition": "민박시설 소규모 개보수·위생안전 개선 지원대상자로 선정된 사업자가 보조금 교부·청구를 신청할 때 별지 1·2호를 사용합니다. 신축·증축 사업용으로 안내하지 않습니다.",
+      "displayTitle": "농어촌민박지원사업 보조금 교부신청서 · 청구서 및 입금계좌 신청서"
+    },
+    {
+      "sourceKind": "ordin",
+      "lawTitle": "영동군 교통약자의 이동편의 증진에 관한 조례 시행규칙",
+      "lawId": "1898785",
+      "annexId": "20084261",
+      "annexNumber": "000200",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=152417745&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C1%ED%98%B8%EC%84%9C%EC%8B%9D%5D%ED%8A%B9%EB%B3%84%EA%B5%90%ED%86%B5%EC%88%98%EB%8B%A8%EB%93%B1+%EC%9D%B4%EC%9A%A9%EB%8C%80%EC%83%81%EC%9E%90+%EC%8B%AC%EC%82%AC%EC%8B%A0%EC%B2%AD%EC%84%9C",
+      "dateKind": "effective",
+      "effectiveDate": "2023-12-29",
+      "regionCode": "43740",
+      "regionLabel": "충청북도 영동군",
+      "formId": "ordin-20084261",
+      "formTitle": "[별지 제1호서식]특별교통수단등 이용대상자 심사신청서",
+      "sourceMetadataTitle": "[별지 제1호서식]특별교통수단등 이용대상자 심사신청서",
+      "programIds": [
+        "g43740.icare-0086-1489641-1-2-7"
+      ],
+      "programNames": [
+        "통합이동지원센터 운영"
+      ],
+      "use": "main",
+      "checkedAt": "2026-10-18",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "evidenceUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=1898785",
+      "evidenceNote": "특별교통수단등의 이용대상 심사신청과 서약·구비서류 전체를 읽었다. 후보 바우처택시는 특별교통수단 미등록자 대상이라 배제하고 영동 통합돌봄 목록의 통합이동지원센터 사업을 찾았다. 보건복지부 공식 2026 메뉴판 2쪽이 해당 센터의 장애인·노약자·임산부 교통수단과 관외 이용기준을 명시하여 이 원본의 센터 등록심사와 동일한 서비스를 확인했다. 공유 메뉴판 전체를 사업별 신청서로 간주한 것이 아니라 해당 행과 법정 별지를 대조했다. 실제 원본 전체 본문, 출처 법규ID에 연결된 별지, 원본 SHA256 및 flSeq를 대조했다.",
+      "sha256": "d8e6a906cae2ab5a86478c7fcf6444ed0918e3a28e60715e15bd5476e2f71c5b",
+      "bytes": 22016,
+      "originalFormat": "hwp",
+      "textScope": "all_body_sections_or_pages",
+      "originalTextScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "BodyText/Section0"
+      ],
+      "fullBodyReviewed": true,
+      "role": "application",
+      "roleBasis": "특별교통수단등의 이용대상 심사신청과 서약·구비서류 전체를 읽었다. 후보 바우처택시는 특별교통수단 미등록자 대상이라 배제하고 영동 통합돌봄 목록의 통합이동지원센터 사업을 찾았다. 보건복지부 공식 2026 메뉴판 2쪽이 해당 센터의 장애인·노약자·임산부 교통수단과 관외 이용기준을 명시하여 이 원본의 센터 등록심사와 동일한 서비스를 확인했다. 공유 메뉴판 전체를 사업별 신청서로 간주한 것이 아니라 해당 행과 법정 별지를 대조했다. 실제 원본 전체 본문, 출처 법규ID에 연결된 별지, 원본 SHA256 및 flSeq를 대조했다.",
+      "roleEvidenceUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=1898785",
+      "roleCheckedAt": "2026-10-18",
+      "bodyEvidenceArticle": "제3조",
+      "bodyEvidenceText": "제3조(특별교통수단등의 이용대상자 심사신청)① 조례 제6조에 따른 특별교통수단등의 이용대상자가 특별교통수단등을 이용하려면 미리 별지 제1호서식의 특별교통수단등 이용대상자 심사신청서를 센터장에게 제출하여 심사를 받아야 한다. <개정 2023.11.27.>② 센터장은 제1항에 따라 심사신청서를 접수한 경우에는 접수순서에 따라 별지 제2호서식의 특별교통수단등 이용대상자 심사처리부를 작성ㆍ비치하여야 한다. 이 경우 신청인에게 별지 제3호서식의 접수증을 교부한다. <개정 2023.11.27.>③ 심사신청은 본인이나 이용대상자의 법정대리인, 보호자 및 이용대상자를 보호하고 있는 사회복지시설의 장이 할 수 있다.④ 특별교통수단등 이용대상자로 등록한 사람이 주소지가 다른 지방자치단체의 이용대상자로 등록할 경우에는 지방자치단체 간에 정보 공유를 통해 심사 서류 등을 확인할 수 있으면 심사 서류 등의 제출을 생략할 수 있다. <신설 2023.11.27.>[제목개정 2023. 11. 27.]",
+      "reviewedParts": [
+        {
+          "number": "1",
+          "title": "[별지 제1호서식]특별교통수단등 이용대상자 심사신청서",
+          "use": "main",
+          "author": "이용대상자 본인·법정대리인·보호자 또는 보호시설장"
+        }
+      ],
+      "programEvidenceUrl": "https://www.mohw.go.kr/board.es?mid=a60612000000&bid=0086&act=view&list_no=1489641&tag=&nPage=1",
+      "additionalEvidence": {
+        "url": "https://www.mohw.go.kr/boardDownload.es?bid=0086&list_no=1489641&seq=1",
+        "sourcePageUrl": "https://www.mohw.go.kr/board.es?mid=a60612000000&bid=0086&act=view&list_no=1489641&tag=&nPage=1",
+        "httpStatus": 200,
+        "checkedAt": "2026-10-18",
+        "bytes": 89194,
+        "sha256": "9ae48948748a33bcfb0485b710272303d4ea5b71c1d0a6f5c52b8b61cedc052d",
+        "documentTitle": "영동군 통합돌봄 서비스 메뉴판(2026년 3월)",
+        "pages": 3,
+        "pagesRead": [
+          2
+        ],
+        "attachmentContextProgramSpecific": false,
+        "reviewedRelevantRow": true,
+        "textScope": "relevant_service_page",
+        "claim": "2쪽 공통·연계/기타사업 연계 '통합이동지원센터 운영': 장애인 및 노약자, 임산부 등 교통약자 교통수단 지원; 관외는 중증보행장애인만 이용; 제공기관 영동군청."
+      }
+    },
+    {
+      "sourceKind": "ordin",
+      "lawTitle": "영동군 교통약자의 이동편의 증진에 관한 조례 시행규칙",
+      "lawId": "1898785",
+      "annexId": "20084269",
+      "annexNumber": "000600",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=152417753&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C5%ED%98%B8%EC%84%9C%EC%8B%9D%5D%ED%8A%B9%EB%B3%84%EA%B5%90%ED%86%B5%EC%88%98%EB%8B%A8%EB%93%B1+%EC%9D%B4%EC%9A%A9%EC%8B%A0%EC%B2%AD%EC%84%9C",
+      "dateKind": "effective",
+      "effectiveDate": "2023-12-29",
+      "regionCode": "43740",
+      "regionLabel": "충청북도 영동군",
+      "formId": "ordin-20084269",
+      "formTitle": "[별지 제5호서식]특별교통수단등 이용신청서",
+      "sourceMetadataTitle": "[별지 제5호서식]특별교통수단등 이용신청서",
+      "programIds": [
+        "g43740.icare-0086-1489641-1-2-7"
+      ],
+      "programNames": [
+        "통합이동지원센터 운영"
+      ],
+      "use": "conditional",
+      "checkedAt": "2026-10-18",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "evidenceUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=1898785",
+      "evidenceNote": "이용 승인을 받은 사람이 즉시·예약·정기 운행시간과 승차지·목적지를 신청하는 별지5호다. 제7조 및 공식 통합돌봄 메뉴판의 영동 통합이동지원센터 서비스에 연결하며 택시비 카드지급 사업에는 연결하지 않는다. 실제 원본 전체 본문, 출처 법규ID에 연결된 별지, 원본 SHA256 및 flSeq를 대조했다.",
+      "sha256": "95a98939147af1297257d57f0e6437babb12ef8b5dc04b335b31f30c62952376",
+      "bytes": 14848,
+      "originalFormat": "hwp",
+      "textScope": "all_body_sections_or_pages",
+      "originalTextScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "BodyText/Section0"
+      ],
+      "fullBodyReviewed": true,
+      "role": "application",
+      "roleBasis": "이용 승인을 받은 사람이 즉시·예약·정기 운행시간과 승차지·목적지를 신청하는 별지5호다. 제7조 및 공식 통합돌봄 메뉴판의 영동 통합이동지원센터 서비스에 연결하며 택시비 카드지급 사업에는 연결하지 않는다. 실제 원본 전체 본문, 출처 법규ID에 연결된 별지, 원본 SHA256 및 flSeq를 대조했다.",
+      "roleEvidenceUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=1898785",
+      "roleCheckedAt": "2026-10-18",
+      "bodyEvidenceArticle": "제7조",
+      "bodyEvidenceText": "제7조(특별교통수단등의 이용신청)① 특별교통수단등의 이용신청 접수기간은 다음 각 호와 같다. <개정 2023.11.27.>1. 즉시이용 : 이용일 당일2. 예약이용 : 이용일 7일 전부터 1일 전까지3. 정기이용 : 이용기간을 1개월로 하며, 이용하고자 하는 해당 월의 전월 1일부터 10일까지② 제1항에 따른 이용신청은 본인이나 법정대리인, 보호자 또는 교통약자를 보조하는 사람이 할 수 있다.③ 서면이나 정보통신망을 이용하여 특별교통수단등의 이용을 신청하는 경우에는 별지 제5호서식의 특별교통수단등 이용신청서를 제출하여야 한다. <개정 2023.11.27.>④ 특별교통수단등의 이용신청자는 특정 차량이나 운전사를 지정하여 신청할 수 없다. <개정 2023.11.27.>⑤ 특별교통수단등의 이용자는 목적지에 도착한 후 별도의 이용신청 없이 차량을 다시 이용할 수 없다. <개정 2023.11.27.>⑥ 이용신청일 현재 요금 미납액이 있는 경우에는 이용신청을 할 수 없다.[제목개정 2023. 11. 27.]",
+      "reviewedParts": [
+        {
+          "number": "5",
+          "title": "[별지 제5호서식]특별교통수단등 이용신청서",
+          "use": "main",
+          "author": "승인된 이용자 또는 보호·보조 신청인"
+        }
+      ],
+      "condition": "통합이동지원센터의 이용대상자로 승인된 뒤 차량의 즉시·예약·정기 운행을 신청할 때 사용합니다.",
+      "programEvidenceUrl": "https://www.mohw.go.kr/board.es?mid=a60612000000&bid=0086&act=view&list_no=1489641&tag=&nPage=1",
+      "additionalEvidence": {
+        "url": "https://www.mohw.go.kr/boardDownload.es?bid=0086&list_no=1489641&seq=1",
+        "sourcePageUrl": "https://www.mohw.go.kr/board.es?mid=a60612000000&bid=0086&act=view&list_no=1489641&tag=&nPage=1",
+        "httpStatus": 200,
+        "checkedAt": "2026-10-18",
+        "bytes": 89194,
+        "sha256": "9ae48948748a33bcfb0485b710272303d4ea5b71c1d0a6f5c52b8b61cedc052d",
+        "documentTitle": "영동군 통합돌봄 서비스 메뉴판(2026년 3월)",
+        "pages": 3,
+        "pagesRead": [
+          2
+        ],
+        "attachmentContextProgramSpecific": false,
+        "reviewedRelevantRow": true,
+        "textScope": "relevant_service_page",
+        "claim": "2쪽 공통·연계/기타사업 연계 '통합이동지원센터 운영': 장애인 및 노약자, 임산부 등 교통약자 교통수단 지원; 관외는 중증보행장애인만 이용; 제공기관 영동군청."
+      }
+    },
+    {
+      "sourceKind": "ordin",
+      "lawTitle": "고령군 저소득주민 자녀장학금 지급 조례 시행규칙",
+      "lawId": "1901267",
+      "annexId": "20174585",
+      "annexNumber": "000100",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=152734449&flNm=%E3%80%90%EB%B3%84%EC%A7%80+%EC%A0%9C1%ED%98%B8%EC%84%9C%EC%8B%9D%E3%80%91+%EC%9E%A5+++%ED%95%99+++%EA%B8%88+++%EC%8B%A0+++%EC%B2%AD+++%EC%84%9C",
+      "dateKind": "effective",
+      "effectiveDate": "2023-12-31",
+      "regionCode": "47830",
+      "regionLabel": "경상북도 고령군",
+      "formId": "ordin-20174585",
+      "formTitle": "【별지 제1호서식】 장   학   금   신   청   서",
+      "sourceMetadataTitle": "【별지 제1호서식】 장   학   금   신   청   서",
+      "programIds": [
+        "g47830.gov24-520000000109"
+      ],
+      "programNames": [
+        "저소득 주민자녀 장학금 지원"
+      ],
+      "use": "main",
+      "checkedAt": "2026-10-18",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "evidenceUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=1901267",
+      "evidenceNote": "학생 또는 보호자가 학교·학년·신청인 관계를 적고 학교장 추천·성적을 제출하는 장학금 신청서다. 제5조 별지1호와 고령 저소득주민 자녀 장학금의 읍면 신청이 일치한다. 실제 원본 전체 본문, 출처 법규ID에 연결된 별지, 원본 SHA256 및 flSeq를 대조했다.",
+      "sha256": "9956516ce6cddbcdbf74752087a9cf963943d56efc92c0e037482f64b3d325ba",
+      "bytes": 24064,
+      "originalFormat": "hwp",
+      "textScope": "all_body_sections_or_pages",
+      "originalTextScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "BodyText/Section0"
+      ],
+      "fullBodyReviewed": true,
+      "role": "application",
+      "roleBasis": "학생 또는 보호자가 학교·학년·신청인 관계를 적고 학교장 추천·성적을 제출하는 장학금 신청서다. 제5조 별지1호와 고령 저소득주민 자녀 장학금의 읍면 신청이 일치한다. 실제 원본 전체 본문, 출처 법규ID에 연결된 별지, 원본 SHA256 및 flSeq를 대조했다.",
+      "roleEvidenceUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=1901267",
+      "roleCheckedAt": "2026-10-18",
+      "bodyEvidenceArticle": "제5조",
+      "bodyEvidenceText": "제5조(장학금의 신청) 장학금을 지급 받고자 하는 학생 또는 보호자(친권자·부양의무자를 포함한다. 이하 같다)는 별지 제1호서식에 의한 장학금 신청서를 학교장의 추천을 받아 다음 각 호의 서류를 첨부하여 거주지 읍면장에게 제출한다.1. 소속학교장 추천서 1부 “별지 제2호서식”2. 생활기록부 사본 1부3. 직전학기 성적증명서 또는 입학성적 증명서 1부",
+      "reviewedParts": [
+        {
+          "number": "1",
+          "title": "【별지 제1호서식】 장   학   금   신   청   서",
+          "use": "main",
+          "author": "학생 또는 보호자"
+        }
+      ]
+    },
+    {
+      "sourceKind": "ordin",
+      "lawTitle": "전북특별자치도 노인 성인용 보행기 지원 조례",
+      "lawId": "1901777",
+      "annexId": "20097067",
+      "annexNumber": "000100",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=152458467&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C1%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EB%85%B8%EC%9D%B8+%EB%B3%B4%ED%96%89%EA%B8%B0+%EC%A7%80%EC%9B%90+%EC%8B%A0%EC%B2%AD%EC%84%9C",
+      "dateKind": "effective",
+      "effectiveDate": "2024-01-18",
+      "regionCode": "52000",
+      "regionLabel": "전북특별자치도",
+      "formId": "ordin-20097067",
+      "formTitle": "[별지 제1호서식] 노인 보행기 지원 신청서",
+      "sourceMetadataTitle": "[별지 제1호서식] 노인 보행기 지원 신청서",
+      "programIds": [
+        "g52730.gov24-474100000031"
+      ],
+      "programNames": [
+        "거동불편노인 보행보조기 지원"
+      ],
+      "use": "main",
+      "checkedAt": "2026-10-18",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "evidenceUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=1901777",
+      "evidenceNote": "노인 신청인이 성인용 보행기 필요와 주소·활동정도를 적고 공무원이 건강·경제·기지원 상황을 확인하는 도 공통 신청서다. 제6조 및 이를 직접 인용한 무주 보행보조기 지원 사업과 일치한다. 원본의 옛 도 명칭은 같은 관할의 명칭 변경이며 보행기 신청 목적과 무관하다. 실제 원본 전체 본문, 출처 법규ID에 연결된 별지, 원본 SHA256 및 flSeq를 대조했다.",
+      "sha256": "34c50f885fc695ffb0e3a16ff82a3e4f67de0681e0e10a8899ec33035e2f15b6",
+      "bytes": 41984,
+      "originalFormat": "hwp",
+      "textScope": "all_body_sections_or_pages",
+      "originalTextScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "BodyText/Section0"
+      ],
+      "fullBodyReviewed": true,
+      "role": "application",
+      "roleBasis": "노인 신청인이 성인용 보행기 필요와 주소·활동정도를 적고 공무원이 건강·경제·기지원 상황을 확인하는 도 공통 신청서다. 제6조 및 이를 직접 인용한 무주 보행보조기 지원 사업과 일치한다. 원본의 옛 도 명칭은 같은 관할의 명칭 변경이며 보행기 신청 목적과 무관하다. 실제 원본 전체 본문, 출처 법규ID에 연결된 별지, 원본 SHA256 및 flSeq를 대조했다.",
+      "roleEvidenceUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=1901777",
+      "roleCheckedAt": "2026-10-18",
+      "bodyEvidenceArticle": "제6조",
+      "bodyEvidenceText": "제6조(대상자 신청·선정)① 성인용 보행기 지원을 받고자 하는 노인은 별지 제1호 서식에 따라 주소지 읍·면·동 및 시장·군수에게 신청서를 제출하여야 한다.② 시장·군수는 신청자의 건강상태, 활동정도, 소득 및 생활정도, 지원여부 등 선정기준에 의하여 선정하여야 한다.",
+      "reviewedParts": [
+        {
+          "number": "1",
+          "title": "[별지 제1호서식] 노인 보행기 지원 신청서",
+          "use": "main",
+          "author": "성인용 보행기 지원 신청 노인 또는 대리신청인"
+        }
+      ],
+      "condition": "장기요양 등급외 판정자료를 첨부하는 보행기 신청 경로에 사용하며 건강·경제·기지원 확인란은 담당자가 작성합니다.",
+      "scopeBasis": "provincial-law-reference"
+    }
+  ],
+  "sourceReview": {
+    "file": "logs/forms-completion/reviews/team3-batch-024-reviewed.json",
+    "sha256": "18e96fe53c0d47c804c8938fda743fe7d3795a88a3486931737587980c07979f",
+    "dispositionsSHA256": "5ba97fca9c4031107ed9dfa1d93585011c696d64736e5d6e67cb2503f95b8bd3",
+    "assignmentSHA256": "2ef7b720ab203c6d094c0eda35f0c2ce1e895aec0751843a663913f81c8837c6"
+  }
+}

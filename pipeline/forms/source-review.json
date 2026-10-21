@@ -1,0 +1,294 @@
+{
+  "schema": 1,
+  "checkedAt": "2026-10-16",
+  "scope": "Goyang citizen application form source audit only; no eligibility rule changes",
+  "verificationMethod": "Matched public program details, official law article and annex/download IDs; inspected supplied HWP PrvText for purpose (not full visual rendering). Public law body retrieved at ordinInfoR.do corresponding to each ordinInfoP.do URL.",
+  "rows": [
+    {
+      "programIds": [
+        "g41280.gov24-394000000111"
+      ],
+      "formId": "ordin-19969911",
+      "use": "main",
+      "evidenceUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=1811969",
+      "evidenceNote": "제6조제1항이 장수축하금 신청에 별지 제1호서식을 지정한다. 법령 본문의 첨부 annexId 및 flSeq가 원본 목록과 일치하며 HWP 미리보기에서도 제6조에 따른 신청서와 하단 위임장을 확인했다. 기존 사업은 복지로 WLF00002810을 병합한 동일 급여이다.",
+      "checkedAt": "2026-10-16",
+      "lawTitle": "고양시 장수축하금 지급에 관한 조례",
+      "lawId": "1811969",
+      "annexId": "19969911",
+      "formTitle": "[별지 제1호서식] 고양시 장수축하금 지급 신청서",
+      "sourceDownloadUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=152179785",
+      "verificationStatus": "verified",
+      "proxyEvidenceNote": "제6조제2~4항: 부득이한 사유로 본인이 신청할 수 없을 때 위임받은 민법 제777조 친족 또는 사회복지전담공무원 등 관계 공무원이 신청할 수 있으며, 신청서 하단 위임장 및 대리인 신분 확인이 필요하다. 무조건적인 가족 대리신청으로 일반화하지 않는다.",
+      "officialAttachmentMatched": true,
+      "programNames": [
+        "고양시 장수축하금 지원"
+      ]
+    },
+    {
+      "programIds": [
+        "g41280.gov24-394000000123",
+        "g41280.bokjiro-WLF00001419"
+      ],
+      "formId": "ordin-19970369",
+      "use": "main",
+      "evidenceUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=1945121",
+      "evidenceNote": "제5조제1항이 효도수당 신청자에게 별지 제1호서식 제출을 정한다. 제2호 지급대상자 명부는 제5조제2항상 동장이 확인하여 시장에게 제출하는 행정용 서식이므로 연결하지 않는다. 원본은 지급/중지 겸용이며 신규 신청에는 지급 항목을 사용한다.",
+      "checkedAt": "2026-10-16",
+      "lawTitle": "고양시 효 가정 지원에 관한 조례",
+      "lawId": "1945121",
+      "annexId": "19970369",
+      "formTitle": "[별지 제1호서식] 효도수당 지급(중지)신청서",
+      "sourceDownloadUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=152180247",
+      "verificationStatus": "verified",
+      "corroborationUrls": [
+        "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00001419"
+      ],
+      "officialAttachmentMatched": true,
+      "programNames": [
+        "효 가정 효도수당",
+        "효 가정 지원"
+      ]
+    },
+    {
+      "programIds": [
+        "g41280.bokjiro-WLF00002526"
+      ],
+      "formId": "ordin-21153821",
+      "use": "main",
+      "evidenceUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=1935291",
+      "evidenceNote": "제9조제1항이 보훈명예수당에 별지 제1호서식을 지정한다. 기존 사업 documents에도 같은 별지 제1호 HWP가 명시되어 있고, 실제 HWP도 보훈명예수당 지급신청서다.",
+      "checkedAt": "2026-10-16",
+      "lawTitle": "고양시 국가보훈대상자 등의 예우 및 지원에 관한 조례",
+      "lawId": "1935291",
+      "annexId": "21153821",
+      "formTitle": "[별지 제1호서식] 보훈명예수당 지급신청서",
+      "sourceDownloadUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=158798947",
+      "verificationStatus": "verified",
+      "corroborationUrls": [
+        "https://www.goyang.go.kr/ilsegu/user/bbs/BD_selectBbs.do?q_bbsCode=1030&q_bbscttSn=20260511160958736"
+      ],
+      "proxyEvidenceNote": "제9조제2항은 본인이 부득이한 사유로 신청할 수 없을 경우 배우자, 부양의무자 등이 신청할 수 있다고 정한다. 단순히 부모 모드라는 이유만으로 대리가 가능하다고 표시하지 않는다.",
+      "officialAttachmentMatched": true,
+      "programNames": [
+        "보훈명예수당"
+      ]
+    },
+    {
+      "programIds": [
+        "g41280.bokjiro-WLF00000971"
+      ],
+      "formId": "ordin-21153823",
+      "use": "main",
+      "evidenceUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=1935291",
+      "evidenceNote": "제9조제1항이 사망위로금에 별지 제2호서식을 별도로 지정한다. 기존 사업 documents와 실제 HWP도 사망위로금 지급신청서이며, 사망자와 신청인의 관계 및 계좌를 기재한다. 수당 제1호서식이나 지급대장 제3호를 대신 연결하지 않는다.",
+      "checkedAt": "2026-10-16",
+      "lawTitle": "고양시 국가보훈대상자 등의 예우 및 지원에 관한 조례",
+      "lawId": "1935291",
+      "annexId": "21153823",
+      "formTitle": "[별지 제2호서식] 사망위로금 지급신청서",
+      "sourceDownloadUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=158798949",
+      "verificationStatus": "verified",
+      "corroborationUrls": [
+        "https://www.goyang.go.kr/ilsegu/user/bbs/BD_selectBbs.do?q_bbsCode=1030&q_bbscttSn=20260511160958736"
+      ],
+      "officialAttachmentMatched": true,
+      "programNames": [
+        "보훈대상자 사망위로금"
+      ]
+    },
+    {
+      "programIds": [
+        "g41280.gov24-394000000102",
+        "g41280.bokjiro-WLF00001395"
+      ],
+      "formId": "ordin-19969095",
+      "use": "main",
+      "evidenceUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=1544239",
+      "evidenceNote": "제5조제1항이 장애인 본인의 수리비 지원 신청에 별지 제3호서식을 지정한다. 두 사업의 지원내용·신청처·근거 조례가 일치한다. 제1호는 업체 지정 신청, 제4호는 동장이 업체에 보내는 수리 의뢰, 제5·6호는 업체 정산 서식이다.",
+      "checkedAt": "2026-10-16",
+      "lawTitle": "고양시 장애인 이동용 보장구 수리 지원 조례",
+      "lawId": "1544239",
+      "annexId": "19969095",
+      "formTitle": "[별지 제3호서식] 장애인 이동용 보장구 수리 신청서",
+      "sourceDownloadUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=152178995",
+      "verificationStatus": "verified",
+      "corroborationUrls": [
+        "https://www.goyang.go.kr/ilsegu/user/bbs/BD_selectBbs.do?q_bbsCode=1080&q_bbscttSn=20210210095918988&q_clCode=13&q_pClCode=",
+        "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00001395"
+      ],
+      "proxyEvidenceNote": "제5조제1항 단서는 긴급출동 수리 시 장애인이 지정수리업체를 통해 신청서와 위임장을 동장에게 제출할 수 있다는 내용이다. 일반 가족 대리신청 허용 근거로 확대하지 않는다.",
+      "officialAttachmentMatched": true,
+      "programNames": [
+        "장애인 이동용 보장구 수리비 지원",
+        "고양시 장애인 이동용 보장구 수리 지원"
+      ]
+    },
+    {
+      "programIds": [
+        "g41280.icare-0085-1489590-1-4-8"
+      ],
+      "formId": "ordin-19969479",
+      "use": "main",
+      "evidenceUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=1674335",
+      "evidenceNote": "제6조제1항이 생활복지서비스 신청에 별지 제1호서식을 요구하며, 제2~4항에서 그 신청을 생활복지119 전담반이 처리한다고 직접 연결한다. 기존 생활복지119 사업은 지역자활센터의 소규모 생활 수리 서비스이고 실제 HWP도 집수리·청소·방역 신청서다.",
+      "checkedAt": "2026-10-16",
+      "lawTitle": "고양시 생활복지서비스 제공에 관한 조례",
+      "lawId": "1674335",
+      "annexId": "19969479",
+      "formTitle": "[별지 제1호서식] 생활복지서비스 신청서",
+      "sourceDownloadUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=152179351",
+      "verificationStatus": "verified",
+      "corroborationUrls": [
+        "https://housing.gg.go.kr/contents/115/view"
+      ],
+      "proxyEvidenceNote": "실제 법정 신청서에 대리인 성명·관계·전화번호란이 있지만 대리 가능 관계와 요건을 조문에서 별도로 확인하지 못했으므로 부모 대리 가능을 무조건 표시하지 않는다.",
+      "officialAttachmentMatched": true,
+      "programNames": [
+        "생활복지119"
+      ]
+    },
+    {
+      "programIds": [
+        "g41280.bokjiro-WLF00004191"
+      ],
+      "formId": "ordin-19969355",
+      "use": "main",
+      "evidenceUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=1631295",
+      "evidenceNote": "제5조제2항이 한시적 양육비 지원 신청에 별지 제1호서식을 지정한다. HWP에는 양육비 미지급 사유, 신청인/자녀 계좌, 신청자의 자녀 및 제출서류가 있다. 시청의 현재 안내도 신청서와 개인정보 수집·이용동의서를 요구한다.",
+      "checkedAt": "2026-10-16",
+      "lawTitle": "고양시 한시적 양육비 지원에 관한 조례",
+      "lawId": "1631295",
+      "annexId": "19969355",
+      "formTitle": "[별지 제1호서식] 한시적 양육비 지원 신청서",
+      "sourceDownloadUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=152179177",
+      "verificationStatus": "verified",
+      "corroborationUrls": [
+        "https://www.goyang.go.kr/www/www03/www03_8/www03_8_6/www03_8_6_tab1.jsp"
+      ],
+      "officialAttachmentMatched": true,
+      "programNames": [
+        "고양시 한시적 양육비 지원"
+      ]
+    },
+    {
+      "programIds": [
+        "g41280.bokjiro-WLF00004191"
+      ],
+      "formId": "ordin-19969357",
+      "use": "additional",
+      "evidenceUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=1631295",
+      "evidenceNote": "실제 법령 첨부 목록과 HWP 내용이 개인정보 수집·이용 및 제3자 제공 동의서임을 확인했다. 제1호 신청서의 제출서류에도 이 동의서가 명시되어 있고 시청 현재 안내가 동의서를 포함한 신청서를 요구하므로 부속서류로 연결한다. 조례 제6조제2항은 제2호를 지급대장으로 부르는 불일치가 있어 해당 조항만을 근거로 삼지 않았다.",
+      "checkedAt": "2026-10-16",
+      "lawTitle": "고양시 한시적 양육비 지원에 관한 조례",
+      "lawId": "1631295",
+      "annexId": "19969357",
+      "formTitle": "[별지 제2호서식] 고양시 한시적 양육비 지원을 위한 개인정보 수집ㆍ이용 및 제3자 제공 동의서",
+      "sourceDownloadUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=152179299",
+      "verificationStatus": "verified",
+      "corroborationUrls": [
+        "https://www.goyang.go.kr/www/www03/www03_8/www03_8_6/www03_8_6_tab1.jsp"
+      ],
+      "officialAttachmentMatched": true,
+      "programNames": [
+        "고양시 한시적 양육비 지원"
+      ]
+    },
+    {
+      "programIds": [
+        "g41280.gov24-394000000138"
+      ],
+      "formId": "ordin-21273729",
+      "use": "main",
+      "evidenceUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=2100501",
+      "evidenceNote": "현행 2025.12.30. 시행 조례 제7조제1항제1호가 매 신청 시 별지 제1호 신청서 제출을 정한다. 기존 정부24 사업은 복지로 WLF00004691이 병합되어 있고 근거 조례와 신청서·서약서·동의서 목록이 일치한다.",
+      "checkedAt": "2026-10-16",
+      "lawTitle": "고양시 출산가구 전월세자금 대출이자 지원 조례",
+      "lawId": "2100501",
+      "annexId": "21273729",
+      "formTitle": "[별지 제1호서식] 출산가구 전월세자금 대출이자 지원 신청서",
+      "sourceDownloadUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=160170323",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "programNames": [
+        "고양시 출산가구 전월세자금 대출이자 지원"
+      ]
+    },
+    {
+      "programIds": [
+        "g41280.gov24-394000000138"
+      ],
+      "formId": "ordin-21273731",
+      "use": "additional",
+      "evidenceUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=2100501",
+      "evidenceNote": "현행 조례 제7조제1항제2호가 매 신청 시 별지 제2호 서약서 및 동의서 제출을 정한다. 실제 HWP도 신청자격 서약과 개인정보 동의서이며 지급대장/환수대장과 구별된다.",
+      "checkedAt": "2026-10-16",
+      "lawTitle": "고양시 출산가구 전월세자금 대출이자 지원 조례",
+      "lawId": "2100501",
+      "annexId": "21273731",
+      "formTitle": "[별지 제2호서식] 출산가구 전월세자금 대출이자 지원 신청 서약서 및 동의서",
+      "sourceDownloadUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=160170325",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "programNames": [
+        "고양시 출산가구 전월세자금 대출이자 지원"
+      ]
+    },
+    {
+      "programIds": [
+        "g41280.bokjiro-WLF00002809"
+      ],
+      "formId": "ordin-19970267",
+      "use": "main",
+      "evidenceUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=1901495",
+      "evidenceNote": "제6조제1항이 교복구입비 지원신청서 제출을 지정하고 제4조는 대안교육기관 등 중·고교 1학년 과정을 포함한다. 기존 사업의 근거는 동일한 제2784호 조례이고 실제 HWP에는 학생 및 학부모/보호자 신청인란이 있다.",
+      "checkedAt": "2026-10-16",
+      "lawTitle": "고양시 교복 지원 조례",
+      "lawId": "1901495",
+      "annexId": "19970267",
+      "formTitle": "[별지 서식] 교복구입비 지원신청서",
+      "sourceDownloadUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=152180103",
+      "verificationStatus": "verified",
+      "corroborationUrls": [
+        "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00002809"
+      ],
+      "proxyEvidenceNote": "원본 신청서가 신청인을 학부모 또는 보호자로 명시한다. 이는 미성년 학생 교복 신청용 근거이며 성인 부모 대리신청 기능에 일반화하지 않는다.",
+      "officialAttachmentMatched": true,
+      "programNames": [
+        "대안교육기관 및 경기도 외 중고등학교 신입생 교복구입비 지원"
+      ]
+    }
+  ],
+  "unresolved": [
+    {
+      "formIds": [
+        "ordin-20872019"
+      ],
+      "status": "review",
+      "benefit": "아동급식",
+      "lawId": "1745445",
+      "evidenceUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=1745445",
+      "reason": "제5조제2~4항 및 시청 결식아동급식 안내에서 시민 신청서와 보호자 등의 신청을 확인했으나, 현재 details 전체에서 이 고양시 사업에 대응하는 프로그램 ID를 찾지 못했다. 고양시청소년재단 학교 밖 청소년 급식비 지원(g41280.gov24-O00046500015)은 별도 서비스이므로 연결하지 않는다.",
+      "corroborationUrl": "https://www.goyang.go.kr/www/www03/www03_8/www03_8_4/www03_8_4_tab4.jsp"
+    },
+    {
+      "formIds": [
+        "ordin-19996047",
+        "ordin-19996049"
+      ],
+      "status": "review",
+      "benefit": "고양시 노동취약계층 유급병가",
+      "evidenceUrl": "https://www.goyang.go.kr/www/user/bbs/BD_selectBbs.do?q_bbsCode=1030&q_bbscttSn=20260210142731993",
+      "reason": "2026년 별도 신청 서류 꾸러미가 공고되어 있으므로 기존 조례 신청서·위임장은 현행 공고 서류와 동일하거나 유효함이 추가 입증되기 전 공개 연결하지 않는다."
+    }
+  ],
+  "exclusions": [
+    "Payment registers, refund ledgers, result reports, operator designation/application and operator repair fee claims are not citizen application forms.",
+    "Do not infer general parent proxy permission from parent mode or source name matches."
+  ],
+  "counts": {
+    "benefits": 9,
+    "formRows": 11,
+    "programIds": 11
+  }
+}

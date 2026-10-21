@@ -1,0 +1,319 @@
+{
+  "schema": 1,
+  "checkedAt": "2026-10-19",
+  "rows": [
+    {
+      "sourceKind": "rule",
+      "lawId": "2100000278060",
+      "lawTitle": "사회보장급여 관련 공통서식에 관한 고시",
+      "lawUrl": "https://www.law.go.kr/LSW/admRulInfoP.do?admRulSeq=2100000278060",
+      "annexId": "3211495",
+      "annexNumber": "000100",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?flSeq=163660105&bylClsCd=200203",
+      "officialPdfUrl": "https://www.law.go.kr/LSW/flDownload.do?flSeq=163660115&bylClsCd=200203",
+      "regionCode": "national",
+      "regionLabel": "전국 공통",
+      "effectiveDate": "2026-05-01",
+      "dateKind": "effective",
+      "role": "application",
+      "formId": "rule-3211495",
+      "formTitle": "사회보장급여 신청(변경)서",
+      "sourceMetadataTitle": "사회보장급여 신청(변경)서",
+      "use": "main",
+      "condition": "경기도 한부모가족 아동양육비의 신규 신청·조사에 사용하는 공통 신청서입니다.1쪽 인적·가족·계좌 사항,2쪽 한부모가족 지원 항목과 해당 동의·서명을 작성합니다. 이 신청 후 소득·재산조사 결과에 따라 국비 및 경기도 사업 대상 여부가 결정되며, 다른 급여 항목을 모두 신청해야 하는 것은 아닙니다.",
+      "applicant": "신청 가구원 또는 지침이 허용하는 대리신청인",
+      "programIds": [
+        "s41000.bokjiro-WLF00005606"
+      ],
+      "programNames": [
+        "한부모가족 아동양육비 지원"
+      ],
+      "evidenceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00005606&wlfareInfoReldBztpCd=02",
+      "programEvidenceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00005606&wlfareInfoReldBztpCd=02",
+      "evidenceNote": "정확한 현재 사업페이지 WLF00005606가 배포하는2026 지침 전체2섹션을 읽었고,Ⅲ장(목차상10쪽 시작) 구비서류와Ⅱ신규신청 작성서식이 사회보장급여 신청(변경)서를 직접 지정한다. 현행고시2100000278060 제2조·별표키000100의 실제 다운로드를 다시GET하여 기존published원본과SHA·바이트가 같음을 확인하고 전체본문을 판독했다. 신청인·가족·급여계좌와 한부모가족 지원 선택란 및 동의·서명의 작성목적을 해당도비사업 신규조사 절차와 대조했다.",
+      "checkedAt": "2026-10-19",
+      "scopeBasis": "official-application-reference",
+      "scopeReference": {
+        "kind": "program-documents",
+        "referencedLawTitle": "사회보장급여 관련 공통서식에 관한 고시",
+        "annexNumber": "000100",
+        "evidenceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00005606&wlfareInfoReldBztpCd=02",
+        "basis": "경기도 도비 한부모아동양육비의2026 운영지침Ⅲ구비서류와Ⅱ신규신청은 사회보장급여 신청(변경)서를 정확히 지정한다. 국비 신청서류를 통해 조사한 후 도비대상으로 통보하는 절차를 실제 읽었으며 현재공통고시의동일별지000100 원본을 이 정확한 사업의 해당목적에만 연결한다."
+      },
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "publicationApproved": false,
+      "requiresCoordinatorReview": true,
+      "decision": "propose_approval",
+      "sha256": "05a5fb88ab3199783d66d5fc77af32f425c07ba34552203d9ca4a2546e3bc1be",
+      "bytes": 43486,
+      "originalFormat": "hwpx",
+      "originalPath": "logs/forms-completion/gyeonggi-20261019/team3/rule-3211495-reget.hwpx",
+      "textEvidencePath": "logs/forms-completion/gyeonggi-20261019/team3/rule-3211495-reget.json",
+      "textScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "Contents/section0.xml"
+      ],
+      "fullBodyReviewed": true,
+      "textLength": 9534,
+      "bodyTextSha256": "6bc5c3038ec616fec93c03ea2472bbab4982bc43f4b0cb0715469a2cf5f7f0e5",
+      "roleBasis": "현행고시 제2조가 별지 제1호서식의 사회보장급여 신청(변경)서 용도를 정하며 실제 전체원본의 신청인·가족·급여계좌와 한부모가족 지원 선택란 및 동의·서명를 확인했다.",
+      "roleEvidenceUrl": "https://www.law.go.kr/LSW/admRulInfoP.do?admRulSeq=2100000278060",
+      "roleCheckedAt": "2026-10-19",
+      "reviewedParts": [
+        {
+          "number": "별지 제1호서식",
+          "title": "사회보장급여 신청(변경)서",
+          "use": "main",
+          "author": "신청 가구원 또는 지침이 허용하는 대리신청인"
+        }
+      ],
+      "selectedParts": [
+        {
+          "number": "별지 제1호서식",
+          "title": "신청인·가족·급여계좌와 한부모가족 지원 선택란 및 동의·서명",
+          "use": "main",
+          "author": "신청 가구원 또는 지침이 허용하는 대리신청인"
+        }
+      ],
+      "excludedParts": [
+        "이 사업과 무관한 다른 급여 신청 선택항목",
+        "2026 운영지침 자체를 최초신청서로 등록하는 행위"
+      ],
+      "programPageRecord": "logs/forms-completion/gyeonggi-20261019/current-pages/WLF00005606.json",
+      "programPageSHA256": "326b05cb90af71b17efd0f8caf7bb8064d4740baf4b8cdae4d199dbdc1098517",
+      "applicationReferenceRecord": "logs/forms-completion/gyeonggi-20261019/team3/single-parent-common-application-reference.json",
+      "currentRuleAuditRecord": "logs/forms-completion/gyeonggi-20261019/current-common-rule-audit.json",
+      "currentRuleBodyRecord": "logs/forms-completion/gyeonggi-20261019/current-rule-body.json",
+      "currentAnnexNode": {
+        "별표가지번호": "00",
+        "별표구분": "별지",
+        "별표번호": "0001",
+        "별표서식PDF파일링크": "/LSW/flDownload.do?flSeq=163660115",
+        "별표서식파일링크": "/LSW/flDownload.do?flSeq=163660105",
+        "별표제목": "사회보장급여 신청(변경)서",
+        "별표키": "000100"
+      },
+      "originalRegetHttpStatus": 200,
+      "originalRegetSHA256": "05a5fb88ab3199783d66d5fc77af32f425c07ba34552203d9ca4a2546e3bc1be",
+      "reviewedBy": "/root/national_form_audit",
+      "externalModelReviewReused": false,
+      "originalAlreadyPublished": true,
+      "sourceIssues": [
+        "제도명이 비슷하다는 추정이 아니라 해당 경기도 사업의 공식2026 지침이 세 공통서식을 지정하는 경로이다. 실제지침상 최초신청·조사와 선정후별도4·5동의절차를 구별한다."
+      ],
+      "printedAmendmentDate": "2026-05-01"
+    },
+    {
+      "sourceKind": "rule",
+      "lawId": "2100000278060",
+      "lawTitle": "사회보장급여 관련 공통서식에 관한 고시",
+      "lawUrl": "https://www.law.go.kr/LSW/admRulInfoP.do?admRulSeq=2100000278060",
+      "annexId": "3211497",
+      "annexNumber": "000102",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?flSeq=163660117&bylClsCd=200203",
+      "officialPdfUrl": "https://www.law.go.kr/LSW/flDownload.do?flSeq=163660121&bylClsCd=200203",
+      "regionCode": "national",
+      "regionLabel": "전국 공통",
+      "effectiveDate": "2026-05-01",
+      "dateKind": "effective",
+      "role": "supporting",
+      "formId": "rule-3211497",
+      "formTitle": "소득ㆍ재산 신고서 (신규, 변경)",
+      "sourceMetadataTitle": "소득ㆍ재산 신고서 (신규, 변경)",
+      "use": "additional",
+      "condition": "경기도 한부모가족 아동양육비 신규 신청 시 공통 신청서와 함께 준비하는 소득·재산 신고서입니다. 실제 조사 대상 가구원의 해당 사항을 기재하며, 기초생활보장 등 다른 사업에만 적용되는 항목까지 일률적으로 작성하는 것은 아닙니다.",
+      "applicant": "신청인 또는 허용된 대리신청인",
+      "programIds": [
+        "s41000.bokjiro-WLF00005606"
+      ],
+      "programNames": [
+        "한부모가족 아동양육비 지원"
+      ],
+      "evidenceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00005606&wlfareInfoReldBztpCd=02",
+      "programEvidenceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00005606&wlfareInfoReldBztpCd=02",
+      "evidenceNote": "정확한 현재 사업페이지 WLF00005606가 배포하는2026 지침 전체2섹션을 읽었고,Ⅲ장(목차상10쪽 시작) 구비서류와Ⅱ신규신청 작성서식이 소득ㆍ재산 신고서 (신규, 변경)를 직접 지정한다. 현행고시2100000278060 제3조·별표키000102의 실제 다운로드를 다시GET하여 기존published원본과SHA·바이트가 같음을 확인하고 전체본문을 판독했다. 지원 가구원의 소득·재산·부채 및 신청인 서명의 작성목적을 해당도비사업 신규조사 절차와 대조했다.",
+      "checkedAt": "2026-10-19",
+      "scopeBasis": "official-application-reference",
+      "scopeReference": {
+        "kind": "program-documents",
+        "referencedLawTitle": "사회보장급여 관련 공통서식에 관한 고시",
+        "annexNumber": "000102",
+        "evidenceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00005606&wlfareInfoReldBztpCd=02",
+        "basis": "경기도 도비 한부모아동양육비의2026 운영지침Ⅲ구비서류와Ⅱ신규신청은 소득ㆍ재산 신고서 (신규, 변경)를 정확히 지정한다. 국비 신청서류를 통해 조사한 후 도비대상으로 통보하는 절차를 실제 읽었으며 현재공통고시의동일별지000102 원본을 이 정확한 사업의 해당목적에만 연결한다."
+      },
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "publicationApproved": false,
+      "requiresCoordinatorReview": true,
+      "decision": "propose_approval",
+      "sha256": "7513ffe59cde5fb55e1aec33067d727c9fa5c81154761325f8dee63fb3caf824",
+      "bytes": 17150,
+      "originalFormat": "hwpx",
+      "originalPath": "logs/forms-completion/gyeonggi-20261019/team3/rule-3211497-reget.hwpx",
+      "textEvidencePath": "logs/forms-completion/gyeonggi-20261019/team3/rule-3211497-reget.json",
+      "textScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "Contents/section0.xml"
+      ],
+      "fullBodyReviewed": true,
+      "textLength": 1706,
+      "bodyTextSha256": "ca1760973cea4ce722dfbfafad446a988251fc8709b8d55eedfd5b0510a96342",
+      "roleBasis": "현행고시 제3조가 별지 제1호의2서식의 소득ㆍ재산 신고서 (신규, 변경) 용도를 정하며 실제 전체원본의 지원 가구원의 소득·재산·부채 및 신청인 서명를 확인했다.",
+      "roleEvidenceUrl": "https://www.law.go.kr/LSW/admRulInfoP.do?admRulSeq=2100000278060",
+      "roleCheckedAt": "2026-10-19",
+      "reviewedParts": [
+        {
+          "number": "별지 제1호의2서식",
+          "title": "소득ㆍ재산 신고서 (신규, 변경)",
+          "use": "additional",
+          "author": "신청인 또는 허용된 대리신청인"
+        }
+      ],
+      "selectedParts": [
+        {
+          "number": "별지 제1호의2서식",
+          "title": "지원 가구원의 소득·재산·부채 및 신청인 서명",
+          "use": "additional",
+          "author": "신청인 또는 허용된 대리신청인"
+        }
+      ],
+      "excludedParts": [
+        "이 사업과 무관한 다른 급여 신청 선택항목",
+        "2026 운영지침 자체를 최초신청서로 등록하는 행위"
+      ],
+      "programPageRecord": "logs/forms-completion/gyeonggi-20261019/current-pages/WLF00005606.json",
+      "programPageSHA256": "326b05cb90af71b17efd0f8caf7bb8064d4740baf4b8cdae4d199dbdc1098517",
+      "applicationReferenceRecord": "logs/forms-completion/gyeonggi-20261019/team3/single-parent-common-application-reference.json",
+      "currentRuleAuditRecord": "logs/forms-completion/gyeonggi-20261019/current-common-rule-audit.json",
+      "currentRuleBodyRecord": "logs/forms-completion/gyeonggi-20261019/current-rule-body.json",
+      "currentAnnexNode": {
+        "별표가지번호": "02",
+        "별표구분": "별지",
+        "별표번호": "0001",
+        "별표서식PDF파일링크": "/LSW/flDownload.do?flSeq=163660121",
+        "별표서식파일링크": "/LSW/flDownload.do?flSeq=163660117",
+        "별표제목": "소득ㆍ재산 신고서 (신규, 변경)",
+        "별표키": "000102"
+      },
+      "originalRegetHttpStatus": 200,
+      "originalRegetSHA256": "7513ffe59cde5fb55e1aec33067d727c9fa5c81154761325f8dee63fb3caf824",
+      "reviewedBy": "/root/national_form_audit",
+      "externalModelReviewReused": false,
+      "originalAlreadyPublished": true,
+      "sourceIssues": [
+        "제도명이 비슷하다는 추정이 아니라 해당 경기도 사업의 공식2026 지침이 세 공통서식을 지정하는 경로이다. 실제지침상 최초신청·조사와 선정후별도4·5동의절차를 구별한다.",
+        "서식 인쇄개정일2021.7.1은현재고시별표000102에남아있는날짜이며 현재API flSeq163660117 및재다운로드SHA로현행첨부를확인했다."
+      ],
+      "printedAmendmentDate": "2021-07-01"
+    },
+    {
+      "sourceKind": "rule",
+      "lawId": "2100000278060",
+      "lawTitle": "사회보장급여 관련 공통서식에 관한 고시",
+      "lawUrl": "https://www.law.go.kr/LSW/admRulInfoP.do?admRulSeq=2100000278060",
+      "annexId": "3211499",
+      "annexNumber": "000103",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?flSeq=163660123&bylClsCd=200203",
+      "officialPdfUrl": "https://www.law.go.kr/LSW/flDownload.do?flSeq=163660129&bylClsCd=200203",
+      "regionCode": "national",
+      "regionLabel": "전국 공통",
+      "effectiveDate": "2026-05-01",
+      "dateKind": "effective",
+      "role": "consent",
+      "formId": "rule-3211499",
+      "formTitle": "금융정보 등(금융ㆍ신용ㆍ보험정보) 제공 동의서",
+      "sourceMetadataTitle": "금융정보 등(금융ㆍ신용ㆍ보험정보) 제공 동의서",
+      "use": "additional",
+      "condition": "경기도 한부모가족 아동양육비의 신규 소득·재산조사에 필요한 금융정보 등 제공 동의서입니다. 조사 대상 가구원의 동의·서명 범위는 담당자 안내와 서식 유의사항을 따릅니다. 개인별 정보제공 사실 통보 여부 동의란은 금융정보 제공 동의와 구별됩니다.",
+      "applicant": "금융정보 제공 동의 대상자(미성년자는 서식이 정한 보호자)",
+      "programIds": [
+        "s41000.bokjiro-WLF00005606"
+      ],
+      "programNames": [
+        "한부모가족 아동양육비 지원"
+      ],
+      "evidenceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00005606&wlfareInfoReldBztpCd=02",
+      "programEvidenceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00005606&wlfareInfoReldBztpCd=02",
+      "evidenceNote": "정확한 현재 사업페이지 WLF00005606가 배포하는2026 지침 전체2섹션을 읽었고,Ⅲ장(목차상10쪽 시작) 구비서류와Ⅱ신규신청 작성서식이 금융정보 등(금융ㆍ신용ㆍ보험정보) 제공 동의서를 직접 지정한다. 현행고시2100000278060 제4조·별표키000103의 실제 다운로드를 다시GET하여 기존published원본과SHA·바이트가 같음을 확인하고 전체본문을 판독했다. 금융정보 조사 대상 가구원 동의 및 각자의 서명의 작성목적을 해당도비사업 신규조사 절차와 대조했다.",
+      "checkedAt": "2026-10-19",
+      "scopeBasis": "official-application-reference",
+      "scopeReference": {
+        "kind": "program-documents",
+        "referencedLawTitle": "사회보장급여 관련 공통서식에 관한 고시",
+        "annexNumber": "000103",
+        "evidenceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00005606&wlfareInfoReldBztpCd=02",
+        "basis": "경기도 도비 한부모아동양육비의2026 운영지침Ⅲ구비서류와Ⅱ신규신청은 금융정보 등(금융ㆍ신용ㆍ보험정보) 제공 동의서를 정확히 지정한다. 국비 신청서류를 통해 조사한 후 도비대상으로 통보하는 절차를 실제 읽었으며 현재공통고시의동일별지000103 원본을 이 정확한 사업의 해당목적에만 연결한다."
+      },
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "publicationApproved": false,
+      "requiresCoordinatorReview": true,
+      "decision": "propose_approval",
+      "sha256": "eedb9d5a8a276b31269f0188e4a683ed6d174dabd76ef8e474b514bc6f2639ea",
+      "bytes": 128455,
+      "originalFormat": "hwpx",
+      "originalPath": "logs/forms-completion/gyeonggi-20261019/team3/rule-3211499-reget.hwpx",
+      "textEvidencePath": "logs/forms-completion/gyeonggi-20261019/team3/rule-3211499-reget.json",
+      "textScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "Contents/section0.xml",
+        "Contents/section1.xml"
+      ],
+      "fullBodyReviewed": true,
+      "textLength": 3833,
+      "bodyTextSha256": "2a0811a1ca2482389f42434fa46631c6a8d071846505743ce0037090c1cc2008",
+      "roleBasis": "현행고시 제4조가 별지 제1호의3서식의 금융정보 등(금융ㆍ신용ㆍ보험정보) 제공 동의서 용도를 정하며 실제 전체원본의 금융정보 조사 대상 가구원 동의 및 각자의 서명를 확인했다.",
+      "roleEvidenceUrl": "https://www.law.go.kr/LSW/admRulInfoP.do?admRulSeq=2100000278060",
+      "roleCheckedAt": "2026-10-19",
+      "reviewedParts": [
+        {
+          "number": "별지 제1호의3서식",
+          "title": "금융정보 등(금융ㆍ신용ㆍ보험정보) 제공 동의서",
+          "use": "additional",
+          "author": "금융정보 제공 동의 대상자(미성년자는 서식이 정한 보호자)"
+        }
+      ],
+      "selectedParts": [
+        {
+          "number": "별지 제1호의3서식",
+          "title": "금융정보 조사 대상 가구원 동의 및 각자의 서명",
+          "use": "additional",
+          "author": "금융정보 제공 동의 대상자(미성년자는 서식이 정한 보호자)"
+        }
+      ],
+      "excludedParts": [
+        "이 사업과 무관한 다른 급여 신청 선택항목",
+        "2026 운영지침 자체를 최초신청서로 등록하는 행위"
+      ],
+      "programPageRecord": "logs/forms-completion/gyeonggi-20261019/current-pages/WLF00005606.json",
+      "programPageSHA256": "326b05cb90af71b17efd0f8caf7bb8064d4740baf4b8cdae4d199dbdc1098517",
+      "applicationReferenceRecord": "logs/forms-completion/gyeonggi-20261019/team3/single-parent-common-application-reference.json",
+      "currentRuleAuditRecord": "logs/forms-completion/gyeonggi-20261019/current-common-rule-audit.json",
+      "currentRuleBodyRecord": "logs/forms-completion/gyeonggi-20261019/current-rule-body.json",
+      "currentAnnexNode": {
+        "별표가지번호": "03",
+        "별표구분": "별지",
+        "별표번호": "0001",
+        "별표서식PDF파일링크": "/LSW/flDownload.do?flSeq=163660129",
+        "별표서식파일링크": "/LSW/flDownload.do?flSeq=163660123",
+        "별표제목": "금융정보 등(금융ㆍ신용ㆍ보험정보) 제공 동의서",
+        "별표키": "000103"
+      },
+      "originalRegetHttpStatus": 200,
+      "originalRegetSHA256": "eedb9d5a8a276b31269f0188e4a683ed6d174dabd76ef8e474b514bc6f2639ea",
+      "reviewedBy": "/root/national_form_audit",
+      "externalModelReviewReused": false,
+      "originalAlreadyPublished": true,
+      "sourceIssues": [
+        "제도명이 비슷하다는 추정이 아니라 해당 경기도 사업의 공식2026 지침이 세 공통서식을 지정하는 경로이다. 실제지침상 최초신청·조사와 선정후별도4·5동의절차를 구별한다."
+      ],
+      "printedAmendmentDate": "2026-05-01"
+    }
+  ],
+  "sourceReview": {
+    "sourceProposalSHA256": "d9041f9a98e65304ca53b24fe88cb21e37165b03da4c2c95774b28fab55ee5bd",
+    "newOriginals": 0,
+    "newAssociations": 3
+  }
+}

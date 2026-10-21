@@ -1,0 +1,1674 @@
+{
+  "schema": 1,
+  "batchId": "batch-004",
+  "checkedAt": "2026-10-18",
+  "rows": [
+    {
+      "sourceKind": "ordin",
+      "lawTitle": "경주시 저소득주민 자녀 교복구입비 지원에 관한 조례",
+      "lawId": "1377373",
+      "annexId": "17832103",
+      "annexNumber": "000100",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=141952485&flNm=%EB%B3%84%EC%A7%80+%EC%84%9C%EC%8B%9D+%EA%B5%90%EB%B3%B5%EA%B5%AC%EC%9E%85%EB%B9%84+%EC%A7%80%EC%9B%90%EC%8B%A0%EC%B2%AD%EC%84%9C",
+      "officialPdfUrl": null,
+      "dateKind": "effective",
+      "effectiveDate": "2018-12-27",
+      "regionCode": "47130",
+      "regionLabel": "경상북도 경주시",
+      "formId": "ordin-17832103",
+      "formTitle": "별지 서식 교복구입비 지원신청서",
+      "sourceMetadataTitle": "별지 서식 교복구입비 지원신청서",
+      "verifiedDocumentTitle": "교복구입비 지원신청서",
+      "programIds": [
+        "g47130.bokjiro-WLF00003746"
+      ],
+      "programNames": [
+        "저소득주민 자녀 교복 및 체육복비 지원 사업"
+      ],
+      "use": "main",
+      "role": "application",
+      "checkedAt": "2026-10-18",
+      "evidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1377373",
+      "evidenceNote": "경주시 조례 제2조제3호는 교복에 체육복을 포함하고 제5조는 별지 신청을 규정한다. 전체 원본의 학생·보호자·계좌·중복수혜·서명을 확인하여 저소득 주민 자녀의 체육복비 두 사업에 연결한다. 별도 경주시 교복 지원 조례의 보편적30만원 사업으로 확대하지 않는다.",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "sha256": "5ae39064d3de9982b7766bdf456b6e43f8cc0bc2650b286717611974a18e80e2",
+      "bytes": 16896,
+      "signature": "d0cf11e0a1b11ae1",
+      "originalFormat": "hwp",
+      "originalTextScope": "all_body_sections_or_pages",
+      "textScope": "all_body_sections_or_pages",
+      "inspectionScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "BodyText/Section0"
+      ],
+      "reviewedBy": "codex-national_form_audit",
+      "reviewedAt": "2026-10-18",
+      "roleBasis": "경주시 조례 제2조제3호는 교복에 체육복을 포함하고 제5조는 별지 신청을 규정한다. 전체 원본의 학생·보호자·계좌·중복수혜·서명을 확인하여 저소득 주민 자녀의 체육복비 두 사업에 연결한다. 별도 경주시 교복 지원 조례의 보편적30만원 사업으로 확대하지 않는다.",
+      "roleEvidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1377373",
+      "roleCheckedAt": "2026-10-18",
+      "reviewedParts": [
+        {
+          "number": "별지 서식",
+          "title": "교복구입비 지원신청서",
+          "use": "main",
+          "author": "대상 학생의 부모 또는 보호자"
+        }
+      ],
+      "bodyEvidenceArticles": [
+        "제2조(정의) 이 조례에서 사용하는 용어의 뜻은 다음과 같다.1. “저소득주민”이란 다음 각 목의 어느 하나에 해당하는 대상자를 말한다.가. 「국민기초생활 보장법」 제2조제2호에 따른 수급자 및 제2조제10호에 따른 차상위계층나. 「한부모가족지원법」에 따른 한부모가족2. “중·고등학교”란 「초·중등교육법」제2조에 따른 중학교와 고등학교를 말한다.3. “교복”이란 중·고등학교에서 학생에게 입도록 규정한 체육복을 포함한 단체복(동복과 하복)을 말한다.",
+        "제3조(지원대상)① 지원대상은 경주시(이하 “시”라 한다)에 주민등록을 두고 거주하는 저소득주민 자녀로 중·고등학교 입학생으로 한다. 다만, 교복 또는 체육복을 착용하는 학교 재학생으로 한정한다.② 지원대상 학생이 다른 법령 등에 따라 교복구입비를 지원받는 경우는 제외한다. 다만, 시에서 지원하는 교복구입비와 차이가 있는 경우에는 그 차액을 지원할 수 있다.",
+        "제5조(지원신청 및 결정)① 교복구입비를 지원받고자 하는 사람은 별지 서식의 교복구입비 지원신청서를 시장에게 제출하여야 한다.② 시장은 제출받은 신청내역을 검토한 후 지원여부를 결정한다."
+      ],
+      "independentBodyReview": true,
+      "condition": "저소득주민 자녀 체육복비 신청에 사용한다. 조례의 교복 정의에 체육복이 포함되어 있으며 보편적 교복지원 사업과 구분한다.",
+      "verifiedAnnexNumber": "번호 없음",
+      "annexNumberNote": "공식 annexNumber는 보존하되 원본 머리말은 번호 없는 별지 서식이므로 reviewedParts에 임의의 제1호 번호를 부여하지 않는다."
+    },
+    {
+      "sourceKind": "ordin",
+      "lawTitle": "경주시 저소득주민 자녀 교복구입비 지원에 관한 조례",
+      "lawId": "1377373",
+      "annexId": "17832103",
+      "annexNumber": "000100",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=141952485&flNm=%EB%B3%84%EC%A7%80+%EC%84%9C%EC%8B%9D+%EA%B5%90%EB%B3%B5%EA%B5%AC%EC%9E%85%EB%B9%84+%EC%A7%80%EC%9B%90%EC%8B%A0%EC%B2%AD%EC%84%9C",
+      "officialPdfUrl": null,
+      "dateKind": "effective",
+      "effectiveDate": "2018-12-27",
+      "regionCode": "47130",
+      "regionLabel": "경상북도 경주시",
+      "formId": "ordin-17832103",
+      "formTitle": "별지 서식 교복구입비 지원신청서",
+      "sourceMetadataTitle": "별지 서식 교복구입비 지원신청서",
+      "verifiedDocumentTitle": "교복구입비 지원신청서",
+      "programIds": [
+        "g47130.gov24-505000000112"
+      ],
+      "programNames": [
+        "저소득 주민자녀 체육복비 지급"
+      ],
+      "use": "main",
+      "role": "application",
+      "checkedAt": "2026-10-18",
+      "evidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1377373",
+      "evidenceNote": "경주시 조례 제2조제3호는 교복에 체육복을 포함하고 제5조는 별지 신청을 규정한다. 전체 원본의 학생·보호자·계좌·중복수혜·서명을 확인하여 저소득 주민 자녀의 체육복비 두 사업에 연결한다. 별도 경주시 교복 지원 조례의 보편적30만원 사업으로 확대하지 않는다.",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "sha256": "5ae39064d3de9982b7766bdf456b6e43f8cc0bc2650b286717611974a18e80e2",
+      "bytes": 16896,
+      "signature": "d0cf11e0a1b11ae1",
+      "originalFormat": "hwp",
+      "originalTextScope": "all_body_sections_or_pages",
+      "textScope": "all_body_sections_or_pages",
+      "inspectionScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "BodyText/Section0"
+      ],
+      "reviewedBy": "codex-national_form_audit",
+      "reviewedAt": "2026-10-18",
+      "roleBasis": "경주시 조례 제2조제3호는 교복에 체육복을 포함하고 제5조는 별지 신청을 규정한다. 전체 원본의 학생·보호자·계좌·중복수혜·서명을 확인하여 저소득 주민 자녀의 체육복비 두 사업에 연결한다. 별도 경주시 교복 지원 조례의 보편적30만원 사업으로 확대하지 않는다.",
+      "roleEvidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1377373",
+      "roleCheckedAt": "2026-10-18",
+      "reviewedParts": [
+        {
+          "number": "별지 서식",
+          "title": "교복구입비 지원신청서",
+          "use": "main",
+          "author": "대상 학생의 부모 또는 보호자"
+        }
+      ],
+      "bodyEvidenceArticles": [
+        "제2조(정의) 이 조례에서 사용하는 용어의 뜻은 다음과 같다.1. “저소득주민”이란 다음 각 목의 어느 하나에 해당하는 대상자를 말한다.가. 「국민기초생활 보장법」 제2조제2호에 따른 수급자 및 제2조제10호에 따른 차상위계층나. 「한부모가족지원법」에 따른 한부모가족2. “중·고등학교”란 「초·중등교육법」제2조에 따른 중학교와 고등학교를 말한다.3. “교복”이란 중·고등학교에서 학생에게 입도록 규정한 체육복을 포함한 단체복(동복과 하복)을 말한다.",
+        "제3조(지원대상)① 지원대상은 경주시(이하 “시”라 한다)에 주민등록을 두고 거주하는 저소득주민 자녀로 중·고등학교 입학생으로 한다. 다만, 교복 또는 체육복을 착용하는 학교 재학생으로 한정한다.② 지원대상 학생이 다른 법령 등에 따라 교복구입비를 지원받는 경우는 제외한다. 다만, 시에서 지원하는 교복구입비와 차이가 있는 경우에는 그 차액을 지원할 수 있다.",
+        "제5조(지원신청 및 결정)① 교복구입비를 지원받고자 하는 사람은 별지 서식의 교복구입비 지원신청서를 시장에게 제출하여야 한다.② 시장은 제출받은 신청내역을 검토한 후 지원여부를 결정한다."
+      ],
+      "independentBodyReview": true,
+      "condition": "저소득주민 자녀 체육복비 신청에 사용한다. 조례의 교복 정의에 체육복이 포함되어 있으며 보편적 교복지원 사업과 구분한다.",
+      "verifiedAnnexNumber": "번호 없음",
+      "annexNumberNote": "공식 annexNumber는 보존하되 원본 머리말은 번호 없는 별지 서식이므로 reviewedParts에 임의의 제1호 번호를 부여하지 않는다."
+    },
+    {
+      "sourceKind": "ordin",
+      "lawTitle": "충청남도 친환경학교급식 등 지원에 관한 조례 시행규칙",
+      "lawId": "1379449",
+      "annexId": "22636267",
+      "annexNumber": "000100",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=169445083&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C1%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%ED%95%99%EA%B5%90+%EA%B8%89%EC%8B%9D%EA%B2%BD%EB%B9%84+%EC%A7%80%EC%9B%90%EC%8B%A0%EC%B2%AD%EC%84%9C",
+      "officialPdfUrl": null,
+      "dateKind": "effective",
+      "effectiveDate": "2019-01-01",
+      "regionCode": "44000",
+      "regionLabel": "충청남도",
+      "formId": "ordin-22636267",
+      "formTitle": "[별지 제1호서식] 학교 급식경비 지원신청서",
+      "sourceMetadataTitle": "[별지 제1호서식] 학교 급식경비 지원신청서",
+      "verifiedDocumentTitle": "학교 급식경비 지원신청서",
+      "programIds": [
+        "s44000.bokjiro-WLF00004195"
+      ],
+      "programNames": [
+        "고등학교 무상급식비 지원"
+      ],
+      "use": "conditional",
+      "role": "application",
+      "checkedAt": "2026-10-18",
+      "evidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1379449",
+      "evidenceNote": "충남 시행규칙 제3조제1항은 지원대상 기관이 학교 급식경비 지원신청서를 교육지원청 경유하여 제출하는 실제 예산 신청 경로를 정한다. 원본 전체의 학교·대표자·급식시설·학생인원·식품비 예산·사업계획 첨부가 이 경로와 일치한다. 두 후보는 도내 고교 무상급식으로 학생 개인 신청이 없는 급여이며, 이 연결은 고등학교 기관 담당자의 급식경비 신청에만 한정한다.",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "sha256": "48de9faf301acccae5251e23cbf5bf4b3e27c20efb80c2d3a9eec63a9eaea573",
+      "bytes": 15360,
+      "signature": "d0cf11e0a1b11ae1",
+      "originalFormat": "hwp",
+      "originalTextScope": "all_body_sections_or_pages",
+      "textScope": "all_body_sections_or_pages",
+      "inspectionScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "BodyText/Section0"
+      ],
+      "reviewedBy": "codex-national_form_audit",
+      "reviewedAt": "2026-10-18",
+      "roleBasis": "충남 시행규칙 제3조제1항은 지원대상 기관이 학교 급식경비 지원신청서를 교육지원청 경유하여 제출하는 실제 예산 신청 경로를 정한다. 원본 전체의 학교·대표자·급식시설·학생인원·식품비 예산·사업계획 첨부가 이 경로와 일치한다. 두 후보는 도내 고교 무상급식으로 학생 개인 신청이 없는 급여이며, 이 연결은 고등학교 기관 담당자의 급식경비 신청에만 한정한다.",
+      "roleEvidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1379449",
+      "roleCheckedAt": "2026-10-18",
+      "reviewedParts": [
+        {
+          "number": "1",
+          "title": "학교 급식경비 지원신청서",
+          "use": "conditional",
+          "author": "지원대상 고등학교의 기관 담당자·대표자"
+        }
+      ],
+      "bodyEvidenceArticles": [
+        "제1조(목적) 이 규칙은 「충청남도 친환경학교급식 등 지원에 관한 조례」 시행에 필요한 사항을 규정함을 목적으로 한다.",
+        "제3조(신청 절차)① 조례 제5조에 따른 급식 지원대상(이하 “지원대상”이라 한다)은 별지 제1호서식의 학교 급식경비 지원신청서를 작성하여, 사업 시행 전년도 5월 말까지 지역 교육지원청을 거쳐 시장ㆍ군수에게 제출한다.② 제1항에 따른 학교 급식경비 지원신청서를 접수한 시장ㆍ군수는 이를 검토하고 별지 제2호서식에 따라 학교 급식경비 지원 내역을 사업 시행 전년도 6월 말까지 도지사에게 제출한다.③ 도지사는 별지 제2호서식에 따른 학교 급식경비 지원 내역을 접수하면 사업 시행 전년도 7월 말까지 심의위원회에 제출한다.",
+        "제5조(지원 체계)① 도지사는 제4조에 따라 확정된 급식 지원계획을 매년 교육감 및 시장ㆍ군수에게 통보하고, 시장ㆍ군수는 통보받은 급식 지원계획을 지역 교육지원청을 거쳐 지원대상에 통보한다.② 지원대상은 통보받은 급식 지원계획에 따라 예산의 범위에서 예산 및 회계 관련 규정을 준용하여 공정하게 학교 급식에 필요한 식재료를 구입하여 사용하고, 식재료 공급자에게 별지 제3호서식의 학교 급식 식재료 공급확인서를 발급한다.③ 제2항에 따른 식재료 공급자는 매월 학교 급식 식재료 공급확인서를 첨부하여 지원대상에게 식재료 공급 비용 지급을 신청하고, 지원대상은 제1항에 따른 급식 지원계획과 식재료 공급자가 제출한 서류를 검토하여 식재료 공급 비용을 지급한다."
+      ],
+      "independentBodyReview": true,
+      "condition": "고등학교 기관 담당자가 교육지원청을 거쳐 급식 식품비 예산을 신청하는 서식이다. 학생·학부모 개인은 작성하지 않으며 현재 사업 안내의 자동급식 절차와 구분한다."
+    },
+    {
+      "sourceKind": "ordin",
+      "lawTitle": "충청남도 친환경학교급식 등 지원에 관한 조례 시행규칙",
+      "lawId": "1379449",
+      "annexId": "22636267",
+      "annexNumber": "000100",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=169445083&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C1%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%ED%95%99%EA%B5%90+%EA%B8%89%EC%8B%9D%EA%B2%BD%EB%B9%84+%EC%A7%80%EC%9B%90%EC%8B%A0%EC%B2%AD%EC%84%9C",
+      "officialPdfUrl": null,
+      "dateKind": "effective",
+      "effectiveDate": "2019-01-01",
+      "regionCode": "44000",
+      "regionLabel": "충청남도",
+      "formId": "ordin-22636267",
+      "formTitle": "[별지 제1호서식] 학교 급식경비 지원신청서",
+      "sourceMetadataTitle": "[별지 제1호서식] 학교 급식경비 지원신청서",
+      "verifiedDocumentTitle": "학교 급식경비 지원신청서",
+      "programIds": [
+        "s44000.bokjiro-WLF00006029"
+      ],
+      "programNames": [
+        "고등학교 무상급식비 지원"
+      ],
+      "use": "conditional",
+      "role": "application",
+      "checkedAt": "2026-10-18",
+      "evidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1379449",
+      "evidenceNote": "충남 시행규칙 제3조제1항은 지원대상 기관이 학교 급식경비 지원신청서를 교육지원청 경유하여 제출하는 실제 예산 신청 경로를 정한다. 원본 전체의 학교·대표자·급식시설·학생인원·식품비 예산·사업계획 첨부가 이 경로와 일치한다. 두 후보는 도내 고교 무상급식으로 학생 개인 신청이 없는 급여이며, 이 연결은 고등학교 기관 담당자의 급식경비 신청에만 한정한다.",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "sha256": "48de9faf301acccae5251e23cbf5bf4b3e27c20efb80c2d3a9eec63a9eaea573",
+      "bytes": 15360,
+      "signature": "d0cf11e0a1b11ae1",
+      "originalFormat": "hwp",
+      "originalTextScope": "all_body_sections_or_pages",
+      "textScope": "all_body_sections_or_pages",
+      "inspectionScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "BodyText/Section0"
+      ],
+      "reviewedBy": "codex-national_form_audit",
+      "reviewedAt": "2026-10-18",
+      "roleBasis": "충남 시행규칙 제3조제1항은 지원대상 기관이 학교 급식경비 지원신청서를 교육지원청 경유하여 제출하는 실제 예산 신청 경로를 정한다. 원본 전체의 학교·대표자·급식시설·학생인원·식품비 예산·사업계획 첨부가 이 경로와 일치한다. 두 후보는 도내 고교 무상급식으로 학생 개인 신청이 없는 급여이며, 이 연결은 고등학교 기관 담당자의 급식경비 신청에만 한정한다.",
+      "roleEvidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1379449",
+      "roleCheckedAt": "2026-10-18",
+      "reviewedParts": [
+        {
+          "number": "1",
+          "title": "학교 급식경비 지원신청서",
+          "use": "conditional",
+          "author": "지원대상 고등학교의 기관 담당자·대표자"
+        }
+      ],
+      "bodyEvidenceArticles": [
+        "제1조(목적) 이 규칙은 「충청남도 친환경학교급식 등 지원에 관한 조례」 시행에 필요한 사항을 규정함을 목적으로 한다.",
+        "제3조(신청 절차)① 조례 제5조에 따른 급식 지원대상(이하 “지원대상”이라 한다)은 별지 제1호서식의 학교 급식경비 지원신청서를 작성하여, 사업 시행 전년도 5월 말까지 지역 교육지원청을 거쳐 시장ㆍ군수에게 제출한다.② 제1항에 따른 학교 급식경비 지원신청서를 접수한 시장ㆍ군수는 이를 검토하고 별지 제2호서식에 따라 학교 급식경비 지원 내역을 사업 시행 전년도 6월 말까지 도지사에게 제출한다.③ 도지사는 별지 제2호서식에 따른 학교 급식경비 지원 내역을 접수하면 사업 시행 전년도 7월 말까지 심의위원회에 제출한다.",
+        "제5조(지원 체계)① 도지사는 제4조에 따라 확정된 급식 지원계획을 매년 교육감 및 시장ㆍ군수에게 통보하고, 시장ㆍ군수는 통보받은 급식 지원계획을 지역 교육지원청을 거쳐 지원대상에 통보한다.② 지원대상은 통보받은 급식 지원계획에 따라 예산의 범위에서 예산 및 회계 관련 규정을 준용하여 공정하게 학교 급식에 필요한 식재료를 구입하여 사용하고, 식재료 공급자에게 별지 제3호서식의 학교 급식 식재료 공급확인서를 발급한다.③ 제2항에 따른 식재료 공급자는 매월 학교 급식 식재료 공급확인서를 첨부하여 지원대상에게 식재료 공급 비용 지급을 신청하고, 지원대상은 제1항에 따른 급식 지원계획과 식재료 공급자가 제출한 서류를 검토하여 식재료 공급 비용을 지급한다."
+      ],
+      "independentBodyReview": true,
+      "condition": "고등학교 기관 담당자가 교육지원청을 거쳐 급식 식품비 예산을 신청하는 서식이다. 학생·학부모 개인은 작성하지 않으며 현재 사업 안내의 자동급식 절차와 구분한다."
+    },
+    {
+      "sourceKind": "ordin",
+      "lawTitle": "곡성군 교육비 및 교복구입비 지원 조례",
+      "lawId": "1381144",
+      "annexId": "19438853",
+      "annexNumber": "000100",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=148978533&flNm=%5B%EB%B3%84%EC%A7%801%5D%EA%B3%A1%EC%84%B1%EA%B5%B0+%EA%B3%A0%EB%93%B1%ED%95%99%EC%83%9D+%EA%B5%90%EC%9C%A1%EB%B9%84+%EC%A7%80%EC%9B%90+%EC%8B%A0%EC%B2%AD%EC%84%9C",
+      "officialPdfUrl": null,
+      "dateKind": "effective",
+      "effectiveDate": "2019-01-04",
+      "regionCode": "12720",
+      "regionLabel": "전남광주통합특별시 곡성군",
+      "formId": "ordin-19438853",
+      "formTitle": "[별지1]곡성군 고등학생 교육비 지원 신청서",
+      "sourceMetadataTitle": "[별지1]곡성군 고등학생 교육비 지원 신청서",
+      "verifiedDocumentTitle": "곡성군 고등학생 교육비 지원 신청서",
+      "programIds": [
+        "g12720.bokjiro-WLF00002019"
+      ],
+      "programNames": [
+        "교육비 및 교복구입비 지원 사업"
+      ],
+      "use": "conditional",
+      "role": "application",
+      "checkedAt": "2026-10-18",
+      "evidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1381144",
+      "evidenceNote": "곡성군 제7조제1항은 교육비 신청 별지1을 학생이 학교장에게 제출하도록 한다. 전체 원본의 재학정보·가족·다른 교육비 수혜·학생 및 학부모 서명·개인정보동의 첨부를 확인하여 복합 사업 중 고등학생 교육비 신청에 한정한다.",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "sha256": "ac410e8c7397eea97f267bc9f060a3768b4636575f48bdf0ae2d150464b7deb2",
+      "bytes": 14848,
+      "signature": "d0cf11e0a1b11ae1",
+      "originalFormat": "hwp",
+      "originalTextScope": "all_body_sections_or_pages",
+      "textScope": "all_body_sections_or_pages",
+      "inspectionScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "BodyText/Section0"
+      ],
+      "reviewedBy": "codex-national_form_audit",
+      "reviewedAt": "2026-10-18",
+      "roleBasis": "곡성군 제7조제1항은 교육비 신청 별지1을 학생이 학교장에게 제출하도록 한다. 전체 원본의 재학정보·가족·다른 교육비 수혜·학생 및 학부모 서명·개인정보동의 첨부를 확인하여 복합 사업 중 고등학생 교육비 신청에 한정한다.",
+      "roleEvidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1381144",
+      "roleCheckedAt": "2026-10-18",
+      "reviewedParts": [
+        {
+          "number": "1",
+          "title": "곡성군 고등학생 교육비 지원 신청서",
+          "use": "conditional",
+          "author": "대상 학생과 학부모"
+        }
+      ],
+      "bodyEvidenceArticles": [
+        "제4조(지원대상의 범위)① 교육비 지원대상은 고등학생으로 한다.② 교복구입비 지원대상은 중ㆍ고등학교 신입생과 전입학생으로 한다.",
+        "제6조(지원방법)① 군수는 학생에 대한 교육비를 지원하고자 할 경우에는 지원대상자 해당 학교의 장에게 일괄 지원한다.② 군수는 학생에 대한 교복구입비를 지원하고자 할 경우에는 지원대상자 또는 해당 학교의 장에게 일괄 지원한다.③ 군수는 다음 각 호의 어느 하나에 해당하는 경우에는 감액하거나 지원하지 아니할 수 있다.1. 법령이나 다른 조례에 의하여 지원 받고 있는 경우2. 보호자 및 가족이 직장으로부터 지원 받고 있는 경우3. 그 밖의 방법으로 지원 받고 있는 경우",
+        "제7조(신청 및 지급)① 교육비 및 교복구입비를 지원받고자 하는 학생은 별지 제1호서식 및 별지 제3호서식의 신청서를 작성하여 해당 학교의 장에게 제출해야 한다.② 학교의 장은 별지 제2호서식 및 제4호서식의 검토조서를 작성하여 해당 학생의 신청서와 함께 군수에게 제출해야 한다.③ 군수는 제2항에 제출된 서류를 확인한 후 지원사항을 결정하고 지원대상자 또는 해당 학교의 장에게 지급한다."
+      ],
+      "independentBodyReview": true,
+      "condition": "복합 사업 중 고등학생 교육비를 신청할 때 사용한다. 교복구입비 신청은 별지 제3호이다."
+    },
+    {
+      "sourceKind": "ordin",
+      "lawTitle": "곡성군 교육비 및 교복구입비 지원 조례",
+      "lawId": "1381144",
+      "annexId": "19438857",
+      "annexNumber": "000300",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=148978537&flNm=%5B%EB%B3%84%EC%A7%803%5D%EA%B3%A1%EC%84%B1%EA%B5%B0+%EC%A4%91%EA%B3%A0%EB%93%B1%ED%95%99%EC%83%9D+%EA%B5%90%EB%B3%B5%EA%B5%AC%EC%9E%85%EB%B9%84+%EC%A7%80%EC%9B%90+%EC%8B%A0%EC%B2%AD%EC%84%9C",
+      "officialPdfUrl": null,
+      "dateKind": "effective",
+      "effectiveDate": "2019-01-04",
+      "regionCode": "12720",
+      "regionLabel": "전남광주통합특별시 곡성군",
+      "formId": "ordin-19438857",
+      "formTitle": "[별지3]곡성군 중고등학생 교복구입비 지원 신청서",
+      "sourceMetadataTitle": "[별지3]곡성군 중고등학생 교복구입비 지원 신청서",
+      "verifiedDocumentTitle": "곡성군 중·고등학생 교복구입비 지원 신청서",
+      "programIds": [
+        "g12720.bokjiro-WLF00002019"
+      ],
+      "programNames": [
+        "교육비 및 교복구입비 지원 사업"
+      ],
+      "use": "conditional",
+      "role": "application",
+      "checkedAt": "2026-10-18",
+      "evidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1381144",
+      "evidenceNote": "곡성군 제7조제1항의 교복구입비 별지3과 원본 전체의 학생·보호자·중복지원액·계좌를 확인했다. 마지막 신청문은 교육비라는 표현을 쓰지만 제목·교복 중복확인·계좌와 현행 제7조가 교복구입비 용도임을 확인하므로 해당 구성요소에 한정한다.",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "sha256": "faceb622b3c66ee01629f2a0fb17b98ba9345145b8767bbd8cb78415613e3825",
+      "bytes": 15360,
+      "signature": "d0cf11e0a1b11ae1",
+      "originalFormat": "hwp",
+      "originalTextScope": "all_body_sections_or_pages",
+      "textScope": "all_body_sections_or_pages",
+      "inspectionScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "BodyText/Section0"
+      ],
+      "reviewedBy": "codex-national_form_audit",
+      "reviewedAt": "2026-10-18",
+      "roleBasis": "곡성군 제7조제1항의 교복구입비 별지3과 원본 전체의 학생·보호자·중복지원액·계좌를 확인했다. 마지막 신청문은 교육비라는 표현을 쓰지만 제목·교복 중복확인·계좌와 현행 제7조가 교복구입비 용도임을 확인하므로 해당 구성요소에 한정한다.",
+      "roleEvidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1381144",
+      "roleCheckedAt": "2026-10-18",
+      "reviewedParts": [
+        {
+          "number": "3",
+          "title": "곡성군 중·고등학생 교복구입비 지원 신청서",
+          "use": "conditional",
+          "author": "대상 학생과 학부모"
+        }
+      ],
+      "bodyEvidenceArticles": [
+        "제4조(지원대상의 범위)① 교육비 지원대상은 고등학생으로 한다.② 교복구입비 지원대상은 중ㆍ고등학교 신입생과 전입학생으로 한다.",
+        "제6조(지원방법)① 군수는 학생에 대한 교육비를 지원하고자 할 경우에는 지원대상자 해당 학교의 장에게 일괄 지원한다.② 군수는 학생에 대한 교복구입비를 지원하고자 할 경우에는 지원대상자 또는 해당 학교의 장에게 일괄 지원한다.③ 군수는 다음 각 호의 어느 하나에 해당하는 경우에는 감액하거나 지원하지 아니할 수 있다.1. 법령이나 다른 조례에 의하여 지원 받고 있는 경우2. 보호자 및 가족이 직장으로부터 지원 받고 있는 경우3. 그 밖의 방법으로 지원 받고 있는 경우",
+        "제7조(신청 및 지급)① 교육비 및 교복구입비를 지원받고자 하는 학생은 별지 제1호서식 및 별지 제3호서식의 신청서를 작성하여 해당 학교의 장에게 제출해야 한다.② 학교의 장은 별지 제2호서식 및 제4호서식의 검토조서를 작성하여 해당 학생의 신청서와 함께 군수에게 제출해야 한다.③ 군수는 제2항에 제출된 서류를 확인한 후 지원사항을 결정하고 지원대상자 또는 해당 학교의 장에게 지급한다."
+      ],
+      "independentBodyReview": true,
+      "condition": "중·고등학생 교복구입비에 사용한다. 고등학생 교육비 신청 별지 제1호와 구분한다."
+    },
+    {
+      "sourceKind": "ordin",
+      "lawTitle": "부산광역시 수영구 교복 지원 조례 시행규칙",
+      "lawId": "1383812",
+      "annexId": "19855321",
+      "annexNumber": "000100",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=151981249&flNm=%5B%EB%B3%84%EC%A7%80+%EC%84%9C%EC%8B%9D%5D+%EA%B5%90%EB%B3%B5%EA%B5%AC%EC%9E%85%EB%B9%84+%EC%A7%80%EC%9B%90+%EC%8B%A0%EC%B2%AD%EC%84%9C",
+      "officialPdfUrl": null,
+      "dateKind": "effective",
+      "effectiveDate": "2019-02-01",
+      "regionCode": "26500",
+      "regionLabel": "부산광역시 수영구",
+      "formId": "ordin-19855321",
+      "formTitle": "[별지 서식] 교복구입비 지원 신청서",
+      "sourceMetadataTitle": "[별지 서식] 교복구입비 지원 신청서",
+      "verifiedDocumentTitle": "교복구입비 지원 신청서",
+      "programIds": [
+        "g26500.bokjiro-WLF00002655"
+      ],
+      "programNames": [
+        "교복비 지원사업"
+      ],
+      "use": "main",
+      "role": "application",
+      "checkedAt": "2026-10-18",
+      "evidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1383812",
+      "evidenceNote": "수영구 시행규칙 제2조·제3조와 앞뒤 원본 전체의 학생·부모/보호자·계좌·중복지원·동의 및 접수증을 대조했다. 두 사업 구비서류가 같은 교복구입비 신청을 명시하며 학교이외 교육기관의 교칙 첨부도 대응한다. 접수증·동 확인란은 기관 작성이다.",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "sha256": "e230bc03e0f456e9eefbfba673a69d3365a6999c017e8105db9694f3bf4d40b1",
+      "bytes": 21504,
+      "signature": "d0cf11e0a1b11ae1",
+      "originalFormat": "hwp",
+      "originalTextScope": "all_body_sections_or_pages",
+      "textScope": "all_body_sections_or_pages",
+      "inspectionScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "BodyText/Section0"
+      ],
+      "reviewedBy": "codex-national_form_audit",
+      "reviewedAt": "2026-10-18",
+      "roleBasis": "수영구 시행규칙 제2조·제3조와 앞뒤 원본 전체의 학생·부모/보호자·계좌·중복지원·동의 및 접수증을 대조했다. 두 사업 구비서류가 같은 교복구입비 신청을 명시하며 학교이외 교육기관의 교칙 첨부도 대응한다. 접수증·동 확인란은 기관 작성이다.",
+      "roleEvidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1383812",
+      "roleCheckedAt": "2026-10-18",
+      "reviewedParts": [
+        {
+          "number": "별지 서식",
+          "title": "교복구입비 지원 신청서",
+          "use": "main",
+          "author": "부모, 신청할 수 없는 경우 규칙이 정한 보호자 또는 학생"
+        }
+      ],
+      "bodyEvidenceArticles": [
+        "제2조(신청자격)① 교복구입비 신청인은 「부산광역시 수영구 교복 지원 조례」(이하 “조례”라 한다) 제3조에 따른 지원대상의 부 또는 모로 한다.② 제1항에 따라 신청할 수 없는 경우에는 다음 각 호의 어느 하나에 해당하는 사람이 각 호의 순위에 따라 신청할 수 있다.1. 사실상 양육하는 보호자2. 본인",
+        "제3조(지원절차)① 교복구입비를 지원받으려는 사람은 부산광역시 수영구청장(이하 “구청장”이라 한다)이 매년 정하는 신청기간에 별지 서식의 교복구입비 신청서와 첨부서류를 주민등록이 되어 있는 거주지 관할 동장에게 제출하여야 한다.② 관할 동장은 제1항에 따른 신청서가 접수되면 다음 각 호의 사항을 확인하고, 그 신청서를 접수일로부터 10일 이내에 구청장에게 보내야 한다.1. 조례 제3조에 따른 지원대상에 해당하는지 여부2. 제2조에 따른 신청인 자격 여부"
+      ],
+      "independentBodyReview": true,
+      "condition": "신청서와 개인정보 동의를 작성한다. 절취선 아래 접수증·행정복지센터 확인란은 담당기관 작성이다.",
+      "verifiedAnnexNumber": "번호 없음",
+      "annexNumberNote": "공식 annexNumber는 보존하되 원본 머리말은 번호 없는 별지 서식이므로 reviewedParts에 임의의 제1호 번호를 부여하지 않는다."
+    },
+    {
+      "sourceKind": "ordin",
+      "lawTitle": "부산광역시 수영구 교복 지원 조례 시행규칙",
+      "lawId": "1383812",
+      "annexId": "19855321",
+      "annexNumber": "000100",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=151981249&flNm=%5B%EB%B3%84%EC%A7%80+%EC%84%9C%EC%8B%9D%5D+%EA%B5%90%EB%B3%B5%EA%B5%AC%EC%9E%85%EB%B9%84+%EC%A7%80%EC%9B%90+%EC%8B%A0%EC%B2%AD%EC%84%9C",
+      "officialPdfUrl": null,
+      "dateKind": "effective",
+      "effectiveDate": "2019-02-01",
+      "regionCode": "26500",
+      "regionLabel": "부산광역시 수영구",
+      "formId": "ordin-19855321",
+      "formTitle": "[별지 서식] 교복구입비 지원 신청서",
+      "sourceMetadataTitle": "[별지 서식] 교복구입비 지원 신청서",
+      "verifiedDocumentTitle": "교복구입비 지원 신청서",
+      "programIds": [
+        "g26500.gov24-338000000117"
+      ],
+      "programNames": [
+        "교복구입비 지원"
+      ],
+      "use": "main",
+      "role": "application",
+      "checkedAt": "2026-10-18",
+      "evidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1383812",
+      "evidenceNote": "수영구 시행규칙 제2조·제3조와 앞뒤 원본 전체의 학생·부모/보호자·계좌·중복지원·동의 및 접수증을 대조했다. 두 사업 구비서류가 같은 교복구입비 신청을 명시하며 학교이외 교육기관의 교칙 첨부도 대응한다. 접수증·동 확인란은 기관 작성이다.",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "sha256": "e230bc03e0f456e9eefbfba673a69d3365a6999c017e8105db9694f3bf4d40b1",
+      "bytes": 21504,
+      "signature": "d0cf11e0a1b11ae1",
+      "originalFormat": "hwp",
+      "originalTextScope": "all_body_sections_or_pages",
+      "textScope": "all_body_sections_or_pages",
+      "inspectionScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "BodyText/Section0"
+      ],
+      "reviewedBy": "codex-national_form_audit",
+      "reviewedAt": "2026-10-18",
+      "roleBasis": "수영구 시행규칙 제2조·제3조와 앞뒤 원본 전체의 학생·부모/보호자·계좌·중복지원·동의 및 접수증을 대조했다. 두 사업 구비서류가 같은 교복구입비 신청을 명시하며 학교이외 교육기관의 교칙 첨부도 대응한다. 접수증·동 확인란은 기관 작성이다.",
+      "roleEvidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1383812",
+      "roleCheckedAt": "2026-10-18",
+      "reviewedParts": [
+        {
+          "number": "별지 서식",
+          "title": "교복구입비 지원 신청서",
+          "use": "main",
+          "author": "부모, 신청할 수 없는 경우 규칙이 정한 보호자 또는 학생"
+        }
+      ],
+      "bodyEvidenceArticles": [
+        "제2조(신청자격)① 교복구입비 신청인은 「부산광역시 수영구 교복 지원 조례」(이하 “조례”라 한다) 제3조에 따른 지원대상의 부 또는 모로 한다.② 제1항에 따라 신청할 수 없는 경우에는 다음 각 호의 어느 하나에 해당하는 사람이 각 호의 순위에 따라 신청할 수 있다.1. 사실상 양육하는 보호자2. 본인",
+        "제3조(지원절차)① 교복구입비를 지원받으려는 사람은 부산광역시 수영구청장(이하 “구청장”이라 한다)이 매년 정하는 신청기간에 별지 서식의 교복구입비 신청서와 첨부서류를 주민등록이 되어 있는 거주지 관할 동장에게 제출하여야 한다.② 관할 동장은 제1항에 따른 신청서가 접수되면 다음 각 호의 사항을 확인하고, 그 신청서를 접수일로부터 10일 이내에 구청장에게 보내야 한다.1. 조례 제3조에 따른 지원대상에 해당하는지 여부2. 제2조에 따른 신청인 자격 여부"
+      ],
+      "independentBodyReview": true,
+      "condition": "신청서와 개인정보 동의를 작성한다. 절취선 아래 접수증·행정복지센터 확인란은 담당기관 작성이다.",
+      "verifiedAnnexNumber": "번호 없음",
+      "annexNumberNote": "공식 annexNumber는 보존하되 원본 머리말은 번호 없는 별지 서식이므로 reviewedParts에 임의의 제1호 번호를 부여하지 않는다."
+    },
+    {
+      "sourceKind": "ordin",
+      "lawTitle": "연천군 농업발전기금 설치 및 운용조례 시행규칙",
+      "lawId": "1386641",
+      "annexId": "20543123",
+      "annexNumber": "000300",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=154405783&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C1%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EC%97%B0%EC%B2%9C%EA%B5%B0%EB%86%8D%EC%97%85%EB%B0%9C%EC%A0%84%EA%B8%B0%EA%B8%88%EC%A7%80%EC%9B%90%EC%8B%A0%EC%B2%AD%EC%84%9C",
+      "officialPdfUrl": null,
+      "dateKind": "effective",
+      "effectiveDate": "2019-02-28",
+      "regionCode": "41800",
+      "regionLabel": "경기도 연천군",
+      "formId": "ordin-20543123",
+      "formTitle": "[별지 제1호서식] 연천군농업발전기금지원신청서",
+      "sourceMetadataTitle": "[별지 제1호서식] 연천군농업발전기금지원신청서",
+      "verifiedDocumentTitle": "연천군 농업발전기금 지원신청서",
+      "programIds": [
+        "g41800.gov24-414000000451"
+      ],
+      "programNames": [
+        "연천군 농업발전기금"
+      ],
+      "use": "main",
+      "role": "application",
+      "checkedAt": "2026-10-18",
+      "evidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1386641",
+      "evidenceNote": "연천군 시행규칙 제4조제1항과 원본 앞뒤의 신청자·영농규모·경영/생산유통시설 사업구분·융자신청액·계획·동의를 확인했다. 사업 구비서류가 동일한 신청서와 농업학력·교육·자격·신용조사 자료를 구체적으로 명시하여 실제 농업발전기금 융자 신청과 일치한다.",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "sha256": "09dbe4fbc5568bb146f1785c6797e40d440c56a8ef3043bfeeac76125025ccf2",
+      "bytes": 39424,
+      "signature": "d0cf11e0a1b11ae1",
+      "originalFormat": "hwp",
+      "originalTextScope": "all_body_sections_or_pages",
+      "textScope": "all_body_sections_or_pages",
+      "inspectionScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "BodyText/Section0"
+      ],
+      "reviewedBy": "codex-national_form_audit",
+      "reviewedAt": "2026-10-18",
+      "roleBasis": "연천군 시행규칙 제4조제1항과 원본 앞뒤의 신청자·영농규모·경영/생산유통시설 사업구분·융자신청액·계획·동의를 확인했다. 사업 구비서류가 동일한 신청서와 농업학력·교육·자격·신용조사 자료를 구체적으로 명시하여 실제 농업발전기금 융자 신청과 일치한다.",
+      "roleEvidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1386641",
+      "roleCheckedAt": "2026-10-18",
+      "reviewedParts": [
+        {
+          "number": "1",
+          "title": "연천군 농업발전기금 지원신청서",
+          "use": "main",
+          "author": "사업의 지원대상 신청인 또는 허용된 대리인"
+        }
+      ],
+      "bodyEvidenceArticles": [
+        "제1조(목적) 이 규칙은 「연천군 농업발전기금 설치 및 운용조례」의 시행에 필요한 사항을 규정함을 목적으로 한다.〈개정 2017. 5. 4〉",
+        "제4조(융자신청 및 관리)① 「연천군 농업발전기금 설치 및 운용조례」 제8조에 따라 융자를 받으려는 농업인은 별지 제1호서식에 따른 융자신청서를 거주지 관할 읍ㆍ면장의 추천을 받아 군수에게 제출하여야 한다.〈개정 2017. 5. 4〉② 제1항의 융자신청서를 접수한 군수는 별표 1 및 별표 2의 배점표 및 영농규모평가기준에 따라 심사하여야 한다.〈개정 2017. 5. 4〉③ 군수는 제2항의 심사결과 적격자에 대하여 기금관리심의위원회의 심의를 거친후 별지 제2호서식에 따라 기금의 위탁관리기관에 통보하여야 한다.〈개정 2017. 5. 4〉④ 읍ㆍ면장은 융자금을 지원받은 농업인에 대하여 현지지도ㆍ점검등 사후관리를 하여야 한다."
+      ],
+      "independentBodyReview": true,
+      "verifiedAnnexNumber": "1",
+      "annexNumberNote": "annexNumber는 공식 포털 별표 포함 순번을 보존하고 reviewedParts.number 및 verifiedAnnexNumber는 원본 머리말의 실제 인쇄 별지 번호를 기록한다."
+    },
+    {
+      "sourceKind": "ordin",
+      "lawTitle": "서울특별시 동대문구 노인 성인용 보행기 지원 조례",
+      "lawId": "1388920",
+      "annexId": "20524953",
+      "annexNumber": "000100",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=154363025&flNm=%EB%B3%84%EC%A7%80+%EC%A0%9C1%ED%98%B8%EC%84%9C%EC%8B%9D+%EC%84%B1%EC%9D%B8%EC%9A%A9+%EB%B3%B4%ED%96%89%EA%B8%B0+%EC%A7%80%EC%9B%90+%EC%8B%A0%EC%B2%AD%EC%84%9C",
+      "officialPdfUrl": null,
+      "dateKind": "effective",
+      "effectiveDate": "2019-03-28",
+      "regionCode": "11230",
+      "regionLabel": "서울특별시 동대문구",
+      "formId": "ordin-20524953",
+      "formTitle": "별지 제1호서식 성인용 보행기 지원 신청서",
+      "sourceMetadataTitle": "별지 제1호서식 성인용 보행기 지원 신청서",
+      "verifiedDocumentTitle": "성인용 보행기 지원 신청서",
+      "programIds": [
+        "g11230.gov24-305000000101"
+      ],
+      "programNames": [
+        "노인 성인용 보행기 지원"
+      ],
+      "use": "main",
+      "role": "application",
+      "checkedAt": "2026-10-18",
+      "evidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1388920",
+      "evidenceNote": "동대문구 제6조제1항의 별지1과 원본 전체의 보행기 신청·신청인 관계·장기요양결과 또는 의사소견 첨부를 확인했다. 사업이 같은 관할의 생계·의료수급 노인 및 등급외/거동불편 대상과 동일 증빙을 안내한다. 사업 laws에는 상위 노인복지법만 있지만 실제 목적·대상·신청처·첨부서류가 이 구 조례의 단일 보행기 지원 절차와 대응한다.",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "sha256": "7f0ebf066aaa24b6e3b29dfabae7b5e82927c3e44e89910d7346a9414844be8f",
+      "bytes": 15872,
+      "signature": "d0cf11e0a1b11ae1",
+      "originalFormat": "hwp",
+      "originalTextScope": "all_body_sections_or_pages",
+      "textScope": "all_body_sections_or_pages",
+      "inspectionScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "BodyText/Section0"
+      ],
+      "reviewedBy": "codex-national_form_audit",
+      "reviewedAt": "2026-10-18",
+      "roleBasis": "동대문구 제6조제1항의 별지1과 원본 전체의 보행기 신청·신청인 관계·장기요양결과 또는 의사소견 첨부를 확인했다. 사업이 같은 관할의 생계·의료수급 노인 및 등급외/거동불편 대상과 동일 증빙을 안내한다. 사업 laws에는 상위 노인복지법만 있지만 실제 목적·대상·신청처·첨부서류가 이 구 조례의 단일 보행기 지원 절차와 대응한다.",
+      "roleEvidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1388920",
+      "roleCheckedAt": "2026-10-18",
+      "reviewedParts": [
+        {
+          "number": "1",
+          "title": "성인용 보행기 지원 신청서",
+          "use": "main",
+          "author": "사업의 지원대상 신청인 또는 허용된 대리인"
+        }
+      ],
+      "bodyEvidenceArticles": [
+        "제3조(지원대상자) 「국민기초생활보장법」에 따른 생계·의료급여 수급권자 노인으로 다음 각 호의 순위에 따른다.1.「노인장기요양보험법」제15조제2항에 따른 장기요양인정 수급자로 판정을 받지 못한 등급 외의 자2.「노인장기요양보험법」제15조제2항에 따른 장기요양인정 등급 판정 탈락자3.「노인장기요양보험법」제12조에 따른 장기요양인정 신청을 하지 아니하였으나 신체활동이 불편하여 성인용 보행기가 필요하다고 구청장이 인정하는 자",
+        "제6조(지원신청·선정)① 성인용 보행기 지원을 받고자 하는 노인은 별지 제1호서식 신청서를 작성하여 주소지 동장에게 증빙서류와 함께 제출하여야 한다.② 구청장은 제1항에 따라 송부된 신청서 및 증빙서류를 검토하여 지원여부를 결정하여야 한다."
+      ],
+      "independentBodyReview": true,
+      "condition": "신청인 작성란과 동의란을 사용한다. 건강·경제·기존지원 확인은 동 담당자가 작성한다.",
+      "programEvidenceUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/305000000101",
+      "matchingBasis": "exact-local-service-purpose-target-and-documents"
+    },
+    {
+      "sourceKind": "ordin",
+      "lawTitle": "김제시 저소득층 의치 지원에 관한 조례",
+      "lawId": "1390283",
+      "annexId": "19364915",
+      "annexNumber": "000100",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=148751605&flNm=%EB%B3%84%EC%A7%80+%EC%84%9C%EC%8B%9D",
+      "officialPdfUrl": null,
+      "dateKind": "effective",
+      "effectiveDate": "2023-08-10",
+      "regionCode": "52210",
+      "regionLabel": "전북특별자치도 김제시",
+      "formId": "ordin-19364915",
+      "formTitle": "별지 서식",
+      "sourceMetadataTitle": "별지 서식",
+      "verifiedDocumentTitle": "의치 시술지원 신청서·동의서(통합 서식)",
+      "programIds": [
+        "g52210.bokjiro-WLF00003584"
+      ],
+      "programNames": [
+        "저소득층 노인 의치 지원사업"
+      ],
+      "use": "main",
+      "role": "application",
+      "checkedAt": "2026-10-18",
+      "evidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1390283",
+      "evidenceNote": "김제시 제6조제2항 및 묶음 전체에서 별지2의 의료급여/차상위 자격·시술부위·본인 또는 대리인 서명을 확인했다. 이는 사업의 보건소 검진 후 의치 시술지원 신청에 해당한다. 별지1 검진기록·3 의뢰서·4 의원청구·5 대장을 구분하고, 별지3 표제 아래 별도로 있는 본인 개인정보/수혜이력 동의 부분은 신청인 준비서류로 기록한다.",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "sha256": "e2e627a80682442c4f30f5d89d3066055f460b95b4fdb57df0366bdc3d5a93e7",
+      "bytes": 50688,
+      "signature": "d0cf11e0a1b11ae1",
+      "originalFormat": "hwp",
+      "originalTextScope": "all_body_sections_or_pages",
+      "textScope": "all_body_sections_or_pages",
+      "inspectionScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "BodyText/Section0"
+      ],
+      "reviewedBy": "codex-national_form_audit",
+      "reviewedAt": "2026-10-18",
+      "roleBasis": "김제시 제6조제2항 및 묶음 전체에서 별지2의 의료급여/차상위 자격·시술부위·본인 또는 대리인 서명을 확인했다. 이는 사업의 보건소 검진 후 의치 시술지원 신청에 해당한다. 별지1 검진기록·3 의뢰서·4 의원청구·5 대장을 구분하고, 별지3 표제 아래 별도로 있는 본인 개인정보/수혜이력 동의 부분은 신청인 준비서류로 기록한다.",
+      "roleEvidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1390283",
+      "roleCheckedAt": "2026-10-18",
+      "reviewedParts": [
+        {
+          "number": "1",
+          "title": "구강검진 및 면접상담 기록지",
+          "use": "excluded",
+          "author": "검진의사·상담원"
+        },
+        {
+          "number": "2",
+          "title": "의치 시술지원 신청서",
+          "use": "main",
+          "author": "지원대상자 또는 대리신청인"
+        },
+        {
+          "number": "3 중 동의 부분",
+          "title": "개인정보·민감정보·고유식별정보·수혜이력 동의",
+          "use": "additional",
+          "author": "지원대상 본인"
+        },
+        {
+          "number": "3 중 의뢰서",
+          "title": "의치 시술 의뢰서",
+          "use": "excluded",
+          "author": "보건소·시장"
+        },
+        {
+          "number": "4",
+          "title": "의치사업 시술비용 청구서",
+          "use": "excluded",
+          "author": "치과의원장"
+        },
+        {
+          "number": "5",
+          "title": "의치 대상자 관리대장",
+          "use": "excluded",
+          "author": "담당기관"
+        }
+      ],
+      "bodyEvidenceArticles": [
+        "제6조(지원신청 등)① 시장은 지원 신청자의 전신 건강상태와 구강상태를 1차 검진한 후 별지 제1호서식의 구강검진 및 면접상담 기록지를 확인하여 대상자를 선정하여야 한다.② 선정된 지원 대상자는 별지 제2호서식에 따른 의치 시술지원 신청서를 작성하여 시장에게 제출하여야 한다.③ 시장은 선정된 지원대상자를 별지 제3호서식에 의거 시술의료기관에 시술등을 의뢰 하여야 한다.",
+        "제7조(지급절차)① 시술의료기관은 시술등을 완료한 후 별지 제4호서식에 의거 시장에게 시술비를 청구하고, 시장은 청구된 시술비가 제4조에 따른 지원 내용에 맞는 경우 그 시술비를 시술의료기관에 지급한다.② 시장은 시술의료기관이 거짓이나 부정한 방법으로 시술비를 지급 받은 경우 환수조치 하여야 한다. 이 경우 시장은 시술의료기관과의 협약을 해지할 수 있다.",
+        "제9조(대장의 비치) 시장은 저소득층 의치 지원 사업의 효율적인 관리를 위하여 별지 제5호서식의 의치 대상자 관리대장을 비치하여야 한다."
+      ],
+      "independentBodyReview": true,
+      "condition": "보건소 검진·선정 후 별지 제2호 신청서와 본인 개인정보/수혜이력 동의를 작성한다. 검진기록·기관 의뢰·의원 비용청구·관리대장은 신청인이 작성하지 않는다.",
+      "displayTitle": "의치 시술지원 신청서·동의서(통합 서식)"
+    },
+    {
+      "sourceKind": "ordin",
+      "lawTitle": "청양군 관외 대학생 생활안정지원비 지원에 관한조례",
+      "lawId": "1391886",
+      "annexId": "21777831",
+      "annexNumber": "000100",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=163600831&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C1%ED%98%B8%EC%84%9C%EC%8B%9D%5D%EC%B2%AD%EC%96%91%EA%B5%B0+%EA%B4%80%EC%99%B8+%EB%8C%80%ED%95%99%EC%83%9D+%EC%83%9D%ED%99%9C%EC%95%88%EC%A0%95%EC%A7%80%EC%9B%90%EB%B9%84+%EC%A7%80%EC%9B%90+%EC%8B%A0%EC%B2%AD%EC%84%9C",
+      "officialPdfUrl": null,
+      "dateKind": "effective",
+      "effectiveDate": "2019-04-18",
+      "regionCode": "44790",
+      "regionLabel": "충청남도 청양군",
+      "formId": "ordin-21777831",
+      "formTitle": "[별지 제1호서식]청양군 관외 대학생 생활안정지원비 지원 신청서",
+      "sourceMetadataTitle": "[별지 제1호서식]청양군 관외 대학생 생활안정지원비 지원 신청서",
+      "verifiedDocumentTitle": "청양군 관외 대학생 생활안정지원비 지원 신청서",
+      "programIds": [
+        "g44790.gov24-459000000106"
+      ],
+      "programNames": [
+        "관외 대학생 생활안정지원비 지원"
+      ],
+      "use": "main",
+      "role": "application",
+      "checkedAt": "2026-10-18",
+      "evidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1391886",
+      "evidenceNote": "청양군 제4조제1항과 별지1 전체의 관외대학·군내 출신고교·보호자·거주증빙·계좌·신청서명을 확인했다. 사업 구비서류에 같은 신청서와 개인정보 동의를 직접 명시하여 해당 생활안정지원비 신청에 일치한다.",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "sha256": "6cb1e12798b457d77eb56c60d94b962ae6a187c47e06bf73e27b0e2ee11055b8",
+      "bytes": 54784,
+      "signature": "d0cf11e0a1b11ae1",
+      "originalFormat": "hwp",
+      "originalTextScope": "all_body_sections_or_pages",
+      "textScope": "all_body_sections_or_pages",
+      "inspectionScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "BodyText/Section0"
+      ],
+      "reviewedBy": "codex-national_form_audit",
+      "reviewedAt": "2026-10-18",
+      "roleBasis": "청양군 제4조제1항과 별지1 전체의 관외대학·군내 출신고교·보호자·거주증빙·계좌·신청서명을 확인했다. 사업 구비서류에 같은 신청서와 개인정보 동의를 직접 명시하여 해당 생활안정지원비 신청에 일치한다.",
+      "roleEvidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1391886",
+      "roleCheckedAt": "2026-10-18",
+      "reviewedParts": [
+        {
+          "number": "1",
+          "title": "청양군 관외 대학생 생활안정지원비 지원 신청서",
+          "use": "main",
+          "author": "사업의 지원대상 신청인 또는 허용된 대리인"
+        }
+      ],
+      "bodyEvidenceArticles": [
+        "제3조(지원대상 및 지원내용)① 청양군수(이하 “군수”라 한다)는 다음 각 호의 요건을 모두 갖춘 관외 대학생에게 예산의 범위 안에서 생활안정지원비를 지원할 수 있다.1. 본인 또는 본인의 직계존속이 신청 공고일 현재까지 계속하여 1년 이상 군에 주민등록이 되어 있는 사람(직계존속의 범위는 부모·조부모·외조부모에 한한다)2. 청양고등학교, 정산고등학교를 졸업한 사람② 생활안정지원비는 대학교 재학 중 1회에 한하여 100만 원을 지급한다.",
+        "제4조(지원신청 등)① 제3조에 따른 생활안정지원을 위해 군수는 매년 관외 대학생 생활안정지원비 지원계획을 세워 공고하고, 신청자는 별지 제1호서식 및 별지 제2호서식(이하 “지원신청서”라 한다)을 군수에게 제출하여야 한다.② 군수는 제1항에 따라 제출된 지원신청서를 확인하여 지원 사항을 결정하고 생활안정지원비를 신청자에게 지급한다."
+      ],
+      "independentBodyReview": true
+    },
+    {
+      "sourceKind": "ordin",
+      "lawTitle": "청양군 관외 대학생 생활안정지원비 지원에 관한조례",
+      "lawId": "1391886",
+      "annexId": "21777833",
+      "annexNumber": "000200",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=163600833&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C2%ED%98%B8%EC%84%9C%EC%8B%9D%5D%EA%B0%9C%EC%9D%B8%EC%A0%95%EB%B3%B4+%EC%88%98%EC%A7%91%EB%8F%99%EC%9D%98%EC%84%9C",
+      "officialPdfUrl": null,
+      "dateKind": "effective",
+      "effectiveDate": "2019-04-18",
+      "regionCode": "44790",
+      "regionLabel": "충청남도 청양군",
+      "formId": "ordin-21777833",
+      "formTitle": "[별지 제2호서식]개인정보 수집동의서",
+      "sourceMetadataTitle": "[별지 제2호서식]개인정보 수집동의서",
+      "verifiedDocumentTitle": "개인정보 수집동의서",
+      "programIds": [
+        "g44790.gov24-459000000106"
+      ],
+      "programNames": [
+        "관외 대학생 생활안정지원비 지원"
+      ],
+      "use": "additional",
+      "role": "consent",
+      "checkedAt": "2026-10-18",
+      "evidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1391886",
+      "evidenceNote": "청양군 제4조제1항은 별지1과 별지2를 함께 제출하도록 하고 실제 사업도 개인정보 동의서를 명시한다. 원본 전체의 관외 대학생 선발·지원정보·학교 제공 및 본인 서명을 확인하여 신청 준비 동의서로 연결한다.",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "sha256": "2ada8a3880325fe5ac6e489f083a4f518335f630878fb9e2263e6f1f4836a1a3",
+      "bytes": 55808,
+      "signature": "d0cf11e0a1b11ae1",
+      "originalFormat": "hwp",
+      "originalTextScope": "all_body_sections_or_pages",
+      "textScope": "all_body_sections_or_pages",
+      "inspectionScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "BodyText/Section0"
+      ],
+      "reviewedBy": "codex-national_form_audit",
+      "reviewedAt": "2026-10-18",
+      "roleBasis": "청양군 제4조제1항은 별지1과 별지2를 함께 제출하도록 하고 실제 사업도 개인정보 동의서를 명시한다. 원본 전체의 관외 대학생 선발·지원정보·학교 제공 및 본인 서명을 확인하여 신청 준비 동의서로 연결한다.",
+      "roleEvidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1391886",
+      "roleCheckedAt": "2026-10-18",
+      "reviewedParts": [
+        {
+          "number": "2",
+          "title": "개인정보 수집동의서",
+          "use": "additional",
+          "author": "사업의 지원대상 신청인 또는 허용된 대리인"
+        }
+      ],
+      "bodyEvidenceArticles": [
+        "제4조(지원신청 등)① 제3조에 따른 생활안정지원을 위해 군수는 매년 관외 대학생 생활안정지원비 지원계획을 세워 공고하고, 신청자는 별지 제1호서식 및 별지 제2호서식(이하 “지원신청서”라 한다)을 군수에게 제출하여야 한다.② 군수는 제1항에 따라 제출된 지원신청서를 확인하여 지원 사항을 결정하고 생활안정지원비를 신청자에게 지급한다."
+      ],
+      "independentBodyReview": true,
+      "condition": "관외 대학생 생활안정지원비 신청서에 함께 제출하는 개인정보 동의서이다."
+    },
+    {
+      "sourceKind": "ordin",
+      "lawTitle": "인천광역시 동구 효행 장려 및 지원에 관한 조례",
+      "lawId": "1393861",
+      "annexId": "22465491",
+      "annexNumber": "000100",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=168582835&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C1%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%ED%9A%A8%ED%96%89%EC%88%98%EB%8B%B9+%EC%A7%80%EA%B8%89%EC%8B%A0%EC%B2%AD%EC%84%9C",
+      "officialPdfUrl": null,
+      "dateKind": "effective",
+      "effectiveDate": "2019-05-13",
+      "regionCode": "28125",
+      "regionLabel": "인천광역시 제물포구",
+      "formId": "ordin-22465491",
+      "formTitle": "[별지 제1호서식] 효행수당 지급신청서",
+      "sourceMetadataTitle": "[별지 제1호서식] 효행수당 지급신청서",
+      "verifiedDocumentTitle": "효행수당 지급신청서",
+      "programIds": [
+        "g28125.bokjiro-WLF00001222"
+      ],
+      "programNames": [
+        "효행수당"
+      ],
+      "use": "main",
+      "role": "application",
+      "checkedAt": "2026-10-18",
+      "evidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1393861",
+      "evidenceNote": "원문 법규 제13조와 별지1 전체는 4세대 이상 가족의 월별 효행수당 신청이며 복지로 사업의 4세대·동구 거주·월10만원·동일 첨부와 일치한다. 정부24 후보는 제물포구 3세대·5년거주·연1회50만원으로 급여 구성 자체가 달라 이 4세대 서식으로 확대하지 않는다. 지역코드 병합 표기만으로 두 제도를 같은 신청서로 판단하지 않았다.",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "sha256": "cbb0e2ab44cc5fe3f3967019e633e43b91aef2513d20c148b3d9fe68938e1224",
+      "bytes": 17408,
+      "signature": "d0cf11e0a1b11ae1",
+      "originalFormat": "hwp",
+      "originalTextScope": "all_body_sections_or_pages",
+      "textScope": "all_body_sections_or_pages",
+      "inspectionScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "BodyText/Section0"
+      ],
+      "reviewedBy": "codex-national_form_audit",
+      "reviewedAt": "2026-10-18",
+      "roleBasis": "원문 법규 제13조와 별지1 전체는 4세대 이상 가족의 월별 효행수당 신청이며 복지로 사업의 4세대·동구 거주·월10만원·동일 첨부와 일치한다. 정부24 후보는 제물포구 3세대·5년거주·연1회50만원으로 급여 구성 자체가 달라 이 4세대 서식으로 확대하지 않는다. 지역코드 병합 표기만으로 두 제도를 같은 신청서로 판단하지 않았다.",
+      "roleEvidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1393861",
+      "roleCheckedAt": "2026-10-18",
+      "reviewedParts": [
+        {
+          "number": "1",
+          "title": "효행수당 지급신청서",
+          "use": "main",
+          "author": "사업의 지원대상 신청인 또는 허용된 대리인"
+        }
+      ],
+      "bodyEvidenceArticles": [
+        "제10조(지급대상) 효행수당의 지급대상자(이하 “대상자”라 한다)는 70세 이상의 부모 등을 부양하고 있는 직계존속과 직계비속을 포함한 4대 이상이 지급 기준일 현재 3년 이상 계속하여 동구에 주민등록 되어 함께 실거주하는 세대로 한다. (개정 2023.11.23.)",
+        "제11조(지급액) 효행수당의 지급액은 월 10만원으로 예산의 범위에서 지급할 수 있다.",
+        "제13조(지급신청 및 방법)① 효행수당을 지급받고자 하는 사람은 별지 제1호 서식에 따른 신청서를 관할 동 행정복지센터에 제출하여야 한다.② 동장은 신청서가 접수되면 해당 행정기관의 행정정보를 이용하여 신청인의 주소, 관내에 거주기간 등을 확인하여 지급사유가 발생하는 달의 20일까지 별지 제1호 서식 및 제2호 서식에 의한 대상자 명부를 구청장에게 제출하여야 한다.③ 구청장은 대상자를 확정하여 개인별 금융계좌로 지급한다.④ 본인이 부득이한 사유로 신청할 수 없을 경우에는 배우자, 부양의무자 또는 위임받은 사람(위임장 소지자)의 신청에 따라 지급한다.⑤ 제15조의 규정에 따른 지급중지 사유 발생 시에는 그 사유가 발생한 달까지 지급한다."
+      ],
+      "independentBodyReview": true,
+      "condition": "복지로에 안내된 4세대 이상 월별 효행수당 신청 범위에 한정한다. 제물포구 3세대 연간 효행지원금의 신청서로 사용한다는 관계는 확인되지 않았다."
+    },
+    {
+      "sourceKind": "ordin",
+      "lawTitle": "청양군 음식물류 폐기물 감량기기 설치 및 지원 조례",
+      "lawId": "1394757",
+      "annexId": "6525227",
+      "annexNumber": "000100",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=42171697&flNm=%5B%EB%B3%84%EC%A7%80%5D%EC%9D%8C%EC%8B%9D%EB%AC%BC%EB%A5%98+%ED%8F%90%EA%B8%B0%EB%AC%BC+%EA%B0%90%EB%9F%89%EA%B8%B0%EA%B8%B0+%EC%84%A4%EC%B9%98+%EC%A7%80%EC%9B%90%EA%B8%88+%EC%8B%A0%EC%B2%AD%EC%84%9C",
+      "officialPdfUrl": null,
+      "dateKind": "effective",
+      "effectiveDate": "2019-05-16",
+      "regionCode": "44790",
+      "regionLabel": "충청남도 청양군",
+      "formId": "ordin-6525227",
+      "formTitle": "[별지]음식물류 폐기물 감량기기 설치 지원금 신청서",
+      "sourceMetadataTitle": "[별지]음식물류 폐기물 감량기기 설치 지원금 신청서",
+      "verifiedDocumentTitle": "음식물류 폐기물 감량기기 설치 지원금 신청서",
+      "programIds": [
+        "g44790.gov24-459000000129"
+      ],
+      "programNames": [
+        "음식물쓰레기 감량기기 구입비 지원"
+      ],
+      "use": "main",
+      "role": "application",
+      "checkedAt": "2026-10-18",
+      "evidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1394757",
+      "evidenceNote": "청양군 제8조제3항과 원본 전체의 세대·기기 제조사·구입액·감량방식·설치장소·지원신청액·영수증·계좌를 대조했다. 후보의 가정용 음식물 감량기기 구입비50% 지원과 동일한 주민 신청이며 하단 설치확인은 공무원이 작성한다.",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "sha256": "2bd3ffd910dba331dbcd88461e06d8108b3d372115028fcd6c3e46a89aa1b53c",
+      "bytes": 15872,
+      "signature": "d0cf11e0a1b11ae1",
+      "originalFormat": "hwp",
+      "originalTextScope": "all_body_sections_or_pages",
+      "textScope": "all_body_sections_or_pages",
+      "inspectionScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "BodyText/Section0"
+      ],
+      "reviewedBy": "codex-national_form_audit",
+      "reviewedAt": "2026-10-18",
+      "roleBasis": "청양군 제8조제3항과 원본 전체의 세대·기기 제조사·구입액·감량방식·설치장소·지원신청액·영수증·계좌를 대조했다. 후보의 가정용 음식물 감량기기 구입비50% 지원과 동일한 주민 신청이며 하단 설치확인은 공무원이 작성한다.",
+      "roleEvidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1394757",
+      "roleCheckedAt": "2026-10-18",
+      "reviewedParts": [
+        {
+          "number": "1",
+          "title": "음식물류 폐기물 감량기기 설치 지원금 신청서",
+          "use": "main",
+          "author": "사업의 지원대상 신청인 또는 허용된 대리인"
+        }
+      ],
+      "bodyEvidenceArticles": [
+        "제7조(감량기기 설치비 지원 등) ① 군수는 감량기기 설치가구에 대하여 예산의 범위 내에서 감량기기 설치비의 일부(이하“보조금”이라 한다)를 지원할 수 있다.② 보조금의 지원대상은「건축법 시행령」제3조의5제1호의 별표 1의1.단독주택 중 가.단독주택 및 다.다가구주택에 대하여 1가구당 가정용 감량기기 1대에 한정한다.③ 지원금액은 감량기기 구입금액의 100분의 50 이내로 하며, 30만원을 넘을 수 없다.",
+        "제8조(보조금 신청) ① 보조금을 지원받고자 하는 사람은(이하“신청자”라 한다) 구입 또는 설치일부터 3개월 이내에 관할 읍·면에 보조금을 신청하여야 한다.② 제1항에 따른 신청자는 감량기기를 설치한 각 세대의 세대주를 포함한 세대구성원에 한한다.③ 제1항의 신청자는 구입영수증(판매점명, 판매책임자, 상품명, 구입연월일이 표시되어 있는 것)을 별지 서식에 따른 신청서와 함께 제출하여야 한다.④ 제3항의 신청서를 접수받은 관할 읍·면장은 감량기기의 구입 또는 설치사실을 현장에서 확인 후 군수에게 제출하여야 한다."
+      ],
+      "independentBodyReview": true,
+      "condition": "기기 구입·설치 후 신청하는 지원금 서식이다. 실제 접수기간 및 대상 주택·기기 요건은 해당 연도 안내를 확인하고 설치확인란은 담당자가 작성한다."
+    },
+    {
+      "sourceKind": "ordin",
+      "lawTitle": "의정부시 중증장애인 및 시각장애인 유료방송 이용요금 지원 조례 시행규칙",
+      "lawId": "1394902",
+      "annexId": "20178501",
+      "annexNumber": "000100",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=152768101&flNm=%5B%EB%B3%84%EC%A7%80%EC%84%9C%EC%8B%9D%5D+%EC%9C%A0%EB%A3%8C%EB%B0%A9%EC%86%A1+%EC%9D%B4%EC%9A%A9%EC%9A%94%EA%B8%88+%EC%A7%80%EC%9B%90+%EC%8B%A0%EC%B2%AD%EC%84%9C",
+      "officialPdfUrl": null,
+      "dateKind": "effective",
+      "effectiveDate": "2019-07-01",
+      "regionCode": "41150",
+      "regionLabel": "경기도 의정부시",
+      "formId": "ordin-20178501",
+      "formTitle": "[별지서식] 유료방송 이용요금 지원 신청서",
+      "sourceMetadataTitle": "[별지서식] 유료방송 이용요금 지원 신청서",
+      "verifiedDocumentTitle": "유료방송 이용요금 지원 신청서",
+      "programIds": [
+        "g41150.bokjiro-WLF00000712"
+      ],
+      "programNames": [
+        "의정부시 중증장애인 및 시각장애인 유료방송 이용요금 지원"
+      ],
+      "use": "main",
+      "role": "application",
+      "checkedAt": "2026-10-18",
+      "evidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1394902",
+      "evidenceNote": "의정부시 시행규칙 제3조는 부모 조례의 이용요금 지원 신청을 이 별지로 정한다. 전체 원본의 신청인·지원대상자·관계·서명과 공무원 확인란을 읽어 동일 중증·시각장애인 가구 유료방송 지원의 주민 신청임을 확인했다.",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "sha256": "6c9234537b0466abd9625d57f645fdd1b36777c91167584d93b075ebf0333942",
+      "bytes": 23552,
+      "signature": "d0cf11e0a1b11ae1",
+      "originalFormat": "hwp",
+      "originalTextScope": "all_body_sections_or_pages",
+      "textScope": "all_body_sections_or_pages",
+      "inspectionScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "BodyText/Section0"
+      ],
+      "reviewedBy": "codex-national_form_audit",
+      "reviewedAt": "2026-10-18",
+      "roleBasis": "의정부시 시행규칙 제3조는 부모 조례의 이용요금 지원 신청을 이 별지로 정한다. 전체 원본의 신청인·지원대상자·관계·서명과 공무원 확인란을 읽어 동일 중증·시각장애인 가구 유료방송 지원의 주민 신청임을 확인했다.",
+      "roleEvidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1394902",
+      "roleCheckedAt": "2026-10-18",
+      "reviewedParts": [
+        {
+          "number": "별지 서식",
+          "title": "유료방송 이용요금 지원 신청서",
+          "use": "main",
+          "author": "사업의 지원대상 신청인 또는 허용된 대리인"
+        }
+      ],
+      "bodyEvidenceArticles": [
+        "제1조(목적) 이 규칙은 「의정부시 중증장애인 및 시각장애인 유료방송 이용요금 지원 조례」의 시행에 필요한 사항을 규정함을 목적으로 한다.",
+        "제2조(지원대상) 「의정부시 중증장애인 및 시각장애인 유료방송 이용요금 지원 조례」(이하 “조례”라 한다) 제3조 및 제5조제2항에 따른 지원대상은 「국민기초생활 보장법」에 따른 수급자 가구 중에서 다음 각 호의 순위에 따라 선정한다.1. 등록된 시각장애인 중 좋은 눈의 시력이 0.02 이하인 사람이 포함된 가구 <개정 2019.5.21.>2. 제1호 외에 장애정도가 심한 시각장애인 사람이 포함된 가구 <개정 2019.5.21.>3. 제1호 및 제2호 외에 장애정도가 심한 장애인이 포함된 가구 <개정 2019.5.21.>",
+        "제3조(지원신청) 조례 제6조제1항의 이용요금 지원 신청서는 별지 서식에 따른다."
+      ],
+      "independentBodyReview": true,
+      "condition": "지원대상 가구의 신청인 부분을 작성한다. 지원대상·실거주 확인란은 동 담당자 작성이다.",
+      "verifiedAnnexNumber": "번호 없음",
+      "annexNumberNote": "공식 annexNumber는 보존하되 원본 머리말은 번호 없는 별지 서식이므로 reviewedParts에 임의의 제1호 번호를 부여하지 않는다."
+    },
+    {
+      "sourceKind": "ordin",
+      "lawTitle": "울릉군 실내 어린이놀이시설 설치 및 운영 조례",
+      "lawId": "1395133",
+      "annexId": "18313129",
+      "annexNumber": "000200",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=143086593&flNm=%EB%B3%84%EC%A7%80+%EC%A0%9C1%ED%98%B8%EC%84%9C%EC%8B%9D",
+      "officialPdfUrl": null,
+      "dateKind": "effective",
+      "effectiveDate": "2019-05-21",
+      "regionCode": "47940",
+      "regionLabel": "경상북도 울릉군",
+      "formId": "ordin-18313129",
+      "formTitle": "별지 제1호서식",
+      "sourceMetadataTitle": "별지 제1호서식",
+      "verifiedDocumentTitle": "울릉군 한마음꿈터 회원가입신청서",
+      "programIds": [
+        "g47940.gov24-526000000131"
+      ],
+      "programNames": [
+        "울릉한마음꿈터운영사업"
+      ],
+      "use": "main",
+      "role": "application",
+      "checkedAt": "2026-10-18",
+      "evidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1395133",
+      "evidenceNote": "울릉군 제8조제1항과 별지1 앞뒤 전체에서 한마음꿈터 회원 보호자·아동·가족관계·이용약관·개인정보 동의를 확인했다. 사업 구비서류에도 회원가입 시 신청서·가족관계증명을 명시하여 해당 프로그램 이용의 회원등록 절차와 일치한다.",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "sha256": "8255c21e9d169d96c7b5aea75ba44da66b22255463fbd14469fc8c02edd4e594",
+      "bytes": 20480,
+      "signature": "d0cf11e0a1b11ae1",
+      "originalFormat": "hwp",
+      "originalTextScope": "all_body_sections_or_pages",
+      "textScope": "all_body_sections_or_pages",
+      "inspectionScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "BodyText/Section0"
+      ],
+      "reviewedBy": "codex-national_form_audit",
+      "reviewedAt": "2026-10-18",
+      "roleBasis": "울릉군 제8조제1항과 별지1 앞뒤 전체에서 한마음꿈터 회원 보호자·아동·가족관계·이용약관·개인정보 동의를 확인했다. 사업 구비서류에도 회원가입 시 신청서·가족관계증명을 명시하여 해당 프로그램 이용의 회원등록 절차와 일치한다.",
+      "roleEvidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1395133",
+      "roleCheckedAt": "2026-10-18",
+      "reviewedParts": [
+        {
+          "number": "1",
+          "title": "울릉군 한마음꿈터 회원가입신청서",
+          "use": "main",
+          "author": "아동의 보호자 등 조례상 가입 자격자"
+        }
+      ],
+      "bodyEvidenceArticles": [
+        "제8조(회원가입 및 등록)① 시설을 이용하려는 사람은 별지 제1호서식의 회원가입신청서를 작성하여 회원 가입 절차를 거쳐야 한다. 다만 다른 지역에 주소를 둔 이용자는 그러하지 않는다.② 회원가입 대상은 울릉군(이하 “군”이라 한다)에 주민등록이 되어있는 9세 미만 아동의 직계존속이나 법정보호자 또는 군 소재 직장인과 군 소재 어린이집의 장으로 한정한다.③ 제1항에 따라 가입한 회원은 1가정 1회원으로 한다.④ 등록된 아동의 직계존속 또는 법정보호자 등의 가족관계 변동에 의해 회원을 변경하여 등록하는 경우에는 기존 회원의 자격을 이어받은 것으로 본다.⑤ 운영자는 별지 제2호서식의 회원 등록관리부를 작성ㆍ보관하고, 시설운영관리프로그램을 이용하여 회원의 등록정보를 관리할 수 있다."
+      ],
+      "independentBodyReview": true,
+      "condition": "한마음꿈터 회원등록 신청서이다. 개별 프로그램 모집의 추가 신청 절차는 별도 공고를 확인하고 회원관리번호·등록일은 운영자가 작성한다.",
+      "displayTitle": "울릉군 한마음꿈터 회원가입신청서",
+      "verifiedAnnexNumber": "1",
+      "annexNumberNote": "annexNumber는 공식 포털 별표 포함 순번을 보존하고 reviewedParts.number 및 verifiedAnnexNumber는 원본 머리말의 실제 인쇄 별지 번호를 기록한다."
+    },
+    {
+      "sourceKind": "ordin",
+      "lawTitle": "정선군 출산장려 및 양육지원에 관한 조례 시행규칙",
+      "lawId": "1396093",
+      "annexId": "20053669",
+      "annexNumber": "000100",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=152325591&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C1%ED%98%B8%EC%84%9C%EC%8B%9D%5D%EC%A0%95%EC%84%A0%EA%B5%B0+%EC%B6%9C%EC%83%9D%EC%95%84+%EC%96%91%EC%9C%A1%EB%B9%84+%EB%93%B1+%EC%A7%80%EC%9B%90+%EC%8B%A0%EC%B2%AD%EC%84%9C",
+      "officialPdfUrl": null,
+      "dateKind": "effective",
+      "effectiveDate": "2019-07-01",
+      "regionCode": "51770",
+      "regionLabel": "강원특별자치도 정선군",
+      "formId": "ordin-20053669",
+      "formTitle": "[별지 제1호서식]정선군 출생아 양육비 등 지원 신청서",
+      "sourceMetadataTitle": "[별지 제1호서식]정선군 출생아 양육비 등 지원 신청서",
+      "verifiedDocumentTitle": "정선군 출생아 양육비 등 지원 신청서",
+      "programIds": [
+        "g51770.gov24-429000000765"
+      ],
+      "programNames": [
+        "정선군 출생아 양육비 지원"
+      ],
+      "use": "main",
+      "role": "application",
+      "checkedAt": "2026-10-18",
+      "evidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1396093",
+      "evidenceNote": "정선군 시행규칙 제3조와 별지1 전체의 출생자·부모·거주기간·가족·지원액·계좌 및 양육비 신청문을 대조했다. 두 후보 중 양육비 지원의 구비서류가 이 신청서를 명시하며, 출산용품 상품권을 선택하거나 수령하는 항목은 없어 양육비 사업에만 연결한다.",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "sha256": "d9e4b02f1064e779385da9959f12bb37b3b37726e76a134f646ce3345b41c144",
+      "bytes": 17920,
+      "signature": "d0cf11e0a1b11ae1",
+      "originalFormat": "hwp",
+      "originalTextScope": "all_body_sections_or_pages",
+      "textScope": "all_body_sections_or_pages",
+      "inspectionScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "BodyText/Section0"
+      ],
+      "reviewedBy": "codex-national_form_audit",
+      "reviewedAt": "2026-10-18",
+      "roleBasis": "정선군 시행규칙 제3조와 별지1 전체의 출생자·부모·거주기간·가족·지원액·계좌 및 양육비 신청문을 대조했다. 두 후보 중 양육비 지원의 구비서류가 이 신청서를 명시하며, 출산용품 상품권을 선택하거나 수령하는 항목은 없어 양육비 사업에만 연결한다.",
+      "roleEvidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1396093",
+      "roleCheckedAt": "2026-10-18",
+      "reviewedParts": [
+        {
+          "number": "1",
+          "title": "정선군 출생아 양육비 등 지원 신청서",
+          "use": "main",
+          "author": "사업의 지원대상 신청인 또는 허용된 대리인"
+        }
+      ],
+      "bodyEvidenceArticles": [
+        "제1조(목적) 이 규칙은 「정선군 출산장려 및 양육지원에 관한 조례」시행에 관하여 필요한 사항을 정함을 목적으로 한다. <개정 2011.06.15., 2015.12.23.>",
+        "제3조(지원신청 등)①읍·면장은 출생신고서를 접수받은 경우 출생자의 양육비 지원 여부를 확인하고 조례 제4조의 지원대상에 해당될 경우 양육비 지원 신청에 관한 사항을 안내하여야 한다.②조례 제9조제1항에 따른 양육비지원신청서는 별지제1호서식으로 한다.<개정 2015.12.23., 2019.05.31>③조례 제9조제1항의 신청기간 이내에 신청할 경우 지원기준일이 속하는 달부터 소급하여 지급한다. <신설 2011.06.15., 개정 2015.12.23., 2019.05.31>",
+        "제4조(지원절차)①읍·면장은 신청서가 접수되면 해당 행정기관의 공부, 행정전산망자료 등 행정정보를 통하여 조례 제4조의 지원요건 및 대상과 관련된 사항을 확인하고, 지원대상으로 적합한 경우 신청 접수일부터 10일 이내에 신청서와 관련 공부를 군수에게 송부하여야 한다.<개정 2015.12.23.>②군수는 읍ㆍ면장이 송부한 신청서와 관련 공부를 검토하는 등 지원대상자에 대하여 지원여부를 심사 하고, 그 결과를 신청인에게 통지하여야 한다."
+      ],
+      "independentBodyReview": true,
+      "condition": "출생아 양육비 지원에 사용한다. 별도 출산용품 상품권 신청서로 확대하지 않는다."
+    },
+    {
+      "sourceKind": "ordin",
+      "lawTitle": "안양시 장애인가정 출산지원금 지원에 관한 조례 시행규칙",
+      "lawId": "1397443",
+      "annexId": "20191143",
+      "annexNumber": "000100",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=152832771&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C1%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EC%9E%A5%EC%95%A0%EC%9D%B8%EA%B0%80%EC%A0%95+%EC%B6%9C%EC%82%B0%EC%A7%80%EC%9B%90%EA%B8%88+%EC%A7%80%EA%B8%89+%EC%8B%A0%EC%B2%AD%EC%84%9C",
+      "officialPdfUrl": null,
+      "dateKind": "effective",
+      "effectiveDate": "2019-06-10",
+      "regionCode": "41170",
+      "regionLabel": "경기도 안양시",
+      "formId": "ordin-20191143",
+      "formTitle": "[별지 제1호서식] 장애인가정 출산지원금 지급 신청서",
+      "sourceMetadataTitle": "[별지 제1호서식] 장애인가정 출산지원금 지급 신청서",
+      "verifiedDocumentTitle": "장애인가정 출산지원금 지급 신청서",
+      "programIds": [
+        "g41170.bokjiro-WLF00002478"
+      ],
+      "programNames": [
+        "장애인가정 출산장려금 지원"
+      ],
+      "use": "main",
+      "role": "application",
+      "checkedAt": "2026-10-18",
+      "evidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1397443",
+      "evidenceNote": "안양시 시행규칙 제3조제1항과 전체 별지1의 장애인 부모·출생아·출산일·지급계좌·증빙 및 서명을 대조했다. 두 사업의 동일 장애인가정 출산지원금 신청에 해당하고 동 담당자 확인란을 구분한다.",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "sha256": "ab54079db3067c83f465fc5d9023a582b47cabf4bd773aa5b17e81ef6b58698a",
+      "bytes": 35840,
+      "signature": "d0cf11e0a1b11ae1",
+      "originalFormat": "hwp",
+      "originalTextScope": "all_body_sections_or_pages",
+      "textScope": "all_body_sections_or_pages",
+      "inspectionScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "BodyText/Section0"
+      ],
+      "reviewedBy": "codex-national_form_audit",
+      "reviewedAt": "2026-10-18",
+      "roleBasis": "안양시 시행규칙 제3조제1항과 전체 별지1의 장애인 부모·출생아·출산일·지급계좌·증빙 및 서명을 대조했다. 두 사업의 동일 장애인가정 출산지원금 신청에 해당하고 동 담당자 확인란을 구분한다.",
+      "roleEvidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1397443",
+      "roleCheckedAt": "2026-10-18",
+      "reviewedParts": [
+        {
+          "number": "1",
+          "title": "장애인가정 출산지원금 지급 신청서",
+          "use": "main",
+          "author": "사업의 지원대상 신청인 또는 허용된 대리인"
+        }
+      ],
+      "bodyEvidenceArticles": [
+        "제1조(목적) 이 규칙은「안양시 장애인가정 출산지원금 지원에 관한 조례」의 시행에 필요한 사항을 규정함을 목적으로 한다.",
+        "제3조(지원신청 등)① 출산지원을 받고자 하는 장애인가정은 별지 제1호서식의 장애인가정 출산지원금 지급 신청서 또는「임신·출산관련 서비스 통합처리에 관한 규정」별지 제1호서식에 따른 출산 서비스 통합처리 신청서를 주소지 관할 동장에게 제출하여야 한다. <개정 2016. 9. 22, 2019. 6. 10>② 출생신고 후에 출산지원금을 신청한 경우는 출생등록이 되어있는 주민등록의 확인으로 출생증명서를 갈음할 수 있다. 다만, 출생신고일 전에 출산지원금을 신청하는 경우에는 병·의원, 조산원, 그 밖의 분만에 관여한 사람이 작성한 출생증명서를 첨부하여 신청하여야 한다. <개정 2016. 9. 22>",
+        "제4조(지원절차)① 조례 제5조에 따라 동장은 신청서가 접수되면 지원대상자 여부를 확인하여 장애인가정 출산지원금 지원대상 확인사항을 작성하여야 한다.② 동장은 신청서류를 확인하여 익월 7일까지 구청장을 경유하여 시장에게 출산 지원금 신청서류를 송부하여야 하며, 시장은 지원여부를 결정하여 지급 신청서류를 송부 받은 달의 말일까지 출산지원금을 지급하여야 한다.③ 시장은 출산지원금을 지급한 경우에는 별지 제2호서식의 장애인가정 출산지원금 지급대장을 작성·관리하여야 한다. <개정 2016. 9. 22>"
+      ],
+      "independentBodyReview": true,
+      "condition": "장애인가정 출산지원금 신청서이다. 시행규칙은 출산서비스 통합신청서도 허용하므로 이 문서를 모든 경우에 중복 제출해야 한다고 안내하지 않는다."
+    },
+    {
+      "sourceKind": "ordin",
+      "lawTitle": "안양시 장애인가정 출산지원금 지원에 관한 조례 시행규칙",
+      "lawId": "1397443",
+      "annexId": "20191143",
+      "annexNumber": "000100",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=152832771&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C1%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EC%9E%A5%EC%95%A0%EC%9D%B8%EA%B0%80%EC%A0%95+%EC%B6%9C%EC%82%B0%EC%A7%80%EC%9B%90%EA%B8%88+%EC%A7%80%EA%B8%89+%EC%8B%A0%EC%B2%AD%EC%84%9C",
+      "officialPdfUrl": null,
+      "dateKind": "effective",
+      "effectiveDate": "2019-06-10",
+      "regionCode": "41170",
+      "regionLabel": "경기도 안양시",
+      "formId": "ordin-20191143",
+      "formTitle": "[별지 제1호서식] 장애인가정 출산지원금 지급 신청서",
+      "sourceMetadataTitle": "[별지 제1호서식] 장애인가정 출산지원금 지급 신청서",
+      "verifiedDocumentTitle": "장애인가정 출산지원금 지급 신청서",
+      "programIds": [
+        "g41170.gov24-383000000128"
+      ],
+      "programNames": [
+        "장애인가정 출산지원금 지원"
+      ],
+      "use": "main",
+      "role": "application",
+      "checkedAt": "2026-10-18",
+      "evidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1397443",
+      "evidenceNote": "안양시 시행규칙 제3조제1항과 전체 별지1의 장애인 부모·출생아·출산일·지급계좌·증빙 및 서명을 대조했다. 두 사업의 동일 장애인가정 출산지원금 신청에 해당하고 동 담당자 확인란을 구분한다.",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "sha256": "ab54079db3067c83f465fc5d9023a582b47cabf4bd773aa5b17e81ef6b58698a",
+      "bytes": 35840,
+      "signature": "d0cf11e0a1b11ae1",
+      "originalFormat": "hwp",
+      "originalTextScope": "all_body_sections_or_pages",
+      "textScope": "all_body_sections_or_pages",
+      "inspectionScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "BodyText/Section0"
+      ],
+      "reviewedBy": "codex-national_form_audit",
+      "reviewedAt": "2026-10-18",
+      "roleBasis": "안양시 시행규칙 제3조제1항과 전체 별지1의 장애인 부모·출생아·출산일·지급계좌·증빙 및 서명을 대조했다. 두 사업의 동일 장애인가정 출산지원금 신청에 해당하고 동 담당자 확인란을 구분한다.",
+      "roleEvidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1397443",
+      "roleCheckedAt": "2026-10-18",
+      "reviewedParts": [
+        {
+          "number": "1",
+          "title": "장애인가정 출산지원금 지급 신청서",
+          "use": "main",
+          "author": "사업의 지원대상 신청인 또는 허용된 대리인"
+        }
+      ],
+      "bodyEvidenceArticles": [
+        "제1조(목적) 이 규칙은「안양시 장애인가정 출산지원금 지원에 관한 조례」의 시행에 필요한 사항을 규정함을 목적으로 한다.",
+        "제3조(지원신청 등)① 출산지원을 받고자 하는 장애인가정은 별지 제1호서식의 장애인가정 출산지원금 지급 신청서 또는「임신·출산관련 서비스 통합처리에 관한 규정」별지 제1호서식에 따른 출산 서비스 통합처리 신청서를 주소지 관할 동장에게 제출하여야 한다. <개정 2016. 9. 22, 2019. 6. 10>② 출생신고 후에 출산지원금을 신청한 경우는 출생등록이 되어있는 주민등록의 확인으로 출생증명서를 갈음할 수 있다. 다만, 출생신고일 전에 출산지원금을 신청하는 경우에는 병·의원, 조산원, 그 밖의 분만에 관여한 사람이 작성한 출생증명서를 첨부하여 신청하여야 한다. <개정 2016. 9. 22>",
+        "제4조(지원절차)① 조례 제5조에 따라 동장은 신청서가 접수되면 지원대상자 여부를 확인하여 장애인가정 출산지원금 지원대상 확인사항을 작성하여야 한다.② 동장은 신청서류를 확인하여 익월 7일까지 구청장을 경유하여 시장에게 출산 지원금 신청서류를 송부하여야 하며, 시장은 지원여부를 결정하여 지급 신청서류를 송부 받은 달의 말일까지 출산지원금을 지급하여야 한다.③ 시장은 출산지원금을 지급한 경우에는 별지 제2호서식의 장애인가정 출산지원금 지급대장을 작성·관리하여야 한다. <개정 2016. 9. 22>"
+      ],
+      "independentBodyReview": true,
+      "condition": "장애인가정 출산지원금 신청서이다. 시행규칙은 출산서비스 통합신청서도 허용하므로 이 문서를 모든 경우에 중복 제출해야 한다고 안내하지 않는다."
+    },
+    {
+      "sourceKind": "ordin",
+      "lawTitle": "함양군 함양사랑상품권 이용 활성화에 관한 조례 시행규칙",
+      "lawId": "1398359",
+      "annexId": "19629501",
+      "annexNumber": "000200",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=150421351&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C1%ED%98%B8+%EC%84%9C%EC%8B%9D%5D%ED%95%A8%EC%96%91%EC%82%AC%EB%9E%91%EC%83%81%ED%92%88%EA%B6%8C+%EA%B0%9C%EB%B3%84%EA%B0%80%EB%A7%B9%EC%A0%90+%EC%A7%80%EC%A0%95+%EC%8B%A0%EC%B2%AD%EC%84%9C%28%EC%A0%9C4%EC%A1%B0%EC%A0%9C1%ED%95%AD+%EA%B4%80%EB%A0%A8%29",
+      "officialPdfUrl": null,
+      "dateKind": "effective",
+      "effectiveDate": "2019-06-17",
+      "regionCode": "48870",
+      "regionLabel": "경상남도 함양군",
+      "formId": "ordin-19629501",
+      "formTitle": "[별지 제1호 서식]함양사랑상품권 개별가맹점 지정 신청서(제4조제1항 관련)",
+      "sourceMetadataTitle": "[별지 제1호 서식]함양사랑상품권 개별가맹점 지정 신청서(제4조제1항 관련)",
+      "verifiedDocumentTitle": "함양사랑상품권 개별가맹점 지정 신청서",
+      "programIds": [
+        "g48870.gov24-546000000132"
+      ],
+      "programNames": [
+        "지역화폐(함양사랑상품권)"
+      ],
+      "use": "conditional",
+      "role": "application",
+      "checkedAt": "2026-10-18",
+      "evidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1398359",
+      "evidenceNote": "함양군 시행규칙 제4조제1항과 전체 별지1의 사업자·가맹상호·업종·거래계좌·개인정보 동의를 확인했다. 사업은 소비자뿐 아니라 가맹점 결제수수료 절감·홍보·매출 혜택을 명시하므로 개별가맹점 등록을 원하는 사업자에 한정하여 연결한다.",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "sha256": "d94418bf85b45536284421271e79c520dd9eac58b7c028703ae8a975adb0a407",
+      "bytes": 16384,
+      "signature": "d0cf11e0a1b11ae1",
+      "originalFormat": "hwp",
+      "originalTextScope": "all_body_sections_or_pages",
+      "textScope": "all_body_sections_or_pages",
+      "inspectionScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "BodyText/Section0"
+      ],
+      "reviewedBy": "codex-national_form_audit",
+      "reviewedAt": "2026-10-18",
+      "roleBasis": "함양군 시행규칙 제4조제1항과 전체 별지1의 사업자·가맹상호·업종·거래계좌·개인정보 동의를 확인했다. 사업은 소비자뿐 아니라 가맹점 결제수수료 절감·홍보·매출 혜택을 명시하므로 개별가맹점 등록을 원하는 사업자에 한정하여 연결한다.",
+      "roleEvidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1398359",
+      "roleCheckedAt": "2026-10-18",
+      "reviewedParts": [
+        {
+          "number": "1",
+          "title": "함양사랑상품권 개별가맹점 지정 신청서",
+          "use": "conditional",
+          "author": "개별가맹점 지정을 신청하는 사업자 대표"
+        }
+      ],
+      "bodyEvidenceArticles": [
+        "제1조(목적) 이 규칙은 「함양군 함양사랑상품권 이용 활성화에 관한 조례」에서 위임된 사항과 그 시행에 필요한 사항을 규정함을 목적으로 한다.",
+        "제4조(가맹점 지정 및 관리)① 조례 제7조에 따라 함양사랑상품권(이하 “상품권”이라 한다)의 개별가맹점 또는 환전대행가맹점(이하 “가맹점”이라 한다)으로 지정받고자 하는 자는 군수에게 별지 제1호 서식 또는 별지 제2호 서식에 따라 신청서를 제출하여야 한다.② 가맹점 지정 후 당사자 간 별도의 취소 의사표시가 발생하지 않는 한 제1항에 따른 지정기간은 자동연장된 것으로 본다.③ 군수는 지정된 가맹점에 대하여 별지 제3호 서식에 따른 지정서를 교부하여야 한다. 변경된 가맹점에 대해서도 또한 같다.④ 지정받은 가맹점은 다음 각 호에 따른 별지 서식을 군수에게 제출하여야 한다.1. 소재지·대표자 등을 변경하고자 하는 경우 : 별지 제4호 서식2. 지정을 해지하고자 하는 경우 :  별지 제5호 서식⑤ 가맹점의 대표자에게는 조례 제16조의 개인 구매할인을 적용하지 아니한다."
+      ],
+      "independentBodyReview": true,
+      "condition": "상품권 사업의 가맹점 혜택을 이용하려는 개별 사업자의 지정 신청용이다. 일반 소비자의 할인구매 신청서가 아니다.",
+      "verifiedAnnexNumber": "1",
+      "annexNumberNote": "annexNumber는 공식 포털 별표 포함 순번을 보존하고 reviewedParts.number 및 verifiedAnnexNumber는 원본 머리말의 실제 인쇄 별지 번호를 기록한다."
+    },
+    {
+      "sourceKind": "ordin",
+      "lawTitle": "함양군 함양사랑상품권 이용 활성화에 관한 조례 시행규칙",
+      "lawId": "1398359",
+      "annexId": "19629503",
+      "annexNumber": "000300",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=150421353&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C2%ED%98%B8+%EC%84%9C%EC%8B%9D%5D%ED%95%A8%EC%96%91%EC%82%AC%EB%9E%91%EC%83%81%ED%92%88%EA%B6%8C+%ED%99%98%EC%A0%84%EB%8C%80%ED%96%89%EA%B0%80%EB%A7%B9%EC%A0%90+%EC%A7%80%EC%A0%95+%EC%8B%A0%EC%B2%AD%EC%84%9C%28%EC%A0%9C4%EC%A1%B0%EC%A0%9C1%ED%95%AD+%EA%B4%80%EB%A0%A8%29",
+      "officialPdfUrl": null,
+      "dateKind": "effective",
+      "effectiveDate": "2019-06-17",
+      "regionCode": "48870",
+      "regionLabel": "경상남도 함양군",
+      "formId": "ordin-19629503",
+      "formTitle": "[별지 제2호 서식]함양사랑상품권 환전대행가맹점 지정 신청서(제4조제1항 관련)",
+      "sourceMetadataTitle": "[별지 제2호 서식]함양사랑상품권 환전대행가맹점 지정 신청서(제4조제1항 관련)",
+      "verifiedDocumentTitle": "함양사랑상품권 환전대행가맹점 지정 신청서",
+      "programIds": [
+        "g48870.gov24-546000000132"
+      ],
+      "programNames": [
+        "지역화폐(함양사랑상품권)"
+      ],
+      "use": "conditional",
+      "role": "application",
+      "checkedAt": "2026-10-18",
+      "evidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1398359",
+      "evidenceNote": "함양군 제4조제1항은 개별 및 환전대행 가맹점 지정을 각각 별지1·2로 정한다. 전체 별지2에서 상인조직·축제위원회 등의 단체대표·환전대행 점포수·가맹점 명단을 확인했다. 가맹점 혜택을 명시한 사업에서 해당 조직의 환전대행가맹점 등록에 한정한다.",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "sha256": "6ac5da8c04f9873687ffc15e04dfd7dbf536440072617328e8fc075baf4d99f3",
+      "bytes": 16896,
+      "signature": "d0cf11e0a1b11ae1",
+      "originalFormat": "hwp",
+      "originalTextScope": "all_body_sections_or_pages",
+      "textScope": "all_body_sections_or_pages",
+      "inspectionScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "BodyText/Section0"
+      ],
+      "reviewedBy": "codex-national_form_audit",
+      "reviewedAt": "2026-10-18",
+      "roleBasis": "함양군 제4조제1항은 개별 및 환전대행 가맹점 지정을 각각 별지1·2로 정한다. 전체 별지2에서 상인조직·축제위원회 등의 단체대표·환전대행 점포수·가맹점 명단을 확인했다. 가맹점 혜택을 명시한 사업에서 해당 조직의 환전대행가맹점 등록에 한정한다.",
+      "roleEvidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1398359",
+      "roleCheckedAt": "2026-10-18",
+      "reviewedParts": [
+        {
+          "number": "2",
+          "title": "함양사랑상품권 환전대행가맹점 지정 신청서",
+          "use": "conditional",
+          "author": "환전대행가맹점 지정을 신청하는 상인조직 등 대표"
+        }
+      ],
+      "bodyEvidenceArticles": [
+        "제4조(가맹점 지정 및 관리)① 조례 제7조에 따라 함양사랑상품권(이하 “상품권”이라 한다)의 개별가맹점 또는 환전대행가맹점(이하 “가맹점”이라 한다)으로 지정받고자 하는 자는 군수에게 별지 제1호 서식 또는 별지 제2호 서식에 따라 신청서를 제출하여야 한다.② 가맹점 지정 후 당사자 간 별도의 취소 의사표시가 발생하지 않는 한 제1항에 따른 지정기간은 자동연장된 것으로 본다.③ 군수는 지정된 가맹점에 대하여 별지 제3호 서식에 따른 지정서를 교부하여야 한다. 변경된 가맹점에 대해서도 또한 같다.④ 지정받은 가맹점은 다음 각 호에 따른 별지 서식을 군수에게 제출하여야 한다.1. 소재지·대표자 등을 변경하고자 하는 경우 : 별지 제4호 서식2. 지정을 해지하고자 하는 경우 :  별지 제5호 서식⑤ 가맹점의 대표자에게는 조례 제16조의 개인 구매할인을 적용하지 아니한다."
+      ],
+      "independentBodyReview": true,
+      "condition": "상인조직·축제위원회 등이 환전대행가맹점으로 지정받는 경우의 기관·단체 대표자용 서식이다. 개인 소비자 또는 개별가맹점 신청서와 구분한다.",
+      "verifiedAnnexNumber": "2",
+      "annexNumberNote": "annexNumber는 공식 포털 별표 포함 순번을 보존하고 reviewedParts.number 및 verifiedAnnexNumber는 원본 머리말의 실제 인쇄 별지 번호를 기록한다."
+    },
+    {
+      "sourceKind": "ordin",
+      "lawTitle": "함양군 함양사랑상품권 이용 활성화에 관한 조례 시행규칙",
+      "lawId": "1398359",
+      "annexId": "19629507",
+      "annexNumber": "000500",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=150421357&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C4%ED%98%B8+%EC%84%9C%EC%8B%9D%5D%ED%95%A8%EC%96%91%EC%82%AC%EB%9E%91%EC%83%81%ED%92%88%EA%B6%8C+%28%EA%B0%9C%EB%B3%84%C2%B7%ED%99%98%EC%A0%84%EB%8C%80%ED%96%89%29%EA%B0%80%EB%A7%B9%EC%A0%90+%EC%A7%80%EC%A0%95+%EB%B3%80%EA%B2%BD+%EC%8B%A0%EC%B2%AD%EC%84%9C%28%EC%A0%9C4%EC%A1%B0%EC%A0%9C4%ED%95%AD+%EA%B4%80%EB%A0%A8%29",
+      "officialPdfUrl": null,
+      "dateKind": "effective",
+      "effectiveDate": "2019-06-17",
+      "regionCode": "48870",
+      "regionLabel": "경상남도 함양군",
+      "formId": "ordin-19629507",
+      "formTitle": "[별지 제4호 서식]함양사랑상품권 (개별·환전대행)가맹점 지정 변경 신청서(제4조제4항 관련)",
+      "sourceMetadataTitle": "[별지 제4호 서식]함양사랑상품권 (개별·환전대행)가맹점 지정 변경 신청서(제4조제4항 관련)",
+      "verifiedDocumentTitle": "함양사랑상품권 가맹점 지정 변경 신청서",
+      "programIds": [
+        "g48870.gov24-546000000132"
+      ],
+      "programNames": [
+        "지역화폐(함양사랑상품권)"
+      ],
+      "use": "conditional",
+      "role": "application",
+      "checkedAt": "2026-10-18",
+      "evidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1398359",
+      "evidenceNote": "함양군 제4조제4항제1호와 전체 별지4의 가맹점 번호·소재지/대표자 변경 전후·기존 지정서·변경증빙을 확인했다. 가맹점 혜택 참여자의 등록정보를 유지·변경하는 직접 후속 신청에 해당한다.",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "sha256": "e7ebd614cb6b847e4fa3656adfdd7530179d00cf7169744471b93d80211d0c58",
+      "bytes": 16384,
+      "signature": "d0cf11e0a1b11ae1",
+      "originalFormat": "hwp",
+      "originalTextScope": "all_body_sections_or_pages",
+      "textScope": "all_body_sections_or_pages",
+      "inspectionScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "BodyText/Section0"
+      ],
+      "reviewedBy": "codex-national_form_audit",
+      "reviewedAt": "2026-10-18",
+      "roleBasis": "함양군 제4조제4항제1호와 전체 별지4의 가맹점 번호·소재지/대표자 변경 전후·기존 지정서·변경증빙을 확인했다. 가맹점 혜택 참여자의 등록정보를 유지·변경하는 직접 후속 신청에 해당한다.",
+      "roleEvidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1398359",
+      "roleCheckedAt": "2026-10-18",
+      "reviewedParts": [
+        {
+          "number": "4",
+          "title": "함양사랑상품권 가맹점 지정 변경 신청서",
+          "use": "conditional",
+          "author": "기존 가맹점 사업자·단체 대표"
+        }
+      ],
+      "bodyEvidenceArticles": [
+        "제4조(가맹점 지정 및 관리)① 조례 제7조에 따라 함양사랑상품권(이하 “상품권”이라 한다)의 개별가맹점 또는 환전대행가맹점(이하 “가맹점”이라 한다)으로 지정받고자 하는 자는 군수에게 별지 제1호 서식 또는 별지 제2호 서식에 따라 신청서를 제출하여야 한다.② 가맹점 지정 후 당사자 간 별도의 취소 의사표시가 발생하지 않는 한 제1항에 따른 지정기간은 자동연장된 것으로 본다.③ 군수는 지정된 가맹점에 대하여 별지 제3호 서식에 따른 지정서를 교부하여야 한다. 변경된 가맹점에 대해서도 또한 같다.④ 지정받은 가맹점은 다음 각 호에 따른 별지 서식을 군수에게 제출하여야 한다.1. 소재지·대표자 등을 변경하고자 하는 경우 : 별지 제4호 서식2. 지정을 해지하고자 하는 경우 :  별지 제5호 서식⑤ 가맹점의 대표자에게는 조례 제16조의 개인 구매할인을 적용하지 아니한다."
+      ],
+      "independentBodyReview": true,
+      "condition": "이미 지정된 개별 또는 환전대행가맹점이 소재지·대표자 등 등록사항을 변경할 때만 사용한다.",
+      "verifiedAnnexNumber": "4",
+      "annexNumberNote": "annexNumber는 공식 포털 별표 포함 순번을 보존하고 reviewedParts.number 및 verifiedAnnexNumber는 원본 머리말의 실제 인쇄 별지 번호를 기록한다."
+    },
+    {
+      "sourceKind": "ordin",
+      "lawTitle": "함양군 함양사랑상품권 이용 활성화에 관한 조례 시행규칙",
+      "lawId": "1398359",
+      "annexId": "19629515",
+      "annexNumber": "000900",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=150421365&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C8%ED%98%B8+%EC%84%9C%EC%8B%9D%5D%ED%95%A8%EC%96%91%EC%82%AC%EB%9E%91%EC%83%81%ED%92%88%EA%B6%8C+%ED%99%98%EC%A0%84+%EC%B2%AD%EA%B5%AC%EC%84%9C%28%EC%A0%9C6%EC%A1%B0%EC%A0%9C1%ED%95%AD+%EA%B4%80%EB%A0%A8%29",
+      "officialPdfUrl": null,
+      "dateKind": "effective",
+      "effectiveDate": "2019-06-17",
+      "regionCode": "48870",
+      "regionLabel": "경상남도 함양군",
+      "formId": "ordin-19629515",
+      "formTitle": "[별지 제8호 서식]함양사랑상품권 환전 청구서(제6조제1항 관련)",
+      "sourceMetadataTitle": "[별지 제8호 서식]함양사랑상품권 환전 청구서(제6조제1항 관련)",
+      "verifiedDocumentTitle": "함양사랑상품권 환전 청구서",
+      "programIds": [
+        "g48870.gov24-546000000132"
+      ],
+      "programNames": [
+        "지역화폐(함양사랑상품권)"
+      ],
+      "use": "conditional",
+      "role": "application",
+      "checkedAt": "2026-10-18",
+      "evidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1398359",
+      "evidenceNote": "함양군 제6조제1항과 전체 별지8의 권종별 수량·금액·가맹점번호·대표·입금계좌·환전청구 서명을 확인했다. 사업이 가맹점 혜택을 포함하므로 상품권을 수취한 가맹점의 대금 회수 절차에 한정한다. 하단 접수증은 판매대행점 작성이다.",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "sha256": "949f8ac19f205701ebe39e4dcfbeb8121c2f249eae5f4d9c746e63e3fffee6a1",
+      "bytes": 15872,
+      "signature": "d0cf11e0a1b11ae1",
+      "originalFormat": "hwp",
+      "originalTextScope": "all_body_sections_or_pages",
+      "textScope": "all_body_sections_or_pages",
+      "inspectionScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "BodyText/Section0"
+      ],
+      "reviewedBy": "codex-national_form_audit",
+      "reviewedAt": "2026-10-18",
+      "roleBasis": "함양군 제6조제1항과 전체 별지8의 권종별 수량·금액·가맹점번호·대표·입금계좌·환전청구 서명을 확인했다. 사업이 가맹점 혜택을 포함하므로 상품권을 수취한 가맹점의 대금 회수 절차에 한정한다. 하단 접수증은 판매대행점 작성이다.",
+      "roleEvidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1398359",
+      "roleCheckedAt": "2026-10-18",
+      "reviewedParts": [
+        {
+          "number": "8",
+          "title": "함양사랑상품권 환전 청구서",
+          "use": "conditional",
+          "author": "상품권을 수취한 등록가맹점 대표"
+        }
+      ],
+      "bodyEvidenceArticles": [
+        "제6조(환전청구 및 환전기한)① 조례 제10조제1항에 따라 환전을 청구하고자 하는 가맹점은 별지 제8호 서식의 함양사랑 상품권 환전 청구서에 따라 판매대행점에 청구하여야 한다.② 제1항에 따른 환전기한은 판매대행점의 영업일을 기준으로 3일 이내로 한다."
+      ],
+      "independentBodyReview": true,
+      "condition": "상품권을 수취한 등록가맹점이 판매대행점에 대금을 환전 청구할 때 사용한다. 일반 소비자의 할인구매 신청서는 아니다.",
+      "verifiedAnnexNumber": "8",
+      "annexNumberNote": "annexNumber는 공식 포털 별표 포함 순번을 보존하고 reviewedParts.number 및 verifiedAnnexNumber는 원본 머리말의 실제 인쇄 별지 번호를 기록한다."
+    },
+    {
+      "sourceKind": "ordin",
+      "lawTitle": "전주시 장애인 이동기기 수리 등의 지원 조례",
+      "lawId": "1400590",
+      "annexId": "22394143",
+      "annexNumber": "000100",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=168221039&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C1%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EC%9E%A5%EC%95%A0%EC%9D%B8+%EC%9D%B4%EB%8F%99%EA%B8%B0%EA%B8%B0+%EC%88%98%EB%A6%AC+%EC%8B%A0%EC%B2%AD%EC%84%9C",
+      "officialPdfUrl": null,
+      "dateKind": "effective",
+      "effectiveDate": "2019-07-01",
+      "regionCode": "52110",
+      "regionLabel": "전북특별자치도 전주시",
+      "formId": "ordin-22394143",
+      "formTitle": "[별지 제1호서식] 장애인 이동기기 수리 신청서",
+      "sourceMetadataTitle": "[별지 제1호서식] 장애인 이동기기 수리 신청서",
+      "verifiedDocumentTitle": "장애인 이동기기 수리신청서",
+      "programIds": [
+        "g52110.gov24-464000000127"
+      ],
+      "programNames": [
+        "장애인 이동기기 수리 지원"
+      ],
+      "use": "main",
+      "role": "application",
+      "checkedAt": "2026-10-18",
+      "evidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1400590",
+      "evidenceNote": "전주시 수리지원 조례 제8조와 별지1 전체에서 등록장애인·수급유형·기기·수리부위·서명을 확인했다. 사업 원천의 민원인신청→동 의뢰서→업체수리→업체청구 절차와 20/10만원 지원기준이 제7~9조와 구체적으로 일치한다. 사업 laws에는 다른 이용안전 조례가 인용되어 있어 이를 같은 법명으로 간주하지 않고 실제 지원내용·대상·처리절차의 직접 대조 근거로 연결한다.",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "sha256": "3b8500e2ea85ba2696a3df056d5c6c87047c08a23c5e14eb1611c4406038d8cd",
+      "bytes": 12288,
+      "signature": "d0cf11e0a1b11ae1",
+      "originalFormat": "hwp",
+      "originalTextScope": "all_body_sections_or_pages",
+      "textScope": "all_body_sections_or_pages",
+      "inspectionScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "BodyText/Section0"
+      ],
+      "reviewedBy": "codex-national_form_audit",
+      "reviewedAt": "2026-10-18",
+      "roleBasis": "전주시 수리지원 조례 제8조와 별지1 전체에서 등록장애인·수급유형·기기·수리부위·서명을 확인했다. 사업 원천의 민원인신청→동 의뢰서→업체수리→업체청구 절차와 20/10만원 지원기준이 제7~9조와 구체적으로 일치한다. 사업 laws에는 다른 이용안전 조례가 인용되어 있어 이를 같은 법명으로 간주하지 않고 실제 지원내용·대상·처리절차의 직접 대조 근거로 연결한다.",
+      "roleEvidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1400590",
+      "roleCheckedAt": "2026-10-18",
+      "reviewedParts": [
+        {
+          "number": "1",
+          "title": "장애인 이동기기 수리신청서",
+          "use": "main",
+          "author": "사업의 지원대상 신청인 또는 허용된 대리인"
+        }
+      ],
+      "bodyEvidenceArticles": [
+        "제7조(지원대상 및 기준)① 제6조에 따른 장애인 이동기기의 수리비 지원은 제3조에 따라 시장이 지정하는 수리업체를 이용한 경우에만 해당한다.② 지원대상은 시에 주민등록을 두고 실제 거주하는 장애인으로서 다음 각 호와 같이 지원한다.1. 「국민기초생활보장법」에 따른 기초생활수급자 또는 차상위계층 장애인의 경우 수리 비용의 전액을 지원하되, 연간 20만원 이내에서 지원한다.2. 제1호에 해당하지 아니하는 자는 수리비용의 2분의 1을 지원하되, 연간 10만원 이내에서 지원한다.③ 장애인 이동기기의 수리 범위는 출고 시에 장착된 부품과 충전기를 원칙으로 하고, 개인이 별도로 장착한 부품, 장비, 액세서리 등은 지원 대상에서 제외한다.",
+        "제8조(지원신청 등)① 제7조에 따른 지원을 받고자 하는 장애인은 관할 거주지 동장에게 별지 제1호서식의 수리신청서를 제출해야 한다. 이 경우 동장은 다음 각 호의 사항을 검토하여 수리비용 지원대상자를 결정한다.1. 시 관내 등록장애인 여부2. 「국민기초생활보장법」에 따른 기초생활수급자 또는 차상위계층 해당 여부② 동장은 제1항에 따른 검토결과 지원대상자로 인정될 때에는 별지 제2호서식의 수리의뢰서를 지원대상자에게 발급하여 수리업체에게 수리를 하도록 해야 한다.③ 긴급한 고장으로 인해 제1항 및 제2항의 절차를 거치지 못하고 현장방문 수리를 받은 경우에는 해당 장애인이 수리업체에 그 비용을 사전 정산한 후 제1항의 신청서를 동장에게 제출하여야 한다.",
+        "제9조(수리비용의 지급 등)① 지원대상자를 결정한 동장은 매분기 첫 번째 달 1일부터 마지막 달 말일까지의 현황을 다음 분기 첫 번째 달 5일까지 시장에게 보고해야 한다.② 이동기기를 수리한 수리업체는 매분기 첫 번째 달부터 마지막 달 말일까지의 수리내역을 별지 제3호 서식에 기재하여 별지 제4호 서식의 수리비용 청구서와 함께 다음 분기 첫 번째 달 10일까지 시장에게 제출하여야 한다.③ 시장은 제1항 및 제2항에 따른 결정현황과 수리내역서 및 수리비용 청구서를 확인한 후 그 보고를 받은 달의 말일까지 수리업체의 지정계좌에 해당 수리비용을 입금하여야 한다.④ 제8조제3항에 의해 사전 정산 받은 경우 수리업체는 해당 장애인으로부터 별지 제2호서식의 수리의뢰서를 제출 받은 즉시 해당 수리비용을 환불하여야 한다."
+      ],
+      "independentBodyReview": true,
+      "programEvidenceUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/464000000127",
+      "matchingBasis": "exact-local-service-purpose-target-and-procedure"
+    },
+    {
+      "sourceKind": "ordin",
+      "lawTitle": "양양군 저소득 중증장애인가구 유료방송 이용요금 지원 조례",
+      "lawId": "1403840",
+      "annexId": "21340645",
+      "annexNumber": "000100",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=160468383&flNm=%28%EB%B3%84%EC%A7%80+%EC%A0%9C1%ED%98%B8%EC%84%9C%EC%8B%9D%29%EC%9C%A0%EB%A3%8C%EB%B0%A9%EC%86%A1+%EC%9D%B4%EC%9A%A9%EC%9A%94%EA%B8%88+%EC%A7%80%EC%9B%90+%EC%8B%A0%EC%B2%AD%EC%84%9C",
+      "officialPdfUrl": null,
+      "dateKind": "effective",
+      "effectiveDate": "2019-07-15",
+      "regionCode": "51830",
+      "regionLabel": "강원특별자치도 양양군",
+      "formId": "ordin-21340645",
+      "formTitle": "(별지 제1호서식)유료방송 이용요금 지원 신청서",
+      "sourceMetadataTitle": "(별지 제1호서식)유료방송 이용요금 지원 신청서",
+      "verifiedDocumentTitle": "유료방송 이용요금 지원 신청서",
+      "programIds": [
+        "g51830.bokjiro-WLF00002029"
+      ],
+      "programNames": [
+        "저소득 중증장애인가구 유료방송 이용요금 지원"
+      ],
+      "use": "main",
+      "role": "application",
+      "checkedAt": "2026-10-18",
+      "evidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1403840",
+      "evidenceNote": "양양군 제6조제1항과 전체 별지1의 신청인·중증장애인 대상자·관계·서명 및 읍면 확인을 대조했다. 사업 원천의 같은 관할·저소득 중증장애인가구·방송 기본요금과 STB지원·읍면 접수는 조례 제3·5·6조의 구체적 지원과 일치한다. 상위 장애인복지법만 인용한 사업이지만 정확한 지역 서비스 관계를 확인했다.",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "sha256": "985b32c8daad98c7d41a17a84d6fd0423479bbd578824b1da8da3d1bd58341ce",
+      "bytes": 14336,
+      "signature": "d0cf11e0a1b11ae1",
+      "originalFormat": "hwp",
+      "originalTextScope": "all_body_sections_or_pages",
+      "textScope": "all_body_sections_or_pages",
+      "inspectionScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "BodyText/Section0"
+      ],
+      "reviewedBy": "codex-national_form_audit",
+      "reviewedAt": "2026-10-18",
+      "roleBasis": "양양군 제6조제1항과 전체 별지1의 신청인·중증장애인 대상자·관계·서명 및 읍면 확인을 대조했다. 사업 원천의 같은 관할·저소득 중증장애인가구·방송 기본요금과 STB지원·읍면 접수는 조례 제3·5·6조의 구체적 지원과 일치한다. 상위 장애인복지법만 인용한 사업이지만 정확한 지역 서비스 관계를 확인했다.",
+      "roleEvidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1403840",
+      "roleCheckedAt": "2026-10-18",
+      "reviewedParts": [
+        {
+          "number": "1",
+          "title": "유료방송 이용요금 지원 신청서",
+          "use": "main",
+          "author": "사업의 지원대상 신청인 또는 허용된 대리인"
+        }
+      ],
+      "bodyEvidenceArticles": [
+        "제3조(지원대상) 텔레비전 유료방송 이용요금(이하 \"이용요금\"이라 한다) 지원대상은 양양군(이하 \"군\"라 한다)에 실제 거주하고 주민등록이 되어 있는 저소득 중증장애인이 생활하고 있는 가구로 한다.",
+        "제5조(지원내용)① 제3조의 지원대상에게 지원할 수 있는 이용요금은 다음 각 호의 어느 하나로 한다.1.「방송법」제2조제3호의 종합유선방송사업자 및 위성방송사업자가 제공하는 방송의 기본요금 및 STB(Set Top Box) 사용료2.「인터넷 멀티미디어 방송사업법」제2조의 인터넷 멀티미디어 방송의 기본요금 및 STB(Set Top Box) 사용료② 군수는 제1항의 이용요금 중 방송사와의 협약에 따른 경감액을 제외한 비용을 예산의 범위에서 지원할 수 있다.",
+        "제6조(지원신청 및 결정)① 이용요금 지원 신청은 저소득 중증장애인이나 그 법정대리인 또는「장애인복지법 시행령」제20조에 따른 보호자(이하 \"신청인\"이라 한다)가 별지 제1호서식의 이용요금지원 신청서(이하 \"신청서\"라 한다)를 작성하여 거주지 관할 읍·면장에게 제출하여야 한다.② 읍·면장은 신청서가 접수되면 제3조에 따른 지원대상 여부를 사회복지통합전산망 등 행정정보를 통하여 확인하여야 한다.③ 읍·면장은 제2항에 따른 확인결과 지원대상으로 인정되면 신청서의 확인란에 기록 및 날인하여 신청서를 접수한 날부터 10일 이내에 군수에게 송부하여야 한다.④ 군수는 제2항에 따라 송부된 신청서를 검토하여 지원여부를 결정하고 지원대상으로 확정한 때에는 해당 내용을 제4조에 따라 협약을 체결한 방송사와 신청인에게 통보하여야 한다."
+      ],
+      "independentBodyReview": true,
+      "condition": "저소득 중증장애인가구 유료방송 지원 신청에 사용한다. 하단 자격·거주 확인은 읍면 담당자가 작성한다.",
+      "programEvidenceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00002029&wlfareInfoReldBztpCd=02",
+      "matchingBasis": "exact-local-service-purpose-target-and-procedure"
+    },
+    {
+      "sourceKind": "ordin",
+      "lawTitle": "고성군 저소득층 의치보철 지원 조례",
+      "lawId": "1406331",
+      "annexId": "17327977",
+      "annexNumber": "000100",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=139250063&flNm=%EB%B3%84%EC%A7%80+%EC%A0%9C1%ED%98%B8%EC%84%9C%EC%8B%9D",
+      "officialPdfUrl": null,
+      "dateKind": "effective",
+      "effectiveDate": "2020-01-01",
+      "regionCode": "48820",
+      "regionLabel": "경상남도 고성군",
+      "formId": "ordin-17327977",
+      "formTitle": "별지 제1호서식",
+      "sourceMetadataTitle": "별지 제1호서식",
+      "verifiedDocumentTitle": "저소득층 의치보철 지원 신청서",
+      "programIds": [
+        "g48820.gov24-542000000122"
+      ],
+      "programNames": [
+        "저소득층 의치보철 시술비 지원 서비스"
+      ],
+      "use": "main",
+      "role": "application",
+      "checkedAt": "2026-10-18",
+      "evidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1406331",
+      "evidenceNote": "고성군 제6조제1항과 별지1 전체에서 의료급여/차상위 대상자·시술부위·본인/대리인 서명·개인정보·수혜이력 동의를 확인했다. 실제 원본에 틀니 및 임플란트 항목이 모두 있어 사업의 의치보철·임플란트 지원 목적과 일치한다. 시술종류·부위 판정은 보건소 확인란이다.",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "sha256": "cac18482fda93c22b5e7ba323ebe1c7efce5054ac1a5c244e8bd59c7978298e1",
+      "bytes": 19456,
+      "signature": "d0cf11e0a1b11ae1",
+      "originalFormat": "hwp",
+      "originalTextScope": "all_body_sections_or_pages",
+      "textScope": "all_body_sections_or_pages",
+      "inspectionScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "BodyText/Section0"
+      ],
+      "reviewedBy": "codex-national_form_audit",
+      "reviewedAt": "2026-10-18",
+      "roleBasis": "고성군 제6조제1항과 별지1 전체에서 의료급여/차상위 대상자·시술부위·본인/대리인 서명·개인정보·수혜이력 동의를 확인했다. 실제 원본에 틀니 및 임플란트 항목이 모두 있어 사업의 의치보철·임플란트 지원 목적과 일치한다. 시술종류·부위 판정은 보건소 확인란이다.",
+      "roleEvidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1406331",
+      "roleCheckedAt": "2026-10-18",
+      "reviewedParts": [
+        {
+          "number": "1",
+          "title": "저소득층 의치보철 지원 신청서",
+          "use": "main",
+          "author": "사업의 지원대상 신청인 또는 허용된 대리인"
+        }
+      ],
+      "bodyEvidenceArticles": [
+        "제3조(지원대상) 지원대상자는 주민등록상 3년 이상 군에 주소를 둔 50세 이상의 의료급여 수급자 또는 차상위 본인부담경감대상자로 다음 각 호의 어느 하나에 해당하는 사람으로 한다.1. 상·하악 양측에 전혀 치아가 없는 상태로 의치를 갖고 있지 않거나, 치아 기능이 불가능하여 완전 발거 후 의치 제작이 가능하다고 판단되는 사람2. 상·하악 양측 또는 편측 구치 부 결손자 중 지대치의 상태가 양호하여 의치 제작이 가능하다고 판단되는 사람3. 상·하악 양측에 전혀 치아가 없는 상태로 임플란트 지대치가 있어야 의치를 사용할 수 있는 사람",
+        "제4조(지원내용)① 고성군수(이하“군수”라 한다)는 의치보철 지원사업을 효과적으로 추진하기 위하여 예산의 범위에서 시술비 중 본인부담금을 지원할 수 있다.② 제1항에 따른 지원기준은 보건복지부 고시 「건강보험 행위 급여·비급여 목록 및 급여 상대가치점수」를 준용한다.",
+        "제6조(지원절차)① 시술비를 지원받으려는 사람은 별지 제1호서식의 지원신청서를 군수에게 제출하여야 한다.② 군수는 지원신청자에게 사업을 안내하고 자격요건을 확인하여야 한다. 이 경우 별지 제2호서식의 구강검진 및 면접상담 기록지를 작성하여야 한다.③ 군수는 지원대상자를 결정한 후 별지 제3호서식에 따라 시술기관에 의뢰한다.④ 시술기관은 지원대상자의 의치시술을 완료한 후 별지 제4호서식에 따라 군수에게 시술비를 청구하고, 군수는 이를 확인하여 지급한다."
+      ],
+      "independentBodyReview": true,
+      "condition": "지원대상자 신청 및 개인정보·수혜이력 동의를 작성한다. 시술 부위·종류는 보건소가 확인하며 지원한도나 시술 가능 여부를 이 서식 연결만으로 확정하지 않는다.",
+      "displayTitle": "저소득층 의치보철 지원 신청서"
+    }
+  ],
+  "sourceReview": {
+    "file": "logs/forms-completion/reviews/team1-batch-004-reviewed.json",
+    "sha256": "ad028a2e3748bd96438617fdd17b02ede68ee8c05f63ddce3d7a02d9a30cfd73",
+    "dispositionsSHA256": "f65ab4399929fc257f28e609cec4d8999bc012dd7b9e7d8a0f6a9e856648b1f0",
+    "assignmentSHA256": "7879316027f4223f0ff2616ba4c9458958d94e2d72bf50491631bfddcbfe9a89"
+  }
+}

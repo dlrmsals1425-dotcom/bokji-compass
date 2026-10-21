@@ -5,6 +5,7 @@
  */
 import { useEffect, useRef, useState } from "react";
 import Link from "next/link";
+import styles from "../finder.module.css";
 import { useRouter } from "next/navigation";
 import { Icon } from "@/components/Icon";
 import { loadForRegion, loadRegions } from "@/lib/client/bundles";
@@ -233,7 +234,7 @@ export function GuidedFlow() {
   const sidoObj = regions?.sidos.find((s) => s.code === pickSido);
 
   return (
-    <>
+    <div className={`${styles.finder} ${styles.guided}`}>
       <div className="form-head">
         <div className="narrow">
           <ol className="crumbs" aria-label="현재 위치">
@@ -275,7 +276,7 @@ export function GuidedFlow() {
             )}
 
             {phase === "who" && (
-              <section aria-labelledby="gq-h">
+              <section aria-labelledby="gq-h" className={styles.questionLayout}>
                 <h1 className="h2 gq-q" id="gq-h" tabIndex={-1} ref={headRef}>
                   누구의 복지를 찾으세요?
                 </h1>
@@ -291,7 +292,7 @@ export function GuidedFlow() {
             )}
 
             {phase === "where" && (
-              <section aria-labelledby="gq-h">
+              <section aria-labelledby="gq-h" className={styles.questionLayout}>
                 <h1 className="h2 gq-q" id="gq-h" tabIndex={-1} ref={headRef}>
                   {loc.kind === "found"
                     ? `${loc.where.label}에서 복지를 받으시나요?`
@@ -493,7 +494,7 @@ export function GuidedFlow() {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 }
 

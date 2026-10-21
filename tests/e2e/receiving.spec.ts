@@ -6,6 +6,7 @@ test("'이미 받고 있어요' → 5가지·준비물에서 빠지고 아래에
   const picks = page.getByTestId("top-picks");
   await expect(picks.getByTestId("pick")).toHaveCount(5, { timeout: 20_000 });
   const first = (await picks.getByTestId("pick").first().locator("h3").innerText()).trim();
+  await picks.getByTestId("pick").first().getByTestId("benefit-more").locator("summary").click();
   await picks.getByTestId("pick").first().getByTestId("receiving-toggle").click();
   // 5가지는 다음 혜택으로 채워지고, 표시한 혜택은 없다
   await expect(picks.getByTestId("pick")).toHaveCount(5);
@@ -33,6 +34,7 @@ test("목록 카드에서도 표시할 수 있다", async ({ page }) => {
   const card = page.locator("#v2-fit [data-testid=v2-card]").first();
   await expect(card).toBeVisible({ timeout: 20_000 });
   const name = (await card.locator("h3").innerText()).trim();
+  await card.getByTestId("benefit-more").locator("summary").click();
   await card.getByTestId("receiving-toggle").click();
   await expect(page.locator("#v2-fit h3", { hasText: name })).toHaveCount(0);
   await expect(page.getByTestId("receiving-section")).toContainText(name);

@@ -1,0 +1,212 @@
+{
+  "schema": 1,
+  "checkedAt": "2026-10-19",
+  "status": "complete",
+  "items": [
+    {
+      "formId": "agency-11710-park119-exclusive-application",
+      "sha256": "59beb4414ce98ed9210184577051e77220003aead5f5cb2181324bd18b5b76ca",
+      "disposition": "approved",
+      "fullBodyReviewed": true,
+      "reason": "코디네이터가 현재 공단의 실제 방문신청 배포 링크·2026 운영 안내, 원본 앞뒤2399자 및 현행2107613 제5조/제6조와 구청→공단→주차포털 공식 연결 근거를 대조했다. 이전 법령묶음과 SHA가 다른 실제 현재 배포 신청서로, 방문배정과 감면 증빙의 접수에만 조건부 제공한다. 옛 장애등급·조문 인쇄는 보존하고 현재 자격을 구등급으로 추정하지 않는다.",
+      "evidenceUrl": "https://songpa.park119.co.kr/userNew/guide/apply_entry_guide.aspx",
+      "checkedAt": "2026-10-19",
+      "relatedProgramIds": [
+        "g11710.gov24-O00023700005"
+      ],
+      "reviewedProgramPairs": [
+        {
+          "programId": "g11710.gov24-O00023700005",
+          "disposition": "approved"
+        }
+      ],
+      "sourceProposal": "logs/forms-completion/official-followup/root/agency-normalized-round8003.json",
+      "sourceProposalSHA256": "53a851216538fa7ee3cb63a9718d9c389f04a980f6bd55850075272c4fb720c0",
+      "sourceLawBodySHA256": "3edcb2b912b8f8bf864a24a5806681a6d7c4433cf33247d89b2c8807755aa461",
+      "selectedParts": [
+        {
+          "number": "4",
+          "title": "전용주차구획 이용 신청서 및 개인정보 동의",
+          "use": "conditional",
+          "author": "거주자우선주차구획 신청 주민"
+        }
+      ]
+    },
+    {
+      "formId": "agency-43000-cbfc-2026-youth-grant",
+      "sha256": "0f142c733e5e52aecce67c0f41c4b0adc03501dadd25c2408942695c31295c4d",
+      "disposition": "approved",
+      "fullBodyReviewed": true,
+      "reason": "코디네이터가 두 작업자의 독립 전체원문·내장로고 검토와 실제 원본 SHA, 2026 청년공모 및 운영가이드의 교부·변경 절차를 대조했다. 선정된 개인이 실제 결정액·NCAS정보를 기입하는 교부/변경 작성용으로만 승인하며 고정500만원을 급여로 안내하지 않는다. 확정 일정이 서식의 인쇄기간과 맞는 선정자에게만 한정하고 12월 실사업 등 충돌 사례에는 제공가능 판정을 하지 않는다. 최초공모·완료후소급신청에 확대하지 않는다.",
+      "evidenceUrl": "https://www.cbfc.or.kr/home/sub.php?menukey=6442&mod=view&no=2045467&scode=00000003",
+      "checkedAt": "2026-10-19",
+      "relatedProgramIds": [
+        "s43000.gov24-O00113600007"
+      ],
+      "reviewedProgramPairs": [
+        {
+          "programId": "s43000.gov24-O00113600007",
+          "disposition": "approved"
+        }
+      ],
+      "sourceProposal": "logs/forms-completion/official-followup/root/agency-normalized-round8003.json",
+      "sourceProposalSHA256": "53a851216538fa7ee3cb63a9718d9c389f04a980f6bd55850075272c4fb720c0",
+      "sourceLawBodySHA256": "cc8f54ff0035c1b2fde1b42ee41dda2a8198534cee4a3199809336868ba8fa64",
+      "selectedParts": [
+        {
+          "number": "1",
+          "title": "2026 청년예술지원사업 교부(변경)신청서·사업계획·지원금 신청·서약",
+          "use": "conditional",
+          "author": "2026년 해당 사업에 선정된 신청 예술가 또는 단체 대표"
+        }
+      ]
+    },
+    {
+      "formId": "agency-43000-cbfc-2026-art-grant",
+      "sha256": "7c281a386329e470ba76ed81317a985bbddf1aea0e4679b98f3c38559f408c27",
+      "disposition": "approved",
+      "fullBodyReviewed": true,
+      "reason": "코디네이터가 두 작업자의 독립 전체원문 검토·실제 원본 SHA와 2026 예술창작 A/B 공모 및 운영가이드의 실제 결정액/교부30일전원칙/사전변경승인을 대조했다. 선정자의 실제 금액·확정계획을 작성하는 교부/변경용으로만 승인하며 인쇄500만원·다른사업 선택·예시참여자/예산을 그대로 제출하도록 하지 않는다. B문학·시각은 개인 선정자에 한정하고 최초공모나 다른지원사업으로 확대하지 않는다.",
+      "evidenceUrl": "https://www.cbfc.or.kr/home/sub.php?menukey=6442&mod=view&no=2045467&scode=00000003",
+      "checkedAt": "2026-10-19",
+      "relatedProgramIds": [
+        "s43000.gov24-O00113600003"
+      ],
+      "reviewedProgramPairs": [
+        {
+          "programId": "s43000.gov24-O00113600003",
+          "disposition": "approved"
+        }
+      ],
+      "sourceProposal": "logs/forms-completion/official-followup/root/agency-normalized-round8003.json",
+      "sourceProposalSHA256": "53a851216538fa7ee3cb63a9718d9c389f04a980f6bd55850075272c4fb720c0",
+      "sourceLawBodySHA256": "cc8f54ff0035c1b2fde1b42ee41dda2a8198534cee4a3199809336868ba8fa64",
+      "selectedParts": [
+        {
+          "number": "1",
+          "title": "2026 예술창작활동지원사업 등 교부(변경)신청서·사업계획·지원금 신청·서약",
+          "use": "conditional",
+          "author": "2026년 해당 사업에 선정된 신청 예술가 또는 단체 대표"
+        }
+      ]
+    },
+    {
+      "formId": "agency-44210-health-cts2394-refund-proxy",
+      "sha256": "e384fbc8df3f66ff3332e2e676f4510add0ba438917f71db1f9e9903e11dbfbd",
+      "disposition": "approved",
+      "fullBodyReviewed": true,
+      "reason": "코디네이터가 실제202자 전체 HWP와 보건소 현재 본인부담금 환급 안내의 추가서류6번 위임장 직접배포를 대조했다. 서비스 완료 후 본인부담금 환급의 대리신청에서 위임인이 서명하는 조건부 부속서식으로만 제공한다. 최초 이용권 신청용 별지나 미확보 주신청서와 같다고 표시하지 않는다.",
+      "evidenceUrl": "https://www.seosan.go.kr/health/contents.do?key=2394",
+      "checkedAt": "2026-10-19",
+      "relatedProgramIds": [
+        "g44210.bokjiro-WLF00006505"
+      ],
+      "reviewedProgramPairs": [
+        {
+          "programId": "g44210.bokjiro-WLF00006505",
+          "disposition": "approved"
+        }
+      ],
+      "sourceProposal": "logs/forms-completion/official-followup/root/agency-normalized-round8003.json",
+      "sourceProposalSHA256": "53a851216538fa7ee3cb63a9718d9c389f04a980f6bd55850075272c4fb720c0",
+      "sourceLawBodySHA256": "86490c4b38028b02560d18373e27926db5b70950440d3ea14d14f219ea2f7aa4",
+      "selectedParts": [
+        {
+          "number": "서식 제2호",
+          "title": "산후조리도우미 본인부담금 지원 신청 위임장",
+          "use": "conditional",
+          "author": "환급 신청권한을 위임하는 산모와 대리인"
+        }
+      ]
+    },
+    {
+      "formId": "agency-26290-health-postpartum-339544",
+      "sha256": "ac0cfc3a3e7a7682eadb0add2e56d5c68783fc5fdd82aa91a507a58296e3f11c",
+      "disposition": "approved",
+      "fullBodyReviewed": true,
+      "reason": "코디네이터가 실제 위임장 전체와 남구보건소의 현재2025미신청/2026출생아 부산형 환급 안내·정확fileSid339544 배포 링크 및 부산시 현행1991151 전체10조/부칙을 대조했다. 신청권한을 대리인에게 맡기는 경우만 제공하고 방문작성 주신청서로 표시하지 않는다. 인쇄2025년은 원본 그대로 보존하고 실제작성연도 확인을 안내한다.",
+      "evidenceUrl": "https://www.bsnamgu.go.kr/index.namgu?menuCd=DOM_000000904008000000",
+      "checkedAt": "2026-10-19",
+      "relatedProgramIds": [
+        "g26290.bokjiro-WLF00005693"
+      ],
+      "reviewedProgramPairs": [
+        {
+          "programId": "g26290.bokjiro-WLF00005693",
+          "disposition": "approved"
+        }
+      ],
+      "sourceProposal": "logs/forms-completion/official-followup/root/agency-normalized-round8003.json",
+      "sourceProposalSHA256": "53a851216538fa7ee3cb63a9718d9c389f04a980f6bd55850075272c4fb720c0",
+      "sourceLawBodySHA256": "714bf360783bde3843d044e67741ccffad51095407f64c64dc330b696e12b906",
+      "selectedParts": [
+        {
+          "number": "무번호",
+          "title": "산후조리경비 지원 신청 위임장",
+          "use": "conditional",
+          "author": "출생아 부 또는 모인 신청인(위임인)"
+        }
+      ]
+    },
+    {
+      "formId": "agency-26290-health-postpartum-339545",
+      "sha256": "a93cac22f74d4b780f11af02f4a4c58fb56b356e02db31cb5513a82d814cd36a",
+      "disposition": "approved",
+      "fullBodyReviewed": true,
+      "reason": "코디네이터가 사실혼 양당사자의 전체 진술서와 남구보건소 현재 부산형 산후조리경비 안내의 사실혼 추가서류·정확fileSid339545 배포 링크를 대조했다. 해당 급여의 가구원 관계 확인에 필요한 사실혼 당사자 작성용으로만 제공하며 법적혼인 일반증명이나 주신청서로 확대하지 않는다. 인쇄2025년과 현재배포사실을 구분한다.",
+      "evidenceUrl": "https://www.bsnamgu.go.kr/index.namgu?menuCd=DOM_000000904008000000",
+      "checkedAt": "2026-10-19",
+      "relatedProgramIds": [
+        "g26290.bokjiro-WLF00005693"
+      ],
+      "reviewedProgramPairs": [
+        {
+          "programId": "g26290.bokjiro-WLF00005693",
+          "disposition": "approved"
+        }
+      ],
+      "sourceProposal": "logs/forms-completion/official-followup/root/agency-normalized-round8003.json",
+      "sourceProposalSHA256": "53a851216538fa7ee3cb63a9718d9c389f04a980f6bd55850075272c4fb720c0",
+      "sourceLawBodySHA256": "714bf360783bde3843d044e67741ccffad51095407f64c64dc330b696e12b906",
+      "selectedParts": [
+        {
+          "number": "무번호",
+          "title": "사실상 혼인 관계 당사자의 본인 진술서",
+          "use": "conditional",
+          "author": "사실혼 관계 양 당사자"
+        }
+      ]
+    },
+    {
+      "formId": "agency-26290-health-postpartum-339546",
+      "sha256": "f524c0286c07b2b7110d763b9456650603c3b3ea07edbe38699cb33906befcf9",
+      "disposition": "approved",
+      "fullBodyReviewed": true,
+      "reason": "코디네이터가 전체 보증서의 허용보증인2명 직접날인·대리작성불가·신분증사본과 남구보건소 현재부산형 환급의 정확fileSid339546 배포를 대조했다. 해당사업 사실혼 관계 입증 시만 제공하며 실제신청인의자료가 채워진 파일이 아님을 확인했다. 원본2024년은 보존하고 실제 접수기관 작성안내 확인을 표시한다.",
+      "evidenceUrl": "https://www.bsnamgu.go.kr/index.namgu?menuCd=DOM_000000904008000000",
+      "checkedAt": "2026-10-19",
+      "relatedProgramIds": [
+        "g26290.bokjiro-WLF00005693"
+      ],
+      "reviewedProgramPairs": [
+        {
+          "programId": "g26290.bokjiro-WLF00005693",
+          "disposition": "approved"
+        }
+      ],
+      "sourceProposal": "logs/forms-completion/official-followup/root/agency-normalized-round8003.json",
+      "sourceProposalSHA256": "53a851216538fa7ee3cb63a9718d9c389f04a980f6bd55850075272c4fb720c0",
+      "sourceLawBodySHA256": "714bf360783bde3843d044e67741ccffad51095407f64c64dc330b696e12b906",
+      "selectedParts": [
+        {
+          "number": "무번호",
+          "title": "사실혼 확인보증서",
+          "use": "conditional",
+          "author": "해당 사실을 보증하는 양가 가족·통리장·주민 등2명"
+        }
+      ]
+    }
+  ],
+  "scopeFile": "pipeline/forms/reviews/agency-originals-scope-round8003.json",
+  "scopeSHA256": "5a0fe8ecf373e5414b512592d6b8668b6e19e405c1f9fb07eef6100b5fc2f405"
+}

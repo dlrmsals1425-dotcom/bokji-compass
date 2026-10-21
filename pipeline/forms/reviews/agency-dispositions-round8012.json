@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "checkedAt": "2026-10-20",
+  "status": "complete",
+  "items": [
+    {
+      "formId": "agency-41430-merchant-contract-1049",
+      "sha256": "91cdde239ed53ae9203b28e4020140b8ec72bb96d37ff714e14cd94d5fcbe0a1",
+      "disposition": "approved",
+      "fullBodyReviewed": true,
+      "reason": "현재의왕시가맹점안내페이지(최종수정2026.7.20)가연중수시신청·계약서2부제출과정확MEDIA1049다운로드를명시한다. 실제HWP전체Section0의12개계약조항과가맹점대표서명란1872자를읽었다. 현행시행규칙1643447전체조문·부칙제3조제1항도등록신청과별지3계약체결을요구한다. 정확사업정부24-403000000121은소비자외가맹점수수료절감혜택을명시하며 이미해당사업에등록·변경·해지신청서가연결되어있다. 소비자카드구매자가아닌가맹점대표의등록계약단계로만제안한다.",
+      "evidenceUrl": "https://www.uiwang.go.kr/UWKORECO0802",
+      "checkedAt": "2026-10-20",
+      "relatedProgramIds": [
+        "g41430.gov24-403000000121"
+      ],
+      "reviewedProgramPairs": [
+        {
+          "programId": "g41430.gov24-403000000121",
+          "disposition": "approved"
+        }
+      ],
+      "sourceProposal": "logs/forms-completion/gyeonggi-20261019/root/normalized-round8012.json",
+      "sourceProposalSHA256": "44d1050ec8a8c18e53eb09cdeb8dfe1e5da30a4f8ecea47cf5eac2866f503d19",
+      "sourceLawBodySHA256": null,
+      "sourcePageSHA256": "13a310f09c2e0c081ca8e289723069ec5857ce94db2b407ef259ef0f63717f8a",
+      "authorityBasis": {
+        "kind": "official-program",
+        "title": "의왕사랑 상품권 가맹점 등록 계약서 공식 배포 안내",
+        "evidenceUrl": "https://www.uiwang.go.kr/UWKORECO0802",
+        "checkedAt": "2026-10-20",
+        "evidenceNote": "현재의왕시가맹점안내페이지(최종수정2026.7.20)가연중수시신청·계약서2부제출과정확MEDIA1049다운로드를명시한다. 실제HWP전체Section0의12개계약조항과가맹점대표서명란1872자를읽었다. 현행시행규칙1643447전체조문·부칙제3조제1항도등록신청과별지3계약체결을요구한다. 정확사업정부24-403000000121은소비자외가맹점수수료절감혜택을명시하며 이미해당사업에등록·변경·해지신청서가연결되어있다. 소비자카드구매자가아닌가맹점대표의등록계약단계로만제안한다.",
+        "pageSHA256": "13a310f09c2e0c081ca8e289723069ec5857ce94db2b407ef259ef0f63717f8a"
+      },
+      "selectedParts": [
+        {
+          "number": "별지 제3호서식 전체12조 및서명부",
+          "title": "의왕사랑 상품권 가맹점 등록 계약서",
+          "use": "conditional",
+          "author": "가맹점대표와의왕시"
+        }
+      ]
+    }
+  ],
+  "scopeFile": "pipeline/forms/reviews/agency-originals-scope-round8012.json",
+  "scopeSHA256": "092c677b60b5d9c9cd0286927f0507bb61dd39d05c9c673c94a31223ec6db41d"
+}

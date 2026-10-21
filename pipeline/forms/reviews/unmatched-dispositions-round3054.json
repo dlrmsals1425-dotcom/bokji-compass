@@ -1,0 +1,3088 @@
+{
+  "schema": 1,
+  "batchId": "batch-054",
+  "checkedAt": "2026-10-19",
+  "complete": true,
+  "summary": {
+    "scopeForms": 60,
+    "reviewed": 60,
+    "pending": 0,
+    "approvedForms": 29,
+    "approvedAssociations": 32
+  },
+  "items": [
+    {
+      "formId": "ordin-21557235",
+      "sha256": "2aeaa44159f8db21e2cd7d5d6f1546338a265f71461c12ec685bc23e3529df46",
+      "disposition": "non_applicant",
+      "reason": "금융기관·판매단체가 본점과 지점현황을 제출해 상품권 판매대행점으로 지정받는 원본이다. 사이트는 개인 소비자의 상품권 구매·충전 할인으로 신청주체가 다르다.",
+      "fullBodyReviewed": true,
+      "reviewedProgramPairs": [
+        {
+          "programId": "g47110.gov24-502000000212",
+          "programName": "지역화폐(포항사랑상품권)",
+          "disposition": "not_applicable",
+          "reason": "원본 신청 주체·목적과 이 사업의 지원 범위를 대조했으며 이 연결은 승인하지 않음."
+        }
+      ],
+      "sourceEvidence": {
+        "lawId": "2110449",
+        "lawTitle": "포항시 포항사랑상품권 관리 및 운영 조례 시행규칙",
+        "annexId": "21557235",
+        "flSeq": "161804665",
+        "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=161804665&flNm=%EB%B3%84%EC%A7%80+%EC%A0%9C1%ED%98%B8%EC%84%9C%EC%8B%9D%28%ED%8F%AC%ED%95%AD%EC%82%AC%EB%9E%91%EC%83%81%ED%92%88%EA%B6%8C+%ED%8C%90%EB%A7%A4%EB%8C%80%ED%96%89%EC%A0%90%28%EB%8B%A8%EC%B2%B4%29+%EC%A7%80%EC%A0%95+%EC%8B%A0%EC%B2%AD%EC%84%9C%29",
+        "publicLawUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=2110449",
+        "exactSourceBinding": true,
+        "lawTextRead": true,
+        "articleNumbers": [
+          "제2조"
+        ],
+        "articleTexts": [
+          "제2조(판매대행점 등의 협약 및 관리)① 「포항시 포항사랑상품권 관리 및 운영 조례」(이하 “조례”라 한다) 제6조제2항 및 제7조제2항에 따라 판매대행점 및 판매대행단체로 지정 받으려는 자는 별지 제1호서식에 따른 신청서를 제출하여야 하고, 별지 제2호서식과 별지 제3호서식에 따른 판매대행 협약을 체결하여야 한다.<개정 2026.2.19.>② 판매대행 협약을 해지하려는 경우에는 포항시장(이하 “시장”이라 한다)에게 협약기간 만료 1개월 전까지 문서로 통보하여야 한다.③ 시장은 포항사랑상품권(이하 “상품권”이라 한다) 인수, 보관, 교부, 정산 등을 총괄하는 업무를 대행하는 총괄 판매대행점을 지정할 수 있으며, 총괄 판매대행점은 읍·면·동별 판매대행점을 지원하여야 한다.<개정 2026.2.19.>④ 판매대행점은 전문업체에서 납품하는 상품권의 인계인수서를 별지 제4호서식에 따라 작성하여 보관하여야 한다.⑤ 판매대행점은 조례 제6조제3항에 따른 상품권 판매 및 환전현황을 매월 말 기준으로 작성하여 시장에게 제출하여야 한다. 다만, 상품권 전산관리 시스템을 운영할 경우에는 전산자료로 갈음 할 수 있다.⑥ 시장은 판매대행점이 조례 제6조제3항을 이행하지 아니할 때에는 판매대행점의 협약을 취소할 수 있으며, 이 경우 판매대행점은 2년간 판매대행점 협약을 체결 할 수 없다."
+        ],
+        "originalBytes": 48128,
+        "bodyTextSha256": "582f182db6d60d34c8f479df8c74209a06930404e3324ff092fc244f8c432ee5",
+        "textLength": 414,
+        "textScope": "all_body_sections_or_pages",
+        "sectionsRead": [
+          "BodyText/Section0"
+        ],
+        "currencyCheck": {
+          "state": "source_current",
+          "checkedAt": "2026-10-19",
+          "currentLawId": "2110449",
+          "effectiveDate": "20260219",
+          "annexBinding": "bound"
+        }
+      },
+      "checkedAt": "2026-10-19"
+    },
+    {
+      "formId": "ordin-21557243",
+      "sha256": "e27bf4f4ba1d5236e6d7d29ed810ef5480926404e7f1b44018257ced006f3fe1",
+      "disposition": "non_applicant",
+      "reason": "포항 가맹점 사업자의 등록 신청이며 사업자등록·업소 정보를 제출한다. 소비자의 구입·충전 할인 신청과 구별하였고 사이트는 가맹점 자체 지원을 안내하지 않는다.",
+      "fullBodyReviewed": true,
+      "reviewedProgramPairs": [
+        {
+          "programId": "g47110.gov24-502000000212",
+          "programName": "지역화폐(포항사랑상품권)",
+          "disposition": "not_applicable",
+          "reason": "원본 신청 주체·목적과 이 사업의 지원 범위를 대조했으며 이 연결은 승인하지 않음."
+        }
+      ],
+      "sourceEvidence": {
+        "lawId": "2110449",
+        "lawTitle": "포항시 포항사랑상품권 관리 및 운영 조례 시행규칙",
+        "annexId": "21557243",
+        "flSeq": "161804673",
+        "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=161804673&flNm=%EB%B3%84%EC%A7%80+%EC%A0%9C5%ED%98%B8%EC%84%9C%EC%8B%9D%28%ED%8F%AC%ED%95%AD%EC%82%AC%EB%9E%91%EC%83%81%ED%92%88%EA%B6%8C+%EA%B0%80%EB%A7%B9%EC%A0%90+%EB%93%B1%EB%A1%9D+%EC%8B%A0%EC%B2%AD%EC%84%9C%29",
+        "publicLawUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=2110449",
+        "exactSourceBinding": true,
+        "lawTextRead": true,
+        "articleNumbers": [
+          "제3조"
+        ],
+        "articleTexts": [
+          "제3조(가맹점 등록 및 관리)① 조례 제9조제1항에 따라 가맹점으로 등록하려는 자는 별지 제5호서식을 작성하여 시장에게 가맹점 등록 신청을 하고, 별지 제6호서식에 따른 가맹점 협약을 체결하여야 한다. 다만,「전통시장 및 상점가 육성을 위한 특별법」제65조에 따라 등록된 상인회에서 인정하는 노점상은 소속 상인회를 통하여 가맹점 등록 신청을 할 수 있다.② 시장은 등록된 가맹점에 대하여 별지 제7호서식에 따른 가맹점 등록증을 발급하여야 한다.③ 조례 제9조제4항에 따라 가맹점의 소재지, 대표자 등을 변경하려는 경우에는 별지 제8호서식에 따라 변경 신청을 하고, 가맹점 등록을 해지하려고 하는 경우에는 별지 제9호서식에 따라 해지 신청을 하여야 한다."
+        ],
+        "originalBytes": 48640,
+        "bodyTextSha256": "63198c516fdc7b33edf6c7e4e59ad704882575745747a6ef407694b9100ca9be",
+        "textLength": 573,
+        "textScope": "all_body_sections_or_pages",
+        "sectionsRead": [
+          "BodyText/Section0"
+        ],
+        "currencyCheck": {
+          "state": "source_current",
+          "checkedAt": "2026-10-19",
+          "currentLawId": "2110449",
+          "effectiveDate": "20260219",
+          "annexBinding": "bound"
+        }
+      },
+      "checkedAt": "2026-10-19"
+    },
+    {
+      "formId": "ordin-21557249",
+      "sha256": "7fbf7d5ca4e0184f7bd35e641e5822ab33a0874334b9785c3afbf93c52e3f2c9",
+      "disposition": "non_applicant",
+      "reason": "포항 가맹점 사업자의 등록사항 변경 신청이며 사업자등록·업소 정보를 제출한다. 소비자의 구입·충전 할인 신청과 구별하였고 사이트는 가맹점 자체 지원을 안내하지 않는다.",
+      "fullBodyReviewed": true,
+      "reviewedProgramPairs": [
+        {
+          "programId": "g47110.gov24-502000000212",
+          "programName": "지역화폐(포항사랑상품권)",
+          "disposition": "not_applicable",
+          "reason": "원본 신청 주체·목적과 이 사업의 지원 범위를 대조했으며 이 연결은 승인하지 않음."
+        }
+      ],
+      "sourceEvidence": {
+        "lawId": "2110449",
+        "lawTitle": "포항시 포항사랑상품권 관리 및 운영 조례 시행규칙",
+        "annexId": "21557249",
+        "flSeq": "161804679",
+        "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=161804679&flNm=%EB%B3%84%EC%A7%80+%EC%A0%9C8%ED%98%B8%EC%84%9C%EC%8B%9D%28%ED%8F%AC%ED%95%AD%EC%82%AC%EB%9E%91+%EC%83%81%ED%92%88%EA%B6%8C+%EA%B0%80%EB%A7%B9%EC%A0%90+%EB%93%B1%EB%A1%9D+%EB%B3%80%EA%B2%BD+%EC%8B%A0%EC%B2%AD%EC%84%9C%29",
+        "publicLawUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=2110449",
+        "exactSourceBinding": true,
+        "lawTextRead": true,
+        "articleNumbers": [
+          "제3조"
+        ],
+        "articleTexts": [
+          "제3조(가맹점 등록 및 관리)① 조례 제9조제1항에 따라 가맹점으로 등록하려는 자는 별지 제5호서식을 작성하여 시장에게 가맹점 등록 신청을 하고, 별지 제6호서식에 따른 가맹점 협약을 체결하여야 한다. 다만,「전통시장 및 상점가 육성을 위한 특별법」제65조에 따라 등록된 상인회에서 인정하는 노점상은 소속 상인회를 통하여 가맹점 등록 신청을 할 수 있다.② 시장은 등록된 가맹점에 대하여 별지 제7호서식에 따른 가맹점 등록증을 발급하여야 한다.③ 조례 제9조제4항에 따라 가맹점의 소재지, 대표자 등을 변경하려는 경우에는 별지 제8호서식에 따라 변경 신청을 하고, 가맹점 등록을 해지하려고 하는 경우에는 별지 제9호서식에 따라 해지 신청을 하여야 한다."
+        ],
+        "originalBytes": 49152,
+        "bodyTextSha256": "2497bdca18153933e0e6a01d3588a66c66065529fc19b3fa127889e3da2a9db4",
+        "textLength": 503,
+        "textScope": "all_body_sections_or_pages",
+        "sectionsRead": [
+          "BodyText/Section0"
+        ],
+        "currencyCheck": {
+          "state": "source_current",
+          "checkedAt": "2026-10-19",
+          "currentLawId": "2110449",
+          "effectiveDate": "20260219",
+          "annexBinding": "bound"
+        }
+      },
+      "checkedAt": "2026-10-19"
+    },
+    {
+      "formId": "ordin-21557251",
+      "sha256": "801fbb8e306f56da3624cae556db0dc9e343e32152a7cd33e39820730aa64dd5",
+      "disposition": "non_applicant",
+      "reason": "포항 가맹점 사업자의 등록 해지 신청이며 사업자등록·업소 정보를 제출한다. 소비자의 구입·충전 할인 신청과 구별하였고 사이트는 가맹점 자체 지원을 안내하지 않는다.",
+      "fullBodyReviewed": true,
+      "reviewedProgramPairs": [
+        {
+          "programId": "g47110.gov24-502000000212",
+          "programName": "지역화폐(포항사랑상품권)",
+          "disposition": "not_applicable",
+          "reason": "원본 신청 주체·목적과 이 사업의 지원 범위를 대조했으며 이 연결은 승인하지 않음."
+        }
+      ],
+      "sourceEvidence": {
+        "lawId": "2110449",
+        "lawTitle": "포항시 포항사랑상품권 관리 및 운영 조례 시행규칙",
+        "annexId": "21557251",
+        "flSeq": "161804681",
+        "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=161804681&flNm=%EB%B3%84%EC%A7%80+%EC%A0%9C9%ED%98%B8%EC%84%9C%EC%8B%9D%28%ED%8F%AC%ED%95%AD%EC%82%AC%EB%9E%91%EC%83%81%ED%92%88%EA%B6%8C+%EA%B0%80%EB%A7%B9%EC%A0%90+%EB%93%B1%EB%A1%9D+%ED%95%B4%EC%A7%80+%EC%8B%A0%EC%B2%AD%EC%84%9C%29",
+        "publicLawUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=2110449",
+        "exactSourceBinding": true,
+        "lawTextRead": true,
+        "articleNumbers": [
+          "제3조"
+        ],
+        "articleTexts": [
+          "제3조(가맹점 등록 및 관리)① 조례 제9조제1항에 따라 가맹점으로 등록하려는 자는 별지 제5호서식을 작성하여 시장에게 가맹점 등록 신청을 하고, 별지 제6호서식에 따른 가맹점 협약을 체결하여야 한다. 다만,「전통시장 및 상점가 육성을 위한 특별법」제65조에 따라 등록된 상인회에서 인정하는 노점상은 소속 상인회를 통하여 가맹점 등록 신청을 할 수 있다.② 시장은 등록된 가맹점에 대하여 별지 제7호서식에 따른 가맹점 등록증을 발급하여야 한다.③ 조례 제9조제4항에 따라 가맹점의 소재지, 대표자 등을 변경하려는 경우에는 별지 제8호서식에 따라 변경 신청을 하고, 가맹점 등록을 해지하려고 하는 경우에는 별지 제9호서식에 따라 해지 신청을 하여야 한다."
+        ],
+        "originalBytes": 44032,
+        "bodyTextSha256": "3fac3cc4aa3f6188b9bad03d9fe2ae99b1dd77dec88f9a97021bb18837d6bade",
+        "textLength": 392,
+        "textScope": "all_body_sections_or_pages",
+        "sectionsRead": [
+          "BodyText/Section0"
+        ],
+        "currencyCheck": {
+          "state": "source_current",
+          "checkedAt": "2026-10-19",
+          "currentLawId": "2110449",
+          "effectiveDate": "20260219",
+          "annexBinding": "bound"
+        }
+      },
+      "checkedAt": "2026-10-19"
+    },
+    {
+      "formId": "ordin-21557253",
+      "sha256": "b1db834970d8fcb7080825ccdb119c20089ab385207a322de3e2565c70961603",
+      "disposition": "non_applicant",
+      "reason": "가맹점이 매출로 받은 지류 상품권을 금융기관에 환전하며 업소번호·대표자·정산계좌를 제출하는 서식이다. 개인 구매할인 또는 소비자 잔액환급 신청이 아니다.",
+      "fullBodyReviewed": true,
+      "reviewedProgramPairs": [
+        {
+          "programId": "g47110.gov24-502000000212",
+          "programName": "지역화폐(포항사랑상품권)",
+          "disposition": "not_applicable",
+          "reason": "원본 신청 주체·목적과 이 사업의 지원 범위를 대조했으며 이 연결은 승인하지 않음."
+        }
+      ],
+      "sourceEvidence": {
+        "lawId": "2110449",
+        "lawTitle": "포항시 포항사랑상품권 관리 및 운영 조례 시행규칙",
+        "annexId": "21557253",
+        "flSeq": "161804683",
+        "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=161804683&flNm=%EB%B3%84%EC%A7%80+%EC%A0%9C10%ED%98%B8%EC%84%9C%EC%8B%9D%28%ED%8F%AC%ED%95%AD%EC%82%AC%EB%9E%91%EC%83%81%ED%92%88%EA%B6%8C+%ED%99%98%EC%A0%84+%EC%B2%AD%EA%B5%AC%EC%84%9C%29",
+        "publicLawUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=2110449",
+        "exactSourceBinding": true,
+        "lawTextRead": true,
+        "articleNumbers": [
+          "제6조"
+        ],
+        "articleTexts": [
+          "제6조(환전청구 및 환전기한)① 조례 제11조제1항에 따라 가맹점이 상품권을 환전하려는 경우에는 별지 제10호서식을 작성하여 판매대행점에 청구하여야 한다.② 제1항의 청구에 따른 환전기한은 판매대행점의 영업일 기준 3일 이내로 한다.③ 조례 제11조제4항에 따라 환전한도를 조정하려는 경우 해당 가맹점은 별지 제10호의2서식을 작성하여 시장에게 제출하여야 한다.<신설 2026.2.19.>"
+        ],
+        "originalBytes": 66048,
+        "bodyTextSha256": "88f1583fde1e22d9ffa026a90292a9eb7e0d08c6c01ac492940dc9d742ac9c7a",
+        "textLength": 880,
+        "textScope": "all_body_sections_or_pages",
+        "sectionsRead": [
+          "BodyText/Section0"
+        ],
+        "currencyCheck": {
+          "state": "source_current",
+          "checkedAt": "2026-10-19",
+          "currentLawId": "2110449",
+          "effectiveDate": "20260219",
+          "annexBinding": "bound"
+        }
+      },
+      "checkedAt": "2026-10-19"
+    },
+    {
+      "formId": "ordin-21557255",
+      "sha256": "94646c30fbf02fd6340ac0dd087be337ebf9105cdae486f73578407cc0486887",
+      "disposition": "non_applicant",
+      "reason": "가맹점이 매출증빙으로 환전한도 상향을 요청하는 별지10의2다. 개인 구매한도나 할인 신청과 다른 업소 정산 절차다.",
+      "fullBodyReviewed": true,
+      "reviewedProgramPairs": [
+        {
+          "programId": "g47110.gov24-502000000212",
+          "programName": "지역화폐(포항사랑상품권)",
+          "disposition": "not_applicable",
+          "reason": "원본 신청 주체·목적과 이 사업의 지원 범위를 대조했으며 이 연결은 승인하지 않음."
+        }
+      ],
+      "sourceEvidence": {
+        "lawId": "2110449",
+        "lawTitle": "포항시 포항사랑상품권 관리 및 운영 조례 시행규칙",
+        "annexId": "21557255",
+        "flSeq": "161804685",
+        "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=161804685&flNm=%EB%B3%84%EC%A7%80+%EC%A0%9C10%ED%98%B8%EC%9D%982%EC%84%9C%EC%8B%9D%28%ED%8F%AC%ED%95%AD%EC%82%AC%EB%9E%91%EC%83%81%ED%92%88%EA%B6%8C+%ED%99%98%EC%A0%84%ED%95%9C%EB%8F%84%EC%95%A1+%EC%B4%88%EA%B3%BC+%EC%8B%A0%EC%B2%AD%EC%84%9C%29",
+        "publicLawUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=2110449",
+        "exactSourceBinding": true,
+        "lawTextRead": true,
+        "articleNumbers": [
+          "제6조"
+        ],
+        "articleTexts": [
+          "제6조(환전청구 및 환전기한)① 조례 제11조제1항에 따라 가맹점이 상품권을 환전하려는 경우에는 별지 제10호서식을 작성하여 판매대행점에 청구하여야 한다.② 제1항의 청구에 따른 환전기한은 판매대행점의 영업일 기준 3일 이내로 한다.③ 조례 제11조제4항에 따라 환전한도를 조정하려는 경우 해당 가맹점은 별지 제10호의2서식을 작성하여 시장에게 제출하여야 한다.<신설 2026.2.19.>"
+        ],
+        "originalBytes": 53760,
+        "bodyTextSha256": "44b159171d42ced99920f40f6b73f75d10a902a212a99d5db01f98fb459cc470",
+        "textLength": 574,
+        "textScope": "all_body_sections_or_pages",
+        "sectionsRead": [
+          "BodyText/Section0"
+        ],
+        "currencyCheck": {
+          "state": "source_current",
+          "checkedAt": "2026-10-19",
+          "currentLawId": "2110449",
+          "effectiveDate": "20260219",
+          "annexBinding": "bound"
+        }
+      },
+      "checkedAt": "2026-10-19"
+    },
+    {
+      "formId": "ordin-21557301",
+      "sha256": "83f9c5f565fd9ef0f601b67cbb5ea7e89ad0edf1f44bc02f808a98a9d78449d9",
+      "disposition": "approved",
+      "reason": "개인이 현금으로 지류 상품권을 할인구매하면서 통합한도 관리에 동의하는 별지13 전체를 판독했다. 제9조제1항이 개인 지류 구매용으로 지정하고 사업도19세 이상 개인의 판매대행점 방문구매를 명시한다. 원본에 고정 할인율·한도금액은 없다.",
+      "fullBodyReviewed": true,
+      "reviewedProgramPairs": [
+        {
+          "programId": "g47110.gov24-502000000212",
+          "programName": "지역화폐(포항사랑상품권)",
+          "disposition": "approved",
+          "role": "application",
+          "use": "conditional",
+          "reason": "개인이 현금으로 지류 상품권을 할인구매하면서 통합한도 관리에 동의하는 별지13 전체를 판독했다. 제9조제1항이 개인 지류 구매용으로 지정하고 사업도19세 이상 개인의 판매대행점 방문구매를 명시한다. 원본에 고정 할인율·한도금액은 없다."
+        }
+      ],
+      "sourceEvidence": {
+        "lawId": "2110449",
+        "lawTitle": "포항시 포항사랑상품권 관리 및 운영 조례 시행규칙",
+        "annexId": "21557301",
+        "flSeq": "161804691",
+        "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=161804691&flNm=%EB%B3%84%EC%A7%80+%EC%A0%9C13%ED%98%B8%EC%84%9C%EC%8B%9D%28%ED%8F%AC%ED%95%AD%EC%82%AC%EB%9E%91%EC%83%81%ED%92%88%EA%B6%8C+%ED%98%84%EA%B8%88%ED%95%A0%EC%9D%B8%EA%B5%AC%EB%A7%A4+%EC%8B%A0%EC%B2%AD%EC%84%9C%28%EA%B0%9C%EC%9D%B8%29%29",
+        "publicLawUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=2110449",
+        "exactSourceBinding": true,
+        "lawTextRead": true,
+        "articleNumbers": [
+          "제9조"
+        ],
+        "articleTexts": [
+          "제9조(상품권 할인 구매)① 조례 제15조의2제1항 및 같은 조제2항에 따라 지류형 상품권을 할인하여 구매하려는 경우 개인은 별지 제13호서식, 법인은 별지 제14호서식을 작성하여 제출하여야 한다. 이 경우 시장은 법인 및 가맹점주에 대하여 할인구매를 적용하지 아니할 수 있다.<개정 2026.2.19.>② 개인이 할인구매를 신청할 경우에는 본인이 아닌 대리자가 이를 신청할 수 없다. 단, 천재지변, 재난 등으로 인하여 시장이 필요하다고 인정하는 건에 한정하여 대리자가 할인구매를 신청할 수 있다."
+        ],
+        "originalBytes": 62464,
+        "bodyTextSha256": "6fd55f01b26fa5625170f027b5bbb9851c8c849337c0b6b5d6342ea2c988cc19",
+        "textLength": 910,
+        "textScope": "all_body_sections_or_pages",
+        "sectionsRead": [
+          "BodyText/Section0"
+        ],
+        "currencyCheck": {
+          "state": "source_current",
+          "checkedAt": "2026-10-19",
+          "currentLawId": "2110449",
+          "effectiveDate": "20260219",
+          "annexBinding": "bound"
+        }
+      },
+      "checkedAt": "2026-10-19"
+    },
+    {
+      "formId": "ordin-21557303",
+      "sha256": "58fc03a0709e943fa737285d8a22a8596f7aeec2d7c37776f6136d1a04b23a1a",
+      "disposition": "no_matching_site_program",
+      "reason": "법인대표·대리인이 사업자등록·법인 목적을 확인하여 구매하는 별지14다. 사업의 만19세 개인 지류/만14세 개인 카드 할인 대상과 다르며 법인 구매 지원은 안내하지 않는다.",
+      "fullBodyReviewed": true,
+      "reviewedProgramPairs": [
+        {
+          "programId": "g47110.gov24-502000000212",
+          "programName": "지역화폐(포항사랑상품권)",
+          "disposition": "not_applicable",
+          "reason": "원본 신청 주체·목적과 이 사업의 지원 범위를 대조했으며 이 연결은 승인하지 않음."
+        }
+      ],
+      "sourceEvidence": {
+        "lawId": "2110449",
+        "lawTitle": "포항시 포항사랑상품권 관리 및 운영 조례 시행규칙",
+        "annexId": "21557303",
+        "flSeq": "161804693",
+        "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=161804693&flNm=%EB%B3%84%EC%A7%80+%EC%A0%9C14%ED%98%B8%EC%84%9C%EC%8B%9D%28%ED%8F%AC%ED%95%AD%EC%82%AC%EB%9E%91%EC%83%81%ED%92%88%EA%B6%8C+%EA%B5%AC%EB%A7%A4+%EC%8B%A0%EC%B2%AD%EC%84%9C%28%EB%B2%95%EC%9D%B8%29%29",
+        "publicLawUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=2110449",
+        "exactSourceBinding": true,
+        "lawTextRead": true,
+        "articleNumbers": [
+          "제9조"
+        ],
+        "articleTexts": [
+          "제9조(상품권 할인 구매)① 조례 제15조의2제1항 및 같은 조제2항에 따라 지류형 상품권을 할인하여 구매하려는 경우 개인은 별지 제13호서식, 법인은 별지 제14호서식을 작성하여 제출하여야 한다. 이 경우 시장은 법인 및 가맹점주에 대하여 할인구매를 적용하지 아니할 수 있다.<개정 2026.2.19.>② 개인이 할인구매를 신청할 경우에는 본인이 아닌 대리자가 이를 신청할 수 없다. 단, 천재지변, 재난 등으로 인하여 시장이 필요하다고 인정하는 건에 한정하여 대리자가 할인구매를 신청할 수 있다."
+        ],
+        "originalBytes": 53760,
+        "bodyTextSha256": "9b739918b65be445314ca3afb9bbc798139f975302ed95f10c8250996321c75b",
+        "textLength": 632,
+        "textScope": "all_body_sections_or_pages",
+        "sectionsRead": [
+          "BodyText/Section0"
+        ],
+        "currencyCheck": {
+          "state": "source_current",
+          "checkedAt": "2026-10-19",
+          "currentLawId": "2110449",
+          "effectiveDate": "20260219",
+          "annexBinding": "bound"
+        }
+      },
+      "checkedAt": "2026-10-19"
+    },
+    {
+      "formId": "ordin-21557305",
+      "sha256": "8a7dd6731663b169d6832cd18302f2c33dfa53c3f940f12b8a2d82bc86b1da38",
+      "disposition": "non_applicant",
+      "reason": "업소 사업자등록·계좌·통장으로 가맹점의 훼손 지류 상품권을 교환하는 서식이다. 같은 조문이 사용자용 별지16을 따로 정하므로 소비자 사업에는 사용자용만 연결한다.",
+      "fullBodyReviewed": true,
+      "reviewedProgramPairs": [
+        {
+          "programId": "g47110.gov24-502000000212",
+          "programName": "지역화폐(포항사랑상품권)",
+          "disposition": "not_applicable",
+          "reason": "원본 신청 주체·목적과 이 사업의 지원 범위를 대조했으며 이 연결은 승인하지 않음."
+        }
+      ],
+      "sourceEvidence": {
+        "lawId": "2110449",
+        "lawTitle": "포항시 포항사랑상품권 관리 및 운영 조례 시행규칙",
+        "annexId": "21557305",
+        "flSeq": "161804695",
+        "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=161804695&flNm=%EB%B3%84%EC%A7%80+%EC%A0%9C15%ED%98%B8%EC%84%9C%EC%8B%9D%28%ED%8F%AC%ED%95%AD%EC%82%AC%EB%9E%91%EC%83%81%ED%92%88%EA%B6%8C+%ED%9B%BC%EC%86%90%EB%B6%84+%EA%B5%90%ED%99%98+%EC%8B%A0%EC%B2%AD%EC%84%9C%28%EA%B0%80%EB%A7%B9%EC%A0%90%EC%9A%A9%29%29",
+        "publicLawUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=2110449",
+        "exactSourceBinding": true,
+        "lawTextRead": true,
+        "articleNumbers": [
+          "제11조"
+        ],
+        "articleTexts": [
+          "제11조(상품권 훼손 교환) 사용자는 상품권이 훼손 등의 사유로 다른 상품권으로 교환을 하려는 경우에는 가맹점은 별지 제15호서식, 사용자는 별지 제16호서식에 따른 신청서를 시장에게 제출하여야 한다."
+        ],
+        "originalBytes": 54272,
+        "bodyTextSha256": "9593b4b1027e8f2962079fd334cbbf525789a0592c4ffd680e35b01596ed4fca",
+        "textLength": 663,
+        "textScope": "all_body_sections_or_pages",
+        "sectionsRead": [
+          "BodyText/Section0"
+        ],
+        "currencyCheck": {
+          "state": "source_current",
+          "checkedAt": "2026-10-19",
+          "currentLawId": "2110449",
+          "effectiveDate": "20260219",
+          "annexBinding": "bound"
+        }
+      },
+      "checkedAt": "2026-10-19"
+    },
+    {
+      "formId": "ordin-21557307",
+      "sha256": "03157eb611029430cc3536d6390b02c8c853f01d7af2bbefb18ccaa8c6354d51",
+      "disposition": "approved",
+      "reason": "원본은 상품권 사용자의 성명·권종·훼손 내용과 실물을 제출하는 별지16이다. 제11조가 가맹점용15와 사용자용16을 구별하며 개인의 기존 지류상품권 교환에만 연결한다.",
+      "fullBodyReviewed": true,
+      "reviewedProgramPairs": [
+        {
+          "programId": "g47110.gov24-502000000212",
+          "programName": "지역화폐(포항사랑상품권)",
+          "disposition": "approved",
+          "role": "application",
+          "use": "conditional",
+          "reason": "원본은 상품권 사용자의 성명·권종·훼손 내용과 실물을 제출하는 별지16이다. 제11조가 가맹점용15와 사용자용16을 구별하며 개인의 기존 지류상품권 교환에만 연결한다."
+        }
+      ],
+      "sourceEvidence": {
+        "lawId": "2110449",
+        "lawTitle": "포항시 포항사랑상품권 관리 및 운영 조례 시행규칙",
+        "annexId": "21557307",
+        "flSeq": "161804697",
+        "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=161804697&flNm=%EB%B3%84%EC%A7%80+%EC%A0%9C16%ED%98%B8%EC%84%9C%EC%8B%9D%28%ED%8F%AC%ED%95%AD%EC%82%AC%EB%9E%91%EC%83%81%ED%92%88%EA%B6%8C+%ED%9B%BC%EC%86%90%EB%B6%84+%EA%B5%90%ED%99%98+%EC%8B%A0%EC%B2%AD%EC%84%9C%28%EC%82%AC%EC%9A%A9%EC%9E%90%EC%9A%A9%29%29",
+        "publicLawUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=2110449",
+        "exactSourceBinding": true,
+        "lawTextRead": true,
+        "articleNumbers": [
+          "제11조"
+        ],
+        "articleTexts": [
+          "제11조(상품권 훼손 교환) 사용자는 상품권이 훼손 등의 사유로 다른 상품권으로 교환을 하려는 경우에는 가맹점은 별지 제15호서식, 사용자는 별지 제16호서식에 따른 신청서를 시장에게 제출하여야 한다."
+        ],
+        "originalBytes": 51712,
+        "bodyTextSha256": "08deec5dc5943c37dd3fb33c9fae6ea48be8c574d88eb7e2cb357652ab524b55",
+        "textLength": 644,
+        "textScope": "all_body_sections_or_pages",
+        "sectionsRead": [
+          "BodyText/Section0"
+        ],
+        "currencyCheck": {
+          "state": "source_current",
+          "checkedAt": "2026-10-19",
+          "currentLawId": "2110449",
+          "effectiveDate": "20260219",
+          "annexBinding": "bound"
+        }
+      },
+      "checkedAt": "2026-10-19"
+    },
+    {
+      "formId": "ordin-21551903",
+      "sha256": "24b8e928987f4b8b2ed118c978c5756b7d81862c8df77df460bb4d864b5572db",
+      "disposition": "approved",
+      "reason": "원본은 대상마을 대표자가 주민들의 월별 탑승일·횟수·인원·주민부담과 운행요금을 취합하여 탑승비용을 신청하는 서식이다. 제4조가 업체가 아닌 마을 대표자의 제출을 명시하고 사업도 읍면에서 기사에게 비용을 지급하는 구조여서 그 실제 대표 신청 단계에 한정한다.",
+      "fullBodyReviewed": true,
+      "reviewedProgramPairs": [
+        {
+          "programId": "g44770.bokjiro-WLF00006500",
+          "programName": "서천군 농어촌버스 미운행지역 희망택시 운행",
+          "disposition": "approved",
+          "role": "application",
+          "use": "conditional",
+          "reason": "원본은 대상마을 대표자가 주민들의 월별 탑승일·횟수·인원·주민부담과 운행요금을 취합하여 탑승비용을 신청하는 서식이다. 제4조가 업체가 아닌 마을 대표자의 제출을 명시하고 사업도 읍면에서 기사에게 비용을 지급하는 구조여서 그 실제 대표 신청 단계에 한정한다."
+        }
+      ],
+      "sourceEvidence": {
+        "lawId": "2110777",
+        "lawTitle": "서천군 농어촌버스 미운행지역 희망택시 운행 및 이용주민 지원에 관한 조례",
+        "annexId": "21551903",
+        "flSeq": "161754333",
+        "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=161754333&flNm=%EB%B3%84%EC%A7%80+%EC%84%9C%EC%8B%9D",
+        "publicLawUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=2110777",
+        "exactSourceBinding": true,
+        "lawTextRead": true,
+        "articleNumbers": [
+          "제4조"
+        ],
+        "articleTexts": [
+          "제4조(비용의 신청)① 희망택시 운행 대상마을의 대표자는 주민들이 그 달에 이용한 택시 운행일지를 근거로 별지 서식에 따른 희망택시 탑승비용 지원신청서를 작성하여 군수에게 제출하여야 한다. <개정 2014.4.10, 2019.10.21.>② 군수는 신청자가 제출한 신청서가 미비한 경우에는 이에 대한 보완을 요구할 수 있으며, 신청자는 특별한 사유가 없으면 이에 응하여야 한다."
+        ],
+        "originalBytes": 20480,
+        "bodyTextSha256": "d07b5cc8cb10d6099aaa156577990fe8323f21df32b54415adf2eb4e967b24e1",
+        "textLength": 253,
+        "textScope": "all_body_sections_or_pages",
+        "sectionsRead": [
+          "BodyText/Section0"
+        ],
+        "currencyCheck": {
+          "state": "source_current",
+          "checkedAt": "2026-10-19",
+          "currentLawId": "2110777",
+          "effectiveDate": "20260220",
+          "annexBinding": "bound"
+        }
+      },
+      "checkedAt": "2026-10-19"
+    },
+    {
+      "formId": "ordin-21551729",
+      "sha256": "888c6132c0d7ee84325d86cabec9c3377653335891c16b92e311b123eaa10f80",
+      "disposition": "non_applicant",
+      "reason": "별지1~8 전체를 읽었다. 판매환전현황1·발급 지정서3·폐기조서7·발행대장8과 가맹점 등록2·변경4·해지5·환전한도6으로 구성되어 소비자 구매 신청 부분이 없다. 금산 사업은 구매자 후캐시백 지원이므로 가맹점·금융기관 문서를 붙이지 않는다.",
+      "fullBodyReviewed": true,
+      "reviewedProgramPairs": [
+        {
+          "programId": "g44710.gov24-455000000103",
+          "programName": "지역화폐(금산사랑상품권)",
+          "disposition": "not_applicable",
+          "reason": "원본 신청 주체·목적과 이 사업의 지원 범위를 대조했으며 이 연결은 승인하지 않음."
+        }
+      ],
+      "sourceEvidence": {
+        "lawId": "2110789",
+        "lawTitle": "금산사랑 상품권 관리 및 운영 조례",
+        "annexId": "21551729",
+        "flSeq": "161754189",
+        "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=161754189&flNm=%5B%EB%B3%84%EC%A7%80%5D",
+        "publicLawUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=2110789",
+        "exactSourceBinding": true,
+        "lawTextRead": true,
+        "articleNumbers": [
+          "제5조",
+          "제6조",
+          "제7조"
+        ],
+        "articleTexts": [
+          "제5조(판매대행점의 협약 등)① 군수는 법 제6조제1항에 따라 판매대행점에 상품권의 보관ㆍ판매ㆍ환전 등 업무의 전부 또는 일부를 대행하게 할 수 있다. 이 경우 협약서에는 다음 각 호의 사항이 포함되어야 한다.1. 협약 기간2. 의무 이행 사항② 군수는 법 제6조제2항에 따라 판매대행점에 관한 정보를 군 인터넷 홈페이지에 공개해야 한다.③ 판매대행점은 법 제6조제3항에 따라 상품권의 판매량, 재고량 등의 업무실적을 매월 말 기준으로 작성하여 다음 달 10일까지 군수에게 별지 제1호서식의 판매 및 현황을 제출하여야 한다. 다만 통합관리시스템에 의하여 유통내용을 매일 처리하여 시스템으로 확인 할 경우 제출한 것으로 본다.",
+          "제6조(가맹점의 등록 및 관리)① 가맹점으로 등록하려는 자는 법 제7조제1항에 따라 업소의 소재지, 업종 등의 정보를 포함한 별지 제2호서식의 신청서를 작성하여 군수에게 제출하여야 한다.② 법 제7조제2항제3호에서 “조례로 정하는 등록 제한업종”이란 다음 각 호와 같으며 이 법의 목적에 적합하지 않은 어느 하나의 업종 또는 사업장을 운영하는 경우에는 등록을 거부 할 수 있다.1. 「식품위생법 시행령」 제21조제8호에 따른 단란주점과 유흥주점2. 그 밖에 군수가 지역공동체 강화 및 지역경제 활성화에 적합하지 않다고 인정하는 업종③ 법 제7조제4항에 따른 가맹점의 자격요건은 금산군 관할 구역 내에 사업자로 등록된 업소여야 한다.④ 군수는 제1항에 따라 가맹점 신청서를 제출한 업소의 소재지, 업종 등을 심사하여 가맹점 계약을 체결하고 별지 제3호서식의 지정서를 교부하여야 한다.⑤ 가맹점의 소재지, 대표자 등의 변경 또는 지정을 해지하고자 하는 가맹점주는 사유 발생일부터 30일 이내에 군수에게 별지 제4호서식 또는 별지 제5호서식의 신청서를 제출하여야 한다.",
+          "제7조(상품권의 환전)① 가맹점은 상품권을 환전하고자 할 경우 판매대행점에 환전을 청구할 수 있다.② 판매대행점은 제1항에 따른 환전 청구가 있는 경우 영업일 기준으로 3일 이내에 환전하여야 한다.③ 가맹점의 환전 한도는 월 1천만 원으로 한다.④ 제3항의 규정에도 불구하고 군수는 필요하다고 인정하는 경우에는 한도를 증액 할 수 있다.⑤ 환전 환도를 증액하려는 자는 매출액 등의 정보를 포함한 별지 제6호서식의 신청서를 작성하여 군수에게 제출하여야 한다."
+        ],
+        "originalBytes": 45056,
+        "bodyTextSha256": "f85ad0dbab97256f8590824ef45aece5d7eeced8429221cbe0988863022aba67",
+        "textLength": 3411,
+        "textScope": "all_body_sections_or_pages",
+        "sectionsRead": [
+          "BodyText/Section0"
+        ],
+        "currencyCheck": {
+          "state": "source_current",
+          "checkedAt": "2026-10-19",
+          "currentLawId": "2110789",
+          "effectiveDate": "20260220",
+          "annexBinding": "bound"
+        }
+      },
+      "checkedAt": "2026-10-19"
+    },
+    {
+      "formId": "ordin-21556309",
+      "sha256": "85194c7b2709bff8927de8b9292321df1a4b71e2c56a75008fab515b9fafbcdb",
+      "disposition": "approved",
+      "reason": "원본 제목은 보훈명예수당 위임장이지만 본문은 보훈명예수당 또는 사망위로금 지급신청을 명시한다. 제8조제2항의 부득이한 사유로 배우자·부양의무자 등이 대신 신청하는 경우에만 해당 동의/위임 서류로 연결한다.",
+      "fullBodyReviewed": true,
+      "reviewedProgramPairs": [
+        {
+          "programId": "g41150.gov24-382000000133",
+          "programName": "국가보훈대상자 보훈명예수당",
+          "disposition": "approved",
+          "role": "delegation",
+          "use": "conditional",
+          "reason": "원본 제목은 보훈명예수당 위임장이지만 본문은 보훈명예수당 또는 사망위로금 지급신청을 명시한다. 제8조제2항의 부득이한 사유로 배우자·부양의무자 등이 대신 신청하는 경우에만 해당 동의/위임 서류로 연결한다."
+        },
+        {
+          "programId": "g41150.bokjiro-WLF00003965",
+          "programName": "보훈대상자 지원",
+          "disposition": "approved",
+          "role": "delegation",
+          "use": "conditional",
+          "reason": "원본 제목은 보훈명예수당 위임장이지만 본문은 보훈명예수당 또는 사망위로금 지급신청을 명시한다. 제8조제2항의 부득이한 사유로 배우자·부양의무자 등이 대신 신청하는 경우에만 해당 동의/위임 서류로 연결한다."
+        },
+        {
+          "programId": "g41150.bokjiro-WLF00000711",
+          "programName": "독립유공자 및 유족 위문",
+          "disposition": "not_applicable",
+          "reason": "원본 신청 주체·목적과 이 사업의 지원 범위를 대조했으며 이 연결은 승인하지 않음."
+        }
+      ],
+      "sourceEvidence": {
+        "lawId": "2111203",
+        "lawTitle": "의정부시 국가보훈대상자 등 예우 및 지원에 관한 조례",
+        "annexId": "21556309",
+        "flSeq": "161800355",
+        "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=161800355&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C4%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EB%B3%B4%ED%9B%88%EB%AA%85%EC%98%88%EC%88%98%EB%8B%B9+%EC%A7%80%EA%B8%89%EC%8B%A0%EC%B2%AD+%EC%9C%84%EC%9E%84%EC%9E%A5",
+        "publicLawUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=2111203",
+        "exactSourceBinding": true,
+        "lawTextRead": true,
+        "articleNumbers": [
+          "제8조"
+        ],
+        "articleTexts": [
+          "제8조(수당 등의 신청)① 수당 또는 사망위로금을 지급받고자 하는 사람은 별지 제1호서식 또는 별지 제2호서식에 따른 신청서를 주민등록지 관할 동장에게 제출하여야 한다. <개정 2017.11.15.>② 지급대상자가 부득이한 사유로 신청할 수 없을 경우에는 배우자, 부양 의무자 등이 신청할 수 있다.③ 신청서를 접수한 주민등록지 관할 동장은 다음달 5일까지 시장에게 이송하여야 한다.[본조신설 2011.7.7]"
+        ],
+        "originalBytes": 26112,
+        "bodyTextSha256": "dab246240b9254395b079d6b95b3e279e268e853aec49fb3f7691bf39b2fd90b",
+        "textLength": 421,
+        "textScope": "all_body_sections_or_pages",
+        "sectionsRead": [
+          "BodyText/Section0"
+        ],
+        "currencyCheck": {
+          "state": "source_current",
+          "checkedAt": "2026-10-19",
+          "currentLawId": "2111203",
+          "effectiveDate": "20260223",
+          "annexBinding": "bound"
+        }
+      },
+      "checkedAt": "2026-10-19"
+    },
+    {
+      "formId": "ordin-21557159",
+      "sha256": "6d208157aee357c949daed0aff25a5f5da0b9047102c651eec4d970171a2d445",
+      "disposition": "non_applicant",
+      "reason": "장흥 상품권의 가맹점 등록 서식 전체를 읽었다. 사이트는19세 이상 소비자 구매할인 지원이며 업소 등록·정산 자체를 혜택 신청으로 안내하지 않으므로 연결하지 않는다.",
+      "fullBodyReviewed": true,
+      "reviewedProgramPairs": [
+        {
+          "programId": "g12770.gov24-491000000122",
+          "programName": "정남진장흥사랑상품권",
+          "disposition": "not_applicable",
+          "reason": "원본 신청 주체·목적과 이 사업의 지원 범위를 대조했으며 이 연결은 승인하지 않음."
+        }
+      ],
+      "sourceEvidence": {
+        "lawId": "2111301",
+        "lawTitle": "장흥군 정남진장흥사랑 상품권 관리 및 운영 조례 시행규칙",
+        "annexId": "21557159",
+        "flSeq": "161804527",
+        "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=161804527&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C3%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EC%A0%95%EB%82%A8%EC%A7%84%EC%9E%A5%ED%9D%A5%EC%82%AC%EB%9E%91%EC%83%81%ED%92%88%EA%B6%8C+%EA%B0%80%EB%A7%B9%EC%A0%90+%EB%93%B1%EB%A1%9D+%EC%8B%A0%EC%B2%AD%EC%84%9C",
+        "publicLawUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=2111301",
+        "exactSourceBinding": true,
+        "lawTextRead": true,
+        "articleNumbers": [
+          "제5조"
+        ],
+        "articleTexts": [
+          "제5조(가맹점 등록 및 관리)① 조례 제8조제1항에 따라 가맹점으로 등록하고자 하는 자는 별지 제3호서식의 신청서와 별지 제5호서식의 가맹점 준수사항 이행확약서를 작성하여 군수에게 제출하여야 한다.② 조례 제8조제4항에 따라 임시가맹점으로 등록하고자 하는 자는 지역 축제·군이 주관하는 행사에 참여 사실을 확인할 수 있는 증빙서류를 첨부하여 별지 제4호서식의 신청서와 별지 제5호서식의 가맹점 준수사항 이행확약서를 작성하여 군수에게 제출하여야 한다.③ 군수는 가맹점(“임시가맹점”을 포함한다) 등록 신청을 한 업소의 제출서류 등을 검토하여 등록 처리된 가맹점에 별지 제6호서식의 가맹점 등록증 또는 제7호서식의 임시가맹점 등록증을 교부하여야 한다.④ 조례 제8조제5항에 따라 가맹점의 소재지, 대표자, 사업자등록번호, 입금계좌 등을 변경하고자 하는 경우에는 변경 사항을 증빙할 수 있는 자료를 첨부하여 별지 제8호서식에 따라 변경 신청을 하여야 하고, 가맹점 등록을 해지하고자 하는 경우에는 별지 제9호서식에 따라 해지 신청을 하여야 한다."
+        ],
+        "originalBytes": 46080,
+        "bodyTextSha256": "b1998e790fd98c66b3c0fee2df5c6cd52fb65e8349cf612558be41e1bc593d80",
+        "textLength": 511,
+        "textScope": "all_body_sections_or_pages",
+        "sectionsRead": [
+          "BodyText/Section0"
+        ],
+        "currencyCheck": {
+          "state": "source_current",
+          "checkedAt": "2026-10-19",
+          "currentLawId": "2111301",
+          "effectiveDate": "20260223",
+          "annexBinding": "bound"
+        }
+      },
+      "checkedAt": "2026-10-19"
+    },
+    {
+      "formId": "ordin-21557161",
+      "sha256": "5f9bbe70ceb88fa65ecc494c13488d2fa2d706260440d4823f6e712dd1977c7b",
+      "disposition": "non_applicant",
+      "reason": "장흥 상품권의 행사 참여 업소의 임시가맹점 등록 서식 전체를 읽었다. 사이트는19세 이상 소비자 구매할인 지원이며 업소 등록·정산 자체를 혜택 신청으로 안내하지 않으므로 연결하지 않는다.",
+      "fullBodyReviewed": true,
+      "reviewedProgramPairs": [
+        {
+          "programId": "g12770.gov24-491000000122",
+          "programName": "정남진장흥사랑상품권",
+          "disposition": "not_applicable",
+          "reason": "원본 신청 주체·목적과 이 사업의 지원 범위를 대조했으며 이 연결은 승인하지 않음."
+        }
+      ],
+      "sourceEvidence": {
+        "lawId": "2111301",
+        "lawTitle": "장흥군 정남진장흥사랑 상품권 관리 및 운영 조례 시행규칙",
+        "annexId": "21557161",
+        "flSeq": "161804529",
+        "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=161804529&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C4%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EC%A0%95%EB%82%A8%EC%A7%84%EC%9E%A5%ED%9D%A5%EC%82%AC%EB%9E%91%EC%83%81%ED%92%88%EA%B6%8C+%EC%9E%84%EC%8B%9C%EA%B0%80%EB%A7%B9%EC%A0%90+%EB%93%B1%EB%A1%9D+%EC%8B%A0%EC%B2%AD%EC%84%9C",
+        "publicLawUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=2111301",
+        "exactSourceBinding": true,
+        "lawTextRead": true,
+        "articleNumbers": [
+          "제5조"
+        ],
+        "articleTexts": [
+          "제5조(가맹점 등록 및 관리)① 조례 제8조제1항에 따라 가맹점으로 등록하고자 하는 자는 별지 제3호서식의 신청서와 별지 제5호서식의 가맹점 준수사항 이행확약서를 작성하여 군수에게 제출하여야 한다.② 조례 제8조제4항에 따라 임시가맹점으로 등록하고자 하는 자는 지역 축제·군이 주관하는 행사에 참여 사실을 확인할 수 있는 증빙서류를 첨부하여 별지 제4호서식의 신청서와 별지 제5호서식의 가맹점 준수사항 이행확약서를 작성하여 군수에게 제출하여야 한다.③ 군수는 가맹점(“임시가맹점”을 포함한다) 등록 신청을 한 업소의 제출서류 등을 검토하여 등록 처리된 가맹점에 별지 제6호서식의 가맹점 등록증 또는 제7호서식의 임시가맹점 등록증을 교부하여야 한다.④ 조례 제8조제5항에 따라 가맹점의 소재지, 대표자, 사업자등록번호, 입금계좌 등을 변경하고자 하는 경우에는 변경 사항을 증빙할 수 있는 자료를 첨부하여 별지 제8호서식에 따라 변경 신청을 하여야 하고, 가맹점 등록을 해지하고자 하는 경우에는 별지 제9호서식에 따라 해지 신청을 하여야 한다."
+        ],
+        "originalBytes": 46080,
+        "bodyTextSha256": "da48fc01fa62cb4ec9e5d66e3661fc3e8af92b01ab81407bc0747f91f31ca57a",
+        "textLength": 514,
+        "textScope": "all_body_sections_or_pages",
+        "sectionsRead": [
+          "BodyText/Section0"
+        ],
+        "currencyCheck": {
+          "state": "source_current",
+          "checkedAt": "2026-10-19",
+          "currentLawId": "2111301",
+          "effectiveDate": "20260223",
+          "annexBinding": "bound"
+        }
+      },
+      "checkedAt": "2026-10-19"
+    },
+    {
+      "formId": "ordin-21557169",
+      "sha256": "62c751e5e3ba8571cc3cec2125a33320b9dfb9843bf63f432734141c96361aae",
+      "disposition": "non_applicant",
+      "reason": "장흥 상품권의 기존 가맹점 정보변경 서식 전체를 읽었다. 사이트는19세 이상 소비자 구매할인 지원이며 업소 등록·정산 자체를 혜택 신청으로 안내하지 않으므로 연결하지 않는다.",
+      "fullBodyReviewed": true,
+      "reviewedProgramPairs": [
+        {
+          "programId": "g12770.gov24-491000000122",
+          "programName": "정남진장흥사랑상품권",
+          "disposition": "not_applicable",
+          "reason": "원본 신청 주체·목적과 이 사업의 지원 범위를 대조했으며 이 연결은 승인하지 않음."
+        }
+      ],
+      "sourceEvidence": {
+        "lawId": "2111301",
+        "lawTitle": "장흥군 정남진장흥사랑 상품권 관리 및 운영 조례 시행규칙",
+        "annexId": "21557169",
+        "flSeq": "161804537",
+        "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=161804537&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C8%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EC%A0%95%EB%82%A8%EC%A7%84%EC%9E%A5%ED%9D%A5%EC%82%AC%EB%9E%91%EC%83%81%ED%92%88%EA%B6%8C+%EA%B0%80%EB%A7%B9%EC%A0%90+%EC%A7%80%EC%A0%95+%EB%B3%80%EA%B2%BD+%EC%8B%A0%EC%B2%AD%EC%84%9C",
+        "publicLawUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=2111301",
+        "exactSourceBinding": true,
+        "lawTextRead": true,
+        "articleNumbers": [
+          "제5조"
+        ],
+        "articleTexts": [
+          "제5조(가맹점 등록 및 관리)① 조례 제8조제1항에 따라 가맹점으로 등록하고자 하는 자는 별지 제3호서식의 신청서와 별지 제5호서식의 가맹점 준수사항 이행확약서를 작성하여 군수에게 제출하여야 한다.② 조례 제8조제4항에 따라 임시가맹점으로 등록하고자 하는 자는 지역 축제·군이 주관하는 행사에 참여 사실을 확인할 수 있는 증빙서류를 첨부하여 별지 제4호서식의 신청서와 별지 제5호서식의 가맹점 준수사항 이행확약서를 작성하여 군수에게 제출하여야 한다.③ 군수는 가맹점(“임시가맹점”을 포함한다) 등록 신청을 한 업소의 제출서류 등을 검토하여 등록 처리된 가맹점에 별지 제6호서식의 가맹점 등록증 또는 제7호서식의 임시가맹점 등록증을 교부하여야 한다.④ 조례 제8조제5항에 따라 가맹점의 소재지, 대표자, 사업자등록번호, 입금계좌 등을 변경하고자 하는 경우에는 변경 사항을 증빙할 수 있는 자료를 첨부하여 별지 제8호서식에 따라 변경 신청을 하여야 하고, 가맹점 등록을 해지하고자 하는 경우에는 별지 제9호서식에 따라 해지 신청을 하여야 한다."
+        ],
+        "originalBytes": 44032,
+        "bodyTextSha256": "ce03ef77eccd201857df7e01e2cdaf101bdd8b8a5024b3c60948978819de4a49",
+        "textLength": 480,
+        "textScope": "all_body_sections_or_pages",
+        "sectionsRead": [
+          "BodyText/Section0"
+        ],
+        "currencyCheck": {
+          "state": "source_current",
+          "checkedAt": "2026-10-19",
+          "currentLawId": "2111301",
+          "effectiveDate": "20260223",
+          "annexBinding": "bound"
+        }
+      },
+      "checkedAt": "2026-10-19"
+    },
+    {
+      "formId": "ordin-21557171",
+      "sha256": "9f07fe89672016d35bbb2131e23eb36bab1f2592a45cfc67435e612accd7b91d",
+      "disposition": "non_applicant",
+      "reason": "장흥 상품권의 기존 가맹점 해지 서식 전체를 읽었다. 사이트는19세 이상 소비자 구매할인 지원이며 업소 등록·정산 자체를 혜택 신청으로 안내하지 않으므로 연결하지 않는다.",
+      "fullBodyReviewed": true,
+      "reviewedProgramPairs": [
+        {
+          "programId": "g12770.gov24-491000000122",
+          "programName": "정남진장흥사랑상품권",
+          "disposition": "not_applicable",
+          "reason": "원본 신청 주체·목적과 이 사업의 지원 범위를 대조했으며 이 연결은 승인하지 않음."
+        }
+      ],
+      "sourceEvidence": {
+        "lawId": "2111301",
+        "lawTitle": "장흥군 정남진장흥사랑 상품권 관리 및 운영 조례 시행규칙",
+        "annexId": "21557171",
+        "flSeq": "161804539",
+        "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=161804539&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C9%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EC%A0%95%EB%82%A8%EC%A7%84%EC%9E%A5%ED%9D%A5%EC%82%AC%EB%9E%91%EC%83%81%ED%92%88%EA%B6%8C+%EA%B0%80%EB%A7%B9%EC%A0%90+%EB%93%B1%EB%A1%9D%ED%95%B4%EC%A7%80+%EC%8B%A0%EC%B2%AD%EC%84%9C",
+        "publicLawUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=2111301",
+        "exactSourceBinding": true,
+        "lawTextRead": true,
+        "articleNumbers": [
+          "제5조"
+        ],
+        "articleTexts": [
+          "제5조(가맹점 등록 및 관리)① 조례 제8조제1항에 따라 가맹점으로 등록하고자 하는 자는 별지 제3호서식의 신청서와 별지 제5호서식의 가맹점 준수사항 이행확약서를 작성하여 군수에게 제출하여야 한다.② 조례 제8조제4항에 따라 임시가맹점으로 등록하고자 하는 자는 지역 축제·군이 주관하는 행사에 참여 사실을 확인할 수 있는 증빙서류를 첨부하여 별지 제4호서식의 신청서와 별지 제5호서식의 가맹점 준수사항 이행확약서를 작성하여 군수에게 제출하여야 한다.③ 군수는 가맹점(“임시가맹점”을 포함한다) 등록 신청을 한 업소의 제출서류 등을 검토하여 등록 처리된 가맹점에 별지 제6호서식의 가맹점 등록증 또는 제7호서식의 임시가맹점 등록증을 교부하여야 한다.④ 조례 제8조제5항에 따라 가맹점의 소재지, 대표자, 사업자등록번호, 입금계좌 등을 변경하고자 하는 경우에는 변경 사항을 증빙할 수 있는 자료를 첨부하여 별지 제8호서식에 따라 변경 신청을 하여야 하고, 가맹점 등록을 해지하고자 하는 경우에는 별지 제9호서식에 따라 해지 신청을 하여야 한다."
+        ],
+        "originalBytes": 33792,
+        "bodyTextSha256": "56b2dc758c1122baaa73dba0a71310809d938aacc419a5a0f1b2928574a6051b",
+        "textLength": 298,
+        "textScope": "all_body_sections_or_pages",
+        "sectionsRead": [
+          "BodyText/Section0"
+        ],
+        "currencyCheck": {
+          "state": "source_current",
+          "checkedAt": "2026-10-19",
+          "currentLawId": "2111301",
+          "effectiveDate": "20260223",
+          "annexBinding": "bound"
+        }
+      },
+      "checkedAt": "2026-10-19"
+    },
+    {
+      "formId": "ordin-21557173",
+      "sha256": "688e3df44c56be3c9587291060cacf516135a5bf391d2bb31eb285e4b1292660",
+      "disposition": "approved",
+      "reason": "개인이 지류 상품권을 구매하면서 본인인증·권종·금액과 정보제공에 동의하는 별지10이다. 인쇄된 기본할인10%·통합월70만원·19세 본인구매 조건이 현재 사업 안내와 일치하고 제7조가 이 개인 할인구매 서식을 정한다.",
+      "fullBodyReviewed": true,
+      "reviewedProgramPairs": [
+        {
+          "programId": "g12770.gov24-491000000122",
+          "programName": "정남진장흥사랑상품권",
+          "disposition": "approved",
+          "role": "application",
+          "use": "conditional",
+          "reason": "개인이 지류 상품권을 구매하면서 본인인증·권종·금액과 정보제공에 동의하는 별지10이다. 인쇄된 기본할인10%·통합월70만원·19세 본인구매 조건이 현재 사업 안내와 일치하고 제7조가 이 개인 할인구매 서식을 정한다."
+        }
+      ],
+      "sourceEvidence": {
+        "lawId": "2111301",
+        "lawTitle": "장흥군 정남진장흥사랑 상품권 관리 및 운영 조례 시행규칙",
+        "annexId": "21557173",
+        "flSeq": "161804541",
+        "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=161804541&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C10%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EC%A0%95%EB%82%A8%EC%A7%84%EC%9E%A5%ED%9D%A5%EC%82%AC%EB%9E%91%EC%83%81%ED%92%88%EA%B6%8C+%EA%B5%AC%EB%A7%A4+%EC%8B%A0%EC%B2%AD%EC%84%9C%28%EA%B0%9C%EC%9D%B8%29",
+        "publicLawUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=2111301",
+        "exactSourceBinding": true,
+        "lawTextRead": true,
+        "articleNumbers": [
+          "제7조"
+        ],
+        "articleTexts": [
+          "제7조(상품권 구매)① 상품권을 할인 구매하고자 하는 자는 주민등록증, 운전면허증, 여권 등 본인임을 알 수 있는 신분증을 지참하고 별지 제10호서식의 신청서를 작성하여 판매대행점에 제출하여야 한다. 이 경우 판매대행점은 본인 여부를 확인하고 판매하여야 한다.<개정 2026. 2. 23.>② 법인 또는 단체가 상품권을 구매하고자 하는 경우에는 사업자등록증을 첨부하여 별지 제11호서식의 신청서를 작성하여야 하며, 현금 할인 구매를 적용하지 않으므로 구매 한도는 적용하지 아니한다.<개정 2026. 2. 23.>"
+        ],
+        "originalBytes": 58368,
+        "bodyTextSha256": "75aaf14a17a598a01906454cce246c543474f23a71d707ec198af2f9526a1517",
+        "textLength": 1058,
+        "textScope": "all_body_sections_or_pages",
+        "sectionsRead": [
+          "BodyText/Section0"
+        ],
+        "currencyCheck": {
+          "state": "source_current",
+          "checkedAt": "2026-10-19",
+          "currentLawId": "2111301",
+          "effectiveDate": "20260223",
+          "annexBinding": "bound"
+        }
+      },
+      "checkedAt": "2026-10-19"
+    },
+    {
+      "formId": "ordin-21557175",
+      "sha256": "7c62cfe1e63492773b6889281c682ee871152f3bb25a25d30e2090a7a0c12b7b",
+      "disposition": "no_matching_site_program",
+      "reason": "법인·단체의 구매서식으로 본문과 제7조제2항 모두 할인 미적용을 명시한다.19세 이상 개인의10% 할인 혜택에 해당 법인 서식을 붙이지 않는다.",
+      "fullBodyReviewed": true,
+      "reviewedProgramPairs": [
+        {
+          "programId": "g12770.gov24-491000000122",
+          "programName": "정남진장흥사랑상품권",
+          "disposition": "not_applicable",
+          "reason": "원본 신청 주체·목적과 이 사업의 지원 범위를 대조했으며 이 연결은 승인하지 않음."
+        }
+      ],
+      "sourceEvidence": {
+        "lawId": "2111301",
+        "lawTitle": "장흥군 정남진장흥사랑 상품권 관리 및 운영 조례 시행규칙",
+        "annexId": "21557175",
+        "flSeq": "161804543",
+        "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=161804543&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C11%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EC%A0%95%EB%82%A8%EC%A7%84%EC%9E%A5%ED%9D%A5%EC%82%AC%EB%9E%91%EC%83%81%ED%92%88%EA%B6%8C+%EA%B5%AC%EB%A7%A4+%EC%8B%A0%EC%B2%AD%EC%84%9C%28%EB%B2%95%EC%9D%B8%C2%B7%EB%8B%A8%EC%B2%B4%29",
+        "publicLawUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=2111301",
+        "exactSourceBinding": true,
+        "lawTextRead": true,
+        "articleNumbers": [
+          "제7조"
+        ],
+        "articleTexts": [
+          "제7조(상품권 구매)① 상품권을 할인 구매하고자 하는 자는 주민등록증, 운전면허증, 여권 등 본인임을 알 수 있는 신분증을 지참하고 별지 제10호서식의 신청서를 작성하여 판매대행점에 제출하여야 한다. 이 경우 판매대행점은 본인 여부를 확인하고 판매하여야 한다.<개정 2026. 2. 23.>② 법인 또는 단체가 상품권을 구매하고자 하는 경우에는 사업자등록증을 첨부하여 별지 제11호서식의 신청서를 작성하여야 하며, 현금 할인 구매를 적용하지 않으므로 구매 한도는 적용하지 아니한다.<개정 2026. 2. 23.>"
+        ],
+        "originalBytes": 65024,
+        "bodyTextSha256": "b0c7f6d3741cef66efbe0bffd3298cc3b2f875312fb066d385ec112d928c0f13",
+        "textLength": 549,
+        "textScope": "all_body_sections_or_pages",
+        "sectionsRead": [
+          "BodyText/Section0"
+        ],
+        "currencyCheck": {
+          "state": "source_current",
+          "checkedAt": "2026-10-19",
+          "currentLawId": "2111301",
+          "effectiveDate": "20260223",
+          "annexBinding": "bound"
+        }
+      },
+      "checkedAt": "2026-10-19"
+    },
+    {
+      "formId": "ordin-21557177",
+      "sha256": "533170341f5bb2433a1178a06e6bad6541a1a01721be61bce96cccc3df2725ac",
+      "disposition": "non_applicant",
+      "reason": "가맹점이 일반·정책발행 상품권 매수와 매출을 등록 계좌로 환전 청구하는 서식이다. 소비자의 할인구매나 잔액환급 요청이 아니다.",
+      "fullBodyReviewed": true,
+      "reviewedProgramPairs": [
+        {
+          "programId": "g12770.gov24-491000000122",
+          "programName": "정남진장흥사랑상품권",
+          "disposition": "not_applicable",
+          "reason": "원본 신청 주체·목적과 이 사업의 지원 범위를 대조했으며 이 연결은 승인하지 않음."
+        }
+      ],
+      "sourceEvidence": {
+        "lawId": "2111301",
+        "lawTitle": "장흥군 정남진장흥사랑 상품권 관리 및 운영 조례 시행규칙",
+        "annexId": "21557177",
+        "flSeq": "161804545",
+        "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=161804545&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C12%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EC%A0%95%EB%82%A8%EC%A7%84%EC%9E%A5%ED%9D%A5%EC%82%AC%EB%9E%91%EC%83%81%ED%92%88%EA%B6%8C+%ED%99%98%EC%A0%84+%EC%B2%AD%EA%B5%AC%EC%84%9C",
+        "publicLawUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=2111301",
+        "exactSourceBinding": true,
+        "lawTextRead": true,
+        "articleNumbers": [
+          "제8조"
+        ],
+        "articleTexts": [
+          "제8조(환전 청구 및 기한)① 조례 제9조제1항에 따라 상품권을 환전하고자 하는 경우에는 별지 제12호서식의 환전 청구서를 작성하여 판매대행점에 청구한다.② 조례 제9조제2항에 따른 군수가 정하는 환전 기한은 판매대행점의 영업일 기준 3일 이내로 한다."
+        ],
+        "originalBytes": 46592,
+        "bodyTextSha256": "72e9dbe58d9e711e320409bbc09f1b93d9f312527cb2949cdbfc1121ad08a4c1",
+        "textLength": 446,
+        "textScope": "all_body_sections_or_pages",
+        "sectionsRead": [
+          "BodyText/Section0"
+        ],
+        "currencyCheck": {
+          "state": "source_current",
+          "checkedAt": "2026-10-19",
+          "currentLawId": "2111301",
+          "effectiveDate": "20260223",
+          "annexBinding": "bound"
+        }
+      },
+      "checkedAt": "2026-10-19"
+    },
+    {
+      "formId": "ordin-21558613",
+      "sha256": "60bc92057154a0454dd1b1a71de1ac3474ed173131e81f54fcb3380f1137817a",
+      "disposition": "no_matching_site_program",
+      "reason": "피해자·피해시설과 생활안정지원 등을 신고하는 사회재난 정부지원 서식이다. 현행 제67조의 피해신고와 일치하지만 성남시민안전보험은 보험회사에 별도로 청구하는 계약상 보험금으로 신청 목적·접수자가 다르다. 원본의 구 제70조 인쇄도 기록하며 보험금 청구로 전용하지 않는다.",
+      "fullBodyReviewed": true,
+      "reviewedProgramPairs": [
+        {
+          "programId": "g41130.gov24-378000000185",
+          "programName": "성남시 시민안전보험",
+          "disposition": "not_applicable",
+          "reason": "원본 신청 주체·목적과 이 사업의 지원 범위를 대조했으며 이 연결은 승인하지 않음."
+        }
+      ],
+      "sourceEvidence": {
+        "lawId": "2111427",
+        "lawTitle": "성남시 재난 및 안전관리 조례",
+        "annexId": "21558613",
+        "flSeq": "161841933",
+        "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=161841933&flNm=%5B%EB%B3%84%EC%A7%80%EC%84%9C%EC%8B%9D%5D+%EC%82%AC%ED%9A%8C%EC%9E%AC%EB%82%9C+%ED%94%BC%ED%95%B4%EC%8B%A0%EA%B3%A0%EC%84%9C",
+        "publicLawUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=2111427",
+        "exactSourceBinding": true,
+        "lawTextRead": true,
+        "articleNumbers": [
+          "제67조"
+        ],
+        "articleTexts": [
+          "제67조(생활안정지원 등의 실시)① 생활안정지원, 간접지원 및 장례비ㆍ치료비 지원(이하 “생활안정지원 등”이라 한다)은 해당 재난피해자로부터 신고를 받아 실시한다. <개정 2023.5.8.>② 생활안정지원 등을 받으려는 재난피해자는 제62조제1항에 따라 지원이 결정된 날부터 10일 이내에 별지 서식의 사회재난 피해신고서를 작성하여 시장에게 신고하여야 한다. <개정 2023.5.8.>③ 제2항에도 불구하고 재난피해자가 다음 각 호의 어느 하나에 해당하는 사유로 제2항에 따른 신고기간 내에 신고하지 못한 경우에는 해당 사유가 종료된 날부터 10일 이내에 시장에게 신고하여야 한다.1. 장기간 여행 또는 입원 등으로 인하여 피해상황을 파악할 수 없는 경우2. 그 밖에 신고할 수 없는 정당한 사유가 있다고 시장이 인정하는 경우④ 시장은 재난의 성질ㆍ규모 또는 재난지역의 교통ㆍ통신 등을 고려하여 필요하다고 인정할 경우에는 제2항에 따른 신고기간을 연장할 수 있다.⑤ 제1항에도 불구하고 시장은 재난피해자가 사망ㆍ실종ㆍ부상ㆍ고령 등의 사유로 직접 신고할 수 없는 경우에는 재난피해자의 가족이나 해당 거주지의 통장ㆍ이장ㆍ반장 등에게 피해사실을 확인하여 신고하도록 하거나 직접 조사할 수 있다.⑥ 시장은 제1항부터 제5항까지의 규정에 따른 신고 내용을 기초로 피해사실을 확인하거나 제5항에 따라 피해사실을 직접 조사하여 확인한 후 피해사실이 인정되면 생활안정지원 등을 실시하여야 한다.[종전 제67조는 제62조로 이동 2023.5.8.][제70조에서 이동 2023.5.8.]"
+        ],
+        "originalBytes": 28160,
+        "bodyTextSha256": "9005968bc60d985069fc47b0157ed633a2dd56ecddb06459221a382662cf008c",
+        "textLength": 1895,
+        "textScope": "all_body_sections_or_pages",
+        "sectionsRead": [
+          "BodyText/Section0"
+        ],
+        "currencyCheck": {
+          "state": "source_current",
+          "checkedAt": "2026-10-19",
+          "currentLawId": "2111427",
+          "effectiveDate": "20260224",
+          "annexBinding": "bound"
+        }
+      },
+      "checkedAt": "2026-10-19",
+      "sameJurisdictionSearch": "성남 전체 사업에서 재난·구호·복구·안전보험 검색: 해당 사회재난 생활안정지원 사업 없음."
+    },
+    {
+      "formId": "ordin-21619161",
+      "sha256": "35323c9e75612c0aebb015863481e236eda3b5462645e409f95cb5baaf59aeee",
+      "disposition": "approved",
+      "reason": "군산 신혼부부 주거대출이자 신청서의 매입·전세 선택, 대출·혼인·주택·본인 계좌를 전부 읽었다. 제6조 부부 중 1명 신청 및 별지 신청서 제출과 일치한다. 사이트 사업의 지원내용은 전세대출이므로 전세 선택 절차에 한정한다.",
+      "fullBodyReviewed": true,
+      "reviewedProgramPairs": [
+        {
+          "programId": "g52130.bokjiro-WLF00004807",
+          "programName": "군산시 신혼부부 주택 전세자금 대출이자 지원",
+          "disposition": "approved",
+          "role": "application",
+          "use": "main",
+          "reason": "군산 신혼부부 주거대출이자 신청서의 매입·전세 선택, 대출·혼인·주택·본인 계좌를 전부 읽었다. 제6조 부부 중 1명 신청 및 별지 신청서 제출과 일치한다. 사이트 사업의 지원내용은 전세대출이므로 전세 선택 절차에 한정한다."
+        }
+      ],
+      "sourceEvidence": {
+        "lawId": "2111849",
+        "lawTitle": "군산시 신혼부부 주거자금 대출이자 지원 조례",
+        "annexId": "21619161",
+        "flSeq": "162018459",
+        "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=162018459&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C1%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EA%B5%B0%EC%82%B0%EC%8B%9C+%EC%8B%A0%ED%98%BC%EB%B6%80%EB%B6%80+%EC%A3%BC%EA%B1%B0%EC%9E%90%EA%B8%88+%EB%8C%80%EC%B6%9C%EC%9D%B4%EC%9E%90+%EC%A7%80%EC%9B%90+%EC%8B%A0%EC%B2%AD%EC%84%9C",
+        "publicLawUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=2111849",
+        "exactSourceBinding": true,
+        "lawTextRead": true,
+        "articleNumbers": [
+          "제6조"
+        ],
+        "articleTexts": [
+          "제6조(지원신청 및 지원절차)① 신청은 신혼부부 중 1명이 한다.② 신청인은 신분증을 지참하여 다음 각 호의 서류를 시장에게 제출하여야 한다.1. 지원신청서 및 신청서상의 구비 서류 등2. 서약서 및 동의서③ 시장은 신청서가 접수된 경우 다음 각 호의 사항을 확인하여야 한다.1. 신혼부부 주거자금 대출이자 지원 신청 사항2. 주민등록 등재 사항 및 거주 확인3. 구비서류4. 그 밖에 제3조에 따른 지원 대상 여부④ 시장은 신청인이 지원대상자로 결정된 경우 결정일로부터 30일 이내에 대출인 명의 통장계좌로 지원금을 지급하여야 한다."
+        ],
+        "originalBytes": 56320,
+        "bodyTextSha256": "954b328f3197742306238f25349b678e3904623d8e485ba855bcb6f8243b90f5",
+        "textLength": 801,
+        "textScope": "all_body_sections_or_pages",
+        "sectionsRead": [
+          "BodyText/Section0"
+        ],
+        "currencyCheck": {
+          "state": "source_current",
+          "checkedAt": "2026-10-19",
+          "currentLawId": "2111849",
+          "effectiveDate": "20260219",
+          "annexBinding": "bound"
+        }
+      },
+      "checkedAt": "2026-10-19"
+    },
+    {
+      "formId": "ordin-21619163",
+      "sha256": "6c5b51676892ea9aa246002deab40db6e58121d5333a8eb55aeea11e100f31df",
+      "disposition": "approved",
+      "reason": "신혼부부 주택·혼인·대출용도 확인 서약과 개인정보·금융정보 제공 동의까지 전체 읽었다. 군산 제6조 신청 시 함께 제출하는 서약·동의로 전세이자 신청 보조서류에 해당한다.",
+      "fullBodyReviewed": true,
+      "reviewedProgramPairs": [
+        {
+          "programId": "g52130.bokjiro-WLF00004807",
+          "programName": "군산시 신혼부부 주택 전세자금 대출이자 지원",
+          "disposition": "approved",
+          "role": "consent",
+          "use": "additional",
+          "reason": "신혼부부 주택·혼인·대출용도 확인 서약과 개인정보·금융정보 제공 동의까지 전체 읽었다. 군산 제6조 신청 시 함께 제출하는 서약·동의로 전세이자 신청 보조서류에 해당한다."
+        }
+      ],
+      "sourceEvidence": {
+        "lawId": "2111849",
+        "lawTitle": "군산시 신혼부부 주거자금 대출이자 지원 조례",
+        "annexId": "21619163",
+        "flSeq": "162018461",
+        "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=162018461&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C2%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EA%B5%B0%EC%82%B0%EC%8B%9C+%EC%8B%A0%ED%98%BC%EB%B6%80%EB%B6%80+%EC%A3%BC%EA%B1%B0%EC%9E%90%EA%B8%88+%EB%8C%80%EC%B6%9C%EC%9D%B4%EC%9E%90+%EC%A7%80%EC%9B%90%EC%82%AC%EC%97%85+%EC%84%9C%EC%95%BD%EC%84%9C+%EB%B0%8F+%EB%8F%99%EC%9D%98%EC%84%9C",
+        "publicLawUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=2111849",
+        "exactSourceBinding": true,
+        "lawTextRead": true,
+        "articleNumbers": [
+          "제6조"
+        ],
+        "articleTexts": [
+          "제6조(지원신청 및 지원절차)① 신청은 신혼부부 중 1명이 한다.② 신청인은 신분증을 지참하여 다음 각 호의 서류를 시장에게 제출하여야 한다.1. 지원신청서 및 신청서상의 구비 서류 등2. 서약서 및 동의서③ 시장은 신청서가 접수된 경우 다음 각 호의 사항을 확인하여야 한다.1. 신혼부부 주거자금 대출이자 지원 신청 사항2. 주민등록 등재 사항 및 거주 확인3. 구비서류4. 그 밖에 제3조에 따른 지원 대상 여부④ 시장은 신청인이 지원대상자로 결정된 경우 결정일로부터 30일 이내에 대출인 명의 통장계좌로 지원금을 지급하여야 한다."
+        ],
+        "originalBytes": 144896,
+        "bodyTextSha256": "5412b848c0a291d461bfd73fdcd843cdc7679e3dae4b9af08d06515f9c0ec969",
+        "textLength": 1653,
+        "textScope": "all_body_sections_or_pages",
+        "sectionsRead": [
+          "BodyText/Section0"
+        ],
+        "currencyCheck": {
+          "state": "source_current",
+          "checkedAt": "2026-10-19",
+          "currentLawId": "2111849",
+          "effectiveDate": "20260219",
+          "annexBinding": "bound"
+        }
+      },
+      "checkedAt": "2026-10-19"
+    },
+    {
+      "formId": "ordin-21587459",
+      "sha256": "fc3b5c2b412126532719bb148d1e2032c13259d1c53df563fa270ffae01252ff",
+      "disposition": "approved",
+      "reason": "익산 참전유공자 사망사실·유족 관계·계좌를 작성하는 사망위로금 신청서이다. 제4조 사망 후 6개월 내 유족 또는 관계인 신청과 사업의 사망위로금 절차가 일치한다. 사업 설명 15만원과 현행 조문 30만원 차이는 기록하되 이 원본의 청구금액은 고정 인쇄되어 있지 않다.",
+      "fullBodyReviewed": true,
+      "reviewedProgramPairs": [
+        {
+          "programId": "g52140.bokjiro-WLF00004561",
+          "programName": "보훈업무지원(호국수당, 사망위로금 등)",
+          "disposition": "approved",
+          "role": "application",
+          "use": "conditional",
+          "reason": "익산 참전유공자 사망사실·유족 관계·계좌를 작성하는 사망위로금 신청서이다. 제4조 사망 후 6개월 내 유족 또는 관계인 신청과 사업의 사망위로금 절차가 일치한다. 사업 설명 15만원과 현행 조문 30만원 차이는 기록하되 이 원본의 청구금액은 고정 인쇄되어 있지 않다."
+        },
+        {
+          "programId": "g52140.gov24-468000000108",
+          "programName": "국가보훈대상자 보훈수당",
+          "disposition": "not_applicable",
+          "reason": "원본 신청 주체·목적과 이 사업의 지원 범위를 대조했으며 이 연결은 승인하지 않음."
+        }
+      ],
+      "sourceEvidence": {
+        "lawId": "2111895",
+        "lawTitle": "익산시 국가보훈대상자 보훈수당 지원 조례",
+        "annexId": "21587459",
+        "flSeq": "161916957",
+        "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=161916957&flNm=%5B%EB%B3%84%EC%A7%80%EC%A0%9C2%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EC%B0%B8%EC%A0%84%EC%9C%A0%EA%B3%B5%EC%9E%90+%EC%82%AC%EB%A7%9D%EC%9C%84%EB%A1%9C%EA%B8%88+%EC%A7%80%EA%B8%89+%EC%8B%A0%EC%B2%AD%EC%84%9C%28%EC%A0%9C4%EC%A1%B0%EC%A0%9C4%ED%95%AD+%EA%B4%80%EB%A0%A8%29",
+        "publicLawUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=2111895",
+        "exactSourceBinding": true,
+        "lawTextRead": true,
+        "articleNumbers": [
+          "제3조",
+          "제4조"
+        ],
+        "articleTexts": [
+          "제3조(지원대상 및 지급액)① 익산시에 주민등록을 두고, 실제 거주하는 사람으로 다음 각 호의 대상자로 한다. <개정 2019.11.26., 2020.3.30, 2022.02.09>1. 「국가유공자 등 예우 및 지원에 관한 법률」 제4조제1항제1호 및 제2호에 해당하는 사람 및 대상자가 사망한 경우 그 유족 중 선순위자 1명(배우자 포함)2. 「국가유공자 등 예우 및 지원에 관한 법률」 제4조제1항제3호부터 제6호까지 및 제9호에 해당하는 대상자가 사망한 경우 그 유족 중 선순위자 1명(배우자 포함) 다만, 같은 법 제4조제1항제4호 및 제6호의 대상자가 사망한 경우는 그 배우자로 한정한다.3. 「국가유공자 등 예우 및 지원에 관한 법률」 제4조제1항제4호 및 제6호부터 제10호까지에 해당하는 사람4. 「국가유공자 등 예우 및 지원에 관한 법률」 제4조제1항제7호 및 제10호에 해당하는 사람이 사망한 경우 그 배우자 (단, 같은 법 제12조의 보상금을 승계 받는 배우자는 제외)5. 「특수임무유공자 예우 및 단체설립에 관한 법률」 제3조제2호 및 제3호에 해당하는 사람6. 「5ㆍ18민주유공자예우 및 단체설립에 관한 법률」 제4조제2호 및 제3호에 해당하는 사람② 「독립유공자예우에 관한 법률」 제39조제1항, 「국가유공자 등 예우 및 지원에 관한 법률」 제9조제3항 및 「참전유공자 예우 및 단체설립에 관한 법률」 제39조제1항, 「특수임무유공자 예우 및 단체설립에 관한 법률」제8조제2항 및 제3항, 「5ㆍ18민주유공자예우 및 단체설립에 관한 법률」 제67조제1항에 따라 국가보훈처장이 제외자로 통보한 사람은 지급에서 제외한다. <개정 2020.3.30, 2022.02.09>③ 제1항 각 호에 해당하는 대상자에 대한 보훈수당은 예산의 범위에서 중복되지 않게 지급하되 지급액은 별표와 같다.④ 참전유공자가 사망한 경우 사망위로금 30만원을 지급한다. 다만,「국가유공자 등 예우 및 지원에 관한 법률」제12조의 보상금 수급자 및 「고엽제후유의증 등 환자지원 및 단체설립에 관한 법률」 제7조의3 수당을 받는 사람은 제외 <개정 2024.02.07.>",
+          "제4조(지급방법 및 시기)① 수당을 지급받고자 하는 사람은 별지 제1호서식의 신청서를 익산시장(이하 “시장”이라 한다)에게 제출하여야 한다. <개정 2019.11.26.>② 수당은 매분기 다음달 25일(토요일 또는 공휴일에 해당하는 경우에는 그 전일)에 지급받을 권리가 있는 사람이 지정하는 예금계좌에 입금하는 방법으로 한다.③ 수당은 지급연령에 도달한 후 신청한 날이 속하는 달부터 지급중지 사유가 발생한 날이 속하는 달까지 지급하되, 소급하여 지급할 수 없다.④ 사망위로금을 지급받고자 하는 사람은 사망일로부터 6월 이내에 유가족 또는 관계인이 별지 제2호서식의 신청서를 시장에게 제출하여야 한다. 이 경우 사망위로금을 지급받을 대상 및 순위에 관하여는 「국가유공자 등 예우 및 지원에 관한 법률」 제13조의 규정을 준용하되, 같은 법 규정에 따른 유가족이 없을 때에는 사망 당시 생활을 같이 하고 있던 친족 중 재산상속인이 될 수 있는 사람의 신청에 따라 당해 재산상속인에게 이를 지급할 수 있고, 재산상속인이 없는 때에는 장제를 행하는 사람에게 이를 지급할 수 있다."
+        ],
+        "originalBytes": 17408,
+        "bodyTextSha256": "a9af340792d576341e06ea1c9738507d36ef9f464c7d22a34515e5832808f4d0",
+        "textLength": 335,
+        "textScope": "all_body_sections_or_pages",
+        "sectionsRead": [
+          "BodyText/Section0"
+        ],
+        "currencyCheck": {
+          "state": "source_current",
+          "checkedAt": "2026-10-19",
+          "currentLawId": "2111895",
+          "effectiveDate": "20260225",
+          "annexBinding": "bound"
+        }
+      },
+      "checkedAt": "2026-10-19",
+      "additionalEvidence": {
+        "programMetadataIssue": "사업 설명 사망위로금 15만원, 현행 제3조는 30만원. 빈칸 신청 목적은 같으며 자격·금액 엔진은 변경하지 않음.",
+        "printedNumberReview": {
+          "checkedAt": "2026-10-19",
+          "sourceSha256": "fc3b5c2b412126532719bb148d1e2032c13259d1c53df563fa270ffae01252ff",
+          "printedHeader": "[별지 제2호서식]",
+          "legalAnnexNumber": "2",
+          "note": "실제 인쇄 머리말 별지 제2호를 확인하여 단일 표기를 보완함. 공식 annexNumber 000300과 구분한다."
+        }
+      }
+    },
+    {
+      "formId": "ordin-21588913",
+      "sha256": "b1c3e482d686642327d6a4ac9399579e9c1701d5e8bc659e69aa9d74606fdf42",
+      "disposition": "requires_external_confirmation",
+      "reason": "원본 18,944바이트 앞·뒷면 전체는 군립도서관 신규/재발급 회원가입서이며 현행 시행규칙 제4조·제5조의 법정 가입서인 점은 확인했다. 그러나 고흥군립도서관 현재 책배달 공식 안내는 홈페이지 가입 후 전화·홈페이지 신청을 명시하고 회원가입 안내도 본인인증 후 온라인 정보입력으로 안내한다. 방문 회원증 발급이 가능한 사실만으로 이 종이 가입서가 무료 책배달의 온라인 가입을 대체한다고 확정할 수 없다. 2026 독서산간 신규 안내도 게시판 신청·등본을 요구할 뿐 이 서식을 제출서류로 명시하지 않는다. 기존 보류를 유지하며 원본 파일의 존재/유효성을 부정하지 않는다.",
+      "fullBodyReviewed": true,
+      "reviewedProgramPairs": [
+        {
+          "programId": "g12740.bokjiro-WLF00003513",
+          "programName": "독서 소외계층 무료 책배달 서비스",
+          "disposition": "requires_external_confirmation",
+          "reason": "회원등록 관련성은 있으나 공식 책배달은 온라인 회원가입으로 안내됨."
+        }
+      ],
+      "sourceEvidence": {
+        "lawId": "2111927",
+        "lawTitle": "고흥군 군립도서관 운영 조례 시행규칙",
+        "annexId": "21588913",
+        "flSeq": "161918813",
+        "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=161918813&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C1%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EA%B3%A0%ED%9D%A5%EA%B5%B0+%EA%B5%B0%EB%A6%BD%EB%8F%84%EC%84%9C%EA%B4%80+%ED%9A%8C%EC%9B%90%EA%B0%80%EC%9E%85+%EC%8B%A0%EC%B2%AD%EC%84%9C",
+        "publicLawUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=2111927",
+        "exactSourceBinding": true,
+        "lawTextRead": true,
+        "articleNumbers": [
+          "제4조",
+          "제5조"
+        ],
+        "articleTexts": [
+          "제4조(회원가입)① 회원으로 가입하고자 하는 사람은 다음 각 호의 구비 서류를 갖추어 회원증을 발급받아야 한다. 다만, 도서관 홈페이지를 통해 회원으로 가입한 사람은 그렇지 않다. 〈개정 2026. 2. 25.〉1. 회원가입 신청서(별지 제1호서식) 〈개정 2026. 2. 25.〉2. 신분증(주민등록증, 운전면허증, 학생증 등). 단, 초등학생 이하는 부모가 동반하여 부모 신분증과 가족관계증명서를 제시하여야 한다.② 고흥군에 주민등록이 되어 있지 않은 직장인은 재직증명서, 학생은 학생증을 제시하여야 한다.",
+          "제5조(회원증 발급 및 사용)① 회원증은 회원가입자 1명당 1매를 발급한다.② 회원증은 본인 이외의 사람이 사용할 수 없으며, 자료 대출 및 디지털자료실·열람실 이용 시 반드시 지참하여야 한다.③ 회원증을 재발급 하고자 할 경우에는 별지 제1호서식에 따라 회원 가입(재발급) 신청서를 제출하여야 한다. 〈개정 2026. 2. 25.〉"
+        ],
+        "originalBytes": 18944,
+        "bodyTextSha256": "f89f28e91a37caaad44a57b59a606c5d8d20604a693c2c6c3f7647bc1a7c06ef",
+        "textLength": 1993,
+        "textScope": "all_body_sections_or_pages",
+        "sectionsRead": [
+          "BodyText/Section0"
+        ],
+        "currencyCheck": {
+          "state": "source_current",
+          "checkedAt": "2026-10-19",
+          "currentLawId": "2111927",
+          "effectiveDate": "20260317",
+          "annexBinding": "bound"
+        }
+      },
+      "checkedAt": "2026-10-19",
+      "additionalEvidence": {
+        "officialPages": [
+          {
+            "url": "https://www.ghlib.go.kr/BookDelivery",
+            "httpStatus": 200,
+            "claim": "홈페이지 회원가입 후 전화 및 홈페이지 신청; 고흥주소 대상별 증빙 제시"
+          },
+          {
+            "url": "https://www.ghlib.go.kr/MemberGuide",
+            "httpStatus": 200,
+            "claim": "홈페이지 약관·본인인증·회원정보 등록 안내"
+          }
+        ],
+        "externalCondition": "도서관의 종이 회원가입·재발급 서식이 무료 책배달 회원등록에도 접수되는지 확인 필요"
+      },
+      "officialFollowup": {
+        "checkedAt": "2026-10-19",
+        "sourceResult": "logs/forms-completion/official-followup/team2/team2-results.json",
+        "sourceResultSHA256": "badd63d72d5f96dcc6815ad79e43ba695490e25777144516a69934cdab93a48a",
+        "proposedStatus": "confirmed_unresolved",
+        "officialEvidence": [
+          {
+            "url": "https://www.ghlib.go.kr/MemberGuide",
+            "httpStatus": 200,
+            "savedEvidence": [
+              {
+                "path": "logs/forms-completion/official-followup/root/goheung-member-guide.json",
+                "sha256": "91f8a0acaefd97d78306919b560543525a9271aaf3a4b0e49071c162e4672a59",
+                "kind": "official_evidence_metadata"
+              }
+            ]
+          },
+          {
+            "url": "https://www.ghlib.go.kr/BookDelivery",
+            "httpStatus": 200,
+            "savedEvidence": [
+              {
+                "path": "logs/forms-completion/official-followup/root/goheung-book-delivery.json",
+                "sha256": "1e1a8219b72713484f480a1124fec2030c4a2c455fb2d9f69e850da9996f4ddc",
+                "kind": "official_evidence_metadata"
+              }
+            ]
+          },
+          {
+            "url": "https://www.ghlib.go.kr/MountainBook",
+            "httpStatus": 200,
+            "savedEvidence": [
+              {
+                "path": "logs/forms-completion/official-followup/root/goheung-mountain-book.json",
+                "sha256": "af2cbdc851d0e29acf4e6e49ebe7db679e37f6026825b5eb3673e5c896c27228",
+                "kind": "official_evidence_metadata"
+              }
+            ]
+          }
+        ],
+        "allFormsConnected": false
+      },
+      "relatedProgramIds": [
+        "g12740.bokjiro-WLF00003513"
+      ]
+    },
+    {
+      "formId": "ordin-21588917",
+      "sha256": "0963172278685c4e3225daf428baa1dad4a4973562aaceb3bfd075735133d6c9",
+      "disposition": "non_applicant",
+      "reason": "자료 소유자가 도서관에 책을 기증하고 소유·처분을 동의하는 원본으로 무료 책배달 수혜자의 신청·개인정보 동의가 아니다. 제14조 기증자료 처리와 대조했다.",
+      "fullBodyReviewed": true,
+      "reviewedProgramPairs": [
+        {
+          "programId": "g12740.bokjiro-WLF00003513",
+          "programName": "독서 소외계층 무료 책배달 서비스",
+          "disposition": "not_applicable",
+          "reason": "원본 신청 주체·목적과 이 사업의 지원 범위를 대조했으며 이 연결은 승인하지 않음."
+        }
+      ],
+      "sourceEvidence": {
+        "lawId": "2111927",
+        "lawTitle": "고흥군 군립도서관 운영 조례 시행규칙",
+        "annexId": "21588917",
+        "flSeq": "161918817",
+        "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=161918817&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C3%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EC%9E%90%EB%A3%8C%EA%B8%B0%EC%A6%9D+%EB%8F%99%EC%9D%98%EC%84%9C",
+        "publicLawUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=2111927",
+        "exactSourceBinding": true,
+        "lawTextRead": true,
+        "articleNumbers": [
+          "제14조"
+        ],
+        "articleTexts": [
+          "제14조(자료의 기증)① 「고흥군 군립도서관 운영 조례」 제12조제2항에 의한 기증자료 선정기준은 희귀도서ㆍ귀중본을 제외하고, 기증시점부터 5년 이내에 출판된 상태가 양호한 자료로 하며 그 기준은 별표 1과 같다.② 도서관에 자료를 기증하고자 하는 사람은 별지 제3호서식에 따라 군수에게 제출하여야 한다. 〈개정 2026. 2. 25.〉③ 자료 기증 동의서를 제출하지 아니한 경우에는 기증도서 처리 전권을 고흥군에 위임한 것으로 간주한다.④ 기증자료 중 도서관 자료로 부적합하다고 판단되는 자료이거나 이미 도서관에 소장되어 있는 자료의 경우에는 제3자에게 재기증하여 활용하거나 폐기 할 수 있다."
+        ],
+        "originalBytes": 14848,
+        "bodyTextSha256": "0d0889e3c63dfb194539a4e82bbe6f5fb48a3c12333d8c89f16d7850dc94faeb",
+        "textLength": 234,
+        "textScope": "all_body_sections_or_pages",
+        "sectionsRead": [
+          "BodyText/Section0"
+        ],
+        "currencyCheck": {
+          "state": "source_current",
+          "checkedAt": "2026-10-19",
+          "currentLawId": "2111927",
+          "effectiveDate": "20260317",
+          "annexBinding": "bound"
+        }
+      },
+      "checkedAt": "2026-10-19"
+    },
+    {
+      "formId": "ordin-21588919",
+      "sha256": "8718e59e3fafa952534cd39eb49048e620cde8cd9bff51a569d2b8b90976a53d",
+      "disposition": "no_matching_site_program",
+      "reason": "도서관 시설 대관 일시·행사·허가와 이용료에 관한 신청서이다. 제15조 공익행사 감면 가능성을 포함해 읽었으나 사이트의 독서소외계층 무료 책배달과 다른 시설 이용 절차이며 같은 관할 시설대관 지원 사업은 없다.",
+      "fullBodyReviewed": true,
+      "reviewedProgramPairs": [
+        {
+          "programId": "g12740.bokjiro-WLF00003513",
+          "programName": "독서 소외계층 무료 책배달 서비스",
+          "disposition": "not_applicable",
+          "reason": "원본 신청 주체·목적과 이 사업의 지원 범위를 대조했으며 이 연결은 승인하지 않음."
+        }
+      ],
+      "sourceEvidence": {
+        "lawId": "2111927",
+        "lawTitle": "고흥군 군립도서관 운영 조례 시행규칙",
+        "annexId": "21588919",
+        "flSeq": "161918859",
+        "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=161918859&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C4%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EA%B3%A0%ED%9D%A5%EA%B5%B0+%EA%B5%B0%EB%A6%BD%EB%8F%84%EC%84%9C%EA%B4%80+%EC%8B%9C%EC%84%A4+%EC%82%AC%EC%9A%A9%28%EB%B3%80%EA%B2%BD%29+%ED%97%88%EA%B0%80+%EC%8B%A0%EC%B2%AD%EC%84%9C",
+        "publicLawUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=2111927",
+        "exactSourceBinding": true,
+        "lawTextRead": true,
+        "articleNumbers": [
+          "제15조"
+        ],
+        "articleTexts": [
+          "제15조(시설의 사용료)① 도서관 내의 부속시설을 사용하고자 하는 자는 군수의 허가를 받아야 하며, 허가 내용을 변경하고자 할 때에도 또한 같다.② 제1항의 규정에 의거 허가를 받고자 할 경우에는 사용예정일 5일 전까지 별지 제4호서식에 따라 군수에게 제출하여야 하며, 허가 내용을 변경하고자 할 때에도 또한 같다. 〈개정 2026. 2. 25.〉③ 군수는 신청서가 접수되면 접수를 받은 날로부터 3일 이내에 별지 제5호서식에 따라 신청인에게 교부하여야 한다. 〈개정 2026. 2. 25.〉④ 제2항에 따른 시설의 1회 사용 기간과 사용료는 별표 2와 같다. 〈개정 2026. 2. 25.〉⑤ 군수는 다음 각 호의 어느 하나에 해당하는 경우 사용료를 면제할 수 있다.1. 국가나 지방자치단체가 직접 공용, 공공용 또는 비영리 공익사업용으로 사용하는 경우2. 도서관에서 운영하는 프로그램 수료생의 봉사활동이나 공익목적의 동아리 활동을 위하여 사용하는 경우3. 그 밖에 국가단위 행사나 군수가 공익을 위하여 필요하다고 인정하는 경우"
+        ],
+        "originalBytes": 15872,
+        "bodyTextSha256": "9022a32307823d08d04679497a6181ad301e43c485a9db6c20a36ea6a4457a18",
+        "textLength": 400,
+        "textScope": "all_body_sections_or_pages",
+        "sectionsRead": [
+          "BodyText/Section0"
+        ],
+        "currencyCheck": {
+          "state": "source_current",
+          "checkedAt": "2026-10-19",
+          "currentLawId": "2111927",
+          "effectiveDate": "20260317",
+          "annexBinding": "bound"
+        }
+      },
+      "checkedAt": "2026-10-19",
+      "sameJurisdictionSearch": "고흥 도서·시설·대관 전체 사업 검색. 관련 무료 책배달만 있고 도서관 대관 감면 사업 없음."
+    },
+    {
+      "formId": "ordin-21587481",
+      "sha256": "be15700f431ccf14e3582ad6dbdc4ce5515cfb75bd29f43ac108f52335f9fe58",
+      "disposition": "no_matching_site_program",
+      "reason": "배수설비 설치자의 시공·접속·관경과 준공검사를 신청하는 제12조 별지1이다. 정화조 청소 수수료 지원을 신청하는 문서가 아니다.",
+      "fullBodyReviewed": true,
+      "reviewedProgramPairs": [
+        {
+          "programId": "g52140.gov24-468100000010",
+          "programName": "정화조 청소요금 감면 신청",
+          "disposition": "not_applicable",
+          "reason": "원본 신청 주체·목적과 이 사업의 지원 범위를 대조했으며 이 연결은 승인하지 않음."
+        }
+      ],
+      "sourceEvidence": {
+        "lawId": "2111939",
+        "lawTitle": "익산시 하수도 운영관리 조례",
+        "annexId": "21587481",
+        "flSeq": "161916979",
+        "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=161916979&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C1%ED%98%B8+%EC%84%9C%EC%8B%9D%5D+%EB%B0%B0%EC%88%98%EC%84%A4%EB%B9%84%EC%A4%80%EA%B3%B5%EA%B2%80%EC%82%AC%EC%8B%A0%EC%B2%AD%EC%84%9C%28%EC%A0%9C12%EC%A1%B0%EC%A0%9C1%ED%95%AD%EA%B4%80%EB%A0%A8%29",
+        "publicLawUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=2111939",
+        "exactSourceBinding": true,
+        "lawTextRead": true,
+        "articleNumbers": [
+          "제12조"
+        ],
+        "articleTexts": [
+          "제12조(배수설비 준공검사)① 법 제27조제5항에 따라 배수설비 설치의무자가 준공검사를 받고자 할 때에는 별지 제1호서식의 배수설비 준공검사 신청서에 배수설비 및 접속부분의 설치시공 전·중·후의 사진을 첨부하여 시장에게 제출하여야 한다. 다만,「건축법」제22조제1항 및 제2항에 따라 건축물 사용승인이 필요한 경우 배수설비준공검사신청서를 건축물 사용승인 신청시 함께 제출할 수 있다. <개정 2012.1.12., 2020.3.30.>② 시장은 제1항의 규정에 의한 신청서를 받은 때에는 법 제27조제3항 및 제4항의 규정에 의한 배수설비를 설치하여야 하는 자의 신고사항과 「하수도법 시행규칙」(이하 “규칙”이라 한다) 제23조의 규정에 의한 배수설비 설치기준 및 그 구조기준 등에 적합하게 설치되었는지 여부를 검사하고 그 결과를 신청인에게 통보하여야 한다. <개정 2016.02.15., 2020.3.30.>③ 시장은 배수설비 준공검사를 할 때 배수설비를 설치한 사업자에게 연막, 염료, 폐쇄회로텔레비젼 등을 이용하여 배수설비가 적정하게 설치되었는지 여부에 대한 검사를 실시하게 할 수 있다."
+        ],
+        "originalBytes": 18944,
+        "bodyTextSha256": "f024318f8403c45e17afb1e4492ecde7c9f847f125304023fcd63a517a71013a",
+        "textLength": 939,
+        "textScope": "all_body_sections_or_pages",
+        "sectionsRead": [
+          "BodyText/Section0"
+        ],
+        "currencyCheck": {
+          "state": "source_current",
+          "checkedAt": "2026-10-19",
+          "currentLawId": "2111939",
+          "effectiveDate": "20260225",
+          "annexBinding": "bound"
+        }
+      },
+      "checkedAt": "2026-10-19",
+      "sameJurisdictionSearch": "익산 수도·수수료·공공요금·청소 관련 사업 전체 대조: 정화조 청소요금만 있음."
+    },
+    {
+      "formId": "ordin-21587487",
+      "sha256": "4e9090d9147fd557c3ac1311dea42df3bc55650d6c00217a01830694dc5dc415",
+      "disposition": "no_matching_site_program",
+      "reason": "수급·장애·다자녀의 하수도 사용료 감면 신청이며 제23조제3항에 해당한다. 같은 제23조를 인용하는 정화조 청소요금 감면은 청소 수수료로 급수전별 사용료와 다르다. 동일 관할에 해당 하수도 사용료 사업이 없어 청소비에 오연결하지 않는다.",
+      "fullBodyReviewed": true,
+      "reviewedProgramPairs": [
+        {
+          "programId": "g52140.gov24-468100000010",
+          "programName": "정화조 청소요금 감면 신청",
+          "disposition": "not_applicable",
+          "reason": "원본 신청 주체·목적과 이 사업의 지원 범위를 대조했으며 이 연결은 승인하지 않음."
+        }
+      ],
+      "sourceEvidence": {
+        "lawId": "2111939",
+        "lawTitle": "익산시 하수도 운영관리 조례",
+        "annexId": "21587487",
+        "flSeq": "161916985",
+        "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=161916985&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C4%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%ED%95%98%EC%88%98%EB%8F%84%EC%82%AC%EC%9A%A9%EB%A3%8C+%EA%B0%90%EB%A9%B4+%EC%8B%A0%EC%B2%AD%EC%84%9C",
+        "publicLawUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=2111939",
+        "exactSourceBinding": true,
+        "lawTextRead": true,
+        "articleNumbers": [
+          "제23조"
+        ],
+        "articleTexts": [
+          "제23조(지원 및 감면)① 시장은 다음 각 호의 어느 하나에 해당하는 자에 대하여 사용료, 점용료, 수수료, 그 밖의 부담금을 예산의 범위에서 지원하거나 감면할 수 있다. 이 경우 둘 이상의 지원 및 감면 규정이 적용되는 경우에는 그 중 지원 및 감면율이 높은 것 하나만을 적용한다. <개정 2010.04.15, 2012.11.30., 2016.02.15., 2019.9.20., 2020.3.30.>1.「국민기초생활보장법」에 따른 국민기초생활수급자2.「장애인복지법」 및 「장애인복지법 시행규칙」에 따른 장애 정도가 심한 장애인3. 3명 이상의 자녀를 둔 가정 중 1명 이상의 자녀가 19세 미만인 가정(주민등록표상 동일 세대원인 경우에 한함)4.「재난 및 안전관리 기본법」에 따라 재난사태나 특별재난으로 선포된 지역에서 재난합동조사단에 의하여 개인하수처리시설의 피해가 확인되어 복구가 필요한 개인하수처리시설의 소유자5. 「물의 재이용 촉진 및 지원에 관한 법률」에 따라 빗물이용시설 또는 중수도를 설치하여 사용하는 경우6. 공공하수처리시설 재이용수를 공급받아 사용하는 경우7. 시장이 필요하다고 판단하여 시행규칙으로 정하는 자.② 제1항제1호부터 제3호까지 규정된 하수도 사용료 감면기준은 별표 8과 같다. 다만, 실제 사용량이 감면량 미만인 경우에는 실제사용량에 해당하는 요금을 감면할 수 있다. <신설 2012.11.30>, <개정 2020.3.30.>③ 제2항의 하수도 사용료를 감면 받으려는 자는 별지 제4호서식의 감면신청서를 시장에게 제출하여야 한다. 이 경우 공공하수도의 사용자가 상수도 사용을 겸하는 때에는 「익산시 상수도 급수 조례」 별지 제2호서식의 감면신청서를 제출함으로써 하수도 사용료 감면 신청서도 제출한 것으로 본다. <신설 2012.11.30>, <개정 2020.3.30.>④ 제23조제1항제1호, 제2호, 제3호 및 제7호와 관련하여 감면된 사용료는 일반회계에서 보전할 수 있다. <신설 2012.11.30>, <개정 2020.3.30.>⑤ 제1항제5호 및 제6호에 따른 빗물이용시설 또는 중수도 및 재이용수 사용자에 대한 하수도 사용료 감면기준은 별표 9와 같다. <개정 2012.11.30., 2019.9.20., 2020.3.30.>⑥ 제1항제5호 및 제6호에 따라 하수도 사용료를 감면 받으려는 자는 별지 제4호의2서식의 감면신청서를 시장에게 제출하여야 한다. <신설 2019.9.20.>, <개정 2020.3.30.>"
+        ],
+        "originalBytes": 18944,
+        "bodyTextSha256": "ecbf5212e3262c600d263182b52deaae8a1a4c2e876a67b2903c7baea4afbd79",
+        "textLength": 1208,
+        "textScope": "all_body_sections_or_pages",
+        "sectionsRead": [
+          "BodyText/Section0"
+        ],
+        "currencyCheck": {
+          "state": "source_current",
+          "checkedAt": "2026-10-19",
+          "currentLawId": "2111939",
+          "effectiveDate": "20260225",
+          "annexBinding": "bound"
+        }
+      },
+      "checkedAt": "2026-10-19",
+      "sameJurisdictionSearch": "익산 전체 수도·수수료·공공요금·청소 검색: 해당 사용료 사업 없음."
+    },
+    {
+      "formId": "ordin-21587489",
+      "sha256": "18c40be84ab24b882a07e9b7615f66df281344d8aed6cf905823f4c8e35afa47",
+      "disposition": "no_matching_site_program",
+      "reason": "빗물이용시설·중수도·재이용수 설치사용에 따른 하수도 사용료 감면으로 제23조제6항의 별지4의2이다. 복지계층 정화조 청소 수수료와 대상·신청목적이 모두 다르다.",
+      "fullBodyReviewed": true,
+      "reviewedProgramPairs": [
+        {
+          "programId": "g52140.gov24-468100000010",
+          "programName": "정화조 청소요금 감면 신청",
+          "disposition": "not_applicable",
+          "reason": "원본 신청 주체·목적과 이 사업의 지원 범위를 대조했으며 이 연결은 승인하지 않음."
+        }
+      ],
+      "sourceEvidence": {
+        "lawId": "2111939",
+        "lawTitle": "익산시 하수도 운영관리 조례",
+        "annexId": "21587489",
+        "flSeq": "161916987",
+        "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=161916987&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C4%ED%98%B8%EC%9D%982%EC%84%9C%EC%8B%9D%5D+%EB%B9%97%EB%AC%BC%EC%9D%B4%EC%9A%A9%EC%8B%9C%EC%84%A4+%EC%A4%91%EC%88%98%EB%8F%84+%EC%9E%AC%EC%9D%B4%EC%9A%A9%EC%88%98+%EC%82%AC%EC%9A%A9%EC%97%90+%EB%94%B0%EB%A5%B8+%ED%95%98%EC%88%98%EB%8F%84%EC%82%AC%EC%9A%A9%EB%A3%8C+%EA%B0%90%EB%A9%B4+%EC%8B%A0%EC%B2%AD%EC%84%9C%28%EC%A0%9C23%EC%A1%B0%EC%A0%9C6%ED%95%AD+%EA%B4%80%EB%A0%A8%29",
+        "publicLawUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=2111939",
+        "exactSourceBinding": true,
+        "lawTextRead": true,
+        "articleNumbers": [
+          "제23조"
+        ],
+        "articleTexts": [
+          "제23조(지원 및 감면)① 시장은 다음 각 호의 어느 하나에 해당하는 자에 대하여 사용료, 점용료, 수수료, 그 밖의 부담금을 예산의 범위에서 지원하거나 감면할 수 있다. 이 경우 둘 이상의 지원 및 감면 규정이 적용되는 경우에는 그 중 지원 및 감면율이 높은 것 하나만을 적용한다. <개정 2010.04.15, 2012.11.30., 2016.02.15., 2019.9.20., 2020.3.30.>1.「국민기초생활보장법」에 따른 국민기초생활수급자2.「장애인복지법」 및 「장애인복지법 시행규칙」에 따른 장애 정도가 심한 장애인3. 3명 이상의 자녀를 둔 가정 중 1명 이상의 자녀가 19세 미만인 가정(주민등록표상 동일 세대원인 경우에 한함)4.「재난 및 안전관리 기본법」에 따라 재난사태나 특별재난으로 선포된 지역에서 재난합동조사단에 의하여 개인하수처리시설의 피해가 확인되어 복구가 필요한 개인하수처리시설의 소유자5. 「물의 재이용 촉진 및 지원에 관한 법률」에 따라 빗물이용시설 또는 중수도를 설치하여 사용하는 경우6. 공공하수처리시설 재이용수를 공급받아 사용하는 경우7. 시장이 필요하다고 판단하여 시행규칙으로 정하는 자.② 제1항제1호부터 제3호까지 규정된 하수도 사용료 감면기준은 별표 8과 같다. 다만, 실제 사용량이 감면량 미만인 경우에는 실제사용량에 해당하는 요금을 감면할 수 있다. <신설 2012.11.30>, <개정 2020.3.30.>③ 제2항의 하수도 사용료를 감면 받으려는 자는 별지 제4호서식의 감면신청서를 시장에게 제출하여야 한다. 이 경우 공공하수도의 사용자가 상수도 사용을 겸하는 때에는 「익산시 상수도 급수 조례」 별지 제2호서식의 감면신청서를 제출함으로써 하수도 사용료 감면 신청서도 제출한 것으로 본다. <신설 2012.11.30>, <개정 2020.3.30.>④ 제23조제1항제1호, 제2호, 제3호 및 제7호와 관련하여 감면된 사용료는 일반회계에서 보전할 수 있다. <신설 2012.11.30>, <개정 2020.3.30.>⑤ 제1항제5호 및 제6호에 따른 빗물이용시설 또는 중수도 및 재이용수 사용자에 대한 하수도 사용료 감면기준은 별표 9와 같다. <개정 2012.11.30., 2019.9.20., 2020.3.30.>⑥ 제1항제5호 및 제6호에 따라 하수도 사용료를 감면 받으려는 자는 별지 제4호의2서식의 감면신청서를 시장에게 제출하여야 한다. <신설 2019.9.20.>, <개정 2020.3.30.>"
+        ],
+        "originalBytes": 14336,
+        "bodyTextSha256": "75d843cb112aa1e542105e9dabdadf5c7068bcd94025c58457e7cca3b8a051ea",
+        "textLength": 320,
+        "textScope": "all_body_sections_or_pages",
+        "sectionsRead": [
+          "BodyText/Section0"
+        ],
+        "currencyCheck": {
+          "state": "source_current",
+          "checkedAt": "2026-10-19",
+          "currentLawId": "2111939",
+          "effectiveDate": "20260225",
+          "annexBinding": "bound"
+        }
+      },
+      "checkedAt": "2026-10-19"
+    },
+    {
+      "formId": "ordin-21604897",
+      "sha256": "cc587223a2263e04c7de2ce2b2469e8aa06b247966df062556b742d181bbac13",
+      "disposition": "non_applicant",
+      "reason": "송파 공영주차장 관리원증 앞뒤 전체가 담긴 별지1로 구청장이 관리원 신분을 증명해 발급한다. 신청란이나 요금 감면 신청 절차가 없으며 제8조제2항 관리원 휴대증이다.",
+      "fullBodyReviewed": true,
+      "reviewedProgramPairs": [
+        {
+          "programId": "g11710.gov24-O00023700005",
+          "programName": "거주자주차구획 이용요금 감면",
+          "disposition": "not_applicable",
+          "reason": "원본 신청 주체·목적과 이 사업의 지원 범위를 대조했으며 이 연결은 승인하지 않음."
+        },
+        {
+          "programId": "g11710.gov24-O00023700001",
+          "programName": "공영주차장 이용요금 감면",
+          "disposition": "not_applicable",
+          "reason": "원본 신청 주체·목적과 이 사업의 지원 범위를 대조했으며 이 연결은 승인하지 않음."
+        }
+      ],
+      "sourceEvidence": {
+        "lawId": "2112383",
+        "lawTitle": "서울특별시 송파구 주차장 설치 및 관리 조례",
+        "annexId": "21604897",
+        "flSeq": "161959967",
+        "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=161959967&flNm=%EB%B3%84%EC%A7%80",
+        "publicLawUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=2112383",
+        "exactSourceBinding": true,
+        "lawTextRead": true,
+        "articleNumbers": [
+          "제8조"
+        ],
+        "articleTexts": [
+          "제8조(공영주차장의 위탁관리)① 법 제8조제2항 및 제13조제3항에 따른 공영주차장의 관리를 위탁받을 수 있는 자(이하 \"관리수탁자\"라 한다)의 자격은 다음 각 호와 같다.<개정 2011.12.12>1. 서울특별시 또는 송파구가 설립한 공공시설물의 관리운용이 가능한 법인2.「지방자치단체를 당사자로 하는 계약에 관한 법률 시행령」제13조에 따른 경쟁입찰자격을 갖춘 자<개정 2011.12.12>3. 구청장이 공영주차장의 수탁관리능력이 있다고 인정하는 주민자치위원회 등 주민자율조직4.「유통산업발전법」제12조에 따른 대규모점포 개설자의 업무를 수행하는 자, 「전통시장 및 상점가 육성을 위한 특별법」제65조에 따른 상인회 또는 같은 법 제67조 규정에 의한 시장관리자에게 위탁할 수 있다.<개정 2011.12.12>② 구청장으로부터 공영주차장을 위탁받은 관리수탁자는 공영주차장 관리원에게 구청장이  발급한 별지 제1호 서식에 따른 공영주차장 관리원증을 휴대토록 하고 관계자에게 이를 제시하여야 한다.<개정 2011.12.12>③ 관리수탁자가 공영주차장의 주차요금을 징수하여 구에 납입할 때에는 징수금액의 100분의 30이상 50의 범위내에 해당하는 금액을 위탁관리수수료로 관리수탁자에게 교부한다.  다만, 다음 각 호의 어느 하나에 해당하는 경우에는 위탁관리수수료없이 관리한다.<개정 2011.12.12>1. 제1항제1호와 관련하여 별도위탁관리계약 체결에 의하여 수탁부담금을 사전에 납부한 경우2. 제1항제2호에 따라 공개경쟁입찰을 통하여 낙찰금약을 사전에 납부한 경우④ 『전통시장 및 상점가 육성을 위한 특별법』 제18조에 따른 시장·시장활성화구역 및 상점가 내의 공영주차장을 상인회 또는 같은 법 제67조에 의한 시장관리자에게 위탁하여 운영하는 경우 그 사용료(위탁수수료)의 감면율을 80퍼센트 이하로 할 수 있다.<개정 2011.12.12>"
+        ],
+        "originalBytes": 13312,
+        "bodyTextSha256": "4a9965e70030ff24cc4e481e8b96beb4904d0f34cc9f18b1f8b5e5196d85da83",
+        "textLength": 397,
+        "textScope": "all_body_sections_or_pages",
+        "sectionsRead": [
+          "BodyText/Section0"
+        ],
+        "currencyCheck": {
+          "state": "source_current",
+          "checkedAt": "2026-10-19",
+          "currentLawId": "2112383",
+          "effectiveDate": "20260226",
+          "annexBinding": "bound"
+        }
+      },
+      "checkedAt": "2026-10-19"
+    },
+    {
+      "formId": "ordin-21605657",
+      "sha256": "67bb759f2b5f6447373546e229eaa044a9a1de8d3e222f71187e9c66478fabd7",
+      "disposition": "non_applicant",
+      "reason": "농기계 수리점 사업자가 시설·장비·기술인력을 기재하여 춘천 수리지정점으로 지정받는 신청이다. 농업인의 수리비 지원 사업에서 수혜자를 신청하는 서식이 아니라 제6조 수행업체 지정 절차이다.",
+      "fullBodyReviewed": true,
+      "reviewedProgramPairs": [
+        {
+          "programId": "g51110.gov24-418000000245",
+          "programName": "농기계 수리비 지원",
+          "disposition": "not_applicable",
+          "reason": "원본 신청 주체·목적과 이 사업의 지원 범위를 대조했으며 이 연결은 승인하지 않음."
+        }
+      ],
+      "sourceEvidence": {
+        "lawId": "2112563",
+        "lawTitle": "춘천시 농기계수리소 설치 및 운영 조례",
+        "annexId": "21605657",
+        "flSeq": "161960811",
+        "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=161960811&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C1%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EB%86%8D%EA%B8%B0%EA%B3%84+%EC%88%98%EB%A6%AC%EC%A7%80%EC%A0%95%EC%A0%90+%EC%A7%80%EC%A0%95+%EC%8B%A0%EC%B2%AD%EC%84%9C",
+        "publicLawUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=2112563",
+        "exactSourceBinding": true,
+        "lawTextRead": true,
+        "articleNumbers": [
+          "제6조"
+        ],
+        "articleTexts": [
+          "제6조(수리지정점 지정)① 춘천시장(이하 “시장”이라 한다)은 영농불편 해소와 지역경제 활성화를 위해 일정 여건을 갖춘 농기계 수리점을 농기계 수리지정점(이하 “수리지정점”이라 한다)으로 지정할 수 있다.② 제1항의 수리지정점으로 지정 받으려는 자는 별지 제1호서식의 신청서를 시장에게 제출하여야 한다.③ 시장은 수리지정점으로 지정된 자에게 별지 제2호서식의 지정서를 교부하여야 한다.④ 시장은 수리지정점에 대하여 연 1회 이상 점검을 하며, 의무를 위반하는 등 부적격 수리지정점에 대하여 지정을 취소할 수 있다."
+        ],
+        "originalBytes": 48640,
+        "bodyTextSha256": "3e52e0b6226aeb6d67fd00dd3e6e9bba3bd24ba12442c690b446b13fce1f6669",
+        "textLength": 463,
+        "textScope": "all_body_sections_or_pages",
+        "sectionsRead": [
+          "BodyText/Section0"
+        ],
+        "currencyCheck": {
+          "state": "source_current",
+          "checkedAt": "2026-10-19",
+          "currentLawId": "2112563",
+          "effectiveDate": "20260226",
+          "annexBinding": "bound"
+        }
+      },
+      "checkedAt": "2026-10-19"
+    },
+    {
+      "formId": "ordin-21605701",
+      "sha256": "d9250dec04f0ff7d974c2c5c09a1bae42d1af768d0c86d5daafc29e09e23eafe",
+      "disposition": "approved",
+      "reason": "농기계 수리확인서에는 농업인 성명·서명·본인 입금계좌 및 기종·부품별 실제 수리내역, 수리점 확인이 함께 있다. 제7조제2항 농업인이 수리대금을 낸 후 2부 작성하여 농업인에게 발급하고 1개월 내 시장에게 제출하도록 하며 제9조 부품대금 지원과 사업의 지정점 방문 절차가 일치한다. 수리점 지정신청과 구분해 농업인 본인 지원금 지급 확인 단계만 연결한다.",
+      "fullBodyReviewed": true,
+      "reviewedProgramPairs": [
+        {
+          "programId": "g51110.gov24-418000000245",
+          "programName": "농기계 수리비 지원",
+          "disposition": "approved",
+          "role": "supporting",
+          "use": "conditional",
+          "reason": "농기계 수리확인서에는 농업인 성명·서명·본인 입금계좌 및 기종·부품별 실제 수리내역, 수리점 확인이 함께 있다. 제7조제2항 농업인이 수리대금을 낸 후 2부 작성하여 농업인에게 발급하고 1개월 내 시장에게 제출하도록 하며 제9조 부품대금 지원과 사업의 지정점 방문 절차가 일치한다. 수리점 지정신청과 구분해 농업인 본인 지원금 지급 확인 단계만 연결한다."
+        }
+      ],
+      "sourceEvidence": {
+        "lawId": "2112563",
+        "lawTitle": "춘천시 농기계수리소 설치 및 운영 조례",
+        "annexId": "21605701",
+        "flSeq": "161960815",
+        "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=161960815&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C3%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EB%86%8D%EA%B8%B0%EA%B3%84+%EC%88%98%EB%A6%AC%ED%99%95%EC%9D%B8%EC%84%9C",
+        "publicLawUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=2112563",
+        "exactSourceBinding": true,
+        "lawTextRead": true,
+        "articleNumbers": [
+          "제7조",
+          "제9조"
+        ],
+        "articleTexts": [
+          "제7조(수리지정점 의무)① 수리지정점은 정품 부품을 사용하고 협정가격을 준수하여야 한다.② 수리지정점은 제4조에 해당하는 자가 농기계를 수리정비하고 수리대금을 납부하는 경우 별지 제3호서식의 수리확인서를 2부 작성하여 1부는 해당 농업인에게 발급하고 1부는 1개월 이내에 시장에게 제출하여야 한다.③ 수리지정점은 농기계 수리확인서를 사실대로 발급하여야 하며 시 점검 및 관련자료 요구에 성실히 응하여야 한다.",
+          "제9조(수리비 지원)① 시장은 수리소와 수리지정점에서 수리한 농기계의 부품대금의 일부를 지원할 수 있다.② 농가당 지원대상 농기계는 최대 4기종으로 한정하며 지원액은 연간 60만원을 초과할 수 없다. <개정 2026.2.26.>1. 대형농기계(트랙터, 콤바인, 스피드스프레이어, 승용이앙기에 한함): 1기종당 60만원 이내2. 중소형농기계: 1기종당 15만원 이내③ 동일한 농기계 기종 및 농기계에 부착된 부속작업기는 1기종에 포함된 것으로 본다."
+        ],
+        "originalBytes": 40960,
+        "bodyTextSha256": "14a4dd398e4d36807e0bd0e0cf7ff5d66e11e3f4d7c851bef29b49f74b500d17",
+        "textLength": 317,
+        "textScope": "all_body_sections_or_pages",
+        "sectionsRead": [
+          "BodyText/Section0"
+        ],
+        "currencyCheck": {
+          "state": "source_current",
+          "checkedAt": "2026-10-19",
+          "currentLawId": "2112563",
+          "effectiveDate": "20260226",
+          "annexBinding": "bound"
+        }
+      },
+      "checkedAt": "2026-10-19"
+    },
+    {
+      "formId": "ordin-21606281",
+      "sha256": "c7000364d03796dd310d99cf3b8378508d5a5ff62fc0556cd33cfaf7acdc22a5",
+      "disposition": "no_matching_site_program",
+      "reason": "급수공사 신설·개조·수선 및 시설 기부채납을 신청하는 원본이다. 제6조 공사승인으로 저소득·장애·다자녀의 월 수도요금 3톤 감면 신청과 다르다.",
+      "fullBodyReviewed": true,
+      "reviewedProgramPairs": [
+        {
+          "programId": "g52130.gov24-O00029000001",
+          "programName": "상수도요금 감면",
+          "disposition": "not_applicable",
+          "reason": "원본 신청 주체·목적과 이 사업의 지원 범위를 대조했으며 이 연결은 승인하지 않음."
+        },
+        {
+          "programId": "g52130.bokjiro-WLF00005783",
+          "programName": "군산시 수도요금 감면",
+          "disposition": "not_applicable",
+          "reason": "원본 신청 주체·목적과 이 사업의 지원 범위를 대조했으며 이 연결은 승인하지 않음."
+        }
+      ],
+      "sourceEvidence": {
+        "lawId": "2112663",
+        "lawTitle": "군산시 상수도 급수조례",
+        "annexId": "21606281",
+        "flSeq": "161968221",
+        "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=161968221&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C1%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EA%B8%89%EC%88%98%EA%B3%B5%EC%82%AC%EC%8B%A0%EC%B2%AD%EC%84%9C%28%EC%A0%9C6%EC%A1%B0+%EA%B4%80%EB%A0%A8%29",
+        "publicLawUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=2112663",
+        "exactSourceBinding": true,
+        "lawTextRead": true,
+        "articleNumbers": [
+          "제6조"
+        ],
+        "articleTexts": [
+          "제6조(급수공사의 승인)① 수돗물을 공급받고자 하는 사람은 미리 시장에게 별지1호 서식을 제출하여 그 승인을 얻어야 한다.② 제4조 제1호의 전용급수설비에는 한 개의 급수설비를 원칙으로 하되, 배관시설이 분리되어 상호혼용의 우려가 없고 사용량의 구분 계량이 가능할 경우에 건물주의 개별신청에 의하여 계량기를 가구별로 설치할 수 있다. 다만, 시장이 필요하다고 인정할 때에는 그러하지 아니하다."
+        ],
+        "originalBytes": 11264,
+        "bodyTextSha256": "9af5bc82faee4f6f841134042ca85c2f1c4035721f128ebbe5504acb0ee85468",
+        "textLength": 449,
+        "textScope": "all_body_sections_or_pages",
+        "sectionsRead": [
+          "BodyText/Section0"
+        ],
+        "currencyCheck": {
+          "state": "source_current",
+          "checkedAt": "2026-10-19",
+          "currentLawId": "2112663",
+          "effectiveDate": "20260219",
+          "annexBinding": "bound"
+        }
+      },
+      "checkedAt": "2026-10-19"
+    },
+    {
+      "formId": "ordin-21606285",
+      "sha256": "9279465e3a2141c0a523d4f23541876ce2512b3f30de1dac59f6eddd57533e2e",
+      "disposition": "no_matching_site_program",
+      "reason": "누수 위치·공사·영수증을 제출해 책임 없는 지하 누수요금을 조정하는 제34조제1항제2호 서식이다. 사이트 두 수도요금 사업은 제4~6호의 취약계층 월 3톤 감면으로 이 누수신청을 해당 복지감면에 사용할 수 없다.",
+      "fullBodyReviewed": true,
+      "reviewedProgramPairs": [
+        {
+          "programId": "g52130.gov24-O00029000001",
+          "programName": "상수도요금 감면",
+          "disposition": "not_applicable",
+          "reason": "원본 신청 주체·목적과 이 사업의 지원 범위를 대조했으며 이 연결은 승인하지 않음."
+        },
+        {
+          "programId": "g52130.bokjiro-WLF00005783",
+          "programName": "군산시 수도요금 감면",
+          "disposition": "not_applicable",
+          "reason": "원본 신청 주체·목적과 이 사업의 지원 범위를 대조했으며 이 연결은 승인하지 않음."
+        }
+      ],
+      "sourceEvidence": {
+        "lawId": "2112663",
+        "lawTitle": "군산시 상수도 급수조례",
+        "annexId": "21606285",
+        "flSeq": "161968225",
+        "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=161968225&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C3%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EB%88%84%EC%88%98%EC%9A%94%EA%B8%88%EC%A0%81%EC%9A%A9%EC%8B%A0%EC%B2%AD%EC%84%9C%28%EC%A0%9C34%EC%A1%B0%EC%A0%9C1%ED%95%AD%EC%A0%9C2%ED%98%B8+%EA%B4%80%EB%A0%A8%29",
+        "publicLawUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=2112663",
+        "exactSourceBinding": true,
+        "lawTextRead": true,
+        "articleNumbers": [
+          "제34조"
+        ],
+        "articleTexts": [
+          "제34조(요금 등의 감면)① 시장은 다음 각 호의 어느 하나에 해당하는 경우에는 수도요금 및 수수료를 감면할 수 있다.1. 중수도를 설치하여 사용하는 경우 또는 공익상 필요하다고 인정 한 때 <개정 2013.07.15>2. 사용자의 책임이 없는 지하의 누수 등 규칙으로 정하는 경우3.「재난 및 안전관리기본법」의 규정에 의한 특별재난지역 <개정 2024.11.13.>4. 「국민기초생활 보장법」에 따른 생계ㆍ의료ㆍ주거ㆍ교육급여 수급자 <신설 2020.05.11., 개정 2022.11.09.>5.「장애인복지법」에 따른 장애의 정도가 심한 장애인 <신설 2020.05.11.>6.「군산시 인구정책 기본 조례」제2조제2호에 따른 다자녀 가정(주민등록표상 동일 세대원인 경우에 한함) <신설 2020.05.11., 개정 2023.07.17.>7. 「재난 및 안전관리 기본법」제38조제2항에 따른 재난 위기 경보 수준이 심각으로 발령된 경우 <신설 2021.02.24.>8. 기타 시장이 공익상 또는 수돗물 공급과정에서 특별히 감면사유가 있다고 인정하는 경우 <개정 2020.05.11.>② 제1항의 규정에 따른 수도요금과 수수료 감면의 감면대상, 감면회수 및 절차 등에 관한 사항은 규칙으로 정한다."
+        ],
+        "originalBytes": 11776,
+        "bodyTextSha256": "ddd337a1915b463bbef36c7c8c9a1016711258b55c6fd7cc04a40a3cd9e3c3bd",
+        "textLength": 386,
+        "textScope": "all_body_sections_or_pages",
+        "sectionsRead": [
+          "BodyText/Section0"
+        ],
+        "currencyCheck": {
+          "state": "source_current",
+          "checkedAt": "2026-10-19",
+          "currentLawId": "2112663",
+          "effectiveDate": "20260219",
+          "annexBinding": "bound"
+        }
+      },
+      "checkedAt": "2026-10-19",
+      "sameJurisdictionSearch": "군산 전체 수도·수질·누수 사업 검색에서 취약계층 상수도 및 다자녀 하수도 감면 외 누수지원 사업 없음."
+    },
+    {
+      "formId": "ordin-21606287",
+      "sha256": "4fbd8cc0c8f80409f3cb1f1b3dd5845327290334b3a104096a5f941611f1d058",
+      "disposition": "no_matching_site_program",
+      "reason": "저수조의 수돗물 시료채취·검사를 의뢰하는 앞뒤 서식이며 제55조 및 제56조 검사 수수료에 관한 문서이다. 취약계층 수도 사용요금 감면을 신청하지 않는다.",
+      "fullBodyReviewed": true,
+      "reviewedProgramPairs": [
+        {
+          "programId": "g52130.gov24-O00029000001",
+          "programName": "상수도요금 감면",
+          "disposition": "not_applicable",
+          "reason": "원본 신청 주체·목적과 이 사업의 지원 범위를 대조했으며 이 연결은 승인하지 않음."
+        },
+        {
+          "programId": "g52130.bokjiro-WLF00005783",
+          "programName": "군산시 수도요금 감면",
+          "disposition": "not_applicable",
+          "reason": "원본 신청 주체·목적과 이 사업의 지원 범위를 대조했으며 이 연결은 승인하지 않음."
+        }
+      ],
+      "sourceEvidence": {
+        "lawId": "2112663",
+        "lawTitle": "군산시 상수도 급수조례",
+        "annexId": "21606287",
+        "flSeq": "161968227",
+        "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=161968227&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C4%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EC%88%98%EC%A7%88%EA%B2%80%EC%82%AC%EC%8B%A0%EC%B2%AD%EC%84%9C",
+        "publicLawUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=2112663",
+        "exactSourceBinding": true,
+        "lawTextRead": true,
+        "articleNumbers": [
+          "제55조",
+          "제56조"
+        ],
+        "articleTexts": [
+          "제55조(수질검사)① 수돗물의 수질검사를 받고자 하는 자는 시장에게 수질검사를 의뢰 신청할 수 있다.② 수돗물 수질검사를 의뢰·신청하는 자는 별지 제4호서식의 수질검사 신청서를 시장에게 제출하여야 한다.③ 시장은 수돗물의 수질검사를 의뢰·신청 받은 날부터 15일 이내에 검사를 완료 하고 수질검사 성적서를 발급하여야 한다.",
+          "제56조(수질검사 수수료) 수돗물의 수질검사를 의뢰·신청자는 「국립환경과학원 시험의뢰 규칙」에서 정한 수수료를 별지 제5호 서식에 의하여 납부하여야 한다. 다만, 다음 각호의 수질검사를 의뢰·신청하는 경우는 수수료를 면제할 수 있다.1. 수돗물을 다량으로 사용하는 건축물 또는 시설의 1차 저수조에 대하여 수질검사를 의뢰. 신청하는 경우2. 군산시 소속 행정기관이 공익상 필요에 의하여 수질검사를 의뢰하는 경우"
+        ],
+        "originalBytes": 14848,
+        "bodyTextSha256": "0b71674bbf31cc89494cbdc4da4d81e3af5d137ef6cea80a4be7d1a1e69848f8",
+        "textLength": 666,
+        "textScope": "all_body_sections_or_pages",
+        "sectionsRead": [
+          "BodyText/Section0"
+        ],
+        "currencyCheck": {
+          "state": "source_current",
+          "checkedAt": "2026-10-19",
+          "currentLawId": "2112663",
+          "effectiveDate": "20260219",
+          "annexBinding": "bound"
+        }
+      },
+      "checkedAt": "2026-10-19"
+    },
+    {
+      "formId": "ordin-22473091",
+      "sha256": "56508b306fe172c38b1dd2955e534c4acf943719ab29b2a2a3f7b628fed63e4e",
+      "disposition": "no_matching_site_program",
+      "reason": "연간 이용권 가입·약관·아동 보호자 동의를 전부 읽었다. 제10조의2의 유료 연간권 구매 서식이며 사이트 감면은 왕복·구간 탑승권 발권 시 신분증·증명서 제시로 적용한다. 연간권 구매가 그 감면의 신청조건이라는 근거는 없다.",
+      "fullBodyReviewed": true,
+      "reviewedProgramPairs": [
+        {
+          "programId": "g48240.gov24-O00012900002",
+          "programName": "사천바다 케이블카 이용료 감면",
+          "disposition": "not_applicable",
+          "reason": "원본 신청 주체·목적과 이 사업의 지원 범위를 대조했으며 이 연결은 승인하지 않음."
+        }
+      ],
+      "sourceEvidence": {
+        "lawId": "2112667",
+        "lawTitle": "사천시 사천바다 케이블카 운영 및 관리에 관한 조례",
+        "annexId": "22473091",
+        "flSeq": "168597925",
+        "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=168597925&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C1%ED%98%B8%EC%84%9C%EC%8B%9D%5D%EC%82%AC%EC%B2%9C%EB%B0%94%EB%8B%A4+%EC%BC%80%EC%9D%B4%EB%B8%94%EC%B9%B4+%EC%97%B0%EA%B0%84+%EC%9D%B4%EC%9A%A9%EA%B6%8C+%EC%8B%A0%EC%B2%AD%EC%84%9C",
+        "publicLawUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=2112667",
+        "exactSourceBinding": true,
+        "lawTextRead": true,
+        "articleNumbers": [
+          "제10조의2"
+        ],
+        "articleTexts": [
+          "제10조의2(연간 이용권)① 연간 이용권을 구입하고자 하는 사람은 별지 제1호서식의 연간 이용권 신청서를 제출하고 별표 2의 요금을 납부하여야 한다.② 연간 이용권 이용자는 연간 이용권과 신분증을 매표소에 제시하여 당일 탑승권을 발권한다.③ 연간 이용권을 반환하고자 하는 사람은 별지 제2호서식의 연간 이용권 반환 신청서를 제출해야 한다.[본조신설 2026.2.26.]"
+        ],
+        "originalBytes": 70144,
+        "bodyTextSha256": "e8d739328242aceed63e57f98d0e4e77658fe3f66ab7e2913be4592e33d0d457",
+        "textLength": 4331,
+        "textScope": "all_body_sections_or_pages",
+        "sectionsRead": [
+          "BodyText/Section0"
+        ],
+        "currencyCheck": {
+          "state": "source_current",
+          "checkedAt": "2026-10-19",
+          "currentLawId": "2112667",
+          "effectiveDate": "20260226",
+          "annexBinding": "bound"
+        }
+      },
+      "checkedAt": "2026-10-19"
+    },
+    {
+      "formId": "ordin-22473093",
+      "sha256": "9f813144d0a12c7d699335dfcb8fcb05bfa9a4a79aae7243e14bf6a07e857030",
+      "disposition": "no_matching_site_program",
+      "reason": "연간 이용권 반환 사유·사용횟수와 전체 약관을 읽었다. 제10조의2제3항 유료 연간권 환불 문서로 왕복·구간 발권 시의 주민·장애·보훈 등 할인 신청과 다르다.",
+      "fullBodyReviewed": true,
+      "reviewedProgramPairs": [
+        {
+          "programId": "g48240.gov24-O00012900002",
+          "programName": "사천바다 케이블카 이용료 감면",
+          "disposition": "not_applicable",
+          "reason": "원본 신청 주체·목적과 이 사업의 지원 범위를 대조했으며 이 연결은 승인하지 않음."
+        }
+      ],
+      "sourceEvidence": {
+        "lawId": "2112667",
+        "lawTitle": "사천시 사천바다 케이블카 운영 및 관리에 관한 조례",
+        "annexId": "22473093",
+        "flSeq": "168597927",
+        "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=168597927&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C2%ED%98%B8%EC%84%9C%EC%8B%9D%5D%EC%82%AC%EC%B2%9C%EB%B0%94%EB%8B%A4+%EC%BC%80%EC%9D%B4%EB%B8%94%EC%B9%B4+%EC%97%B0%EA%B0%84+%EC%9D%B4%EC%9A%A9%EA%B6%8C+%EB%B0%98%ED%99%98+%EC%8B%A0%EC%B2%AD%EC%84%9C",
+        "publicLawUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=2112667",
+        "exactSourceBinding": true,
+        "lawTextRead": true,
+        "articleNumbers": [
+          "제10조의2"
+        ],
+        "articleTexts": [
+          "제10조의2(연간 이용권)① 연간 이용권을 구입하고자 하는 사람은 별지 제1호서식의 연간 이용권 신청서를 제출하고 별표 2의 요금을 납부하여야 한다.② 연간 이용권 이용자는 연간 이용권과 신분증을 매표소에 제시하여 당일 탑승권을 발권한다.③ 연간 이용권을 반환하고자 하는 사람은 별지 제2호서식의 연간 이용권 반환 신청서를 제출해야 한다.[본조신설 2026.2.26.]"
+        ],
+        "originalBytes": 43520,
+        "bodyTextSha256": "c0372959f205034f5fe8005936e3f01208980a00eda8de1698f12f7cc69de2d5",
+        "textLength": 3185,
+        "textScope": "all_body_sections_or_pages",
+        "sectionsRead": [
+          "BodyText/Section0"
+        ],
+        "currencyCheck": {
+          "state": "source_current",
+          "checkedAt": "2026-10-19",
+          "currentLawId": "2112667",
+          "effectiveDate": "20260226",
+          "annexBinding": "bound"
+        }
+      },
+      "checkedAt": "2026-10-19"
+    },
+    {
+      "formId": "ordin-21770433",
+      "sha256": "f0bfedd0da69850d59264c4fe3b3a960cd1a13e25e95083f949c435ba7c6d2a1",
+      "disposition": "approved",
+      "reason": "사천 산모·신생아 건강관리 서비스 제공기간·유형·실제 본인부담금·산모계좌와 동의, 대리인 추가증빙까지 전체 확인했다. 제5조 서비스 종료 후 본인부담금 지원 신청 및 해당 사업의 도·시 차액 지원 절차와 정확히 일치한다.",
+      "fullBodyReviewed": true,
+      "reviewedProgramPairs": [
+        {
+          "programId": "g48240.gov24-534000000122",
+          "programName": "산모·신생아 건강관리 본인부담금 지원",
+          "disposition": "approved",
+          "role": "application",
+          "use": "main",
+          "reason": "사천 산모·신생아 건강관리 서비스 제공기간·유형·실제 본인부담금·산모계좌와 동의, 대리인 추가증빙까지 전체 확인했다. 제5조 서비스 종료 후 본인부담금 지원 신청 및 해당 사업의 도·시 차액 지원 절차와 정확히 일치한다."
+        }
+      ],
+      "sourceEvidence": {
+        "lawId": "2112755",
+        "lawTitle": "사천시 산모ᆞ신생아 건강관리 지원 조례",
+        "annexId": "21770433",
+        "flSeq": "163548665",
+        "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=163548665&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C1%ED%98%B8%EC%84%9C%EC%8B%9D%5D%EC%82%B0%EB%AA%A8+%EC%8B%A0%EC%83%9D%EC%95%84+%EA%B1%B4%EA%B0%95%EA%B4%80%EB%A6%AC+%EB%B3%B8%EC%9D%B8%EB%B6%80%EB%8B%B4%EA%B8%88+%EC%A7%80%EC%9B%90+%EC%8B%A0%EC%B2%AD%EC%84%9C",
+        "publicLawUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=2112755",
+        "exactSourceBinding": true,
+        "lawTextRead": true,
+        "articleNumbers": [
+          "제5조"
+        ],
+        "articleTexts": [
+          "제5조(지원 신청) 본인부담금 지원 신청을 하고자 하는 경우 서비스 종료 후 90일 이내에 산모 또는 산모의 배우자ㆍ친족ㆍ후견인ㆍ법정대리인이 시장에게 다음 각 호의 구비서류를 제출하여야 한다. 다만, 제3조제2호에 해당하는 경우에는 지원 대상이 되는 날부터 90일 이내에 신청하여야 한다.<개정 2026.2.26.>1. 산모ㆍ신생아 건강관리 본인부담금 지원 신청서(별지 제1호서식)2. 본인부담금 납부확인서 또는 영수증3. 산모 명의의 통장 사본"
+        ],
+        "originalBytes": 76288,
+        "bodyTextSha256": "ae03bc1ef05fd7a2972b712b3b216bf1b5b185ba9023eeca9a1ba7c78afa1d77",
+        "textLength": 1359,
+        "textScope": "all_body_sections_or_pages",
+        "sectionsRead": [
+          "BodyText/Section0"
+        ],
+        "currencyCheck": {
+          "state": "source_current",
+          "checkedAt": "2026-10-19",
+          "currentLawId": "2112755",
+          "effectiveDate": "20260226",
+          "annexBinding": "bound"
+        }
+      },
+      "checkedAt": "2026-10-19"
+    },
+    {
+      "formId": "ordin-21616375",
+      "sha256": "4d57b76332543318bfdf62a971402a0af692c72b9e09fcaf5dc9c07ef229559b",
+      "disposition": "approved",
+      "reason": "기장 다자녀가구 전세자금 대출·무주택·자녀·신청인 계좌와 읍면 확인 신청서이다. 제7조 부모 중 1명 신청, 별지1 및 서약동의 제출과 기장 사업 지원내용·법규·읍면 접수가 일치한다. 사업 대상문구에 연제구 주소가 섞인 오류는 기록하며 기장 관할 신청으로 제한한다.",
+      "fullBodyReviewed": true,
+      "reviewedProgramPairs": [
+        {
+          "programId": "g26710.bokjiro-WLF00006096",
+          "programName": "무주택 다자녀가구 전세자금 대출이자 지원사업",
+          "disposition": "approved",
+          "role": "application",
+          "use": "main",
+          "reason": "기장 다자녀가구 전세자금 대출·무주택·자녀·신청인 계좌와 읍면 확인 신청서이다. 제7조 부모 중 1명 신청, 별지1 및 서약동의 제출과 기장 사업 지원내용·법규·읍면 접수가 일치한다. 사업 대상문구에 연제구 주소가 섞인 오류는 기록하며 기장 관할 신청으로 제한한다."
+        }
+      ],
+      "sourceEvidence": {
+        "lawId": "2112965",
+        "lawTitle": "부산광역시 기장군 다자녀가구 전세자금 대출이자 지원 조례",
+        "annexId": "21616375",
+        "flSeq": "162015533",
+        "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=162015533&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C1%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EB%8B%A4%EC%9E%90%EB%85%80%EA%B0%80%EA%B5%AC+%EC%A0%84%EC%84%B8%EC%9E%90%EA%B8%88+%EB%8C%80%EC%B6%9C%EC%9D%B4%EC%9E%90+%EC%A7%80%EC%9B%90+%EC%8B%A0%EC%B2%AD%EC%84%9C",
+        "publicLawUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=2112965",
+        "exactSourceBinding": true,
+        "lawTextRead": true,
+        "articleNumbers": [
+          "제7조"
+        ],
+        "articleTexts": [
+          "제7조(신청 및 지원절차)① 다자녀가구 전세자금 대출이자를 지원받으려는 사람은 별지 제1호서식의 다자녀가구 전세자금 대출이자 지원 신청서와 별지 제2호서식의 다자녀가구 전세자금 대출이자 지원 신청 서약서 및 동의서를 주소지 읍·면장에게 제출하여야 한다. <개정 2026. 2. 27.>② 신청은 다자녀가구 부모 중 1명이 한다.③ 읍·면장은 제1항의 신청서를 접수한 경우에는 다음 각 호의 사항을 확인하여야 한다.1. 다자녀가구 전세자금 대출이자 지원 신청 사항2. 주민등록 사항 및 거주 확인3. 구비서류4. 그 밖에 제4조에 따른 지원 대상 여부④ 읍·면장은 제3항에 따른 확인 결과 신청인이 다자녀가구 전세자금 대출이자 지원대상자로 인정되면 신청서를 접수한 날부터 7일 이내에 군수에게 제출하여야 한다.⑤ 군수는 신청서를 검토하여 다자녀가구 전세자금 대출이자 지원 여부를 결정하여 신청인 명의의 통장 계좌로 지급한다.⑥ 다자녀가구 전세자금 대출이자 지원은 결정된 날로부터 30일 이내에 지급한다."
+        ],
+        "originalBytes": 107008,
+        "bodyTextSha256": "1744788bc67557055c37b3483555633f6b0961c0859e6f421daf9da129d4e7ec",
+        "textLength": 927,
+        "textScope": "all_body_sections_or_pages",
+        "sectionsRead": [
+          "BodyText/Section0"
+        ],
+        "currencyCheck": {
+          "state": "source_current",
+          "checkedAt": "2026-10-19",
+          "currentLawId": "2112965",
+          "effectiveDate": "20260227",
+          "annexBinding": "bound"
+        }
+      },
+      "checkedAt": "2026-10-19",
+      "additionalEvidence": {
+        "programMetadataIssue": "기장군 관할·인용법·읍면 접수 사업의 target 첫 항목에 연제구가 혼입됨. 원본·현행 법규는 기장군."
+      }
+    },
+    {
+      "formId": "ordin-21616377",
+      "sha256": "e10bf47123aee47a431a1a0e820080552ec291640de883f36ae65d088c00bd36",
+      "disposition": "approved",
+      "reason": "기장 다자녀 전세대출의 자녀·무주택·대출 확인 서약 및 본인·배우자 정보 제공 동의 전체를 읽었다. 제7조제1항 별지2를 주신청서와 함께 제출하는 절차와 일치한다.",
+      "fullBodyReviewed": true,
+      "reviewedProgramPairs": [
+        {
+          "programId": "g26710.bokjiro-WLF00006096",
+          "programName": "무주택 다자녀가구 전세자금 대출이자 지원사업",
+          "disposition": "approved",
+          "role": "consent",
+          "use": "additional",
+          "reason": "기장 다자녀 전세대출의 자녀·무주택·대출 확인 서약 및 본인·배우자 정보 제공 동의 전체를 읽었다. 제7조제1항 별지2를 주신청서와 함께 제출하는 절차와 일치한다."
+        }
+      ],
+      "sourceEvidence": {
+        "lawId": "2112965",
+        "lawTitle": "부산광역시 기장군 다자녀가구 전세자금 대출이자 지원 조례",
+        "annexId": "21616377",
+        "flSeq": "162015535",
+        "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=162015535&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C2%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EB%8B%A4%EC%9E%90%EB%85%80%EA%B0%80%EA%B5%AC+%EC%A0%84%EC%84%B8%EC%9E%90%EA%B8%88+%EB%8C%80%EC%B6%9C%EC%9D%B4%EC%9E%90+%EC%A7%80%EC%9B%90+%EC%8B%A0%EC%B2%AD+%EC%84%9C%EC%95%BD%EC%84%9C+%EB%B0%8F+%EB%8F%99%EC%9D%98%EC%84%9C",
+        "publicLawUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=2112965",
+        "exactSourceBinding": true,
+        "lawTextRead": true,
+        "articleNumbers": [
+          "제7조"
+        ],
+        "articleTexts": [
+          "제7조(신청 및 지원절차)① 다자녀가구 전세자금 대출이자를 지원받으려는 사람은 별지 제1호서식의 다자녀가구 전세자금 대출이자 지원 신청서와 별지 제2호서식의 다자녀가구 전세자금 대출이자 지원 신청 서약서 및 동의서를 주소지 읍·면장에게 제출하여야 한다. <개정 2026. 2. 27.>② 신청은 다자녀가구 부모 중 1명이 한다.③ 읍·면장은 제1항의 신청서를 접수한 경우에는 다음 각 호의 사항을 확인하여야 한다.1. 다자녀가구 전세자금 대출이자 지원 신청 사항2. 주민등록 사항 및 거주 확인3. 구비서류4. 그 밖에 제4조에 따른 지원 대상 여부④ 읍·면장은 제3항에 따른 확인 결과 신청인이 다자녀가구 전세자금 대출이자 지원대상자로 인정되면 신청서를 접수한 날부터 7일 이내에 군수에게 제출하여야 한다.⑤ 군수는 신청서를 검토하여 다자녀가구 전세자금 대출이자 지원 여부를 결정하여 신청인 명의의 통장 계좌로 지급한다.⑥ 다자녀가구 전세자금 대출이자 지원은 결정된 날로부터 30일 이내에 지급한다."
+        ],
+        "originalBytes": 53248,
+        "bodyTextSha256": "6dc8835c2086ce892280cc92df9042b7ddc5039b1071b44f9d1a394d58c650ce",
+        "textLength": 694,
+        "textScope": "all_body_sections_or_pages",
+        "sectionsRead": [
+          "BodyText/Section0"
+        ],
+        "currencyCheck": {
+          "state": "source_current",
+          "checkedAt": "2026-10-19",
+          "currentLawId": "2112965",
+          "effectiveDate": "20260227",
+          "annexBinding": "bound"
+        }
+      },
+      "checkedAt": "2026-10-19"
+    },
+    {
+      "formId": "ordin-21616379",
+      "sha256": "0919713b78fb135dfbfa6ad5d15b43892b0c05724051eb3721882855f73d6c96",
+      "disposition": "approved",
+      "reason": "피성년후견·압류·치매 등 본인계좌 개설 곤란 사유와 신청인·대리수령인 계좌, 증빙을 모두 확인했다. 제8조의 예외 대리수령 신청이며 일반 신규신청이나 임의 대리수령으로 확대하지 않는다. 위임장이 아니라 조문상 본인계좌 수령 곤란 사유에 따른 대리수령 신청서이므로 application 역할로 기록한다.",
+      "fullBodyReviewed": true,
+      "reviewedProgramPairs": [
+        {
+          "programId": "g26710.bokjiro-WLF00006096",
+          "programName": "무주택 다자녀가구 전세자금 대출이자 지원사업",
+          "disposition": "approved",
+          "role": "application",
+          "use": "conditional",
+          "reason": "피성년후견·압류·치매 등 본인계좌 개설 곤란 사유와 신청인·대리수령인 계좌, 증빙을 모두 확인했다. 제8조의 예외 대리수령 신청이며 일반 신규신청이나 임의 대리수령으로 확대하지 않는다. 위임장이 아니라 조문상 본인계좌 수령 곤란 사유에 따른 대리수령 신청서이므로 application 역할로 기록한다."
+        }
+      ],
+      "sourceEvidence": {
+        "lawId": "2112965",
+        "lawTitle": "부산광역시 기장군 다자녀가구 전세자금 대출이자 지원 조례",
+        "annexId": "21616379",
+        "flSeq": "162015537",
+        "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=162015537&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C3%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EB%8B%A4%EC%9E%90%EB%85%80%EA%B0%80%EA%B5%AC+%EC%A0%84%EC%84%B8%EC%9E%90%EA%B8%88+%EB%8C%80%EC%B6%9C%EC%9D%B4%EC%9E%90+%EC%A7%80%EC%9B%90+%EB%8C%80%EB%A6%AC%EC%88%98%EB%A0%B9+%EC%8B%A0%EC%B2%AD%EC%84%9C",
+        "publicLawUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=2112965",
+        "exactSourceBinding": true,
+        "lawTextRead": true,
+        "articleNumbers": [
+          "제8조"
+        ],
+        "articleTexts": [
+          "제8조(대리수령)① 다자녀가구가 다음 각 호의 어느 하나에 해당하는 경우에는 별지 제3호서식에 따라 대리수령을 신청하여야 한다.1. 피성년후견인일 경우 <개정 2021.11.24.>2. 채무불이행 혹은 신용불량 등으로 인하여 금전채권이 압류된 경우3. 치매 또는 보건복지부장관이 정하는 거동불가의 사유로 본인 명의의 계좌를 개설하기 어려운 경우② 제1항제1호의 경우에는 법정대리인의 계좌에 입금할 수 있으며, 제2호 및 제3호의 경우에는 직계혈족 또는 3촌 이내의 방계혈족 명의의 계좌에 입금할 수 있다."
+        ],
+        "originalBytes": 62976,
+        "bodyTextSha256": "cea903dc71d313e037730d47e14787acbc6a4fec930025e0ba71176bb6477ec2",
+        "textLength": 952,
+        "textScope": "all_body_sections_or_pages",
+        "sectionsRead": [
+          "BodyText/Section0"
+        ],
+        "currencyCheck": {
+          "state": "source_current",
+          "checkedAt": "2026-10-19",
+          "currentLawId": "2112965",
+          "effectiveDate": "20260227",
+          "annexBinding": "bound"
+        }
+      },
+      "checkedAt": "2026-10-19"
+    },
+    {
+      "formId": "ordin-21645443",
+      "sha256": "2f9a6af7b064a8c7341df7a9a43e69b6d174b32111b7a9afe378c9c4aa82dbcf",
+      "disposition": "approved",
+      "reason": "이천 장애인가정 출산지원금의 장애부모·신생아·거주기간·지급계좌 및 공동이용 동의를 확인했다. 제5조 별지1 신청인 부·모 또는 실제 양육자와 3년 내 읍면동 신청에 일치한다. 원본 참고사항의 한정치산·금치산 용어는 원문대로 보존한다.",
+      "fullBodyReviewed": true,
+      "reviewedProgramPairs": [
+        {
+          "programId": "g41500.bokjiro-WLF00006017",
+          "programName": "이천시 장애인가정 출산비 지원",
+          "disposition": "approved",
+          "role": "application",
+          "use": "main",
+          "reason": "이천 장애인가정 출산지원금의 장애부모·신생아·거주기간·지급계좌 및 공동이용 동의를 확인했다. 제5조 별지1 신청인 부·모 또는 실제 양육자와 3년 내 읍면동 신청에 일치한다. 원본 참고사항의 한정치산·금치산 용어는 원문대로 보존한다."
+        }
+      ],
+      "sourceEvidence": {
+        "lawId": "2113145",
+        "lawTitle": "이천시 장애인가정 출산지원금 지급 조례",
+        "annexId": "21645443",
+        "flSeq": "162259177",
+        "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=162259177&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C1%ED%98%B8%EC%84%9C%EC%8B%9D%5D%EC%8B%A0%EC%B2%AD%EC%84%9C",
+        "publicLawUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=2113145",
+        "exactSourceBinding": true,
+        "lawTextRead": true,
+        "articleNumbers": [
+          "제5조"
+        ],
+        "articleTexts": [
+          "제5조(지원신청 등)① 출산지원금 신청인은 신생아를 출산한 장애인가정의 부 또는 모가 된다. 다만, 사고(사망 등)로 인하여 신생아의 부모에게 지급할 수 없을 때에는 실제 양육하는 사람이 신청할 수 있다.② 읍·면·동장은 출생신고서 접수 시 지원대상 여부를 확인하고 대상자에게 알려 신청하도록 하여야 한다.③ 출산지원금 신청인은 신생아의 출생신고를 한 후 3년 이내에 별지 제1호서식에 별지 제2호서식을 첨부하여 주소지 관할 읍·면·동장에게 출산지원금을 신청하여야 한다."
+        ],
+        "originalBytes": 68608,
+        "bodyTextSha256": "60c600c092c80b208637c38c61fe00564a83bf08de533411def82cddce576dac",
+        "textLength": 1115,
+        "textScope": "all_body_sections_or_pages",
+        "sectionsRead": [
+          "BodyText/Section0"
+        ],
+        "currencyCheck": {
+          "state": "source_current",
+          "checkedAt": "2026-10-19",
+          "currentLawId": "2113145",
+          "effectiveDate": "20260227",
+          "annexBinding": "bound"
+        }
+      },
+      "checkedAt": "2026-10-19"
+    },
+    {
+      "formId": "ordin-21645445",
+      "sha256": "09ce1ae75a6a4871a1f3d2bbd573df2f1e9e2b8158ff2b1d370ea9c9395e19eb",
+      "disposition": "approved",
+      "reason": "이천 장애인가정 출산지원 자격 확인을 위한 성명·가족·장애·주소이력 수집 동의이며 제5조제3항 별지1에 첨부하는 별지2와 일치한다.",
+      "fullBodyReviewed": true,
+      "reviewedProgramPairs": [
+        {
+          "programId": "g41500.bokjiro-WLF00006017",
+          "programName": "이천시 장애인가정 출산비 지원",
+          "disposition": "approved",
+          "role": "consent",
+          "use": "additional",
+          "reason": "이천 장애인가정 출산지원 자격 확인을 위한 성명·가족·장애·주소이력 수집 동의이며 제5조제3항 별지1에 첨부하는 별지2와 일치한다."
+        }
+      ],
+      "sourceEvidence": {
+        "lawId": "2113145",
+        "lawTitle": "이천시 장애인가정 출산지원금 지급 조례",
+        "annexId": "21645445",
+        "flSeq": "162259219",
+        "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=162259219&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C2%ED%98%B8%EC%84%9C%EC%8B%9D%5D%EA%B0%9C%EC%9D%B8%EC%A0%95%EB%B3%B4+%EC%88%98%EC%A7%91%EC%9D%B4%EC%9A%A9+%EB%8F%99%EC%9D%98%EC%84%9C",
+        "publicLawUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=2113145",
+        "exactSourceBinding": true,
+        "lawTextRead": true,
+        "articleNumbers": [
+          "제5조"
+        ],
+        "articleTexts": [
+          "제5조(지원신청 등)① 출산지원금 신청인은 신생아를 출산한 장애인가정의 부 또는 모가 된다. 다만, 사고(사망 등)로 인하여 신생아의 부모에게 지급할 수 없을 때에는 실제 양육하는 사람이 신청할 수 있다.② 읍·면·동장은 출생신고서 접수 시 지원대상 여부를 확인하고 대상자에게 알려 신청하도록 하여야 한다.③ 출산지원금 신청인은 신생아의 출생신고를 한 후 3년 이내에 별지 제1호서식에 별지 제2호서식을 첨부하여 주소지 관할 읍·면·동장에게 출산지원금을 신청하여야 한다."
+        ],
+        "originalBytes": 36864,
+        "bodyTextSha256": "d0ca8afaf7207cbf8cbf0b57ff5ba3cb438168f5840656d1d1581d62ab9cf73e",
+        "textLength": 629,
+        "textScope": "all_body_sections_or_pages",
+        "sectionsRead": [
+          "BodyText/Section0"
+        ],
+        "currencyCheck": {
+          "state": "source_current",
+          "checkedAt": "2026-10-19",
+          "currentLawId": "2113145",
+          "effectiveDate": "20260227",
+          "annexBinding": "bound"
+        }
+      },
+      "checkedAt": "2026-10-19"
+    },
+    {
+      "formId": "ordin-21619899",
+      "sha256": "66720e9c83a7ace3b08fa4fc90bebe738a201653239ba0084db86f922acc4027",
+      "disposition": "approved",
+      "reason": "당진 전세이자 대리수령의 후견·압류·거동불가 사유, 대리인 계좌·서명·증빙을 확인했다. 제8조 별지3 절차로 두 동일 사업의 지급 예외 단계에 해당한다. 위임장이 아니라 조문상 본인계좌 수령 곤란 사유에 따른 대리수령 신청서이므로 application 역할로 기록한다.",
+      "fullBodyReviewed": true,
+      "reviewedProgramPairs": [
+        {
+          "programId": "g44270.gov24-568000000121",
+          "programName": "신혼부부 주택 전세자금 대출이자 지원",
+          "disposition": "approved",
+          "role": "application",
+          "use": "conditional",
+          "reason": "당진 전세이자 대리수령의 후견·압류·거동불가 사유, 대리인 계좌·서명·증빙을 확인했다. 제8조 별지3 절차로 두 동일 사업의 지급 예외 단계에 해당한다. 위임장이 아니라 조문상 본인계좌 수령 곤란 사유에 따른 대리수령 신청서이므로 application 역할로 기록한다."
+        },
+        {
+          "programId": "g44270.bokjiro-WLF00000632",
+          "programName": "신혼부부 전세자금 대출이자 지원사업",
+          "disposition": "approved",
+          "role": "application",
+          "use": "conditional",
+          "reason": "당진 전세이자 대리수령의 후견·압류·거동불가 사유, 대리인 계좌·서명·증빙을 확인했다. 제8조 별지3 절차로 두 동일 사업의 지급 예외 단계에 해당한다. 위임장이 아니라 조문상 본인계좌 수령 곤란 사유에 따른 대리수령 신청서이므로 application 역할로 기록한다."
+        }
+      ],
+      "sourceEvidence": {
+        "lawId": "2113395",
+        "lawTitle": "당진시 신혼부부 주택 전세자금 대출이자 지원 조례",
+        "annexId": "21619899",
+        "flSeq": "162019677",
+        "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=162019677&flNm=%EB%B3%84%EC%A7%80+%EC%A0%9C3%ED%98%B8%EC%84%9C%EC%8B%9D%28%EC%8B%A0%ED%98%BC%EB%B6%80%EB%B6%80+%EC%A3%BC%ED%83%9D+%EC%A0%84%EC%84%B8%EC%9E%90%EA%B8%88+%EB%8C%80%EC%B6%9C%EC%9D%B4%EC%9E%90+%EC%A7%80%EC%9B%90+%EB%8C%80%EB%A6%AC%EC%88%98%EB%A0%B9+%EC%8B%A0%EC%B2%AD%EC%84%9C%29",
+        "publicLawUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=2113395",
+        "exactSourceBinding": true,
+        "lawTextRead": true,
+        "articleNumbers": [
+          "제8조"
+        ],
+        "articleTexts": [
+          "제8조(대리수령)① 신혼부부가 다음 각 호의 어느 하나에 해당하는 경우에는 별지 제3호서식에 따라 대리수령을 신청하여야 한다.1. 피성년후견인일 경우2. 채무불이행 혹은 신용불량 등으로 인하여 금전채권이 압류된 경우3. 치매 또는 보건복지부장관이 정하는 거동불가의 사유로 본인 명의의 계좌를 개설하기 어려운 경우② 제1항제1호의 경우에는 법정대리인의 계좌에 입금할 수 있으며, 제2호 및 제3호의 경우에는 신청인이 지정하는 직계혈족 또는 3촌 이내의 방계혈족 명의의 통장 계좌에 입금할 수 있다."
+        ],
+        "originalBytes": 65536,
+        "bodyTextSha256": "1eddc92e9f009d5e8d9f0673c8f361bc37972a8036fed1f6e8ecdff582022633",
+        "textLength": 1156,
+        "textScope": "all_body_sections_or_pages",
+        "sectionsRead": [
+          "BodyText/Section0"
+        ],
+        "currencyCheck": {
+          "state": "source_current",
+          "checkedAt": "2026-10-19",
+          "currentLawId": "2113395",
+          "effectiveDate": "20260227",
+          "annexBinding": "bound"
+        }
+      },
+      "checkedAt": "2026-10-19"
+    },
+    {
+      "formId": "ordin-21620233",
+      "sha256": "33a9801bceee8faedfb171f538f6938219f0b36737e15622f2cad2be1896ce4a",
+      "disposition": "approved",
+      "reason": "참전 등록·본인 신상·계좌와 행정정보 동의가 있는 세종 참전명예수당 신청 원본이다. 제7조 별지1과 참전명예수당 본인 신청 사업에 일치하며 배우자 복지수당·사망위로금으로 연결하지 않는다.",
+      "fullBodyReviewed": true,
+      "reviewedProgramPairs": [
+        {
+          "programId": "g36110.bokjiro-WLF00001014",
+          "programName": "독립유공자(유족) 및 전몰군경 명예수당 지원",
+          "disposition": "not_applicable",
+          "reason": "원본 신청 주체·목적과 이 사업의 지원 범위를 대조했으며 이 연결은 승인하지 않음."
+        },
+        {
+          "programId": "g36110.bokjiro-WLF00001039",
+          "programName": "참전유공자 사망위로금 지급",
+          "disposition": "not_applicable",
+          "reason": "원본 신청 주체·목적과 이 사업의 지원 범위를 대조했으며 이 연결은 승인하지 않음."
+        },
+        {
+          "programId": "g36110.bokjiro-WLF00001924",
+          "programName": "참전유공자 참전명예수당",
+          "disposition": "approved",
+          "role": "application",
+          "use": "main",
+          "reason": "참전 등록·본인 신상·계좌와 행정정보 동의가 있는 세종 참전명예수당 신청 원본이다. 제7조 별지1과 참전명예수당 본인 신청 사업에 일치하며 배우자 복지수당·사망위로금으로 연결하지 않는다."
+        },
+        {
+          "programId": "g36110.bokjiro-WLF00000651",
+          "programName": "참전유공자 유족(배우자) 복지수당",
+          "disposition": "not_applicable",
+          "reason": "원본 신청 주체·목적과 이 사업의 지원 범위를 대조했으며 이 연결은 승인하지 않음."
+        }
+      ],
+      "sourceEvidence": {
+        "lawId": "2113451",
+        "lawTitle": "세종특별자치시 국가보훈대상자 등 예우 및 지원에 관한 조례",
+        "annexId": "21620233",
+        "flSeq": "162020085",
+        "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=162020085&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C1%ED%98%B8%EC%84%9C%EC%8B%9D%5D%EC%B0%B8%EC%A0%84%EB%AA%85%EC%98%88%EC%88%98%EB%8B%B9+%EC%A7%80%EA%B8%89+%EC%8B%A0%EC%B2%AD%EC%84%9C",
+        "publicLawUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=2113451",
+        "exactSourceBinding": true,
+        "lawTextRead": true,
+        "articleNumbers": [
+          "제7조"
+        ],
+        "articleTexts": [
+          "제7조(참전유공자 지원)① 시에 주소를 두고 있는 참전유공자 및 참전유공자가 사망한 경우 그 배우자(「국가유공자 등 예우 및 지원에 관한 법률」 제5조제1항제1호 및 같은 조 제2항에 따른 사람을 말한다. 이하 같다)에게 예산의 범위에서 다음 각 호의 수당을 지급한다.1. 참전유공자: 월 15만원 이내의 참전명예수당. 다만, 80세 이상의 참전유공자에게는 월 3만원을 추가로 지급한다.<개정, 2022. 11. 14.><단서 신설, 2026. 2. 27.>2. 참전유공자가 사망한 경우 그 배우자: 월 5만원의 배우자 복지수당[전문개정, 2017. 11. 10.]② 참전명예수당의 지급은 본인의 신청이 있어야 한다.③ 제1항에 따른 수당의 신청은 별지 제1호서식 및 별지 제2호서식에 따르며, 신청서가 접수된 날이 속하는 달부터 지급 중단 사유가 발생한 날이 속하는 달까지 매월 25일 이전에 지급한다. 다만, 신청서가 접수된 날이 속한 달의 수당은 다음 달의 지급일에 함께 지급한다.(개정, 2016. 4. 20.) (개정, 2017. 11. 10.)<개정, 2023. 7. 10.>④ 제3항에도 불구하고 전입한 참전명예수당 지급 대상자 중 이미 전출지에서 수당을 지급받고 있었던 사람은 수당의 중복 지급여부 확인 후 전입한 월부터 소급하여 지급할 수 있다.<신설, 2023. 7. 10.>⑤ 시장은 매년 반기별로 1회 이상 국가보훈처장에게 조회하여 참전명예수당 지급 대상자의 적격 여부를 확인하고 부당 지급사실이 있는 경우에는 환수 등 조치를 취하여야 한다.[제4항에서 이동, 2023. 7. 10.]⑥ 제2항 및 제3항에 따라 신청서를 제출받은 시장은 「전자정부법」 제36조제1항에 따른 행정정보의 공동이용을 통하여 구비서류를 확인할 수 있는 경우에는 그 확인으로 구비서류 제출을 갈음할 수 있다. 다만, 신청인이 확인에 동의하지 아니한 경우에는 그 서류를 신청인이 직접 첨부하도록 하여야 한다. (신설, 2017. 7. 20.)[제5항에서 이동, 2023. 7. 10.]⑦ 참전명예수당의 신청 및 지급에 관하여 이 조례로 정하지 않은 사항은 별도 규정으로 정하여 시행할 수 있다.[제5항에서 이동, 2017. 7. 20.][제6항에서 이동, 2023. 7. 10.]"
+        ],
+        "originalBytes": 51712,
+        "bodyTextSha256": "3823eb588362d4a7c6c3b2a09ef086aca4675f0ac8d84648baad16506becc3ae",
+        "textLength": 568,
+        "textScope": "all_body_sections_or_pages",
+        "sectionsRead": [
+          "BodyText/Section0"
+        ],
+        "currencyCheck": {
+          "state": "source_current",
+          "checkedAt": "2026-10-19",
+          "currentLawId": "2113451",
+          "effectiveDate": "20260601",
+          "annexBinding": "bound"
+        }
+      },
+      "checkedAt": "2026-10-19"
+    },
+    {
+      "formId": "ordin-21620237",
+      "sha256": "538a22524ff1b32fc292251e8ef43197ec125beac40ed64d7e550c135b6deb4a",
+      "disposition": "approved",
+      "reason": "별지3은 전몰·순직 유족 및 전상·공상 본인을 선택하는 보훈명예수당 신청서이다. 제8조 현행 대상과 전몰군경 명예수당 부분이 일치한다. 사업명에 함께 적힌 독립유공자는 원본 선택란·현행 제8조 대상에 없으므로 전몰군경 부분에만 한정한다.",
+      "fullBodyReviewed": true,
+      "reviewedProgramPairs": [
+        {
+          "programId": "g36110.bokjiro-WLF00001014",
+          "programName": "독립유공자(유족) 및 전몰군경 명예수당 지원",
+          "disposition": "approved",
+          "role": "application",
+          "use": "conditional",
+          "reason": "별지3은 전몰·순직 유족 및 전상·공상 본인을 선택하는 보훈명예수당 신청서이다. 제8조 현행 대상과 전몰군경 명예수당 부분이 일치한다. 사업명에 함께 적힌 독립유공자는 원본 선택란·현행 제8조 대상에 없으므로 전몰군경 부분에만 한정한다."
+        },
+        {
+          "programId": "g36110.bokjiro-WLF00001039",
+          "programName": "참전유공자 사망위로금 지급",
+          "disposition": "not_applicable",
+          "reason": "원본 신청 주체·목적과 이 사업의 지원 범위를 대조했으며 이 연결은 승인하지 않음."
+        },
+        {
+          "programId": "g36110.bokjiro-WLF00001924",
+          "programName": "참전유공자 참전명예수당",
+          "disposition": "not_applicable",
+          "reason": "원본 신청 주체·목적과 이 사업의 지원 범위를 대조했으며 이 연결은 승인하지 않음."
+        },
+        {
+          "programId": "g36110.bokjiro-WLF00000651",
+          "programName": "참전유공자 유족(배우자) 복지수당",
+          "disposition": "not_applicable",
+          "reason": "원본 신청 주체·목적과 이 사업의 지원 범위를 대조했으며 이 연결은 승인하지 않음."
+        }
+      ],
+      "sourceEvidence": {
+        "lawId": "2113451",
+        "lawTitle": "세종특별자치시 국가보훈대상자 등 예우 및 지원에 관한 조례",
+        "annexId": "21620237",
+        "flSeq": "162020089",
+        "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=162020089&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C3%ED%98%B8%EC%84%9C%EC%8B%9D%5D%EB%B3%B4%ED%9B%88%EB%AA%85%EC%98%88%EC%88%98%EB%8B%B9+%EC%A7%80%EA%B8%89+%EC%8B%A0%EC%B2%AD%EC%84%9C",
+        "publicLawUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=2113451",
+        "exactSourceBinding": true,
+        "lawTextRead": true,
+        "articleNumbers": [
+          "제8조"
+        ],
+        "articleTexts": [
+          "제8조(보훈명예수당의 지급)① 시장은 시에 주소를 두고 있는 다음 각 호의 국가보훈대상자에게 예산의 범위에서 월 5만원의 보훈명예수당(이하 “수당”이라 한다)을 지급할 수 있다. 다만, 제7조에 따라 수당을 지급받는 사람은 제외한다.<개정, 2023. 7. 10.>1. 「국가유공자 등 예우 및 지원에 관한 법률」 제4조제1항제3호의 전몰군경, 같은 항 제5호의 순직군경의 유족 중 선순위자 1명<개정, 2023. 7. 10.>2. 「국가유공자 등 예우 및 지원에 관한 법률」 제4조제1항제4호의 전상군경, 같은 항 제6호의 공상군경<개정, 2023. 7. 10.>② 보훈명예수당은 본인 또는 유족의 신청이 있어야 하며, 별지 제3호서식에 따라 신청한다.<개정, 2023. 7. 10.>③ 그 밖의 보훈명예수당 지급에 관한 사항은 제7조를 준용한다.<개정, 2023. 7. 10.>(2014.10.30. 본조 신설)[제목개정, 2023. 7. 10.]"
+        ],
+        "originalBytes": 56320,
+        "bodyTextSha256": "bd17be5da10ff345ccc77d9df54c169e6bfddfc50d101a6de30e3d24b3cfd7d9",
+        "textLength": 658,
+        "textScope": "all_body_sections_or_pages",
+        "sectionsRead": [
+          "BodyText/Section0"
+        ],
+        "currencyCheck": {
+          "state": "source_current",
+          "checkedAt": "2026-10-19",
+          "currentLawId": "2113451",
+          "effectiveDate": "20260601",
+          "annexBinding": "bound"
+        }
+      },
+      "checkedAt": "2026-10-19"
+    },
+    {
+      "formId": "ordin-21620239",
+      "sha256": "10e2f7f7fb118e05ce0f593381a708954d5c2944bfe92f0169e609e7e0300f0a",
+      "disposition": "approved",
+      "reason": "사망 참전유공자·유족관계·계좌·사망증빙을 작성하는 별지4 전체를 읽었다. 제10조 사망위로금과 해당 사업 목적이 일치한다. 사업 target의 1년 거주 설명은 현행 조문과 차이가 있으나 원본은 이를 고정 요구하지 않는다.",
+      "fullBodyReviewed": true,
+      "reviewedProgramPairs": [
+        {
+          "programId": "g36110.bokjiro-WLF00001014",
+          "programName": "독립유공자(유족) 및 전몰군경 명예수당 지원",
+          "disposition": "not_applicable",
+          "reason": "원본 신청 주체·목적과 이 사업의 지원 범위를 대조했으며 이 연결은 승인하지 않음."
+        },
+        {
+          "programId": "g36110.bokjiro-WLF00001039",
+          "programName": "참전유공자 사망위로금 지급",
+          "disposition": "approved",
+          "role": "application",
+          "use": "main",
+          "reason": "사망 참전유공자·유족관계·계좌·사망증빙을 작성하는 별지4 전체를 읽었다. 제10조 사망위로금과 해당 사업 목적이 일치한다. 사업 target의 1년 거주 설명은 현행 조문과 차이가 있으나 원본은 이를 고정 요구하지 않는다."
+        },
+        {
+          "programId": "g36110.bokjiro-WLF00001924",
+          "programName": "참전유공자 참전명예수당",
+          "disposition": "not_applicable",
+          "reason": "원본 신청 주체·목적과 이 사업의 지원 범위를 대조했으며 이 연결은 승인하지 않음."
+        },
+        {
+          "programId": "g36110.bokjiro-WLF00000651",
+          "programName": "참전유공자 유족(배우자) 복지수당",
+          "disposition": "not_applicable",
+          "reason": "원본 신청 주체·목적과 이 사업의 지원 범위를 대조했으며 이 연결은 승인하지 않음."
+        }
+      ],
+      "sourceEvidence": {
+        "lawId": "2113451",
+        "lawTitle": "세종특별자치시 국가보훈대상자 등 예우 및 지원에 관한 조례",
+        "annexId": "21620239",
+        "flSeq": "162020091",
+        "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=162020091&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C4%ED%98%B8%EC%84%9C%EC%8B%9D%5D%EC%82%AC%EB%A7%9D%EC%9C%84%EB%A1%9C%EA%B8%88+%EC%A7%80%EA%B8%89+%EC%8B%A0%EC%B2%AD%EC%84%9C",
+        "publicLawUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=2113451",
+        "exactSourceBinding": true,
+        "lawTextRead": true,
+        "articleNumbers": [
+          "제10조"
+        ],
+        "articleTexts": [
+          "제10조(사망위로금)① 시장은 시에 주소를 둔 참전유공자가 사망한 경우 예산의 범위에서 20만원 이내의 사망위로금을 지급할 수 있다.<개정, 2023. 7. 10.>② 제1항에 따른 사망위로금은 지급대상자가 사망한 날부터 3년 이내에 별지 제4호서식에 따라 신청해야 하며, 사망위로금을 받을 유족의 순위는 「국가유공자 등 예우 및 지원에 관한 법률」 제13조에 따른다. (2014.12.22.본조신설) (개정, 2017. 2. 6.)"
+        ],
+        "originalBytes": 52736,
+        "bodyTextSha256": "a2373105a7b8477c5439e15543cd8fce3844b31ab5beb74325308072ad03ccfd",
+        "textLength": 576,
+        "textScope": "all_body_sections_or_pages",
+        "sectionsRead": [
+          "BodyText/Section0"
+        ],
+        "currencyCheck": {
+          "state": "source_current",
+          "checkedAt": "2026-10-19",
+          "currentLawId": "2113451",
+          "effectiveDate": "20260601",
+          "annexBinding": "bound"
+        }
+      },
+      "checkedAt": "2026-10-19",
+      "additionalEvidence": {
+        "programMetadataIssue": "현행 제10조는 시에 주소를 둔 참전유공자, 사업 설명은 1년 거주. 원본에 1년 조건 없음."
+      }
+    },
+    {
+      "formId": "ordin-22405791",
+      "sha256": "e2bb898cb703385a9f4e166275d0218ec0a35b9249f6be15955a2c45809d47d4",
+      "disposition": "approved",
+      "reason": "달서 참전유공자 사망일·유족관계·계좌·사망 및 유족증빙을 확인했다. 제5조제2항 별지2와 동일 사망위로금 사업이다. 현재 조문 신청기한 1년과 사업 안내 6개월 차이는 원본에 인쇄되지 않아 별도 정보 갱신 문제로 기록한다.",
+      "fullBodyReviewed": true,
+      "reviewedProgramPairs": [
+        {
+          "programId": "g27290.bokjiro-WLF00005300",
+          "programName": "참전유공자 사망위로금 지원",
+          "disposition": "approved",
+          "role": "application",
+          "use": "main",
+          "reason": "달서 참전유공자 사망일·유족관계·계좌·사망 및 유족증빙을 확인했다. 제5조제2항 별지2와 동일 사망위로금 사업이다. 현재 조문 신청기한 1년과 사업 안내 6개월 차이는 원본에 인쇄되지 않아 별도 정보 갱신 문제로 기록한다."
+        }
+      ],
+      "sourceEvidence": {
+        "lawId": "2113783",
+        "lawTitle": "대구광역시달서구 참전유공자 지원에 관한 조례",
+        "annexId": "22405791",
+        "flSeq": "168291007",
+        "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=168291007&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C2%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EC%82%AC%EB%A7%9D%EC%9C%84%EB%A1%9C%EA%B8%88+%EC%A7%80%EA%B8%89+%EC%8B%A0%EC%B2%AD%EC%84%9C",
+        "publicLawUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=2113783",
+        "exactSourceBinding": true,
+        "lawTextRead": true,
+        "articleNumbers": [
+          "제5조"
+        ],
+        "articleTexts": [
+          "제5조(지급신청)① 삭제(2013. 5.21.)② 사망위로금을 지급받고자 하는 사람은 참전유공자의 사망일부터 1년 이내에 별지 제2호서식의 사망위로금 지급 신청서를 참전유공자의 주민 등록을 둔 관할 동장에게 제출하여야 한다. (개정 2015.12.31.,2026.3.3.)③ 사망위로금을 지급받을 대상 및 순위에 대하여는 「국가유공자 등 예우 및 지원에 관한 법률」제13조를 준용한다. 다만, 같은 법 제13조에 따른 유족이 없을 때에는 장례를 행하는 사람에게 지급할 수 있다. (개정 2015.12.31.,2026.3.3.)④ 제2항에 따른 신청서를 접수한 동장은 3일 이내에 구청장에게 관련 서류를 송부하여야 하며, 변경사항이 있는 경우에는 그 변경내역을 다음 달 5일까지 송부하여야 한다.(개정 2013. 5.21.)"
+        ],
+        "originalBytes": 25088,
+        "bodyTextSha256": "94b2a81942b7cab99a33a4fa9ccc7db0711d197c834c0fb36f849cd1ce6ae2c0",
+        "textLength": 428,
+        "textScope": "all_body_sections_or_pages",
+        "sectionsRead": [
+          "BodyText/Section0"
+        ],
+        "currencyCheck": {
+          "state": "source_current",
+          "checkedAt": "2026-10-19",
+          "currentLawId": "2113783",
+          "effectiveDate": "20260303",
+          "annexBinding": "bound"
+        }
+      },
+      "checkedAt": "2026-10-19",
+      "additionalEvidence": {
+        "programMetadataIssue": "현행 제5조 2026.3.3 개정으로 사망 후 1년, 사이트 apply는 6개월. 원본은 기한 미인쇄."
+      }
+    },
+    {
+      "formId": "ordin-21626795",
+      "sha256": "221ebcc8f63ad1b1ed8d149d73315b1470319e5edb16ddad321005497a34c5dc",
+      "disposition": "approved",
+      "reason": "평택 국가보훈대상자 사망위로금 별지2의 사망자·신청유족·계좌·사망 증빙 전체와 제10조 유가족 신청을 대조했다. 통합 보훈지원 중 사망위로금 및 전용 사망위로금 사업만 연결한다.",
+      "fullBodyReviewed": true,
+      "reviewedProgramPairs": [
+        {
+          "programId": "g41220.gov24-391000000108",
+          "programName": "참전유공자수당",
+          "disposition": "not_applicable",
+          "reason": "원본 신청 주체·목적과 이 사업의 지원 범위를 대조했으며 이 연결은 승인하지 않음."
+        },
+        {
+          "programId": "g41220.gov24-391000000140",
+          "programName": "국가보훈대상자 생활보조수당",
+          "disposition": "not_applicable",
+          "reason": "원본 신청 주체·목적과 이 사업의 지원 범위를 대조했으며 이 연결은 승인하지 않음."
+        },
+        {
+          "programId": "g41220.gov24-391000000132",
+          "programName": "국가보훈대상자 참전명예수당",
+          "disposition": "not_applicable",
+          "reason": "원본 신청 주체·목적과 이 사업의 지원 범위를 대조했으며 이 연결은 승인하지 않음."
+        },
+        {
+          "programId": "g41220.gov24-391000000146",
+          "programName": "국가보훈대상자 사망위로금 지원",
+          "disposition": "approved",
+          "role": "application",
+          "use": "main",
+          "reason": "평택 국가보훈대상자 사망위로금 별지2의 사망자·신청유족·계좌·사망 증빙 전체와 제10조 유가족 신청을 대조했다. 통합 보훈지원 중 사망위로금 및 전용 사망위로금 사업만 연결한다."
+        },
+        {
+          "programId": "g41220.bokjiro-WLF00001562",
+          "programName": "국가보훈대상자 예우 및 지원(보훈수당 지급)",
+          "disposition": "approved",
+          "role": "application",
+          "use": "conditional",
+          "reason": "평택 국가보훈대상자 사망위로금 별지2의 사망자·신청유족·계좌·사망 증빙 전체와 제10조 유가족 신청을 대조했다. 통합 보훈지원 중 사망위로금 및 전용 사망위로금 사업만 연결한다."
+        },
+        {
+          "programId": "g41220.gov24-391000000554",
+          "programName": "국가보훈대상자 명절위로금",
+          "disposition": "not_applicable",
+          "reason": "원본 신청 주체·목적과 이 사업의 지원 범위를 대조했으며 이 연결은 승인하지 않음."
+        },
+        {
+          "programId": "g41220.gov24-391000000147",
+          "programName": "국가보훈대상자 명예수당",
+          "disposition": "not_applicable",
+          "reason": "원본 신청 주체·목적과 이 사업의 지원 범위를 대조했으며 이 연결은 승인하지 않음."
+        },
+        {
+          "programId": "g41220.gov24-391000000104",
+          "programName": "사망 참전유공자의 배우자 복지수당",
+          "disposition": "not_applicable",
+          "reason": "원본 신청 주체·목적과 이 사업의 지원 범위를 대조했으며 이 연결은 승인하지 않음."
+        }
+      ],
+      "sourceEvidence": {
+        "lawId": "2113821",
+        "lawTitle": "평택시 국가보훈대상자 등 예우 및 지원에 관한 조례",
+        "annexId": "21626795",
+        "flSeq": "162073125",
+        "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=162073125&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C2%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EA%B5%AD%EA%B0%80%EB%B3%B4%ED%9B%88%EB%8C%80%EC%83%81%EC%9E%90+%EC%82%AC%EB%A7%9D%EC%9C%84%EB%A1%9C%EA%B8%88+%EC%A7%80%EA%B8%89%EC%8B%A0%EC%B2%AD%EC%84%9C",
+        "publicLawUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=2113821",
+        "exactSourceBinding": true,
+        "lawTextRead": true,
+        "articleNumbers": [
+          "제10조"
+        ],
+        "articleTexts": [
+          "제10조(지급신청) 수당 및 사망위로금을 지급받고자 하는 사람은 별지 제1호서식부터 별지 제3호서식까지에 따른 신청서를 시장에게 제출하여야 한다. 다만, 사망위로금은 사망일부터 1년 이내에 유가족이 신청하는 것으로 한다. <개정 2018. 12. 18., 2022. 4. 20.>[본조신설 2009. 7. 10.]"
+        ],
+        "originalBytes": 59380,
+        "bodyTextSha256": "582d6615ca90105fcee20f108b1d608e97197225ea6538a379de565bc12df31b",
+        "textLength": 665,
+        "textScope": "all_body_sections_or_pages",
+        "sectionsRead": [
+          "Contents/section0.xml"
+        ],
+        "currencyCheck": {
+          "state": "source_current",
+          "checkedAt": "2026-10-19",
+          "currentLawId": "2113821",
+          "effectiveDate": "20260303",
+          "annexBinding": "bound"
+        }
+      },
+      "checkedAt": "2026-10-19"
+    },
+    {
+      "formId": "ordin-21627193",
+      "sha256": "c1049233bb18390028f10da8822d21929e47bc375a56d6a1987be578bbc5cbac",
+      "disposition": "approved",
+      "reason": "나주 사망·개장 구분, 화장시설·유골 안치·연고자·계좌 및 화장 증빙을 확인했다. 제5조 별지1과 사이트 화장장려금 신청이 일치한다. 현재 사망 화장40만원/개장20만원과 사이트 양쪽20만원 차이는 있으나 원본은 지원액을 고정 인쇄하지 않는다.",
+      "fullBodyReviewed": true,
+      "reviewedProgramPairs": [
+        {
+          "programId": "g12170.gov24-483000000131",
+          "programName": "화장장려금 지원",
+          "disposition": "approved",
+          "role": "application",
+          "use": "main",
+          "reason": "나주 사망·개장 구분, 화장시설·유골 안치·연고자·계좌 및 화장 증빙을 확인했다. 제5조 별지1과 사이트 화장장려금 신청이 일치한다. 현재 사망 화장40만원/개장20만원과 사이트 양쪽20만원 차이는 있으나 원본은 지원액을 고정 인쇄하지 않는다."
+        }
+      ],
+      "sourceEvidence": {
+        "lawId": "2113875",
+        "lawTitle": "나주시 화장장려금 지원 조례",
+        "annexId": "21627193",
+        "flSeq": "162073561",
+        "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=162073561&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C1%ED%98%B8%EC%84%9C%EC%8B%9D%5D%ED%99%94%EC%9E%A5%EC%9E%A5%EB%A0%A4%EA%B8%88+%EC%A7%80%EC%9B%90+%EC%8B%A0%EC%B2%AD%EC%84%9C",
+        "publicLawUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=2113875",
+        "exactSourceBinding": true,
+        "lawTextRead": true,
+        "articleNumbers": [
+          "제5조"
+        ],
+        "articleTexts": [
+          "제5조(신청방법 등)① 제3조에 따라 대상자가 장려금을 신청하고자 할 때에는 사망신고일(개장일 경우 화장일)부터 3개월 이내에 별지 제1호서식의 화장장려금 지원 신청서를 주소지 읍ㆍ면ㆍ동장을 경유하여 시장에게 제출하여야 한다.② 신청서를 접수한 읍ㆍ면ㆍ동장은 전입일, 실제 거주여부 등 장려금 지급 적격여부를 조사하여 시장에게 제출하고, 시장은 신청자에게 장려금을 지급한다.③ 장려금을 신청하기 위해서는 화장 후 다음 각 호의 어느 하나에 해당하여야 한다.1. 적법한 봉안시설에 안치한 경우2. 적법한 묘지에 매장한 경우3. 적법한 자연장지에 자연장한 경우4. 적법한 장소에 산골한 경우④ 제1항에도 불구하고 다음 각 호의 어느 하나에 해당하는 경우에는 그 사유가 해소된 날부터 90일 이내에 장려금을 신청할 수 있다.1. 장기·시신 등 기증으로 인한 절차 이행 등으로 화장이 지연된 경우2. 천재지변, 질병, 상해 등으로 기한 내 장려금을 신청하지 못한 경우3. 그 밖에 제1호, 제2호에 준하는 경우로서 시장이 정하는 경우"
+        ],
+        "originalBytes": 15360,
+        "bodyTextSha256": "a07082d03101d0bfd02f633c30445c5c532badfdfbca0c1b2da83625894ad4a5",
+        "textLength": 466,
+        "textScope": "all_body_sections_or_pages",
+        "sectionsRead": [
+          "BodyText/Section0"
+        ],
+        "currencyCheck": {
+          "state": "source_current",
+          "checkedAt": "2026-10-19",
+          "currentLawId": "2113875",
+          "effectiveDate": "20260303",
+          "annexBinding": "bound"
+        }
+      },
+      "checkedAt": "2026-10-19",
+      "additionalEvidence": {
+        "programMetadataIssue": "현행 제4조 사망 화장40만원·개장20만원; 사이트 모두20만원. 원본은 금액 미인쇄."
+      }
+    },
+    {
+      "formId": "ordin-22210695",
+      "sha256": "6075348b61e56239384bd26bd57d4e21e9ee8db384d8718b50efdb98591a33cc",
+      "disposition": "approved",
+      "reason": "인천 중구 보훈예우수당·건강증진수당 선택, 본인계좌·유공증·공동이용 동의 전체를 읽었다. 제10조 별지1과 통합 국가보훈대상자 지원의 보훈예우수당 부분에 일치한다. 별도 참전·독립 수당으로 범위를 확대하지 않는다.",
+      "fullBodyReviewed": true,
+      "reviewedProgramPairs": [
+        {
+          "programId": "g28155.gov24-349000000121",
+          "programName": "국가보훈대상자 지원",
+          "disposition": "approved",
+          "role": "application",
+          "use": "conditional",
+          "reason": "인천 중구 보훈예우수당·건강증진수당 선택, 본인계좌·유공증·공동이용 동의 전체를 읽었다. 제10조 별지1과 통합 국가보훈대상자 지원의 보훈예우수당 부분에 일치한다. 별도 참전·독립 수당으로 범위를 확대하지 않는다."
+        }
+      ],
+      "sourceEvidence": {
+        "lawId": "2114025",
+        "lawTitle": "인천광역시 중구 국가보훈대상자 예우 및 지원에 관한 조례",
+        "annexId": "22210695",
+        "flSeq": "167614021",
+        "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=167614021&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C1%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EB%B3%B4%ED%9B%88%EC%98%88%EC%9A%B0%EC%88%98%EB%8B%B9+%EB%B0%8F+%EA%B1%B4%EA%B0%95%EC%A6%9D%EC%A7%84%EC%88%98%EB%8B%B9+%EC%A7%80%EA%B8%89%EC%8B%A0%EC%B2%AD%EC%84%9C",
+        "publicLawUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=2114025",
+        "exactSourceBinding": true,
+        "lawTextRead": true,
+        "articleNumbers": [
+          "제10조"
+        ],
+        "articleTexts": [
+          "제10조(수당의 신청) 제9조에 따라 수당을 지급 받고자 하는 사람(이하 “수급권자”라 한다)은 별지 제1호서식의 보훈예우수당 및 건강증진수당 지급신청서를 구청장에게 제출해야 한다. <개정 2016.12.26.>"
+        ],
+        "originalBytes": 15872,
+        "bodyTextSha256": "4b066c1a70024474b93be4d873fbff151cd2d900cdc2db835ef6736469145ca1",
+        "textLength": 713,
+        "textScope": "all_body_sections_or_pages",
+        "sectionsRead": [
+          "BodyText/Section0"
+        ],
+        "currencyCheck": {
+          "state": "source_current",
+          "checkedAt": "2026-10-19",
+          "currentLawId": "2114025",
+          "effectiveDate": "20260304",
+          "annexBinding": "bound"
+        }
+      },
+      "checkedAt": "2026-10-19"
+    },
+    {
+      "formId": "ordin-22210697",
+      "sha256": "bff1188344c2470453f4cc8f6a9a245091653095195d6db752d3f586906ad5d7",
+      "disposition": "approved",
+      "reason": "인천 중구 국가유공자 사망위로금의 사망일·신청유족관계·계좌·증빙 전체를 읽었다. 제14조제3항 별지2 및 사업의 보훈대상자 사망위로금20만원에 일치하며 별도 참전30만원과 구분한다.",
+      "fullBodyReviewed": true,
+      "reviewedProgramPairs": [
+        {
+          "programId": "g28155.gov24-349000000121",
+          "programName": "국가보훈대상자 지원",
+          "disposition": "approved",
+          "role": "application",
+          "use": "conditional",
+          "reason": "인천 중구 국가유공자 사망위로금의 사망일·신청유족관계·계좌·증빙 전체를 읽었다. 제14조제3항 별지2 및 사업의 보훈대상자 사망위로금20만원에 일치하며 별도 참전30만원과 구분한다."
+        }
+      ],
+      "sourceEvidence": {
+        "lawId": "2114025",
+        "lawTitle": "인천광역시 중구 국가보훈대상자 예우 및 지원에 관한 조례",
+        "annexId": "22210697",
+        "flSeq": "167614023",
+        "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=167614023&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C2%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EA%B5%AD%EA%B0%80%EC%9C%A0%EA%B3%B5%EC%9E%90+%EC%82%AC%EB%A7%9D%EC%9C%84%EB%A1%9C%EA%B8%88+%EC%A7%80%EA%B8%89%EC%8B%A0%EC%B2%AD%EC%84%9C",
+        "publicLawUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=2114025",
+        "exactSourceBinding": true,
+        "lawTextRead": true,
+        "articleNumbers": [
+          "제14조"
+        ],
+        "articleTexts": [
+          "제14조(사망위로금 지급)① 구청장은 제3조에 해당하는 국가보훈대상자가 사망한 경우 예산의 범위에서 사망위로금(이하 “위로금”이라 한다)을 지급할 수 있다. 다만, 위로금 지급대상자는 사망일 현재 구에 주소를 두고 거주한 사람으로 하되, 「인천광역시 중구 참전유공자 지원에 관한 조례」에 따라 위로금을 지급 받는 경우에는 중복지원하지 않는다. <개정 2016.12.26., 2018. 4. 13., 2020. 3. 16., 2023.5.22.>② 위로금은 20만원으로 하며, 신청일부터 30일 이내에 신청자의 예금계좌로 입금한다.③ 유가족 또는 관계인은 별지 제2호서식의 국가유공자 사망위로금 지급신청서를 사망일부터 1년 이내에 구청장에게 제출해야 한다. <단서삭제 2016.12.26.>④ 위로금의 지급 순위는 「국가유공자 등 예우 및 지원에 관한 법률 」 제5조제1항의 각 호의 순위로 한다.<개정 2023.5.22.>"
+        ],
+        "originalBytes": 16896,
+        "bodyTextSha256": "55086098ee2bd962bda0f584d9c9ebad5a6faf47f0651db88ca27086104ffb62",
+        "textLength": 823,
+        "textScope": "all_body_sections_or_pages",
+        "sectionsRead": [
+          "BodyText/Section0"
+        ],
+        "currencyCheck": {
+          "state": "source_current",
+          "checkedAt": "2026-10-19",
+          "currentLawId": "2114025",
+          "effectiveDate": "20260304",
+          "annexBinding": "bound"
+        }
+      },
+      "checkedAt": "2026-10-19"
+    },
+    {
+      "formId": "ordin-21629317",
+      "sha256": "5166e1604d4c51d8528a4a075108ba142816212805502bdc83635a490d98182b",
+      "disposition": "approved",
+      "reason": "속초 통합 출산신청 앞뒤 전체를 읽고 자체 출산장려금·축하물품 체크항목, 신청인·배송지·계좌·동의를 확인했다. 제5조 별지1과 해당 통합사업이 일치한다. 원본의 전국 공통·산모건강관리 칸은 이 연결의 승인범위가 아니다.",
+      "fullBodyReviewed": true,
+      "reviewedProgramPairs": [
+        {
+          "programId": "g51210.gov24-423000000481",
+          "programName": "속초시 출산장려금 및 출산축하물품 지원",
+          "disposition": "approved",
+          "role": "application",
+          "use": "main",
+          "reason": "속초 통합 출산신청 앞뒤 전체를 읽고 자체 출산장려금·축하물품 체크항목, 신청인·배송지·계좌·동의를 확인했다. 제5조 별지1과 해당 통합사업이 일치한다. 원본의 전국 공통·산모건강관리 칸은 이 연결의 승인범위가 아니다."
+        }
+      ],
+      "sourceEvidence": {
+        "lawId": "2114109",
+        "lawTitle": "속초시 출산장려 지원에 관한 조례",
+        "annexId": "21629317",
+        "flSeq": "162113621",
+        "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=162113621&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C1%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EC%B6%9C%EC%82%B0%EC%84%9C%EB%B9%84%EC%8A%A4+%ED%86%B5%ED%95%A9%EC%B2%98%EB%A6%AC+%EC%8B%A0%EC%B2%AD%EC%84%9C",
+        "publicLawUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=2114109",
+        "exactSourceBinding": true,
+        "lawTextRead": true,
+        "articleNumbers": [
+          "제5조"
+        ],
+        "articleTexts": [
+          "제5조(지원신청 등)① 출산장려금 등을 신청할 수 있는 사람(이하 “신청인”이라 한다)은 다음 각 호의 어느 하나에 해당하는 사람으로 한다.1. 제3조제1호에 따른 출생아의 부 또는 모2. 제3조제2호에 따른 주민등록을 두고 출생아와 함께 거주하며 사실상 양육하는 사람② 동장은 출생신고서를 접수한 때에는 출산장려금 등 지원대상 여부를 확인하여 출산장려금 등을 지원받을 수 있도록 안내하여야 한다.③ 출산장려금 등을 지원받고자 하는 신청인은 출생아 출생신고를 한 날부터 6개월 이내에 별지 제1호서식의 출산서비스 통합처리신청서(이하 “신청서”라 한다) 및 구비서류를 제출하여야 한다. 다만, 시에 주민등록을 두고 출생아와 함께 거주한 기간이 6개월 미만인 사람은 그 기간이 6개월이 되는 날부터 6개월 이내에 신청서를 제출하여야 한다.④ 제3조제2호에 따른 신청인의 경우에는 가족관계증명서 등 지원대상 여부 확인을 위한 증명서를 따로 제출하여야 한다."
+        ],
+        "originalBytes": 104448,
+        "bodyTextSha256": "43a600380a215e907f73ac636688407ec0888e1e1f78189bcf0ab39514f14fba",
+        "textLength": 5778,
+        "textScope": "all_body_sections_or_pages",
+        "sectionsRead": [
+          "BodyText/Section0"
+        ],
+        "currencyCheck": {
+          "state": "source_current",
+          "checkedAt": "2026-10-19",
+          "currentLawId": "2114109",
+          "effectiveDate": "20260304",
+          "annexBinding": "bound"
+        }
+      },
+      "checkedAt": "2026-10-19"
+    },
+    {
+      "formId": "ordin-22259771",
+      "sha256": "49c72133a2935c9b223056c0913211576b5663563bf0b7fbc973d73addd349d4",
+      "disposition": "approved",
+      "reason": "무주 보훈등록번호·거주주소·계좌 및 유공자·유족증빙의 보훈수당 신청서를 확인했다. 제4조제1항 별지1로 통합사업의 월 보훈수당 신청에 해당하며 사망위로금 별지2로 전용하지 않는다.",
+      "fullBodyReviewed": true,
+      "reviewedProgramPairs": [
+        {
+          "programId": "g52730.gov24-474000000107",
+          "programName": "국가보훈대상자 보훈수당",
+          "disposition": "approved",
+          "role": "application",
+          "use": "conditional",
+          "reason": "무주 보훈등록번호·거주주소·계좌 및 유공자·유족증빙의 보훈수당 신청서를 확인했다. 제4조제1항 별지1로 통합사업의 월 보훈수당 신청에 해당하며 사망위로금 별지2로 전용하지 않는다."
+        },
+        {
+          "programId": "g52730.gov24-474100000032",
+          "programName": "국가보훈대상자 사망위로금 지원",
+          "disposition": "not_applicable",
+          "reason": "원본 신청 주체·목적과 이 사업의 지원 범위를 대조했으며 이 연결은 승인하지 않음."
+        }
+      ],
+      "sourceEvidence": {
+        "lawId": "2114127",
+        "lawTitle": "무주군 국가보훈대상자 보훈수당 지급 조례",
+        "annexId": "22259771",
+        "flSeq": "167699989",
+        "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=167699989&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C1%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EB%B3%B4%ED%9B%88%EC%88%98%EB%8B%B9%EC%A7%80%EA%B8%89%EC%8B%A0%EC%B2%AD%EC%84%9C",
+        "publicLawUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=2114127",
+        "exactSourceBinding": true,
+        "lawTextRead": true,
+        "articleNumbers": [
+          "제4조"
+        ],
+        "articleTexts": [
+          "제4조(지급신청)① 제3조에 따른 수당을 지급받으려는 사람은 별지 제1호서식에 따른 보훈수당 지급신청서를 무주군수(이하 \"군수\"라 한다)에게 제출하여야 한다. <개정 2022.3.2.>② 수당 지급신청은 1회로 한다.③ 제3조제4항에 따른 사망위로금을 지급받으려는 사람은 사망일로부터 12개월 이내에 별지 제2호서식에 따른 사망위로금 지원신청서를 군수에게 제출하여야 한다. <신설 2018.3.2., 개정 2021.7.12.>④ 사망위로금 지급대상의 순위에 관하여는 「국가유공자 등 예우 및 지원에 관한 법률」 제13조를 준용하되, 해당 규정에 따른 지급대상 유족이 없을 때에는 다음 각 호에 해당하는 사람에게 지급할 수 있다.<신설 2018.3.2.>1. 사망 당시 생활을 같이 하고 있던 친족 중 「민법」 상 상속 선순위자2. 제1호에 따른 상속인이 없는 경우에는 장제를 행한 사람"
+        ],
+        "originalBytes": 12288,
+        "bodyTextSha256": "2a8e62cc577f8920514e20189146a33b00a5fc62bc58341b103afa61b0bce1cd",
+        "textLength": 414,
+        "textScope": "all_body_sections_or_pages",
+        "sectionsRead": [
+          "BodyText/Section0"
+        ],
+        "currencyCheck": {
+          "state": "source_current",
+          "checkedAt": "2026-10-19",
+          "currentLawId": "2114127",
+          "effectiveDate": "20260304",
+          "annexBinding": "bound"
+        }
+      },
+      "checkedAt": "2026-10-19"
+    },
+    {
+      "formId": "ordin-21652621",
+      "sha256": "7cb33045d21303627b2154ec291a97ec45410dff9fa89cfca689f1fce11e984f",
+      "disposition": "approved",
+      "reason": "거제 아동 문화관광 카드 신규·분실·훼손 재발급, 아동·보호자 정보와 개인정보 동의·사용안내까지 전체 확인했다. 제27조 보호자 또는 조문상 대리인 발급 신청과 연5만원 체험카드 사업이 일치한다.",
+      "fullBodyReviewed": true,
+      "reviewedProgramPairs": [
+        {
+          "programId": "g48310.bokjiro-WLF00006385",
+          "programName": "거제 아동 문화·관광 체험카드 지원 사업",
+          "disposition": "approved",
+          "role": "application",
+          "use": "main",
+          "reason": "거제 아동 문화관광 카드 신규·분실·훼손 재발급, 아동·보호자 정보와 개인정보 동의·사용안내까지 전체 확인했다. 제27조 보호자 또는 조문상 대리인 발급 신청과 연5만원 체험카드 사업이 일치한다."
+        }
+      ],
+      "sourceEvidence": {
+        "lawId": "2115131",
+        "lawTitle": "거제시 아동복지 증진에 관한 조례",
+        "annexId": "21652621",
+        "flSeq": "162339905",
+        "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=162339905&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C1%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EA%B1%B0%EC%A0%9C+%EC%95%84%EB%8F%99+%EB%AC%B8%ED%99%94%C2%B7%EA%B4%80%EA%B4%91+%EC%B2%B4%ED%97%98%EC%B9%B4%EB%93%9C+%28%EC%9E%AC%29%EB%B0%9C%EA%B8%89+%EC%8B%A0%EC%B2%AD%EC%84%9C",
+        "publicLawUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=2115131",
+        "exactSourceBinding": true,
+        "lawTextRead": true,
+        "articleNumbers": [
+          "제27조"
+        ],
+        "articleTexts": [
+          "제27조(카드발급 신청)① 카드발급 신청은 지원대상인 아동의 친권자ㆍ후견인 또는 그 밖의 사람으로서 아동을 사실상 보호·양육하고 있는 사람(이하 “보호자”라 한다)과 보호자의 대리인이 할 수 있다.② 제1항에 따른 보호자의 대리인의 범위는 다음과 같다.1. 「민법」 제777조에 따른 친족2. 「사회복지사업법」에 따른 사회복지 전담공무원 등 관계 공무원3. 사회복지시설장이 보호자인 경우 해당 시설 종사자③ 제1항에 따라 카드발급을 신청하고자 하는 사람은 별지 제1호서식 및 별지 제2호서식에 따른 신청서와 위임장을 시장에게 제출하여야 한다.④ 시장은 제3항에 따라 신청서가 접수되면 지원대상 여부를 확인하고 카드를 발급하여야 한다."
+        ],
+        "originalBytes": 17920,
+        "bodyTextSha256": "cc0eb277539d7bcf7c0f0b629e66985863a07f00dd37d4085c97277ca474e253",
+        "textLength": 1585,
+        "textScope": "all_body_sections_or_pages",
+        "sectionsRead": [
+          "BodyText/Section0"
+        ],
+        "currencyCheck": {
+          "state": "source_current",
+          "checkedAt": "2026-10-19",
+          "currentLawId": "2115131",
+          "effectiveDate": "20260312",
+          "annexBinding": "bound"
+        }
+      },
+      "checkedAt": "2026-10-19"
+    },
+    {
+      "formId": "ordin-21652623",
+      "sha256": "4b0126b40bf166b7ae67d33710a0a734dc9c8c21bc2a6ae7aee078ee61458dcf",
+      "disposition": "approved",
+      "reason": "거제 체험카드 (재)발급 위임장에는 위임·수임자 및 관계·서명이 있고 제27조에서 신청서와 위임장을 요구한다. 보호자가 조문상 대리인에게 발급 신청을 맡길 때만 사용한다.",
+      "fullBodyReviewed": true,
+      "reviewedProgramPairs": [
+        {
+          "programId": "g48310.bokjiro-WLF00006385",
+          "programName": "거제 아동 문화·관광 체험카드 지원 사업",
+          "disposition": "approved",
+          "role": "delegation",
+          "use": "conditional",
+          "reason": "거제 체험카드 (재)발급 위임장에는 위임·수임자 및 관계·서명이 있고 제27조에서 신청서와 위임장을 요구한다. 보호자가 조문상 대리인에게 발급 신청을 맡길 때만 사용한다."
+        }
+      ],
+      "sourceEvidence": {
+        "lawId": "2115131",
+        "lawTitle": "거제시 아동복지 증진에 관한 조례",
+        "annexId": "21652623",
+        "flSeq": "162339907",
+        "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=162339907&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C2%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EA%B1%B0%EC%A0%9C+%EC%95%84%EB%8F%99+%EB%AC%B8%ED%99%94+%EA%B4%80%EA%B4%91+%EC%B2%B4%ED%97%98%EC%B9%B4%EB%93%9C+%28%EC%9E%AC%29%EB%B0%9C%EA%B8%89+%EC%9C%84%EC%9E%84%EC%9E%A5",
+        "publicLawUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=2115131",
+        "exactSourceBinding": true,
+        "lawTextRead": true,
+        "articleNumbers": [
+          "제27조"
+        ],
+        "articleTexts": [
+          "제27조(카드발급 신청)① 카드발급 신청은 지원대상인 아동의 친권자ㆍ후견인 또는 그 밖의 사람으로서 아동을 사실상 보호·양육하고 있는 사람(이하 “보호자”라 한다)과 보호자의 대리인이 할 수 있다.② 제1항에 따른 보호자의 대리인의 범위는 다음과 같다.1. 「민법」 제777조에 따른 친족2. 「사회복지사업법」에 따른 사회복지 전담공무원 등 관계 공무원3. 사회복지시설장이 보호자인 경우 해당 시설 종사자③ 제1항에 따라 카드발급을 신청하고자 하는 사람은 별지 제1호서식 및 별지 제2호서식에 따른 신청서와 위임장을 시장에게 제출하여야 한다.④ 시장은 제3항에 따라 신청서가 접수되면 지원대상 여부를 확인하고 카드를 발급하여야 한다."
+        ],
+        "originalBytes": 41190,
+        "bodyTextSha256": "9403b60935d2ec82bb24de8742fd741ae11ad6f8f5fdbb36c10cd522c9ca99f7",
+        "textLength": 319,
+        "textScope": "all_body_sections_or_pages",
+        "sectionsRead": [
+          "Contents/section0.xml"
+        ],
+        "currencyCheck": {
+          "state": "source_current",
+          "checkedAt": "2026-10-19",
+          "currentLawId": "2115131",
+          "effectiveDate": "20260312",
+          "annexBinding": "bound"
+        }
+      },
+      "checkedAt": "2026-10-19"
+    },
+    {
+      "formId": "ordin-21652625",
+      "sha256": "f6312bd07519cb702bafac750e979c0b17c5be1d45c0cd7f0e7dcbed63f5b382",
+      "disposition": "non_applicant",
+      "reason": "체험시설 사업자가 매출대금 계좌·단말기·사업자등록으로 카드 가맹점을 등록하는 별지3이다. 아동에게 연5만원 바우처카드를 발급하는 수혜 신청과 다르다.",
+      "fullBodyReviewed": true,
+      "reviewedProgramPairs": [
+        {
+          "programId": "g48310.bokjiro-WLF00006385",
+          "programName": "거제 아동 문화·관광 체험카드 지원 사업",
+          "disposition": "not_applicable",
+          "reason": "원본 신청 주체·목적과 이 사업의 지원 범위를 대조했으며 이 연결은 승인하지 않음."
+        }
+      ],
+      "sourceEvidence": {
+        "lawId": "2115131",
+        "lawTitle": "거제시 아동복지 증진에 관한 조례",
+        "annexId": "21652625",
+        "flSeq": "162339909",
+        "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=162339909&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C3%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EA%B1%B0%EC%A0%9C+%EC%95%84%EB%8F%99+%EB%AC%B8%ED%99%94%EA%B4%80%EA%B4%91+%EC%B2%B4%ED%97%98%EC%B9%B4%EB%93%9C+%EA%B0%80%EB%A7%B9%EC%A0%90+%EB%93%B1%EB%A1%9D+%EC%8B%A0%EC%B2%AD%EC%84%9C",
+        "publicLawUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=2115131",
+        "exactSourceBinding": true,
+        "lawTextRead": true,
+        "articleNumbers": [
+          "제29조"
+        ],
+        "articleTexts": [
+          "제29조(가맹점 등록 및 취소)① 가맹점으로 등록하려는 자는 별지 제3호서식에 따른 가맹점 등록 신청서를 시장에게 제출하여야 하며, 등록사항을 변경(해지)하고자 할 경우에도 별지 제4호서식에 따른 변경(해지)신청서를 제출하여야 한다.② 시장은 제1항에 따라 신청서를 접수한 경우에는 적합여부를 심사하여 그 결과를 통지하여야 한다.③ 시장은 가맹점이 거짓이나 그 밖의 위법·부당한 방법으로 가맹점을 등록하였거나 카드를 결제한 경우 가맹점 등록을 취소할 수 있다."
+        ],
+        "originalBytes": 56280,
+        "bodyTextSha256": "0898e669fab27387d1e73f1081fc69d6490be253d0cd458158292c4a23e1980c",
+        "textLength": 710,
+        "textScope": "all_body_sections_or_pages",
+        "sectionsRead": [
+          "Contents/section0.xml"
+        ],
+        "currencyCheck": {
+          "state": "source_current",
+          "checkedAt": "2026-10-19",
+          "currentLawId": "2115131",
+          "effectiveDate": "20260312",
+          "annexBinding": "bound"
+        }
+      },
+      "checkedAt": "2026-10-19"
+    },
+    {
+      "formId": "ordin-21652627",
+      "sha256": "7830e0cb00476bb238e5c19ed29860523c11308e25ca1485f304aab46efaab62",
+      "disposition": "non_applicant",
+      "reason": "기존 가맹점 사업자의 등록사항 변경·해지 원본이다. 제29조 가맹점 운영 절차로 아동·보호자의 체험카드 발급 신청이 아니다.",
+      "fullBodyReviewed": true,
+      "reviewedProgramPairs": [
+        {
+          "programId": "g48310.bokjiro-WLF00006385",
+          "programName": "거제 아동 문화·관광 체험카드 지원 사업",
+          "disposition": "not_applicable",
+          "reason": "원본 신청 주체·목적과 이 사업의 지원 범위를 대조했으며 이 연결은 승인하지 않음."
+        }
+      ],
+      "sourceEvidence": {
+        "lawId": "2115131",
+        "lawTitle": "거제시 아동복지 증진에 관한 조례",
+        "annexId": "21652627",
+        "flSeq": "162339911",
+        "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=162339911&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C4%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EA%B1%B0%EC%A0%9C+%EC%95%84%EB%8F%99+%EB%AC%B8%ED%99%94%EA%B4%80%EA%B4%91+%EC%B2%B4%ED%97%98%EC%B9%B4%EB%93%9C+%EA%B0%80%EB%A7%B9%EC%A0%90+%EB%93%B1%EB%A1%9D+%EB%B3%80%EA%B2%BD%28%ED%95%B4%EC%A7%80%29+%EC%8B%A0%EC%B2%AD%EC%84%9C",
+        "publicLawUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=2115131",
+        "exactSourceBinding": true,
+        "lawTextRead": true,
+        "articleNumbers": [
+          "제29조"
+        ],
+        "articleTexts": [
+          "제29조(가맹점 등록 및 취소)① 가맹점으로 등록하려는 자는 별지 제3호서식에 따른 가맹점 등록 신청서를 시장에게 제출하여야 하며, 등록사항을 변경(해지)하고자 할 경우에도 별지 제4호서식에 따른 변경(해지)신청서를 제출하여야 한다.② 시장은 제1항에 따라 신청서를 접수한 경우에는 적합여부를 심사하여 그 결과를 통지하여야 한다.③ 시장은 가맹점이 거짓이나 그 밖의 위법·부당한 방법으로 가맹점을 등록하였거나 카드를 결제한 경우 가맹점 등록을 취소할 수 있다."
+        ],
+        "originalBytes": 45672,
+        "bodyTextSha256": "c8a51281049f3db1c6c31dc6310eadc5cd1666bd73e9c6d64653f6df4a990779",
+        "textLength": 443,
+        "textScope": "all_body_sections_or_pages",
+        "sectionsRead": [
+          "Contents/section0.xml"
+        ],
+        "currencyCheck": {
+          "state": "source_current",
+          "checkedAt": "2026-10-19",
+          "currentLawId": "2115131",
+          "effectiveDate": "20260312",
+          "annexBinding": "bound"
+        }
+      },
+      "checkedAt": "2026-10-19"
+    },
+    {
+      "formId": "ordin-21652855",
+      "sha256": "2456f40d66eb676554aa949736c98bea5de629fe9f9852d9b329b0c6bb880c4b",
+      "disposition": "approved",
+      "reason": "수술 대상자·병원·수술일·급여비용·무릎부위·계좌·수술 및 비용증빙을 확인했다. 제7조 지원결정 후 수술을 마친 사람이 청구하는 별지3과 사업 apply 4~5단계가 정확히 일치한다.",
+      "fullBodyReviewed": true,
+      "reviewedProgramPairs": [
+        {
+          "programId": "g48860.bokjiro-WLF00006435",
+          "programName": "노인 무릎 인공관절 수술비 등 지원 사업",
+          "disposition": "approved",
+          "role": "application",
+          "use": "conditional",
+          "reason": "수술 대상자·병원·수술일·급여비용·무릎부위·계좌·수술 및 비용증빙을 확인했다. 제7조 지원결정 후 수술을 마친 사람이 청구하는 별지3과 사업 apply 4~5단계가 정확히 일치한다."
+        }
+      ],
+      "sourceEvidence": {
+        "lawId": "2115213",
+        "lawTitle": "산청군 노인 무릎 인공관절 수술비 등 지원에 관한 조례",
+        "annexId": "21652855",
+        "flSeq": "162340129",
+        "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=162340129&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C3%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EB%85%B8%EC%9D%B8+%EB%AC%B4%EB%A6%8E+%EC%9D%B8%EA%B3%B5%EA%B4%80%EC%A0%88+%EC%88%98%EC%88%A0%EB%B9%84+%EB%93%B1+%EC%A7%80%EC%9B%90+%EC%B2%AD%EA%B5%AC%EC%84%9C",
+        "publicLawUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=2115213",
+        "exactSourceBinding": true,
+        "lawTextRead": true,
+        "articleNumbers": [
+          "제7조"
+        ],
+        "articleTexts": [
+          "제7조(수술비 등 지급)① 제6조제2항에 따라 지원 결정 통보를 받은 사람은 무릎 인공관절 수술이 완료된 후 별지 제3호서식의 청구서와 증빙서류를 첨부하여 군수에게 수술비 등을 청구하여야 한다.② 군수는 제1항에 따른 청구내용을 확인한 후 청구서 신청일로부터 30일 이내에 지원액을 청구자에게 지급하여야 한다."
+        ],
+        "originalBytes": 40960,
+        "bodyTextSha256": "e6ad70b51e4d2445c5c4c46c7f3880fdad18771ed58eb084dd6ffaedfa68c379",
+        "textLength": 415,
+        "textScope": "all_body_sections_or_pages",
+        "sectionsRead": [
+          "BodyText/Section0"
+        ],
+        "currencyCheck": {
+          "state": "source_current",
+          "checkedAt": "2026-10-19",
+          "currentLawId": "2115213",
+          "effectiveDate": "20260312",
+          "annexBinding": "bound"
+        }
+      },
+      "checkedAt": "2026-10-19"
+    }
+  ]
+}

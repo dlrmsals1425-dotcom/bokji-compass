@@ -1,0 +1,2157 @@
+{
+  "schema": 1,
+  "batchId": "batch-016",
+  "checkedAt": "2026-10-18",
+  "rows": [
+    {
+      "sourceKind": "ordin",
+      "lawTitle": "충주시 아동 예체능 문화바우처 지원 조례",
+      "lawId": "1789997",
+      "annexId": "19211421",
+      "annexNumber": "000100",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=148243875&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C1%ED%98%B8%EC%84%9C%EC%8B%9D%5D~%5B%EB%B3%84%EC%A7%80+%EC%A0%9C3%ED%98%B8%EC%84%9C%EC%8B%9D%5D",
+      "officialPdfUrl": null,
+      "dateKind": "effective",
+      "effectiveDate": "2023-03-10",
+      "regionCode": "43130",
+      "regionLabel": "충청북도 충주시",
+      "formId": "ordin-19211421",
+      "formTitle": "[별지 제1호서식]~[별지 제3호서식]",
+      "sourceMetadataTitle": "[별지 제1호서식]~[별지 제3호서식]",
+      "verifiedDocumentTitle": "아동 예체능 문화바우처 신청서·위임장 포함 통합 서식",
+      "programIds": [
+        "g43130.bokjiro-WLF00005183"
+      ],
+      "programNames": [
+        "충주시 아동 예체능 문화바우처 지원"
+      ],
+      "use": "main",
+      "role": "application",
+      "checkedAt": "2026-10-18",
+      "evidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1789997",
+      "evidenceNote": "조례 제5조는 아동 문화바우처를 별지 제1호로 신청하고 대리 신청 시 제2호 위임장을 제출하도록 한다. 통합 원본 세 서식 전체를 읽어 제1호 지급·카드발급·동의 및 제2호 위임이 아동 신청용이고 제3호는 가맹점 지정용임을 확인했다. 사업의 충주 초3~6 아동·월 바우처·주소지 읍면동 신청과 일치하여 제1·2호만 연결한다.",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "sha256": "0d764cbb44a6cbb87ac44a225fcc13fca723f3c4d70ca1831686a8dcb08a0403",
+      "bytes": 108544,
+      "signature": "d0cf11e0a1b11ae1",
+      "originalFormat": "hwp",
+      "originalTextScope": "all_body_sections_or_pages",
+      "textScope": "all_body_sections_or_pages",
+      "inspectionScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "BodyText/Section0"
+      ],
+      "reviewedBy": "codex-national_form_audit",
+      "reviewedAt": "2026-10-18",
+      "roleBasis": "조례 제5조는 아동 문화바우처를 별지 제1호로 신청하고 대리 신청 시 제2호 위임장을 제출하도록 한다. 통합 원본 세 서식 전체를 읽어 제1호 지급·카드발급·동의 및 제2호 위임이 아동 신청용이고 제3호는 가맹점 지정용임을 확인했다. 사업의 충주 초3~6 아동·월 바우처·주소지 읍면동 신청과 일치하여 제1·2호만 연결한다.",
+      "roleEvidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1789997",
+      "roleCheckedAt": "2026-10-18",
+      "reviewedParts": [
+        {
+          "number": "1",
+          "title": "아동 예체능 문화바우처 지급 및 카드발급 신청서·동의서",
+          "use": "main",
+          "author": "대상 아동·보호자 또는 대리신청인"
+        },
+        {
+          "number": "2",
+          "title": "바우처 발급 위임장",
+          "use": "conditional",
+          "author": "보호자 또는 시설대표자"
+        },
+        {
+          "number": "3",
+          "title": "가맹점 지정 신청서 및 동의",
+          "use": "excluded",
+          "author": "가맹점 등록 사업자"
+        }
+      ],
+      "bodyEvidenceArticles": [
+        "제3조(지원대상) 시장은 충주시에 주민등록을 둔 사업 당해연도 초등학교 3학년부터 6학년 재학생(학교 밖 아동은 학년 연령에 준함)에게 바우처를 지원할 수 있다. 다만, 바우처의 지원 학년은 해당 학년이 도래하는 연도의 1월 1일을 기준으로 한다.",
+        "제5조(지원신청)① 바우처를 지원받고자 하는 아동, 보호자 또는 대리인은 별지 제1호서식의 신청서 및 다음 각 호의 서류를 첨부하여 지원대상인 아동의 주소지 관할 읍ㆍ면ㆍ동장에게 제출하여야 한다.1. 주민등록등본 1부(「전자정부법」 제36조제1항에 따른 행정정보공동이용 동의 시 생략)2. 청소년증 등 지원대상임을 확인할 수 있는 신분증3. 보호자 신청 시 신분증 및 관계 확인 증명서류4. 대리신청인 신분증 및 관계 확인 증빙서류5. 대리신청일 경우 법정대리인 또는 시설대표자의 별지 제2호서식에 따른 위임장② 바우처 신청대상자는 해당 학년이 도래하는 연도 1월부터 신청할 수 있다.",
+        "제11조(가맹점 지정 및 관리)① 가맹점으로 지정받고자 하는 자는 업소의 소재지, 업종 등의 정보를 포함한 별지 제3호서식의 가맹점 지정 신청서를 작성하여 시장에게 제출하여야 하고, 지정한 사항을 변경하고자 할 때에도 또한 같다.② 시장은 제1항에 따라 가맹점으로 지정받고자 하는 자가 다음 각 호의 어느 하나에 해당하는 업종 또는 사업장을 운영하는 경우에는 지정을 거부할 수 있다.1. 「유통산업발전법」 제2조제4호의 준대규모 점포2. 「청소년 보호법」 제2조제5호가목의 청소년 출입ㆍ고용금지업소3. 「학원의 설립ㆍ운영 및 과외교습에 관한 법률」 제2조제1호부터 제3호까지의 학원, 교습소, 개인과외교습자4. 그 밖에 시장이 지원된 바우처의 사용이 적합하지 않다고 인정하는 업종 또는 사업장"
+      ],
+      "independentBodyReview": true,
+      "condition": "아동 바우처 신청은 별지 제1호와 동의 부분, 대리신청은 제2호 위임장을 사용합니다. 제3호 가맹점 지정 신청서는 사업자용입니다.",
+      "displayTitle": "아동 예체능 문화바우처 신청서·위임장 포함 통합 서식"
+    },
+    {
+      "sourceKind": "ordin",
+      "lawTitle": "통영시 산모건강관리비 및 산후조리원 이용료 지원 조례",
+      "lawId": "1790589",
+      "annexId": "20176103",
+      "annexNumber": "000100",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=152738375&flNm=%EB%B3%84%EC%A7%80+%EC%A0%9C1%ED%98%B8%EC%84%9C%EC%8B%9D%28%EC%82%B0%EB%AA%A8%EA%B1%B4%EA%B0%95%EA%B4%80%EB%A6%AC%EB%B9%84+%EC%A7%80%EC%9B%90+%EC%8B%A0%EC%B2%AD%EC%84%9C%29",
+      "officialPdfUrl": null,
+      "dateKind": "effective",
+      "effectiveDate": "2023-03-15",
+      "regionCode": "48220",
+      "regionLabel": "경상남도 통영시",
+      "formId": "ordin-20176103",
+      "formTitle": "별지 제1호서식(산모건강관리비 지원 신청서)",
+      "sourceMetadataTitle": "별지 제1호서식(산모건강관리비 지원 신청서)",
+      "verifiedDocumentTitle": "별지 제1호서식(산모건강관리비 지원 신청서)",
+      "programIds": [
+        "g48220.bokjiro-WLF00005194"
+      ],
+      "programNames": [
+        "통영시 산모건강관리비 지원사업"
+      ],
+      "use": "main",
+      "role": "application",
+      "checkedAt": "2026-10-18",
+      "evidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1790589",
+      "evidenceNote": "조례 제4조는 산모건강관리비를 별지 제1호로 신청하도록 한다. 원본은 산모·신생아·모바일 통영사랑상품권 지급정보·출생증명서·동의를 포함하며, 복지로 사업의 산모건강관리비 50만원 상품권과 일치한다. 산후조리원 이용료는 별지 제3호를 쓰는 다른 지원으로 제외한다. 사업 laws의 지원사업 조례 표기는 실제 원본의 정확 조례명 및 목적·대상·지급수단으로 교차 확인했다.",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "sha256": "3c08417471a4317fb87c1d81df1075be3d52b8b2e59a9c5ff04313f70cb571df",
+      "bytes": 73728,
+      "signature": "d0cf11e0a1b11ae1",
+      "originalFormat": "hwp",
+      "originalTextScope": "all_body_sections_or_pages",
+      "textScope": "all_body_sections_or_pages",
+      "inspectionScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "BodyText/Section0"
+      ],
+      "reviewedBy": "codex-national_form_audit",
+      "reviewedAt": "2026-10-18",
+      "roleBasis": "조례 제4조는 산모건강관리비를 별지 제1호로 신청하도록 한다. 원본은 산모·신생아·모바일 통영사랑상품권 지급정보·출생증명서·동의를 포함하며, 복지로 사업의 산모건강관리비 50만원 상품권과 일치한다. 산후조리원 이용료는 별지 제3호를 쓰는 다른 지원으로 제외한다. 사업 laws의 지원사업 조례 표기는 실제 원본의 정확 조례명 및 목적·대상·지급수단으로 교차 확인했다.",
+      "roleEvidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1790589",
+      "roleCheckedAt": "2026-10-18",
+      "reviewedParts": [
+        {
+          "number": "1",
+          "title": "별지 제1호서식(산모건강관리비 지원 신청서)",
+          "use": "main",
+          "author": "산모·배우자 또는 조례상 예외 대리신청인"
+        }
+      ],
+      "bodyEvidenceArticles": [
+        "제3조(산모건강관리비의 지원)① 시장은 통영시(이하 “시”라 한다)에 거주하며 다음 각 호의 어느 하나에 해당하는 산모에게 산모건강관리비를 지원할 수 있다.1. 신청일 현재 10개월 이상 시에 주민등록을 하고 거주하고 있는 경우2. 신청일 현재 전입일 이전 1년 이내에 시에 주민등록을 하고 거주한 기간과 전입일 이후 시에 주민등록을 하고 거주한 기간이 합산하여 10개월 이상인 경우3. 신청일 현재 「재한외국인 처우 기본법」 제2조제3호에 따른 결혼이민자로서 대한민국 국민과 혼인관계에 있으면서 시에 10개월 이상 계속하여 체류하고 있는 경우② 산모건강관리비는 산모 1인당 50만원에 해당하는 「통영사랑상품권 관리 및 운영 조례」에 따른 통영사랑상품권으로 지급하는 것을 원칙으로 한다. 다만, 시장이 특별히 필요하다고 인정하는 경우에는 현금으로 지급할 수 있다.③ 제1항부터 제2항까지에서 규정한 사항 외에 산모건강관리비의 지원에 필요한 사항은 별도의 지침으로 정할 수 있다.",
+        "제4조(산모건강관리비의 지원 신청)① 산모건강관리비의 지원을 신청하려는 산모 또는 배우자(이하 “신청인”이라 한다)는 출산 후 60일 이내에 별지 제1호서식의 산모건강관리비 지원 신청서에 출생증명서를 첨부하여 시장에게 제출해야 한다.② 제1항에 따라 신청을 받은 담당 공무원은 「전자정부법」 제36조제1항에 따른 행정정보의 공동이용을 통해 주민등록표 등본·초본을 확인해야 한다. 다만, 신청인이 확인에 동의하지 않는 경우에는 직접 제출하도록 해야 한다.③ 시장은 제1항에 따라 신청을 받은 경우 별지 제2호서식의 산모건강관리비 지원 접수대장에 신청내역 등을 기재하고 관리해야 한다.④ 제1항에도 불구하고 신청인이 부득이한 사유로 직접 신청하지 못할 경우에는 신청인의 부모가 신청할 수 있다."
+      ],
+      "independentBodyReview": true,
+      "programEvidenceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00005194&wlfareInfoReldBztpCd=02",
+      "matchingBasis": "exact-local-service-purpose-target-and-procedure"
+    },
+    {
+      "sourceKind": "ordin",
+      "lawTitle": "통영시 산모건강관리비 및 산후조리원 이용료 지원 조례",
+      "lawId": "1790589",
+      "annexId": "20176109",
+      "annexNumber": "000400",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=152738381&flNm=%EB%B3%84%EC%A7%80+%EC%A0%9C4%ED%98%B8%EC%84%9C%EC%8B%9D%28%EC%82%B0%ED%9B%84%EC%A1%B0%EB%A6%AC%EC%9B%90+%EC%9D%B4%EC%9A%A9+%ED%99%95%EC%9D%B8%EC%84%9C%29",
+      "officialPdfUrl": null,
+      "dateKind": "effective",
+      "effectiveDate": "2023-03-15",
+      "regionCode": "48220",
+      "regionLabel": "경상남도 통영시",
+      "formId": "ordin-20176109",
+      "formTitle": "별지 제4호서식(산후조리원 이용 확인서)",
+      "sourceMetadataTitle": "별지 제4호서식(산후조리원 이용 확인서)",
+      "verifiedDocumentTitle": "별지 제4호서식(산후조리원 이용 확인서)",
+      "programIds": [
+        "g48220.gov24-533000000123"
+      ],
+      "programNames": [
+        "산후조리원 이용료 지원"
+      ],
+      "use": "additional",
+      "role": "supporting",
+      "checkedAt": "2026-10-18",
+      "evidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1790589",
+      "evidenceNote": "조례 제6조제1항제3호가 산후조리원 이용료 신청의 첨부서류로 별지 제4호를 지정하고 사업 documents도 이용확인서를 명시한다. 실제 원본은 이용기간·결제금액을 산후조리원 대표자가 확인하는 서류이다. 산모가 기관의 확인을 받아 준비하는 부속 증빙으로 연결한다.",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "sha256": "9d29b5dce76544f391d37ac961eb2d1ab50feb1fe470824d9934552361a8d641",
+      "bytes": 24576,
+      "signature": "d0cf11e0a1b11ae1",
+      "originalFormat": "hwp",
+      "originalTextScope": "all_body_sections_or_pages",
+      "textScope": "all_body_sections_or_pages",
+      "inspectionScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "BodyText/Section0"
+      ],
+      "reviewedBy": "codex-national_form_audit",
+      "reviewedAt": "2026-10-18",
+      "roleBasis": "조례 제6조제1항제3호가 산후조리원 이용료 신청의 첨부서류로 별지 제4호를 지정하고 사업 documents도 이용확인서를 명시한다. 실제 원본은 이용기간·결제금액을 산후조리원 대표자가 확인하는 서류이다. 산모가 기관의 확인을 받아 준비하는 부속 증빙으로 연결한다.",
+      "roleEvidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1790589",
+      "roleCheckedAt": "2026-10-18",
+      "reviewedParts": [
+        {
+          "number": "4",
+          "title": "별지 제4호서식(산후조리원 이용 확인서)",
+          "use": "additional",
+          "author": "이용한 산후조리원의 대표자"
+        }
+      ],
+      "bodyEvidenceArticles": [
+        "제6조(산후조리원 이용료의 지원 신청)① 산후조리원 이용료의 지원을 신청하려는 신청인은 산후조리원 퇴원 후 60일 이내에 별지 제3호서식의 산후조리원 이용료 지원 신청서에 다음 각 호의 서류를 첨부하여 시장에게 제출해야 한다.1. 출생증명서2. 산후조리원 이용료 지출 영수증3. 별지 제4호서식에 따른 산후조리원 이용확인서4. 산모 통장사본② 제1항에 따라 신청을 받은 담당 공무원은 「전자정부법」 제36조제1항에 따른 행정정보의 공동이용을 통해 주민등록표 등본·초본, 건강보험자격확인서 및 건강보험료 납부확인서를 확인해야 한다. 다만, 신청인이 확인에 동의하지 않는 경우에는 직접 제출하도록 해야 한다.③ 시장은 제1항에 따라 신청을 받은 경우 별지 제5호서식의 산후조리원 이용료 지원 접수대장에 신청내역 등을 기재하고 관리해야 한다.④ 제1항에도 불구하고 신청인이 부득이한 사유로 직접 신청하지 못할 경우에는 신청인의 부모가 신청할 수 있다."
+      ],
+      "independentBodyReview": true,
+      "condition": "산후조리원 이용료 지원 신청 시 이용기관 대표자의 확인을 받아 제출합니다. 주 신청서는 별지 제3호입니다."
+    },
+    {
+      "sourceKind": "ordin",
+      "lawTitle": "예천군 입학준비금 지원 조례",
+      "lawId": "1791573",
+      "annexId": "18097191",
+      "annexNumber": "000100",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=142453351&flNm=%5B%EB%B3%84%EC%A7%80+%EC%84%9C%EC%8B%9D%5D+%EC%9E%85%ED%95%99%EC%A4%80%EB%B9%84%EA%B8%88+%EC%A7%80%EC%9B%90%EC%8B%A0%EC%B2%AD%EC%84%9C",
+      "officialPdfUrl": null,
+      "dateKind": "effective",
+      "effectiveDate": "2023-03-20",
+      "regionCode": "47900",
+      "regionLabel": "경상북도 예천군",
+      "formId": "ordin-18097191",
+      "formTitle": "[별지 서식] 입학준비금 지원신청서",
+      "sourceMetadataTitle": "[별지 서식] 입학준비금 지원신청서",
+      "verifiedDocumentTitle": "[별지 서식] 입학준비금 지원신청서",
+      "programIds": [
+        "g47900.bokjiro-WLF00005137"
+      ],
+      "programNames": [
+        "예천군 입학준비금 지원"
+      ],
+      "use": "main",
+      "role": "application",
+      "checkedAt": "2026-10-18",
+      "evidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1791573",
+      "evidenceNote": "조례 제5조는 입학준비금 신청을 별지 서식으로 학교장 또는 읍면장에게 제출하도록 한다. 원본의 학생·부모보호자·계좌·중복수혜 및 동의와 사업의 예천 거주 신입생·학교 또는 주소지 접수 및 신청서 첨부가 일치한다. 사업 laws의 에천군 오자는 실제 관할·사업명·조례 첨부 및 대상절차로 교차 확인했다.",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "sha256": "caeec3d3ff8d7912457be902ddd94f2bfc0ced57fe002a24a9a169db1ec86dc3",
+      "bytes": 17408,
+      "signature": "d0cf11e0a1b11ae1",
+      "originalFormat": "hwp",
+      "originalTextScope": "all_body_sections_or_pages",
+      "textScope": "all_body_sections_or_pages",
+      "inspectionScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "BodyText/Section0"
+      ],
+      "reviewedBy": "codex-national_form_audit",
+      "reviewedAt": "2026-10-18",
+      "roleBasis": "조례 제5조는 입학준비금 신청을 별지 서식으로 학교장 또는 읍면장에게 제출하도록 한다. 원본의 학생·부모보호자·계좌·중복수혜 및 동의와 사업의 예천 거주 신입생·학교 또는 주소지 접수 및 신청서 첨부가 일치한다. 사업 laws의 에천군 오자는 실제 관할·사업명·조례 첨부 및 대상절차로 교차 확인했다.",
+      "roleEvidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1791573",
+      "roleCheckedAt": "2026-10-18",
+      "reviewedParts": [
+        {
+          "number": "별지 서식",
+          "title": "[별지 서식] 입학준비금 지원신청서",
+          "use": "main",
+          "author": "학생의 부모·보호자 또는 원본에 따른 학생 본인"
+        }
+      ],
+      "bodyEvidenceArticles": [
+        "제3조(지원 대상) 입학준비금의 지원대상은 예천군수(이하 “군수”라 한다)가 정한 기준일 현재 예천군에 주민등록(외국인 등록을 포함한다)이 되어 있는 사람으로서 제2조제1호에 따른 학교에 입학하는 학생으로 한다.",
+        "제5조(지원 절차)① 입학준비금을 지원받으려는 사람은 별지 서식의 입학준비금 지원신청서(이하 “신청서”라 한다)를 학교장 또는 주소지 읍ㆍ면장에게 제출하여야 한다.② 제1항에 따른 신청서를 접수한 학교장 또는 읍ㆍ면장은 신청서를 군수에게 제출하여야 한다.③ 군수는 제출된 신청서 등을 바탕으로 지원 대상자의 적격 여부를 결정하여 입학준비금을 신청인이 지정한 계좌 또는 지역상품권으로 지원한다."
+      ],
+      "independentBodyReview": true,
+      "programEvidenceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00005137&wlfareInfoReldBztpCd=02",
+      "matchingBasis": "exact-local-service-purpose-target-and-procedure",
+      "verifiedAnnexNumber": "번호 없음",
+      "annexNumberNote": "공식 annexNumber는 보존하되 원본 머리말은 번호 없는 별지 서식이므로 reviewedParts에 임의의 제1호 번호를 부여하지 않는다."
+    },
+    {
+      "sourceKind": "ordin",
+      "lawTitle": "구미시 근로취약계층 유급병가 지원에 관한 조례",
+      "lawId": "1797985",
+      "annexId": "22854283",
+      "annexNumber": "000100",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=170363883&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C1%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EA%B7%BC%EB%A1%9C%EC%B7%A8%EC%95%BD%EA%B3%84%EC%B8%B5+%EC%9C%A0%EA%B8%89%EB%B3%91%EA%B0%80+%EC%A7%80%EC%9B%90+%EC%8B%A0%EC%B2%AD%EC%84%9C",
+      "officialPdfUrl": null,
+      "dateKind": "effective",
+      "effectiveDate": "2023-04-05",
+      "regionCode": "47190",
+      "regionLabel": "경상북도 구미시",
+      "formId": "ordin-22854283",
+      "formTitle": "[별지 제1호서식] 근로취약계층 유급병가 지원 신청서",
+      "sourceMetadataTitle": "[별지 제1호서식] 근로취약계층 유급병가 지원 신청서",
+      "verifiedDocumentTitle": "[별지 제1호서식] 근로취약계층 유급병가 지원 신청서",
+      "programIds": [
+        "g47190.gov24-508000000690"
+      ],
+      "programNames": [
+        "구미시 근로취약계층 유급병가 지원"
+      ],
+      "use": "main",
+      "role": "application",
+      "checkedAt": "2026-10-18",
+      "evidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1797985",
+      "evidenceNote": "조례 제7조제3항제1호가 유급병가 별지 제1호를 지정하고 사업 documents가 같은 지원신청서를 직접 명시한다. 원본 앞뒤의 근로사업 구분·입원·본인상품권카드·동의·부정수급 확약 및 신청인 서명을 확인하여 구미시 근로취약계층 유급병가 목적과 연결했다.",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "sha256": "e5888e222e34f8a99c95186120d89f8a3713b1eae34ba8cb2fe84a53735e400f",
+      "bytes": 20992,
+      "signature": "d0cf11e0a1b11ae1",
+      "originalFormat": "hwp",
+      "originalTextScope": "all_body_sections_or_pages",
+      "textScope": "all_body_sections_or_pages",
+      "inspectionScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "BodyText/Section0"
+      ],
+      "reviewedBy": "codex-national_form_audit",
+      "reviewedAt": "2026-10-18",
+      "roleBasis": "조례 제7조제3항제1호가 유급병가 별지 제1호를 지정하고 사업 documents가 같은 지원신청서를 직접 명시한다. 원본 앞뒤의 근로사업 구분·입원·본인상품권카드·동의·부정수급 확약 및 신청인 서명을 확인하여 구미시 근로취약계층 유급병가 목적과 연결했다.",
+      "roleEvidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1797985",
+      "roleCheckedAt": "2026-10-18",
+      "reviewedParts": [
+        {
+          "number": "1",
+          "title": "[별지 제1호서식] 근로취약계층 유급병가 지원 신청서",
+          "use": "main",
+          "author": "사업의 지원대상 신청인 또는 허용된 대리인"
+        }
+      ],
+      "bodyEvidenceArticles": [
+        "제5조(지원대상자) 시장은 다음 각 호에 해당하는 구미시에 주소를 둔 근로취약계층에 대해 유급병가를 지원할 수 있다.1. 국민건강보험 지역가입자 중 보건복지부장관이 정하여 고시하는 기준 중위소득 100퍼센트 이하인 사람2. 그 밖에 시장이 필요하다고 인정하는 사람",
+        "제7조(지원신청 및 지원결정)① 제5조에 따른 유급병가 지원을 신청하고자 하는 사람은 사유가 발생한 날부터 180일 이내에 관련 서류를 첨부하여 시장에게 신청서를 제출하여야 한다. 다만, 부득이한 사유로 본인이 신청할 수 없는 경우에는 신청을 위임받은 사람(이하 “대리인”이라 한다)이 신청할 수 있다.② 시장은 제출된 지원 신청서 검토 및 「전자정부법」 제36조제1항에 따른 행정정보의 공동이용을 활용하여 자격요건 등을 심사하고 지원여부를 결정한다.③ 본인 또는 대리인은 다음 각 호의 서류를 제출하여야 한다. 다만, 「전자정부법」 제36조제1항에 따른 행정정보의 공동이용에 동의하는 경우에는 제2호부터 제5호까지의 서류 제출을 아니할 수 있다.1. 유급병가 지원 신청서(별지 제1호서식)2. 주민등록표 등ㆍ초본(주소이력포함)3. 건강보험자격득실확인서 및 건강검진결과통보서4. 고용보험일용근로내역서5. 사업자등록증명, 사업자 휴업ㆍ폐업 사실증명6. 입원ㆍ퇴원확인서7. 위임장(별지 제2호서식)8. 입금계좌 확인정보"
+      ],
+      "independentBodyReview": true
+    },
+    {
+      "sourceKind": "ordin",
+      "lawTitle": "구미시 근로취약계층 유급병가 지원에 관한 조례",
+      "lawId": "1797985",
+      "annexId": "22854285",
+      "annexNumber": "000200",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=170363885&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C2%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EA%B7%BC%EB%A1%9C%EC%B7%A8%EC%95%BD%EA%B3%84%EC%B8%B5+%EC%9C%A0%EA%B8%89%EB%B3%91%EA%B0%80+%EC%A7%80%EC%9B%90+%EC%8B%A0%EC%B2%AD+%EC%9C%84%EC%9E%84%EC%9E%A5",
+      "officialPdfUrl": null,
+      "dateKind": "effective",
+      "effectiveDate": "2023-04-05",
+      "regionCode": "47190",
+      "regionLabel": "경상북도 구미시",
+      "formId": "ordin-22854285",
+      "formTitle": "[별지 제2호서식] 근로취약계층 유급병가 지원 신청 위임장",
+      "sourceMetadataTitle": "[별지 제2호서식] 근로취약계층 유급병가 지원 신청 위임장",
+      "verifiedDocumentTitle": "[별지 제2호서식] 근로취약계층 유급병가 지원 신청 위임장",
+      "programIds": [
+        "g47190.gov24-508000000690"
+      ],
+      "programNames": [
+        "구미시 근로취약계층 유급병가 지원"
+      ],
+      "use": "conditional",
+      "role": "delegation",
+      "checkedAt": "2026-10-18",
+      "evidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1797985",
+      "evidenceNote": "조례 제7조는 본인이 신청하기 어려운 경우 대리 신청을 허용하고 제3항제7호가 별지 제2호 위임장을 지정한다. 원본의 위임자·수임자·유급병가 신청권한·본인 서명 및 신분확인 안내와 일치한다.",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "sha256": "5a7332c62ec37e55edafa944992a3fd40a4e7aa7ae5f87753ca05d6eb48dfbdd",
+      "bytes": 15872,
+      "signature": "d0cf11e0a1b11ae1",
+      "originalFormat": "hwp",
+      "originalTextScope": "all_body_sections_or_pages",
+      "textScope": "all_body_sections_or_pages",
+      "inspectionScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "BodyText/Section0"
+      ],
+      "reviewedBy": "codex-national_form_audit",
+      "reviewedAt": "2026-10-18",
+      "roleBasis": "조례 제7조는 본인이 신청하기 어려운 경우 대리 신청을 허용하고 제3항제7호가 별지 제2호 위임장을 지정한다. 원본의 위임자·수임자·유급병가 신청권한·본인 서명 및 신분확인 안내와 일치한다.",
+      "roleEvidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1797985",
+      "roleCheckedAt": "2026-10-18",
+      "reviewedParts": [
+        {
+          "number": "2",
+          "title": "[별지 제2호서식] 근로취약계층 유급병가 지원 신청 위임장",
+          "use": "conditional",
+          "author": "지원 신청 본인(위임자)"
+        }
+      ],
+      "bodyEvidenceArticles": [
+        "제7조(지원신청 및 지원결정)① 제5조에 따른 유급병가 지원을 신청하고자 하는 사람은 사유가 발생한 날부터 180일 이내에 관련 서류를 첨부하여 시장에게 신청서를 제출하여야 한다. 다만, 부득이한 사유로 본인이 신청할 수 없는 경우에는 신청을 위임받은 사람(이하 “대리인”이라 한다)이 신청할 수 있다.② 시장은 제출된 지원 신청서 검토 및 「전자정부법」 제36조제1항에 따른 행정정보의 공동이용을 활용하여 자격요건 등을 심사하고 지원여부를 결정한다.③ 본인 또는 대리인은 다음 각 호의 서류를 제출하여야 한다. 다만, 「전자정부법」 제36조제1항에 따른 행정정보의 공동이용에 동의하는 경우에는 제2호부터 제5호까지의 서류 제출을 아니할 수 있다.1. 유급병가 지원 신청서(별지 제1호서식)2. 주민등록표 등ㆍ초본(주소이력포함)3. 건강보험자격득실확인서 및 건강검진결과통보서4. 고용보험일용근로내역서5. 사업자등록증명, 사업자 휴업ㆍ폐업 사실증명6. 입원ㆍ퇴원확인서7. 위임장(별지 제2호서식)8. 입금계좌 확인정보"
+      ],
+      "independentBodyReview": true,
+      "condition": "본인이 직접 신청하지 못하여 대리 신청하는 경우에만 사용하는 위임장입니다."
+    },
+    {
+      "sourceKind": "ordin",
+      "lawTitle": "임실군 농촌주택 지붕개량 지원 조례",
+      "lawId": "1799299",
+      "annexId": "20181727",
+      "annexNumber": "000100",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=152771891&flNm=%EB%B3%84%EC%A7%80+%EC%A0%9C1%ED%98%B8%EC%84%9C%EC%8B%9D.+%EB%B3%B4%EC%A1%B0%EA%B8%88+%EC%A7%80%EA%B8%89+%EC%8B%A0%EC%B2%AD%EC%84%9C",
+      "officialPdfUrl": null,
+      "dateKind": "effective",
+      "effectiveDate": "2023-04-10",
+      "regionCode": "52750",
+      "regionLabel": "전북특별자치도 임실군",
+      "formId": "ordin-20181727",
+      "formTitle": "별지 제1호서식. 보조금 지급 신청서",
+      "sourceMetadataTitle": "별지 제1호서식. 보조금 지급 신청서",
+      "verifiedDocumentTitle": "별지 제1호서식. 보조금 지급 신청서",
+      "programIds": [
+        "g52750.gov24-476000000166"
+      ],
+      "programNames": [
+        "지붕개량사업"
+      ],
+      "use": "main",
+      "role": "application",
+      "checkedAt": "2026-10-18",
+      "evidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1799299",
+      "evidenceNote": "조례 제5조는 농촌주택 지붕개량을 별지 제1호 지급신청서와 제2호 사업계획서로 신청하도록 한다. 실제 원본의 주택 위치·사업면적·보조금·자부담·사업기간과 지붕개량 신청 문구를 확인했으며 사업의 임실 노후지붕 개량·읍면 접수·보조금서류와 일치한다.",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "sha256": "7fa0d6b66f06a77d183ce74d88b5ebecf24f9c0d27511b3f2759a247cb1a820b",
+      "bytes": 28672,
+      "signature": "d0cf11e0a1b11ae1",
+      "originalFormat": "hwp",
+      "originalTextScope": "all_body_sections_or_pages",
+      "textScope": "all_body_sections_or_pages",
+      "inspectionScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "BodyText/Section0"
+      ],
+      "reviewedBy": "codex-national_form_audit",
+      "reviewedAt": "2026-10-18",
+      "roleBasis": "조례 제5조는 농촌주택 지붕개량을 별지 제1호 지급신청서와 제2호 사업계획서로 신청하도록 한다. 실제 원본의 주택 위치·사업면적·보조금·자부담·사업기간과 지붕개량 신청 문구를 확인했으며 사업의 임실 노후지붕 개량·읍면 접수·보조금서류와 일치한다.",
+      "roleEvidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1799299",
+      "roleCheckedAt": "2026-10-18",
+      "reviewedParts": [
+        {
+          "number": "1",
+          "title": "별지 제1호서식. 보조금 지급 신청서",
+          "use": "main",
+          "author": "사업의 지원대상 신청인 또는 허용된 대리인"
+        }
+      ],
+      "bodyEvidenceArticles": [
+        "제3조(지원대상) 임실군수(이하 \"군수\"라 한다)가 예산의 범위 안에서 지원할 수 있는 농촌주택 지붕개량 지원대상은 낡고 노후화된 주택(행랑, 부속창고는 제외)으로서 지붕개량을 희망하는 자로 한다. 단, 지붕개량 희망자 중 저소득층 대상자를 우선 지원한다. <개정 2015.12.15.>",
+        "제5조(지원신청 등) 보조금을 받고자 하는 자는 보조금 지급신청서(별지 제1호서식) 및 사업계획서(별지 제2호서식)를 읍.면장을 거쳐 군수에게 제출하여야 한다. <개정 2015.12.15.>"
+      ],
+      "independentBodyReview": true
+    },
+    {
+      "sourceKind": "ordin",
+      "lawTitle": "광주시 장애인가정 출산지원금 지급 조례",
+      "lawId": "1799385",
+      "annexId": "20377821",
+      "annexNumber": "000100",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=153952831&flNm=%EB%B3%84%EC%A7%80+1",
+      "officialPdfUrl": null,
+      "dateKind": "effective",
+      "effectiveDate": "2023-04-07",
+      "regionCode": "41610",
+      "regionLabel": "경기도 광주시",
+      "formId": "ordin-20377821",
+      "formTitle": "별지 1",
+      "sourceMetadataTitle": "별지 1",
+      "verifiedDocumentTitle": "장애인가정 출산지원금 지급 신청서",
+      "programIds": [
+        "g41610.gov24-554000000107"
+      ],
+      "programNames": [
+        "장애인가정 출산지원금 지급"
+      ],
+      "use": "main",
+      "role": "application",
+      "checkedAt": "2026-10-18",
+      "evidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1799385",
+      "evidenceNote": "조례 제5조가 장애인가정 출산지원금을 별지 제1호로 신청하도록 한다. 실제 원본은 장애 부모·출생아·신청금액·계좌 및 신청 서명, 출생 또는 유산사산 증빙을 받으며 사업의 광주시 등록장애인 가정 출산지원 및 읍면동 접수와 일치한다. 일반 출산장려금에 확대하지 않는다.",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "sha256": "9b1691ebc34753e3b64c112549783fe254da65b4c71bc51e130f3c9fd3c711f0",
+      "bytes": 65536,
+      "signature": "d0cf11e0a1b11ae1",
+      "originalFormat": "hwp",
+      "originalTextScope": "all_body_sections_or_pages",
+      "textScope": "all_body_sections_or_pages",
+      "inspectionScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "BodyText/Section0"
+      ],
+      "reviewedBy": "codex-national_form_audit",
+      "reviewedAt": "2026-10-18",
+      "roleBasis": "조례 제5조가 장애인가정 출산지원금을 별지 제1호로 신청하도록 한다. 실제 원본은 장애 부모·출생아·신청금액·계좌 및 신청 서명, 출생 또는 유산사산 증빙을 받으며 사업의 광주시 등록장애인 가정 출산지원 및 읍면동 접수와 일치한다. 일반 출산장려금에 확대하지 않는다.",
+      "roleEvidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1799385",
+      "roleCheckedAt": "2026-10-18",
+      "reviewedParts": [
+        {
+          "number": "1",
+          "title": "장애인가정 출산지원금 지급 신청서",
+          "use": "main",
+          "author": "사업의 지원대상 신청인 또는 허용된 대리인"
+        }
+      ],
+      "bodyEvidenceArticles": [
+        "제3조(지원대상)① 지원금 지원대상은 신생아등의 출생일(임신기간 4개월 이상 중 유산ㆍ사산일 포함하되, 유산 중 인공임신중절수술의 경우는 포함되지 않으며, 「모자보건법」 제14조제1항에 따른 인공임신중절수술의 경우 임신기간과 상관없이 모든 유산일 포함, 이하 ‘출생일등’이라 한다)기준으로 신생아등부 또는 모가 광주시 관내에 주민등록을 두고 180일 이상 거주하고 있는 장애인가정으로 한다. 다만, 거주기간이 180일 미만인 경우에는 출생일등부터 180일 이상 거주한 때에 지원대상으로 한다. <개정 2021.11.11., 2023.4.7.>② 지원금은 신생아등의 부 또는 모에게 지급한다. 다만, 사고(사망 등)로 인하여 신생아등의 부모에게 지급할 수 없을 때에는 신생아등이 속한 가구의 가구원으로서 그 가구의 생계를 부양하고 있는 사람에게 지급할 수 있다.<개정 2023.4.7.>",
+        "제5조(지원신청 등)① 지원금 지원신청은 신생아등의 부 또는 모가 별지 제1호서식에 따라 주소지 관할 읍ㆍ면ㆍ동장에게 신청한다. 다만, 제3조제2항의 경우에는 신생아등이 속한 가구원으로서 그 가구의 생계를 부양하고 있는 사람이 신청할 수 있다.<개정 2023.4.7.>② 읍ㆍ면ㆍ동장은 출생신고서 접수 시 지원금 지원대상 여부를 확인하고 대상자에게 안내하여야 한다.③ 지원금 지원대상자는 신생아등의 출생일등부터 1년 이내에 지원금을 신청하여야 한다.<개정 2023.4.7.>"
+      ],
+      "independentBodyReview": true,
+      "displayTitle": "장애인가정 출산지원금 지급 신청서"
+    },
+    {
+      "sourceKind": "ordin",
+      "lawTitle": "장성군 출산 및 양육지원에 관한 조례",
+      "lawId": "1802421",
+      "annexId": "19677493",
+      "annexNumber": "000100",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=150779897&flNm=%EB%B3%84%EC%A7%80%EC%84%9C%EC%8B%9D",
+      "officialPdfUrl": null,
+      "dateKind": "effective",
+      "effectiveDate": "2023-04-18",
+      "regionCode": "12840",
+      "regionLabel": "전남광주통합특별시 장성군",
+      "formId": "ordin-19677493",
+      "formTitle": "별지서식",
+      "sourceMetadataTitle": "별지서식",
+      "verifiedDocumentTitle": "신생아 양육비 지원 신청서·동의서 포함 통합 서식",
+      "programIds": [
+        "g12840.gov24-498000000110"
+      ],
+      "programNames": [
+        "장성군 신생아 양육비 지원"
+      ],
+      "use": "main",
+      "role": "application",
+      "checkedAt": "2026-10-18",
+      "evidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1802421",
+      "evidenceNote": "조례 제6조제3항제1호는 신생아 양육비를 별지 제1호 신청서로 신청하도록 한다. 통합원본 전체는 제1호 양육비·부모·출생순위·계좌·동의와 제2~4호 기관 현황표이다. 사업의 장성군 신생아 양육비와 해당 목적이 일치하므로 제1호만 연결하고 출산용품·산모건강관리 사업에는 연결하지 않는다. 현재 사업은 출산서비스 통합처리 신청도 안내하므로 단독 법정서식 사용 가능 여부 및 접수 방식은 기관 확인 조건으로 표시한다.",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "sha256": "4a38b6cce22281b1c38453060e86f904de8cd652a816441a1d8df387808e01ac",
+      "bytes": 24576,
+      "signature": "d0cf11e0a1b11ae1",
+      "originalFormat": "hwp",
+      "originalTextScope": "all_body_sections_or_pages",
+      "textScope": "all_body_sections_or_pages",
+      "inspectionScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "BodyText/Section0"
+      ],
+      "reviewedBy": "codex-national_form_audit",
+      "reviewedAt": "2026-10-18",
+      "roleBasis": "조례 제6조제3항제1호는 신생아 양육비를 별지 제1호 신청서로 신청하도록 한다. 통합원본 전체는 제1호 양육비·부모·출생순위·계좌·동의와 제2~4호 기관 현황표이다. 사업의 장성군 신생아 양육비와 해당 목적이 일치하므로 제1호만 연결하고 출산용품·산모건강관리 사업에는 연결하지 않는다. 현재 사업은 출산서비스 통합처리 신청도 안내하므로 단독 법정서식 사용 가능 여부 및 접수 방식은 기관 확인 조건으로 표시한다.",
+      "roleEvidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1802421",
+      "roleCheckedAt": "2026-10-18",
+      "reviewedParts": [
+        {
+          "number": "1",
+          "title": "장성군 신생아양육비 지원 신청서 및 동의서",
+          "use": "main",
+          "author": "신생아 보호자"
+        },
+        {
+          "number": "2",
+          "title": "신생아 양육비 신청현황",
+          "use": "excluded",
+          "author": "읍면 담당자"
+        },
+        {
+          "number": "3",
+          "title": "양육비 지원현황",
+          "use": "excluded",
+          "author": "보건소 담당자"
+        },
+        {
+          "number": "4",
+          "title": "산모·신생아 건강관리 지원현황",
+          "use": "excluded",
+          "author": "보건소 담당자"
+        }
+      ],
+      "bodyEvidenceArticles": [
+        "제6조(지원신청)① 보호자가 전입 또는 출생신고를 하면 읍·면장은 양육비 및 건강관리 지원 대상자일 경우 구비 서류를 제출하도록 신청인에게 안내 하여야 한다.② 양육비 지원을 받고자 하는 사람은 신생아 양육비 지원 신청서(이하 “신청서”라 한다)를 읍·면장에게 제출하여야 한다.③ 제1항 및 제2항의 양육비 지원 신청 구비서류는 다음 각 호와 같다.1. 신청서(별지 제1호 서식) 1부2. 예금통장 사본 1부(신청서에 기록한 입금계좌번호가 불분명한 경우에 한한다)",
+        "제13조(대장관리 및 보고) 읍·면장은 신생아 양육비 신청 현황(별지 제2호 서식)을, 보건소장은 장성군 신생아 양육비 지원 현황(별지 제3호 서식) 및 장성군 산모·신생아 건강관리 지원현황(별지 제4호 서식)을 비치하고 관리하여야 한다."
+      ],
+      "independentBodyReview": true,
+      "condition": "파일 중 별지 제1호 신청서와 동의 부분만 사용합니다. 제2~4호는 기관 관리현황입니다. 사업 안내는 출산서비스 통합처리 신청서도 안내하므로 현재 접수 시 단독 서식 또는 통합 신청 절차를 확인합니다.",
+      "displayTitle": "신생아 양육비 지원 신청서·동의서 포함 통합 서식"
+    },
+    {
+      "sourceKind": "ordin",
+      "lawTitle": "수원시 사회복지기금 설치 및 운용 조례 시행규칙",
+      "lawId": "1803075",
+      "annexId": "20871873",
+      "annexNumber": "000700",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=156559741&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C7%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EC%9E%90%ED%99%9C%EA%B8%B0%EA%B8%88+%EC%A7%80%EC%9B%90%EC%8B%A0%EC%B2%AD%EC%84%9C",
+      "officialPdfUrl": null,
+      "dateKind": "effective",
+      "effectiveDate": "2023-04-20",
+      "regionCode": "41110",
+      "regionLabel": "경기도 수원시",
+      "formId": "ordin-20871873",
+      "formTitle": "[별지 제7호서식] 자활기금 지원신청서",
+      "sourceMetadataTitle": "[별지 제7호서식] 자활기금 지원신청서",
+      "verifiedDocumentTitle": "[별지 제7호서식] 자활기금 지원신청서",
+      "programIds": [
+        "g41110.bokjiro-WLF00001374"
+      ],
+      "programNames": [
+        "사회복지기금(자활계정) 지원"
+      ],
+      "use": "conditional",
+      "role": "application",
+      "checkedAt": "2026-10-18",
+      "evidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1803075",
+      "evidenceNote": "시행규칙 제10조제1항은 자활계정 신청에 별지 제7호를 지정하며 원본의 자활기금 사업목적·재원·사업계획 및 신청 서명과 일치한다. 사이트 사업은 지역자활센터 소속 사업단·자활기업을 대상으로 사업자금·점포를 지원하고 기관장 추천을 명시한다. 개인 신청이 없다는 안내를 보존하여 자활기관을 통한 해당 사업단·기업 신청으로 한정한다.",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "sha256": "dbce7568b568b06ae9e8cb0871e2c0b89f473809d3cefd3798146389032f1244",
+      "bytes": 35840,
+      "signature": "d0cf11e0a1b11ae1",
+      "originalFormat": "hwp",
+      "originalTextScope": "all_body_sections_or_pages",
+      "textScope": "all_body_sections_or_pages",
+      "inspectionScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "BodyText/Section0"
+      ],
+      "reviewedBy": "codex-national_form_audit",
+      "reviewedAt": "2026-10-18",
+      "roleBasis": "시행규칙 제10조제1항은 자활계정 신청에 별지 제7호를 지정하며 원본의 자활기금 사업목적·재원·사업계획 및 신청 서명과 일치한다. 사이트 사업은 지역자활센터 소속 사업단·자활기업을 대상으로 사업자금·점포를 지원하고 기관장 추천을 명시한다. 개인 신청이 없다는 안내를 보존하여 자활기관을 통한 해당 사업단·기업 신청으로 한정한다.",
+      "roleEvidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1803075",
+      "roleCheckedAt": "2026-10-18",
+      "reviewedParts": [
+        {
+          "number": "7",
+          "title": "[별지 제7호서식] 자활기금 지원신청서",
+          "use": "conditional",
+          "author": "해당 자활사업단·자활기업 신청인"
+        }
+      ],
+      "bodyEvidenceArticles": [
+        "제10조(기금의 지원신청)① 조례 제6조제2항에 따른 사업을 위하여 기금을 지원받고자 하는 자는 다음 각 호의 서류를 첨부하여 시장에게 제출하여야 한다. (개정 2023.04.20)1. 자활기금 지원신청서(별지 제7호서식) (개정 2023.04.20)2. 사업계획서3. 기관·단체의 정관 또는 규약4. 조례 제6조제2항제5호다목에 따른  대여신청은 신용보증보험증권(이 경우 보증 한도를 융자원금의 100분의 110이상으로 한다) (개정 2020.07.01) (개정 2023.04.20)5. 그 밖에 시장이 필요하다고 인정하는 서류 (개정 2020.07.01) (개정 2023.04.20)6. <삭제 2023.04.20>② <삭제 2023.04.20>③ 제10조제1항제4호에도 불구하고 보증이 어려운 경우 전세권 설정이 가능한 경우에만 심의를 거쳐 무보증으로 기금을 대출받을 수 있다. (개정 2018.04.12)(개정 2020.07.01) (개정 2023.04.20)④ 조례 제6조제2항제5호다목에 따른 점포임대 및 사업자금 대여신청의 경우 사업장(점포 등) 임대 지원 신청서(별지 제10호 서식) 또는 자활기금 대여신청서(별지 제11호 서식) 와 자활기금 대여 약정서(별지 제12호 서식)를 제출하여야 한다. <신설 2020.07.01> (개정 2023.04.20)",
+        "제11조(기금의 지원대상) 기금을 지원받을 수 있는 대상은 시에 거주하거나 소재를 둔 개인·기관·단체 등으로 다음 각 호와 같다. (개정 2023.04.20)1.「국민기초생활 보장법」(이하“법”이라 한다) 제2조에 따른 수급자 및 차상위 계층 (개정 2023.04.20)2. 법 제18조 및 법 시행규칙 제31조에 따른 자활기업3.「국민기초생활 보장법 시행령」(이하 “영”이라 한다) 제12조에 따른 자활사업실시기관 (개정 2023.04.20)4. 영 제9조에 따라 수급자의 근로활동 또는 자활사업에 참가를 위하여 사회복지 관련 서비스를 제공하는 기관·단체 <신설 2023.04.20>5. 영 제26조의4 제9호에 따른 자활사업의 연구·개발 및 평가 등을 수행할 수 있는 개인·기관·단체 <신설 2023.04.20>"
+      ],
+      "independentBodyReview": true,
+      "condition": "지역자활센터를 통해 자활근로사업단·자활기업이 기금을 신청하는 경우에 사용하는 서식입니다. 일반 주민의 개인 현금급여 신청서는 아닙니다."
+    },
+    {
+      "sourceKind": "ordin",
+      "lawTitle": "수원시 사회복지기금 설치 및 운용 조례 시행규칙",
+      "lawId": "1803075",
+      "annexId": "20871879",
+      "annexNumber": "001000",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=156559747&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C10%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EC%82%AC%EC%97%85%EC%9E%A5%28%EC%A0%90%ED%8F%AC+%EB%93%B1%29+%EC%9E%84%EB%8C%80+%EC%A7%80%EC%9B%90+%EC%8B%A0%EC%B2%AD%EC%84%9C",
+      "officialPdfUrl": null,
+      "dateKind": "effective",
+      "effectiveDate": "2023-04-20",
+      "regionCode": "41110",
+      "regionLabel": "경기도 수원시",
+      "formId": "ordin-20871879",
+      "formTitle": "[별지 제10호서식] 사업장(점포 등) 임대 지원 신청서",
+      "sourceMetadataTitle": "[별지 제10호서식] 사업장(점포 등) 임대 지원 신청서",
+      "verifiedDocumentTitle": "[별지 제10호서식] 사업장(점포 등) 임대 지원 신청서",
+      "programIds": [
+        "g41110.bokjiro-WLF00001374"
+      ],
+      "programNames": [
+        "사회복지기금(자활계정) 지원"
+      ],
+      "use": "conditional",
+      "role": "application",
+      "checkedAt": "2026-10-18",
+      "evidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1803075",
+      "evidenceNote": "시행규칙 제10조제4항과 제13조는 자활기업·자활근로사업단 점포임대 지원을 별지 제10호로 신청하도록 한다. 실제 원본에는 사업단 정보·임대계획·자활기업 대표 신청과 지역자활센터장 추천 서명이 있다. 사이트 사업이 동일 기관대상과 점포 마련 비용을 명시하므로 그 항목에만 연결한다.",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "sha256": "354644c47e206c988840e535c68b7fe13460af0b82f576c53836a1ea50e7ba16",
+      "bytes": 52736,
+      "signature": "d0cf11e0a1b11ae1",
+      "originalFormat": "hwp",
+      "originalTextScope": "all_body_sections_or_pages",
+      "textScope": "all_body_sections_or_pages",
+      "inspectionScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "BodyText/Section0"
+      ],
+      "reviewedBy": "codex-national_form_audit",
+      "reviewedAt": "2026-10-18",
+      "roleBasis": "시행규칙 제10조제4항과 제13조는 자활기업·자활근로사업단 점포임대 지원을 별지 제10호로 신청하도록 한다. 실제 원본에는 사업단 정보·임대계획·자활기업 대표 신청과 지역자활센터장 추천 서명이 있다. 사이트 사업이 동일 기관대상과 점포 마련 비용을 명시하므로 그 항목에만 연결한다.",
+      "roleEvidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1803075",
+      "roleCheckedAt": "2026-10-18",
+      "reviewedParts": [
+        {
+          "number": "10",
+          "title": "[별지 제10호서식] 사업장(점포 등) 임대 지원 신청서",
+          "use": "conditional",
+          "author": "자활기업 대표자 및 추천 지역자활센터장"
+        }
+      ],
+      "bodyEvidenceArticles": [
+        "제10조(기금의 지원신청)① 조례 제6조제2항에 따른 사업을 위하여 기금을 지원받고자 하는 자는 다음 각 호의 서류를 첨부하여 시장에게 제출하여야 한다. (개정 2023.04.20)1. 자활기금 지원신청서(별지 제7호서식) (개정 2023.04.20)2. 사업계획서3. 기관·단체의 정관 또는 규약4. 조례 제6조제2항제5호다목에 따른  대여신청은 신용보증보험증권(이 경우 보증 한도를 융자원금의 100분의 110이상으로 한다) (개정 2020.07.01) (개정 2023.04.20)5. 그 밖에 시장이 필요하다고 인정하는 서류 (개정 2020.07.01) (개정 2023.04.20)6. <삭제 2023.04.20>② <삭제 2023.04.20>③ 제10조제1항제4호에도 불구하고 보증이 어려운 경우 전세권 설정이 가능한 경우에만 심의를 거쳐 무보증으로 기금을 대출받을 수 있다. (개정 2018.04.12)(개정 2020.07.01) (개정 2023.04.20)④ 조례 제6조제2항제5호다목에 따른 점포임대 및 사업자금 대여신청의 경우 사업장(점포 등) 임대 지원 신청서(별지 제10호 서식) 또는 자활기금 대여신청서(별지 제11호 서식) 와 자활기금 대여 약정서(별지 제12호 서식)를 제출하여야 한다. <신설 2020.07.01> (개정 2023.04.20)",
+        "제13조(점포임대 지원) (조제목 개정 2020.07.01) (조제목 개정 2023.04.20)① 조례 제6조제2항제5호다목에 따른 점포임대 지원대상은 자활기업 및 자활근로사업단 중 수익성과 작업장 또는 점포 확보의 필요성 등을 고려하여 시장이 결정한다. (개정 2020.07.01) (개정 2023.04.20)② 점포임대 지원은 보증금 2억원까지의 범위에서 임대인의 동의를 얻어 지역자활센터 명의로 계약을 체결하며, 기간만료 후 임대보증금은 시로 반환한다. (개정 2020.07.01) (개정 2023.04.20)③ 임대 지원기한은 5년 이하 단위 계약으로 최장 10년까지로 한다. (개정 2020.07.01) (개정 2023.04.20)④ 점포임대의 대여금의 사용수수료는 대여자금의 연 1퍼센트로 한다. (개정 2020.07.01) (개정 2023.04.20)⑤ 시장은 다음 각 호의 경우 지원 결정을 취소 또는 중지할 수 있다. <삭제 2020.07.01> <신설 2023.04.20>1. 사업을 양도 또는 포기한 경우2. 정당한 사유없이 사업 개시 후 3개월 이내에 사업을 개시하지 아니하거나 계속하여 6개월 이상 영업을 하지 아니한 경우3. 점포임대 사용수수료 또는 월세 등을 3회 이상 연체하는 경우4. 신청 당시의 사업 또는 용도변경의 승인 없이 대여자금을 목적 외의 용도로 사용한 경우5. 그 밖에 신청인에게 중대한 신분변화가 있거나 지원함이 바람직하지 아니하다고 인정하는 경우"
+      ],
+      "independentBodyReview": true,
+      "condition": "자활기업·사업단의 사업장 또는 점포 임대 지원을 신청하는 경우 사용합니다. 자활기업 대표자 신청과 지역자활센터장 추천이 포함됩니다."
+    },
+    {
+      "sourceKind": "ordin",
+      "lawTitle": "수원시 사회복지기금 설치 및 운용 조례 시행규칙",
+      "lawId": "1803075",
+      "annexId": "20871881",
+      "annexNumber": "001100",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=156559749&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C11%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EC%9E%90%ED%99%9C%EA%B8%B0%EA%B8%88+%EB%8C%80%EC%97%AC%EC%8B%A0%EC%B2%AD%EC%84%9C",
+      "officialPdfUrl": null,
+      "dateKind": "effective",
+      "effectiveDate": "2023-04-20",
+      "regionCode": "41110",
+      "regionLabel": "경기도 수원시",
+      "formId": "ordin-20871881",
+      "formTitle": "[별지 제11호서식] 자활기금 대여신청서",
+      "sourceMetadataTitle": "[별지 제11호서식] 자활기금 대여신청서",
+      "verifiedDocumentTitle": "[별지 제11호서식] 자활기금 대여신청서",
+      "programIds": [
+        "g41110.bokjiro-WLF00001374"
+      ],
+      "programNames": [
+        "사회복지기금(자활계정) 지원"
+      ],
+      "use": "conditional",
+      "role": "application",
+      "checkedAt": "2026-10-18",
+      "evidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1803075",
+      "evidenceNote": "규칙 제10조제4항과 제12조는 자활기업·사업단의 사업자금 대여에 별지 제11호를 지정한다. 실제 원본의 대여액·상환기간·이자·용도 및 상환확약을 확인했고 사업이 같은 자활계정의 사업자금 지원을 명시하므로 대여 신청 항목으로 연결한다.",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "sha256": "d6562670e8e78a7cc3e716939a09b21deaa431d9ae7b1a634affce7693ddfd3c",
+      "bytes": 36864,
+      "signature": "d0cf11e0a1b11ae1",
+      "originalFormat": "hwp",
+      "originalTextScope": "all_body_sections_or_pages",
+      "textScope": "all_body_sections_or_pages",
+      "inspectionScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "BodyText/Section0"
+      ],
+      "reviewedBy": "codex-national_form_audit",
+      "reviewedAt": "2026-10-18",
+      "roleBasis": "규칙 제10조제4항과 제12조는 자활기업·사업단의 사업자금 대여에 별지 제11호를 지정한다. 실제 원본의 대여액·상환기간·이자·용도 및 상환확약을 확인했고 사업이 같은 자활계정의 사업자금 지원을 명시하므로 대여 신청 항목으로 연결한다.",
+      "roleEvidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1803075",
+      "roleCheckedAt": "2026-10-18",
+      "reviewedParts": [
+        {
+          "number": "11",
+          "title": "[별지 제11호서식] 자활기금 대여신청서",
+          "use": "conditional",
+          "author": "대여를 신청하는 자활기업·사업단 신청인"
+        }
+      ],
+      "bodyEvidenceArticles": [
+        "제10조(기금의 지원신청)① 조례 제6조제2항에 따른 사업을 위하여 기금을 지원받고자 하는 자는 다음 각 호의 서류를 첨부하여 시장에게 제출하여야 한다. (개정 2023.04.20)1. 자활기금 지원신청서(별지 제7호서식) (개정 2023.04.20)2. 사업계획서3. 기관·단체의 정관 또는 규약4. 조례 제6조제2항제5호다목에 따른  대여신청은 신용보증보험증권(이 경우 보증 한도를 융자원금의 100분의 110이상으로 한다) (개정 2020.07.01) (개정 2023.04.20)5. 그 밖에 시장이 필요하다고 인정하는 서류 (개정 2020.07.01) (개정 2023.04.20)6. <삭제 2023.04.20>② <삭제 2023.04.20>③ 제10조제1항제4호에도 불구하고 보증이 어려운 경우 전세권 설정이 가능한 경우에만 심의를 거쳐 무보증으로 기금을 대출받을 수 있다. (개정 2018.04.12)(개정 2020.07.01) (개정 2023.04.20)④ 조례 제6조제2항제5호다목에 따른 점포임대 및 사업자금 대여신청의 경우 사업장(점포 등) 임대 지원 신청서(별지 제10호 서식) 또는 자활기금 대여신청서(별지 제11호 서식) 와 자활기금 대여 약정서(별지 제12호 서식)를 제출하여야 한다. <신설 2020.07.01> (개정 2023.04.20)",
+        "제12조(사업자금 대여 등)① 조례 제6조제2항제5호다목에 따른 사업자금의 대여는 자활기업 당 2억원 이내, 자활근로사업단의 경우 1억원 이내에서 사업규모ㆍ사업계획의 타당성 등을 고려하여 시장이 최종적으로 결정한다. (개정 2020.07.01) (개정 2023.04.20)② 사업자금을 대여받은 자활기업, 자활근로사업단은 1년 거치 4년 이내에 균등분할 상환 또는 일시상환하여야 한다. (개정 2020.07.01) (개정 2023.04.20)③ 대여 자금의 이자는 연 2퍼센트로 하되 상환기간이 경과한 뒤에도 이를 상환하지 아니한 경우에는 기간이 경과한 날로부터 연 4퍼센트의 연체이자를 적용한다.. (개정 2020.07.01) (개정 2023.04.20)④ 시장은 사업자금을 대여받은 자활기업 및 자활근로사업단이 각 호의 어느 하나에 해당하는 때에는 지원 자금을 일시 반납 받아야 한다.  (개정 2020.07.01) (개정 2023.04.20)1. 파산 또는 해산하거나 해체된 경우2. 사업자금을 지원 받은 후에 정당한 사유없이 6개월 이상 사업을 개시하지 아니하거나 해체된 경우3. 제3조에 따라 사업계획 변경을 승인받지 아니하고 지원자금을 목적 이외의 용도로 사용한 경우"
+      ],
+      "independentBodyReview": true,
+      "condition": "해당 자활기업·사업단이 사업자금 대여를 신청하는 경우 사용하는 서식입니다. 일반 개인 급여 신청서는 아닙니다."
+    },
+    {
+      "sourceKind": "ordin",
+      "lawTitle": "수원시 사회복지기금 설치 및 운용 조례 시행규칙",
+      "lawId": "1803075",
+      "annexId": "20871887",
+      "annexNumber": "001400",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=156559755&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C15%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EC%82%AC%EC%97%85%EA%B3%84%ED%9A%8D%EB%B3%80%EA%B2%BD+%EC%8A%B9%EC%9D%B8%EC%8B%A0%EC%B2%AD%EC%84%9C",
+      "officialPdfUrl": null,
+      "dateKind": "effective",
+      "effectiveDate": "2023-04-20",
+      "regionCode": "41110",
+      "regionLabel": "경기도 수원시",
+      "formId": "ordin-20871887",
+      "formTitle": "[별지 제15호서식] 사업계획변경 승인신청서",
+      "sourceMetadataTitle": "[별지 제15호서식] 사업계획변경 승인신청서",
+      "verifiedDocumentTitle": "[별지 제15호서식] 사업계획변경 승인신청서",
+      "programIds": [
+        "g41110.bokjiro-WLF00001374"
+      ],
+      "programNames": [
+        "사회복지기금(자활계정) 지원"
+      ],
+      "use": "conditional",
+      "role": "application",
+      "checkedAt": "2026-10-18",
+      "evidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1803075",
+      "evidenceNote": "규칙 제3조는 기금 수혜자가 사업내용·예산 용도를 바꾸려면 사전 승인받도록 한다. 실제 별지 제15호는 기존 지원내용·예산·사업 변경 전후와 신청 서명을 받는다. 자활계정 사업단·기업 지원에도 적용되는 공통 기금 변경 절차로 확인하여 지원 결정 후 해당 사업자의 변경 신청에만 연결한다.",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "sha256": "2aff38d4f7b239537579510258ac979200bb0a4897a4302c9688f4a1c1f502e5",
+      "bytes": 11776,
+      "signature": "d0cf11e0a1b11ae1",
+      "originalFormat": "hwp",
+      "originalTextScope": "all_body_sections_or_pages",
+      "textScope": "all_body_sections_or_pages",
+      "inspectionScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "BodyText/Section0"
+      ],
+      "reviewedBy": "codex-national_form_audit",
+      "reviewedAt": "2026-10-18",
+      "roleBasis": "규칙 제3조는 기금 수혜자가 사업내용·예산 용도를 바꾸려면 사전 승인받도록 한다. 실제 별지 제15호는 기존 지원내용·예산·사업 변경 전후와 신청 서명을 받는다. 자활계정 사업단·기업 지원에도 적용되는 공통 기금 변경 절차로 확인하여 지원 결정 후 해당 사업자의 변경 신청에만 연결한다.",
+      "roleEvidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1803075",
+      "roleCheckedAt": "2026-10-18",
+      "reviewedParts": [
+        {
+          "number": "15",
+          "title": "[별지 제15호서식] 사업계획변경 승인신청서",
+          "use": "conditional",
+          "author": "기금을 지원받은 자활사업단·자활기업 신청인"
+        }
+      ],
+      "bodyEvidenceArticles": [
+        "제3조(사업계획 변경 등) 기금을 지원받은 자는 기금의 지원으로 추진하는 사업 내용을 변경하거나 지원받은 예산을 변경 사용하고자 하는 경우에는 미리 시장의 승인을 받아야 한다."
+      ],
+      "independentBodyReview": true,
+      "condition": "자활계정 기금 지원을 받은 사업단·기업이 사업계획 또는 예산 용도를 변경하려는 경우에만 사용합니다.",
+      "verifiedAnnexNumber": "15",
+      "annexNumberNote": "annexNumber는 공식 포털 별표 포함 순번을 보존하고 reviewedParts.number 및 verifiedAnnexNumber는 원본 머리말의 실제 인쇄 별지 번호를 기록한다."
+    },
+    {
+      "sourceKind": "ordin",
+      "lawTitle": "보성군 귀농어ㆍ귀촌 활성화 및 지원 조례 시행규칙",
+      "lawId": "1804129",
+      "annexId": "21646251",
+      "annexNumber": "000300",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=162261019&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C3%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EC%8B%A4%EA%B1%B0%EC%A3%BC+%EB%B0%8F+%EB%86%8D%EC%96%B4%EC%97%85+%EC%A2%85%EC%82%AC%EC%97%AC%EB%B6%80+%ED%99%95%EC%9D%B8%EC%84%9C",
+      "officialPdfUrl": null,
+      "dateKind": "effective",
+      "effectiveDate": "2023-06-28",
+      "regionCode": "12750",
+      "regionLabel": "전남광주통합특별시 보성군",
+      "formId": "ordin-21646251",
+      "formTitle": "[별지 제3호서식] 실거주 및 농어업 종사여부 확인서",
+      "sourceMetadataTitle": "[별지 제3호서식] 실거주 및 농어업 종사여부 확인서",
+      "verifiedDocumentTitle": "[별지 제3호서식] 실거주 및 농어업 종사여부 확인서",
+      "programIds": [
+        "g12750.gov24-489000000135"
+      ],
+      "programNames": [
+        "귀농인 정착장려금 지원"
+      ],
+      "use": "additional",
+      "role": "supporting",
+      "checkedAt": "2026-10-18",
+      "evidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1804129",
+      "evidenceNote": "규칙 제4조제3항은 정착장려금 지급을 위해 읍면장이 실거주 및 농어업 종사여부를 별지 제3호로 확인하여 제출하도록 한다. 실제 원본의 실거주·영농 확인과 담당 확인자·마을이장·읍면장 서명, 사업 documents의 실거주확인서·현지점검보고서 안내를 대조했다. 정착장려금에만 기관 확인을 받아 준비하는 증빙으로 연결한다.",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "sha256": "a2a68370318853f5a6409764ff390be74b8e545ddbb6f78d8d8c4903cc5ae3fe",
+      "bytes": 29696,
+      "signature": "d0cf11e0a1b11ae1",
+      "originalFormat": "hwp",
+      "originalTextScope": "all_body_sections_or_pages",
+      "textScope": "all_body_sections_or_pages",
+      "inspectionScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "BodyText/Section0"
+      ],
+      "reviewedBy": "codex-national_form_audit",
+      "reviewedAt": "2026-10-18",
+      "roleBasis": "규칙 제4조제3항은 정착장려금 지급을 위해 읍면장이 실거주 및 농어업 종사여부를 별지 제3호로 확인하여 제출하도록 한다. 실제 원본의 실거주·영농 확인과 담당 확인자·마을이장·읍면장 서명, 사업 documents의 실거주확인서·현지점검보고서 안내를 대조했다. 정착장려금에만 기관 확인을 받아 준비하는 증빙으로 연결한다.",
+      "roleEvidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1804129",
+      "roleCheckedAt": "2026-10-18",
+      "reviewedParts": [
+        {
+          "number": "3",
+          "title": "[별지 제3호서식] 실거주 및 농어업 종사여부 확인서",
+          "use": "additional",
+          "author": "확인 담당자·마을이장 또는 어촌계장·읍면장"
+        }
+      ],
+      "bodyEvidenceArticles": [
+        "제4조(귀농어업인 정착장려금의 지원)① 조례 제7조제1항에 따른 귀농어업인 정착금 지원기준은 다음 각 호와 같다.1. 가구당 600만원 한도에서 지원한다.2. 지원액은 이주 가족인원에 따라 1명은 매월 20만원, 2명은 매월 35만원, 3명 이상은 매월 50만원을 지급한다.② 지원 자격은 다음 각 호와 같다. <개정 2023. 4. 25.>1. 보성군(이하 “군”이라 한다) 내 실제 거주하며 농어업에 종사하는 자를 말한다.2. 지원을 받고자 하는 자는 귀농·귀어 후 3년 이내에 귀농·귀어 신고를 하여야 하며, 신고 후 3년 이내에 귀농어업인 정착장려금을 신청하여야 한다.3. 신청자의 연령은 귀농·귀어 신고 당시 20세 이상 65세 이하이어야 한다.③ 지원방법은 별지 제3호 서식에 따라 거주지 읍면장이 실거주 및 농·어업 종사여부 확인서를 군수에게 제출하여야 하며, 확인 후 1년간 매월 균등 지급한다."
+      ],
+      "independentBodyReview": true,
+      "condition": "귀농인 정착장려금의 실거주·농어업 종사 사실을 확인하는 서류입니다. 신청인이 확인란을 대신 서명하지 않으며 마을이장·담당자·읍면장의 확인 절차를 따릅니다."
+    },
+    {
+      "sourceKind": "ordin",
+      "lawTitle": "울진군 입양가정 지원 조례",
+      "lawId": "1805767",
+      "annexId": "15516783",
+      "annexNumber": "000100",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=127709547&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C1%ED%98%B8+%EC%84%9C%EC%8B%9D%5D",
+      "officialPdfUrl": null,
+      "dateKind": "effective",
+      "effectiveDate": "2023-05-01",
+      "regionCode": "47930",
+      "regionLabel": "경상북도 울진군",
+      "formId": "ordin-15516783",
+      "formTitle": "[별지 제1호 서식]",
+      "sourceMetadataTitle": "[별지 제1호 서식]",
+      "verifiedDocumentTitle": "입양축하금 등 지급신청서",
+      "programIds": [
+        "g47930.bokjiro-WLF00004935"
+      ],
+      "programNames": [
+        "입양아동의 입학준비금 지원"
+      ],
+      "use": "main",
+      "role": "application",
+      "checkedAt": "2026-10-18",
+      "evidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1805767",
+      "evidenceNote": "조례 제6조는 입양축하금 등과 입학준비금을 공통 별지 제1호로 신청하도록 한다. 실제 원본에 입학준비금 금액 및 초등·중고등 선택칸과 입학 증빙이 있어, 사이트의 울진 입양아동 입학준비금 항목에 정확히 대응한다. 같은 파일의 입양축하금 칸을 해당 사업의 지원으로 확대하지 않는다.",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "sha256": "5a7fd3ef5636cb354ce57ead0621c6f7231b91e1b7d4b0cb24aedffdb5f249df",
+      "bytes": 16384,
+      "signature": "d0cf11e0a1b11ae1",
+      "originalFormat": "hwp",
+      "originalTextScope": "all_body_sections_or_pages",
+      "textScope": "all_body_sections_or_pages",
+      "inspectionScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "BodyText/Section0"
+      ],
+      "reviewedBy": "codex-national_form_audit",
+      "reviewedAt": "2026-10-18",
+      "roleBasis": "조례 제6조는 입양축하금 등과 입학준비금을 공통 별지 제1호로 신청하도록 한다. 실제 원본에 입학준비금 금액 및 초등·중고등 선택칸과 입학 증빙이 있어, 사이트의 울진 입양아동 입학준비금 항목에 정확히 대응한다. 같은 파일의 입양축하금 칸을 해당 사업의 지원으로 확대하지 않는다.",
+      "roleEvidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1805767",
+      "roleCheckedAt": "2026-10-18",
+      "reviewedParts": [
+        {
+          "number": "1",
+          "title": "입양축하금 등 지급신청서",
+          "use": "main",
+          "author": "입양아동의 부 또는 모"
+        }
+      ],
+      "bodyEvidenceArticles": [
+        "제4조(입양가정 지원사업) 군수는 입양가정에 대하여 다음 각 호와 같이 예산의 범위에서 지원금을 지원할 수 있다.1. 입양가정 지원정책의 수립 및 시행2. 입양가정 및 아동에 관한 실태조사 및 연구3. 입양아동 및 입양가정에 대한 지원가. 입양 축하금 : 입양아동 1명당 300만원(다만, 장애아동인 경우 1명당 400만원)나. 상해보험 가입비 : 실비(12세 이하 입양아동에 한함)다. 입학준비금 : 초등학교 10만원, 중·고등학교 50만원(장애입양 아동을 포함한 18세 미만 입양아동)4. 그 밖에 입양아동 복지 향상에 관한 사항",
+        "제6조(지원신청) 제4조에 따른 입양축하금 등을 신청하려는 입양아동의 부 또는 모는 입양신고 후 1년 이내 또는 입양아동의 입학 1개월 전에 별지 제1호 서식의 「입양축하금 등 지급신청서」(이하 “신청서”라 한다)를 군수에게 제출하여야 한다."
+      ],
+      "independentBodyReview": true,
+      "condition": "이 사업에서는 원본의 입학준비금 항목을 작성합니다. 입양축하금 선택항목은 별도 지원입니다.",
+      "displayTitle": "입양축하금 등 지급신청서"
+    },
+    {
+      "sourceKind": "ordin",
+      "lawTitle": "울진군 효행장려 및 지원 조례",
+      "lawId": "1806565",
+      "annexId": "15521739",
+      "annexNumber": "000100",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=127806099&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C1%ED%98%B8+%EC%84%9C%EC%8B%9D%5D+%ED%9A%A8%ED%96%89%EC%88%98%EB%8B%B9+%EC%A7%80%EA%B8%89%EC%8B%A0%EC%B2%AD%EC%84%9C",
+      "officialPdfUrl": null,
+      "dateKind": "effective",
+      "effectiveDate": "2023-05-01",
+      "regionCode": "47930",
+      "regionLabel": "경상북도 울진군",
+      "formId": "ordin-15521739",
+      "formTitle": "[별지 제1호 서식] 효행수당 지급신청서",
+      "sourceMetadataTitle": "[별지 제1호 서식] 효행수당 지급신청서",
+      "verifiedDocumentTitle": "[별지 제1호 서식] 효행수당 지급신청서",
+      "programIds": [
+        "g47930.bokjiro-WLF00004275"
+      ],
+      "programNames": [
+        "효행장려수당 지원"
+      ],
+      "use": "main",
+      "role": "application",
+      "checkedAt": "2026-10-18",
+      "evidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1806565",
+      "evidenceNote": "조례 제12조가 4대 동거 효행수당을 별지 제1호로 신청하도록 한다. 원본의 가족 구성·전입일·지급계좌·본인 서명과 이장 실거주 확인을 읽었고 두 사업 모두 울진 80세 이상 존속 포함 4대·3년 동거·명절 효행수당 및 읍면 신청으로 정확히 일치한다.",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "sha256": "bc4e51293b18b279a2da723490502d2e504d8af4c519aa1d3ee1f1a6c7f02b1d",
+      "bytes": 13824,
+      "signature": "d0cf11e0a1b11ae1",
+      "originalFormat": "hwp",
+      "originalTextScope": "all_body_sections_or_pages",
+      "textScope": "all_body_sections_or_pages",
+      "inspectionScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "BodyText/Section0"
+      ],
+      "reviewedBy": "codex-national_form_audit",
+      "reviewedAt": "2026-10-18",
+      "roleBasis": "조례 제12조가 4대 동거 효행수당을 별지 제1호로 신청하도록 한다. 원본의 가족 구성·전입일·지급계좌·본인 서명과 이장 실거주 확인을 읽었고 두 사업 모두 울진 80세 이상 존속 포함 4대·3년 동거·명절 효행수당 및 읍면 신청으로 정확히 일치한다.",
+      "roleEvidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1806565",
+      "roleCheckedAt": "2026-10-18",
+      "reviewedParts": [
+        {
+          "number": "1",
+          "title": "[별지 제1호 서식] 효행수당 지급신청서",
+          "use": "main",
+          "author": "사업의 지원대상 신청인 또는 허용된 대리인"
+        }
+      ],
+      "bodyEvidenceArticles": [
+        "제9조(지급대상) 효행수당의 지급대상자(이하 \"대상자\"라 한다)는 80세 이상의 직계존속과 직계비속을 포함한 4대가 지급 기준일 현재 3년 이상 계속 울진군에 주민등록 되어 함께 실거주하는 세대로 한다.<개정 2023.5.1.>",
+        "제12조(지급신청 및 방법) ① 효행수당을 지급 받고자 하는 자는 별지 제1호 서식에 따른 신청서를 해당 읍·면장에게 제출하여야 한다.② 읍·면장은 신청서가 접수되면 해당 행정기관의 행정정보를 이용하여 신청인 주소, 관내에 실 거주기간 등을 확인하여 대상자를 군수에게 별지 제1호, 2호 서식을 제출하여야 한다.③ 군수는 대상자를 확정하여 개인별 금융계좌로 지급한다.④ 본인이 부득이한 사유로 신청할 수 없을 경우에는 배우자, 부양의무자 또는 위임 받은 자(위임장 소지자)의 신청에 의하여 지급한다."
+      ],
+      "independentBodyReview": true,
+      "condition": "신청인·가족 구성·계좌를 작성합니다. 대상자 적격 여부와 4대 실거주 확인란은 담당자 및 이장이 작성합니다."
+    },
+    {
+      "sourceKind": "ordin",
+      "lawTitle": "울진군 효행장려 및 지원 조례",
+      "lawId": "1806565",
+      "annexId": "15521739",
+      "annexNumber": "000100",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=127806099&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C1%ED%98%B8+%EC%84%9C%EC%8B%9D%5D+%ED%9A%A8%ED%96%89%EC%88%98%EB%8B%B9+%EC%A7%80%EA%B8%89%EC%8B%A0%EC%B2%AD%EC%84%9C",
+      "officialPdfUrl": null,
+      "dateKind": "effective",
+      "effectiveDate": "2023-05-01",
+      "regionCode": "47930",
+      "regionLabel": "경상북도 울진군",
+      "formId": "ordin-15521739",
+      "formTitle": "[별지 제1호 서식] 효행수당 지급신청서",
+      "sourceMetadataTitle": "[별지 제1호 서식] 효행수당 지급신청서",
+      "verifiedDocumentTitle": "[별지 제1호 서식] 효행수당 지급신청서",
+      "programIds": [
+        "g47930.gov24-525000000109"
+      ],
+      "programNames": [
+        "효행장려 지원"
+      ],
+      "use": "main",
+      "role": "application",
+      "checkedAt": "2026-10-18",
+      "evidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1806565",
+      "evidenceNote": "조례 제12조가 4대 동거 효행수당을 별지 제1호로 신청하도록 한다. 원본의 가족 구성·전입일·지급계좌·본인 서명과 이장 실거주 확인을 읽었고 두 사업 모두 울진 80세 이상 존속 포함 4대·3년 동거·명절 효행수당 및 읍면 신청으로 정확히 일치한다.",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "sha256": "bc4e51293b18b279a2da723490502d2e504d8af4c519aa1d3ee1f1a6c7f02b1d",
+      "bytes": 13824,
+      "signature": "d0cf11e0a1b11ae1",
+      "originalFormat": "hwp",
+      "originalTextScope": "all_body_sections_or_pages",
+      "textScope": "all_body_sections_or_pages",
+      "inspectionScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "BodyText/Section0"
+      ],
+      "reviewedBy": "codex-national_form_audit",
+      "reviewedAt": "2026-10-18",
+      "roleBasis": "조례 제12조가 4대 동거 효행수당을 별지 제1호로 신청하도록 한다. 원본의 가족 구성·전입일·지급계좌·본인 서명과 이장 실거주 확인을 읽었고 두 사업 모두 울진 80세 이상 존속 포함 4대·3년 동거·명절 효행수당 및 읍면 신청으로 정확히 일치한다.",
+      "roleEvidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1806565",
+      "roleCheckedAt": "2026-10-18",
+      "reviewedParts": [
+        {
+          "number": "1",
+          "title": "[별지 제1호 서식] 효행수당 지급신청서",
+          "use": "main",
+          "author": "사업의 지원대상 신청인 또는 허용된 대리인"
+        }
+      ],
+      "bodyEvidenceArticles": [
+        "제9조(지급대상) 효행수당의 지급대상자(이하 \"대상자\"라 한다)는 80세 이상의 직계존속과 직계비속을 포함한 4대가 지급 기준일 현재 3년 이상 계속 울진군에 주민등록 되어 함께 실거주하는 세대로 한다.<개정 2023.5.1.>",
+        "제12조(지급신청 및 방법) ① 효행수당을 지급 받고자 하는 자는 별지 제1호 서식에 따른 신청서를 해당 읍·면장에게 제출하여야 한다.② 읍·면장은 신청서가 접수되면 해당 행정기관의 행정정보를 이용하여 신청인 주소, 관내에 실 거주기간 등을 확인하여 대상자를 군수에게 별지 제1호, 2호 서식을 제출하여야 한다.③ 군수는 대상자를 확정하여 개인별 금융계좌로 지급한다.④ 본인이 부득이한 사유로 신청할 수 없을 경우에는 배우자, 부양의무자 또는 위임 받은 자(위임장 소지자)의 신청에 의하여 지급한다."
+      ],
+      "independentBodyReview": true,
+      "condition": "신청인·가족 구성·계좌를 작성합니다. 대상자 적격 여부와 4대 실거주 확인란은 담당자 및 이장이 작성합니다."
+    },
+    {
+      "sourceKind": "ordin",
+      "lawTitle": "부산광역시 해운대구 출산장려 지원 조례",
+      "lawId": "1806715",
+      "annexId": "21473885",
+      "annexNumber": "000100",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=161181361&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C1%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EC%B6%9C%EC%82%B0%EC%84%9C%EB%B9%84%EC%8A%A4+%ED%86%B5%ED%95%A9%EC%B2%98%EB%A6%AC+%EC%8B%A0%EC%B2%AD%EC%84%9C",
+      "officialPdfUrl": null,
+      "dateKind": "effective",
+      "effectiveDate": "2023-05-08",
+      "regionCode": "26350",
+      "regionLabel": "부산광역시 해운대구",
+      "formId": "ordin-21473885",
+      "formTitle": "[별지 제1호서식] 출산서비스 통합처리 신청서",
+      "sourceMetadataTitle": "[별지 제1호서식] 출산서비스 통합처리 신청서",
+      "verifiedDocumentTitle": "[별지 제1호서식] 출산서비스 통합처리 신청서",
+      "programIds": [
+        "g26350.gov24-333000000381"
+      ],
+      "programNames": [
+        "해운대구 출산지원금 지원"
+      ],
+      "use": "conditional",
+      "role": "application",
+      "checkedAt": "2026-10-18",
+      "evidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1806715",
+      "evidenceNote": "조례 제5조제2항은 출산서비스 통합처리 별지 제1호로 신청하도록 하고 사업 documents도 통합신청서를 명시한다. 전체 3쪽 원본에서 해운대구 출산지원금은 둘째·셋째 이상만 선택하도록 되어 있다. 현재 사업 안내의 2026년 첫째아 확대를 이 원본에 반영된 것으로 오인하지 않도록 둘째 이상 신청에만 연결하고 첫째아는 현재 서식 확인 대상으로 분리한다.",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "sha256": "1f3ad4d9b21170a3836b229d2535adaa36744d5f647babd6decef923b171d49f",
+      "bytes": 113152,
+      "signature": "d0cf11e0a1b11ae1",
+      "originalFormat": "hwp",
+      "originalTextScope": "all_body_sections_or_pages",
+      "textScope": "all_body_sections_or_pages",
+      "inspectionScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "BodyText/Section0"
+      ],
+      "reviewedBy": "codex-national_form_audit",
+      "reviewedAt": "2026-10-18",
+      "roleBasis": "조례 제5조제2항은 출산서비스 통합처리 별지 제1호로 신청하도록 하고 사업 documents도 통합신청서를 명시한다. 전체 3쪽 원본에서 해운대구 출산지원금은 둘째·셋째 이상만 선택하도록 되어 있다. 현재 사업 안내의 2026년 첫째아 확대를 이 원본에 반영된 것으로 오인하지 않도록 둘째 이상 신청에만 연결하고 첫째아는 현재 서식 확인 대상으로 분리한다.",
+      "roleEvidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1806715",
+      "roleCheckedAt": "2026-10-18",
+      "reviewedParts": [
+        {
+          "number": "1 해운대구 항목",
+          "title": "해운대구 출산지원금 둘째아 이상 신청",
+          "use": "conditional",
+          "author": "출생아 부모 또는 허용된 보호자·대리인"
+        },
+        {
+          "number": "1 공통 동의",
+          "title": "출산서비스 통합처리 동의 및 확인",
+          "use": "additional",
+          "author": "신청인 또는 대리인"
+        },
+        {
+          "number": "1 기타 서비스",
+          "title": "부산시·전국공통 다른 급여 선택항목",
+          "use": "excluded",
+          "author": "각 별도 서비스 신청자"
+        }
+      ],
+      "bodyEvidenceArticles": [
+        "제4조(지원대상자의 범위)① 출산지원금 및 출산장려용품 지원대상자는 다음 각 호와 같다.1. 출산지원금 지원대상자는 출생신고일 현재 부산광역시 해운대구(이하 “구”라 한다)에 주민등록 또는 외국인등록을 하고 실제 거주하는 출생아동의 부 또는 모. 다만 지원대상자가 외국인인 경우에는 부 또는 모 중에 한 명이 대한민국 국적인 경우에 한한다.2. 출산장려용품 지원대상자는 신혼부부② 출산지원금 지원대상 아동의 출생순서는 가족관계등록부의 자녀 순서에 따른다. 다만, 재혼가정의 경우 지원대상자와 주민등록상 동일한 세대에 등재되어 있고 실질적으로 양육하는 경우에만 자녀의 순서에 포함한다.③ 제1항제1호에도 불구하고 구에 출생신고한 아동이 부모의 이혼이나 사망ㆍ실종 등의 사유로 부모가 아닌 사람과 거주하는 경우에는 구에 주민등록이 같이 되어 있으면서 사실상 출생아동을 양육하는 보호자를 지원대상자로 한다.④ 제1항제1호에도 불구하고 다음 각 호의 어느 하나에 해당하는 경우에는 제1항에 따른 지원대상에서 제외한다.1. 국외에서 자녀를 출산한 경우. 다만 다음 각 목의 어느 하나에 해당하는 경우는 지원 대상에 포함한다.가. 「다문화가족지원법」제2조제1호에 따른 다문화가족 중 부 또는 모가 구에 주소를 두고 외국에서 출산한 경우나. 직장, 학업 등의 불가피한 사유가 있다고 구청장이 인정한 경우2. 다른 지방자치단체에서 출산지원금과 동일하거나 유사한 내용의 지원을 받은 경우",
+        "제5조(지원신청)① 출산지원금 및 출산장려용품의 지원신청을 할 수 있는 사람(이하 “신청인”이라 한다)은 제4조에 따른 지원대상자로 한다.② 신청인은 출생아동의 출생일로부터 1년 이내에 주민등록지를 관할하는 동장에게 별지 제1호 서식의 출산서비스 통합처리 신청서(이하 “신청서”라 한다) 및 구비서류를 제출하여야 한다. 단, 출산장려용품을 지급받으려는 신혼부부는 혼인신고일로부터 30일 이내에 신청하여야 한다."
+      ],
+      "independentBodyReview": true,
+      "condition": "이 원본은 해운대구 출산지원금의 둘째아 이상 선택항목이 있는 판본입니다. 첫째아 지원 신청에는 현재 접수 서식을 확인해야 합니다. 다른 전국·부산시 통합서비스 항목은 이번 사업 연결 범위가 아닙니다."
+    },
+    {
+      "sourceKind": "ordin",
+      "lawTitle": "하동군 공영장례 지원 조례",
+      "lawId": "1808797",
+      "annexId": "20715755",
+      "annexNumber": "000300",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=154970521&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C3%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EA%B3%B5%EC%98%81%EC%9E%A5%EB%A1%80+%EB%B9%84%EC%9A%A9+%EC%B2%AD%EA%B5%AC%EC%84%9C",
+      "officialPdfUrl": null,
+      "dateKind": "effective",
+      "effectiveDate": "2023-05-12",
+      "regionCode": "48850",
+      "regionLabel": "경상남도 하동군",
+      "formId": "ordin-20715755",
+      "formTitle": "[별지 제3호서식] 공영장례 비용 청구서",
+      "sourceMetadataTitle": "[별지 제3호서식] 공영장례 비용 청구서",
+      "verifiedDocumentTitle": "[별지 제3호서식] 공영장례 비용 청구서",
+      "programIds": [
+        "g48850.bokjiro-WLF00005707"
+      ],
+      "programNames": [
+        "무연고 사망자 공영장례 지원"
+      ],
+      "use": "conditional",
+      "role": "application",
+      "checkedAt": "2026-10-18",
+      "evidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1808797",
+      "evidenceNote": "조례 제7조제4·5항은 지원 결정 후 신청인·대행기관 또는 지정된 장례수행자가 별지 제3호로 장례비를 청구할 수 있도록 정한다. 실제 원본의 신청인(대행기관)·성명(대표자)·장례결과·지출영수증·청구서명과 사업이 명시한 동일 장례비 지원 항목을 확인했다. 기관 전용이라고 일괄 제외하지 않고 군이 정한 비용청구자에게만 조건부 연결한다.",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "sha256": "acd3e926d3ae65969606f24f2c71e3df54ea63c64db91ec1b6f8bd028de368e4",
+      "bytes": 40448,
+      "signature": "d0cf11e0a1b11ae1",
+      "originalFormat": "hwp",
+      "originalTextScope": "all_body_sections_or_pages",
+      "textScope": "all_body_sections_or_pages",
+      "inspectionScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "BodyText/Section0"
+      ],
+      "reviewedBy": "codex-national_form_audit",
+      "reviewedAt": "2026-10-18",
+      "roleBasis": "조례 제7조제4·5항은 지원 결정 후 신청인·대행기관 또는 지정된 장례수행자가 별지 제3호로 장례비를 청구할 수 있도록 정한다. 실제 원본의 신청인(대행기관)·성명(대표자)·장례결과·지출영수증·청구서명과 사업이 명시한 동일 장례비 지원 항목을 확인했다. 기관 전용이라고 일괄 제외하지 않고 군이 정한 비용청구자에게만 조건부 연결한다.",
+      "roleEvidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1808797",
+      "roleCheckedAt": "2026-10-18",
+      "reviewedParts": [
+        {
+          "number": "3",
+          "title": "[별지 제3호서식] 공영장례 비용 청구서",
+          "use": "conditional",
+          "author": "지원 결정 후 군이 지정한 비용청구자 또는 장례 대행기관"
+        }
+      ],
+      "bodyEvidenceArticles": [
+        "제4조(지원대상)① 군수는 사망 당시 하동군에 주민등록을 둔 사람으로서 다음 각 호의 어느 하나에 해당하는 경우 공영장례를 지원할 수 있다.1. 「장사 등에 관한 법률」 제12조제1항에 따른 무연고 사망자 및 연고자를 알 수 없는 경우2. 연고자가 있으나 시신 인수를 거부·기피하는 경우3. 저소득층 사망자로서 다음 각 목의 어느 하나에 해당하는 경우가. 연고자가 미성년자 또는 장애인으로만 구성되어 있어 장례처리 능력이 없는 경우나. 연고자가 75세 이상 노인인 경우4. 그 밖에 군수가 공영장례 지원이 필요하다고 인정하는 경우② 제1항제3호 각 목의 연고자는 사망자와 동일 주민등록세대인 사람으로 한정한다.",
+        "제6조(지원내용) 군수는 다음 각 호의 장례비용을 「국민기초생활보장법」에 따른 수급자 장제급여의 200% 범위에서 지원할 수 있다.1. 사체 검안비, 운반비, 영안실 안치료2. 병풍, 천막, 상, 향로, 촛대, 운구 차량, 조기(弔旗) 등 장례용품 대여비3. 수의, 관, 상복, 염사 등 일회적 장례용품4. 장례업체, 비영리단체와 연계를 통한 인력 및 장소5. 화장비용, 유품정리 비용 등",
+        "제7조(지원신청 및 결정)① 공영장례 지원을 받고자 하는 연고자, 이웃, 대행기관 등(이하 “신청인”이라 한다)은 별지 제1호서식의 지원신청서를 군수에게 제출하여야 한다.② 군수는 제1항에 따른 신청서를 접수한 때에는 지원 여부를 결정하여 신청인에게 서면 등의 방법으로 그 사실을 알려야 한다.③ 제4조제1호 및 제2호에 해당되어 시신처리를 위임하고자 하는 경우에는 별지 제2호서식의 위임장을 군수에게 제출하여야 한다.④ 군수는 공영장례의 지원이 결정되면 신청인, 제8조에 따른 대행기관 또는 장례처리를 성실하게 수행할 수 있는 사람을 지정하여 장례비를 지급할 수 있다.⑤ 제4항에 따라 공영장례 비용을 청구하고자 하는 자는 별지 제3호서식의 신청서를 군수에게 제출하여야 한다."
+      ],
+      "independentBodyReview": true,
+      "condition": "공영장례 지원이 결정된 뒤 군이 비용을 지급할 대상으로 정한 신청인·대행기관·장례수행자가 장례비를 청구할 때 사용합니다. 최초 공영장례 지원 신청서는 별지 제1호입니다."
+    },
+    {
+      "sourceKind": "ordin",
+      "lawTitle": "서울특별시 노원구 장수축하금 지급에 관한 조례",
+      "lawId": "1810299",
+      "annexId": "21463593",
+      "annexNumber": "000100",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=161101731&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C1%ED%98%B8%EC%84%9C%EC%8B%9D%5D%EC%9E%A5%EC%88%98%EC%B6%95%ED%95%98%EA%B8%88+%EC%A7%80%EA%B8%89%EC%8B%A0%EC%B2%AD%EC%84%9C",
+      "officialPdfUrl": null,
+      "dateKind": "effective",
+      "effectiveDate": "2023-06-28",
+      "regionCode": "11350",
+      "regionLabel": "서울특별시 노원구",
+      "formId": "ordin-21463593",
+      "formTitle": "[별지 제1호서식]장수축하금 지급신청서",
+      "sourceMetadataTitle": "[별지 제1호서식]장수축하금 지급신청서",
+      "verifiedDocumentTitle": "[별지 제1호서식]장수축하금 지급신청서",
+      "programIds": [
+        "g11350.gov24-310000000103"
+      ],
+      "programNames": [
+        "장수축하금 지원"
+      ],
+      "use": "main",
+      "role": "application",
+      "checkedAt": "2026-10-18",
+      "evidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1810299",
+      "evidenceNote": "조례 제6조제1항은 장수축하금 신청에 별지 제1호를 지정한다. 원본의 지급대상자·가족·계좌·신청인 관계·서명과 사업의 노원 거주 90세 및 100세 장수축하금·주민센터 접수가 일치한다.",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "sha256": "f9e84d47c68ab9f709b28d34d73ef8e878be521c8b431a8b797a38c0562ca739",
+      "bytes": 25088,
+      "signature": "d0cf11e0a1b11ae1",
+      "originalFormat": "hwp",
+      "originalTextScope": "all_body_sections_or_pages",
+      "textScope": "all_body_sections_or_pages",
+      "inspectionScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "BodyText/Section0"
+      ],
+      "reviewedBy": "codex-national_form_audit",
+      "reviewedAt": "2026-10-18",
+      "roleBasis": "조례 제6조제1항은 장수축하금 신청에 별지 제1호를 지정한다. 원본의 지급대상자·가족·계좌·신청인 관계·서명과 사업의 노원 거주 90세 및 100세 장수축하금·주민센터 접수가 일치한다.",
+      "roleEvidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1810299",
+      "roleCheckedAt": "2026-10-18",
+      "reviewedParts": [
+        {
+          "number": "1",
+          "title": "[별지 제1호서식]장수축하금 지급신청서",
+          "use": "main",
+          "author": "사업의 지원대상 신청인 또는 허용된 대리인"
+        }
+      ],
+      "bodyEvidenceArticles": [
+        "제3조(지급대상) 장수축하금의 지급대상자는 지급기준일(신청일) 현재 서울특별시 노원구(이하 “노원구”라 한다) 관내에 1년 이상 주민등록을 두고 계속하여 거주하고 있는 장수어르신으로 한정한다.",
+        "제6조(지급신청 및 방법)① 장수축하금을 지급받고자 하는 사람은 별지 제1호서식의 신청서를 관할 동장에게 제출하여야 한다.② 동장은 신청서가 접수되면 행정정보를 이용하여 신청인의 생년월일, 주소, 관내 주민등록 등재 여부 및 거주기간 등을 확인하여 지원대상자로 확인된 경우, 매달 1일부터 말일까지 접수된 신청서를 그 다음달 5일까지 서울특별시 노원구청장(이하 “구청장”이라 한다)에게 전산으로 송부하여야 한다.③ 구청장은 명부를 송부받은 달의 말까지 장수축하금을 지원대상자 예금통장에 입금하여야 한다.④ 장수축하금을 본인이 신청할 수 없는 경우에는 배우자, 부양의무자 또는 위임받은 사람(위임장 소지자: 별지 제2호서식)의 신청에 따라 지급한다."
+      ],
+      "independentBodyReview": true
+    },
+    {
+      "sourceKind": "ordin",
+      "lawTitle": "서울특별시 노원구 장수축하금 지급에 관한 조례",
+      "lawId": "1810299",
+      "annexId": "21463595",
+      "annexNumber": "000200",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=161101733&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C2%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EC%9E%A5%EC%88%98%EC%B6%95%ED%95%98%EA%B8%88+%EC%A7%80%EA%B8%89%EC%8B%A0%EC%B2%AD+%EC%9C%84%EC%9E%84%EC%9E%A5",
+      "officialPdfUrl": null,
+      "dateKind": "effective",
+      "effectiveDate": "2023-06-28",
+      "regionCode": "11350",
+      "regionLabel": "서울특별시 노원구",
+      "formId": "ordin-21463595",
+      "formTitle": "[별지 제2호서식] 장수축하금 지급신청 위임장",
+      "sourceMetadataTitle": "[별지 제2호서식] 장수축하금 지급신청 위임장",
+      "verifiedDocumentTitle": "[별지 제2호서식] 장수축하금 지급신청 위임장",
+      "programIds": [
+        "g11350.gov24-310000000103"
+      ],
+      "programNames": [
+        "장수축하금 지원"
+      ],
+      "use": "conditional",
+      "role": "delegation",
+      "checkedAt": "2026-10-18",
+      "evidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1810299",
+      "evidenceNote": "조례 제6조제4항은 본인이 신청하지 못하면 위임받은 자가 별지 제2호 위임장으로 신청하도록 하며 사업도 대리인 위임장을 준비서류로 명시한다. 실제 원본의 수임자·관계·사유·위임자 서명과 장수축하금 신청권한을 확인했다.",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "sha256": "4d2e4451f1fcb97463623d32a4d16abefd9c25b51ec87f3c72ac7460f1740187",
+      "bytes": 20992,
+      "signature": "d0cf11e0a1b11ae1",
+      "originalFormat": "hwp",
+      "originalTextScope": "all_body_sections_or_pages",
+      "textScope": "all_body_sections_or_pages",
+      "inspectionScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "BodyText/Section0"
+      ],
+      "reviewedBy": "codex-national_form_audit",
+      "reviewedAt": "2026-10-18",
+      "roleBasis": "조례 제6조제4항은 본인이 신청하지 못하면 위임받은 자가 별지 제2호 위임장으로 신청하도록 하며 사업도 대리인 위임장을 준비서류로 명시한다. 실제 원본의 수임자·관계·사유·위임자 서명과 장수축하금 신청권한을 확인했다.",
+      "roleEvidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1810299",
+      "roleCheckedAt": "2026-10-18",
+      "reviewedParts": [
+        {
+          "number": "2",
+          "title": "[별지 제2호서식] 장수축하금 지급신청 위임장",
+          "use": "conditional",
+          "author": "장수축하금 지급대상 위임자"
+        }
+      ],
+      "bodyEvidenceArticles": [
+        "제6조(지급신청 및 방법)① 장수축하금을 지급받고자 하는 사람은 별지 제1호서식의 신청서를 관할 동장에게 제출하여야 한다.② 동장은 신청서가 접수되면 행정정보를 이용하여 신청인의 생년월일, 주소, 관내 주민등록 등재 여부 및 거주기간 등을 확인하여 지원대상자로 확인된 경우, 매달 1일부터 말일까지 접수된 신청서를 그 다음달 5일까지 서울특별시 노원구청장(이하 “구청장”이라 한다)에게 전산으로 송부하여야 한다.③ 구청장은 명부를 송부받은 달의 말까지 장수축하금을 지원대상자 예금통장에 입금하여야 한다.④ 장수축하금을 본인이 신청할 수 없는 경우에는 배우자, 부양의무자 또는 위임받은 사람(위임장 소지자: 별지 제2호서식)의 신청에 따라 지급한다."
+      ],
+      "independentBodyReview": true,
+      "condition": "장수축하금 신청을 다른 사람에게 위임할 때만 사용하는 서류입니다."
+    },
+    {
+      "sourceKind": "ordin",
+      "lawTitle": "서울특별시 노원구 장애인 이동기기 수리 등의 지원에 관한 조례",
+      "lawId": "1810341",
+      "annexId": "18050999",
+      "annexNumber": "000100",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=142361419&flNm=%5B%EB%B3%84%EC%A7%80%EC%84%9C%EC%8B%9D%5D+%EC%9E%A5%EC%95%A0%EC%9D%B8+%EC%9D%B4%EB%8F%99%EA%B8%B0%EA%B8%B0+%EC%88%98%EB%A6%AC+%EC%8B%A0%EC%B2%AD%EC%84%9C",
+      "officialPdfUrl": null,
+      "dateKind": "effective",
+      "effectiveDate": "2023-05-18",
+      "regionCode": "11350",
+      "regionLabel": "서울특별시 노원구",
+      "formId": "ordin-18050999",
+      "formTitle": "[별지서식] 장애인 이동기기 수리 신청서",
+      "sourceMetadataTitle": "[별지서식] 장애인 이동기기 수리 신청서",
+      "verifiedDocumentTitle": "[별지서식] 장애인 이동기기 수리 신청서",
+      "programIds": [
+        "g11350.gov24-310000000117"
+      ],
+      "programNames": [
+        "장애인 이동기기 수리비 지원"
+      ],
+      "use": "main",
+      "role": "application",
+      "checkedAt": "2026-10-18",
+      "evidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1810341",
+      "evidenceNote": "조례 제6조는 장애인이 수리신청서와 수급자 또는 장애인 증빙을 동 주민센터에 제출하고 동장이 수리센터에 의뢰하도록 한다. 실제 원본의 장애인·수급유형·수동휠체어·전동휠체어·전동스쿠터·신청 서명을 확인했다. 사업은 같은 노원구의 동일 이동기기 수리 및 주민센터 접수·신청서 제출을 명시한다. 사업이 더 넓은 장애인복지 조례를 인용하는 점은 보존하고 정확한 서비스 목적·대상·절차를 추가 증거로 삼았다.",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "sha256": "538b99f4d033cb45e550c6e0ee36cf10934c2afef9c37e8a3ddf15b641d19a62",
+      "bytes": 32768,
+      "signature": "d0cf11e0a1b11ae1",
+      "originalFormat": "hwp",
+      "originalTextScope": "all_body_sections_or_pages",
+      "textScope": "all_body_sections_or_pages",
+      "inspectionScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "BodyText/Section0"
+      ],
+      "reviewedBy": "codex-national_form_audit",
+      "reviewedAt": "2026-10-18",
+      "roleBasis": "조례 제6조는 장애인이 수리신청서와 수급자 또는 장애인 증빙을 동 주민센터에 제출하고 동장이 수리센터에 의뢰하도록 한다. 실제 원본의 장애인·수급유형·수동휠체어·전동휠체어·전동스쿠터·신청 서명을 확인했다. 사업은 같은 노원구의 동일 이동기기 수리 및 주민센터 접수·신청서 제출을 명시한다. 사업이 더 넓은 장애인복지 조례를 인용하는 점은 보존하고 정확한 서비스 목적·대상·절차를 추가 증거로 삼았다.",
+      "roleEvidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1810341",
+      "roleCheckedAt": "2026-10-18",
+      "reviewedParts": [
+        {
+          "number": "별지 서식",
+          "title": "[별지서식] 장애인 이동기기 수리 신청서",
+          "use": "main",
+          "author": "사업의 지원대상 신청인 또는 허용된 대리인"
+        }
+      ],
+      "bodyEvidenceArticles": [
+        "제4조(수리비용 지원) 구청장은 구에 거주하는 장애인의 이동기기 수리비용에 대하여 예산의 범위에서 전부 또는 일부를 지원할 수 있다.",
+        "제6조(지원절차) 장애인 이동기기를 수리 받고자 하는 자는 별지 서식의 장애인 이동기기 수리 신청서에 다음 각 호의 어느 하나에 해당하는 증명서류를 첨부하여 거주지 동 주민센터에 신청하여야 한다. <개정 2023.5.18.>1. 제5조제3항제1호에 따른 수급자: 수급자 증명서 등 증명서류2. 제1호 외의 장애인 : 장애인 복지카드 등 증명서류② 동장은 다음 각 호의 사항을 검토하여 지원대상자 여부를 확인한다. <신설 2023.5.18.>1. 관내 실제 거주하는 장애인 여부2. 「국민기초생활 보장법」에 따른 수급자 또는 차상위계층 해당 여부③ 제2항에 따라 동장이 검토한 결과 지원대상자로 인정되는 경우에는 동장이 수리센터에 수리를 의뢰하고, 수리센터는 수리를 이행한다. <신설 2023.5.18.>④ 수리센터는 매달 1일부터 말일까지의 수리내역을 수리비용 청구서와 함께 구청장에게 송부하여야 한다. <신설 2023.5.18.>⑤ 구청장은 지원대상자 현황과 수리내역서 및 수리비용 청구서를 확인한 후 수리비용을 수리센터의 계좌에 입금한다. <신설 2023.5.18.>"
+      ],
+      "independentBodyReview": true,
+      "programEvidenceUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/310000000117",
+      "matchingBasis": "exact-local-service-purpose-target-and-procedure",
+      "verifiedAnnexNumber": "번호 없음",
+      "annexNumberNote": "공식 annexNumber는 보존하되 원본 머리말은 번호 없는 별지 서식이므로 reviewedParts에 임의의 제1호 번호를 부여하지 않는다."
+    },
+    {
+      "sourceKind": "ordin",
+      "lawTitle": "서울특별시 노원구 저소득주민 국민건강보험료 지원조례 시행규칙",
+      "lawId": "1810375",
+      "annexId": "18053825",
+      "annexNumber": "000100",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=142366931&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C1%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EA%B5%AD%EB%AF%BC%EA%B1%B4%EA%B0%95%EB%B3%B4%ED%97%98%EB%A3%8C+%EB%B0%8F+%EB%85%B8%EC%9D%B8%EC%9E%A5%EA%B8%B0%EC%9A%94%EC%96%91%EB%B3%B4%ED%97%98%EB%A3%8C+%EC%A7%80%EC%9B%90+%EC%8B%A0%EC%B2%AD%EC%84%9C",
+      "officialPdfUrl": null,
+      "dateKind": "effective",
+      "effectiveDate": "2023-06-28",
+      "regionCode": "11350",
+      "regionLabel": "서울특별시 노원구",
+      "formId": "ordin-18053825",
+      "formTitle": "[별지 제1호서식] 국민건강보험료 및 노인장기요양보험료 지원 신청서",
+      "sourceMetadataTitle": "[별지 제1호서식] 국민건강보험료 및 노인장기요양보험료 지원 신청서",
+      "verifiedDocumentTitle": "[별지 제1호서식] 국민건강보험료 및 노인장기요양보험료 지원 신청서",
+      "programIds": [
+        "g11350.gov24-310000000121"
+      ],
+      "programNames": [
+        "저소득 주민 국민건강보험료 지원"
+      ],
+      "use": "main",
+      "role": "application",
+      "checkedAt": "2026-10-18",
+      "evidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1810375",
+      "evidenceNote": "시행규칙 제3조제1항은 보험료 지원예정 대상자가 별지 제1호를 동 주민센터에 제출하도록 규정한다. 원본의 노인세대·가족·금융자산·기초연금 공적정보 동의·보험료 지원 신청 문구와 사업의 저소득 노인 건강보험료 지원 및 주소지 접수가 일치한다. 국민건강보험공단의 일괄 대납 자료가 아닌 주민 본인 신청서다.",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "sha256": "561559d15397e62bb38ac220e94c4871440ab171a27cc49d8d2bd318cd697c3a",
+      "bytes": 15360,
+      "signature": "d0cf11e0a1b11ae1",
+      "originalFormat": "hwp",
+      "originalTextScope": "all_body_sections_or_pages",
+      "textScope": "all_body_sections_or_pages",
+      "inspectionScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "BodyText/Section0"
+      ],
+      "reviewedBy": "codex-national_form_audit",
+      "reviewedAt": "2026-10-18",
+      "roleBasis": "시행규칙 제3조제1항은 보험료 지원예정 대상자가 별지 제1호를 동 주민센터에 제출하도록 규정한다. 원본의 노인세대·가족·금융자산·기초연금 공적정보 동의·보험료 지원 신청 문구와 사업의 저소득 노인 건강보험료 지원 및 주소지 접수가 일치한다. 국민건강보험공단의 일괄 대납 자료가 아닌 주민 본인 신청서다.",
+      "roleEvidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1810375",
+      "roleCheckedAt": "2026-10-18",
+      "reviewedParts": [
+        {
+          "number": "1",
+          "title": "[별지 제1호서식] 국민건강보험료 및 노인장기요양보험료 지원 신청서",
+          "use": "main",
+          "author": "사업의 지원대상 신청인 또는 허용된 대리인"
+        }
+      ],
+      "bodyEvidenceArticles": [
+        "제2조(노인세대) 조례 제2조에서 “노인세대”라 함은 국민건강보험료 및 노인장기요양보험료(이하 “보험료”라 한다) 부과기준일 현재 세대주가 주민등록상 65세 이상이고, 세대주 단독 또는 세대주와 그 배우자로만 구성된 세대를 말한다. <개정 2023.5.18.>",
+        "제3조(지원신청)① 조례 제2조의 규정에 의한 지원예정 대상자가 보험료 지원을 받고자 할 때에는 별지 제1호서식의 보험료 지원신청서를 주민등록지 동 주민센터에 제출하여야 한다. <개정 2018.5.3.>② 제1항의 보험료 지원신청은 기초연금의 공적자료 조회가 선행된 자에 한하며 해당 공적자료에 대한 정보제공동의서를 동 주민센터에 제출하여야 한다. <개정 2018.5.3.>"
+      ],
+      "independentBodyReview": true
+    },
+    {
+      "sourceKind": "ordin",
+      "lawTitle": "대구광역시 환경공무직 대학생 자녀 장학금 지급 조례",
+      "lawId": "1811749",
+      "annexId": "22305977",
+      "annexNumber": "000200",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=167849289&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C2%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EC%84%9C%EC%95%BD%EC%84%9C",
+      "officialPdfUrl": null,
+      "dateKind": "effective",
+      "effectiveDate": "2023-05-22",
+      "regionCode": "27000",
+      "regionLabel": "대구광역시",
+      "formId": "ordin-22305977",
+      "formTitle": "[별지 제2호서식] 서약서",
+      "sourceMetadataTitle": "[별지 제2호서식] 서약서",
+      "verifiedDocumentTitle": "[별지 제2호서식] 서약서",
+      "programIds": [
+        "s27000.gov24-627000000104"
+      ],
+      "programNames": [
+        "환경공무직 자녀 장학금 지급"
+      ],
+      "use": "conditional",
+      "role": "consent",
+      "checkedAt": "2026-10-18",
+      "evidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1811749",
+      "evidenceNote": "조례 제5조제2항은 선발된 환경공무직 대학생 자녀 장학생이 별지 제2호 서약서를 제출하도록 한다. HWPX 원본의 재학사항·다른 장학금 중복수혜 여부·환수서약·학생 서명과 사업의 동일 장학금 대상을 확인했다. 최초 지급신청서와 구분하여 선발 후 서약에 연결한다.",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "sha256": "42020a1208a6fa50ce6125e168c173534afe8380c8048d327b3e4fd684cdd245",
+      "bytes": 42443,
+      "signature": "504b030414000000",
+      "originalFormat": "hwpx",
+      "originalTextScope": "all_body_sections_or_pages",
+      "textScope": "all_body_sections_or_pages",
+      "inspectionScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "Contents/section0.xml"
+      ],
+      "reviewedBy": "codex-national_form_audit",
+      "reviewedAt": "2026-10-18",
+      "roleBasis": "조례 제5조제2항은 선발된 환경공무직 대학생 자녀 장학생이 별지 제2호 서약서를 제출하도록 한다. HWPX 원본의 재학사항·다른 장학금 중복수혜 여부·환수서약·학생 서명과 사업의 동일 장학금 대상을 확인했다. 최초 지급신청서와 구분하여 선발 후 서약에 연결한다.",
+      "roleEvidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1811749",
+      "roleCheckedAt": "2026-10-18",
+      "reviewedParts": [
+        {
+          "number": "2",
+          "title": "[별지 제2호서식] 서약서",
+          "use": "conditional",
+          "author": "선발된 대학생 장학생"
+        }
+      ],
+      "bodyEvidenceArticles": [
+        "제5조(장학생의 선발)① 시장은 제4조에 따라 추천받은 사람 중에서 시와 구ㆍ군의 환경공무직 현원을 고려하여 다음 각 호의 순서에 따라 장학생을 선발한다.1. 환경미화 업무 중 순직 및 공상을 당한 환경공무직의 자녀2. 「상훈법」에 의한 훈장 및 포장, 「대구광역시 각종 포상운영 조례」에 의한 포상을 받은 환경공무직의 자녀3. 장기근속 환경공무직의 자녀4. 그 밖에 시장, 구청장, 군수가 장학금 지급이 필요하다고 인정하는 사람② 제1항에 따라 선발된 장학생은 별지 제2호서식의 서약서를 시장에게 제출하여야 한다.",
+        "제6조(장학금의 지급 및 제한)① 시장은 제5조에 따라 선발된 장학생에게 예산의 범위 내에서 장학금을 연 1회 지급한다. 다만, 특별한 사유가 있을 때에는 분할 지급할 수 있다.② 제1항에 따라 장학금 지급 시 별지 제3호서식의 장학증서를 장학생에게 수여한다.③ 시장은 장학생이 국가ㆍ지방자치단체ㆍ학교ㆍ사회단체ㆍ기업 등 다른 기관에서 장학금을 수령한 경우에는 지급대상에서 제외한다. 다만, 다른 기관에서 수령한 장학금이 본 장학금에 미달하는 경우에는 그 차액을 지급할 수 있다."
+      ],
+      "independentBodyReview": true,
+      "condition": "환경공무직 대학생 자녀 장학생으로 선발된 뒤 제출하는 중복수혜 관련 서약서입니다. 최초 신청서는 별지 제1호입니다."
+    },
+    {
+      "sourceKind": "ordin",
+      "lawTitle": "서울특별시 양천구 전입세대 지원에 관한 조례",
+      "lawId": "1812519",
+      "annexId": "15582095",
+      "annexNumber": "000100",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=128428613&flNm=%EB%B3%84%EC%A7%80+%EC%84%9C%EC%8B%9D",
+      "officialPdfUrl": null,
+      "dateKind": "effective",
+      "effectiveDate": "2023-07-01",
+      "regionCode": "11470",
+      "regionLabel": "서울특별시 양천구",
+      "formId": "ordin-15582095",
+      "formTitle": "별지 서식",
+      "sourceMetadataTitle": "별지 서식",
+      "verifiedDocumentTitle": "전입축하물품 지급신청서·동의서 포함 통합 서식",
+      "programIds": [
+        "g11470.gov24-314000000256"
+      ],
+      "programNames": [
+        "전입세대 생활용품 지원"
+      ],
+      "use": "main",
+      "role": "application",
+      "checkedAt": "2026-10-18",
+      "evidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1812519",
+      "evidenceNote": "조례 제5조는 전입세대주 또는 세대원이 별지 제1호로 전입축하물품을 신청하도록 한다. HWPX 전체에 제1호 신청·동의와 제2호 지급관리대장이 포함된 것을 확인했고 사업의 양천 신규 전입세대 생활용품·주민센터 접수와 일치한다. 제1호만 신청인이 사용하는 부분이다.",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "sha256": "38db2312f255e7f5764c3396c6cd460fc9c35c11ba0260f7afdac0fc43666c8f",
+      "bytes": 54750,
+      "signature": "504b030414000000",
+      "originalFormat": "hwpx",
+      "originalTextScope": "all_body_sections_or_pages",
+      "textScope": "all_body_sections_or_pages",
+      "inspectionScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "Contents/section0.xml"
+      ],
+      "reviewedBy": "codex-national_form_audit",
+      "reviewedAt": "2026-10-18",
+      "roleBasis": "조례 제5조는 전입세대주 또는 세대원이 별지 제1호로 전입축하물품을 신청하도록 한다. HWPX 전체에 제1호 신청·동의와 제2호 지급관리대장이 포함된 것을 확인했고 사업의 양천 신규 전입세대 생활용품·주민센터 접수와 일치한다. 제1호만 신청인이 사용하는 부분이다.",
+      "roleEvidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1812519",
+      "roleCheckedAt": "2026-10-18",
+      "reviewedParts": [
+        {
+          "number": "1",
+          "title": "전입축하물품 지급신청서 및 동의서",
+          "use": "main",
+          "author": "전입세대주 또는 세대원"
+        },
+        {
+          "number": "2",
+          "title": "전입축하물품 관리대장",
+          "use": "excluded",
+          "author": "동 행정기관 담당자"
+        }
+      ],
+      "bodyEvidenceArticles": [
+        "제4조(전입세대 지원) ① 서울특별시 양천구청장(이하 “구청장”이라 한다)은 전입세대에 대해 예산의 범위에서 2만원 이하의 전입축하물품(이하 “물품”이라 한다)을 지원할 수 있다. 다만, 다음 각 호의 어느 하나에 해당하는 경우에는 그러하지 아니하다.1. 전입세대가 양천구 내 다른 세대로 편입하거나 합가하는 경우2. 물품을 지원 받은 전입세대가 다른 지방자치단체로 전출 후 1년 이내 다시 양천구로 전입하는 경우3. 제5조제3항에 따라 물품 지원 결정을 통지한 날을 기준으로 전입세대가 다른 지방자치단체로 전출 등의 이유로 양천구에 주민등록이 되어있지 않은 경우② 제1항에 따른 물품의 종류 등은 구청장이 따로 정한다.",
+        "제5조(지원절차) ① 물품의 신청인(이하 “신청인”이라 한다)은 전입세대의 세대주 또는 세대원으로 한다.② 신청인은 전입신고한 날부터 3개월 이내에 별지 제1호서식의 전입축하물품 지급신청서(이하 “신청서”라 한다)를 작성하여 거주지 관할 동장(이하 “동장”이라 한다)에게 제출하여야 한다.③ 동장은 제2항에 따라 제출된 신청서를 검토한 후 물품 지원 여부를 결정하여 신청인에게 이를 통지하거나 안내하여야 한다.④ 제3항에 따라 지원이 결정되면, 동장은 전입세대에 물품을 7일 이내에 지급하고, 별지 제2호서식의 전입축하물품 관리대장에 기록·관리해야 한다.⑤ 동장은 전입세대가 이 조례에 따른 지원을 받을 수 있도록 지원내용 및 지원절차 등을 안내하여야 한다."
+      ],
+      "independentBodyReview": true,
+      "condition": "통합파일 중 별지 제1호 신청서 및 동의서만 작성합니다. 제2호 관리대장과 담당자 확인사항은 행정기관 작성 부분입니다.",
+      "displayTitle": "전입축하물품 지급신청서·동의서 포함 통합 서식"
+    },
+    {
+      "sourceKind": "ordin",
+      "lawTitle": "인제군 농어촌학교 학생 교통비 지원 조례",
+      "lawId": "1812811",
+      "annexId": "17771469",
+      "annexNumber": "000100",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=141754235&flNm=%EB%B3%84%EC%A7%80+%EC%A0%9C1%ED%98%B8%EC%84%9C%EC%8B%9D~%EC%A0%9C6%ED%98%B8%EC%84%9C%EC%8B%9D",
+      "officialPdfUrl": null,
+      "dateKind": "effective",
+      "effectiveDate": "2023-06-11",
+      "regionCode": "51810",
+      "regionLabel": "강원특별자치도 인제군",
+      "formId": "ordin-17771469",
+      "formTitle": "별지 제1호서식~제6호서식",
+      "sourceMetadataTitle": "별지 제1호서식~제6호서식",
+      "verifiedDocumentTitle": "농어촌학교 학생 버스비·통학택시 이용 신청서 포함 통합 서식",
+      "programIds": [
+        "g51810.gov24-433000000130"
+      ],
+      "programNames": [
+        "농어촌학교 학생 교통비 지원"
+      ],
+      "use": "main",
+      "role": "application",
+      "checkedAt": "2026-10-18",
+      "evidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1812811",
+      "evidenceNote": "조례 제4조는 학생 교통비 이용 신청에 별지 제1호 또는 제2호를 학교장에게 제출하도록 한다. 통합원본 세 section과 제1~6호를 전부 읽어 제1호는 부모친권자의 버스비, 제2호는 학생·부모의 통학택시 이용신청이고 제3·4호는 학교 취합명단, 제5·6호는 운송사업자 청구·운행일지임을 구분했다. 사업의 중고 학생 버스·야간택시 지원 및 학교 접수와 일치하여 제1·2호만 연결한다.",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "sha256": "b34879605dbc1de7fc19a10d7f29db2e794d8dedb88f8375fffdabee269f473c",
+      "bytes": 33280,
+      "signature": "d0cf11e0a1b11ae1",
+      "originalFormat": "hwp",
+      "originalTextScope": "all_body_sections_or_pages",
+      "textScope": "all_body_sections_or_pages",
+      "inspectionScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "BodyText/Section0",
+        "BodyText/Section1",
+        "BodyText/Section2"
+      ],
+      "reviewedBy": "codex-national_form_audit",
+      "reviewedAt": "2026-10-18",
+      "roleBasis": "조례 제4조는 학생 교통비 이용 신청에 별지 제1호 또는 제2호를 학교장에게 제출하도록 한다. 통합원본 세 section과 제1~6호를 전부 읽어 제1호는 부모친권자의 버스비, 제2호는 학생·부모의 통학택시 이용신청이고 제3·4호는 학교 취합명단, 제5·6호는 운송사업자 청구·운행일지임을 구분했다. 사업의 중고 학생 버스·야간택시 지원 및 학교 접수와 일치하여 제1·2호만 연결한다.",
+      "roleEvidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1812811",
+      "roleCheckedAt": "2026-10-18",
+      "reviewedParts": [
+        {
+          "number": "1",
+          "title": "학생 교통비 지원신청서(버스요금)",
+          "use": "main",
+          "author": "부모 또는 친권자"
+        },
+        {
+          "number": "2",
+          "title": "통학택시 이용 신청서",
+          "use": "conditional",
+          "author": "학생 및 보호자"
+        },
+        {
+          "number": "3",
+          "title": "버스 교통비 지원 신청명단",
+          "use": "excluded",
+          "author": "학교장"
+        },
+        {
+          "number": "4",
+          "title": "통학택시 이용 신청자 명단",
+          "use": "excluded",
+          "author": "학교장"
+        },
+        {
+          "number": "5",
+          "title": "통학택시비 지원 청구서",
+          "use": "excluded",
+          "author": "택시사업자"
+        },
+        {
+          "number": "6",
+          "title": "통학택시 운행일지",
+          "use": "excluded",
+          "author": "운송사업자·탑승 확인자"
+        }
+      ],
+      "bodyEvidenceArticles": [
+        "제3조(지원대상)① 교통비 지원대상은 인제군에 주소를 두거나 「강원특별자치도 중학교 학교군 및 중학구 설정 고시」에 따라 통학구역이 인제군 농어촌학교로 지정되어 관내 중·고등학교에 재학 중인 학생으로 한다. 다만, 거주지에서 재학 중인 학교와의 도로상거리가 2킬로미터 이내이거나, 기숙사에 입사한 학생은 제외한다. <개정 2023.5.25.>② 제1항에도 불구하고 통학택시비 지원대상은 관내 주소를 두고 관내 고등학교의 야간학습을 마치고 대중교통 운행시간이 종료된 후 귀가하는 학생으로 한다.",
+        "제4조(지원신청)① 제3조에 따른 교통비 지원신청자는 별지 제1호 또는 제2호서식의 이용 신청서를 작성하여 재학 중인 학교의 장(이하 “학교장”이라 한다)에게 제출하여야 한다.② 학교장은 별지 제3호 또는 제4호서식에 의거 인제교육지원청 교육장을 경유하거나 직접 교통비 이용 신청자 명단을 군수에게 제출하여야 한다.",
+        "제7조(지급방법)① 군수는 신청자 중 교통비 지급 적격여부를 판단하여 지원 사항을 결정하고, 학생의 보호자 또는 택시사업자에게 예산의 범위에서 교통비를 지급한다.② 제1항의 교통비 중 통학택시비는 택시사업자가 별지 제5호서식의 통학택시비 지원신청서를 작성하여 증빙서류와 함께 다음달 10일까지 군수에게 신청하여야 한다.③ 통학택시사업자는 관련 규정을 성실히 준수하여야 하며, 별지 제6호서식의 통학택시 운행일지를 비치하여야 한다."
+      ],
+      "independentBodyReview": true,
+      "condition": "버스요금 지원은 별지 제1호, 야간 통학택시 이용은 제2호를 작성해 학교에 제출합니다. 제3·4호는 학교용 명단, 제5·6호는 택시사업자 청구·운행자료입니다.",
+      "displayTitle": "농어촌학교 학생 버스비·통학택시 이용 신청서 포함 통합 서식"
+    },
+    {
+      "sourceKind": "ordin",
+      "lawTitle": "삼척시 연탄보일러 설치 보조금 지원 조례",
+      "lawId": "1813939",
+      "annexId": "22526117",
+      "annexNumber": "000100",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=168902517&flNm=%EB%B3%84%EC%A7%801%ED%98%B8",
+      "officialPdfUrl": null,
+      "dateKind": "effective",
+      "effectiveDate": "2023-05-26",
+      "regionCode": "51230",
+      "regionLabel": "강원특별자치도 삼척시",
+      "formId": "ordin-22526117",
+      "formTitle": "별지1호",
+      "sourceMetadataTitle": "별지1호",
+      "verifiedDocumentTitle": "연탄보일러 설치 보조금 교부 신청서",
+      "programIds": [
+        "g51230.gov24-424000000163"
+      ],
+      "programNames": [
+        "연탄 보일러 설치 지원"
+      ],
+      "use": "main",
+      "role": "application",
+      "checkedAt": "2026-10-18",
+      "evidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1813939",
+      "evidenceNote": "조례 제4조는 연탄보일러 지원가구가 별지 제1호 교부신청서를 읍면동장에게 제출하도록 한다. 실제 원본 앞뒤의 신청가구 유형·보일러 신규교체·보조금자부담·신청 및 동의와 사업의 삼척 가구 연탄보일러 설치 지원이 일치한다. 원본의 예시 이름·연락처·시청 주소는 예시 표시가 있는 작성 안내로 확인했으며 이를 실제 개인 신청으로 보지 않는다.",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "sha256": "4ce81f8bfce025cf05a3daea8ffbdc3bce55e4aa23a5402d4942eea36bafa451",
+      "bytes": 22016,
+      "signature": "d0cf11e0a1b11ae1",
+      "originalFormat": "hwp",
+      "originalTextScope": "all_body_sections_or_pages",
+      "textScope": "all_body_sections_or_pages",
+      "inspectionScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "BodyText/Section0"
+      ],
+      "reviewedBy": "codex-national_form_audit",
+      "reviewedAt": "2026-10-18",
+      "roleBasis": "조례 제4조는 연탄보일러 지원가구가 별지 제1호 교부신청서를 읍면동장에게 제출하도록 한다. 실제 원본 앞뒤의 신청가구 유형·보일러 신규교체·보조금자부담·신청 및 동의와 사업의 삼척 가구 연탄보일러 설치 지원이 일치한다. 원본의 예시 이름·연락처·시청 주소는 예시 표시가 있는 작성 안내로 확인했으며 이를 실제 개인 신청으로 보지 않는다.",
+      "roleEvidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1813939",
+      "roleCheckedAt": "2026-10-18",
+      "reviewedParts": [
+        {
+          "number": "1",
+          "title": "연탄보일러 설치 보조금 교부 신청서",
+          "use": "main",
+          "author": "사업의 지원대상 신청인 또는 허용된 대리인"
+        }
+      ],
+      "bodyEvidenceArticles": [
+        "제3조(지원대상)① 연탄보일러 설치 보조금 지원 대상사업은 다음 각 호의 어느 하나에 해당하는 경우 예산의 범위에서 지원할 수 있다.1. 연탄보일러 신규설치 가구2. 기존보일러(유류, 가스, 노후연탄보일러, 기타연료)를 연탄보일러로 교체 하거나 연탄보일러를 겸용으로 설치하는 가구②  제1항 중 최근 3년이내 보조금을 지원받지 아니한 가구(기산일은 보조사업이 완료된 다음 연도 1월 1일을 기준으로 함)에 한하여 지원한다.③ 보조사업자는 삼척시에 주소를 두고 실제 거주하는 세대주를 대상으로 한다.",
+        "제4조(지원신청) 보조 사업자가 제3조에 따라 지원 신청을 하고자 할 때에는 주소지 관할 읍ㆍ면ㆍ동장에게 별지 제1호 서식에 따른 연탄보일러 설치 보조금 교부 신청서를 제출하여야 한다."
+      ],
+      "independentBodyReview": true,
+      "condition": "신청인과 개인정보 동의 부분을 작성합니다. 예시로 인쇄된 내용은 신청인의 실제 내용으로 작성하고 담당 공무원 확인란은 담당자가 작성합니다.",
+      "displayTitle": "연탄보일러 설치 보조금 교부 신청서"
+    },
+    {
+      "sourceKind": "ordin",
+      "lawTitle": "삼척시 연탄보일러 설치 보조금 지원 조례",
+      "lawId": "1813939",
+      "annexId": "22526119",
+      "annexNumber": "000200",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=168902519&flNm=%EB%B3%84%EC%A7%802%ED%98%B8",
+      "officialPdfUrl": null,
+      "dateKind": "effective",
+      "effectiveDate": "2023-05-26",
+      "regionCode": "51230",
+      "regionLabel": "강원특별자치도 삼척시",
+      "formId": "ordin-22526119",
+      "formTitle": "별지2호",
+      "sourceMetadataTitle": "별지2호",
+      "verifiedDocumentTitle": "연탄보일러 설치 보조사업 완료·정산 보고서",
+      "programIds": [
+        "g51230.gov24-424000000163"
+      ],
+      "programNames": [
+        "연탄 보일러 설치 지원"
+      ],
+      "use": "conditional",
+      "role": "supporting",
+      "checkedAt": "2026-10-18",
+      "evidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1813939",
+      "evidenceNote": "조례 제6조는 선정 가구가 설치 완료 후 보조금을 청구하고 현장 확인 후 지급받도록 한다. 실제 별지 제2호 전체는 설치가구의 사업 완료·정산내역·본인 서명과 담당자 완료확인이고 제3호 청구서·통장·영수증·자가설치확인 등을 붙이도록 명시한다. 업체 사업비가 아닌 가구 지원금 지급을 위한 완료 증빙으로 연결한다.",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "sha256": "5ef07a792a0ac10995236500a00c43f3e75d367b9e9e286f5ec1245786705cf7",
+      "bytes": 21504,
+      "signature": "d0cf11e0a1b11ae1",
+      "originalFormat": "hwp",
+      "originalTextScope": "all_body_sections_or_pages",
+      "textScope": "all_body_sections_or_pages",
+      "inspectionScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "BodyText/Section0"
+      ],
+      "reviewedBy": "codex-national_form_audit",
+      "reviewedAt": "2026-10-18",
+      "roleBasis": "조례 제6조는 선정 가구가 설치 완료 후 보조금을 청구하고 현장 확인 후 지급받도록 한다. 실제 별지 제2호 전체는 설치가구의 사업 완료·정산내역·본인 서명과 담당자 완료확인이고 제3호 청구서·통장·영수증·자가설치확인 등을 붙이도록 명시한다. 업체 사업비가 아닌 가구 지원금 지급을 위한 완료 증빙으로 연결한다.",
+      "roleEvidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1813939",
+      "roleCheckedAt": "2026-10-18",
+      "reviewedParts": [
+        {
+          "number": "2",
+          "title": "연탄보일러 설치 보조사업 완료·정산 보고서",
+          "use": "conditional",
+          "author": "보조사업자인 설치 가구; 완료확인은 담당 공무원"
+        }
+      ],
+      "bodyEvidenceArticles": [
+        "제6조(보조금의 청구 및 지급)① 제5조에 따라 보조사업자로 선정된 세대주가 보조금을 지급 받고자 할 때에는 연탄보일러 설치사업 완료 후 별지 제3호 서식의 보조금 청구서를 시장에게 제출하여야 한다. <개정 2018.4.1.>② 시장은 청구서가 접수 되면 연탄보일러 설치사업 완료 현장을 확인하고 보조사업자의 계좌에 보조금을 입금하여야 한다."
+      ],
+      "independentBodyReview": true,
+      "condition": "지원대상 선정 후 설치를 마치고 보조금을 청구할 때 준비하는 완료·정산서입니다. 읍면동 담당자의 완료확인란은 담당자가 작성합니다.",
+      "displayTitle": "연탄보일러 설치 보조사업 완료·정산 보고서"
+    },
+    {
+      "sourceKind": "ordin",
+      "lawTitle": "삼척시 연탄보일러 설치 보조금 지원 조례",
+      "lawId": "1813939",
+      "annexId": "22526121",
+      "annexNumber": "000300",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=168902521&flNm=%EB%B3%84%EC%A7%803%ED%98%B8",
+      "officialPdfUrl": null,
+      "dateKind": "effective",
+      "effectiveDate": "2023-05-26",
+      "regionCode": "51230",
+      "regionLabel": "강원특별자치도 삼척시",
+      "formId": "ordin-22526121",
+      "formTitle": "별지3호",
+      "sourceMetadataTitle": "별지3호",
+      "verifiedDocumentTitle": "연탄보일러 설치 보조금 청구서",
+      "programIds": [
+        "g51230.gov24-424000000163"
+      ],
+      "programNames": [
+        "연탄 보일러 설치 지원"
+      ],
+      "use": "conditional",
+      "role": "application",
+      "checkedAt": "2026-10-18",
+      "evidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1813939",
+      "evidenceNote": "조례 제6조제1항은 선정된 세대주가 연탄보일러 설치 완료 후 별지 제3호로 보조금을 청구하도록 직접 지정한다. 실제 원본의 청구자·금액·본인계좌·지원사업명·서명과 사업의 가구 설치비 지원이 일치한다.",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "sha256": "a4833016246d6e052f7625a7d2b6c5158eef8f656bf0dfb3fe2de2d163b4ca66",
+      "bytes": 16896,
+      "signature": "d0cf11e0a1b11ae1",
+      "originalFormat": "hwp",
+      "originalTextScope": "all_body_sections_or_pages",
+      "textScope": "all_body_sections_or_pages",
+      "inspectionScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "BodyText/Section0"
+      ],
+      "reviewedBy": "codex-national_form_audit",
+      "reviewedAt": "2026-10-18",
+      "roleBasis": "조례 제6조제1항은 선정된 세대주가 연탄보일러 설치 완료 후 별지 제3호로 보조금을 청구하도록 직접 지정한다. 실제 원본의 청구자·금액·본인계좌·지원사업명·서명과 사업의 가구 설치비 지원이 일치한다.",
+      "roleEvidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1813939",
+      "roleCheckedAt": "2026-10-18",
+      "reviewedParts": [
+        {
+          "number": "3",
+          "title": "연탄보일러 설치 보조금 청구서",
+          "use": "conditional",
+          "author": "선정된 설치 가구의 세대주"
+        }
+      ],
+      "bodyEvidenceArticles": [
+        "제6조(보조금의 청구 및 지급)① 제5조에 따라 보조사업자로 선정된 세대주가 보조금을 지급 받고자 할 때에는 연탄보일러 설치사업 완료 후 별지 제3호 서식의 보조금 청구서를 시장에게 제출하여야 한다. <개정 2018.4.1.>② 시장은 청구서가 접수 되면 연탄보일러 설치사업 완료 현장을 확인하고 보조사업자의 계좌에 보조금을 입금하여야 한다."
+      ],
+      "independentBodyReview": true,
+      "condition": "지원대상 선정 및 연탄보일러 설치 완료 후 지급을 청구할 때 사용합니다. 최초 교부신청은 별지 제1호입니다.",
+      "displayTitle": "연탄보일러 설치 보조금 청구서"
+    },
+    {
+      "sourceKind": "ordin",
+      "lawTitle": "삼척시 연탄보일러 설치 보조금 지원 조례",
+      "lawId": "1813939",
+      "annexId": "22526125",
+      "annexNumber": "000500",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=168902525&flNm=%EB%B3%84%EC%A7%805%ED%98%B8",
+      "officialPdfUrl": null,
+      "dateKind": "effective",
+      "effectiveDate": "2023-05-26",
+      "regionCode": "51230",
+      "regionLabel": "강원특별자치도 삼척시",
+      "formId": "ordin-22526125",
+      "formTitle": "별지5호",
+      "sourceMetadataTitle": "별지5호",
+      "verifiedDocumentTitle": "연탄보일러 자가설치 확인서",
+      "programIds": [
+        "g51230.gov24-424000000163"
+      ],
+      "programNames": [
+        "연탄 보일러 설치 지원"
+      ],
+      "use": "conditional",
+      "role": "supporting",
+      "checkedAt": "2026-10-18",
+      "evidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1813939",
+      "evidenceNote": "실제 별지 제5호는 설치가구가 보일러를 자가설치했음을 확인하는 문서이다. 조례 제6조의 설치 완료 후 지급 절차 및 같은 법규 별지 제2호 전체의 첨부 목록에서 전문시공업 등록증 또는 자가설치확인서를 요구함을 대조했다. 직접 설치한 경우의 완료증빙에만 연결한다.",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "sha256": "68a47e404eba8fcff2f5301edfd22b703f332959a6ecdb9e6703b8804d99205f",
+      "bytes": 13824,
+      "signature": "d0cf11e0a1b11ae1",
+      "originalFormat": "hwp",
+      "originalTextScope": "all_body_sections_or_pages",
+      "textScope": "all_body_sections_or_pages",
+      "inspectionScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "BodyText/Section0"
+      ],
+      "reviewedBy": "codex-national_form_audit",
+      "reviewedAt": "2026-10-18",
+      "roleBasis": "실제 별지 제5호는 설치가구가 보일러를 자가설치했음을 확인하는 문서이다. 조례 제6조의 설치 완료 후 지급 절차 및 같은 법규 별지 제2호 전체의 첨부 목록에서 전문시공업 등록증 또는 자가설치확인서를 요구함을 대조했다. 직접 설치한 경우의 완료증빙에만 연결한다.",
+      "roleEvidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1813939",
+      "roleCheckedAt": "2026-10-18",
+      "reviewedParts": [
+        {
+          "number": "5",
+          "title": "연탄보일러 자가설치 확인서",
+          "use": "conditional",
+          "author": "연탄보일러를 직접 설치한 보조사업 가구"
+        }
+      ],
+      "bodyEvidenceArticles": [
+        "제6조(보조금의 청구 및 지급)① 제5조에 따라 보조사업자로 선정된 세대주가 보조금을 지급 받고자 할 때에는 연탄보일러 설치사업 완료 후 별지 제3호 서식의 보조금 청구서를 시장에게 제출하여야 한다. <개정 2018.4.1.>② 시장은 청구서가 접수 되면 연탄보일러 설치사업 완료 현장을 확인하고 보조사업자의 계좌에 보조금을 입금하여야 한다."
+      ],
+      "independentBodyReview": true,
+      "condition": "선정된 가구가 보일러를 직접 설치한 경우 완료·정산 보고의 증빙으로 준비합니다. 전문업체 시공 시 제출자료는 담당 기관 안내를 따릅니다.",
+      "displayTitle": "연탄보일러 자가설치 확인서",
+      "additionalOriginalEvidence": {
+        "formId": "ordin-22526119",
+        "sha256": "5ef07a792a0ac10995236500a00c43f3e75d367b9e9e286f5ec1245786705cf7",
+        "part": "별지 제2호 완료·정산 보고서의 첨부 목록",
+        "note": "전문건설업(난방시공업) 등록증 또는 자가설치 확인서가 명시되어 있음."
+      }
+    },
+    {
+      "sourceKind": "ordin",
+      "lawTitle": "무안군 인구늘리기 시책 지원조례 시행규칙",
+      "lawId": "1814115",
+      "annexId": "19626739",
+      "annexNumber": "000100",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=150417929&flNm=%EB%B3%84%EC%A7%801",
+      "officialPdfUrl": null,
+      "dateKind": "effective",
+      "effectiveDate": "2023-05-30",
+      "regionCode": "12810",
+      "regionLabel": "전남광주통합특별시 무안군",
+      "formId": "ordin-19626739",
+      "formTitle": "별지1",
+      "sourceMetadataTitle": "별지1",
+      "verifiedDocumentTitle": "전입장려 지원금 신청서(기업체 임직원·군장병)",
+      "programIds": [
+        "g12810.gov24-495000000447"
+      ],
+      "programNames": [
+        "무안군 전입 환영 상품권 및 기념품 지원"
+      ],
+      "use": "conditional",
+      "role": "application",
+      "checkedAt": "2026-10-18",
+      "evidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1814115",
+      "evidenceNote": "시행규칙 제3조제2항은 기업체 임직원·군장병 전입자의 지원금을 별지 제1호로 신청하도록 한다. 실제 두 section의 해당 선택칸·재직 또는 복무확인·가구 계좌·동의·신청 서명을 확인했고 전입 환영 사업이 두 유형을 직접 안내한다. 잘못된 법 인용이 있는 건강보험료 사업에는 목적이 달라 연결하지 않는다.",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "sha256": "ba6ad88be03e5277bb007f558ca86c796f1c5d168db842193e2676080f9cb142",
+      "bytes": 19456,
+      "signature": "d0cf11e0a1b11ae1",
+      "originalFormat": "hwp",
+      "originalTextScope": "all_body_sections_or_pages",
+      "textScope": "all_body_sections_or_pages",
+      "inspectionScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "BodyText/Section0",
+        "BodyText/Section1"
+      ],
+      "reviewedBy": "codex-national_form_audit",
+      "reviewedAt": "2026-10-18",
+      "roleBasis": "시행규칙 제3조제2항은 기업체 임직원·군장병 전입자의 지원금을 별지 제1호로 신청하도록 한다. 실제 두 section의 해당 선택칸·재직 또는 복무확인·가구 계좌·동의·신청 서명을 확인했고 전입 환영 사업이 두 유형을 직접 안내한다. 잘못된 법 인용이 있는 건강보험료 사업에는 목적이 달라 연결하지 않는다.",
+      "roleEvidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1814115",
+      "roleCheckedAt": "2026-10-18",
+      "reviewedParts": [
+        {
+          "number": "1",
+          "title": "전입장려 지원금 신청서(기업체 임직원·군장병)",
+          "use": "conditional",
+          "author": "사업의 지원대상 신청인 또는 허용된 대리인"
+        }
+      ],
+      "bodyEvidenceArticles": [
+        "제3조(지원신청 및 절차)① 일반전입자는 전입신고서로 신청서를 갈음한다.② 기업체 임직원 및 군 장병 전입자는 전입한 날부터 6개월 경과 후 별지 제1호 서식의 전입장려 지원금 신청서에 재직증명서 또는 복무확인서 등 관련 증빙서류를 첨부하여 주소지 읍면장에게 제출하여야 한다.③ 전입 대학생은 전입한 날부터 3개월 경과 후 별지 제2호의 서식의 전입장려 지원금 신청서를 작성해 주소지 읍면장에게 제출하여야 한다.④ 읍면장은 제2항 및 제3항의 신청사항에 대한 사실여부를 확인 한 후 신청서와 별지 제3호 서식의 신청대장을 10일 이내에 군수에게 송부하여야 한다."
+      ],
+      "independentBodyReview": true,
+      "condition": "기업체 임직원 또는 군장병 전입자 지원금에만 사용합니다. 일반전입자와 전입 대학생의 신청 방식은 다릅니다.",
+      "displayTitle": "전입장려 지원금 신청서(기업체 임직원·군장병)"
+    },
+    {
+      "sourceKind": "ordin",
+      "lawTitle": "무안군 인구늘리기 시책 지원조례 시행규칙",
+      "lawId": "1814115",
+      "annexId": "19626741",
+      "annexNumber": "000200",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=150417931&flNm=%EB%B3%84%EC%A7%802",
+      "officialPdfUrl": null,
+      "dateKind": "effective",
+      "effectiveDate": "2023-05-30",
+      "regionCode": "12810",
+      "regionLabel": "전남광주통합특별시 무안군",
+      "formId": "ordin-19626741",
+      "formTitle": "별지2",
+      "sourceMetadataTitle": "별지2",
+      "verifiedDocumentTitle": "전입학생 지원 신청서",
+      "programIds": [
+        "g12810.gov24-495000000447"
+      ],
+      "programNames": [
+        "무안군 전입 환영 상품권 및 기념품 지원"
+      ],
+      "use": "conditional",
+      "role": "application",
+      "checkedAt": "2026-10-18",
+      "evidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1814115",
+      "evidenceNote": "시행규칙 제3조제3항은 전입 대학생이 별지 제2호를 제출하도록 한다. 실제 원본의 대학·학번·전현주소·전입일·계좌·재학정보 동의와 전입 환영 사업의 대학생 지원 항목이 일치하여 이 유형에만 연결한다.",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "sha256": "581e2fc3fc884b1654de2117e67896f1736c89cc07f575076d6b98bee5905e4c",
+      "bytes": 17408,
+      "signature": "d0cf11e0a1b11ae1",
+      "originalFormat": "hwp",
+      "originalTextScope": "all_body_sections_or_pages",
+      "textScope": "all_body_sections_or_pages",
+      "inspectionScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "BodyText/Section0"
+      ],
+      "reviewedBy": "codex-national_form_audit",
+      "reviewedAt": "2026-10-18",
+      "roleBasis": "시행규칙 제3조제3항은 전입 대학생이 별지 제2호를 제출하도록 한다. 실제 원본의 대학·학번·전현주소·전입일·계좌·재학정보 동의와 전입 환영 사업의 대학생 지원 항목이 일치하여 이 유형에만 연결한다.",
+      "roleEvidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1814115",
+      "roleCheckedAt": "2026-10-18",
+      "reviewedParts": [
+        {
+          "number": "2",
+          "title": "전입학생 지원 신청서",
+          "use": "conditional",
+          "author": "전입 대학생"
+        }
+      ],
+      "bodyEvidenceArticles": [
+        "제3조(지원신청 및 절차)① 일반전입자는 전입신고서로 신청서를 갈음한다.② 기업체 임직원 및 군 장병 전입자는 전입한 날부터 6개월 경과 후 별지 제1호 서식의 전입장려 지원금 신청서에 재직증명서 또는 복무확인서 등 관련 증빙서류를 첨부하여 주소지 읍면장에게 제출하여야 한다.③ 전입 대학생은 전입한 날부터 3개월 경과 후 별지 제2호의 서식의 전입장려 지원금 신청서를 작성해 주소지 읍면장에게 제출하여야 한다.④ 읍면장은 제2항 및 제3항의 신청사항에 대한 사실여부를 확인 한 후 신청서와 별지 제3호 서식의 신청대장을 10일 이내에 군수에게 송부하여야 한다."
+      ],
+      "independentBodyReview": true,
+      "condition": "무안군 관내 대학교 재학 중 전입 대학생 지원을 신청하는 경우 사용합니다.",
+      "displayTitle": "전입학생 지원 신청서"
+    },
+    {
+      "sourceKind": "ordin",
+      "lawTitle": "장성군 인구감소 대응에 관한 조례 시행규칙",
+      "lawId": "1814867",
+      "annexId": "19438143",
+      "annexNumber": "000100",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=148977765&flNm=%EB%B3%84%EC%A7%80",
+      "officialPdfUrl": null,
+      "dateKind": "effective",
+      "effectiveDate": "2023-05-31",
+      "regionCode": "12840",
+      "regionLabel": "전남광주통합특별시 장성군",
+      "formId": "ordin-19438143",
+      "formTitle": "별지",
+      "sourceMetadataTitle": "별지",
+      "verifiedDocumentTitle": "인구감소 대응 장려금·결혼축하금 신청서 포함 통합 서식",
+      "programIds": [
+        "g12840.gov24-498000000106"
+      ],
+      "programNames": [
+        "인구늘리기 장려금 지원"
+      ],
+      "use": "main",
+      "role": "application",
+      "checkedAt": "2026-10-18",
+      "evidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1814867",
+      "evidenceNote": "규칙 제2조는 시책 지원을 별지 제1호 또는 제2호로 신청하도록 한다. 통합원본 세 section을 모두 읽어 제1호 전입·유공기관·국적취득, 제2호 결혼축하금, 제3·4호 기관장부를 구분했다. 인구늘리기 사업은 네 지원 모두와 기관대표 대상까지 명시하고, 별도 결혼축하금 사업은 제2호에만 대응한다. 각 사업별 실제 사용할 부분을 구분하여 연결했다.",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "sha256": "b00ff7d90c8976444dc6c8c6b11d833848e15dda614630fff83ea9d855c8b596",
+      "bytes": 77824,
+      "signature": "d0cf11e0a1b11ae1",
+      "originalFormat": "hwp",
+      "originalTextScope": "all_body_sections_or_pages",
+      "textScope": "all_body_sections_or_pages",
+      "inspectionScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "BodyText/Section0",
+        "BodyText/Section1",
+        "BodyText/Section2"
+      ],
+      "reviewedBy": "codex-national_form_audit",
+      "reviewedAt": "2026-10-18",
+      "roleBasis": "규칙 제2조는 시책 지원을 별지 제1호 또는 제2호로 신청하도록 한다. 통합원본 세 section을 모두 읽어 제1호 전입·유공기관·국적취득, 제2호 결혼축하금, 제3·4호 기관장부를 구분했다. 인구늘리기 사업은 네 지원 모두와 기관대표 대상까지 명시하고, 별도 결혼축하금 사업은 제2호에만 대응한다. 각 사업별 실제 사용할 부분을 구분하여 연결했다.",
+      "roleEvidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1814867",
+      "roleCheckedAt": "2026-10-18",
+      "reviewedParts": [
+        {
+          "number": "1",
+          "title": "전입장려·전입유공기관·국적취득축하 지원 신청서 및 동의",
+          "use": "main",
+          "author": "해당 전입 주민·국적취득자 또는 전입유공기관 대표"
+        },
+        {
+          "number": "2",
+          "title": "결혼축하금 지원 신청서 및 동의",
+          "use": "main",
+          "author": "결혼축하금 신청자 및 배우자"
+        },
+        {
+          "number": "3",
+          "title": "지원대상자 관리대장",
+          "use": "excluded",
+          "author": "읍면 담당자"
+        },
+        {
+          "number": "4",
+          "title": "상품권 수불대장",
+          "use": "excluded",
+          "author": "읍면 담당자"
+        }
+      ],
+      "bodyEvidenceArticles": [
+        "제2조(지원금의 신청 및 지급 절차)① 인구감소 대응 시책 지원을 받고자 하는 사람은 조례 별표 지원기준에서 정한 조건을 충족한 후 별지 제1호서식 또는 별지 제2호서식의 신청서를 작성하여 주소지의 읍·면장에게 신청하여야 한다.다만, 결혼축하금 지원을 받고자 하는 사람은 혼인신고일 기준 6개월 경과 후부터 신청하여야 한다.<단서조항 신설 2021. 6.4.> <개정 2021. 6. 4, 2023. 5. 31.>② 전입장려금 신청서를 접수한 읍·면장은 자격 요건을 확인한 후 이상이 없는 경우 전입장려금을 즉시 지급하여야 한다.③ 전입유공기관장려금, 결혼축하금 및 국적취득축하금 신청서를 접수 받은 읍·면장은 자격요건을 확인한 후 다음 달 5일까지 신청서를 군수에게 제출하여야 하고, 군수는 신청서를 검토하여 이상이 없는 경우 신청서를 송부받은 달의 15일까지 신청자에게 지원금을 지급하여야 한다.<개정 2023. 5. 31.>",
+        "제3조(지원결과 관리 및 보고) 읍·면장은 제2조제2항에 따른 지원결과를 별지 제3호서식 및 별지 제4호서식에 작성하여 관리하고, 지원 내역을 다음 달 5일까지 군수에게 제출하여야 한다.(개정 2021. 6. 4)"
+      ],
+      "independentBodyReview": true,
+      "condition": "전입장려·전입유공기관·국적취득축하금은 별지 제1호, 결혼축하금은 제2호를 사용합니다. 각 신청의 동의서를 함께 작성하며 제3·4호 장부는 담당 기관용입니다.",
+      "displayTitle": "인구감소 대응 장려금·결혼축하금 신청서 포함 통합 서식"
+    },
+    {
+      "sourceKind": "ordin",
+      "lawTitle": "장성군 인구감소 대응에 관한 조례 시행규칙",
+      "lawId": "1814867",
+      "annexId": "19438143",
+      "annexNumber": "000100",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=148977765&flNm=%EB%B3%84%EC%A7%80",
+      "officialPdfUrl": null,
+      "dateKind": "effective",
+      "effectiveDate": "2023-05-31",
+      "regionCode": "12840",
+      "regionLabel": "전남광주통합특별시 장성군",
+      "formId": "ordin-19438143",
+      "formTitle": "별지",
+      "sourceMetadataTitle": "별지",
+      "verifiedDocumentTitle": "인구감소 대응 장려금·결혼축하금 신청서 포함 통합 서식",
+      "programIds": [
+        "g12840.bokjiro-WLF00004875"
+      ],
+      "programNames": [
+        "결혼축하금"
+      ],
+      "use": "main",
+      "role": "application",
+      "checkedAt": "2026-10-18",
+      "evidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1814867",
+      "evidenceNote": "규칙 제2조는 시책 지원을 별지 제1호 또는 제2호로 신청하도록 한다. 통합원본 세 section을 모두 읽어 제1호 전입·유공기관·국적취득, 제2호 결혼축하금, 제3·4호 기관장부를 구분했다. 인구늘리기 사업은 네 지원 모두와 기관대표 대상까지 명시하고, 별도 결혼축하금 사업은 제2호에만 대응한다. 각 사업별 실제 사용할 부분을 구분하여 연결했다.",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "sha256": "b00ff7d90c8976444dc6c8c6b11d833848e15dda614630fff83ea9d855c8b596",
+      "bytes": 77824,
+      "signature": "d0cf11e0a1b11ae1",
+      "originalFormat": "hwp",
+      "originalTextScope": "all_body_sections_or_pages",
+      "textScope": "all_body_sections_or_pages",
+      "inspectionScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "BodyText/Section0",
+        "BodyText/Section1",
+        "BodyText/Section2"
+      ],
+      "reviewedBy": "codex-national_form_audit",
+      "reviewedAt": "2026-10-18",
+      "roleBasis": "규칙 제2조는 시책 지원을 별지 제1호 또는 제2호로 신청하도록 한다. 통합원본 세 section을 모두 읽어 제1호 전입·유공기관·국적취득, 제2호 결혼축하금, 제3·4호 기관장부를 구분했다. 인구늘리기 사업은 네 지원 모두와 기관대표 대상까지 명시하고, 별도 결혼축하금 사업은 제2호에만 대응한다. 각 사업별 실제 사용할 부분을 구분하여 연결했다.",
+      "roleEvidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1814867",
+      "roleCheckedAt": "2026-10-18",
+      "reviewedParts": [
+        {
+          "number": "1",
+          "title": "전입장려·전입유공기관·국적취득축하 지원 신청서 및 동의",
+          "use": "excluded",
+          "author": "해당 전입 주민·국적취득자 또는 전입유공기관 대표"
+        },
+        {
+          "number": "2",
+          "title": "결혼축하금 지원 신청서 및 동의",
+          "use": "main",
+          "author": "결혼축하금 신청자 및 배우자"
+        },
+        {
+          "number": "3",
+          "title": "지원대상자 관리대장",
+          "use": "excluded",
+          "author": "읍면 담당자"
+        },
+        {
+          "number": "4",
+          "title": "상품권 수불대장",
+          "use": "excluded",
+          "author": "읍면 담당자"
+        }
+      ],
+      "bodyEvidenceArticles": [
+        "제2조(지원금의 신청 및 지급 절차)① 인구감소 대응 시책 지원을 받고자 하는 사람은 조례 별표 지원기준에서 정한 조건을 충족한 후 별지 제1호서식 또는 별지 제2호서식의 신청서를 작성하여 주소지의 읍·면장에게 신청하여야 한다.다만, 결혼축하금 지원을 받고자 하는 사람은 혼인신고일 기준 6개월 경과 후부터 신청하여야 한다.<단서조항 신설 2021. 6.4.> <개정 2021. 6. 4, 2023. 5. 31.>② 전입장려금 신청서를 접수한 읍·면장은 자격 요건을 확인한 후 이상이 없는 경우 전입장려금을 즉시 지급하여야 한다.③ 전입유공기관장려금, 결혼축하금 및 국적취득축하금 신청서를 접수 받은 읍·면장은 자격요건을 확인한 후 다음 달 5일까지 신청서를 군수에게 제출하여야 하고, 군수는 신청서를 검토하여 이상이 없는 경우 신청서를 송부받은 달의 15일까지 신청자에게 지원금을 지급하여야 한다.<개정 2023. 5. 31.>",
+        "제3조(지원결과 관리 및 보고) 읍·면장은 제2조제2항에 따른 지원결과를 별지 제3호서식 및 별지 제4호서식에 작성하여 관리하고, 지원 내역을 다음 달 5일까지 군수에게 제출하여야 한다.(개정 2021. 6. 4)"
+      ],
+      "independentBodyReview": true,
+      "condition": "결혼축하금 사업은 통합파일 중 별지 제2호 신청서와 부부 동의 부분만 사용합니다. 다른 지원의 제1호와 관리대장은 이 사업의 신청서가 아닙니다.",
+      "displayTitle": "인구감소 대응 장려금·결혼축하금 신청서 포함 통합 서식"
+    }
+  ],
+  "sourceReview": {
+    "file": "logs/forms-completion/reviews/team1-batch-016-reviewed.json",
+    "sha256": "db5f55dc3375c51775e7ca8064e9f6eff77cdd48312dd4fe44aa6de2a92bbc9d",
+    "dispositionsSHA256": "31d6a55438fff4bf24cd2f28182b2b7402dd659651796b06a7962f09da1669c5",
+    "assignmentSHA256": "1264aad00f1e23ecaeb5b414608e41cdeac0352aba108d80222f01637093f1c9"
+  }
+}

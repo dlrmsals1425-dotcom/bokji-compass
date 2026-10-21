@@ -16,5 +16,11 @@ export function splitReceiving(view: V2View, keys: readonly string[]): { view: V
       return false;
     });
   const next: V2View = { ...view, fit: keep(view.fit), ask: keep(view.ask), office: keep(view.office), no: keep(view.no), closed: view.closed ? keep(view.closed) : view.closed };
+  // 숨긴 혜택은 추가 질문의 안내 수에서도 제외한다. 관련 혜택이 없으면 질문도 뺀다.
+  next.questions = view.questions.flatMap((q) => {
+    const keys = q.keys.filter((key) => !on.has(key));
+    return keys.length ? [{ ...q, keys, groups: keys.length }] : [];
+  });
+  next.unlock = new Set(next.questions.flatMap((q) => q.keys)).size;
   return { view: next, receiving };
 }

@@ -6,10 +6,11 @@
  * 답은 이 기기에만 저장한다 (주소에는 싣지 않음).
  */
 import { sidoOptionLabel } from "@/lib/client/regionLabel";
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import Link from "next/link";
 import { useRouter, useSearchParams } from "next/navigation";
 import { Icon } from "@/components/Icon";
+import { VoiceInput } from "@/components/VoiceInput";
 import { CrisisHelp } from "@/components/CrisisHelp";
 import { RadioGroup } from "@/components/Choice";
 import { loadRegions } from "@/lib/client/bundles";
@@ -224,6 +225,8 @@ function Form({ initial, initialX, initialMode, wantPrefill }: { initial: Profil
   const [p, setP] = useState<Profile>(() => (prefill ? mergeParsed(EMPTY_PROFILE, prefill.parsed.profile) : initial));
   const [x, setX] = useState<Extras>(() => (prefill ? mergeParsedX(EMPTY_EXTRAS, prefill.parsed) : initialX));
   const [text, setText] = useState("");
+  const [voiceRevision, setVoiceRevision] = useState(0);
+  const textRef = useRef<HTMLTextAreaElement>(null);
   // 보훈·다문화를 이미 답했으면(문장·저장된 답) '더 답하기'를 펼친 채로 (결정 5b)
   const [moreOpen, setMoreOpen] = useState(() => x.traits.veteran !== undefined || x.traits.multicultural !== undefined);
   const [understood, setUnderstood] = useState<ParsedSituation | null>(null);
@@ -301,6 +304,7 @@ function Form({ initial, initialX, initialMode, wantPrefill }: { initial: Profil
     setHhAlt(false);
   };
   const fillFromText = async () => {
+    setVoiceRevision((revision) => revision + 1);
     // 지역 목록을 아직 못 받았으면 기다렸다가 읽는다 (빨리 누르면 지역을 놓치던 문제)
     const rg = regions ?? (await loadRegions().catch(() => null));
     const r = parseSituation(text, rg, undefined, { hint: mode });
@@ -474,7 +478,8 @@ function Form({ initial, initialX, initialMode, wantPrefill }: { initial: Profil
                 <label htmlFor="sit-text" className="hint">
                   {parent ? "예: 수원시에 사시는 59년생 부모님 두 분, 아버지가 거동이 불편하세요" : "예: 고양시 사는 29살, 혼자 살고 일자리를 찾고 있어요"}
                 </label>
-                <textarea id="sit-text" className="input" rows={2} value={text} onChange={(e) => setText(e.target.value)} data-testid="v2-text" />
+                <textarea id="sit-text" className="input" rows={2} ref={textRef} value={text} onChange={(e) => setText(e.target.value)} data-testid="v2-text" />
+                <VoiceInput contextKey={`${mode}:${voiceRevision}`} value={text} onApply={(nextText) => { setText(nextText); textRef.current?.focus(); }} />
                 <div className="btn-row" style={{ marginTop: "0.5rem" }}>
                   <button type="button" className="btn btn-tonal btn-sm" onClick={fillFromText} disabled={!text.trim()} data-testid="v2-fill">
                     이 문장으로 아래 칸 채우기

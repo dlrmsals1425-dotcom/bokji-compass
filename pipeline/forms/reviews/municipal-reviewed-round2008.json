@@ -1,0 +1,1404 @@
+{
+  "schema": 1,
+  "checkedAt": "2026-10-18",
+  "team": 2,
+  "batchId": "batch-008",
+  "verificationMethod": "Independent actual complete-body and applicant/purpose review with exact official law/annex/flSeq and actual-byte hash checks.",
+  "rows": [
+    {
+      "sourceKind": "ordin",
+      "lawTitle": "목포국제축구센터 시설 관리ㆍ운영 조례",
+      "lawId": "1556405",
+      "annexId": "20338745",
+      "annexNumber": "000100",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=153846489&flNm=%EB%B3%84%EC%A7%80",
+      "officialPdfUrl": null,
+      "dateKind": "effective",
+      "effectiveDate": "2020-12-21",
+      "regionCode": "12110",
+      "regionLabel": "전남광주통합특별시 목포시",
+      "programIds": [
+        "g12110.gov24-O00096400001"
+      ],
+      "programNames": [
+        "취약계층 경기 및 행사 이용요금 감면"
+      ],
+      "formId": "ordin-20338745",
+      "use": "conditional",
+      "formTitle": "별지",
+      "sourceMetadataTitle": "별지",
+      "verifiedDocumentTitle": "시설 사용(변경) 신청서 및 시설요금표 묶음",
+      "evidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1556405",
+      "evidenceNote": "조례 제5조제1항이 시설사용·변경 신청에 별지 제1호를 지정하고 제21조제2항은 장애인·어린이·초중고·노인 대상 경기 및 행사의 50% 사용료 감면을 규정한다. 실제 원본의 신청단체·행사목적·참가인원·경기시설·기간·대표 서명은 사이트의 취약계층 경기장·다목적체육관 사용료 감면을 위한 시설 신청과 맞는다. 숙박·편의·상업시설과 요금표는 혜택 신청 부분에서 제외한다. 공식 법규 ID·별표키·flSeq와 실제 원본의 SHA256·전체 본문 섹션을 재대조했다.",
+      "checkedAt": "2026-10-18",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "sha256": "d61798099e3d77eb21fe096e5adbef96586b78ab1618f11342eb968e44557de0",
+      "bytes": 30720,
+      "signature": "d0cf11e0a1b11ae1",
+      "originalFormat": "hwp",
+      "originalTextScope": "all_body_sections_or_pages",
+      "textScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "BodyText/Section0"
+      ],
+      "reviewedParts": [
+        {
+          "number": "1",
+          "title": "시설 사용(변경) 신청서",
+          "use": "conditional",
+          "author": "지원대상 경기·행사 개최자"
+        }
+      ],
+      "role": "application",
+      "roleBasis": "조례 제5조제1항이 시설사용·변경 신청에 별지 제1호를 지정하고 제21조제2항은 장애인·어린이·초중고·노인 대상 경기 및 행사의 50% 사용료 감면을 규정한다. 실제 원본의 신청단체·행사목적·참가인원·경기시설·기간·대표 서명은 사이트의 취약계층 경기장·다목적체육관 사용료 감면을 위한 시설 신청과 맞는다. 숙박·편의·상업시설과 요금표는 혜택 신청 부분에서 제외한다.",
+      "roleEvidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1556405",
+      "roleCheckedAt": "2026-10-18",
+      "bodyEvidenceText": "제5조(사용신청 및 허가)① 시설을 사용하고자 하는 자는 별지 제1호 서식(전자문서로 된 신청서를 포함한다)에 의해 사용일 3개월 전부터 7일 전까지 목포시장(이하 “시장”이라 한다)에게 신청하여 허가를 받아야 한다. 다만, 긴급을 요할 때에는 사용 전일까지 신청하여야 한다. 신청내용을 변경하고자 할 때에도 이와 같다.② 시장은 제1항에 따라 사용허가 신청이 있는 때에는 「공유재산 및 물품관리법」 제20조에 따라 시설의 사용을 허가 또는 변경허가 하여야 한다.\n제21조(사용료의 감면)① 시장은 제19조의 사용료를 감면할 수 있다.다만, 숙박시설 사용료는 제외 한다.② 사용료의 감면 대상 및 비율은 다음 각 호와 같다.1. 전액 면제가. 국가 또는 시가 주최·주관하는 행사나. 연속해서 1주 이상 사용하는 전지훈련팀의 인조잔디구장, 강당, 대연회장, 세미나실, 물리치료실 사용료<신설 2010·10·4>2. 50퍼센트 감면가. 장애인 대상 경기 및 행사나. 대한축구협회·대한하키협회 및 그 산하단체가 주최·주관하는 공식경기 또는 체육행사다. 어린이, 초·중·고등학생, 노인대상 경기 또는 행사<신설 2010·10·4>라. 시가 직접 투자하여 설립한 법인, 단체 등의 경기 또는 행사<신설 2010·10·4>마. 목포다목적체육관 연습사용료에 한해 「목포시 병역명문가 예우에 관한 조례」에 의한 병역 명문가 예우대상자  <신설 2020.12.21.>3. 삭제<2010·10·4>③ 그 밖에 시장이 체육진흥과 관련하여 특별한 사유가 있다고 인정하는 경우에는 제19조의 사용료를 50퍼센트 범위 안에서 감면할 수 있다.<개정 2010·10·4>④ 단체사용자에 대해서는 숙박료를 20퍼센트 감면할 수 있다.⑤ 시설을 사용하려는 자가 이 조례의 감면조항을 중복으로 적용받을 때에는 그 중 가장 높은 비율의 감면조항만 적용한다.",
+      "independentBodyReview": true,
+      "condition": "장애인·어린이·초중고학생·노인 대상 경기 또는 행사의 경기장·다목적체육관 사용 신청에만 사용하고 대상 확인서류를 첨부. 숙박·편의시설·상업사용 감면 신청으로 확대하지 않음.",
+      "excludedParts": [
+        {
+          "number": "별표1~5",
+          "title": "시설별 사용·관람 요금표",
+          "reason": "참고자료이며 신청서가 아님"
+        }
+      ],
+      "displayTitle": "시설 사용(변경) 신청서"
+    },
+    {
+      "sourceKind": "ordin",
+      "lawTitle": "삼척시 삼척사랑상품권 발행 및 운용 조례 시행규칙",
+      "lawId": "1557231",
+      "annexId": "21498741",
+      "annexNumber": "000800",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=161390661&flNm=%EB%B3%84%EC%A7%808_%EC%82%BC%EC%B2%99%EC%82%AC%EB%9E%91%EC%83%81%ED%92%88%EA%B6%8C+%EA%B5%AC%EB%A7%A4%EC%8B%A0%EC%B2%AD%EC%84%9C",
+      "officialPdfUrl": null,
+      "dateKind": "effective",
+      "effectiveDate": "2020-12-25",
+      "regionCode": "51230",
+      "regionLabel": "강원특별자치도 삼척시",
+      "programIds": [
+        "g51230.gov24-424000000174"
+      ],
+      "programNames": [
+        "지역화폐(삼척사랑상품권)"
+      ],
+      "formId": "ordin-21498741",
+      "use": "conditional",
+      "formTitle": "별지8_삼척사랑상품권 구매신청서",
+      "sourceMetadataTitle": "별지8_삼척사랑상품권 구매신청서",
+      "verifiedDocumentTitle": "삼척사랑상품권 구매 신청서(개인·법인단체 묶음)",
+      "evidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1557231",
+      "evidenceNote": "규칙 제4조는 지류 상품권 구매에 별지 제8호를 지정하고 법인·단체 대리신청을 허용한다. 실제 파일은 개인 현금구매 인센티브 신청과 별도 법인·단체 구매 부분으로 나뉜다. 사이트는 카드형 인센티브를 안내하면서 지류형 구매범위를 공공기관·보조단체·법인·지역기업 등으로 제한하므로 현행 안내와 맞는 법인·단체 구매 부분만 승인한다. 개인 지류 인센티브 부분을 일반 주민에게 안내하지 않는다. 공식 법규 ID·별표키·flSeq와 실제 원본의 SHA256·전체 본문 섹션을 재대조했다.",
+      "checkedAt": "2026-10-18",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "sha256": "8531e56e9e38be07a97e25624e9f9bbeefdf31f881683e654976617929ed318b",
+      "bytes": 115200,
+      "signature": "d0cf11e0a1b11ae1",
+      "originalFormat": "hwp",
+      "originalTextScope": "all_body_sections_or_pages",
+      "textScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "BodyText/Section0"
+      ],
+      "reviewedParts": [
+        {
+          "number": "8 법인·단체 부분",
+          "title": "삼척사랑상품권 구매 신청서(법인·단체 등)",
+          "use": "conditional",
+          "author": "지류 구매대상 법인·단체 대표 또는 대리인"
+        }
+      ],
+      "role": "application",
+      "roleBasis": "규칙 제4조는 지류 상품권 구매에 별지 제8호를 지정하고 법인·단체 대리신청을 허용한다. 실제 파일은 개인 현금구매 인센티브 신청과 별도 법인·단체 구매 부분으로 나뉜다. 사이트는 카드형 인센티브를 안내하면서 지류형 구매범위를 공공기관·보조단체·법인·지역기업 등으로 제한하므로 현행 안내와 맞는 법인·단체 구매 부분만 승인한다. 개인 지류 인센티브 부분을 일반 주민에게 안내하지 않는다.",
+      "roleEvidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1557231",
+      "roleCheckedAt": "2026-10-18",
+      "bodyEvidenceText": "제4조(상품권의 구매 등) 상품권의 구매, 훼손분에 대한 교환을 하고자 하는 자는 본인을 확인할 수 있는 신분증을 제시하여야 하며, 별지 제8호서식 및 제9호서식에 따라 신청한다. 다만, 단체 또는 법인인 경우는 위임을 받은 자가 신청할 수 있으며, 전자상품권을 구매하는 경우는 상품권 발행·유통 시스템을 통해 개인정보 인증 후 구매할 수 있다.",
+      "independentBodyReview": true,
+      "condition": "사이트에 명시된 지류형 구매대상 공공기관·보조단체·법인·지역기업 등은 파일의 법인·단체 구매 부분만 사용. 일반 개인 카드 발급·충전·인센티브 신청서가 아님.",
+      "institutionOnly": true,
+      "applicantType": "institution",
+      "applicationStage": "paper_voucher_purchase",
+      "excludedParts": [
+        {
+          "number": "8 개인 부분",
+          "title": "삼척사랑상품권 구매 신청서(개인)",
+          "reason": "사이트의 현행 지류 구매범위 및 카드 인센티브 안내와 맞지 않음"
+        }
+      ]
+    },
+    {
+      "sourceKind": "ordin",
+      "lawTitle": "삼척시 삼척사랑상품권 발행 및 운용 조례 시행규칙",
+      "lawId": "1557231",
+      "annexId": "21498743",
+      "annexNumber": "000900",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=161390663&flNm=%EB%B3%84%EC%A7%809_%EC%82%BC%EC%B2%99%EC%82%AC%EB%9E%91%EC%83%81%ED%92%88%EA%B6%8C+%ED%9B%BC%EC%86%90%EB%B6%84+%EA%B5%90%ED%99%98+%EC%8B%A0%EC%B2%AD%EC%84%9C",
+      "officialPdfUrl": null,
+      "dateKind": "effective",
+      "effectiveDate": "2020-12-25",
+      "regionCode": "51230",
+      "regionLabel": "강원특별자치도 삼척시",
+      "programIds": [
+        "g51230.gov24-424000000174"
+      ],
+      "programNames": [
+        "지역화폐(삼척사랑상품권)"
+      ],
+      "formId": "ordin-21498743",
+      "use": "conditional",
+      "formTitle": "별지9_삼척사랑상품권 훼손분 교환 신청서",
+      "sourceMetadataTitle": "별지9_삼척사랑상품권 훼손분 교환 신청서",
+      "verifiedDocumentTitle": "삼척사랑상품권 훼손분 교환 신청서",
+      "evidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1557231",
+      "evidenceNote": "규칙 제4조는 훼손 지류상품권 교환에 별지 제9호를 지정한다. 원본은 권종·매수·훼손경위·보유자의 서명과 개인정보동의, 훼손 원본 첨부를 요구한다. 사이트에 안내된 지류형 상품권을 이미 적법하게 보유한 경우의 교환 단계로 한정하며 카드 발급·충전 또는 신규 할인 신청으로 표시하지 않는다. 공식 법규 ID·별표키·flSeq와 실제 원본의 SHA256·전체 본문 섹션을 재대조했다.",
+      "checkedAt": "2026-10-18",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "sha256": "c6916e645418d4c58decf34b304e304f80e1dc57b03ca657ad1711da55cfc921",
+      "bytes": 96768,
+      "signature": "d0cf11e0a1b11ae1",
+      "originalFormat": "hwp",
+      "originalTextScope": "all_body_sections_or_pages",
+      "textScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "BodyText/Section0"
+      ],
+      "reviewedParts": [
+        {
+          "number": "9",
+          "title": "삼척사랑상품권 훼손분 교환 신청서 및 동의서",
+          "use": "conditional",
+          "author": "훼손된 지류상품권 보유자"
+        }
+      ],
+      "role": "application",
+      "roleBasis": "규칙 제4조는 훼손 지류상품권 교환에 별지 제9호를 지정한다. 원본은 권종·매수·훼손경위·보유자의 서명과 개인정보동의, 훼손 원본 첨부를 요구한다. 사이트에 안내된 지류형 상품권을 이미 적법하게 보유한 경우의 교환 단계로 한정하며 카드 발급·충전 또는 신규 할인 신청으로 표시하지 않는다.",
+      "roleEvidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1557231",
+      "roleCheckedAt": "2026-10-18",
+      "bodyEvidenceText": "제4조(상품권의 구매 등) 상품권의 구매, 훼손분에 대한 교환을 하고자 하는 자는 본인을 확인할 수 있는 신분증을 제시하여야 하며, 별지 제8호서식 및 제9호서식에 따라 신청한다. 다만, 단체 또는 법인인 경우는 위임을 받은 자가 신청할 수 있으며, 전자상품권을 구매하는 경우는 상품권 발행·유통 시스템을 통해 개인정보 인증 후 구매할 수 있다.",
+      "independentBodyReview": true,
+      "condition": "이미 보유한 지류 삼척사랑상품권이 훼손된 경우 원본을 첨부하여 교환 신청할 때만 사용. 카드형 발급·충전·인센티브 신청서가 아님."
+    },
+    {
+      "sourceKind": "ordin",
+      "lawTitle": "대전광역시 동구 대청장학회 설치 및 운용 조례 시행규칙",
+      "lawId": "1558305",
+      "annexId": "19133087",
+      "annexNumber": "000100",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=148072459&flNm=%EB%B3%84%EC%A7%80+%EC%A0%9C1%ED%98%B8%EC%84%9C%EC%8B%9D+~+%EB%B3%84%EC%A7%80+%EC%A0%9C3%ED%98%B8%EC%84%9C%EC%8B%9D",
+      "officialPdfUrl": null,
+      "dateKind": "effective",
+      "effectiveDate": "2020-12-28",
+      "regionCode": "30110",
+      "regionLabel": "대전광역시 동구",
+      "programIds": [
+        "g30110.gov24-364000000105"
+      ],
+      "programNames": [
+        "대청장학금 지원"
+      ],
+      "formId": "ordin-19133087",
+      "use": "conditional",
+      "formTitle": "별지 제1호서식 ~ 별지 제3호서식",
+      "sourceMetadataTitle": "별지 제1호서식 ~ 별지 제3호서식",
+      "verifiedDocumentTitle": "대청장학금 신청서·청구서·추천명부 묶음",
+      "evidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1558305",
+      "evidenceNote": "규칙 제4조는 대상 학생 또는 보호자가 별지 제1호 신청서와 제2호 청구서를 동장에게 제출하도록 하고 제6조는 제2호 계좌 지급을 정한다. 실제 본문에 학생 학교·학과·학년·대청동 관할 초등학교 졸업정보·보호자·서명과 청구계좌가 있어 사이트 대학생 대청장학금과 일치한다. 제2호의 다른 교육단계 표기는 제외하여 대학생 부분만 사용하고 동장이 작성하는 제3호 추천명부는 제외한다. 공식 법규 ID·별표키·flSeq와 실제 원본의 SHA256·전체 본문 섹션을 재대조했다.",
+      "checkedAt": "2026-10-18",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "sha256": "be482f627e678e570e7ec988b598310f704a7746db73af8229a0f237078045fd",
+      "bytes": 20992,
+      "signature": "d0cf11e0a1b11ae1",
+      "originalFormat": "hwp",
+      "originalTextScope": "all_body_sections_or_pages",
+      "textScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "BodyText/Section0",
+        "BodyText/Section1"
+      ],
+      "reviewedParts": [
+        {
+          "number": "1",
+          "title": "대청장학금 신청서",
+          "use": "main",
+          "author": "대학생 또는 보호자"
+        },
+        {
+          "number": "2",
+          "title": "대청장학금 청구서",
+          "use": "additional",
+          "author": "대학생 또는 보호자"
+        }
+      ],
+      "role": "application",
+      "roleBasis": "규칙 제4조는 대상 학생 또는 보호자가 별지 제1호 신청서와 제2호 청구서를 동장에게 제출하도록 하고 제6조는 제2호 계좌 지급을 정한다. 실제 본문에 학생 학교·학과·학년·대청동 관할 초등학교 졸업정보·보호자·서명과 청구계좌가 있어 사이트 대학생 대청장학금과 일치한다. 제2호의 다른 교육단계 표기는 제외하여 대학생 부분만 사용하고 동장이 작성하는 제3호 추천명부는 제외한다.",
+      "roleEvidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1558305",
+      "roleCheckedAt": "2026-10-18",
+      "bodyEvidenceText": "제4조(장학금의 신청) 장학금을 지급받고자 하는 자(보호자·친권자·부양 의무자를 포함한다)는 대청장학금 신청서(별지 제1호서식), 대청장학금 청구서(별지 제2호서식)를 거주지 관할동장 (이하 ”동장“이라 한다)에게 신청하여야 한다.<개정 2010.05.11>1. <삭제 1999.7.14>2. <삭제 1999.7.14>3. <삭제 1999.7.14>\n제5조(추천) 장학금 신청서를 접수한 동장은 조례 제17조에 따라 대청장학금 신청자의 주민등록표등 공부확인에 의한 적합여부를 심사하고 대청장학금 신청자 추천 명부(별지 제3호서식)를 작성하여 구청장에게 추천한다.<2010.05.11>\n제6조(장학금의 지급) 조례 제18조에 따라 장학생으로 선정된 자에게 대청장학금 청구서(별지 제2호서식)의 신청 계좌에 입금한다. 다만, 대청장학회 운영위원회 심의에 의해 그렇지 아니할 수 있다.<개정 2010.05.11>",
+      "independentBodyReview": true,
+      "condition": "사이트의 대학생 대청장학금 신청에는 제1호와 제2호의 대학생 항목을 작성. 유치원생·고등학생 급여 안내로 확대하지 않고 제3호 추천명부는 담당기관 작성.",
+      "excludedParts": [
+        {
+          "number": "3",
+          "title": "대청장학금 신청자 추천 명부",
+          "reason": "동장 작성 행정명부"
+        }
+      ],
+      "displayTitle": "대청장학금 신청서 · 대청장학금 청구서"
+    },
+    {
+      "sourceKind": "ordin",
+      "lawTitle": "함평군 인재양성기금 조성 및 관리 운영 조례 시행규칙",
+      "lawId": "1564203",
+      "annexId": "20286495",
+      "annexNumber": "000200",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=153384673&flNm=%EB%B3%84%EC%A7%80+%EC%A0%9C1-1%ED%98%B8~%EC%A0%9C6%ED%98%B8%EC%84%9C%EC%8B%9D",
+      "officialPdfUrl": null,
+      "dateKind": "effective",
+      "effectiveDate": "2020-12-31",
+      "regionCode": "12820",
+      "regionLabel": "전남광주통합특별시 함평군",
+      "programIds": [
+        "g12820.gov24-496000000108"
+      ],
+      "programNames": [
+        "인재양성 장학금 지원"
+      ],
+      "formId": "ordin-20286495",
+      "use": "conditional",
+      "formTitle": "별지 제1-1호~제6호서식",
+      "sourceMetadataTitle": "별지 제1-1호~제6호서식",
+      "verifiedDocumentTitle": "함평군 인재양성 장학금 신청서와 관련 서식 묶음",
+      "evidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1564203",
+      "evidenceNote": "규칙 제6조제1항제1호는 조례 제13조제1항제1~3호 및 제5항제1호 학생 장학금 신청을 별지 제1-1호로, 제2항은 학교장·읍면장 추천을 제2호로 정한다. 상위 조례 2125457 제13조를 추가 대조하여 지역인재·성적우수·특기 및 경제적 곤란 학생이 학생 신청 부분에 포함됨을 확인했다. 원본의 학교·지원유형·계좌·학생·보호자 서명과 추천서가 사이트 구비서류와 일치한다. 제1-2호 지역산업 선도자·지정기탁 추천 분야와 행정통지·대장은 제외한다. 공식 법규 ID·별표키·flSeq와 실제 원본의 SHA256·전체 본문 섹션을 재대조했다.",
+      "checkedAt": "2026-10-18",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "sha256": "af00e7a1ed432bed3c7d15d491c82e134d2d0cfd5b601305bda29b3c4539d8dc",
+      "bytes": 23040,
+      "signature": "d0cf11e0a1b11ae1",
+      "originalFormat": "hwp",
+      "originalTextScope": "all_body_sections_or_pages",
+      "textScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "BodyText/Section0",
+        "BodyText/Section1"
+      ],
+      "reviewedParts": [
+        {
+          "number": "1-1",
+          "title": "함평군 인재양성 장학금 지원 신청서",
+          "use": "main",
+          "author": "학생 및 보호자"
+        },
+        {
+          "number": "2",
+          "title": "함평군 인재양성기금 지원대상자 추천서",
+          "use": "additional",
+          "author": "학교장 또는 읍면장"
+        }
+      ],
+      "role": "application",
+      "roleBasis": "규칙 제6조제1항제1호는 조례 제13조제1항제1~3호 및 제5항제1호 학생 장학금 신청을 별지 제1-1호로, 제2항은 학교장·읍면장 추천을 제2호로 정한다. 상위 조례 2125457 제13조를 추가 대조하여 지역인재·성적우수·특기 및 경제적 곤란 학생이 학생 신청 부분에 포함됨을 확인했다. 원본의 학교·지원유형·계좌·학생·보호자 서명과 추천서가 사이트 구비서류와 일치한다. 제1-2호 지역산업 선도자·지정기탁 추천 분야와 행정통지·대장은 제외한다.",
+      "roleEvidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1564203",
+      "roleCheckedAt": "2026-10-18",
+      "bodyEvidenceText": "제5조(지원대상자 자격)① 조례 제13조의2제4항에 따라 선발에 관한 세부기준 등은 해당 연도 선발요강을 따른다. <개정 2020.12.30.>②조례 제13조제1항제3호에 따른 지원대상자 선발기준은 별표의 평점기준에 따라 고득점자 순으로 결정한다. <개정 2020.12.30.>\n제6조(장학금 등의 신청)① 조례 제13조부터 제14조에 따라 장학금 또는 지원금(이하 “장학금 등”이라 한다)을 지원받고자 하는 사람은 다음 각 호에 따라 신청서를 작성한 후 필요한 서류를 첨부하여 교육장, 군내 고등학교장 또는 읍ㆍ면장에게 신청해야 한다. <개정 97. 6. 9., 2020.12.31.>1. 조례 제13조제1항제1호부터 제3호까지 및 같은 조 제5항제1호: 별지 제1-1서식2. 조례 제13조제1항제4호 및 같은 조 제5항제2호: 별지 제1-2서식3. 삭제 <2020.12.31.>②제1항의 신청을 받은 교육장, 군내고등학교장 또는 읍ㆍ면장은 자격요건을 심사하여 적합한 사람을 위원장이 정하는 기한까지 별지 제2호서식의 추천서로 위원장에게 추천해야 한다. <개정 97.6.9., 2020.12.31.>\n제7조(선발알림)①위원장은 장학금 등 지원대상자를 선발한 때에는 별지 제3호서식에 따라 교육장, 군내 고등학교장과 읍ㆍ면장 및 지원대상자에게 각각 알려야 한다. <개정 97. 6.9., 2020.12.31.>② 삭제 (2013.9.9)③ 삭제 (2013.9.9)[제목개정 2020.12.31.]\n제10조(기부대장 관리) 위원회는 기금의 효율적인 관리를 위해 장학금 등 지급대장 및 인재양성기금 기부대장(별지 제5호서식, 제5-1호서식, 별지 제6호서식)을 갖춰두고 관리해야 한다.<개정 2016.10.15., 2020.12.31.>[제목개정 2020.12.31.]",
+      "independentBodyReview": true,
+      "condition": "학생 장학금은 묶음 중 제1-1호를 작성하고 제2호 추천서를 학교장·읍면장에게 발급받아 첨부. 해당 연도 선발요강의 유형·추가서류를 적용하며 제1-2호와 행정통지·대장은 사용 범위에서 제외.",
+      "excludedParts": [
+        {
+          "number": "1-2",
+          "title": "함평군 인재양성기금 지원 신청서",
+          "reason": "지역산업 선도자·지정기탁 추천 분야로 학생 장학금 안내 범위 밖"
+        },
+        {
+          "number": "3~6",
+          "title": "선발결과 통지·삭제서식·지급대장·기부대장",
+          "reason": "통지·행정기록이며 신청인 작성 대상이 아님"
+        }
+      ],
+      "displayTitle": "함평군 인재양성 장학금 지원 신청서 · 함평군 인재양성기금 지원대상자 추천서"
+    },
+    {
+      "sourceKind": "ordin",
+      "lawTitle": "의성군 의성사랑 상품권 발행 및 운영 조례 시행규칙",
+      "lawId": "1564451",
+      "annexId": "20017141",
+      "annexNumber": "000100",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=152258659&flNm=%EB%B3%84%EC%A7%80+1~9",
+      "officialPdfUrl": null,
+      "dateKind": "effective",
+      "effectiveDate": "2020-12-31",
+      "regionCode": "47730",
+      "regionLabel": "경상북도 의성군",
+      "programIds": [
+        "g47730.gov24-515000000120"
+      ],
+      "programNames": [
+        "지역화폐(의성사랑상품권)"
+      ],
+      "formId": "ordin-20017141",
+      "use": "conditional",
+      "formTitle": "별지 1~9",
+      "sourceMetadataTitle": "별지 1~9",
+      "verifiedDocumentTitle": "의성사랑 상품권 관련 별지1~9 묶음",
+      "evidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1564451",
+      "evidenceNote": "규칙 제5조는 가맹점 등록을 별지5호, 변경을7호로, 제6조는 결제받은 상품권 환전 청구를8호로 지정한다. 원본의 세 부분 모두 업소·대표·사업자정보·서명과 해당 신청 목적이 확인된다. 사이트는 소비자 할인과 별도로 가맹점 수수료절감·홍보·매출 혜택을 명시하므로 가맹 참여와 환전 단계로 한정한다. 소비자 구매서식은 이 묶음에 없고, 판매대행 계약·인수·현황·등록증·폐기·해지 항목은 제외한다. 공식 법규 ID·별표키·flSeq와 실제 원본의 SHA256·전체 본문 섹션을 재대조했다.",
+      "checkedAt": "2026-10-18",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "sha256": "acf0d4c017ea581611f5be3cb2575b9dad23d4b9b6231613e3ce79a35af81ae8",
+      "bytes": 30208,
+      "signature": "d0cf11e0a1b11ae1",
+      "originalFormat": "hwp",
+      "originalTextScope": "all_body_sections_or_pages",
+      "textScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "BodyText/Section0"
+      ],
+      "reviewedParts": [
+        {
+          "number": "5 등록 항목",
+          "title": "의성사랑 상품권 가맹점 등록 신청서",
+          "use": "conditional",
+          "author": "가맹 희망업소 대표"
+        },
+        {
+          "number": "7",
+          "title": "의성사랑 상품권 가맹점 등록 변경 신청서",
+          "use": "conditional",
+          "author": "기존 가맹점 대표"
+        },
+        {
+          "number": "8",
+          "title": "의성사랑 상품권 환전 청구서",
+          "use": "conditional",
+          "author": "등록 가맹점 대표"
+        }
+      ],
+      "role": "application",
+      "roleBasis": "규칙 제5조는 가맹점 등록을 별지5호, 변경을7호로, 제6조는 결제받은 상품권 환전 청구를8호로 지정한다. 원본의 세 부분 모두 업소·대표·사업자정보·서명과 해당 신청 목적이 확인된다. 사이트는 소비자 할인과 별도로 가맹점 수수료절감·홍보·매출 혜택을 명시하므로 가맹 참여와 환전 단계로 한정한다. 소비자 구매서식은 이 묶음에 없고, 판매대행 계약·인수·현황·등록증·폐기·해지 항목은 제외한다.",
+      "roleEvidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1564451",
+      "roleCheckedAt": "2026-10-18",
+      "bodyEvidenceText": "제4조(판매대행점 등의 협약 및 관리)① 조례 제6조제1항 및 제8조제1항에 따라 판매대행점 및 판매대행단체를 하고자 하는 자는 군수와 별지 제1호서식에 따른 상품권 판매대행 협약을 체결하여야 한다. <개정 2020.12.31.>② 군수는 상품권 인수, 보관, 교부, 정산 등을 총괄하는 업무를 대행하는 총괄 판매대행점을 지정할 수 있으며, 총괄 판매대행점은 읍ㆍ면별 판매대행점을 지원하여야 한다.③ 총괄 판매대행점은 별지 제2호서식에 따라 전문업체에서 납품하는 상품권의 인계인수서를 작성하여 서명 날인 후 보관하여야 한다.④ 총괄 판매대행점은 판매대행점에 상품권을 배정할 경우에는 별지 제3호서식에 따라 인계인수서를 작성하고 수불대장을 관리하여야 하며, 상품권 전산관리 시스템을 운영할 경우에는 전산에 즉시 입력하여야 한다.⑤ 판매대행점은 조례 제7조제2항에 따라 별지 제4호서식에 따른 상품권 판매 및 환전현황을 제출하여야 한다.⑥ 제1항에 따른 협약기간은 1년으로 하며, 해지 의사표시가 없을 경우에는 같은 조건으로 협약을 자동 연장한 것으로 본다. <개정 2020.12.31.>[제목개정 2020.12.31.]\n제5조(가맹점 등록 및 관리)① 상품권 가맹점으로 등록하려는 자는 군수에게 별지 제5호서식에 따라 가맹점 등록 신청을 하여야 한다.  <개정 2020.12.31.>② 군수는 등록된 가맹점에 별지 제6호서식의 등록증을 발급한다. <개정 2020.12.31.>③ 가맹점은 등록된 사항을 변경하려는 경우에는 별지 제7호서식에 따른 변경신청서를 제출하여야 한다. <개정 2020.12.31.>④ 가맹점은 등록을 철회하려는 경우에는 별지 제5호서식에 따른 가맹점 해지 신청서를 군수에게 제출하여야 한다. <개정 2020.12.31.>[제목개정 2020.12.31.]\n제6조(환전청구 및 환전)① 가맹점은 별지 제8호서식에 따라 상품권 대금을 판매대행점에 수시로 청구할 수 있으며, 판매대행점은 가맹점이 상품권의 환전을 요청할 경우에는 이에 따라야 한다.② 판매대행점은 제1항에 따른 환전 청구가 있을 경우에는 회수한 상품권의 위ㆍ변조 여부를 확인한 후 대금 청구금액을 지급하여야 한다.③ 판매대행점은 가맹점으로부터 회수하여 환전 처리된 상품권은 천공 등으로 재사용이 불가능하도록 해야 한다.④ 판매대행점은 환전된 상품권을 6개월간 자체 보관하며, 보관기간이 지난 상품권은 폐기하고 별지 제9호서식의 폐기조서를 작성하여 군수에게 제출하여야 한다. <신설 2019.12.27.>",
+      "independentBodyReview": true,
+      "condition": "가맹점 대표 전용. 신규 등록은 제5호의 등록 항목, 등록정보 변경은 제7호, 결제받은 지류상품권 환전은 제8호만 사용. 일반 소비자의 할인구매·카드 발급 신청서가 아님.",
+      "institutionOnly": true,
+      "applicantType": "merchant",
+      "applicationStage": "merchant_registration_change_redemption",
+      "excludedParts": [
+        {
+          "number": "1~4,6,9",
+          "title": "판매대행 계약·인계인수·현황·등록증·폐기조서",
+          "reason": "행정·대행업무"
+        },
+        {
+          "number": "5 해지 항목",
+          "title": "가맹점 해지 신청",
+          "reason": "참여 종료 절차"
+        }
+      ],
+      "displayTitle": "의성사랑 상품권 가맹점 등록 신청서 · 의성사랑 상품권 가맹점 등록 변경 신청서 · 의성사랑 상품권 환전 청구서"
+    },
+    {
+      "sourceKind": "ordin",
+      "lawTitle": "과천시 초등학교 입학축하금 지원 조례",
+      "lawId": "1565631",
+      "annexId": "22853739",
+      "annexNumber": "000100",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=170363281&flNm=%5B%EB%B3%84%EC%A7%80%5D+%EC%B4%88%EB%93%B1%ED%95%99%EA%B5%90+%EC%9E%85%ED%95%99%EC%B6%95%ED%95%98%EA%B8%88+%EC%8B%A0%EC%B2%AD%EC%84%9C",
+      "officialPdfUrl": null,
+      "dateKind": "effective",
+      "effectiveDate": "2021-01-01",
+      "regionCode": "41290",
+      "regionLabel": "경기도 과천시",
+      "programIds": [
+        "g41290.gov24-397000000111"
+      ],
+      "programNames": [
+        "초등학교 입학축하금 지원"
+      ],
+      "formId": "ordin-22853739",
+      "use": "main",
+      "formTitle": "[별지] 초등학교 입학축하금 신청서",
+      "sourceMetadataTitle": "[별지] 초등학교 입학축하금 신청서",
+      "verifiedDocumentTitle": "초등학교 입학축하금 신청서",
+      "evidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1565631",
+      "evidenceNote": "제4조의 관내 입학생과 제5조의 보호자 신청자격, 제6조의 별지 신청을 대조했다. 실제 원본에 아동·보호자·학교·입학일·주소·서명과 지역화폐 지급 및 입학확인 동의가 있어 사이트 과천 초등학교 입학축하금의 대상·지급수단·방문 신청과 일치한다. 공식 법규 ID·별표키·flSeq와 실제 원본의 SHA256·전체 본문 섹션을 재대조했다.",
+      "checkedAt": "2026-10-18",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "sha256": "f6a32c40caa9c3ff253aaf5eb1596208c3f9a443079268d2e4c7b056a7c566fe",
+      "bytes": 63488,
+      "signature": "d0cf11e0a1b11ae1",
+      "originalFormat": "hwp",
+      "originalTextScope": "all_body_sections_or_pages",
+      "textScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "BodyText/Section0"
+      ],
+      "reviewedParts": [
+        {
+          "number": "별지",
+          "title": "초등학교 입학축하금 신청서 및 동의",
+          "use": "main",
+          "author": "입학생 보호자"
+        }
+      ],
+      "role": "application",
+      "roleBasis": "제4조의 관내 입학생과 제5조의 보호자 신청자격, 제6조의 별지 신청을 대조했다. 실제 원본에 아동·보호자·학교·입학일·주소·서명과 지역화폐 지급 및 입학확인 동의가 있어 사이트 과천 초등학교 입학축하금의 대상·지급수단·방문 신청과 일치한다.",
+      "roleEvidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1565631",
+      "roleCheckedAt": "2026-10-18",
+      "bodyEvidenceText": "제4조(지원대상)① 시장은 매년 3월 이전부터 신청일 현재까지 계속하여 과천시에 주민등록이 되어있는 당해연도 입학생에게 입학축하금을 지원할 수 있다.② 시장은 제2조제2호에 따른 학교 이외의 국내 교육기관에 입학하는 학생에게도 입학축하금을 지원할 수 있다.\n제5조(신청자격) 입학축하금은 지원대상이 되는 아동의 친권자ㆍ후견인 또는 그 밖의 사람으로서 아동을 사실상 보호ㆍ양육하고 있는 사람(이하 “보호자”라 한다)이 신청할 수 있다.\n제6조(지원절차)① 입학축하금을 지원받고자 하는 보호자는 별지 서식에 따른 신청서를 주소지 관할 동장에게 제출하여야 한다.② 동장은 신청서가 접수되면 지원대상 여부를 확인하고 신청서를 검토하여 시장에게 제출한다.③ 시장은 지원 여부를 결정하여 지원 대상자에게 입학축하금을 지원한다.",
+      "independentBodyReview": true
+    },
+    {
+      "sourceKind": "ordin",
+      "lawTitle": "부산광역시 수영구 공공체육시설 관리 및 운영 조례 시행규칙",
+      "lawId": "1566457",
+      "annexId": "14096433",
+      "annexNumber": "000100",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=121841171&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C1%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%ED%9A%8C%EC%9B%90%EA%B0%80%EC%9E%85+%EB%B0%8F+%EC%9D%B4%EC%9A%A9%EB%A3%8C+%EA%B0%90%EB%A9%B4+%EC%8B%A0%EC%B2%AD%EC%84%9C",
+      "officialPdfUrl": null,
+      "dateKind": "effective",
+      "effectiveDate": "2021-01-01",
+      "regionCode": "26500",
+      "regionLabel": "부산광역시 수영구",
+      "programIds": [
+        "g26500.gov24-338000000424"
+      ],
+      "programNames": [
+        "공공체육시설 이용료 감면(수영구스포츠클럽)"
+      ],
+      "formId": "ordin-14096433",
+      "use": "main",
+      "formTitle": "[별지 제1호서식] 회원가입 및 이용료 감면 신청서",
+      "sourceMetadataTitle": "[별지 제1호서식] 회원가입 및 이용료 감면 신청서",
+      "verifiedDocumentTitle": "회원가입 및 이용료 감면 신청서",
+      "evidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1566457",
+      "evidenceNote": "규칙 제3조제1항과 제4조제1항이 체육시설 회원가입 및 감면 신청에 별지 제1호를 지정한다. 원본에 감면신청 체크·프로그램·감면율·사유·서명과 감면자격 확인 동의가 있어 사이트 수영구 스포츠클럽 이용료 감면과 직접 일치한다. 공식 법규 ID·별표키·flSeq와 실제 원본의 SHA256·전체 본문 섹션을 재대조했다.",
+      "checkedAt": "2026-10-18",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "sha256": "719486298280b1d9b2124e4004b02c8a7997197cbcf822e48a49caffe0be264b",
+      "bytes": 20480,
+      "signature": "d0cf11e0a1b11ae1",
+      "originalFormat": "hwp",
+      "originalTextScope": "all_body_sections_or_pages",
+      "textScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "BodyText/Section0"
+      ],
+      "reviewedParts": [
+        {
+          "number": "1",
+          "title": "회원가입 및 이용료 감면 신청서 및 동의서",
+          "use": "main",
+          "author": "체육시설 이용자"
+        }
+      ],
+      "role": "application",
+      "roleBasis": "규칙 제3조제1항과 제4조제1항이 체육시설 회원가입 및 감면 신청에 별지 제1호를 지정한다. 원본에 감면신청 체크·프로그램·감면율·사유·서명과 감면자격 확인 동의가 있어 사이트 수영구 스포츠클럽 이용료 감면과 직접 일치한다.",
+      "roleEvidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1566457",
+      "roleCheckedAt": "2026-10-18",
+      "bodyEvidenceText": "제3조(이용료 징수) ① 「부산광역시 수영구 공공체육시설 관리 및 운영 조례」(이하 “조례”라 한다) 제5조에 따라 체육시설을 이용하고자 하는 자는 별지 제1호서식의 회원가입 및 이용료 감면 신청서 또는 별지 제2호서식의 전용 이용 신청서를 구청장에게 제출하여야 한다. <개정 2021.1.1>② 제1항에 따라 이용 신청을 할 경우 조례 제9조에 따른 이용료를 미리 납부하여야 한다.③ 구청장은 별지 제3호서식의 전용 이용 승인서를 교부하되, 체육시설의 원활한 운영을 위해 조건을 붙일 수 있다.\n제4조(이용료 감면) ① 조례 제10조제1항에 따라 체육시설의 이용료를 감면받고자 하는 자는 별지 제1호서식의 회원가입 및 이용료 감면 신청서를 이용 신청일로부터 7일 이내에 구청장에게 제출하여야 한다. <개정 2021.1.1>② 국가 또는 지방자치단체가 주최 또는 주관하는 행사의 경우 감면신청서를 제출하지 아니할 수 있다.",
+      "independentBodyReview": true
+    },
+    {
+      "sourceKind": "ordin",
+      "lawTitle": "익산시 저소득층 주민의 건강보험료 및 장기요양보험료 지원 조례 시행규칙",
+      "lawId": "1571287",
+      "annexId": "20556687",
+      "annexNumber": "000100",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=154441379&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C1%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EB%B3%B4%ED%97%98%EB%A3%8C+%EC%A7%80%EC%9B%90%EC%8B%A0%EC%B2%AD%EC%84%9C",
+      "officialPdfUrl": null,
+      "dateKind": "effective",
+      "effectiveDate": "2021-01-15",
+      "regionCode": "52140",
+      "regionLabel": "전북특별자치도 익산시",
+      "programIds": [
+        "g52140.bokjiro-WLF00005061",
+        "g52140.gov24-468000000113"
+      ],
+      "programNames": [
+        "저소득층 주민의 건강보험료 및 장기요양보험료 지원",
+        "저소득 국민건강보험료 및 장기요양보험료 지원"
+      ],
+      "formId": "ordin-20556687",
+      "use": "main",
+      "formTitle": "[별지 제1호서식] 보험료 지원신청서",
+      "sourceMetadataTitle": "[별지 제1호서식] 보험료 지원신청서",
+      "verifiedDocumentTitle": "보험료 지원신청서",
+      "evidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1571287",
+      "evidenceNote": "제3조제1항 단서는 신규로 건강·장기요양보험료 지원을 원하는 주민이 별지 제1호로 신청하도록 한다. 원본의 노인·장애인·한부모·기타 구분, 가구 소득재산·보험료·서명과 사이트 두 동일 사업의 주민센터 방문 신청 및 대상이 일치한다. 공식 법규 ID·별표키·flSeq와 실제 원본의 SHA256·전체 본문 섹션을 재대조했다.",
+      "checkedAt": "2026-10-18",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "sha256": "a89ea65d35d9349f2a42151c9e01fe087124a4dd2fcec096c187836d77b9b223",
+      "bytes": 16384,
+      "signature": "d0cf11e0a1b11ae1",
+      "originalFormat": "hwp",
+      "originalTextScope": "all_body_sections_or_pages",
+      "textScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "BodyText/Section0"
+      ],
+      "reviewedParts": [
+        {
+          "number": "1",
+          "title": "보험료 지원신청서",
+          "use": "main",
+          "author": "신규 보험료 지원 신청 주민"
+        }
+      ],
+      "role": "application",
+      "roleBasis": "제3조제1항 단서는 신규로 건강·장기요양보험료 지원을 원하는 주민이 별지 제1호로 신청하도록 한다. 원본의 노인·장애인·한부모·기타 구분, 가구 소득재산·보험료·서명과 사이트 두 동일 사업의 주민센터 방문 신청 및 대상이 일치한다.",
+      "roleEvidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1571287",
+      "roleCheckedAt": "2026-10-18",
+      "bodyEvidenceText": "제2조(관련자료 수집) 익산시장(이하 “시장”이라 한다)은 「익산시 저소득층 주민의 건강보험료 및 장기요양보험료 지원 조례」 제3조 및 제4조에 따른 보험료 지원대상자에 대한 자료를 국민건강보험공단으로부터 매월 보험료 납기 15일 전까지 제출받도록 한다.\n제3조(지원대상자 선정 등)① 시장은 제2조에 따라 국민건강보험공단으로부터 통보 받은 자료를 근거로 지원대상자의 자산상황, 생활실태 등을 조사한 후 지원대상자를 선정하여야 한다. 다만, 신규로 보험료 지원을 받고자 하는 사람은 별지 제1호서식의 지원신청서를 시장에게 제출하여야 한다.② 시장은 제1항에 따라 지원대상자가 선정되면, 그 결과를 국민건강보험공단에 통지하여야 한다.\n제4조(보험료 지급) 시장은 선정된 지원대상자에 대한 보험료 총금액을 국민건강보험공단에서 청구한 계좌로 지급하여야 한다.",
+      "independentBodyReview": true
+    },
+    {
+      "sourceKind": "ordin",
+      "lawTitle": "칠곡군 칠곡사랑 상품권 발행 및 운영 조례 시행규칙",
+      "lawId": "1574795",
+      "annexId": "12646907",
+      "annexNumber": "000100",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=113617347&flNm=%EB%B3%84%EC%A7%80%EC%84%9C%EC%8B%9D",
+      "officialPdfUrl": null,
+      "dateKind": "effective",
+      "effectiveDate": "2021-02-16",
+      "regionCode": "47850",
+      "regionLabel": "경상북도 칠곡군",
+      "programIds": [
+        "g47850.gov24-522000000118"
+      ],
+      "programNames": [
+        "지역사랑상품권(칠곡사랑상품권)"
+      ],
+      "formId": "ordin-12646907",
+      "use": "conditional",
+      "formTitle": "별지서식",
+      "sourceMetadataTitle": "별지서식",
+      "verifiedDocumentTitle": "칠곡사랑 상품권 별지서식 묶음",
+      "evidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1574795",
+      "evidenceNote": "제9조제3항은 인센티브 지급·부정유통 방지를 위해 구매신청서 작성을 요청할 수 있도록 한다. 조문은 제7호라고 표기하나 실제 공식 묶음의 제7호는 가맹점 회수대금 청구, 제8호가 '제9조제3항 관련' 구매 신청서이며 성명·생년월일·주소·구매금액·정보동의·서명을 받는다. 실제 목적·조문상 용도·원본 제목을 대조하여 제8호 구매 부분만 사이트 상품권 구매자 지원에 연결한다. 인덱스 번호만으로 제7호를 승인하지 않는다. 공식 법규 ID·별표키·flSeq와 실제 원본의 SHA256·전체 본문 섹션을 재대조했다.",
+      "checkedAt": "2026-10-18",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "sha256": "740d9a5c54013a2870b08550f2854b4612568434fe415f452340700dc004f8a6",
+      "bytes": 32768,
+      "signature": "d0cf11e0a1b11ae1",
+      "originalFormat": "hwp",
+      "originalTextScope": "all_body_sections_or_pages",
+      "textScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "BodyText/Section0"
+      ],
+      "reviewedParts": [
+        {
+          "number": "8",
+          "title": "칠곡사랑 상품권 구매 신청서",
+          "use": "conditional",
+          "author": "상품권 구매자"
+        }
+      ],
+      "role": "application",
+      "roleBasis": "제9조제3항은 인센티브 지급·부정유통 방지를 위해 구매신청서 작성을 요청할 수 있도록 한다. 조문은 제7호라고 표기하나 실제 공식 묶음의 제7호는 가맹점 회수대금 청구, 제8호가 '제9조제3항 관련' 구매 신청서이며 성명·생년월일·주소·구매금액·정보동의·서명을 받는다. 실제 목적·조문상 용도·원본 제목을 대조하여 제8호 구매 부분만 사이트 상품권 구매자 지원에 연결한다. 인덱스 번호만으로 제7호를 승인하지 않는다.",
+      "roleEvidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1574795",
+      "roleCheckedAt": "2026-10-18",
+      "bodyEvidenceText": "제4조(가맹점 등록 및 관리) ① 상품권 가맹점이 되고자 하는 자는 군수에게 별지 제4호서식에 따라 가맹점 등록신청을 하여야 한다. <개정 2021.2.16>② 군수는 등록된 가맹점에 별지 제5호서식의 등록증을 발급한다. <개정 2021.2.16>③ 가맹점은 등록된 사항을 변경하려는 경우에는 별지 제6호서식에 따른 변경신청서를 제출하여야 한다. <개정 2021.2.16>④ 가맹점은 등록을 취소하려는 경우에는 별지 제4호서식에 따른 가맹점 해지 신청서를 군수에게 제출하여야 한다. <개정 2021.2.16>\n제5조(환전 청구 및 지급) ① 가맹점은 별지 제7호서식에 따라 상품권 대금을 판매대행점에 수시로 청구할 수 있으며, 판매대행점은 가맹점이 상품권의 환전을 요청할 경우에는 이에 따라야 한다.② 판매대행점은 제1항에 따른 환전 청구가 있을 경우에는 회수한 상품권의 위·변조 여부를 확인한 후 대금 청구금액을 지급하여야 한다.\n제9조(인센티브 지급) ① 군수는 조례 제9조제2항에 따라 상품권의 판매 활성화를 위하여 상품권 구매금액의 100분의 8의 범위에서 인센티브를 지급할 수 있다. 다만, 상품권의 인센티브가 적용되는 구매는 월 70만원을 초과할 수 없다.② 제1항에도 불구하고 다음 각 호의 어느 하나에 해당하는 경우 인센티브 지급 범위 및 구매한도액을 초과하여 지급하거나 지급하지 않을 수 있다.1. 설 및 추석2. 그 밖에 군수가 경제활성화를 위하여 필요하다고 인정하는 경우③ 제1항에 따른 인센티브의 지급 및 부정유통 방지를 위하여 판매대행점은 상품권 판매시 신분증을 확인하거나 별지 제7호서식에 따른 구매신청서 작성을 요청할 수 있다.<신설 2021.2.16〉",
+      "independentBodyReview": true,
+      "condition": "묶음 파일의 실제 별지 제8호 '칠곡사랑 상품권 구매 신청서'만 판매대행 금융기관의 지류 구매 때 사용. 제7호 회수대금 청구서는 가맹점 전용이므로 사용하지 않음.",
+      "excludedParts": [
+        {
+          "number": "1~7",
+          "title": "대행계약·판매현황·인수인계·가맹점·환전 서식",
+          "reason": "일반 구매자 신청이 아님"
+        }
+      ],
+      "displayTitle": "칠곡사랑 상품권 구매 신청서"
+    },
+    {
+      "sourceKind": "ordin",
+      "lawTitle": "장성사랑상품권 관리 및 운영 조례 시행규칙",
+      "lawId": "1576071",
+      "annexId": "19365429",
+      "annexNumber": "000100",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=148761293&flNm=%EB%B3%84%EC%A7%80%EC%84%9C%EC%8B%9D",
+      "officialPdfUrl": null,
+      "dateKind": "effective",
+      "effectiveDate": "2021-02-22",
+      "regionCode": "12840",
+      "regionLabel": "전남광주통합특별시 장성군",
+      "programIds": [
+        "g12840.gov24-498000000126"
+      ],
+      "programNames": [
+        "지역화폐(장성사랑상품권)"
+      ],
+      "formId": "ordin-19365429",
+      "use": "conditional",
+      "formTitle": "별지서식",
+      "sourceMetadataTitle": "별지서식",
+      "verifiedDocumentTitle": "장성사랑상품권 별지서식 묶음",
+      "evidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1576071",
+      "evidenceNote": "제7조제1항은 개인의 현금 할인구매에 별지 제10호 신청서를 지정한다. 실제 제10호는 구매자·생년월일·구매금액·서명·정보동의를 받으며 사이트 지류 할인구매와 일치한다. 원본에 미성년자 안내도 있으나 사이트는 만19세 이상 구매로 한정하므로 그 범위만 승인한다. 가맹·대행·환전·법인 무할인 구매·관리 서식은 제외한다. 공식 법규 ID·별표키·flSeq와 실제 원본의 SHA256·전체 본문 섹션을 재대조했다.",
+      "checkedAt": "2026-10-18",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "sha256": "c03b25b7c2e8444bbe4ed7e7f4eee09657d2a11ede0d7aa5a11f809a0a73b68e",
+      "bytes": 140288,
+      "signature": "d0cf11e0a1b11ae1",
+      "originalFormat": "hwp",
+      "originalTextScope": "all_body_sections_or_pages",
+      "textScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "BodyText/Section0",
+        "BodyText/Section1",
+        "BodyText/Section2",
+        "BodyText/Section3"
+      ],
+      "reviewedParts": [
+        {
+          "number": "10",
+          "title": "장성사랑상품권 구매 신청서(개인)",
+          "use": "conditional",
+          "author": "만19세 이상 개인 구매자"
+        }
+      ],
+      "role": "application",
+      "roleBasis": "제7조제1항은 개인의 현금 할인구매에 별지 제10호 신청서를 지정한다. 실제 제10호는 구매자·생년월일·구매금액·서명·정보동의를 받으며 사이트 지류 할인구매와 일치한다. 원본에 미성년자 안내도 있으나 사이트는 만19세 이상 구매로 한정하므로 그 범위만 승인한다. 가맹·대행·환전·법인 무할인 구매·관리 서식은 제외한다.",
+      "roleEvidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1576071",
+      "roleCheckedAt": "2026-10-18",
+      "bodyEvidenceText": "제7조(상품권 구매)① 조례 제16조제1항에 따른 상품권 할인은 개인 사용자가 현금으로 구매하는 경우에 한하며, 별지 제10호서식에 따라 신청서를 제출하여야 한다. <개정 2021.2.22.>② 법인 또는 단체 등일 경우에는 별지 제11호서식에 따라 신청서를 제출하여야 한다.",
+      "independentBodyReview": true,
+      "condition": "만19세 이상 개인의 지류상품권 현금 할인구매에는 묶음 중 제10호만 사용. 미성년자 안내와 법인 무할인 구매·가맹·대행 서식은 이 사업 신청 범위에 포함하지 않음.",
+      "excludedParts": [
+        {
+          "number": "1~9,11~14",
+          "title": "가맹점·대행·환전·법인구매·관리 서식",
+          "reason": "사이트의 일반 개인 할인구매 신청 부분이 아님"
+        },
+        {
+          "number": "10 미성년자 안내",
+          "title": "만14세 미만 부모·신분확인란",
+          "reason": "사이트 만19세 이상 대상 범위 밖"
+        }
+      ],
+      "displayTitle": "장성사랑상품권 구매 신청서(개인)"
+    },
+    {
+      "sourceKind": "ordin",
+      "lawTitle": "서울특별시 광진구 입양가정 지원에 관한 조례",
+      "lawId": "1577593",
+      "annexId": "22425231",
+      "annexNumber": "000100",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=168361757&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C1%ED%98%B8%EC%84%9C%EC%8B%9D%5D%EC%9E%85%EC%96%91%EC%B6%95%ED%95%98%EA%B8%88+%EC%A7%80%EC%9B%90+%EC%8B%A0%EC%B2%AD%EC%84%9C",
+      "officialPdfUrl": null,
+      "dateKind": "effective",
+      "effectiveDate": "2021-03-04",
+      "regionCode": "11215",
+      "regionLabel": "서울특별시 광진구",
+      "programIds": [
+        "g11215.gov24-304000000109"
+      ],
+      "programNames": [
+        "입양축하금 지원(구비)"
+      ],
+      "formId": "ordin-22425231",
+      "use": "main",
+      "formTitle": "[별지 제1호서식]입양축하금 지원 신청서",
+      "sourceMetadataTitle": "[별지 제1호서식]입양축하금 지원 신청서",
+      "verifiedDocumentTitle": "입양축하금 지원 신청서",
+      "evidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1577593",
+      "evidenceNote": "제7조 입양일 기준 관내6개월 거주 부모, 제8조 입양부모가 별지 제1호로 신청하는 절차를 대조했다. 실제 원본의 입양부모·아동·입양기관·입양일·계좌·신청인 서명 및 장애 관련 증빙이 사이트 광진구 구비 입양축하금의 신청과 일치한다. 공식 법규 ID·별표키·flSeq와 실제 원본의 SHA256·전체 본문 섹션을 재대조했다.",
+      "checkedAt": "2026-10-18",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "sha256": "cf3023e89d8c1106d4801d4aba5456a188365099b710d1a21cfd36c7188acc47",
+      "bytes": 15360,
+      "signature": "d0cf11e0a1b11ae1",
+      "originalFormat": "hwp",
+      "originalTextScope": "all_body_sections_or_pages",
+      "textScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "BodyText/Section0"
+      ],
+      "reviewedParts": [
+        {
+          "number": "1",
+          "title": "입양축하금 지원 신청서",
+          "use": "main",
+          "author": "입양부모"
+        }
+      ],
+      "role": "application",
+      "roleBasis": "제7조 입양일 기준 관내6개월 거주 부모, 제8조 입양부모가 별지 제1호로 신청하는 절차를 대조했다. 실제 원본의 입양부모·아동·입양기관·입양일·계좌·신청인 서명 및 장애 관련 증빙이 사이트 광진구 구비 입양축하금의 신청과 일치한다.",
+      "roleEvidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1577593",
+      "roleCheckedAt": "2026-10-18",
+      "bodyEvidenceText": "제7조(지원대상) 축하금 지원대상은 입양일을 기준으로 6개월 이상 광진구에 주민등록을 두고 실제 거주하고 있는 입양부모로 한다.\n제8조(지원신청)① 축하금 지원 신청인은 입양부모가 되며, 입양신고 후 60일 이내에 입양축하금 지원 신청서(이하“신청서”라 한다)를 구청장에게 제출하여야 한다.② 제1항에 따른 축하금 신청 시 구비서류는 다음 각 호와 같다.1. 신청서 1부(별지 제1호서식)2. 입양사실확인서(입양기관발급) 1부3. 예금통장 사본 1부4. 입양아동이 장애아동일 경우 관련서류(장애정도 확인서 등)\n제9조(지원절차)① 구청장은 신청서를 접수받은 즉시 적격여부를 검토하고 지원대상자로 조사될 경우 15일 이내 신청인의 예금통장에 입금 조치하여야 한다. 다만, 확보된 예산이 없을 경우에는 예산이 확보되는 대로 입금하여야 한다.② 구청장은 제1항에 따라 입금 조치한 때에는 신청인에게 즉시 연락가능한 통신망 등을 이용해 그 사실을 알려주어야 한다.",
+      "independentBodyReview": true
+    },
+    {
+      "sourceKind": "ordin",
+      "lawTitle": "제천시 입양가정 지원 조례",
+      "lawId": "1577849",
+      "annexId": "10817603",
+      "annexNumber": "000100",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=96914301&flNm=%EB%B3%84%EC%A7%80",
+      "officialPdfUrl": null,
+      "dateKind": "effective",
+      "effectiveDate": "2021-03-05",
+      "regionCode": "43150",
+      "regionLabel": "충청북도 제천시",
+      "programIds": [
+        "g43150.gov24-440000000122"
+      ],
+      "programNames": [
+        "입양장려금 지원"
+      ],
+      "formId": "ordin-10817603",
+      "use": "main",
+      "formTitle": "별지",
+      "sourceMetadataTitle": "별지",
+      "verifiedDocumentTitle": "입양장려금 지원신청서와 지원대장 묶음",
+      "evidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1577849",
+      "evidenceNote": "제6조 관내거주 입양부모 요건과 제7조의 별지 제1호 신청을 대조했다. 실제 첫 부분은 입양부모·아동·입양신고일·계좌·서명·행정정보 동의로 사이트 제천 입양장려금 신청과 일치한다. 제10조의 별지 제2호 신청·지원 대장은 행정용으로 제외한다. 공식 법규 ID·별표키·flSeq와 실제 원본의 SHA256·전체 본문 섹션을 재대조했다.",
+      "checkedAt": "2026-10-18",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "sha256": "028d8074e3379b51b93662d15cf35c8ea078268547d3597c33f2fe70023d780c",
+      "bytes": 19968,
+      "signature": "d0cf11e0a1b11ae1",
+      "originalFormat": "hwp",
+      "originalTextScope": "all_body_sections_or_pages",
+      "textScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "BodyText/Section0"
+      ],
+      "reviewedParts": [
+        {
+          "number": "1",
+          "title": "입양장려금 지원신청서",
+          "use": "main",
+          "author": "입양부모"
+        }
+      ],
+      "role": "application",
+      "roleBasis": "제6조 관내거주 입양부모 요건과 제7조의 별지 제1호 신청을 대조했다. 실제 첫 부분은 입양부모·아동·입양신고일·계좌·서명·행정정보 동의로 사이트 제천 입양장려금 신청과 일치한다. 제10조의 별지 제2호 신청·지원 대장은 행정용으로 제외한다.",
+      "roleEvidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1577849",
+      "roleCheckedAt": "2026-10-18",
+      "bodyEvidenceText": "제6조(지원대상) ① 제5조에 따른 장려금의 지원대상은 입양신고일 기준으로 1년 이전부터 계속하여 제천시에 주민등록을 두고 실제 거주하고 있는 입양아동의 부(父) 또는 모(母)로 한다.② 입양신고일 기준으로 제천시 계속 거주기간이 1년 미만인 입양아동의 부(父) 또는 모(母)는 1년이 경과되면 지원대상이 된다.③ 지원대상 입양아동의 부(父) 또는 모(母)는 국가와 지방자치단체에 등록된 입양기관에서 아동을 입양한 경우로 한정한다.\n제7조(지원신청) ① 장려금을 신청하려는 입양아동의 부(父) 또는 모(母)는 입양신고일 기준으로 6개월 이내에 별지 제1호서식의 입양장려금 지원신청서(이하 “신청서”라 한다)를 시장에게 제출하여야 한다.② 입양신고일 기준으로 제천시 계속 거주기간이 1년 미만인 입양아동의 부(父) 또는 모(母)는 1년이 경과한 날부터 6개월 이내에 신청서를 제출하여야 한다.③ 제1항과 제2항에 따른 신청서 제출일 현재 입양아동의 부(父) 또는 모(母)가 모두 다른 지방자치단체로 전출한 경우 장려금 신청을 할 수 없다.④ 제1항과 제2항에 따른 신청 시 구비서류는 다음 각 호와 같다.1. 신청서 1부(별지 제1호 서식)2. 법 제20조에 따른 입양기관에서 발급한 입양사실 확인서3. <삭제 2021. 3. 5.>4. 입양아동이 장애아동임을 증명하는 서류(장애아동을 입양한 가정에 한함)5. 신청인 명의의 예금통장 사본 1부⑤「전자정부법」제38조제1항에 따라 행정정보공동이용 시스템을 통하여 확인할 수 있는 주민등록 등ㆍ초본 및 가족관계증명서에 대해서는 첨부를 생략할 수 있다.<신설 2021. 3. 5.>\n제10조(대장관리) 시장은 별지 제2호서식의 입양장려금 신청 및 지원대장을 비치·관리한다.",
+      "independentBodyReview": true,
+      "condition": "묶음 중 별지 제1호만 작성하고 제2호 대장은 제외.",
+      "excludedParts": [
+        {
+          "number": "2",
+          "title": "입양장려금 신청 및 지원 대장",
+          "reason": "행정기록"
+        }
+      ],
+      "displayTitle": "입양장려금 지원신청서"
+    },
+    {
+      "sourceKind": "ordin",
+      "lawTitle": "부산광역시 기장군 장애물 없는 생활환경 인증 지원에 관한 조례",
+      "lawId": "1578685",
+      "annexId": "19130281",
+      "annexNumber": "000100",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=148068871&flNm=%5B%EB%B3%84%EC%A7%80+%EC%84%9C%EC%8B%9D%5D",
+      "officialPdfUrl": null,
+      "dateKind": "effective",
+      "effectiveDate": "2021-03-12",
+      "regionCode": "26710",
+      "regionLabel": "부산광역시 기장군",
+      "programIds": [
+        "g26710.bokjiro-WLF00005624"
+      ],
+      "programNames": [
+        "장애물 없는 생활환경(BF) 수수료 지원"
+      ],
+      "formId": "ordin-19130281",
+      "use": "conditional",
+      "formTitle": "[별지 서식]",
+      "sourceMetadataTitle": "[별지 서식]",
+      "verifiedDocumentTitle": "기장군 장애물 없는 생활환경 인증수수료 지원 신청서",
+      "evidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1578685",
+      "evidenceNote": "제4조제2항은 비영리 법인·민간단체 또는 사회복지 목적 건축물을 인증 권장대상으로 정하고 제7조제2항은 시설주가 인증 지정 후 3개월 이내 별지 신청서·인증서·수수료 납부증빙을 제출하도록 한다. 실제 원본의 시설명·법인번호·대표·인증대상·수수료·서명이 사이트의 BF 인증시설주 수수료 지원과 정확히 일치한다. 기관 형태라는 이유로 주민 대상 사업과 혼동해 제외하지 않는다. 공식 법규 ID·별표키·flSeq와 실제 원본의 SHA256·전체 본문 섹션을 재대조했다.",
+      "checkedAt": "2026-10-18",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "sha256": "002f2ab59693943f3d9fe25f5175d607dadc8b6029b8908ac1abd24c1bd1e946",
+      "bytes": 13824,
+      "signature": "d0cf11e0a1b11ae1",
+      "originalFormat": "hwp",
+      "originalTextScope": "all_body_sections_or_pages",
+      "textScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "BodyText/Section0"
+      ],
+      "reviewedParts": [
+        {
+          "number": "별지",
+          "title": "기장군 장애물 없는 생활환경 인증수수료 지원 신청서",
+          "use": "conditional",
+          "author": "대상 건축물의 시설주·대표"
+        }
+      ],
+      "role": "application",
+      "roleBasis": "제4조제2항은 비영리 법인·민간단체 또는 사회복지 목적 건축물을 인증 권장대상으로 정하고 제7조제2항은 시설주가 인증 지정 후 3개월 이내 별지 신청서·인증서·수수료 납부증빙을 제출하도록 한다. 실제 원본의 시설명·법인번호·대표·인증대상·수수료·서명이 사이트의 BF 인증시설주 수수료 지원과 정확히 일치한다. 기관 형태라는 이유로 주민 대상 사업과 혼동해 제외하지 않는다.",
+      "roleEvidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1578685",
+      "roleCheckedAt": "2026-10-18",
+      "bodyEvidenceText": "제4조(적용대상)① 이 조례의 적용을 받는 인증 의무 대상시설은 다음 각 호와 같다.1. 기장군이 시설주인 건축물, 공원, 도로2. 기장군이 위탁 운영하는 건축물, 공원, 도로3. 그 외 기장군이 전부 또는 일부 재정을 지원하여 신축, 증축, 개축, 대수선 등을 하는 건축물, 공원, 도로② 제1항을 제외한 인증 권장 대상시설은 다음 각 호와 같다.1. 비영리 법인 또는 비영리 민간단체가 건축주인 건축물2. 사회복지사업을 목적으로 하는 건축물\n제7조(인증취득지원)① 군수는 제4조제2항에 따른 시설물의 인증 취득을 위해 예산의 범위에서 인증수수료의 전부 또는 일부를 지원할 수 있다.② 시설주가 인증수수료를 지원받고자 할 경우에는 인증 지정일로부터 3개월 이내에 인증기관에서 발행한 인증서 및 인증수수료 납부증명자료 사본과 별지 제1호 서식의 인증수수료 지원 신청서를 작성하여 제출하여야 한다.",
+      "independentBodyReview": true,
+      "condition": "사이트가 정한 비영리 법인·단체 및 사회복지 목적 건축물의 시설주 전용. BF 인증 지정 후 인증서·수수료 납부증명자료를 첨부하여 신청.",
+      "institutionOnly": true,
+      "applicantType": "facility_owner",
+      "applicationStage": "certification_fee_reimbursement",
+      "displayTitle": "기장군 장애물 없는 생활환경 인증수수료 지원 신청서"
+    },
+    {
+      "sourceKind": "ordin",
+      "lawTitle": "김해시 장기등 및 인체조직 기증 장려에 관한 조례 시행규칙",
+      "lawId": "1588299",
+      "annexId": "18270635",
+      "annexNumber": "000300",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=142875009&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C1%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EC%A7%80%EA%B8%89%EC%8B%A0%EC%B2%AD%EC%84%9C%28%EA%B0%9C%EC%A0%952018.11.23%29",
+      "officialPdfUrl": null,
+      "dateKind": "effective",
+      "effectiveDate": "2021-04-09",
+      "regionCode": "48250",
+      "regionLabel": "경상남도 김해시",
+      "programIds": [
+        "g48250.gov24-535000000168"
+      ],
+      "programNames": [
+        "장기기증자 장제비 지원"
+      ],
+      "formId": "ordin-18270635",
+      "use": "conditional",
+      "formTitle": "[별지 제1호서식] 지급신청서(개정2018.11.23)",
+      "sourceMetadataTitle": "[별지 제1호서식] 지급신청서(개정2018.11.23)",
+      "verifiedDocumentTitle": "장기기증 장제비 및 진료비 지급신청서",
+      "evidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1588299",
+      "evidenceNote": "규칙 제5조제2항이 유족의 별지 제1호 지급신청을 지정한다. 실제 원본은 기증자·기증장기·유족관계·계좌·서명·장제비와 진료비 구분을 받으며 사이트 장기기증자 유족 장제비 및 증빙 안내와 일치한다. 사이트가 명시한 장제비 부분만 승인하고 별도 진료비 급여가 자동 포함된다고 확대하지 않는다. 공식 법규 ID·별표키·flSeq와 실제 원본의 SHA256·전체 본문 섹션을 재대조했다.",
+      "checkedAt": "2026-10-18",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "sha256": "99cc419d9e7ec1afeccfbe4d3ec5e5c3a3da2a4478ecdf7b668d64760b7db1a9",
+      "bytes": 16896,
+      "signature": "d0cf11e0a1b11ae1",
+      "originalFormat": "hwp",
+      "originalTextScope": "all_body_sections_or_pages",
+      "textScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "BodyText/Section0"
+      ],
+      "reviewedParts": [
+        {
+          "number": "1 장제비 항목",
+          "title": "지급신청서 중 장제비 청구",
+          "use": "conditional",
+          "author": "장기기증자 유족"
+        }
+      ],
+      "role": "application",
+      "roleBasis": "규칙 제5조제2항이 유족의 별지 제1호 지급신청을 지정한다. 실제 원본은 기증자·기증장기·유족관계·계좌·서명·장제비와 진료비 구분을 받으며 사이트 장기기증자 유족 장제비 및 증빙 안내와 일치한다. 사이트가 명시한 장제비 부분만 승인하고 별도 진료비 급여가 자동 포함된다고 확대하지 않는다.",
+      "roleEvidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1588299",
+      "roleCheckedAt": "2026-10-18",
+      "bodyEvidenceText": "제4조(예우 적용범위)① 조례 제11조제1항제1호 및 제2호에 따른 예우 적용범위는 기증희망등록기관에 장기등 및 인체조직 기증 희망 등록을 한 자로서 국립장기이식관리기관에서 발급한 기증희망등록증을 제시하는 경우와 장기등기증자, 장기등 또는 인체조직을 기증한 자의 유족으로서 김해시에서 발급한 기증확인증을 제시하는 경우에 한한다. <개정 2021.4.9.>② 조례 제11조제1항제3호에 따른 예우 적용범위는 김해시민이 장기등 또는 인체조직을 기증하고 사망하였을 경우 기증사실을 확인한 경우에 한한다. <개정 2021.4.9.>③ 조례 제11조제1항제1호부터 제3호까지의 규정에 따른 지원은 별표 1에 따른다.④ 조례 제11조제5항의 기증확인증은 별지 제2호서식에 따라 발급한다. <신설 2021.4.9.>\n제5조(장제비 및 진료비 지급)① 조례 제11조제1항제4호에 따른 장제비 및 진료비 지급 기준은 별표 2와 같다. 다만, 기증자의 배우자, 직계존ㆍ비속, 형제자매 또는 4촌 이내의 친족간 기증과 안구, 골수, 생체기증은 지원 대상에서 제외한다.<개정 2018.11.23>② 유족이 별지 제1호서식에 따라 지급신청서를 제출할 경우 위원회에서 심의하고, 위원 과반수의 출석과 출석위원 과반수의 찬성으로 의결한다.<개정 2018.11.23>",
+      "independentBodyReview": true,
+      "condition": "장기기증자 유족의 장제비 청구 항목에 사용. 진료비 부분의 별도 지원 여부는 담당 보건소 확인이 필요하며 이 사업 승인 범위에 자동 포함하지 않음."
+    },
+    {
+      "sourceKind": "ordin",
+      "lawTitle": "순창군 치매관리 및 지원에 관한 조례",
+      "lawId": "1589657",
+      "annexId": "20997501",
+      "annexNumber": "000200",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=157600705&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C2%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EC%B9%98%EB%A7%A4+%EC%B9%98%EB%A3%8C+%EA%B4%80%EB%A6%AC%EB%B9%84+%EC%A7%80%EC%9B%90+%EC%8B%A0%EC%B2%AD%EC%84%9C",
+      "officialPdfUrl": null,
+      "dateKind": "effective",
+      "effectiveDate": "2021-04-15",
+      "regionCode": "52770",
+      "regionLabel": "전북특별자치도 순창군",
+      "programIds": [
+        "g52770.bokjiro-WLF00001533"
+      ],
+      "programNames": [
+        "치매치료관리비 지원 확대 사업"
+      ],
+      "formId": "ordin-20997501",
+      "use": "main",
+      "formTitle": "[별지 제2호서식] 치매 치료 관리비 지원 신청서",
+      "sourceMetadataTitle": "[별지 제2호서식] 치매 치료 관리비 지원 신청서",
+      "verifiedDocumentTitle": "치매 치료 관리비 지원 신청서",
+      "evidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1589657",
+      "evidenceNote": "제8조제2항이 개인 부담 치매 치료비용의 별지 제2호 신청을 규정한다. 실제 원본은 환자·신청인·대리사유·보호자·계좌·서명과 대리인 증빙 안내를 갖추고 사이트 약제·진료 본인부담금 지원 신청에 일치한다. 의료기관 검진비 제1호와 구분했다. 공식 법규 ID·별표키·flSeq와 실제 원본의 SHA256·전체 본문 섹션을 재대조했다.",
+      "checkedAt": "2026-10-18",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "sha256": "2f05eb5c1fca969fcf874cd221ecb477c46ed735a7f62976a3c6c02a3e354328",
+      "bytes": 17408,
+      "signature": "d0cf11e0a1b11ae1",
+      "originalFormat": "hwp",
+      "originalTextScope": "all_body_sections_or_pages",
+      "textScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "BodyText/Section0"
+      ],
+      "reviewedParts": [
+        {
+          "number": "2",
+          "title": "치매 치료 관리비 지원 신청서",
+          "use": "main",
+          "author": "치매환자 또는 적법한 대리인"
+        }
+      ],
+      "role": "application",
+      "roleBasis": "제8조제2항이 개인 부담 치매 치료비용의 별지 제2호 신청을 규정한다. 실제 원본은 환자·신청인·대리사유·보호자·계좌·서명과 대리인 증빙 안내를 갖추고 사이트 약제·진료 본인부담금 지원 신청에 일치한다. 의료기관 검진비 제1호와 구분했다.",
+      "roleEvidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1589657",
+      "roleCheckedAt": "2026-10-18",
+      "bodyEvidenceText": "제6조(지원대상) 지원대상은 순창군에 주민등록을 두고 실제 거주하는 군민으로서 다음 각 호와 같다. 다만, 순창군에 있는 요양병원 입원환자 및 노인요양 시설 입소자에 대하여는 순창군에 주민등록을 3년 이상 두고 있는 사람으로 한정한다.1. 치매 선별·진단·감별검사(이하 “치매 검진”이라 한다)를 받은 사람2. 치매진단을 받은 사람3. 그 밖에 군수가 필요하다고 인정하는 사람\n제8조(지원절차)① 치매 검진을 한 전문 의료기관은 검진내용과 별지 제1호서식에 따른 치매검진비 청구서를 다음달 30일까지 군수에게 제출하여야 한다.② 개인이 치매 치료비용을 부담한 경우에는 별지 제2호서식에 따른 치매 치료관리비 지원 신청서를 다음달 30일까지 군수에게 제출하여야 한다.③ 군수는 제1항 및 제2항에 따른 청구내용이 적합한 경우, 청구서 또는 신청서를 접수한 날부터 30일 이내에 해당금액을 청구자에게 지급한다.",
+      "independentBodyReview": true
+    },
+    {
+      "sourceKind": "ordin",
+      "lawTitle": "서울특별시 송파구 입양가정 지원에 관한 조례",
+      "lawId": "1589895",
+      "annexId": "20162443",
+      "annexNumber": "000100",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=152716399&flNm=%EB%B3%84+%EC%A7%80",
+      "officialPdfUrl": null,
+      "dateKind": "effective",
+      "effectiveDate": "2021-04-08",
+      "regionCode": "11710",
+      "regionLabel": "서울특별시 송파구",
+      "programIds": [
+        "g11710.gov24-323000000113"
+      ],
+      "programNames": [
+        "입양가정 입양축하금 지원"
+      ],
+      "formId": "ordin-20162443",
+      "use": "main",
+      "formTitle": "별 지",
+      "sourceMetadataTitle": "별 지",
+      "verifiedDocumentTitle": "입양축하금 지원 신청서 및 대장",
+      "evidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1589895",
+      "evidenceNote": "제7조 관내 6개월 거주 입양부모, 제8조 입양 후 60일 이내 별지 제1호 제출을 대조했다. 원본의 입양부모·아동·입양일·계좌·서명과 첨부서류가 사이트 송파구 입양축하금과 일치한다. 제11조 제2호 지원대장은 제외한다. 공식 법규 ID·별표키·flSeq와 실제 원본의 SHA256·전체 본문 섹션을 재대조했다.",
+      "checkedAt": "2026-10-18",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "sha256": "04bd5d8c6b5f3ad8723f6eb8989150ab3a371de3606845b93ec31189367d0d33",
+      "bytes": 25088,
+      "signature": "d0cf11e0a1b11ae1",
+      "originalFormat": "hwp",
+      "originalTextScope": "all_body_sections_or_pages",
+      "textScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "BodyText/Section0",
+        "BodyText/Section1"
+      ],
+      "reviewedParts": [
+        {
+          "number": "1",
+          "title": "입양축하금 지원 신청서",
+          "use": "main",
+          "author": "입양부모"
+        }
+      ],
+      "role": "application",
+      "roleBasis": "제7조 관내 6개월 거주 입양부모, 제8조 입양 후 60일 이내 별지 제1호 제출을 대조했다. 원본의 입양부모·아동·입양일·계좌·서명과 첨부서류가 사이트 송파구 입양축하금과 일치한다. 제11조 제2호 지원대장은 제외한다.",
+      "roleEvidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1589895",
+      "roleCheckedAt": "2026-10-18",
+      "bodyEvidenceText": "제7조(축하금 지원대상) 축하금 지원대상은 입양일을 기준으로 6개월 이상 송파구에 주민등록을 두고 실제 거주하고 있는 입양부모로 한다.\n제8조(축하금 지원신청)① 축하금 지원 신청인은 입양부모가 되며, 입양신고 후 60일 이내에 입양축하금 지원 신청서(이하 “신청서”라 한다)를 구청장에게 제출하여야 한다.② 제1항에 따른 축하금 신청 시 구비서류는 다음 각 호와 같다.1. 신청서 1부(별지 제1호 서식)2. 예금통장 사본 1부3. 입양기관의 입양확인서 1부4. 입양아동이 장애아동일 경우 관련 서류(장애정도 확인서 등)\n제11조(대장관리) 구청장은 별지 제2호서식의 입양축하금 신청 및 지원신청 대장을 비치하여 관리해야 한다.",
+      "independentBodyReview": true,
+      "condition": "묶음 중 별지 제1호만 작성하고 제2호 대장은 제외.",
+      "excludedParts": [
+        {
+          "number": "2",
+          "title": "입양축하금 신청 및 지원 대장",
+          "reason": "행정기록"
+        }
+      ],
+      "displayTitle": "입양축하금 지원 신청서"
+    },
+    {
+      "sourceKind": "ordin",
+      "lawTitle": "서산시 안전취약계층에 대한 안전 환경 지원 조례",
+      "lawId": "1591305",
+      "annexId": "11019921",
+      "annexNumber": "000100",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=100240581&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C1%ED%98%B8+%EC%84%9C%EC%8B%9D%5D+%EC%9E%AC%EB%82%9C%EC%98%88%EB%B0%A9%EC%8B%9C%EC%84%A4+%EC%A7%80%EC%9B%90+%EC%8B%A0%EC%B2%AD%EC%84%9C",
+      "officialPdfUrl": null,
+      "dateKind": "effective",
+      "effectiveDate": "2021-04-25",
+      "regionCode": "44210",
+      "regionLabel": "충청남도 서산시",
+      "programIds": [
+        "g44210.gov24-453000000197"
+      ],
+      "programNames": [
+        "안전취약계층 안전환경 지원(전기 안전점검)"
+      ],
+      "formId": "ordin-11019921",
+      "use": "conditional",
+      "formTitle": "[별지 제1호 서식] 재난예방시설 지원 신청서",
+      "sourceMetadataTitle": "[별지 제1호 서식] 재난예방시설 지원 신청서",
+      "verifiedDocumentTitle": "재난예방시설 지원 신청서",
+      "evidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1591305",
+      "evidenceNote": "제3조제2호가 전기안전 점검·정비를 지원하고 제4조제1항은 취약계층 또는 읍면동장·이통장의 별지 제1호 신청을 지정한다. 원본에 수급·차상위·장애·한부모·노인·다문화·청소년가장 구분, 희망시설 전기 항목과 서명이 있어 사이트 전기 안전점검 사업에 일치한다. 가스·소방·보일러까지 동일 사업이라고 확대하지 않는다. 공식 법규 ID·별표키·flSeq와 실제 원본의 SHA256·전체 본문 섹션을 재대조했다.",
+      "checkedAt": "2026-10-18",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "sha256": "00a16994aa3b7c6bc88bfc369205faea0eafdba739379a73b3fcb1fda7903059",
+      "bytes": 47616,
+      "signature": "d0cf11e0a1b11ae1",
+      "originalFormat": "hwp",
+      "originalTextScope": "all_body_sections_or_pages",
+      "textScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "BodyText/Section0"
+      ],
+      "reviewedParts": [
+        {
+          "number": "1 전기 항목",
+          "title": "재난예방시설 지원 신청서",
+          "use": "conditional",
+          "author": "안전취약계층 또는 읍면동장·이통장"
+        }
+      ],
+      "role": "application",
+      "roleBasis": "제3조제2호가 전기안전 점검·정비를 지원하고 제4조제1항은 취약계층 또는 읍면동장·이통장의 별지 제1호 신청을 지정한다. 원본에 수급·차상위·장애·한부모·노인·다문화·청소년가장 구분, 희망시설 전기 항목과 서명이 있어 사이트 전기 안전점검 사업에 일치한다. 가스·소방·보일러까지 동일 사업이라고 확대하지 않는다.",
+      "roleEvidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1591305",
+      "roleCheckedAt": "2026-10-18",
+      "bodyEvidenceText": "제3조(지원대상 및 범위) 제2조에 따른 안전취약계층의 재난 및 사고 예방을 위한 지원범위는 다음 각 호와 같다. 다만, 다른 법령에 따라 유사한 지원을 하는 경우에는 지원하지 아니할 수 있다. <개정 2021.4.25.>1. 단독경보형감지기, 소화기 등 설치2. 전기안전 점검 및 정비3. 가스안전사고 방지를 위한 가스안전 점검 및 노후시설 정비4. 전기, 가스, 소방 등 재난발생 가능성이 있는 위험 노후시설 정비 및 자재 교체 <개정 2021.4.25.>5. 그 밖에 서산시장(이하 “시장”이라 한다)이 필요하다고 인정하는 사항\n제4조(지원신청) ① 제3조에 따라 지원을 받으려는 지원대상자는 읍·면·동장에게 별지 제1호서식에 따른 지원신청서를 제출하여야 한다. 다만, 지원대상자가 부득이한 사정으로 신청할 수 없는 경우에는 해당 읍·면·동장 또는 이·통장이 대신하여 지원신청서를 제출할 수 있다.② 읍·면·동장은 제1항에 따라 지원 신청을 받은 경우에는 우선순위를 정하여 별지 제2호서식으로 시장에게 지원대상자를 추천한다.\n제6조(지원방법) 시장은 지원대상자의 희망시기를 고려하여 예산의 범위에서 지원하되, 전기, 가스, 소방 등의 점검기관 및 업체에 해당 안전점검 업무를 위탁할 수 있다.",
+      "independentBodyReview": true,
+      "condition": "전기 안전점검·정비 지원을 신청하는 경우 희망시설의 전기 항목을 사용하고 대상 증빙을 제출. 다른 시설 지원까지 이 사업에 포함되는 것은 아님."
+    },
+    {
+      "sourceKind": "ordin",
+      "lawTitle": "거창군 하수도 사용조례 시행규칙",
+      "lawId": "1591875",
+      "annexId": "11056543",
+      "annexNumber": "000900",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=100603053&flNm=%EB%B3%84%EC%A7%80+%EC%A0%9C15%ED%98%B8%EC%84%9C%EC%8B%9D%28%ED%95%98%EC%88%98%EB%8F%84%28%EC%82%AC%EC%9A%A9%EB%A3%8C%2C+%EC%A0%90%EC%9A%A9%EB%A3%8C%2C+%EB%B6%80%EB%8B%B4%EA%B8%88%29%EA%B0%90%EB%A9%B4+%EC%8B%A0%EC%B2%AD%EC%84%9C%29",
+      "officialPdfUrl": null,
+      "dateKind": "effective",
+      "effectiveDate": "2021-04-28",
+      "regionCode": "48880",
+      "regionLabel": "경상남도 거창군",
+      "programIds": [
+        "g48880.gov24-547000000151"
+      ],
+      "programNames": [
+        "하수도요금 감면(사회적취약계층)"
+      ],
+      "formId": "ordin-11056543",
+      "use": "main",
+      "formTitle": "별지 제15호서식(하수도(사용료, 점용료, 부담금)감면 신청서)",
+      "sourceMetadataTitle": "별지 제15호서식(하수도(사용료, 점용료, 부담금)감면 신청서)",
+      "verifiedDocumentTitle": "하수도(사용료, 점용료, 부담금)감면 신청서",
+      "evidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1591875",
+      "evidenceNote": "규칙 제17조제2항은 하수도 사용료등의 감면을 받으려는 자가 별지 제15호 신청서와 증빙을 제출하도록 한다. 실제 원본은 하수번호·주소·감면기간·사유·서명·입증서류를 갖추고 조례 제26조를 인용하여 사이트 사회취약계층 하수도 사용료 감면 신청에 일치한다. 점용료·원인자부담금까지 사이트 혜택에 포함시키지 않는다. 공식 법규 ID·별표키·flSeq와 실제 원본의 SHA256·전체 본문 섹션을 재대조했다.",
+      "checkedAt": "2026-10-18",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "sha256": "7e0037be3cb28d79f90e3bb3b1d70455c1bcbffe47a575b81cd3010026e1d5f0",
+      "bytes": 40960,
+      "signature": "d0cf11e0a1b11ae1",
+      "originalFormat": "hwp",
+      "originalTextScope": "all_body_sections_or_pages",
+      "textScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "BodyText/Section0"
+      ],
+      "reviewedParts": [
+        {
+          "number": "15 사용료 부분",
+          "title": "하수도 사용료 감면 신청서",
+          "use": "main",
+          "author": "하수도 사용료 감면 대상 수용가"
+        }
+      ],
+      "role": "application",
+      "roleBasis": "규칙 제17조제2항은 하수도 사용료등의 감면을 받으려는 자가 별지 제15호 신청서와 증빙을 제출하도록 한다. 실제 원본은 하수번호·주소·감면기간·사유·서명·입증서류를 갖추고 조례 제26조를 인용하여 사이트 사회취약계층 하수도 사용료 감면 신청에 일치한다. 점용료·원인자부담금까지 사이트 혜택에 포함시키지 않는다.",
+      "roleEvidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1591875",
+      "roleCheckedAt": "2026-10-18",
+      "bodyEvidenceText": "제17조(감면) ① 조례 제26조제2항에 따라 하수도 사용료를 면제할 수 있는 경우는 다음 각 호의 어느 하나와 같다.(개정 2012.10.16.)1. 천재지변2. 무허가 건물 철거지역3. 불출수등 사유로 급수사용료가 감면된 사용자4. 가정용 전용 사용자로서 상수도(사설 상수도를 포함한다)와 겸용하는 지하수, 하천수 등의 사용에 의해 배출되는 오수(호이동 2015.9.23)(호삭제2021.4.28.)② 사용료등을 감면 받고자 하는 자는 별지 제15호서식에 따른 감면 신청서를 군수에게 제출하여야 한다. 다만, 「거창군 상수도 급수조례」제37조에 따른 상수도요금 감면신청서와 함께 신청하는 경우에는 신청서 제출을 생략할 수 있다. (개정 2012.10.16. 개정 및단서신설2016.2.17. 2021.4.28.)③ 제2항의 신청서를 제출한 자로서 사용료등의 납부를 감면 받은 자는 신청당시의 감면사유에 변동이 없는 한 계속 감면조치를 받을 수 있다.(2016.2.17. 2021.4.28.)④ 사용료등의 감면을 받은 자로서 사유가 해제되었을 경우에는 즉시 군수에게 신고하여야 하고, 감면을 받은 자의 신고가 없는 경우에는 군수가 직권으로 해제할 수 있다.(개정 2016.2.17. 2021.4.28.)(항 삭제2021.4.28.)",
+      "independentBodyReview": true,
+      "condition": "사회적취약계층 하수도 사용료 감면 사유와 증빙을 기재. 상수도 감면과 함께 신청한 경우 별도 제출 생략 여부는 담당기관 확인."
+    },
+    {
+      "sourceKind": "ordin",
+      "lawTitle": "거창군 하수도 사용조례 시행규칙",
+      "lawId": "1591875",
+      "annexId": "11056547",
+      "annexNumber": "001100",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=100603057&flNm=%EB%B3%84%EC%A7%80+%EC%A0%9C17%ED%98%B8%EC%84%9C%EC%8B%9D%28%ED%95%98%EC%88%98%EB%8F%84%EC%82%AC%EC%9A%A9%EB%9F%89+%EA%B3%BC%EC%98%A4%EB%82%A9%ED%99%98%EB%B6%88%EC%B2%AD%EA%B5%AC%EC%84%9C%29",
+      "officialPdfUrl": null,
+      "dateKind": "effective",
+      "effectiveDate": "2021-04-28",
+      "regionCode": "48880",
+      "regionLabel": "경상남도 거창군",
+      "programIds": [
+        "g48880.gov24-547000000155",
+        "g48880.gov24-547000000151"
+      ],
+      "programNames": [
+        "하수도요금 환급",
+        "하수도요금 감면(사회적취약계층)"
+      ],
+      "formId": "ordin-11056547",
+      "use": "conditional",
+      "formTitle": "별지 제17호서식(하수도사용량 과오납환불청구서)",
+      "sourceMetadataTitle": "별지 제17호서식(하수도사용량 과오납환불청구서)",
+      "verifiedDocumentTitle": "하수도 사용료 과오납 환급 청구서",
+      "evidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1591875",
+      "evidenceNote": "제20조제1항은 취소·경정·감면으로 과오납금이 생긴 경우 환급하도록 하고 제4항은 별지 제17호 청구를 지정한다. 실제 원본은 과오납금·이자·청구액·명의자·서명을 받는다. 제14조제5항의 누수량 제외 또는 취약계층 감면 결과 이미 낸 요금의 과오납 환급이 결정된 단계에서만 두 사이트 사업에 연결한다. 최초 누수 사실 신고나 감면자격 신청서가 아니다. 공식 법규 ID·별표키·flSeq와 실제 원본의 SHA256·전체 본문 섹션을 재대조했다.",
+      "checkedAt": "2026-10-18",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "sha256": "4153044d8bb03702ed1e7960af198d76cbeb35aac69ede8b7b664377053784c9",
+      "bytes": 38400,
+      "signature": "d0cf11e0a1b11ae1",
+      "originalFormat": "hwp",
+      "originalTextScope": "all_body_sections_or_pages",
+      "textScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "BodyText/Section0"
+      ],
+      "reviewedParts": [
+        {
+          "number": "17",
+          "title": "하수도 사용료 과오납 환급 청구서",
+          "use": "conditional",
+          "author": "과오납 환급 대상 실제 납입자"
+        }
+      ],
+      "role": "application",
+      "roleBasis": "제20조제1항은 취소·경정·감면으로 과오납금이 생긴 경우 환급하도록 하고 제4항은 별지 제17호 청구를 지정한다. 실제 원본은 과오납금·이자·청구액·명의자·서명을 받는다. 제14조제5항의 누수량 제외 또는 취약계층 감면 결과 이미 낸 요금의 과오납 환급이 결정된 단계에서만 두 사이트 사업에 연결한다. 최초 누수 사실 신고나 감면자격 신청서가 아니다.",
+      "roleEvidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1591875",
+      "roleCheckedAt": "2026-10-18",
+      "bodyEvidenceText": "제14조(사용량의 조정) ① 군수는 매월 정례일에 계량한 사용량에 따라 해당 월분의 요금을 조정한다.(개정 2012.10.16.)② 제1항에도 불구하고 군수가 필요하다고 인정할 경우에는 격월 또는 수시 사용량을 일괄 계량하여 각각 해당 월분의 요금을 산정할 수 있다.(개정 2012.10.16.)③ 오수배출자가 월중에 업종을 변경하였을 경우에는 변경된 업종을 적용하며, 하수도사용자로서 오수의 종별을 달리하는 업종을 1개의 계량기로 계량하는 경우 에는 높은 요율의 업종을 적용한다. 다만, 「거창군 상수도 급수조례」 제28조제2항에 따라 분할 적용을 받고자 하는 경우 분할한 요율을 적용 받을 수 있다.(개정 2008. 1. 14. 2012.10.16. 2021.4.28.)④ 지하수, 하천수 등의 사용자로서 양수시설이 2개 이상일 경우에는 전 양수시설에서 급수하여 배출된 하수량을 합산한 양에 대하여 조정한다. 다만, 상수도(사설 상수도, 공업용수도 사용자를 포함한다)와 겸용하는 경우에는 상수도 사용량은 별도 조정한다.⑤ 사용자의 고의 등에 의하지 아니하고 옥내누수 등의 사유로 인하여 공공하수도로 배출되지 아니한 하수량은 조정량에서 제외한다. 이 경우 사용료 조정은 전 4개월 평균 사용량 또는 전년동기 조정량(목욕업 등 계절별 증감이 많은 사용자에 한함)으로 한다.⑥ 제13조에 따라 산정된 사용량에 대한 사용료는 별지 제12호서식의 하수량 점검카드에 따라 조정한다.(개정 2012.10.16.)⑦ 다음 각 호의 어느 하나에 해당할 경우에는 사용료를 징수하지 아니한다.(개정 2012.10.16.)1. 「하수도법」 제22조에 따라 배수중지 처분된 자(개정 2012.10.16.)2. 사용량이 없는 공용급수 사용자3. 「거창군 상수도 급수조례」 제25조 및 제42조에 따라 급수중지 또는 단수 처분된 자(개정 2008. 1. 14. 2012.10.16.2021.4.28.)⑧ 2가구 이상의 공동주택(아파트, 연립주택) 및 일반가정주택(1가구 2세대이상)에 대한 급수를 1개의 수도계량기 또는 계측기로 계량함으로써 요금이 심히 불합리 하다고 인정하는 경우에는 다음 각 호와 같이 조정한다.(개정 2012.10.16.)1. 원 계량기 또는 계측기의 월별 총 사용량을 사용 가구수로 나눈 수량으로 각 가구별 요금을 산출하고, 이를 합산한 금액을 원 계량기 또는 계측기의 월별 총 사용량에 대한 사용료로 함(2021.4.28.)2. 일반가정용 사용량은 2세대 이상 거주하는 가구에 대하여 세대별 인정 조정은 「거창군 상수도 급수조례 시행규칙」 제16조제2항의 신고에 따름(개정 2008. 1. 14. 2012.10.16. 2021.4.28.)\n제20조(과오납금의 충당 및 환불) ① 군수는 조례에 따른 징수금에 착오납입, 이중납입 후 그 부과의 취소, 경정결정 또는 감면 등으로 과오납금이 발생한 경우에는 다른 미납금의 징수금에 충당하고 그 잔여금은 지체없이 사실상의 납입자에게 환급하여야 한다.(개정 2012.10.16. 2021.4.28.)② 제1항에 따라 과오납금을 환불하여야 할 경우에는 별지 제16호서식에 따른 그 금액, 이유, 지급절차, 지급장소, 다른 미납의 징수금에 충당한 내역 등 필요한 사항을 납부자에게 통지하여야 한다. 이 경우 과오납된 날부터 환급하는 날까지의 기간에 대하여 「지방세기본법」제62조제1항에 따른 지방세환급 이자율을 가산하여 환급하여야 한다.(개정 2012.10.16. 2021.4.28.)③ 제1항의 과오납금의 환급은 해당 연도의 징수금에서 환급한다. 다만 과오납부된 회계연도 출납폐쇄 기한이 경과하지 아니한 경우에는 과오납된 연도의 징수금 중에서 환급하여야 한다.(개정 2012.10.16. 2021.4.28.)④ 제1항 및 제2항에 따라 환급을 받고자 하는 자는 별지 제17호서식에 따라 청구하여야 한다.(개정 2012.10.16. 2021.4.28.)",
+      "independentBodyReview": true,
+      "condition": "누수량 조정 또는 취약계층 감면 후 이미 납부한 하수도요금에 과오납 환급이 결정·통지된 경우에만 청구. 최초 누수 확인·감면자격 신청서는 별도로 제출."
+    },
+    {
+      "sourceKind": "ordin",
+      "lawTitle": "천안시 교복 지원 조례",
+      "lawId": "1594427",
+      "annexId": "19249797",
+      "annexNumber": "000100",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=148338519&flNm=%5B%EB%B3%84%EC%A7%80+%EC%84%9C%EC%8B%9D%5D%EC%8B%A0%EC%9E%85%EC%83%9D+%EA%B5%90%EB%B3%B5%EA%B5%AC%EC%9E%85%EB%B9%84+%EC%A7%80%EC%9B%90%EC%8B%A0%EC%B2%AD%EC%84%9C",
+      "officialPdfUrl": null,
+      "dateKind": "effective",
+      "effectiveDate": "2021-05-11",
+      "regionCode": "44130",
+      "regionLabel": "충청남도 천안시",
+      "programIds": [
+        "g44130.gov24-449000000152"
+      ],
+      "programNames": [
+        "관내 고등학교 신입생 및 1학년 전·편입생 교복비 지원"
+      ],
+      "formId": "ordin-19249797",
+      "use": "main",
+      "formTitle": "[별지 서식]신입생 교복구입비 지원신청서",
+      "sourceMetadataTitle": "[별지 서식]신입생 교복구입비 지원신청서",
+      "verifiedDocumentTitle": "신입생 교복구입비 지원신청서",
+      "evidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1594427",
+      "evidenceNote": "제4조는 관내 중고교·대안교육기관 입학 및 1학년 전입을 대상으로 하고 제6조는 학생·보호자의 별지 신청과 학교 경유를 규정한다. 원본은 학교·학년·학생·보호자·계좌·중복수혜·서명·동의를 받아 사이트 관내 고등학교 신입생 및 1학년 전편입생 교복비와 일치한다. 별도 관외 고교 둘째자녀 사업에 확대하지 않는다. 공식 법규 ID·별표키·flSeq와 실제 원본의 SHA256·전체 본문 섹션을 재대조했다.",
+      "checkedAt": "2026-10-18",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "sha256": "8079cab8f9f975d3fa7a035e666ead8834d5aeb349a68a4dcd06c8a325a9db12",
+      "bytes": 15872,
+      "signature": "d0cf11e0a1b11ae1",
+      "originalFormat": "hwp",
+      "originalTextScope": "all_body_sections_or_pages",
+      "textScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "BodyText/Section0"
+      ],
+      "reviewedParts": [
+        {
+          "number": "별지",
+          "title": "신입생 교복구입비 지원신청서",
+          "use": "main",
+          "author": "관내 고등학교 대상 학생 또는 보호자"
+        }
+      ],
+      "role": "application",
+      "roleBasis": "제4조는 관내 중고교·대안교육기관 입학 및 1학년 전입을 대상으로 하고 제6조는 학생·보호자의 별지 신청과 학교 경유를 규정한다. 원본은 학교·학년·학생·보호자·계좌·중복수혜·서명·동의를 받아 사이트 관내 고등학교 신입생 및 1학년 전편입생 교복비와 일치한다. 별도 관외 고교 둘째자녀 사업에 확대하지 않는다.",
+      "roleEvidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1594427",
+      "roleCheckedAt": "2026-10-18",
+      "bodyEvidenceText": "제4조(지원대상) 교복구입비 지원 대상은 다음 각 호에 해당하는 학생으로 한다.1. 천안시(이하 “시”라 한다)에 소재하는 중·고등학교에 입학한 학생2. 시에 소재하는 대안교육기관의 중·고등학교 1학년에 준하는 교육 과정에 입학한 학생3. 타 지방자치단체 및 국외에서 전입한 중·고등학교 1학년 학생\n제5조(지원금액)① 교복구입비의 구체적인 지원 금액은 교복가격, 물가상승률 등을 고려하여 예산의 범위에서 매년 시장이 정한다.② 시장은 지원 대상 학생이 다음 각 호의 어느 하나에 해당하는 경우에는 지원 금액을 감액하거나 지원하지 아니할 수 있다.1. 다른 법령이나 조례에 따라 지원받고 있는 경우2. 학부모가 직장 등으로부터 지원받고 있는 경우3. 그 밖의 방법으로 지원받고 있는 경우\n제6조(지원신청 및 지급방법)① 교복구입비를 지원받으려는 학생 또는 보호자는 별지 서식에 따른 교복구입비 지원신청서를 시장에게 제출하여야 한다.단, 교육구입비를 학교를 통해 신청하는 경우 학교장은 시장에게 신청서 제출을 생략할 수 있다.② 시장은 제1항에 따라 교복구입비 지원 신청을 할 경우 지원 적격여부를 확인한 후 교복구입비를 신청인이 지정한 계좌로 입금하여야한다.",
+      "independentBodyReview": true,
+      "condition": "관내 고등학교 지원 대상의 교복비 신청에 사용하고 영수증·구매내역서를 첨부. 관외 고등학교 둘째자녀 지원은 별도 사업."
+    },
+    {
+      "sourceKind": "ordin",
+      "lawTitle": "청양군 청소년 꿈키움 바우처 지원 조례",
+      "lawId": "1596147",
+      "annexId": "20862339",
+      "annexNumber": "000200",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=156469875&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C2%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EC%B2%AD%EC%96%91%EA%B5%B0+%EC%B2%AD%EC%86%8C%EB%85%84+%EA%BF%88%ED%82%A4%EC%9B%80+%EB%B0%94%EC%9A%B0%EC%B2%98+%EC%A7%80%EC%9B%90+%EB%B0%8F+%EC%B9%B4%EB%93%9C+%28%EC%9E%AC%29%EB%B0%9C%EA%B8%89+%EC%8B%A0%EC%B2%AD+%EC%9C%84%EC%9E%84%EC%9E%A5",
+      "officialPdfUrl": null,
+      "dateKind": "effective",
+      "effectiveDate": "2023-12-27",
+      "regionCode": "44790",
+      "regionLabel": "충청남도 청양군",
+      "programIds": [
+        "g44790.bokjiro-WLF00004829"
+      ],
+      "programNames": [
+        "청양군 청소년 꿈키움 바우처지원사업"
+      ],
+      "formId": "ordin-20862339",
+      "use": "conditional",
+      "formTitle": "[별지 제2호서식] 청양군 청소년 꿈키움 바우처 지원 및 카드 (재)발급 신청 위임장",
+      "sourceMetadataTitle": "[별지 제2호서식] 청양군 청소년 꿈키움 바우처 지원 및 카드 (재)발급 신청 위임장",
+      "verifiedDocumentTitle": "청양군 청소년 꿈키움 바우처 지원 및 카드 (재)발급 신청 위임장",
+      "evidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1596147",
+      "evidenceNote": "제11조제1항제4호가 사회복지시설 대리 신청 때 대리인 신분증·재직증명·위임장을 요구하며 실제 원본도 해당 조항을 인용한다. 원본의 지원대상 청소년·수임자·법정대리인 또는 시설대표 위임자·서명은 사이트 동일 제출서류와 일치한다. 주신청서가 아니라 대리 신청 때만 첨부하는 위임장이다. 공식 법규 ID·별표키·flSeq와 실제 원본의 SHA256·전체 본문 섹션을 재대조했다.",
+      "checkedAt": "2026-10-18",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "sha256": "d00f3979cc43268d62bd4593c8d8a3e9e414898f84a419be8bdfc0552533c592",
+      "bytes": 24576,
+      "signature": "d0cf11e0a1b11ae1",
+      "originalFormat": "hwp",
+      "originalTextScope": "all_body_sections_or_pages",
+      "textScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "BodyText/Section0"
+      ],
+      "reviewedParts": [
+        {
+          "number": "2",
+          "title": "바우처 지원 및 카드 (재)발급 신청 위임장",
+          "use": "conditional",
+          "author": "법정대리인 또는 시설대표자"
+        }
+      ],
+      "role": "delegation",
+      "roleBasis": "제11조제1항제4호가 사회복지시설 대리 신청 때 대리인 신분증·재직증명·위임장을 요구하며 실제 원본도 해당 조항을 인용한다. 원본의 지원대상 청소년·수임자·법정대리인 또는 시설대표 위임자·서명은 사이트 동일 제출서류와 일치한다. 주신청서가 아니라 대리 신청 때만 첨부하는 위임장이다.",
+      "roleEvidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1596147",
+      "roleCheckedAt": "2026-10-18",
+      "bodyEvidenceText": "제10조(지원대상 및 금액)① 군수는 청양군에 주민등록을 둔 13세부터 18세까지의 청소년에게 바우처를 지원할 수 있다. 다만, 바우처의 지원연령은 해당 연령이 도래하는 연도의 1월 1일을 기준으로 한다.<개정 2023 12. 27.>② 바우처의 연령별 지원금액은 예산의 범위 안에서 회계년도 시작 1개월 전까지 위원회에서 심의 의결한다.\n제11조(지원신청)① 바우처를 지원 받고자 하는 청소년, 보호자 또는 대리인은 별지 제1호서식의 신청서 및 다음 각 호의 서류를 첨부하여 주소지 읍장·면장에게 제출해야 한다. 다만, 지원대상자가 신청할 경우 지원대상자 보호자의 동의를 받아야 한다.1. 주민등록등본 1부 (「전자정부법」제36조제1항에 따른 행정정보공동이용 동의 시 생략)2. 청소년증 등 인적사항을 확인할 수 있는 증표 또는 자료3. 보호자 신청시 신분증 및 관계 확인 증명서류4. 사회복지시설에서 신청 시 대리인 신분증, 재직증명서, 위임장② 바우처 신청대상자는 해당 연령이 도래하는 연도 1월부터 신청할 수 있다.",
+      "independentBodyReview": true,
+      "condition": "사회복지시설 등에서 대리 신청하는 경우 제1호 신청서에 첨부. 위임자가 서명하고 대리인 신분증·재직증명 등 해당 증빙을 함께 제출."
+    },
+    {
+      "sourceKind": "ordin",
+      "lawTitle": "고창군 고창사랑 상품권 관리 및 운영 조례 시행규칙",
+      "lawId": "1596181",
+      "annexId": "13558131",
+      "annexNumber": "000200",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=119373463&flNm=%EB%B3%84%EC%A7%80%EC%84%9C%EC%8B%9D",
+      "officialPdfUrl": null,
+      "dateKind": "effective",
+      "effectiveDate": "2021-05-17",
+      "regionCode": "52790",
+      "regionLabel": "전북특별자치도 고창군",
+      "programIds": [
+        "g52790.gov24-478000000113"
+      ],
+      "programNames": [
+        "지역화폐(고창사랑상품권)"
+      ],
+      "formId": "ordin-13558131",
+      "use": "conditional",
+      "formTitle": "별지서식",
+      "sourceMetadataTitle": "별지서식",
+      "verifiedDocumentTitle": "고창사랑 상품권 관련 별지서식 묶음",
+      "evidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1596181",
+      "evidenceNote": "규칙 제5조는 일반·노점·임시 가맹 등록을 제4호·4호의1·4호의2, 변경을 제7호·7호의1로 지정하고 제8조는 가맹점 환전 청구를 제9호로 지정한다. 실제 원본의 업소·노점·행사·대표·계좌·서명과 상인회 확인을 각 부분별로 읽었다. 사이트는 소비자 할인과 가맹점 홍보·매출 혜택을 함께 안내하므로 가맹점 참여·변경·환전 부분만 조건부 승인한다. 소비자 구매 신청은 이 묶음에 없고 삭제·발급증·해지·대장 부분은 제외한다. 공식 법규 ID·별표키·flSeq와 실제 원본의 SHA256·전체 본문 섹션을 재대조했다.",
+      "checkedAt": "2026-10-18",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "sha256": "700ec7e4c43dd6ab19b901fe5a05a1a4db744baa952bdd48b898a521ec591ec2",
+      "bytes": 75264,
+      "signature": "d0cf11e0a1b11ae1",
+      "originalFormat": "hwp",
+      "originalTextScope": "all_body_sections_or_pages",
+      "textScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "BodyText/Section0"
+      ],
+      "reviewedParts": [
+        {
+          "number": "4",
+          "title": "고창사랑 상품권 가맹점 등록신청서",
+          "use": "conditional",
+          "author": "가맹점 대표"
+        },
+        {
+          "number": "4의1",
+          "title": "가맹점 등록 신청서(노점상용)",
+          "use": "conditional",
+          "author": "노점상 및 확인 상인회장"
+        },
+        {
+          "number": "4의2",
+          "title": "임시가맹점 등록신청서",
+          "use": "conditional",
+          "author": "축제·행사 참여 단체 대표"
+        },
+        {
+          "number": "7,7의1",
+          "title": "가맹점 등록 변경 신청서",
+          "use": "conditional",
+          "author": "기존 일반·노점 가맹점 대표"
+        },
+        {
+          "number": "9",
+          "title": "고창사랑 상품권 환전 청구서",
+          "use": "conditional",
+          "author": "등록 가맹점 대표"
+        }
+      ],
+      "role": "application",
+      "roleBasis": "규칙 제5조는 일반·노점·임시 가맹 등록을 제4호·4호의1·4호의2, 변경을 제7호·7호의1로 지정하고 제8조는 가맹점 환전 청구를 제9호로 지정한다. 실제 원본의 업소·노점·행사·대표·계좌·서명과 상인회 확인을 각 부분별로 읽었다. 사이트는 소비자 할인과 가맹점 홍보·매출 혜택을 함께 안내하므로 가맹점 참여·변경·환전 부분만 조건부 승인한다. 소비자 구매 신청은 이 묶음에 없고 삭제·발급증·해지·대장 부분은 제외한다.",
+      "roleEvidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1596181",
+      "roleCheckedAt": "2026-10-18",
+      "bodyEvidenceText": "제5조(가맹점 등록 및 관리) ① 조례 제6조제1항 및 제2항에 따라 가맹점 또는 임시가맹점으로 등록하고자 하는 자는 다음 각 호에 따른 신청서를 군수에게 제출하여야 한다. <개정 2021.5.17.>1. 가맹점 :  별지 제4호서식 또는 제4호의1서식2. 임시가맹점 : 별지 제4호의2서식② 군수는 등록된 가맹점에 대하여 별지 제6호, 제6호의1 또는 제6호의2 서식의 상품권 가맹점 등록증을 발급하여야 하고 가맹점으로 등록된 업소는 별표2의 가맹점 준수사항을 성실히 이행하여야 한다. <개정 2021.5.17.>③ 조례 제7조제6항에 따라 가맹점의 소재지, 대표자 등을 변경하고자 하는 자는 별지 제7호 또는 제7호의1서식의 변경신청서에 변경 사실을 증명하는 서류를 첨부하여 군수에게 제출하여야 하고, 상품권 가맹점 등록을 해지하고자 하는 자는 별지 제8호 또는 제8호의1서식의 해지 신청서를 군수에게 제출하여야 한다. <개정 2021.5.17.>[제목개정 2021.5.17.]\n제8조(환전청구 및 환전기한) ① 조례 제11조제1항에 따라 상품권을 환전하고자 할 때에는 별지 제9호 서식의 상품권 환전 청구서를 작성하여 판매대행점에 청구한다.② 조례 제11조제2항에 따른 환전기한은 판매대행점의 영업일 기준 3일 이내로 한다.",
+      "independentBodyReview": true,
+      "condition": "가맹점 대표 전용. 유형별 등록은 제4호·4호의1·4호의2, 변경은 제7호·7호의1, 지류상품권 환전은 제9호만 사용. 소비자의 할인구매·앱 신청서가 아님.",
+      "institutionOnly": true,
+      "applicantType": "merchant",
+      "applicationStage": "merchant_registration_change_redemption",
+      "excludedParts": [
+        {
+          "number": "1,3,5",
+          "title": "삭제서식",
+          "reason": "삭제"
+        },
+        {
+          "number": "2,6,6의1,6의2,10~12",
+          "title": "인수·등록증·폐기·관리대장",
+          "reason": "행정업무"
+        },
+        {
+          "number": "8,8의1",
+          "title": "가맹점 등록해지",
+          "reason": "혜택 참여 종료"
+        }
+      ],
+      "displayTitle": "고창사랑 상품권 가맹점 등록신청서 · 가맹점 등록 신청서(노점상용) · 임시가맹점 등록신청서 · 가맹점 등록 변경 신청서 · 고창사랑 상품권 환전 청구서"
+    }
+  ],
+  "sourceReview": {
+    "file": "logs/forms-completion/reviews/team2-batch-008-reviewed.json",
+    "sha256": "cf4ac5e7d1ecc8685059ab4b83003ac0ce59d1a481b1bc60bca03079ef979592",
+    "dispositionsSHA256": "a71ecc10084f012cc574fb45a29fa392ca4dfb37958defbb09a8d92f710fd3e8",
+    "assignmentSHA256": "e06d2d445d7dcfae999ed37f830f8da17c84ee57b3d6543f564ba9da0b286d12"
+  }
+}

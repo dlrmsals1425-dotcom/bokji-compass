@@ -12,7 +12,7 @@ import type { Cond, EvalOptions, Evaluation, Leaf, Reason } from "../engine/type
 import type { Program } from "../data/types";
 import { isSpecialEd } from "../data/refine";
 import { closedSince } from "./period";
-import { SAME_PROGRAM_KEYS, autoLike, familyKey, groupVariants, hiddenByDefault, scoreAll, type Filters, type Group, type Scored } from "./results";
+import { isSameProgram, autoLike, familyKey, groupVariants, hiddenByDefault, scoreAll, type Filters, type Group, type Scored } from "./results";
 import type { FindMode } from "./mode";
 import { TOPICS, programTopics, type TopicId } from "./topics";
 
@@ -1352,10 +1352,12 @@ export function buildView(scored: Scored[], sit: Situation, maxQuestions = 3, no
   const items = scored.map((x) => classify(x, sit));
   const seen = new Set<string>();
   const out: Record<Bucket, V2Item[][]> = { fit: [], ask: [], office: [], no: [] };
-  // 출처마다 이름이 다른 같은 제도(SAME_PROGRAM_KEYS)는 판정이 갈리면 조건이 이미 맞은 쪽('신청할 때 확인')을
+  // 출처마다 이름이 다른 것으로 확인한 전국 제도는 판정이 갈리면 조건이 이미 맞은 쪽('신청할 때 확인')을
   // '답하면 정해져요'보다 앞에 둔다 (2026-10-16: 복지로 '건강보험 임신출산 진료비'는 맞았는데 정부24 이름이 성별·나이를 물어 뒤로 밀림)
   const sameAt = new Map<string, Bucket>();
-  for (const b of SAME_ORDER) for (const i of items) if (i.bucket === b && SAME_PROGRAM_KEYS.has(i.s.group) && !sameAt.has(i.s.group)) sameAt.set(i.s.group, b);
+  // 비슷한 이름의 지역 사업이 섞이면 기존 순서를 유지해 그 사업의 미응답 조건을 숨기지 않는다.
+  const otherKeys = new Set(items.filter((i) => !isSameProgram(i.s.program)).map((i) => i.s.group));
+  for (const b of SAME_ORDER) for (const i of items) if (i.bucket === b && !otherKeys.has(i.s.group) && !sameAt.has(i.s.group)) sameAt.set(i.s.group, b);
   for (const b of ORDER) {
     const list = items.filter((i) => i.bucket === b);
     const groups = groupVariants(list.map((i) => i.s));

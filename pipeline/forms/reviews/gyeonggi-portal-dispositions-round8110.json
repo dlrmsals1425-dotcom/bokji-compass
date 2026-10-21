@@ -1,0 +1,81 @@
+{
+  "schema": 1,
+  "checkedAt": "2026-10-20",
+  "items": [
+    {
+      "formId": "ordin-22900107",
+      "sha256": "ca140fd799e89d45990dc1d96e997211becaf09682d95e2250eb5d02661c6ed7",
+      "disposition": "approved",
+      "fullBodyReviewed": true,
+      "checkedAt": "2026-10-20",
+      "programIds": [
+        "g41670.gov24-570000000105"
+      ],
+      "sourceProposal": "logs/forms-completion/gyeonggi-20261019/team2/raw-cited-round2-reviewed-20261020.json",
+      "sourceProposalSHA256": "9ea288247593b0a30d52dbc38add7b2c814869d8af4651aa349943c318f2a46d",
+      "currentSearchSHA256": "f29c6c0e25c34e50922208933ea2b2c3e16836f63c217b6d22db9bf248a30166",
+      "currentBodySHA256": "166cc630fa296a021f3eebc3f65a726de2939c7ded0e49d3b2e46ceca2394d2b",
+      "annexBinding": {
+        "binding": "bound",
+        "bindingReason": "OFFICIAL_ANNEX_BOUND_WITH_SAME_FILE",
+        "officialAnnexId": "22900107",
+        "officialAnnexNumber": "1",
+        "officialAnnexTitle": "여주시 여성장애인 출산지원금 지급 조례",
+        "officialFlSeq": "170749699",
+        "officialAnnexUrl": "https://www.law.go.kr/flDownload.do?gubun=ELIS&flSeq=170749699&flNm=%EC%97%AC%EC%A3%BC%EC%8B%9C+%EC%97%AC%EC%84%B1%EC%9E%A5%EC%95%A0%EC%9D%B8+%EC%B6%9C%EC%82%B0%EC%A7%80%EC%9B%90%EA%B8%88+%EC%A7%80%EA%B8%89+%EC%A1%B0%EB%A1%80",
+        "officialAnnexDeleted": false
+      },
+      "reason": "전체4495자의조문8개·부칙/타조례개정표와끝무번호별지를읽었다.제5조는출산여성/유고시양육자신청주체,제6조는별지신청+통장사본을정하며실제본문에여성장애인의장애정도·신생아·출산일·신청인서명이있다.20일정확정부24는여주180일·중증300/경증150만원·읍면동방문을명시한다.현행20일annex키22900107·flSeq170749699로다시다운로드했고구원본과SHA가같아도ID를덮지않고새현행ID만제안한다."
+    },
+    {
+      "formId": "ordin-22901167",
+      "sha256": "e6f031a951ebd84d9375df3c7608c904e87e9e945890b2bac0d042bd73960938",
+      "disposition": "approved",
+      "fullBodyReviewed": true,
+      "checkedAt": "2026-10-20",
+      "programIds": [
+        "g41670.gov24-570000000106"
+      ],
+      "sourceProposal": "logs/forms-completion/gyeonggi-20261019/team2/raw-cited-round2-reviewed-20261020.json",
+      "sourceProposalSHA256": "9ea288247593b0a30d52dbc38add7b2c814869d8af4651aa349943c318f2a46d",
+      "currentSearchSHA256": "17f61235e631b3b47ea9a25fb432a83b2ddd9a93c8dde5121635d31d4eb424f4",
+      "currentBodySHA256": "20a06831009c456bb280a050a53dbfc6ae56acc982ddd7286771ec9550b9998b",
+      "annexBinding": {
+        "binding": "bound",
+        "bindingReason": "OFFICIAL_ANNEX_BOUND_WITH_SAME_FILE",
+        "officialAnnexId": "22901167",
+        "officialAnnexNumber": "1",
+        "officialAnnexTitle": "여주시 장애인보장구 수리비용 지원에 관한 조례",
+        "officialFlSeq": "170752711",
+        "officialAnnexUrl": "https://www.law.go.kr/flDownload.do?gubun=ELIS&flSeq=170752711&flNm=%EC%97%AC%EC%A3%BC%EC%8B%9C+%EC%9E%A5%EC%95%A0%EC%9D%B8%EB%B3%B4%EC%9E%A5%EA%B5%AC+%EC%88%98%EB%A6%AC%EB%B9%84%EC%9A%A9+%EC%A7%80%EC%9B%90%EC%97%90+%EA%B4%80%ED%95%9C+%EC%A1%B0%EB%A1%80",
+        "officialAnnexDeleted": false
+      },
+      "reason": "전체4221자의현행9조문·부칙·별지1~6을읽었다.제6조①이주민3호신청을명시하고②는기관4호의뢰,③은업체5/6호청구로분리한다.실제3호는수급유형·보장구유형·수리부위·신청인서명으로작성된다.20일정부24의여주등록장애인/수급차상위연20만원·일반연10만원50%및주민센터접수가현행제5조와일치한다.양식의남아있는장애등급표현을별도등급자격제한으로해석하지않았다.현행키22901167/flSeq170752711의실제바이트를확인했다."
+    },
+    {
+      "formId": "ordin-22901313",
+      "sha256": "3975c5b2b78035cdf5e8cb652d2950d171c4f86905bab7adaa180f08543b2b88",
+      "disposition": "approved",
+      "fullBodyReviewed": true,
+      "checkedAt": "2026-10-20",
+      "programIds": [
+        "g41670.gov24-570000000112"
+      ],
+      "sourceProposal": "logs/forms-completion/gyeonggi-20261019/team2/raw-cited-round2-reviewed-20261020.json",
+      "sourceProposalSHA256": "9ea288247593b0a30d52dbc38add7b2c814869d8af4651aa349943c318f2a46d",
+      "currentSearchSHA256": "98093a6de8a44a0b97db27a98e91c6289a1a31e5682d574a68360723a1c8c4c1",
+      "currentBodySHA256": "f4d4c5bee3fb764d2f57c64a6b8ef0d0163dcf8d8e1525d14eded09ed48c1fcf",
+      "annexBinding": {
+        "binding": "bound",
+        "bindingReason": "OFFICIAL_ANNEX_BOUND_WITH_SAME_FILE",
+        "officialAnnexId": "22901313",
+        "officialAnnexNumber": "1",
+        "officialAnnexTitle": "여주시 저소득주민 자녀 학력 향상 생활자금 지원 조례 시행규칙",
+        "officialFlSeq": "170753247",
+        "officialAnnexUrl": "https://www.law.go.kr/flDownload.do?gubun=ELIS&flSeq=170753247&flNm=%EC%97%AC%EC%A3%BC%EC%8B%9C+%EC%A0%80%EC%86%8C%EB%93%9D%EC%A3%BC%EB%AF%BC+%EC%9E%90%EB%85%80+%ED%95%99%EB%A0%A5+%ED%96%A5%EC%83%81+%EC%83%9D%ED%99%9C%EC%9E%90%EA%B8%88+%EC%A7%80%EC%9B%90+%EC%A1%B0%EB%A1%80+%EC%8B%9C%ED%96%89%EA%B7%9C%EC%B9%99",
+        "officialAnnexDeleted": false
+      },
+      "reason": "규칙7조문·부칙·별지1/2전체3313자와상위현행조례2178721의7조문·부칙을읽었다.규칙제3조는학생또는보호자의1호제출,4/5조는읍면동의2호조사를구분한다.상위3조중고생/고등교육학생과규칙6조40/60/100만원이20일정부24의정확사업과일치한다.법령상현재원본키22901313/flSeq170753247의바이트와서명란을확인했으나정부24가10월말~11월중순만안내하므로현재20일즉시접수가능으로주장하지않고모집기간조건으로만제안한다."
+    }
+  ]
+}

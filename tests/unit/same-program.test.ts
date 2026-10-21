@@ -99,6 +99,13 @@ const groupsOf = (view: ReturnType<typeof viewOf>, re: RegExp) =>
   (["fit", "office", "ask", "no"] as const).flatMap((b) => view[b].filter((g) => g.some((i) => re.test(i.s.program.name))).map((g) => ({ b, g })));
 
 describe("결과 화면: 같은 제도가 두 번 나오지 않음", () => {
+  it("전국 별칭과 이름이 겹쳐도 동작구 법률상담의 미응답 조건을 없애지 않는다", () => {
+    const view = viewOf("서울 동작구 살아요");
+    const regional = groupsOf(view, /^동작구 무료법률 상담 지원$/);
+    expect(regional).toHaveLength(1);
+    expect(regional[0].b).toBe("ask");
+    expect(view.questions.some((q) => q.keys.includes(regional[0].g[0].s.group))).toBe(true);
+  });
   it("고양시 4살 아이(어린이집) 엄마 — 보육료 지원/영유아보육료 지원이 한 카드", () => {
     expect(groupsOf(viewOf("고양시 사는 35살 엄마, 4살 아이 하나 어린이집 다녀요"), /^(영유아)?보육료 지원$/).length).toBe(1);
   });

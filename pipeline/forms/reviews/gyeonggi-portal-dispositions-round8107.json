@@ -1,0 +1,31 @@
+{
+  "schema": 1,
+  "checkedAt": "2026-10-20",
+  "items": [
+    {
+      "formId": "ordin-22522495",
+      "sha256": "42824a6b22fcff0b09888f0ca54de9367ab5b99dd1039204e3fb87095e47fdb7",
+      "disposition": "approved",
+      "fullBodyReviewed": true,
+      "checkedAt": "2026-10-20",
+      "programIds": [
+        "s41000.gov24-641000000177"
+      ],
+      "sourceProposal": "logs/forms-completion/gyeonggi-20261019/team3/raw-law-next-20261020-01.json",
+      "sourceProposalSHA256": "f51b193fd65c5c20be046e1059e39aad8ca84a950375f7cc2892c941695cfdd6",
+      "currentSearchSHA256": "3588028ccc47c41998bb5163cc2ae2cfd6d5ecad6319c3e7973ad4ff611112ed",
+      "currentBodySHA256": "38e4e67c397f0c3292cc892e867abd6dd1e932e4c574974ece4c00e752304d04",
+      "annexBinding": {
+        "binding": "bound",
+        "bindingReason": "OFFICIAL_ANNEX_BOUND_WITH_SAME_FILE",
+        "officialAnnexId": "22522495",
+        "officialAnnexNumber": "3",
+        "officialAnnexTitle": "[별지 제1호서식] 의사상자 특별위로금등 수령 포기서",
+        "officialFlSeq": "168861495",
+        "officialAnnexUrl": "https://www.law.go.kr/flDownload.do?gubun=ELIS&flSeq=168861495&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C1%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EC%9D%98%EC%82%AC%EC%83%81%EC%9E%90+%ED%8A%B9%EB%B3%84%EC%9C%84%EB%A1%9C%EA%B8%88%EB%93%B1+%EC%88%98%EB%A0%B9+%ED%8F%AC%EA%B8%B0%EC%84%9C",
+        "officialAnnexDeleted": false
+      },
+      "reason": "원본587자 전체Section0의 특별위로금·수당·명절위문금 선택,전액수령자·포기자 인적사항과 서명 및 동의를 읽었다. 현행규칙2166375 전체9조·3부칙을 읽었고 제4조제3항·제5조제3항이 같은순위 유족 협의 시 별지1포기서의 제출을 직접 지정한다. 현재정부24 정확사업641000000177은 의사상자 특별위로금·수당·명절위문금 지급을 안내한다. 별지2 본신청은 이미연결되어 있으며 이 원본은 해당 협의상황에서만 함께제출하는조건부서류다."
+    }
+  ]
+}

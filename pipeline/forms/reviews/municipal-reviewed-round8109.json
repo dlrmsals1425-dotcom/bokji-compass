@@ -1,0 +1,1391 @@
+{
+  "schema": 1,
+  "checkedAt": "2026-10-20",
+  "rows": [
+    {
+      "sourceKind": "ordin",
+      "lawTitle": "안양시 통장자녀장학금 지급 조례 시행규칙",
+      "lawId": "1480751",
+      "annexId": "20204783",
+      "annexNumber": "2",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=152876797&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C2%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%ED%86%B5%EC%9E%A5%EC%9E%90%EB%85%80%EC%9E%A5%ED%95%99%EC%83%9D+%EC%B6%94%EC%B2%9C%EC%84%9C%28%ED%95%99%EA%B5%90%EC%9E%A5%EC%9A%A9%29",
+      "officialPdfUrl": null,
+      "dateKind": "effective",
+      "regionCode": "41170",
+      "regionLabel": "경기도 안양시",
+      "lawUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1480751",
+      "formId": "ordin-20204783",
+      "formTitle": "[별지 제2호서식] 통장자녀장학생 추천서(학교장용)",
+      "sourceMetadataTitle": "[별지 제2호서식] 통장자녀장학생 추천서(학교장용)",
+      "verifiedDocumentTitle": "통장자녀장학생 추천서(학교장용)",
+      "effectiveDate": "2020-03-20",
+      "stableLawId": "2150147",
+      "programIds": [
+        "g41170.gov24-383000000181"
+      ],
+      "programNames": [
+        "통장자녀장학금 지급"
+      ],
+      "use": "additional",
+      "condition": "통장자녀 장학금 신청에 첨부할 학교장 추천서입니다. 신청인이 직접 학교장 직인·추천의견을 작성하는 서류가 아니며, 재학 학교에서 추천·확인을 받아 별지 제1호 신청서에 첨부합니다. 접수는 시·동이 정한 해당 모집기간을 따르고, 동장용 내부추천서와 구별합니다.",
+      "applicant": "재학 학교의 학교장",
+      "evidenceUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=1480751",
+      "programEvidenceUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/383000000181",
+      "evidenceNote": "원본전체339자를 모든BodyText섹션에서 읽어 재학 학교의 학교장가 통장자녀장학생 추천서(학교장용)를 작성하는 목적을 확인했다. 현행규칙1480751 전체조문·부칙의 제2조제2호가 해당별지를직접지정한다. 규칙제2조는 신청인이학교장추천서를받아첨부하도록명시하고,동장용추천서는제3조의기관송부문서로구별한다. 현재정부24도고등학생·대학생의학교장추천을대상조건에직접표시한다.",
+      "checkedAt": "2026-10-20",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "sha256": "184f9ff242a91e95a799ea22974c65617a83d4de264db2283177d04d18c9323c",
+      "bytes": 28672,
+      "signature": "d0cf11e0a1b11ae1",
+      "originalFormat": "hwp",
+      "originalPath": "pipeline/forms/originals/ordin-20204783.hwp",
+      "textScope": "all_body_sections_or_pages",
+      "originalTextScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "BodyText/Section0"
+      ],
+      "fullBodyReviewed": true,
+      "textLength": 339,
+      "bodyTextSha256": "c7d9d1bab225ad8357a8fda069dcbc7bc34e8c4e8d6f754f592a3825486e3a93",
+      "role": "supporting",
+      "roleBasis": "원본전체339자를 모든BodyText섹션에서 읽어 재학 학교의 학교장가 통장자녀장학생 추천서(학교장용)를 작성하는 목적을 확인했다. 현행규칙1480751 전체조문·부칙의 제2조제2호가 해당별지를직접지정한다. 규칙제2조는 신청인이학교장추천서를받아첨부하도록명시하고,동장용추천서는제3조의기관송부문서로구별한다. 현재정부24도고등학생·대학생의학교장추천을대상조건에직접표시한다.",
+      "roleEvidenceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=152876797&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C2%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%ED%86%B5%EC%9E%A5%EC%9E%90%EB%85%80%EC%9E%A5%ED%95%99%EC%83%9D+%EC%B6%94%EC%B2%9C%EC%84%9C%28%ED%95%99%EA%B5%90%EC%9E%A5%EC%9A%A9%29",
+      "roleCheckedAt": "2026-10-20",
+      "reviewedParts": [
+        {
+          "number": "별지 제2호서식",
+          "title": "통장자녀장학생 추천서(학교장용)",
+          "use": "additional",
+          "author": "재학 학교의 학교장"
+        }
+      ],
+      "selectedParts": [
+        {
+          "number": "별지 제2호서식",
+          "title": "통장자녀장학생 추천서(학교장용)",
+          "use": "additional",
+          "author": "재학 학교의 학교장"
+        }
+      ],
+      "bodyEvidenceArticle": "제2조제2호",
+      "lawBodyEvidencePath": "logs/forms-completion/gyeonggi-20261019/team3/raw-current-law-1480751-20261020.json",
+      "lawBodySHA256": "515e118a9d04c6fba78a5210c542cccfe39d1543bdc709124f61b71b45d910cc",
+      "lawReadScope": "전체5조·4부칙",
+      "officialAnnexBinding": {
+        "annexId": "20204783",
+        "number": "2",
+        "kind": "서식",
+        "title": "[별지 제2호서식] 통장자녀장학생 추천서(학교장용)",
+        "fileFormat": "hwp",
+        "url": "https://www.law.go.kr/flDownload.do?gubun=ELIS&flSeq=152876797&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C2%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%ED%86%B5%EC%9E%A5%EC%9E%90%EB%85%80%EC%9E%A5%ED%95%99%EC%83%9D+%EC%B6%94%EC%B2%9C%EC%84%9C%28%ED%95%99%EA%B5%90%EC%9E%A5%EC%9A%A9%29",
+        "flSeq": "152876797",
+        "pdfUrl": "",
+        "contentChars": 0,
+        "deleted": false
+      },
+      "currentLawProof": {
+        "record": "pipeline/forms/source-law-currency.json",
+        "state": "source_current",
+        "currentLawId": "1480751",
+        "checkedAt": "2026-10-19",
+        "effectiveDate": "20200320"
+      },
+      "originalRehashed": true,
+      "programmePageRecord": "logs/forms-completion/gyeonggi-20261019/team3/anyang-scholarship-programme-20261020.json",
+      "programmePageSHA256": "3bd76a1a8a6b45dbc63d138ecb878c1cd6bcb67d7b674c8067a6e08d671f25a4",
+      "reviewedBy": "/root/national_form_audit",
+      "externalModelReviewReused": false,
+      "publicationApproved": false,
+      "requiresCoordinatorReview": true,
+      "publicationReady": true,
+      "decision": "propose_approval",
+      "displayTitle": "통장자녀장학생 추천서(학교장용)",
+      "coordinatorApproved": true,
+      "coordinatorReason": "원본전체339자를 모든BodyText섹션에서 읽어 재학 학교의 학교장가 통장자녀장학생 추천서(학교장용)를 작성하는 목적을 확인했다. 현행규칙1480751 전체조문·부칙의 제2조제2호가 해당별지를직접지정한다. 규칙제2조는 신청인이학교장추천서를받아첨부하도록명시하고,동장용추천서는제3조의기관송부문서로구별한다. 현재정부24도고등학생·대학생의학교장추천을대상조건에직접표시한다.",
+      "currentAnnexBinding": {
+        "binding": "bound",
+        "bindingReason": "OFFICIAL_ANNEX_BOUND_WITH_SAME_FILE",
+        "officialAnnexId": "20204783",
+        "officialAnnexNumber": "2",
+        "officialAnnexTitle": "[별지 제2호서식] 통장자녀장학생 추천서(학교장용)",
+        "officialFlSeq": "152876797",
+        "officialAnnexUrl": "https://www.law.go.kr/flDownload.do?gubun=ELIS&flSeq=152876797&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C2%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%ED%86%B5%EC%9E%A5%EC%9E%90%EB%85%80%EC%9E%A5%ED%95%99%EC%83%9D+%EC%B6%94%EC%B2%9C%EC%84%9C%28%ED%95%99%EA%B5%90%EC%9E%A5%EC%9A%A9%29",
+        "officialAnnexDeleted": false
+      }
+    },
+    {
+      "sourceKind": "ordin",
+      "lawTitle": "안양시 녹색건축물 조성 지원 조례 시행규칙",
+      "lawId": "1628713",
+      "annexId": "20163381",
+      "annexNumber": "5",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=152717285&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C3%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EB%85%B9%EC%83%89%EA%B1%B4%EC%B6%95%EB%AC%BC+%EC%A1%B0%EC%84%B1+%EB%B3%B4%EC%A1%B0%EA%B8%88+%EC%A7%80%EC%9B%90%EC%82%AC%EC%97%85+%EC%B0%A9%EC%88%98+%EC%8B%A0%EA%B3%A0%EC%84%9C",
+      "officialPdfUrl": null,
+      "dateKind": "effective",
+      "regionCode": "41170",
+      "regionLabel": "경기도 안양시",
+      "lawUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1628713",
+      "formId": "ordin-20163381",
+      "formTitle": "[별지 제3호서식] 녹색건축물 조성 보조금 지원사업 착수 신고서",
+      "sourceMetadataTitle": "[별지 제3호서식] 녹색건축물 조성 보조금 지원사업 착수 신고서",
+      "verifiedDocumentTitle": "녹색건축물 조성 보조금 지원사업 착수 신고서·성실이행각서·청렴서약서",
+      "effectiveDate": "2021-09-29",
+      "stableLawId": "2196830",
+      "programIds": [
+        "g41170.gov24-383000000192"
+      ],
+      "programNames": [
+        "녹색건축물 조성 보조금 지원"
+      ],
+      "use": "conditional",
+      "condition": "녹색건축물 보조금 지원대상으로 선정·통지를 받은 뒤 공사에 착수한 경우 제출합니다. 원칙적으로 통지일부터 3개월 안에 착수하며 사전승인으로 연기한 경우 해당 승인기한을 따릅니다. 착수신고서와 성실이행각서·청렴서약서에 건축주 및 시공자가 각각 서명하고, 원문에서 요구하는 계약·시공자·계좌서류를 준비합니다. 최초 보조금 모집신청서가 아닙니다.",
+      "applicant": "이미 선정된 건축주와 공사시공자",
+      "evidenceUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=1628713",
+      "programEvidenceUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/383000000192",
+      "evidenceNote": "원본전체2202자를 모든BodyText섹션에서 읽어 이미 선정된 건축주와 공사시공자가 녹색건축물 조성 보조금 지원사업 착수 신고서·성실이행각서·청렴서약서를 작성하는 목적을 확인했다. 현행규칙1628713 전체조문·부칙의 제5조가 해당별지를직접지정한다. 오늘정확사업정부24-383000000192의구비서류가 해당착공·준공·정산단계의별지와첨부서류를직접명시한다. 최초모집과선정후절차를구별하고이미선정된건축주에게해당하는단계에서만연결한다.",
+      "checkedAt": "2026-10-20",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "sha256": "43b0f2430e397ad7e126b21e84bfbba978632455029b1ecfb3b015a2263a3ba3",
+      "bytes": 41472,
+      "signature": "d0cf11e0a1b11ae1",
+      "originalFormat": "hwp",
+      "originalPath": "pipeline/forms/originals/ordin-20163381.hwp",
+      "textScope": "all_body_sections_or_pages",
+      "originalTextScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "BodyText/Section0"
+      ],
+      "fullBodyReviewed": true,
+      "textLength": 2202,
+      "bodyTextSha256": "2f942a2e5e2bfdc2056f189c3ef9b96d5580226605fc45a3b0b6bc5808b485aa",
+      "role": "application",
+      "roleBasis": "원본전체2202자를 모든BodyText섹션에서 읽어 이미 선정된 건축주와 공사시공자가 녹색건축물 조성 보조금 지원사업 착수 신고서·성실이행각서·청렴서약서를 작성하는 목적을 확인했다. 현행규칙1628713 전체조문·부칙의 제5조가 해당별지를직접지정한다. 오늘정확사업정부24-383000000192의구비서류가 해당착공·준공·정산단계의별지와첨부서류를직접명시한다. 최초모집과선정후절차를구별하고이미선정된건축주에게해당하는단계에서만연결한다.",
+      "roleEvidenceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=152717285&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C3%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EB%85%B9%EC%83%89%EA%B1%B4%EC%B6%95%EB%AC%BC+%EC%A1%B0%EC%84%B1+%EB%B3%B4%EC%A1%B0%EA%B8%88+%EC%A7%80%EC%9B%90%EC%82%AC%EC%97%85+%EC%B0%A9%EC%88%98+%EC%8B%A0%EA%B3%A0%EC%84%9C",
+      "roleCheckedAt": "2026-10-20",
+      "reviewedParts": [
+        {
+          "number": "별지 제3호서식 및 첨부",
+          "title": "녹색건축물 조성 보조금 지원사업 착수 신고서·성실이행각서·청렴서약서",
+          "use": "conditional",
+          "author": "이미 선정된 건축주와 공사시공자"
+        }
+      ],
+      "selectedParts": [
+        {
+          "number": "별지 제3호서식 및 첨부",
+          "title": "녹색건축물 조성 보조금 지원사업 착수 신고서·성실이행각서·청렴서약서",
+          "use": "conditional",
+          "author": "이미 선정된 건축주와 공사시공자"
+        }
+      ],
+      "bodyEvidenceArticle": "제5조",
+      "lawBodyEvidencePath": "logs/forms-completion/gyeonggi-20261019/team3/raw-current-law-1628713-20261020.json",
+      "lawBodySHA256": "50a0d102a1767e8944211e8734f38e12d2e8ff404f1c07d0f0aa913c6b543305",
+      "lawReadScope": "전체8조·2부칙",
+      "officialAnnexBinding": {
+        "annexId": "20163381",
+        "number": "5",
+        "kind": "서식",
+        "title": "[별지 제3호서식] 녹색건축물 조성 보조금 지원사업 착수 신고서",
+        "fileFormat": "hwp",
+        "url": "https://www.law.go.kr/flDownload.do?gubun=ELIS&flSeq=152717285&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C3%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EB%85%B9%EC%83%89%EA%B1%B4%EC%B6%95%EB%AC%BC+%EC%A1%B0%EC%84%B1+%EB%B3%B4%EC%A1%B0%EA%B8%88+%EC%A7%80%EC%9B%90%EC%82%AC%EC%97%85+%EC%B0%A9%EC%88%98+%EC%8B%A0%EA%B3%A0%EC%84%9C",
+        "flSeq": "152717285",
+        "pdfUrl": "",
+        "contentChars": 0,
+        "deleted": false
+      },
+      "currentLawProof": {
+        "record": "pipeline/forms/source-law-currency.json",
+        "state": "source_current",
+        "currentLawId": "1628713",
+        "checkedAt": "2026-10-19",
+        "effectiveDate": "20210929"
+      },
+      "originalRehashed": true,
+      "programmePageRecord": "logs/forms-completion/gyeonggi-20261019/team3/anyang-green-programme-20261020.json",
+      "programmePageSHA256": "28f53e11b4f884bb586d02be32b2ea7d22de3e62a21b96c637dcf7b31cca40dc",
+      "reviewedBy": "/root/national_form_audit",
+      "externalModelReviewReused": false,
+      "publicationApproved": false,
+      "requiresCoordinatorReview": true,
+      "publicationReady": true,
+      "decision": "propose_approval",
+      "sourceIssues": [
+        "정부24현재사업은외부창호성능개선·LED교체를안내한다. 법정준공양식내보일러/기타예시는신규지원대상을확대하는근거로쓰지않고이미승인받은공사내용에만사용한다."
+      ],
+      "displayTitle": "녹색건축물 조성 보조금 지원사업 착수 신고서·성실이행각서·청렴서약서",
+      "coordinatorApproved": true,
+      "coordinatorReason": "원본전체2202자를 모든BodyText섹션에서 읽어 이미 선정된 건축주와 공사시공자가 녹색건축물 조성 보조금 지원사업 착수 신고서·성실이행각서·청렴서약서를 작성하는 목적을 확인했다. 현행규칙1628713 전체조문·부칙의 제5조가 해당별지를직접지정한다. 오늘정확사업정부24-383000000192의구비서류가 해당착공·준공·정산단계의별지와첨부서류를직접명시한다. 최초모집과선정후절차를구별하고이미선정된건축주에게해당하는단계에서만연결한다.",
+      "currentAnnexBinding": {
+        "binding": "bound",
+        "bindingReason": "OFFICIAL_ANNEX_BOUND_WITH_SAME_FILE",
+        "officialAnnexId": "20163381",
+        "officialAnnexNumber": "5",
+        "officialAnnexTitle": "[별지 제3호서식] 녹색건축물 조성 보조금 지원사업 착수 신고서",
+        "officialFlSeq": "152717285",
+        "officialAnnexUrl": "https://www.law.go.kr/flDownload.do?gubun=ELIS&flSeq=152717285&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C3%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EB%85%B9%EC%83%89%EA%B1%B4%EC%B6%95%EB%AC%BC+%EC%A1%B0%EC%84%B1+%EB%B3%B4%EC%A1%B0%EA%B8%88+%EC%A7%80%EC%9B%90%EC%82%AC%EC%97%85+%EC%B0%A9%EC%88%98+%EC%8B%A0%EA%B3%A0%EC%84%9C",
+        "officialAnnexDeleted": false
+      }
+    },
+    {
+      "sourceKind": "ordin",
+      "lawTitle": "안양시 녹색건축물 조성 지원 조례 시행규칙",
+      "lawId": "1628713",
+      "annexId": "20163383",
+      "annexNumber": "6",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=152717287&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C4%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EB%85%B9%EC%83%89%EA%B1%B4%EC%B6%95%EB%AC%BC+%EC%A1%B0%EC%84%B1+%EC%99%84%EB%A3%8C+%EC%8B%A0%EA%B3%A0%EC%84%9C",
+      "officialPdfUrl": null,
+      "dateKind": "effective",
+      "regionCode": "41170",
+      "regionLabel": "경기도 안양시",
+      "lawUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1628713",
+      "formId": "ordin-20163383",
+      "formTitle": "[별지 제4호서식] 녹색건축물 조성 완료 신고서",
+      "sourceMetadataTitle": "[별지 제4호서식] 녹색건축물 조성 완료 신고서",
+      "verifiedDocumentTitle": "녹색건축물 조성 완료 신고서·사업완료보고서",
+      "effectiveDate": "2021-09-29",
+      "stableLawId": "2196830",
+      "programIds": [
+        "g41170.gov24-383000000192"
+      ],
+      "programNames": [
+        "녹색건축물 조성 보조금 지원"
+      ],
+      "use": "conditional",
+      "condition": "선정받은 지원공사를 완료한 경우 완료신고서와 사업완료보고서·공정별 전중후 사진을 제출합니다. 현재 사업에서 승인받은 외부창호 또는 LED 등의 공사만 기록하며, 서식의 보일러 예시만 보고 지원대상으로 판단하지 않습니다. LED 등은 승인내용에 맞는 기타 항목에 기재하고 접수기관의 안내를 따릅니다.",
+      "applicant": "선정된 건축물 소유자·신청인",
+      "evidenceUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=1628713",
+      "programEvidenceUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/383000000192",
+      "evidenceNote": "원본전체898자를 모든BodyText섹션에서 읽어 선정된 건축물 소유자·신청인가 녹색건축물 조성 완료 신고서·사업완료보고서를 작성하는 목적을 확인했다. 현행규칙1628713 전체조문·부칙의 제6조제1항가 해당별지를직접지정한다. 오늘정확사업정부24-383000000192의구비서류가 해당착공·준공·정산단계의별지와첨부서류를직접명시한다. 최초모집과선정후절차를구별하고이미선정된건축주에게해당하는단계에서만연결한다.",
+      "checkedAt": "2026-10-20",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "sha256": "70505ca54f414d60dc2a0defef6dfb0808c653ef48207cd99006550fd0f4ff82",
+      "bytes": 35328,
+      "signature": "d0cf11e0a1b11ae1",
+      "originalFormat": "hwp",
+      "originalPath": "pipeline/forms/originals/ordin-20163383.hwp",
+      "textScope": "all_body_sections_or_pages",
+      "originalTextScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "BodyText/Section0"
+      ],
+      "fullBodyReviewed": true,
+      "textLength": 898,
+      "bodyTextSha256": "368efe65f5ad6892f095d8b8685fc9d41f33a7a9058cb3920cbef537292e278c",
+      "role": "application",
+      "roleBasis": "원본전체898자를 모든BodyText섹션에서 읽어 선정된 건축물 소유자·신청인가 녹색건축물 조성 완료 신고서·사업완료보고서를 작성하는 목적을 확인했다. 현행규칙1628713 전체조문·부칙의 제6조제1항가 해당별지를직접지정한다. 오늘정확사업정부24-383000000192의구비서류가 해당착공·준공·정산단계의별지와첨부서류를직접명시한다. 최초모집과선정후절차를구별하고이미선정된건축주에게해당하는단계에서만연결한다.",
+      "roleEvidenceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=152717287&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C4%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EB%85%B9%EC%83%89%EA%B1%B4%EC%B6%95%EB%AC%BC+%EC%A1%B0%EC%84%B1+%EC%99%84%EB%A3%8C+%EC%8B%A0%EA%B3%A0%EC%84%9C",
+      "roleCheckedAt": "2026-10-20",
+      "reviewedParts": [
+        {
+          "number": "별지 제4호서식 및 첨부",
+          "title": "녹색건축물 조성 완료 신고서·사업완료보고서",
+          "use": "conditional",
+          "author": "선정된 건축물 소유자·신청인"
+        }
+      ],
+      "selectedParts": [
+        {
+          "number": "별지 제4호서식 및 첨부",
+          "title": "녹색건축물 조성 완료 신고서·사업완료보고서",
+          "use": "conditional",
+          "author": "선정된 건축물 소유자·신청인"
+        }
+      ],
+      "bodyEvidenceArticle": "제6조제1항",
+      "lawBodyEvidencePath": "logs/forms-completion/gyeonggi-20261019/team3/raw-current-law-1628713-20261020.json",
+      "lawBodySHA256": "50a0d102a1767e8944211e8734f38e12d2e8ff404f1c07d0f0aa913c6b543305",
+      "lawReadScope": "전체8조·2부칙",
+      "officialAnnexBinding": {
+        "annexId": "20163383",
+        "number": "6",
+        "kind": "서식",
+        "title": "[별지 제4호서식] 녹색건축물 조성 완료 신고서",
+        "fileFormat": "hwp",
+        "url": "https://www.law.go.kr/flDownload.do?gubun=ELIS&flSeq=152717287&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C4%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EB%85%B9%EC%83%89%EA%B1%B4%EC%B6%95%EB%AC%BC+%EC%A1%B0%EC%84%B1+%EC%99%84%EB%A3%8C+%EC%8B%A0%EA%B3%A0%EC%84%9C",
+        "flSeq": "152717287",
+        "pdfUrl": "",
+        "contentChars": 0,
+        "deleted": false
+      },
+      "currentLawProof": {
+        "record": "pipeline/forms/source-law-currency.json",
+        "state": "source_current",
+        "currentLawId": "1628713",
+        "checkedAt": "2026-10-19",
+        "effectiveDate": "20210929"
+      },
+      "originalRehashed": true,
+      "programmePageRecord": "logs/forms-completion/gyeonggi-20261019/team3/anyang-green-programme-20261020.json",
+      "programmePageSHA256": "28f53e11b4f884bb586d02be32b2ea7d22de3e62a21b96c637dcf7b31cca40dc",
+      "reviewedBy": "/root/national_form_audit",
+      "externalModelReviewReused": false,
+      "publicationApproved": false,
+      "requiresCoordinatorReview": true,
+      "publicationReady": true,
+      "decision": "propose_approval",
+      "sourceIssues": [
+        "정부24현재사업은외부창호성능개선·LED교체를안내한다. 법정준공양식내보일러/기타예시는신규지원대상을확대하는근거로쓰지않고이미승인받은공사내용에만사용한다."
+      ],
+      "displayTitle": "녹색건축물 조성 완료 신고서·사업완료보고서",
+      "coordinatorApproved": true,
+      "coordinatorReason": "원본전체898자를 모든BodyText섹션에서 읽어 선정된 건축물 소유자·신청인가 녹색건축물 조성 완료 신고서·사업완료보고서를 작성하는 목적을 확인했다. 현행규칙1628713 전체조문·부칙의 제6조제1항가 해당별지를직접지정한다. 오늘정확사업정부24-383000000192의구비서류가 해당착공·준공·정산단계의별지와첨부서류를직접명시한다. 최초모집과선정후절차를구별하고이미선정된건축주에게해당하는단계에서만연결한다.",
+      "currentAnnexBinding": {
+        "binding": "bound",
+        "bindingReason": "OFFICIAL_ANNEX_BOUND_WITH_SAME_FILE",
+        "officialAnnexId": "20163383",
+        "officialAnnexNumber": "6",
+        "officialAnnexTitle": "[별지 제4호서식] 녹색건축물 조성 완료 신고서",
+        "officialFlSeq": "152717287",
+        "officialAnnexUrl": "https://www.law.go.kr/flDownload.do?gubun=ELIS&flSeq=152717287&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C4%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EB%85%B9%EC%83%89%EA%B1%B4%EC%B6%95%EB%AC%BC+%EC%A1%B0%EC%84%B1+%EC%99%84%EB%A3%8C+%EC%8B%A0%EA%B3%A0%EC%84%9C",
+        "officialAnnexDeleted": false
+      }
+    },
+    {
+      "sourceKind": "ordin",
+      "lawTitle": "안양시 녹색건축물 조성 지원 조례 시행규칙",
+      "lawId": "1628713",
+      "annexId": "20163385",
+      "annexNumber": "7",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=152717289&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C5%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EC%A4%80%EA%B3%B5%EA%B2%80%EC%82%AC%EC%A1%B0%EC%84%9C",
+      "officialPdfUrl": null,
+      "dateKind": "effective",
+      "regionCode": "41170",
+      "regionLabel": "경기도 안양시",
+      "lawUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1628713",
+      "formId": "ordin-20163385",
+      "formTitle": "[별지 제5호서식] 준공검사조서",
+      "sourceMetadataTitle": "[별지 제5호서식] 준공검사조서",
+      "verifiedDocumentTitle": "준공검사조서",
+      "effectiveDate": "2021-09-29",
+      "stableLawId": "2196830",
+      "programIds": [
+        "g41170.gov24-383000000192"
+      ],
+      "programNames": [
+        "녹색건축물 조성 보조금 지원"
+      ],
+      "use": "conditional",
+      "condition": "선정받은 녹색건축물 지원공사의 준공 후 완료신고와 보조금 교부신청에 함께 제출합니다. 실제 공사·계약·준공검사 내용을 확인하고 원본의 신청인 서명란에 서명합니다. 시의 최종 현장확인 및 보조금 지급결정을 대신하는 문서는 아닙니다.",
+      "applicant": "보조사업 신청인·건축주",
+      "evidenceUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=1628713",
+      "programEvidenceUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/383000000192",
+      "evidenceNote": "원본전체340자를 모든BodyText섹션에서 읽어 보조사업 신청인·건축주가 준공검사조서를 작성하는 목적을 확인했다. 현행규칙1628713 전체조문·부칙의 제6조제1항·제2항가 해당별지를직접지정한다. 오늘정확사업정부24-383000000192의구비서류가 해당착공·준공·정산단계의별지와첨부서류를직접명시한다. 최초모집과선정후절차를구별하고이미선정된건축주에게해당하는단계에서만연결한다.",
+      "checkedAt": "2026-10-20",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "sha256": "f392b2d2774dcca9271011baea5e8c333d62444c805d0fa07138770c37509137",
+      "bytes": 28672,
+      "signature": "d0cf11e0a1b11ae1",
+      "originalFormat": "hwp",
+      "originalPath": "pipeline/forms/originals/ordin-20163385.hwp",
+      "textScope": "all_body_sections_or_pages",
+      "originalTextScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "BodyText/Section0"
+      ],
+      "fullBodyReviewed": true,
+      "textLength": 340,
+      "bodyTextSha256": "0a7410717b73f277c6df4f65d5bd84a3c0bff50deb020d9a779022c84c3a0450",
+      "role": "supporting",
+      "roleBasis": "원본전체340자를 모든BodyText섹션에서 읽어 보조사업 신청인·건축주가 준공검사조서를 작성하는 목적을 확인했다. 현행규칙1628713 전체조문·부칙의 제6조제1항·제2항가 해당별지를직접지정한다. 오늘정확사업정부24-383000000192의구비서류가 해당착공·준공·정산단계의별지와첨부서류를직접명시한다. 최초모집과선정후절차를구별하고이미선정된건축주에게해당하는단계에서만연결한다.",
+      "roleEvidenceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=152717289&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C5%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EC%A4%80%EA%B3%B5%EA%B2%80%EC%82%AC%EC%A1%B0%EC%84%9C",
+      "roleCheckedAt": "2026-10-20",
+      "reviewedParts": [
+        {
+          "number": "별지 제5호서식",
+          "title": "준공검사조서",
+          "use": "conditional",
+          "author": "보조사업 신청인·건축주"
+        }
+      ],
+      "selectedParts": [
+        {
+          "number": "별지 제5호서식",
+          "title": "준공검사조서",
+          "use": "conditional",
+          "author": "보조사업 신청인·건축주"
+        }
+      ],
+      "bodyEvidenceArticle": "제6조제1항·제2항",
+      "lawBodyEvidencePath": "logs/forms-completion/gyeonggi-20261019/team3/raw-current-law-1628713-20261020.json",
+      "lawBodySHA256": "50a0d102a1767e8944211e8734f38e12d2e8ff404f1c07d0f0aa913c6b543305",
+      "lawReadScope": "전체8조·2부칙",
+      "officialAnnexBinding": {
+        "annexId": "20163385",
+        "number": "7",
+        "kind": "서식",
+        "title": "[별지 제5호서식] 준공검사조서",
+        "fileFormat": "hwp",
+        "url": "https://www.law.go.kr/flDownload.do?gubun=ELIS&flSeq=152717289&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C5%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EC%A4%80%EA%B3%B5%EA%B2%80%EC%82%AC%EC%A1%B0%EC%84%9C",
+        "flSeq": "152717289",
+        "pdfUrl": "",
+        "contentChars": 0,
+        "deleted": false
+      },
+      "currentLawProof": {
+        "record": "pipeline/forms/source-law-currency.json",
+        "state": "source_current",
+        "currentLawId": "1628713",
+        "checkedAt": "2026-10-19",
+        "effectiveDate": "20210929"
+      },
+      "originalRehashed": true,
+      "programmePageRecord": "logs/forms-completion/gyeonggi-20261019/team3/anyang-green-programme-20261020.json",
+      "programmePageSHA256": "28f53e11b4f884bb586d02be32b2ea7d22de3e62a21b96c637dcf7b31cca40dc",
+      "reviewedBy": "/root/national_form_audit",
+      "externalModelReviewReused": false,
+      "publicationApproved": false,
+      "requiresCoordinatorReview": true,
+      "publicationReady": true,
+      "decision": "propose_approval",
+      "sourceIssues": [
+        "정부24현재사업은외부창호성능개선·LED교체를안내한다. 법정준공양식내보일러/기타예시는신규지원대상을확대하는근거로쓰지않고이미승인받은공사내용에만사용한다."
+      ],
+      "displayTitle": "준공검사조서",
+      "coordinatorApproved": true,
+      "coordinatorReason": "원본전체340자를 모든BodyText섹션에서 읽어 보조사업 신청인·건축주가 준공검사조서를 작성하는 목적을 확인했다. 현행규칙1628713 전체조문·부칙의 제6조제1항·제2항가 해당별지를직접지정한다. 오늘정확사업정부24-383000000192의구비서류가 해당착공·준공·정산단계의별지와첨부서류를직접명시한다. 최초모집과선정후절차를구별하고이미선정된건축주에게해당하는단계에서만연결한다.",
+      "currentAnnexBinding": {
+        "binding": "bound",
+        "bindingReason": "OFFICIAL_ANNEX_BOUND_WITH_SAME_FILE",
+        "officialAnnexId": "20163385",
+        "officialAnnexNumber": "7",
+        "officialAnnexTitle": "[별지 제5호서식] 준공검사조서",
+        "officialFlSeq": "152717289",
+        "officialAnnexUrl": "https://www.law.go.kr/flDownload.do?gubun=ELIS&flSeq=152717289&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C5%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EC%A4%80%EA%B3%B5%EA%B2%80%EC%82%AC%EC%A1%B0%EC%84%9C",
+        "officialAnnexDeleted": false
+      }
+    },
+    {
+      "sourceKind": "ordin",
+      "lawTitle": "안양시 녹색건축물 조성 지원 조례 시행규칙",
+      "lawId": "1628713",
+      "annexId": "20163387",
+      "annexNumber": "8",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=152717291&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C6%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EB%85%B9%EC%83%89%EA%B1%B4%EC%B6%95%EB%AC%BC+%EC%A1%B0%EC%84%B1+%EC%A7%80%EB%B0%A9%EB%B3%B4%EC%A1%B0%EA%B8%88+%EA%B5%90%EB%B6%80%EC%8B%A0%EC%B2%AD%EC%84%9C",
+      "officialPdfUrl": null,
+      "dateKind": "effective",
+      "regionCode": "41170",
+      "regionLabel": "경기도 안양시",
+      "lawUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1628713",
+      "formId": "ordin-20163387",
+      "formTitle": "[별지 제6호서식] 녹색건축물 조성 지방보조금 교부신청서",
+      "sourceMetadataTitle": "[별지 제6호서식] 녹색건축물 조성 지방보조금 교부신청서",
+      "verifiedDocumentTitle": "녹색건축물 조성 지방보조금 교부신청서·청구서·관리카드",
+      "effectiveDate": "2021-09-29",
+      "stableLawId": "2196830",
+      "programIds": [
+        "g41170.gov24-383000000192"
+      ],
+      "programNames": [
+        "녹색건축물 조성 보조금 지원"
+      ],
+      "use": "conditional",
+      "condition": "지원대상으로 선정된 공사를 완료한 뒤 보조금 지급을 요청할 때 사용합니다. 교부신청서·청구서·지방보조사업자 관리카드와 원문에서 요구하는 계좌자료를 제출하며, 최초 사업선정 신청은 별지 제1호서식으로 구별합니다.",
+      "applicant": "선정된 건축주·지방보조사업자",
+      "evidenceUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=1628713",
+      "programEvidenceUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/383000000192",
+      "evidenceNote": "원본전체934자를 모든BodyText섹션에서 읽어 선정된 건축주·지방보조사업자가 녹색건축물 조성 지방보조금 교부신청서·청구서·관리카드를 작성하는 목적을 확인했다. 현행규칙1628713 전체조문·부칙의 제6조제1항가 해당별지를직접지정한다. 오늘정확사업정부24-383000000192의구비서류가 해당착공·준공·정산단계의별지와첨부서류를직접명시한다. 최초모집과선정후절차를구별하고이미선정된건축주에게해당하는단계에서만연결한다.",
+      "checkedAt": "2026-10-20",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "sha256": "ce2cd84ffbca117bd3f4beeebbd3073d0e8b1095e8398ebef7e7af857ecab7e0",
+      "bytes": 35840,
+      "signature": "d0cf11e0a1b11ae1",
+      "originalFormat": "hwp",
+      "originalPath": "pipeline/forms/originals/ordin-20163387.hwp",
+      "textScope": "all_body_sections_or_pages",
+      "originalTextScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "BodyText/Section0"
+      ],
+      "fullBodyReviewed": true,
+      "textLength": 934,
+      "bodyTextSha256": "406269cd8d65001aafe7ddafaabd81ffbde33d74a4479186c2243d2a900b2a7c",
+      "role": "application",
+      "roleBasis": "원본전체934자를 모든BodyText섹션에서 읽어 선정된 건축주·지방보조사업자가 녹색건축물 조성 지방보조금 교부신청서·청구서·관리카드를 작성하는 목적을 확인했다. 현행규칙1628713 전체조문·부칙의 제6조제1항가 해당별지를직접지정한다. 오늘정확사업정부24-383000000192의구비서류가 해당착공·준공·정산단계의별지와첨부서류를직접명시한다. 최초모집과선정후절차를구별하고이미선정된건축주에게해당하는단계에서만연결한다.",
+      "roleEvidenceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=152717291&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C6%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EB%85%B9%EC%83%89%EA%B1%B4%EC%B6%95%EB%AC%BC+%EC%A1%B0%EC%84%B1+%EC%A7%80%EB%B0%A9%EB%B3%B4%EC%A1%B0%EA%B8%88+%EA%B5%90%EB%B6%80%EC%8B%A0%EC%B2%AD%EC%84%9C",
+      "roleCheckedAt": "2026-10-20",
+      "reviewedParts": [
+        {
+          "number": "별지 제6호서식 및 첨부",
+          "title": "녹색건축물 조성 지방보조금 교부신청서·청구서·관리카드",
+          "use": "conditional",
+          "author": "선정된 건축주·지방보조사업자"
+        }
+      ],
+      "selectedParts": [
+        {
+          "number": "별지 제6호서식 및 첨부",
+          "title": "녹색건축물 조성 지방보조금 교부신청서·청구서·관리카드",
+          "use": "conditional",
+          "author": "선정된 건축주·지방보조사업자"
+        }
+      ],
+      "bodyEvidenceArticle": "제6조제1항",
+      "lawBodyEvidencePath": "logs/forms-completion/gyeonggi-20261019/team3/raw-current-law-1628713-20261020.json",
+      "lawBodySHA256": "50a0d102a1767e8944211e8734f38e12d2e8ff404f1c07d0f0aa913c6b543305",
+      "lawReadScope": "전체8조·2부칙",
+      "officialAnnexBinding": {
+        "annexId": "20163387",
+        "number": "8",
+        "kind": "서식",
+        "title": "[별지 제6호서식] 녹색건축물 조성 지방보조금 교부신청서",
+        "fileFormat": "hwp",
+        "url": "https://www.law.go.kr/flDownload.do?gubun=ELIS&flSeq=152717291&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C6%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EB%85%B9%EC%83%89%EA%B1%B4%EC%B6%95%EB%AC%BC+%EC%A1%B0%EC%84%B1+%EC%A7%80%EB%B0%A9%EB%B3%B4%EC%A1%B0%EA%B8%88+%EA%B5%90%EB%B6%80%EC%8B%A0%EC%B2%AD%EC%84%9C",
+        "flSeq": "152717291",
+        "pdfUrl": "",
+        "contentChars": 0,
+        "deleted": false
+      },
+      "currentLawProof": {
+        "record": "pipeline/forms/source-law-currency.json",
+        "state": "source_current",
+        "currentLawId": "1628713",
+        "checkedAt": "2026-10-19",
+        "effectiveDate": "20210929"
+      },
+      "originalRehashed": true,
+      "programmePageRecord": "logs/forms-completion/gyeonggi-20261019/team3/anyang-green-programme-20261020.json",
+      "programmePageSHA256": "28f53e11b4f884bb586d02be32b2ea7d22de3e62a21b96c637dcf7b31cca40dc",
+      "reviewedBy": "/root/national_form_audit",
+      "externalModelReviewReused": false,
+      "publicationApproved": false,
+      "requiresCoordinatorReview": true,
+      "publicationReady": true,
+      "decision": "propose_approval",
+      "sourceIssues": [
+        "정부24현재사업은외부창호성능개선·LED교체를안내한다. 법정준공양식내보일러/기타예시는신규지원대상을확대하는근거로쓰지않고이미승인받은공사내용에만사용한다."
+      ],
+      "displayTitle": "녹색건축물 조성 지방보조금 교부신청서·청구서·관리카드",
+      "coordinatorApproved": true,
+      "coordinatorReason": "원본전체934자를 모든BodyText섹션에서 읽어 선정된 건축주·지방보조사업자가 녹색건축물 조성 지방보조금 교부신청서·청구서·관리카드를 작성하는 목적을 확인했다. 현행규칙1628713 전체조문·부칙의 제6조제1항가 해당별지를직접지정한다. 오늘정확사업정부24-383000000192의구비서류가 해당착공·준공·정산단계의별지와첨부서류를직접명시한다. 최초모집과선정후절차를구별하고이미선정된건축주에게해당하는단계에서만연결한다.",
+      "currentAnnexBinding": {
+        "binding": "bound",
+        "bindingReason": "OFFICIAL_ANNEX_BOUND_WITH_SAME_FILE",
+        "officialAnnexId": "20163387",
+        "officialAnnexNumber": "8",
+        "officialAnnexTitle": "[별지 제6호서식] 녹색건축물 조성 지방보조금 교부신청서",
+        "officialFlSeq": "152717291",
+        "officialAnnexUrl": "https://www.law.go.kr/flDownload.do?gubun=ELIS&flSeq=152717291&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C6%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EB%85%B9%EC%83%89%EA%B1%B4%EC%B6%95%EB%AC%BC+%EC%A1%B0%EC%84%B1+%EC%A7%80%EB%B0%A9%EB%B3%B4%EC%A1%B0%EA%B8%88+%EA%B5%90%EB%B6%80%EC%8B%A0%EC%B2%AD%EC%84%9C",
+        "officialAnnexDeleted": false
+      }
+    },
+    {
+      "sourceKind": "ordin",
+      "lawTitle": "안양시 녹색건축물 조성 지원 조례 시행규칙",
+      "lawId": "1628713",
+      "annexId": "20163389",
+      "annexNumber": "9",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=152717293&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C7%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EB%85%B9%EC%83%89%EA%B1%B4%EC%B6%95%EB%AC%BC+%EC%A1%B0%EC%84%B1+%EB%B3%B4%EC%A1%B0%EA%B8%88+%EC%A0%95%EC%82%B0%EC%84%9C",
+      "officialPdfUrl": null,
+      "dateKind": "effective",
+      "regionCode": "41170",
+      "regionLabel": "경기도 안양시",
+      "lawUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1628713",
+      "formId": "ordin-20163389",
+      "formTitle": "[별지 제7호서식] 녹색건축물 조성 보조금 정산서",
+      "sourceMetadataTitle": "[별지 제7호서식] 녹색건축물 조성 보조금 정산서",
+      "verifiedDocumentTitle": "녹색건축물 조성 보조금 정산서",
+      "effectiveDate": "2021-09-29",
+      "stableLawId": "2196830",
+      "programIds": [
+        "g41170.gov24-383000000192"
+      ],
+      "programNames": [
+        "녹색건축물 조성 보조금 지원"
+      ],
+      "use": "conditional",
+      "condition": "이미 보조금을 지급받은 사람이 지급일부터 15일 이내에 실제 공사비·집행액·잔액을 정산할 때 사용합니다. 전자세금계산서 등 지출증빙을 붙이고 잔액 발생 시 반납사항을 기재합니다. 최초 지원신청이나 보조금 지급청구에 쓰는 서류가 아닙니다.",
+      "applicant": "보조금을 지급받은 건축주·신청인",
+      "evidenceUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=1628713",
+      "programEvidenceUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/383000000192",
+      "evidenceNote": "원본전체422자를 모든BodyText섹션에서 읽어 보조금을 지급받은 건축주·신청인가 녹색건축물 조성 보조금 정산서를 작성하는 목적을 확인했다. 현행규칙1628713 전체조문·부칙의 제7조제1항가 해당별지를직접지정한다. 오늘정확사업정부24-383000000192의구비서류가 해당착공·준공·정산단계의별지와첨부서류를직접명시한다. 최초모집과선정후절차를구별하고이미선정된건축주에게해당하는단계에서만연결한다.",
+      "checkedAt": "2026-10-20",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "sha256": "f2fae8add394aa158603a01f37fd8fe84e15927c8f8600493f95cbbfcf1d09d4",
+      "bytes": 34816,
+      "signature": "d0cf11e0a1b11ae1",
+      "originalFormat": "hwp",
+      "originalPath": "pipeline/forms/originals/ordin-20163389.hwp",
+      "textScope": "all_body_sections_or_pages",
+      "originalTextScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "BodyText/Section0"
+      ],
+      "fullBodyReviewed": true,
+      "textLength": 422,
+      "bodyTextSha256": "6e3583118bf1b56673dea9be58c151e49d3332ca00aac7f1ba1315f2dc93fff9",
+      "role": "supporting",
+      "roleBasis": "원본전체422자를 모든BodyText섹션에서 읽어 보조금을 지급받은 건축주·신청인가 녹색건축물 조성 보조금 정산서를 작성하는 목적을 확인했다. 현행규칙1628713 전체조문·부칙의 제7조제1항가 해당별지를직접지정한다. 오늘정확사업정부24-383000000192의구비서류가 해당착공·준공·정산단계의별지와첨부서류를직접명시한다. 최초모집과선정후절차를구별하고이미선정된건축주에게해당하는단계에서만연결한다.",
+      "roleEvidenceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=152717293&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C7%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EB%85%B9%EC%83%89%EA%B1%B4%EC%B6%95%EB%AC%BC+%EC%A1%B0%EC%84%B1+%EB%B3%B4%EC%A1%B0%EA%B8%88+%EC%A0%95%EC%82%B0%EC%84%9C",
+      "roleCheckedAt": "2026-10-20",
+      "reviewedParts": [
+        {
+          "number": "별지 제7호서식",
+          "title": "녹색건축물 조성 보조금 정산서",
+          "use": "conditional",
+          "author": "보조금을 지급받은 건축주·신청인"
+        }
+      ],
+      "selectedParts": [
+        {
+          "number": "별지 제7호서식",
+          "title": "녹색건축물 조성 보조금 정산서",
+          "use": "conditional",
+          "author": "보조금을 지급받은 건축주·신청인"
+        }
+      ],
+      "bodyEvidenceArticle": "제7조제1항",
+      "lawBodyEvidencePath": "logs/forms-completion/gyeonggi-20261019/team3/raw-current-law-1628713-20261020.json",
+      "lawBodySHA256": "50a0d102a1767e8944211e8734f38e12d2e8ff404f1c07d0f0aa913c6b543305",
+      "lawReadScope": "전체8조·2부칙",
+      "officialAnnexBinding": {
+        "annexId": "20163389",
+        "number": "9",
+        "kind": "서식",
+        "title": "[별지 제7호서식] 녹색건축물 조성 보조금 정산서",
+        "fileFormat": "hwp",
+        "url": "https://www.law.go.kr/flDownload.do?gubun=ELIS&flSeq=152717293&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C7%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EB%85%B9%EC%83%89%EA%B1%B4%EC%B6%95%EB%AC%BC+%EC%A1%B0%EC%84%B1+%EB%B3%B4%EC%A1%B0%EA%B8%88+%EC%A0%95%EC%82%B0%EC%84%9C",
+        "flSeq": "152717293",
+        "pdfUrl": "",
+        "contentChars": 0,
+        "deleted": false
+      },
+      "currentLawProof": {
+        "record": "pipeline/forms/source-law-currency.json",
+        "state": "source_current",
+        "currentLawId": "1628713",
+        "checkedAt": "2026-10-19",
+        "effectiveDate": "20210929"
+      },
+      "originalRehashed": true,
+      "programmePageRecord": "logs/forms-completion/gyeonggi-20261019/team3/anyang-green-programme-20261020.json",
+      "programmePageSHA256": "28f53e11b4f884bb586d02be32b2ea7d22de3e62a21b96c637dcf7b31cca40dc",
+      "reviewedBy": "/root/national_form_audit",
+      "externalModelReviewReused": false,
+      "publicationApproved": false,
+      "requiresCoordinatorReview": true,
+      "publicationReady": true,
+      "decision": "propose_approval",
+      "sourceIssues": [
+        "정부24현재사업은외부창호성능개선·LED교체를안내한다. 법정준공양식내보일러/기타예시는신규지원대상을확대하는근거로쓰지않고이미승인받은공사내용에만사용한다."
+      ],
+      "displayTitle": "녹색건축물 조성 보조금 정산서",
+      "coordinatorApproved": true,
+      "coordinatorReason": "원본전체422자를 모든BodyText섹션에서 읽어 보조금을 지급받은 건축주·신청인가 녹색건축물 조성 보조금 정산서를 작성하는 목적을 확인했다. 현행규칙1628713 전체조문·부칙의 제7조제1항가 해당별지를직접지정한다. 오늘정확사업정부24-383000000192의구비서류가 해당착공·준공·정산단계의별지와첨부서류를직접명시한다. 최초모집과선정후절차를구별하고이미선정된건축주에게해당하는단계에서만연결한다.",
+      "currentAnnexBinding": {
+        "binding": "bound",
+        "bindingReason": "OFFICIAL_ANNEX_BOUND_WITH_SAME_FILE",
+        "officialAnnexId": "20163389",
+        "officialAnnexNumber": "9",
+        "officialAnnexTitle": "[별지 제7호서식] 녹색건축물 조성 보조금 정산서",
+        "officialFlSeq": "152717293",
+        "officialAnnexUrl": "https://www.law.go.kr/flDownload.do?gubun=ELIS&flSeq=152717293&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C7%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EB%85%B9%EC%83%89%EA%B1%B4%EC%B6%95%EB%AC%BC+%EC%A1%B0%EC%84%B1+%EB%B3%B4%EC%A1%B0%EA%B8%88+%EC%A0%95%EC%82%B0%EC%84%9C",
+        "officialAnnexDeleted": false
+      }
+    },
+    {
+      "sourceKind": "ordin",
+      "lawTitle": "안양시 녹색건축물 조성 지원 조례 시행규칙",
+      "lawId": "1628713",
+      "annexId": "20163391",
+      "annexNumber": "10",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=152717295&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C8%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EC%97%90%EB%84%88%EC%A7%80%EC%82%AC%EC%9A%A9%EB%9F%89+%EC%82%AC%ED%9B%84%EA%B4%80%EB%A6%AC",
+      "officialPdfUrl": null,
+      "dateKind": "effective",
+      "regionCode": "41170",
+      "regionLabel": "경기도 안양시",
+      "lawUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1628713",
+      "formId": "ordin-20163391",
+      "formTitle": "[별지 제8호서식] 에너지사용량 사후관리",
+      "sourceMetadataTitle": "[별지 제8호서식] 에너지사용량 사후관리",
+      "verifiedDocumentTitle": "에너지사용량 사후관리 서식",
+      "effectiveDate": "2021-09-29",
+      "stableLawId": "2196830",
+      "programIds": [
+        "g41170.gov24-383000000192"
+      ],
+      "programNames": [
+        "녹색건축물 조성 보조금 지원"
+      ],
+      "use": "conditional",
+      "condition": "지원받은 건축물의 사업 전후 전력·가스 사용량을 보고하는 사후관리 서류입니다. 시의 연 1회 보고 요청 또는 준공서류 안내에 따라 사용하며, 한국전력·도시가스업체의 사용량 증명자료를 첨부합니다. 일반 가구의 에너지요금 할인 신청서로 사용하지 않습니다.",
+      "applicant": "지원받은 건축물 소유자·보조사업자",
+      "evidenceUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=1628713",
+      "programEvidenceUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/383000000192",
+      "evidenceNote": "원본전체420자를 모든BodyText섹션에서 읽어 지원받은 건축물 소유자·보조사업자가 에너지사용량 사후관리 서식를 작성하는 목적을 확인했다. 현행규칙1628713 전체조문·부칙의 제8조가 해당별지를직접지정한다. 오늘정확사업정부24-383000000192의구비서류가 해당착공·준공·정산단계의별지와첨부서류를직접명시한다. 최초모집과선정후절차를구별하고이미선정된건축주에게해당하는단계에서만연결한다.",
+      "checkedAt": "2026-10-20",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "sha256": "9ad2c1da83f12516b188dca7dfd929a7248f0ed861debbfe490ba7a1becc336b",
+      "bytes": 28672,
+      "signature": "d0cf11e0a1b11ae1",
+      "originalFormat": "hwp",
+      "originalPath": "pipeline/forms/originals/ordin-20163391.hwp",
+      "textScope": "all_body_sections_or_pages",
+      "originalTextScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "BodyText/Section0"
+      ],
+      "fullBodyReviewed": true,
+      "textLength": 420,
+      "bodyTextSha256": "d33fef8e822cdc51c6b5f18dcc397435c8dd8bd803fa82dd1731400baf0bb49f",
+      "role": "supporting",
+      "roleBasis": "원본전체420자를 모든BodyText섹션에서 읽어 지원받은 건축물 소유자·보조사업자가 에너지사용량 사후관리 서식를 작성하는 목적을 확인했다. 현행규칙1628713 전체조문·부칙의 제8조가 해당별지를직접지정한다. 오늘정확사업정부24-383000000192의구비서류가 해당착공·준공·정산단계의별지와첨부서류를직접명시한다. 최초모집과선정후절차를구별하고이미선정된건축주에게해당하는단계에서만연결한다.",
+      "roleEvidenceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=152717295&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C8%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EC%97%90%EB%84%88%EC%A7%80%EC%82%AC%EC%9A%A9%EB%9F%89+%EC%82%AC%ED%9B%84%EA%B4%80%EB%A6%AC",
+      "roleCheckedAt": "2026-10-20",
+      "reviewedParts": [
+        {
+          "number": "별지 제8호서식",
+          "title": "에너지사용량 사후관리 서식",
+          "use": "conditional",
+          "author": "지원받은 건축물 소유자·보조사업자"
+        }
+      ],
+      "selectedParts": [
+        {
+          "number": "별지 제8호서식",
+          "title": "에너지사용량 사후관리 서식",
+          "use": "conditional",
+          "author": "지원받은 건축물 소유자·보조사업자"
+        }
+      ],
+      "bodyEvidenceArticle": "제8조",
+      "lawBodyEvidencePath": "logs/forms-completion/gyeonggi-20261019/team3/raw-current-law-1628713-20261020.json",
+      "lawBodySHA256": "50a0d102a1767e8944211e8734f38e12d2e8ff404f1c07d0f0aa913c6b543305",
+      "lawReadScope": "전체8조·2부칙",
+      "officialAnnexBinding": {
+        "annexId": "20163391",
+        "number": "10",
+        "kind": "서식",
+        "title": "[별지 제8호서식] 에너지사용량 사후관리",
+        "fileFormat": "hwp",
+        "url": "https://www.law.go.kr/flDownload.do?gubun=ELIS&flSeq=152717295&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C8%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EC%97%90%EB%84%88%EC%A7%80%EC%82%AC%EC%9A%A9%EB%9F%89+%EC%82%AC%ED%9B%84%EA%B4%80%EB%A6%AC",
+        "flSeq": "152717295",
+        "pdfUrl": "",
+        "contentChars": 0,
+        "deleted": false
+      },
+      "currentLawProof": {
+        "record": "pipeline/forms/source-law-currency.json",
+        "state": "source_current",
+        "currentLawId": "1628713",
+        "checkedAt": "2026-10-19",
+        "effectiveDate": "20210929"
+      },
+      "originalRehashed": true,
+      "programmePageRecord": "logs/forms-completion/gyeonggi-20261019/team3/anyang-green-programme-20261020.json",
+      "programmePageSHA256": "28f53e11b4f884bb586d02be32b2ea7d22de3e62a21b96c637dcf7b31cca40dc",
+      "reviewedBy": "/root/national_form_audit",
+      "externalModelReviewReused": false,
+      "publicationApproved": false,
+      "requiresCoordinatorReview": true,
+      "publicationReady": true,
+      "decision": "propose_approval",
+      "sourceIssues": [
+        "정부24현재사업은외부창호성능개선·LED교체를안내한다. 법정준공양식내보일러/기타예시는신규지원대상을확대하는근거로쓰지않고이미승인받은공사내용에만사용한다."
+      ],
+      "displayTitle": "에너지사용량 사후관리 서식",
+      "coordinatorApproved": true,
+      "coordinatorReason": "원본전체420자를 모든BodyText섹션에서 읽어 지원받은 건축물 소유자·보조사업자가 에너지사용량 사후관리 서식를 작성하는 목적을 확인했다. 현행규칙1628713 전체조문·부칙의 제8조가 해당별지를직접지정한다. 오늘정확사업정부24-383000000192의구비서류가 해당착공·준공·정산단계의별지와첨부서류를직접명시한다. 최초모집과선정후절차를구별하고이미선정된건축주에게해당하는단계에서만연결한다.",
+      "currentAnnexBinding": {
+        "binding": "bound",
+        "bindingReason": "OFFICIAL_ANNEX_BOUND_WITH_SAME_FILE",
+        "officialAnnexId": "20163391",
+        "officialAnnexNumber": "10",
+        "officialAnnexTitle": "[별지 제8호서식] 에너지사용량 사후관리",
+        "officialFlSeq": "152717295",
+        "officialAnnexUrl": "https://www.law.go.kr/flDownload.do?gubun=ELIS&flSeq=152717295&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C8%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EC%97%90%EB%84%88%EC%A7%80%EC%82%AC%EC%9A%A9%EB%9F%89+%EC%82%AC%ED%9B%84%EA%B4%80%EB%A6%AC",
+        "officialAnnexDeleted": false
+      }
+    },
+    {
+      "formId": "ordin-22900805",
+      "sourceKind": "ordin",
+      "lawId": "1918695",
+      "stableLawId": "2222803",
+      "lawTitle": "여주시 결혼장려금 지원 조례",
+      "annexId": "22900805",
+      "annexNumber": "1",
+      "sourceUrl": "https://www.law.go.kr/flDownload.do?gubun=ELIS&flSeq=170751185&flNm=%EC%97%AC%EC%A3%BC%EC%8B%9C+%EA%B2%B0%ED%98%BC%EC%9E%A5%EB%A0%A4%EA%B8%88+%EC%A7%80%EC%9B%90+%EC%A1%B0%EB%A1%80",
+      "officialPdfUrl": null,
+      "dateKind": "effective",
+      "effectiveDate": "2024-04-02",
+      "regionCode": "41670",
+      "regionLabel": "경기도 여주시",
+      "programIds": [
+        "g41670.gov24-570000000131"
+      ],
+      "programNames": [
+        "여주시 결혼장려금 지원"
+      ],
+      "formTitle": "여주시 결혼장려금 지원 조례",
+      "sourceMetadataTitle": "여주시 결혼장려금 지원 조례",
+      "verifiedDocumentTitle": "「여주시 결혼장려금 지원」신청서",
+      "use": "main",
+      "role": "application",
+      "condition": "2024년4월2일 이후 혼인신고한 현재 대상자의 1인100만원 일시금 신청용입니다. 혼인신고일부터6개월 이내에 주소지 읍·면·동에 제출하고 상세 혼인관계증명서·주소이력이 포함된 초본·본인 통장사본을 준비합니다. 뒷면은 본인과 배우자가 각각 서명합니다. 개정 전 혼인의 종전 분할지급·경과조치 신청으로 이 양식을 확대하지 않습니다.",
+      "evidenceUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=1918695",
+      "evidenceNote": "2026-10-20 현행 nw=1 검색과 법규1918695의7조문·부칙, 새별표키22900805/flSeq170751185를 실제 HWP전체2,693자와 대조했다.제3조는1인100만원일시금,제5조는혼인6개월내1호신청을지정하고개정원문에는이전복지로서식의1차/2차지급선택이없다.오늘정확WLF00005187이초혼·1년계속거주·6개월신청·100만원을명시하여수록gov24-570000000131과맞는다.구포털18193891URL은오늘59B비문서를반환했고동일법규의현행첨부키만변경되었으므로기존ID/SHA를덮지않고새22900805로제안한다.양식전체는빈신청·본인/배우자동의이며기관서식이나작성된개인정보는없다.",
+      "checkedAt": "2026-10-20",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "fullBodyReviewed": true,
+      "independentBodyReview": true,
+      "sha256": "cf930f89b1792653572ba29423e6cf6cfe6bcde16ee73b40646710d4b515f508",
+      "bytes": 131072,
+      "signature": "d0cf11e0a1b11ae1",
+      "originalFormat": "hwp",
+      "textScope": "all_body_sections_or_pages",
+      "originalTextScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "BodyText/Section0"
+      ],
+      "originalPath": "pipeline/forms/originals/ordin-22900805.hwp",
+      "reviewedParts": [
+        {
+          "number": "1",
+          "title": "「여주시 결혼장려금 지원」신청서",
+          "use": "main",
+          "author": "현재 혼인관계를 유지하는 초혼 지원대상자"
+        },
+        {
+          "number": "1",
+          "partLocation": "뒷면",
+          "title": "개인정보 수집ㆍ이용ㆍ제공 및 고유식별정보 처리에 관한 동의서",
+          "use": "additional",
+          "author": "신청인과 배우자"
+        }
+      ],
+      "selectedParts": [
+        {
+          "number": "1",
+          "title": "「여주시 결혼장려금 지원」신청서",
+          "use": "main",
+          "author": "현재 혼인관계를 유지하는 초혼 지원대상자"
+        },
+        {
+          "number": "1",
+          "partLocation": "뒷면",
+          "title": "개인정보 수집ㆍ이용ㆍ제공 및 고유식별정보 처리에 관한 동의서",
+          "use": "additional",
+          "author": "신청인과 배우자"
+        }
+      ],
+      "roleBasis": "2026-10-20 현행 nw=1 검색과 법규1918695의7조문·부칙, 새별표키22900805/flSeq170751185를 실제 HWP전체2,693자와 대조했다.제3조는1인100만원일시금,제5조는혼인6개월내1호신청을지정하고개정원문에는이전복지로서식의1차/2차지급선택이없다.오늘정확WLF00005187이초혼·1년계속거주·6개월신청·100만원을명시하여수록gov24-570000000131과맞는다.구포털18193891URL은오늘59B비문서를반환했고동일법규의현행첨부키만변경되었으므로기존ID/SHA를덮지않고새22900805로제안한다.양식전체는빈신청·본인/배우자동의이며기관서식이나작성된개인정보는없다.",
+      "roleEvidenceUrl": "https://www.law.go.kr/flDownload.do?gubun=ELIS&flSeq=170751185&flNm=%EC%97%AC%EC%A3%BC%EC%8B%9C+%EA%B2%B0%ED%98%BC%EC%9E%A5%EB%A0%A4%EA%B8%88+%EC%A7%80%EC%9B%90+%EC%A1%B0%EB%A1%80",
+      "roleCheckedAt": "2026-10-20",
+      "lawCurrentCheckedAt": "2026-10-20",
+      "currentLawProof": {
+        "annexCount": 1,
+        "articleCount": 7,
+        "bodyPath": "logs/forms-completion/gyeonggi-20261019/current-law-extra7/current-law-bodies/1918695.json.gz",
+        "bodySHA256": "de8cf6071c8e88c491d3fae2a38ddc54a6434917e9c62d971e31c6be5dac9071",
+        "candidates": [
+          {
+            "effectiveDate": "20240402",
+            "lawId": "1918695",
+            "org": "경기도 여주시",
+            "stableLawId": "2222803",
+            "title": "여주시 결혼장려금 지원 조례"
+          }
+        ],
+        "checkedAt": "2026-10-20",
+        "currentLaw": {
+          "effectiveDate": "20240402",
+          "lawId": "1918695",
+          "org": "경기도 여주시",
+          "stableLawId": "2222803",
+          "title": "여주시 결혼장려금 지원 조례"
+        },
+        "currentLawId": "1918695",
+        "lawId": "1918695",
+        "searchPath": "logs/forms-completion/gyeonggi-20261019/current-law-extra7/current-law-searches/1918695.json",
+        "searchSHA256": "2bd20898b8d3a39a450f25c57bdf2ed765745eb1e9de3f596ea95770827980a6",
+        "sourceTitle": "여주시 결혼장려금 지원 조례",
+        "state": "source_current"
+      },
+      "bodyEvidenceText": "제3조(결혼장려금의 지급)① 여주시장(이하 “시장”이라 한다)은 여주시민의 복리증진과 결혼을 장려하기 위하여 제4조의 지급대상에게 예산의 범위에서 결혼장려금을 지급할 수 있다.② 결혼장려금은 혼인신고를 한 결혼자 남ㆍ녀에게 각 100만원을 일시금으로 지급한다. <일부개정 2024.4.2.>\n제4조(지급대상) 혼인한 사실이 없는 미혼인 남자 또는 여자로 다음의 요건을 모두 충족하는 사람으로 한다. <일부개정 2024.4.2.>1. 혼인신고일 기준 1년전부터 지급신청일 현재까지 계속하여 여주시에 주민등록상 주소를 두고 거주하는 사람2. 지급신청일 현재 혼인관계를 유지중인 사람\n제5조(지급신청) 제3조에 따른 장려금을 지급받고자 하는 사람은 혼인신고일부터 6개월 이내에 다음 각 호의 서류를 주소지 관할 읍ㆍ면ㆍ동장에게 제출하여야 한다. <일부개정 2024.4.2.>1. 신청서 1부(별지 제1호서식)2. 혼인관계증명서(상세) 1부3. 주민등록초본(주소변경 이력 포함) 1부4. 신청인 명의 통장 사본 1부",
+      "programEvidenceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00005187&wlfareInfoReldBztpCd=02",
+      "noFilledPersonalDataObserved": true,
+      "embeddedImageCount": 0,
+      "currentUseConfirmed": true,
+      "publicationApproved": false,
+      "sourceProof": {
+        "downloadRecord": "logs/forms-completion/gyeonggi-20261019/team2/documents/current-portal-ordin-22900805-20261020.json",
+        "downloadRecordSHA256": "619833eac9fc1071b1290c5bbaea7402d8f9aa42874f4076b1947f98fcbad32a",
+        "freshHTTPStatus": 200,
+        "actualOriginalBytesRechecked": true,
+        "lawBodyPath": "logs/forms-completion/gyeonggi-20261019/current-law-extra7/current-law-bodies/1918695.json.gz",
+        "lawBodySHA256": "de8cf6071c8e88c491d3fae2a38ddc54a6434917e9c62d971e31c6be5dac9071",
+        "flSeq": "170751185",
+        "programPagePath": "logs/forms-completion/gyeonggi-20261019/team2/sources/yeoju-marriage-current-program-20261020.json",
+        "programPageSHA256": "e563fae3581d3aaf0ae19376040fa1ef2d34eaf27fbd854940faf1c74fd2ef08"
+      },
+      "replacesUnavailableSourceFormId": "ordin-18193891",
+      "sameBytesAsPreviousSource": true,
+      "replacesObsoleteProgramAttachmentCandidateId": "page-102ca71e33dc27f8d4f9",
+      "proposalStatus": "ready_for_current_annex_supplement_gate",
+      "displayTitle": "「여주시 결혼장려금 지원」신청서",
+      "coordinatorApproved": true,
+      "coordinatorReason": "2026-10-20 현행 nw=1 검색과 법규1918695의7조문·부칙, 새별표키22900805/flSeq170751185를 실제 HWP전체2,693자와 대조했다.제3조는1인100만원일시금,제5조는혼인6개월내1호신청을지정하고개정원문에는이전복지로서식의1차/2차지급선택이없다.오늘정확WLF00005187이초혼·1년계속거주·6개월신청·100만원을명시하여수록gov24-570000000131과맞는다.구포털18193891URL은오늘59B비문서를반환했고동일법규의현행첨부키만변경되었으므로기존ID/SHA를덮지않고새22900805로제안한다.양식전체는빈신청·본인/배우자동의이며기관서식이나작성된개인정보는없다.",
+      "currentAnnexBinding": {
+        "binding": "bound",
+        "bindingReason": "OFFICIAL_ANNEX_BOUND_WITH_SAME_FILE",
+        "officialAnnexId": "22900805",
+        "officialAnnexNumber": "1",
+        "officialAnnexTitle": "여주시 결혼장려금 지원 조례",
+        "officialFlSeq": "170751185",
+        "officialAnnexUrl": "https://www.law.go.kr/flDownload.do?gubun=ELIS&flSeq=170751185&flNm=%EC%97%AC%EC%A3%BC%EC%8B%9C+%EA%B2%B0%ED%98%BC%EC%9E%A5%EB%A0%A4%EA%B8%88+%EC%A7%80%EC%9B%90+%EC%A1%B0%EB%A1%80",
+        "officialAnnexDeleted": false
+      }
+    },
+    {
+      "sourceKind": "ordin",
+      "basisType": "current_law_and_official_program",
+      "formId": "ordin-22664085",
+      "sourceCandidateId": null,
+      "sourcePageUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=2028953",
+      "sourcePageHttpStatus": 200,
+      "sourcePageRecord": "logs/forms-completion/gyeonggi-20261019/current-law-extra9/current-law-bodies/2028953.json.gz",
+      "sourceUrl": "https://www.law.go.kr/flDownload.do?gubun=ELIS&flSeq=169512631&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C3%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%ED%8F%AC%EC%B2%9C%EC%82%AC%EB%9E%91%EC%83%81%ED%92%88%EA%B6%8C+%EA%B0%80%EB%A7%B9%EC%A0%90+%EB%93%B1%EB%A1%9D+%EA%B3%84%EC%95%BD%EC%84%9C",
+      "finalUrl": "https://www.law.go.kr/flDownload.do?gubun=ELIS&flSeq=169512631&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C3%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%ED%8F%AC%EC%B2%9C%EC%82%AC%EB%9E%91%EC%83%81%ED%92%88%EA%B6%8C+%EA%B0%80%EB%A7%B9%EC%A0%90+%EB%93%B1%EB%A1%9D+%EA%B3%84%EC%95%BD%EC%84%9C",
+      "attachmentId": "22664085",
+      "attachmentIdentifier": {
+        "queryParam": "flSeq",
+        "value": "169512631"
+      },
+      "attachmentFileSn": null,
+      "officialProgramSourceId": "560000000108",
+      "agencyName": "경기도 포천시",
+      "authorityKind": "government",
+      "authorityEvidenceKind": "government",
+      "authorityEvidenceUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=2028953",
+      "authorityEvidenceNote": "총괄이 국가법령정보센터 nw=1 목록으로 현행판을 확인한 법규의 정확별지ID/flSeq를 실제 원본SHA와 결속했다.",
+      "formTitle": "[별지 제3호서식] 포천사랑상품권 가맹점 등록 계약서",
+      "sourceMetadataTitle": "[별지 제3호서식] 포천사랑상품권 가맹점 등록 계약서",
+      "programIds": [
+        "g41650.gov24-560000000108"
+      ],
+      "programNames": [
+        "지역화폐(포천사랑)"
+      ],
+      "programEvidenceUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/560000000108",
+      "regionCode": "41650",
+      "regionLabel": "경기도 포천시",
+      "checkedAt": "2026-10-20",
+      "dateKind": "effective",
+      "effectiveDate": "2025-04-11",
+      "publishedAt": null,
+      "role": "supporting",
+      "use": "conditional",
+      "condition": "포천사랑상품권 가맹점으로 등록하려는 사업장 대표 전용입니다. 가맹점 등록신청에 대한 심사 후 시와 등록 계약을 체결하는 경우에만 사용합니다. 일반 소비자의 카드 발급·구매·충전 신청서가 아닙니다. 현재 정부24가 사업장 대표의 가맹점 신청방법과 이 별지 제3호 등록 계약서를 직접 지정하고 있습니다. 전자상품권 운영대행사와의 가맹계약 등 실제 등록경로에 따라 시의 안내를 따릅니다.",
+      "applicant": "가맹점 등록 적합 통보를 받은 사업장 대표와 포천시장",
+      "reviewedParts": [
+        {
+          "number": "별지 제3호서식",
+          "title": "포천사랑상품권 가맹점 등록 계약서",
+          "use": "conditional",
+          "author": "가맹점 등록 적합 통보를 받은 사업장 대표와 포천시장"
+        }
+      ],
+      "selectedParts": [
+        {
+          "number": "별지 제3호서식",
+          "title": "포천사랑상품권 가맹점 등록 계약서",
+          "use": "conditional",
+          "author": "가맹점 등록 적합 통보를 받은 사업장 대표와 포천시장"
+        }
+      ],
+      "verificationStatus": "verified",
+      "decision": "propose_approval",
+      "publicationApproved": false,
+      "requiresCoordinatorReview": true,
+      "officialAttachmentMatched": true,
+      "evidenceUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=2028953",
+      "evidenceNote": "현재 정부24의 정확 사업560000000108은 소비자와 별도로 사업장대표 신청 경로 및 가맹점 수수료 절감 혜택을 명시하고, 신청서란에 포천사랑상품권 가맹점 등록 계약서(별지3)를 직접 지정한다. 현행 조례2028953 전체33조 및 부칙을 읽어 제9조제3~5항의 신청·적합심사·별지3계약 절차를 확인했다. 원본 전체2046자는 포천시장과 가맹점대표가 서명하는 계약기간·준수사항·환전·해지·책임사항의 빈 계약서로, 소비자의 할인신청이나 판매대행 금융기관 계약이 아니다.",
+      "roleBasis": "현재 정부24의 정확 사업560000000108은 소비자와 별도로 사업장대표 신청 경로 및 가맹점 수수료 절감 혜택을 명시하고, 신청서란에 포천사랑상품권 가맹점 등록 계약서(별지3)를 직접 지정한다. 현행 조례2028953 전체33조 및 부칙을 읽어 제9조제3~5항의 신청·적합심사·별지3계약 절차를 확인했다. 원본 전체2046자는 포천시장과 가맹점대표가 서명하는 계약기간·준수사항·환전·해지·책임사항의 빈 계약서로, 소비자의 할인신청이나 판매대행 금융기관 계약이 아니다.",
+      "roleEvidenceUrl": "https://www.law.go.kr/flDownload.do?gubun=ELIS&flSeq=169512631&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C3%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%ED%8F%AC%EC%B2%9C%EC%82%AC%EB%9E%91%EC%83%81%ED%92%88%EA%B6%8C+%EA%B0%80%EB%A7%B9%EC%A0%90+%EB%93%B1%EB%A1%9D+%EA%B3%84%EC%95%BD%EC%84%9C",
+      "roleCheckedAt": "2026-10-20",
+      "sha256": "3c6324365b7b803b1d5e8e2b0d9bfaa3294ece1f416a03ce5de708296d3646a2",
+      "bytes": 65536,
+      "originalFormat": "hwp",
+      "originalPath": "pipeline/forms/originals/ordin-22664085.hwp",
+      "textEvidencePath": "logs/forms-completion/gyeonggi-20261019/team1/raw-cited/extracted/ordin-22664085.json",
+      "textScope": "all_body_sections_or_pages",
+      "originalTextScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "BodyText/Section0"
+      ],
+      "fullBodyReviewed": true,
+      "textLength": 2046,
+      "bodyTextSha256": "efc13cce8aa359372984a499f2e30c1152c2912d0b5abd0d6ab962ec7827bc41",
+      "independentlyReextracted": false,
+      "embeddedImageCount": 0,
+      "reviewedBy": "/root/forms_source_audit",
+      "referencedLaws": [
+        "포천시 포천사랑상품권 발행 및 운영 조례"
+      ],
+      "excludedParts": [],
+      "sourceIssues": [],
+      "lawId": "2028953",
+      "lawTitle": "포천시 포천사랑상품권 발행 및 운영 조례",
+      "lawEvidenceUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=2028953",
+      "annexId": "22664085",
+      "annexNumber": "3",
+      "programPageRecord": "logs/forms-completion/gyeonggi-20261019/team1/pages/program-g41650.gov24-560000000108.json",
+      "programPageSHA256": "56059734385baa6a801e6e1fedbcfda7c27bbc3254b503a57e4f51458294651e",
+      "originalHttpStatus": 200,
+      "verifiedDocumentTitle": "포천사랑상품권 가맹점 등록 계약서",
+      "lawUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=2028953",
+      "flSeq": "169512631",
+      "currentLawEvidence": {
+        "auditRecord": "logs/forms-completion/gyeonggi-20261019/current-law-extra9/audit.json",
+        "bodyRecord": "logs/forms-completion/gyeonggi-20261019/current-law-extra9/current-law-bodies/2028953.json.gz",
+        "lawId": "2028953",
+        "stableLawId": "2181696",
+        "effectiveDate": "20250411",
+        "annex": {
+          "annexId": "22664085",
+          "number": "3",
+          "kind": "서식",
+          "title": "[별지 제3호서식] 포천사랑상품권 가맹점 등록 계약서",
+          "fileFormat": "hwp",
+          "url": "https://www.law.go.kr/flDownload.do?gubun=ELIS&flSeq=169512631&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C3%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%ED%8F%AC%EC%B2%9C%EC%82%AC%EB%9E%91%EC%83%81%ED%92%88%EA%B6%8C+%EA%B0%80%EB%A7%B9%EC%A0%90+%EB%93%B1%EB%A1%9D+%EA%B3%84%EC%95%BD%EC%84%9C",
+          "flSeq": "169512631",
+          "pdfUrl": "",
+          "contentChars": 0,
+          "deleted": false
+        },
+        "bodySHA256": "062ba06b1bf9cdc628ca99efbcd38de985e78d6eb98e3b8ed257e65bd1e69587",
+        "bodyRead": true,
+        "allAvailableArticlesAndAddendaRead": true,
+        "currentAnnexBindingVerified": true
+      },
+      "lawBodyRecordSHA256": "062ba06b1bf9cdc628ca99efbcd38de985e78d6eb98e3b8ed257e65bd1e69587",
+      "originalShaVerified": true,
+      "originalByteVerificationRecord": "logs/forms-completion/gyeonggi-20261019/team1/raw-cited/contracts-current-byte-proof.json",
+      "programPageProgramSpecific": true,
+      "applicantCategory": "business_representative",
+      "displayTitle": "포천사랑상품권 가맹점 등록 계약서",
+      "coordinatorApproved": true,
+      "coordinatorReason": "현재 정부24의 정확 사업560000000108은 소비자와 별도로 사업장대표 신청 경로 및 가맹점 수수료 절감 혜택을 명시하고, 신청서란에 포천사랑상품권 가맹점 등록 계약서(별지3)를 직접 지정한다. 현행 조례2028953 전체33조 및 부칙을 읽어 제9조제3~5항의 신청·적합심사·별지3계약 절차를 확인했다. 원본 전체2046자는 포천시장과 가맹점대표가 서명하는 계약기간·준수사항·환전·해지·책임사항의 빈 계약서로, 소비자의 할인신청이나 판매대행 금융기관 계약이 아니다.",
+      "currentAnnexBinding": {
+        "binding": "bound",
+        "bindingReason": "OFFICIAL_ANNEX_BOUND_WITH_SAME_FILE",
+        "officialAnnexId": "22664085",
+        "officialAnnexNumber": "3",
+        "officialAnnexTitle": "[별지 제3호서식] 포천사랑상품권 가맹점 등록 계약서",
+        "officialFlSeq": "169512631",
+        "officialAnnexUrl": "https://www.law.go.kr/flDownload.do?gubun=ELIS&flSeq=169512631&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C3%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%ED%8F%AC%EC%B2%9C%EC%82%AC%EB%9E%91%EC%83%81%ED%92%88%EA%B6%8C+%EA%B0%80%EB%A7%B9%EC%A0%90+%EB%93%B1%EB%A1%9D+%EA%B3%84%EC%95%BD%EC%84%9C",
+        "officialAnnexDeleted": false
+      }
+    },
+    {
+      "sourceKind": "ordin",
+      "basisType": "current_law_and_official_program",
+      "formId": "ordin-21678593",
+      "sourceCandidateId": null,
+      "sourcePageUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=2116799",
+      "sourcePageHttpStatus": 200,
+      "sourcePageRecord": "logs/forms-completion/gyeonggi-20261019/current-law-extra9/current-law-bodies/2116799.json.gz",
+      "sourceUrl": "https://www.law.go.kr/flDownload.do?gubun=ELIS&flSeq=162864159&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C2%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%ED%8C%8C%EC%A3%BC%EC%8B%9C+%EC%A7%80%EC%97%AD%ED%99%94%ED%8F%90+%EA%B0%80%EB%A7%B9%EC%A0%90+%EB%93%B1%EB%A1%9D+%EA%B3%84%EC%95%BD%EC%84%9C",
+      "finalUrl": "https://www.law.go.kr/flDownload.do?gubun=ELIS&flSeq=162864159&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C2%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%ED%8C%8C%EC%A3%BC%EC%8B%9C+%EC%A7%80%EC%97%AD%ED%99%94%ED%8F%90+%EA%B0%80%EB%A7%B9%EC%A0%90+%EB%93%B1%EB%A1%9D+%EA%B3%84%EC%95%BD%EC%84%9C",
+      "attachmentId": "21678593",
+      "attachmentIdentifier": {
+        "queryParam": "flSeq",
+        "value": "162864159"
+      },
+      "attachmentFileSn": null,
+      "officialProgramSourceId": "406000000112",
+      "agencyName": "경기도 파주시",
+      "authorityKind": "government",
+      "authorityEvidenceKind": "government",
+      "authorityEvidenceUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=2116799",
+      "authorityEvidenceNote": "총괄이 국가법령정보센터 nw=1 목록으로 현행판을 확인한 법규의 정확별지ID/flSeq를 실제 원본SHA와 결속했다.",
+      "formTitle": "[별지 제2호서식] 파주시 지역화폐 가맹점 등록 계약서",
+      "sourceMetadataTitle": "[별지 제2호서식] 파주시 지역화폐 가맹점 등록 계약서",
+      "programIds": [
+        "g41480.gov24-406000000112"
+      ],
+      "programNames": [
+        "지역화폐(파주페이)"
+      ],
+      "programEvidenceUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/406000000112",
+      "regionCode": "41480",
+      "regionLabel": "경기도 파주시",
+      "checkedAt": "2026-10-20",
+      "dateKind": "effective",
+      "effectiveDate": "2026-03-26",
+      "publishedAt": null,
+      "role": "supporting",
+      "use": "conditional",
+      "condition": "파주페이 가맹점 사업장 대표 전용입니다. 현행 시행규칙 제4조에 따라 가맹점 등록신청·심사를 거친 뒤 시와 별지 제2호 계약을 작성하는 경우의 추가서류입니다. 운영대행사와 이미 가맹계약을 맺은 경우 제4조제4항에 따라 이 절차를 생략할 수 있으므로 일괄 제출서류로 안내하지 않습니다. 일반 소비자의 카드발급·충전·인센티브 신청에는 사용하지 않습니다.",
+      "applicant": "파주페이 가맹점 등록심사를 마친 사업장 대표와 파주시장",
+      "reviewedParts": [
+        {
+          "number": "별지 제2호서식",
+          "title": "파주시 지역화폐 가맹점 등록 계약서",
+          "use": "conditional",
+          "author": "파주페이 가맹점 등록심사를 마친 사업장 대표와 파주시장"
+        }
+      ],
+      "selectedParts": [
+        {
+          "number": "별지 제2호서식",
+          "title": "파주시 지역화폐 가맹점 등록 계약서",
+          "use": "conditional",
+          "author": "파주페이 가맹점 등록심사를 마친 사업장 대표와 파주시장"
+        }
+      ],
+      "verificationStatus": "verified",
+      "decision": "propose_approval",
+      "publicationApproved": false,
+      "requiresCoordinatorReview": true,
+      "officialAttachmentMatched": true,
+      "evidenceUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=2116799",
+      "evidenceNote": "현재 정확 정부24사업406000000112는 소비자뿐 아니라 가맹점 수수료 절감·홍보·매출증대 혜택도 포함한다. 현행2026-03-26 시행규칙2116799의 전체 조문과 제공부칙을 읽어 제4조제3항이 등록심사 후 별지2 계약을 직접 요구하고 제4항이 운영대행사 가맹계약 시 생략을 허용하는 것을 확인했다. 원본 전체1292자는 파주시와 가맹점대표의 등록·변경·해지·준수사항·계약기간 및 서명이다. 등록된 가맹점 사업자 경로에만 조건부 연결하며 일반소비자 가입서식으로 확대하지 않는다.",
+      "roleBasis": "현재 정확 정부24사업406000000112는 소비자뿐 아니라 가맹점 수수료 절감·홍보·매출증대 혜택도 포함한다. 현행2026-03-26 시행규칙2116799의 전체 조문과 제공부칙을 읽어 제4조제3항이 등록심사 후 별지2 계약을 직접 요구하고 제4항이 운영대행사 가맹계약 시 생략을 허용하는 것을 확인했다. 원본 전체1292자는 파주시와 가맹점대표의 등록·변경·해지·준수사항·계약기간 및 서명이다. 등록된 가맹점 사업자 경로에만 조건부 연결하며 일반소비자 가입서식으로 확대하지 않는다.",
+      "roleEvidenceUrl": "https://www.law.go.kr/flDownload.do?gubun=ELIS&flSeq=162864159&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C2%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%ED%8C%8C%EC%A3%BC%EC%8B%9C+%EC%A7%80%EC%97%AD%ED%99%94%ED%8F%90+%EA%B0%80%EB%A7%B9%EC%A0%90+%EB%93%B1%EB%A1%9D+%EA%B3%84%EC%95%BD%EC%84%9C",
+      "roleCheckedAt": "2026-10-20",
+      "sha256": "507a735a79e7501c56f9f0335e172f7fbea674a7c802056449661eb0cf092f5a",
+      "bytes": 15872,
+      "originalFormat": "hwp",
+      "originalPath": "pipeline/forms/originals/ordin-21678593.hwp",
+      "textEvidencePath": "logs/forms-completion/gyeonggi-20261019/team1/raw-cited/extracted/ordin-21678593.json",
+      "textScope": "all_body_sections_or_pages",
+      "originalTextScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "BodyText/Section0"
+      ],
+      "fullBodyReviewed": true,
+      "textLength": 1292,
+      "bodyTextSha256": "01bb9dcf9e80bd68328e33da309fbffba37cb6ac29ec88a777a0597ba22692fd",
+      "independentlyReextracted": false,
+      "embeddedImageCount": 0,
+      "reviewedBy": "/root/forms_source_audit",
+      "referencedLaws": [
+        "파주시 지역화폐 발행 및 운영 조례 시행규칙"
+      ],
+      "excludedParts": [],
+      "sourceIssues": [
+        "API 시행일·공포메타데이터는2026-03-26이며 조문에도 해당개정 표시가 있지만 제공된 부칙목록 본문은2025 개정까지 표시된다. 수집된 부칙범위의 차이를 보존하고 임의로2026 부칙문구를 작성하지 않았다."
+      ],
+      "lawId": "2116799",
+      "lawTitle": "파주시 지역화폐 발행 및 운영 조례 시행규칙",
+      "lawEvidenceUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=2116799",
+      "annexId": "21678593",
+      "annexNumber": "2",
+      "programPageRecord": "logs/forms-completion/gyeonggi-20261019/team1/pages/program-g41480.gov24-406000000112.json",
+      "programPageSHA256": "f0fdffea1fdf04eaed3bc7b03c6cff19514c98a4b7089602aa304e85bc6c68be",
+      "originalHttpStatus": 200,
+      "verifiedDocumentTitle": "파주시 지역화폐 가맹점 등록 계약서",
+      "lawUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=2116799",
+      "flSeq": "162864159",
+      "currentLawEvidence": {
+        "auditRecord": "logs/forms-completion/gyeonggi-20261019/current-law-extra9/audit.json",
+        "bodyRecord": "logs/forms-completion/gyeonggi-20261019/current-law-extra9/current-law-bodies/2116799.json.gz",
+        "lawId": "2116799",
+        "stableLawId": "2187883",
+        "effectiveDate": "20260326",
+        "annex": {
+          "annexId": "21678593",
+          "number": "2",
+          "kind": "서식",
+          "title": "[별지 제2호서식] 파주시 지역화폐 가맹점 등록 계약서",
+          "fileFormat": "hwp",
+          "url": "https://www.law.go.kr/flDownload.do?gubun=ELIS&flSeq=162864159&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C2%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%ED%8C%8C%EC%A3%BC%EC%8B%9C+%EC%A7%80%EC%97%AD%ED%99%94%ED%8F%90+%EA%B0%80%EB%A7%B9%EC%A0%90+%EB%93%B1%EB%A1%9D+%EA%B3%84%EC%95%BD%EC%84%9C",
+          "flSeq": "162864159",
+          "pdfUrl": "",
+          "contentChars": 0,
+          "deleted": false
+        },
+        "bodySHA256": "78c23aeb055d017675adb6720f5f298fa2985544947ae2fc6a88233073a92e80",
+        "bodyRead": true,
+        "allAvailableArticlesAndAddendaRead": true,
+        "currentAnnexBindingVerified": true
+      },
+      "lawBodyRecordSHA256": "78c23aeb055d017675adb6720f5f298fa2985544947ae2fc6a88233073a92e80",
+      "originalShaVerified": true,
+      "originalByteVerificationRecord": "logs/forms-completion/gyeonggi-20261019/team1/raw-cited/contracts-current-byte-proof.json",
+      "programPageProgramSpecific": true,
+      "applicantCategory": "business_representative",
+      "displayTitle": "파주시 지역화폐 가맹점 등록 계약서",
+      "coordinatorApproved": true,
+      "coordinatorReason": "현재 정확 정부24사업406000000112는 소비자뿐 아니라 가맹점 수수료 절감·홍보·매출증대 혜택도 포함한다. 현행2026-03-26 시행규칙2116799의 전체 조문과 제공부칙을 읽어 제4조제3항이 등록심사 후 별지2 계약을 직접 요구하고 제4항이 운영대행사 가맹계약 시 생략을 허용하는 것을 확인했다. 원본 전체1292자는 파주시와 가맹점대표의 등록·변경·해지·준수사항·계약기간 및 서명이다. 등록된 가맹점 사업자 경로에만 조건부 연결하며 일반소비자 가입서식으로 확대하지 않는다.",
+      "currentAnnexBinding": {
+        "binding": "bound",
+        "bindingReason": "OFFICIAL_ANNEX_BOUND_WITH_SAME_FILE",
+        "officialAnnexId": "21678593",
+        "officialAnnexNumber": "2",
+        "officialAnnexTitle": "[별지 제2호서식] 파주시 지역화폐 가맹점 등록 계약서",
+        "officialFlSeq": "162864159",
+        "officialAnnexUrl": "https://www.law.go.kr/flDownload.do?gubun=ELIS&flSeq=162864159&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C2%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%ED%8C%8C%EC%A3%BC%EC%8B%9C+%EC%A7%80%EC%97%AD%ED%99%94%ED%8F%90+%EA%B0%80%EB%A7%B9%EC%A0%90+%EB%93%B1%EB%A1%9D+%EA%B3%84%EC%95%BD%EC%84%9C",
+        "officialAnnexDeleted": false
+      }
+    },
+    {
+      "sourceKind": "ordin",
+      "basisType": "current_law_and_official_program",
+      "formId": "ordin-20543091",
+      "sourceCandidateId": null,
+      "sourcePageUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=1375182",
+      "sourcePageHttpStatus": 200,
+      "sourcePageRecord": "logs/forms-completion/gyeonggi-20261019/current-law-extra9/current-law-bodies/1375182.json.gz",
+      "sourceUrl": "https://www.law.go.kr/flDownload.do?gubun=ELIS&flSeq=154405711&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C3%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EB%86%8D%EA%B8%B0%EA%B3%84+%EC%9E%84%EB%8C%80%EC%B0%A8+%EA%B3%84%EC%95%BD%EC%84%9C",
+      "finalUrl": "https://www.law.go.kr/flDownload.do?gubun=ELIS&flSeq=154405711&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C3%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EB%86%8D%EA%B8%B0%EA%B3%84+%EC%9E%84%EB%8C%80%EC%B0%A8+%EA%B3%84%EC%95%BD%EC%84%9C",
+      "attachmentId": "20543091",
+      "attachmentIdentifier": {
+        "queryParam": "flSeq",
+        "value": "154405711"
+      },
+      "attachmentFileSn": null,
+      "officialProgramSourceId": "414000000450",
+      "agencyName": "경기도 연천군",
+      "authorityKind": "government",
+      "authorityEvidenceKind": "government",
+      "authorityEvidenceUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=1375182",
+      "authorityEvidenceNote": "총괄이 국가법령정보센터 nw=1 목록으로 현행판을 확인한 법규의 정확별지ID/flSeq를 실제 원본SHA와 결속했다.",
+      "formTitle": "[별지 제3호서식] 농기계 임대차 계약서",
+      "sourceMetadataTitle": "[별지 제3호서식] 농기계 임대차 계약서",
+      "programIds": [
+        "g41800.gov24-414000000450"
+      ],
+      "programNames": [
+        "농기계임대사업"
+      ],
+      "programEvidenceUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/414000000450",
+      "regionCode": "41800",
+      "regionLabel": "경기도 연천군",
+      "checkedAt": "2026-10-20",
+      "dateKind": "effective",
+      "effectiveDate": "2018-12-18",
+      "publishedAt": null,
+      "role": "supporting",
+      "use": "conditional",
+      "condition": "연천군 농기계임대사업의 임대사업자로 이미 선정된 농업인이 군과 장기 임대차계약을 체결하는 단계에만 사용합니다. 신규 사업 신청서는 아니며 현재 정부24의 신규 신청기간은 사업시행 전년도8.1.~8.30.입니다. 임차인과 군수가 계약조건·농기계·기간·임대료를 확정하여 서명하고, 임차인이 개인정보 수집·이용 동의 여부를 표시합니다. 일반 단기 농기계 대여나 누구나 즉시 선정되는 신청서로 사용하지 않습니다.",
+      "applicant": "연천군 농기계 임대사업자로 선정된 임차인과 연천군수",
+      "reviewedParts": [
+        {
+          "number": "별지 제3호서식",
+          "title": "농기계 임대차 계약서",
+          "use": "conditional",
+          "author": "연천군 농기계 임대사업자로 선정된 임차인과 연천군수"
+        },
+        {
+          "number": "별지 제3호서식 말미 무번호",
+          "title": "농기계임대사업 신청을 위한 개인정보 수집·이용 동의서",
+          "use": "additional",
+          "author": "선정된 임차인"
+        }
+      ],
+      "selectedParts": [
+        {
+          "number": "별지 제3호서식",
+          "title": "농기계 임대차 계약서",
+          "use": "conditional",
+          "author": "연천군 농기계 임대사업자로 선정된 임차인과 연천군수"
+        },
+        {
+          "number": "별지 제3호서식 말미 무번호",
+          "title": "농기계임대사업 신청을 위한 개인정보 수집·이용 동의서",
+          "use": "additional",
+          "author": "선정된 임차인"
+        }
+      ],
+      "verificationStatus": "verified",
+      "decision": "propose_approval",
+      "publicationApproved": false,
+      "requiresCoordinatorReview": true,
+      "officialAttachmentMatched": true,
+      "evidenceUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=1375182",
+      "evidenceNote": "현행 시행규칙1375182의 전체11조와 부칙에서 제3조제1항이 이미 임대사업자로 선정된 사람에게 별지2 임대사용신청과 별지3 임대차계약을 요구하며 제4조는1년이상 내구연수 장기임대를 규정하는 것을 확인했다. 현재 정부24의 정확 사업414000000450은 연천 경작·농업경영체 등록 농업인에게 고가농기계를 기금으로 구입하여 임대료를 납부하고 종료후 감정가로 인수하는 사업이다. 전체 원본2938자를 읽어 장기임대·기계 인도·연차임대료·관리·보험·반환/인수·해지·분쟁·양측서명·개인정보 동의의 빈 서식을 대조했다. 신규8월 모집과 선정후 계약단계를 분리하여 조건부 보조서류로 제안한다.",
+      "roleBasis": "현행 시행규칙1375182의 전체11조와 부칙에서 제3조제1항이 이미 임대사업자로 선정된 사람에게 별지2 임대사용신청과 별지3 임대차계약을 요구하며 제4조는1년이상 내구연수 장기임대를 규정하는 것을 확인했다. 현재 정부24의 정확 사업414000000450은 연천 경작·농업경영체 등록 농업인에게 고가농기계를 기금으로 구입하여 임대료를 납부하고 종료후 감정가로 인수하는 사업이다. 전체 원본2938자를 읽어 장기임대·기계 인도·연차임대료·관리·보험·반환/인수·해지·분쟁·양측서명·개인정보 동의의 빈 서식을 대조했다. 신규8월 모집과 선정후 계약단계를 분리하여 조건부 보조서류로 제안한다.",
+      "roleEvidenceUrl": "https://www.law.go.kr/flDownload.do?gubun=ELIS&flSeq=154405711&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C3%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EB%86%8D%EA%B8%B0%EA%B3%84+%EC%9E%84%EB%8C%80%EC%B0%A8+%EA%B3%84%EC%95%BD%EC%84%9C",
+      "roleCheckedAt": "2026-10-20",
+      "sha256": "4db952e991d3decd50f20c3895e731a78612ae58cbdfa674c5fb2a2c39de1512",
+      "bytes": 87040,
+      "originalFormat": "hwp",
+      "originalPath": "pipeline/forms/originals/ordin-20543091.hwp",
+      "textEvidencePath": "logs/forms-completion/gyeonggi-20261019/team1/raw-cited/extracted/ordin-20543091.json",
+      "textScope": "all_body_sections_or_pages",
+      "originalTextScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "BodyText/Section0"
+      ],
+      "fullBodyReviewed": true,
+      "textLength": 2938,
+      "bodyTextSha256": "4bdd0d64727025ef6c49ef1e9bd06254f45de69648ada11e6034075c67a1ff43",
+      "independentlyReextracted": false,
+      "embeddedImageCount": 0,
+      "reviewedBy": "/root/forms_source_audit",
+      "referencedLaws": [
+        "연천군 농기계 임대사업 운영조례 시행규칙"
+      ],
+      "excludedParts": [],
+      "sourceIssues": [
+        "원본의 장기임대기간·연차임대료·납부기간·기계정보는 빈칸이며 현재의 개인별 선정조건을 대신 작성하거나 금액을 임의 확정하지 않는다."
+      ],
+      "lawId": "1375182",
+      "lawTitle": "연천군 농기계 임대사업 운영조례 시행규칙",
+      "lawEvidenceUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=1375182",
+      "annexId": "20543091",
+      "annexNumber": "5",
+      "programPageRecord": "logs/forms-completion/gyeonggi-20261019/team1/pages/program-g41800.gov24-414000000450.json",
+      "programPageSHA256": "168d33e6372a7722db3e7ecf1f237debb35e455427c92fcdf6e396063921a727",
+      "originalHttpStatus": 200,
+      "verifiedDocumentTitle": "농기계 장기 임대차 계약서 및 개인정보 수집·이용 동의서",
+      "lawUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=1375182",
+      "flSeq": "154405711",
+      "currentLawEvidence": {
+        "auditRecord": "logs/forms-completion/gyeonggi-20261019/current-law-extra9/audit.json",
+        "bodyRecord": "logs/forms-completion/gyeonggi-20261019/current-law-extra9/current-law-bodies/1375182.json.gz",
+        "lawId": "1375182",
+        "stableLawId": "2092570",
+        "effectiveDate": "20181218",
+        "annex": {
+          "annexId": "20543091",
+          "number": "5",
+          "kind": "서식",
+          "title": "[별지 제3호서식] 농기계 임대차 계약서",
+          "fileFormat": "hwp",
+          "url": "https://www.law.go.kr/flDownload.do?gubun=ELIS&flSeq=154405711&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C3%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EB%86%8D%EA%B8%B0%EA%B3%84+%EC%9E%84%EB%8C%80%EC%B0%A8+%EA%B3%84%EC%95%BD%EC%84%9C",
+          "flSeq": "154405711",
+          "pdfUrl": "",
+          "contentChars": 0,
+          "deleted": false
+        },
+        "bodySHA256": "d0ec02b40c1d7991d80e6f34d1ae00b86c9b061f89e10f90669cf2d73a8fe00f",
+        "bodyRead": true,
+        "allAvailableArticlesAndAddendaRead": true,
+        "currentAnnexBindingVerified": true
+      },
+      "lawBodyRecordSHA256": "d0ec02b40c1d7991d80e6f34d1ae00b86c9b061f89e10f90669cf2d73a8fe00f",
+      "originalShaVerified": true,
+      "originalByteVerificationRecord": "logs/forms-completion/gyeonggi-20261019/team1/raw-cited/contracts-current-byte-proof.json",
+      "programPageProgramSpecific": true,
+      "applicantCategory": "selected_farmer",
+      "displayTitle": "농기계 장기 임대차 계약서 및 개인정보 수집·이용 동의서",
+      "coordinatorApproved": true,
+      "coordinatorReason": "현행 시행규칙1375182의 전체11조와 부칙에서 제3조제1항이 이미 임대사업자로 선정된 사람에게 별지2 임대사용신청과 별지3 임대차계약을 요구하며 제4조는1년이상 내구연수 장기임대를 규정하는 것을 확인했다. 현재 정부24의 정확 사업414000000450은 연천 경작·농업경영체 등록 농업인에게 고가농기계를 기금으로 구입하여 임대료를 납부하고 종료후 감정가로 인수하는 사업이다. 전체 원본2938자를 읽어 장기임대·기계 인도·연차임대료·관리·보험·반환/인수·해지·분쟁·양측서명·개인정보 동의의 빈 서식을 대조했다. 신규8월 모집과 선정후 계약단계를 분리하여 조건부 보조서류로 제안한다.",
+      "currentAnnexBinding": {
+        "binding": "bound",
+        "bindingReason": "OFFICIAL_ANNEX_BOUND_WITH_SAME_FILE",
+        "officialAnnexId": "20543091",
+        "officialAnnexNumber": "5",
+        "officialAnnexTitle": "[별지 제3호서식] 농기계 임대차 계약서",
+        "officialFlSeq": "154405711",
+        "officialAnnexUrl": "https://www.law.go.kr/flDownload.do?gubun=ELIS&flSeq=154405711&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C3%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EB%86%8D%EA%B8%B0%EA%B3%84+%EC%9E%84%EB%8C%80%EC%B0%A8+%EA%B3%84%EC%95%BD%EC%84%9C",
+        "officialAnnexDeleted": false
+      }
+    }
+  ],
+  "sourceReview": {
+    "scopeFile": "pipeline/forms/reviews/gyeonggi-portal-originals-scope-round8109.json"
+  }
+}

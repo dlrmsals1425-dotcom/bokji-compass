@@ -1,0 +1,231 @@
+{
+  "schema": 1,
+  "checkedAt": "2026-10-19",
+  "items": [
+    {
+      "formId": "ordin-22869569",
+      "sha256": "b3a6a821c32ab0d1ff2310bb7215f4d6eb898bc2744dfdf737f933eb85fd35c8",
+      "disposition": "approved",
+      "fullBodyReviewed": true,
+      "checkedAt": "2026-10-19",
+      "programIds": [
+        "s41000.gov24-641000000171"
+      ],
+      "sourceProposal": "logs/forms-completion/gyeonggi-20261019/team1/uncited/proposals-batch3.json",
+      "sourceProposalSHA256": "2f82f8025f8201eb2cd91543a69dda48cf6c35644ae205ca4fd0a7db6dd8f559",
+      "currentSearchSHA256": "89eb91a9a144f3234410323c8e8ab8c9898e9c984e79689ae947c2e8ca04c6c5",
+      "currentBodySHA256": "05bd300c83005a20cae45c47690a411b5e3e5cd9af9d7fd7ed4b9e45cad9e692",
+      "annexBinding": {
+        "binding": "bound",
+        "bindingReason": "OFFICIAL_ANNEX_BOUND_WITH_SAME_FILE",
+        "officialAnnexId": "22869569",
+        "officialAnnexNumber": "1",
+        "officialAnnexTitle": "[별지 서식] 아동급식 신청서",
+        "officialFlSeq": "170527981",
+        "officialAnnexUrl": "https://www.law.go.kr/flDownload.do?gubun=ELIS&flSeq=170527981&flNm=%5B%EB%B3%84%EC%A7%80+%EC%84%9C%EC%8B%9D%5D+%EC%95%84%EB%8F%99%EA%B8%89%EC%8B%9D+%EC%8B%A0%EC%B2%AD%EC%84%9C",
+        "officialAnnexDeleted": false
+      },
+      "reason": "김포시 현행 법규1728931 전체 조문과 부칙을 읽고 현재 목록의 별지ID22869569·flSeq170527981를 재GET 원본SHA와 대조했다. 제2조의 결식우려·수급/차상위/한부모/52% 등 대상과 제4조제1항의 별지 신청서·증빙 제출을 확인했다. 제4조제2항은 본인·보호자가 신청할 수 없는 경우 가족·이웃·교사·사회복지사·통리반장 신청과 담당공무원 직권신청을 허용한다. 전체 서식1082자와 1개 본문섹션을 읽고 실제 신청인·주소·서명·동의와 빈 기입란을 확인했다. 현재 도정부24의 18세 미만 결식우려 대상, 수급·한부모·중위52% 등 기준, 읍면동 방문 및 급식신청서 제출 요구와 교차 대조했다. 기관 급식비 정산·청구서가 아닌 아동 신청서다."
+    },
+    {
+      "formId": "ordin-21869393",
+      "sha256": "4a72f6eb9b1be79386614f4fb26ac914a7581f693b4c6869a4fc553434c35c79",
+      "disposition": "approved",
+      "fullBodyReviewed": true,
+      "checkedAt": "2026-10-19",
+      "programIds": [
+        "s41000.gov24-641000000171"
+      ],
+      "sourceProposal": "logs/forms-completion/gyeonggi-20261019/team1/uncited/proposals-batch3.json",
+      "sourceProposalSHA256": "2f82f8025f8201eb2cd91543a69dda48cf6c35644ae205ca4fd0a7db6dd8f559",
+      "currentSearchSHA256": "f509d132defc6483d99700750abc03c1d049a0758fb8ef2769a2d3ea7168d8f3",
+      "currentBodySHA256": "7d3fd0d5d4e0f4f67d89a058c2229034d103d9b5a7b18e1f3e942e38d0395b1c",
+      "annexBinding": {
+        "binding": "bound",
+        "bindingReason": "OFFICIAL_ANNEX_BOUND_WITH_SAME_FILE",
+        "officialAnnexId": "21869393",
+        "officialAnnexNumber": "1",
+        "officialAnnexTitle": "[별지 제1호서식] 아동 급식지원 신청서",
+        "officialFlSeq": "164229567",
+        "officialAnnexUrl": "https://www.law.go.kr/flDownload.do?gubun=ELIS&flSeq=164229567&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C1%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EC%95%84%EB%8F%99+%EA%B8%89%EC%8B%9D%EC%A7%80%EC%9B%90+%EC%8B%A0%EC%B2%AD%EC%84%9C",
+        "officialAnnexDeleted": false
+      },
+      "reason": "남양주시 현행 법규1740199 전체 조문과 부칙을 읽고 현재 목록의 별지ID21869393·flSeq164229567를 재GET 원본SHA와 대조했다. 제2조의 결식우려·수급/차상위/한부모/52% 등 대상과 제4조제1항의 별지1을 아동 주소지 읍면동장에게 제출하는 절차를 확인했다. 부득이한 사정이 있는 경우 교사·사회복지사·이통장·담당공무원 등의 신청은 제4조제2항 범위로 제한한다. 전체 서식1665자와 1개 본문섹션을 읽고 실제 신청인·주소·서명·동의와 빈 기입란을 확인했다. 현재 도정부24의 18세 미만 결식우려 대상, 수급·한부모·중위52% 등 기준, 읍면동 방문 및 급식신청서 제출 요구와 교차 대조했다. 기관 급식비 정산·청구서가 아닌 아동 신청서다."
+    },
+    {
+      "formId": "ordin-20011073",
+      "sha256": "dcb4eb584f96d9b1fdae2e18e1fa26a0e475d866abe0d7d25492ff7a2eaa01c6",
+      "disposition": "approved",
+      "fullBodyReviewed": true,
+      "checkedAt": "2026-10-19",
+      "programIds": [
+        "s41000.gov24-641000000171"
+      ],
+      "sourceProposal": "logs/forms-completion/gyeonggi-20261019/team1/uncited/proposals-batch3.json",
+      "sourceProposalSHA256": "2f82f8025f8201eb2cd91543a69dda48cf6c35644ae205ca4fd0a7db6dd8f559",
+      "currentSearchSHA256": "65e2643fff039625cc7adf5c1a9c773a9cefc13201912a5ed02c429adea352ce",
+      "currentBodySHA256": "15fb15c2d1d77abb32262fcf6a0520a08ff338e1392275b8744c1a82632ad780",
+      "annexBinding": {
+        "binding": "bound",
+        "bindingReason": "OFFICIAL_ANNEX_BOUND_WITH_SAME_FILE",
+        "officialAnnexId": "20011073",
+        "officialAnnexNumber": "1",
+        "officialAnnexTitle": "[별지 서식] 아동급식 신청(추천)서",
+        "officialFlSeq": "152246789",
+        "officialAnnexUrl": "https://www.law.go.kr/flDownload.do?gubun=ELIS&flSeq=152246789&flNm=%5B%EB%B3%84%EC%A7%80+%EC%84%9C%EC%8B%9D%5D+%EC%95%84%EB%8F%99%EA%B8%89%EC%8B%9D+%EC%8B%A0%EC%B2%AD%28%EC%B6%94%EC%B2%9C%29%EC%84%9C",
+        "officialAnnexDeleted": false
+      },
+      "reason": "파주시 현행 법규1741841 전체 조문과 부칙을 읽고 현재 목록의 별지ID20011073·flSeq152246789를 재GET 원본SHA와 대조했다. 제2조의 파주시 거주 결식우려 아동 및52% 등 대상과 제4조제2항의 별지 신청서·증빙을 관할 읍면동장에게 제출하는 절차를 확인했다. 제4조제3항은 가족·이웃·교사·사회복지사·통리반장 및 담당공무원 신청 경로를 명시한다. 전체 서식1505자와 1개 본문섹션을 읽고 실제 신청인·주소·서명·동의와 빈 기입란을 확인했다. 현재 도정부24의 18세 미만 결식우려 대상, 수급·한부모·중위52% 등 기준, 읍면동 방문 및 급식신청서 제출 요구와 교차 대조했다. 기관 급식비 정산·청구서가 아닌 아동 신청서다."
+    },
+    {
+      "formId": "ordin-20872019",
+      "sha256": "ef9ee193ea6cf37d6e5b3a532562e41380cb4c045c3f8c8fe44cb7b5d5d8f8e1",
+      "disposition": "approved",
+      "fullBodyReviewed": true,
+      "checkedAt": "2026-10-19",
+      "programIds": [
+        "s41000.gov24-641000000171"
+      ],
+      "sourceProposal": "logs/forms-completion/gyeonggi-20261019/team1/uncited/proposals-batch3.json",
+      "sourceProposalSHA256": "2f82f8025f8201eb2cd91543a69dda48cf6c35644ae205ca4fd0a7db6dd8f559",
+      "currentSearchSHA256": "395d6b9d3aee9cacb2c413ee8cb043687348c3cd7b98045bef72429d807552f4",
+      "currentBodySHA256": "9dd7d25dde62e02d1ca04be7c6bbe1d37531ba3cafcb0582610c5f771bd5a45f",
+      "annexBinding": {
+        "binding": "bound",
+        "bindingReason": "OFFICIAL_ANNEX_BOUND_WITH_SAME_FILE",
+        "officialAnnexId": "20872019",
+        "officialAnnexNumber": "1",
+        "officialAnnexTitle": "[별지 서식] 아동급식 신청서",
+        "officialFlSeq": "156559915",
+        "officialAnnexUrl": "https://www.law.go.kr/flDownload.do?gubun=ELIS&flSeq=156559915&flNm=%5B%EB%B3%84%EC%A7%80+%EC%84%9C%EC%8B%9D%5D+%EC%95%84%EB%8F%99%EA%B8%89%EC%8B%9D+%EC%8B%A0%EC%B2%AD%EC%84%9C",
+        "officialAnnexDeleted": false
+      },
+      "reason": "고양시 현행 법규1745445 전체 조문과 부칙을 읽고 현재 목록의 별지ID20872019·flSeq156559915를 재GET 원본SHA와 대조했다. 제3조의 결식우려·수급/차상위/한부모/52% 등 대상과 제5조제2항의 별지 신청서 및 증빙 제출을 확인했다. 제5조제3항은 이웃·교사·사회복지사·통반장 신청 또는 공무원 직권신청을 허용한다. 전체 서식1609자와 1개 본문섹션을 읽고 실제 신청인·주소·서명·동의와 빈 기입란을 확인했다. 현재 도정부24의 18세 미만 결식우려 대상, 수급·한부모·중위52% 등 기준, 읍면동 방문 및 급식신청서 제출 요구와 교차 대조했다. 기관 급식비 정산·청구서가 아닌 아동 신청서다."
+    },
+    {
+      "formId": "ordin-21025359",
+      "sha256": "b1af414f4f65deb10d12776306c35fba94dcf58903eb108bd2c9b7909765d509",
+      "disposition": "approved",
+      "fullBodyReviewed": true,
+      "checkedAt": "2026-10-19",
+      "programIds": [
+        "s41000.gov24-641000000171"
+      ],
+      "sourceProposal": "logs/forms-completion/gyeonggi-20261019/team1/uncited/proposals-batch3.json",
+      "sourceProposalSHA256": "2f82f8025f8201eb2cd91543a69dda48cf6c35644ae205ca4fd0a7db6dd8f559",
+      "currentSearchSHA256": "60dd9f192c85d63403c6cd7f078d48cc27615f09699d86ee3286494052c144e6",
+      "currentBodySHA256": "4eeca2764fa3aaa35bf4b8408997901f7d986da31e8fb2cc3b45d2ad60789be2",
+      "annexBinding": {
+        "binding": "bound",
+        "bindingReason": "OFFICIAL_ANNEX_BOUND_WITH_SAME_FILE",
+        "officialAnnexId": "21025359",
+        "officialAnnexNumber": "1",
+        "officialAnnexTitle": "아동 급식 신청서",
+        "officialFlSeq": "157738799",
+        "officialAnnexUrl": "https://www.law.go.kr/flDownload.do?gubun=ELIS&flSeq=157738799&flNm=%EC%95%84%EB%8F%99+%EA%B8%89%EC%8B%9D+%EC%8B%A0%EC%B2%AD%EC%84%9C",
+        "officialAnnexDeleted": false
+      },
+      "reason": "양주시 현행 법규2081723 전체 조문과 부칙을 읽고 현재 목록의 별지ID21025359·flSeq157738799를 재GET 원본SHA와 대조했다. 현행2025 개정 제2조는18세 미만 결식우려 아동·52% 등 요건과 위원회 추천 결정을 규정하고, 제4조제2항은 별지 신청서·증빙 제출을 명시한다. 제4조제3항의 가족·이웃·교사·사회복지사·이통반장 및 공무원 신청 경로를 확인했다. 전체 서식1471자와 1개 본문섹션을 읽고 실제 신청인·주소·서명·동의와 빈 기입란을 확인했다. 현재 도정부24의 18세 미만 결식우려 대상, 수급·한부모·중위52% 등 기준, 읍면동 방문 및 급식신청서 제출 요구와 교차 대조했다. 기관 급식비 정산·청구서가 아닌 아동 신청서다."
+    },
+    {
+      "formId": "ordin-21832751",
+      "sha256": "c4c376861f86ae4eb4b5eea0b027ccc115735c02b37ff0f34ff673366a6b31b2",
+      "disposition": "approved",
+      "fullBodyReviewed": true,
+      "checkedAt": "2026-10-19",
+      "programIds": [
+        "s41000.gov24-641000000171"
+      ],
+      "sourceProposal": "logs/forms-completion/gyeonggi-20261019/team1/uncited/proposals-batch3.json",
+      "sourceProposalSHA256": "2f82f8025f8201eb2cd91543a69dda48cf6c35644ae205ca4fd0a7db6dd8f559",
+      "currentSearchSHA256": "25b36938f967ba30a3d98eee31b9a75d49e9650059490a10eac025f61eab83f6",
+      "currentBodySHA256": "a9807f6b6c86715e0c32417b1703acb31f9ead25002da8e3180fea6cf29cb1a2",
+      "annexBinding": {
+        "binding": "bound",
+        "bindingReason": "OFFICIAL_ANNEX_BOUND_WITH_SAME_FILE",
+        "officialAnnexId": "21832751",
+        "officialAnnexNumber": "1",
+        "officialAnnexTitle": "별지(아동급식 신청서)",
+        "officialFlSeq": "164039749",
+        "officialAnnexUrl": "https://www.law.go.kr/flDownload.do?gubun=ELIS&flSeq=164039749&flNm=%EB%B3%84%EC%A7%80%28%EC%95%84%EB%8F%99%EA%B8%89%EC%8B%9D+%EC%8B%A0%EC%B2%AD%EC%84%9C%29",
+        "officialAnnexDeleted": false
+      },
+      "reason": "동두천시 현행 법규2127669 전체 조문과 부칙을 읽고 현재 목록의 별지ID21832751·flSeq164039749를 재GET 원본SHA와 대조했다. 현행2026 조례 제2조의 결식우려·수급/한부모/52% 등 대상, 제4조제2항의 별지 신청서·증빙 제출 및 제4조제3항의 가족·이웃·교사·사회복지사·통반장/공무원 신청을 확인했다. 전체 서식1071자와 1개 본문섹션을 읽고 실제 신청인·주소·서명·동의와 빈 기입란을 확인했다. 현재 도정부24의 18세 미만 결식우려 대상, 수급·한부모·중위52% 등 기준, 읍면동 방문 및 급식신청서 제출 요구와 교차 대조했다. 기관 급식비 정산·청구서가 아닌 아동 신청서다."
+    },
+    {
+      "formId": "ordin-20305101",
+      "sha256": "df776e7f56766c1559bc4df2511ce27d6bb4756a45632c56c7f3c9cbb9c92266",
+      "disposition": "approved",
+      "fullBodyReviewed": true,
+      "checkedAt": "2026-10-19",
+      "programIds": [
+        "s41000.gov24-641000000129"
+      ],
+      "sourceProposal": "logs/forms-completion/gyeonggi-20261019/team1/uncited/proposals-batch3.json",
+      "sourceProposalSHA256": "2f82f8025f8201eb2cd91543a69dda48cf6c35644ae205ca4fd0a7db6dd8f559",
+      "currentSearchSHA256": "36bfe9c6348197f444397d28524e7854fbb9efdb7588833d97d0f1d3ece3e4a5",
+      "currentBodySHA256": "6fa2003e01e6d19ac5a5dd0e23390d742e08fa3edf4778176ef223ab731ecccb",
+      "annexBinding": {
+        "binding": "bound",
+        "bindingReason": "OFFICIAL_ANNEX_BOUND_WITH_SAME_FILE",
+        "officialAnnexId": "20305101",
+        "officialAnnexNumber": "1",
+        "officialAnnexTitle": "[별지 서식] 교복구입비 지원신청서",
+        "officialFlSeq": "153585595",
+        "officialAnnexUrl": "https://www.law.go.kr/flDownload.do?gubun=ELIS&flSeq=153585595&flNm=%5B%EB%B3%84%EC%A7%80+%EC%84%9C%EC%8B%9D%5D+%EA%B5%90%EB%B3%B5%EA%B5%AC%EC%9E%85%EB%B9%84+%EC%A7%80%EC%9B%90%EC%8B%A0%EC%B2%AD%EC%84%9C",
+        "officialAnnexDeleted": false
+      },
+      "reason": "파주시 현행 법규1404738 전체 조문과 부칙을 읽고 현재 목록의 별지ID20305101·flSeq153585595를 재GET 원본SHA와 대조했다. 제4조는 경기도·교육청 협력사업 기준 우선을 명시하고 대안교육기관 신입생을 포함한다. 제6조제2항은 학교장 신청 외 개인 신청자가 별지 신청서를 주소지 읍면동장에게 제출하도록 규정한다. 제5조는 매년 정한 금액 및 중복감액을 적용하며 원본에 구금액이 인쇄되지 않았다. 전체 서식947자와 1개 본문섹션을 읽고 실제 신청인·주소·서명·동의와 빈 기입란을 확인했다. 현재 도정부24의 해당 시 담당처·접수기간·방문예외·대상·40만원 실비 요건과 교차 대조했다."
+    },
+    {
+      "formId": "ordin-21869201",
+      "sha256": "c8815db2e9a247e8abe28266be200c6846741c30c38a93b549d28ed1e835016a",
+      "disposition": "approved",
+      "fullBodyReviewed": true,
+      "checkedAt": "2026-10-19",
+      "programIds": [
+        "s41000.gov24-641000000129"
+      ],
+      "sourceProposal": "logs/forms-completion/gyeonggi-20261019/team1/uncited/proposals-batch3.json",
+      "sourceProposalSHA256": "2f82f8025f8201eb2cd91543a69dda48cf6c35644ae205ca4fd0a7db6dd8f559",
+      "currentSearchSHA256": "b0cd1dd184790a5932eef0dfc4a366eef919e370d0f3bb3dd3ea4c0f7648c0e9",
+      "currentBodySHA256": "f58133cc4257d96030b862ff23d2b621bc5bb8d0675fbb3f0257b0947c611d6a",
+      "annexBinding": {
+        "binding": "bound",
+        "bindingReason": "OFFICIAL_ANNEX_BOUND_WITH_SAME_FILE",
+        "officialAnnexId": "21869201",
+        "officialAnnexNumber": "1",
+        "officialAnnexTitle": "[별지 서식] 교복구입비 지원 신청서",
+        "officialFlSeq": "164229375",
+        "officialAnnexUrl": "https://www.law.go.kr/flDownload.do?gubun=ELIS&flSeq=164229375&flNm=%5B%EB%B3%84%EC%A7%80+%EC%84%9C%EC%8B%9D%5D+%EA%B5%90%EB%B3%B5%EA%B5%AC%EC%9E%85%EB%B9%84+%EC%A7%80%EC%9B%90+%EC%8B%A0%EC%B2%AD%EC%84%9C",
+        "officialAnnexDeleted": false
+      },
+      "reason": "남양주시 현행 법규1436387 전체 조문과 부칙을 읽고 현재 목록의 별지ID21869201·flSeq164229375를 재GET 원본SHA와 대조했다. 제3조는 거주 학생의 교복비·중복지원 공제·매년 신청기간을 규정하고, 제4조제1항은 별지 신청서 제출을 정한다. 제4조제3항은 타 기관과 공동사업인 경우 합의된 별도방법을 허용한다. 현재 도정부24는 남양주시 담당처와 예외 방문접수를 명시한다. 원본 금액란은 빈칸이며 구금액 고정기재가 없다. 전체 서식668자와 1개 본문섹션을 읽고 실제 신청인·주소·서명·동의와 빈 기입란을 확인했다. 현재 도정부24의 해당 시 담당처·접수기간·방문예외·대상·40만원 실비 요건과 교차 대조했다."
+    },
+    {
+      "formId": "ordin-22844907",
+      "sha256": "a1ab7dce30c5248b55f45cf6ee20c547e6329ee94108a898c720fbaa1ef4ff7d",
+      "disposition": "approved",
+      "fullBodyReviewed": true,
+      "checkedAt": "2026-10-19",
+      "programIds": [
+        "s41000.gov24-641000000129"
+      ],
+      "sourceProposal": "logs/forms-completion/gyeonggi-20261019/team1/uncited/proposals-batch3.json",
+      "sourceProposalSHA256": "2f82f8025f8201eb2cd91543a69dda48cf6c35644ae205ca4fd0a7db6dd8f559",
+      "currentSearchSHA256": "1de1ed31a516152765bfd3ad08dd2a9d8b1c09621264ddfac0a6fc5d54457286",
+      "currentBodySHA256": "c6f67c3e1aeeee2a3c3a8e4685d1871049f95da350fb1bec953eb93025df45e8",
+      "annexBinding": {
+        "binding": "bound",
+        "bindingReason": "OFFICIAL_ANNEX_BOUND_WITH_SAME_FILE",
+        "officialAnnexId": "22844907",
+        "officialAnnexNumber": "1",
+        "officialAnnexTitle": "[별지 서식] 교복구입비 지원 신청서",
+        "officialFlSeq": "170352967",
+        "officialAnnexUrl": "https://www.law.go.kr/flDownload.do?gubun=ELIS&flSeq=170352967&flNm=%5B%EB%B3%84%EC%A7%80+%EC%84%9C%EC%8B%9D%5D+%EA%B5%90%EB%B3%B5%EA%B5%AC%EC%9E%85%EB%B9%84+%EC%A7%80%EC%9B%90+%EC%8B%A0%EC%B2%AD%EC%84%9C",
+        "officialAnnexDeleted": false
+      },
+      "reason": "의정부시 현행 법규1748723 전체 조문과 부칙을 읽고 현재 목록의 별지ID22844907·flSeq170352967를 재GET 원본SHA와 대조했다. 제4조제2호·제3호는 대안교육기관 및 경기도 외 중고1학년 학생을 특정한다. 제6조제1항제2호는 경기도 대안교육기관 등 학생 교복지원 조례 제6조를 준용하며 도지사를 시장으로 보고 이 별지 신청서를 사용하도록 명시한다. 전체 원본의 학생유형·입학일·중복지원·교복세목·영수증/구입내역서와 서명을 대조했다. 전체 서식1452자와 1개 본문섹션을 읽고 실제 신청인·주소·서명·동의와 빈 기입란을 확인했다. 현재 도정부24의 해당 시 담당처·접수기간·방문예외·대상·40만원 실비 요건과 교차 대조했다."
+    }
+  ]
+}

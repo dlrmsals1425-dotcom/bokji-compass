@@ -1,0 +1,320 @@
+{
+  "schema": 1,
+  "checkedAt": "2026-10-19",
+  "reviewedOriginals": 237,
+  "reviewedAssociationRows": 310,
+  "reviewedParts": 345,
+  "sourceQaSHA256": "99dc4a1803f9034c7f9f51d1c2242de67196a79a87f91c3f233f9b949b3484e7",
+  "appliedReportSHA256": "1a8c42d3f72a85d06803b980c1e61431e7c3e6858000426b61e41f0e51861497",
+  "summary": {
+    "confirmedCorrectionOriginals": 9,
+    "confirmedCorrectionRows": 13,
+    "confirmedQaFieldCorrections": 22,
+    "derivedDisplayTitleCorrections": 1,
+    "clarificationOriginals": 1,
+    "clarificationRows": 1,
+    "affectedOriginals": 10,
+    "affectedReviewedRows": 14,
+    "affectedLogFiles": 16,
+    "fragmentFiles": 8
+  },
+  "preserved": {
+    "officialAnnexNumber": true,
+    "lawArticles": true,
+    "sourceFormIdAndSha256": true,
+    "programPairs": true,
+    "rolesAndUses": true,
+    "applicationScope": true,
+    "sourceMetadataTitles": true
+  },
+  "appliedToCanonicalRows": true,
+  "originals": [
+    {
+      "formId": "ordin-22537303",
+      "sourceSha256": "f8fb2d1aaef3b1131cd4a9e39ea536fb4f811199af2ab3e3ba644aea05f83e18",
+      "reviewFile": "logs/forms-completion/reviews/team3-batch-063-reviewed.json",
+      "changes": [
+        {
+          "rowIndex": 25,
+          "programIds": [
+            "g12830.bokjiro-WLF00002311"
+          ],
+          "field": "reviewedParts[0].title",
+          "currentValue": "[별지 제3호서식] 경로우대 목욕이용권 신청서",
+          "proposedValue": "경로우대 목욕 및 이·미용권 신청서"
+        }
+      ],
+      "displayTitleAfter": "경로우대 목욕 및 이·미용권 신청서"
+    },
+    {
+      "formId": "ordin-22624793",
+      "sourceSha256": "629f9048bc692caff01b6d95b4e0b3380108a159c731fed8baa1edc57a86dfc8",
+      "reviewFile": "logs/forms-completion/reviews/team3-batch-066-reviewed.json",
+      "changes": [
+        {
+          "rowIndex": 18,
+          "programIds": [
+            "g41370.bokjiro-WLF00005917"
+          ],
+          "field": "condition",
+          "currentValue": null,
+          "proposedValue": "파일의 별지 제1호 화장장려금 지급신청서와 동의 부분만 작성합니다. 뒤의 별지 제2호 지급대장은 담당기관 작성용입니다."
+        }
+      ],
+      "displayTitleAfter": null
+    },
+    {
+      "formId": "ordin-20194579",
+      "sourceSha256": "b3032f64f369f12d9d9bea0aa27435a1b3465db5ba1e11f51173e70d5b426cae",
+      "reviewFile": "logs/forms-completion/reviews/team4-batch-039-reviewed.json",
+      "changes": [
+        {
+          "rowIndex": 3,
+          "programIds": [
+            "g44210.bokjiro-WLF00006499"
+          ],
+          "field": "reviewedParts[0].number",
+          "currentValue": "1",
+          "proposedValue": "별지 서식"
+        },
+        {
+          "rowIndex": 3,
+          "programIds": [
+            "g44210.bokjiro-WLF00006499"
+          ],
+          "field": "reviewedParts[1].number",
+          "currentValue": "1-부속",
+          "proposedValue": "별지 서식 부속 동의란"
+        },
+        {
+          "rowIndex": 4,
+          "programIds": [
+            "g44210.gov24-453000000170"
+          ],
+          "field": "reviewedParts[0].number",
+          "currentValue": "1",
+          "proposedValue": "별지 서식"
+        },
+        {
+          "rowIndex": 4,
+          "programIds": [
+            "g44210.gov24-453000000170"
+          ],
+          "field": "reviewedParts[1].number",
+          "currentValue": "1-부속",
+          "proposedValue": "별지 서식 부속 동의란"
+        }
+      ],
+      "displayTitleAfter": null
+    },
+    {
+      "formId": "ordin-20288997",
+      "sourceSha256": "b5d6d04a06d5e88e909ea31e4033ebe214b6343ba867cbb1f9c138f60e6e6e6a",
+      "reviewFile": "logs/forms-completion/reviews/team4-batch-039-reviewed.json",
+      "changes": [
+        {
+          "rowIndex": 9,
+          "programIds": [
+            "g26110.bokjiro-WLF00004136"
+          ],
+          "field": "reviewedParts[0].number",
+          "currentValue": "1",
+          "proposedValue": "별지 서식(앞면)"
+        },
+        {
+          "rowIndex": 9,
+          "programIds": [
+            "g26110.bokjiro-WLF00004136"
+          ],
+          "field": "reviewedParts[1].number",
+          "currentValue": "1-뒷면",
+          "proposedValue": "별지 서식(뒷면)"
+        },
+        {
+          "rowIndex": 10,
+          "programIds": [
+            "g26110.gov24-325000000104"
+          ],
+          "field": "reviewedParts[0].number",
+          "currentValue": "1",
+          "proposedValue": "별지 서식(앞면)"
+        },
+        {
+          "rowIndex": 10,
+          "programIds": [
+            "g26110.gov24-325000000104"
+          ],
+          "field": "reviewedParts[1].number",
+          "currentValue": "1-뒷면",
+          "proposedValue": "별지 서식(뒷면)"
+        },
+        {
+          "rowIndex": 11,
+          "programIds": [
+            "g26110.bokjiro-WLF00003857"
+          ],
+          "field": "reviewedParts[0].number",
+          "currentValue": "1",
+          "proposedValue": "별지 서식(앞면)"
+        },
+        {
+          "rowIndex": 11,
+          "programIds": [
+            "g26110.bokjiro-WLF00003857"
+          ],
+          "field": "reviewedParts[1].number",
+          "currentValue": "1-뒷면",
+          "proposedValue": "별지 서식(뒷면)"
+        },
+        {
+          "rowIndex": 12,
+          "programIds": [
+            "g26110.bokjiro-WLF00003858"
+          ],
+          "field": "reviewedParts[0].number",
+          "currentValue": "1",
+          "proposedValue": "별지 서식(앞면)"
+        },
+        {
+          "rowIndex": 12,
+          "programIds": [
+            "g26110.bokjiro-WLF00003858"
+          ],
+          "field": "reviewedParts[1].number",
+          "currentValue": "1-뒷면",
+          "proposedValue": "별지 서식(뒷면)"
+        }
+      ],
+      "displayTitleAfter": null
+    },
+    {
+      "formId": "ordin-20402157",
+      "sourceSha256": "bed69b911a31f07dd406ec89d11734d06b09469983ffd35818da71f4bcdbb870",
+      "reviewFile": "logs/forms-completion/reviews/team4-batch-039-reviewed.json",
+      "changes": [
+        {
+          "rowIndex": 28,
+          "programIds": [
+            "g11680.gov24-322000000125"
+          ],
+          "field": "reviewedParts[0].number",
+          "currentValue": "1",
+          "proposedValue": "별지 서식"
+        },
+        {
+          "rowIndex": 28,
+          "programIds": [
+            "g11680.gov24-322000000125"
+          ],
+          "field": "reviewedParts[1].number",
+          "currentValue": "1-부속",
+          "proposedValue": "별지 서식 부속 동의란"
+        }
+      ],
+      "displayTitleAfter": null
+    },
+    {
+      "formId": "ordin-20404727",
+      "sourceSha256": "fe8c4264e7884e13024517dfdc32160c54f3c7e9784ea4edce8f80a13793b4e6",
+      "reviewFile": "logs/forms-completion/reviews/team4-batch-039-reviewed.json",
+      "changes": [
+        {
+          "rowIndex": 29,
+          "programIds": [
+            "g41210.bokjiro-WLF00000645"
+          ],
+          "field": "reviewedParts[0].number",
+          "currentValue": "1",
+          "proposedValue": "별지 서식"
+        }
+      ],
+      "displayTitleAfter": null
+    },
+    {
+      "formId": "ordin-21154777",
+      "sourceSha256": "6c36440a41c20ccddc14fa78e6aa78df80ae2618b277d1aba7819c0f068a1fe0",
+      "reviewFile": "logs/forms-completion/reviews/team4-batch-039-reviewed.json",
+      "changes": [
+        {
+          "rowIndex": 30,
+          "programIds": [
+            "g12770.gov24-491000000109"
+          ],
+          "field": "reviewedParts[0].number",
+          "currentValue": "1",
+          "proposedValue": "별지 서식"
+        }
+      ],
+      "displayTitleAfter": null
+    },
+    {
+      "formId": "ordin-21811143",
+      "sourceSha256": "e300581721acca5b94a1ceb67c70050252191e40a70624db47394f41a38e24ae",
+      "reviewFile": "logs/forms-completion/reviews/team4-batch-042-reviewed.json",
+      "changes": [
+        {
+          "rowIndex": 0,
+          "programIds": [
+            "g41390.gov24-401000000513"
+          ],
+          "field": "reviewedParts[0].number",
+          "currentValue": "1",
+          "proposedValue": "별지 서식"
+        },
+        {
+          "rowIndex": 0,
+          "programIds": [
+            "g41390.gov24-401000000513"
+          ],
+          "field": "reviewedParts[1].number",
+          "currentValue": "1-부속",
+          "proposedValue": "별지 서식 부속 동의란"
+        }
+      ],
+      "displayTitleAfter": null
+    },
+    {
+      "formId": "ordin-21826415",
+      "sourceSha256": "fa4f17442c11f0903cba8895ce3148481a56f329a1d6434c0ee9dfba83af99ae",
+      "reviewFile": "logs/forms-completion/reviews/team4-batch-042-reviewed.json",
+      "changes": [
+        {
+          "rowIndex": 14,
+          "programIds": [
+            "s50000.gov24-650000000303"
+          ],
+          "field": "reviewedParts[0].number",
+          "currentValue": "1",
+          "proposedValue": "별지 서식"
+        }
+      ],
+      "displayTitleAfter": null
+    },
+    {
+      "formId": "ordin-21925615",
+      "sourceSha256": "7987c55d69c9227d4eb3b0fdd9d37a6a0f82a59d102f4ab4f498c2462d3d4ec8",
+      "reviewFile": "logs/forms-completion/reviews/team4-batch-042-reviewed.json",
+      "changes": [
+        {
+          "rowIndex": 18,
+          "programIds": [
+            "g44180.bokjiro-WLF00006605"
+          ],
+          "field": "reviewedParts[0].number",
+          "currentValue": "1",
+          "proposedValue": "별지 서식(앞면)"
+        },
+        {
+          "rowIndex": 18,
+          "programIds": [
+            "g44180.bokjiro-WLF00006605"
+          ],
+          "field": "reviewedParts[1].number",
+          "currentValue": "1-뒷면",
+          "proposedValue": "별지 서식(뒷면)"
+        }
+      ],
+      "displayTitleAfter": null
+    }
+  ]
+}

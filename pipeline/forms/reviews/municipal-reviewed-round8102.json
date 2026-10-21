@@ -1,0 +1,174 @@
+{
+  "schema": 1,
+  "checkedAt": "2026-10-19",
+  "rows": [
+    {
+      "sourceKind": "rule",
+      "formId": "rule-3211501",
+      "formTitle": "사회보장급여(사회서비스이용권) 신청(변경)서",
+      "sourceMetadataTitle": "사회보장급여(사회서비스이용권) 신청(변경)서",
+      "lawId": "2100000278060",
+      "lawTitle": "사회보장급여 관련 공통서식에 관한 고시",
+      "lawUrl": "https://www.law.go.kr/LSW/admRulInfoP.do?admRulSeq=2100000278060",
+      "annexId": "3211501",
+      "annexNumber": "000104",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?flSeq=163660131&bylClsCd=200203",
+      "officialPdfUrl": "https://www.law.go.kr/LSW/flDownload.do?flSeq=163660139&bylClsCd=200203",
+      "regionCode": "national",
+      "regionLabel": "전국 공통",
+      "effectiveDate": "2026-05-01",
+      "dateKind": "effective",
+      "printedAmendmentDate": "2026-07-01",
+      "role": "application",
+      "use": "main",
+      "condition": "파주시 산모신생아 건강관리 바우처 신청용 대안 서식이다. 이 사회서비스이용권 신청서 또는 안내가 허용하는 임신서비스 통합처리 신청서를 사용한다.1쪽 신청인·가족정보,2쪽 보건소의 산모신생아 건강관리지원 항목,3쪽 동의·서명을 작성하고 다른급여 선택란은 이 사업과 연결하지 않는다.",
+      "applicant": "산모 또는 공식 안내의 대리신청 범위에 해당하는 신청인",
+      "programIds": [
+        "g41480.bokjiro-WLF00003882"
+      ],
+      "programNames": [
+        "산모신생아 건강관리사지원"
+      ],
+      "evidenceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00003882&wlfareInfoReldBztpCd=02",
+      "programEvidenceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00003882&wlfareInfoReldBztpCd=02",
+      "evidenceNote": "파주시의 정확한 복지로WLF00003882 현재 페이지가 배포한2026 산모신생아 지침의 PDF50쪽(인쇄36쪽)은 사회보장급여(사회서비스이용권) 신청서 또는 임신서비스 통합처리 신청서를 명시한다. PDF181~183쪽은 공통고시 별지1호의4를 같은 산모신생아 신청용으로 수록한다. 현행 고시2100000278060 제5조/별표키000104의 flSeq163660131과 기존승인 rule-3211501 원본의 전체3쪽7978자·SHA를 재대조했고,2쪽에 산모신생아 건강관리의 기본/예외대상·출산예정일·서비스장소 및3쪽서명이 있다.",
+      "checkedAt": "2026-10-19",
+      "scopeBasis": "official-application-reference",
+      "scopeReference": {
+        "kind": "program-documents",
+        "referencedLawTitle": "사회보장급여 관련 공통서식에 관한 고시",
+        "annexNumber": "000104",
+        "evidenceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00003882&wlfareInfoReldBztpCd=02",
+        "basis": "파주 WLF00003882의 공식 첨부2026 지침50쪽(인쇄36쪽)이 사회보장급여(사회서비스이용권) 신청서를 직접 지정하고181쪽 머리말은 사회보장급여 관련 공통서식에 관한 고시 별지 제1호의4를 명시한다. 해당 경로에 최신 공통고시의 같은 별지000104 원본을 연결하며 파주사업의 산모신생아 신청 부분만 사용한다."
+      },
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "publicationApproved": false,
+      "requiresCoordinatorReview": true,
+      "decision": "propose_approval",
+      "sha256": "f922a89ff89c09bfb6325d493d03104bdc23c123fc1c4b469bfc77bb1597bde1",
+      "bytes": 41935,
+      "originalFormat": "hwpx",
+      "originalPath": "pipeline/forms/originals/rule-3211501.hwpx",
+      "textEvidencePath": "logs/forms-completion/gyeonggi-20261019/team1/standalone/rule-3211501.json",
+      "textScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "Contents/section0.xml"
+      ],
+      "fullBodyReviewed": true,
+      "textLength": 7978,
+      "bodyTextSha256": "f0b4cdf9debf77239f84d62afa8f0e6e6f45fb48e16ffa8b835b13303a98e1a3",
+      "reviewedParts": [
+        {
+          "number": "별지 제1호의4서식",
+          "title": "사회보장급여(사회서비스이용권) 신청(변경)서",
+          "use": "main",
+          "author": "산모 또는 허용된 대리신청인"
+        }
+      ],
+      "selectedParts": [
+        {
+          "number": "1쪽/2쪽 산모신생아/3쪽",
+          "title": "인적·가족사항, 산모신생아 건강관리지원 선택란, 개인정보 동의 및 신청 서명",
+          "use": "main",
+          "author": "산모 또는 허용된 대리신청인"
+        }
+      ],
+      "excludedParts": [
+        "타 사회서비스·급여 신청 선택항목",
+        "430쪽 지침 원본 전체의 공개·승인"
+      ],
+      "sourceIssues": [
+        "지침 파일 첫표지는2025/표지교체예정 문구지만 선택한 신청절차·서식페이지는2026 본문이다.지침본문 전체를 판독했다는 의미가 아니며 공식 고시의 최신 독립 원본만 제공한다.",
+        "고시 일반 시행일은2026-05-01이고 부칙은 별지1호의4 일부개정 사항을2026-07-01부터 시행하도록 명시한다. 현재두 날짜 모두 경과했다."
+      ],
+      "programPageRecord": "logs/forms-completion/gyeonggi-20261019/current-pages/WLF00003882.json",
+      "programPageSHA256": "44c9b621bcf9f021c60918b50bf46bfb63093aa082fc8193344025dac0ea9597",
+      "applicationReferenceRecord": "logs/forms-completion/gyeonggi-20261019/team1/standalone/paju-guide-application-reference.json",
+      "currentRuleAuditRecord": "logs/forms-completion/gyeonggi-20261019/current-common-rule-audit.json",
+      "currentRuleBodyRecord": "logs/forms-completion/gyeonggi-20261019/current-rule-body.json",
+      "currentAnnexNode": {
+        "별표가지번호": "04",
+        "별표구분": "별지",
+        "별표번호": "0001",
+        "별표서식PDF파일링크": "/LSW/flDownload.do?flSeq=163660139",
+        "별표서식파일링크": "/LSW/flDownload.do?flSeq=163660131",
+        "별표제목": "사회보장급여(사회서비스이용권) 신청(변경)서",
+        "별표키": "000104"
+      },
+      "originalRegetHttpStatus": 200,
+      "originalRegetSHA256": "f922a89ff89c09bfb6325d493d03104bdc23c123fc1c4b469bfc77bb1597bde1",
+      "reviewedBy": "/root/forms_source_audit"
+    },
+    {
+      "sourceKind": "ordin",
+      "lawTitle": "시흥시 임신ㆍ출산 지원에 관한 조례",
+      "lawId": "2112541",
+      "annexId": "21605505",
+      "annexNumber": "000200",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=161960659&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C1%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EC%B6%9C%EC%82%B0%EC%84%9C%EB%B9%84%EC%8A%A4+%ED%86%B5%ED%95%A9%EC%B2%98%EB%A6%AC+%EC%8B%A0%EC%B2%AD%EC%84%9C",
+      "officialPdfUrl": null,
+      "dateKind": "effective",
+      "effectiveDate": "2026-02-26",
+      "regionCode": "41390",
+      "regionLabel": "경기도 시흥시",
+      "programIds": [
+        "g41390.gov24-401000000489"
+      ],
+      "programNames": [
+        "시흥시 산후조리비 지원"
+      ],
+      "formId": "ordin-21605505",
+      "formTitle": "[별지 제1호서식] 출산서비스 통합처리 신청서",
+      "use": "main",
+      "checkedAt": "2026-10-19",
+      "evidenceUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=2112541",
+      "evidenceNote": "시흥 통합신청서3쪽 전체에서 시흥시 자체 산후조리비와 경기도 산후조리비가 별도 입력란임을 확인했다. 현재 복지로 WLF00005509가 시흥시 자체 사업의 정확한 파일을 배포하며 정부24 기존 사업도 통합처리신청서를 요구한다. 공식 산후조리비 조례1925317 전체 제5조·2024.5.9 부칙제3조가 임신출산 조례의 별지1과 같게 개정한다고 명시한다. 실제2112541의 전체12조·부칙도 읽어 동일서식 경로를 확인했다. 이미 출생축하금용으로 게시된 ordin-21605505와 실제SHA가 같으나 산후조리비 사업 연결은 없음을 확인했다.",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "sha256": "1c85a7785d973592c3d6d2ed8baf2d8815295dac74ab2aea235229497ebc6c93",
+      "bytes": 98304,
+      "originalFormat": "hwp",
+      "originalTextScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "BodyText/Section0"
+      ],
+      "role": "application",
+      "roleBasis": "시흥 통합신청서3쪽 전체에서 시흥시 자체 산후조리비와 경기도 산후조리비가 별도 입력란임을 확인했다. 현재 복지로 WLF00005509가 시흥시 자체 사업의 정확한 파일을 배포하며 정부24 기존 사업도 통합처리신청서를 요구한다. 공식 산후조리비 조례1925317 전체 제5조·2024.5.9 부칙제3조가 임신출산 조례의 별지1과 같게 개정한다고 명시한다. 실제2112541의 전체12조·부칙도 읽어 동일서식 경로를 확인했다. 이미 출생축하금용으로 게시된 ordin-21605505와 실제SHA가 같으나 산후조리비 사업 연결은 없음을 확인했다.",
+      "roleEvidenceUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=2112541",
+      "roleCheckedAt": "2026-10-19",
+      "verifiedDocumentTitle": "출산서비스 통합처리 신청서",
+      "sourceMetadataTitle": "[별지 제1호서식] 출산서비스 통합처리 신청서",
+      "reviewedParts": [
+        {
+          "number": "1",
+          "title": "출산서비스 통합처리 신청서",
+          "use": "main",
+          "author": "해당 지원을 신청하는 주민 또는 조문상 신청인"
+        }
+      ],
+      "textScope": "all_body_sections_or_pages",
+      "bodyEvidenceArticle": "제7조",
+      "bodyEvidenceText": "제7조(지원신청) 출생축하금 신청인은 출생아의 출생신고일 등을 기준으로 12개월 이내에 별지 제1호서식의 출산서비스 통합처리 신청서(이하 “신청서”라 한다)를 관할 동장(이하 “동장”이라 한다)에게 제출해야 한다. 다만, 부득이한 사유로 신청인이 신청할 수 없는 경우에는 출생축하금 신청에 대한 권한을 위임받아 대리 신청할 수 있다.",
+      "signature": "d0cf11e0a1b11ae1",
+      "independentReview": "forms_source_audit:crossreview-part3",
+      "condition": "시흥시 자체 산후조리비를 신청할 때 통합신청서 첫 쪽의 「시흥시 산후조리비 지원」란과 관련 동의·서명란을 작성합니다. 경기도 산후조리비 입력란은 별도 항목입니다. 출생일로부터12개월 이내 관할 동 행정복지센터에 신청하는 절차이며, 이 연결만으로 다른 전국 급여나 출생축하금의 자격·신청이 함께 확정되는 것은 아닙니다.",
+      "programEvidenceUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/401000000489",
+      "fullBodyReviewed": true,
+      "reusedPublishedOriginal": true,
+      "additionalEvidenceUrls": [
+        "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00005509&wlfareInfoReldBztpCd=02",
+        "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=1925317"
+      ]
+    }
+  ],
+  "sourceReview": {
+    "sourceProposalSHA256s": [
+      "d549cd80486d50d72fc3735ead7c7d9c056e985e7be9b0655f9fba6bd13f9c1c",
+      "35c82a2332e790c8695938c3230361ddc0424e15342ed9771f59f93a7a44ec9c"
+    ],
+    "newOriginals": 0,
+    "newAssociations": 2,
+    "note": "Existing original IDs, source URLs and original bytes are reused. Each new association was separately checked against the exact programme and actual application fields."
+  }
+}

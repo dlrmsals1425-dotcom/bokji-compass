@@ -1,0 +1,342 @@
+{
+  "schema": 1,
+  "kind": "current-intake-program-notes",
+  "checkedAt": "2026-10-20",
+  "reviewedBy": "/root/national_form_audit",
+  "scope": "명시된 정확 4개 프로그램 ID: 광역1·시군3. 광역 노트는 부천/포천 두 관할의 접수 안내에 한정.",
+  "publicNotes": {
+    "s41000.gov24-641000000137": "부천시·포천시는 2026년 9월 30일 신청분까지 지원하고 10월 1일부터 종료한다고 안내합니다. 출생일 기준이 아닙니다. 다른 시군의 접수 여부는 해당 기관 안내를 확인하세요.",
+    "g41310.gov24-398000000111": "구리시보건소는 2026년 10월 1일부터 기준중위소득 150% 초과 가정을 지원 대상에서 제외한다고 공지했습니다. 같은 페이지에 “소득제한 없음” 안내도 남아 있어, 현재 접수 가능 여부는 보건소에 확인하세요.",
+    "g41370.gov24-400000000115": "오산시보건소는 기준중위소득 150% 초과 추가형을 2026년 9월 30일 신청분까지만 지원하고 10월 1일 종료로 공지했습니다. 이 공지는 150% 초과 추가형에 한정되며, 다른 유형의 지원 전체에 해당하지 않습니다.",
+    "g41370.bokjiro-WLF00001022": "오산시보건소는 기준중위소득 150% 초과 추가형을 2026년 9월 30일 신청분까지만 지원하고 10월 1일 종료로 공지했습니다. 가형·통합형 등 다른 유형의 지원 전체가 종료됐다는 뜻은 아닙니다."
+  },
+  "draftSHA256": "9161c96242c77dd295f3f4db9faed8161f1c36c8d7826a50a702574100caee77",
+  "draftHashBasis": "publicNotes를 UTF-8·키 정렬·공백 없는 JSON으로 직렬화한 바이트 SHA256; 이 근거 파일 자체의 SHA는 별도 인계.",
+  "originalReviewArtifacts": [
+    {
+      "path": "logs/forms-completion/gyeonggi-20261019/team3/bucheon-postpartum-closure-scope-20261020.json",
+      "sha256": "5f6aabae64b4501ccf3362c246408e1a2be2f2d188f1217ebd7c4ed001640cb8"
+    },
+    {
+      "path": "logs/forms-completion/gyeonggi-20261019/team3/osan-maternal-extra-closure-scope-20261020.json",
+      "sha256": "c56ea8b50b26e2036963b260713e41567385d421d0cbe3ce8c7c78a5af356059"
+    },
+    {
+      "path": "logs/forms-completion/gyeonggi-20261019/team1/current-source-conflict.json",
+      "sha256": "74130619a833de1abf467e2bd936bab41361a2c899241fa28d2f3e9c9d2ae97e"
+    },
+    {
+      "path": "logs/forms-completion/gyeonggi-20261019/team1/current-source-conflict-pocheon.json",
+      "sha256": "5295385dc3ef380ac4176a7771c4509e7f3147f6bb82320d3eb1ce4e58890044"
+    }
+  ],
+  "officialPageEvidence": [
+    {
+      "id": "bucheon-postpartum",
+      "authority": "부천시보건소",
+      "sourceUrl": "https://pubhealth.bucheon.go.kr/site/homepage/menu/viewMenu?menuid=161004004003004",
+      "finalUrl": "https://pubhealth.bucheon.go.kr/site/homepage/menu/viewMenu?menuid=161004004003004",
+      "httpStatus": 200,
+      "responseSHA256": "f62eb753a0bbd31b05a5dde2e27ee6d10801d28fe9ce5ab1aa02c2dd8ac7f948",
+      "checkedAt": "2026-10-20",
+      "recordPath": "logs/forms-completion/gyeonggi-20261019/team3/bucheon-postpartum-health-20261020.json",
+      "recordSHA256": "ccbc5cbaebf2d55803a0f50662564de9ff9702a3c28beb44f85a459b630bf001",
+      "excerpt": "경기도산후조리비지원(26년 10월 1일 종료) 사업목적 경기도 출산가정에 산후조리비를 지원하여 산모와 신생아의 생명과 건강을 보호하고 출산가정의 경제적 부담완화로 건전한 출산과 양육을 도모 시 행 일 : 2020.10.15.신청부터 적용(경기도산후조리비 조례개정(2020.7.15.) ※ 2026. 9. 30.신청분까지(9월 출생X) 지원 후 종료 지 원 대 상 신생아 출산일 및 신청일 현재 부 또는 모가 경기도(부천시)에 주민등록(또는 외국인 등록)두고 있는 자(소득기준 없음. 첫째아부터 지원) 출생아가 경기도(부천시)에 출생등록 되어야 함. 신청일 현재 실제 경기도(부천시)에 거주 신청일 현재 영아의 출생일 12개월이 지나지 않았을 것 부부 모두 외국인인 경우 출산자(모)의 국내 체류자격 비자(사증) 종류가 F-5(영주)이 며, 출생일 및 신청일 현재 경기도(부천시) 거주한 경우에 한함(외국인 사실증명) 지 원 내 용 : 출생아 1인당 50만원 부천페이(지역화폐) 지원 신 청 방 법 : 부 또는 모가 출생 등록하는 ",
+      "readScope": "저장된 공식 현재 페이지의 해당 사업 대상·접수기간·종료/제외 안내를 실제 대조. 사이트 공통 메뉴·다른 사업은 결론 근거에서 제외.",
+      "evidenceLimit": "부천시 41190의 경기도 산후조리비 접수 범위만 확인."
+    },
+    {
+      "id": "pocheon-termination",
+      "authority": "포천시보건소",
+      "sourceUrl": "https://www.pocheon.go.kr/pbhlth/selectBbsNttView.do?bbsNo=61&nttNo=803593&key=9637",
+      "finalUrl": "https://www.pocheon.go.kr/pbhlth/selectBbsNttView.do?bbsNo=61&nttNo=803593&key=9637",
+      "httpStatus": 200,
+      "responseSHA256": "0875e337417c84c67201d4ea5788a05d988736ff7cefbe6381705a8f691bd851",
+      "checkedAt": "2026-10-20",
+      "recordPath": "logs/forms-completion/gyeonggi-20261019/team1/pages/pocheon-termination-803593.json",
+      "recordSHA256": "af0304bff1c5c996a1c7cfc20a4a08520b0b50436621d609664a43dbc2a0d9ed",
+      "excerpt": "현재 페이지 프린트하기 모자보건 지원 종료사업 안내 경기도 산후조리비 / 난자동결 시술비 / 난임시술 중단 의료비 / 산모 · 신생아 건강관리 ( 중위소득 150% 초과가정 ) 사업이 2026 년 10 월 1 일자로 종료 됩니다 . 1. 경기도 산후조리비 지원사업 - 9. 30. 신청분까지 지원가능 (9 월 출생아 기준 X) 2. 경기도 난자동결 시술비 지원사업 3. 난임시술 중단 의료비 지원사업 - 2026. 9. 30. 까지 지원결정통지서 발행 신청건 지원 - 2026. 10. 1. 이후 신청건은 지원불가 4. 산모 · 신생아 건강관리 지원사업 - 기준중위소득 150% 초과 가정 지원사업만 종료 (150% 이하 가정 지원은 지속 ) - 2026. 9. 30. 신청건까지 지원 해당사업을 신청하실 경우 , 2026. 9. 30.( 수 ) 까지 신청해주세요 ※ 2026. 10. 1.( 목 ) 부터 신청불가 ! 목록 이전글 달빛어린이병원 지정 취소 안내 다음글 모자보건 지원 종료사업 안내 관련누리집모음 국립국어원 표준국어대사전 귀농귀촌정보 옥정~포천 광역철도 건설공사 포천시의회 청렴포털-부패공익 신고창구 부동산포털 경기주거복지포털 바로처리콜센터 공직비리 익명신고 여성긴급전화 국민연금 바로알기 소비자24 경기대진테크노파크 포천도시공사 다누리 문의 불법주정차 사전 알림 신청 서비스 공무원 노동조합 포천가족성상담센터 안전신문고 아이돌봄서비스 포천문화관광재단 포천시 농업재단 포천시청소년재단 포천미디어센터 외국인주민지원센터 포천시가족센터 포천공동체지원센터 이전 정지 다음 부서별 안내 홍보담당관 허가담당관 자치행정과 기획예",
+      "readScope": "저장된 공식 현재 페이지의 해당 사업 대상·접수기간·종료/제외 안내를 실제 대조. 사이트 공통 메뉴·다른 사업은 결론 근거에서 제외.",
+      "evidenceLimit": "여러 종료사업 중 경기도 산후조리비 항목만 해당 광역사업 노트에 사용. 포천시 자체 산후조리비 100만원과 구분."
+    },
+    {
+      "id": "pocheon-postpartum",
+      "authority": "포천시보건소",
+      "sourceUrl": "https://www.pocheon.go.kr/pbhlth/contents.do?key=47661",
+      "finalUrl": "https://www.pocheon.go.kr/pbhlth/contents.do?key=47661",
+      "httpStatus": 200,
+      "responseSHA256": "ba1f203b590e89b77e77e6d41a921019fb36267feafa3587c61e78ebdb5fdf3b",
+      "checkedAt": "2026-10-20",
+      "recordPath": "logs/forms-completion/gyeonggi-20261019/team1/pages/pocheon-prov-postpartum-current.json",
+      "recordSHA256": "30fa67992e54a1bebead67b68dfd7ea85ce8356be79e1e0b6b6c29435ad5a2ec",
+      "excerpt": "현재 페이지 프린트하기 지원대상 신생아 출생일과 신청일 모두 경기도 내 주민등록을 두고 실제 거주중인 출산가정 지원금액 출생아 1인당 50만원(지역화폐) 지원 주의 다태아의 경우 출생아 수에 배수 지급 신청기간 출산일 기준 12개월 이내(출산일 포함) 신청기관 출생신고한 관할 읍면동 행정복지센터 주의 2026. 9. 30.자 신청분까지 지원가능(2026. 10. 1.부터 신청불가) 관련누리집모음 국립국어원 표준국어대사전 귀농귀촌정보 옥정~포천 광역철도 건설공사 포천시의회 청렴포털-부패공익 신고창구 부동산포털 경기주거복지포털 바로처리콜센터 공직비리 익명신고 여성긴급전화 국민연금 바로알기 소비자24 경기대진테크노파크 포천도시공사 다누리 문의 불법주정차 사전 알림 신청 서비스 공무원 노동조합 포천가족성상담센터 안전신문고 아이돌봄서비스 포천문화관광재",
+      "readScope": "저장된 공식 현재 페이지의 해당 사업 대상·접수기간·종료/제외 안내를 실제 대조. 사이트 공통 메뉴·다른 사업은 결론 근거에서 제외.",
+      "evidenceLimit": "포천시 41650의 출생아 1인당 50만원 경기도 산후조리비이며 다른 시군 범위로 확대하지 않음."
+    },
+    {
+      "id": "guri-maternal",
+      "authority": "구리시보건소",
+      "sourceUrl": "https://www.guri.go.kr/health/contents.do?key=3562",
+      "finalUrl": "https://www.guri.go.kr/health/contents.do?key=3562",
+      "httpStatus": 200,
+      "responseSHA256": "39ab0fa8a9c8024534a81eb71e9c9d11ae660f95896650c6e487599c7b86c4c1",
+      "checkedAt": "2026-10-20",
+      "recordPath": "logs/forms-completion/gyeonggi-20261019/team1/pages/guri-maternal-current-20261020.json",
+      "recordSHA256": "b4d8e8cabe82927f9f23b1fb8eb0104cc26d8fa0443b9e5df267ff6992f1f62c",
+      "excerpt": "지원대상 구리시 관내 주민등록을 둔 모든 출산 산모 (소득제한 없음) 1.가형 생계·의료·주거·교육급여 수급자, 차상위본인부담경감, 차상위자활, 차상위장애인, 차상위자격대상자 2.통합형 건강보험 본인부담금 합산액이 기준중위소득 150%이하 금액에 해당하는 출산가정 3.라형 건강보험 본인부담금 합산액이 기준중위소득 150%초과 금액에 해당하는 출산가정 ※ 2026년 10월 1일부터 기준중위소득 150% 초과 출산가정은 지원 대상에서 제외됩니다. 2026년 건강보험료 기준중위소득 150% 판정기준 2026년 건강보험료 본인부담금에 의한 기준중위소득 150% 판정기준- 가구원수(태아포함), 소득기준, 건강보험료 본인부담금(원)(직장가입자, 지역가입자, 혼합) 순으로 정보를 제공하고있습니다. 가구원수 직장가입자 지역가입자 혼합(직장",
+      "readScope": "저장된 공식 현재 페이지의 해당 사업 대상·접수기간·종료/제외 안내를 실제 대조. 사이트 공통 메뉴·다른 사업은 결론 근거에서 제외.",
+      "evidenceLimit": "같은 페이지에 소득제한 없음·라형 안내가 남아 있고 10월 1일 초과가정 제외 공지가 병존. 경과조치·기존 승인자 서비스 취소는 판단하지 않음."
+    },
+    {
+      "id": "osan-maternal",
+      "authority": "오산시보건소",
+      "sourceUrl": "https://www.osan.go.kr/depart/contents.do?mId=0504010300",
+      "finalUrl": "https://www.osan.go.kr/depart/contents.do?mId=0504010300",
+      "httpStatus": 200,
+      "responseSHA256": "725c194879f12172ac7303cbc77519639835290318777ad6c52158868e8dc875",
+      "checkedAt": "2026-10-20",
+      "recordPath": "logs/forms-completion/gyeonggi-20261019/team3/common-ref-osan-health-20261020.json",
+      "recordSHA256": "379714061cfd404d107c2dfcd688e170a4b9bc5d524a36dfcc8a8abd1f4d010b",
+      "excerpt": "※ 산모신생아 건강관리 지원사업(추가형- 중위소득 150% 초과 출산가정) 9월 30일 신청분까지만 지원 가능(2026년 10월 1일 종료 예정) 지원대상 신청일 현재 오산시에 주민등록을 두고 있는 산모 (건강보험료 기준 등급별 지원, 거주기간 무관) 부부모두가 외국인인 경우 당해 외국인은 국내 체류자격 비자(사증) 종류가 F-2(거주), F-5(영주), F-6(결혼이민)인 경우에 한함 신청기간 출산예정일 40일 전부터 출산일로부터 60일까지 신청 바우처 유효기간 : 출산일로부터 90일 이내(90일이 경과",
+      "readScope": "저장된 공식 현재 페이지의 해당 사업 대상·접수기간·종료/제외 안내를 실제 대조. 사이트 공통 메뉴·다른 사업은 결론 근거에서 제외.",
+      "evidenceLimit": "중위소득 150% 초과 추가형 9월30일 신청분·10월1일 종료 예정 공지. 가형·통합형 등 다른 유형 전체 또는 기존 승인자 이용권 취소는 판단하지 않음."
+    }
+  ],
+  "notes": [
+    {
+      "programId": "s41000.gov24-641000000137",
+      "programName": "경기도산후조리비지원",
+      "publicNote": "부천시·포천시는 2026년 9월 30일 신청분까지 지원하고 10월 1일부터 종료한다고 안내합니다. 출생일 기준이 아닙니다. 다른 시군의 접수 여부는 해당 기관 안내를 확인하세요.",
+      "noteSHA256": "3a00ad0c85866c1d6c12008aadc92615ecc8ec0e40bb2a8145caed996e27ae93",
+      "previousNote": null,
+      "mergedNote": "부천시·포천시는 2026년 9월 30일 신청분까지 지원하고 10월 1일부터 종료한다고 안내합니다. 출생일 기준이 아닙니다. 다른 시군의 접수 여부는 해당 기관 안내를 확인하세요.",
+      "existingProgrammeScope": {
+        "scope": "sido",
+        "region": {
+          "sido": "41000",
+          "label": "경기도"
+        },
+        "target": "○ 부 또는 모가 다음의 요건을 모두 충족하는 경우\n- 출생일 및 신청일 현재 경기도에 주민등록을 두고 있을 것\n- 신청일 현재 실제 도에 거주하고 있을 것\n- 신청일 현재 영아의 출생일이 12개월이 지나지 않았을 것\n- 경기도에 출생등록이 되어야 함",
+        "benefit": "○ 출산가정의 경제적 부담완화 및 산모신생아 건강보호를 위하여 경기도 거주 출산가정에 출생아 1인당 50만원의 지역화폐를 지원",
+        "url": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/641000000137",
+        "sources": [
+          {
+            "source": "gov24",
+            "id": "641000000137",
+            "url": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/641000000137",
+            "updatedAt": "2026-08-13",
+            "fetchedAt": "2026-10-02"
+          },
+          {
+            "source": "bokjiro",
+            "id": "WLF00001361",
+            "url": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00001361&wlfareInfoReldBztpCd=02",
+            "updatedAt": "2026-08-19",
+            "fetchedAt": "2026-10-06"
+          }
+        ]
+      },
+      "evidenceIds": [
+        "bucheon-postpartum",
+        "pocheon-termination",
+        "pocheon-postpartum"
+      ],
+      "affectedJurisdictions": [
+        {
+          "sigungu": "41190",
+          "label": "부천시"
+        },
+        {
+          "sigungu": "41650",
+          "label": "포천시"
+        }
+      ],
+      "affectedBenefit": "광역 경기도 산후조리비 50만원 지원의 부천·포천 접수",
+      "applicationDateNotBirthDate": true,
+      "applicationCutoffDate": "2026-09-30",
+      "announcedClosureDate": "2026-10-01",
+      "limitations": [
+        "다른 시군 접수 종료로 확대하지 않음",
+        "포천시 자체 산후조리비 100만원이나 부천시 자체 출산지원금은 다른 사업",
+        "사업 전체 eligibility·마감 필드·신청 링크를 변경하지 않고 관할 한정 안내만 추가"
+      ]
+    },
+    {
+      "programId": "g41310.gov24-398000000111",
+      "programName": "산모·신생아 건강관리 지원(자체사업)",
+      "publicNote": "구리시보건소는 2026년 10월 1일부터 기준중위소득 150% 초과 가정을 지원 대상에서 제외한다고 공지했습니다. 같은 페이지에 “소득제한 없음” 안내도 남아 있어, 현재 접수 가능 여부는 보건소에 확인하세요.",
+      "noteSHA256": "d8d2f6b227a17324abbafe5c443691de4919fde129d02a0156270f662749a156",
+      "previousNote": null,
+      "mergedNote": "구리시보건소는 2026년 10월 1일부터 기준중위소득 150% 초과 가정을 지원 대상에서 제외한다고 공지했습니다. 같은 페이지에 “소득제한 없음” 안내도 남아 있어, 현재 접수 가능 여부는 보건소에 확인하세요.",
+      "existingProgrammeScope": {
+        "scope": "sigungu",
+        "region": {
+          "sido": "41000",
+          "sigungu": "41310",
+          "label": "경기 구리시"
+        },
+        "target": "○ 관내 기준중위소득 150%초과 출산가정",
+        "benefit": "○ 전문교육을 받은 산모·신생아 건강관리사가 출산 가정을 방문해 산모의 건강회복을 돕고, 신생아를 보살펴 출산 가정의 경제적 부담 경감",
+        "url": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/398000000111",
+        "sources": [
+          {
+            "source": "gov24",
+            "id": "398000000111",
+            "url": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/398000000111",
+            "updatedAt": "2026-08-13",
+            "fetchedAt": "2026-10-02"
+          },
+          {
+            "source": "bokjiro",
+            "id": "WLF00001366",
+            "url": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00001366&wlfareInfoReldBztpCd=02",
+            "updatedAt": "2026-08-06",
+            "fetchedAt": "2026-10-06"
+          }
+        ]
+      },
+      "evidenceIds": [
+        "guri-maternal"
+      ],
+      "affectedJurisdictions": [
+        {
+          "sigungu": "41310",
+          "label": "구리시"
+        }
+      ],
+      "affectedBenefit": "기준중위소득 150% 초과 출산가정 자체 건강관리 지원",
+      "effectiveExclusionDate": "2026-10-01",
+      "sourceConflict": "같은 공식 페이지의 소득제한 없음 및 라형 안내와 날짜 명시 제외 공지가 충돌하므로 보건소 현재 접수 확인을 안내",
+      "limitations": [
+        "150% 이하 일반 지원의 종료를 주장하지 않음",
+        "기존 승인자·이미 시작한 서비스의 경과조치를 판단하지 않음"
+      ]
+    },
+    {
+      "programId": "g41370.gov24-400000000115",
+      "programName": "산모 · 신생아 건강관리 지원 서비스(확대)",
+      "publicNote": "오산시보건소는 기준중위소득 150% 초과 추가형을 2026년 9월 30일 신청분까지만 지원하고 10월 1일 종료로 공지했습니다. 이 공지는 150% 초과 추가형에 한정되며, 다른 유형의 지원 전체에 해당하지 않습니다.",
+      "noteSHA256": "667d11be29999bb3d091a3fcc863ad7041ae4c0fe37c31cd15753d2b0e7ea90e",
+      "previousNote": null,
+      "mergedNote": "오산시보건소는 기준중위소득 150% 초과 추가형을 2026년 9월 30일 신청분까지만 지원하고 10월 1일 종료로 공지했습니다. 이 공지는 150% 초과 추가형에 한정되며, 다른 유형의 지원 전체에 해당하지 않습니다.",
+      "existingProgrammeScope": {
+        "scope": "sigungu",
+        "region": {
+          "sido": "41000",
+          "sigungu": "41370",
+          "label": "경기 오산시"
+        },
+        "target": "○ 산모 및 배우자 등 해당가구의 건강보험료 본인부담금 합산액이 기준중위소득 150%초과 금액에 해당하는 출산가구",
+        "benefit": "○ 산모 건강관리 : 산모 신체 상태조사, 유방관리, 산후 부종관리, 영양관리, 좌욕지원, 위생관리 등\n○ 신생아 건강관리 : 신생아 청결·위생관리(목욕, 배꼽관리, 기저귀교체, 용품소독), 수유 및 예방접종 지원\n○ 산모·신생아 가사지원 : 산모 식사준비, 산모 및 신생아 주 생활공간 청소, 산모 및 신생아 의류 세탁\n○ 산모 정보제공 및 정서지원 : 응급상황 발견 및 대응, 감염 예방 및 관리, 정서 상태 이해 및 지지\n※ 산모·신생아 외 다른 가족 돌봄이나 일반 가사활동영역은 표준 서비스에 포함되지 않는 부가 서비스이므로 원하는 경우 별도로 추가구매가 필요함",
+        "url": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/400000000115",
+        "sources": [
+          {
+            "source": "gov24",
+            "id": "400000000115",
+            "url": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/400000000115",
+            "updatedAt": "2025-11-27",
+            "fetchedAt": "2026-10-02"
+          }
+        ]
+      },
+      "evidenceIds": [
+        "osan-maternal"
+      ],
+      "affectedJurisdictions": [
+        {
+          "sigungu": "41370",
+          "label": "오산시"
+        }
+      ],
+      "affectedBenefit": "기존 사업 대상 자체가 기준중위소득 150% 초과 출산가구인 확대 서비스",
+      "applicationCutoffDate": "2026-09-30",
+      "announcedClosureDate": "2026-10-01",
+      "limitations": [
+        "다른 소득유형·시군까지 종료로 확대하지 않음",
+        "보건소 원문은 종료 예정으로 공지했으며 실제 접수의 개별 예외·기존 승인자 서비스 취소를 판단하지 않음"
+      ]
+    },
+    {
+      "programId": "g41370.bokjiro-WLF00001022",
+      "programName": "산모신생아 건강관리사 지원 확대",
+      "publicNote": "오산시보건소는 기준중위소득 150% 초과 추가형을 2026년 9월 30일 신청분까지만 지원하고 10월 1일 종료로 공지했습니다. 가형·통합형 등 다른 유형의 지원 전체가 종료됐다는 뜻은 아닙니다.",
+      "noteSHA256": "a9e247742fa8bd57c2c6c87795760ccfb61f80d08779238e5b4de713a4d9acaa",
+      "previousNote": null,
+      "mergedNote": "오산시보건소는 기준중위소득 150% 초과 추가형을 2026년 9월 30일 신청분까지만 지원하고 10월 1일 종료로 공지했습니다. 가형·통합형 등 다른 유형의 지원 전체가 종료됐다는 뜻은 아닙니다.",
+      "existingProgrammeScope": {
+        "scope": "sigungu",
+        "region": {
+          "sido": "41000",
+          "sigungu": "41370",
+          "label": "경기 오산시"
+        },
+        "target": "-신청일 현재 오산시에 주민등록을 두고 있는 산모 (건강보험료 기준 등급별 지원, 거주기간 무관)-부부모두가 외국인인 경우 당해 외국인은 국내 체류자격 비자(사증) 종류가 F-2(거주), F-5(영주), F-6(결혼이민)인 경우에 한함",
+        "benefit": "산모의 산후 건강관리 및 신생아 관리를 위한 가정방문 건강관리사 파견 비용 지원(본인부담금 제외)",
+        "url": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00001022&wlfareInfoReldBztpCd=02",
+        "sources": [
+          {
+            "source": "bokjiro",
+            "id": "WLF00001022",
+            "url": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00001022&wlfareInfoReldBztpCd=02",
+            "updatedAt": "2026-08-25",
+            "fetchedAt": "2026-10-06"
+          }
+        ]
+      },
+      "evidenceIds": [
+        "osan-maternal"
+      ],
+      "affectedJurisdictions": [
+        {
+          "sigungu": "41370",
+          "label": "오산시"
+        }
+      ],
+      "affectedBenefit": "복지로에 혼재한 가형·통합형·라형 중 중위소득 150% 초과 추가형만 해당",
+      "applicationCutoffDate": "2026-09-30",
+      "announcedClosureDate": "2026-10-01",
+      "limitations": [
+        "가형·통합형 등 다른 지원유형 전체 종료로 해석하지 않음",
+        "기존 승인자·이용권 유효기간·환수 여부는 판단하지 않음"
+      ]
+    }
+  ],
+  "builderPrecedenceAudit": {
+    "sourcePath": "scripts/build-forms.ts",
+    "sourceSHA256": "c67942c86bb764b5ff927e245f0a4095ef293e82fd1018578785198391b925a3",
+    "line": 465,
+    "expression": "portalReviews?.programNotes?.[program.id] || reviews.programNotes?.[program.id]",
+    "priority": [
+      "portal-reviewed-links.json programNotes",
+      "reviewed-links.json programNotes"
+    ],
+    "portalReviewedLinksSHA256": "6fff73d7e1cb52edaeda8aaeb8f6028bec4bde5ce513d98e8db3dab96588df5e",
+    "existingPortalNoteIds": [
+      "n.gov24-999000000089",
+      "n.welfare100-long-term-care-insurance"
+    ],
+    "targetPortalOverrides": [],
+    "resolvedTargetNotes": {
+      "s41000.gov24-641000000137": "부천시·포천시는 2026년 9월 30일 신청분까지 지원하고 10월 1일부터 종료한다고 안내합니다. 출생일 기준이 아닙니다. 다른 시군의 접수 여부는 해당 기관 안내를 확인하세요.",
+      "g41310.gov24-398000000111": "구리시보건소는 2026년 10월 1일부터 기준중위소득 150% 초과 가정을 지원 대상에서 제외한다고 공지했습니다. 같은 페이지에 “소득제한 없음” 안내도 남아 있어, 현재 접수 가능 여부는 보건소에 확인하세요.",
+      "g41370.gov24-400000000115": "오산시보건소는 기준중위소득 150% 초과 추가형을 2026년 9월 30일 신청분까지만 지원하고 10월 1일 종료로 공지했습니다. 이 공지는 150% 초과 추가형에 한정되며, 다른 유형의 지원 전체에 해당하지 않습니다.",
+      "g41370.bokjiro-WLF00001022": "오산시보건소는 기준중위소득 150% 초과 추가형을 2026년 9월 30일 신청분까지만 지원하고 10월 1일 종료로 공지했습니다. 가형·통합형 등 다른 유형의 지원 전체가 종료됐다는 뜻은 아닙니다."
+    },
+    "result": "현재 4개 대상에 portal 노트가 없으므로 새 reviewed-links 노트가 선택된다. 향후 portal에 같은 ID 노트가 추가되면 우선순위 재검토 필요.",
+    "execution": "실제 builder 코드를 읽고 해당 선택식을 데이터에 대입하여 검증. 생성 파이프라인은 실행하지 않음."
+  },
+  "preservation": {
+    "reviewedLinksPath": "pipeline/forms/reviewed-links.json",
+    "beforeSHA256": "7dad0945729d336b497c1a56723920e1392e202c2e9561f0ccdfaecfd297889b",
+    "afterSHA256": "d4f7e647565cb4f8532c648758d98782b8a814608b298bedca119c369f90dd77",
+    "existingRowCount": 11,
+    "rowsRawUTF8SHA256": "043dd1281ea504c79f05b0f61c939442327df27312b84d7bbd213cf107ace842",
+    "rowsByteIdentical": true,
+    "existingNotesPreserved": true,
+    "portalReviewedLinksChanged": false,
+    "programmesSourceChanged": false,
+    "publicArtifactsChanged": false,
+    "buildOrDeployRun": false
+  },
+  "evidenceStorageLimit": "기존 공식 GET 기록의 HTTP·응답SHA·본문과 고정 검토 원고의 결속을 재확인했다. 이 작업에서 공식 원문을 재요청하거나 과거 원 응답 바이트를 새로 재해시했다고 주장하지 않는다."
+}

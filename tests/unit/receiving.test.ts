@@ -2,7 +2,7 @@
 import { existsSync, readFileSync } from "node:fs";
 import { describe, expect, it } from "vitest";
 import { parseSituation, parsedExtras } from "@/lib/client/parse";
-import { EMPTY_EXTRAS, buildView, needsStatus, scoreV2, topPicksV2, type Extras, type Situation } from "@/lib/client/v2";
+import { EMPTY_EXTRAS, buildView, scoreV2, topPicksV2, type Extras, type Situation } from "@/lib/client/v2";
 import { refineProgram } from "@/lib/data/refine";
 import { EMPTY_PROFILE, type Profile } from "@/lib/engine/profile";
 import type { Program, RegionIndex } from "@/lib/data/types";
@@ -54,5 +54,19 @@ describe("이미 받고 있는 혜택 빼기", () => {
     const { view: v2, receiving } = splitReceiving(view, []);
     expect(v2).toBe(view);
     expect(receiving).toEqual([]);
+  });
+  it("받고 있는 혜택은 추가 질문의 혜택 수에서도 빼고, 관계없는 질문은 없앤다", () => {
+    const question = view.questions.find((q) => q.keys.length > 1)!;
+    expect(question).toBeDefined();
+    const hidden = question.keys[0];
+    const { view: filtered } = splitReceiving(view, [hidden]);
+    const remaining = filtered.questions.find((q) => q.dim.id === question.dim.id)!;
+    expect(remaining.keys).toEqual(question.keys.filter((key) => key !== hidden));
+    expect(remaining.groups).toBe(question.groups - 1);
+    expect(filtered.unlock).toBe(new Set(view.questions.flatMap((q) => q.keys).filter((key) => key !== hidden)).size);
+    const { view: allReceived } = splitReceiving(view, view.ask.map((g) => g[0].s.group));
+    expect(allReceived.questions).toEqual([]);
+    expect(allReceived.unlock).toBe(0);
+    expect(view.questions.find((q) => q.dim.id === question.dim.id)?.keys).toContain(hidden);
   });
 });

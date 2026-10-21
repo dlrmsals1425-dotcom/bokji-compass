@@ -11,6 +11,7 @@
     "test": "vitest run",
     "e2e": "playwright test",
     "pipeline": "tsx pipeline/src/build.ts",
+    "forms:build": "tsx scripts/build-forms.ts",
     "ingest:gov24": "tsx pipeline/src/gov24/ingest.ts",
     "ingest:bokjiro": "tsx pipeline/src/bokjiro/ingest.ts",
     "ingest:mohw": "tsx pipeline/src/mohw/ingest.ts",
@@ -19,6 +20,7 @@
     "start:safe": "env -i PATH=\"$PATH\" HOME=\"$HOME\" next start -p 3217"
   },
   "dependencies": {
+    "fflate": "0.8.3",
     "next": "16.3.8",
     "react": "19.2.8",
     "react-dom": "19.2.8"

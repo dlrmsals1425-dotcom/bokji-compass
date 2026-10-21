@@ -1,0 +1,1430 @@
+{
+  "schema": 1,
+  "checkedAt": "2026-10-18",
+  "scopeFile": "pipeline/forms/reviews/unmatched-originals-scope.json",
+  "summary": {
+    "scopeForms": 29,
+    "accounted": 29,
+    "dispositions": {
+      "approved": 6,
+      "excluded": 21,
+      "official_replacement_found": 1,
+      "needs_official_readable_original": 1
+    },
+    "approvedOriginals": 6,
+    "approvedAssociations": 6,
+    "completeOriginalBodiesRead": 23,
+    "protectedBodiesUnread": 6,
+    "hwp3BodiesRecovered": 8,
+    "currentLawPagesRead": 15,
+    "originalHashFailures": 0,
+    "officialReplacementAttachments": 1,
+    "untouchedExistingApprovedOriginals": 689
+  },
+  "forms": [
+    {
+      "formId": "ordin-19878599",
+      "sha256": "10ffe303153dedffffb0d6c330003b2bcaeb2546033b3a9df45b944da781396c",
+      "format": "txt",
+      "lawId": "1789667",
+      "lawTitle": "홍천군저소득주민자녀장학금지급조례시행규칙",
+      "title": "[별지 제1호서식]장학금신청서",
+      "regionCode": "51720",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=152030341&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C1%ED%98%B8%EC%84%9C%EC%8B%9D%5D%EC%9E%A5%ED%95%99%EA%B8%88%EC%8B%A0%EC%B2%AD%EC%84%9C",
+      "relativePath": "ordin-19878599.txt",
+      "bytes": 5014,
+      "checkedAt": "2026-10-18",
+      "disposition": "approved",
+      "relatedProgramIds": [
+        "g51720.bokjiro-WLF00002975"
+      ],
+      "relatedPrograms": [
+        {
+          "id": "g51720.bokjiro-WLF00002975",
+          "name": "저소득주민자녀 장학금 지원"
+        }
+      ],
+      "evidenceUrl": "https://www.law.go.kr/LSW/ordinInfoR.do?ordinSeq=1789667&gubun=ELIS&chrClsCd=010202",
+      "bodyEvidenceArticle": "제5조",
+      "bodyEvidenceText": "제5조(장학생의 추천) ① 일반장학금을 지급받고자 하는 자는 다음 각호의 구비서류를 구비하여 읍면장에게 신청하여야 한다. 1. 장학금 신청서( 별지 제1호서식 ) 1부 2. 재학증명서 및 성적증명서 각1부 <개정 1999.9.16 규칙 제905호> 3. 추천서( 별지 제2호서식 ) 1부 ② 특별장학금을 지급받고자 하는 자는 동조 제1항 각호 및 다음 각호의 1의 증명서류를 구비, 읍면장에게 신청하여야 한다. 1. 전국대회입상자는 상장등 입상증명서류 1부, 기타대상자는 관련증빙서류 1부 2. 학교장의 추천서( 별지 제3호서식 ) 1부 <1998.6.5 규칙 제877호, 1999.9.16 규칙 제905호> ③ 읍면장은 신청서 및 관계서류를 확인 장학생으로서 자격유무를 검토하여 군수에게 추천헌다. ④ 대상자 선정은 연1회 심의위원회에서 심의확정하며, 1가구 2자녀까지 지급할 수 있다. ⑤ 읍면장은 조례 제8조 의 규정에 의한 지급제한 사유가 발생한 때에는 즉시 군수에게 보고하여야 한다. <개정 1999.9.16 규칙 제905호>",
+      "evidenceNote": "원본은 보호자 또는 학생 측 신청인과 지원대상 학생, 재산상황을 기재하는 장학금 신청서이다. 제5조제1항제1호 및 제2항이 일반·특별장학금 신청시 별지1을 제출하도록 하며 홍천 저소득주민자녀 장학금 사업과 일치한다.",
+      "currentOfficialAttachmentMatched": true,
+      "originalHashVerified": true,
+      "textScope": "plain_text",
+      "sectionsRead": [
+        "text"
+      ],
+      "completeBodyRead": true,
+      "textLength": 4368,
+      "decodedTextEvidence": {
+        "sourceEncoding": "cp949",
+        "sourceSha256": "10ffe303153dedffffb0d6c330003b2bcaeb2546033b3a9df45b944da781396c",
+        "textFile": "logs/forms-completion/nonstandard/ordin-19878599-decoded.txt",
+        "decodedSha256": "e64a9cfda29b4591685f53d82b7b94c4ff53c2b7b61320edba6f4e2fe5a22e94"
+      }
+    },
+    {
+      "formId": "ordin-19878601",
+      "sha256": "f7ac8bcc7a0c74c65596324f059e1505cd09156ee36f4329e0db9dc0b59808d5",
+      "format": "txt",
+      "lawId": "1789667",
+      "lawTitle": "홍천군저소득주민자녀장학금지급조례시행규칙",
+      "title": "[별지 제2호서식]일반장학생신청서",
+      "regionCode": "51720",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=152030343&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C2%ED%98%B8%EC%84%9C%EC%8B%9D%5D%EC%9D%BC%EB%B0%98%EC%9E%A5%ED%95%99%EC%83%9D%EC%8B%A0%EC%B2%AD%EC%84%9C",
+      "relativePath": "ordin-19878601.txt",
+      "bytes": 2013,
+      "checkedAt": "2026-10-18",
+      "disposition": "excluded",
+      "relatedProgramIds": [
+        "g51720.bokjiro-WLF00002975"
+      ],
+      "relatedPrograms": [
+        {
+          "id": "g51720.bokjiro-WLF00002975",
+          "name": "저소득주민자녀 장학금 지원"
+        }
+      ],
+      "evidenceUrl": "https://www.law.go.kr/LSW/ordinInfoR.do?ordinSeq=1789667&gubun=ELIS&chrClsCd=010202",
+      "bodyEvidenceArticle": "제5조",
+      "bodyEvidenceText": "제5조(장학생의 추천) ① 일반장학금을 지급받고자 하는 자는 다음 각호의 구비서류를 구비하여 읍면장에게 신청하여야 한다. 1. 장학금 신청서( 별지 제1호서식 ) 1부 2. 재학증명서 및 성적증명서 각1부 <개정 1999.9.16 규칙 제905호> 3. 추천서( 별지 제2호서식 ) 1부 ② 특별장학금을 지급받고자 하는 자는 동조 제1항 각호 및 다음 각호의 1의 증명서류를 구비, 읍면장에게 신청하여야 한다. 1. 전국대회입상자는 상장등 입상증명서류 1부, 기타대상자는 관련증빙서류 1부 2. 학교장의 추천서( 별지 제3호서식 ) 1부 <1998.6.5 규칙 제877호, 1999.9.16 규칙 제905호> ③ 읍면장은 신청서 및 관계서류를 확인 장학생으로서 자격유무를 검토하여 군수에게 추천헌다. ④ 대상자 선정은 연1회 심의위원회에서 심의확정하며, 1가구 2자녀까지 지급할 수 있다. ⑤ 읍면장은 조례 제8조 의 규정에 의한 지급제한 사유가 발생한 때에는 즉시 군수에게 보고하여야 한다. <개정 1999.9.16 규칙 제905호>",
+      "evidenceNote": "포털 제목은 일반장학생신청서이나 실제 TXT 제목은 일반장학생추천서이고 작성·날인 주체는 읍·면장이다. 주민이 작성하는 별지1과 구분되는 기관 추천서여서 다운로드 신청서로 연결하지 않는다.",
+      "currentOfficialAttachmentMatched": true,
+      "originalHashVerified": true,
+      "textScope": "plain_text",
+      "sectionsRead": [
+        "text"
+      ],
+      "completeBodyRead": true,
+      "textLength": 1910,
+      "decodedTextEvidence": {
+        "sourceEncoding": "cp949",
+        "sourceSha256": "f7ac8bcc7a0c74c65596324f059e1505cd09156ee36f4329e0db9dc0b59808d5",
+        "textFile": "logs/forms-completion/nonstandard/ordin-19878601-decoded.txt",
+        "decodedSha256": "7a275cf5e69ef8857de31722a36ed8cdf718192cfac016b63546c02c5972b8a9"
+      },
+      "sourceIssue": "포털의 신청서 명칭과 달리 원본문서는 읍·면장 작성 추천서이다."
+    },
+    {
+      "formId": "ordin-20050497",
+      "sha256": "11366f996b24e35340ee55cc236e70fcfce149455b14420d01ce375802c389b6",
+      "format": "hwp3",
+      "lawId": "1060764",
+      "lawTitle": "성남시 체육시설 관리 운영 조례 시행규칙",
+      "title": "[별지 제1호서식] 체육시설사용허가신청서",
+      "regionCode": "41130",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=152321475&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C1%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EC%B2%B4%EC%9C%A1%EC%8B%9C%EC%84%A4%EC%82%AC%EC%9A%A9%ED%97%88%EA%B0%80%EC%8B%A0%EC%B2%AD%EC%84%9C",
+      "relativePath": "ordin-20050497.hwp",
+      "bytes": 5564,
+      "checkedAt": "2026-10-18",
+      "disposition": "excluded",
+      "relatedProgramIds": [
+        "g41130.gov24-O00006400005"
+      ],
+      "relatedPrograms": [
+        {
+          "id": "g41130.gov24-O00006400005",
+          "name": "체육시설 이용요금 감면"
+        }
+      ],
+      "evidenceUrl": "https://www.law.go.kr/LSW/ordinInfoR.do?ordinSeq=1060764&gubun=ELIS&chrClsCd=010202",
+      "bodyEvidenceArticle": "제2조",
+      "bodyEvidenceText": "제2조(사용허가) ① 조례 제3조 에 따라 체육시설을 전용으로 사용하고자 하는 자는 별지 제1호 서식 에 의한 사용허가신청서를 성남시 체육시설관리자(수탁기관을 포함)에게 제출하여야 한다. 다만, 특별한 사유가 있다고 인정될 경우에는 그러하지 아니하다. ② 제1항의 규정에 의한 체육시설의 사용허가는 별지 제2호 서식 에 의한다. ③ 사용허가를 받은 자가 사용허가 사항을 연장· 변경 신청하고자 하는 경우에는 별지 제3호 서식 에 의한 변경허가 신청을 하여야 한다. 다만, 제3조 제1항의 규정에 불구하고 당일 허가시간을 초과하여 사용하고자 하는 경우에는 별지 제3호의 서식으로 변경신청 함으로써 허가를 받은 것으로 간주 한다. ④ 제3항의 규정에 의한 체육시설의 사용변경허가는 별지 제4호의 서식에 의한다.",
+      "evidenceNote": "한컴 HWP30으로 읽은 실제 본문은 경기행사명, 전용 사용시설·시간, 임원·방송요원, 부속시설료와 청소예치금을 기재하는 전용사용 허가 신청서이다. 시행규칙 제2조제1항도 전용사용을 규정한다. 대상 혜택은 황새울국민체육센터의 취약계층 등 일반 이용료 50% 감면이며 이 전용대관 신청서가 그 감면용이라는 근거는 없다.",
+      "currentOfficialAttachmentMatched": true,
+      "originalHashVerified": true,
+      "textScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "Hancom.HWP30/page-1"
+      ],
+      "completeBodyRead": true,
+      "textLength": 916,
+      "externalBodyEvidence": {
+        "reader": "Hancom.HWP30",
+        "sourceSha256": "11366f996b24e35340ee55cc236e70fcfce149455b14420d01ce375802c389b6",
+        "pageCount": 1,
+        "textFile": "logs/forms-completion/nonstandard/ordin-20050497-hancom.txt"
+      },
+      "procedureRecheckEvidence": "logs/forms-completion/nonstandard/facility-discount-procedure-recheck.json",
+      "procedureRecheckNote": "현행 모조례 2019931 제2조의 전용사용/이용사용 구분 및 제3조제3항(개인은 이용사용권 발급으로 허가 갈음)을 재확인했다. 전용대관·중계·검인 또는 일반 이용 신청을 개인 이용료 감면 전용서식으로 넓히지 않았다."
+    },
+    {
+      "formId": "ordin-20050541",
+      "sha256": "d7b09b8c1b32c1e483f0a3c795cfa277e574a744fb65c37f803bb285ac7a6982",
+      "format": "hwp3",
+      "lawId": "1060764",
+      "lawTitle": "성남시 체육시설 관리 운영 조례 시행규칙",
+      "title": "[별지 제3호서식] 체육시설사용변경신청서",
+      "regionCode": "41130",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=152321479&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C3%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EC%B2%B4%EC%9C%A1%EC%8B%9C%EC%84%A4%EC%82%AC%EC%9A%A9%EB%B3%80%EA%B2%BD%EC%8B%A0%EC%B2%AD%EC%84%9C",
+      "relativePath": "ordin-20050541.hwp",
+      "bytes": 4523,
+      "checkedAt": "2026-10-18",
+      "disposition": "excluded",
+      "relatedProgramIds": [
+        "g41130.gov24-O00006400005"
+      ],
+      "relatedPrograms": [
+        {
+          "id": "g41130.gov24-O00006400005",
+          "name": "체육시설 이용요금 감면"
+        }
+      ],
+      "evidenceUrl": "https://www.law.go.kr/LSW/ordinInfoR.do?ordinSeq=1060764&gubun=ELIS&chrClsCd=010202",
+      "bodyEvidenceArticle": "제2조",
+      "bodyEvidenceText": "제2조(사용허가) ① 조례 제3조 에 따라 체육시설을 전용으로 사용하고자 하는 자는 별지 제1호 서식 에 의한 사용허가신청서를 성남시 체육시설관리자(수탁기관을 포함)에게 제출하여야 한다. 다만, 특별한 사유가 있다고 인정될 경우에는 그러하지 아니하다. ② 제1항의 규정에 의한 체육시설의 사용허가는 별지 제2호 서식 에 의한다. ③ 사용허가를 받은 자가 사용허가 사항을 연장· 변경 신청하고자 하는 경우에는 별지 제3호 서식 에 의한 변경허가 신청을 하여야 한다. 다만, 제3조 제1항의 규정에 불구하고 당일 허가시간을 초과하여 사용하고자 하는 경우에는 별지 제3호의 서식으로 변경신청 함으로써 허가를 받은 것으로 간주 한다. ④ 제3항의 규정에 의한 체육시설의 사용변경허가는 별지 제4호의 서식에 의한다.",
+      "evidenceNote": "실제 본문은 기존 허가번호·허가내용과 변경 신청내용을 작성하는 사용허가 변경신청서이다. 제2조제3항의 전용사용 연장·변경 절차이며 일반 이용요금 감면 신청서가 아니다.",
+      "currentOfficialAttachmentMatched": true,
+      "originalHashVerified": true,
+      "textScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "Hancom.HWP30/page-1"
+      ],
+      "completeBodyRead": true,
+      "textLength": 435,
+      "externalBodyEvidence": {
+        "reader": "Hancom.HWP30",
+        "sourceSha256": "d7b09b8c1b32c1e483f0a3c795cfa277e574a744fb65c37f803bb285ac7a6982",
+        "pageCount": 1,
+        "textFile": "logs/forms-completion/nonstandard/ordin-20050541-hancom.txt"
+      },
+      "procedureRecheckEvidence": "logs/forms-completion/nonstandard/facility-discount-procedure-recheck.json",
+      "procedureRecheckNote": "현행 모조례 2019931 제2조의 전용사용/이용사용 구분 및 제3조제3항(개인은 이용사용권 발급으로 허가 갈음)을 재확인했다. 전용대관·중계·검인 또는 일반 이용 신청을 개인 이용료 감면 전용서식으로 넓히지 않았다."
+    },
+    {
+      "formId": "ordin-20050545",
+      "sha256": "d655852cf2b9731a2ead14f070712d97399f362d2a382a94304df0cc106a3a1e",
+      "format": "hwp3",
+      "lawId": "1060764",
+      "lawTitle": "성남시 체육시설 관리 운영 조례 시행규칙",
+      "title": "[별지 제5호서식] 체육시설이용사용신청서",
+      "regionCode": "41130",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=152321483&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C5%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EC%B2%B4%EC%9C%A1%EC%8B%9C%EC%84%A4%EC%9D%B4%EC%9A%A9%EC%82%AC%EC%9A%A9%EC%8B%A0%EC%B2%AD%EC%84%9C",
+      "relativePath": "ordin-20050545.hwp",
+      "bytes": 4237,
+      "checkedAt": "2026-10-18",
+      "disposition": "excluded",
+      "relatedProgramIds": [
+        "g41130.gov24-O00006400005"
+      ],
+      "relatedPrograms": [
+        {
+          "id": "g41130.gov24-O00006400005",
+          "name": "체육시설 이용요금 감면"
+        }
+      ],
+      "evidenceUrl": "https://www.law.go.kr/LSW/ordinInfoR.do?ordinSeq=1060764&gubun=ELIS&chrClsCd=010202",
+      "bodyEvidenceArticle": "제13조",
+      "bodyEvidenceText": "제13조(각종서식) 이 규칙에서 사용하는 각종 서식은 별지 와 같이 한다.",
+      "evidenceNote": "실제 본문은 시설·팀명·종목·감독·선수 인원·사용일시를 작성하는 체육시설 이용사용 신청서이다. 감면사유나 감면자격·증빙 항목이 없고 현재 대상 사업은 일반 이용료 감면으로 안내한다. 동일 시설 사용 신청이라는 사유만으로 별도 복지 감면 신청서로 승인하지 않는다.",
+      "currentOfficialAttachmentMatched": true,
+      "originalHashVerified": true,
+      "textScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "Hancom.HWP30/page-1"
+      ],
+      "completeBodyRead": true,
+      "textLength": 409,
+      "externalBodyEvidence": {
+        "reader": "Hancom.HWP30",
+        "sourceSha256": "d655852cf2b9731a2ead14f070712d97399f362d2a382a94304df0cc106a3a1e",
+        "pageCount": 1,
+        "textFile": "logs/forms-completion/nonstandard/ordin-20050545-hancom.txt"
+      },
+      "procedureRecheckEvidence": "logs/forms-completion/nonstandard/facility-discount-procedure-recheck.json",
+      "procedureRecheckNote": "현행 모조례 2019931 제2조의 전용사용/이용사용 구분 및 제3조제3항(개인은 이용사용권 발급으로 허가 갈음)을 재확인했다. 전용대관·중계·검인 또는 일반 이용 신청을 개인 이용료 감면 전용서식으로 넓히지 않았다."
+    },
+    {
+      "formId": "ordin-20050549",
+      "sha256": "fb864c4bd8fb40f9128cb6201ce181606c2f56da31d3139ed4eeac8d70222c9c",
+      "format": "hwp3",
+      "lawId": "1060764",
+      "lawTitle": "성남시 체육시설 관리 운영 조례 시행규칙",
+      "title": "[별지 제7호서식] 라디오·텔레비젼 방송중계신청서",
+      "regionCode": "41130",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=152321487&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C7%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EB%9D%BC%EB%94%94%EC%98%A4%C2%B7%ED%85%94%EB%A0%88%EB%B9%84%EC%A0%BC+%EB%B0%A9%EC%86%A1%EC%A4%91%EA%B3%84%EC%8B%A0%EC%B2%AD%EC%84%9C",
+      "relativePath": "ordin-20050549.hwp",
+      "bytes": 3786,
+      "checkedAt": "2026-10-18",
+      "disposition": "excluded",
+      "relatedProgramIds": [
+        "g41130.gov24-O00006400005"
+      ],
+      "relatedPrograms": [
+        {
+          "id": "g41130.gov24-O00006400005",
+          "name": "체육시설 이용요금 감면"
+        }
+      ],
+      "evidenceUrl": "https://www.law.go.kr/LSW/ordinInfoR.do?ordinSeq=1060764&gubun=ELIS&chrClsCd=010202",
+      "bodyEvidenceArticle": "제13조",
+      "bodyEvidenceText": "제13조(각종서식) 이 규칙에서 사용하는 각종 서식은 별지 와 같이 한다.",
+      "evidenceNote": "실제 본문은 방송국명, 경기중계일시, 광고주, 중계사용료와 전기 사용 여부를 작성하는 라디오·텔레비전 방송 중계 신청서이다. 방송사업자의 중계 사용 절차로 주민 이용요금 감면과 무관하다.",
+      "currentOfficialAttachmentMatched": true,
+      "originalHashVerified": true,
+      "textScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "Hancom.HWP30/page-1"
+      ],
+      "completeBodyRead": true,
+      "textLength": 313,
+      "externalBodyEvidence": {
+        "reader": "Hancom.HWP30",
+        "sourceSha256": "fb864c4bd8fb40f9128cb6201ce181606c2f56da31d3139ed4eeac8d70222c9c",
+        "pageCount": 1,
+        "textFile": "logs/forms-completion/nonstandard/ordin-20050549-hancom.txt"
+      },
+      "procedureRecheckEvidence": "logs/forms-completion/nonstandard/facility-discount-procedure-recheck.json",
+      "procedureRecheckNote": "현행 모조례 2019931 제2조의 전용사용/이용사용 구분 및 제3조제3항(개인은 이용사용권 발급으로 허가 갈음)을 재확인했다. 전용대관·중계·검인 또는 일반 이용 신청을 개인 이용료 감면 전용서식으로 넓히지 않았다."
+    },
+    {
+      "formId": "ordin-20050565",
+      "sha256": "65f0e64e8cb04038f4106dd79b84220c213d3b5f8f200130d817bc97111e6d00",
+      "format": "hwp3",
+      "lawId": "1060764",
+      "lawTitle": "성남시 체육시설 관리 운영 조례 시행규칙",
+      "title": "[별지 제15호서식] 대회관람권 검인신청서",
+      "regionCode": "41130",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=152321583&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C15%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EB%8C%80%ED%9A%8C%EA%B4%80%EB%9E%8C%EA%B6%8C+%EA%B2%80%EC%9D%B8%EC%8B%A0%EC%B2%AD%EC%84%9C",
+      "relativePath": "ordin-20050565.hwp",
+      "bytes": 4886,
+      "checkedAt": "2026-10-18",
+      "disposition": "excluded",
+      "relatedProgramIds": [
+        "g41130.gov24-O00006400005"
+      ],
+      "relatedPrograms": [
+        {
+          "id": "g41130.gov24-O00006400005",
+          "name": "체육시설 이용요금 감면"
+        }
+      ],
+      "evidenceUrl": "https://www.law.go.kr/LSW/ordinInfoR.do?ordinSeq=1060764&gubun=ELIS&chrClsCd=010202",
+      "bodyEvidenceArticle": "제7조",
+      "bodyEvidenceText": "제7조(관람권의 검인 및 관리) ① 관람권(예매권, 초대권, 무료관람권 포함)을 발매하고자 할 때에는 별지 제15호 서식 의 검인신청서를 시장에게 제출하여 검인을 받아야 한다. 다만, 관람권을 전산(또는 인터넷)으로 발매할 경우에는 검인을 생략할 수 있다. ② 검인되지 않은 관람권은 무효로 한다. ③ 검인된 관람권은 전용사용자가 발매하며, 전용사용자는 별지 14 호 서식 및 제16호 서식에 의하여 경기(또는 행사)의 종료 즉시 시장에게 보고하여야 한다. ④ 검인된 예매권(전산 또는 인터넷 예매량 포함)은 인출과 동시에 조례 제11조제4항 의 규정에 의한 사용료를 예치하여야 하며, 발매되지 않은 예매권은 경기(또는 행사)직전까지 반환하여야 한다. 다만, 반환되지 않은 예매권은 발매된 것으로 간주하여 관람료 수입에 포함한다. ⑤ 검인된 관람권의 잔표와 회수되는 관람권은 경기(또는 행사) 종료 후에 지정한 검사원의 입회 하에 확인 후 폐기한다.",
+      "evidenceNote": "실제 본문은 경기 주최자가 관람권 종류별 발매매수·요금을 기재하여 검인을 받는 신청서이다. 제7조제1항도 관람권 발매자를 주체로 하므로 일반 이용료 감면과 다르다.",
+      "currentOfficialAttachmentMatched": true,
+      "originalHashVerified": true,
+      "textScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "Hancom.HWP30/page-1"
+      ],
+      "completeBodyRead": true,
+      "textLength": 534,
+      "externalBodyEvidence": {
+        "reader": "Hancom.HWP30",
+        "sourceSha256": "65f0e64e8cb04038f4106dd79b84220c213d3b5f8f200130d817bc97111e6d00",
+        "pageCount": 1,
+        "textFile": "logs/forms-completion/nonstandard/ordin-20050565-hancom.txt"
+      },
+      "procedureRecheckEvidence": "logs/forms-completion/nonstandard/facility-discount-procedure-recheck.json",
+      "procedureRecheckNote": "현행 모조례 2019931 제2조의 전용사용/이용사용 구분 및 제3조제3항(개인은 이용사용권 발급으로 허가 갈음)을 재확인했다. 전용대관·중계·검인 또는 일반 이용 신청을 개인 이용료 감면 전용서식으로 넓히지 않았다."
+    },
+    {
+      "formId": "ordin-20103925",
+      "sha256": "5fc89403f252afc9f366e76faee750210a74677452e41b29df7b92ec6d758f33",
+      "format": "protected_hwp",
+      "lawId": "1617701",
+      "lawTitle": "군산시 귀농ㆍ귀촌자 지원에 관한 조례",
+      "title": "[별지 제1호서식] 귀농인· 귀촌 사업신청서",
+      "regionCode": "52130",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=152479495&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C1%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EA%B7%80%EB%86%8D%EC%9D%B8%C2%B7+%EA%B7%80%EC%B4%8C+%EC%82%AC%EC%97%85%EC%8B%A0%EC%B2%AD%EC%84%9C",
+      "relativePath": "exceptions/ordin-20103925.hwp",
+      "bytes": 23158,
+      "checkedAt": "2026-10-19",
+      "disposition": "official_replacement_found",
+      "relatedProgramIds": [
+        "g52130.gov24-467000000127"
+      ],
+      "relatedPrograms": [
+        {
+          "id": "g52130.gov24-467000000127",
+          "name": "귀농인 주거기반 조성 지원"
+        }
+      ],
+      "evidenceUrl": "https://www.law.go.kr/LSW/ordinInfoR.do?ordinSeq=1617701&gubun=ELIS&chrClsCd=010202",
+      "bodyEvidenceArticle": "제6조",
+      "bodyEvidenceText": "제6조(사업의 지원) 시장은 귀농·귀촌자가 안정적이고 성공적인 조기 정착을 위하여 필요하다고 인정하는 때에는 다음 각호의 사업에 대하여 예산의 범위 안에서 보조 또는 융자금을 우선 지원 할 수 있다. 1. 교육 훈련 지원 2. 농업 창업 자금 지원 3. 농지 임차 자금 및 주거 지원 <개정 2021.07.15.> 4. 기타 농업관련 보조사업, 교육 및 컨설팅 지원",
+      "evidenceNote": "보호된 Fasoo 원본은 해제하지 않았다. 동일 사업의 군산시 농업기술센터 2026년 공고에서 비보호 HWP 지침과 주민 작성 별지1 신청서·별지2 영농계획서·별지3 수리계획서·별지4 신축계획서를 확보하여 전체 본문을 읽었다. 조례 첨부 ID와 다른 자료이므로 원본 ID나 해시를 바꿔 끼우지 않는다.",
+      "currentOfficialAttachmentMatched": true,
+      "originalHashVerified": true,
+      "textScope": "unavailable",
+      "sectionsRead": [],
+      "completeBodyRead": false,
+      "protectedOriginalPreserved": true,
+      "publicPreviewEvidence": "logs/forms-completion/nonstandard/protected-viewer-status-checks.json",
+      "qualificationBasis": "Explicit current law article only; protected original body was not read.",
+      "replacementIdentity": "gunsan-9046815-df5c659fe9cc25bac6cee672d0ab8267",
+      "reason": "군산시 2026년 주거기반 조성 공고와 지침을 다시 GET했다. 2026년 별지1 사업신청, 별지2 영농계획, 별지3 수리계획, 별지4 신축계획을 전체 판독했고 다운로드 SHA가 기존 대체 확인본과 동일하다. 보호된 원래 법령포털 파일은 해제·치환하지 않는다. 신청기간은 2026-02-03~02-27로 종료했으므로 현재 신규 접수용으로 승인하지 않고 2026 공식 대체자료로만 제안한다. 보호된 원본의 본문을 읽었다고 표시하지 않으며, 마감 자료를 현재 신청용 서식으로 게시하지 않는다.",
+      "officialFollowup": {
+        "checkedAt": "2026-10-19",
+        "sourceResult": "logs/forms-completion/official-followup/team3-results.json",
+        "sourceResultSHA256": "7e8e63b2e007e7deed1d20ab71367066ef036d087d892df780147ee63e67b764",
+        "proposedStatus": "propose_replacement",
+        "officialEvidence": [
+          {
+            "url": "https://www.law.go.kr/LSW/ordinInfoR.do?ordinSeq=1617701&gubun=ELIS",
+            "httpStatus": 200,
+            "responseSha256": "2d0b6847aca02c96b164e326090147182914098de1c3bfa816ef4a5f40f792c1",
+            "savedEvidence": [
+              {
+                "path": "logs/forms-completion/official-followup/team3/law-1617701.json",
+                "sha256": "ea17d21eb4595255bae5647cfc37fe2a7ee6125dbb358ff4f6eea04cf699b890",
+                "kind": "official_evidence_metadata"
+              }
+            ]
+          },
+          {
+            "url": "https://www.gunsan.go.kr/farm/m2435/view/9046815?s_idx=2",
+            "httpStatus": 200,
+            "responseSha256": "24233c74b712251a890879d224a8ed0161918dfec2760232605b3963d07828e1",
+            "savedEvidence": [
+              {
+                "path": "logs/forms-completion/official-followup/team3/gunsan.json",
+                "sha256": "ab8990a9445a0ca5d431674639c908551f60383b9337dadddeb968742b0e8c2e",
+                "kind": "official_evidence_metadata"
+              }
+            ]
+          },
+          {
+            "url": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/467000000127",
+            "httpStatus": 200,
+            "bodyTextSha256": "45487c8403b16cf4b2c4eedc69db2093d63bf23266842ce8a6c87e62a6d00411",
+            "savedEvidence": [
+              {
+                "path": "logs/forms-completion/official-followup/team3/program-g52130.gov24-467000000127.json",
+                "sha256": "9b2700d2f5d6e8fd5271c7ea29007a8123aaad2b604cc44ec24b51049265a155",
+                "kind": "official_evidence_metadata"
+              }
+            ]
+          },
+          {
+            "httpStatus": 200,
+            "savedEvidence": [
+              {
+                "path": "logs/forms-completion/official-followup/team3/gunsan-2026-9046815-extracted.json",
+                "sha256": "89cf97f42413bf71190f30606646cb96216493e3982d03bfef8ea15188e2d9b9",
+                "kind": "official_evidence_metadata"
+              },
+              {
+                "path": "logs/forms-completion/official-followup/team3/gunsan-2026-9046815.hwp",
+                "sha256": "04d3072e565786643781ae08f29d34ab0c716e8afcb281f7904ebb587836f3c0",
+                "kind": "evidence_original_file"
+              }
+            ]
+          }
+        ],
+        "allFormsConnected": false
+      }
+    },
+    {
+      "formId": "ordin-20110193",
+      "sha256": "f51fb87dbc40708ade50f11862bc61cf72016f7a6392e4be5f112490b20fd8be",
+      "format": "protected_hwp",
+      "lawId": "2041939",
+      "lawTitle": "울릉군 어르신 목욕비 및 이ㆍ미용비 지원 조례",
+      "title": "[별지 제1호서식]",
+      "regionCode": "47940",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=152487149&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C1%ED%98%B8%EC%84%9C%EC%8B%9D%5D",
+      "relativePath": "exceptions/ordin-20110193.hwp",
+      "bytes": 24172,
+      "checkedAt": "2026-10-18",
+      "disposition": "excluded",
+      "relatedProgramIds": [
+        "g47940.bokjiro-WLF00000374",
+        "g47940.gov24-526000000115"
+      ],
+      "relatedPrograms": [
+        {
+          "id": "g47940.bokjiro-WLF00000374",
+          "name": "어르신목욕비및이미용비지원"
+        },
+        {
+          "id": "g47940.gov24-526000000115",
+          "name": "어르신 목욕 및 이·미용권 지원"
+        }
+      ],
+      "evidenceUrl": "https://www.law.go.kr/LSW/ordinInfoR.do?ordinSeq=2041939&gubun=ELIS&chrClsCd=010202",
+      "bodyEvidenceArticle": "제3조",
+      "bodyEvidenceText": "제3조(지원기준) 어르신 목욕비 및 이·미용비(이하 “목욕비 및 이·미용비”라 한다)의 지원기준은 다음 각 호와 같다. 1. 울릉군수(이하 “군수”라 한다)는 지원대상자가 결정된 때에는 예산의 범위에서 별지 제1호 서식의 전자바우처 카드(이하 “카드”라 한다)에 매월 지원금을 충전하여 지원한다. 2. 목욕비 및 이·미용비 지원금액은 군수가 따로 정하며 이용시 초과하는 금액은 본인부담으로 한다. 3. 목욕비 및 이·미용비는 당해 연도 내 사용을 원칙으로 하며, 미사용한 금액은 소멸된다. 4. 제2조에 따라 지원대상자가 연령이 도래한 경우에는 해당 월부터 지급하며, 전입한 경우에는 전입한 달의 다음달부터 지급한다. 5. 목욕비 및 이·미용비는 소급하여 지급 할 수 없다. 다만, 연령 도래자 및 전입자의 지원사유 발생일과 카드발급 지급시기가 맞지않아 카드를 지급하지 못한 경우에는 소급하여 지원할 수 있다.",
+      "evidenceNote": "보호 원본의 본문은 읽지 못했지만 현행 제3조제1호가 별지1을 전자바우처 카드 자체로 명시한다. 주민 작성 신청서는 별지2이며 카드 견본을 신청서로 승인하지 않는다.",
+      "currentOfficialAttachmentMatched": true,
+      "originalHashVerified": true,
+      "textScope": "unavailable",
+      "sectionsRead": [],
+      "completeBodyRead": false,
+      "protectedOriginalPreserved": true,
+      "publicPreviewEvidence": "logs/forms-completion/nonstandard/protected-viewer-status-checks.json",
+      "qualificationBasis": "Explicit current law article only; protected original body was not read."
+    },
+    {
+      "formId": "ordin-20110195",
+      "sha256": "6466db16b23bca2813d4acaff4a070d08cef7ab9c4856e4951efd7489e7f64a5",
+      "format": "protected_hwp",
+      "lawId": "2041939",
+      "lawTitle": "울릉군 어르신 목욕비 및 이ㆍ미용비 지원 조례",
+      "title": "[별지 제2호서식]",
+      "regionCode": "47940",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=152487151&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C2%ED%98%B8%EC%84%9C%EC%8B%9D%5D",
+      "relativePath": "exceptions/ordin-20110195.hwp",
+      "bytes": 48252,
+      "checkedAt": "2026-10-19",
+      "disposition": "needs_official_readable_original",
+      "relatedProgramIds": [
+        "g47940.bokjiro-WLF00000374",
+        "g47940.gov24-526000000115"
+      ],
+      "relatedPrograms": [
+        {
+          "id": "g47940.bokjiro-WLF00000374",
+          "name": "어르신목욕비및이미용비지원"
+        },
+        {
+          "id": "g47940.gov24-526000000115",
+          "name": "어르신 목욕 및 이·미용권 지원"
+        }
+      ],
+      "evidenceUrl": "https://www.law.go.kr/LSW/ordinInfoR.do?ordinSeq=2041939&gubun=ELIS&chrClsCd=010202",
+      "bodyEvidenceArticle": "제5조",
+      "bodyEvidenceText": "제5조(지원절차) ① 카드를 발급 받고자 하는 사람은 최초 발급 및 재발급시 별지 제2호 서식에 따른 신청서를 작성하여 주소지 읍·면장에게 제출하여야 한다. ② 군수는 카드를 읍·면장에게 교부하고, 읍·면장은 지원대상자에게 카드를 지급한다.",
+      "evidenceNote": "현행 제5조제1항은 최초발급·재발급 신청인이 작성하여 주소지 읍·면장에게 내는 별지2 신청서를 명시한다. 원본은 SCDSA004 보호 컨테이너이고 법령포털 공식 미리보기의 상태 파일도 404이다. 정확한 복지로 사업 첨부는 조문만 있는 HWPML이며 별지·표·그림이 없다. 비보호 별지2 원본을 공식 담당부서에서 받아야 본문과 빈 서식을 확인할 수 있다.",
+      "currentOfficialAttachmentMatched": true,
+      "originalHashVerified": true,
+      "textScope": "unavailable",
+      "sectionsRead": [],
+      "completeBodyRead": false,
+      "protectedOriginalPreserved": true,
+      "publicPreviewEvidence": "logs/forms-completion/nonstandard/protected-viewer-status-checks.json",
+      "qualificationBasis": "Explicit current law article only; protected original body was not read.",
+      "externalRequirement": "울릉군 주민복지과 어르신복지팀(054-790-6205)이 제공하는 비보호 현행 별지 제2호 신청서 원본이 필요하다. 공식 법령 미리보기 상태 404와 복지로 첨부의 별지 미포함을 확인했다.",
+      "reason": "법령포털 별지2를 다시 GET한 바이트 SHA가 원래 SCDSA004 보호파일과 동일하다. 현재 복지로의 조례 첨부도 새로 내려받아 전체 XML을 확인했지만 조문·부칙만 있고 별지 신청서가 없다. 제5조가 별지2를 지정한다는 사실과 실제 읽을 수 있는 별지 확보를 구분한다.",
+      "officialFollowup": {
+        "checkedAt": "2026-10-19",
+        "sourceResult": "logs/forms-completion/official-followup/team3-results.json",
+        "sourceResultSHA256": "7e8e63b2e007e7deed1d20ab71367066ef036d087d892df780147ee63e67b764",
+        "proposedStatus": "confirmed_unresolved",
+        "officialEvidence": [
+          {
+            "url": "https://www.law.go.kr/LSW/ordinInfoR.do?ordinSeq=2041939&gubun=ELIS",
+            "httpStatus": 200,
+            "responseSha256": "9a34cbaf783ecb6ed9d060a113e655421116aeeb286a63b255a43e4b7c6ed363",
+            "savedEvidence": [
+              {
+                "path": "logs/forms-completion/official-followup/team3/law-2041939.json",
+                "sha256": "b582a00878e778947d6d9648fc0a15aba1812cd15f707c23e12ffc175e56ddd5",
+                "kind": "official_evidence_metadata"
+              }
+            ]
+          },
+          {
+            "url": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=152487151&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C2%ED%98%B8%EC%84%9C%EC%8B%9D%5D",
+            "httpStatus": 200,
+            "savedEvidence": [
+              {
+                "path": "logs/forms-completion/official-followup/team3/rechecked-ordin-20110195.json",
+                "sha256": "1f734016844c58dcfd8d5b8bf9c2e3f72c5690c01fcf52a34927036c5f0fb57d",
+                "kind": "official_evidence_metadata"
+              }
+            ]
+          },
+          {
+            "url": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00000374&wlfareInfoReldBztpCd=02",
+            "httpStatus": 200,
+            "bodyTextSha256": "8a02f7b37c9f513ddac2523f8eb7d973f47e2142d77fd2f422a063b3c7ef797e",
+            "savedEvidence": [
+              {
+                "path": "logs/forms-completion/official-followup/team3/program-g47940.bokjiro-WLF00000374.json",
+                "sha256": "242d9fbe4d95c014b4ff026c3afdf404711f9bebb8848f539e8a4d1c4b305cb5",
+                "kind": "official_evidence_metadata"
+              }
+            ]
+          }
+        ],
+        "allFormsConnected": false
+      }
+    },
+    {
+      "formId": "ordin-20110197",
+      "sha256": "0f80f2cbf2e3ad59c576e3ad1ddb1ff614d7aa81bc37fdc0763217533e04840b",
+      "format": "protected_hwp",
+      "lawId": "2041939",
+      "lawTitle": "울릉군 어르신 목욕비 및 이ㆍ미용비 지원 조례",
+      "title": "[별지 제3호서식]",
+      "regionCode": "47940",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=152487153&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C3%ED%98%B8%EC%84%9C%EC%8B%9D%5D",
+      "relativePath": "exceptions/ordin-20110197.hwp",
+      "bytes": 33004,
+      "checkedAt": "2026-10-18",
+      "disposition": "excluded",
+      "relatedProgramIds": [
+        "g47940.bokjiro-WLF00000374",
+        "g47940.gov24-526000000115"
+      ],
+      "relatedPrograms": [
+        {
+          "id": "g47940.bokjiro-WLF00000374",
+          "name": "어르신목욕비및이미용비지원"
+        },
+        {
+          "id": "g47940.gov24-526000000115",
+          "name": "어르신 목욕 및 이·미용권 지원"
+        }
+      ],
+      "evidenceUrl": "https://www.law.go.kr/LSW/ordinInfoR.do?ordinSeq=2041939&gubun=ELIS&chrClsCd=010202",
+      "bodyEvidenceArticle": "제12조",
+      "bodyEvidenceText": "제12조(카드의 출납관리) ① 군수는 별지 제3호 서식의 전자 바우처카드 출납내역부를 기록ㆍ관리하여야 한다. ② 읍ㆍ면장은 별지 제4호 서식의 전자 바우처카드 출납대장에 지급상황을 기록ㆍ관리하여야 한다.",
+      "evidenceNote": "현행 제12조제1항이 별지3을 군수가 기록·관리하는 전자바우처카드 출납내역부로 지정한다. 보호 본문을 읽었다고 주장하지 않으며 명시적 조문상 기관 대장이라 주민 신청서에서 제외한다.",
+      "currentOfficialAttachmentMatched": true,
+      "originalHashVerified": true,
+      "textScope": "unavailable",
+      "sectionsRead": [],
+      "completeBodyRead": false,
+      "protectedOriginalPreserved": true,
+      "publicPreviewEvidence": "logs/forms-completion/nonstandard/protected-viewer-status-checks.json",
+      "qualificationBasis": "Explicit current law article only; protected original body was not read."
+    },
+    {
+      "formId": "ordin-20110199",
+      "sha256": "e76f536ea5220bbfc84679819f12a9e2c2587555a209d7f43b5d542df93909de",
+      "format": "protected_hwp",
+      "lawId": "2041939",
+      "lawTitle": "울릉군 어르신 목욕비 및 이ㆍ미용비 지원 조례",
+      "title": "[별지 제4호서식]",
+      "regionCode": "47940",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=152487155&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C4%ED%98%B8%EC%84%9C%EC%8B%9D%5D",
+      "relativePath": "exceptions/ordin-20110199.hwp",
+      "bytes": 35484,
+      "checkedAt": "2026-10-18",
+      "disposition": "excluded",
+      "relatedProgramIds": [
+        "g47940.bokjiro-WLF00000374",
+        "g47940.gov24-526000000115"
+      ],
+      "relatedPrograms": [
+        {
+          "id": "g47940.bokjiro-WLF00000374",
+          "name": "어르신목욕비및이미용비지원"
+        },
+        {
+          "id": "g47940.gov24-526000000115",
+          "name": "어르신 목욕 및 이·미용권 지원"
+        }
+      ],
+      "evidenceUrl": "https://www.law.go.kr/LSW/ordinInfoR.do?ordinSeq=2041939&gubun=ELIS&chrClsCd=010202",
+      "bodyEvidenceArticle": "제12조",
+      "bodyEvidenceText": "제12조(카드의 출납관리) ① 군수는 별지 제3호 서식의 전자 바우처카드 출납내역부를 기록ㆍ관리하여야 한다. ② 읍ㆍ면장은 별지 제4호 서식의 전자 바우처카드 출납대장에 지급상황을 기록ㆍ관리하여야 한다.",
+      "evidenceNote": "현행 제12조제2항이 별지4를 읍·면장이 기록·관리하는 카드 출납대장으로 지정한다. 주민 작성 신청서가 아니며 보호 원본은 그대로 보존한다.",
+      "currentOfficialAttachmentMatched": true,
+      "originalHashVerified": true,
+      "textScope": "unavailable",
+      "sectionsRead": [],
+      "completeBodyRead": false,
+      "protectedOriginalPreserved": true,
+      "publicPreviewEvidence": "logs/forms-completion/nonstandard/protected-viewer-status-checks.json",
+      "qualificationBasis": "Explicit current law article only; protected original body was not read."
+    },
+    {
+      "formId": "ordin-20110201",
+      "sha256": "8d1cec0a8a32a0ad3d8f1e1c2ce7dbaea941f951103f06207ea2dac834afc638",
+      "format": "protected_hwp",
+      "lawId": "2041939",
+      "lawTitle": "울릉군 어르신 목욕비 및 이ㆍ미용비 지원 조례",
+      "title": "[별지 제5호서식]",
+      "regionCode": "47940",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=152487157&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C5%ED%98%B8%EC%84%9C%EC%8B%9D%5D",
+      "relativePath": "exceptions/ordin-20110201.hwp",
+      "bytes": 36428,
+      "checkedAt": "2026-10-18",
+      "disposition": "excluded",
+      "relatedProgramIds": [
+        "g47940.bokjiro-WLF00000374",
+        "g47940.gov24-526000000115"
+      ],
+      "relatedPrograms": [
+        {
+          "id": "g47940.bokjiro-WLF00000374",
+          "name": "어르신목욕비및이미용비지원"
+        },
+        {
+          "id": "g47940.gov24-526000000115",
+          "name": "어르신 목욕 및 이·미용권 지원"
+        }
+      ],
+      "evidenceUrl": "https://www.law.go.kr/LSW/ordinInfoR.do?ordinSeq=2041939&gubun=ELIS&chrClsCd=010202",
+      "bodyEvidenceArticle": "제9조",
+      "bodyEvidenceText": "제9조(가맹점 지정 및 관리 등) ① 제6조 제1항의 가맹점으로 등록하려는 사람은 별지 제5호 서식에 따른 가맹점 신청서를 해당 읍ㆍ면장을 거쳐 군수에게 제출하여야 한다. ② 군수는 제1항에 따라 전자바우처 카드 가맹점 신청서를 제출한 대표자 또는 업종별 대표협회장과 카드 사용 및 이용요금 후불정산에 관한 협약을 체결할 수 있다. ③ 군수는 전자 바우처 카드 매출대금을 협약업소에서 지정한 계좌에 매월 지급한다.",
+      "evidenceNote": "현행 제9조제1항의 별지5는 목욕·이미용업소가 군에 제출하는 가맹점 등록 신청서이다. 65세 이상 주민의 카드 발급 혜택 신청인과 목적이 달라 제외한다.",
+      "currentOfficialAttachmentMatched": true,
+      "originalHashVerified": true,
+      "textScope": "unavailable",
+      "sectionsRead": [],
+      "completeBodyRead": false,
+      "protectedOriginalPreserved": true,
+      "publicPreviewEvidence": "logs/forms-completion/nonstandard/protected-viewer-status-checks.json",
+      "qualificationBasis": "Explicit current law article only; protected original body was not read."
+    },
+    {
+      "formId": "ordin-20291889",
+      "sha256": "ca0d5f380d073ceb8484b94c95c5c6a54a4517c4812f7ecfa2352a60acd37e2f",
+      "format": "gif",
+      "lawId": "1615531",
+      "lawTitle": "밀양시 체육시설관리 운영 조례 시행규칙",
+      "title": "[별지 제1호서식] 밀양시 체육시설 사용 신청서",
+      "regionCode": "48270",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=153487421&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C1%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EB%B0%80%EC%96%91%EC%8B%9C+%EC%B2%B4%EC%9C%A1%EC%8B%9C%EC%84%A4+%EC%82%AC%EC%9A%A9+%EC%8B%A0%EC%B2%AD%EC%84%9C",
+      "relativePath": "ordin-20291889.gif",
+      "bytes": 16289,
+      "checkedAt": "2026-10-18",
+      "disposition": "excluded",
+      "relatedProgramIds": [
+        "g48270.gov24-O00012600001"
+      ],
+      "relatedPrograms": [
+        {
+          "id": "g48270.gov24-O00012600001",
+          "name": "체육시설 이용요금 감면"
+        }
+      ],
+      "evidenceUrl": "https://www.law.go.kr/LSW/ordinInfoR.do?ordinSeq=1615531&gubun=ELIS&chrClsCd=010202",
+      "bodyEvidenceArticle": "제4조",
+      "bodyEvidenceText": "제4조(사용허가) ① 조례 제3조 에 따른 체육시설을 사용하고자 하는 자는 \" 별지 제1호서식 \"의 체육시설 사용허가 신청서를 제출하여야 하며, 체육시설 사용변경 신청을 하고자 할 때는 \" 별지 제2호서식 \"에 의한다. <개정 2020.3.26.> ② 제1항의 신청서를 접수하였을 때는 \" 별지 제3호서식 \" 및 \" 별지 제4호서식 \"에 의하여 허가서를 교부하여야 한다. ③ 조례 제3조제5항 에 따른 사용은 \" 별지 제5호서식 \"에 의한 이용(사용)허가원의 접수와 동시 사용료를 징수하고 \" 별지 제6호서식 \"의 이용(연습)권을 교부한다. <개정 2020.3.26.> ④ 조례 제3조제6항 에 따른 체육동호인 단체는 \" 별지 제7호서식 \"에 동호인 단체회원 등록신청을 하고 허가를 받아 월회비를 납부하여야 한다. 이 경우의 회원 월 사용료는 1인당 해당 기본사용료의 15일분에 해당하는 금액으로 한다. <개정 2020.3.26.> ⑤ 체육동호인 단체회원으로 가입된 자에 대하여는 \" 별지 제8호서식 \"에 따라 회원증을 교부할 수 있다. <개정 2020.3.26.>",
+      "evidenceNote": "GIF 전체 한 프레임을 판독했다. 실제 제목은 밀양시 체육시설 전용 신청서이며 행사·경기장, 사용시간·관람권·방송요원과 부속시설을 작성한다. 일반 이용료 감면은 현행 제6조제4항의 별지9를 사용하므로 전용대관 신청서를 대신 연결하지 않는다.",
+      "currentOfficialAttachmentMatched": true,
+      "originalHashVerified": true,
+      "textScope": "visual_all_frames",
+      "sectionsRead": [
+        "frame-1"
+      ],
+      "completeBodyRead": true,
+      "visualReview": {
+        "checkedAt": "2026-10-18",
+        "framesRead": 1,
+        "frameNumbers": [
+          1
+        ],
+        "sourceSha256": "ca0d5f380d073ceb8484b94c95c5c6a54a4517c4812f7ecfa2352a60acd37e2f",
+        "imageEvidence": "logs/forms-completion/nonstandard/ordin-20291889-page-1.png",
+        "method": "entire_original_frame_visual_read"
+      },
+      "procedureRecheckEvidence": "logs/forms-completion/nonstandard/facility-discount-procedure-recheck.json",
+      "procedureRecheckNote": "현행 모조례 1959631 제3조제5항은 개인·단체 이용권 발급으로 사용허가를 갈음한다. 대상 사업은 제13조의2의 이용료·강습료 감면이고 시행규칙 제6조제4항은 별지9를 지정한다. 별지1·2·7은 전용대관·허가변경·동호인 등록이라는 다른 목적이다."
+    },
+    {
+      "formId": "ordin-20291891",
+      "sha256": "ec02540d3cb1db854dab606ca569ad6c48376e7b5d9cad95e73a3cb9b5766cda",
+      "format": "gif",
+      "lawId": "1615531",
+      "lawTitle": "밀양시 체육시설관리 운영 조례 시행규칙",
+      "title": "[별지 제2호서식] 밀양시 체육시설 사용허가 변경 신청서",
+      "regionCode": "48270",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=153487423&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C2%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EB%B0%80%EC%96%91%EC%8B%9C+%EC%B2%B4%EC%9C%A1%EC%8B%9C%EC%84%A4+%EC%82%AC%EC%9A%A9%ED%97%88%EA%B0%80+%EB%B3%80%EA%B2%BD+%EC%8B%A0%EC%B2%AD%EC%84%9C",
+      "relativePath": "ordin-20291891.gif",
+      "bytes": 11018,
+      "checkedAt": "2026-10-18",
+      "disposition": "excluded",
+      "relatedProgramIds": [
+        "g48270.gov24-O00012600001"
+      ],
+      "relatedPrograms": [
+        {
+          "id": "g48270.gov24-O00012600001",
+          "name": "체육시설 이용요금 감면"
+        }
+      ],
+      "evidenceUrl": "https://www.law.go.kr/LSW/ordinInfoR.do?ordinSeq=1615531&gubun=ELIS&chrClsCd=010202",
+      "bodyEvidenceArticle": "제4조",
+      "bodyEvidenceText": "제4조(사용허가) ① 조례 제3조 에 따른 체육시설을 사용하고자 하는 자는 \" 별지 제1호서식 \"의 체육시설 사용허가 신청서를 제출하여야 하며, 체육시설 사용변경 신청을 하고자 할 때는 \" 별지 제2호서식 \"에 의한다. <개정 2020.3.26.> ② 제1항의 신청서를 접수하였을 때는 \" 별지 제3호서식 \" 및 \" 별지 제4호서식 \"에 의하여 허가서를 교부하여야 한다. ③ 조례 제3조제5항 에 따른 사용은 \" 별지 제5호서식 \"에 의한 이용(사용)허가원의 접수와 동시 사용료를 징수하고 \" 별지 제6호서식 \"의 이용(연습)권을 교부한다. <개정 2020.3.26.> ④ 조례 제3조제6항 에 따른 체육동호인 단체는 \" 별지 제7호서식 \"에 동호인 단체회원 등록신청을 하고 허가를 받아 월회비를 납부하여야 한다. 이 경우의 회원 월 사용료는 1인당 해당 기본사용료의 15일분에 해당하는 금액으로 한다. <개정 2020.3.26.> ⑤ 체육동호인 단체회원으로 가입된 자에 대하여는 \" 별지 제8호서식 \"에 따라 회원증을 교부할 수 있다. <개정 2020.3.26.>",
+      "evidenceNote": "GIF 전체 본문은 허가내용과 변경내용을 대조하는 체육시설 사용허가 변경신청서이다. 기존 사용허가 변경 절차이고 현재 이용료 감면 신청서는 별지9이다.",
+      "currentOfficialAttachmentMatched": true,
+      "originalHashVerified": true,
+      "textScope": "visual_all_frames",
+      "sectionsRead": [
+        "frame-1"
+      ],
+      "completeBodyRead": true,
+      "visualReview": {
+        "checkedAt": "2026-10-18",
+        "framesRead": 1,
+        "frameNumbers": [
+          1
+        ],
+        "sourceSha256": "ec02540d3cb1db854dab606ca569ad6c48376e7b5d9cad95e73a3cb9b5766cda",
+        "imageEvidence": "logs/forms-completion/nonstandard/ordin-20291891-page-1.png",
+        "method": "entire_original_frame_visual_read"
+      },
+      "procedureRecheckEvidence": "logs/forms-completion/nonstandard/facility-discount-procedure-recheck.json",
+      "procedureRecheckNote": "현행 모조례 1959631 제3조제5항은 개인·단체 이용권 발급으로 사용허가를 갈음한다. 대상 사업은 제13조의2의 이용료·강습료 감면이고 시행규칙 제6조제4항은 별지9를 지정한다. 별지1·2·7은 전용대관·허가변경·동호인 등록이라는 다른 목적이다."
+    },
+    {
+      "formId": "ordin-20291901",
+      "sha256": "9055c0261843652e162b04c07ec24437b58ebc7977546b2aec8263bdd3fdb99e",
+      "format": "gif",
+      "lawId": "1615531",
+      "lawTitle": "밀양시 체육시설관리 운영 조례 시행규칙",
+      "title": "[별지 제7호서식] 체육동호인 단체 등록 신청서",
+      "regionCode": "48270",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=153487433&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C7%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EC%B2%B4%EC%9C%A1%EB%8F%99%ED%98%B8%EC%9D%B8+%EB%8B%A8%EC%B2%B4+%EB%93%B1%EB%A1%9D+%EC%8B%A0%EC%B2%AD%EC%84%9C",
+      "relativePath": "ordin-20291901.gif",
+      "bytes": 12732,
+      "checkedAt": "2026-10-18",
+      "disposition": "excluded",
+      "relatedProgramIds": [
+        "g48270.gov24-O00012600001"
+      ],
+      "relatedPrograms": [
+        {
+          "id": "g48270.gov24-O00012600001",
+          "name": "체육시설 이용요금 감면"
+        }
+      ],
+      "evidenceUrl": "https://www.law.go.kr/LSW/ordinInfoR.do?ordinSeq=1615531&gubun=ELIS&chrClsCd=010202",
+      "bodyEvidenceArticle": "제4조",
+      "bodyEvidenceText": "제4조(사용허가) ① 조례 제3조 에 따른 체육시설을 사용하고자 하는 자는 \" 별지 제1호서식 \"의 체육시설 사용허가 신청서를 제출하여야 하며, 체육시설 사용변경 신청을 하고자 할 때는 \" 별지 제2호서식 \"에 의한다. <개정 2020.3.26.> ② 제1항의 신청서를 접수하였을 때는 \" 별지 제3호서식 \" 및 \" 별지 제4호서식 \"에 의하여 허가서를 교부하여야 한다. ③ 조례 제3조제5항 에 따른 사용은 \" 별지 제5호서식 \"에 의한 이용(사용)허가원의 접수와 동시 사용료를 징수하고 \" 별지 제6호서식 \"의 이용(연습)권을 교부한다. <개정 2020.3.26.> ④ 조례 제3조제6항 에 따른 체육동호인 단체는 \" 별지 제7호서식 \"에 동호인 단체회원 등록신청을 하고 허가를 받아 월회비를 납부하여야 한다. 이 경우의 회원 월 사용료는 1인당 해당 기본사용료의 15일분에 해당하는 금액으로 한다. <개정 2020.3.26.> ⑤ 체육동호인 단체회원으로 가입된 자에 대하여는 \" 별지 제8호서식 \"에 따라 회원증을 교부할 수 있다. <개정 2020.3.26.>",
+      "evidenceNote": "GIF 전체 본문은 체육동호인 단체명·경기종목·회원인원·월회비를 기재하는 단체 등록 신청서이다. 제4조제4항의 동호인 회원등록·월회비 절차이고 대상 사업이 명시한 취약계층·다자녀 등의 이용료 감면 신청과 다르다.",
+      "currentOfficialAttachmentMatched": true,
+      "originalHashVerified": true,
+      "textScope": "visual_all_frames",
+      "sectionsRead": [
+        "frame-1"
+      ],
+      "completeBodyRead": true,
+      "visualReview": {
+        "checkedAt": "2026-10-18",
+        "framesRead": 1,
+        "frameNumbers": [
+          1
+        ],
+        "sourceSha256": "9055c0261843652e162b04c07ec24437b58ebc7977546b2aec8263bdd3fdb99e",
+        "imageEvidence": "logs/forms-completion/nonstandard/ordin-20291901-page-1.png",
+        "method": "entire_original_frame_visual_read"
+      },
+      "procedureRecheckEvidence": "logs/forms-completion/nonstandard/facility-discount-procedure-recheck.json",
+      "procedureRecheckNote": "현행 모조례 1959631 제3조제5항은 개인·단체 이용권 발급으로 사용허가를 갈음한다. 대상 사업은 제13조의2의 이용료·강습료 감면이고 시행규칙 제6조제4항은 별지9를 지정한다. 별지1·2·7은 전용대관·허가변경·동호인 등록이라는 다른 목적이다."
+    },
+    {
+      "formId": "ordin-20291905",
+      "sha256": "aa2f0e27fd9e43db550283482dfded7173fbc2495a50718514c4c4135683ecbf",
+      "format": "gif",
+      "lawId": "1615531",
+      "lawTitle": "밀양시 체육시설관리 운영 조례 시행규칙",
+      "title": "[별지 제9호서식] 사용료 감면 신청서",
+      "regionCode": "48270",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=153487437&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C9%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EC%82%AC%EC%9A%A9%EB%A3%8C+%EA%B0%90%EB%A9%B4+%EC%8B%A0%EC%B2%AD%EC%84%9C",
+      "relativePath": "ordin-20291905.gif",
+      "bytes": 15222,
+      "checkedAt": "2026-10-18",
+      "disposition": "approved",
+      "relatedProgramIds": [
+        "g48270.gov24-O00012600001"
+      ],
+      "relatedPrograms": [
+        {
+          "id": "g48270.gov24-O00012600001",
+          "name": "체육시설 이용요금 감면"
+        }
+      ],
+      "evidenceUrl": "https://www.law.go.kr/LSW/ordinInfoR.do?ordinSeq=1615531&gubun=ELIS&chrClsCd=010202",
+      "bodyEvidenceArticle": "제6조",
+      "bodyEvidenceText": "제6조(사용료의 감면) ① 삭제 <2021.7.15.> ② 삭제 <2021.7.15.> 1. 삭제 <2021.7.15.> 2. 삭제 <2021.7.15.> 3. 삭제 <2021.7.15.> 4. 삭제 <2021.7.15.> 5. 삭제 <2021.7.15.> ③ 삭제 <2021.7.15.> 1. 삭제 <2021.7.15.> 2. 삭제 <2021.7.15.> 3. 삭제 <2021.7.15.> 4. 삭제 <2021.7.15.> 5. 삭제 <2021.7.15.> ④ 조례 제13조 및 제13조의2 에 따라 사용료를 감면 받고자 할때에는 \" 별지 제9호서식 \"의 사용료 감면신청서를 제출하여 미리 시장의 승인을 받아야 한다. <개정 2013.2.14., 2021.7.15.>",
+      "evidenceNote": "GIF 전체 한 프레임에서 신청인 주소·성명, 사용시설·기간, 감면사유와 감면내용, 신청인 서명 및 담당자 결정란을 확인했다. 현행 제6조제4항이 모조례 제13조·제13조의2의 감면 신청에 별지9를 지정하여 밀양 체육시설 이용료 감면 사업과 직접 일치한다.",
+      "currentOfficialAttachmentMatched": true,
+      "originalHashVerified": true,
+      "textScope": "visual_all_frames",
+      "sectionsRead": [
+        "frame-1"
+      ],
+      "completeBodyRead": true,
+      "visualReview": {
+        "checkedAt": "2026-10-18",
+        "framesRead": 1,
+        "frameNumbers": [
+          1
+        ],
+        "sourceSha256": "aa2f0e27fd9e43db550283482dfded7173fbc2495a50718514c4c4135683ecbf",
+        "imageEvidence": "logs/forms-completion/nonstandard/ordin-20291905-page-1.png",
+        "method": "entire_original_frame_visual_read"
+      },
+      "procedureRecheckEvidence": "logs/forms-completion/nonstandard/facility-discount-procedure-recheck.json",
+      "sourceIssue": "원본의 신청연도 칸에 199, 결정연도 칸에 19가 인쇄되어 있다. 원본을 수정하지 않았다."
+    },
+    {
+      "formId": "ordin-20767651",
+      "sha256": "1db49ebcea3551b9f92d7db7d5b9c26ef05b9019dd9f1f7b67c8c2d0ff25ae2b",
+      "format": "txt",
+      "lawId": "1823741",
+      "lawTitle": "대전광역시 대덕구 저소득주민자녀장학기금 설치 및 운용 조례 시행규칙",
+      "title": "[별지 제5호서식] 장학금 지급신청서",
+      "regionCode": "30230",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=155489757&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C5%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EC%9E%A5%ED%95%99%EA%B8%88+%EC%A7%80%EA%B8%89%EC%8B%A0%EC%B2%AD%EC%84%9C",
+      "relativePath": "ordin-20767651.txt",
+      "bytes": 3016,
+      "checkedAt": "2026-10-18",
+      "disposition": "approved",
+      "relatedProgramIds": [
+        "g30230.gov24-368000000104"
+      ],
+      "relatedPrograms": [
+        {
+          "id": "g30230.gov24-368000000104",
+          "name": "저소득주민자녀 장학금"
+        }
+      ],
+      "evidenceUrl": "https://www.law.go.kr/LSW/ordinInfoR.do?ordinSeq=1823741&gubun=ELIS&chrClsCd=010202",
+      "bodyEvidenceArticle": "제5조",
+      "bodyEvidenceText": "제5조(선발) ① 구청장은 매년 동장의 추천을 받은 대상자를 대전광역시 대덕구 통합재정안정화기금 운용심의위원회의 심의를 거쳐 선발하여야 한다. <개정 2007. 11. 16., 2023.6.23.> ② 구청장은 장학생을 선발하였을 때에는 별지 제4호 서식 의 장학증서를 수여하고 별지 제5호 서식 에 의하여 장학금 지급을 신청하도록 본인에게 통지하여야 한다. ③ 제2항에 따른 통지를 받은 장학생은 구청장이 정하는 날까지 구청장에게 장학금 지급 신청을 하여야 한다. <개정 2019.10.18.> ④ 제3항에 따른 신청이 없을 때에는 장학금을 받을 의사가 없는 것으로 보아 장학금을 지급하지 아니한다. <개정 2019.10.18.>",
+      "evidenceNote": "TXT 전체 본문은 장학생으로 이미 선발된 학생이 본인·보호자 은행계좌와 학교정보를 제출하는 장학금 지급신청서이다. 제5조제2·3항 및 제7조가 선정통지 후 별지5 지급신청을 요구하므로 최초 선발 신청과 구분하여 조건부로 연결한다.",
+      "currentOfficialAttachmentMatched": true,
+      "originalHashVerified": true,
+      "textScope": "plain_text",
+      "sectionsRead": [
+        "text"
+      ],
+      "completeBodyRead": true,
+      "textLength": 2597,
+      "decodedTextEvidence": {
+        "sourceEncoding": "cp949",
+        "sourceSha256": "1db49ebcea3551b9f92d7db7d5b9c26ef05b9019dd9f1f7b67c8c2d0ff25ae2b",
+        "textFile": "logs/forms-completion/nonstandard/ordin-20767651-decoded.txt",
+        "decodedSha256": "53a65ccccf066580dc9b0a76dae36515ba1c1698b279303ba670d1ad95facfc3"
+      }
+    },
+    {
+      "formId": "ordin-20857197",
+      "sha256": "28a9253d48b9895464ac09d4f8ad561add3de70f0d1f7486c63e33578530a34c",
+      "format": "hwp3",
+      "lawId": "1964621",
+      "lawTitle": "서울특별시 동대문구 구립체육시설 설치 및 운영에 관한 조례 시행규칙",
+      "title": "서식6 체육시설 사용확인서",
+      "regionCode": "11230",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=156433297&flNm=%EC%84%9C%EC%8B%9D6+%EC%B2%B4%EC%9C%A1%EC%8B%9C%EC%84%A4+%EC%82%AC%EC%9A%A9%ED%99%95%EC%9D%B8%EC%84%9C",
+      "relativePath": "ordin-20857197.hwp",
+      "bytes": 11128,
+      "checkedAt": "2026-10-18",
+      "disposition": "excluded",
+      "relatedProgramIds": [
+        "g11230.gov24-O00023100001"
+      ],
+      "relatedPrograms": [
+        {
+          "id": "g11230.gov24-O00023100001",
+          "name": "체육시설 이용요금 감면(동대문구체육관)"
+        }
+      ],
+      "evidenceUrl": "https://www.law.go.kr/LSW/ordinInfoR.do?ordinSeq=1964621&gubun=ELIS&chrClsCd=010202",
+      "bodyEvidenceArticle": "제3조",
+      "bodyEvidenceText": "제3조(사용허가) ① 조례 제5조제1항 의 규정에 의하여 체육시설의 전용사용허가를 받고자 하는 자는 별지 제1호서식 (허가된 사항을 변경하고자 하는 경우에는 별지 제3호서식 )의 신청서를 작성하여 구청장에게 제출해야 한다. <개정 2023.11.30.> ② 서울특별시 동대문구청장(이하 “구청장”이라 한다)은 제1항의 규정에 의하여 체육시설 사용허가 신청서를 검토하여 당해 체육시설의 관리 운영에 지장이 없는 범위안에서 별지 제2호서식 (허가된 사항을 변경하는 경우에는 별지 제4호서식 )에 의하여 체육시설의 사용을 허가한다. <개정 2023.11.30.> ③ 구청장은 제2항의 규정에 의하여 체육시설의 사용허가를 한 경우에는 사용료를 납부 받고 별지 제5호서식 에 의한 수입금납입명세서를 작성·보관·관리해야 하며, 사용자가 허가한 내용대로 사용하고 사용확인서 발급을 요구할 때에는 별지 제6호서식 에 의하여 사용확인서를 발급해야 한다. <개정 2023.11.30.>",
+      "evidenceNote": "HWP30 본문은 시설을 이미 사용한 사람이 사용사실의 확인을 요청하고 구청장이 확인·발급하는 사용확인서이다. 현행 제3조제3항의 사후 증명서이며 감면은 제5조제1항의 별지7 신청서로 별도 규정되어 있다.",
+      "currentOfficialAttachmentMatched": true,
+      "originalHashVerified": true,
+      "textScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "Hancom.HWP30/page-1"
+      ],
+      "completeBodyRead": true,
+      "textLength": 362,
+      "externalBodyEvidence": {
+        "reader": "Hancom.HWP30",
+        "sourceSha256": "28a9253d48b9895464ac09d4f8ad561add3de70f0d1f7486c63e33578530a34c",
+        "pageCount": 1,
+        "textFile": "logs/forms-completion/nonstandard/ordin-20857197-hancom.txt"
+      }
+    },
+    {
+      "formId": "ordin-20911415",
+      "sha256": "7bbfe75d5168b8c7cec45c086f1d75a9d1f7bb789520943ee32c24a4272c3523",
+      "format": "hwp3",
+      "lawId": "2073725",
+      "lawTitle": "진천군 수도 급수 조례 시행규칙",
+      "title": "별지 제8호서식-납기연장신청서",
+      "regionCode": "43750",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=157283667&flNm=%EB%B3%84%EC%A7%80+%EC%A0%9C8%ED%98%B8%EC%84%9C%EC%8B%9D-%EB%82%A9%EA%B8%B0%EC%97%B0%EC%9E%A5%EC%8B%A0%EC%B2%AD%EC%84%9C",
+      "relativePath": "ordin-20911415.hwp",
+      "bytes": 24119,
+      "checkedAt": "2026-10-18",
+      "disposition": "excluded",
+      "relatedProgramIds": [
+        "g43750.gov24-445000000110"
+      ],
+      "relatedPrograms": [
+        {
+          "id": "g43750.gov24-445000000110",
+          "name": "상하수도 요금 감면"
+        }
+      ],
+      "evidenceUrl": "https://www.law.go.kr/LSW/ordinInfoR.do?ordinSeq=2073725&gubun=ELIS&chrClsCd=010202",
+      "bodyEvidenceArticle": "제24조",
+      "bodyEvidenceText": "제24조(납기연장) ① 공공기관으로서 자금영달의 지연 또는 예산부족 등 불가피한 관계로 납기한 연장 받고자 할 때에는 별지 제8호서식 에 따른 납기연장신청서를 군수에게 제출하여야 한다. <개정 2024. 10. 29.> ② 군수는 제1항에 따라 납기 연장 신청이 있을 때에는 납입기일을 연장할 수 있다. <개정 2024. 10. 29.>",
+      "evidenceNote": "HWP30 전체 본문은 납기연장 사유·기간·납부금액을 작성하는 신청서이다. 현행 제24조제1항은 공공기관의 자금영달 지연·예산부족에 따른 연장을 규정하므로 수급자·장애인·다자녀의 요금 감면과 다르다.",
+      "currentOfficialAttachmentMatched": true,
+      "originalHashVerified": true,
+      "textScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "Hancom.HWP30/page-1"
+      ],
+      "completeBodyRead": true,
+      "textLength": 396,
+      "externalBodyEvidence": {
+        "reader": "Hancom.HWP30",
+        "sourceSha256": "7bbfe75d5168b8c7cec45c086f1d75a9d1f7bb789520943ee32c24a4272c3523",
+        "pageCount": 1,
+        "textFile": "logs/forms-completion/nonstandard/ordin-20911415-hancom.txt"
+      }
+    },
+    {
+      "formId": "ordin-20911421",
+      "sha256": "1d16345f56b890baefb763fff1ad7ccfd11f0914181c5a39f58cadab7ff21835",
+      "format": "hwp3",
+      "lawId": "2073725",
+      "lawTitle": "진천군 수도 급수 조례 시행규칙",
+      "title": "별지 제11호서식-수도계량기수리(시험)청구서",
+      "regionCode": "43750",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=157283673&flNm=%EB%B3%84%EC%A7%80+%EC%A0%9C11%ED%98%B8%EC%84%9C%EC%8B%9D-%EC%88%98%EB%8F%84%EA%B3%84%EB%9F%89%EA%B8%B0%EC%88%98%EB%A6%AC%28%EC%8B%9C%ED%97%98%29%EC%B2%AD%EA%B5%AC%EC%84%9C",
+      "relativePath": "ordin-20911421.hwp",
+      "bytes": 23453,
+      "checkedAt": "2026-10-18",
+      "disposition": "excluded",
+      "relatedProgramIds": [
+        "g43750.gov24-445000000110"
+      ],
+      "relatedPrograms": [
+        {
+          "id": "g43750.gov24-445000000110",
+          "name": "상하수도 요금 감면"
+        }
+      ],
+      "evidenceUrl": "https://www.law.go.kr/LSW/ordinInfoR.do?ordinSeq=2073725&gubun=ELIS&chrClsCd=010202",
+      "bodyEvidenceArticle": "제19조",
+      "bodyEvidenceText": "제19조(수도계량기 시험 청구) ① 조례 제28조 에 따른 수도계량의 시험청구를 하고자 하는 자는 별지 제11호서식 를 따른다. 다만, 부득이한 경우 구두 혹은 전화로 신고할 수 있다. <개정 2024. 10. 29.> ② 군수는 수도 계량기가 이상이 있다고 판단될 경우에는 제1항에 따른 청구가 없는 경우라도 직권으로 시험을 실시할 수 있다.",
+      "evidenceNote": "HWP30 전체 본문은 급수전 소재지·소유자·계량기 수리 또는 시험 사유를 기재하는 청구서이다. 계량기 정확성 확인 절차이며 저소득·장애·다자녀 감면은 제28조제2항의 별지15로 규정되어 있다.",
+      "currentOfficialAttachmentMatched": true,
+      "originalHashVerified": true,
+      "textScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "Hancom.HWP30/page-1"
+      ],
+      "completeBodyRead": true,
+      "textLength": 327,
+      "externalBodyEvidence": {
+        "reader": "Hancom.HWP30",
+        "sourceSha256": "1d16345f56b890baefb763fff1ad7ccfd11f0914181c5a39f58cadab7ff21835",
+        "pageCount": 1,
+        "textFile": "logs/forms-completion/nonstandard/ordin-20911421-hancom.txt"
+      }
+    },
+    {
+      "formId": "ordin-21271589",
+      "sha256": "45862d0403a6cc27cb73c6780c83ed7500de4555a8d595ef723d09dd609c61a4",
+      "format": "pdf",
+      "lawId": "2100087",
+      "lawTitle": "서울특별시 노원구 국가보훈대상자 예우 및 지원에 관한 조례",
+      "title": "[별지 제4호서식] 배우자 복지수당 지급신청서",
+      "regionCode": "11350",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=160165885&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C4%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EB%B0%B0%EC%9A%B0%EC%9E%90+%EB%B3%B5%EC%A7%80%EC%88%98%EB%8B%B9+%EC%A7%80%EA%B8%89%EC%8B%A0%EC%B2%AD%EC%84%9C",
+      "relativePath": "ordin-21271589.pdf",
+      "bytes": 65363,
+      "checkedAt": "2026-10-18",
+      "disposition": "approved",
+      "relatedProgramIds": [
+        "g11350.gov24-310000000120"
+      ],
+      "relatedPrograms": [
+        {
+          "id": "g11350.gov24-310000000120",
+          "name": "국가유공자 위문 지원"
+        }
+      ],
+      "evidenceUrl": "https://www.law.go.kr/LSW/ordinInfoR.do?ordinSeq=2100087&gubun=ELIS&chrClsCd=010202",
+      "bodyEvidenceArticle": "제11조",
+      "bodyEvidenceText": "제11조(배우자 복지수당 지급) ① 구청장은 「참전유공자 예우 및 단체설립에 관한 법률」 제2조제2호 의 참전유공자가 사망한 경우 예산의 범위에서 그 배우자에게 복지수당(이하 “배우자 복지수당”이라 한다)을 지급할 수 있다. 다만, 배우자 복지수당 지급 대상자는 신청일 기준 구에 주민등록을 둔 사람에 한정한다. ② 제1항에 따른 배우자 복지수당과 제10조 의 보훈예우수당은 중복지급하지 않는다. ③ 배우자 복지수당을 지급받으려는 사람은 별지 제4호서식 에 따른 배우자 복지수당 지급신청서를 구청장에게 제출해야 한다. 다만, 본인이 부득이한 사유로 신청할 수 없는 경우에는 부양의무자 등이 신청할 수 있다. ④ 그 밖의 지급금액 및 절차 등에 관한 사항은 구청장이 따로 정한다. <신설 2025.12.30.>",
+      "evidenceNote": "공식 PDF 한 쪽 전체를 텍스트와 이미지로 확인했다. 사망 참전유공자의 배우자가 신청인·보훈번호·노원구 전입일·계좌와 가족관계·사망 증빙을 제출한다. 현행 제11조제3항의 별지4이며 해당 통합 보훈사업이 배우자 복지수당을 명시한다.",
+      "currentOfficialAttachmentMatched": true,
+      "originalHashVerified": true,
+      "textScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "page-1"
+      ],
+      "completeBodyRead": true,
+      "textLength": 663,
+      "visualReview": {
+        "checkedAt": "2026-10-18",
+        "pagesRead": [
+          1
+        ],
+        "sourceSha256": "45862d0403a6cc27cb73c6780c83ed7500de4555a8d595ef723d09dd609c61a4",
+        "imageEvidence": "logs/forms-completion/nonstandard/ordin-21271589-page-1.png"
+      }
+    },
+    {
+      "formId": "ordin-21458113",
+      "sha256": "359ff9497549950b95c34ca02e514ad83354c0a90f2fe81e36f17c83a79aef40",
+      "format": "txt",
+      "lawId": "1971699",
+      "lawTitle": "울산광역시 중구 주차장 설치 및 관리 조례",
+      "title": "별지1",
+      "regionCode": "31110",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=161074113&flNm=%EB%B3%84%EC%A7%801",
+      "relativePath": "ordin-21458113.txt",
+      "bytes": 34,
+      "checkedAt": "2026-10-18",
+      "disposition": "excluded",
+      "relatedProgramIds": [
+        "g31110.gov24-O00025700003",
+        "g31110.gov24-O00025700001",
+        "g31110.gov24-O00025700004"
+      ],
+      "relatedPrograms": [
+        {
+          "id": "g31110.gov24-O00025700003",
+          "name": "부설주차장 이용요금 감면"
+        },
+        {
+          "id": "g31110.gov24-O00025700001",
+          "name": "공영주차장 이용요금 감면"
+        },
+        {
+          "id": "g31110.gov24-O00025700004",
+          "name": "거주자우선주차 요금감면"
+        }
+      ],
+      "evidenceUrl": "https://www.law.go.kr/LSW/ordinInfoR.do?ordinSeq=1971699&gubun=ELIS&chrClsCd=010202",
+      "bodyEvidenceArticle": "제5조",
+      "bodyEvidenceText": "제5조(공영주차장의 관리 등) ① 구청장이 법 제8조제2항 및 법 제13조제3항 의 규정에 따라 공영주차장을 제3자에게 위탁관리하는 경우 그 관리를 받을 수 있는 자(이하 \"관리수탁자 라\" 한다)의 자격은 다음 각 호의 어느 하나와 같다. <개정 2010.7.12.> <개정 2013.12.12><개정 2014.12.29> 1. 「지방공기업법」 제49조 및 제76조 에 따라 설립한 공사 ·공단 <개정 2013.5.6.> 2. 「지방자치단체를 당사자로 하는 계약에 관한 법률 시행령」 제13조 에 따른 경쟁입찰 자격을 갖춘자 <개정 2013.5.6.> 3. 그 밖에 다른 법령에 따라 공영주차장의 관리를 위탁받을 수 있는 자 <신설 2010.7.12.> ② 주차장 관리를 위탁 받은 자는 사용료를 미리 납부하여야 하며 사용료를 나누어 납부하는 경우에는 「울산광역시 중구 공유재산 관리 조례」 제34조 를 준용한다. 다만, 제1항제1호에 따른 공사ㆍ공단이 주차장 관리를 위탁받은 경우에는 주차장 사용료의 납부방법을 구청장이 따로 정할 수 있다.<개정 2004·10·29> <개정 2013.5.6.> <개정 2013.12.12><개정 2020.8.3.> ③ 주차장 관리자는 다음 각 호의 어느 하나에 해당하는 경우를 제외하고는 정당한 사유 없이 그 이용을 거절할 수 없다. <개정 2010.7.12.> <개정 2014.12.29> 1. 자동차의 구조상 주차가 불가능하거나 곤란한 경우 2. 발화성·인화성 또는 폭발성 물질을 적재한 차량 3. 삭제 <2000·10·9> 4. 주차장의 구조설비를 손상할 우려가 있는 경우 <신설 2004.10.29.> 5. 주차장안에서 자동차를 이용하여 영업행위를 하는 경우 <신설 2004.10.29.> ④ 공영주차장을 설치하여 공용을 개시하고자 할 때에는 그 주차장의 명칭·규모·공용시간·공용개시일·그 밖의 필요한 사항을 공고하여야 한다. <개정 2013.12.12.>",
+      "evidenceNote": "CP949 TXT 전체 내용은 별지 제1호서식 삭제 <99·8·16> 고지뿐이다. 작성 가능한 신청서가 없어 주차요금 감면에 연결하지 않는다.",
+      "currentOfficialAttachmentMatched": true,
+      "originalHashVerified": true,
+      "textScope": "plain_text",
+      "sectionsRead": [
+        "text"
+      ],
+      "completeBodyRead": true,
+      "textLength": 22,
+      "decodedTextEvidence": {
+        "sourceEncoding": "cp949",
+        "sourceSha256": "359ff9497549950b95c34ca02e514ad83354c0a90f2fe81e36f17c83a79aef40",
+        "textFile": "logs/forms-completion/nonstandard/ordin-21458113-decoded.txt",
+        "decodedSha256": "a7bd2473e9acb20e9b54bd59a956be07f011f5732fb789edf417e640365b31cc"
+      }
+    },
+    {
+      "formId": "ordin-22225497",
+      "sha256": "359c766c12293660127dea28a15cbbc2fde12194b277fdb2de1a3bb60f12bff6",
+      "format": "htm",
+      "lawId": "2120833",
+      "lawTitle": "거제시 주차장 조례",
+      "title": "별지 제1호서식",
+      "regionCode": "48310",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=167643135&flNm=%EB%B3%84%EC%A7%80+%EC%A0%9C1%ED%98%B8%EC%84%9C%EC%8B%9D",
+      "relativePath": "ordin-22225497.htm",
+      "bytes": 6499,
+      "checkedAt": "2026-10-18",
+      "disposition": "excluded",
+      "relatedProgramIds": [
+        "g48310.gov24-O00011800001"
+      ],
+      "relatedPrograms": [
+        {
+          "id": "g48310.gov24-O00011800001",
+          "name": "공영주차장 이용요금 감면"
+        }
+      ],
+      "evidenceUrl": "https://www.law.go.kr/LSW/ordinInfoR.do?ordinSeq=2120833&gubun=ELIS&chrClsCd=010202",
+      "bodyEvidenceArticle": "제5조",
+      "bodyEvidenceText": "제5조(주차장의 표지) ① 법 제11조에 따른 노상주차장의 표지는 「도로교통법」 제4조 및 「도로교통법 시행규칙」 제8조에 따른 교통안전표지를 따르되, 이용에 관한 안내표지는 다음 각 호의 내용을 기재하여 이용자가 알아보기 쉬운 장소에 설치하여야 하며 그 규격은 별지 제1호서식에 따른다. <개정 2007.10.25, 2009.3.5, 2011.1.13.,2020.12.29.> 1. 주차요금 및 그 징수방법에 관한 사항 2. 가산금징수에 관한 사항 3. 주차장의 이용시간 4. 그 밖에 필요한 사항(허가번호, 관리자주소, 성명, 주차제한 차량 등) <개정 2011.1.13.> ② 법 제18조에 따른 노외주차장(시장이 설치한 공영주차장에 한한다)의 표지는 제1항 각 호의 내용을 기재하여 이용자가 알아보기 쉬운 장소에 설치하여야 하며, 그 규격은 별지 제2호서식에 따른다. <개정 2020.12.29.> ③ 노외주차장(시장이 설치한 공영주차장에 한한다)은 주차장 이용자가 해당 주차장의 위치를 쉽게 알 수 있도록 주차장 위치 안내표지를 설치하여야 한다. <개정 2007.10.25.,2020.12.29.> ④ 주차장 위치 안내표지의 규격, 표기방법, 설치, 위치 등에 관한 기준은 별지 제2-1호서식에 따른다. <개정 2011. 7.18., 2018.12.27.>",
+      "evidenceNote": "공식 HTM 전체 본문은 주차장이용안내표지판의 표시내용·크기·재료·색상 규격이다. 신청인 입력란이 있는 감면 신청서가 아니다.",
+      "currentOfficialAttachmentMatched": true,
+      "originalHashVerified": true,
+      "textScope": "html_entire_document",
+      "sectionsRead": [
+        "html-body"
+      ],
+      "completeBodyRead": true,
+      "textLength": 677,
+      "textFile": "logs/forms-completion/nonstandard/ordin-22225497-decoded.txt"
+    },
+    {
+      "formId": "ordin-22225499",
+      "sha256": "7fa3c767d0072063b11b79579d329a41e6d9054aea95986836d45be85ebce1c3",
+      "format": "gif",
+      "lawId": "2120833",
+      "lawTitle": "거제시 주차장 조례",
+      "title": "별지 제2호서식",
+      "regionCode": "48310",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=167643137&flNm=%EB%B3%84%EC%A7%80+%EC%A0%9C2%ED%98%B8%EC%84%9C%EC%8B%9D",
+      "relativePath": "ordin-22225499.gif",
+      "bytes": 48432,
+      "checkedAt": "2026-10-18",
+      "disposition": "excluded",
+      "relatedProgramIds": [
+        "g48310.gov24-O00011800001"
+      ],
+      "relatedPrograms": [
+        {
+          "id": "g48310.gov24-O00011800001",
+          "name": "공영주차장 이용요금 감면"
+        }
+      ],
+      "evidenceUrl": "https://www.law.go.kr/LSW/ordinInfoR.do?ordinSeq=2120833&gubun=ELIS&chrClsCd=010202",
+      "bodyEvidenceArticle": "제5조",
+      "bodyEvidenceText": "제5조(주차장의 표지) ① 법 제11조에 따른 노상주차장의 표지는 「도로교통법」 제4조 및 「도로교통법 시행규칙」 제8조에 따른 교통안전표지를 따르되, 이용에 관한 안내표지는 다음 각 호의 내용을 기재하여 이용자가 알아보기 쉬운 장소에 설치하여야 하며 그 규격은 별지 제1호서식에 따른다. <개정 2007.10.25, 2009.3.5, 2011.1.13.,2020.12.29.> 1. 주차요금 및 그 징수방법에 관한 사항 2. 가산금징수에 관한 사항 3. 주차장의 이용시간 4. 그 밖에 필요한 사항(허가번호, 관리자주소, 성명, 주차제한 차량 등) <개정 2011.1.13.> ② 법 제18조에 따른 노외주차장(시장이 설치한 공영주차장에 한한다)의 표지는 제1항 각 호의 내용을 기재하여 이용자가 알아보기 쉬운 장소에 설치하여야 하며, 그 규격은 별지 제2호서식에 따른다. <개정 2020.12.29.> ③ 노외주차장(시장이 설치한 공영주차장에 한한다)은 주차장 이용자가 해당 주차장의 위치를 쉽게 알 수 있도록 주차장 위치 안내표지를 설치하여야 한다. <개정 2007.10.25.,2020.12.29.> ④ 주차장 위치 안내표지의 규격, 표기방법, 설치, 위치 등에 관한 기준은 별지 제2-1호서식에 따른다. <개정 2011. 7.18., 2018.12.27.>",
+      "evidenceNote": "GIF 한 프레임 전체는 노외주차장 표지(P 표시)의 70×80cm 규격, 높이·재료·색채·조명 안내이다. 주차장 안내표지 도안으로 주민 요금감면 신청서와 무관하다.",
+      "currentOfficialAttachmentMatched": true,
+      "originalHashVerified": true,
+      "textScope": "visual_all_frames",
+      "sectionsRead": [
+        "frame-1"
+      ],
+      "completeBodyRead": true,
+      "visualReview": {
+        "checkedAt": "2026-10-18",
+        "framesRead": 1,
+        "frameNumbers": [
+          1
+        ],
+        "sourceSha256": "7fa3c767d0072063b11b79579d329a41e6d9054aea95986836d45be85ebce1c3",
+        "imageEvidence": "logs/forms-completion/nonstandard/ordin-22225499-page-1.png",
+        "method": "entire_original_frame_visual_read"
+      }
+    },
+    {
+      "formId": "ordin-22566929",
+      "sha256": "47373b6f8b97d52852cb33e250dca3a0d0ebecfb5ec94da6fe6016941d5532c3",
+      "format": "txt",
+      "lawId": "2166899",
+      "lawTitle": "광양시 농산물수출물류센터 설치 및 운영 조례",
+      "title": "별지",
+      "regionCode": "12190",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=169011421&flNm=%EB%B3%84%EC%A7%80",
+      "relativePath": "ordin-22566929.txt",
+      "bytes": 45081,
+      "checkedAt": "2026-10-18",
+      "disposition": "excluded",
+      "relatedProgramIds": [
+        "g12190.gov24-484000000112"
+      ],
+      "relatedPrograms": [
+        {
+          "id": "g12190.gov24-484000000112",
+          "name": "수출농산물 육묘대 지원"
+        }
+      ],
+      "evidenceUrl": "https://www.law.go.kr/LSW/ordinInfoR.do?ordinSeq=2166899&gubun=ELIS&chrClsCd=010202",
+      "bodyEvidenceArticle": "제7조",
+      "bodyEvidenceText": "제7조(위탁) ① 시장은 제4조제1항 의 규정에 의하여 다음각호의 어느 하나에 해당하는 자에게 수출물류센터의 운영을 위탁할 수 있다. 1. 지방자치단체, 「농업ㆍ농촌 및 식품산업 기본법」 제3조제4호 의 규정에 의한 생산자 단체, 수출업체의 단독 또는 컨소시엄 <개정 2025. 7. 2.> 2. 수출물류센터를 운영하기 위하여 국가 또는 지방자치단체와 제1호의 자가 공동출자하여 설립한 법인 ② 제1항의 규정에 의하여 수출물류센터를 위탁하는 경우 위탁기간은 5년으로 하며, 위탁기간 종료 후에도 필요한 경우 3년 단위로 기간을 연장할 수 있다. ③ 수출물류센터의 위ㆍ수탁에 따른 제반사항 결정은 별도의 협약에 의하여 정한다.",
+      "evidenceNote": "CP949 원본 40,126자를 모두 읽었다. 별지1~6은 물류센터 운영위탁 신청·지정, 휴업·폐업 허가 및 생산자별·품목별 거래실적 보고이다. 농업인 종자대·육묘대 보조 신청 항목은 없으므로 수출농산물 육묘대 지원과 연결하지 않는다.",
+      "currentOfficialAttachmentMatched": true,
+      "originalHashVerified": true,
+      "textScope": "plain_text",
+      "sectionsRead": [
+        "text"
+      ],
+      "completeBodyRead": true,
+      "textLength": 40126,
+      "decodedTextEvidence": {
+        "sourceEncoding": "cp949",
+        "sourceSha256": "47373b6f8b97d52852cb33e250dca3a0d0ebecfb5ec94da6fe6016941d5532c3",
+        "textFile": "logs/forms-completion/nonstandard/ordin-22566929-decoded.txt",
+        "decodedSha256": "9a2a33c82a4f32a6d5d0d04c557c62902bbe79064ca5a4d67540bc646b300d28"
+      }
+    },
+    {
+      "formId": "ordin-22599029",
+      "sha256": "75e7f3d11af14c5c5f5173f75b8e194382e0ccecaaf1191fc1d8d38407ec8b48",
+      "format": "txt",
+      "lawId": "1146143",
+      "lawTitle": "충청남도새마을장학금지급조례시행규칙",
+      "title": "[별지 제1호 서식] 장학생선발신청서",
+      "regionCode": "44000",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=169331089&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C1%ED%98%B8+%EC%84%9C%EC%8B%9D%5D+%EC%9E%A5%ED%95%99%EC%83%9D%EC%84%A0%EB%B0%9C%EC%8B%A0%EC%B2%AD%EC%84%9C",
+      "relativePath": "ordin-22599029.txt",
+      "bytes": 3996,
+      "checkedAt": "2026-10-18",
+      "disposition": "approved",
+      "relatedProgramIds": [
+        "s44000.gov24-644000000181"
+      ],
+      "relatedPrograms": [
+        {
+          "id": "s44000.gov24-644000000181",
+          "name": "새마을지도자 자녀장학금 지원"
+        }
+      ],
+      "evidenceUrl": "https://www.law.go.kr/LSW/ordinInfoR.do?ordinSeq=1146143&gubun=ELIS&chrClsCd=010202",
+      "bodyEvidenceArticle": "제2조",
+      "bodyEvidenceText": "제2조(장학금의 신청) 장학금의 지급을 받고자 하는 자의 보호자(친권자,부양의무자를 포함한다. 이하 같다)는 장학금 신청서( 별지 제1호 서식 )에 다음 각 항의 서류를 첨부하여 읍ㆍ면ㆍ동새마을지도자협의회ㆍ새마을부녀회ㆍ새마을문고분회 중 새마을지도자가 소속된 회의 장을 거쳐 시ㆍ군 지회장에게 제출하여야 한다. 1. <삭제> 2. 장학금을 받고자 하는 학생의 특기를 증명하는 서류(학교장 또는 관계 기관장 발행) 1통 3. 학교장의 추천서( 별지 제2호 서식 ) 1통 4. 기타 심사에 필요한 참고서류",
+      "evidenceNote": "CP949 TXT 전체 본문은 보호자의 새마을지도자 경력, 학생 성적·특기 및 가족·재산상황을 기재하고 학교장 추천서를 첨부하는 선발 신청서이다. 현행 시행규칙 제2조가 별지1을 보호자가 제출하도록 하며 도 새마을지도자 자녀장학금 사업과 일치한다.",
+      "currentOfficialAttachmentMatched": true,
+      "originalHashVerified": true,
+      "textScope": "plain_text",
+      "sectionsRead": [
+        "text"
+      ],
+      "completeBodyRead": true,
+      "textLength": 3424,
+      "decodedTextEvidence": {
+        "sourceEncoding": "cp949",
+        "sourceSha256": "75e7f3d11af14c5c5f5173f75b8e194382e0ccecaaf1191fc1d8d38407ec8b48",
+        "textFile": "logs/forms-completion/nonstandard/ordin-22599029-decoded.txt",
+        "decodedSha256": "33201aec1237a34f92bdd6248247b0e9670500e3a60ae6b69d892ae568d60a40"
+      },
+      "sourceIssue": "원본에는 옛 새마을 조직명·재산항목이 남아 있다. 현행 시행규칙이 동일 별지1을 지정하지만 당해연도 접수 안내도 확인해야 한다."
+    },
+    {
+      "formId": "ordin-22599033",
+      "sha256": "4fa6a25c1773b0c79a930a70ba80b4c2dcbac9908aac46e08d579eeb017f2270",
+      "format": "txt",
+      "lawId": "1146143",
+      "lawTitle": "충청남도새마을장학금지급조례시행규칙",
+      "title": "[별지 제3호 서식] 서약서",
+      "regionCode": "44000",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=169331093&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C3%ED%98%B8+%EC%84%9C%EC%8B%9D%5D+%EC%84%9C%EC%95%BD%EC%84%9C",
+      "relativePath": "ordin-22599033.txt",
+      "bytes": 999,
+      "checkedAt": "2026-10-18",
+      "disposition": "excluded",
+      "relatedProgramIds": [
+        "s44000.gov24-644000000181"
+      ],
+      "relatedPrograms": [
+        {
+          "id": "s44000.gov24-644000000181",
+          "name": "새마을지도자 자녀장학금 지원"
+        }
+      ],
+      "evidenceUrl": "https://www.law.go.kr/LSW/ordinInfoR.do?ordinSeq=1146143&gubun=ELIS&chrClsCd=010202",
+      "bodyEvidenceArticle": "제2조",
+      "bodyEvidenceText": "제2조(장학금의 신청) 장학금의 지급을 받고자 하는 자의 보호자(친권자,부양의무자를 포함한다. 이하 같다)는 장학금 신청서( 별지 제1호 서식 )에 다음 각 항의 서류를 첨부하여 읍ㆍ면ㆍ동새마을지도자협의회ㆍ새마을부녀회ㆍ새마을문고분회 중 새마을지도자가 소속된 회의 장을 거쳐 시ㆍ군 지회장에게 제출하여야 한다. 1. <삭제> 2. 장학금을 받고자 하는 학생의 특기를 증명하는 서류(학교장 또는 관계 기관장 발행) 1통 3. 학교장의 추천서( 별지 제2호 서식 ) 1통 4. 기타 심사에 필요한 참고서류",
+      "evidenceNote": "원본 전체 TXT에는 별지 제3호 서식 <2000.6.10. 삭제>만 남아 있다. 제목이 서약서여도 현행 작성양식이 아닌 삭제 고지이므로 추가서류로 승인하지 않는다.",
+      "currentOfficialAttachmentMatched": true,
+      "originalHashVerified": true,
+      "textScope": "plain_text",
+      "sectionsRead": [
+        "text"
+      ],
+      "completeBodyRead": true,
+      "textLength": 991,
+      "decodedTextEvidence": {
+        "sourceEncoding": "cp949",
+        "sourceSha256": "4fa6a25c1773b0c79a930a70ba80b4c2dcbac9908aac46e08d579eeb017f2270",
+        "textFile": "logs/forms-completion/nonstandard/ordin-22599033-decoded.txt",
+        "decodedSha256": "2cc55eed195ef991ab3d0e3c577a4c9e0a62ef9d000ecc01e431c4d5c0a626ad"
+      }
+    },
+    {
+      "formId": "ordin-22599039",
+      "sha256": "746c310f140dc0ed65118605f371110402db7ce164e210389b382f3a3c07c2c8",
+      "format": "txt",
+      "lawId": "1146143",
+      "lawTitle": "충청남도새마을장학금지급조례시행규칙",
+      "title": "[별지 제5호 서식] 장학금지급신청서",
+      "regionCode": "44000",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=169331139&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C5%ED%98%B8+%EC%84%9C%EC%8B%9D%5D+%EC%9E%A5%ED%95%99%EA%B8%88%EC%A7%80%EA%B8%89%EC%8B%A0%EC%B2%AD%EC%84%9C",
+      "relativePath": "ordin-22599039.txt",
+      "bytes": 1998,
+      "checkedAt": "2026-10-18",
+      "disposition": "approved",
+      "relatedProgramIds": [
+        "s44000.gov24-644000000181"
+      ],
+      "relatedPrograms": [
+        {
+          "id": "s44000.gov24-644000000181",
+          "name": "새마을지도자 자녀장학금 지원"
+        }
+      ],
+      "evidenceUrl": "https://www.law.go.kr/LSW/ordinInfoR.do?ordinSeq=1146143&gubun=ELIS&chrClsCd=010202",
+      "bodyEvidenceArticle": "제4조",
+      "bodyEvidenceText": "제4조(선발) ①도지부회장이 장학생을 선발할 때에는 도지사와 사전협의후 도새마을운동협의회에 보고하여 결정하고 결정한 사항을 즉시 도지사에게 통보하는 한편 새마을운동중앙협의회장에게 보고하여야 한다. ②도지부회장은 장학생으로 선발,결정된 학생에게 장학금을 신청하도록 통지하여야 한다. ③통보를 받은 장학생은 통보받은 날로부터 7일 이내에 학교장을 거쳐 시장ㆍ군수에게 장학금지급신청서( 별지 제5호 서식 )를 제출하여야 한다. ④제3항의 신청이 없을 때 에는 장학금을 지급받을 의사가 없는 것으로 보아 선발을 취소할 수 있다. 이 경우 재선발은 하지 아니한다.",
+      "evidenceNote": "CP949 TXT 전체 본문은 새마을장학생으로 선발된 학생 및 보호자가 장학금 지급을 청구하는 서식이다. 제4조제2~4항은 선정 통지 후 7일 이내 학교장을 거쳐 별지5를 제출하도록 하므로 선발 후 지급청구에 한정한다.",
+      "currentOfficialAttachmentMatched": true,
+      "originalHashVerified": true,
+      "textScope": "plain_text",
+      "sectionsRead": [
+        "text"
+      ],
+      "completeBodyRead": true,
+      "textLength": 1892,
+      "decodedTextEvidence": {
+        "sourceEncoding": "cp949",
+        "sourceSha256": "746c310f140dc0ed65118605f371110402db7ce164e210389b382f3a3c07c2c8",
+        "textFile": "logs/forms-completion/nonstandard/ordin-22599039-decoded.txt",
+        "decodedSha256": "8482ed6f8c3537270d2bc8ccae66a928303d7e5bbf71f2a5fc37c84498c97c9f"
+      },
+      "sourceIssue": "신청학년도와 신청일 칸이 19로 시작하는 옛 양식이다. 현행 규칙에 연결된 원본 바이트를 유지했다."
+    }
+  ],
+  "replacementAttachments": [
+    {
+      "sourceUrl": "https://www.gunsan.go.kr/_cms/board/eFileDownload/443/9046815/df5c659fe9cc25bac6cee672d0ab8267",
+      "sourcePageUrl": "https://www.gunsan.go.kr/farm/m2435/view/9046815?s_idx=2",
+      "sha256": "04d3072e565786643781ae08f29d34ab0c716e8afcb281f7904ebb587836f3c0",
+      "bytes": 114176,
+      "format": "hwp",
+      "sectionsRead": [
+        "BodyText/Section0"
+      ],
+      "textLength": 6431,
+      "textScope": "all_body_sections_or_pages",
+      "scopeFormId": "ordin-20103925",
+      "replacementIdentity": "gunsan-9046815-df5c659fe9cc25bac6cee672d0ab8267",
+      "sourceKind": "official_municipal_attachment",
+      "originalFormat": "hwp",
+      "textFile": "logs/forms-completion/nonstandard/gunsan-2026-official-guideline.txt",
+      "programIds": [
+        "g52130.gov24-467000000127"
+      ],
+      "title": "귀농인 주거기반 조성 지원사업 시행지침 및 신청서(2026년)",
+      "documentYear": 2026,
+      "announcementDate": "2026-02-03",
+      "applicationPeriod": {
+        "from": "2026-02-03",
+        "to": "2026-02-27",
+        "state": "closed"
+      },
+      "usage": "2026년 귀농인 주거기반 조성 지원사업에 사용하도록 공식 게시된 신청서 묶음. 현재 신청 접수 중이라는 뜻이 아니다.",
+      "verificationStatus": "verified_official_alternative",
+      "checkedAt": "2026-10-18",
+      "originalBodyRead": true,
+      "reviewedParts": [
+        {
+          "number": "1",
+          "title": "귀농인 주거기반 조성 지원사업 신청서",
+          "author": "귀농인 신청자",
+          "use": "main"
+        },
+        {
+          "number": "2",
+          "title": "귀농인 영농 계획서",
+          "author": "귀농인 신청자",
+          "use": "additional"
+        },
+        {
+          "number": "3",
+          "title": "귀농인 농가주택 수리계획서",
+          "author": "수리비 지원 신청자",
+          "use": "conditional",
+          "condition": "주택 수리비 신청 시"
+        },
+        {
+          "number": "4",
+          "title": "귀농인 농가주택 신축계획서",
+          "author": "신축 설계비 지원 신청자",
+          "use": "conditional",
+          "condition": "주택 신축 설계비 신청 시"
+        }
+      ],
+      "excludedParts": [
+        {
+          "number": "5",
+          "title": "농가주택수리 점검결과 보고서",
+          "reason": "공무원 확인용"
+        },
+        {
+          "title": "사업 심사기준표",
+          "reason": "기관 심사용"
+        }
+      ],
+      "sourceIdentityNote": "법령포털 ordin-20103925 및 그 SHA와 다른 공식 시청 첨부이다. 원본 ID를 대체하거나 변경하지 않았다.",
+      "publicationRequirement": "Root municipal attachment source adapter; preserve separate source identity and closed application-period label."
+    }
+  ]
+}

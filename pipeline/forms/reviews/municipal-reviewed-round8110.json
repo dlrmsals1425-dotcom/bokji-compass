@@ -1,0 +1,446 @@
+{
+  "schema": 1,
+  "checkedAt": "2026-10-20",
+  "rows": [
+    {
+      "formId": "ordin-22900107",
+      "sourceKind": "ordin",
+      "lawId": "1406334",
+      "stableLawId": "2092126",
+      "lawTitle": "여주시 여성장애인 출산지원금 지급 조례",
+      "annexId": "22900107",
+      "annexNumber": "1",
+      "sourceUrl": "https://www.law.go.kr/flDownload.do?gubun=ELIS&flSeq=170749699&flNm=%EC%97%AC%EC%A3%BC%EC%8B%9C+%EC%97%AC%EC%84%B1%EC%9E%A5%EC%95%A0%EC%9D%B8+%EC%B6%9C%EC%82%B0%EC%A7%80%EC%9B%90%EA%B8%88+%EC%A7%80%EA%B8%89+%EC%A1%B0%EB%A1%80",
+      "officialPdfUrl": null,
+      "dateKind": "effective",
+      "effectiveDate": "2019-07-01",
+      "regionCode": "41670",
+      "regionLabel": "경기도 여주시",
+      "programIds": [
+        "g41670.gov24-570000000105"
+      ],
+      "programNames": [
+        "여성장애인 출산지원금 지원"
+      ],
+      "formTitle": "여주시 여성장애인 출산지원금 지급 조례",
+      "sourceMetadataTitle": "여주시 여성장애인 출산지원금 지급 조례",
+      "verifiedDocumentTitle": "여성장애인 출산지원금 지원 신청서",
+      "role": "application",
+      "use": "main",
+      "condition": "여주시 여성장애인 출산지원 신청용으로 번호 없는 별지를 작성하고 신청인 통장사본을 준비합니다. 원칙적으로 출생신고 후1년 이내 신청하며, 거주180일 미달자는 조례상180일 경과 후 기한을 따릅니다. 아래 증명민원 대조·지원대상 확인란은 담당공무원이 작성합니다. 부칙에 함께 실린 매점계약 우선순위·공공산후조리원 감면표는 이 신청 부분이 아닙니다.",
+      "evidenceUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=1406334",
+      "evidenceNote": "전체4495자의조문8개·부칙/타조례개정표와끝무번호별지를읽었다.제5조는출산여성/유고시양육자신청주체,제6조는별지신청+통장사본을정하며실제본문에여성장애인의장애정도·신생아·출산일·신청인서명이있다.20일정확정부24는여주180일·중증300/경증150만원·읍면동방문을명시한다.현행20일annex키22900107·flSeq170749699로다시다운로드했고구원본과SHA가같아도ID를덮지않고새현행ID만제안한다.",
+      "verificationStatus": "verified",
+      "checkedAt": "2026-10-20",
+      "officialAttachmentMatched": true,
+      "fullBodyReviewed": true,
+      "independentBodyReview": true,
+      "sha256": "ca140fd799e89d45990dc1d96e997211becaf09682d95e2250eb5d02661c6ed7",
+      "bytes": 24064,
+      "signature": "d0cf11e0a1b11ae1",
+      "originalFormat": "hwp",
+      "textScope": "all_body_sections_or_pages",
+      "originalTextScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "BodyText/Section0"
+      ],
+      "originalPath": "pipeline/forms/originals/ordin-22900107.hwp",
+      "reviewedParts": [
+        {
+          "number": "번호 없는 별지",
+          "title": "여성장애인 출산지원금 지원 신청서",
+          "use": "main",
+          "author": "출산한 여성장애인, 유고 시 조례상 친권자 또는 실제 양육자"
+        }
+      ],
+      "selectedParts": [
+        {
+          "number": "번호 없는 별지",
+          "title": "여성장애인 출산지원금 지원 신청서",
+          "use": "main",
+          "author": "출산한 여성장애인, 유고 시 조례상 친권자 또는 실제 양육자"
+        }
+      ],
+      "roleBasis": "전체4495자의조문8개·부칙/타조례개정표와끝무번호별지를읽었다.제5조는출산여성/유고시양육자신청주체,제6조는별지신청+통장사본을정하며실제본문에여성장애인의장애정도·신생아·출산일·신청인서명이있다.20일정확정부24는여주180일·중증300/경증150만원·읍면동방문을명시한다.현행20일annex키22900107·flSeq170749699로다시다운로드했고구원본과SHA가같아도ID를덮지않고새현행ID만제안한다.",
+      "roleEvidenceUrl": "https://www.law.go.kr/flDownload.do?gubun=ELIS&flSeq=170749699&flNm=%EC%97%AC%EC%A3%BC%EC%8B%9C+%EC%97%AC%EC%84%B1%EC%9E%A5%EC%95%A0%EC%9D%B8+%EC%B6%9C%EC%82%B0%EC%A7%80%EC%9B%90%EA%B8%88+%EC%A7%80%EA%B8%89+%EC%A1%B0%EB%A1%80",
+      "roleCheckedAt": "2026-10-20",
+      "currentLawProof": {
+        "annexCount": 1,
+        "articleCount": 8,
+        "bodyPath": "logs/forms-completion/gyeonggi-20261019/current-law-extra10/current-law-bodies/1406334.json.gz",
+        "bodySHA256": "166cc630fa296a021f3eebc3f65a726de2939c7ded0e49d3b2e46ceca2394d2b",
+        "candidates": [
+          {
+            "effectiveDate": "20190701",
+            "lawId": "1406334",
+            "org": "경기도 여주시",
+            "stableLawId": "2092126",
+            "title": "여주시 여성장애인 출산지원금 지급 조례"
+          }
+        ],
+        "checkedAt": "2026-10-20",
+        "currentLaw": {
+          "effectiveDate": "20190701",
+          "lawId": "1406334",
+          "org": "경기도 여주시",
+          "stableLawId": "2092126",
+          "title": "여주시 여성장애인 출산지원금 지급 조례"
+        },
+        "currentLawId": "1406334",
+        "lawId": "1406334",
+        "searchPath": "logs/forms-completion/gyeonggi-20261019/current-law-extra10/current-law-searches/1406334.json",
+        "searchSHA256": "f29c6c0e25c34e50922208933ea2b2c3e16836f63c217b6d22db9bf248a30166",
+        "sourceTitle": "여주시 여성장애인 출산지원금 지급 조례",
+        "state": "source_current"
+      },
+      "lawCurrentCheckedAt": "2026-10-20",
+      "bodyEvidenceText": "제3조(지원대상)① 출산지원금 지원대상 여성장애인은 신생아 출생일을 기준으로 180일 전부터 신청일 현재까지 계속하여 여주시(이하 “시”라 한다) 관내에 주민등록을 두고 거주하는 사람으로 한다.② 시에 주민등록이 되어 있는 여성 장애인이 출산을 하였으나 거주기간이 180일 미만인 경우에는 180일이 경과한 날부터 지원대상자가 된다.③ 신생아 출생 후 여성장애인이 유고(사망 등)로 인하여 출산지원금을 지급할 수 없을 때에는 신생아의 친권자에게 지급할 수 있다. 다만, 친권자가 신생아를 양육하고 있지 아니하는 때에는 시 관내에 주민등록상 같이 거주하며, 신생아를 사실상 양육하고 있는 자로 한다.\n제4조(지원액)① 여주시장(이하 “시장”이라 한다)은 예산 범위에서 다음 각 호와 같이 지급한다.1. 장애정도가 심한 등록장애인 : 300만원 이내<일부개정 2019.06.24.>2. 장애정도가 심하지 않은 등록장애인 : 150만원 이내<일부개정 2019.06.24.>② 제1항에 따른 지원을 받았더라도 「여주시 출산장려 및 다자녀 가정 양육 지원에 관한 조례」에 따른 추가지원을 받을 수 있다.\n제5조(지원신청 등)① 출산지원금 지원 신청인은 출산을 한 여성장애인이 된다. 다만, 제3조 제3항의 경우에는 신생아의 친권자 또는 시 관내에 주민등록상 같이 거주하며, 신생아를 사실상 양육하고 있는 자가 된다.② 제3조 제2항에 따라 시에 거주한 기간이 180일 미만인 경우에는 180일이 경과한 날부터 1년 이내에 읍ㆍ면ㆍ동장에게 신청하여야 한다.③ 출산지원금 대상자는 신생아 출생신고를 한 후 1년 이내에 읍ㆍ면ㆍ동장에게 출산지원금을 신청하여야 한다.\n제6조(지원절차)① 제5조에 따른 출산지원금 지원신청에 필요한 서류는 다음과 같다.1. 별지서식에 따른 신청서 1부2. 신청인 예금통장 사본 1부② 읍ㆍ면ㆍ동장은 신청서가 접수되면 다음 사항을 확인한 후 지원대상자로 인정되는 경우에는 신청서를 시장에게 송부하여야 한다.1. 신생아의 출생신고 사항2. 신생아를 출산한 여성장애인의 관내 주민등록 여부와 거주기간3. 출산 여성장애인의 장애정도<일부개정 2019.06.24.>",
+      "sourceProof": {
+        "downloadRecord": "logs/forms-completion/gyeonggi-20261019/team2/documents/current-portal-ordin-22900107-20261020.json",
+        "downloadRecordSHA256": "92b8e8ed6e46bcc6de067fa0010086178afcc9c53d8e20208f4ee28b8da89dc9",
+        "freshHTTPStatus": 200,
+        "actualOriginalBytesRechecked": true,
+        "lawBodyPath": "logs/forms-completion/gyeonggi-20261019/current-law-extra10/current-law-bodies/1406334.json.gz",
+        "lawBodySHA256": "166cc630fa296a021f3eebc3f65a726de2939c7ded0e49d3b2e46ceca2394d2b",
+        "flSeq": "170749699",
+        "programPagePath": "logs/forms-completion/gyeonggi-20261019/team2/sources/yeoju-disabled-birth-program-20261020.json",
+        "programPageSHA256": "828362bf19f260bd89099ab962df9fa6234a61969be84ce27ec83a5eb5fc1856"
+      },
+      "programEvidenceUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/570000000105",
+      "embeddedImageCount": 0,
+      "noFilledPersonalDataObserved": true,
+      "currentFormConfirmed": true,
+      "publicationApproved": false,
+      "proposalStatus": "ready_for_current_annex_supplement_gate",
+      "replacesPreviousSourceFormId": "ordin-18260239",
+      "sameBytesAsPreviousSource": true,
+      "excludedParts": [
+        {
+          "title": "부칙의 매점·자동판매기 우선순위와 산후조리원 감면표",
+          "reason": "출산지원 신청과 다른 조례 자료"
+        }
+      ],
+      "displayTitle": "여성장애인 출산지원금 지원 신청서",
+      "coordinatorApproved": true,
+      "coordinatorReason": "전체4495자의조문8개·부칙/타조례개정표와끝무번호별지를읽었다.제5조는출산여성/유고시양육자신청주체,제6조는별지신청+통장사본을정하며실제본문에여성장애인의장애정도·신생아·출산일·신청인서명이있다.20일정확정부24는여주180일·중증300/경증150만원·읍면동방문을명시한다.현행20일annex키22900107·flSeq170749699로다시다운로드했고구원본과SHA가같아도ID를덮지않고새현행ID만제안한다.",
+      "currentAnnexBinding": {
+        "binding": "bound",
+        "bindingReason": "OFFICIAL_ANNEX_BOUND_WITH_SAME_FILE",
+        "officialAnnexId": "22900107",
+        "officialAnnexNumber": "1",
+        "officialAnnexTitle": "여주시 여성장애인 출산지원금 지급 조례",
+        "officialFlSeq": "170749699",
+        "officialAnnexUrl": "https://www.law.go.kr/flDownload.do?gubun=ELIS&flSeq=170749699&flNm=%EC%97%AC%EC%A3%BC%EC%8B%9C+%EC%97%AC%EC%84%B1%EC%9E%A5%EC%95%A0%EC%9D%B8+%EC%B6%9C%EC%82%B0%EC%A7%80%EC%9B%90%EA%B8%88+%EC%A7%80%EA%B8%89+%EC%A1%B0%EB%A1%80",
+        "officialAnnexDeleted": false
+      }
+    },
+    {
+      "formId": "ordin-22901167",
+      "sourceKind": "ordin",
+      "lawId": "2049835",
+      "stableLawId": "2092192",
+      "lawTitle": "여주시 장애인보장구 수리비용 지원에 관한 조례",
+      "annexId": "22901167",
+      "annexNumber": "1",
+      "sourceUrl": "https://www.law.go.kr/flDownload.do?gubun=ELIS&flSeq=170752711&flNm=%EC%97%AC%EC%A3%BC%EC%8B%9C+%EC%9E%A5%EC%95%A0%EC%9D%B8%EB%B3%B4%EC%9E%A5%EA%B5%AC+%EC%88%98%EB%A6%AC%EB%B9%84%EC%9A%A9+%EC%A7%80%EC%9B%90%EC%97%90+%EA%B4%80%ED%95%9C+%EC%A1%B0%EB%A1%80",
+      "officialPdfUrl": null,
+      "dateKind": "effective",
+      "effectiveDate": "2025-06-30",
+      "regionCode": "41670",
+      "regionLabel": "경기도 여주시",
+      "programIds": [
+        "g41670.gov24-570000000106"
+      ],
+      "programNames": [
+        "장애인 보장구 수리비용 지원"
+      ],
+      "formTitle": "여주시 장애인보장구 수리비용 지원에 관한 조례",
+      "sourceMetadataTitle": "여주시 장애인보장구 수리비용 지원에 관한 조례",
+      "verifiedDocumentTitle": "장애인보장구 수리 신청서",
+      "role": "application",
+      "use": "main",
+      "condition": "여주시 지정업체의 수동·전동휠체어 또는 전동스쿠터 수리 지원을 받으려는 주민은 별지3을 거주지 읍·면·동에 제출합니다. 지원 결정과 지정업체 의뢰 절차를 거친 수리용이며, 별지1·2 업체 지정, 별지4 기관 의뢰, 별지5·6 업체 수리내역·비용청구는 주민 작성 부분에서 제외합니다.",
+      "evidenceUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=2049835",
+      "evidenceNote": "전체4221자의현행9조문·부칙·별지1~6을읽었다.제6조①이주민3호신청을명시하고②는기관4호의뢰,③은업체5/6호청구로분리한다.실제3호는수급유형·보장구유형·수리부위·신청인서명으로작성된다.20일정부24의여주등록장애인/수급차상위연20만원·일반연10만원50%및주민센터접수가현행제5조와일치한다.양식의남아있는장애등급표현을별도등급자격제한으로해석하지않았다.현행키22901167/flSeq170752711의실제바이트를확인했다.",
+      "verificationStatus": "verified",
+      "checkedAt": "2026-10-20",
+      "officialAttachmentMatched": true,
+      "fullBodyReviewed": true,
+      "independentBodyReview": true,
+      "sha256": "e6f031a951ebd84d9375df3c7608c904e87e9e945890b2bac0d042bd73960938",
+      "bytes": 65024,
+      "signature": "d0cf11e0a1b11ae1",
+      "originalFormat": "hwp",
+      "textScope": "all_body_sections_or_pages",
+      "originalTextScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "BodyText/Section0"
+      ],
+      "originalPath": "pipeline/forms/originals/ordin-22901167.hwp",
+      "reviewedParts": [
+        {
+          "number": "3",
+          "title": "장애인보장구 수리 신청서",
+          "use": "main",
+          "author": "보장구 수리 지원을 신청하는 등록장애인"
+        }
+      ],
+      "selectedParts": [
+        {
+          "number": "3",
+          "title": "장애인보장구 수리 신청서",
+          "use": "main",
+          "author": "보장구 수리 지원을 신청하는 등록장애인"
+        }
+      ],
+      "roleBasis": "전체4221자의현행9조문·부칙·별지1~6을읽었다.제6조①이주민3호신청을명시하고②는기관4호의뢰,③은업체5/6호청구로분리한다.실제3호는수급유형·보장구유형·수리부위·신청인서명으로작성된다.20일정부24의여주등록장애인/수급차상위연20만원·일반연10만원50%및주민센터접수가현행제5조와일치한다.양식의남아있는장애등급표현을별도등급자격제한으로해석하지않았다.현행키22901167/flSeq170752711의실제바이트를확인했다.",
+      "roleEvidenceUrl": "https://www.law.go.kr/flDownload.do?gubun=ELIS&flSeq=170752711&flNm=%EC%97%AC%EC%A3%BC%EC%8B%9C+%EC%9E%A5%EC%95%A0%EC%9D%B8%EB%B3%B4%EC%9E%A5%EA%B5%AC+%EC%88%98%EB%A6%AC%EB%B9%84%EC%9A%A9+%EC%A7%80%EC%9B%90%EC%97%90+%EA%B4%80%ED%95%9C+%EC%A1%B0%EB%A1%80",
+      "roleCheckedAt": "2026-10-20",
+      "currentLawProof": {
+        "annexCount": 1,
+        "articleCount": 9,
+        "bodyPath": "logs/forms-completion/gyeonggi-20261019/current-law-extra10/current-law-bodies/2049835.json.gz",
+        "bodySHA256": "20a06831009c456bb280a050a53dbfc6ae56acc982ddd7286771ec9550b9998b",
+        "candidates": [
+          {
+            "effectiveDate": "20250630",
+            "lawId": "2049835",
+            "org": "경기도 여주시",
+            "stableLawId": "2092192",
+            "title": "여주시 장애인보장구 수리비용 지원에 관한 조례"
+          }
+        ],
+        "checkedAt": "2026-10-20",
+        "currentLaw": {
+          "effectiveDate": "20250630",
+          "lawId": "2049835",
+          "org": "경기도 여주시",
+          "stableLawId": "2092192",
+          "title": "여주시 장애인보장구 수리비용 지원에 관한 조례"
+        },
+        "currentLawId": "2049835",
+        "lawId": "2049835",
+        "searchPath": "logs/forms-completion/gyeonggi-20261019/current-law-extra10/current-law-searches/2049835.json",
+        "searchSHA256": "17f61235e631b3b47ea9a25fb432a83b2ddd9a93c8dde5121635d31d4eb424f4",
+        "sourceTitle": "여주시 장애인보장구 수리비용 지원에 관한 조례",
+        "state": "source_current"
+      },
+      "lawCurrentCheckedAt": "2026-10-20",
+      "bodyEvidenceText": "제5조(지원대상과 기준)① 시장은 시에 거주하는 장애인의 보장구 수리비용에 대하여 예산의 범위 내에서 지원할 수 있다. 단, 건강보험 및 의료급여기금에서 지원되는 비용은 제외한다.② 제1항의 구체적 수리비용 지원기준은 다음 각 호와 같다. <일부개정 2025.6.30.>1. 「국민기초생활 보장법」에 따른 수급자 또는 차상위계층에 해당되는 장애인에게 수리비 전액을 지원하되, 연간 20만원 이내로 한다.2. 제1호에 해당하지 아니하는 장애인은 수리비용의 2분의1을 지원하되, 연간 10만원 이내에서 지원한다.③ 수리비용 지원은 제3조에 따라 시장이 지정ㆍ운영하는 업체를 이용한 경우에 한한다.④ 수리는 원칙적으로 출고 시 장착된 부품을 사용하고 개인이 임의적으로 장착한 부품, 장비 등은 지원 대상에서 제외한다.\n제6조(지원절차)① 보장구 수리비용을 지원받고자 하는 사람은 관할 거주지 읍ㆍ면ㆍ동장에게 별지 제3호서식의 신청서를 제출하고, 읍ㆍ면ㆍ동장은 다음 각 호의 사항을 검토하여 수리비용 지원대상자를 결정한다.1. 관내 거주 등록 장애인 여부2. 수급자 및 차상위계층 해당 여부② 읍ㆍ면ㆍ동장은 제1항에 따라 지원대상자로 인정되는 경우 별지 제4호서식의 수리 의뢰서를 지정 수리업체에 보내며, 수리업체에서는 수리 의뢰서에 따라 수리를 이행한다.③ 수리업체는 수리를 완료한 후 매달 1일부터 말일까지의 수리내역을 별지 제5호서식에 따라 첨부하여 별지 제6호서식의 청구서를 다음 달 10일까지 시장에게 제출하여야 한다.④ 시장은 읍ㆍ면ㆍ동장으로부터 보고받은 수리비용 지원대상자 결정현황과 수리업체로부터 제출받은 수리내역 및 청구서를 확인한 후 송부 받은 달의 말일까지 수리업체의 지정계좌에 청구된 금액을 입금하여야 한다. <일부개정 2025.6.30.>",
+      "sourceProof": {
+        "downloadRecord": "logs/forms-completion/gyeonggi-20261019/team2/documents/current-portal-ordin-22901167-20261020.json",
+        "downloadRecordSHA256": "1017598f664f5cddbd2f4a0c25cc147f2bcf4cdda69d66ac48a602783bfbdab5",
+        "freshHTTPStatus": 200,
+        "actualOriginalBytesRechecked": true,
+        "lawBodyPath": "logs/forms-completion/gyeonggi-20261019/current-law-extra10/current-law-bodies/2049835.json.gz",
+        "lawBodySHA256": "20a06831009c456bb280a050a53dbfc6ae56acc982ddd7286771ec9550b9998b",
+        "flSeq": "170752711",
+        "programPagePath": "logs/forms-completion/gyeonggi-20261019/team2/sources/yeoju-mobility-repair-program-20261020.json",
+        "programPageSHA256": "af818026f0e28d9f1525e44e3940fee68ae6635954cb1a2d2df2775159b7c8a1"
+      },
+      "programEvidenceUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/570000000106",
+      "embeddedImageCount": 0,
+      "noFilledPersonalDataObserved": true,
+      "currentFormConfirmed": true,
+      "publicationApproved": false,
+      "proposalStatus": "ready_for_current_annex_supplement_gate",
+      "replacesPreviousSourceFormId": "ordin-20365849",
+      "sameBytesAsPreviousSource": true,
+      "excludedParts": [
+        {
+          "number": "1,2,4,5,6",
+          "title": "업체지정 신청·지정서·기관수리의뢰·업체내역·비용청구",
+          "reason": "주민의 별지3 신청과 다른 작성주체·단계"
+        }
+      ],
+      "displayTitle": "장애인보장구 수리 신청서",
+      "coordinatorApproved": true,
+      "coordinatorReason": "전체4221자의현행9조문·부칙·별지1~6을읽었다.제6조①이주민3호신청을명시하고②는기관4호의뢰,③은업체5/6호청구로분리한다.실제3호는수급유형·보장구유형·수리부위·신청인서명으로작성된다.20일정부24의여주등록장애인/수급차상위연20만원·일반연10만원50%및주민센터접수가현행제5조와일치한다.양식의남아있는장애등급표현을별도등급자격제한으로해석하지않았다.현행키22901167/flSeq170752711의실제바이트를확인했다.",
+      "currentAnnexBinding": {
+        "binding": "bound",
+        "bindingReason": "OFFICIAL_ANNEX_BOUND_WITH_SAME_FILE",
+        "officialAnnexId": "22901167",
+        "officialAnnexNumber": "1",
+        "officialAnnexTitle": "여주시 장애인보장구 수리비용 지원에 관한 조례",
+        "officialFlSeq": "170752711",
+        "officialAnnexUrl": "https://www.law.go.kr/flDownload.do?gubun=ELIS&flSeq=170752711&flNm=%EC%97%AC%EC%A3%BC%EC%8B%9C+%EC%9E%A5%EC%95%A0%EC%9D%B8%EB%B3%B4%EC%9E%A5%EA%B5%AC+%EC%88%98%EB%A6%AC%EB%B9%84%EC%9A%A9+%EC%A7%80%EC%9B%90%EC%97%90+%EA%B4%80%ED%95%9C+%EC%A1%B0%EB%A1%80",
+        "officialAnnexDeleted": false
+      }
+    },
+    {
+      "formId": "ordin-22901313",
+      "sourceKind": "ordin",
+      "lawId": "2123407",
+      "stableLawId": "2185119",
+      "lawTitle": "여주시 저소득주민 자녀 학력 향상 생활자금 지원 조례 시행규칙",
+      "annexId": "22901313",
+      "annexNumber": "1",
+      "sourceUrl": "https://www.law.go.kr/flDownload.do?gubun=ELIS&flSeq=170753247&flNm=%EC%97%AC%EC%A3%BC%EC%8B%9C+%EC%A0%80%EC%86%8C%EB%93%9D%EC%A3%BC%EB%AF%BC+%EC%9E%90%EB%85%80+%ED%95%99%EB%A0%A5+%ED%96%A5%EC%83%81+%EC%83%9D%ED%99%9C%EC%9E%90%EA%B8%88+%EC%A7%80%EC%9B%90+%EC%A1%B0%EB%A1%80+%EC%8B%9C%ED%96%89%EA%B7%9C%EC%B9%99",
+      "officialPdfUrl": null,
+      "dateKind": "effective",
+      "effectiveDate": "2026-04-15",
+      "regionCode": "41670",
+      "regionLabel": "경기도 여주시",
+      "programIds": [
+        "g41670.gov24-570000000112"
+      ],
+      "programNames": [
+        "저소득 주민 자녀 학력향상 생활자금 지원"
+      ],
+      "formTitle": "여주시 저소득주민 자녀 학력 향상 생활자금 지원 조례 시행규칙",
+      "sourceMetadataTitle": "여주시 저소득주민 자녀 학력 향상 생활자금 지원 조례 시행규칙",
+      "verifiedDocumentTitle": "학력 향상 생활자금 지원 신청서",
+      "role": "application",
+      "use": "conditional",
+      "condition": "접수기관이 정한10월 말~11월 중순 모집기간에 학력향상 생활자금을 신청할 때 별지1을 사용합니다. 학생 또는 보호자가 신청·동의하고 통장사본, 학교생활기록부와 해당 실적 증빙을 준비합니다. 신청서 하단의 공무원 확인·추천란과 별지2 자격 조사표는 기관이 작성합니다. 현재 서식 확인은 접수 개시일이 확인되었다는 뜻이 아니므로 해당 연도 모집기간을 확인하여 제출합니다.",
+      "evidenceUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=2123407",
+      "evidenceNote": "규칙7조문·부칙·별지1/2전체3313자와상위현행조례2178721의7조문·부칙을읽었다.규칙제3조는학생또는보호자의1호제출,4/5조는읍면동의2호조사를구분한다.상위3조중고생/고등교육학생과규칙6조40/60/100만원이20일정부24의정확사업과일치한다.법령상현재원본키22901313/flSeq170753247의바이트와서명란을확인했으나정부24가10월말~11월중순만안내하므로현재20일즉시접수가능으로주장하지않고모집기간조건으로만제안한다.",
+      "verificationStatus": "verified",
+      "checkedAt": "2026-10-20",
+      "officialAttachmentMatched": true,
+      "fullBodyReviewed": true,
+      "independentBodyReview": true,
+      "sha256": "3975c5b2b78035cdf5e8cb652d2950d171c4f86905bab7adaa180f08543b2b88",
+      "bytes": 54784,
+      "signature": "d0cf11e0a1b11ae1",
+      "originalFormat": "hwp",
+      "textScope": "all_body_sections_or_pages",
+      "originalTextScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "BodyText/Section0"
+      ],
+      "originalPath": "pipeline/forms/originals/ordin-22901313.hwp",
+      "reviewedParts": [
+        {
+          "number": "1",
+          "title": "학력 향상 생활자금 지원 신청서",
+          "use": "conditional",
+          "author": "지원 대상 학생 또는 보호자(규칙상 친권자·부양의무자·지도교사 포함)"
+        }
+      ],
+      "selectedParts": [
+        {
+          "number": "1",
+          "title": "학력 향상 생활자금 지원 신청서",
+          "use": "conditional",
+          "author": "지원 대상 학생 또는 보호자(규칙상 친권자·부양의무자·지도교사 포함)"
+        }
+      ],
+      "roleBasis": "규칙7조문·부칙·별지1/2전체3313자와상위현행조례2178721의7조문·부칙을읽었다.규칙제3조는학생또는보호자의1호제출,4/5조는읍면동의2호조사를구분한다.상위3조중고생/고등교육학생과규칙6조40/60/100만원이20일정부24의정확사업과일치한다.법령상현재원본키22901313/flSeq170753247의바이트와서명란을확인했으나정부24가10월말~11월중순만안내하므로현재20일즉시접수가능으로주장하지않고모집기간조건으로만제안한다.",
+      "roleEvidenceUrl": "https://www.law.go.kr/flDownload.do?gubun=ELIS&flSeq=170753247&flNm=%EC%97%AC%EC%A3%BC%EC%8B%9C+%EC%A0%80%EC%86%8C%EB%93%9D%EC%A3%BC%EB%AF%BC+%EC%9E%90%EB%85%80+%ED%95%99%EB%A0%A5+%ED%96%A5%EC%83%81+%EC%83%9D%ED%99%9C%EC%9E%90%EA%B8%88+%EC%A7%80%EC%9B%90+%EC%A1%B0%EB%A1%80+%EC%8B%9C%ED%96%89%EA%B7%9C%EC%B9%99",
+      "roleCheckedAt": "2026-10-20",
+      "currentLawProof": {
+        "annexCount": 1,
+        "articleCount": 7,
+        "bodyPath": "logs/forms-completion/gyeonggi-20261019/current-law-extra10/current-law-bodies/2123407.json.gz",
+        "bodySHA256": "f4d4c5bee3fb764d2f57c64a6b8ef0d0163dcf8d8e1525d14eded09ed48c1fcf",
+        "candidates": [
+          {
+            "effectiveDate": "20260415",
+            "lawId": "2123407",
+            "org": "경기도 여주시",
+            "stableLawId": "2185119",
+            "title": "여주시 저소득주민 자녀 학력 향상 생활자금 지원 조례 시행규칙"
+          }
+        ],
+        "checkedAt": "2026-10-20",
+        "currentLaw": {
+          "effectiveDate": "20260415",
+          "lawId": "2123407",
+          "org": "경기도 여주시",
+          "stableLawId": "2185119",
+          "title": "여주시 저소득주민 자녀 학력 향상 생활자금 지원 조례 시행규칙"
+        },
+        "currentLawId": "2123407",
+        "lawId": "2123407",
+        "searchPath": "logs/forms-completion/gyeonggi-20261019/current-law-extra10/current-law-searches/2123407.json",
+        "searchSHA256": "98093a6de8a44a0b97db27a98e91c6289a1a31e5682d574a68360723a1c8c4c1",
+        "sourceTitle": "여주시 저소득주민 자녀 학력 향상 생활자금 지원 조례 시행규칙",
+        "state": "source_current"
+      },
+      "lawCurrentCheckedAt": "2026-10-20",
+      "bodyEvidenceText": "제3조(신청) 생활자금을 신청하고자 하는 학생 또는 그 보호자(친권자, 부양의무자, 지도교사를 포함한다. 이하 같다)는 별지 제1호서식에 따른 신청서 및 관련 서류를 거주지 관할 읍ㆍ면ㆍ동장에게 제출한다.\n제4조(추천) 신청서를 접수한 읍ㆍ면ㆍ동장은 별지 제2호서식에 따라 자격 조사표를 작성하고, 조례 제2조제1호의 지급대상자 증명 서류를 첨부하여 여주시장(이하 “시장”이라 한다)에게 추천한다. <일부개정 2026.4.15.>\n제6조(지급정원 및 지급액)① 조례 제4조에 따른 지급 정원은 다음과 같다.1. 중학생, 고등학생 : 각 15명 이내2. 조례 제3조제1항제2호의 자 : 5명 이내② 조례 제6조에 따른 지급액은 다음과 같다.1. 중 학 생 : 40만원 이내2. 고등학생 : 60만원 이내3. 조례 제3조제1항제2호의 자 : 100만원 이내",
+      "sourceProof": {
+        "downloadRecord": "logs/forms-completion/gyeonggi-20261019/team2/documents/current-portal-ordin-22901313-20261020.json",
+        "downloadRecordSHA256": "18f652529d23d381662edca739d444699999973861c14114fd98198c0a244fd2",
+        "freshHTTPStatus": 200,
+        "actualOriginalBytesRechecked": true,
+        "lawBodyPath": "logs/forms-completion/gyeonggi-20261019/current-law-extra10/current-law-bodies/2123407.json.gz",
+        "lawBodySHA256": "f4d4c5bee3fb764d2f57c64a6b8ef0d0163dcf8d8e1525d14eded09ed48c1fcf",
+        "flSeq": "170753247",
+        "programPagePath": "logs/forms-completion/gyeonggi-20261019/team2/sources/yeoju-learning-support-program-20261020.json",
+        "programPageSHA256": "48cd01a30f1cefe97cfb6d7458d1584ddc089d9ee0df56a1f4ff5a8a346812b6"
+      },
+      "programEvidenceUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/570000000112",
+      "embeddedImageCount": 0,
+      "noFilledPersonalDataObserved": true,
+      "currentFormConfirmed": true,
+      "publicationApproved": false,
+      "proposalStatus": "ready_for_current_annex_supplement_gate",
+      "replacesPreviousSourceFormId": "ordin-21767391",
+      "sameBytesAsPreviousSource": true,
+      "additionalLawEvidence": [
+        {
+          "annexCount": 1,
+          "articleCount": 7,
+          "bodyPath": "logs/forms-completion/gyeonggi-20261019/current-law-extra10/current-law-bodies/2178721.json.gz",
+          "bodySHA256": "e0fc478436c814dc207fc2b063ec352a4954e666b026818e83861656738072e0",
+          "candidates": [
+            {
+              "effectiveDate": "20260928",
+              "lawId": "2178721",
+              "org": "경기도 여주시",
+              "stableLawId": "2177472",
+              "title": "여주시 저소득주민 자녀 학력 향상 생활자금 지원 조례"
+            }
+          ],
+          "checkedAt": "2026-10-20",
+          "currentLaw": {
+            "effectiveDate": "20260928",
+            "lawId": "2178721",
+            "org": "경기도 여주시",
+            "stableLawId": "2177472",
+            "title": "여주시 저소득주민 자녀 학력 향상 생활자금 지원 조례"
+          },
+          "currentLawId": "2178721",
+          "lawId": "2178721",
+          "searchPath": "logs/forms-completion/gyeonggi-20261019/current-law-extra10/current-law-searches/2178721.json",
+          "searchSHA256": "c246d0cd9d80401248ceeb598b998289e35c7070acef2758d4c2f9439cbad4fb",
+          "sourceTitle": "여주시 저소득주민 자녀 학력 향상 생활자금 지원 조례",
+          "state": "source_current"
+        }
+      ],
+      "excludedParts": [
+        {
+          "number": "2",
+          "title": "학력 향상 생활자금 수급 자격 조사표",
+          "reason": "기관 평가·조사표"
+        }
+      ],
+      "applicationPeriod": {
+        "label": "10월 말~11월 중순",
+        "exactStartDateConfirmed": false,
+        "exactEndDateConfirmed": false,
+        "intakeCurrentlyOpenConfirmed": false,
+        "sourceUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/570000000112"
+      },
+      "scopeEvidenceNote": "사이트는상위조례를인용하고현행동일법계열시행규칙제3조가해당학생신청서1호를직접지정함.",
+      "displayTitle": "학력 향상 생활자금 지원 신청서",
+      "coordinatorApproved": true,
+      "coordinatorReason": "규칙7조문·부칙·별지1/2전체3313자와상위현행조례2178721의7조문·부칙을읽었다.규칙제3조는학생또는보호자의1호제출,4/5조는읍면동의2호조사를구분한다.상위3조중고생/고등교육학생과규칙6조40/60/100만원이20일정부24의정확사업과일치한다.법령상현재원본키22901313/flSeq170753247의바이트와서명란을확인했으나정부24가10월말~11월중순만안내하므로현재20일즉시접수가능으로주장하지않고모집기간조건으로만제안한다.",
+      "currentAnnexBinding": {
+        "binding": "bound",
+        "bindingReason": "OFFICIAL_ANNEX_BOUND_WITH_SAME_FILE",
+        "officialAnnexId": "22901313",
+        "officialAnnexNumber": "1",
+        "officialAnnexTitle": "여주시 저소득주민 자녀 학력 향상 생활자금 지원 조례 시행규칙",
+        "officialFlSeq": "170753247",
+        "officialAnnexUrl": "https://www.law.go.kr/flDownload.do?gubun=ELIS&flSeq=170753247&flNm=%EC%97%AC%EC%A3%BC%EC%8B%9C+%EC%A0%80%EC%86%8C%EB%93%9D%EC%A3%BC%EB%AF%BC+%EC%9E%90%EB%85%80+%ED%95%99%EB%A0%A5+%ED%96%A5%EC%83%81+%EC%83%9D%ED%99%9C%EC%9E%90%EA%B8%88+%EC%A7%80%EC%9B%90+%EC%A1%B0%EB%A1%80+%EC%8B%9C%ED%96%89%EA%B7%9C%EC%B9%99",
+        "officialAnnexDeleted": false
+      }
+    }
+  ],
+  "sourceReview": {
+    "scopeFile": "pipeline/forms/reviews/gyeonggi-portal-originals-scope-round8110.json"
+  }
+}

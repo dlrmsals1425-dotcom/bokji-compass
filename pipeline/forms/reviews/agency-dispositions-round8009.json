@@ -1,0 +1,103 @@
+{
+  "schema": 1,
+  "checkedAt": "2026-10-19",
+  "status": "complete",
+  "items": [
+    {
+      "formId": "agency-41290-pregnancy-city-164743",
+      "sha256": "61b76a0a6f053283b009a067e870afca40d8c04404b4e0ef9ae2e5c039a2781e",
+      "disposition": "approved",
+      "fullBodyReviewed": true,
+      "reason": "과천 보건소의 현재 임신·출산 관리 안내는 카드형 지역화폐20만원·3개월 거주·출산후30일 이내 및 보건소/보조금24 신청을 설명하며164743 신청서 페이지로 직접 연결한다. 해당 페이지의 실제 HWP를 내려받아 서식1 신청·2 정보제공동의·3 위임장 전체 Section0을 읽었다. 보류한 복지로 구원본과 달리 통장 사본 요구가 없어 현재 지급방식과 충돌이 해소됐으며 실제SHA도 다르다.",
+      "evidenceUrl": "https://www.gccity.go.kr/ghc/bbs/view.do?bIdx=164743&ptIdx=281&mId=0708010000",
+      "checkedAt": "2026-10-19",
+      "relatedProgramIds": [
+        "g41290.gov24-397000000142"
+      ],
+      "reviewedProgramPairs": [
+        {
+          "programId": "g41290.gov24-397000000142",
+          "disposition": "approved"
+        }
+      ],
+      "sourceProposal": "logs/forms-completion/gyeonggi-20261019/root/normalized-round8009.json",
+      "sourceProposalSHA256": "7dc43a7447c029408006d10a491888a30a8539144eff251e2ee4e5548b25939d",
+      "sourceLawBodySHA256": null,
+      "sourcePageSHA256": "d1aca57130ec422a616836d0df430868386945302cac7ec7de69096cdb42e5f2",
+      "authorityBasis": {
+        "kind": "official-program",
+        "title": "과천시 임신축하금 신청서·동의서·위임장 공식 배포 안내",
+        "evidenceUrl": "https://www.gccity.go.kr/ghc/bbs/view.do?bIdx=164743&ptIdx=281&mId=0708010000",
+        "checkedAt": "2026-10-19",
+        "evidenceNote": "과천 보건소의 현재 임신·출산 관리 안내는 카드형 지역화폐20만원·3개월 거주·출산후30일 이내 및 보건소/보조금24 신청을 설명하며164743 신청서 페이지로 직접 연결한다. 해당 페이지의 실제 HWP를 내려받아 서식1 신청·2 정보제공동의·3 위임장 전체 Section0을 읽었다. 보류한 복지로 구원본과 달리 통장 사본 요구가 없어 현재 지급방식과 충돌이 해소됐으며 실제SHA도 다르다.",
+        "pageSHA256": "d1aca57130ec422a616836d0df430868386945302cac7ec7de69096cdb42e5f2"
+      },
+      "selectedParts": [
+        {
+          "number": "서식1호",
+          "title": "임신 축하금 지원 신청서",
+          "use": "main",
+          "author": "임신부 본인 또는 적법한 대리인"
+        },
+        {
+          "number": "서식2호",
+          "title": "임신축하금 지원사업 개인정보 제공 동의서",
+          "use": "additional",
+          "author": "정보제공 동의자"
+        },
+        {
+          "number": "서식3호",
+          "title": "위임장",
+          "use": "conditional",
+          "author": "대리신청을 위임하는 임신부"
+        }
+      ]
+    },
+    {
+      "formId": "agency-41290-gcuc-mobility-registration-809c013d",
+      "sha256": "88e8af83b7470f9fe010a4e299f9b9d859adca3378df3c819a0007a48268b054",
+      "disposition": "approved",
+      "fullBodyReviewed": true,
+      "reason": "과천도시공사 현재 이용절차1282가 이용대상 등록신청서 작성 및 메일·팩스 제출을 직접 명시하고809c013dfa6b3ddea33eb3e9f87dd3a5 원본을 배포한다. 실제 두 BodyText 섹션 전체에서 특별/대체수단 선택,과천시장 수신,신청인·이용대상자,서약과 경기도·과천시 통합 개인정보·민감정보 동의를 확인했다. 구 복지로 지침의 수탁기관·14일 심사와 달리 현재 공사 안내는7일 심사 및 현행 차량유형별 증빙을 명시한다. 과천시 공식 기관소개가 gcuc.or.kr로 직접 연결됨도 대조했다.",
+      "evidenceUrl": "https://www.gcuc.or.kr/fmcs/1282",
+      "checkedAt": "2026-10-19",
+      "relatedProgramIds": [
+        "g41290.bokjiro-WLF00000974"
+      ],
+      "reviewedProgramPairs": [
+        {
+          "programId": "g41290.bokjiro-WLF00000974",
+          "disposition": "approved"
+        }
+      ],
+      "sourceProposal": "logs/forms-completion/gyeonggi-20261019/root/normalized-round8009.json",
+      "sourceProposalSHA256": "7dc43a7447c029408006d10a491888a30a8539144eff251e2ee4e5548b25939d",
+      "sourceLawBodySHA256": null,
+      "sourcePageSHA256": "26a9e0cd8037105381ce10df281585536fbca87bcabf35341f2ec7c7f5f55b0b",
+      "authorityBasis": {
+        "kind": "official-program",
+        "title": "과천시 교통약자 이동지원 이용대상자 등록신청서·동의서 공식 배포 안내",
+        "evidenceUrl": "https://www.gcuc.or.kr/fmcs/1282",
+        "checkedAt": "2026-10-19",
+        "evidenceNote": "과천도시공사 현재 이용절차1282가 이용대상 등록신청서 작성 및 메일·팩스 제출을 직접 명시하고809c013dfa6b3ddea33eb3e9f87dd3a5 원본을 배포한다. 실제 두 BodyText 섹션 전체에서 특별/대체수단 선택,과천시장 수신,신청인·이용대상자,서약과 경기도·과천시 통합 개인정보·민감정보 동의를 확인했다. 구 복지로 지침의 수탁기관·14일 심사와 달리 현재 공사 안내는7일 심사 및 현행 차량유형별 증빙을 명시한다. 과천시 공식 기관소개가 gcuc.or.kr로 직접 연결됨도 대조했다.",
+        "pageSHA256": "26a9e0cd8037105381ce10df281585536fbca87bcabf35341f2ec7c7f5f55b0b"
+      },
+      "selectedParts": [
+        {
+          "number": "무번호(등록신청서 앞·뒤)",
+          "title": "특별교통수단 등 이용대상자 등록 신청서 및 서약서",
+          "use": "main",
+          "author": "이용대상자 본인 또는 적법한 대리신청인"
+        },
+        {
+          "number": "무번호(통합 동의서)",
+          "title": "경기도 및 과천시 교통약자 이동지원센터 개인정보 수집·이용 및 제공·활용 동의서",
+          "use": "additional",
+          "author": "이용대상자·보조인, 해당 시 법정대리인"
+        }
+      ]
+    }
+  ],
+  "scopeFile": "pipeline/forms/reviews/agency-originals-scope-round8009.json",
+  "scopeSHA256": "cde6430bd1623fd208315de486902d5f97d27fdd24385a0e0e9bc7f1195223a7"
+}

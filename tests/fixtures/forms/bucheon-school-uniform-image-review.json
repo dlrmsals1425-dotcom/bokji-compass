@@ -1,0 +1,179 @@
+{
+  "schema": 1,
+  "entry": {
+    "sourceKind": "agency",
+    "role": "application",
+    "use": "main",
+    "condition": "부천시 대안교육기관 등 교복비 지원의 부득이한 방문 신청 시 확인하는 이미지 원본입니다. 학생·보호자·학교유형·실구매내역을 기재하고 재학·교복구입·거주증명 등 현행 안내의 구비서류를 준비합니다. 온라인 신청은 경기민원24에서 진행합니다.",
+    "regionCode": "41190",
+    "regionLabel": "경기도 부천시",
+    "agencyName": "부천시 평생교육과(복지로 공식 배포)",
+    "authorityKind": "government",
+    "authorityEvidenceKind": "government",
+    "authorityEvidenceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00000001&wlfareInfoReldBztpCd=02",
+    "authorityEvidenceNote": "해당사업의 현재 공식 안내 페이지에서 신청주체·지원목적·접수방법과 정확한 첨부 다운로드를 대조하였다. JPEG원본전체를시각으로읽어참고5교복지원신청서임을확인했다. 학생·보호자·대안교육기관/타시도학교선택·입전학일·주소·교복품목별구입액·중복수혜·정보제공동의·서명란이있고실제개인정보는채워지지않았다. 현재복지로WLF00000001이정확이미지를배포하며부천거주대안교육기관/타시도중고입학생·실구매비상한40만원·부득이한방문신청경로를명시하므로실제신청용도는맞는다. OO시군은작성용빈칸이며과천처럼다른관할이인쇄된서식이아니다.",
+    "sourcePageUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00000001&wlfareInfoReldBztpCd=02",
+    "sourceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twata/CmmFileUtil/getDownload.do?atcflId=20230518UUWBM1354180035220635&atcflSn=1&wlfareInfoId=WLF00000001",
+    "finalUrl": "https://www.bokjiro.go.kr/ssis-tbu/twata/CmmFileUtil/getDownload.do?atcflId=20230518UUWBM1354180035220635&atcflSn=1&wlfareInfoId=WLF00000001",
+    "attachmentId": "20230518UUWBM1354180035220635",
+    "attachmentIdentifier": {
+      "queryParam": "atcflId",
+      "value": "20230518UUWBM1354180035220635"
+    },
+    "checkedAt": "2026-10-19",
+    "sha256": "8ae64f84823eadcfd2cbe87a917625d34e97fcbc64170a4e2cc987ee3417f395",
+    "bytes": 101647,
+    "lawId": "",
+    "lawTitle": "",
+    "lawEvidenceUrl": "",
+    "lawEffectiveDate": "",
+    "lawCurrentCheckedAt": "",
+    "sectionsRead": [
+      "frame-1"
+    ],
+    "textScope": "all_original_image_frames",
+    "selectedParts": [
+      {
+        "number": "참고5",
+        "title": "교복 지원 신청서",
+        "use": "main",
+        "author": "대상 학생의 부모 또는 보호자"
+      }
+    ],
+    "applicant": "대상 학생의 부모 또는 보호자",
+    "authorityBasis": {
+      "kind": "official-program",
+      "title": "부천시 대안교육기관 등 교복비 지원",
+      "evidenceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00000001&wlfareInfoReldBztpCd=02",
+      "checkedAt": "2026-10-19",
+      "evidenceNote": "JPEG원본전체를시각으로읽어참고5교복지원신청서임을확인했다. 학생·보호자·대안교육기관/타시도학교선택·입전학일·주소·교복품목별구입액·중복수혜·정보제공동의·서명란이있고실제개인정보는채워지지않았다. 현재복지로WLF00000001이정확이미지를배포하며부천거주대안교육기관/타시도중고입학생·실구매비상한40만원·부득이한방문신청경로를명시하므로실제신청용도는맞는다. OO시군은작성용빈칸이며과천처럼다른관할이인쇄된서식이아니다.",
+      "pageSHA256": "0df361b51e0a1ec8e022bef02b9e215b5a9fe99efabc5619df5161d351c27003"
+    },
+    "visualReview": {
+      "kind": "whole-original-image",
+      "checkedAt": "2026-10-19",
+      "sha256": "8ae64f84823eadcfd2cbe87a917625d34e97fcbc64170a4e2cc987ee3417f395",
+      "width": 589,
+      "height": 835,
+      "frames": 1,
+      "blankApplicantForm": true,
+      "noFilledPersonalData": true,
+      "evidenceNote": "원본JPEG한프레임전체를시각판독했다. 학생·부모/보호자·학교유형·입전학일·교복구매품목·중복지원·동의·서명란이빈신청서이고실제신청인의이름·연락처·계좌등이기입되지않았음을확인했다. current복지로WLF00000001의대안교육/타시도중고입학생교복비신청용도와일치한다."
+    },
+    "id": "agency-41190-school-uniform-jpg",
+    "title": "대안교육기관 등 교복비 지원 신청서",
+    "format": "jpg",
+    "programs": [
+      {
+        "id": "g41190.bokjiro-WLF00000001",
+        "url": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00000001&wlfareInfoReldBztpCd=02"
+      }
+    ]
+  },
+  "row": {
+    "formId": "agency-41190-school-uniform-jpg",
+    "sourceKind": "agency",
+    "formTitle": "대안교육기관 등 교복비 지원 신청서",
+    "sourcePageUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00000001&wlfareInfoReldBztpCd=02",
+    "evidenceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00000001&wlfareInfoReldBztpCd=02",
+    "sourceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twata/CmmFileUtil/getDownload.do?atcflId=20230518UUWBM1354180035220635&atcflSn=1&wlfareInfoId=WLF00000001",
+    "finalUrl": "https://www.bokjiro.go.kr/ssis-tbu/twata/CmmFileUtil/getDownload.do?atcflId=20230518UUWBM1354180035220635&atcflSn=1&wlfareInfoId=WLF00000001",
+    "attachmentId": "20230518UUWBM1354180035220635",
+    "attachmentIdentifier": {
+      "queryParam": "atcflId",
+      "value": "20230518UUWBM1354180035220635"
+    },
+    "agencyName": "부천시 평생교육과(복지로 공식 배포)",
+    "authorityKind": "government",
+    "authorityEvidenceKind": "government",
+    "authorityEvidenceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00000001&wlfareInfoReldBztpCd=02",
+    "authorityEvidenceNote": "해당사업의 현재 공식 안내 페이지에서 신청주체·지원목적·접수방법과 정확한 첨부 다운로드를 대조하였다. JPEG원본전체를시각으로읽어참고5교복지원신청서임을확인했다. 학생·보호자·대안교육기관/타시도학교선택·입전학일·주소·교복품목별구입액·중복수혜·정보제공동의·서명란이있고실제개인정보는채워지지않았다. 현재복지로WLF00000001이정확이미지를배포하며부천거주대안교육기관/타시도중고입학생·실구매비상한40만원·부득이한방문신청경로를명시하므로실제신청용도는맞는다. OO시군은작성용빈칸이며과천처럼다른관할이인쇄된서식이아니다.",
+    "programIds": [
+      "g41190.bokjiro-WLF00000001"
+    ],
+    "programEvidenceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00000001&wlfareInfoReldBztpCd=02",
+    "regionCode": "41190",
+    "regionLabel": "경기도 부천시",
+    "lawId": "",
+    "lawTitle": "",
+    "lawUrl": "",
+    "lawEvidenceUrl": "",
+    "lawEffectiveDate": "",
+    "lawCurrentCheckedAt": "",
+    "annexId": "",
+    "annexNumber": "",
+    "authorityBasis": {
+      "kind": "official-program",
+      "title": "부천시 대안교육기관 등 교복비 지원",
+      "evidenceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00000001&wlfareInfoReldBztpCd=02",
+      "checkedAt": "2026-10-19",
+      "evidenceNote": "JPEG원본전체를시각으로읽어참고5교복지원신청서임을확인했다. 학생·보호자·대안교육기관/타시도학교선택·입전학일·주소·교복품목별구입액·중복수혜·정보제공동의·서명란이있고실제개인정보는채워지지않았다. 현재복지로WLF00000001이정확이미지를배포하며부천거주대안교육기관/타시도중고입학생·실구매비상한40만원·부득이한방문신청경로를명시하므로실제신청용도는맞는다. OO시군은작성용빈칸이며과천처럼다른관할이인쇄된서식이아니다.",
+      "pageSHA256": "0df361b51e0a1ec8e022bef02b9e215b5a9fe99efabc5619df5161d351c27003"
+    },
+    "dateKind": "checked",
+    "effectiveDate": "2026-10-19",
+    "publishedAt": null,
+    "checkedAt": "2026-10-19",
+    "sha256": "8ae64f84823eadcfd2cbe87a917625d34e97fcbc64170a4e2cc987ee3417f395",
+    "bytes": 101647,
+    "originalFormat": "jpg",
+    "originalPath": "tests/fixtures/forms/bucheon-school-uniform-application.jpg",
+    "textScope": "all_original_image_frames",
+    "sectionsRead": [
+      "frame-1"
+    ],
+    "selectedParts": [
+      {
+        "number": "참고5",
+        "title": "교복 지원 신청서",
+        "use": "main",
+        "author": "대상 학생의 부모 또는 보호자"
+      }
+    ],
+    "reviewedParts": [
+      {
+        "number": "참고5",
+        "title": "교복 지원 신청서",
+        "use": "main",
+        "author": "대상 학생의 부모 또는 보호자"
+      }
+    ],
+    "applicant": "대상 학생의 부모 또는 보호자",
+    "role": "application",
+    "use": "main",
+    "condition": "부천시 대안교육기관 등 교복비 지원의 부득이한 방문 신청 시 확인하는 이미지 원본입니다. 학생·보호자·학교유형·실구매내역을 기재하고 재학·교복구입·거주증명 등 현행 안내의 구비서류를 준비합니다. 온라인 신청은 경기민원24에서 진행합니다.",
+    "evidenceNote": "JPEG원본전체를시각으로읽어참고5교복지원신청서임을확인했다. 학생·보호자·대안교육기관/타시도학교선택·입전학일·주소·교복품목별구입액·중복수혜·정보제공동의·서명란이있고실제개인정보는채워지지않았다. 현재복지로WLF00000001이정확이미지를배포하며부천거주대안교육기관/타시도중고입학생·실구매비상한40만원·부득이한방문신청경로를명시하므로실제신청용도는맞는다. OO시군은작성용빈칸이며과천처럼다른관할이인쇄된서식이아니다.",
+    "roleBasis": "JPEG원본전체를시각으로읽어참고5교복지원신청서임을확인했다. 학생·보호자·대안교육기관/타시도학교선택·입전학일·주소·교복품목별구입액·중복수혜·정보제공동의·서명란이있고실제개인정보는채워지지않았다. 현재복지로WLF00000001이정확이미지를배포하며부천거주대안교육기관/타시도중고입학생·실구매비상한40만원·부득이한방문신청경로를명시하므로실제신청용도는맞는다. OO시군은작성용빈칸이며과천처럼다른관할이인쇄된서식이아니다.",
+    "roleEvidenceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twata/CmmFileUtil/getDownload.do?atcflId=20230518UUWBM1354180035220635&atcflSn=1&wlfareInfoId=WLF00000001",
+    "roleCheckedAt": "2026-10-19",
+    "fullBodyReviewed": true,
+    "verificationStatus": "verified",
+    "officialAttachmentMatched": true,
+    "blankApplicantFormReviewed": true,
+    "reviewedBy": "codex-national_form_audit",
+    "publicationReady": true,
+    "finalApprovalOwner": "root",
+    "readinessBlocker": "루트의정확원본JPEGvisual gate검증·최종승인후반영. 원본이미지를편집·PDF변환하지않음.",
+    "imageMetadata": {
+      "format": "JPEG",
+      "width": 589,
+      "height": 835
+    },
+    "visualReview": {
+      "kind": "whole-original-image",
+      "checkedAt": "2026-10-19",
+      "sha256": "8ae64f84823eadcfd2cbe87a917625d34e97fcbc64170a4e2cc987ee3417f395",
+      "width": 589,
+      "height": 835,
+      "frames": 1,
+      "blankApplicantForm": true,
+      "noFilledPersonalData": true,
+      "evidenceNote": "원본JPEG한프레임전체를시각판독했다. 학생·부모/보호자·학교유형·입전학일·교복구매품목·중복지원·동의·서명란이빈신청서이고실제신청인의이름·연락처·계좌등이기입되지않았음을확인했다. current복지로WLF00000001의대안교육/타시도중고입학생교복비신청용도와일치한다."
+    },
+    "referencedLawTitle": "부천시 교복 지원 조례",
+    "originalTextScope": "all_original_image_frames",
+    "ready_for_visual_gate": true,
+    "readinessStatus": "ready_for_visual_gate",
+    "finalApprovalStatus": "pending_root_visual_gate"
+  }
+}

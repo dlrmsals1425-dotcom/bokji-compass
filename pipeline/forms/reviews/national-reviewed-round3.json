@@ -1,0 +1,147 @@
+{
+  "schema": 1,
+  "checkedAt": "2026-10-16",
+  "rows": [
+    {
+      "sourceKind": "rule",
+      "lawTitle": "보철용 차량 지원 지침",
+      "lawId": "2100000284536",
+      "annexId": "3296553",
+      "annexNumber": "001100",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?flSeq=168914179",
+      "effectiveDate": "20260901",
+      "dateKind": "issued",
+      "programIds": [
+        "n.bokjiro-WLF00006296"
+      ],
+      "formId": "rule-3296553",
+      "use": "main",
+      "evidenceUrl": "https://www.law.go.kr/LSW/admRulInfoP.do?admRulSeq=2100000284536",
+      "evidenceNote": "현행 보철용 차량 지원 지침 제13조제1항은 친환경차량 구매보조금을 별지 제11호로 신청하도록 정한다. 복지로 해당 프로그램의 실제 첨부 GET도 같은 지침 제11호를 제공하며, 현행 공식 원본 전체 HWPX에 전기·수소차 정보, 대상자 계좌, 구매보조금 신청 및 보훈(지)청장 제출이 있다.",
+      "checkedAt": "2026-10-16",
+      "formTitle": "친환경차량 구매보조금 지원 신청서",
+      "condition": "구매보조금 신청 시 사용. 충전비 지원용 복지카드 신청과 구분.",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "sha256": "c8228ae051fb34f3850325d5241186cf8251a17eb59113b009a064496b2e9086",
+      "sourceMetadataTitle": "친환경차량 구매보조금 지원 신청서",
+      "regionCode": "national",
+      "regionLabel": "전국 공통"
+    },
+    {
+      "sourceKind": "law",
+      "lawTitle": "의료ㆍ요양 등 지역 돌봄의 통합지원에 관한 법률 시행규칙",
+      "lawId": "284999",
+      "annexId": "18020349",
+      "annexNumber": "000100",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?flSeq=162492369",
+      "effectiveDate": "20260320",
+      "dateKind": "promulgated",
+      "programIds": [
+        "g27170.bokjiro-WLF00006783"
+      ],
+      "formId": "law-18020349",
+      "use": "main",
+      "evidenceUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=2158821",
+      "evidenceNote": "현행 돌봄통합지원법 시행규칙 제7조제2항은 법 제10조의 통합지원을 별지 제1호로 신청하도록 정한다. 대구 서구 조례 제1조·제2조는 같은 법의 통합지원 시행을 목적으로 하고, 해당 복지로 프로그램 첨부는 2026.3.20. 개정 동일 서식이다. 국가법령 원본 전체 BodyText와 신청인·친족·후견인·기관 담당자 구분을 대조했다.",
+      "checkedAt": "2026-10-16",
+      "formTitle": "통합지원 신청서",
+      "condition": "대구 서구 돌봄통합지원 신청용. 친족·후견인·관련기관 신청은 법정 구분 및 동의·첨부 요건에 따름.",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "sha256": "77765ad93999591d923e6d57f626defc9fa683ae068a27a129be34c9a94dc1ca",
+      "officialPdfUrl": "https://www.law.go.kr/LSW/flDownload.do?flSeq=162492371",
+      "sourceMetadataTitle": "통합지원 신청서",
+      "regionCode": "national",
+      "regionLabel": "전국 공통",
+      "scopeBasis": "national-law-reference",
+      "scopeReviewNote": "program.laws가 국가법과 지역조례를 /로 합쳐 인용. 정확 국가법 부분 분리와 정규화 확인 필요."
+    },
+    {
+      "sourceKind": "law",
+      "lawTitle": "의사상자 등 예우 및 지원에 관한 법률 시행규칙",
+      "lawId": "290955",
+      "annexId": "18499509",
+      "annexNumber": "000100",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169900983",
+      "effectiveDate": "20261002",
+      "dateKind": "promulgated",
+      "programIds": [
+        "g41650.bokjiro-WLF00003346"
+      ],
+      "formId": "law-18499509",
+      "use": "conditional",
+      "evidenceUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=1970263",
+      "evidenceNote": "포천시 의사상자 예우 조례 제6조는 법 제5조의 의사상자 보호 신청을 해당 조례 적용 신청으로 간주한다고 명시한다. 현행 의사상자법 시행규칙 제2조제1항이 지정한 별지 제1호와 복지로 해당 프로그램의 인정신청서 첨부, 현행 원본 전체 BodyText를 대조했다. 같은 법률을 인용한다는 이유만으로 지역 사업에 확대 적용하지 않고 명시적 신청 간주 조항을 근거로 연결했다.",
+      "checkedAt": "2026-10-16",
+      "formTitle": "의사상자 인정신청서",
+      "condition": "의사상자 인정·보호를 새로 신청하는 경우. 이미 인정된 대상자의 지역 추가지원 수령 절차와 혼동하지 않도록 포천시 안내 확인.",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "sha256": "373cefa018a7be664c5e1e1a0e1032bc3dbacc94d16118f3883f52c6c7be397a",
+      "officialPdfUrl": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169900985",
+      "sourceMetadataTitle": "의사상자 인정신청서",
+      "regionCode": "national",
+      "regionLabel": "전국 공통",
+      "scopeBasis": "official-application-reference",
+      "scopeReviewNote": "직접 program.laws는 지역조례. 해당 조례1970263 제6조의 명시적 국가 신청 간주 규정으로 입증한 연결이며 직접인용으로 꾸미지 않음.",
+      "scopeReference": {
+        "kind": "cited-local-law",
+        "referencedLawTitle": "의사상자 등 예우 및 지원에 관한 법률 시행규칙",
+        "annexNumber": "000100",
+        "sourceLawTitle": "포천시 의사상자 예우 및 지원에 관한 조례",
+        "sourceLawId": "1970263",
+        "article": "제6조",
+        "evidenceUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=1970263",
+        "basis": "포천시 조례 제6조는 국가법 제5조의 의사상자 보호 신청을 이 조례 적용 신청으로 간주한다고 명시한다. 같은 조례 제1조의 법 정의, 현행 국가 시행규칙 제2조제1항의 별지 제1호 및 실제 인정신청서 원본을 대조한 연결이다."
+      }
+    },
+    {
+      "sourceKind": "law",
+      "lawTitle": "의료급여법 시행규칙",
+      "lawId": "288079",
+      "annexId": "18284323",
+      "annexNumber": "001400",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?flSeq=166908401",
+      "effectiveDate": "20260710",
+      "dateKind": "promulgated",
+      "programIds": [
+        "g51170.gov24-421000000630"
+      ],
+      "formId": "law-18284323",
+      "use": "conditional",
+      "condition": "비급여 보장구 구입 지원 신청에 요구된 담당의사 발급 처방전. 주민이 직접 처방 내용을 작성하는 신청서가 아님. 실제 처방 품목과 서식 종류는 담당 의료기관·접수기관 확인.",
+      "evidenceUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/421000000630",
+      "evidenceNote": "해당 정부24 사업 원문은 구입 신청 시 의료급여법 시행규칙 별지 제14호 보조기기 처방전 제출을 명시한다. 현행 제14호 원본 전체 BodyText 및 MCP 원문에서 보조기기 품목·검사결과·담당의사 서명·면허번호·전문과목을 확인했다. 지역사업의 주신청서로 일반화하지 않고 공식 사업 안내가 정확히 지목한 의료인 발급 첨부로만 연결한다.",
+      "checkedAt": "2026-10-16",
+      "formTitle": "보조기기(자세보조용구, 의지ㆍ보조기 등) 처방전",
+      "role": "supporting",
+      "roleBasis": "현행 의료급여법 시행규칙의 별지 제14호 원본 전체 BodyText 및 공식 MCP 원문에서 검사 결과·처방 의견과 담당의사·면허·전문과목·서명을 확인한 의료인 발급 서류. 지역 사업 적용은 별도의 정확한 정부24 구비서류 지목 근거로만 연결.",
+      "roleEvidenceUrl": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=288079",
+      "roleCheckedAt": "2026-10-16",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "sha256": "4ef5256a426970d7ff1a2b9bd9448d3318fc167621508132c757d18e6d5544e3",
+      "reviewedParts": [
+        {
+          "number": "별지 제14호서식",
+          "title": "보조기기(자세보조용구, 의지ㆍ보조기 등) 처방전",
+          "use": "conditional",
+          "author": "담당의사(의료급여기관)"
+        }
+      ],
+      "sourceMetadataTitle": "보조기기(자세보조용구, 의지ㆍ보조기 등) 처방전",
+      "regionCode": "national",
+      "regionLabel": "전국 공통",
+      "scopeBasis": "official-application-reference",
+      "scopeReviewNote": "program.documents가 의료급여법 시행규칙 별지14호를 정확히 지목. program.laws에 해당 국가법이 없어 구비서류 근거를 구분해 검사해야 함.",
+      "scopeReference": {
+        "kind": "program-documents",
+        "referencedLawTitle": "의료급여법 시행규칙",
+        "annexNumber": "001400",
+        "evidenceUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/421000000630",
+        "basis": "해당 사업 공식 정부24 구비서류는 의료급여법 시행규칙 별지 제14호서식의 보조기기 처방전 1부를 비급여 보장구 급여 구입 신청 시 제출하도록 정확히 지목한다. 이를 현행 별지 제14호 원본의 의료인 발급란·품목·검사 및 서명과 대조하여 조건부 첨부에만 적용했다."
+      }
+    }
+  ]
+}

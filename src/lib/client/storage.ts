@@ -21,10 +21,10 @@ const EXTRAS_KEY = "bn.facts.v1";
 const DRAFT_KEY = "bn.drafts.v1";
 /** (QA 8차) 서비스 검색에서 고른 시·도/시·군·구 — 새로고침해도 유지 (주소에는 싣지 않음) */
 const SEARCH_REGION_KEY = "bn.searchRegion.v1";
-/** 홈 예시를 옮겨 보여 줄 시·군·구 (현재 위치나 직접 고른 곳, 코드만) */
-const EXAMPLE_REGION_KEY = "bn.exampleRegion.v1";
 /** 이미 받고 있는 혜택 (대상별: 본인 / 부모님, 사업 묶음 이름만) */
 const RECEIVING_KEY = "bn.receiving.v1";
+/** 홈 예시를 옮겨 보여 줄 시·군·구 (현재 위치나 직접 고른 곳, 코드만) */
+const EXAMPLE_REGION_KEY = "bn.exampleRegion.v1";
 
 /** 주민센터 등 키오스크(태블릿) 모드 (2026-10-16 회의): 그 기관이 있는 시·군·구로 고정, 손대지 않으면 지우고 처음으로 */
 export interface KioskSettings {
@@ -48,7 +48,7 @@ function emit() {
 function subscribe(cb: () => void) {
   listeners.add(cb);
   const onStorage = (e: StorageEvent) => {
-    if (e.key === PROFILE_KEY || e.key === SETTINGS_KEY || e.key === EXAMPLE_KEY || e.key === MODE_KEY || e.key === FILLER_KEY || e.key === EXTRAS_KEY || e.key === DRAFT_KEY || e.key === SEARCH_REGION_KEY) emit();
+    if (e.key === PROFILE_KEY || e.key === SETTINGS_KEY || e.key === EXAMPLE_KEY || e.key === MODE_KEY || e.key === FILLER_KEY || e.key === EXTRAS_KEY || e.key === DRAFT_KEY || e.key === SEARCH_REGION_KEY || e.key === RECEIVING_KEY) emit();
   };
   window.addEventListener("storage", onStorage);
   return () => {
@@ -86,13 +86,13 @@ export function setSettings(patch: Partial<Settings>) {
     localStorage.setItem(SETTINGS_KEY, JSON.stringify(next));
   } catch {}
   document.documentElement.dataset.large = next.large ? "1" : "0";
-  if (next.kiosk) document.documentElement.setAttribute("data-kiosk", "1");
-  else document.documentElement.removeAttribute("data-kiosk");
+  if (next.kiosk) document.documentElement.dataset.kiosk = "1";
+  else delete document.documentElement.dataset.kiosk;
   // 공용 기기 모드 전환 시 프로필 저장 위치를 옮긴다
   if (prev.shared !== next.shared) {
     const from = prev.shared ? sessionStorage : localStorage;
     const to = next.shared ? sessionStorage : localStorage;
-    for (const key of [PROFILE_KEY, EXAMPLE_KEY, MODE_KEY, FILLER_KEY, EXTRAS_KEY, DRAFT_KEY, SEARCH_REGION_KEY]) {
+    for (const key of [PROFILE_KEY, EXAMPLE_KEY, MODE_KEY, FILLER_KEY, EXTRAS_KEY, DRAFT_KEY, SEARCH_REGION_KEY, RECEIVING_KEY, EXAMPLE_REGION_KEY]) {
       const raw = safeGet(from, key);
       try {
         from.removeItem(key);
@@ -187,18 +187,6 @@ export function useSearchRegion(): SearchRegion | null | undefined {
   return useSyncExternalStore(subscribe, readSearchRegion, () => undefined);
 }
 
-/* ---------- 홈 예시 지역 (2026-10-16: 다음 방문에는 위치를 다시 묻지 않고 이 지역으로) ---------- */
-export function readExampleRegion(): string | null {
-  const raw = safeGet(profileStore(), EXAMPLE_REGION_KEY);
-  return raw && /^\d{5}$/.test(raw) ? raw : null;
-}
-export function saveExampleRegion(sigungu: string | null) {
-  try {
-    if (sigungu) profileStore().setItem(EXAMPLE_REGION_KEY, sigungu);
-    else profileStore().removeItem(EXAMPLE_REGION_KEY);
-  } catch {}
-}
-
 /* ---------- 이미 받고 있는 혜택 (2026-10-16) ---------- */
 type Receiving = Record<FindMode, string[]>;
 const EMPTY_RECEIVING: Receiving = { self: [], parent: [] };
@@ -228,6 +216,18 @@ export function setReceiving(mode: FindMode, key: string, on: boolean) {
 /** undefined = 확인 전(SSR) */
 export function useReceiving(): Receiving | undefined {
   return useSyncExternalStore(subscribe, readReceiving, () => undefined);
+}
+
+/* ---------- 홈 예시 지역 (2026-10-16: 다음 방문에는 위치를 다시 묻지 않고 이 지역으로) ---------- */
+export function readExampleRegion(): string | null {
+  const raw = safeGet(profileStore(), EXAMPLE_REGION_KEY);
+  return raw && /^\d{5}$/.test(raw) ? raw : null;
+}
+export function saveExampleRegion(sigungu: string | null) {
+  try {
+    if (sigungu) profileStore().setItem(EXAMPLE_REGION_KEY, sigungu);
+    else profileStore().removeItem(EXAMPLE_REGION_KEY);
+  } catch {}
 }
 
 /* ---------- 대상별 답 (본인 / 부모님) ---------- */
@@ -321,6 +321,7 @@ export function clearProfile() {
       store.removeItem(DRAFT_KEY);
       store.removeItem(SEARCH_REGION_KEY);
       store.removeItem(RECEIVING_KEY);
+      store.removeItem(EXAMPLE_REGION_KEY);
     }
   } catch {}
   extrasCache = { raw: null, value: null };

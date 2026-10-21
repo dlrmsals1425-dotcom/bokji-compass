@@ -1,0 +1,200 @@
+{
+  "schema": 1,
+  "checkedAt": "2026-10-20",
+  "rows": [
+    {
+      "sourceKind": "ordin",
+      "officialPdfUrl": null,
+      "dateKind": "effective",
+      "verificationStatus": "verified",
+      "checkedAt": "2026-10-20",
+      "officialAttachmentMatched": true,
+      "fullBodyReviewed": true,
+      "independentBodyReview": true,
+      "originalFormat": "hwp",
+      "textScope": "all_body_sections_or_pages",
+      "originalTextScope": "all_body_sections_or_pages",
+      "roleCheckedAt": "2026-10-20",
+      "lawCurrentCheckedAt": "2026-10-20",
+      "embeddedImageCount": 0,
+      "noFilledPersonalDataObserved": true,
+      "currentFormConfirmed": true,
+      "publicationApproved": false,
+      "formId": "ordin-20004391",
+      "lawId": "2041475",
+      "stableLawId": "2191225",
+      "lawTitle": "성남시 아동의료비 본인부담 100만원 상한제 조례 시행규칙",
+      "annexId": "20004391",
+      "annexNumber": "000100",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=152239455&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C1%ED%98%B8%EC%84%9C%EC%8B%9D%5D%EC%95%84%EB%8F%99%EC%9D%98%EB%A3%8C%EB%B9%84+%EB%B3%B8%EC%9D%B8%EB%B6%80%EB%8B%B4+100%EB%A7%8C%EC%9B%90+%EC%83%81%ED%95%9C%EC%A0%9C+%EC%A7%80%EA%B8%89+%EC%8B%A0%EC%B2%AD%EC%84%9C%28%ED%99%98%EC%9E%90%EC%9A%A9%29",
+      "effectiveDate": "2025-05-26",
+      "regionCode": "41130",
+      "regionLabel": "경기도 성남시",
+      "programIds": [
+        "g41130.bokjiro-WLF00001629"
+      ],
+      "programNames": [
+        "성남시 아동의료비 본인부담 100만원 상한제 사업"
+      ],
+      "formTitle": "[별지 제1호서식]아동의료비 본인부담 100만원 상한제 지급 신청서(환자용)",
+      "sourceMetadataTitle": "[별지 제1호서식]아동의료비 본인부담 100만원 상한제 지급 신청서(환자용)",
+      "verifiedDocumentTitle": "아동의료비 본인부담 100만원 상한제 지급 신청서(환자용)",
+      "role": "application",
+      "use": "main",
+      "condition": "환자·보호자 등이 작성하는 별지 제1호 3쪽 전체 중 신청인 작성 부분을 사용합니다. 입원·외래를 합산해 신청하면 제2쪽 청구 세부내역도 작성하고 제3쪽 제출서류·행정정보 공동이용 동의를 확인합니다. 최종 진료일 다음 날부터 1년 이내 신청하는 개인 지급신청이며, 의료기관이 비용을 직접 청구하는 별지 제6호는 아닙니다. 담당직원 확인란은 담당자가 작성합니다.",
+      "evidenceUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=2041475",
+      "evidenceNote": "현재 복지로 WLF00001629는 정확히 이 1호 환자용 HWPX를 직접 배포한다. 20일 GET한 3개 XML 섹션 전체와 국가법령포털의 현행 동일 1호 HWP 3개 BodyText 섹션 전체를 각각 읽고, 공백 제거 전체 본문이 동일함을 확인했다. 환자·보호자 신청/서명, 초과 의료비와 타 지원 공제, 청구 세부내역 및 제출서류/행정정보 동의를 갖춘다. 현행 규칙 제3조제1항·제2항이 최종진료 다음날부터 1년 이내 1호를 제출하도록 지정한다. 기존에는 같은 원본이 정확 정부24 378000000137에 주신청서로 공개됐고 복지로 WLF00001629에는 보조서류만 연결되어 있어 이 동일 사업의 누락 주신청 연결 1개를 추가 제안한다. 원본 자체는 신규 원본 수에 포함하지 않는다.",
+      "sha256": "9bf9f27072b5e9906307a114a412155c7364c7b6b22b31ebf8b621bfbfc50393",
+      "bytes": 90112,
+      "signature": "d0cf11e0a1b11ae1",
+      "sectionsRead": [
+        "BodyText/Section0",
+        "BodyText/Section1",
+        "BodyText/Section2"
+      ],
+      "originalPath": "pipeline/forms/originals/ordin-20004391.hwp",
+      "reviewedParts": [
+        {
+          "number": "1 (제1~3쪽)",
+          "title": "아동의료비 본인부담 100만원 상한제 지급 신청서(환자용)",
+          "use": "main",
+          "author": "아동 환자 또는 보호자 등 신청인"
+        }
+      ],
+      "selectedParts": [
+        {
+          "number": "1 (제1~3쪽)",
+          "title": "아동의료비 본인부담 100만원 상한제 지급 신청서(환자용)",
+          "use": "main",
+          "author": "아동 환자 또는 보호자 등 신청인"
+        }
+      ],
+      "roleBasis": "현재 복지로 WLF00001629는 정확히 이 1호 환자용 HWPX를 직접 배포한다. 20일 GET한 3개 XML 섹션 전체와 국가법령포털의 현행 동일 1호 HWP 3개 BodyText 섹션 전체를 각각 읽고, 공백 제거 전체 본문이 동일함을 확인했다. 환자·보호자 신청/서명, 초과 의료비와 타 지원 공제, 청구 세부내역 및 제출서류/행정정보 동의를 갖춘다. 현행 규칙 제3조제1항·제2항이 최종진료 다음날부터 1년 이내 1호를 제출하도록 지정한다. 기존에는 같은 원본이 정확 정부24 378000000137에 주신청서로 공개됐고 복지로 WLF00001629에는 보조서류만 연결되어 있어 이 동일 사업의 누락 주신청 연결 1개를 추가 제안한다. 원본 자체는 신규 원본 수에 포함하지 않는다.",
+      "roleEvidenceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=152239455&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C1%ED%98%B8%EC%84%9C%EC%8B%9D%5D%EC%95%84%EB%8F%99%EC%9D%98%EB%A3%8C%EB%B9%84+%EB%B3%B8%EC%9D%B8%EB%B6%80%EB%8B%B4+100%EB%A7%8C%EC%9B%90+%EC%83%81%ED%95%9C%EC%A0%9C+%EC%A7%80%EA%B8%89+%EC%8B%A0%EC%B2%AD%EC%84%9C%28%ED%99%98%EC%9E%90%EC%9A%A9%29",
+      "currentLawProof": {
+        "annexCount": 18,
+        "articleCount": 13,
+        "bodyPath": "logs/forms-completion/gyeonggi-20261019/current-law-extra14/current-law-bodies/2041475.json.gz",
+        "bodySHA256": "9ce52bb07acaf19751f3de8d6ee9523c0605590c3dcb2b598f27e47a80d671d1",
+        "candidates": [
+          {
+            "effectiveDate": "20250526",
+            "lawId": "2041475",
+            "org": "경기도 성남시",
+            "stableLawId": "2191225",
+            "title": "성남시 아동의료비 본인부담 100만원 상한제 조례 시행규칙"
+          }
+        ],
+        "checkedAt": "2026-10-20",
+        "currentLaw": {
+          "effectiveDate": "20250526",
+          "lawId": "2041475",
+          "org": "경기도 성남시",
+          "stableLawId": "2191225",
+          "title": "성남시 아동의료비 본인부담 100만원 상한제 조례 시행규칙"
+        },
+        "currentLawId": "2041475",
+        "lawId": "2041475",
+        "searchPath": "logs/forms-completion/gyeonggi-20261019/current-law-extra14/current-law-searches/2041475.json",
+        "searchSHA256": "ea92242afad07c30e2dcf6d5d8c4f689b6017bc576a4221961608decfe094677",
+        "sourceTitle": "성남시 아동의료비 본인부담 100만원 상한제 조례 시행규칙",
+        "state": "source_current"
+      },
+      "bodyEvidenceText": "제3조(지급신청)① 조례 제9조에 따라 지원금 지급을 신청하려는 사람은 최종 진료일(입원진료의 경우에는 퇴원일을 말한다)의 다음 날부터 1년 이내에  성남시장(이하 “시장”이라 한다)에게 그 지급을 신청하여야 한다.② 제1항에 따라 지급신청을 하려는 사람은 별지 제1호서식의 지급신청서 및 다음 각 호의 서류를 제출하여야 한다.1. 「가족관계의 등록 등에 관한 법률」 제15조제1항제1호에 따른 가족관계증명서 및 같은 항 제2호에 따른 기본증명서 등 지원대상자 해당 여부 확인에 필요한 서류2. 진단서, 입·퇴원 확인서 등 「재난적의료비 지원에 관한 법률」 제10조제1항 각 호에 따른 진료 등의 사실 확인에 필요한 서류3. 별지 제9호서식에 따른 개인정보 수집·이용 및 제공·조회 동의서4. 예금통장 사본 등 지원대상자 명의의 지정계좌(이하 “지정계좌”라 한다)로의 입금 등에 필요한 서류5. 진료비·약제비 영수증 등 「재난적의료비 지원에 관한 법률 시행령」 제2조에 따른 의료비 확인에 필요한 서류6.「보험업법」에 따른 보험가입 및 보험금 지급명세를 증명하는 서류 등 「재난적의료비 지원에 관한 법률 시행령」 제11조제1항 및 제12조에 따른 지원금액 산정과 지급제외대상 금품 등의 확인에 필요한 서류③ 조례 제9조제1항에 따라 지원대상자를 대리하여 아동의료비 지급을 신청하는 다음 각 호의 사람은 별지 제1호서식의 아동의료비 지급신청서와 제2항 각 호의 서류 및 별지 제2호서식에 따른 위임장 외에 다음 각 호에 병기(倂記)된 서류도 함께 제출하여야 한다.1. 지원 대상자의 가족 : 제3조제2항제1호의 서류2. 의료기관등의 종사자 : 재직증명서 등 의료기관등의 종사자임을 증명할 수 있는 서류④ 시장은 제1항 및 제2항에 따라 지급신청을 받은 경우 「전자정부법」 제36조제1항에 따른 행정정보의 공동이용을 통하여 다음 각 호의 서류를 확인하여야 한다. 다만, 신청인이 확인에 동의하지 아니하는 경우에는 그 서류를 첨부하도록 하여야 한다.1. 주민등록표 등본2. 주민등록표 초본3. 건강보험 자격득실확인서<종전 제5호에서 이동 2021.8.23.>4. 건강보험 자격확인서<종전 제6호에서 이동 2021.8.23.>5. 건강·장기요양 보험료납부확인서<종전 제7호에서 이동 2021.8.23.>⑤ 제1항부터 제4항까지에서 규정한 사항 외에 아동의료비 지급신청 절차, 방법 등은 시장이 정한다.",
+      "proposalStatus": "existing_original_additional_exact_programme_link",
+      "programEvidenceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00001629&wlfareInfoReldBztpCd=02",
+      "sourceProof": {
+        "downloadRecord": "logs/forms-completion/gyeonggi-20261019/team2/documents/verify-ordin-20004391-20261020.json",
+        "downloadRecordSHA256": "d0d38bca5bd0f1ddb45984f3b586bb46840f10363aec2b68e909f70112c5225a",
+        "freshHTTPStatus": 200,
+        "actualOriginalBytesRechecked": true,
+        "lawBodyPath": "logs/forms-completion/gyeonggi-20261019/current-law-extra14/current-law-bodies/2041475.json.gz",
+        "lawBodySHA256": "9ce52bb07acaf19751f3de8d6ee9523c0605590c3dcb2b598f27e47a80d671d1",
+        "flSeq": "152239455",
+        "programPages": [
+          {
+            "programId": "g41130.bokjiro-WLF00001629",
+            "url": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00001629&wlfareInfoReldBztpCd=02",
+            "httpStatus": 200,
+            "pageSHA256": "312da998e7bff796558228f67b0693785f881ad5f48a187de361adf236392bed",
+            "responsePath": "logs/forms-completion/gyeonggi-20261019/team2/sources/raw4-bokjiro-WLF00001629-20261020.html"
+          }
+        ]
+      },
+      "currentProgrammeAttachmentComparison": {
+        "sourceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twata/CmmFileUtil/getDownload.do?atcflId=20250608UUWBM1053300141012421&atcflSn=1&wlfareInfoId=WLF00001629",
+        "httpStatus": 200,
+        "sha256": "8a729ada03b4dcd9d6fdcd96ca2fbcfe1462dc4621581e216ee2b3e701f514b0",
+        "bytes": 87002,
+        "format": "hwpx",
+        "sectionsRead": [
+          "Contents/section0.xml",
+          "Contents/section1.xml",
+          "Contents/section2.xml"
+        ],
+        "fullBodyReviewed": true,
+        "normalisedWholeTextEqualToPortalOriginal": true,
+        "embeddedImages": 0,
+        "originalPath": "logs/forms-completion/gyeonggi-20261019/team2/documents/seongnam-child-medical-1-current-program-copy-20261020.hwpx",
+        "evidenceNote": "현행 복지로 배포 환자용 1호와 현행 법정 1호 3쪽 전체가 공백을 제외하고 같다."
+      },
+      "reusesPublishedOriginal": true,
+      "existingCoverageProgrammeIds": [
+        "g41130.gov24-378000000137"
+      ],
+      "coordinatorApproved": true,
+      "coordinatorReason": "총괄이 정확 사업과 신청 단계·조건을 승인했고, 원본 실제 바이트와 전체 섹션 및 현행 별지/flSeq를 독립 대조하였다. 현재 복지로 WLF00001629는 정확히 이 1호 환자용 HWPX를 직접 배포한다. 20일 GET한 3개 XML 섹션 전체와 국가법령포털의 현행 동일 1호 HWP 3개 BodyText 섹션 전체를 각각 읽고, 공백 제거 전체 본문이 동일함을 확인했다. 환자·보호자 신청/서명, 초과 의료비와 타 지원 공제, 청구 세부내역 및 제출서류/행정정보 동의를 갖춘다. 현행 규칙 제3조제1항·제2항이 최종진료 다음날부터 1년 이내 1호를 제출하도록 지정한다. 기존에는 같은 원본이 정확 정부24 378000000137에 주신청서로 공개됐고 복지로 WLF00001629에는 보조서류만 연결되어 있어 이 동일 사업의 누락 주신청 연결 1개를 추가 제안한다. 원본 자체는 신규 원본 수에 포함하지 않는다.",
+      "currentAnnexBinding": {
+        "binding": "bound",
+        "bindingReason": "OFFICIAL_ANNEX_BOUND_WITH_SAME_FILE",
+        "officialAnnexId": "20004391",
+        "officialAnnexNumber": "1",
+        "officialAnnexTitle": "[별지 제1호서식]아동의료비 본인부담 100만원 상한제 지급 신청서(환자용)",
+        "officialFlSeq": "152239455",
+        "officialAnnexUrl": "https://www.law.go.kr/flDownload.do?gubun=ELIS&flSeq=152239455&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C1%ED%98%B8%EC%84%9C%EC%8B%9D%5D%EC%95%84%EB%8F%99%EC%9D%98%EB%A3%8C%EB%B9%84+%EB%B3%B8%EC%9D%B8%EB%B6%80%EB%8B%B4+100%EB%A7%8C%EC%9B%90+%EC%83%81%ED%95%9C%EC%A0%9C+%EC%A7%80%EA%B8%89+%EC%8B%A0%EC%B2%AD%EC%84%9C%28%ED%99%98%EC%9E%90%EC%9A%A9%29",
+        "officialAnnexDeleted": false
+      },
+      "independentImportVerification": {
+        "reviewedBy": "/root/national_form_audit",
+        "checkedAt": "2026-10-20",
+        "fullBodyRead": true,
+        "sectionsRead": [
+          "BodyText/Section0",
+          "BodyText/Section1",
+          "BodyText/Section2"
+        ],
+        "textLength": 2597,
+        "textSHA256": "954c53e1bb7790aa1107fb7cf2f584b7f987124cf3df090499162ceffad4168f",
+        "actualBytesSHA256": "9bf9f27072b5e9906307a114a412155c7364c7b6b22b31ebf8b621bfbfc50393",
+        "currentSearchPath": "logs/forms-completion/gyeonggi-20261019/current-law-extra14/current-law-searches/2041475.json",
+        "currentSearchSHA256": "ea92242afad07c30e2dcf6d5d8c4f689b6017bc576a4221961608decfe094677",
+        "currentBodyPath": "logs/forms-completion/gyeonggi-20261019/current-law-extra14/current-law-bodies/2041475.json.gz",
+        "currentBodySHA256": "9ce52bb07acaf19751f3de8d6ee9523c0605590c3dcb2b598f27e47a80d671d1",
+        "currentAuditPath": "logs/forms-completion/gyeonggi-20261019/current-law-extra14/audit.json",
+        "currentAuditSHA256": "8a051b560f7a783b8d5be4abc32f6c1a8db633aee2e0e47fdd29d7f4e99f50f2",
+        "rawAnnexId": "20004391",
+        "rawAnnexNumber": "000100",
+        "rawAnnexTitle": "[별지 제1호서식]아동의료비 본인부담 100만원 상한제 지급 신청서(환자용)",
+        "rawFlSeq": "152239455",
+        "officialAnnexDeleted": false,
+        "sourceLawId": "2041475",
+        "officialBodyLawTitle": "성남시 아동의료비 본인부담 100만원 상한제 조례 시행규칙",
+        "proposalLawTitle": "성남시 아동의료비 본인부담 100만원 상한제 조례 시행규칙",
+        "lawTitleNFKCEqual": true,
+        "printedParts": [
+          "1 (제1~3쪽)"
+        ]
+      },
+      "sourceProposal": "team2/raw-existing-original-additional-link-20261020.json",
+      "sourceProposalSHA256": "bdf8bc5f72bd10e76ef30cb8d933e8549f03f81c2766c38b640c206f07efeef5",
+      "sourceOriginalPath": "logs/forms-completion/gyeonggi-20261019/team2/originals/ordin-20004391.hwp",
+      "newOriginalCount": 0,
+      "associationOnly": true
+    }
+  ],
+  "sourceReview": {
+    "scopeFile": "pipeline/forms/reviews/gyeonggi-portal-reuse-scope-round8115.json"
+  },
+  "newOriginalCount": 0,
+  "associationOnly": true
+}

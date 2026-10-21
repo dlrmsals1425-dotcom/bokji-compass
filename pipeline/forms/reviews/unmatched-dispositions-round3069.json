@@ -1,0 +1,1055 @@
+{
+  "schema": 1,
+  "batchId": "batch-069",
+  "checkedAt": "2026-10-19",
+  "complete": true,
+  "summary": {
+    "scopeForms": 18,
+    "reviewed": 18,
+    "pending": 0,
+    "approvedForms": 8,
+    "approvedAssociations": 8
+  },
+  "items": [
+    {
+      "formId": "ordin-9381549",
+      "sha256": "fa84938f0165140744f800053f98b9392cdb511d069e0db807888f8a888a5b56",
+      "disposition": "requires_external_confirmation",
+      "reason": "현재 정부24는 여전히 25년도 사업 미추진을 명시하고 2026 신규 대부의 재개 공고·접수 패키지는 확인되지 않았다. 무주군의회 2025-10-21 공식 회의록도 배냇소 연대보증 의무 폐지 개정안을 의결했음을 확인했다. 새 신청 패키지 및 현재 재개 여부의 직접 근거가 없어 보류한다.",
+      "fullBodyReviewed": true,
+      "reviewedProgramPairs": [
+        {
+          "programId": "g52730.gov24-474000000129",
+          "programName": "반딧불한우 배냇소 지원",
+          "disposition": "requires_external_confirmation",
+          "reason": "2025미추진 안내 이후 현행 신규접수·개정 신청패키지 미확인."
+        }
+      ],
+      "sourceEvidence": {
+        "lawId": "922717",
+        "lawTitle": "무주군 반딧불한우 배냇소 대부 조례 시행규칙",
+        "annexId": "9381549",
+        "flSeq": "69204717",
+        "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=69204717&flNm=%3C%EB%B3%84%EC%A7%80+%EC%A0%9C1%ED%98%B8%EC%84%9C%EC%8B%9D%3E+%EB%B0%98%EB%94%A7%EB%B6%88%ED%95%9C%EC%9A%B0+%EB%B0%B0%EB%83%87%EC%86%8C+%EB%8C%80%EB%B6%80+%EC%8B%A0%EC%B2%AD%EC%84%9C%28%EC%A0%9C2%EC%A1%B0%EC%A0%9C1%ED%95%AD%EC%A0%9C1%ED%98%B8+%EA%B4%80%EB%A0%A8%29.",
+        "publicLawUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=922717",
+        "exactSourceBinding": true,
+        "lawTextRead": true,
+        "articleNumbers": [
+          "제2조"
+        ],
+        "articleTexts": [
+          "제2조(대부신청절차 및 구비서류) ① 배냇소를 대부 받고자 하는 농가는 조례 제4조의 규정에 의한 대부 신청서에 다음 각호의 구비서류를 작성 첨부하여 사육장소의 관할 읍·면장을 경유하여 무주군수(이하 \"군수\"라 한다)에게 신청하여야 한다.1. 반딧불한우 배냇소 대부 신청서(별지 제1호서식)2. 사업계획서(별지 제2호서식)3. 서약서(별지 제3호서식)4. 반딧불한우 배냇소 대부 추천서(별지 제4호서식)② 읍·면장은 관계 구비서류의 적정여부를 확인한 후 읍·면 자체심의회를 개최한 날로부터 5일이내에 반딧불한우 배냇소 대부 심의서(별지 제5호서식)와 의견서를 첨부하여 군수에게 제출하여야 한다.③ 대부신청은 배냇소의 상환상황에 따라 읍·면장이 의견서 및 심의서를 첨부 군수에게 수시로 제출함을 원칙으로 한다.④ 제1항의 구비서류는 원본은 사업주관부서에서, 사본은 읍·면에서 각각 보관한다."
+        ],
+        "originalBytes": 10240,
+        "bodyTextSha256": "9f06f069fd33437e74b8ee288e7eb80ff621377ef76b48240079badba2dc77ac",
+        "textLength": 324,
+        "textScope": "all_body_sections_or_pages",
+        "sectionsRead": [
+          "BodyText/Section0"
+        ],
+        "currencyCheck": {
+          "state": "source_current",
+          "checkedAt": "2026-10-19",
+          "currentLawId": "922717",
+          "effectiveDate": "20081015",
+          "annexBinding": "bound"
+        }
+      },
+      "checkedAt": "2026-10-19",
+      "additionalEvidence": {
+        "lawId": "2082051",
+        "url": "https://www.law.go.kr/LSW/ordinInfoR.do?ordinSeq=2082051&gubun=ELIS&chrClsCd=010202",
+        "httpStatus": 200,
+        "bytes": 25940,
+        "sha256": "9260c3d5282ec2c284679f5ec15ea1e778104b3696fec347584ab49fcd05280b",
+        "claim": "현행2025.11.5개정 제4조2항은 배냇소가액에 맞는 담보설정.연대보증 의무를 삭제한 개정취지는2025.10.17 의회제안설명에서 확인.",
+        "minutesUrl": "https://assem.muju.go.kr/minutes/svc/web/cms/mnts/SvcMntsViewer.php?schSn=2669",
+        "externalCondition": "2026신규대부 추진·접수공고와 연대보증 폐지 후 제출서류 안내 확인 필요."
+      },
+      "officialFollowup": {
+        "checkedAt": "2026-10-19",
+        "sourceResult": "logs/forms-completion/official-followup/team2/team2-results.json",
+        "sourceResultSHA256": "badd63d72d5f96dcc6815ad79e43ba695490e25777144516a69934cdab93a48a",
+        "proposedStatus": "confirmed_unresolved",
+        "officialEvidence": [
+          {
+            "url": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/474000000129",
+            "httpStatus": 200,
+            "savedEvidence": [
+              {
+                "path": "logs/forms-completion/official-followup/team2/case34-gov24.json",
+                "sha256": "3a585dfd5b2f402cb94459c6ee5386aaaf293cbe8c96521ce0c226fd79ba47bd",
+                "kind": "official_evidence_metadata"
+              }
+            ]
+          },
+          {
+            "url": "https://assem.muju.go.kr/minutes/svc/web/cms/mnts/SvcMntsViewer.php?schSn=2665",
+            "httpStatus": 200,
+            "savedEvidence": [
+              {
+                "path": "logs/forms-completion/official-followup/team2/case34-36-municipal-council.json",
+                "sha256": "3716d1d24fe8dfe9357ab20cab84aeda18212df744ad048eadc68f09203e1184",
+                "kind": "official_evidence_metadata"
+              }
+            ]
+          }
+        ],
+        "allFormsConnected": false
+      },
+      "relatedProgramIds": [
+        "g52730.gov24-474000000129"
+      ]
+    },
+    {
+      "formId": "ordin-9381553",
+      "sha256": "c68aea487510c88a2b7fc728e5caf3d59dd0df4ca483fe53501ba20bb9744e31",
+      "disposition": "requires_external_confirmation",
+      "reason": "무주군의회 2025-10-21 회의록에서 연대보증 의무를 폐지하는 개정안 의결을 다시 확인했다. 현행 상위 조례의 폐지와 달리 실제 구 서약서는 농가와 보증인2명의 서명을 요구한다. 공식적으로 수정된 서약이나 해당란 처리지침을 찾지 못했으므로 보증 부담을 주의문으로 해결했다고 보지 않는다.",
+      "fullBodyReviewed": true,
+      "reviewedProgramPairs": [
+        {
+          "programId": "g52730.gov24-474000000129",
+          "programName": "반딧불한우 배냇소 지원",
+          "disposition": "requires_external_confirmation",
+          "reason": "상위조례연대보증삭제와 원본연대보증서명 요구의 충돌."
+        }
+      ],
+      "sourceEvidence": {
+        "lawId": "922717",
+        "lawTitle": "무주군 반딧불한우 배냇소 대부 조례 시행규칙",
+        "annexId": "9381553",
+        "flSeq": "69204721",
+        "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=69204721&flNm=%3C%EB%B3%84%EC%A7%80+%EC%A0%9C3%ED%98%B8%EC%84%9C%EC%8B%9D%3E+%EC%84%9C%EC%95%BD%EC%84%9C%28%EC%A0%9C2%EC%A1%B0%EC%A0%9C1%ED%95%AD%EC%A0%9C3%ED%98%B8+%EA%B4%80%EB%A0%A8%29",
+        "publicLawUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=922717",
+        "exactSourceBinding": true,
+        "lawTextRead": true,
+        "articleNumbers": [
+          "제2조"
+        ],
+        "articleTexts": [
+          "제2조(대부신청절차 및 구비서류) ① 배냇소를 대부 받고자 하는 농가는 조례 제4조의 규정에 의한 대부 신청서에 다음 각호의 구비서류를 작성 첨부하여 사육장소의 관할 읍·면장을 경유하여 무주군수(이하 \"군수\"라 한다)에게 신청하여야 한다.1. 반딧불한우 배냇소 대부 신청서(별지 제1호서식)2. 사업계획서(별지 제2호서식)3. 서약서(별지 제3호서식)4. 반딧불한우 배냇소 대부 추천서(별지 제4호서식)② 읍·면장은 관계 구비서류의 적정여부를 확인한 후 읍·면 자체심의회를 개최한 날로부터 5일이내에 반딧불한우 배냇소 대부 심의서(별지 제5호서식)와 의견서를 첨부하여 군수에게 제출하여야 한다.③ 대부신청은 배냇소의 상환상황에 따라 읍·면장이 의견서 및 심의서를 첨부 군수에게 수시로 제출함을 원칙으로 한다.④ 제1항의 구비서류는 원본은 사업주관부서에서, 사본은 읍·면에서 각각 보관한다."
+        ],
+        "originalBytes": 10240,
+        "bodyTextSha256": "583fd4d66570ccfdcd139b3f6995a2137b37d90fb76e413c3bc527806f2902c3",
+        "textLength": 423,
+        "textScope": "all_body_sections_or_pages",
+        "sectionsRead": [
+          "BodyText/Section0"
+        ],
+        "currencyCheck": {
+          "state": "source_current",
+          "checkedAt": "2026-10-19",
+          "currentLawId": "922717",
+          "effectiveDate": "20081015",
+          "annexBinding": "bound"
+        }
+      },
+      "checkedAt": "2026-10-19",
+      "additionalEvidence": {
+        "lawId": "2082051",
+        "url": "https://www.law.go.kr/LSW/ordinInfoR.do?ordinSeq=2082051&gubun=ELIS&chrClsCd=010202",
+        "httpStatus": 200,
+        "bytes": 25940,
+        "sha256": "9260c3d5282ec2c284679f5ec15ea1e778104b3696fec347584ab49fcd05280b",
+        "claim": "현행2025.11.5개정 제4조2항은 배냇소가액에 맞는 담보설정.연대보증 의무를 삭제한 개정취지는2025.10.17 의회제안설명에서 확인.",
+        "minutesUrl": "https://assem.muju.go.kr/minutes/svc/web/cms/mnts/SvcMntsViewer.php?schSn=2669",
+        "externalCondition": "연대보증란 없는 현행 서약 또는 해당란 처리에 관한 공식 접수안내 필요."
+      },
+      "officialFollowup": {
+        "checkedAt": "2026-10-19",
+        "sourceResult": "logs/forms-completion/official-followup/team2/team2-results.json",
+        "sourceResultSHA256": "badd63d72d5f96dcc6815ad79e43ba695490e25777144516a69934cdab93a48a",
+        "proposedStatus": "confirmed_unresolved",
+        "officialEvidence": [
+          {
+            "url": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/474000000129",
+            "httpStatus": 200,
+            "savedEvidence": [
+              {
+                "path": "logs/forms-completion/official-followup/team2/case34-gov24.json",
+                "sha256": "3a585dfd5b2f402cb94459c6ee5386aaaf293cbe8c96521ce0c226fd79ba47bd",
+                "kind": "official_evidence_metadata"
+              }
+            ]
+          },
+          {
+            "url": "https://assem.muju.go.kr/minutes/svc/web/cms/mnts/SvcMntsViewer.php?schSn=2665",
+            "httpStatus": 200,
+            "savedEvidence": [
+              {
+                "path": "logs/forms-completion/official-followup/team2/case34-36-municipal-council.json",
+                "sha256": "3716d1d24fe8dfe9357ab20cab84aeda18212df744ad048eadc68f09203e1184",
+                "kind": "official_evidence_metadata"
+              }
+            ]
+          }
+        ],
+        "allFormsConnected": false
+      },
+      "relatedProgramIds": [
+        "g52730.gov24-474000000129"
+      ]
+    },
+    {
+      "formId": "ordin-9381559",
+      "sha256": "17d1a2b71b07afaf301b21a44f148dcf9cc6bdfea172ba6b1ad54b3f0e077e0b",
+      "disposition": "requires_external_confirmation",
+      "reason": "기존 배냇소 상환기한 연장은 신규사업 미추진과 별개의 단계이나, 실제 원본의 보증인2명 서명 요구는 현행 연대보증 폐지와 계속 충돌한다. 공식 회의록까지 재확인했으며 개정 후 연장접수 서식·처리지침을 찾지 못했다. 기존 대부자의 연장이 불가능하다고 단정하지 않고 정확한 원본 사용 확인을 남긴다.",
+      "fullBodyReviewed": true,
+      "reviewedProgramPairs": [
+        {
+          "programId": "g52730.gov24-474000000129",
+          "programName": "반딧불한우 배냇소 지원",
+          "disposition": "requires_external_confirmation",
+          "reason": "기존대부연장 절차는 확인했으나 원본보증인란 처리근거 미확인."
+        }
+      ],
+      "sourceEvidence": {
+        "lawId": "922717",
+        "lawTitle": "무주군 반딧불한우 배냇소 대부 조례 시행규칙",
+        "annexId": "9381559",
+        "flSeq": "69204727",
+        "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=69204727&flNm=%3C%EB%B3%84%EC%A7%80+%EC%A0%9C6%ED%98%B8%EC%84%9C%EC%8B%9D%3E+%EB%AC%B4%EC%A3%BC%EA%B5%B0+%EB%B0%98%EB%94%A7%EB%B6%88%ED%95%9C%EC%9A%B0+%EB%B0%B0%EB%83%87%EC%86%8C+%EB%8C%80%EB%B6%80+%EC%83%81%ED%99%98%EA%B8%B0%ED%95%9C+%EC%97%B0%EA%B8%B0%EC%8B%A0%EC%B2%AD%EC%84%9C%28%EC%A0%9C7%EC%A1%B0%EC%A0%9C1%ED%95%AD+%EA%B4%80%EB%A0%A8%29",
+        "publicLawUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=922717",
+        "exactSourceBinding": true,
+        "lawTextRead": true,
+        "articleNumbers": [
+          "제7조"
+        ],
+        "articleTexts": [
+          "제7조(상환기한 연장절차) ① 조례 제12조의 규정에 의한 배냇소의 상환기한을 연장하고자 하는 자는 무주군 반딧불한우 배냇소 상환 기한연기신청서(별지 제6호서식)를 작성하여 관할 읍·면장에게 제출하여야 한다.② 읍·면장은 제출된 무주군 반딧불한우 배냇소 상환기한 연기신청서에 의견서를 첨부하여 군수에게 승인 요청하여야 한다."
+        ],
+        "originalBytes": 10240,
+        "bodyTextSha256": "25bbbd1f3aab894caf98c4e406a3f3099371f1a9302106095c0f3f25bb966d84",
+        "textLength": 566,
+        "textScope": "all_body_sections_or_pages",
+        "sectionsRead": [
+          "BodyText/Section0"
+        ],
+        "currencyCheck": {
+          "state": "source_current",
+          "checkedAt": "2026-10-19",
+          "currentLawId": "922717",
+          "effectiveDate": "20081015",
+          "annexBinding": "bound"
+        }
+      },
+      "checkedAt": "2026-10-19",
+      "additionalEvidence": {
+        "lawId": "2082051",
+        "url": "https://www.law.go.kr/LSW/ordinInfoR.do?ordinSeq=2082051&gubun=ELIS&chrClsCd=010202",
+        "httpStatus": 200,
+        "bytes": 25940,
+        "sha256": "9260c3d5282ec2c284679f5ec15ea1e778104b3696fec347584ab49fcd05280b",
+        "claim": "현행2025.11.5개정 제4조2항은 배냇소가액에 맞는 담보설정.연대보증 의무를 삭제한 개정취지는2025.10.17 의회제안설명에서 확인.",
+        "minutesUrl": "https://assem.muju.go.kr/minutes/svc/web/cms/mnts/SvcMntsViewer.php?schSn=2669",
+        "externalCondition": "기존대부 상환연장은 현행 제12조에 존재.연대보증란을 포함한 구서식의 현행 접수방법 확인 필요."
+      },
+      "officialFollowup": {
+        "checkedAt": "2026-10-19",
+        "sourceResult": "logs/forms-completion/official-followup/team2/team2-results.json",
+        "sourceResultSHA256": "badd63d72d5f96dcc6815ad79e43ba695490e25777144516a69934cdab93a48a",
+        "proposedStatus": "confirmed_unresolved",
+        "officialEvidence": [
+          {
+            "url": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/474000000129",
+            "httpStatus": 200,
+            "savedEvidence": [
+              {
+                "path": "logs/forms-completion/official-followup/team2/case34-gov24.json",
+                "sha256": "3a585dfd5b2f402cb94459c6ee5386aaaf293cbe8c96521ce0c226fd79ba47bd",
+                "kind": "official_evidence_metadata"
+              }
+            ]
+          },
+          {
+            "url": "https://assem.muju.go.kr/minutes/svc/web/cms/mnts/SvcMntsViewer.php?schSn=2665",
+            "httpStatus": 200,
+            "savedEvidence": [
+              {
+                "path": "logs/forms-completion/official-followup/team2/case34-36-municipal-council.json",
+                "sha256": "3716d1d24fe8dfe9357ab20cab84aeda18212df744ad048eadc68f09203e1184",
+                "kind": "official_evidence_metadata"
+              }
+            ]
+          }
+        ],
+        "allFormsConnected": false
+      },
+      "relatedProgramIds": [
+        "g52730.gov24-474000000129"
+      ]
+    },
+    {
+      "formId": "ordin-19953779",
+      "sha256": "ed9a225e905fac639f127622b24559afb9f9f18d83d60fe5b14bb7a71dd5e3e2",
+      "disposition": "approved",
+      "reason": "청도 수리업체의 장애인·기기·수리부위·산출비용 청구를 전체 읽었다.제7조3·4항의 월별 업체청구·지급과 복지로 사업 apply의 '수리업체→군 청구/군→업체지급' 단계가 직접 일치한다.장애인의 최초 신청으로 혼동하지 않도록 제공업체 정산만 조건부로 연결한다.",
+      "fullBodyReviewed": true,
+      "reviewedProgramPairs": [
+        {
+          "programId": "g47820.bokjiro-WLF00003456",
+          "programName": "장애인 전동보장구 수리 지원",
+          "disposition": "approved",
+          "role": "application",
+          "use": "conditional",
+          "reason": "청도 수리업체의 장애인·기기·수리부위·산출비용 청구를 전체 읽었다.제7조3·4항의 월별 업체청구·지급과 복지로 사업 apply의 '수리업체→군 청구/군→업체지급' 단계가 직접 일치한다.장애인의 최초 신청으로 혼동하지 않도록 제공업체 정산만 조건부로 연결한다."
+        },
+        {
+          "programId": "g47820.gov24-519000000113",
+          "programName": "장애인 전동보장구 수리비 지원",
+          "disposition": "not_applicable",
+          "reason": "원본 신청 주체·목적과 이 사업의 지원 범위를 대조했으며 이 연결은 승인하지 않음."
+        },
+        {
+          "programId": "g47820.icare-0090-1489808-1-4-8",
+          "programName": "장애인 전동보장구수리 센터운영",
+          "disposition": "not_applicable",
+          "reason": "원본 신청 주체·목적과 이 사업의 지원 범위를 대조했으며 이 연결은 승인하지 않음."
+        }
+      ],
+      "sourceEvidence": {
+        "lawId": "927024",
+        "lawTitle": "청도군 전동보장구 수리 지원에 관한 조례",
+        "annexId": "19953779",
+        "flSeq": "152163225",
+        "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=152163225&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C4%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EC%9E%A5%EC%95%A0%EC%9D%B8+%EC%A0%84%EB%8F%99%EB%B3%B4%EC%9E%A5%EA%B5%AC+%EC%88%98%EB%A6%AC%EB%B9%84%EC%9A%A9+%EC%B2%AD%EA%B5%AC%EC%84%9C",
+        "publicLawUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=927024",
+        "exactSourceBinding": true,
+        "lawTextRead": true,
+        "articleNumbers": [
+          "제7조"
+        ],
+        "articleTexts": [
+          "제7조(수리비용 지원절차)① 장애인이 관할거주지 읍·면장에게 별지 제1호서식의 신청서를 제출하면, 읍ㆍ면장은 다음 각 호의 사항을 검토하여 수리비용 지원대상자를 결정한다.1. 관내 거주 등록 장애인 여부2. 수급자 및 차상위계층 해당 여부② 제1항에 따라 지원대상자로 인정되는 경우에는 읍ㆍ면장은 별지 제2호서식의 지원의뢰서를 발급하고, 수리를 받으려는 자는 지원센터에 지원의뢰서를 제출하여 수리를 의뢰하면, 수리업자는 그 의뢰서에 따라 전동보장구에 대하여 수리를 완료한 후 해당 장애인에게 교부한다.③ 읍ㆍ면장은 매달 1일부터 말일까지의 지원대상자 결정현황을 그 다음달 5일까지 군수에게 송부하고, 수리업체는 매달 1일부터 말일까지의 수리내역을 별지 제3호서식에 기재하여 별지 제4호서식의 수리비용 청구서와 함께 그 다음달 10일까지 군수에게 송부하여야 한다.④ 군수는 읍ㆍ면장으로부터 송부 받은 지원대상자 결정현황과 수리업체로부터 송부 받은 수리내역 및 청구서를 확인한 후 송부 받은 달의 말일까지 수리업체의 계좌에 입금 조치하여야 한다."
+        ],
+        "originalBytes": 13824,
+        "bodyTextSha256": "d9bff4a2983d22832173fbc525ffbef8fb9896bd0ed6d6b2e08115ee37427e7b",
+        "textLength": 365,
+        "textScope": "all_body_sections_or_pages",
+        "sectionsRead": [
+          "BodyText/Section0"
+        ],
+        "currencyCheck": {
+          "state": "source_current",
+          "checkedAt": "2026-10-19",
+          "currentLawId": "927024",
+          "effectiveDate": "20150226",
+          "annexBinding": "bound"
+        }
+      },
+      "checkedAt": "2026-10-19"
+    },
+    {
+      "formId": "ordin-17293821",
+      "sha256": "d045ba7c6544e624b77505e8381cfd85917e6c601c276918546cf2f9c375c375",
+      "disposition": "approved",
+      "reason": "청도 신생아 건강보험료 신청의 보호자·출생순위·주소·출생정보를 읽었다.제6조는 신생아 및 입양영아 보험지원에 별지1을 제출하도록 하며 통합 출산지원 중 보험료 지원항목의 읍면접수와 일치한다.현금 출산장려금 부분과 구별한다.",
+      "fullBodyReviewed": true,
+      "reviewedProgramPairs": [
+        {
+          "programId": "g47820.gov24-519000000128",
+          "programName": "출산지원금 및 신생아·입양영아 건강보험료 지원",
+          "disposition": "approved",
+          "role": "application",
+          "use": "conditional",
+          "reason": "청도 신생아 건강보험료 신청의 보호자·출생순위·주소·출생정보를 읽었다.제6조는 신생아 및 입양영아 보험지원에 별지1을 제출하도록 하며 통합 출산지원 중 보험료 지원항목의 읍면접수와 일치한다.현금 출산장려금 부분과 구별한다."
+        }
+      ],
+      "sourceEvidence": {
+        "lawId": "931767",
+        "lawTitle": "청도군 신생아 및 입양영아 건강보험료 지원 조례",
+        "annexId": "17293821",
+        "flSeq": "138721427",
+        "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=138721427&flNm=%EB%B3%84%EC%A7%80+%EC%A0%9C1%ED%98%B8%EC%84%9C%EC%8B%9D",
+        "publicLawUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=931767",
+        "exactSourceBinding": true,
+        "lawTextRead": true,
+        "articleNumbers": [
+          "제6조"
+        ],
+        "articleTexts": [
+          "제6조(지원신청) 읍·면장은 보호자가 신생아 및 입양영아 신고시 건강보험료 지원대상 여부를 확인하고신고인에게 별지 제1호서식 신생아 및 입양영아 건강보험료 지원신청서(이하 신청서 라 한다)를 제출토록 하여야 한다."
+        ],
+        "originalBytes": 14848,
+        "bodyTextSha256": "bbe1596aa50b2091fe92d70e95bf083de5ba5dad7bfbb6ec6e7d7c148f6aeca1",
+        "textLength": 524,
+        "textScope": "all_body_sections_or_pages",
+        "sectionsRead": [
+          "BodyText/Section0"
+        ],
+        "currencyCheck": {
+          "state": "source_current",
+          "checkedAt": "2026-10-19",
+          "currentLawId": "931767",
+          "effectiveDate": "20101222",
+          "annexBinding": "bound"
+        }
+      },
+      "checkedAt": "2026-10-19"
+    },
+    {
+      "formId": "ordin-17293823",
+      "sha256": "da58771b88faf9bb92cf434ded265bac99c4dd41d766cfc844f562691bfd2968",
+      "disposition": "non_applicant",
+      "reason": "청도 읍면이 신생아 보험료 신청접수·군보고·자격상실 현황을 정리하는 별지2 대장이다.기관 관리자료로 보호자의 신청서가 아니다.",
+      "fullBodyReviewed": true,
+      "reviewedProgramPairs": [
+        {
+          "programId": "g47820.gov24-519000000128",
+          "programName": "출산지원금 및 신생아·입양영아 건강보험료 지원",
+          "disposition": "not_applicable",
+          "reason": "원본 신청 주체·목적과 이 사업의 지원 범위를 대조했으며 이 연결은 승인하지 않음."
+        }
+      ],
+      "sourceEvidence": {
+        "lawId": "931767",
+        "lawTitle": "청도군 신생아 및 입양영아 건강보험료 지원 조례",
+        "annexId": "17293823",
+        "flSeq": "138721429",
+        "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=138721429&flNm=%EB%B3%84%EC%A7%80+%EC%A0%9C2%ED%98%B8%EC%84%9C%EC%8B%9D",
+        "publicLawUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=931767",
+        "exactSourceBinding": true,
+        "lawTextRead": true,
+        "articleNumbers": [
+          "제7조"
+        ],
+        "articleTexts": [
+          "제7조(지원 절차)① 신생아 및 입양영아 건강보험료의 지원 절차는 다음 각 호와같다.1. 읍·면장은 신청서가 접수되면 관련공부 및 행정정보 등을 이용하여 지원대상여부를 확인한 후 신청서 하단의 증명민원대조확인처리인란을 기록·날인 후접수된 신청서를 즉시 군수에게 송부하여야한다.2. 읍·면장은 신청서가 접수되면 별지 제2호서식 신생아 및 입양영아 건강보험료신청접수대장을 비치·관리하여야 한다.② 군수는 신청서를 검토하여 지원여부를 결정한 후 이를 보험기관에 통보하고보험계약 체결이 확인될 경우 보험료 청구서에 의거 관련 자료 확인 후 보험료를지급하여야 한다.③ 읍·면장은 신생아 및 입양영아 건강보험료를 지원받던 자가 지원 자격이 상실된 경우 별지 제3호서식에 신생아 및 입양영아 건강보험료 지원대상 제외자 현황을 군수에게 즉시 보고하여야 한다.④ 군수는 지원자격 상실자에 대하여는 보험기관에 해당 사실을 통보하고 지원을중단하여야 한다."
+        ],
+        "originalBytes": 14336,
+        "bodyTextSha256": "3fbb81ddae3df7a464278d81710e812ef5a3a09b4a6a3a8c22b329a149706bec",
+        "textLength": 182,
+        "textScope": "all_body_sections_or_pages",
+        "sectionsRead": [
+          "BodyText/Section0"
+        ],
+        "currencyCheck": {
+          "state": "source_current",
+          "checkedAt": "2026-10-19",
+          "currentLawId": "931767",
+          "effectiveDate": "20101222",
+          "annexBinding": "bound"
+        }
+      },
+      "checkedAt": "2026-10-19"
+    },
+    {
+      "formId": "ordin-17293825",
+      "sha256": "ad1c5b2f984c0a556d702dcbb49de7ca1e8c0dc20bf264cbf2d2dc69c41c6360",
+      "disposition": "non_applicant",
+      "reason": "청도 읍면장이 전출·사망 등으로 보험지원대상에서 제외된 사람을 군수에게 보고하는 별지3 명부이다.개인의 변경신청이 아닌 행정기관 보고서이다.",
+      "fullBodyReviewed": true,
+      "reviewedProgramPairs": [
+        {
+          "programId": "g47820.gov24-519000000128",
+          "programName": "출산지원금 및 신생아·입양영아 건강보험료 지원",
+          "disposition": "not_applicable",
+          "reason": "원본 신청 주체·목적과 이 사업의 지원 범위를 대조했으며 이 연결은 승인하지 않음."
+        }
+      ],
+      "sourceEvidence": {
+        "lawId": "931767",
+        "lawTitle": "청도군 신생아 및 입양영아 건강보험료 지원 조례",
+        "annexId": "17293825",
+        "flSeq": "138721431",
+        "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=138721431&flNm=%EB%B3%84%EC%A0%9C+%EC%A0%9C3%ED%98%B8%EC%84%9C%EC%8B%9D",
+        "publicLawUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=931767",
+        "exactSourceBinding": true,
+        "lawTextRead": true,
+        "articleNumbers": [
+          "제7조"
+        ],
+        "articleTexts": [
+          "제7조(지원 절차)① 신생아 및 입양영아 건강보험료의 지원 절차는 다음 각 호와같다.1. 읍·면장은 신청서가 접수되면 관련공부 및 행정정보 등을 이용하여 지원대상여부를 확인한 후 신청서 하단의 증명민원대조확인처리인란을 기록·날인 후접수된 신청서를 즉시 군수에게 송부하여야한다.2. 읍·면장은 신청서가 접수되면 별지 제2호서식 신생아 및 입양영아 건강보험료신청접수대장을 비치·관리하여야 한다.② 군수는 신청서를 검토하여 지원여부를 결정한 후 이를 보험기관에 통보하고보험계약 체결이 확인될 경우 보험료 청구서에 의거 관련 자료 확인 후 보험료를지급하여야 한다.③ 읍·면장은 신생아 및 입양영아 건강보험료를 지원받던 자가 지원 자격이 상실된 경우 별지 제3호서식에 신생아 및 입양영아 건강보험료 지원대상 제외자 현황을 군수에게 즉시 보고하여야 한다.④ 군수는 지원자격 상실자에 대하여는 보험기관에 해당 사실을 통보하고 지원을중단하여야 한다."
+        ],
+        "originalBytes": 14848,
+        "bodyTextSha256": "72e54baf3a3d1452c48aea2023ef670bd9386fb08024b7e0f1c45b20a6484d1e",
+        "textLength": 279,
+        "textScope": "all_body_sections_or_pages",
+        "sectionsRead": [
+          "BodyText/Section0"
+        ],
+        "currencyCheck": {
+          "state": "source_current",
+          "checkedAt": "2026-10-19",
+          "currentLawId": "931767",
+          "effectiveDate": "20101222",
+          "annexBinding": "bound"
+        }
+      },
+      "checkedAt": "2026-10-19"
+    },
+    {
+      "formId": "ordin-17293827",
+      "sha256": "677842d6254621ecbfdcc06593786fc9c4bbfc0b8a020e86f8814dac259df6ff",
+      "disposition": "non_applicant",
+      "reason": "청도 보험료 신청접수·월별 지원·환수사유를 군수가 기록하는 별지4 대장 전체를 읽었다.개별 보호자의 신청서와 구분한다.",
+      "fullBodyReviewed": true,
+      "reviewedProgramPairs": [
+        {
+          "programId": "g47820.gov24-519000000128",
+          "programName": "출산지원금 및 신생아·입양영아 건강보험료 지원",
+          "disposition": "not_applicable",
+          "reason": "원본 신청 주체·목적과 이 사업의 지원 범위를 대조했으며 이 연결은 승인하지 않음."
+        }
+      ],
+      "sourceEvidence": {
+        "lawId": "931767",
+        "lawTitle": "청도군 신생아 및 입양영아 건강보험료 지원 조례",
+        "annexId": "17293827",
+        "flSeq": "138721433",
+        "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=138721433&flNm=%EB%B3%84%EC%A7%80+%EC%A0%9C4%ED%98%B8%EC%84%9C%EC%8B%9D",
+        "publicLawUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=931767",
+        "exactSourceBinding": true,
+        "lawTextRead": true,
+        "articleNumbers": [
+          "제11조"
+        ],
+        "articleTexts": [
+          "제11조(대장 등 비치) 군수는 업무의 효율적 추진을 위하여 별지 제4호서식 신생아 및 입양영아 건강보험료 지원 신청접수 및 지원대장을 비치·관리하여야 한다."
+        ],
+        "originalBytes": 15872,
+        "bodyTextSha256": "261faecb8b430b6f3f896796d276b5c34554aac292b1189833616928dcf3f617",
+        "textLength": 176,
+        "textScope": "all_body_sections_or_pages",
+        "sectionsRead": [
+          "BodyText/Section0"
+        ],
+        "currencyCheck": {
+          "state": "source_current",
+          "checkedAt": "2026-10-19",
+          "currentLawId": "931767",
+          "effectiveDate": "20101222",
+          "annexBinding": "bound"
+        }
+      },
+      "checkedAt": "2026-10-19"
+    },
+    {
+      "formId": "ordin-22722233",
+      "sha256": "add0456d726572f64ce093675febafbb1ebe1d087ecf1b9e70d564701a877537",
+      "disposition": "approved",
+      "reason": "청도 친환경농업육성 신청의 벼 생산단지·농가·재배·품목·보조자부담 및 세부사업계획 전체를 읽었다.국가법령 API시행일99991231은 그대로 보존하되 ELIS현행목록·제정2007.8.7·공포즉시시행 부칙과 현재별지1의 정확히 같은 원본SHA를 독립 확인했다.제6조가 조례13조 친환경사업에 이 신청서를 요구하며 고품질 친환경쌀 사업의 해당 품목·읍면접수와 일치한다.",
+      "fullBodyReviewed": true,
+      "reviewedProgramPairs": [
+        {
+          "programId": "g47820.gov24-519000000110",
+          "programName": "고품질 친환경 쌀 생산지원",
+          "disposition": "approved",
+          "role": "application",
+          "use": "conditional",
+          "reason": "청도 친환경농업육성 신청의 벼 생산단지·농가·재배·품목·보조자부담 및 세부사업계획 전체를 읽었다.국가법령 API시행일99991231은 그대로 보존하되 ELIS현행목록·제정2007.8.7·공포즉시시행 부칙과 현재별지1의 정확히 같은 원본SHA를 독립 확인했다.제6조가 조례13조 친환경사업에 이 신청서를 요구하며 고품질 친환경쌀 사업의 해당 품목·읍면접수와 일치한다."
+        }
+      ],
+      "sourceEvidence": {
+        "lawId": "935965",
+        "lawTitle": "청도군 친환경농업 육성 조례 시행규칙",
+        "annexId": "22722233",
+        "flSeq": "169778039",
+        "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=169778039&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C1%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EC%B9%9C%ED%99%98%EA%B2%BD%EB%86%8D%EC%97%85%EC%9C%A1%EC%84%B1+%EC%A7%80%EC%9B%90%EC%82%AC%EC%97%85+%EC%8B%A0%EC%B2%AD%EC%84%9C",
+        "publicLawUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=935965",
+        "exactSourceBinding": true,
+        "lawTextRead": true,
+        "articleNumbers": [
+          "제6조",
+          "제7조"
+        ],
+        "articleTexts": [
+          "제6조(신청 구비서류) 조례 제13조제2항의 규정에 의거 사업신청 농업인은 다음 각호의 서류를제출하여야 한다. 다만, 행정기관에서 확인 가능한 것은 제외한다.1. 친환경농업 육성지원 사업 신청서[별지 제1호 서식]2. 친환경농산물 품질인증서 사본3. 농지원부",
+          "제7조(신청서 접수처 및 기간) 신청서는 매년 1~3월중에 읍ㆍ면사무소에 접수한다. 단, 예산사정및 기타 사정에 따라 신청 시기를 조정할 수 있다."
+        ],
+        "originalBytes": 45056,
+        "bodyTextSha256": "8a5af9dbee98d25752fd4e48664f4c96a4510991ff23ecc37d134a441d77216d",
+        "textLength": 885,
+        "textScope": "all_body_sections_or_pages",
+        "sectionsRead": [
+          "BodyText/Section0"
+        ],
+        "currencyCheck": {
+          "state": "future_or_undated_current_result",
+          "checkedAt": "2026-10-19",
+          "currentLawId": null,
+          "effectiveDate": null,
+          "annexBinding": null
+        }
+      },
+      "checkedAt": "2026-10-19",
+      "currencyResolution": {
+        "state": "official_elis_confirmed",
+        "checkedAt": "2026-10-19",
+        "lawId": "935965",
+        "stableLawId": "2125626",
+        "org": "경상북도 청도군",
+        "effectiveDate": "2007-08-07",
+        "sourceMetadataEffectiveDate": "99991231",
+        "lawTitle": "청도군 친환경농업 육성 조례 시행규칙",
+        "alrNo": "47820113237008",
+        "histNo": "001",
+        "annexId": "22722233",
+        "annexSha256": "add0456d726572f64ce093675febafbb1ebe1d087ecf1b9e70d564701a877537",
+        "annexBytes": 45056,
+        "lawEvidenceUrl": "https://www.elis.go.kr/alrpop/alrDtlsPop?alrNo=47820113237008&histNo=001",
+        "lawPageSha256": "c09a29ab0a92462e201f9ef355c5120d2120a7b6d8af0f69d4d1c3c41868b58c",
+        "listEvidenceUrl": "https://www.elis.go.kr/alrpop/locgovAlrPopup?ctpvCd=47&sggCd=820",
+        "listPageSha256": "8262a1dd22edff9076f0049a7b0086fc0d98d678f2c2881b296addeb7e3be9bc",
+        "annexEvidenceUrl": "https://www.elis.go.kr/allalr/attListDown?alrNo=47820113237008&histNo=001&attlistSn=001",
+        "evidence": "ELIS 현행 청도군 목록의 제정2007.8.7 규칙1170호와 본문 부칙 공포즉시시행을 직접GET 확인.해당 별지1 원본이 국가법령센터22722233과 바이트 SHA256·길이까지 같음.99991231은 현재판에 함께 노출되는 API시행일 미확정값으로 보존하며2027시행판으로 간주하지 않음."
+      },
+      "additionalEvidence": {
+        "officialElisCurrencyResolution": {
+          "state": "official_elis_confirmed",
+          "checkedAt": "2026-10-19",
+          "lawId": "935965",
+          "stableLawId": "2125626",
+          "org": "경상북도 청도군",
+          "effectiveDate": "2007-08-07",
+          "sourceMetadataEffectiveDate": "99991231",
+          "lawTitle": "청도군 친환경농업 육성 조례 시행규칙",
+          "alrNo": "47820113237008",
+          "histNo": "001",
+          "annexId": "22722233",
+          "annexSha256": "add0456d726572f64ce093675febafbb1ebe1d087ecf1b9e70d564701a877537",
+          "annexBytes": 45056,
+          "lawEvidenceUrl": "https://www.elis.go.kr/alrpop/alrDtlsPop?alrNo=47820113237008&histNo=001",
+          "lawPageSha256": "c09a29ab0a92462e201f9ef355c5120d2120a7b6d8af0f69d4d1c3c41868b58c",
+          "listEvidenceUrl": "https://www.elis.go.kr/alrpop/locgovAlrPopup?ctpvCd=47&sggCd=820",
+          "listPageSha256": "8262a1dd22edff9076f0049a7b0086fc0d98d678f2c2881b296addeb7e3be9bc",
+          "annexEvidenceUrl": "https://www.elis.go.kr/allalr/attListDown?alrNo=47820113237008&histNo=001&attlistSn=001",
+          "evidence": "ELIS 현행 청도군 목록의 제정2007.8.7 규칙1170호와 본문 부칙 공포즉시시행을 직접GET 확인.해당 별지1 원본이 국가법령센터22722233과 바이트 SHA256·길이까지 같음.99991231은 현재판에 함께 노출되는 API시행일 미확정값으로 보존하며2027시행판으로 간주하지 않음."
+        },
+        "sourcePrintIssue": "원본에2026.9.29개정 머리말과200 년도 빈자리 표기가 공존.원본변경없이 보존.ELIS와법령센터의 원본바이트는 동일."
+      }
+    },
+    {
+      "formId": "ordin-7832169",
+      "sha256": "6de64add5bfa2f287d9545508ace99c734b1d613762570b3a5d70dbbefd03ba8",
+      "disposition": "approved",
+      "reason": "진천 묶음의 별지1 농어업·농촌 지원신청과 별지2 기관결정통지 전체를 읽었다.제2조는 본 조례15조의 농어업사업 신청서·계획서를 지정하며 사과·배 농가의 과수영양제 구입비 지원은 같은 기본조례 근거의 농업지원이다.사업명·금액·재배계획을 작성하는 별지1만 승인하고 결정통지는 제외한다.",
+      "fullBodyReviewed": true,
+      "reviewedProgramPairs": [
+        {
+          "programId": "g43750.gov24-445000000117",
+          "programName": "과수 영양제 구입비 지원",
+          "disposition": "approved",
+          "role": "application",
+          "use": "main",
+          "reason": "진천 묶음의 별지1 농어업·농촌 지원신청과 별지2 기관결정통지 전체를 읽었다.제2조는 본 조례15조의 농어업사업 신청서·계획서를 지정하며 사과·배 농가의 과수영양제 구입비 지원은 같은 기본조례 근거의 농업지원이다.사업명·금액·재배계획을 작성하는 별지1만 승인하고 결정통지는 제외한다."
+        }
+      ],
+      "sourceEvidence": {
+        "lawId": "952875",
+        "lawTitle": "진천군 농어업ᆞ농촌 지원에 관한 기본 조례 시행규칙",
+        "annexId": "7832169",
+        "flSeq": "55691905",
+        "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=55691905&flNm=%EB%B3%84%EC%A7%801-3%ED%98%B8",
+        "publicLawUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=952875",
+        "exactSourceBinding": true,
+        "lawTextRead": true,
+        "articleNumbers": [
+          "제2조"
+        ],
+        "articleTexts": [
+          "제2조(지원신청서 등) ①조례 제15조제1항에 따른 농어업·농촌사업(이하 “사업”이라 한다) 지원신청서는 별지 제1호서식에 의한다.②제1항의 신청에 따른 사업계획서에는 다음 각 호의 사항이 포함되어야한다.1. 신청자의 영농규모와 재배현황 및 시설현황2. 신청자의 자산과 부채에 관한 사항3. 사업의 경영계획에 관한 사항4. 지원 받고자 하는 금액과 산출기초5. 사업에 소요되는 사업비의 충당 및 사용방법6. 사업에 소요되는 경영비 중 지원금 이외의 사업비 부담자의 성명, 부담금액 및 방법7. 사업으로 인하여 예상되는 소득금에 관한 사항8. 사업으로 인하여 얻어지는 파급효과 및 향후 계획③사업지원 신청서 및 사업계획서의 첨부서류, 제출기일 등 필요한 사항은 군수가 따로 정한다."
+        ],
+        "originalBytes": 14848,
+        "bodyTextSha256": "ba40297bbddc47a201177d1bb0f5f001b93937813c7c923c6f4dfd56aa4aee6c",
+        "textLength": 709,
+        "textScope": "all_body_sections_or_pages",
+        "sectionsRead": [
+          "BodyText/Section0"
+        ],
+        "currencyCheck": {
+          "state": "source_current",
+          "checkedAt": "2026-10-19",
+          "currentLawId": "952875",
+          "effectiveDate": "20111220",
+          "annexBinding": "bound"
+        }
+      },
+      "checkedAt": "2026-10-19"
+    },
+    {
+      "formId": "ordin-14875211",
+      "sha256": "bb13e4980e41cde64d04d3bee4a5d58df0c478740bf7d4c252a51c343fbffb7e",
+      "disposition": "approved",
+      "reason": "용산 상담기록카드는 신청인의 인적사항·서명·상담할 내용 작성요령이 명시된 실제 이용자 부분과 상담관 의견란을 함께 담고 있다.방문상담을 원칙으로 하는 제7조·제10조 및 전문가무료상담 사업의 해당 대면상담 단계에 일치한다.예약 자체 및 기관 접수처리기록부 별지2와 구분한다.",
+      "fullBodyReviewed": true,
+      "reviewedProgramPairs": [
+        {
+          "programId": "g11170.gov24-302000000121",
+          "programName": "전문가 무료상담 서비스",
+          "disposition": "approved",
+          "role": "supporting",
+          "use": "conditional",
+          "reason": "용산 상담기록카드는 신청인의 인적사항·서명·상담할 내용 작성요령이 명시된 실제 이용자 부분과 상담관 의견란을 함께 담고 있다.방문상담을 원칙으로 하는 제7조·제10조 및 전문가무료상담 사업의 해당 대면상담 단계에 일치한다.예약 자체 및 기관 접수처리기록부 별지2와 구분한다."
+        }
+      ],
+      "sourceEvidence": {
+        "lawId": "958509",
+        "lawTitle": "서울특별시 용산구 전문가 무료상담실 설치 및 운영 조례",
+        "annexId": "14875211",
+        "flSeq": "124224709",
+        "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=124224709&flNm=%EB%B3%84%EC%A7%80+1~2",
+        "publicLawUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=958509",
+        "exactSourceBinding": true,
+        "lawTextRead": true,
+        "articleNumbers": [
+          "제7조",
+          "제10조"
+        ],
+        "articleTexts": [
+          "제7조(상담방법) ① 상담은 상담실 방문상담을 원칙으로 하되, 전화ㆍ서면 또는 인터넷 온라인 상담 등도 병행할 수 있다.② 상담은 공휴일을 제외한 월요일부터 금요일까지로 하고, 상담시간과 요일은 상담책임관이 조정할수 있다.",
+          "제10조(상담처리) ① 상담시 방문상담은 현장 답변을 원칙으로 한다. 다만, 현장 답변을 할수 없는 검토가 필요한 사항이나 관련부서와의 협의가 필요한 사항에 대하여는 서면 또는 전화로 회신할수 있다.② 상담에서 발견되는 중요한 행정상 참고사항은 상담책임관이 관련부서 및 기관에 통보하여 행정에 반영하게 할 수 있다.③ 상담책임관은 상담과정에 관계 공무원의 답변이나 관련자료가 필요하다고 인정될 때에는 관계공무원의 배석 또는 자료를 요청할 수 있으며, 요청받은 공무원은 특별한 사정이 없는 한 이에 응하여야 한다.④ 상담책임관은 상담결과 행정처분의 위법 또는 부당함이 확인된 때에는 관계 부서ㆍ기관에 서면으로 통보 및 시정을 권고할수 있으며, 시정을 요구받은 부서ㆍ기관장은 이에 협조하여야 한다."
+        ],
+        "originalBytes": 432128,
+        "bodyTextSha256": "c7c03e1dd57a8e9d753518a3b9cdb0948e13d4f555e9bf1827c4a2a404a195bf",
+        "textLength": 511,
+        "textScope": "all_body_sections_or_pages",
+        "sectionsRead": [
+          "BodyText/Section0",
+          "BodyText/Section1"
+        ],
+        "currencyCheck": {
+          "state": "source_current",
+          "checkedAt": "2026-10-19",
+          "currentLawId": "958509",
+          "effectiveDate": "20131231",
+          "annexBinding": "bound"
+        }
+      },
+      "checkedAt": "2026-10-19"
+    },
+    {
+      "formId": "ordin-10415815",
+      "sha256": "956e196bd767d3184c61813c296f82148d24c614cd0169c6d57ee5e1c57d7a49",
+      "disposition": "non_applicant",
+      "reason": "곡성 효행장려금 지원대상자의 신청인·계좌·부양연령을 나열하는 명부이다.제12조의 시민신청은 별지1이고 해당 별지2는 기관의 지급대상자 관리표이다.",
+      "fullBodyReviewed": true,
+      "reviewedProgramPairs": [
+        {
+          "programId": "g12720.gov24-486000000117",
+          "programName": "효행장려금 지원",
+          "disposition": "not_applicable",
+          "reason": "원본 신청 주체·목적과 이 사업의 지원 범위를 대조했으며 이 연결은 승인하지 않음."
+        }
+      ],
+      "sourceEvidence": {
+        "lawId": "962315",
+        "lawTitle": "곡성군 효행장려 및 지원 조례",
+        "annexId": "10415815",
+        "flSeq": "93656285",
+        "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=93656285&flNm=%EB%B3%84%EC%A7%80+%EC%A0%9C2%ED%98%B8%EC%84%9C%EC%8B%9D",
+        "publicLawUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=962315",
+        "exactSourceBinding": true,
+        "lawTextRead": true,
+        "articleNumbers": [
+          "제12조"
+        ],
+        "articleTexts": [
+          "제12조(효도가정에 대한 지원 등) ① 군수는 제2조 제6호의 효도가정에 대하여 예산의 범위에서 매년 30만 원 이하의 효행 장려금(이하 \"장려금\"이라 한다.)을 지급할 수 있다.② 장려금을 지급받고자 하는 사람은 별지 제1호서식의 신청서를 구비서류와 함께 거주지 관할 읍ㆍ면장에게 제출하여야 하며, 신청서의 제출은 장려금 지급 신청 첫해에 한한다.③ 읍ㆍ면장은 제2항에 따라 신청서가 접수되면 각종 공부나 행정전산망 등을 통하여 다음 각 호의 사항을 확인하여야 한다.1. 신청인과 부양대상자의 관계2. 신청인과 부양대상자의 주민등록 등록 여부 및 실거주 여부④ 읍ㆍ면장은 제3항에 따른 확인 결과를 신청서의 확인란에 기록 및 날인하여 접수한 날부터 10일 이내에 군수에게 제출하여야 하며, 군수는 지원 여부를 결정하여야 한다.⑤ 장려금은 지급대상자로 결정된 년도부터 지급한다. 다만, 다음 각 호의 어느 하나에 해당하는 경우에는 장려금 지급을 중지하여야 한다.1. 부양대상자가 사망 또는 주소 변경 등으로 지급사유가 소멸된 경우2. 부양대상자가 장려금 수령을 거부한 경우3. 그 밖에 허위 또는 부정한 방법으로 장려금을 수령한 경우⑥ 군수는 제5항 제3호의 경우에는 해당 요인이 발생한 때로부터 지급된 장려금 전액을 환수하여야 한다."
+        ],
+        "originalBytes": 13824,
+        "bodyTextSha256": "d2f67304197475e35405f09aa71c09045f23ec608d3c8f620fe2216c74f4abb1",
+        "textLength": 138,
+        "textScope": "all_body_sections_or_pages",
+        "sectionsRead": [
+          "BodyText/Section0"
+        ],
+        "currencyCheck": {
+          "state": "source_current",
+          "checkedAt": "2026-10-19",
+          "currentLawId": "962315",
+          "effectiveDate": "20141114",
+          "annexBinding": "bound"
+        }
+      },
+      "checkedAt": "2026-10-19"
+    },
+    {
+      "formId": "ordin-11692217",
+      "sha256": "ddf20347f8bb8244ea3a5c22bb60cbdfcab8e91eb64b0d90c496f112c28a6082",
+      "disposition": "no_matching_site_program",
+      "reason": "무주 공동상표의 우수·일반상표 사용권·품질심사를 신청하는 원본이다.사이트는 실제 포장재 구입비50% 지원을 농협·읍면에 신청하는 사업이고 이 서식은 별도 공동상표 허가절차로 보조금 구입비 신청과 다르다.",
+      "fullBodyReviewed": true,
+      "reviewedProgramPairs": [
+        {
+          "programId": "g52730.gov24-474000000141",
+          "programName": "농·특산물 포장재 지원",
+          "disposition": "not_applicable",
+          "reason": "원본 신청 주체·목적과 이 사업의 지원 범위를 대조했으며 이 연결은 승인하지 않음."
+        }
+      ],
+      "sourceEvidence": {
+        "lawId": "972315",
+        "lawTitle": "무주군 농ᆞ특산물 공동상표 사용에 관한 조례 시행규칙",
+        "annexId": "11692217",
+        "flSeq": "107189837",
+        "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=107189837&flNm=%3C%EB%B3%84%EC%A7%80+%EC%A0%9C1%ED%98%B8%EC%84%9C%EC%8B%9D%3E+%EB%AC%B4%EC%A3%BC%EA%B5%B0+%EB%86%8D%C2%B7%ED%8A%B9%EC%82%B0%EB%AC%BC+%EA%B3%B5%EB%8F%99%EC%83%81%ED%91%9C+%EC%82%AC%EC%9A%A9+%EC%8B%A0%EC%B2%AD%EC%84%9C%28%EC%A0%9C4%EC%A1%B0%EC%A0%9C1%ED%95%AD+%EA%B4%80%EB%A0%A8%29",
+        "publicLawUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=972315",
+        "exactSourceBinding": true,
+        "lawTextRead": true,
+        "articleNumbers": [
+          "제4조"
+        ],
+        "articleTexts": [
+          "제4조(공동상표 사용신청) ① 공동상표를 사용하고자 하는 자는 별지 제1호 서식에 따른 공동상표 사용신청서를 작성하여 무주군수(이하“군수”라 한다)에게 제출하여야 한다.② 군에서 생산된 농산물에 공동상표를 사용하고자 하는 자는 제1항에 따른 공동상표 사용신청서 제출 시 다음 각 호의 서류를 첨부하여야 한다.1. 품질준수 각서(별지 제1-1호 서식)2. 삭제<2014.10.1.>3. 생산자별 조서 (단체신청에 한함)4. 삭제<2014.10.1.>③ 군에서 생산된 가공식품에 공동상표를 사용하고자 하는 자는 제1항에 따른 공동상표 사용신청서 제출 시 다음 각 호의 서류를 첨부하여야 한다.1. 품질 준수각서(별지 제1-1호 서식)2. 삭제<2014.10.1.>3. 식품제조가공업 영업신고 증(사본)4. 신청 품목의 제조공정 상황 개요서5. 삭제<2014.10.1.>6. 삭제<2014.10.1.>7. 공공기관이 발행한 품질인증서(사본) 또는 전문기관의 시험성적서(사본)"
+        ],
+        "originalBytes": 16384,
+        "bodyTextSha256": "3a252d157f0be7aba925ef8bf8b7efe8850364dc6fded47104bcebb783f7f3ff",
+        "textLength": 795,
+        "textScope": "all_body_sections_or_pages",
+        "sectionsRead": [
+          "BodyText/Section0"
+        ],
+        "currencyCheck": {
+          "state": "source_current",
+          "checkedAt": "2026-10-19",
+          "currentLawId": "972315",
+          "effectiveDate": "20141001",
+          "annexBinding": "bound"
+        }
+      },
+      "checkedAt": "2026-10-19",
+      "sameJurisdictionSearch": "무주 공동상표·포장재 전체사업 대조.상표사용권 허가 자체의 사업은 없고 포장재구입비 사업과 구분."
+    },
+    {
+      "formId": "ordin-20679287",
+      "sha256": "7a571e74e86376539c9ee05492d1267f939607eca841a1a4fa4a82dac1e67c6d",
+      "disposition": "no_matching_site_program",
+      "reason": "장흥 귀농어업 인턴이 선도농가의 연수작목·지역·기간·수당을 신청하는 원본 앞뒤와 작성요령을 읽었다.제3조 교육훈련과 사이트 창업시설비·주택수리비 지원은 다른 항목이며 동일관할 인턴연수 사업은 없다.",
+      "fullBodyReviewed": true,
+      "reviewedProgramPairs": [
+        {
+          "programId": "g12770.gov24-491000000109",
+          "programName": "귀농어업인 창업 및 주택수리 지원",
+          "disposition": "not_applicable",
+          "reason": "원본 신청 주체·목적과 이 사업의 지원 범위를 대조했으며 이 연결은 승인하지 않음."
+        }
+      ],
+      "sourceEvidence": {
+        "lawId": "976286",
+        "lawTitle": "장흥군 귀농어업인 지원 조례 시행규칙",
+        "annexId": "20679287",
+        "flSeq": "154825091",
+        "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=154825091&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C1%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EA%B7%80%EB%86%8D%EC%96%B4%EC%97%85%EC%9D%B8%ED%84%B4%EC%A0%9C+%EC%97%B0%EC%88%98+%EC%8B%A0%EC%B2%AD%EC%84%9C",
+        "publicLawUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=976286",
+        "exactSourceBinding": true,
+        "lawTextRead": true,
+        "articleNumbers": [
+          "제3조"
+        ],
+        "articleTexts": [
+          "제3조(교육훈련 지원) 조례 제7조 제2항의 교육훈련비는 다음 각 호의 규정에 의하여 예산의 범위 내에서 지원할 수 있다1. 귀농어업 인턴제가. 지원대상 : 군수가 지정하는 일정규모 이상의 선도농가에서 농어업인턴 연수후 농어업 창업을 희망하는 자 중 별지 제1호서식의 신청서를 제출한 자나. 지 원 액 : 가구당 720만원 한도(120만원×6개월) (단, 지원액의 20%는 선도농가가 부담한다.)다. 지원방법 : 귀농어업인이 선도농가와 쌍방간의 약정(별지 제2호서식)을 체결하고 1일 8시간 월20일이상 영농실습을 이행한 경우2. 귀농학교 수강료가. 지원대상 : 귀농본부 산하 귀농학교 졸업자중 별지 제3호서식의 신청서를 제출한 자나. 지 원 액 : 가구당 30만원한도"
+        ],
+        "originalBytes": 37376,
+        "bodyTextSha256": "fcb8b0269a8161745911b72d97abd4f979de353d8e189b915cb4fd18e9a4b372",
+        "textLength": 1032,
+        "textScope": "all_body_sections_or_pages",
+        "sectionsRead": [
+          "BodyText/Section0"
+        ],
+        "currencyCheck": {
+          "state": "source_current",
+          "checkedAt": "2026-10-19",
+          "currentLawId": "976286",
+          "effectiveDate": "20100419",
+          "annexBinding": "bound"
+        }
+      },
+      "checkedAt": "2026-10-19",
+      "sameJurisdictionSearch": "장흥 귀농·귀어·인턴·연수 전사업에서 창업·주택수리만 확인."
+    },
+    {
+      "formId": "ordin-20679291",
+      "sha256": "80f930275c2f6c5055506e7beca08a652ebb989c238551e1406fa675b292660b",
+      "disposition": "no_matching_site_program",
+      "reason": "장흥 귀농학교 수료자가 교육비 영수증과 수료증으로 수강료를 신청하는 별지3이다.창업시설비 또는 주택수리비와 다른 제3조 교육훈련 지원으로 해당 사이트 사업 없음.",
+      "fullBodyReviewed": true,
+      "reviewedProgramPairs": [
+        {
+          "programId": "g12770.gov24-491000000109",
+          "programName": "귀농어업인 창업 및 주택수리 지원",
+          "disposition": "not_applicable",
+          "reason": "원본 신청 주체·목적과 이 사업의 지원 범위를 대조했으며 이 연결은 승인하지 않음."
+        }
+      ],
+      "sourceEvidence": {
+        "lawId": "976286",
+        "lawTitle": "장흥군 귀농어업인 지원 조례 시행규칙",
+        "annexId": "20679291",
+        "flSeq": "154825095",
+        "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=154825095&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C3%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EA%B7%80%EB%86%8D%ED%95%99%EA%B5%90+%EC%88%98%EA%B0%95%EB%A3%8C+%EC%A7%80%EC%9B%90%EC%8B%A0%EC%B2%AD%EC%84%9C",
+        "publicLawUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=976286",
+        "exactSourceBinding": true,
+        "lawTextRead": true,
+        "articleNumbers": [
+          "제3조"
+        ],
+        "articleTexts": [
+          "제3조(교육훈련 지원) 조례 제7조 제2항의 교육훈련비는 다음 각 호의 규정에 의하여 예산의 범위 내에서 지원할 수 있다1. 귀농어업 인턴제가. 지원대상 : 군수가 지정하는 일정규모 이상의 선도농가에서 농어업인턴 연수후 농어업 창업을 희망하는 자 중 별지 제1호서식의 신청서를 제출한 자나. 지 원 액 : 가구당 720만원 한도(120만원×6개월) (단, 지원액의 20%는 선도농가가 부담한다.)다. 지원방법 : 귀농어업인이 선도농가와 쌍방간의 약정(별지 제2호서식)을 체결하고 1일 8시간 월20일이상 영농실습을 이행한 경우2. 귀농학교 수강료가. 지원대상 : 귀농본부 산하 귀농학교 졸업자중 별지 제3호서식의 신청서를 제출한 자나. 지 원 액 : 가구당 30만원한도"
+        ],
+        "originalBytes": 47616,
+        "bodyTextSha256": "0e8448857b072ce842da1c8f9dd3940361717a20b51d7f2c69feae3295cc4f8b",
+        "textLength": 662,
+        "textScope": "all_body_sections_or_pages",
+        "sectionsRead": [
+          "BodyText/Section0"
+        ],
+        "currencyCheck": {
+          "state": "source_current",
+          "checkedAt": "2026-10-19",
+          "currentLawId": "976286",
+          "effectiveDate": "20100419",
+          "annexBinding": "bound"
+        }
+      },
+      "checkedAt": "2026-10-19"
+    },
+    {
+      "formId": "ordin-20679293",
+      "sha256": "b4af5ce23e6efd2c9301646cde3507d2e9f2a5eb7725b7b5bb45dfa07cf2a373",
+      "disposition": "approved",
+      "reason": "장흥 귀농어업인의 영농규모·교육·전입·창업사업내용·보조자부담 및 계획서 제출을 읽었다.제4조제3항 별지4와 통합 귀농어업 창업·주택수리 사업의 창업보조 항목에 일치한다.",
+      "fullBodyReviewed": true,
+      "reviewedProgramPairs": [
+        {
+          "programId": "g12770.gov24-491000000109",
+          "programName": "귀농어업인 창업 및 주택수리 지원",
+          "disposition": "approved",
+          "role": "application",
+          "use": "conditional",
+          "reason": "장흥 귀농어업인의 영농규모·교육·전입·창업사업내용·보조자부담 및 계획서 제출을 읽었다.제4조제3항 별지4와 통합 귀농어업 창업·주택수리 사업의 창업보조 항목에 일치한다."
+        }
+      ],
+      "sourceEvidence": {
+        "lawId": "976286",
+        "lawTitle": "장흥군 귀농어업인 지원 조례 시행규칙",
+        "annexId": "20679293",
+        "flSeq": "154825097",
+        "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=154825097&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C4%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EA%B7%80%EB%86%8D%EC%96%B4%EC%97%85%EC%9D%B8+%EB%86%8D%EC%96%B4%EC%97%85%EC%B0%BD%EC%97%85+%EC%82%AC%EC%97%85%EC%8B%A0%EC%B2%AD%EC%84%9C",
+        "publicLawUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=976286",
+        "exactSourceBinding": true,
+        "lawTextRead": true,
+        "articleNumbers": [
+          "제4조"
+        ],
+        "articleTexts": [
+          "제4조(사업의 지원)① 조례 제8조 제1항에서 규정한 구체적인 보조지원 사업은 다음과 같다.1. 경종분야 : 시설채소, 특용작물, 임산물, 화훼, 과원조성 등 식재 또는 재배에 필요한 농림식품가공 및 저장시설 설치 등 농림기반 시설 (단, 농지구입 및 시설부지 구입자금 제외)2. 축산분야 : 축사증축, 시설개보수 등 축산업 기반시설 (단, 시설부지 구입, 축사신축, 가축입식자금 제외)3. 수산분야 : 양식장, 양어장, 어선, 가공시설 등 수산업 기반시설 (단, 시설부지 구입자금 제외)② 사업비 지원금액은 최고 3천만원 한도로 하고, 가구당 보조율은 총사업비의 50%이내로 한다.③ 보조금을 지원받고자 하는 자는 별지 제4호서식의 신청서를 제출하여야 한다.④ 군수는 사업 신청서가 제출되면 사업주관 실과소장으로 하여금 별표 1 또는 별표 2의 사업계획의 타당성, 귀농어 정착의욕 등을 종합적으로 평가하여 위원회에 부의하고 위원회는 예산범위 안에서 지원자의 우선 순위를 결정하여야 한다.⑤ 읍면장과 사업주관 실과소장은 사업의 추진 , 준공 , 사후관리에 관한 책임을 진다.⑥ 이밖에 장흥군(이하“군”이라 한다)에서 시행하고 있는 각종 농림수산사업을 귀농어업인의 안정적인 정착을 위하여 우선하여 지원할 수 있다."
+        ],
+        "originalBytes": 50688,
+        "bodyTextSha256": "1a9ad19a6c98517a66a7eb151d4c72707049eb2e5ce270fe6cba670e42c59656",
+        "textLength": 691,
+        "textScope": "all_body_sections_or_pages",
+        "sectionsRead": [
+          "BodyText/Section0"
+        ],
+        "currencyCheck": {
+          "state": "source_current",
+          "checkedAt": "2026-10-19",
+          "currentLawId": "976286",
+          "effectiveDate": "20100419",
+          "annexBinding": "bound"
+        }
+      },
+      "checkedAt": "2026-10-19"
+    },
+    {
+      "formId": "ordin-20679299",
+      "sha256": "72fa0eed50b994d2d36b158441250bf088219c2811e002133b3bbe5704773cd1",
+      "disposition": "approved",
+      "reason": "장흥 귀농어업인의 농가주택 매매·임차·수리계획·사업비 및 증빙을 읽었다.제5조 별지7과500만원 한도 농가주택수리 지원항목에 일치한다.",
+      "fullBodyReviewed": true,
+      "reviewedProgramPairs": [
+        {
+          "programId": "g12770.gov24-491000000109",
+          "programName": "귀농어업인 창업 및 주택수리 지원",
+          "disposition": "approved",
+          "role": "application",
+          "use": "conditional",
+          "reason": "장흥 귀농어업인의 농가주택 매매·임차·수리계획·사업비 및 증빙을 읽었다.제5조 별지7과500만원 한도 농가주택수리 지원항목에 일치한다."
+        }
+      ],
+      "sourceEvidence": {
+        "lawId": "976286",
+        "lawTitle": "장흥군 귀농어업인 지원 조례 시행규칙",
+        "annexId": "20679299",
+        "flSeq": "154825223",
+        "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=154825223&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C7%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EA%B7%80%EB%86%8D%EC%96%B4%EC%97%85%EC%9D%B8+%EB%86%8D%EA%B0%80%EC%A3%BC%ED%83%9D%EC%88%98%EB%A6%AC%EB%B9%84+%EC%A7%80%EC%9B%90%EC%82%AC%EC%97%85+%EC%8B%A0%EC%B2%AD%EC%84%9C",
+        "publicLawUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=976286",
+        "exactSourceBinding": true,
+        "lawTextRead": true,
+        "articleNumbers": [
+          "제5조"
+        ],
+        "articleTexts": [
+          "제5조(주거지원) 조례 제9조에 따른 주거지원은 농가주택(빈집) 수리비 지원으로 하며, 다음 각 호에 따라 예산의 범위 안에서 지원할 수 있다.1. 지원대상 : 귀 농어업인이 농가주택(빈집)을 구입하거나 5년이상 임차하여 별지 제7호서식의 신청서를 제출한 자2. 지 원 액 : 가구당 500만원 한도"
+        ],
+        "originalBytes": 51712,
+        "bodyTextSha256": "31cfc7eca5f9af56d68be104eb1554d33c1d20d5a74d84e00955de05bd17b1ed",
+        "textLength": 648,
+        "textScope": "all_body_sections_or_pages",
+        "sectionsRead": [
+          "BodyText/Section0"
+        ],
+        "currencyCheck": {
+          "state": "source_current",
+          "checkedAt": "2026-10-19",
+          "currentLawId": "976286",
+          "effectiveDate": "20100419",
+          "annexBinding": "bound"
+        }
+      },
+      "checkedAt": "2026-10-19"
+    },
+    {
+      "formId": "ordin-11128483",
+      "sha256": "ef6bdd6149ead6b32c53b3e585848a9c89de0589f1e470eec6186337b74898d0",
+      "disposition": "approved",
+      "reason": "구리 수리센터의 업체·월별 수리건수·장애인별 기기·수리부위·금액 청구서를 전체 읽었다.제6조2·3항 업체월정산·지급과 사이트 benefit의 등록수리업체에 비용지급이 직접 일치한다.장애인의 최초 수리신청과 구분해 지정센터의 실제 지급청구만 승인한다.",
+      "fullBodyReviewed": true,
+      "reviewedProgramPairs": [
+        {
+          "programId": "g41310.gov24-398000000114",
+          "programName": "장애인 이동기기 수리비 지원",
+          "disposition": "approved",
+          "role": "application",
+          "use": "conditional",
+          "reason": "구리 수리센터의 업체·월별 수리건수·장애인별 기기·수리부위·금액 청구서를 전체 읽었다.제6조2·3항 업체월정산·지급과 사이트 benefit의 등록수리업체에 비용지급이 직접 일치한다.장애인의 최초 수리신청과 구분해 지정센터의 실제 지급청구만 승인한다."
+        }
+      ],
+      "sourceEvidence": {
+        "lawId": "976785",
+        "lawTitle": "구리시 장애인 이동기기 수리 등에 관한 조례",
+        "annexId": "11128483",
+        "flSeq": "101432507",
+        "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=101432507&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C2%ED%98%B8%EC%84%9C%EC%8B%9D+%EC%9E%A5%EC%95%A0%EC%9D%B8+%ED%9C%A0%EC%B2%B4%EC%96%B4+%EB%93%B1+%EC%88%98%EB%A6%AC%EB%B9%84%EC%9A%A9+%EC%B2%AD%EA%B5%AC%EC%84%9C%5D",
+        "publicLawUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=976785",
+        "exactSourceBinding": true,
+        "lawTextRead": true,
+        "articleNumbers": [
+          "제6조"
+        ],
+        "articleTexts": [
+          "제6조(지원절차) ① 장애인 휠체어등을 수리 받고자 하는 자는 별지 제1호서식의 신청서에 다음 각 호의 어느 하나에 해당하는 증명서류를 첨부하여 지정 수리센터등에 신청하여야 한다.1. 수급자 또는 차상위계층 장애인: 수급자 증명서 등 증명서류2. 그 밖의 장애인 : 장애인 복지카드 등 증명서류② 지정 수리센터등에서는 제1항에 따른 신청서의 확인 결과 지원대상으로 인정되면 수리를 완료한 후 매달 1일부터 말일까지의 수리 내역을 별지 제2호서식의 청구서에 관련 증명서류를 첨부하여 다음 달 5일까지 시장에게 제출하여야 한다.③ 시장은 지정 수리센터등으로부터 제출받은 수리내역과 청구서를 확인한 후 다음 달 10일 이내 지정 수리센터등의 지정계좌에 청구된 금액을 입금하여야 한다."
+        ],
+        "originalBytes": 15872,
+        "bodyTextSha256": "ba0640116b6c3dfc5c1227680378672d8f233cc99bcbaddfb6e7d1be326a2709",
+        "textLength": 288,
+        "textScope": "all_body_sections_or_pages",
+        "sectionsRead": [
+          "BodyText/Section0"
+        ],
+        "currencyCheck": {
+          "state": "source_current",
+          "checkedAt": "2026-10-19",
+          "currentLawId": "976785",
+          "effectiveDate": "20131224",
+          "annexBinding": "bound"
+        }
+      },
+      "checkedAt": "2026-10-19"
+    }
+  ]
+}

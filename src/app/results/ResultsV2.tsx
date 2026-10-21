@@ -7,6 +7,7 @@ import { useEffect, useMemo, useState, type ReactNode } from "react";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { Icon } from "@/components/Icon";
+import styles from "./results.module.css";
 import { SupportTags } from "@/components/ProgramCard";
 import { ApplyBadge, orgText, ownerText } from "@/components/Badges";
 import { IncomeAsk } from "./IncomeAsk";
@@ -243,12 +244,12 @@ export function ResultsV2({ profile, mode }: { profile: Profile; mode: FindMode 
   };
 
   return (
-    <div className="results-root v2" data-testid="v2-results">
+    <div className={`results-root v2 ${styles.results}`} data-testid="v2-results">
       <div className="print-only wrap">
         <strong>복지나침반 결과 요약</strong> — 출력일 {new Date().toLocaleDateString("ko-KR")}
       </div>
       <section className="res-head" aria-labelledby="res-h">
-        <div className="wrap">
+        <div className={`wrap ${styles.frame}`}>
           <ol className="crumbs no-print" aria-label="현재 위치">
             <li>
               <Link href="/">
@@ -327,8 +328,8 @@ export function ResultsV2({ profile, mode }: { profile: Profile; mode: FindMode 
         </div>
       </section>
 
-      <div className="wrap page">
-        <div className="v2-main">
+      <div className={`wrap page ${styles.frame}`}>
+        <div className={`v2-main ${styles.layout}`}><div className={styles.overview}>
           {teen && <TeenNote />}
           {data && (
             <Summary
@@ -357,6 +358,7 @@ export function ResultsV2({ profile, mode }: { profile: Profile; mode: FindMode 
               </button>
             </p>
           )}
+          </div><div className={styles.content}>
           {askFirst && followUp}
 
           {picks.length > 0 && (
@@ -615,6 +617,7 @@ export function ResultsV2({ profile, mode }: { profile: Profile; mode: FindMode 
             기준: 2026년 기준 중위소득·기초연금 선정기준액(보건복지부). 숫자 기준이 없는 &lsquo;저소득&rsquo;은 기준 중위소득 {LOW_INCOME_PCT}% 이하로 봤어요. 실제 선정은 재산을
             포함한 소득인정액으로 신청처에서 정해요. <Link href="/about#v2">판단 기준 자세히 보기</Link>
           </p>
+          </div>
         </div>
       </div>
       {toast && (
@@ -663,65 +666,66 @@ function Pick({ item, i, detail, loading, sit, mode, inSheet, onSheet, onReceivi
   const how = howTo(detail, p, sit.profile.sido);
   const href = `/p/${encodeURIComponent(p.id)}`;
   return (
-    <li className="card pick" data-testid="pick" data-bucket={item.bucket}>
-      <div className="pick-top">
-        <span className="pick-no" aria-hidden="true">
-          {i + 1}
-        </span>
-        <span className={`v2-badge b-${item.bucket}`}>{BUCKET_LABEL[item.bucket]}</span>
-        <SupportTags p={detail ?? p} />
+    <li className={`card pick ${styles.benefit}`} data-testid="pick" data-bucket={item.bucket}>
+      <div className={styles.benefitMain}>
+        <div className={styles.benefitText}>
+          <div className={styles.benefitTitle}>
+            <span className={styles.number} aria-hidden="true">{i + 1}</span>
+            <h3><Link href={href}>{p.name}</Link></h3>
+            <span className={`v2-badge b-${item.bucket}`}>{BUCKET_LABEL[item.bucket]}</span>
+          </div>
+          <p className="sum">{firstLine(p.summary, 90)}</p>
+          <CardNotes p={detail ?? p} sit={sit} mode={mode} />
+        </div>
+        <Link href={href} className={`btn btn-tonal btn-sm no-print ${styles.detailLink}`}>자세히 보기 <Icon name="chevronRight" size={16} /></Link>
       </div>
-      <h3>
-        <Link href={href}>{p.name}</Link>
-      </h3>
-      <p className="sum">{firstLine(p.summary, 90)}</p>
-      <p className={`v2-why w-${item.bucket}`}>
-        <Icon name={BUCKET_ICON[item.bucket]} size={16} /> <span>{plainLine(item, sit, mode)}</span>
-      </p>
-      <CardNotes p={detail ?? p} sit={sit} mode={mode} />
-      <ul className="rows">
-        <li>
-          <span className="k">신청방법</span>
-          <span className="v" data-testid="pick-place">
-            {loading ? (
-              <span className="muted" aria-live="polite">
-                신청처 불러오는 중…
+      <details className={styles.cardDetails} data-testid="benefit-more">
+        <summary>조건·신청 정보 <Icon name="chevronDown" size={16} /></summary>
+        <div className={styles.detailBody}>
+          <p className={`v2-why w-${item.bucket}`}>
+            <Icon name={BUCKET_ICON[item.bucket]} size={16} /> <span>{plainLine(item, sit, mode)}</span>
+          </p>
+          <SupportTags p={detail ?? p} />
+          <ul className="rows">
+            <li>
+              <span className="k">신청방법</span>
+              <span className="v" data-testid="pick-place">
+                {loading ? (
+                  <span className="muted" aria-live="polite">
+                    신청처 불러오는 중…
+                  </span>
+                ) : (
+                  <>
+                    {how.place}
+                    {how.channels.length > 0 && ` (${how.channels.map((c) => CHANNEL_LABEL[c]).join(", ")})`}
+                  </>
+                )}
               </span>
-            ) : (
-              <>
-                {how.place}
-                {how.channels.length > 0 && ` (${how.channels.map((c) => CHANNEL_LABEL[c]).join(", ")})`}
-              </>
+            </li>
+            <li>
+              <span className="k">담당기관</span>
+              <span className="v">{how.agency || p.provider || ownerText(p) || orgText(p)}</span>
+            </li>
+            {how.phone && !loading && (
+              <li>
+                <span className="k">문의</span>
+                <span className="v">{how.phone}</span>
+              </li>
             )}
-          </span>
-        </li>
-        <li>
-          <span className="k">담당기관</span>
-          <span className="v">{how.agency || p.provider || ownerText(p) || orgText(p)}</span>
-        </li>
-        {how.phone && !loading && (
-          <li>
-            <span className="k">문의</span>
-            <span className="v">{how.phone}</span>
-          </li>
-        )}
-        {how.bring.length > 0 && !loading && (
-          <li>
-            <span className="k">가져갈 것</span>
-            <span className="v">{how.bring.join(", ")}</span>
-          </li>
-        )}
-      </ul>
-      <div className="pick-foot no-print">
-        <Link href={href} className="btn btn-tonal btn-sm">
-          자세히 보기
-        </Link>
-        <Link href={`${href}#sec-apply`} className="btn btn-ghost btn-sm">
-          신청 방법 보기
-        </Link>
-        <SheetToggle on={inSheet} name={p.name} onChange={onSheet} />
-        {onReceiving && <ReceivingButton name={p.name} onClick={onReceiving} />}
-      </div>
+            {how.bring.length > 0 && !loading && (
+              <li>
+                <span className="k">가져갈 것</span>
+                <span className="v">{how.bring.join(", ")}</span>
+              </li>
+            )}
+          </ul>
+          <div className="pick-foot no-print">
+            <Link href={`${href}#sec-apply`} className="btn btn-ghost btn-sm">신청 방법 보기</Link>
+            <SheetToggle on={inSheet} name={p.name} onChange={onSheet} />
+            {onReceiving && <ReceivingButton name={p.name} onClick={onReceiving} />}
+          </div>
+        </div>
+      </details>
     </li>
   );
 }
@@ -797,29 +801,39 @@ function V2Card({ item, more, sit, mode, sheet }: { item: V2Item; more: number; 
   const p = item.s.program;
   const where = p.provider || ownerText(p);
   return (
-    <article className={`prow v2-card b-${item.bucket}`} data-testid="v2-card" data-bucket={item.bucket}>
-      <div className="top">
-        <h3>
-          <Link href={`/p/${encodeURIComponent(p.id)}`}>{p.name}</Link>
-        </h3>
-        <SupportTags p={p} />
+    <article className={`prow v2-card b-${item.bucket} ${styles.benefit}`} data-testid="v2-card" data-bucket={item.bucket}>
+      <div className={styles.benefitMain}>
+        <div className={styles.benefitText}>
+          <div className={styles.benefitTitle}>
+            <h3><Link href={`/p/${encodeURIComponent(p.id)}`}>{p.name}</Link></h3>
+            <span className={`v2-badge b-${item.bucket}`}>{BUCKET_LABEL[item.bucket]}</span>
+          </div>
+          {p.summary && <p className="sum">{firstLine(p.summary, 90)}</p>}
+          <CardNotes p={p} sit={sit} mode={mode} />
+          <ClosedNote p={p} />
+        </div>
+        <Link href={`/p/${encodeURIComponent(p.id)}`} className={`btn btn-tonal btn-sm no-print ${styles.detailLink}`}>자세히 보기 <Icon name="chevronRight" size={16} /></Link>
       </div>
-      {/* 어떤 복지인지 원문 요약 (먼저 확인할 카드와 같은 첫 문장, 두 줄까지 — 2026-10-16 소유자) */}
-      {p.summary && <p className="sum">{firstLine(p.summary, 90)}</p>}
-      <p className={`v2-why w-${item.bucket}`}>
-        <Icon name={BUCKET_ICON[item.bucket]} size={16} /> <span>{plainLine(item, sit, mode)}</span>
-      </p>
-      <CardNotes p={p} sit={sit} mode={mode} />
-      <ClosedNote p={p} />
-      <p className="meta">
-        <span>{orgText(p)}</span>
-        {where && <span>{where.length > 30 ? where.slice(0, 29) + "…" : where}</span>}
-        <ApplyBadge p={p} />
-        {!item.reviewed && <span title="원문에서 자동으로 정리한 조건이에요">자동 정리 조건</span>}
-        {more > 0 && <span>다른 기관 같은 사업 {more}개</span>}
-      </p>
-      {sheet && <SheetToggle on={sheet.has(p.id)} name={p.name} onChange={(on) => sheet.toggle(p.id, on)} />}
-      {sheet?.receive && <ReceivingButton name={p.name} onClick={() => sheet.receive!(item.s.group)} />}
+      <details className={styles.cardDetails} data-testid="benefit-more">
+        <summary>조건·신청 정보 <Icon name="chevronDown" size={16} /></summary>
+        <div className={styles.detailBody}>
+          <p className={`v2-why w-${item.bucket}`}>
+            <Icon name={BUCKET_ICON[item.bucket]} size={16} /> <span>{plainLine(item, sit, mode)}</span>
+          </p>
+          <SupportTags p={p} />
+          <p className="meta">
+            <span>{orgText(p)}</span>
+            {where && <span>{where.length > 30 ? where.slice(0, 29) + "…" : where}</span>}
+            <ApplyBadge p={p} />
+            {!item.reviewed && <span title="원문에서 자동으로 정리한 조건이에요">자동 정리 조건</span>}
+            {more > 0 && <span>다른 기관 같은 사업 {more}개</span>}
+          </p>
+          <div className="pick-foot no-print">
+            {sheet && <SheetToggle on={sheet.has(p.id)} name={p.name} onChange={(on) => sheet.toggle(p.id, on)} />}
+            {sheet?.receive && <ReceivingButton name={p.name} onClick={() => sheet.receive!(item.s.group)} />}
+          </div>
+        </div>
+      </details>
     </article>
   );
 }

@@ -1,0 +1,55 @@
+{
+  "schema": 1,
+  "checkedAt": "2026-10-19",
+  "complete": true,
+  "summary": {
+    "scopeForms": 1,
+    "reviewed": 1,
+    "pending": 0,
+    "approvedForms": 1
+  },
+  "items": [
+    {
+      "formId": "ordin-15630189",
+      "sha256": "6f25b0023f1ec0eddd313f5821c05225fe272408096495cf7da07bb85d193349",
+      "lawId": "1815503",
+      "disposition": "approved",
+      "reason": "Codex가 원본112640바이트·전체BodyText/Section0의3쪽, 현행1815503의9개조문과 전체부칙 및 정확한WLF00002856을 다시 대조했다. 제5조제2호가 별지1을 지정하며 실제 지방서비스의 출생아 건강보장보험료 선택·보험협약사 제공동의·계좌기재 불필요 안내가 이 보험사업에 일치한다. 영아수당 등 다른 전국공통 항목은 이 연결의 사용범위가 아니다.",
+      "fullBodyReviewed": true,
+      "reviewedBy": "Codex",
+      "checkedAt": "2026-10-19",
+      "evidenceUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=1815503",
+      "reviewedProgramPairs": [
+        {
+          "programId": "g51230.bokjiro-WLF00002856",
+          "disposition": "approved",
+          "reason": "Codex가 원본112640바이트·전체BodyText/Section0의3쪽, 현행1815503의9개조문과 전체부칙 및 정확한WLF00002856을 다시 대조했다. 제5조제2호가 별지1을 지정하며 실제 지방서비스의 출생아 건강보장보험료 선택·보험협약사 제공동의·계좌기재 불필요 안내가 이 보험사업에 일치한다. 영아수당 등 다른 전국공통 항목은 이 연결의 사용범위가 아니다."
+        }
+      ],
+      "reviewedParts": [
+        {
+          "number": "1",
+          "title": "출산서비스 통합처리 신청서 중 출생아 건강보장보험료 지원 항목 및 해당 동의",
+          "use": "main",
+          "author": "출생아의 부·모 또는 조례상 보호자"
+        }
+      ],
+      "sourceEvidence": {
+        "lawId": "1815503",
+        "stableLawId": "2071179",
+        "currentLawId": "1815503",
+        "currentCheckedAt": "2026-10-19",
+        "binding": "bound",
+        "annexId": "15630189",
+        "flSeq": "128707903",
+        "sectionsRead": [
+          "BodyText/Section0"
+        ],
+        "originalBytes": 112640,
+        "lawArticleCount": 9,
+        "applicationArticle": "제5조제2호"
+      },
+      "note": "Completes the missing individual disposition for an already source-reviewed and published association. No new original, new association or relaxed gate."
+    }
+  ]
+}

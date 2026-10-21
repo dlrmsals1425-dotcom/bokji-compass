@@ -14,6 +14,8 @@ const eslintConfig = defineConfig([
     "next-env.d.ts",
     // 작업 로그·임시 스크립트 (git에서도 제외)
     "logs/**",
+    ".venv-stt/**",
+    ".models/**",
   ]),
 ]);
 

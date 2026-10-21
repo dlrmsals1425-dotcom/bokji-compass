@@ -1,0 +1,769 @@
+{
+  "schema": 1,
+  "checkedAt": "2026-10-19",
+  "rows": [
+    {
+      "sourceKind": "ordin",
+      "basisType": "current_law_and_official_program",
+      "formId": "ordin-20660061",
+      "sourceCandidateId": null,
+      "sourcePageUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=1864929",
+      "sourcePageHttpStatus": 200,
+      "sourcePageRecord": "logs/forms-completion/gyeonggi-20261019/current-law-extra/current-law-bodies/1864929.json.gz",
+      "sourceUrl": "https://www.law.go.kr/flDownload.do?gubun=ELIS&flSeq=154783989&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C1%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EB%85%B8%EC%9D%B8+%EB%AA%A9%EC%9A%95%2C+%EC%95%88%EA%B2%BD%2C+%EC%9D%B4%EB%AF%B8%EC%9A%A9%EB%B9%84+%EC%B9%B4%EB%93%9C+%28%EC%9E%AC%29%EB%B0%9C%EA%B8%89+%EC%8B%A0%EC%B2%AD%EC%84%9C",
+      "finalUrl": "https://www.law.go.kr/flDownload.do?gubun=ELIS&flSeq=154783989&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C1%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EB%85%B8%EC%9D%B8+%EB%AA%A9%EC%9A%95%2C+%EC%95%88%EA%B2%BD%2C+%EC%9D%B4%EB%AF%B8%EC%9A%A9%EB%B9%84+%EC%B9%B4%EB%93%9C+%28%EC%9E%AC%29%EB%B0%9C%EA%B8%89+%EC%8B%A0%EC%B2%AD%EC%84%9C",
+      "attachmentId": "20660061",
+      "attachmentIdentifier": {
+        "queryParam": "flSeq",
+        "value": "154783989"
+      },
+      "attachmentFileSn": null,
+      "officialProgramSourceId": "gov24-398000000118",
+      "agencyName": "경기도 구리시",
+      "authorityKind": "government",
+      "authorityEvidenceKind": "government",
+      "authorityEvidenceUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=1864929",
+      "authorityEvidenceNote": "총괄이 국가법령정보센터 nw=1 목록으로 현행판을 확인한 법규의 정확별지ID/flSeq를 실제 원본SHA와 결속했다.",
+      "formTitle": "[별지 제1호서식] 노인 목욕, 안경, 이미용비 카드 (재)발급 신청서",
+      "sourceMetadataTitle": "[별지 제1호서식] 노인 목욕, 안경, 이미용비 카드 (재)발급 신청서",
+      "programIds": [
+        "g41310.gov24-398000000118"
+      ],
+      "programNames": [
+        "노인 목욕비 지원"
+      ],
+      "programEvidenceUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/398000000118",
+      "regionCode": "41310",
+      "regionLabel": "경기도 구리시",
+      "checkedAt": "2026-10-19",
+      "dateKind": "effective",
+      "effectiveDate": "2023-10-16",
+      "publishedAt": null,
+      "role": "application",
+      "use": "conditional",
+      "condition": "구리시 노인 목욕비 지원 대상자의 카드 신규·재발급 신청에 사용합니다. 이 사업의 대상은 구리시 거주 만 65세 이상 생계·의료급여 수급 노인입니다. 서식에 함께 적힌 안경·이·미용 지원 자격을 이 사업의 자격으로 확대하지 않습니다. 본인이 신청하기 어려워 대리 신청하는 경우 별지 제2호 위임장을 함께 제출합니다. 정부24의 분기별 지급 안내와 현행 조례의 연1회 지급 규정이 달라 지급주기는 접수처의 현재 안내를 확인합니다.",
+      "applicant": "구리시 목욕비 지원 대상자 또는 법정 위임을 받은 대리인",
+      "reviewedParts": [
+        {
+          "number": "별지 제1호서식",
+          "title": "노인 목욕, 안경, 이·미용비 카드 (재)발급 신청서",
+          "use": "conditional",
+          "author": "구리시 목욕비 지원 대상자 또는 법정 위임을 받은 대리인"
+        }
+      ],
+      "selectedParts": [
+        {
+          "number": "별지 제1호서식",
+          "title": "노인 목욕, 안경, 이·미용비 카드 (재)발급 신청서",
+          "use": "conditional",
+          "author": "구리시 목욕비 지원 대상자 또는 법정 위임을 받은 대리인"
+        }
+      ],
+      "verificationStatus": "verified",
+      "decision": "propose_approval",
+      "publicationApproved": false,
+      "requiresCoordinatorReview": true,
+      "officialAttachmentMatched": true,
+      "evidenceUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=1864929",
+      "evidenceNote": "현행 조례1864929 제3조제1항은 구리시65세 이상 생계·의료급여 수급자의 목욕비 지원을 규정하고 제5조제1항 및 제6조제3항은 별지1을 주민등록지 동장에게 제출하는 카드 신규·재발급 신청으로 특정한다. 전체 본문1009자에서 신청인·주소·카드발급사유·개인정보 동의·신청인/대리인 서명과 빈 기입란을 모두 확인했다. 정확 정부24 사업398000000118의2026-08-14 안내는 같은 구리시 목욕비 대상과 주민센터 접수를 표시한다.",
+      "roleBasis": "현행 조례1864929 제3조제1항은 구리시65세 이상 생계·의료급여 수급자의 목욕비 지원을 규정하고 제5조제1항 및 제6조제3항은 별지1을 주민등록지 동장에게 제출하는 카드 신규·재발급 신청으로 특정한다. 전체 본문1009자에서 신청인·주소·카드발급사유·개인정보 동의·신청인/대리인 서명과 빈 기입란을 모두 확인했다. 정확 정부24 사업398000000118의2026-08-14 안내는 같은 구리시 목욕비 대상과 주민센터 접수를 표시한다.",
+      "roleEvidenceUrl": "https://www.law.go.kr/flDownload.do?gubun=ELIS&flSeq=154783989&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C1%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EB%85%B8%EC%9D%B8+%EB%AA%A9%EC%9A%95%2C+%EC%95%88%EA%B2%BD%2C+%EC%9D%B4%EB%AF%B8%EC%9A%A9%EB%B9%84+%EC%B9%B4%EB%93%9C+%28%EC%9E%AC%29%EB%B0%9C%EA%B8%89+%EC%8B%A0%EC%B2%AD%EC%84%9C",
+      "roleCheckedAt": "2026-10-19",
+      "sha256": "9ef45d024645174e67e9bd0336ef9661fe756845659144bb6d5d93474082d79a",
+      "bytes": 65536,
+      "originalFormat": "hwp",
+      "originalPath": "pipeline/forms/originals/ordin-20660061.hwp",
+      "textEvidencePath": "logs/forms-completion/gyeonggi-20261019/team1/uncited/extracted/ordin-20660061.json",
+      "textScope": "all_body_sections_or_pages",
+      "originalTextScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "BodyText/Section0"
+      ],
+      "fullBodyReviewed": true,
+      "textLength": 1009,
+      "bodyTextSha256": "d180aa088f0ec76e7ffb9e2ae128719c08c7664fed72e818e8879141f61819cf",
+      "independentlyReextracted": false,
+      "embeddedImageCount": 0,
+      "reviewedBy": "/root/forms_source_audit",
+      "referencedLaws": [
+        "구리시 노인 목욕비 등에 관한 지원 조례"
+      ],
+      "excludedParts": [],
+      "sourceIssues": [
+        "정부24는 구 조례명을 인용하고 분기별3만원 이용권으로 안내하지만 현행 조례는 카드 지급 및 연1회 일괄지급을 규정한다. 제출원본에는 지급금액·분기별지급 체크란이 없고 해당 사업의 대상과 동주민센터 신청은 일치한다. 이 제안은 현재 카드발급 신청 절차에 한정하며 지급액·지급주기를 새로 확정하거나 프로그램 내용을 변경하지 않는다."
+      ],
+      "lawId": "1864929",
+      "lawTitle": "구리시 노인 목욕비 등에 관한 지원 조례",
+      "lawEvidenceUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=1864929",
+      "annexId": "20660061",
+      "annexNumber": "1",
+      "programPageRecord": "logs/forms-completion/gyeonggi-20261019/team1/pages/program-g41310.gov24-398000000118.json",
+      "programPageSHA256": "e33fef90fd03d0c7d77f6b471f51485cf8c8e517d9169e30cdc8ef7a1780cc56",
+      "originalHttpStatus": 200,
+      "verifiedDocumentTitle": "노인 목욕, 안경, 이·미용비 카드 (재)발급 신청서",
+      "lawUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=1864929",
+      "flSeq": "154783989",
+      "currentLawEvidence": {
+        "auditRecord": "logs/forms-completion/gyeonggi-20261019/current-law-extra/audit.json",
+        "bodyRecord": "logs/forms-completion/gyeonggi-20261019/current-law-extra/current-law-bodies/1864929.json.gz",
+        "lawId": "1864929",
+        "stableLawId": "2192614",
+        "effectiveDate": "20231016",
+        "annex": {
+          "annexId": "20660061",
+          "number": "1",
+          "kind": "서식",
+          "title": "[별지 제1호서식] 노인 목욕, 안경, 이미용비 카드 (재)발급 신청서",
+          "fileFormat": "hwp",
+          "url": "https://www.law.go.kr/flDownload.do?gubun=ELIS&flSeq=154783989&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C1%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EB%85%B8%EC%9D%B8+%EB%AA%A9%EC%9A%95%2C+%EC%95%88%EA%B2%BD%2C+%EC%9D%B4%EB%AF%B8%EC%9A%A9%EB%B9%84+%EC%B9%B4%EB%93%9C+%28%EC%9E%AC%29%EB%B0%9C%EA%B8%89+%EC%8B%A0%EC%B2%AD%EC%84%9C",
+          "flSeq": "154783989",
+          "pdfUrl": "",
+          "contentChars": 0,
+          "deleted": false
+        },
+        "bodySHA256": "467786aabee783e12fd6dec8ea667a6d35a5dd8c6ce2122bce549af9511321f9",
+        "allArticlesAndAddendaRead": true
+      },
+      "lawBodyRecordSHA256": "467786aabee783e12fd6dec8ea667a6d35a5dd8c6ce2122bce549af9511321f9",
+      "originalShaVerified": true,
+      "originalByteVerificationRecord": "logs/forms-completion/gyeonggi-20261019/team1/uncited/batch2-current-byte-proof.json",
+      "programPageProgramSpecific": true,
+      "displayTitle": "노인 목욕, 안경, 이·미용비 카드 (재)발급 신청서",
+      "coordinatorApproved": true,
+      "coordinatorReason": "현행 조례1864929 제3조제1항은 구리시65세 이상 생계·의료급여 수급자의 목욕비 지원을 규정하고 제5조제1항 및 제6조제3항은 별지1을 주민등록지 동장에게 제출하는 카드 신규·재발급 신청으로 특정한다. 전체 본문1009자에서 신청인·주소·카드발급사유·개인정보 동의·신청인/대리인 서명과 빈 기입란을 모두 확인했다. 정확 정부24 사업398000000118의2026-08-14 안내는 같은 구리시 목욕비 대상과 주민센터 접수를 표시한다.",
+      "currentAnnexBinding": {
+        "binding": "bound",
+        "bindingReason": "OFFICIAL_ANNEX_BOUND_WITH_SAME_FILE",
+        "officialAnnexId": "20660061",
+        "officialAnnexNumber": "1",
+        "officialAnnexTitle": "[별지 제1호서식] 노인 목욕, 안경, 이미용비 카드 (재)발급 신청서",
+        "officialFlSeq": "154783989",
+        "officialAnnexUrl": "https://www.law.go.kr/flDownload.do?gubun=ELIS&flSeq=154783989&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C1%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EB%85%B8%EC%9D%B8+%EB%AA%A9%EC%9A%95%2C+%EC%95%88%EA%B2%BD%2C+%EC%9D%B4%EB%AF%B8%EC%9A%A9%EB%B9%84+%EC%B9%B4%EB%93%9C+%28%EC%9E%AC%29%EB%B0%9C%EA%B8%89+%EC%8B%A0%EC%B2%AD%EC%84%9C",
+        "officialAnnexDeleted": false
+      }
+    },
+    {
+      "sourceKind": "ordin",
+      "basisType": "current_law_and_official_program",
+      "formId": "ordin-20660063",
+      "sourceCandidateId": null,
+      "sourcePageUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=1864929",
+      "sourcePageHttpStatus": 200,
+      "sourcePageRecord": "logs/forms-completion/gyeonggi-20261019/current-law-extra/current-law-bodies/1864929.json.gz",
+      "sourceUrl": "https://www.law.go.kr/flDownload.do?gubun=ELIS&flSeq=154783991&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C2%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EB%85%B8%EC%9D%B8+%EB%AA%A9%EC%9A%95%2C+%EC%95%88%EA%B2%BD%2C+%EC%9D%B4%EB%AF%B8%EC%9A%A9%EB%B9%84+%EC%B9%B4%EB%93%9C%28%EC%9E%AC%29%EB%B0%9C%EA%B8%89+%EC%9C%84%EC%9E%84%EC%9E%A5",
+      "finalUrl": "https://www.law.go.kr/flDownload.do?gubun=ELIS&flSeq=154783991&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C2%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EB%85%B8%EC%9D%B8+%EB%AA%A9%EC%9A%95%2C+%EC%95%88%EA%B2%BD%2C+%EC%9D%B4%EB%AF%B8%EC%9A%A9%EB%B9%84+%EC%B9%B4%EB%93%9C%28%EC%9E%AC%29%EB%B0%9C%EA%B8%89+%EC%9C%84%EC%9E%84%EC%9E%A5",
+      "attachmentId": "20660063",
+      "attachmentIdentifier": {
+        "queryParam": "flSeq",
+        "value": "154783991"
+      },
+      "attachmentFileSn": null,
+      "officialProgramSourceId": "gov24-398000000118",
+      "agencyName": "경기도 구리시",
+      "authorityKind": "government",
+      "authorityEvidenceKind": "government",
+      "authorityEvidenceUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=1864929",
+      "authorityEvidenceNote": "총괄이 국가법령정보센터 nw=1 목록으로 현행판을 확인한 법규의 정확별지ID/flSeq를 실제 원본SHA와 결속했다.",
+      "formTitle": "[별지 제2호서식] 노인 목욕, 안경, 이미용비 카드(재)발급 위임장",
+      "sourceMetadataTitle": "[별지 제2호서식] 노인 목욕, 안경, 이미용비 카드(재)발급 위임장",
+      "programIds": [
+        "g41310.gov24-398000000118"
+      ],
+      "programNames": [
+        "노인 목욕비 지원"
+      ],
+      "programEvidenceUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/398000000118",
+      "regionCode": "41310",
+      "regionLabel": "경기도 구리시",
+      "checkedAt": "2026-10-19",
+      "dateKind": "effective",
+      "effectiveDate": "2023-10-16",
+      "publishedAt": null,
+      "role": "delegation",
+      "use": "conditional",
+      "condition": "구리시 목욕비 지원 대상자가 직접 카드 발급을 신청하기 어려워 대리인이 별지 제1호 신청서를 제출하는 경우에만 사용합니다. 위임자·대리인의 신분증 사본을 첨부합니다. 카드 사용 자체를 대리인에게 허용하는 서식은 아닙니다. 정부24의 분기별 지급 안내와 현행 조례의 연1회 지급 규정이 달라 지급주기는 접수처의 현재 안내를 확인합니다.",
+      "applicant": "직접 신청하기 어려운 구리시 목욕비 지원 대상자(위임자)와 대리인",
+      "reviewedParts": [
+        {
+          "number": "별지 제2호서식",
+          "title": "노인 목욕, 안경, 이·미용비 카드 (재)발급 위임장",
+          "use": "conditional",
+          "author": "직접 신청하기 어려운 구리시 목욕비 지원 대상자(위임자)와 대리인"
+        }
+      ],
+      "selectedParts": [
+        {
+          "number": "별지 제2호서식",
+          "title": "노인 목욕, 안경, 이·미용비 카드 (재)발급 위임장",
+          "use": "conditional",
+          "author": "직접 신청하기 어려운 구리시 목욕비 지원 대상자(위임자)와 대리인"
+        }
+      ],
+      "verificationStatus": "verified",
+      "decision": "propose_approval",
+      "publicationApproved": false,
+      "requiresCoordinatorReview": true,
+      "officialAttachmentMatched": true,
+      "evidenceUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=1864929",
+      "evidenceNote": "현행 조례1864929 제5조제2항은 직접 신청할 수 없는 대상자가 별지2를 첨부하여 대리 신청할 수 있음을 명시한다. 전체 본문266자에서 위임자·대리인·관계·위임사유·신분증 사본과 카드발급 신청 위임 문구를 확인했다. 제7조제2항의 카드 본인사용 제한을 유지하며, 정부24의 정확 구리시 목욕비 사업398000000118의 신청 보조서류로만 연결한다.",
+      "roleBasis": "현행 조례1864929 제5조제2항은 직접 신청할 수 없는 대상자가 별지2를 첨부하여 대리 신청할 수 있음을 명시한다. 전체 본문266자에서 위임자·대리인·관계·위임사유·신분증 사본과 카드발급 신청 위임 문구를 확인했다. 제7조제2항의 카드 본인사용 제한을 유지하며, 정부24의 정확 구리시 목욕비 사업398000000118의 신청 보조서류로만 연결한다.",
+      "roleEvidenceUrl": "https://www.law.go.kr/flDownload.do?gubun=ELIS&flSeq=154783991&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C2%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EB%85%B8%EC%9D%B8+%EB%AA%A9%EC%9A%95%2C+%EC%95%88%EA%B2%BD%2C+%EC%9D%B4%EB%AF%B8%EC%9A%A9%EB%B9%84+%EC%B9%B4%EB%93%9C%28%EC%9E%AC%29%EB%B0%9C%EA%B8%89+%EC%9C%84%EC%9E%84%EC%9E%A5",
+      "roleCheckedAt": "2026-10-19",
+      "sha256": "f50aacc03ee0a91ab29c197485395af87e7fff39c0bebcab5b9c94632a55155d",
+      "bytes": 33792,
+      "originalFormat": "hwp",
+      "originalPath": "pipeline/forms/originals/ordin-20660063.hwp",
+      "textEvidencePath": "logs/forms-completion/gyeonggi-20261019/team1/uncited/extracted/ordin-20660063.json",
+      "textScope": "all_body_sections_or_pages",
+      "originalTextScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "BodyText/Section0"
+      ],
+      "fullBodyReviewed": true,
+      "textLength": 266,
+      "bodyTextSha256": "79b7ea12199eb5937a7ce7ab83a7bfae86c655459b127d6cbc1c40ff25678dba",
+      "independentlyReextracted": false,
+      "embeddedImageCount": 0,
+      "reviewedBy": "/root/forms_source_audit",
+      "referencedLaws": [
+        "구리시 노인 목욕비 등에 관한 지원 조례"
+      ],
+      "excludedParts": [],
+      "sourceIssues": [
+        "공통 카드 위임장에는 안경·이·미용도 인쇄되어 있으나 이 연결은 노인 목욕비 지원 신청에 한정한다."
+      ],
+      "lawId": "1864929",
+      "lawTitle": "구리시 노인 목욕비 등에 관한 지원 조례",
+      "lawEvidenceUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=1864929",
+      "annexId": "20660063",
+      "annexNumber": "2",
+      "programPageRecord": "logs/forms-completion/gyeonggi-20261019/team1/pages/program-g41310.gov24-398000000118.json",
+      "programPageSHA256": "e33fef90fd03d0c7d77f6b471f51485cf8c8e517d9169e30cdc8ef7a1780cc56",
+      "originalHttpStatus": 200,
+      "verifiedDocumentTitle": "노인 목욕, 안경, 이·미용비 카드 (재)발급 위임장",
+      "lawUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=1864929",
+      "flSeq": "154783991",
+      "currentLawEvidence": {
+        "auditRecord": "logs/forms-completion/gyeonggi-20261019/current-law-extra/audit.json",
+        "bodyRecord": "logs/forms-completion/gyeonggi-20261019/current-law-extra/current-law-bodies/1864929.json.gz",
+        "lawId": "1864929",
+        "stableLawId": "2192614",
+        "effectiveDate": "20231016",
+        "annex": {
+          "annexId": "20660063",
+          "number": "2",
+          "kind": "서식",
+          "title": "[별지 제2호서식] 노인 목욕, 안경, 이미용비 카드(재)발급 위임장",
+          "fileFormat": "hwp",
+          "url": "https://www.law.go.kr/flDownload.do?gubun=ELIS&flSeq=154783991&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C2%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EB%85%B8%EC%9D%B8+%EB%AA%A9%EC%9A%95%2C+%EC%95%88%EA%B2%BD%2C+%EC%9D%B4%EB%AF%B8%EC%9A%A9%EB%B9%84+%EC%B9%B4%EB%93%9C%28%EC%9E%AC%29%EB%B0%9C%EA%B8%89+%EC%9C%84%EC%9E%84%EC%9E%A5",
+          "flSeq": "154783991",
+          "pdfUrl": "",
+          "contentChars": 0,
+          "deleted": false
+        },
+        "bodySHA256": "467786aabee783e12fd6dec8ea667a6d35a5dd8c6ce2122bce549af9511321f9",
+        "allArticlesAndAddendaRead": true
+      },
+      "lawBodyRecordSHA256": "467786aabee783e12fd6dec8ea667a6d35a5dd8c6ce2122bce549af9511321f9",
+      "originalShaVerified": true,
+      "originalByteVerificationRecord": "logs/forms-completion/gyeonggi-20261019/team1/uncited/batch2-current-byte-proof.json",
+      "programPageProgramSpecific": true,
+      "displayTitle": "노인 목욕, 안경, 이·미용비 카드 (재)발급 위임장",
+      "coordinatorApproved": true,
+      "coordinatorReason": "현행 조례1864929 제5조제2항은 직접 신청할 수 없는 대상자가 별지2를 첨부하여 대리 신청할 수 있음을 명시한다. 전체 본문266자에서 위임자·대리인·관계·위임사유·신분증 사본과 카드발급 신청 위임 문구를 확인했다. 제7조제2항의 카드 본인사용 제한을 유지하며, 정부24의 정확 구리시 목욕비 사업398000000118의 신청 보조서류로만 연결한다.",
+      "currentAnnexBinding": {
+        "binding": "bound",
+        "bindingReason": "OFFICIAL_ANNEX_BOUND_WITH_SAME_FILE",
+        "officialAnnexId": "20660063",
+        "officialAnnexNumber": "2",
+        "officialAnnexTitle": "[별지 제2호서식] 노인 목욕, 안경, 이미용비 카드(재)발급 위임장",
+        "officialFlSeq": "154783991",
+        "officialAnnexUrl": "https://www.law.go.kr/flDownload.do?gubun=ELIS&flSeq=154783991&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C2%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EB%85%B8%EC%9D%B8+%EB%AA%A9%EC%9A%95%2C+%EC%95%88%EA%B2%BD%2C+%EC%9D%B4%EB%AF%B8%EC%9A%A9%EB%B9%84+%EC%B9%B4%EB%93%9C%28%EC%9E%AC%29%EB%B0%9C%EA%B8%89+%EC%9C%84%EC%9E%84%EC%9E%A5",
+        "officialAnnexDeleted": false
+      }
+    },
+    {
+      "sourceKind": "ordin",
+      "basisType": "current_law_and_official_program",
+      "formId": "ordin-20406221",
+      "sourceCandidateId": null,
+      "sourcePageUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=1870717",
+      "sourcePageHttpStatus": 200,
+      "sourcePageRecord": "logs/forms-completion/gyeonggi-20261019/current-law-extra/current-law-bodies/1870717.json.gz",
+      "sourceUrl": "https://www.law.go.kr/flDownload.do?gubun=ELIS&flSeq=154077463&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C3%ED%98%B8%EC%84%9C%EC%8B%9D%5D%EB%B3%B4%EC%A1%B0%EA%B8%B0%EA%B8%B0+%EC%88%98%EB%A6%AC+%EC%8B%A0%EC%B2%AD%EC%84%9C",
+      "finalUrl": "https://www.law.go.kr/flDownload.do?gubun=ELIS&flSeq=154077463&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C3%ED%98%B8%EC%84%9C%EC%8B%9D%5D%EB%B3%B4%EC%A1%B0%EA%B8%B0%EA%B8%B0+%EC%88%98%EB%A6%AC+%EC%8B%A0%EC%B2%AD%EC%84%9C",
+      "attachmentId": "20406221",
+      "attachmentIdentifier": {
+        "queryParam": "flSeq",
+        "value": "154077463"
+      },
+      "attachmentFileSn": null,
+      "officialProgramSourceId": "icare-0085-1489618-1-1-19",
+      "agencyName": "경기도 가평군",
+      "authorityKind": "government",
+      "authorityEvidenceKind": "government",
+      "authorityEvidenceUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=1870717",
+      "authorityEvidenceNote": "총괄이 국가법령정보센터 nw=1 목록으로 현행판을 확인한 법규의 정확별지ID/flSeq를 실제 원본SHA와 결속했다.",
+      "formTitle": "[별지 제3호서식]보조기기 수리 신청서",
+      "sourceMetadataTitle": "[별지 제3호서식]보조기기 수리 신청서",
+      "programIds": [
+        "g41820.icare-0085-1489618-1-1-19"
+      ],
+      "programNames": [
+        "보조기기 수리비용 지원"
+      ],
+      "programEvidenceUrl": "https://www.mohw.go.kr/board.es?mid=a60611000000&bid=0085&act=view&list_no=1489618&tag=&nPage=1",
+      "regionCode": "41820",
+      "regionLabel": "경기도 가평군",
+      "checkedAt": "2026-10-19",
+      "dateKind": "effective",
+      "effectiveDate": "2023-11-08",
+      "publishedAt": null,
+      "role": "application",
+      "use": "conditional",
+      "condition": "가평군 보조기기 수리비 지원을 신청하는 경우 사용합니다. 현행 조례상 등록 장애인·노인장기요양보험법상 노인 등·국가유공자 등 대상과 수급 유형을 확인하며, 지정 수리센터를 이용하는 수리만 지원합니다. 대상·수급유형 증빙과 개인정보 수집·이용·제3자 제공동의서를 함께 제출합니다. 이 신청서의 지원 대상 범위를 통합돌봄 메뉴판의 단순한 노인·장애인 표기만으로 넓히지 않습니다.",
+      "applicant": "가평군에 주민등록을 둔 조례상 지원 대상 보조기기 사용자",
+      "reviewedParts": [
+        {
+          "number": "별지 제3호서식",
+          "title": "보조기기 수리 신청서",
+          "use": "conditional",
+          "author": "가평군에 주민등록을 둔 조례상 지원 대상 보조기기 사용자"
+        }
+      ],
+      "selectedParts": [
+        {
+          "number": "별지 제3호서식",
+          "title": "보조기기 수리 신청서",
+          "use": "conditional",
+          "author": "가평군에 주민등록을 둔 조례상 지원 대상 보조기기 사용자"
+        }
+      ],
+      "verificationStatus": "verified",
+      "decision": "propose_approval",
+      "publicationApproved": false,
+      "requiresCoordinatorReview": true,
+      "officialAttachmentMatched": true,
+      "evidenceUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=1870717",
+      "evidenceNote": "현재 보건복지부 배포 가평군2026년4월 서비스 메뉴판 PDF 전체3쪽 중1쪽19행은 보조기기 수리비용 지원, 이동보조기기 수리, 노인·장애인, 지체장애인협회·읍면 제공을 정확히 특정한다. 이 행이 사이트사업g41820.icare-0085-1489618-1-1-19의 원천이다. 현행 조례1870717 제2조·제5조의 대상 및 지정센터 요건, 제6조제1항의 별지3 신청을 대조했다. 전체 원본641자는 지원대상/수급유형, 기기와 수리내용, 최근지원, 신청인 서명, 행정정보 확인동의와 구비서류의 빈 서식이다. 센터 지정신청이나 센터 수리비 청구서가 아닌 이용자 신청서다.",
+      "roleBasis": "현재 보건복지부 배포 가평군2026년4월 서비스 메뉴판 PDF 전체3쪽 중1쪽19행은 보조기기 수리비용 지원, 이동보조기기 수리, 노인·장애인, 지체장애인협회·읍면 제공을 정확히 특정한다. 이 행이 사이트사업g41820.icare-0085-1489618-1-1-19의 원천이다. 현행 조례1870717 제2조·제5조의 대상 및 지정센터 요건, 제6조제1항의 별지3 신청을 대조했다. 전체 원본641자는 지원대상/수급유형, 기기와 수리내용, 최근지원, 신청인 서명, 행정정보 확인동의와 구비서류의 빈 서식이다. 센터 지정신청이나 센터 수리비 청구서가 아닌 이용자 신청서다.",
+      "roleEvidenceUrl": "https://www.law.go.kr/flDownload.do?gubun=ELIS&flSeq=154077463&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C3%ED%98%B8%EC%84%9C%EC%8B%9D%5D%EB%B3%B4%EC%A1%B0%EA%B8%B0%EA%B8%B0+%EC%88%98%EB%A6%AC+%EC%8B%A0%EC%B2%AD%EC%84%9C",
+      "roleCheckedAt": "2026-10-19",
+      "sha256": "4db2bd1a91f2a976a77873a9ac582751de407f3b3c56907b9b2daba97d0cdcba",
+      "bytes": 49664,
+      "originalFormat": "hwp",
+      "originalPath": "pipeline/forms/originals/ordin-20406221.hwp",
+      "textEvidencePath": "logs/forms-completion/gyeonggi-20261019/team1/uncited/extracted/ordin-20406221.json",
+      "textScope": "all_body_sections_or_pages",
+      "originalTextScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "BodyText/Section0"
+      ],
+      "fullBodyReviewed": true,
+      "textLength": 641,
+      "bodyTextSha256": "2d282193e84de31b50ff9f480a5342a6d24e373f3b666a15b54e10db6900ad3a",
+      "independentlyReextracted": false,
+      "embeddedImageCount": 0,
+      "reviewedBy": "/root/forms_source_audit",
+      "referencedLaws": [
+        "가평군 장애인ᆞ노인 등을 위한 보조기기 유지관리 지원 조례"
+      ],
+      "excludedParts": [],
+      "sourceIssues": [
+        "공유 MOHW 메뉴판 게시물 자체를 개별사업 상세페이지로 간주하지 않았다. 첨부PDF SHA·1쪽19행의 사업명/내용/대상/기관을 개별 사업ID와 결속했다.",
+        "메뉴판은 사업구분을 전국으로 표시하고 데이터 owner도 중앙부처로 생성되어 있으나, 게시물은 가평군 메뉴판이며 실제 행·현행 가평군 조례·해당 가평군 사업ID의 범위로만 연결한다.",
+        "같은 가평군 민원 게시물240908의72920 신청서는 유형 선택과2023년 날짜가 미리 기입되어 있어 사용하지 않는다. 현행 법령의 미기입 원본20406221을 사용한다."
+      ],
+      "lawId": "1870717",
+      "lawTitle": "가평군 장애인ㆍ노인 등을 위한 보조기기 유지관리 지원 조례",
+      "lawEvidenceUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=1870717",
+      "annexId": "20406221",
+      "annexNumber": "3",
+      "programPageRecord": "logs/forms-completion/gyeonggi-20261019/team1/pages/gapyeong-icare.json",
+      "programPageSHA256": "8d7dba152e0007957a44483654a722b5d07b49bebbc53006d62cd52fcedec2f2",
+      "originalHttpStatus": 200,
+      "verifiedDocumentTitle": "보조기기 수리 신청서",
+      "lawUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=1870717",
+      "flSeq": "154077463",
+      "currentLawEvidence": {
+        "auditRecord": "logs/forms-completion/gyeonggi-20261019/current-law-extra/audit.json",
+        "bodyRecord": "logs/forms-completion/gyeonggi-20261019/current-law-extra/current-law-bodies/1870717.json.gz",
+        "lawId": "1870717",
+        "stableLawId": "2210492",
+        "effectiveDate": "20231108",
+        "annex": {
+          "annexId": "20406221",
+          "number": "3",
+          "kind": "서식",
+          "title": "[별지 제3호서식]보조기기 수리 신청서",
+          "fileFormat": "hwp",
+          "url": "https://www.law.go.kr/flDownload.do?gubun=ELIS&flSeq=154077463&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C3%ED%98%B8%EC%84%9C%EC%8B%9D%5D%EB%B3%B4%EC%A1%B0%EA%B8%B0%EA%B8%B0+%EC%88%98%EB%A6%AC+%EC%8B%A0%EC%B2%AD%EC%84%9C",
+          "flSeq": "154077463",
+          "pdfUrl": "",
+          "contentChars": 0,
+          "deleted": false
+        },
+        "bodySHA256": "8b1de2ac513cb7bc6190a13929b95ff20b069925a57584bb640915d11acfa999",
+        "allArticlesAndAddendaRead": true
+      },
+      "lawBodyRecordSHA256": "8b1de2ac513cb7bc6190a13929b95ff20b069925a57584bb640915d11acfa999",
+      "originalShaVerified": true,
+      "originalByteVerificationRecord": "logs/forms-completion/gyeonggi-20261019/team1/uncited/batch2-current-byte-proof.json",
+      "programPageProgramSpecific": false,
+      "programAttachmentEvidence": {
+        "sourcePageUrl": "https://www.mohw.go.kr/board.es?mid=a60611000000&bid=0085&act=view&list_no=1489618&tag=&nPage=1",
+        "downloadUrl": "https://www.mohw.go.kr/boardDownload.es?bid=0085&list_no=1489618&seq=1",
+        "httpStatus": 200,
+        "sha256": "952db3594753207183c91e6a75a09336c0c1aa258d425f0b4503b798264e937a",
+        "bytes": 112209,
+        "originalPath": "logs/forms-completion/gyeonggi-20261019/team1/originals/gapyeong-care-menu-2026.pdf",
+        "textEvidencePath": "logs/forms-completion/gyeonggi-20261019/team1/gapyeong-care-menu-2026.json",
+        "page": 1,
+        "rowNumber": 19,
+        "fullAttachmentBodyReviewed": true,
+        "sectionsRead": [
+          "page-1",
+          "page-2",
+          "page-3"
+        ],
+        "serviceName": "보조기기 수리비용 지원",
+        "serviceDescription": "보조기기 수리센터를 통한 이동보조기기 수리 및 수리비 지원",
+        "target": "노인, 장애인",
+        "provider": "한국지체장애인협회 읍·면",
+        "sourceId": "0085:1489618:1:1:19",
+        "visualEvidencePath": "logs/forms-completion/gyeonggi-20261019/team1/visual/gapyeong-care-row19.png"
+      },
+      "displayTitle": "보조기기 수리 신청서",
+      "coordinatorApproved": true,
+      "coordinatorReason": "현재 보건복지부 배포 가평군2026년4월 서비스 메뉴판 PDF 전체3쪽 중1쪽19행은 보조기기 수리비용 지원, 이동보조기기 수리, 노인·장애인, 지체장애인협회·읍면 제공을 정확히 특정한다. 이 행이 사이트사업g41820.icare-0085-1489618-1-1-19의 원천이다. 현행 조례1870717 제2조·제5조의 대상 및 지정센터 요건, 제6조제1항의 별지3 신청을 대조했다. 전체 원본641자는 지원대상/수급유형, 기기와 수리내용, 최근지원, 신청인 서명, 행정정보 확인동의와 구비서류의 빈 서식이다. 센터 지정신청이나 센터 수리비 청구서가 아닌 이용자 신청서다.",
+      "currentAnnexBinding": {
+        "binding": "bound",
+        "bindingReason": "OFFICIAL_ANNEX_BOUND_WITH_SAME_FILE",
+        "officialAnnexId": "20406221",
+        "officialAnnexNumber": "3",
+        "officialAnnexTitle": "[별지 제3호서식]보조기기 수리 신청서",
+        "officialFlSeq": "154077463",
+        "officialAnnexUrl": "https://www.law.go.kr/flDownload.do?gubun=ELIS&flSeq=154077463&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C3%ED%98%B8%EC%84%9C%EC%8B%9D%5D%EB%B3%B4%EC%A1%B0%EA%B8%B0%EA%B8%B0+%EC%88%98%EB%A6%AC+%EC%8B%A0%EC%B2%AD%EC%84%9C",
+        "officialAnnexDeleted": false
+      }
+    },
+    {
+      "sourceKind": "ordin",
+      "lawTitle": "안성시 노인 목욕비 및 이ㆍ미용비 지원 조례",
+      "lawId": "1732647",
+      "annexId": "19975651",
+      "annexNumber": "1",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=152185575&flNm=%EB%B3%84%EC%A7%80+%EC%84%9C%EC%8B%9D%28%EC%A0%9C1%ED%98%B8%EB%B6%80%ED%84%B0+%EC%A0%9C4%ED%98%B8%EA%B9%8C%EC%A7%80%29",
+      "officialPdfUrl": null,
+      "dateKind": "effective",
+      "regionCode": "41550",
+      "regionLabel": "경기도 안성시",
+      "formId": "ordin-19975651",
+      "stableLawId": "2222893",
+      "effectiveDate": "2023-01-01",
+      "programIds": [
+        "g41550.bokjiro-WLF00005220"
+      ],
+      "programNames": [
+        "안성시 노인 목욕비 및 이미용비 지원"
+      ],
+      "formTitle": "별지 서식(제1호부터 제4호까지)",
+      "sourceMetadataTitle": "별지 서식(제1호부터 제4호까지)",
+      "verifiedDocumentTitle": "노인 목욕비 및 이·미용비 카드 (재)발급 신청서",
+      "use": "main",
+      "role": "application",
+      "condition": "안성시 노인 목욕·이·미용비 카드의 최초 또는 재발급 신청에는 별지1을 작성합니다. 직접 신청하기 어려워 대리인이 접수하는 때만 별지2와 위임자·대리인 신분증 사본을 준비합니다. 카드번호·발급공무원은 담당자가 기재하며 훼손 카드 재발급 때는 기존 카드를 반납합니다. 별지3 출납대장과4 지급대장은 기관용으로 제외합니다.",
+      "evidenceUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=1732647",
+      "evidenceNote": "현행1732647의12개조문·부칙과별표19975651/flSeq152185575의HWP전체를읽었다.제4조①은주민1호신청,②는직접신청불가시2호대리위임,제5조③은분실훼손시1호재발급,제8조는기관3/4대장으로정확히구분한다.현재WLF00005220의안성70세이상·연10만원·주민등록지방문·1호신청/2호위임이일치하며원문1/2는실제본인/대리서명과빈정보란을포함한다.포털목록순번1을파일속4개서식의인쇄번호로복사하지않았다.",
+      "verificationStatus": "verified",
+      "checkedAt": "2026-10-19",
+      "officialAttachmentMatched": true,
+      "fullBodyReviewed": true,
+      "independentBodyReview": true,
+      "sha256": "9e6ab2304b077c999b4a08f4df3848205fd1d6dbc9c328d2726f091be86ffaf0",
+      "bytes": 124928,
+      "signature": "d0cf11e0a1b11ae1",
+      "originalFormat": "hwp",
+      "originalTextScope": "all_body_sections_or_pages",
+      "textScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "BodyText/Section0"
+      ],
+      "originalPath": "pipeline/forms/originals/ordin-19975651.hwp",
+      "reviewedParts": [
+        {
+          "number": "1",
+          "title": "노인 목욕비 및 이·미용비 카드 (재)발급 신청서",
+          "use": "main",
+          "author": "안성시 지원대상 노인 또는 대리신청인"
+        },
+        {
+          "number": "2",
+          "title": "노인 목욕비 및 이·미용비 카드 (재)발급 위임장",
+          "use": "conditional",
+          "author": "카드 발급 신청을 위임하는 지원 대상 노인"
+        }
+      ],
+      "selectedParts": [
+        {
+          "number": "1",
+          "title": "노인 목욕비 및 이·미용비 카드 (재)발급 신청서",
+          "use": "main",
+          "author": "안성시 지원대상 노인 또는 대리신청인"
+        },
+        {
+          "number": "2",
+          "title": "노인 목욕비 및 이·미용비 카드 (재)발급 위임장",
+          "use": "conditional",
+          "author": "카드 발급 신청을 위임하는 지원 대상 노인"
+        }
+      ],
+      "roleBasis": "현행1732647의12개조문·부칙과별표19975651/flSeq152185575의HWP전체를읽었다.제4조①은주민1호신청,②는직접신청불가시2호대리위임,제5조③은분실훼손시1호재발급,제8조는기관3/4대장으로정확히구분한다.현재WLF00005220의안성70세이상·연10만원·주민등록지방문·1호신청/2호위임이일치하며원문1/2는실제본인/대리서명과빈정보란을포함한다.포털목록순번1을파일속4개서식의인쇄번호로복사하지않았다.",
+      "roleEvidenceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=152185575&flNm=%EB%B3%84%EC%A7%80+%EC%84%9C%EC%8B%9D%28%EC%A0%9C1%ED%98%B8%EB%B6%80%ED%84%B0+%EC%A0%9C4%ED%98%B8%EA%B9%8C%EC%A7%80%29",
+      "roleCheckedAt": "2026-10-19",
+      "bodyEvidenceText": "제2조(지원대상) 노인 목욕비 및 이·미용비 지원대상(이하 “지원대상자”라 한다)은 지급기준일 현재 안성시(이하 “시”라 한다)에 주민등록을 두고 거주하는 70세 이상 노인으로 한다. 다만, 노인의료복지시설 입소자와 국가나 지방자치단체 또는 다른 기관 및 단체 등으로부터 목욕 및 이·미용 서비스를 무료로 제공 받는 사람은 지원대상에서 제외한다.\n제4조(지원절차)① 노인 목욕비 및 이·미용비를 지원받고자 하는 사람은 별지 제1호서식에 따른 신청서를 작성하여 주민등록지 읍·면·동장에게 제출하여야 한다.② 제1항에도 불구하고 지원대상자가 직접 신청할 수 없는 경우에는 별지 제2호서식을 첨부해 대리인이 신청할 수 있다.③ 읍·면·동장은 제1항에 따른 신청자가 제2조의 지원대상에 적합한지를 행정전산망 등을 이용하여 확인하고 지원대상자에게 카드를 지급한다.\n제5조(지급방법 및 시기 등)① 안성시장(이하 “시장”이라 한다)은 카드를 제작하여 읍·면·동장에게 배부하고, 읍·면·동장은 지원대상자에게 카드를 지급하여야 한다.② 제3조제2호에 따른 카드 지원금은 연 1회 일괄 지급한다. 다만, 지원대상자가 전입 또는 연령 등의 사유로 최초지원대상에 해당되는 때에는 그 사유가 발생하는 달부터 지급한다.③ 제1항에 따라 지급 받은 카드를 분실하거나 훼손하였을 때에는 별지 제1호서식의 신청서를 읍·면·동장에게 제출하여 다시 발급받아야 한다.",
+      "currentLawProof": {
+        "annexCount": 1,
+        "articleCount": 12,
+        "bodyPath": "logs/forms-completion/gyeonggi-20261019/current-law-extra/current-law-bodies/1732647.json.gz",
+        "bodySHA256": "d49a9015f1010b1f0d9e9f87aeeaf717d18d3d65a009997da1bd481b603f19f5",
+        "candidates": [
+          {
+            "effectiveDate": "20230101",
+            "lawId": "1732647",
+            "org": "경기도 안성시",
+            "stableLawId": "2222893",
+            "title": "안성시 노인 목욕비 및 이·미용비 지원 조례"
+          }
+        ],
+        "checkedAt": "2026-10-19",
+        "currentLaw": {
+          "effectiveDate": "20230101",
+          "lawId": "1732647",
+          "org": "경기도 안성시",
+          "stableLawId": "2222893",
+          "title": "안성시 노인 목욕비 및 이·미용비 지원 조례"
+        },
+        "currentLawId": "1732647",
+        "lawId": "1732647",
+        "searchPath": "logs/forms-completion/gyeonggi-20261019/current-law-extra/current-law-searches/1732647.json",
+        "searchSHA256": "2ac429207311bca29cdeafec8ee0b997a42ba40f973a3681b193e46f08f77f82",
+        "sourceTitle": "안성시 노인 목욕비 및 이ㆍ미용비 지원 조례",
+        "state": "source_current"
+      },
+      "lawCurrentCheckedAt": "2026-10-19",
+      "programEvidenceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00005220&wlfareInfoReldBztpCd=02",
+      "sourceProof": {
+        "downloadRecord": "logs/forms-completion/gyeonggi-20261019/team2/documents/current-portal-ordin-19975651.json",
+        "downloadRecordSHA256": "2b37c670d83da2939bf54c487b21872034a27a7ad7f4bad29f4860a27012f130",
+        "freshHTTPStatus": 200,
+        "actualOriginalBytesRechecked": true,
+        "flSeq": "152185575",
+        "lawBodyPath": "logs/forms-completion/gyeonggi-20261019/current-law-extra/current-law-bodies/1732647.json.gz",
+        "lawBodySHA256": "d49a9015f1010b1f0d9e9f87aeeaf717d18d3d65a009997da1bd481b603f19f5",
+        "programPagePath": "logs/forms-completion/gyeonggi-20261019/current-pages/WLF00005220.json",
+        "programPageSHA256": "bb2e6a253682c1921c5c259392c685568455e5708f525c9a340d04abd5ed6f6f"
+      },
+      "noFilledPersonalDataObserved": true,
+      "embeddedImageCount": 0,
+      "currentUseConfirmed": true,
+      "publicationApproved": false,
+      "proposalStatus": "ready_for_coordinator_exact_portal_gate",
+      "replacesReferenceOnlyCandidateId": "page-46bca587c4fdde00e679",
+      "excludedParts": [
+        {
+          "number": "3",
+          "title": "노인 목욕비 및 이·미용비 카드 출납대장",
+          "reason": "기관작성"
+        },
+        {
+          "number": "4",
+          "title": "노인 목욕비 및 이·미용비 카드 지급대장",
+          "reason": "기관작성"
+        }
+      ],
+      "displayTitle": "노인 목욕비 및 이·미용비 카드 (재)발급 신청서",
+      "coordinatorApproved": true,
+      "coordinatorReason": "현행1732647의12개조문·부칙과별표19975651/flSeq152185575의HWP전체를읽었다.제4조①은주민1호신청,②는직접신청불가시2호대리위임,제5조③은분실훼손시1호재발급,제8조는기관3/4대장으로정확히구분한다.현재WLF00005220의안성70세이상·연10만원·주민등록지방문·1호신청/2호위임이일치하며원문1/2는실제본인/대리서명과빈정보란을포함한다.포털목록순번1을파일속4개서식의인쇄번호로복사하지않았다.",
+      "currentAnnexBinding": {
+        "binding": "bound",
+        "bindingReason": "OFFICIAL_ANNEX_BOUND_WITH_SAME_FILE",
+        "officialAnnexId": "19975651",
+        "officialAnnexNumber": "1",
+        "officialAnnexTitle": "별지 서식(제1호부터 제4호까지)",
+        "officialFlSeq": "152185575",
+        "officialAnnexUrl": "https://www.law.go.kr/flDownload.do?gubun=ELIS&flSeq=152185575&flNm=%EB%B3%84%EC%A7%80+%EC%84%9C%EC%8B%9D%28%EC%A0%9C1%ED%98%B8%EB%B6%80%ED%84%B0+%EC%A0%9C4%ED%98%B8%EA%B9%8C%EC%A7%80%29",
+        "officialAnnexDeleted": false
+      }
+    },
+    {
+      "sourceKind": "ordin",
+      "lawTitle": "여주시 난임부부 시술비 지원 조례",
+      "lawId": "1996235",
+      "annexId": "19386893",
+      "annexNumber": "1",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=148800285&flNm=%EC%97%AC%EC%A3%BC%EC%8B%9C+%EB%82%9C%EC%9E%84%EB%B6%80%EB%B6%80+%EC%8B%9C%EC%88%A0%EB%B9%84+%EC%A7%80%EC%9B%90+%EC%A1%B0%EB%A1%80",
+      "officialPdfUrl": null,
+      "dateKind": "effective",
+      "regionCode": "41670",
+      "regionLabel": "경기도 여주시",
+      "formId": "ordin-19386893",
+      "stableLawId": "2248970",
+      "effectiveDate": "2025-01-01",
+      "programIds": [
+        "g41670.bokjiro-WLF00005948"
+      ],
+      "programNames": [
+        "여주시 난임부부 시술비 지원사업"
+      ],
+      "formTitle": "여주시 난임부부 시술비 지원 조례",
+      "sourceMetadataTitle": "여주시 난임부부 시술비 지원 조례",
+      "verifiedDocumentTitle": "난임부부 시술비 지원신청서 및 청구서",
+      "use": "main",
+      "role": "application",
+      "condition": "국민건강보험 난임시술 지원횟수를 초과한 여주시 추가지원 신청에는 별지1과 뒷면 동의를 사용합니다. 시술 전에 여주시 지원결정통지서를 받아야 하며 통지서 발급일부터3개월 이내 시술합니다. 지원 결정된 대상자는 시술 종료일부터1개월 이내 별지2와 영수증·시술확인서·본인 통장사본으로 직접 청구합니다. 불가피한 대리신청은 조례상 직계존속·형제자매 범위와 별도 위임자료를 따릅니다. 국가 일반 난임지원이나 의료기관 전용 청구서로 확대하지 않습니다. 복지로의 별도 신청 없음 문구와 달리 현재 여주시보건소는 사전 신청과 대상자 직접 청구를 안내합니다.",
+      "evidenceUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=1996235",
+      "evidenceNote": "현행1996235의8조문·부칙및별표19386893/flSeq148800285의실제HWPX전체를읽었다.제3/4조는건강보험횟수소진후여주추가지원연5회·200/100만원으로WLF00005948과일치한다.제5조는주민1호신청·사전결정·3개월내시술,제6조는대상자의종료1개월내2호청구를명시하며실제원본은여성신청인서명·추가1~5차·본인계좌·동의로작성되어있다.복지로의별도신청없음문구는현재보건소공식key3471 GET본문의사전신청및대상자직접청구안내로보완해불일치를명시하였다.",
+      "verificationStatus": "verified",
+      "checkedAt": "2026-10-19",
+      "officialAttachmentMatched": true,
+      "fullBodyReviewed": true,
+      "independentBodyReview": true,
+      "sha256": "c649cf06cc45f84b01cdebb79b3ff3a3bc0162079970282deb71333cc328ac18",
+      "bytes": 62102,
+      "signature": "504b030414000000",
+      "originalFormat": "hwpx",
+      "originalTextScope": "all_body_sections_or_pages",
+      "textScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "Contents/section0.xml"
+      ],
+      "originalPath": "pipeline/forms/originals/ordin-19386893.hwpx",
+      "reviewedParts": [
+        {
+          "number": "1",
+          "title": "난임부부 시술비 지원신청서",
+          "use": "main",
+          "author": "난임부부 중 여성 신청인"
+        },
+        {
+          "number": "1",
+          "partLocation": "뒷면",
+          "title": "난임부부 지원사업 개인정보 제공 동의서",
+          "use": "additional",
+          "author": "해당 정보주체"
+        },
+        {
+          "number": "2",
+          "title": "난임부부 시술비 청구서",
+          "use": "conditional",
+          "author": "지원 결정 후 시술을 받은 난임부부 중 여성"
+        }
+      ],
+      "selectedParts": [
+        {
+          "number": "1",
+          "title": "난임부부 시술비 지원신청서",
+          "use": "main",
+          "author": "난임부부 중 여성 신청인"
+        },
+        {
+          "number": "1",
+          "partLocation": "뒷면",
+          "title": "난임부부 지원사업 개인정보 제공 동의서",
+          "use": "additional",
+          "author": "해당 정보주체"
+        },
+        {
+          "number": "2",
+          "title": "난임부부 시술비 청구서",
+          "use": "conditional",
+          "author": "지원 결정 후 시술을 받은 난임부부 중 여성"
+        }
+      ],
+      "roleBasis": "현행1996235의8조문·부칙및별표19386893/flSeq148800285의실제HWPX전체를읽었다.제3/4조는건강보험횟수소진후여주추가지원연5회·200/100만원으로WLF00005948과일치한다.제5조는주민1호신청·사전결정·3개월내시술,제6조는대상자의종료1개월내2호청구를명시하며실제원본은여성신청인서명·추가1~5차·본인계좌·동의로작성되어있다.복지로의별도신청없음문구는현재보건소공식key3471 GET본문의사전신청및대상자직접청구안내로보완해불일치를명시하였다.",
+      "roleEvidenceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=148800285&flNm=%EC%97%AC%EC%A3%BC%EC%8B%9C+%EB%82%9C%EC%9E%84%EB%B6%80%EB%B6%80+%EC%8B%9C%EC%88%A0%EB%B9%84+%EC%A7%80%EC%9B%90+%EC%A1%B0%EB%A1%80",
+      "roleCheckedAt": "2026-10-19",
+      "bodyEvidenceText": "제3조(지원대상) ·지원대상자는 신청일 현재 여주시에 6개월 이상 주민등록을 두고 거주하는 난임부부로서 다음 각 호의 요건을 모두 갖춘 부부로 한다.1. 국민건강보험 적용 난임 시술 대상자 중 시술비 지원을 받았으나 성공하지 못하고 지원 횟수를 초과한 경우2. 지정된 의료기관에서 난임시술을 요하는 의사의 ‘난임진단서’를 제출하는 경우3. 법적 혼인상태이거나, 신청일 기준 1년 이상 사실상 혼인관계를 유지하였다고 확인된 경우4. 부부 중 최소한 한 명은 대한민국 국적 소유자(주민등록 말소자, 재외국민 주민등록자는 대상에서 제외)일 것5. 부부 모두 건강보험 가입 및 보험료 고지 여부가 확인되는 경우\n제4조(지원내용)① 시장은 예산의 범위 안에서 인공수정 및 체외수정 시술로 발생하는 일부 본인부담금, 전액 본인부담금, 비급여의 비용을 지원할 수 있다.② 국민건강보험 적용 난임시술 종료자에게 추가 시술비를 지원할 경우 연간 최대 5회로 지원하며, 체외수정 시술비 1회 최대 200만원(동결시술, 인공수정 최대 100만원) 이내로 지원한다.③ 시장은 다른 법령이나 조례 등에 따라 난임부부 시술비 지원을 받고 있는 사람에게는 중복지원 할 수 없다.\n제5조(신청접수 및 선정)① 신청은 원칙적으로 난임부부가 하되, 불가피한 경우 난임부부의 직계존속 또는 형제자매가 신청할 수 있다.② 제1항에 따른 신청을 하려는 자는 별지 제1호서식의 난임부부 시술비 지원신청서를 제출하여야 한다.③ 시장은 신청자격 등 제출서류가 지원기준에 적합한 경우 지원결정 통지서를 발급하여야 한다.④ 지원대상자는 제3항에 따른 지원결정 통지서를 교부받은 날부터 3개월 이내에 시술하여야 한다.\n제6조(시술비 청구 및 지급)① 제5조에 따라 지원결정된 지원대상자는 시술 종료일로부터 1개월 이내 별지 제2호서식의 난임부부 시술비 청구서를 시장에게 제출하여야 한다. 다만, 지원대상자에게 지급되는 약제비는 난임시술 의료기관에 지급한 시술비를 제외하고 나머지 금액의 한도 내에서 지급한다.② 시장은 구비서류를 검토하여 지원 금액을 결정한 후 시술비 청구 접수일로부터 1개월 이내에 시술비 등을 지급하여야 한다.",
+      "currentLawProof": {
+        "annexCount": 1,
+        "articleCount": 8,
+        "bodyPath": "logs/forms-completion/gyeonggi-20261019/current-law-extra/current-law-bodies/1996235.json.gz",
+        "bodySHA256": "efd852fa8145d2485ed41319be06baf257d74afa2068217a841b4d6149e34b2c",
+        "candidates": [
+          {
+            "effectiveDate": "20250101",
+            "lawId": "1996235",
+            "org": "경기도 여주시",
+            "stableLawId": "2248970",
+            "title": "여주시 난임부부 시술비 지원 조례"
+          }
+        ],
+        "checkedAt": "2026-10-19",
+        "currentLaw": {
+          "effectiveDate": "20250101",
+          "lawId": "1996235",
+          "org": "경기도 여주시",
+          "stableLawId": "2248970",
+          "title": "여주시 난임부부 시술비 지원 조례"
+        },
+        "currentLawId": "1996235",
+        "lawId": "1996235",
+        "searchPath": "logs/forms-completion/gyeonggi-20261019/current-law-extra/current-law-searches/1996235.json",
+        "searchSHA256": "a77c79d45c429237d1fba4c7ed0e1d5978281a7c623483653e5e6d6bf47f8901",
+        "sourceTitle": "여주시 난임부부 시술비 지원 조례",
+        "state": "source_current"
+      },
+      "lawCurrentCheckedAt": "2026-10-19",
+      "programEvidenceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00005948&wlfareInfoReldBztpCd=02",
+      "sourceProof": {
+        "downloadRecord": "logs/forms-completion/gyeonggi-20261019/team2/documents/current-portal-ordin-19386893.json",
+        "downloadRecordSHA256": "51cd8364d1eb3f5c45b3b0b573f4808d6500fc45a67a40a75a1b50619f27d864",
+        "freshHTTPStatus": 200,
+        "actualOriginalBytesRechecked": true,
+        "flSeq": "148800285",
+        "lawBodyPath": "logs/forms-completion/gyeonggi-20261019/current-law-extra/current-law-bodies/1996235.json.gz",
+        "lawBodySHA256": "efd852fa8145d2485ed41319be06baf257d74afa2068217a841b4d6149e34b2c",
+        "programPagePath": "logs/forms-completion/gyeonggi-20261019/current-pages/WLF00005948.json",
+        "programPageSHA256": "7f9726f15b8846bbab178c31927c3098cfb3ae4acc668b8860e62e1c2a44af53"
+      },
+      "noFilledPersonalDataObserved": true,
+      "embeddedImageCount": 0,
+      "currentUseConfirmed": true,
+      "publicationApproved": false,
+      "proposalStatus": "ready_for_coordinator_exact_portal_gate",
+      "replacesReferenceOnlyCandidateId": "page-90903dc95346092998cf",
+      "currentIntakeEvidence": {
+        "url": "https://www.yeoju.go.kr/health/contents.do?key=3471",
+        "httpStatus": 200,
+        "pageSHA256": "a2375c83c2fcba7260cdaed7c8a12707973440ea833ec904c206f67622fbf346",
+        "recordPath": "logs/forms-completion/gyeonggi-20261019/team2/sources/yeoju-infertility-current-health.json",
+        "recordSHA256": "fc2a76e2e067dc192c2314f59c679cb60a29a7f20c492f3ee38b9dfecf0458f2",
+        "verifiedProcedure": "시술시작전여주시지원결정통지서·신청서제출,시술후대상자가직접청구서/시술확인서/영수증/통장제출"
+      },
+      "sourceIssues": [
+        {
+          "sourceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00005948&wlfareInfoReldBztpCd=02",
+          "issue": "복지로신청방법이직접지원/별도신청사항없음으로되어있음",
+          "resolution": "현행조례5/6조와여주시보건소현재공식안내의사전신청/시술후직접청구로명시보완.원천카탈로그/자격판정은수정하지않음"
+        }
+      ],
+      "displayTitle": "난임부부 시술비 지원신청서 및 청구서",
+      "coordinatorApproved": true,
+      "coordinatorReason": "현행1996235의8조문·부칙및별표19386893/flSeq148800285의실제HWPX전체를읽었다.제3/4조는건강보험횟수소진후여주추가지원연5회·200/100만원으로WLF00005948과일치한다.제5조는주민1호신청·사전결정·3개월내시술,제6조는대상자의종료1개월내2호청구를명시하며실제원본은여성신청인서명·추가1~5차·본인계좌·동의로작성되어있다.복지로의별도신청없음문구는현재보건소공식key3471 GET본문의사전신청및대상자직접청구안내로보완해불일치를명시하였다.",
+      "currentAnnexBinding": {
+        "binding": "bound",
+        "bindingReason": "OFFICIAL_ANNEX_BOUND_WITH_SAME_FILE",
+        "officialAnnexId": "19386893",
+        "officialAnnexNumber": "1",
+        "officialAnnexTitle": "여주시 난임부부 시술비 지원 조례",
+        "officialFlSeq": "148800285",
+        "officialAnnexUrl": "https://www.law.go.kr/flDownload.do?gubun=ELIS&flSeq=148800285&flNm=%EC%97%AC%EC%A3%BC%EC%8B%9C+%EB%82%9C%EC%9E%84%EB%B6%80%EB%B6%80+%EC%8B%9C%EC%88%A0%EB%B9%84+%EC%A7%80%EC%9B%90+%EC%A1%B0%EB%A1%80",
+        "officialAnnexDeleted": false
+      }
+    }
+  ],
+  "sourceReview": {
+    "scopeFile": "pipeline/forms/reviews/gyeonggi-portal-originals-scope-round8103.json"
+  }
+}

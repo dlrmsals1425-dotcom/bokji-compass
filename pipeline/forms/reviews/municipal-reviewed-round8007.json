@@ -1,0 +1,990 @@
+{
+  "schema": 1,
+  "checkedAt": "2026-10-19",
+  "rows": [
+    {
+      "sourceKind": "agency",
+      "basisType": "official_program",
+      "formId": "agency-41630-bok-20240702UUWBM1847100092264050-1",
+      "sourceCandidateId": "page-02d5336ff330d7bece65",
+      "sourcePageUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00004146&wlfareInfoReldBztpCd=02",
+      "sourcePageSHA256": "7d01cf3cc4eb57bb2ad5f7dfb7abbe1e77ce5004f5d7ce1111e288b6f6104970",
+      "sourcePageHttpStatus": 200,
+      "sourcePageRecord": "logs/forms-completion/gyeonggi-20261019/current-pages/WLF00004146.json",
+      "sourceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twata/CmmFileUtil/getDownload.do?atcflId=20240702UUWBM1847100092264050&atcflSn=1&wlfareInfoId=WLF00004146",
+      "finalUrl": "https://www.bokjiro.go.kr/ssis-tbu/twata/CmmFileUtil/getDownload.do?atcflId=20240702UUWBM1847100092264050&atcflSn=1&wlfareInfoId=WLF00004146",
+      "attachmentId": "20240702UUWBM1847100092264050",
+      "attachmentIdentifier": {
+        "queryParam": "atcflId",
+        "value": "20240702UUWBM1847100092264050"
+      },
+      "attachmentFileSn": "1",
+      "officialProgramSourceId": "WLF00004146",
+      "agencyName": "양주시 (복지로 공식 사업안내 배포)",
+      "authorityKind": "government",
+      "authorityEvidenceKind": "government",
+      "authorityEvidenceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00004146&wlfareInfoReldBztpCd=02",
+      "authorityEvidenceNote": "복지로의 해당 지자체 특정 사업 ID를 확인한 현재 공개 사업 페이지에 원본 다운로드가 직접 결속되어 있다.",
+      "formTitle": "장애인활동지원 양주시 추가지원 신청서",
+      "sourceMetadataTitle": "장애인활동지원 양주시 추가지원 신청서(2023).hwp",
+      "programIds": [
+        "g41630.bokjiro-WLF00004146"
+      ],
+      "programNames": [
+        "장애인활동지원 시추가"
+      ],
+      "programEvidenceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00004146&wlfareInfoReldBztpCd=02",
+      "regionCode": "41630",
+      "regionLabel": "경기도 양주시",
+      "checkedAt": "2026-10-19",
+      "dateKind": "checked",
+      "effectiveDate": "2026-10-19",
+      "publishedAt": null,
+      "role": "application",
+      "use": "main",
+      "condition": "",
+      "applicant": "양주시 활동지원 수급자인 신청인 또는 서식의 관계를 기재하는 대리 신청인",
+      "reviewedParts": [
+        {
+          "number": "무번호",
+          "title": "장애인활동지원 양주시 추가지원 신청서",
+          "use": "main",
+          "author": "양주시 활동지원 수급자인 신청인 또는 서식의 관계를 기재하는 대리 신청인"
+        }
+      ],
+      "selectedParts": [
+        {
+          "number": "무번호",
+          "title": "장애인활동지원 양주시 추가지원 신청서",
+          "use": "main",
+          "author": "양주시 활동지원 수급자인 신청인 또는 서식의 관계를 기재하는 대리 신청인"
+        }
+      ],
+      "verificationStatus": "verified",
+      "decision": "propose_approval",
+      "publicationApproved": false,
+      "requiresCoordinatorReview": true,
+      "officialAttachmentMatched": true,
+      "evidenceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00004146&wlfareInfoReldBztpCd=02",
+      "evidenceNote": "현재 복지로의 양주시 추가지원 사업에 정확한 원본이 직접 첨부되어 있다. 원본은 신청인·대리인·국비 급여량·추가지원 사유·서명 및 의사소견을 기재하는 빈 신청서이며, 인쇄된 국비 급여량의 10% 기본지원은 현재 사업안내와 일치한다.",
+      "roleBasis": "현재 복지로의 양주시 추가지원 사업에 정확한 원본이 직접 첨부되어 있다. 원본은 신청인·대리인·국비 급여량·추가지원 사유·서명 및 의사소견을 기재하는 빈 신청서이며, 인쇄된 국비 급여량의 10% 기본지원은 현재 사업안내와 일치한다.",
+      "roleEvidenceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twata/CmmFileUtil/getDownload.do?atcflId=20240702UUWBM1847100092264050&atcflSn=1&wlfareInfoId=WLF00004146",
+      "roleCheckedAt": "2026-10-19",
+      "sha256": "b73f3bf22981db210dac38034984d4167405e6fed4c6dda9c6d363fa7881a3ff",
+      "bytes": 61952,
+      "originalFormat": "hwp",
+      "originalPath": "pipeline/forms/originals/agency-41630-bok-20240702UUWBM1847100092264050-1.hwp",
+      "textEvidencePath": "logs/forms-completion/gyeonggi-20261019/extracted/page-02d5336ff330d7bece65.json",
+      "textScope": "all_body_sections_or_pages",
+      "originalTextScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "BodyText/Section0"
+      ],
+      "fullBodyReviewed": true,
+      "textLength": 715,
+      "bodyTextSha256": "2acba7ecb62d41922b453cb8e58fa30c69756b012dc9315a8ece201a12450458",
+      "independentlyReextracted": true,
+      "embeddedImageCount": 0,
+      "reviewedBy": "/root/forms_source_audit",
+      "referencedLaws": [],
+      "excludedParts": [],
+      "sourceIssues": [
+        "파일명에 2023년이 있으나 신청일은 공란이다. 인쇄 선택항목만으로 모든 현재 추가지원 유형을 제한하지 않으며 현재 공식 사업 안내의 유형별 심사를 따른다."
+      ],
+      "lawId": "",
+      "lawTitle": "",
+      "lawEvidenceUrl": "",
+      "annexId": "",
+      "annexNumber": "",
+      "programPageRecord": "logs/forms-completion/gyeonggi-20261019/current-pages/WLF00004146.json",
+      "programPageSHA256": "7d01cf3cc4eb57bb2ad5f7dfb7abbe1e77ce5004f5d7ce1111e288b6f6104970",
+      "originalHttpStatus": 200,
+      "lawEffectiveDate": "",
+      "lawCurrentCheckedAt": "",
+      "authorityBasis": {
+        "kind": "official-program",
+        "title": "장애인활동지원 시추가",
+        "evidenceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00004146&wlfareInfoReldBztpCd=02",
+        "checkedAt": "2026-10-19",
+        "evidenceNote": "현재 복지로의 양주시 추가지원 사업에 정확한 원본이 직접 첨부되어 있다. 원본은 신청인·대리인·국비 급여량·추가지원 사유·서명 및 의사소견을 기재하는 빈 신청서이며, 인쇄된 국비 급여량의 10% 기본지원은 현재 사업안내와 일치한다.",
+        "pageSHA256": "7d01cf3cc4eb57bb2ad5f7dfb7abbe1e77ce5004f5d7ce1111e288b6f6104970"
+      },
+      "coordinatorReason": "현재 복지로의 양주시 추가지원 사업에 정확한 원본이 직접 첨부되어 있다. 원본은 신청인·대리인·국비 급여량·추가지원 사유·서명 및 의사소견을 기재하는 빈 신청서이며, 인쇄된 국비 급여량의 10% 기본지원은 현재 사업안내와 일치한다."
+    },
+    {
+      "sourceKind": "agency",
+      "basisType": "official_program",
+      "formId": "agency-41570-bok-20230605UUWBM1024500037838961-1",
+      "sourceCandidateId": "page-5de5b314fd98cc5bacda",
+      "sourcePageUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00005193&wlfareInfoReldBztpCd=02",
+      "sourcePageSHA256": "6214ab1fe7014d23d7bb6b7beb2b0681f31afef6ababf277895f029ac5c35052",
+      "sourcePageHttpStatus": 200,
+      "sourcePageRecord": "logs/forms-completion/gyeonggi-20261019/current-pages/WLF00005193.json",
+      "sourceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twata/CmmFileUtil/getDownload.do?atcflId=20230605UUWBM1024500037838961&atcflSn=1&wlfareInfoId=WLF00005193",
+      "finalUrl": "https://www.bokjiro.go.kr/ssis-tbu/twata/CmmFileUtil/getDownload.do?atcflId=20230605UUWBM1024500037838961&atcflSn=1&wlfareInfoId=WLF00005193",
+      "attachmentId": "20230605UUWBM1024500037838961",
+      "attachmentIdentifier": {
+        "queryParam": "atcflId",
+        "value": "20230605UUWBM1024500037838961"
+      },
+      "attachmentFileSn": "1",
+      "officialProgramSourceId": "WLF00005193",
+      "agencyName": "김포시 (복지로 공식 사업안내 배포)",
+      "authorityKind": "government",
+      "authorityEvidenceKind": "government",
+      "authorityEvidenceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00005193&wlfareInfoReldBztpCd=02",
+      "authorityEvidenceNote": "복지로의 해당 지자체 특정 사업 ID를 확인한 현재 공개 사업 페이지에 원본 다운로드가 직접 결속되어 있다.",
+      "formTitle": "장애인 이동기기 수리신청서",
+      "sourceMetadataTitle": "[별지 제1호서식] 장애인 이동기기 수리신청서.hwp",
+      "programIds": [
+        "g41570.bokjiro-WLF00005193"
+      ],
+      "programNames": [
+        "장애인 이동기기 수리비 지원 사업"
+      ],
+      "programEvidenceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00005193&wlfareInfoReldBztpCd=02",
+      "regionCode": "41570",
+      "regionLabel": "경기도 김포시",
+      "checkedAt": "2026-10-19",
+      "dateKind": "checked",
+      "effectiveDate": "2026-10-19",
+      "publishedAt": null,
+      "role": "application",
+      "use": "main",
+      "condition": "",
+      "applicant": "김포시 거주 등록장애인 신청인",
+      "reviewedParts": [
+        {
+          "number": "별지 제1호서식",
+          "title": "장애인 이동기기 수리신청서",
+          "use": "main",
+          "author": "김포시 거주 등록장애인 신청인"
+        }
+      ],
+      "selectedParts": [
+        {
+          "number": "별지 제1호서식",
+          "title": "장애인 이동기기 수리신청서",
+          "use": "main",
+          "author": "김포시 거주 등록장애인 신청인"
+        }
+      ],
+      "verificationStatus": "verified",
+      "decision": "propose_approval",
+      "publicationApproved": false,
+      "requiresCoordinatorReview": true,
+      "officialAttachmentMatched": true,
+      "evidenceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00005193&wlfareInfoReldBztpCd=02",
+      "evidenceNote": "수동·전동 휠체어와 스쿠터의 고장 부위, 신청 장애인의 주소·수급 구분·서명을 받는 실제 수리신청서이다. 현재 김포시 사업의 복지로 특정 페이지가 이 원본을 배포하고 지정 수리센터 신청과 수급·차상위 30만원/일반 20만원 한도 지원을 안내한다. 원본에는 고정 구금액이 인쇄되어 있지 않다.",
+      "roleBasis": "수동·전동 휠체어와 스쿠터의 고장 부위, 신청 장애인의 주소·수급 구분·서명을 받는 실제 수리신청서이다. 현재 김포시 사업의 복지로 특정 페이지가 이 원본을 배포하고 지정 수리센터 신청과 수급·차상위 30만원/일반 20만원 한도 지원을 안내한다. 원본에는 고정 구금액이 인쇄되어 있지 않다.",
+      "roleEvidenceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twata/CmmFileUtil/getDownload.do?atcflId=20230605UUWBM1024500037838961&atcflSn=1&wlfareInfoId=WLF00005193",
+      "roleCheckedAt": "2026-10-19",
+      "sha256": "666ea98b3f3afc2bdee8f5a86be44f369d68d13a70bf1c8e79d7c41e1b81b2aa",
+      "bytes": 35328,
+      "originalFormat": "hwp",
+      "originalPath": "pipeline/forms/originals/agency-41570-bok-20230605UUWBM1024500037838961-1.hwp",
+      "textEvidencePath": "logs/forms-completion/gyeonggi-20261019/extracted/page-5de5b314fd98cc5bacda.json",
+      "textScope": "all_body_sections_or_pages",
+      "originalTextScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "BodyText/Section0"
+      ],
+      "fullBodyReviewed": true,
+      "textLength": 430,
+      "bodyTextSha256": "e171643ebe2516b2cff94add700b307973cad32df7c75b18b9bc62283f3117de",
+      "independentlyReextracted": true,
+      "embeddedImageCount": 0,
+      "reviewedBy": "/root/forms_source_audit",
+      "referencedLaws": [],
+      "excludedParts": [],
+      "sourceIssues": [
+        "원본의 인용 조례 명칭은 보조기구 수리비용 지원 조례이며 장애등급란이 남아 있다. 현재 공식 사업 페이지의 직접 배포 사실을 근거로 사용을 제안하며 자격심사 정보는 현재 기준을 따른다."
+      ],
+      "lawId": "",
+      "lawTitle": "",
+      "lawEvidenceUrl": "",
+      "annexId": "",
+      "annexNumber": "",
+      "programPageRecord": "logs/forms-completion/gyeonggi-20261019/current-pages/WLF00005193.json",
+      "programPageSHA256": "6214ab1fe7014d23d7bb6b7beb2b0681f31afef6ababf277895f029ac5c35052",
+      "originalHttpStatus": 200,
+      "lawEffectiveDate": "",
+      "lawCurrentCheckedAt": "",
+      "authorityBasis": {
+        "kind": "official-program",
+        "title": "장애인 이동기기 수리비 지원 사업",
+        "evidenceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00005193&wlfareInfoReldBztpCd=02",
+        "checkedAt": "2026-10-19",
+        "evidenceNote": "수동·전동 휠체어와 스쿠터의 고장 부위, 신청 장애인의 주소·수급 구분·서명을 받는 실제 수리신청서이다. 현재 김포시 사업의 복지로 특정 페이지가 이 원본을 배포하고 지정 수리센터 신청과 수급·차상위 30만원/일반 20만원 한도 지원을 안내한다. 원본에는 고정 구금액이 인쇄되어 있지 않다.",
+        "pageSHA256": "6214ab1fe7014d23d7bb6b7beb2b0681f31afef6ababf277895f029ac5c35052"
+      },
+      "coordinatorReason": "수동·전동 휠체어와 스쿠터의 고장 부위, 신청 장애인의 주소·수급 구분·서명을 받는 실제 수리신청서이다. 현재 김포시 사업의 복지로 특정 페이지가 이 원본을 배포하고 지정 수리센터 신청과 수급·차상위 30만원/일반 20만원 한도 지원을 안내한다. 원본에는 고정 구금액이 인쇄되어 있지 않다."
+    },
+    {
+      "sourceKind": "agency",
+      "basisType": "official_program",
+      "formId": "agency-41250-bok-20260617UUWBM1624260197448245-1",
+      "sourceCandidateId": "page-79711ca4f79f4aedcee7",
+      "sourcePageUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00006421&wlfareInfoReldBztpCd=02",
+      "sourcePageSHA256": "b1559b06cd9608132b33f961fd6550d7f0b2db5cdabf6cb94ce485656e44b0ce",
+      "sourcePageHttpStatus": 200,
+      "sourcePageRecord": "logs/forms-completion/gyeonggi-20261019/current-pages/WLF00006421.json",
+      "sourceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twata/CmmFileUtil/getDownload.do?atcflId=20260617UUWBM1624260197448245&atcflSn=1&wlfareInfoId=WLF00006421",
+      "finalUrl": "https://www.bokjiro.go.kr/ssis-tbu/twata/CmmFileUtil/getDownload.do?atcflId=20260617UUWBM1624260197448245&atcflSn=1&wlfareInfoId=WLF00006421",
+      "attachmentId": "20260617UUWBM1624260197448245",
+      "attachmentIdentifier": {
+        "queryParam": "atcflId",
+        "value": "20260617UUWBM1624260197448245"
+      },
+      "attachmentFileSn": "1",
+      "officialProgramSourceId": "WLF00006421",
+      "agencyName": "동두천시 (복지로 공식 사업안내 배포)",
+      "authorityKind": "government",
+      "authorityEvidenceKind": "government",
+      "authorityEvidenceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00006421&wlfareInfoReldBztpCd=02",
+      "authorityEvidenceNote": "복지로의 해당 지자체 특정 사업 ID를 확인한 현재 공개 사업 페이지에 원본 다운로드가 직접 결속되어 있다.",
+      "formTitle": "화장장려금 신청서",
+      "sourceMetadataTitle": "화장장려금 신청서식.hwp",
+      "programIds": [
+        "g41250.bokjiro-WLF00006421"
+      ],
+      "programNames": [
+        "동두천시 화장장려금 지원"
+      ],
+      "programEvidenceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00006421&wlfareInfoReldBztpCd=02",
+      "regionCode": "41250",
+      "regionLabel": "경기도 동두천시",
+      "checkedAt": "2026-10-19",
+      "dateKind": "checked",
+      "effectiveDate": "2026-10-19",
+      "publishedAt": null,
+      "role": "application",
+      "use": "main",
+      "condition": "동두천시 화장·개장 장려금 신청용. 일반 사망 장려금은 2026년 1월 1일 이후 사망자에 대한 현행 적용례와 화장일부터 6개월 이내 신청 기준을 확인한다.",
+      "applicant": "동두천시 화장·개장 장려금 지급대상 연고자",
+      "reviewedParts": [
+        {
+          "number": "별지 제1호서식",
+          "title": "화장장려금 신청서",
+          "use": "main",
+          "author": "동두천시 화장·개장 장려금 지급대상 연고자"
+        }
+      ],
+      "selectedParts": [
+        {
+          "number": "별지 제1호서식",
+          "title": "화장장려금 신청서",
+          "use": "main",
+          "author": "동두천시 화장·개장 장려금 지급대상 연고자"
+        }
+      ],
+      "verificationStatus": "verified",
+      "decision": "propose_approval",
+      "publicationApproved": false,
+      "requiresCoordinatorReview": true,
+      "officialAttachmentMatched": true,
+      "evidenceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00006421&wlfareInfoReldBztpCd=02",
+      "evidenceNote": "신청 연고자·사망자 또는 개장 사항·화장장·지출액·청구계좌와 행정정보 이용동의를 받는 빈 신청서이다. 현재 공식 사업 페이지와 2026년 시행 조례 제6조가 같은 별지 제1호를 요구한다. 조례 제5조의 70%/30만원·개장10만원 및 제6조의 6개월 내 신청과 충돌하는 고정수치가 원본에 없다.",
+      "roleBasis": "신청 연고자·사망자 또는 개장 사항·화장장·지출액·청구계좌와 행정정보 이용동의를 받는 빈 신청서이다. 현재 공식 사업 페이지와 2026년 시행 조례 제6조가 같은 별지 제1호를 요구한다. 조례 제5조의 70%/30만원·개장10만원 및 제6조의 6개월 내 신청과 충돌하는 고정수치가 원본에 없다.",
+      "roleEvidenceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twata/CmmFileUtil/getDownload.do?atcflId=20260617UUWBM1624260197448245&atcflSn=1&wlfareInfoId=WLF00006421",
+      "roleCheckedAt": "2026-10-19",
+      "sha256": "8cd90bca5d9c8dcbf2c9c59128cbc5f064923479ee7e11814bef36dde84a61e4",
+      "bytes": 47104,
+      "originalFormat": "hwp",
+      "originalPath": "pipeline/forms/originals/agency-41250-bok-20260617UUWBM1624260197448245-1.hwp",
+      "textEvidencePath": "logs/forms-completion/gyeonggi-20261019/extracted/page-79711ca4f79f4aedcee7.json",
+      "textScope": "all_body_sections_or_pages",
+      "originalTextScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "BodyText/Section0"
+      ],
+      "fullBodyReviewed": true,
+      "textLength": 588,
+      "bodyTextSha256": "09f43a086f475a5aa33b5a526696dd175df6fafedfce591759ad3a0daf944eec",
+      "independentlyReextracted": true,
+      "embeddedImageCount": 0,
+      "reviewedBy": "/root/forms_source_audit",
+      "referencedLaws": [],
+      "excludedParts": [],
+      "sourceIssues": [],
+      "lawId": "",
+      "lawTitle": "",
+      "lawEvidenceUrl": "",
+      "annexId": "",
+      "annexNumber": "",
+      "programPageRecord": "logs/forms-completion/gyeonggi-20261019/current-pages/WLF00006421.json",
+      "programPageSHA256": "b1559b06cd9608132b33f961fd6550d7f0b2db5cdabf6cb94ce485656e44b0ce",
+      "originalHttpStatus": 200,
+      "additionalCurrentUseEvidence": {
+        "record": "logs/forms-completion/gyeonggi-20261019/extracted/page-d9c3bc4476c72120b2e3-record.json",
+        "textRecord": "logs/forms-completion/gyeonggi-20261019/extracted/page-d9c3bc4476c72120b2e3.json",
+        "sha256": "f7eb7eac1a39c5b55e61fae956a801800f49dd47cd4ed4c8f7f5be2f5dfdbe23",
+        "sourceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twata/CmmFileUtil/getDownload.do?atcflId=20260617UUWBM1442200197416518&atcflSn=1&wlfareInfoId=WLF00006421"
+      },
+      "lawEffectiveDate": "",
+      "lawCurrentCheckedAt": "",
+      "authorityBasis": {
+        "kind": "official-program",
+        "title": "동두천시 화장장려금 지원",
+        "evidenceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00006421&wlfareInfoReldBztpCd=02",
+        "checkedAt": "2026-10-19",
+        "evidenceNote": "신청 연고자·사망자 또는 개장 사항·화장장·지출액·청구계좌와 행정정보 이용동의를 받는 빈 신청서이다. 현재 공식 사업 페이지와 2026년 시행 조례 제6조가 같은 별지 제1호를 요구한다. 조례 제5조의 70%/30만원·개장10만원 및 제6조의 6개월 내 신청과 충돌하는 고정수치가 원본에 없다.",
+        "pageSHA256": "b1559b06cd9608132b33f961fd6550d7f0b2db5cdabf6cb94ce485656e44b0ce"
+      },
+      "coordinatorReason": "신청 연고자·사망자 또는 개장 사항·화장장·지출액·청구계좌와 행정정보 이용동의를 받는 빈 신청서이다. 현재 공식 사업 페이지와 2026년 시행 조례 제6조가 같은 별지 제1호를 요구한다. 조례 제5조의 70%/30만원·개장10만원 및 제6조의 6개월 내 신청과 충돌하는 고정수치가 원본에 없다."
+    },
+    {
+      "sourceKind": "agency",
+      "basisType": "official_program",
+      "formId": "agency-41650-bok-20230524UUWBM1603050036049683-1",
+      "sourceCandidateId": "page-e5e872c58fbcbe9d4dbb",
+      "sourcePageUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00003349&wlfareInfoReldBztpCd=02",
+      "sourcePageSHA256": "432d8bfabdda1f188e00a2b62483e5303974bc2651aca05b00ef6cf26b0349ea",
+      "sourcePageHttpStatus": 200,
+      "sourcePageRecord": "logs/forms-completion/gyeonggi-20261019/current-pages/WLF00003349.json",
+      "sourceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twata/CmmFileUtil/getDownload.do?atcflId=20230524UUWBM1603050036049683&atcflSn=1&wlfareInfoId=WLF00003349",
+      "finalUrl": "https://www.bokjiro.go.kr/ssis-tbu/twata/CmmFileUtil/getDownload.do?atcflId=20230524UUWBM1603050036049683&atcflSn=1&wlfareInfoId=WLF00003349",
+      "attachmentId": "20230524UUWBM1603050036049683",
+      "attachmentIdentifier": {
+        "queryParam": "atcflId",
+        "value": "20230524UUWBM1603050036049683"
+      },
+      "attachmentFileSn": "1",
+      "officialProgramSourceId": "WLF00003349",
+      "agencyName": "포천시 (복지로 공식 사업안내 배포)",
+      "authorityKind": "government",
+      "authorityEvidenceKind": "government",
+      "authorityEvidenceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00003349&wlfareInfoReldBztpCd=02",
+      "authorityEvidenceNote": "복지로의 해당 지자체 특정 사업 ID를 확인한 현재 공개 사업 페이지에 원본 다운로드가 직접 결속되어 있다.",
+      "formTitle": "출산서비스 통합처리 신청서 중 포천시 출생아 건강보험 가입지원",
+      "sourceMetadataTitle": "출산서비스 통합처리 신청서(2023년).hwpx",
+      "programIds": [
+        "g41650.bokjiro-WLF00003349"
+      ],
+      "programNames": [
+        "출생아 건강보험 가입지원"
+      ],
+      "programEvidenceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00003349&wlfareInfoReldBztpCd=02",
+      "regionCode": "41650",
+      "regionLabel": "경기도 포천시",
+      "checkedAt": "2026-10-19",
+      "dateKind": "checked",
+      "effectiveDate": "2026-10-19",
+      "publishedAt": null,
+      "role": "application",
+      "use": "conditional",
+      "condition": "포천시 출생아 건강보험 신청에 해당할 때 통합서식의 포천시 보험 선택란과 해당 개인정보 동의 부분만 사용한다. 전국 공통 급여·출산축하금·산후조리 등 다른 항목의 현재 자격이나 신청을 이 원본으로 안내하지 않는다.",
+      "applicant": "포천시 출생아의 부모 또는 주민등록상 함께 거주하며 양육하는 보호자",
+      "reviewedParts": [
+        {
+          "number": "별지 제1호서식",
+          "title": "출산서비스 통합처리 신청서의 포천시 출생아 건강보험 선택란 및 관련 동의",
+          "use": "conditional",
+          "author": "포천시 출생아의 부모 또는 주민등록상 함께 거주하며 양육하는 보호자"
+        }
+      ],
+      "selectedParts": [
+        {
+          "number": "별지 제1호서식",
+          "title": "출산서비스 통합처리 신청서의 포천시 출생아 건강보험 선택란 및 관련 동의",
+          "use": "conditional",
+          "author": "포천시 출생아의 부모 또는 주민등록상 함께 거주하며 양육하는 보호자"
+        }
+      ],
+      "verificationStatus": "verified",
+      "decision": "propose_approval",
+      "publicationApproved": false,
+      "requiresCoordinatorReview": true,
+      "officialAttachmentMatched": true,
+      "evidenceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00003349&wlfareInfoReldBztpCd=02",
+      "evidenceNote": "통합신청서 전체 3개 면과 동의문을 확인했다. 포천시의 지역서비스 선택란에 출생아 건강보험(만 1세 미만 둘째 이상)이 인쇄되어 있고, 공식 사업의 대상과 맞는다. 공식 사업 페이지는 이 정확한 원본을 직접 첨부하며 관련 조례 제5조는 출산서비스 통합처리 별지 제1호 신청을 명시한다.",
+      "roleBasis": "통합신청서 전체 3개 면과 동의문을 확인했다. 포천시의 지역서비스 선택란에 출생아 건강보험(만 1세 미만 둘째 이상)이 인쇄되어 있고, 공식 사업의 대상과 맞는다. 공식 사업 페이지는 이 정확한 원본을 직접 첨부하며 관련 조례 제5조는 출산서비스 통합처리 별지 제1호 신청을 명시한다.",
+      "roleEvidenceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twata/CmmFileUtil/getDownload.do?atcflId=20230524UUWBM1603050036049683&atcflSn=1&wlfareInfoId=WLF00003349",
+      "roleCheckedAt": "2026-10-19",
+      "sha256": "bfeb803b69be2c54164c25b767095bf312614f8a166e40aa5b02ee29b98deefd",
+      "bytes": 109805,
+      "originalFormat": "hwpx",
+      "originalPath": "pipeline/forms/originals/agency-41650-bok-20230524UUWBM1603050036049683-1.hwpx",
+      "textEvidencePath": "logs/forms-completion/gyeonggi-20261019/extracted/page-e5e872c58fbcbe9d4dbb.json",
+      "textScope": "all_body_sections_or_pages",
+      "originalTextScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "Contents/section0.xml"
+      ],
+      "fullBodyReviewed": true,
+      "textLength": 6151,
+      "bodyTextSha256": "8d2055960f80122318f94acd140f512cd07202e59af0ab609c84818fe90a9f52",
+      "independentlyReextracted": true,
+      "embeddedImageCount": 0,
+      "reviewedBy": "/root/forms_source_audit",
+      "referencedLaws": [],
+      "excludedParts": [
+        "전국 공통 급여와 포천시의 다른 서비스 선택란",
+        "2022년·2021년 출생 기준이 남은 다른 급여의 안내"
+      ],
+      "sourceIssues": [
+        "파일은 2023년 통합서식이며 일부 다른 급여 항목에는 과거 출생 기준이 남아 있다. 현재 사업이 직접 배포하는 포천시 출생아 보험 부분만 선택적으로 제안한다."
+      ],
+      "lawId": "",
+      "lawTitle": "",
+      "lawEvidenceUrl": "",
+      "annexId": "",
+      "annexNumber": "",
+      "programPageRecord": "logs/forms-completion/gyeonggi-20261019/current-pages/WLF00003349.json",
+      "programPageSHA256": "432d8bfabdda1f188e00a2b62483e5303974bc2651aca05b00ef6cf26b0349ea",
+      "originalHttpStatus": 200,
+      "additionalCurrentUseEvidence": {
+        "record": "logs/forms-completion/gyeonggi-20261019/extracted/page-3b6f452b82edf8093ab8-record.json",
+        "textRecord": "logs/forms-completion/gyeonggi-20261019/extracted/page-3b6f452b82edf8093ab8.json",
+        "sha256": "4569ac69a445c7d4dc2e381179dafb2e1d596494da53ded43e9f69973c6873d7",
+        "sourceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twata/CmmFileUtil/getDownload.do?atcflId=20230525UUWBM1011490036167866&atcflSn=1&wlfareInfoId=WLF00003349"
+      },
+      "lawEffectiveDate": "",
+      "lawCurrentCheckedAt": "",
+      "authorityBasis": {
+        "kind": "official-program",
+        "title": "출생아 건강보험 가입지원",
+        "evidenceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00003349&wlfareInfoReldBztpCd=02",
+        "checkedAt": "2026-10-19",
+        "evidenceNote": "통합신청서 전체 3개 면과 동의문을 확인했다. 포천시의 지역서비스 선택란에 출생아 건강보험(만 1세 미만 둘째 이상)이 인쇄되어 있고, 공식 사업의 대상과 맞는다. 공식 사업 페이지는 이 정확한 원본을 직접 첨부하며 관련 조례 제5조는 출산서비스 통합처리 별지 제1호 신청을 명시한다.",
+        "pageSHA256": "432d8bfabdda1f188e00a2b62483e5303974bc2651aca05b00ef6cf26b0349ea"
+      },
+      "coordinatorReason": "통합신청서 전체 3개 면과 동의문을 확인했다. 포천시의 지역서비스 선택란에 출생아 건강보험(만 1세 미만 둘째 이상)이 인쇄되어 있고, 공식 사업의 대상과 맞는다. 공식 사업 페이지는 이 정확한 원본을 직접 첨부하며 관련 조례 제5조는 출산서비스 통합처리 별지 제1호 신청을 명시한다."
+    },
+    {
+      "sourceKind": "agency",
+      "basisType": "official_program",
+      "formId": "agency-41650-bok-20230517UUWBM1651450035096355-1",
+      "sourceCandidateId": "page-f89da944955162c1e34e",
+      "sourcePageUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00004887&wlfareInfoReldBztpCd=02",
+      "sourcePageSHA256": "7a274db166a39a5f2ec149993a29415623db63819d300282467449c186c41e14",
+      "sourcePageHttpStatus": 200,
+      "sourcePageRecord": "logs/forms-completion/gyeonggi-20261019/current-pages/WLF00004887.json",
+      "sourceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twata/CmmFileUtil/getDownload.do?atcflId=20230517UUWBM1651450035096355&atcflSn=1&wlfareInfoId=WLF00004887",
+      "finalUrl": "https://www.bokjiro.go.kr/ssis-tbu/twata/CmmFileUtil/getDownload.do?atcflId=20230517UUWBM1651450035096355&atcflSn=1&wlfareInfoId=WLF00004887",
+      "attachmentId": "20230517UUWBM1651450035096355",
+      "attachmentIdentifier": {
+        "queryParam": "atcflId",
+        "value": "20230517UUWBM1651450035096355"
+      },
+      "attachmentFileSn": "1",
+      "officialProgramSourceId": "WLF00004887",
+      "agencyName": "포천시 (복지로 공식 사업안내 배포)",
+      "authorityKind": "government",
+      "authorityEvidenceKind": "government",
+      "authorityEvidenceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00004887&wlfareInfoReldBztpCd=02",
+      "authorityEvidenceNote": "복지로의 해당 지자체 특정 사업 ID를 확인한 현재 공개 사업 페이지에 원본 다운로드가 직접 결속되어 있다.",
+      "formTitle": "포천시 전입대학생 및 제대군인 지원금 신청서",
+      "sourceMetadataTitle": "[별지 제1호서식] 포천시 전입대학생 및 제대군인 지원금 신청서.hwp",
+      "programIds": [
+        "g41650.bokjiro-WLF00004887"
+      ],
+      "programNames": [
+        "포천시 전입 대학생 및 정착 제대군인 지원 사업"
+      ],
+      "programEvidenceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00004887&wlfareInfoReldBztpCd=02",
+      "regionCode": "41650",
+      "regionLabel": "경기도 포천시",
+      "checkedAt": "2026-10-19",
+      "dateKind": "checked",
+      "effectiveDate": "2026-10-19",
+      "publishedAt": null,
+      "role": "application",
+      "use": "main",
+      "condition": "",
+      "applicant": "포천시 전입대학생 또는 제대군인 지원 대상 신청인",
+      "reviewedParts": [
+        {
+          "number": "별지 제1호서식",
+          "title": "포천시 전입대학생 및 제대군인 지원금 신청서 및 개인정보 동의",
+          "use": "main",
+          "author": "포천시 전입대학생 또는 제대군인 지원 대상 신청인"
+        }
+      ],
+      "selectedParts": [
+        {
+          "number": "별지 제1호서식",
+          "title": "포천시 전입대학생 및 제대군인 지원금 신청서 및 개인정보 동의",
+          "use": "main",
+          "author": "포천시 전입대학생 또는 제대군인 지원 대상 신청인"
+        }
+      ],
+      "verificationStatus": "verified",
+      "decision": "propose_approval",
+      "publicationApproved": false,
+      "requiresCoordinatorReview": true,
+      "officialAttachmentMatched": true,
+      "evidenceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00004887&wlfareInfoReldBztpCd=02",
+      "evidenceNote": "신청인이 전입대학생 또는 제대군인 지원을 선택하고 주소·전입·재학/전역·계좌를 작성하는 앞뒤 빈 서식 전체를 확인했다. 현재 특정 사업 페이지의 첨부와 동일하며 별표는 대학생 30만원과 제대군인 50만원의 6개월/1년 분할지급을 규정한다. 원본 신청서에는 구금액이나 고정 구연도가 없어 현재 안내와 충돌하지 않는다.",
+      "roleBasis": "신청인이 전입대학생 또는 제대군인 지원을 선택하고 주소·전입·재학/전역·계좌를 작성하는 앞뒤 빈 서식 전체를 확인했다. 현재 특정 사업 페이지의 첨부와 동일하며 별표는 대학생 30만원과 제대군인 50만원의 6개월/1년 분할지급을 규정한다. 원본 신청서에는 구금액이나 고정 구연도가 없어 현재 안내와 충돌하지 않는다.",
+      "roleEvidenceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twata/CmmFileUtil/getDownload.do?atcflId=20230517UUWBM1651450035096355&atcflSn=1&wlfareInfoId=WLF00004887",
+      "roleCheckedAt": "2026-10-19",
+      "sha256": "1b8a9316660c10711877744058ca13b2c6c4bffc3d87276534fe9e25a2d5082d",
+      "bytes": 72192,
+      "originalFormat": "hwp",
+      "originalPath": "pipeline/forms/originals/agency-41650-bok-20230517UUWBM1651450035096355-1.hwp",
+      "textEvidencePath": "logs/forms-completion/gyeonggi-20261019/extracted/page-f89da944955162c1e34e.json",
+      "textScope": "all_body_sections_or_pages",
+      "originalTextScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "BodyText/Section0"
+      ],
+      "fullBodyReviewed": true,
+      "textLength": 1754,
+      "bodyTextSha256": "ef00dcd3e40301c3dcb1257e34ffe51e03cdce9a18dcb1661cea4782d1afd4a3",
+      "independentlyReextracted": true,
+      "embeddedImageCount": 0,
+      "reviewedBy": "/root/forms_source_audit",
+      "referencedLaws": [],
+      "excludedParts": [],
+      "sourceIssues": [],
+      "lawId": "",
+      "lawTitle": "",
+      "lawEvidenceUrl": "",
+      "annexId": "",
+      "annexNumber": "",
+      "programPageRecord": "logs/forms-completion/gyeonggi-20261019/current-pages/WLF00004887.json",
+      "programPageSHA256": "7a274db166a39a5f2ec149993a29415623db63819d300282467449c186c41e14",
+      "originalHttpStatus": 200,
+      "additionalCurrentUseEvidence": {
+        "record": "logs/forms-completion/gyeonggi-20261019/extracted/page-01d47dec699cf06dce5d-record.json",
+        "textRecord": "logs/forms-completion/gyeonggi-20261019/extracted/page-01d47dec699cf06dce5d.json",
+        "sha256": "b4ba8304fc6d543a1bf5530c3513ae72c94da1246f3433246b92ccf8e31b3620",
+        "sourceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twata/CmmFileUtil/getDownload.do?atcflId=3410GOWF16GOWF163410&atcflSn=1&wlfareInfoId=WLF00004887"
+      },
+      "lawEffectiveDate": "",
+      "lawCurrentCheckedAt": "",
+      "authorityBasis": {
+        "kind": "official-program",
+        "title": "포천시 전입 대학생 및 정착 제대군인 지원 사업",
+        "evidenceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00004887&wlfareInfoReldBztpCd=02",
+        "checkedAt": "2026-10-19",
+        "evidenceNote": "신청인이 전입대학생 또는 제대군인 지원을 선택하고 주소·전입·재학/전역·계좌를 작성하는 앞뒤 빈 서식 전체를 확인했다. 현재 특정 사업 페이지의 첨부와 동일하며 별표는 대학생 30만원과 제대군인 50만원의 6개월/1년 분할지급을 규정한다. 원본 신청서에는 구금액이나 고정 구연도가 없어 현재 안내와 충돌하지 않는다.",
+        "pageSHA256": "7a274db166a39a5f2ec149993a29415623db63819d300282467449c186c41e14"
+      },
+      "coordinatorReason": "신청인이 전입대학생 또는 제대군인 지원을 선택하고 주소·전입·재학/전역·계좌를 작성하는 앞뒤 빈 서식 전체를 확인했다. 현재 특정 사업 페이지의 첨부와 동일하며 별표는 대학생 30만원과 제대군인 50만원의 6개월/1년 분할지급을 규정한다. 원본 신청서에는 구금액이나 고정 구연도가 없어 현재 안내와 충돌하지 않는다."
+    },
+    {
+      "sourceKind": "agency",
+      "basisType": "official_program",
+      "formId": "agency-41800-bok-20260722UUWBM0922300201996757-1",
+      "sourceCandidateId": "page-d6ebb55022b1f43efed1",
+      "sourcePageUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00001895&wlfareInfoReldBztpCd=02",
+      "sourcePageSHA256": "2a392d97550fe45c8e4c24028a1fac00717ca57c2a5be568f2470abfef0e23e4",
+      "sourcePageHttpStatus": 200,
+      "sourcePageRecord": "logs/forms-completion/gyeonggi-20261019/current-pages/WLF00001895.json",
+      "sourceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twata/CmmFileUtil/getDownload.do?atcflId=20260722UUWBM0922300201996757&atcflSn=1&wlfareInfoId=WLF00001895",
+      "finalUrl": "https://www.bokjiro.go.kr/ssis-tbu/twata/CmmFileUtil/getDownload.do?atcflId=20260722UUWBM0922300201996757&atcflSn=1&wlfareInfoId=WLF00001895",
+      "attachmentId": "20260722UUWBM0922300201996757",
+      "attachmentIdentifier": {
+        "queryParam": "atcflId",
+        "value": "20260722UUWBM0922300201996757"
+      },
+      "attachmentFileSn": "1",
+      "officialProgramSourceId": "WLF00001895",
+      "agencyName": "연천군 (복지로 공식 사업안내 배포)",
+      "authorityKind": "government",
+      "authorityEvidenceKind": "government",
+      "authorityEvidenceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00001895&wlfareInfoReldBztpCd=02",
+      "authorityEvidenceNote": "복지로의 해당 지자체 특정 사업 ID를 확인한 현재 공개 사업 페이지에 원본 다운로드가 직접 결속되어 있다.",
+      "formTitle": "2026년 연천군 무연고 기초생활수급자 간병비 지원계획 중 신청서",
+      "sourceMetadataTitle": "2026년도 무연고 기초생활수급자 간병비 지원계획.hwp",
+      "programIds": [
+        "g41800.bokjiro-WLF00001895"
+      ],
+      "programNames": [
+        "무연고 기초수급자 간병비 지원"
+      ],
+      "programEvidenceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00001895&wlfareInfoReldBztpCd=02",
+      "regionCode": "41800",
+      "regionLabel": "경기도 연천군",
+      "checkedAt": "2026-10-19",
+      "dateKind": "checked",
+      "effectiveDate": "2026-10-19",
+      "publishedAt": null,
+      "role": "application",
+      "use": "conditional",
+      "condition": "연천군 무연고 기초생활수급자 간병비의 최초 신청 시 붙임2의 신청서와 본인 동의 부분을 읍·면 담당자 안내에 따라 사용한다. 지급청구서·간병 활동일지는 간병 제공자/지급 청구 단계의 별도 서류이고 배치보고·2차 결정서는 담당기관용이다.",
+      "applicant": "지원 대상 본인·친족·후견인·법정대리인 또는 사회복지담당공무원",
+      "reviewedParts": [
+        {
+          "number": "붙임 2 신청서",
+          "title": "무연고 기초생활수급자 간병비 신청서 및 개인정보 수집·이용 동의서",
+          "use": "conditional",
+          "author": "지원 대상 본인·친족·후견인·법정대리인 또는 사회복지담당공무원"
+        }
+      ],
+      "selectedParts": [
+        {
+          "number": "붙임 2 신청서",
+          "title": "무연고 기초생활수급자 간병비 신청서 및 개인정보 수집·이용 동의서",
+          "use": "conditional",
+          "author": "지원 대상 본인·친족·후견인·법정대리인 또는 사회복지담당공무원"
+        }
+      ],
+      "verificationStatus": "verified",
+      "decision": "propose_approval",
+      "publicationApproved": false,
+      "requiresCoordinatorReview": true,
+      "officialAttachmentMatched": true,
+      "evidenceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00001895&wlfareInfoReldBztpCd=02",
+      "evidenceNote": "2026년 사업계획 전체 5,169자와 포함 이미지 6개(군 로고·마스코트·장식)를 확인했다. 2절은 신청인을 본인·친족·후견인·법정대리인·담당공무원으로 명시하고 붙임2의 입원환자·간병인 배치·신청인 개인정보 동의 서식을 제출하도록 한다. 현재 복지로의 동일 연천 사업은 1인120만원/연1회와 같은 신청인·서류를 안내하며 해당 원본을 직접 배포한다.",
+      "roleBasis": "2026년 사업계획 전체 5,169자와 포함 이미지 6개(군 로고·마스코트·장식)를 확인했다. 2절은 신청인을 본인·친족·후견인·법정대리인·담당공무원으로 명시하고 붙임2의 입원환자·간병인 배치·신청인 개인정보 동의 서식을 제출하도록 한다. 현재 복지로의 동일 연천 사업은 1인120만원/연1회와 같은 신청인·서류를 안내하며 해당 원본을 직접 배포한다.",
+      "roleEvidenceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twata/CmmFileUtil/getDownload.do?atcflId=20260722UUWBM0922300201996757&atcflSn=1&wlfareInfoId=WLF00001895",
+      "roleCheckedAt": "2026-10-19",
+      "sha256": "7fa3ad71a79fea663ecadcbcd1af76a44990f677e115ae0c42a2ed80bc5ae290",
+      "bytes": 1171456,
+      "originalFormat": "hwp",
+      "originalPath": "pipeline/forms/originals/agency-41800-bok-20260722UUWBM0922300201996757-1.hwp",
+      "textEvidencePath": "logs/forms-completion/gyeonggi-20261019/extracted/page-d6ebb55022b1f43efed1.json",
+      "textScope": "all_body_sections_or_pages",
+      "originalTextScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "BodyText/Section0"
+      ],
+      "fullBodyReviewed": true,
+      "textLength": 5169,
+      "bodyTextSha256": "ac821804dd10aab902142b3b852d639b2edb406df7e855566f07050d9b11cffc",
+      "independentlyReextracted": true,
+      "embeddedImageCount": 6,
+      "reviewedBy": "/root/forms_source_audit",
+      "referencedLaws": [],
+      "excludedParts": [
+        "붙임1 읍·면의 배치보고/비용청구 공문 예시",
+        "붙임2 간병 제공자의 지급청구서",
+        "붙임3 간병인 활동일지 및 내역서",
+        "붙임4 사례회의 2차 지원 결정서"
+      ],
+      "sourceIssues": [],
+      "lawId": "",
+      "lawTitle": "",
+      "lawEvidenceUrl": "",
+      "annexId": "",
+      "annexNumber": "",
+      "programPageRecord": "logs/forms-completion/gyeonggi-20261019/current-pages/WLF00001895.json",
+      "programPageSHA256": "2a392d97550fe45c8e4c24028a1fac00717ca57c2a5be568f2470abfef0e23e4",
+      "originalHttpStatus": 200,
+      "embeddedImageReview": {
+        "checkedAt": "2026-10-19",
+        "imagesRead": 6,
+        "scope": "모든 포함 이미지: 로고, 마스코트, 장식. 신청정보 없음.",
+        "evidence": "logs/forms-completion/gyeonggi-20261019/team1/visual/yeoncheon-embedded-contact.png"
+      },
+      "lawEffectiveDate": "",
+      "lawCurrentCheckedAt": "",
+      "authorityBasis": {
+        "kind": "official-program",
+        "title": "무연고 기초수급자 간병비 지원",
+        "evidenceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00001895&wlfareInfoReldBztpCd=02",
+        "checkedAt": "2026-10-19",
+        "evidenceNote": "2026년 사업계획 전체 5,169자와 포함 이미지 6개(군 로고·마스코트·장식)를 확인했다. 2절은 신청인을 본인·친족·후견인·법정대리인·담당공무원으로 명시하고 붙임2의 입원환자·간병인 배치·신청인 개인정보 동의 서식을 제출하도록 한다. 현재 복지로의 동일 연천 사업은 1인120만원/연1회와 같은 신청인·서류를 안내하며 해당 원본을 직접 배포한다.",
+        "pageSHA256": "2a392d97550fe45c8e4c24028a1fac00717ca57c2a5be568f2470abfef0e23e4"
+      },
+      "coordinatorReason": "2026년 사업계획 전체 5,169자와 포함 이미지 6개(군 로고·마스코트·장식)를 확인했다. 2절은 신청인을 본인·친족·후견인·법정대리인·담당공무원으로 명시하고 붙임2의 입원환자·간병인 배치·신청인 개인정보 동의 서식을 제출하도록 한다. 현재 복지로의 동일 연천 사업은 1인120만원/연1회와 같은 신청인·서류를 안내하며 해당 원본을 직접 배포한다."
+    },
+    {
+      "sourceKind": "agency",
+      "basisType": "official_program",
+      "formId": "agency-41150-bok-20260820UUWBM1619330205556340-1",
+      "sourceCandidateId": "page-2bd7f153c451851e8425",
+      "sourcePageUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00000714&wlfareInfoReldBztpCd=02",
+      "sourcePageSHA256": "74e5b0ec032d67e899cc80712b06b2e5f30a05c82b643d6768e111d8604158f8",
+      "sourcePageHttpStatus": 200,
+      "sourcePageRecord": "logs/forms-completion/gyeonggi-20261019/current-pages/WLF00000714.json",
+      "sourceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twata/CmmFileUtil/getDownload.do?atcflId=20260820UUWBM1619330205556340&atcflSn=1&wlfareInfoId=WLF00000714",
+      "finalUrl": "https://www.bokjiro.go.kr/ssis-tbu/twata/CmmFileUtil/getDownload.do?atcflId=20260820UUWBM1619330205556340&atcflSn=1&wlfareInfoId=WLF00000714",
+      "attachmentId": "20260820UUWBM1619330205556340",
+      "attachmentIdentifier": {
+        "queryParam": "atcflId",
+        "value": "20260820UUWBM1619330205556340"
+      },
+      "attachmentFileSn": "1",
+      "officialProgramSourceId": "WLF00000714",
+      "agencyName": "의정부시 (복지로 공식 사업안내 배포)",
+      "authorityKind": "government",
+      "authorityEvidenceKind": "government",
+      "authorityEvidenceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00000714&wlfareInfoReldBztpCd=02",
+      "authorityEvidenceNote": "복지로의 해당 지자체 특정 사업 ID를 확인한 현재 공개 사업 페이지에 원본 다운로드가 직접 결속되어 있다.",
+      "formTitle": "2026년 장애인활동지원 의정부시 자체사업 안내 중 추가지원 신청서",
+      "sourceMetadataTitle": "(별첨 1) 2026년 장애인활동지원 의정부시 자체사업 지원 안내.pdf",
+      "programIds": [
+        "g41150.bokjiro-WLF00000714"
+      ],
+      "programNames": [
+        "장애인활동지원 의정부시 추가 지원"
+      ],
+      "programEvidenceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00000714&wlfareInfoReldBztpCd=02",
+      "regionCode": "41150",
+      "regionLabel": "경기도 의정부시",
+      "checkedAt": "2026-10-19",
+      "dateKind": "checked",
+      "effectiveDate": "2026-10-19",
+      "publishedAt": null,
+      "role": "application",
+      "use": "conditional",
+      "condition": "의정부시 추가지원의 일반 70·40·20시간 또는 별도 최중증 가족급여 신청·변경 등 해당 시 11쪽(붙임2, 서식 제1호)을 사용한다. 2026년 신설 10시간 유형은 이 신청서에 독립 선택란이 없어 주민센터에 작성 방법을 확인해야 한다. 12~13쪽 기관 관리대장과 통지서 예시는 신청인이 작성하지 않는다.",
+      "applicant": "의정부시 활동지원 수급 장애인 또는 안내에 정한 대리인",
+      "reviewedParts": [
+        {
+          "number": "서식 제1호 / 붙임 2 / 11쪽",
+          "title": "장애인활동지원 의정부시 추가 지원 신청서(신청·변경·중지등)",
+          "use": "conditional",
+          "author": "의정부시 활동지원 수급 장애인 또는 안내에 정한 대리인"
+        }
+      ],
+      "selectedParts": [
+        {
+          "number": "서식 제1호 / 붙임 2 / 11쪽",
+          "title": "장애인활동지원 의정부시 추가 지원 신청서(신청·변경·중지등)",
+          "use": "conditional",
+          "author": "의정부시 활동지원 수급 장애인 또는 안내에 정한 대리인"
+        }
+      ],
+      "verificationStatus": "verified",
+      "decision": "propose_approval",
+      "publicationApproved": false,
+      "requiresCoordinatorReview": true,
+      "officialAttachmentMatched": true,
+      "evidenceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00000714&wlfareInfoReldBztpCd=02",
+      "evidenceNote": "13쪽 전체 원문과 렌더링을 확인했다. 5쪽은 주민센터 신청과 대리신청 범위, 9쪽은 서식 목록을 명시하고 11쪽은 신규·변경·중지·가족급여 제공자 변경 및 개인정보 동의/서명을 받는 빈 신청서다. 현재 복지로의 정확한 의정부 사업이 2026년 안내와 같은 원본을 직접 배포한다. 12~13쪽은 기관의 관리대장·결정통지서 예시로 구분된다.",
+      "roleBasis": "13쪽 전체 원문과 렌더링을 확인했다. 5쪽은 주민센터 신청과 대리신청 범위, 9쪽은 서식 목록을 명시하고 11쪽은 신규·변경·중지·가족급여 제공자 변경 및 개인정보 동의/서명을 받는 빈 신청서다. 현재 복지로의 정확한 의정부 사업이 2026년 안내와 같은 원본을 직접 배포한다. 12~13쪽은 기관의 관리대장·결정통지서 예시로 구분된다.",
+      "roleEvidenceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twata/CmmFileUtil/getDownload.do?atcflId=20260820UUWBM1619330205556340&atcflSn=1&wlfareInfoId=WLF00000714",
+      "roleCheckedAt": "2026-10-19",
+      "sha256": "40b65d7e3bcd702c6c98b8227f5bc089daf9b45032488c9cb972e5ae5ede0119",
+      "bytes": 436326,
+      "originalFormat": "pdf",
+      "originalPath": "pipeline/forms/originals/agency-41150-bok-20260820UUWBM1619330205556340-1.pdf",
+      "textEvidencePath": "logs/forms-completion/gyeonggi-20261019/extracted/page-2bd7f153c451851e8425.json",
+      "textScope": "all_body_sections_or_pages",
+      "originalTextScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "page-1",
+        "page-2",
+        "page-3",
+        "page-4",
+        "page-5",
+        "page-6",
+        "page-7",
+        "page-8",
+        "page-9",
+        "page-10",
+        "page-11",
+        "page-12",
+        "page-13"
+      ],
+      "fullBodyReviewed": true,
+      "textLength": 13882,
+      "bodyTextSha256": "09c8fcb7ae3716eb21f7784511c0cc7751871ae05521a815af6a13d643137032",
+      "independentlyReextracted": true,
+      "reviewedBy": "/root/forms_source_audit",
+      "referencedLaws": [],
+      "excludedParts": [
+        "1~10쪽 사업 안내 및 기준표(신청서 아님)",
+        "12쪽 서식2 서비스 매칭 관리대장",
+        "13쪽 서식3 결정 통지서 예시"
+      ],
+      "sourceIssues": [
+        "10쪽 급여구간 표의 9~15구간 지원시간은 같은 원본 13쪽의 11구간 예시와 다르다. 지원시간 산정 근거로 제공하지 않고 11쪽 빈 신청서 부분만 제안한다.",
+        "12~13쪽에는 흐린 회색의 명시적 예시값/가상 이름이 있으며 실제 신청인 작성값이 아니다."
+      ],
+      "lawId": "",
+      "lawTitle": "",
+      "lawEvidenceUrl": "",
+      "annexId": "",
+      "annexNumber": "",
+      "programPageRecord": "logs/forms-completion/gyeonggi-20261019/current-pages/WLF00000714.json",
+      "programPageSHA256": "74e5b0ec032d67e899cc80712b06b2e5f30a05c82b643d6768e111d8604158f8",
+      "originalHttpStatus": 200,
+      "lawEffectiveDate": "",
+      "lawCurrentCheckedAt": "",
+      "authorityBasis": {
+        "kind": "official-program",
+        "title": "장애인활동지원 의정부시 추가 지원",
+        "evidenceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00000714&wlfareInfoReldBztpCd=02",
+        "checkedAt": "2026-10-19",
+        "evidenceNote": "13쪽 전체 원문과 렌더링을 확인했다. 5쪽은 주민센터 신청과 대리신청 범위, 9쪽은 서식 목록을 명시하고 11쪽은 신규·변경·중지·가족급여 제공자 변경 및 개인정보 동의/서명을 받는 빈 신청서다. 현재 복지로의 정확한 의정부 사업이 2026년 안내와 같은 원본을 직접 배포한다. 12~13쪽은 기관의 관리대장·결정통지서 예시로 구분된다.",
+        "pageSHA256": "74e5b0ec032d67e899cc80712b06b2e5f30a05c82b643d6768e111d8604158f8"
+      },
+      "coordinatorReason": "13쪽 전체 원문과 렌더링을 확인했다. 5쪽은 주민센터 신청과 대리신청 범위, 9쪽은 서식 목록을 명시하고 11쪽은 신규·변경·중지·가족급여 제공자 변경 및 개인정보 동의/서명을 받는 빈 신청서다. 현재 복지로의 정확한 의정부 사업이 2026년 안내와 같은 원본을 직접 배포한다. 12~13쪽은 기관의 관리대장·결정통지서 예시로 구분된다.",
+      "bodyVisualReview": {
+        "checkedAt": "2026-10-19",
+        "pagesRead": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "sourceSha256": "40b65d7e3bcd702c6c98b8227f5bc089daf9b45032488c9cb972e5ae5ede0119",
+        "selectedApplicationPage": 11,
+        "imageDirectory": "logs/forms-completion/gyeonggi-20261019/team1/visual"
+      }
+    },
+    {
+      "sourceKind": "agency",
+      "basisType": "official_program",
+      "formId": "agency-41820-96972",
+      "sourceCandidateId": null,
+      "sourcePageUrl": "https://m.gp.go.kr/gpnongup/selectBbsNttView.do?bbsNo=150&integrDeptCode=00000018&key=919&nttNo=289892",
+      "sourcePageSHA256": "24793f5e7739fb3da7d06368ae3acdc0c7b57519b7886a919cacadf7f126c70f",
+      "sourcePageHttpStatus": 200,
+      "sourcePageRecord": "logs/forms-completion/gyeonggi-20261019/team1/pages/gapyeong-interview-2026.json",
+      "sourceUrl": "https://m.gp.go.kr/gpnongup/downloadBbsFile.do?atchmnflNo=96972",
+      "finalUrl": "https://m.gp.go.kr/gpnongup/downloadBbsFile.do?atchmnflNo=96972",
+      "attachmentId": "96972",
+      "attachmentIdentifier": {
+        "queryParam": "atchmnflNo",
+        "value": "96972"
+      },
+      "attachmentFileSn": null,
+      "officialProgramSourceId": "WLF00005976",
+      "agencyName": "가평군 일자리정책과 청년팀",
+      "authorityKind": "government",
+      "authorityEvidenceKind": "government",
+      "authorityEvidenceUrl": "https://m.gp.go.kr/gpnongup/selectBbsNttView.do?bbsNo=150&integrDeptCode=00000018&key=919&nttNo=289892",
+      "authorityEvidenceNote": "복지로의 해당 지자체 특정 사업 ID를 확인한 현재 공개 사업 페이지에 원본 다운로드가 직접 결속되어 있다.",
+      "formTitle": "2026년 가평군 청년면접지원 사업 공고 및 신청서식",
+      "sourceMetadataTitle": "2026년 가평군 청년면접지원 사업 공고.hwpx",
+      "programIds": [
+        "g41820.bokjiro-WLF00005976"
+      ],
+      "programNames": [
+        "청년 면접 지원 사업"
+      ],
+      "programEvidenceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00005976&wlfareInfoReldBztpCd=02",
+      "regionCode": "41820",
+      "regionLabel": "경기도 가평군",
+      "checkedAt": "2026-10-19",
+      "dateKind": "published",
+      "effectiveDate": "2026-10-15",
+      "publishedAt": "2026-10-15",
+      "role": "application",
+      "use": "conditional",
+      "condition": "가평군 2026년 청년 면접지원 신청용. 2026년 실제 면접 및 지정 서비스 이용 건으로, 예산 소진 전 접수 여부를 확인한다. 붙임1 신청서와 해당 지원용 동의·확인서를 작성하며 정책홍보 동의는 별도 선택 사항이다. 붙임4의 공급자 확인 부분은 서비스를 제공한 업체와 신청인이 함께 확인한다.",
+      "applicant": "가평군 거주 19~39세 구직 청년(공고의 고교 졸업예정자 포함)",
+      "reviewedParts": [
+        {
+          "number": "붙임1",
+          "title": "2026년 청년면접지원사업 신청서",
+          "use": "main",
+          "author": "신청 청년"
+        },
+        {
+          "number": "붙임2-1",
+          "title": "면접지원 개인정보 수집·이용·제공 동의서",
+          "use": "additional",
+          "author": "신청 청년"
+        },
+        {
+          "number": "붙임3",
+          "title": "청년면접지원사업 유의사항 확인서",
+          "use": "additional",
+          "author": "신청 청년"
+        },
+        {
+          "number": "붙임4",
+          "title": "청년면접지원사업 이용 확인서",
+          "use": "conditional",
+          "author": "서비스 업체 및 신청 청년"
+        }
+      ],
+      "selectedParts": [
+        {
+          "number": "붙임1",
+          "title": "2026년 청년면접지원사업 신청서",
+          "use": "main",
+          "author": "신청 청년"
+        },
+        {
+          "number": "붙임2-1",
+          "title": "면접지원 개인정보 수집·이용·제공 동의서",
+          "use": "additional",
+          "author": "신청 청년"
+        },
+        {
+          "number": "붙임3",
+          "title": "청년면접지원사업 유의사항 확인서",
+          "use": "additional",
+          "author": "신청 청년"
+        },
+        {
+          "number": "붙임4",
+          "title": "청년면접지원사업 이용 확인서",
+          "use": "conditional",
+          "author": "서비스 업체 및 신청 청년"
+        }
+      ],
+      "verificationStatus": "verified",
+      "decision": "propose_approval",
+      "publicationApproved": false,
+      "requiresCoordinatorReview": true,
+      "officialAttachmentMatched": true,
+      "evidenceUrl": "https://m.gp.go.kr/gpnongup/selectBbsNttView.do?bbsNo=150&integrDeptCode=00000018&key=919&nttNo=289892",
+      "evidenceNote": "가평군 공식 게시물(2026-10-15)이 직접 배포하는 2026-4호 공고와 3개 전체 섹션 4,850자를 확인했다. 원본은 2026년 면접/2026년 신청란, 연3회 회당10만원, 본인 신청·개인정보·유의사항·업체확인서를 포함한다. 기존 복지로의 2025년 인쇄 서식과 달리 2026년 공고와 원본 신청연도가 일치한다.",
+      "roleBasis": "붙임1은 본인의 면접·서비스 이용 신청, 붙임2-1은 사업 개인정보 동의, 붙임3은 유의사항 확인, 붙임4는 서비스 이용에 대한 업체와 신청인의 공동 확인이다.",
+      "roleEvidenceUrl": "https://m.gp.go.kr/gpnongup/downloadBbsFile.do?atchmnflNo=96972",
+      "roleCheckedAt": "2026-10-19",
+      "sha256": "20a0e95b43b7be8a4beba1afe966f341799b707a475a734306e6cdced664ca43",
+      "bytes": 81768,
+      "originalFormat": "hwpx",
+      "originalPath": "pipeline/forms/originals/agency-41820-96972.hwpx",
+      "textEvidencePath": "logs/forms-completion/gyeonggi-20261019/team1/gapyeong-interview-2026.json",
+      "textScope": "all_body_sections_or_pages",
+      "originalTextScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "Contents/section0.xml",
+        "Contents/section1.xml",
+        "Contents/section2.xml"
+      ],
+      "fullBodyReviewed": true,
+      "textLength": 4850,
+      "bodyTextSha256": "64b02dcffd48af37bd723aedf4316657a777855ac8f56a1db28d3dcea409d5af",
+      "independentlyReextracted": true,
+      "embeddedImageCount": 0,
+      "reviewedBy": "/root/forms_source_audit",
+      "referencedLaws": [],
+      "excludedParts": [
+        "공고 본문 자체(신청서 아님)",
+        "붙임2-2 청년정책 홍보 개인정보 동의: 지원 신청 필수 동의로 취급하지 않음"
+      ],
+      "sourceIssues": [
+        "게시일은 2026-10-15, 문서 공고일은 2026-01-02로 구분한다.",
+        "공급자 확인표의 100,000원은 예시로 표시되어 있으므로 실제 이용액을 기재한다."
+      ],
+      "lawId": "",
+      "lawTitle": "",
+      "lawEvidenceUrl": "",
+      "annexId": "",
+      "annexNumber": "",
+      "programPageRecord": "logs/forms-completion/gyeonggi-20261019/current-pages/WLF00005976.json",
+      "programPageSHA256": "8a64f2d583cb98d33b0bc3f9da7d1809f46954c1fd295dc96193dcdccb650973",
+      "originalHttpStatus": 200,
+      "replacesCandidateId": "page-1c406f2b2fe10798181a",
+      "documentNoticeDate": "2026-01-02",
+      "lawEffectiveDate": "",
+      "lawCurrentCheckedAt": "",
+      "authorityBasis": {
+        "kind": "official-program",
+        "title": "2026년 가평군 청년 면접지원 사업 공고(수정)",
+        "evidenceUrl": "https://m.gp.go.kr/gpnongup/selectBbsNttView.do?bbsNo=150&integrDeptCode=00000018&key=919&nttNo=289892",
+        "checkedAt": "2026-10-19",
+        "evidenceNote": "가평군 공식 게시물(2026-10-15)이 직접 배포하는 2026-4호 공고와 3개 전체 섹션 4,850자를 확인했다. 원본은 2026년 면접/2026년 신청란, 연3회 회당10만원, 본인 신청·개인정보·유의사항·업체확인서를 포함한다. 기존 복지로의 2025년 인쇄 서식과 달리 2026년 공고와 원본 신청연도가 일치한다.",
+        "pageSHA256": "24793f5e7739fb3da7d06368ae3acdc0c7b57519b7886a919cacadf7f126c70f"
+      },
+      "coordinatorReason": "가평군 공식 게시물(2026-10-15)이 직접 배포하는 2026-4호 공고와 3개 전체 섹션 4,850자를 확인했다. 원본은 2026년 면접/2026년 신청란, 연3회 회당10만원, 본인 신청·개인정보·유의사항·업체확인서를 포함한다. 기존 복지로의 2025년 인쇄 서식과 달리 2026년 공고와 원본 신청연도가 일치한다."
+    }
+  ],
+  "sourceReview": {
+    "coordinatorPlanSHA256": "36eb5623fcef6e172ceefa46f4e2dca62a4d4b369a5263cf1b6c205d64f16e21",
+    "frozenScopeFile": "pipeline/forms/reviews/agency-originals-scope-round8007.json",
+    "frozenScopeSHA256": "16d85456c838585762db8031f9ae33666d652f0c3635a90b0be06bc36c2a9222"
+  }
+}

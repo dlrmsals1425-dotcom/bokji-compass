@@ -1,0 +1,452 @@
+{
+  "schema": 1,
+  "checkedAt": "2026-10-16",
+  "scope": "Round 2: 15 new municipal citizen main application forms in 15 distinct jurisdictions across 11 provinces/metropolitan cities; source-purpose associations only; no eligibility, benefit amount, code, or public data changes.",
+  "verificationMethod": "Read current public/bundles/v1/details and portal-matches.json; excluded all prior source-review and municipal-reviewed form IDs/region codes. Each of 15 laws re-searched using actual Korean-law MCP search_ordinance and all full article bodies read using get_ordinance. For every source, public ordinInfoR.do HTML matched annexId and flSeq. All 15 official downloads returned HTTP 200; original HWP (12) and HWPX (3) PrvText inspected in memory for citizen applicant, purpose, jurisdiction and article references. No PDF conversion or visual rendering. Every program ID exists and exactly matches the official municipal region code.",
+  "rows": [
+    {
+      "sourceKind": "ordin",
+      "lawTitle": "인천광역시 계양구 장수축하금 지급에 관한 조례",
+      "lawId": "1833043",
+      "annexId": "19998995",
+      "annexNumber": "000100",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=152228691&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C1%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EC%9E%A5%EC%88%98%EC%B6%95%ED%95%98%EA%B8%88+%EC%A7%80%EA%B8%89+%EC%8B%A0%EC%B2%AD%EC%84%9C",
+      "officialPdfUrl": null,
+      "dateKind": "effective",
+      "effectiveDate": "20230707",
+      "regionCode": "28245",
+      "regionLabel": "인천광역시 계양구",
+      "programIds": [
+        "g28245.bokjiro-WLF00005321"
+      ],
+      "formId": "ordin-19998995",
+      "use": "main",
+      "evidenceUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=1833043",
+      "evidenceNote": "제5조제1항은 장수축하금을 받으려는 사람이 별지 제1호 신청서를 주소지 동장에게 제출하도록 지정한다. 원본 HWP의 지급대상자·전입일·지급계좌와 동일 조례 제5조 인용 및 계양구청장 수신처를 확인했다. 사업 documents에도 같은 제1호 신청서가 명시되어 있다. 제2호 위임장은 대리신청 시 조건부 서류이고 제3호 명부는 행정용이므로 주 신청서로 연결하지 않았다.",
+      "checkedAt": "2026-10-16",
+      "formTitle": "[별지 제1호서식] 장수축하금 지급 신청서",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "programNames": [
+        "장수축하금"
+      ]
+    },
+    {
+      "sourceKind": "ordin",
+      "lawTitle": "의령군 장수축하금 지급 조례",
+      "lawId": "1821643",
+      "annexId": "18360043",
+      "annexNumber": "000100",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=143282873&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C1%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EC%9E%A5%EC%88%98%EC%B6%95%ED%95%98%EA%B8%88+%EC%A7%80%EA%B8%89+%EC%8B%A0%EC%B2%AD%EC%84%9C",
+      "officialPdfUrl": null,
+      "dateKind": "effective",
+      "effectiveDate": "20240101",
+      "regionCode": "48720",
+      "regionLabel": "경상남도 의령군",
+      "programIds": [
+        "g48720.bokjiro-WLF00005690"
+      ],
+      "formId": "ordin-18360043",
+      "use": "main",
+      "evidenceUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=1821643",
+      "evidenceNote": "제6조제1항은 장수축하금을 받으려는 사람이 별지 제1호 장수축하금 지급 신청서를 읍·면장에게 제출하도록 정한다. 사업 documents가 같은 제1호 신청서를 명시하며, 원본 HWP의 지급대상자·가족상황·지급계좌 및 의령군 조례 제6조제1항 인용을 확인했다. 제2호 위임장과 제3호 지급대상자 관리대장을 주 신청서에서 제외했다.",
+      "checkedAt": "2026-10-16",
+      "formTitle": "[별지 제1호서식] 장수축하금 지급 신청서",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "programNames": [
+        "장수축하금 지급"
+      ]
+    },
+    {
+      "sourceKind": "ordin",
+      "lawTitle": "대구광역시 달성군 장수축하금 지급 조례",
+      "lawId": "1890913",
+      "annexId": "20659845",
+      "annexNumber": "000100",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=154783705&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C1%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EC%9E%A5%EC%88%98%EC%B6%95%ED%95%98%EA%B8%88+%EC%A7%80%EA%B8%89%EC%8B%A0%EC%B2%AD%EC%84%9C",
+      "officialPdfUrl": null,
+      "dateKind": "effective",
+      "effectiveDate": "20231228",
+      "regionCode": "27710",
+      "regionLabel": "대구광역시 달성군",
+      "programIds": [
+        "g27710.gov24-348000000361"
+      ],
+      "formId": "ordin-20659845",
+      "use": "main",
+      "evidenceUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=1890913",
+      "evidenceNote": "제6조제1항은 장수축하금 신청자가 별지 제1호 신청서를 주소지 읍·면장에게 제출하도록 정한다. 원본 HWP에 지급대상자·가족상황·상품 또는 현금 신청 구분 및 달성군 조례 제6조 인용이 있다. 사업의 100세 장수노인 축하금 목적 및 읍·면 신청 경로가 일치한다. 제9조의 별지 제2호서식 관리대장은 행정용이므로 제외했다.",
+      "checkedAt": "2026-10-16",
+      "formTitle": "[별지 제1호서식] 장수축하금 지급신청서",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "programNames": [
+        "장수축하금 지원"
+      ]
+    },
+    {
+      "sourceKind": "ordin",
+      "lawTitle": "울산광역시 울주군 장수축하물품 지급에 관한 조례",
+      "lawId": "1989547",
+      "annexId": "18834939",
+      "annexNumber": "000100",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=146067903&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C1%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EC%9E%A5%EC%88%98%EC%B6%95%ED%95%98%EB%AC%BC%ED%92%88+%EC%A7%80%EA%B8%89+%EC%8B%A0%EC%B2%AD%EC%84%9C",
+      "officialPdfUrl": null,
+      "dateKind": "effective",
+      "effectiveDate": "20241205",
+      "regionCode": "31710",
+      "regionLabel": "울산광역시 울주군",
+      "programIds": [
+        "g31710.bokjiro-WLF00005973"
+      ],
+      "formId": "ordin-18834939",
+      "use": "main",
+      "evidenceUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=1989547",
+      "evidenceNote": "제6조제2항은 신청하는 장수어르신에게 별지 제1호 신청서를 관할 행정복지센터로 제출하도록 정한다. 원본 HWPX에 지급대상자·신청내용·같은 울주군 조례 제6조 인용 및 울주군수 수신처가 있다. 사업의 100세 이상 어르신 장수축하물품 목적과 동일하다. 제2호 위임장과 제3호 지급현황 서식은 주 신청서에서 제외했다.",
+      "checkedAt": "2026-10-16",
+      "formTitle": "[별지 제1호서식] 장수축하물품 지급 신청서",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "programNames": [
+        "장수축하물품 지급"
+      ]
+    },
+    {
+      "sourceKind": "ordin",
+      "lawTitle": "천안시 장수축하물품 지급에 관한 조례",
+      "lawId": "2061825",
+      "annexId": "20722129",
+      "annexNumber": "000100",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=155029741&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C1%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EC%9E%A5%EC%88%98%EC%B6%95%ED%95%98%EB%AC%BC%ED%92%88+%EC%A7%80%EA%B8%89+%EC%8B%A0%EC%B2%AD%EC%84%9C",
+      "officialPdfUrl": null,
+      "dateKind": "effective",
+      "effectiveDate": "20250801",
+      "regionCode": "44130",
+      "regionLabel": "충청남도 천안시",
+      "programIds": [
+        "g44130.bokjiro-WLF00006501"
+      ],
+      "formId": "ordin-20722129",
+      "use": "main",
+      "evidenceUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=2061825",
+      "evidenceNote": "제6조제1항은 장수축하물품 신청자가 별지 제1호 신청서를 읍·면·동장에게 제출하도록 정한다. 원본 HWP에서 지급대상자·전입일·같은 천안시 조례 제6조 인용·천안시장 수신처 및 행정정보 공동이용 동의란을 확인했다. 사업의 100세 어르신 장수축하물품과 신청 경로가 일치한다. 대리인용 제2호 위임장 및 행정용 제3호 관리대장을 주 신청서에서 제외했다.",
+      "checkedAt": "2026-10-16",
+      "formTitle": "[별지 제1호서식] 장수축하물품 지급 신청서",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "programNames": [
+        "천안시 장수축하물품 지원"
+      ]
+    },
+    {
+      "sourceKind": "ordin",
+      "lawTitle": "진안군 효행 장려 및 지원에 관한 조례",
+      "lawId": "2162703",
+      "annexId": "22409393",
+      "annexNumber": "000100",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=168295533&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C1%ED%98%B8+%EC%84%9C%EC%8B%9D%5D+%ED%9A%A8%EB%8F%84%EC%88%98%EB%8B%B9+%EC%A7%80%EA%B8%89%EC%8B%A0%EC%B2%AD%EC%84%9C",
+      "officialPdfUrl": null,
+      "dateKind": "effective",
+      "effectiveDate": "20260818",
+      "regionCode": "52720",
+      "regionLabel": "전북특별자치도 진안군",
+      "programIds": [
+        "g52720.bokjiro-WLF00003795"
+      ],
+      "formId": "ordin-22409393",
+      "use": "main",
+      "evidenceUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=2162703",
+      "evidenceNote": "제14조제1항은 효도수당을 받으려는 사람이 별지 제1호 신청서를 관할 행정복지센터에 제출하도록 지정한다. 2026년 8월 18일 개정 원본 HWPX에서 효도수당 지급신청서 제목, 가족사항·동거여부·예금계좌 및 같은 조례 제14조 인용을 확인했다. 사업의 3대 이상 동거가정 효도수당 목적과 읍·면 신청 경로가 일치한다. 현행 전북특별자치도 진안군 코드 52720으로 매칭했다.",
+      "checkedAt": "2026-10-16",
+      "formTitle": "[별지 제1호 서식] 효도수당 지급신청서",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "programNames": [
+        "효도수당 지원"
+      ]
+    },
+    {
+      "sourceKind": "ordin",
+      "lawTitle": "청도군 전동보장구 수리 지원에 관한 조례",
+      "lawId": "927024",
+      "annexId": "19953773",
+      "annexNumber": "000100",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=152163219&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C1%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EC%9E%A5%EC%95%A0%EC%9D%B8+%EC%A0%84%EB%8F%99%EB%B3%B4%EC%9E%A5%EA%B5%AC+%EC%88%98%EB%A6%AC+%EC%A7%80%EC%9B%90%EC%8B%A0%EC%B2%AD%EC%84%9C",
+      "officialPdfUrl": null,
+      "dateKind": "effective",
+      "effectiveDate": "20150226",
+      "regionCode": "47820",
+      "regionLabel": "경상북도 청도군",
+      "programIds": [
+        "g47820.bokjiro-WLF00003456",
+        "g47820.gov24-519000000113"
+      ],
+      "formId": "ordin-19953773",
+      "use": "main",
+      "evidenceUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=927024",
+      "evidenceNote": "제7조제1항은 장애인이 읍·면장에게 별지 제1호 신청서를 제출하도록 정한다. 두 사업은 동일한 청도군 전동휠체어·전동스쿠터 수리 지원이며 documents와 신청 절차가 같은 신청서를 가리킨다. 원본 HWP의 인적사항·수급유형·보장구 유형·수리부위 및 제7조제1항 인용을 확인했다. 원본의 인용 제명에는 현행 제명보다 장애인이라는 단어가 추가되어 있지만 현행 법규 HTML의 첨부 ID와 다운로드 ID가 모두 일치한다. 제2호 의뢰서·제3호 내역·제4호 업체청구서는 주 신청서에서 제외했다.",
+      "checkedAt": "2026-10-16",
+      "formTitle": "[별지 제1호서식] 장애인 전동보장구 수리 지원신청서",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "programNames": [
+        "장애인 전동보장구 수리 지원",
+        "장애인 전동보장구 수리비 지원"
+      ]
+    },
+    {
+      "sourceKind": "ordin",
+      "lawTitle": "양산시 장애인휠체어 등 수리 지원에 관한 조례",
+      "lawId": "2089659",
+      "annexId": "21146293",
+      "annexNumber": "000100",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=158791387&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C1%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EC%9E%A5%EC%95%A0%EC%9D%B8+%ED%9C%A0%EC%B2%B4%EC%96%B4+%EB%93%B1+%EC%88%98%EB%A6%AC+%EC%8B%A0%EC%B2%AD%EC%84%9C",
+      "officialPdfUrl": null,
+      "dateKind": "effective",
+      "effectiveDate": "20251127",
+      "regionCode": "48330",
+      "regionLabel": "경상남도 양산시",
+      "programIds": [
+        "g48330.gov24-538000000110"
+      ],
+      "formId": "ordin-21146293",
+      "use": "main",
+      "evidenceUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=2089659",
+      "evidenceNote": "제7조제1항은 장애인이 읍·면·동장에게 별지 제1호 신청서를 제출하도록 정한다. 원본 HWP에 휠체어·전동휠체어·전동스쿠터 선택, 수급유형·수리 필요 부위 및 같은 양산시 조례 제7조제1항 인용이 있다. 사업의 이동기기 수리비 목적과 신청 경로가 일치한다. 제2호 수리의뢰서 및 제3~4호 업체 수리내역·청구서를 주 신청서에서 제외했다.",
+      "checkedAt": "2026-10-16",
+      "formTitle": "[별지 제1호서식] 장애인 휠체어 등 수리 신청서",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "programNames": [
+        "장애인 보장구 수리비 지원"
+      ]
+    },
+    {
+      "sourceKind": "ordin",
+      "lawTitle": "대전광역시 서구 장애인 휠체어 등 수리 지원에 관한 조례",
+      "lawId": "1863101",
+      "annexId": "22766629",
+      "annexNumber": "000100",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=170048805&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C1%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EC%9E%A5%EC%95%A0%EC%9D%B8+%ED%9C%A0%EC%B2%B4%EC%96%B4+%EB%93%B1+%EC%88%98%EB%A6%AC+%EC%8B%A0%EC%B2%AD%EC%84%9C",
+      "officialPdfUrl": null,
+      "dateKind": "effective",
+      "effectiveDate": "20231011",
+      "regionCode": "30170",
+      "regionLabel": "대전광역시 서구",
+      "programIds": [
+        "g30170.gov24-366000000105"
+      ],
+      "formId": "ordin-22766629",
+      "use": "main",
+      "evidenceUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=1863101",
+      "evidenceNote": "제6조제1항은 장애인이 거주지 동장에게 별지 제1호 신청서를 제출하도록 정한다. 원본 HWP에 신청인·수급유형·보장구 유형·제품정보·수리부위, 동일 조례 제6조제1항 인용과 대전광역시 서구청장 수신처가 있어 다른 시도의 서구 서식과 구분된다. 제2호 수리의뢰서와 제3~4호 업체 수리내역·청구서는 제외했다. 사업 관할 코드 30170 및 수리 지원 목적이 일치한다.",
+      "checkedAt": "2026-10-16",
+      "formTitle": "[별지 제1호서식] 장애인 휠체어 등 수리 신청서",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "programNames": [
+        "장애인 휠체어 등 수리 지원"
+      ]
+    },
+    {
+      "sourceKind": "ordin",
+      "lawTitle": "구리시 장애인 이동기기 수리 등에 관한 조례",
+      "lawId": "976785",
+      "annexId": "11128481",
+      "annexNumber": "000100",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=101432505&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C1%ED%98%B8%EC%84%9C%EC%8B%9D+%EC%9E%A5%EC%95%A0%EC%9D%B8+%ED%9C%A0%EC%B2%B4%EC%96%B4+%EB%93%B1+%EC%88%98%EB%A6%AC+%EC%8B%A0%EC%B2%AD%EC%84%9C%5D",
+      "officialPdfUrl": null,
+      "dateKind": "effective",
+      "effectiveDate": "20131224",
+      "regionCode": "41310",
+      "regionLabel": "경기도 구리시",
+      "programIds": [
+        "g41310.gov24-398000000114"
+      ],
+      "formId": "ordin-11128481",
+      "use": "main",
+      "evidenceUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=976785",
+      "evidenceNote": "제6조제1항은 휠체어 등을 수리받으려는 사람이 별지 제1호 신청서와 해당 증명서류를 지정 수리센터에 제출하도록 정한다. 원본 HWP의 이동기기 유형·수리부위·수급자/장애인 증명서류와 같은 구리시 조례 제6조제1항 인용을 확인했다. 사업의 신청처도 이동기기 수리센터이므로 주민용 주 신청서로 연결한다. 제2호는 센터가 시에 제출하는 청구서로 제외했다. 자동 portal-matches 결과는 not_found였으나 현행 법규 본문과 실제 원본으로 추가 검증했다.",
+      "checkedAt": "2026-10-16",
+      "formTitle": "[별지 제1호서식 장애인 휠체어 등 수리 신청서]",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "programNames": [
+        "장애인 이동기기 수리비 지원"
+      ]
+    },
+    {
+      "sourceKind": "ordin",
+      "lawTitle": "하남시 장애인가정 출산지원금 지원에 관한 조례",
+      "lawId": "2157417",
+      "annexId": "22297979",
+      "annexNumber": "000100",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=167839873&flNm=%5B%EB%B3%84%EC%A7%80+%EC%84%9C%EC%8B%9D%5D+%EC%9E%A5%EC%95%A0%EC%9D%B8%EA%B0%80%EC%A0%95+%EC%B6%9C%EC%82%B0%EC%A7%80%EC%9B%90%EA%B8%88+%EC%8B%A0%EC%B2%AD%EC%84%9C",
+      "officialPdfUrl": null,
+      "dateKind": "effective",
+      "effectiveDate": "20260805",
+      "regionCode": "41450",
+      "regionLabel": "경기도 하남시",
+      "programIds": [
+        "g41450.gov24-404000000107"
+      ],
+      "formId": "ordin-22297979",
+      "use": "main",
+      "evidenceUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=2157417",
+      "evidenceNote": "제5조제2항은 출산지원금을 받으려는 사람이 별지 신청서를 동장에게 제출하도록 정한다. 2026년 8월 5일 개정 원본 HWPX에서 신청인·장애유형과 정도·출생아·지급정보 및 같은 하남시 조례 제5조 인용을 확인했다. 서식에는 조건부 위임장도 포함된다. 사업의 장애인가정 출산지원금 목적과 신청 조항이 일치한다. 원본상 장애인증명서·주민등록등본은 담당공무원 확인사항이며, 카탈로그의 제출서류 안내와 차이가 있어 별도 검토사항으로 남겼다.",
+      "checkedAt": "2026-10-16",
+      "formTitle": "[별지 서식] 장애인가정 출산지원금 신청서",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "programNames": [
+        "장애인가정 출산지원금 지원"
+      ],
+      "condition": "2026년 개정 서식은 장애인증명서·주민등록등본을 담당 공무원 확인사항(제출하지 않아도 되는 서류)으로 안내합니다. 접수기관의 최신 안내를 함께 확인하세요."
+    },
+    {
+      "sourceKind": "ordin",
+      "lawTitle": "보령시 출산양육지원금 지급에 관한 조례",
+      "lawId": "2121445",
+      "annexId": "21751939",
+      "annexNumber": "000100",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=163395679&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C1%ED%98%B8+%EC%84%9C%EC%8B%9D%5D+%EB%B3%B4%EB%A0%B9%EC%8B%9C+%EC%B6%9C%EC%82%B0%EC%96%91%EC%9C%A1%EC%A7%80%EC%9B%90%EA%B8%88+%EC%A7%80%EC%9B%90%EC%8B%A0%EC%B2%AD%EC%84%9C",
+      "officialPdfUrl": null,
+      "dateKind": "effective",
+      "effectiveDate": "20260410",
+      "regionCode": "44180",
+      "regionLabel": "충청남도 보령시",
+      "programIds": [
+        "g44180.gov24-451000000142"
+      ],
+      "formId": "ordin-21751939",
+      "use": "main",
+      "evidenceUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=2121445",
+      "evidenceNote": "제6조제1항은 보호자가 별지 제1호 출산양육지원금 지원신청서 또는 임신·출산 관련 서비스 통합처리 규정의 통합 신청서로 신청할 수 있도록 정한다. 원본 HWP에 보호자·출생아·출생순위·입금계좌와 같은 보령시 조례 제6조 인용이 있다. 사업 목적과 통장 사본 첨부 안내가 일치한다. 이 별지는 조례가 허용하는 주 신청서 중 하나이며 유일한 신청서로 단정하지 않는다. 제2호 신청 및 지원 관리대장은 제외했다.",
+      "checkedAt": "2026-10-16",
+      "formTitle": "[별지 제1호 서식] 보령시 출산양육지원금 지원신청서",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "programNames": [
+        "출산양육지원금 지원"
+      ],
+      "condition": "조례는 이 지역 신청서 또는 출산 서비스 통합처리 신청서를 허용합니다. 접수기관 안내에 맞는 서식을 사용하세요."
+    },
+    {
+      "sourceKind": "ordin",
+      "lawTitle": "부산광역시 금정구 출산장려 지원 조례",
+      "lawId": "1867325",
+      "annexId": "20885301",
+      "annexNumber": "000100",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=157027539&flNm=%5B%EB%B3%84%EC%A7%80+%EC%84%9C%EC%8B%9D%5D+%EC%B6%9C%EC%82%B0+%EC%84%9C%EB%B9%84%EC%8A%A4+%ED%86%B5%ED%95%A9%EC%B2%98%EB%A6%AC+%EC%8B%A0%EC%B2%AD%EC%84%9C",
+      "officialPdfUrl": null,
+      "dateKind": "effective",
+      "effectiveDate": "20231031",
+      "regionCode": "26410",
+      "regionLabel": "부산광역시 금정구",
+      "programIds": [
+        "g26410.gov24-335000000101"
+      ],
+      "formId": "ordin-20885301",
+      "use": "main",
+      "evidenceUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=1867325",
+      "evidenceNote": "제7조는 제3조제1호·제2호의 출산장려 지원 신청자가 별지 출산 서비스 통합처리 신청서를 주민등록지 동장에게 제출하도록 정한다. 원본 HWP의 지방자치단체 서비스에 부산 금정구가 명시되고 출산 축하금 및 자녀 순위별 선택란이 실제로 있어 해당 급여와 지역을 직접 확인했다. 공통 출산서식이라는 이유만으로 다른 지역 서식을 연결한 것이 아니다.",
+      "checkedAt": "2026-10-16",
+      "formTitle": "[별지 서식] 출산 서비스 통합처리 신청서",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "programNames": [
+        "출산축하금 지원"
+      ]
+    },
+    {
+      "sourceKind": "ordin",
+      "lawTitle": "춘천시 아이돌봄서비스 이용자 본인부담금 지원 조례",
+      "lawId": "2176519",
+      "annexId": "22826375",
+      "annexNumber": "000200",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=170251371&flNm=%5B%EB%B3%84%EC%A7%80+%EC%84%9C%EC%8B%9D%5D+%EC%B6%98%EC%B2%9C%EC%8B%9C+%EC%95%84%EC%9D%B4%EB%8F%8C%EB%B4%84%EC%84%9C%EB%B9%84%EC%8A%A4+%EC%9D%B4%EC%9A%A9%EC%9E%90+%EB%B3%B8%EC%9D%B8%EB%B6%80%EB%8B%B4%EA%B8%88+%EC%A7%80%EC%9B%90+%EC%8B%A0%EC%B2%AD%EC%84%9C",
+      "officialPdfUrl": null,
+      "dateKind": "effective",
+      "effectiveDate": "20261001",
+      "regionCode": "51110",
+      "regionLabel": "강원특별자치도 춘천시",
+      "programIds": [
+        "g51110.bokjiro-WLF00006143"
+      ],
+      "formId": "ordin-22826375",
+      "use": "main",
+      "evidenceUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=2176519",
+      "evidenceNote": "제5조제1항은 아이돌봄서비스 본인부담금을 지원받으려는 사람이 별지 신청서를 주소지 읍·면·동장에게 제출하도록 지정한다. 원본 HWP 제목이 춘천시 아이돌봄서비스 이용자 본인부담금 지원 신청서이며, 보호자·서비스 이용 아동·서비스 유형·양육공백 유형·입금계좌와 같은 조례 제5조 인용을 확인했다. 사업의 대상·읍면동 방문신청·신분증과 통장 및 양육공백 자료 안내가 일치한다.",
+      "checkedAt": "2026-10-16",
+      "formTitle": "[별지 서식] 춘천시 아이돌봄서비스 이용자 본인부담금 지원 신청서",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "programNames": [
+        "아이돌봄서비스 이용자 본인부담금 지원"
+      ]
+    },
+    {
+      "sourceKind": "ordin",
+      "lawTitle": "부안군 아이돌봄서비스 지원 조례",
+      "lawId": "2163647",
+      "annexId": "22520035",
+      "annexNumber": "000200",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=168858223&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C1%ED%98%B8+%EC%84%9C%EC%8B%9D%5D+%EB%B6%80%EC%95%88%EA%B5%B0+%EC%95%84%EC%9D%B4%EB%8F%8C%EB%B4%84%EC%84%9C%EB%B9%84%EC%8A%A4+%EC%A7%80%EC%9B%90+%EC%8B%A0%EC%B2%AD%EC%84%9C",
+      "officialPdfUrl": null,
+      "dateKind": "effective",
+      "effectiveDate": "20260818",
+      "regionCode": "52800",
+      "regionLabel": "전북특별자치도 부안군",
+      "programIds": [
+        "g52800.bokjiro-WLF00005117"
+      ],
+      "formId": "ordin-22520035",
+      "use": "main",
+      "evidenceUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=2163647",
+      "evidenceNote": "제5조제1항은 본인부담금 지원을 받으려는 보호자가 별지 제1호 부안군 아이돌봄서비스 지원 신청서를 읍·면장에게 제출하도록 지정한다. 사업 documents가 같은 제1호 서식을 명시하며, 원본 HWP에서 보호자·서비스 이용 아동·시간제/종일제 선택·양육공백 유형·계좌 및 같은 조례 제5조 인용을 확인했다. 제8조 아이돌봄사 처우개선과 별개인 이용 가정의 신청서임을 조문과 원본으로 확인했다.",
+      "checkedAt": "2026-10-16",
+      "formTitle": "[별지 제1호 서식] 부안군 아이돌봄서비스 지원 신청서",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "programNames": [
+        "부안군 아이돌봄서비스 본인부담금 지원"
+      ]
+    }
+  ],
+  "unresolvedNotes": [
+    {
+      "programIds": [
+        "g41310.gov24-398000000114"
+      ],
+      "formId": "ordin-11128481",
+      "status": "resolved_by_manual_review",
+      "note": "portal-matches.json says not_found although current ordinance article 6(1) and its official annex explicitly provide this citizen repair application. The exact original title has an unusual closing bracket placement. Automatic matching cause was not investigated and code was not changed."
+    },
+    {
+      "programIds": [
+        "g41450.gov24-404000000107"
+      ],
+      "formId": "ordin-22297979",
+      "status": "document_guidance_review_needed",
+      "note": "The 2026-08-05 official form lists 장애인증명서 and 주민등록등본 under 담당공무원 확인사항 (제출하지 않아도 되는 서류), while the catalog documents lists them as submissions. Association is verified; no catalog document guidance was changed."
+    },
+    {
+      "programIds": [
+        "g47820.bokjiro-WLF00003456",
+        "g47820.gov24-519000000113"
+      ],
+      "formId": "ordin-19953773",
+      "status": "official_original_title_variation",
+      "note": "The original HWP citation includes 장애인 in 청도군 장애인 전동보장구 수리 지원에 관한 조례 while the current official ordinance title omits that word. Exact official current law HTML annexId/flSeq and article 7(1) purpose establish the connection."
+    },
+    {
+      "programIds": [
+        "g44180.gov24-451000000142"
+      ],
+      "formId": "ordin-21751939",
+      "status": "alternative_main_form_allowed",
+      "note": "Article 6(1) allows either the local annex 1 application or the national integrated childbirth service form. This verified local main application is not the exclusive permissible form."
+    }
+  ]
+}

@@ -1,0 +1,546 @@
+{
+  "reviewRows": 56,
+  "uniqueForms": 56,
+  "programRecords": 44,
+  "associations": 57,
+  "diagnosticPopulation": 1197,
+  "totalSiteProgramRecords": 23578,
+  "fullCensusComplete": false,
+  "checkedAt": "2026-10-16",
+  "sourceLawOrRuleIdsRead": 69,
+  "officialLegalOriginalsRead": 114,
+  "numberedReferencePrograms": 37,
+  "numberedReferenceReviewed": 18,
+  "numberedReferenceEachHasEvidenceDisposition": 37,
+  "numberedReferenceStates": {
+    "official_program_application_verified": 1,
+    "reviewed": 18,
+    "official_notice_form_required": 10,
+    "current_citation_mismatch": 1,
+    "supporting_or_institution_stage_forms": 1,
+    "official_notice_application_verified": 1,
+    "institution_process_filled_attachment_excluded": 1,
+    "agency_operating_form_required": 1,
+    "current_law_lookup_failed": 2,
+    "agreement_appendix_required": 1
+  },
+  "referenceCandidateReview": {
+    "programs": 75,
+    "uniqueCandidateForms": 88,
+    "originalsRead": 88,
+    "formPurposeCounts": {
+      "verified_citizen_program_form": 29,
+      "institution_or_provider_procedure": 46,
+      "citizen_other_procedure": 5,
+      "citizen_other_program": 5,
+      "citizen_generic_applicability_unresolved": 1,
+      "post_decision_appeal": 2
+    },
+    "programStateCounts": {
+      "confirmed_application_found": 29,
+      "actual_initial_application_still_requires_source": 36,
+      "official_attachment_application_purpose_verified": 10
+    },
+    "fullSiteCensusComplete": false,
+    "candidateProgramStateCounts": {
+      "confirmed_application_found": 29,
+      "actual_initial_application_still_requires_source": 46
+    },
+    "officialSourceFollowup": {
+      "programs": 46,
+      "programsWithAttachments": 13,
+      "attachmentsRead": 24,
+      "attachmentsPurposeReviewed": 24,
+      "purposeCounts": {
+        "reference_only": 6,
+        "citizen_application_verified": 11,
+        "beneficiary_supporting_verified": 3,
+        "beneficiary_organization_application_verified": 1,
+        "generic_applicability_unresolved": 1,
+        "placeholder_not_a_form": 1,
+        "institution_process_only": 1
+      },
+      "publicationCounts": {
+        "reference_only": 6,
+        "official_program_application_purpose_verified": 9,
+        "official_program_supporting_purpose_verified": 3,
+        "purpose_verified_current_version_requires_confirmation": 3,
+        "exclude_direct_download": 2,
+        "reference_only_unverified_image_body": 1
+      },
+      "programStateCounts": {
+        "actual_initial_application_still_requires_source": 36,
+        "official_attachment_application_purpose_verified": 10
+      },
+      "pendingManualAttachmentReviews": 0
+    }
+  },
+  "extraReferenceProgramsSourcePagesChecked": 46,
+  "extraReferenceProgramsSourcePageOutcomes": {
+    "read": 50
+  },
+  "extraReferenceProgramAttachmentsToReview": 0,
+  "manualLegalLinkReviewRemainingIn1197": 1154,
+  "additionalReviewedProgramsOutside1197": 1,
+  "fullSiteCensusComplete": false,
+  "note": "전수 계수·우선순위 증거처분·후보 원본 목적대조·프로그램별 실제 첨부 검증은 서로 다른 단계이다. 미확인 또는 기관용 후보만 발견된 경우를 신청서 부재로 판단하지 않는다.",
+  "extraReferenceProgramAttachmentReview": {
+    "programs": 46,
+    "programsWithAttachments": 13,
+    "attachmentsRead": 24,
+    "attachmentsPurposeReviewed": 24,
+    "purposeCounts": {
+      "reference_only": 6,
+      "citizen_application_verified": 11,
+      "beneficiary_supporting_verified": 3,
+      "beneficiary_organization_application_verified": 1,
+      "generic_applicability_unresolved": 1,
+      "placeholder_not_a_form": 1,
+      "institution_process_only": 1
+    },
+    "publicationCounts": {
+      "reference_only": 6,
+      "official_program_application_purpose_verified": 9,
+      "official_program_supporting_purpose_verified": 3,
+      "purpose_verified_current_version_requires_confirmation": 3,
+      "exclude_direct_download": 2,
+      "reference_only_unverified_image_body": 1
+    },
+    "programStateCounts": {
+      "actual_initial_application_still_requires_source": 36,
+      "official_attachment_application_purpose_verified": 10
+    },
+    "pendingManualAttachmentReviews": 0
+  },
+  "attachmentExclusionCount": 5,
+  "sourcePageRecordCountNote": "46개 프로그램에 총50개 공식 출처 페이지 기록(read)을 확인한 수치이며, 프로그램 수와 출처 페이지 수를 구분한다.",
+  "reviewedSnapshot": "logs/law-scan/census-reviewed-ready.json",
+  "importerDryrun": {
+    "rows": 56,
+    "rolePassed": 56,
+    "scopePassed": 57,
+    "failures": [],
+    "forms": 56,
+    "links": 57,
+    "programs": 44
+  },
+  "lastCompletedScope": "별지번호 명시37개 증거상태 분류, reference 차단75개·88개 원본 용도대조, 그중 후속46개 사업 공식출처 조회 및 발견첨부24개 용도검토",
+  "remainingScope": "전체23578개 사업의 법규본문·공고·첨부 전수 검증은 미완료. 우선1197개 진단집단 중 법정서식 연결 수동검토 미완료1154개가 남으며, 공식첨부 목적검증을 법정서식 현행본 검증으로 계산하지 않음.",
+  "downloadHeaderVerification": {
+    "schema": 1,
+    "checkedAt": "2026-10-16",
+    "scope": "HTTP response and first eight file signature bytes only; full-body review is recorded separately",
+    "checked": 58,
+    "passed": 58,
+    "results": [
+      {
+        "formId": "rule-3296553",
+        "kind": "original",
+        "httpStatus": 200,
+        "fileSignature": "zip",
+        "valid": true
+      },
+      {
+        "formId": "law-18020349",
+        "kind": "original",
+        "httpStatus": 200,
+        "fileSignature": "hwp",
+        "valid": true
+      },
+      {
+        "formId": "law-18499509",
+        "kind": "original",
+        "httpStatus": 200,
+        "fileSignature": "hwp",
+        "valid": true
+      },
+      {
+        "formId": "law-18284323",
+        "kind": "original",
+        "httpStatus": 200,
+        "fileSignature": "hwp",
+        "valid": true
+      },
+      {
+        "formId": "ordin-17178595",
+        "kind": "original",
+        "httpStatus": 200,
+        "fileSignature": "hwp",
+        "valid": true
+      },
+      {
+        "formId": "ordin-17191599",
+        "kind": "original",
+        "httpStatus": 200,
+        "fileSignature": "hwp",
+        "valid": true
+      },
+      {
+        "formId": "ordin-18116093",
+        "kind": "original",
+        "httpStatus": 200,
+        "fileSignature": "hwp",
+        "valid": true
+      },
+      {
+        "formId": "ordin-18116097",
+        "kind": "original",
+        "httpStatus": 200,
+        "fileSignature": "hwp",
+        "valid": true
+      },
+      {
+        "formId": "ordin-20238835",
+        "kind": "original",
+        "httpStatus": 200,
+        "fileSignature": "hwp",
+        "valid": true
+      },
+      {
+        "formId": "ordin-20390989",
+        "kind": "original",
+        "httpStatus": 200,
+        "fileSignature": "hwp",
+        "valid": true
+      },
+      {
+        "formId": "ordin-20390991",
+        "kind": "original",
+        "httpStatus": 200,
+        "fileSignature": "hwp",
+        "valid": true
+      },
+      {
+        "formId": "ordin-20390993",
+        "kind": "original",
+        "httpStatus": 200,
+        "fileSignature": "hwp",
+        "valid": true
+      },
+      {
+        "formId": "ordin-20390995",
+        "kind": "original",
+        "httpStatus": 200,
+        "fileSignature": "hwp",
+        "valid": true
+      },
+      {
+        "formId": "ordin-21735143",
+        "kind": "original",
+        "httpStatus": 200,
+        "fileSignature": "zip",
+        "valid": true
+      },
+      {
+        "formId": "ordin-19151465",
+        "kind": "original",
+        "httpStatus": 200,
+        "fileSignature": "hwp",
+        "valid": true
+      },
+      {
+        "formId": "ordin-15072717",
+        "kind": "original",
+        "httpStatus": 200,
+        "fileSignature": "zip",
+        "valid": true
+      },
+      {
+        "formId": "ordin-15072719",
+        "kind": "original",
+        "httpStatus": 200,
+        "fileSignature": "zip",
+        "valid": true
+      },
+      {
+        "formId": "ordin-19266255",
+        "kind": "original",
+        "httpStatus": 200,
+        "fileSignature": "hwp",
+        "valid": true
+      },
+      {
+        "formId": "ordin-21753093",
+        "kind": "original",
+        "httpStatus": 200,
+        "fileSignature": "hwp",
+        "valid": true
+      },
+      {
+        "formId": "ordin-21753095",
+        "kind": "original",
+        "httpStatus": 200,
+        "fileSignature": "hwp",
+        "valid": true
+      },
+      {
+        "formId": "ordin-21753097",
+        "kind": "original",
+        "httpStatus": 200,
+        "fileSignature": "hwp",
+        "valid": true
+      },
+      {
+        "formId": "ordin-21753099",
+        "kind": "original",
+        "httpStatus": 200,
+        "fileSignature": "hwp",
+        "valid": true
+      },
+      {
+        "formId": "ordin-22584079",
+        "kind": "original",
+        "httpStatus": 200,
+        "fileSignature": "hwp",
+        "valid": true
+      },
+      {
+        "formId": "ordin-22584081",
+        "kind": "original",
+        "httpStatus": 200,
+        "fileSignature": "hwp",
+        "valid": true
+      },
+      {
+        "formId": "ordin-22583789",
+        "kind": "original",
+        "httpStatus": 200,
+        "fileSignature": "hwp",
+        "valid": true
+      },
+      {
+        "formId": "ordin-22583289",
+        "kind": "original",
+        "httpStatus": 200,
+        "fileSignature": "hwp",
+        "valid": true
+      },
+      {
+        "formId": "ordin-20714521",
+        "kind": "original",
+        "httpStatus": 200,
+        "fileSignature": "hwp",
+        "valid": true
+      },
+      {
+        "formId": "ordin-20002811",
+        "kind": "original",
+        "httpStatus": 200,
+        "fileSignature": "hwp",
+        "valid": true
+      },
+      {
+        "formId": "ordin-21517631",
+        "kind": "original",
+        "httpStatus": 200,
+        "fileSignature": "hwp",
+        "valid": true
+      },
+      {
+        "formId": "ordin-22499237",
+        "kind": "original",
+        "httpStatus": 200,
+        "fileSignature": "hwp",
+        "valid": true
+      },
+      {
+        "formId": "ordin-20580381",
+        "kind": "original",
+        "httpStatus": 200,
+        "fileSignature": "hwp",
+        "valid": true
+      },
+      {
+        "formId": "ordin-22069271",
+        "kind": "original",
+        "httpStatus": 200,
+        "fileSignature": "hwp",
+        "valid": true
+      },
+      {
+        "formId": "ordin-14986907",
+        "kind": "original",
+        "httpStatus": 200,
+        "fileSignature": "hwp",
+        "valid": true
+      },
+      {
+        "formId": "ordin-14986839",
+        "kind": "original",
+        "httpStatus": 200,
+        "fileSignature": "hwp",
+        "valid": true
+      },
+      {
+        "formId": "ordin-17243185",
+        "kind": "original",
+        "httpStatus": 200,
+        "fileSignature": "hwp",
+        "valid": true
+      },
+      {
+        "formId": "ordin-14827727",
+        "kind": "original",
+        "httpStatus": 200,
+        "fileSignature": "hwp",
+        "valid": true
+      },
+      {
+        "formId": "ordin-14827729",
+        "kind": "original",
+        "httpStatus": 200,
+        "fileSignature": "hwp",
+        "valid": true
+      },
+      {
+        "formId": "ordin-10418789",
+        "kind": "original",
+        "httpStatus": 200,
+        "fileSignature": "hwp",
+        "valid": true
+      },
+      {
+        "formId": "ordin-10071361",
+        "kind": "original",
+        "httpStatus": 200,
+        "fileSignature": "hwp",
+        "valid": true
+      },
+      {
+        "formId": "ordin-13742987",
+        "kind": "original",
+        "httpStatus": 200,
+        "fileSignature": "hwp",
+        "valid": true
+      },
+      {
+        "formId": "ordin-22626683",
+        "kind": "original",
+        "httpStatus": 200,
+        "fileSignature": "hwp",
+        "valid": true
+      },
+      {
+        "formId": "ordin-21002113",
+        "kind": "original",
+        "httpStatus": 200,
+        "fileSignature": "hwp",
+        "valid": true
+      },
+      {
+        "formId": "ordin-22160049",
+        "kind": "original",
+        "httpStatus": 200,
+        "fileSignature": "hwp",
+        "valid": true
+      },
+      {
+        "formId": "ordin-22160051",
+        "kind": "original",
+        "httpStatus": 200,
+        "fileSignature": "hwp",
+        "valid": true
+      },
+      {
+        "formId": "ordin-19595861",
+        "kind": "original",
+        "httpStatus": 200,
+        "fileSignature": "hwp",
+        "valid": true
+      },
+      {
+        "formId": "ordin-21069813",
+        "kind": "original",
+        "httpStatus": 200,
+        "fileSignature": "hwp",
+        "valid": true
+      },
+      {
+        "formId": "ordin-21069817",
+        "kind": "original",
+        "httpStatus": 200,
+        "fileSignature": "zip",
+        "valid": true
+      },
+      {
+        "formId": "ordin-21772615",
+        "kind": "original",
+        "httpStatus": 200,
+        "fileSignature": "hwp",
+        "valid": true
+      },
+      {
+        "formId": "ordin-21821027",
+        "kind": "original",
+        "httpStatus": 200,
+        "fileSignature": "hwp",
+        "valid": true
+      },
+      {
+        "formId": "ordin-20761903",
+        "kind": "original",
+        "httpStatus": 200,
+        "fileSignature": "zip",
+        "valid": true
+      },
+      {
+        "formId": "ordin-21294759",
+        "kind": "original",
+        "httpStatus": 200,
+        "fileSignature": "hwp",
+        "valid": true
+      },
+      {
+        "formId": "ordin-21294761",
+        "kind": "original",
+        "httpStatus": 200,
+        "fileSignature": "hwp",
+        "valid": true
+      },
+      {
+        "formId": "ordin-19399661",
+        "kind": "original",
+        "httpStatus": 200,
+        "fileSignature": "hwp",
+        "valid": true
+      },
+      {
+        "formId": "ordin-20737985",
+        "kind": "original",
+        "httpStatus": 200,
+        "fileSignature": "hwp",
+        "valid": true
+      },
+      {
+        "formId": "ordin-22625595",
+        "kind": "original",
+        "httpStatus": 200,
+        "fileSignature": "hwp",
+        "valid": true
+      },
+      {
+        "formId": "ordin-21002119",
+        "kind": "original",
+        "httpStatus": 200,
+        "fileSignature": "hwp",
+        "valid": true
+      },
+      {
+        "formId": "law-18020349",
+        "kind": "pdf",
+        "httpStatus": 200,
+        "fileSignature": "pdf",
+        "valid": true
+      },
+      {
+        "formId": "law-18499509",
+        "kind": "pdf",
+        "httpStatus": 200,
+        "fileSignature": "pdf",
+        "valid": true
+      }
+    ]
+  },
+  "attachmentReviewNotes": 37,
+  "excludedAttachments": 5
+}

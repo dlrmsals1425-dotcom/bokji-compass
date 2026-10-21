@@ -1,0 +1,570 @@
+{
+  "schema": 1,
+  "checkedAt": "2026-10-20",
+  "items": [
+    {
+      "formId": "ordin-21750515",
+      "sha256": "b0ff5d50c6d729d45a12dda5d789b36067b751f686a24ba168cbf103db24d7ad",
+      "disposition": "approved",
+      "programIds": [
+        "g41550.bokjiro-WLF00001502",
+        "g41550.gov24-408000000525"
+      ],
+      "use": "conditional",
+      "condition": "현재 안성시 보훈명예수당을 지급받는 본인의 주소나 본인 명의 지급계좌가 변경된 경우에만 사용합니다. 계좌 변경 때 새 본인 명의 통장사본을 붙입니다. 신규 수당 신청·사망조위금 신청·옛 별도 배우자 월5만원 신규 신청·타인 계좌로 대리수령에는 사용하지 않습니다. 변경신고의 현재 근거는 시행규칙 제6조입니다.",
+      "sourceProposalCondition": "현재 안성시 보훈명예수당을 지급받는 본인의 주소나 본인 명의 지급계좌가 변경된 경우에만 사용합니다. 계좌 변경 때 새 본인 명의 통장사본을 붙입니다. 신규 수당 신청·사망조위금 신청·옛 별도 배우자 월5만원 신규 신청·타인 계좌로 대리수령에는 사용하지 않습니다. 변경신고의 현재 근거는 시행규칙 제6조입니다.",
+      "sourceProposal": "logs/forms-completion/gyeonggi-20261019/team2/raw-cited-round7-reviewed-20261020.json",
+      "sourceProposalSHA256": "67ad2e09d88fad295265393ce7e52241f2b1a684fd83207938db9b31dda3c0c6",
+      "checkedAt": "2026-10-20",
+      "fullBodyReviewed": true,
+      "reviewedParts": [
+        {
+          "number": "3",
+          "title": "국가보훈대상자 명예수당 지급 변경신고서",
+          "use": "conditional",
+          "author": "현재 안성시 명예수당을 지급받는 본인"
+        }
+      ],
+      "independentVerification": {
+        "checkedAt": "2026-10-20",
+        "reviewedBy": "/root/national_form_audit",
+        "actualBytesSHA256": "b0ff5d50c6d729d45a12dda5d789b36067b751f686a24ba168cbf103db24d7ad",
+        "fullBodyRead": true,
+        "sectionsRead": [
+          "BodyText/Section0"
+        ],
+        "textLength": 302,
+        "textSHA256": "2573e8a165b0a2dd360a81db35d2c4e95888d2d126bbab6bac46920c90fb74c3",
+        "currentLawId": "2121079",
+        "currentSearchPath": "logs/forms-completion/gyeonggi-20261019/team2/current-law-round3b-20261020/current-law-searches/2121079.json",
+        "currentSearchSHA256": "7cb8a2bd945607a49e660f2935dfa4a6fdfe00bc8ef192f55b87f3bd0b785099",
+        "currentBodyPath": "logs/forms-completion/gyeonggi-20261019/team2/current-law-round3b-20261020/current-law-bodies/2121079.json.gz",
+        "currentBodySHA256": "a8cdb1643dbd27fc6c391ca868bb582f5482e1aa1c83b29be244face359496e8",
+        "currentAuditPath": "logs/forms-completion/gyeonggi-20261019/team2/current-law-round3b-20261020/audit.json",
+        "currentAuditSHA256": "93fbb4d14a50fbd041b1025987b4df5c1014ac71afe9df272013a8e518c620d7",
+        "officialBodyLawTitle": "안성시 국가보훈대상자 등 예우 및 지원에 관한 조례 시행규칙",
+        "proposalLawTitle": "안성시 국가보훈대상자 등 예우 및 지원에 관한 조례 시행규칙",
+        "lawTitleNFKCEqual": true,
+        "rawAnnexId": "21750515",
+        "rawAnnexNumber": "000300",
+        "rawAnnexTitle": "[별지 제3호서식] 국가보훈대상자 명예수당 지급 변경신고서",
+        "rawFlSeq": "163394129",
+        "officialAnnexDeleted": false,
+        "printedParts": [
+          "3"
+        ]
+      },
+      "annexBinding": {
+        "binding": "bound",
+        "bindingReason": "OFFICIAL_ANNEX_BOUND_WITH_SAME_FILE",
+        "officialAnnexId": "21750515",
+        "officialAnnexNumber": "3",
+        "officialAnnexTitle": "[별지 제3호서식] 국가보훈대상자 명예수당 지급 변경신고서",
+        "officialFlSeq": "163394129",
+        "officialAnnexUrl": "https://www.law.go.kr/flDownload.do?gubun=ELIS&flSeq=163394129&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C3%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EA%B5%AD%EA%B0%80%EB%B3%B4%ED%9B%88%EB%8C%80%EC%83%81%EC%9E%90+%EB%AA%85%EC%98%88%EC%88%98%EB%8B%B9+%EC%A7%80%EA%B8%89+%EB%B3%80%EA%B2%BD%EC%8B%A0%EA%B3%A0%EC%84%9C",
+        "officialAnnexDeleted": false
+      },
+      "reason": "실제 3호 전체302자·본인 주소/계좌/서명·통장사본 요구를 읽었으며 내장 그림과 작성된 개인정보는 없다. 20일 공식 현행 조례2121057 및 시행규칙2121079 전체·부칙·현재 별표키21750515/flSeq163394129를 확인하고 실제 HWP를 다시 GET하여 동일 SHA를 확인했다. 현재 시행규칙 제5조는 본인명의 계좌 지급, 제6조는 주소/계좌 변경 시3호 신고를 정확히 지정한다. 원본에는 옛 제7조가 인쇄되어 있으나 현재 제7조는 지급중단이며, 이를 숨기거나 서식을 수정하지 않고 제6조의 직접 지정과 현행 원본 결속을 근거로 한다. 현재 두 프로그램 페이지에는 명예수당 월10만원이 남아 있으나 상위 현행법규는 월15만원이다. 이 행은 금액이나 신규 지원대상을 판정하는 신청이 아닌 이미 수급 중인 본인의 주소/계좌변경만을 제공하며 옛 금액을 현재 금액으로 승인하지 않는다. 사망위로금 WLF00001408 및 옛 배우자 신규지원 WLF00003880에는 연결하지 않는다."
+    },
+    {
+      "formId": "ordin-20871883",
+      "sha256": "d4082fc63c1e03bdbb0ffdbfb637ee6a142ccbcd73d354c59edc172c7d504efd",
+      "disposition": "approved",
+      "programIds": [
+        "g41110.bokjiro-WLF00001374"
+      ],
+      "use": "conditional",
+      "condition": "수원시 자활계정 지원 대상인 자활기업·자활근로사업단이 점포임대 또는 사업자금 대여를 신청할 때 시 담당자의 안내에 따라 제출하는 약정 부속입니다. 제10조제4항의 해당 대여신청서와 함께 사용하고, 지원금·기간·이율·상환조건은 수원시가 확인한 내용으로 작성합니다. 일반 주민의 신규 복지수당·학자금·주거급여 신청서로 사용하거나 임의 조건으로 대여계약을 확정하는 서식은 아닙니다.",
+      "sourceProposalCondition": "수원시 자활계정 지원 대상인 자활기업·자활근로사업단이 점포임대 또는 사업자금 대여를 신청할 때 시 담당자의 안내에 따라 제출하는 약정 부속입니다. 제10조제4항의 해당 대여신청서와 함께 사용하고, 지원금·기간·이율·상환조건은 수원시가 확인한 내용으로 작성합니다. 일반 주민의 신규 복지수당·학자금·주거급여 신청서로 사용하거나 임의 조건으로 대여계약을 확정하는 서식은 아닙니다.",
+      "sourceProposal": "logs/forms-completion/gyeonggi-20261019/team2/raw-cited-round8-reviewed-20261020.json",
+      "sourceProposalSHA256": "d4b80104957889307eb72b42b838f8abcfd3e4c6d0b01f3604c1e58590fc4d36",
+      "checkedAt": "2026-10-20",
+      "fullBodyReviewed": true,
+      "reviewedParts": [
+        {
+          "number": "12",
+          "title": "자활기금 대여 약정서",
+          "use": "conditional",
+          "author": "대여 신청 대상 자활기업·자활근로사업단 대표와 수원시"
+        }
+      ],
+      "independentVerification": {
+        "checkedAt": "2026-10-20",
+        "reviewedBy": "/root/national_form_audit",
+        "actualBytesSHA256": "d4082fc63c1e03bdbb0ffdbfb637ee6a142ccbcd73d354c59edc172c7d504efd",
+        "fullBodyRead": true,
+        "sectionsRead": [
+          "BodyText/Section0"
+        ],
+        "textLength": 554,
+        "textSHA256": "60970475f1a41750cef081cb6e34fbd9b247753aa282c9f9ceead6f46985ddfa",
+        "currentLawId": "1803075",
+        "currentSearchPath": "logs/forms-completion/gyeonggi-20261019/team2/current-law-round4-20261020/current-law-searches/1803075.json",
+        "currentSearchSHA256": "9dc890442b4acb4433691607c9f6c24a61550fef9db02789cd636db62c6848ef",
+        "currentBodyPath": "logs/forms-completion/gyeonggi-20261019/team2/current-law-round4-20261020/current-law-bodies/1803075.json.gz",
+        "currentBodySHA256": "639394243c2668fade0a710b3a180f982eaf032b616959cb5f6e2964961180db",
+        "currentAuditPath": "logs/forms-completion/gyeonggi-20261019/team2/current-law-round4-20261020/audit.json",
+        "currentAuditSHA256": "2b9674294be4e952ff101f399679116bc99a79c932890e5e53553d1f65096d40",
+        "officialBodyLawTitle": "수원시 사회복지기금 설치 및 운용 조례 시행규칙",
+        "proposalLawTitle": "수원시 사회복지기금 설치 및 운용 조례 시행규칙",
+        "lawTitleNFKCEqual": true,
+        "rawAnnexId": "20871883",
+        "rawAnnexNumber": "001200",
+        "rawAnnexTitle": "[별지 제12호서식] 자활기금 대여 약정서",
+        "rawFlSeq": "156559751",
+        "officialAnnexDeleted": false,
+        "printedParts": [
+          "12"
+        ]
+      },
+      "annexBinding": {
+        "binding": "bound",
+        "bindingReason": "OFFICIAL_ANNEX_BOUND_WITH_SAME_FILE",
+        "officialAnnexId": "20871883",
+        "officialAnnexNumber": "12",
+        "officialAnnexTitle": "[별지 제12호서식] 자활기금 대여 약정서",
+        "officialFlSeq": "156559751",
+        "officialAnnexUrl": "https://www.law.go.kr/flDownload.do?gubun=ELIS&flSeq=156559751&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C12%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EC%9E%90%ED%99%9C%EA%B8%B0%EA%B8%88+%EB%8C%80%EC%97%AC+%EC%95%BD%EC%A0%95%EC%84%9C",
+        "officialAnnexDeleted": false
+      },
+      "reason": "실제12호 전체를 읽어 지원기관과 신청자, 목적·금액·용도·기간·금리·상환 조건 및 양쪽 서명을 확인했다. 20일 현행법규1803075의 전체19조문·부칙은 앞서 완독한 공식 본문과 일치한다. 제10조제4항이 점포임대/사업자금 대여 신청에서10호 또는11호와12호 약정서를 제출하도록 직접 지정하고, 제11~13조가 자활기업/사업단의 대상·대여 및 점포임대 범위를 정한다. 정확 WLF00001374의 현재 본문은 지역자활센터 소속 자활근로사업단·자활기업과 창업/임대보증금 목적을 명시한다. 기관이 실제 지원대상이므로 기관이라는 이유로 제외하지 않는다. 페이지의 직접지원·별도신청없음 안내를 주민 신규접수로 바꾸지 않고 해당 대여 절차에서 필요한 약정 부속으로만 조건을 붙였다."
+    },
+    {
+      "formId": "ordin-18824709",
+      "sha256": "27975e36780d9d12383f3d8cfcbc31e3e71cba47286de4f7eaf9d8f4535061f3",
+      "disposition": "approved",
+      "programIds": [
+        "g41610.bokjiro-WLF00005227",
+        "g41610.gov24-554000000178"
+      ],
+      "use": "additional",
+      "condition": "광주시 산모·신생아 건강관리 서비스 이용 후 본인부담금 지원을 청구할 때 붙이는 증빙입니다. 제공기관에서 금액·서비스 유형/기간을 확인하고 직인을 받은 뒤 이용자가 서명한 아래쪽 이용자 보관 및 제출용을 사용합니다. 위쪽 제공기관 보관분은 기관이 보관합니다. 이용자가 제공기관 직인을 임의 작성하는 양식이 아니며, 별지1호 청구서와 본인 통장사본을 별도로 준비합니다. 원칙적으로 서비스 종료 후60일 이내, 거주180일을 나중에 충족하는 해당 대상자는 충족일부터60일 이내 청구합니다. 2026년 10월 1일 이후 기준중위소득 150% 초과 추가형을 새로 신청하는 용도로는 사용할 수 없습니다. 이미 지원받은 이용자도 개인별 청구기한과 지원자격을 확인해야 합니다. 원본 소득유형란은 통합형으로 인쇄되어 있으므로 다른 소득유형은 제공기관·보건소의 영수증 발급 안내를 확인하세요.",
+      "sourceProposalCondition": "광주시 산모·신생아 건강관리 서비스 이용 후 본인부담금 지원을 청구할 때 붙이는 증빙입니다. 제공기관에서 금액·서비스 유형/기간을 확인하고 직인을 받은 뒤 이용자가 서명한 아래쪽 이용자 보관 및 제출용을 사용합니다. 위쪽 제공기관 보관분은 기관이 보관합니다. 이용자가 제공기관 직인을 임의 작성하는 양식이 아니며, 별지1호 청구서와 본인 통장사본을 별도로 준비합니다. 원칙적으로 서비스 종료 후60일 이내, 거주180일을 나중에 충족하는 해당 대상자는 충족일부터60일 이내 청구합니다.",
+      "sourceProposal": "logs/forms-completion/gyeonggi-20261019/team2/raw-cited-round9-reviewed-20261020.json",
+      "sourceProposalSHA256": "18c66213b4e91ea933fc46f12558490f3f72227e606db5d2de589098c5e3058c",
+      "checkedAt": "2026-10-20",
+      "fullBodyReviewed": true,
+      "reviewedParts": [
+        {
+          "number": "2 (이용자 보관 및 제출용)",
+          "title": "본인부담금 납부영수증",
+          "use": "additional",
+          "author": "서비스 제공기관이 금액 수령을 확인·발급하고 이용자가 서명"
+        }
+      ],
+      "independentVerification": {
+        "checkedAt": "2026-10-20",
+        "reviewedBy": "/root/national_form_audit",
+        "actualBytesSHA256": "27975e36780d9d12383f3d8cfcbc31e3e71cba47286de4f7eaf9d8f4535061f3",
+        "fullBodyRead": true,
+        "sectionsRead": [
+          "BodyText/Section0"
+        ],
+        "textLength": 648,
+        "textSHA256": "1d4129c670c51aecc760463e32ab86f5e09532c43119a0ef0b14da8a8511b7f5",
+        "currentLawId": "1969525",
+        "currentSearchPath": "logs/forms-completion/gyeonggi-20261019/team2/current-law-round5-20261020/current-law-searches/1969525.json",
+        "currentSearchSHA256": "0660adfa02751a447e3105a77008055595d182174eac87486cce68b0e3150848",
+        "currentBodyPath": "logs/forms-completion/gyeonggi-20261019/team2/current-law-round5-20261020/current-law-bodies/1969525.json.gz",
+        "currentBodySHA256": "9b9ce344c5a244e0d73dfdc9d28a04b92045cc4eb5728ca6b56b2d97d8363bc8",
+        "currentAuditPath": "logs/forms-completion/gyeonggi-20261019/team2/current-law-round5-20261020/audit.json",
+        "currentAuditSHA256": "1fb856bb2abd10335691d9c447b45a3a62e6187b1239121526219f7e6f424182",
+        "officialBodyLawTitle": "광주시 산모ᆞ신생아 건강관리 지원 조례",
+        "proposalLawTitle": "광주시 산모ㆍ신생아 건강관리 지원 조례",
+        "lawTitleNFKCEqual": true,
+        "rawAnnexId": "18824709",
+        "rawAnnexNumber": "000200",
+        "rawAnnexTitle": "[별지 제2호서식] 본인부담금 납부영수증",
+        "rawFlSeq": "145956595",
+        "officialAnnexDeleted": false,
+        "printedParts": [
+          "2 (이용자 보관 및 제출용)"
+        ]
+      },
+      "annexBinding": {
+        "binding": "bound",
+        "bindingReason": "OFFICIAL_ANNEX_BOUND_WITH_SAME_FILE",
+        "officialAnnexId": "18824709",
+        "officialAnnexNumber": "2",
+        "officialAnnexTitle": "[별지 제2호서식] 본인부담금 납부영수증",
+        "officialFlSeq": "145956595",
+        "officialAnnexUrl": "https://www.law.go.kr/flDownload.do?gubun=ELIS&flSeq=145956595&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C2%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EB%B3%B8%EC%9D%B8%EB%B6%80%EB%8B%B4%EA%B8%88+%EB%82%A9%EB%B6%80%EC%98%81%EC%88%98%EC%A6%9D",
+        "officialAnnexDeleted": false
+      },
+      "reason": "실제2호 전체는 제공기관 보관분과 이용자 제출분 두 영수증이다. 제공기관이 본인부담금 수령을 확인하고 이용자가 서명하는 작성주체를 확인했다. 현행1969525 제6조제1호가 본인부담금 청구서와 함께2호 영수증 제출을 직접 지정한다. 현재 WLF00005227은 제공업체 발행 영수증을 구비서류로 명시하고 동일 정부24 554000000178로 직접 연결한다. 추가로 그 정확 정부24도 GET하여 경기도 광주시·180일 거주/미달자경과·단축표준90%·서비스후60일·영수증 제출을 확인했다. 정부24의 법령 목록에는 이 지역조례가 없다는 점을 숨기지 않되, 복지로의 정확 접수URL 연결과 동일 사업의 직접 제출서류 안내를 별도 근거로 기록한다. 주민이 받아 제출하는 필수 증빙이며 기관 청구서나 독립 주민 주신청서로 표시하지 않는다.",
+      "currentIntakeReview": {
+        "text": "2026년 10월 1일 이후 기준중위소득 150% 초과 추가형을 새로 신청하는 용도로는 사용할 수 없습니다. 이미 지원받은 이용자도 개인별 청구기한과 지원자격을 확인해야 합니다. 원본 소득유형란은 통합형으로 인쇄되어 있으므로 다른 소득유형은 제공기관·보건소의 영수증 발급 안내를 확인하세요.",
+        "reason": "현재 10월1일 추가형 신규신청 종료와 원본 통합형 인쇄를 확인하여 기존 정산 증빙 용도만 유지",
+        "officialEvidence": [
+          {
+            "url": "https://www.gjcity.go.kr/portal/bbs/view.do?bIdx=347192&mId=0201010000&ptIdx=1",
+            "finalUrl": "https://www.gjcity.go.kr/portal/bbs/view.do?bIdx=347192&mId=0201010000&ptIdx=1",
+            "httpStatus": 200,
+            "responseSHA256": "68c55477de046743eb257f02207c037399a1e9e28bca2a88d8f54e48179e3a7b",
+            "bytes": 287962,
+            "checkedAt": "2026-10-20",
+            "textReadScope": "relevant_official_notice_and_following_application_instructions",
+            "readExtent": "공지 본문 전체(공통 메뉴 제외)",
+            "evidenceExcerpt": "경기도 모자보건사업 정책 재구조화 및 투자 효율성 강화를 위해, 기준중위소득 150% 초과 출산가정을 대상으로 한 '산모‧신생아 건강관리 지원사업(추가형)'이 2026년 9월 30일 신청분을 끝으로 종료됩니다. 가. 사 업 명 : 산모‧신생아 건강관리 지원사업(추가형) * 추가형이란? 기본지원대상(기준중위소득 150% 이하) 외에 예외적으로 150% 초과 출산가정까지 지원해온 제도입니다. 나. 사업대상 : 기준중위소득 150% 초과 출산가정 다. 종 료 일 : 2026년 10월 1일(목) 라. 최종 신청 기한 : 2026년 9월 30일(수) 23:59 신청 완료 건까지 * 판단 기준은 출산일‧이용일이 아닌 ‘신청일’ 입니다. *  2026년 10월 1일부터는 추가형 신규 신청 접수가 불가 (기준중위소득 150% 초과 출산가정은 정부지원금‧본인부담금 지원 모두 불가) 마. 유의사항 * 마감 당일은 시스템 접속 및 서류 제출 지연이 발생할 수 있으니, 대상이 되시는 임산부께서는 가급적 조기에 보건소 방문 또는 복지로(www.bokjiro.go.kr) 온라인 신청을 완료해 주시기 바랍니다. 바. 문 의 : 오포건강생활지원센터 건강가족팀 (☎ 031-760-4170) 출산 가정의 서비스 이용에 차질이 없으시도록 신청 기한을 반드시 확인하여 주시기 바라며, 사업 종료로 인해 불편을 드리게 된 점 너그러운 양해 부탁드립니다. "
+          },
+          {
+            "url": "https://www.gjcity.go.kr/depart/bbs/view.do?bIdx=340491&mId=0802010000&ptIdx=1",
+            "finalUrl": "https://www.gjcity.go.kr/depart/bbs/view.do?bIdx=340491&mId=0802010000&ptIdx=1",
+            "httpStatus": 200,
+            "responseSHA256": "3cdd1ac1b1c12c8e0f044049e5cd5c7b94644c708021890343c70f3d0cd62cd2",
+            "bytes": 376864,
+            "checkedAt": "2026-10-20",
+            "textReadScope": "relevant_official_notice_and_following_application_instructions",
+            "readExtent": "공지 본문 전체(공통 메뉴 제외)",
+            "evidenceExcerpt": "□ 2026년 산모·신생아 건강관리사업 본인부담금 지원 변경 안내 작성자 오포건강생활지원센터 등록일 2025-11-24 조회 1801 2026년 1월 1일(서비스 개시일 기준)부터 산모·신생아 건강관리사업 본인부담금 지원 변경됩니다. '단축형·표준형' 본인부담금의 90%를 지원하며, 연장형 이용 시에는 '표준형' 금액 기준으로 지원됩니다. 보다 정확한 지원 내용(2026년 사업지침)은 추후 광주시 홈페이지에서 꼭 확인해 주세요. ○ 시       행 : 2026. 1. 1. ~ * 서비스 신청일이 아닌 실제 사용 시작일 기준 ○ 대       상 : 출산(예정)일 기준 180일 전부터 광주시에 주민등록을 둔 산모 ※ 다만, 180일 미만인 경우, 계속해서 거주한 기간이 180일 되는 날로부터 60일 이내 신청 가능(광주시에서 서비스 등록한 경우에 한함) ○ 변경내용 : 산모·신생아 건강관리 서비스 본인부담금 지원 변경 ▶ 단축 ․ 표준형 본인부담금의 90% ※ 단, ‘연장형’을 이용한 대상자는 ‘표준형’ 금액 기준으로 지원 ○ 신청방법 : 방문신청(광주시보건소, 오포건강생활지원센터) 또는 보조금24 온라인신청(보조금24 사이트 접속 후 ‘광주시 본인부담금’ 검색 ○ 신청기간 : 산모신생아 건강관리 서비스 이용 종료 후 60일 이내 ○ 신청문의 : 031-760-4170 "
+          },
+          {
+            "url": "https://www.gjcity.go.kr/depart/contents.do?mId=0805070100",
+            "finalUrl": "https://www.gjcity.go.kr/depart/contents.do?mId=0805070100",
+            "httpStatus": 200,
+            "responseSHA256": "b1e3f68a2786c599dd320a213df34052e2827a70a1ed15ee620809c1fc2b71b7",
+            "bytes": 389632,
+            "checkedAt": "2026-10-20",
+            "textReadScope": "relevant_official_notice_and_following_application_instructions",
+            "readExtent": "지원대상 및 신청/이용절차 본문(페이지 전체 독해 주장은 하지 않음)",
+            "evidenceExcerpt": "산모·신생아 건강관리지원사업 | 임신출산지원 | 보건사업 | 보건·위생 | 광주시청 분야별정보 바로가기 메뉴 본문 바로가기 주메뉴 바로가기 이 누리집은 대한민국 공식 전자정부 누리집입니다. 포털사이트 광주시청 문화관광 광주시의회 광주시 시립도서관 주민자치센터 평생학습포털 생활지리웹포털 지역상권 빅데이터 광주시 교통정보 광주비전(웹진) 포털사이트 닫기 보건·위생 2026년 산모신생아 건강관리 지원사업 안내문 지원대상자 신청일 기준 관내에 주민등록 또는 외국인 등록을 둔 기준중위소득 150% 이하 출산가정 ※ 단, 부부 모두 외국인인 경우 각각 국내 체류자격 비자 종류가 F-2(거주), F-5(영주), F-6(결혼이민)인 경우에 한함 임신 16주 이상에 유산·사산한 가정 기준중위소득 150%이하 건강보험료 본인부담금(2026년) 모바일환경에서는 좌우로 이동하여 내용(표)을 보실 수 있습니다. 기준중위소득 150%이하 건강보험료 본인부담금(2026년)을 가구원수, 기준중위소득, 건강보험료 본인부담금(원)-"
+          }
+        ],
+        "sourceArticle": "현행 조례 제6조: 서비스 종료 후60일, 제3조제3항 대상자는 지원대상일 후60일 안에 별지2 영수증 첨부",
+        "interpretationLimit": "현재 공지의 신청일 기준 신규 추가형 종료와 현행 사후청구 규정을 함께 읽은 범위이다. 과거 추가형 신청자의 개별 지급권을 확정하거나 통합형 인쇄를 다른 유형으로 수정하도록 안내하지 않는다."
+      }
+    },
+    {
+      "formId": "ordin-21626799",
+      "sha256": "bab6d486d51303d0bee702a8a33c57e3a166f7dad91e76fdf2737c6a5c7fe7a6",
+      "disposition": "approved",
+      "programIds": [
+        "g41220.bokjiro-WLF00001562"
+      ],
+      "use": "conditional",
+      "condition": "이미 신청·지급 중인 평택시 명예수당, 월5만원 참전유공자수당, 독립유공자수당 또는 사망참전유공자 배우자복지수당 중 해당 항목을 선택하여 주소·지정계좌 변경을 신고할 때만 사용합니다. 계좌가 바뀌면 통장사본을 붙이고 보훈대상 증빙·행정정보 공동이용 동의를 확인합니다. 신규수당·사망위로금·명절위로금 신청, 경기도 연1회 참전명예수당, 생활보조수당 또는 대리수령 권한 위임에는 사용하지 않습니다.",
+      "sourceProposalCondition": "이미 신청·지급 중인 평택시 명예수당, 월5만원 참전유공자수당, 독립유공자수당 또는 사망참전유공자 배우자복지수당 중 해당 항목을 선택하여 주소·지정계좌 변경을 신고할 때만 사용합니다. 계좌가 바뀌면 통장사본을 붙이고 보훈대상 증빙·행정정보 공동이용 동의를 확인합니다. 신규수당·사망위로금·명절위로금 신청, 경기도 연1회 참전명예수당, 생활보조수당 또는 대리수령 권한 위임에는 사용하지 않습니다.",
+      "sourceProposal": "logs/forms-completion/gyeonggi-20261019/team2/raw-cited-round9-reviewed-20261020.json",
+      "sourceProposalSHA256": "18c66213b4e91ea933fc46f12558490f3f72227e606db5d2de589098c5e3058c",
+      "checkedAt": "2026-10-20",
+      "fullBodyReviewed": true,
+      "reviewedParts": [
+        {
+          "number": "4",
+          "title": "명예수당·참전유공자 수당·독립유공자 수당·사망참전유공자의 배우자복지수당 지급신청 변경사항 신고서",
+          "use": "conditional",
+          "author": "해당 평택시 수당의 기존 신청인 또는 조례상 유가족"
+        }
+      ],
+      "independentVerification": {
+        "checkedAt": "2026-10-20",
+        "reviewedBy": "/root/national_form_audit",
+        "actualBytesSHA256": "bab6d486d51303d0bee702a8a33c57e3a166f7dad91e76fdf2737c6a5c7fe7a6",
+        "fullBodyRead": true,
+        "sectionsRead": [
+          "Contents/section0.xml"
+        ],
+        "textLength": 725,
+        "textSHA256": "100108badb42a0aef0c2cb7289b296f36100b428d154120ebbbca5915bb13230",
+        "currentLawId": "2113821",
+        "currentSearchPath": "logs/forms-completion/gyeonggi-20261019/team2/current-law-round5-20261020/current-law-searches/2113821.json",
+        "currentSearchSHA256": "36f0bc19fe52a217cf66edc76fa1a1f4579a2c491f7b88f313613240da6a670a",
+        "currentBodyPath": "logs/forms-completion/gyeonggi-20261019/team2/current-law-round5-20261020/current-law-bodies/2113821.json.gz",
+        "currentBodySHA256": "02b596b4f1900d2a16cae0d54f0d0e54057cc35497b94f5e3c527720d2fd5114",
+        "currentAuditPath": "logs/forms-completion/gyeonggi-20261019/team2/current-law-round5-20261020/audit.json",
+        "currentAuditSHA256": "1fb856bb2abd10335691d9c447b45a3a62e6187b1239121526219f7e6f424182",
+        "officialBodyLawTitle": "평택시 국가보훈대상자 등 예우 및 지원에 관한 조례",
+        "proposalLawTitle": "평택시 국가보훈대상자 등 예우 및 지원에 관한 조례",
+        "lawTitleNFKCEqual": true,
+        "rawAnnexId": "21626799",
+        "rawAnnexNumber": "000400",
+        "rawAnnexTitle": "[별지 제4호서식] (명예수당, 참전유공자 수당, 독립유공자 수당, 사망참전유공자의 배우자복지수당) 지급신청 변경사항 신고서",
+        "rawFlSeq": "162073129",
+        "officialAnnexDeleted": false,
+        "printedParts": [
+          "4"
+        ]
+      },
+      "annexBinding": {
+        "binding": "bound",
+        "bindingReason": "OFFICIAL_ANNEX_BOUND_WITH_SAME_FILE",
+        "officialAnnexId": "21626799",
+        "officialAnnexNumber": "4",
+        "officialAnnexTitle": "[별지 제4호서식] (명예수당, 참전유공자 수당, 독립유공자 수당, 사망참전유공자의 배우자복지수당) 지급신청 변경사항 신고서",
+        "officialFlSeq": "162073129",
+        "officialAnnexUrl": "https://www.law.go.kr/flDownload.do?gubun=ELIS&flSeq=162073129&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C4%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%28%EB%AA%85%EC%98%88%EC%88%98%EB%8B%B9%2C+%EC%B0%B8%EC%A0%84%EC%9C%A0%EA%B3%B5%EC%9E%90+%EC%88%98%EB%8B%B9%2C+%EB%8F%85%EB%A6%BD%EC%9C%A0%EA%B3%B5%EC%9E%90+%EC%88%98%EB%8B%B9%2C+%EC%82%AC%EB%A7%9D%EC%B0%B8%EC%A0%84%EC%9C%A0%EA%B3%B5%EC%9E%90%EC%9D%98+%EB%B0%B0%EC%9A%B0%EC%9E%90%EB%B3%B5%EC%A7%80%EC%88%98%EB%8B%B9%29+%EC%A7%80%EA%B8%89%EC%8B%A0%EC%B2%AD+%EB%B3%80%EA%B2%BD%EC%82%AC%ED%95%AD+%EC%8B%A0%EA%B3%A0%EC%84%9C",
+        "officialAnnexDeleted": false
+      },
+      "reason": "실제4호 전체의4개 수당 선택칸·주소/계좌변경·본인서명·증빙/공동이용 동의를 읽었다. 현행2113821 제13조가 해당 수당 신청인 또는 유가족의 주소·지정계좌 등 변경신고에4호를 직접 지정한다. 정확 WLF00001562의 현재 복합사업은 실제4개 수당을 모두 포함한다. 제8조의2026년85세 이상 명예수당13만원 개정도 현행 본문/부칙과 현재 복지로가 일치한다. 이 행은 주소/계좌 변경 부분만 확인하며 같은 사업에 포함된 사망위로금의 신규 청구로 확장하지 않는다."
+    },
+    {
+      "formId": "ordin-21626799",
+      "sha256": "bab6d486d51303d0bee702a8a33c57e3a166f7dad91e76fdf2737c6a5c7fe7a6",
+      "disposition": "approved",
+      "programIds": [
+        "g41220.gov24-391000000104"
+      ],
+      "use": "conditional",
+      "condition": "평택시 사망참전유공자 배우자복지수당을 이미 신청·지급받는 사람의 주소나 지정계좌가 바뀐 경우에4호의 배우자복지수당 항목만 선택합니다. 계좌 변경 때 통장사본과 해당 보훈 증빙을 준비합니다. 배우자수당 신규 신청·참전유공자 사망위로금 청구·상속대표 또는 대리수령 위임으로 사용하지 않습니다.",
+      "sourceProposalCondition": "평택시 사망참전유공자 배우자복지수당을 이미 신청·지급받는 사람의 주소나 지정계좌가 바뀐 경우에4호의 배우자복지수당 항목만 선택합니다. 계좌 변경 때 통장사본과 해당 보훈 증빙을 준비합니다. 배우자수당 신규 신청·참전유공자 사망위로금 청구·상속대표 또는 대리수령 위임으로 사용하지 않습니다.",
+      "sourceProposal": "logs/forms-completion/gyeonggi-20261019/team2/raw-cited-round9-reviewed-20261020.json",
+      "sourceProposalSHA256": "18c66213b4e91ea933fc46f12558490f3f72227e606db5d2de589098c5e3058c",
+      "checkedAt": "2026-10-20",
+      "fullBodyReviewed": true,
+      "reviewedParts": [
+        {
+          "number": "4",
+          "title": "명예수당·참전유공자 수당·독립유공자 수당·사망참전유공자의 배우자복지수당 지급신청 변경사항 신고서",
+          "use": "conditional",
+          "author": "평택시 사망참전유공자 배우자복지수당의 기존 신청인"
+        }
+      ],
+      "independentVerification": {
+        "checkedAt": "2026-10-20",
+        "reviewedBy": "/root/national_form_audit",
+        "actualBytesSHA256": "bab6d486d51303d0bee702a8a33c57e3a166f7dad91e76fdf2737c6a5c7fe7a6",
+        "fullBodyRead": true,
+        "sectionsRead": [
+          "Contents/section0.xml"
+        ],
+        "textLength": 725,
+        "textSHA256": "100108badb42a0aef0c2cb7289b296f36100b428d154120ebbbca5915bb13230",
+        "currentLawId": "2113821",
+        "currentSearchPath": "logs/forms-completion/gyeonggi-20261019/team2/current-law-round5-20261020/current-law-searches/2113821.json",
+        "currentSearchSHA256": "36f0bc19fe52a217cf66edc76fa1a1f4579a2c491f7b88f313613240da6a670a",
+        "currentBodyPath": "logs/forms-completion/gyeonggi-20261019/team2/current-law-round5-20261020/current-law-bodies/2113821.json.gz",
+        "currentBodySHA256": "02b596b4f1900d2a16cae0d54f0d0e54057cc35497b94f5e3c527720d2fd5114",
+        "currentAuditPath": "logs/forms-completion/gyeonggi-20261019/team2/current-law-round5-20261020/audit.json",
+        "currentAuditSHA256": "1fb856bb2abd10335691d9c447b45a3a62e6187b1239121526219f7e6f424182",
+        "officialBodyLawTitle": "평택시 국가보훈대상자 등 예우 및 지원에 관한 조례",
+        "proposalLawTitle": "평택시 국가보훈대상자 등 예우 및 지원에 관한 조례",
+        "lawTitleNFKCEqual": true,
+        "rawAnnexId": "21626799",
+        "rawAnnexNumber": "000400",
+        "rawAnnexTitle": "[별지 제4호서식] (명예수당, 참전유공자 수당, 독립유공자 수당, 사망참전유공자의 배우자복지수당) 지급신청 변경사항 신고서",
+        "rawFlSeq": "162073129",
+        "officialAnnexDeleted": false,
+        "printedParts": [
+          "4"
+        ]
+      },
+      "annexBinding": {
+        "binding": "bound",
+        "bindingReason": "OFFICIAL_ANNEX_BOUND_WITH_SAME_FILE",
+        "officialAnnexId": "21626799",
+        "officialAnnexNumber": "4",
+        "officialAnnexTitle": "[별지 제4호서식] (명예수당, 참전유공자 수당, 독립유공자 수당, 사망참전유공자의 배우자복지수당) 지급신청 변경사항 신고서",
+        "officialFlSeq": "162073129",
+        "officialAnnexUrl": "https://www.law.go.kr/flDownload.do?gubun=ELIS&flSeq=162073129&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C4%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%28%EB%AA%85%EC%98%88%EC%88%98%EB%8B%B9%2C+%EC%B0%B8%EC%A0%84%EC%9C%A0%EA%B3%B5%EC%9E%90+%EC%88%98%EB%8B%B9%2C+%EB%8F%85%EB%A6%BD%EC%9C%A0%EA%B3%B5%EC%9E%90+%EC%88%98%EB%8B%B9%2C+%EC%82%AC%EB%A7%9D%EC%B0%B8%EC%A0%84%EC%9C%A0%EA%B3%B5%EC%9E%90%EC%9D%98+%EB%B0%B0%EC%9A%B0%EC%9E%90%EB%B3%B5%EC%A7%80%EC%88%98%EB%8B%B9%29+%EC%A7%80%EA%B8%89%EC%8B%A0%EC%B2%AD+%EB%B3%80%EA%B2%BD%EC%82%AC%ED%95%AD+%EC%8B%A0%EA%B3%A0%EC%84%9C",
+        "officialAnnexDeleted": false
+      },
+      "reason": "제8조제4호·제9조제2항의 사망참전 배우자복지 월5만원과 정확 정부24 391000000104의 대상·금액이 일치한다. 제13조의4호 변경신고를 실제 원문의 배우자복지수당 선택칸에만 한정한다. 다른지역의 배우자수당 폐지나 금액을 적용하지 않았다."
+    },
+    {
+      "formId": "ordin-21626799",
+      "sha256": "bab6d486d51303d0bee702a8a33c57e3a166f7dad91e76fdf2737c6a5c7fe7a6",
+      "disposition": "approved",
+      "programIds": [
+        "g41220.gov24-391000000108"
+      ],
+      "use": "conditional",
+      "condition": "평택시 월5만원 참전유공자수당의 기존 신청인 주소·지정계좌 변경에만4호 참전유공자 수당 항목을 선택합니다. 계좌 변경 때 통장사본을 붙입니다. 경기도에서 연1회 지급하는 참전명예수당이나 신규 지원신청·다른 수당에는 사용하지 않습니다.",
+      "sourceProposalCondition": "평택시 월5만원 참전유공자수당의 기존 신청인 주소·지정계좌 변경에만4호 참전유공자 수당 항목을 선택합니다. 계좌 변경 때 통장사본을 붙입니다. 경기도에서 연1회 지급하는 참전명예수당이나 신규 지원신청·다른 수당에는 사용하지 않습니다.",
+      "sourceProposal": "logs/forms-completion/gyeonggi-20261019/team2/raw-cited-round9-reviewed-20261020.json",
+      "sourceProposalSHA256": "18c66213b4e91ea933fc46f12558490f3f72227e606db5d2de589098c5e3058c",
+      "checkedAt": "2026-10-20",
+      "fullBodyReviewed": true,
+      "reviewedParts": [
+        {
+          "number": "4",
+          "title": "명예수당·참전유공자 수당·독립유공자 수당·사망참전유공자의 배우자복지수당 지급신청 변경사항 신고서",
+          "use": "conditional",
+          "author": "평택시 월5만원 참전유공자수당의 기존 신청인"
+        }
+      ],
+      "independentVerification": {
+        "checkedAt": "2026-10-20",
+        "reviewedBy": "/root/national_form_audit",
+        "actualBytesSHA256": "bab6d486d51303d0bee702a8a33c57e3a166f7dad91e76fdf2737c6a5c7fe7a6",
+        "fullBodyRead": true,
+        "sectionsRead": [
+          "Contents/section0.xml"
+        ],
+        "textLength": 725,
+        "textSHA256": "100108badb42a0aef0c2cb7289b296f36100b428d154120ebbbca5915bb13230",
+        "currentLawId": "2113821",
+        "currentSearchPath": "logs/forms-completion/gyeonggi-20261019/team2/current-law-round5-20261020/current-law-searches/2113821.json",
+        "currentSearchSHA256": "36f0bc19fe52a217cf66edc76fa1a1f4579a2c491f7b88f313613240da6a670a",
+        "currentBodyPath": "logs/forms-completion/gyeonggi-20261019/team2/current-law-round5-20261020/current-law-bodies/2113821.json.gz",
+        "currentBodySHA256": "02b596b4f1900d2a16cae0d54f0d0e54057cc35497b94f5e3c527720d2fd5114",
+        "currentAuditPath": "logs/forms-completion/gyeonggi-20261019/team2/current-law-round5-20261020/audit.json",
+        "currentAuditSHA256": "1fb856bb2abd10335691d9c447b45a3a62e6187b1239121526219f7e6f424182",
+        "officialBodyLawTitle": "평택시 국가보훈대상자 등 예우 및 지원에 관한 조례",
+        "proposalLawTitle": "평택시 국가보훈대상자 등 예우 및 지원에 관한 조례",
+        "lawTitleNFKCEqual": true,
+        "rawAnnexId": "21626799",
+        "rawAnnexNumber": "000400",
+        "rawAnnexTitle": "[별지 제4호서식] (명예수당, 참전유공자 수당, 독립유공자 수당, 사망참전유공자의 배우자복지수당) 지급신청 변경사항 신고서",
+        "rawFlSeq": "162073129",
+        "officialAnnexDeleted": false,
+        "printedParts": [
+          "4"
+        ]
+      },
+      "annexBinding": {
+        "binding": "bound",
+        "bindingReason": "OFFICIAL_ANNEX_BOUND_WITH_SAME_FILE",
+        "officialAnnexId": "21626799",
+        "officialAnnexNumber": "4",
+        "officialAnnexTitle": "[별지 제4호서식] (명예수당, 참전유공자 수당, 독립유공자 수당, 사망참전유공자의 배우자복지수당) 지급신청 변경사항 신고서",
+        "officialFlSeq": "162073129",
+        "officialAnnexUrl": "https://www.law.go.kr/flDownload.do?gubun=ELIS&flSeq=162073129&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C4%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%28%EB%AA%85%EC%98%88%EC%88%98%EB%8B%B9%2C+%EC%B0%B8%EC%A0%84%EC%9C%A0%EA%B3%B5%EC%9E%90+%EC%88%98%EB%8B%B9%2C+%EB%8F%85%EB%A6%BD%EC%9C%A0%EA%B3%B5%EC%9E%90+%EC%88%98%EB%8B%B9%2C+%EC%82%AC%EB%A7%9D%EC%B0%B8%EC%A0%84%EC%9C%A0%EA%B3%B5%EC%9E%90%EC%9D%98+%EB%B0%B0%EC%9A%B0%EC%9E%90%EB%B3%B5%EC%A7%80%EC%88%98%EB%8B%B9%29+%EC%A7%80%EA%B8%89%EC%8B%A0%EC%B2%AD+%EB%B3%80%EA%B2%BD%EC%82%AC%ED%95%AD+%EC%8B%A0%EA%B3%A0%EC%84%9C",
+        "officialAnnexDeleted": false
+      },
+      "reason": "제8조제3호의 평택시 월5만원 참전유공자수당과 정확 정부24 391000000108의6·25/월남참전자·월5만원이 일치한다. 제13조가 실제4호를 지정한다. 이름이 비슷한391000000132의 경기도 연40만원 사업과 구분했다."
+    },
+    {
+      "formId": "ordin-21626799",
+      "sha256": "bab6d486d51303d0bee702a8a33c57e3a166f7dad91e76fdf2737c6a5c7fe7a6",
+      "disposition": "approved",
+      "programIds": [
+        "g41220.gov24-391000000147"
+      ],
+      "use": "conditional",
+      "condition": "평택시 국가보훈대상자 명예수당의 기존 신청인 주소·지정계좌 변경에만4호 명예수당 항목을 선택합니다. 계좌 변경 때 통장사본을 붙입니다. 신규 지원신청·다른 수당·타인계좌 대리수령 위임으로 사용하지 않습니다.",
+      "sourceProposalCondition": "평택시 국가보훈대상자 명예수당의 기존 신청인 주소·지정계좌 변경에만4호 명예수당 항목을 선택합니다. 계좌 변경 때 통장사본을 붙입니다. 신규 지원신청·다른 수당·타인계좌 대리수령 위임으로 사용하지 않습니다.",
+      "sourceProposal": "logs/forms-completion/gyeonggi-20261019/team2/raw-cited-round9-reviewed-20261020.json",
+      "sourceProposalSHA256": "18c66213b4e91ea933fc46f12558490f3f72227e606db5d2de589098c5e3058c",
+      "checkedAt": "2026-10-20",
+      "fullBodyReviewed": true,
+      "reviewedParts": [
+        {
+          "number": "4",
+          "title": "명예수당·참전유공자 수당·독립유공자 수당·사망참전유공자의 배우자복지수당 지급신청 변경사항 신고서",
+          "use": "conditional",
+          "author": "평택시 국가보훈대상자 명예수당의 기존 신청인"
+        }
+      ],
+      "independentVerification": {
+        "checkedAt": "2026-10-20",
+        "reviewedBy": "/root/national_form_audit",
+        "actualBytesSHA256": "bab6d486d51303d0bee702a8a33c57e3a166f7dad91e76fdf2737c6a5c7fe7a6",
+        "fullBodyRead": true,
+        "sectionsRead": [
+          "Contents/section0.xml"
+        ],
+        "textLength": 725,
+        "textSHA256": "100108badb42a0aef0c2cb7289b296f36100b428d154120ebbbca5915bb13230",
+        "currentLawId": "2113821",
+        "currentSearchPath": "logs/forms-completion/gyeonggi-20261019/team2/current-law-round5-20261020/current-law-searches/2113821.json",
+        "currentSearchSHA256": "36f0bc19fe52a217cf66edc76fa1a1f4579a2c491f7b88f313613240da6a670a",
+        "currentBodyPath": "logs/forms-completion/gyeonggi-20261019/team2/current-law-round5-20261020/current-law-bodies/2113821.json.gz",
+        "currentBodySHA256": "02b596b4f1900d2a16cae0d54f0d0e54057cc35497b94f5e3c527720d2fd5114",
+        "currentAuditPath": "logs/forms-completion/gyeonggi-20261019/team2/current-law-round5-20261020/audit.json",
+        "currentAuditSHA256": "1fb856bb2abd10335691d9c447b45a3a62e6187b1239121526219f7e6f424182",
+        "officialBodyLawTitle": "평택시 국가보훈대상자 등 예우 및 지원에 관한 조례",
+        "proposalLawTitle": "평택시 국가보훈대상자 등 예우 및 지원에 관한 조례",
+        "lawTitleNFKCEqual": true,
+        "rawAnnexId": "21626799",
+        "rawAnnexNumber": "000400",
+        "rawAnnexTitle": "[별지 제4호서식] (명예수당, 참전유공자 수당, 독립유공자 수당, 사망참전유공자의 배우자복지수당) 지급신청 변경사항 신고서",
+        "rawFlSeq": "162073129",
+        "officialAnnexDeleted": false,
+        "printedParts": [
+          "4"
+        ]
+      },
+      "annexBinding": {
+        "binding": "bound",
+        "bindingReason": "OFFICIAL_ANNEX_BOUND_WITH_SAME_FILE",
+        "officialAnnexId": "21626799",
+        "officialAnnexNumber": "4",
+        "officialAnnexTitle": "[별지 제4호서식] (명예수당, 참전유공자 수당, 독립유공자 수당, 사망참전유공자의 배우자복지수당) 지급신청 변경사항 신고서",
+        "officialFlSeq": "162073129",
+        "officialAnnexUrl": "https://www.law.go.kr/flDownload.do?gubun=ELIS&flSeq=162073129&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C4%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%28%EB%AA%85%EC%98%88%EC%88%98%EB%8B%B9%2C+%EC%B0%B8%EC%A0%84%EC%9C%A0%EA%B3%B5%EC%9E%90+%EC%88%98%EB%8B%B9%2C+%EB%8F%85%EB%A6%BD%EC%9C%A0%EA%B3%B5%EC%9E%90+%EC%88%98%EB%8B%B9%2C+%EC%82%AC%EB%A7%9D%EC%B0%B8%EC%A0%84%EC%9C%A0%EA%B3%B5%EC%9E%90%EC%9D%98+%EB%B0%B0%EC%9A%B0%EC%9E%90%EB%B3%B5%EC%A7%80%EC%88%98%EB%8B%B9%29+%EC%A7%80%EA%B8%89%EC%8B%A0%EC%B2%AD+%EB%B3%80%EA%B2%BD%EC%82%AC%ED%95%AD+%EC%8B%A0%EA%B3%A0%EC%84%9C",
+        "officialAnnexDeleted": false
+      },
+      "reason": "정확 정부24 391000000147은 평택시 국가보훈대상자의 명예수당 사업이며 현행 제13조가 해당 기존 신청자의4호 변경신고를 지정한다. 정부24는 월10만원만 안내하고 현행2026년 제8조/부칙 및 복지로는85세 이상13만원을 명시한다. 이차이는 지급액 안내 차이로 기록하며 금액을 계산·변경하지 않고 금액 기재란 없는 기존 주소/계좌 변경 단계만 제공한다."
+    },
+    {
+      "formId": "ordin-21518117",
+      "sha256": "df93c6e8ed0230585c34e4fa5fb72ae20baefe800665b0282127d87c42f7469b",
+      "disposition": "approved",
+      "programIds": [
+        "g41610.bokjiro-WLF00003045"
+      ],
+      "use": "conditional",
+      "condition": "광주시 자활기금 개인융자 중 창업·운영자금을 신청할 때 해당 융자신청서에 붙이는 사업계획서입니다. 사업장·경력·예상비용·재원·추진일정·사업장 약도와 신청 사유를 작성하고 소요경비 견적서를 붙입니다. 학자금 또는 주거 전월세보증금만을 신청하는 경우, 자활기업/사업단의 별도 점포임대 지원이나 기관 보조금에는 이 연결을 사용하지 않습니다.",
+      "sourceProposalCondition": "광주시 자활기금 개인융자 중 창업·운영자금을 신청할 때 해당 융자신청서에 붙이는 사업계획서입니다. 사업장·경력·예상비용·재원·추진일정·사업장 약도와 신청 사유를 작성하고 소요경비 견적서를 붙입니다. 학자금 또는 주거 전월세보증금만을 신청하는 경우, 자활기업/사업단의 별도 점포임대 지원이나 기관 보조금에는 이 연결을 사용하지 않습니다.",
+      "sourceProposal": "logs/forms-completion/gyeonggi-20261019/team2/raw-cited-round10-reviewed-20261020.json",
+      "sourceProposalSHA256": "a7b21eca7e4cbc12417ea817a30ba8d88910d49fbfc9047aa0a349ad6304aedf",
+      "checkedAt": "2026-10-20",
+      "fullBodyReviewed": true,
+      "reviewedParts": [
+        {
+          "number": "4",
+          "title": "사업계획서",
+          "use": "conditional",
+          "author": "개인 창업·운영자금 융자를 신청하는 사람"
+        }
+      ],
+      "independentVerification": {
+        "checkedAt": "2026-10-20",
+        "reviewedBy": "/root/national_form_audit",
+        "actualBytesSHA256": "df93c6e8ed0230585c34e4fa5fb72ae20baefe800665b0282127d87c42f7469b",
+        "fullBodyRead": true,
+        "sectionsRead": [
+          "BodyText/Section0"
+        ],
+        "textLength": 871,
+        "textSHA256": "d4223b5c2e814c7dd688a3e5a331a50929ebdf380efe32bff4e97e3a7241b61b",
+        "currentLawId": "2109347",
+        "currentSearchPath": "logs/forms-completion/gyeonggi-20261019/current-law-extra14/current-law-searches/2109347.json",
+        "currentSearchSHA256": "4f98736844c75b40ca15b14673eeeb6f4f6ee5541d09e6df7bd91573c7d14804",
+        "currentBodyPath": "logs/forms-completion/gyeonggi-20261019/current-law-extra14/current-law-bodies/2109347.json.gz",
+        "currentBodySHA256": "d9d0671bb68b203ef174afc9ba72c7625b78e8dfdb82eda29065782dd7d284f3",
+        "currentAuditPath": "logs/forms-completion/gyeonggi-20261019/current-law-extra14/audit.json",
+        "currentAuditSHA256": "8a051b560f7a783b8d5be4abc32f6c1a8db633aee2e0e47fdd29d7f4e99f50f2",
+        "officialBodyLawTitle": "광주시 자활기금 설치ᆞ운용 조례 시행규칙",
+        "proposalLawTitle": "광주시 자활기금 설치ㆍ운용 조례 시행규칙",
+        "lawTitleNFKCEqual": true,
+        "rawAnnexId": "21518117",
+        "rawAnnexNumber": "000300",
+        "rawAnnexTitle": "[별지 제4호서식] 사업계획서",
+        "rawFlSeq": "161545845",
+        "officialAnnexDeleted": false,
+        "printedParts": [
+          "4"
+        ]
+      },
+      "annexBinding": {
+        "binding": "bound",
+        "bindingReason": "OFFICIAL_ANNEX_BOUND_WITH_SAME_FILE",
+        "officialAnnexId": "21518117",
+        "officialAnnexNumber": "3",
+        "officialAnnexTitle": "[별지 제4호서식] 사업계획서",
+        "officialFlSeq": "161545845",
+        "officialAnnexUrl": "https://www.law.go.kr/flDownload.do?gubun=ELIS&flSeq=161545845&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C4%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EC%82%AC%EC%97%85%EA%B3%84%ED%9A%8D%EC%84%9C",
+        "officialAnnexDeleted": false
+      },
+      "reason": "실제4호 전체의 개인 사업장 보유·자영업/근로 경력·창업/기존사업 투자·소요재원·시설/운영비·개시일정·약도·신청 사유를 읽었다. 현행2109347 제2조제1항제1호가 융자신청1호 또는2호에 별지4 사업계획서를 첨부하도록 직접 지정한다. 정확 WLF00003045의 현재 본문은 개인 저소득층 창업·운용자금도 지원하므로 그 용도에만 조건부 부속으로 맞춘다. 같은 사업의 학자금/주거보증금에 이 사업장 계획을 일괄 요구하지 않으며, 별도 점포임대 기관용17호와도 구분한다. 현재 프로그램의 옛 연대보증 안내를 바탕으로 대출 금액/보증 요건을 확정하지 않고 현행 신청부속의 실제 내용만 검토했다."
+    }
+  ],
+  "counts": {
+    "uniqueOriginals": 5,
+    "newOriginals": 5,
+    "rows": 8,
+    "programmeAssociations": 10,
+    "held": 0
+  },
+  "sourceGate": "passed_independent_bytes_sections_current_raw_annex_binding",
+  "cutoffRound": 10,
+  "deferredAfterCutoff": [],
+  "importerDryGate": {
+    "result": "passed",
+    "totalDryForms": 2780,
+    "totalDryAssociations": 3499,
+    "newOriginals": 5,
+    "newAssociations": 10
+  }
+}

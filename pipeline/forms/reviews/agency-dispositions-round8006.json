@@ -1,0 +1,113 @@
+{
+  "schema": 1,
+  "checkedAt": "2026-10-19",
+  "status": "complete",
+  "items": [
+    {
+      "formId": "agency-41000-grandparent-college-03470",
+      "sha256": "970f759df9735690ff7c032b8f42da595f035d76d7c3a2a823b577c897df8b23",
+      "disposition": "approved",
+      "fullBodyReviewed": true,
+      "reason": "원본전체Section0의대상대학생·보호자·타장학금·계좌·신청서명·개인정보동의·공무원확인·시장군수추천을읽었다. 현재2026-10-19복지로WLF00003470이정확한첨부를배포하며도내저소득조손가족국내대학신입생의첫학기등록금차액최대500만원과읍면동신청을명시한다. 경기도공식도비한부모안내도같은조손입학등록금과별도250만원입학준비금을구분한다. 이원본은등록금용이며250만원준비금으로확대연결하지않는다. 현행법규 2021175 본문과부칙전체를추가대조했다. 제2조제3호보호대상자범위·제6조지원대상·제8조제2호교육지원과실제조손대학지원사업을대조한다.",
+      "evidenceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00003470&wlfareInfoReldBztpCd=02",
+      "checkedAt": "2026-10-19",
+      "relatedProgramIds": [
+        "s41000.bokjiro-WLF00003470"
+      ],
+      "reviewedProgramPairs": [
+        {
+          "programId": "s41000.bokjiro-WLF00003470",
+          "disposition": "approved"
+        }
+      ],
+      "sourceProposal": "logs/forms-completion/gyeonggi-20261019/root/normalized-round8006.json",
+      "sourceProposalSHA256": "9a75476275043f3b5890a926ad78fdf02a02e46f8f500ba2c0742a24e27a7d05",
+      "sourceLawBodySHA256": "4669d4699f84915940a9e6e5484a13d9673a742198ae3dc889b299d1d5abe57d",
+      "sourcePageSHA256": "b70c107aa69a519233cad3ebe34a9b800d2b0e06aaad796f3900e4f3a457df5a",
+      "selectedParts": [
+        {
+          "number": "서식2",
+          "title": "경기도 저소득 조손가족 손자녀 입학(등록)금 지원 신청서",
+          "use": "main",
+          "author": "대상 학생 또는 보호자(신청·서명)"
+        }
+      ]
+    },
+    {
+      "formId": "agency-41000-ggbaro-insurance-2026-r2",
+      "sha256": "f20878aabcb02a531915245a1672c134f7e46b651ae6e754a282d1a0415d0d1e",
+      "disposition": "approved",
+      "fullBodyReviewed": true,
+      "reason": "현재경기바로사업2026-022-01이접수중·2026.9.1~12.31 18시를명시하고seq2를2차모집공고및신청서식으로직접배포한다. 의왕시2026.9.7공식게시의동일지원첨부도동일SHA이다. 원본6218자전체Section0를읽어실제1인소상공인대표의고용보험료지원신청1호·동의2호·필수서류·온오프라인접수임을확인했다. 고용보험가입기관에가입하는신청서가아니라기납입보험료를도에서지원받는별도신청이다. 기존복지로첨부의6/30마감과구분했다. 현행법규 1570181 본문과부칙전체를추가대조했다. 제4조는보험료지원신청서제출자선정,제7조는신청사무위임을규정한다.",
+      "evidenceUrl": "https://ggbaro.kr/apply/biz-announce.do?bizId=2026-022-01&bizType=01",
+      "checkedAt": "2026-10-19",
+      "relatedProgramIds": [
+        "s41000.bokjiro-WLF00001739"
+      ],
+      "reviewedProgramPairs": [
+        {
+          "programId": "s41000.bokjiro-WLF00001739",
+          "disposition": "approved"
+        }
+      ],
+      "sourceProposal": "logs/forms-completion/gyeonggi-20261019/root/normalized-round8006.json",
+      "sourceProposalSHA256": "9a75476275043f3b5890a926ad78fdf02a02e46f8f500ba2c0742a24e27a7d05",
+      "sourceLawBodySHA256": "9f2a4871e59a1d8fe6d727d51bc8fff0b08debbe15d48dcbce5044d5b6f00fc1",
+      "sourcePageSHA256": "fda986b57ee8fe2442064432d4517b72bc68a3076c6b0a43ce2c74887270055e",
+      "selectedParts": [
+        {
+          "number": "서식 제1호",
+          "title": "2026년 경기도 1인 소상공인 고용보험료 지원신청서",
+          "use": "main",
+          "author": "대상 1인 소상공인 대표자 본인"
+        },
+        {
+          "number": "서식 제2호",
+          "title": "개인정보 수집·이용 및 제3자 제공 동의서",
+          "use": "additional",
+          "author": "신청 대표자"
+        }
+      ]
+    },
+    {
+      "formId": "agency-41000-disability-medical-06696",
+      "sha256": "b306e25c32bb57994203cde3263d6b1d7f1ca252cd382a1cb971a2bd03e48258",
+      "disposition": "approved",
+      "fullBodyReviewed": true,
+      "reason": "현재복지로WLF00006696의실제본문은중위소득80%이하등록장애인의연150만원의료비지원과읍면동신청서제출·온라인불가를명시하고정확한단독신청서PDF를배포한다. 단독1쪽을전체텍스트·시각확인했으며동일페이지의2026경기도사업안내9쪽도전부읽었다. 안내5쪽이서식1지급신청서를요구하고6쪽이같은신청서임을대조했다. 서식2전출입지급내역·3지급대장·4조사서는기관용이므로단독시민신청서만연결한다.",
+      "evidenceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00006696&wlfareInfoReldBztpCd=02",
+      "checkedAt": "2026-10-19",
+      "relatedProgramIds": [
+        "s41000.gov24-641000000147"
+      ],
+      "reviewedProgramPairs": [
+        {
+          "programId": "s41000.gov24-641000000147",
+          "disposition": "approved"
+        }
+      ],
+      "sourceProposal": "logs/forms-completion/gyeonggi-20261019/root/normalized-round8006.json",
+      "sourceProposalSHA256": "9a75476275043f3b5890a926ad78fdf02a02e46f8f500ba2c0742a24e27a7d05",
+      "sourceLawBodySHA256": null,
+      "sourcePageSHA256": "2ce51b1edc9be9ebfb3ca1f9aad4b2362d55fbbcffd4b32dcd276709d78d0a57",
+      "authorityBasis": {
+        "kind": "official-program",
+        "title": "저소득장애인 의료비 지원",
+        "evidenceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00006696&wlfareInfoReldBztpCd=02",
+        "checkedAt": "2026-10-19",
+        "evidenceNote": "현재복지로WLF00006696의실제본문은중위소득80%이하등록장애인의연150만원의료비지원과읍면동신청서제출·온라인불가를명시하고정확한단독신청서PDF를배포한다. 단독1쪽을전체텍스트·시각확인했으며동일페이지의2026경기도사업안내9쪽도전부읽었다. 안내5쪽이서식1지급신청서를요구하고6쪽이같은신청서임을대조했다. 서식2전출입지급내역·3지급대장·4조사서는기관용이므로단독시민신청서만연결한다.",
+        "pageSHA256": "2ce51b1edc9be9ebfb3ca1f9aad4b2362d55fbbcffd4b32dcd276709d78d0a57"
+      },
+      "selectedParts": [
+        {
+          "number": "서식1",
+          "title": "저소득장애인 의료비 지급 신청서",
+          "use": "main",
+          "author": "지원대상 장애인 또는 해당 신청인"
+        }
+      ]
+    }
+  ],
+  "scopeFile": "pipeline/forms/reviews/agency-originals-scope-round8006.json",
+  "scopeSHA256": "727b69e4fea6e32751acb59b813604f15c529ae3d1264e115edac9e870ddfff4"
+}

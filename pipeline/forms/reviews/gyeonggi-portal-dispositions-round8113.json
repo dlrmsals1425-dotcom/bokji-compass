@@ -1,0 +1,231 @@
+{
+  "schema": 1,
+  "checkedAt": "2026-10-20",
+  "items": [
+    {
+      "formId": "ordin-20666403",
+      "sha256": "dedb3a543b5db54a496503968e0c47a2bc0d53d6a95dac874cb6e0272690b634",
+      "disposition": "approved",
+      "fullBodyReviewed": true,
+      "checkedAt": "2026-10-20",
+      "programIds": [
+        "s41000.gov24-641000000180"
+      ],
+      "sourceProposal": "logs/forms-completion/gyeonggi-20261019/team1/proposals-portal-20261020-yangju-stop.json",
+      "sourceProposalSHA256": "dad5a883cd48d951404b5f700fe7bdf4aec65a4d6f6b22a7659b4c3cf13403fc",
+      "currentSearchSHA256": "f3c032165b64239e0789c12fa79cac9170a254d93608111bb97d4321451d76e7",
+      "currentBodySHA256": "16e7e66e9f125a4b41991e12203fbb4f3bdb1fe98373989d99158ff11c8a8373",
+      "annexBinding": {
+        "binding": "bound",
+        "bindingReason": "OFFICIAL_ANNEX_BOUND_WITH_SAME_FILE",
+        "officialAnnexId": "20666403",
+        "officialAnnexNumber": "3",
+        "officialAnnexTitle": "여성청소년 생리용품 보편지원사업 중지 신청서",
+        "officialFlSeq": "154790805",
+        "officialAnnexUrl": "https://www.law.go.kr/flDownload.do?gubun=ELIS&flSeq=154790805&flNm=%EC%97%AC%EC%84%B1%EC%B2%AD%EC%86%8C%EB%85%84+%EC%83%9D%EB%A6%AC%EC%9A%A9%ED%92%88+%EB%B3%B4%ED%8E%B8%EC%A7%80%EC%9B%90%EC%82%AC%EC%97%85+%EC%A4%91%EC%A7%80+%EC%8B%A0%EC%B2%AD%EC%84%9C",
+        "officialAnnexDeleted": false
+      },
+      "reason": "양주시 현행 조례1923203 전6조와 부칙을 읽고 제4조제3항이 중도 자발적 포기에 별지 제3호를 시장에게 제출하도록 명시한 것을 확인했다. 현재 별지20666403/flSeq154790805를 실제 다시 내려받아 보존원본 SHA와 일치시켰다. HWPX 전체 section0의486자를 판독하여 청소년 본인 또는 보호자 신청인, 지원대상자, 중지사유·적용일·서명·시장 제출과 미사용 정책카드 잔액회수·신분증 요건을 확인했다. 정확 정부24 경기도 여성청소년 보편지원641000000180이 양주시11~18세 및 주민·외국인·국내거소 등록, 지역화폐 지원을 명시하여 같은 제도임을 대조했다. 신규 접수 기간을 확인한 것이 아니라 이미 지원 중인 양주시 수급자의 자발적 중지 절차만 연결한다."
+    },
+    {
+      "formId": "ordin-22901113",
+      "sha256": "fe09a654117fd7998820e0e11229c36aaf8e0da698d8207efa4a921a48d26e3c",
+      "disposition": "approved",
+      "fullBodyReviewed": true,
+      "checkedAt": "2026-10-20",
+      "programIds": [
+        "g41670.bokjiro-WLF00001051"
+      ],
+      "sourceProposal": "logs/forms-completion/gyeonggi-20261019/team2/raw-cited-round3-reviewed-20261020.json",
+      "sourceProposalSHA256": "a2d1001c9cc1667be7c1411e8826ae7ea3333c88130f454b31abac4e25c5aacf",
+      "currentSearchSHA256": "6919762da4a68b5e95d943da4e04a22659ecaa65542aaaf0668006fa8a476c4b",
+      "currentBodySHA256": "a4518fae843d14e25b6816ff829853f564bbf7d6dcd1b7e61de073e9465bd71b",
+      "annexBinding": {
+        "binding": "bound",
+        "bindingReason": "OFFICIAL_ANNEX_BOUND_WITH_SAME_FILE",
+        "officialAnnexId": "22901113",
+        "officialAnnexNumber": "1",
+        "officialAnnexTitle": "여주시 국가보훈대상자 예우와 지원에 관한 조례",
+        "officialFlSeq": "170752281",
+        "officialAnnexUrl": "https://www.law.go.kr/flDownload.do?gubun=ELIS&flSeq=170752281&flNm=%EC%97%AC%EC%A3%BC%EC%8B%9C+%EA%B5%AD%EA%B0%80%EB%B3%B4%ED%9B%88%EB%8C%80%EC%83%81%EC%9E%90+%EC%98%88%EC%9A%B0%EC%99%80+%EC%A7%80%EC%9B%90%EC%97%90+%EA%B4%80%ED%95%9C+%EC%A1%B0%EB%A1%80",
+        "officialAnnexDeleted": false
+      },
+      "reason": "실제 원본 전체 7,216자, 모든 조문·부칙·서식과 전체 BodyText 섹션을 읽었으며 내장 이미지 및 작성된 개인정보가 없다. 제8조제1항제2호의 50만원, 제9조제2항의 사망일 현재 주민 요건, 제10조제1항·제6항의 별지 제출과 유족 6개월 신청을 현재 복지로 WLF00001051의 사망위로금 50만원·시청/읍면동 방문과 대조했다. 20일 현행 원문은 새 별표 키 22901113이며, 현재 flSeq로 직접 GET한 실제 바이트가 이미 완독한 옛 키 원본과 동일 SHA임을 확인했다. 옛 ID를 덮어쓰지 않고 새 현행 ID로 별도 제안한다."
+    },
+    {
+      "formId": "ordin-22901113",
+      "sha256": "fe09a654117fd7998820e0e11229c36aaf8e0da698d8207efa4a921a48d26e3c",
+      "disposition": "approved",
+      "fullBodyReviewed": true,
+      "checkedAt": "2026-10-20",
+      "programIds": [
+        "g41670.bokjiro-WLF00001503"
+      ],
+      "sourceProposal": "logs/forms-completion/gyeonggi-20261019/team2/raw-cited-round3-reviewed-20261020.json",
+      "sourceProposalSHA256": "a2d1001c9cc1667be7c1411e8826ae7ea3333c88130f454b31abac4e25c5aacf",
+      "currentSearchSHA256": "6919762da4a68b5e95d943da4e04a22659ecaa65542aaaf0668006fa8a476c4b",
+      "currentBodySHA256": "a4518fae843d14e25b6816ff829853f564bbf7d6dcd1b7e61de073e9465bd71b",
+      "annexBinding": {
+        "binding": "bound",
+        "bindingReason": "OFFICIAL_ANNEX_BOUND_WITH_SAME_FILE",
+        "officialAnnexId": "22901113",
+        "officialAnnexNumber": "1",
+        "officialAnnexTitle": "여주시 국가보훈대상자 예우와 지원에 관한 조례",
+        "officialFlSeq": "170752281",
+        "officialAnnexUrl": "https://www.law.go.kr/flDownload.do?gubun=ELIS&flSeq=170752281&flNm=%EC%97%AC%EC%A3%BC%EC%8B%9C+%EA%B5%AD%EA%B0%80%EB%B3%B4%ED%9B%88%EB%8C%80%EC%83%81%EC%9E%90+%EC%98%88%EC%9A%B0%EC%99%80+%EC%A7%80%EC%9B%90%EC%97%90+%EA%B4%80%ED%95%9C+%EC%A1%B0%EB%A1%80",
+        "officialAnnexDeleted": false
+      },
+      "reason": "실제 원본 전체 7,216자, 모든 조문·부칙·서식과 전체 BodyText 섹션을 읽었으며 내장 이미지 및 작성된 개인정보가 없다. 제8조제1항제1호 월 13만원, 제9조제1항과 제10조 별지 신청을 현재 복지로 WLF00001503의 월 13만원·방문 신청과 대조했다. 20일 현행 원문은 새 별표 키 22901113이며, 현재 flSeq로 직접 GET한 실제 바이트가 이미 완독한 옛 키 원본과 동일 SHA임을 확인했다. 옛 ID를 덮어쓰지 않고 새 현행 ID로 별도 제안한다."
+    },
+    {
+      "formId": "ordin-22901113",
+      "sha256": "fe09a654117fd7998820e0e11229c36aaf8e0da698d8207efa4a921a48d26e3c",
+      "disposition": "approved",
+      "fullBodyReviewed": true,
+      "checkedAt": "2026-10-20",
+      "programIds": [
+        "g41670.bokjiro-WLF00002920"
+      ],
+      "sourceProposal": "logs/forms-completion/gyeonggi-20261019/team2/raw-cited-round3-reviewed-20261020.json",
+      "sourceProposalSHA256": "a2d1001c9cc1667be7c1411e8826ae7ea3333c88130f454b31abac4e25c5aacf",
+      "currentSearchSHA256": "6919762da4a68b5e95d943da4e04a22659ecaa65542aaaf0668006fa8a476c4b",
+      "currentBodySHA256": "a4518fae843d14e25b6816ff829853f564bbf7d6dcd1b7e61de073e9465bd71b",
+      "annexBinding": {
+        "binding": "bound",
+        "bindingReason": "OFFICIAL_ANNEX_BOUND_WITH_SAME_FILE",
+        "officialAnnexId": "22901113",
+        "officialAnnexNumber": "1",
+        "officialAnnexTitle": "여주시 국가보훈대상자 예우와 지원에 관한 조례",
+        "officialFlSeq": "170752281",
+        "officialAnnexUrl": "https://www.law.go.kr/flDownload.do?gubun=ELIS&flSeq=170752281&flNm=%EC%97%AC%EC%A3%BC%EC%8B%9C+%EA%B5%AD%EA%B0%80%EB%B3%B4%ED%9B%88%EB%8C%80%EC%83%81%EC%9E%90+%EC%98%88%EC%9A%B0%EC%99%80+%EC%A7%80%EC%9B%90%EC%97%90+%EA%B4%80%ED%95%9C+%EC%A1%B0%EB%A1%80",
+        "officialAnnexDeleted": false
+      },
+      "reason": "실제 원본 전체 7,216자, 모든 조문·부칙·서식과 전체 BodyText 섹션을 읽었으며 내장 이미지 및 작성된 개인정보가 없다. 제8조제2항 월 12만원 이하와 제9조제4항 대상, 제10조제3항의 기존 명예수당 수급자 무신청 규정을 실제 통합 별지 및 WLF00002920의 월 12만원·직권 등록 안내와 함께 확인했다. 신규 접수와 자동 지급을 구분했다. 20일 현행 원문은 새 별표 키 22901113이며, 현재 flSeq로 직접 GET한 실제 바이트가 이미 완독한 옛 키 원본과 동일 SHA임을 확인했다. 옛 ID를 덮어쓰지 않고 새 현행 ID로 별도 제안한다."
+    },
+    {
+      "formId": "ordin-22901113",
+      "sha256": "fe09a654117fd7998820e0e11229c36aaf8e0da698d8207efa4a921a48d26e3c",
+      "disposition": "approved",
+      "fullBodyReviewed": true,
+      "checkedAt": "2026-10-20",
+      "programIds": [
+        "g41670.gov24-570000000117"
+      ],
+      "sourceProposal": "logs/forms-completion/gyeonggi-20261019/team2/raw-cited-round3-reviewed-20261020.json",
+      "sourceProposalSHA256": "a2d1001c9cc1667be7c1411e8826ae7ea3333c88130f454b31abac4e25c5aacf",
+      "currentSearchSHA256": "6919762da4a68b5e95d943da4e04a22659ecaa65542aaaf0668006fa8a476c4b",
+      "currentBodySHA256": "a4518fae843d14e25b6816ff829853f564bbf7d6dcd1b7e61de073e9465bd71b",
+      "annexBinding": {
+        "binding": "bound",
+        "bindingReason": "OFFICIAL_ANNEX_BOUND_WITH_SAME_FILE",
+        "officialAnnexId": "22901113",
+        "officialAnnexNumber": "1",
+        "officialAnnexTitle": "여주시 국가보훈대상자 예우와 지원에 관한 조례",
+        "officialFlSeq": "170752281",
+        "officialAnnexUrl": "https://www.law.go.kr/flDownload.do?gubun=ELIS&flSeq=170752281&flNm=%EC%97%AC%EC%A3%BC%EC%8B%9C+%EA%B5%AD%EA%B0%80%EB%B3%B4%ED%9B%88%EB%8C%80%EC%83%81%EC%9E%90+%EC%98%88%EC%9A%B0%EC%99%80+%EC%A7%80%EC%9B%90%EC%97%90+%EA%B4%80%ED%95%9C+%EC%A1%B0%EB%A1%80",
+        "officialAnnexDeleted": false
+      },
+      "reason": "실제 원본 전체 7,216자, 모든 조문·부칙·서식과 전체 BodyText 섹션을 읽었으며 내장 이미지 및 작성된 개인정보가 없다. 정확 정부24 570000000117의 복합 보훈사업이 실제 6개 선택 항목을 모두 포함함을 확인했다. 제7조제4호 의료비 연 40만원 이내와 페이지의 월 3만원, 제8조·제9조 각 수당 요건, 제10조 별지 신청·6개월·무신청 예외를 각각 대조했다. 정부24의 첨부 없음 표시는 실제 법정 별지 부재로 해석하지 않았다. 20일 현행 원문은 새 별표 키 22901113이며, 현재 flSeq로 직접 GET한 실제 바이트가 이미 완독한 옛 키 원본과 동일 SHA임을 확인했다. 옛 ID를 덮어쓰지 않고 새 현행 ID로 별도 제안한다."
+    },
+    {
+      "formId": "ordin-22901285",
+      "sha256": "98ef861c17125c9f20f10097b4a40526d126c5658831a4d39fbf13975c3582a5",
+      "disposition": "approved",
+      "fullBodyReviewed": true,
+      "checkedAt": "2026-10-20",
+      "programIds": [
+        "g41670.gov24-570000000125"
+      ],
+      "sourceProposal": "logs/forms-completion/gyeonggi-20261019/team2/raw-cited-round3-reviewed-20261020.json",
+      "sourceProposalSHA256": "a2d1001c9cc1667be7c1411e8826ae7ea3333c88130f454b31abac4e25c5aacf",
+      "currentSearchSHA256": "19cde41257002498de5a6cc8cd69bb7de7e9a6bbebe3791f45c7858715bbb884",
+      "currentBodySHA256": "2ea2d289353f231d9dd0998d627cf18b4ed0b5104c08e52acf592ad13b28b969",
+      "annexBinding": {
+        "binding": "bound",
+        "bindingReason": "OFFICIAL_ANNEX_BOUND_WITH_SAME_FILE",
+        "officialAnnexId": "22901285",
+        "officialAnnexNumber": "1",
+        "officialAnnexTitle": "여주시 출산장려 및 다자녀 가정 양육 지원에 관한 조례",
+        "officialFlSeq": "170753217",
+        "officialAnnexUrl": "https://www.law.go.kr/flDownload.do?gubun=ELIS&flSeq=170753217&flNm=%EC%97%AC%EC%A3%BC%EC%8B%9C+%EC%B6%9C%EC%82%B0%EC%9E%A5%EB%A0%A4+%EB%B0%8F+%EB%8B%A4%EC%9E%90%EB%85%80+%EA%B0%80%EC%A0%95+%EC%96%91%EC%9C%A1+%EC%A7%80%EC%9B%90%EC%97%90+%EA%B4%80%ED%95%9C+%EC%A1%B0%EB%A1%80",
+        "officialAnnexDeleted": false
+      },
+      "reason": "실제 원본 전체 13,142자, 모든 조문·부칙·서식과 전체 BodyText 섹션을 읽었으며 내장 이미지 및 작성된 개인정보가 없다. 제4~7조 및 2024년 개정 부칙의 적용일을 읽고, 제6조가 지정한 실제 1호 앞뒤의 출산장려금·첫째부터 자녀순위·신청인 서명을 확인했다. 20일 정부24 570000000125의 첫째 100/둘째 500/셋째 이상 1,000만원과 방문 또는 행복출산 경로가 일치한다. 같은 종이의 오래된 타 사업 안내는 그 타 사업 승인 근거로 사용하지 않았다. 20일 현행 원문은 새 별표 키 22901285이며, 현재 flSeq로 직접 GET한 실제 바이트가 이미 완독한 옛 키 원본과 동일 SHA임을 확인했다. 옛 ID를 덮어쓰지 않고 새 현행 ID로 별도 제안한다."
+    },
+    {
+      "formId": "ordin-22901285",
+      "sha256": "98ef861c17125c9f20f10097b4a40526d126c5658831a4d39fbf13975c3582a5",
+      "disposition": "approved",
+      "fullBodyReviewed": true,
+      "checkedAt": "2026-10-20",
+      "programIds": [
+        "g41670.gov24-570000000126"
+      ],
+      "sourceProposal": "logs/forms-completion/gyeonggi-20261019/team2/raw-cited-round3-reviewed-20261020.json",
+      "sourceProposalSHA256": "a2d1001c9cc1667be7c1411e8826ae7ea3333c88130f454b31abac4e25c5aacf",
+      "currentSearchSHA256": "19cde41257002498de5a6cc8cd69bb7de7e9a6bbebe3791f45c7858715bbb884",
+      "currentBodySHA256": "2ea2d289353f231d9dd0998d627cf18b4ed0b5104c08e52acf592ad13b28b969",
+      "annexBinding": {
+        "binding": "bound",
+        "bindingReason": "OFFICIAL_ANNEX_BOUND_WITH_SAME_FILE",
+        "officialAnnexId": "22901285",
+        "officialAnnexNumber": "1",
+        "officialAnnexTitle": "여주시 출산장려 및 다자녀 가정 양육 지원에 관한 조례",
+        "officialFlSeq": "170753217",
+        "officialAnnexUrl": "https://www.law.go.kr/flDownload.do?gubun=ELIS&flSeq=170753217&flNm=%EC%97%AC%EC%A3%BC%EC%8B%9C+%EC%B6%9C%EC%82%B0%EC%9E%A5%EB%A0%A4+%EB%B0%8F+%EB%8B%A4%EC%9E%90%EB%85%80+%EA%B0%80%EC%A0%95+%EC%96%91%EC%9C%A1+%EC%A7%80%EC%9B%90%EC%97%90+%EA%B4%80%ED%95%9C+%EC%A1%B0%EB%A1%80",
+        "officialAnnexDeleted": false
+      },
+      "reason": "실제 원본 전체 13,142자, 모든 조문·부칙·서식과 전체 BodyText 섹션을 읽었으며 내장 이미지 및 작성된 개인정보가 없다. 제9~12조와 2025년 개정 부칙 전체를 대조했다. 실제 1호는 다자녀장려금 선택칸·자녀순위·동의 항목을 갖추며 제11조가 1호 제출을 지정한다. 정부24 570000000126의 둘째 이상 1~5세·월 5만원·1년 거주와 일치한다. 종전 셋째 이상 경과대상을 신규 5만원 규정으로 확장하지 않았다. 20일 현행 원문은 새 별표 키 22901285이며, 현재 flSeq로 직접 GET한 실제 바이트가 이미 완독한 옛 키 원본과 동일 SHA임을 확인했다. 옛 ID를 덮어쓰지 않고 새 현행 ID로 별도 제안한다."
+    },
+    {
+      "formId": "ordin-22901285",
+      "sha256": "98ef861c17125c9f20f10097b4a40526d126c5658831a4d39fbf13975c3582a5",
+      "disposition": "approved",
+      "fullBodyReviewed": true,
+      "checkedAt": "2026-10-20",
+      "programIds": [
+        "g41670.gov24-570000000116"
+      ],
+      "sourceProposal": "logs/forms-completion/gyeonggi-20261019/team2/raw-cited-round3-reviewed-20261020.json",
+      "sourceProposalSHA256": "a2d1001c9cc1667be7c1411e8826ae7ea3333c88130f454b31abac4e25c5aacf",
+      "currentSearchSHA256": "19cde41257002498de5a6cc8cd69bb7de7e9a6bbebe3791f45c7858715bbb884",
+      "currentBodySHA256": "2ea2d289353f231d9dd0998d627cf18b4ed0b5104c08e52acf592ad13b28b969",
+      "annexBinding": {
+        "binding": "bound",
+        "bindingReason": "OFFICIAL_ANNEX_BOUND_WITH_SAME_FILE",
+        "officialAnnexId": "22901285",
+        "officialAnnexNumber": "1",
+        "officialAnnexTitle": "여주시 출산장려 및 다자녀 가정 양육 지원에 관한 조례",
+        "officialFlSeq": "170753217",
+        "officialAnnexUrl": "https://www.law.go.kr/flDownload.do?gubun=ELIS&flSeq=170753217&flNm=%EC%97%AC%EC%A3%BC%EC%8B%9C+%EC%B6%9C%EC%82%B0%EC%9E%A5%EB%A0%A4+%EB%B0%8F+%EB%8B%A4%EC%9E%90%EB%85%80+%EA%B0%80%EC%A0%95+%EC%96%91%EC%9C%A1+%EC%A7%80%EC%9B%90%EC%97%90+%EA%B4%80%ED%95%9C+%EC%A1%B0%EB%A1%80",
+        "officialAnnexDeleted": false
+      },
+      "reason": "실제 원본 전체 13,142자, 모든 조문·부칙·서식과 전체 BodyText 섹션을 읽었으며 내장 이미지 및 작성된 개인정보가 없다. 제2조의 두 자녀 이상 정의, 제14~17조 대상·20만원·제2호 제출 및 제20조제2항 입학 연도 1회 기준을 실제 2호 보호자·아동·학교·출생순위·서명/동의와 대조했다. 정부24 570000000116 현재 안내의 초중고 신입생 다자녀 가정과 방문/온라인 신청에 정확히 대응한다. 20일 현행 원문은 새 별표 키 22901285이며, 현재 flSeq로 직접 GET한 실제 바이트가 이미 완독한 옛 키 원본과 동일 SHA임을 확인했다. 옛 ID를 덮어쓰지 않고 새 현행 ID로 별도 제안한다."
+    },
+    {
+      "formId": "ordin-22869643",
+      "sha256": "c5cf32ab88a382c76a790c941b7d30bdadf5981c51bffeb6cd18537b8cfa20b3",
+      "disposition": "approved",
+      "fullBodyReviewed": true,
+      "checkedAt": "2026-10-20",
+      "programIds": [
+        "g41570.bokjiro-WLF00001243"
+      ],
+      "sourceProposal": "logs/forms-completion/gyeonggi-20261019/team1/proposals-portal-20261020-gimpo-funeral.json",
+      "sourceProposalSHA256": "162587cad54137879df7810a1b0f8a8e8a33773c4e5595a04bc6b6d0daf58064",
+      "currentSearchSHA256": "6f7886f01703e7942be5697241d884c67bbf826aedd9ff43c955d1825b195572",
+      "currentBodySHA256": "ffe38c09ada601abede4ca7783bea43c1560d89a1b57c204d4116c1ffbb83299",
+      "annexBinding": {
+        "binding": "bound",
+        "bindingReason": "OFFICIAL_ANNEX_BOUND_WITH_SAME_FILE",
+        "officialAnnexId": "22869643",
+        "officialAnnexNumber": "1",
+        "officialAnnexTitle": "[별지 서식]공영장례 지원 신청서",
+        "officialFlSeq": "170528015",
+        "officialAnnexUrl": "https://www.law.go.kr/flDownload.do?gubun=ELIS&flSeq=170528015&flNm=%5B%EB%B3%84%EC%A7%80+%EC%84%9C%EC%8B%9D%5D%EA%B3%B5%EC%98%81%EC%9E%A5%EB%A1%80+%EC%A7%80%EC%9B%90+%EC%8B%A0%EC%B2%AD%EC%84%9C",
+        "officialAnnexDeleted": false
+      },
+      "reason": "전체 HWP 신청서803자와 BodyText/Section0을 읽고 빈 신청인·사망자·관계·장례지원 동의·서명 및 신분/관계/사망증빙을 대조했다. 김포시 현행 법규1958071 전10조와 부칙을 읽고 제4조의 무연고 사망자 범위, 제5조 현물원칙과 현금예외, 제7조의 지원대상 연고자 등 별지 제출을 확인했다. 현행 별지22869643/flSeq170528015의 실제 재GET 원본 SHA가 수집원본과 일치한다. 오늘 정확 복지로WLF00001243이 무연고 사망자의 장례지원과 별도의 노숙인 의료비를 명시한다. 2026 김포시의회 공식 사업설명서 PDF372쪽의 연중 무연고 사망자 장례지원이 바로 김포시 공영장례 조례에 근거한다고 명시하여 사업과 법정별지의 경로를 보완했다. 711쪽 자료 중 이1쪽만 전체 텍스트·시각 판독했고 다른 쪽을 읽었다고 표시하지 않았다."
+    }
+  ]
+}

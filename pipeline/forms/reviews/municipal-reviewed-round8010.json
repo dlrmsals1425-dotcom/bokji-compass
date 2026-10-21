@@ -1,0 +1,793 @@
+{
+  "schema": 1,
+  "checkedAt": "2026-10-20",
+  "rows": [
+    {
+      "formId": "agency-41220-bokjiro-WLF00000783-20230525UUWBM1328390036214748",
+      "candidateId": "page-4ca9577e48116e89d753",
+      "programIds": [
+        "g41220.bokjiro-WLF00000783"
+      ],
+      "programNames": [
+        "행려자 귀향여비 및 급식비(송탄출장소)"
+      ],
+      "sourceKind": "agency",
+      "formTitle": "행려자 귀향 여비 지급 확인서 및 개인정보 동의서",
+      "sourceMetadataTitle": "행려자 귀향여비 신청서 및 동의서.pdf",
+      "verifiedDocumentTitle": "행려자 귀향 여비 지급 확인서 및 개인정보 동의서",
+      "role": "application",
+      "use": "conditional",
+      "condition": "평택시 송탄출장소 북부권역에서 발생한 타 지역 거주 행려자의 귀향여비 신청에만 사용합니다. 2쪽의 신청금액·신청사유·본인 서명과 1쪽 동의서를 작성하며 송탄출장소 사회복지과의 신분 확인 절차를 따릅니다. 현재 안내상 평택시민은 신청할 수 없습니다. 3쪽 지급 영수증은 지급 후 수령 확인용으로 이번 신규 신청 부분에서 제외합니다. 본청·안중출장소 경로와 혼동하지 않습니다.",
+      "regionCode": "41220",
+      "regionLabel": "경기 평택시",
+      "agencyName": "경기도 평택시 송탄출장소 사회복지과",
+      "authorityKind": "government",
+      "authorityEvidenceKind": "government",
+      "authorityEvidenceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00000783&wlfareInfoReldBztpCd=02",
+      "authorityEvidenceNote": "실제 스캔PDF3쪽을모두렌더하여직접읽었다.텍스트추출결과는0자로유지했다.2쪽지급확인서에는신청금액·신청사유·신청인서명과평택시송탄출장소장수신이있어실제주민신청이다.1쪽은같은귀향여비의정보수집·민감정보·제3자제공동의,3쪽은지급후영수증이다.현재정확WLF00000783은송탄북부권역의타지역귀향행려자·본인방문·평택시민신청불가와동일첨부를명시한다.3쪽전부빈양식이며작성된개인정보는없다.",
+      "authorityBasis": {
+        "kind": "official-program",
+        "title": "행려자 귀향여비 및 급식비(송탄출장소)",
+        "evidenceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00000783&wlfareInfoReldBztpCd=02",
+        "checkedAt": "2026-10-19",
+        "evidenceNote": "실제 스캔PDF3쪽을모두렌더하여직접읽었다.텍스트추출결과는0자로유지했다.2쪽지급확인서에는신청금액·신청사유·신청인서명과평택시송탄출장소장수신이있어실제주민신청이다.1쪽은같은귀향여비의정보수집·민감정보·제3자제공동의,3쪽은지급후영수증이다.현재정확WLF00000783은송탄북부권역의타지역귀향행려자·본인방문·평택시민신청불가와동일첨부를명시한다.3쪽전부빈양식이며작성된개인정보는없다.",
+        "pageSHA256": "74d3a89334ccd99f871bc5ebe193c98fa8ac1cddbfcc4cbc7f61bc19522b2b3e"
+      },
+      "sourcePageUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00000783&wlfareInfoReldBztpCd=02",
+      "sourceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twata/CmmFileUtil/getDownload.do?atcflId=20230525UUWBM1328390036214748&atcflSn=1&wlfareInfoId=WLF00000783",
+      "finalUrl": "https://www.bokjiro.go.kr/ssis-tbu/twata/CmmFileUtil/getDownload.do?atcflId=20230525UUWBM1328390036214748&atcflSn=1&wlfareInfoId=WLF00000783",
+      "attachmentId": "20230525UUWBM1328390036214748",
+      "attachmentIdentifier": {
+        "queryParam": "atcflId",
+        "value": "20230525UUWBM1328390036214748"
+      },
+      "sourcePageSha256": "74d3a89334ccd99f871bc5ebe193c98fa8ac1cddbfcc4cbc7f61bc19522b2b3e",
+      "sourcePageHttpStatus": 200,
+      "sourcePageProgramSpecific": true,
+      "sourcePageProgramId": "WLF00000783",
+      "programEvidenceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00000783&wlfareInfoReldBztpCd=02",
+      "evidenceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00000783&wlfareInfoReldBztpCd=02",
+      "evidenceNote": "실제 스캔PDF3쪽을모두렌더하여직접읽었다.텍스트추출결과는0자로유지했다.2쪽지급확인서에는신청금액·신청사유·신청인서명과평택시송탄출장소장수신이있어실제주민신청이다.1쪽은같은귀향여비의정보수집·민감정보·제3자제공동의,3쪽은지급후영수증이다.현재정확WLF00000783은송탄북부권역의타지역귀향행려자·본인방문·평택시민신청불가와동일첨부를명시한다.3쪽전부빈양식이며작성된개인정보는없다.",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "fullBodyReviewed": true,
+      "independentBodyReview": true,
+      "sha256": "52c51ab35888a593f4ab018b6fff5ffa31d78c0c3ff78e54f5178a10a654ede9",
+      "bytes": 765434,
+      "originalFormat": "pdf",
+      "originalPath": "pipeline/forms/originals/agency-41220-bokjiro-WLF00000783-20230525UUWBM1328390036214748.pdf",
+      "textScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "page-1",
+        "page-2",
+        "page-3"
+      ],
+      "reviewedParts": [
+        {
+          "number": "인쇄 번호 없음",
+          "partLocation": "PDF 2쪽",
+          "title": "행려자 귀향 여비 지급 확인서",
+          "use": "conditional",
+          "author": "송탄출장소 관할에서 귀향여비를 신청하는 행려자"
+        },
+        {
+          "number": "인쇄 번호 없음",
+          "partLocation": "PDF 1쪽",
+          "title": "개인정보 수집·이용 및 제3자 제공 동의서",
+          "use": "additional",
+          "author": "귀향여비 신청 정보주체"
+        }
+      ],
+      "selectedParts": [
+        {
+          "number": "인쇄 번호 없음",
+          "partLocation": "PDF 2쪽",
+          "title": "행려자 귀향 여비 지급 확인서",
+          "use": "conditional",
+          "author": "송탄출장소 관할에서 귀향여비를 신청하는 행려자"
+        },
+        {
+          "number": "인쇄 번호 없음",
+          "partLocation": "PDF 1쪽",
+          "title": "개인정보 수집·이용 및 제3자 제공 동의서",
+          "use": "additional",
+          "author": "귀향여비 신청 정보주체"
+        }
+      ],
+      "applicant": "송탄출장소 관할에서 귀향여비를 신청하는 행려자",
+      "roleBasis": "실제 스캔PDF3쪽을모두렌더하여직접읽었다.텍스트추출결과는0자로유지했다.2쪽지급확인서에는신청금액·신청사유·신청인서명과평택시송탄출장소장수신이있어실제주민신청이다.1쪽은같은귀향여비의정보수집·민감정보·제3자제공동의,3쪽은지급후영수증이다.현재정확WLF00000783은송탄북부권역의타지역귀향행려자·본인방문·평택시민신청불가와동일첨부를명시한다.3쪽전부빈양식이며작성된개인정보는없다.",
+      "roleEvidenceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twata/CmmFileUtil/getDownload.do?atcflId=20230525UUWBM1328390036214748&atcflSn=1&wlfareInfoId=WLF00000783",
+      "roleCheckedAt": "2026-10-19",
+      "checkedAt": "2026-10-19",
+      "dateKind": "checked",
+      "effectiveDate": "2026-10-19",
+      "annexId": "",
+      "annexNumber": "",
+      "lawId": "",
+      "lawTitle": "",
+      "lawEvidenceUrl": "",
+      "lawEffectiveDate": "",
+      "lawCurrentCheckedAt": "",
+      "legalReferencesAsCited": [
+        "노숙인 등의 복지 및 자립지원에 관한 법률"
+      ],
+      "currentUseConfirmed": true,
+      "noFilledPersonalDataObserved": true,
+      "proposalStatus": "ready_for_coordinator_exact_agency_gate",
+      "publicationApproved": false,
+      "sourceProof": {
+        "originalExtractionRecord": "logs/forms-completion/gyeonggi-20261019/extracted/page-4ca9577e48116e89d753.json",
+        "actualOriginalBytesRechecked": true,
+        "sourcePageRecord": "logs/forms-completion/gyeonggi-20261019/current-pages/WLF00000783.json",
+        "sourcePageRecordSha256": "97a41642e9c1738d43409c0a799385d3f5d80862d899389d7f5162c82d37a679",
+        "directAttachmentOnExactProgramPage": true,
+        "freshHTTPStatus": 200,
+        "freshDownloadRecord": "logs/forms-completion/gyeonggi-20261019/team2/documents/verify-page-4ca9577e48116e89d753.json"
+      },
+      "visualReview": {
+        "kind": "whole-original-pdf",
+        "checkedAt": "2026-10-19",
+        "sha256": "52c51ab35888a593f4ab018b6fff5ffa31d78c0c3ff78e54f5178a10a654ede9",
+        "pageCount": 3,
+        "pagesRead": [
+          "page-1",
+          "page-2",
+          "page-3"
+        ],
+        "blankApplicantForm": true,
+        "noFilledPersonalData": true,
+        "evidenceNote": "실제 스캔PDF3쪽을모두렌더하여직접읽었다.텍스트추출결과는0자로유지했다.2쪽지급확인서에는신청금액·신청사유·신청인서명과평택시송탄출장소장수신이있어실제주민신청이다.1쪽은같은귀향여비의정보수집·민감정보·제3자제공동의,3쪽은지급후영수증이다.현재정확WLF00000783은송탄북부권역의타지역귀향행려자·본인방문·평택시민신청불가와동일첨부를명시한다.3쪽전부빈양식이며작성된개인정보는없다."
+      },
+      "pagesRead": [
+        "page-1",
+        "page-2",
+        "page-3"
+      ],
+      "pageCount": 3,
+      "fullBodyReviewMethod": "all_original_pages_visual",
+      "textExtraction": {
+        "textLength": 0,
+        "text": "",
+        "reason": "스캔이미지PDF,자동텍스트층없음. 시각검토와구별.",
+        "extractionRecord": "logs/forms-completion/gyeonggi-20261019/extracted/page-4ca9577e48116e89d753.json"
+      },
+      "renderedPages": [
+        {
+          "page": 1,
+          "pageId": "page-1",
+          "path": "logs/forms-completion/gyeonggi-20261019/team2/rendered/page-4ca9577e48116e89d753-1.png",
+          "sha256": "f2e04a4da51e9b6a518d90f0e15e03f630921c5270da4cf36c719c67e1b4fec0"
+        },
+        {
+          "page": 2,
+          "pageId": "page-2",
+          "path": "logs/forms-completion/gyeonggi-20261019/team2/rendered/page-4ca9577e48116e89d753-2.png",
+          "sha256": "2039a0069645e4db7449645770a7441824d88bbdff968988556560a641f6e27d"
+        },
+        {
+          "page": 3,
+          "pageId": "page-3",
+          "path": "logs/forms-completion/gyeonggi-20261019/team2/rendered/page-4ca9577e48116e89d753-3.png",
+          "sha256": "f41778634660c250a91d74b3e5f817900d38acd6f8c2bc3dcca91443c18b6d12"
+        }
+      ],
+      "excludedParts": [
+        {
+          "number": "인쇄 번호 없음",
+          "partLocation": "PDF3쪽",
+          "title": "행려자 귀향여비 및 급식비 지급 영수증",
+          "reason": "지급후수령확인문서로신규지원신청부분에서제외"
+        }
+      ],
+      "dateEvidence": {
+        "dateKind": "checked",
+        "checkedAt": "2026-10-19",
+        "printedFixedYear": null,
+        "printedDatePlaceholder": "20 년 월 일 / 20 . . .",
+        "attachmentIdentifierContains20230525": true,
+        "identifierDateNotTreatedAsVerifiedPublicationDate": true,
+        "note": "2023은첨부식별자상의등록연도추정이며원문고정신청연도가아니다.원문날짜는20뒤빈칸으로열려있다."
+      },
+      "sourcePageClosingNoticeCheck": {
+        "titleAndFullBenefitTextRead": true,
+        "confirmedClosedNotice": false,
+        "checkedAt": "2026-10-19"
+      },
+      "rejectedDuplicateCandidateId": "page-61bea16032e01e4e38df",
+      "coordinatorReason": "실제 스캔PDF3쪽을모두렌더하여직접읽었다.텍스트추출결과는0자로유지했다.2쪽지급확인서에는신청금액·신청사유·신청인서명과평택시송탄출장소장수신이있어실제주민신청이다.1쪽은같은귀향여비의정보수집·민감정보·제3자제공동의,3쪽은지급후영수증이다.현재정확WLF00000783은송탄북부권역의타지역귀향행려자·본인방문·평택시민신청불가와동일첨부를명시한다.3쪽전부빈양식이며작성된개인정보는없다."
+    },
+    {
+      "formId": "agency-41000-unregistered-alternative-meal-2026",
+      "sourceKind": "agency",
+      "formTitle": "2026년 미등록 대안교육기관 급식비 교부신청서·사업계획서",
+      "sourcePageUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00001235&wlfareInfoReldBztpCd=02",
+      "evidenceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00001235&wlfareInfoReldBztpCd=02",
+      "sourceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twata/CmmFileUtil/getDownload.do?atcflId=20260612UUWBM1441140196722688&atcflSn=1&wlfareInfoId=WLF00001235",
+      "finalUrl": "https://www.bokjiro.go.kr/ssis-tbu/twata/CmmFileUtil/getDownload.do?atcflId=20260612UUWBM1441140196722688&atcflSn=1&wlfareInfoId=WLF00001235",
+      "attachmentId": "20260612UUWBM1441140196722688",
+      "attachmentIdentifier": {
+        "queryParam": "atcflId",
+        "value": "20260612UUWBM1441140196722688"
+      },
+      "agencyName": "경기도 청소년과·복지로",
+      "authorityKind": "government",
+      "authorityEvidenceKind": "government",
+      "authorityEvidenceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00001235&wlfareInfoReldBztpCd=02",
+      "authorityEvidenceNote": "해당사업의 현재 공식 안내 페이지에서 신청주체·지원목적·접수방법과 정확한 첨부 다운로드를 대조하였다. 2026 급식비 운영지침의2개 HWPX 섹션15,875자를 모두 읽었다. 지원 절차는기관→시군 교부신청이며 붙임2의 실제 교부신청서·사업계획서가 기관명·대표자·학생수·급식일수·신청액·기관장 날인을 요구한다. 현재 복지로는2025.3.25까지 도에 기신고한 교육청 미등록기관 대상과 소재지시군 신청을 명시한다. 학생 개인 신청서가 아니라 실제 사업 수행기관의 해당 분기 신청으로 조건을 제한한다.",
+      "programIds": [
+        "s41000.bokjiro-WLF00001235"
+      ],
+      "programEvidenceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00001235&wlfareInfoReldBztpCd=02",
+      "regionCode": "41000",
+      "regionLabel": "경기도",
+      "lawId": "",
+      "lawTitle": "",
+      "lawUrl": "",
+      "lawEvidenceUrl": "",
+      "lawEffectiveDate": "",
+      "lawCurrentCheckedAt": "",
+      "annexId": "",
+      "annexNumber": "",
+      "authorityBasis": {
+        "kind": "official-program",
+        "title": "미등록 대안교육기관 이용 청소년 급식비 지원",
+        "evidenceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00001235&wlfareInfoReldBztpCd=02",
+        "checkedAt": "2026-10-19",
+        "evidenceNote": "2026 급식비 운영지침의2개 HWPX 섹션15,875자를 모두 읽었다. 지원 절차는기관→시군 교부신청이며 붙임2의 실제 교부신청서·사업계획서가 기관명·대표자·학생수·급식일수·신청액·기관장 날인을 요구한다. 현재 복지로는2025.3.25까지 도에 기신고한 교육청 미등록기관 대상과 소재지시군 신청을 명시한다. 학생 개인 신청서가 아니라 실제 사업 수행기관의 해당 분기 신청으로 조건을 제한한다.",
+        "pageSHA256": "f553e55653fac1b542000037feb59a456cc9042bbab0e00c337464f6dacb392d"
+      },
+      "dateKind": "checked",
+      "effectiveDate": "2026-10-19",
+      "publishedAt": null,
+      "checkedAt": "2026-10-19",
+      "sha256": "331647d47a69d0dbea7bf127f6f5f70ce9bb6ed6297f29bcbddf800a714d7596",
+      "bytes": 282030,
+      "originalFormat": "hwpx",
+      "originalPath": "pipeline/forms/originals/agency-41000-unregistered-alternative-meal-2026.hwpx",
+      "textScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "Contents/section0.xml",
+        "Contents/section1.xml"
+      ],
+      "selectedParts": [
+        {
+          "number": "붙임2 교부신청서",
+          "title": "미등록 대안교육기관 급식비 교부신청서",
+          "use": "conditional",
+          "author": "지원대상 대안교육기관의 기관장"
+        },
+        {
+          "number": "붙임2 사업계획서",
+          "title": "분기 사업계획서",
+          "use": "additional",
+          "author": "지원대상 대안교육기관의 기관장·담당자"
+        }
+      ],
+      "reviewedParts": [
+        {
+          "number": "붙임2 교부신청서",
+          "title": "미등록 대안교육기관 급식비 교부신청서",
+          "use": "conditional",
+          "author": "지원대상 대안교육기관의 기관장"
+        },
+        {
+          "number": "붙임2 사업계획서",
+          "title": "분기 사업계획서",
+          "use": "additional",
+          "author": "지원대상 대안교육기관의 기관장·담당자"
+        }
+      ],
+      "applicant": "지원대상 대안교육기관의 기관장; 지원대상 대안교육기관의 기관장·담당자",
+      "role": "application",
+      "use": "conditional",
+      "condition": "학생·학부모 개인이 아닌 지원대상 대안교육기관이 급식비 교부를 신청할 때 사용합니다.2025.3.25까지 경기도에 기신고한 교육청 미등록기관의 해당분기 신청용이며, 교육청 등록기관의 급식은 별도 교육청 사업입니다. 파일의 붙임2 중 교부신청서·사업계획서를 작성하고 기관 현황·정관 등 해당 증빙을 갖춰 소재지 시군에 제출합니다. 지침상 분기 교부는2·5·8·11월이나 시군별 일정 조정이 가능하므로 기관 담당자가 접수일을 확인합니다.",
+      "evidenceNote": "2026 급식비 운영지침의2개 HWPX 섹션15,875자를 모두 읽었다. 지원 절차는기관→시군 교부신청이며 붙임2의 실제 교부신청서·사업계획서가 기관명·대표자·학생수·급식일수·신청액·기관장 날인을 요구한다. 현재 복지로는2025.3.25까지 도에 기신고한 교육청 미등록기관 대상과 소재지시군 신청을 명시한다. 학생 개인 신청서가 아니라 실제 사업 수행기관의 해당 분기 신청으로 조건을 제한한다.",
+      "roleBasis": "2026 급식비 운영지침의2개 HWPX 섹션15,875자를 모두 읽었다. 지원 절차는기관→시군 교부신청이며 붙임2의 실제 교부신청서·사업계획서가 기관명·대표자·학생수·급식일수·신청액·기관장 날인을 요구한다. 현재 복지로는2025.3.25까지 도에 기신고한 교육청 미등록기관 대상과 소재지시군 신청을 명시한다. 학생 개인 신청서가 아니라 실제 사업 수행기관의 해당 분기 신청으로 조건을 제한한다.",
+      "roleEvidenceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twata/CmmFileUtil/getDownload.do?atcflId=20260612UUWBM1441140196722688&atcflSn=1&wlfareInfoId=WLF00001235",
+      "roleCheckedAt": "2026-10-19",
+      "fullBodyReviewed": true,
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "blankApplicantFormReviewed": true,
+      "reviewedBy": "codex-national_form_audit",
+      "publicationReady": true,
+      "finalApprovalOwner": "root",
+      "referencedLawTitle": "경기도 대안교육기관 지원 조례",
+      "excludedParts": [
+        {
+          "title": "붙임2 정산서·사업결과보고서",
+          "reason": "앞선 분기 집행기관의 정산 단계이며 신규 교부신청 서식과 구별. 정산 제출 필요 여부는 관할시군 안내를 따른다."
+        },
+        {
+          "title": "붙임3 신고·변경·말소 및 신고필증 관련서식",
+          "reason": "기관 신고제 별도 행정절차이며 이 급식비 신청을 위해 누구나 신규 신고하면 지원된다는 의미로 연결하지 않는다."
+        }
+      ],
+      "sourceIssues": [
+        "기관 작성 양식이라는 이유로 제외하지 않았다. 실제 해당 사업의 신청절차가 기관의 시군 교부신청임을2026 지침 본문에서 확인한 조건부 연결이다.",
+        "부록의2025.3월 이후 등록기관 신규신고 절차는 교육청 지원요건 목적이며 본 도 미등록기관 급식사업의 신규 진입 경로로 해석하지 않는다."
+      ],
+      "coordinatorReason": "2026 급식비 운영지침의2개 HWPX 섹션15,875자를 모두 읽었다. 지원 절차는기관→시군 교부신청이며 붙임2의 실제 교부신청서·사업계획서가 기관명·대표자·학생수·급식일수·신청액·기관장 날인을 요구한다. 현재 복지로는2025.3.25까지 도에 기신고한 교육청 미등록기관 대상과 소재지시군 신청을 명시한다. 학생 개인 신청서가 아니라 실제 사업 수행기관의 해당 분기 신청으로 조건을 제한한다."
+    },
+    {
+      "formId": "agency-41000-single-parent-followup-2026-05606",
+      "sourceKind": "agency",
+      "formTitle": "2026년 경기도 한부모가족 아동양육비 선정 후 동의서·계좌변경신청서",
+      "sourcePageUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00005606&wlfareInfoReldBztpCd=02",
+      "evidenceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00005606&wlfareInfoReldBztpCd=02",
+      "sourceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twata/CmmFileUtil/getDownload.do?atcflId=20260710UUWBM1429470200687935&atcflSn=1&wlfareInfoId=WLF00005606",
+      "finalUrl": "https://www.bokjiro.go.kr/ssis-tbu/twata/CmmFileUtil/getDownload.do?atcflId=20260710UUWBM1429470200687935&atcflSn=1&wlfareInfoId=WLF00005606",
+      "attachmentId": "20260710UUWBM1429470200687935",
+      "attachmentIdentifier": {
+        "queryParam": "atcflId",
+        "value": "20260710UUWBM1429470200687935"
+      },
+      "agencyName": "경기도 가족정책과·복지로",
+      "authorityKind": "government",
+      "authorityEvidenceKind": "government",
+      "authorityEvidenceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00005606&wlfareInfoReldBztpCd=02",
+      "authorityEvidenceNote": "해당사업의 현재 공식 안내 페이지에서 신청주체·지원목적·접수방법과 정확한 첨부 다운로드를 대조하였다. 2026 경기도 한부모가족 아동양육비 지침의2개섹션24,076자 전체와 서식1~6을 읽었다.Ⅲ구비서류와Ⅴ지급관리가 소득재산조사 후 경기도 사업대상 선정자에게 서식4 개인정보동의 및5 행정공동이용동의를 받도록 명시하며 계좌변경 시 서식2를 직접 지정한다. 현재 복지로의 국비기준65% 초과100% 이하 도비사업과 정확첨부를 대조했다. 최초 신청서·재산신고·금융동의는 별도 공통서식으로 지시될 뿐 이 원본에 포함되지 않음을 구별했다.",
+      "programIds": [
+        "s41000.bokjiro-WLF00005606"
+      ],
+      "programEvidenceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00005606&wlfareInfoReldBztpCd=02",
+      "regionCode": "41000",
+      "regionLabel": "경기도",
+      "lawId": "",
+      "lawTitle": "",
+      "lawUrl": "",
+      "lawEvidenceUrl": "",
+      "lawEffectiveDate": "",
+      "lawCurrentCheckedAt": "",
+      "annexId": "",
+      "annexNumber": "",
+      "authorityBasis": {
+        "kind": "official-program",
+        "title": "한부모가족 아동양육비 지원",
+        "evidenceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00005606&wlfareInfoReldBztpCd=02",
+        "checkedAt": "2026-10-19",
+        "evidenceNote": "2026 경기도 한부모가족 아동양육비 지침의2개섹션24,076자 전체와 서식1~6을 읽었다.Ⅲ구비서류와Ⅴ지급관리가 소득재산조사 후 경기도 사업대상 선정자에게 서식4 개인정보동의 및5 행정공동이용동의를 받도록 명시하며 계좌변경 시 서식2를 직접 지정한다. 현재 복지로의 국비기준65% 초과100% 이하 도비사업과 정확첨부를 대조했다. 최초 신청서·재산신고·금융동의는 별도 공통서식으로 지시될 뿐 이 원본에 포함되지 않음을 구별했다.",
+        "pageSHA256": "326b05cb90af71b17efd0f8caf7bb8064d4740baf4b8cdae4d199dbdc1098517"
+      },
+      "dateKind": "checked",
+      "effectiveDate": "2026-10-19",
+      "publishedAt": null,
+      "checkedAt": "2026-10-19",
+      "sha256": "8a629f76b4a05692a8dadb5e73e32c0dda36845cd68ede18611e538cf6e55022",
+      "bytes": 204691,
+      "originalFormat": "hwpx",
+      "originalPath": "pipeline/forms/originals/agency-41000-single-parent-followup-2026-05606.hwpx",
+      "textScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "Contents/section0.xml",
+        "Contents/section1.xml"
+      ],
+      "selectedParts": [
+        {
+          "number": "서식4",
+          "title": "개인정보 수집·이용 동의서",
+          "use": "conditional",
+          "author": "경기도 아동양육비 지원대상자 또는 적법한 대리인·법정대리인"
+        },
+        {
+          "number": "서식5",
+          "title": "행정정보 공동이용 사전동의서",
+          "use": "conditional",
+          "author": "경기도 아동양육비 지원대상자 본인"
+        },
+        {
+          "number": "서식2",
+          "title": "복지급여(한부모가족 아동양육비) 계좌 변경신청서",
+          "use": "conditional",
+          "author": "수급 중 지급계좌를 변경하는 급여대상자"
+        }
+      ],
+      "reviewedParts": [
+        {
+          "number": "서식4",
+          "title": "개인정보 수집·이용 동의서",
+          "use": "conditional",
+          "author": "경기도 아동양육비 지원대상자 또는 적법한 대리인·법정대리인"
+        },
+        {
+          "number": "서식5",
+          "title": "행정정보 공동이용 사전동의서",
+          "use": "conditional",
+          "author": "경기도 아동양육비 지원대상자 본인"
+        },
+        {
+          "number": "서식2",
+          "title": "복지급여(한부모가족 아동양육비) 계좌 변경신청서",
+          "use": "conditional",
+          "author": "수급 중 지급계좌를 변경하는 급여대상자"
+        }
+      ],
+      "applicant": "경기도 아동양육비 지원대상자 또는 적법한 대리인·법정대리인; 경기도 아동양육비 지원대상자 본인; 수급 중 지급계좌를 변경하는 급여대상자",
+      "role": "application",
+      "use": "conditional",
+      "condition": "이 파일은 경기도 한부모가족 아동양육비 대상자로 선정된 뒤 사용하는 서류입니다. 사업팀 안내에 따라 서식4·5의 개인정보·행정정보 동의서를 작성하고, 수급 중 계좌를 바꿀 때만 서식2와 통장 사본을 제출합니다. 최초 신청에 필요한 사회보장급여 신청서·소득재산신고서·금융정보 동의서는 별도로 준비해야 합니다. 시행 시군과 현재 신청·자격은 관할 행정복지센터에서 확인합니다.",
+      "evidenceNote": "2026 경기도 한부모가족 아동양육비 지침의2개섹션24,076자 전체와 서식1~6을 읽었다.Ⅲ구비서류와Ⅴ지급관리가 소득재산조사 후 경기도 사업대상 선정자에게 서식4 개인정보동의 및5 행정공동이용동의를 받도록 명시하며 계좌변경 시 서식2를 직접 지정한다. 현재 복지로의 국비기준65% 초과100% 이하 도비사업과 정확첨부를 대조했다. 최초 신청서·재산신고·금융동의는 별도 공통서식으로 지시될 뿐 이 원본에 포함되지 않음을 구별했다.",
+      "roleBasis": "2026 경기도 한부모가족 아동양육비 지침의2개섹션24,076자 전체와 서식1~6을 읽었다.Ⅲ구비서류와Ⅴ지급관리가 소득재산조사 후 경기도 사업대상 선정자에게 서식4 개인정보동의 및5 행정공동이용동의를 받도록 명시하며 계좌변경 시 서식2를 직접 지정한다. 현재 복지로의 국비기준65% 초과100% 이하 도비사업과 정확첨부를 대조했다. 최초 신청서·재산신고·금융동의는 별도 공통서식으로 지시될 뿐 이 원본에 포함되지 않음을 구별했다.",
+      "roleEvidenceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twata/CmmFileUtil/getDownload.do?atcflId=20260710UUWBM1429470200687935&atcflSn=1&wlfareInfoId=WLF00005606",
+      "roleCheckedAt": "2026-10-19",
+      "fullBodyReviewed": true,
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "blankApplicantFormReviewed": true,
+      "reviewedBy": "codex-national_form_audit",
+      "publicationReady": true,
+      "finalApprovalOwner": "root",
+      "excludedParts": [
+        {
+          "number": "서식1",
+          "title": "위임장(법정대리인 동의서)",
+          "reason": "구 한정치산 표현 및 별도 국비 위임서식 인용이 혼재하여 본 제안의 검증된 제출 부분에서 제외"
+        },
+        {
+          "number": "서식3",
+          "title": "이의신청서",
+          "reason": "최초 신청과 다른 불복절차이며 본 제안은 선정 후 동의·계좌변경에 한정"
+        },
+        {
+          "number": "서식6",
+          "title": "지급·환수 관리대장",
+          "reason": "기관의 관리·보고용, 예시 기재 포함"
+        }
+      ],
+      "mainApplicationReference": {
+        "requiredTitles": [
+          "사회보장급여 신청(변경)서",
+          "소득·재산 신고서",
+          "금융정보 등 제공 동의서"
+        ],
+        "evidence": "지침Ⅱ업무처리/Ⅲ구비서류가 명시함. 본원본에는 공통서식 본문이 없으며 별도 공식 현행원본 대조 필요.",
+        "sourceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twata/CmmFileUtil/getDownload.do?atcflId=20260710UUWBM1429470200687935&atcflSn=1&wlfareInfoId=WLF00005606",
+        "sourceSHA256": "8a629f76b4a05692a8dadb5e73e32c0dda36845cd68ede18611e538cf6e55022",
+        "notYetLinkedByThisReview": true
+      },
+      "sourceIssues": [
+        "전국 한부모 국비사업에 임의 연결하지 않는다. 대상은 해당 경기도 도비 아동양육비 사업의 선정 후 업무이며 동일제명만으로 다른 지자체 자체사업에 확대하지 않는다.",
+        "서식6의 나시흥·김기초 등은000전화번호와 결합된 문서작성 예시이며 실제 채워진 신청서로 취급하지 않는다. 관리대장 자체는 신청인 작성 부분에서 제외한다."
+      ],
+      "coordinatorReason": "2026 경기도 한부모가족 아동양육비 지침의2개섹션24,076자 전체와 서식1~6을 읽었다.Ⅲ구비서류와Ⅴ지급관리가 소득재산조사 후 경기도 사업대상 선정자에게 서식4 개인정보동의 및5 행정공동이용동의를 받도록 명시하며 계좌변경 시 서식2를 직접 지정한다. 현재 복지로의 국비기준65% 초과100% 이하 도비사업과 정확첨부를 대조했다. 최초 신청서·재산신고·금융동의는 별도 공통서식으로 지시될 뿐 이 원본에 포함되지 않음을 구별했다."
+    },
+    {
+      "sourceKind": "agency",
+      "basisType": "official_agency_application_and_current_law",
+      "formId": "agency-41820-72921",
+      "sourceCandidateId": null,
+      "sourcePageUrl": "https://sang.gp.go.kr/gapyeong/selectBbsNttView.do?key=298&bbsNo=175&nttNo=240908&searchCtgry=&searchCnd=all&searchKrwd=&pageIndex=2&integrDeptCode=00000026",
+      "sourcePageHttpStatus": 200,
+      "sourcePageRecord": "logs/forms-completion/gyeonggi-20261019/team1/pages/gapyeong-repair-civil.json",
+      "sourceUrl": "https://sang.gp.go.kr/gapyeong/downloadBbsFile.do?atchmnflNo=72921",
+      "finalUrl": "https://sang.gp.go.kr/gapyeong/downloadBbsFile.do?atchmnflNo=72921",
+      "attachmentId": "72921",
+      "attachmentIdentifier": {
+        "queryParam": "atchmnflNo",
+        "value": "72921"
+      },
+      "attachmentFileSn": null,
+      "officialProgramSourceId": "icare-0085-1489618-1-1-19",
+      "agencyName": "경기도 가평군",
+      "authorityKind": "government",
+      "authorityEvidenceKind": "government",
+      "authorityEvidenceUrl": "https://sang.gp.go.kr/gapyeong/selectBbsNttView.do?key=298&bbsNo=175&nttNo=240908&searchCtgry=&searchCnd=all&searchKrwd=&pageIndex=2&integrDeptCode=00000026",
+      "authorityEvidenceNote": "gp.go.kr 정부 지자체 도메인의 가평군 가평읍 공식 민원서식 자료실이 해당 atchmnflNo72921 다운로드를 직접 배포한다.",
+      "formTitle": "보조기기 수리비 지원 개인정보 수집·이용 및 제3자 제공 동의서",
+      "sourceMetadataTitle": "개인정보수집이용동의서(서식).hwp",
+      "programIds": [
+        "g41820.icare-0085-1489618-1-1-19"
+      ],
+      "programNames": [
+        "보조기기 수리비용 지원"
+      ],
+      "programEvidenceUrl": "https://www.mohw.go.kr/board.es?mid=a60611000000&bid=0085&act=view&list_no=1489618&tag=&nPage=1",
+      "regionCode": "41820",
+      "regionLabel": "경기도 가평군",
+      "checkedAt": "2026-10-19",
+      "dateKind": "checked",
+      "effectiveDate": "2026-10-19",
+      "publishedAt": null,
+      "role": "consent",
+      "use": "conditional",
+      "condition": "가평군 보조기기 수리비용 지원을 신청하는 장애인 신청자의 개인정보 수집·이용·제3자 제공 동의서로 사용합니다. 현행 별지3 신청서와 함께 제출하는 추가서류입니다. 원본이 장애인 지원 목적과 가평군지회 제공을 명시하므로 노인·국가유공자라는 사유만으로 신청하는 경우에 자동 적용하지 않습니다.",
+      "applicant": "가평군 보조기기 수리비용 지원을 신청하는 장애인",
+      "reviewedParts": [
+        {
+          "number": "무번호",
+          "title": "개인정보 수집·이용 동의서",
+          "use": "conditional",
+          "author": "지원 신청인"
+        }
+      ],
+      "selectedParts": [
+        {
+          "number": "무번호",
+          "title": "개인정보 수집·이용 동의서",
+          "use": "conditional",
+          "author": "지원 신청인"
+        }
+      ],
+      "verificationStatus": "verified",
+      "decision": "propose_approval",
+      "publicationApproved": false,
+      "requiresCoordinatorReview": true,
+      "officialAttachmentMatched": true,
+      "evidenceUrl": "https://sang.gp.go.kr/gapyeong/selectBbsNttView.do?key=298&bbsNo=175&nttNo=240908&searchCtgry=&searchCnd=all&searchKrwd=&pageIndex=2&integrDeptCode=00000026",
+      "evidenceNote": "가평군 가평읍 민원안내/서식자료 게시물240908은 보조기기 수리 신청서와 이 개인정보수집이용동의서를 함께 배포한다. 실제 첨부72921 전체692자를 읽어 장애인보조기기수리비용 지원 목적, 가평군지체장애인협회 제3자 제공,5년 보관, 신청인 서명의 빈 서식임을 확인했다. 현행 조례1870717 별지3 신청서20406221은 이 개인정보 수집·이용·제3자 제공동의서를 구비서류로 요구하며,2026년 가평군 서비스 메뉴판1쪽19행은 같은 수리센터 사업을 현재사업으로 특정한다. 동의서의 목적이 장애인에 한정되므로 해당 사업의 장애인 신청자만 추가서류로 연결한다.",
+      "roleBasis": "가평군 가평읍 민원안내/서식자료 게시물240908은 보조기기 수리 신청서와 이 개인정보수집이용동의서를 함께 배포한다. 실제 첨부72921 전체692자를 읽어 장애인보조기기수리비용 지원 목적, 가평군지체장애인협회 제3자 제공,5년 보관, 신청인 서명의 빈 서식임을 확인했다. 현행 조례1870717 별지3 신청서20406221은 이 개인정보 수집·이용·제3자 제공동의서를 구비서류로 요구하며,2026년 가평군 서비스 메뉴판1쪽19행은 같은 수리센터 사업을 현재사업으로 특정한다. 동의서의 목적이 장애인에 한정되므로 해당 사업의 장애인 신청자만 추가서류로 연결한다.",
+      "roleEvidenceUrl": "https://sang.gp.go.kr/gapyeong/downloadBbsFile.do?atchmnflNo=72921",
+      "roleCheckedAt": "2026-10-19",
+      "sha256": "5a2247012ac2e140850079dcfd21a5ad778f93305b7eed147348eb19967a1bb3",
+      "bytes": 46080,
+      "originalFormat": "hwp",
+      "originalPath": "pipeline/forms/originals/agency-41820-72921.hwp",
+      "textEvidencePath": "logs/forms-completion/gyeonggi-20261019/team1/gapyeong-repair-consent.json",
+      "textScope": "all_body_sections_or_pages",
+      "originalTextScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "BodyText/Section0"
+      ],
+      "fullBodyReviewed": true,
+      "textLength": 692,
+      "bodyTextSha256": "ed9163ba8bbc5a22ea4538cd7ba652eaaf513b6fff64b4369f49825083efd6a1",
+      "independentlyReextracted": false,
+      "embeddedImageCount": 0,
+      "reviewedBy": "/root/forms_source_audit",
+      "referencedLaws": [
+        "가평군 장애인ᆞ노인 등을 위한 보조기기 유지관리 지원 조례"
+      ],
+      "excludedParts": [],
+      "sourceIssues": [
+        "민원 게시물의 원본 게시일은 상세페이지에 없어2026-10-19 확인일로 표시한다. 날짜를 최신 배포일로 바꾸지 않았다.",
+        "같은 게시물의72920 신청서는2023년 날짜와 유형 선택이 인쇄되어 있으므로 제안하지 않는다. 이 빈 동의서는 별도 원본이며 법령 원본20406221의 구비서류로만 사용한다.",
+        "현재 프로그램 출처인 MOHW 메뉴판 게시물은 여러 서비스를 담은 공용 페이지다. 개별 사업 특정은 첨부PDF의 정확SHA·1쪽19행에 근거하며 프로그램 단독 상세페이지라고 표시하지 않는다."
+      ],
+      "lawId": "",
+      "lawTitle": "",
+      "lawEvidenceUrl": "",
+      "annexId": "",
+      "annexNumber": "",
+      "programPageRecord": "logs/forms-completion/gyeonggi-20261019/team1/pages/gapyeong-icare.json",
+      "programPageSHA256": "8d7dba152e0007957a44483654a722b5d07b49bebbc53006d62cd52fcedec2f2",
+      "originalHttpStatus": 200,
+      "verifiedDocumentTitle": "개인정보 수집·이용 동의서",
+      "lawUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=1870717",
+      "currentLawEvidence": {
+        "auditRecord": "logs/forms-completion/gyeonggi-20261019/current-law-extra/audit.json",
+        "bodyRecord": "logs/forms-completion/gyeonggi-20261019/current-law-extra/current-law-bodies/1870717.json.gz",
+        "lawId": "1870717",
+        "stableLawId": "2210492",
+        "effectiveDate": "20231108",
+        "annex": {
+          "annexId": "20406221",
+          "number": "3",
+          "kind": "서식",
+          "title": "[별지 제3호서식]보조기기 수리 신청서",
+          "fileFormat": "hwp",
+          "url": "https://www.law.go.kr/flDownload.do?gubun=ELIS&flSeq=154077463&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C3%ED%98%B8%EC%84%9C%EC%8B%9D%5D%EB%B3%B4%EC%A1%B0%EA%B8%B0%EA%B8%B0+%EC%88%98%EB%A6%AC+%EC%8B%A0%EC%B2%AD%EC%84%9C",
+          "flSeq": "154077463",
+          "pdfUrl": "",
+          "contentChars": 0,
+          "deleted": false
+        },
+        "bodySHA256": "8b1de2ac513cb7bc6190a13929b95ff20b069925a57584bb640915d11acfa999",
+        "allArticlesAndAddendaRead": true,
+        "annexPurpose": "주신청서의 구비서류 요건을 확인하기 위한 별지3 근거; 이 agency 동의서 자체의 법령포털 별지ID를 의미하지 않음"
+      },
+      "lawBodyRecordSHA256": "8b1de2ac513cb7bc6190a13929b95ff20b069925a57584bb640915d11acfa999",
+      "originalShaVerified": true,
+      "programPageProgramSpecific": false,
+      "programAttachmentEvidence": {
+        "sourcePageUrl": "https://www.mohw.go.kr/board.es?mid=a60611000000&bid=0085&act=view&list_no=1489618&tag=&nPage=1",
+        "downloadUrl": "https://www.mohw.go.kr/boardDownload.es?bid=0085&list_no=1489618&seq=1",
+        "httpStatus": 200,
+        "sha256": "952db3594753207183c91e6a75a09336c0c1aa258d425f0b4503b798264e937a",
+        "bytes": 112209,
+        "originalPath": "logs/forms-completion/gyeonggi-20261019/team1/originals/gapyeong-care-menu-2026.pdf",
+        "textEvidencePath": "logs/forms-completion/gyeonggi-20261019/team1/gapyeong-care-menu-2026.json",
+        "page": 1,
+        "rowNumber": 19,
+        "fullAttachmentBodyReviewed": true,
+        "sectionsRead": [
+          "page-1",
+          "page-2",
+          "page-3"
+        ],
+        "serviceName": "보조기기 수리비용 지원",
+        "serviceDescription": "보조기기 수리센터를 통한 이동보조기기 수리 및 수리비 지원",
+        "target": "노인, 장애인",
+        "provider": "한국지체장애인협회 읍·면",
+        "sourceId": "0085:1489618:1:1:19",
+        "visualEvidencePath": "logs/forms-completion/gyeonggi-20261019/team1/visual/gapyeong-care-row19.png"
+      },
+      "sourcePageSHA256": "09c4550ba29248a51bd3eace9553dbaa8c3ea2eb5c5a1cdbd4042c7186b9d533",
+      "lawEffectiveDate": "",
+      "lawCurrentCheckedAt": "",
+      "authorityBasis": {
+        "kind": "official-program",
+        "title": "보조기기 수리비 지원 개인정보 수집·이용 및 제3자 제공 동의서 공식 배포 안내",
+        "evidenceUrl": "https://sang.gp.go.kr/gapyeong/selectBbsNttView.do?key=298&bbsNo=175&nttNo=240908&searchCtgry=&searchCnd=all&searchKrwd=&pageIndex=2&integrDeptCode=00000026",
+        "checkedAt": "2026-10-19",
+        "evidenceNote": "가평군 가평읍 민원안내/서식자료 게시물240908은 보조기기 수리 신청서와 이 개인정보수집이용동의서를 함께 배포한다. 실제 첨부72921 전체692자를 읽어 장애인보조기기수리비용 지원 목적, 가평군지체장애인협회 제3자 제공,5년 보관, 신청인 서명의 빈 서식임을 확인했다. 현행 조례1870717 별지3 신청서20406221은 이 개인정보 수집·이용·제3자 제공동의서를 구비서류로 요구하며,2026년 가평군 서비스 메뉴판1쪽19행은 같은 수리센터 사업을 현재사업으로 특정한다. 동의서의 목적이 장애인에 한정되므로 해당 사업의 장애인 신청자만 추가서류로 연결한다.",
+        "pageSHA256": "2ba61e64c27b7e3660b90d78fe2efe42007adb36754ba31435ca8dc3ece9fa08"
+      },
+      "coordinatorReason": "가평군 가평읍 민원안내/서식자료 게시물240908은 보조기기 수리 신청서와 이 개인정보수집이용동의서를 함께 배포한다. 실제 첨부72921 전체692자를 읽어 장애인보조기기수리비용 지원 목적, 가평군지체장애인협회 제3자 제공,5년 보관, 신청인 서명의 빈 서식임을 확인했다. 현행 조례1870717 별지3 신청서20406221은 이 개인정보 수집·이용·제3자 제공동의서를 구비서류로 요구하며,2026년 가평군 서비스 메뉴판1쪽19행은 같은 수리센터 사업을 현재사업으로 특정한다. 동의서의 목적이 장애인에 한정되므로 해당 사업의 장애인 신청자만 추가서류로 연결한다."
+    },
+    {
+      "formId": "agency-41110-bokjiro-WLF00001375-20260814UUWBM1653260204979963",
+      "candidateId": "page-7ba2edb7e815906ac958",
+      "programIds": [
+        "g41110.bokjiro-WLF00001375"
+      ],
+      "programNames": [
+        "수원시 아동담당의 의료지원 사업"
+      ],
+      "sourceKind": "agency",
+      "formTitle": "수원시 아동담당의 의료비 등록·지원 신청서",
+      "sourceMetadataTitle": "행복e음 아동담당의.hwpx",
+      "verifiedDocumentTitle": "수원시 아동담당의 의료비 등록·지원 신청서",
+      "role": "application",
+      "use": "main",
+      "condition": "수원시 아동담당의 의료지원 등록을 신청할 때 붙임5 앞면과 보호자용 뒷면 동의를 사용합니다. 개인 신청은 구분란의 개인을 표시하고 증빙을 준비하며, 기관 추천은 실제 추천기관이 해당란을 작성합니다. 보건소 심의를 거쳐 선정되며 지정기간 내4회 이상 방문에 관한 현재 안내를 따릅니다. 붙임1~4 기관 지정·보안·결의·해지, 붙임6~10 의료기관 계획·치료추천·비용청구·지정서와 붙임11 쿠폰은 주민 신규신청 부분에서 제외합니다. 공식 안내의 일부 연2회 설명과 선정기준의4회 이상 표기가 달라 세부 횟수는 보건소의 현재 안내를 확인합니다.",
+      "regionCode": "41110",
+      "regionLabel": "경기 수원시",
+      "agencyName": "경기도 수원시 권선구보건소 건강관리과",
+      "authorityKind": "government",
+      "authorityEvidenceKind": "government",
+      "authorityEvidenceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00001375&wlfareInfoReldBztpCd=02",
+      "authorityEvidenceNote": "2026추진계획 전체15,463자와내장이미지5개를읽었다.본문은보호자또는기관의아동등록신청/추천과병원의등록비·치료비청구를분리한다.실제붙임5는기관/개인선택,아동·보호자·질환·추천사유·서명및법정대리인동의가있고현재exactWLF00001375도같은등록지원신청서/개인정보동의의보건소방문·우편제출을명시하고이파일을직접배포한다.지급처가의료기관이라는이유로주민신청을제외하지않았으며의료기관1~4/6~10과쿠폰11을선택부분에서제외했다.내장쿠폰은빈시안이며작성된개인정보는없다.",
+      "authorityBasis": {
+        "kind": "official-program",
+        "title": "수원시 아동담당의 의료지원 사업",
+        "evidenceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00001375&wlfareInfoReldBztpCd=02",
+        "checkedAt": "2026-10-19",
+        "evidenceNote": "2026추진계획 전체15,463자와내장이미지5개를읽었다.본문은보호자또는기관의아동등록신청/추천과병원의등록비·치료비청구를분리한다.실제붙임5는기관/개인선택,아동·보호자·질환·추천사유·서명및법정대리인동의가있고현재exactWLF00001375도같은등록지원신청서/개인정보동의의보건소방문·우편제출을명시하고이파일을직접배포한다.지급처가의료기관이라는이유로주민신청을제외하지않았으며의료기관1~4/6~10과쿠폰11을선택부분에서제외했다.내장쿠폰은빈시안이며작성된개인정보는없다.",
+        "pageSHA256": "3b44dba0f495b54df73a233879fc87b657eed2a63e2b92635ea6d42ab87b7638"
+      },
+      "sourcePageUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00001375&wlfareInfoReldBztpCd=02",
+      "sourceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twata/CmmFileUtil/getDownload.do?atcflId=20260814UUWBM1653260204979963&atcflSn=1&wlfareInfoId=WLF00001375",
+      "finalUrl": "https://www.bokjiro.go.kr/ssis-tbu/twata/CmmFileUtil/getDownload.do?atcflId=20260814UUWBM1653260204979963&atcflSn=1&wlfareInfoId=WLF00001375",
+      "attachmentId": "20260814UUWBM1653260204979963",
+      "attachmentIdentifier": {
+        "queryParam": "atcflId",
+        "value": "20260814UUWBM1653260204979963"
+      },
+      "sourcePageSha256": "3b44dba0f495b54df73a233879fc87b657eed2a63e2b92635ea6d42ab87b7638",
+      "sourcePageHttpStatus": 200,
+      "sourcePageProgramSpecific": true,
+      "sourcePageProgramId": "WLF00001375",
+      "programEvidenceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00001375&wlfareInfoReldBztpCd=02",
+      "evidenceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00001375&wlfareInfoReldBztpCd=02",
+      "evidenceNote": "2026추진계획 전체15,463자와내장이미지5개를읽었다.본문은보호자또는기관의아동등록신청/추천과병원의등록비·치료비청구를분리한다.실제붙임5는기관/개인선택,아동·보호자·질환·추천사유·서명및법정대리인동의가있고현재exactWLF00001375도같은등록지원신청서/개인정보동의의보건소방문·우편제출을명시하고이파일을직접배포한다.지급처가의료기관이라는이유로주민신청을제외하지않았으며의료기관1~4/6~10과쿠폰11을선택부분에서제외했다.내장쿠폰은빈시안이며작성된개인정보는없다.",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "fullBodyReviewed": true,
+      "independentBodyReview": true,
+      "sha256": "0cf8a7c1b9d681ca45c88681b3d7587ee582f318cef0ef31644d56b245bd6c19",
+      "bytes": 621686,
+      "originalFormat": "hwpx",
+      "originalPath": "pipeline/forms/originals/agency-41110-bokjiro-WLF00001375-20260814UUWBM1653260204979963.hwpx",
+      "textScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "Contents/section0.xml"
+      ],
+      "reviewedParts": [
+        {
+          "number": "붙임5",
+          "title": "수원시 아동담당의 의료비 등록･지원 신청서",
+          "use": "main",
+          "author": "대상 아동의 보호자 또는 실제 추천기관의 신청인"
+        },
+        {
+          "number": "붙임5",
+          "partLocation": "뒷면",
+          "title": "수원시 아동담당의 의료비 지원사업 개인정보 이용･제공 동의서(보호자용)",
+          "use": "additional",
+          "author": "대상 아동의 법정대리인·보호자"
+        }
+      ],
+      "selectedParts": [
+        {
+          "number": "붙임5",
+          "title": "수원시 아동담당의 의료비 등록･지원 신청서",
+          "use": "main",
+          "author": "대상 아동의 보호자 또는 실제 추천기관의 신청인"
+        },
+        {
+          "number": "붙임5",
+          "partLocation": "뒷면",
+          "title": "수원시 아동담당의 의료비 지원사업 개인정보 이용･제공 동의서(보호자용)",
+          "use": "additional",
+          "author": "대상 아동의 법정대리인·보호자"
+        }
+      ],
+      "applicant": "대상 아동의 보호자 또는 실제 추천기관의 신청인",
+      "roleBasis": "2026추진계획 전체15,463자와내장이미지5개를읽었다.본문은보호자또는기관의아동등록신청/추천과병원의등록비·치료비청구를분리한다.실제붙임5는기관/개인선택,아동·보호자·질환·추천사유·서명및법정대리인동의가있고현재exactWLF00001375도같은등록지원신청서/개인정보동의의보건소방문·우편제출을명시하고이파일을직접배포한다.지급처가의료기관이라는이유로주민신청을제외하지않았으며의료기관1~4/6~10과쿠폰11을선택부분에서제외했다.내장쿠폰은빈시안이며작성된개인정보는없다.",
+      "roleEvidenceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twata/CmmFileUtil/getDownload.do?atcflId=20260814UUWBM1653260204979963&atcflSn=1&wlfareInfoId=WLF00001375",
+      "roleCheckedAt": "2026-10-19",
+      "checkedAt": "2026-10-19",
+      "dateKind": "checked",
+      "effectiveDate": "2026-10-19",
+      "annexId": "",
+      "annexNumber": "",
+      "lawId": "",
+      "lawTitle": "",
+      "lawEvidenceUrl": "",
+      "lawEffectiveDate": "",
+      "lawCurrentCheckedAt": "",
+      "legalReferencesAsCited": [
+        "수원시 아동담당의 의료지원에 관한 조례"
+      ],
+      "currentUseConfirmed": true,
+      "noFilledPersonalDataObserved": true,
+      "proposalStatus": "ready_for_coordinator_exact_agency_gate",
+      "publicationApproved": false,
+      "sourceProof": {
+        "originalExtractionRecord": "logs/forms-completion/gyeonggi-20261019/extracted/page-7ba2edb7e815906ac958.json",
+        "actualOriginalBytesRechecked": true,
+        "sourcePageRecord": "logs/forms-completion/gyeonggi-20261019/current-pages/WLF00001375.json",
+        "sourcePageRecordSha256": "42d7148d8a05ae98bff3213295b758e7b5267cb6d88ab1a4c8a66f6d9eb008fb",
+        "directAttachmentOnExactProgramPage": true,
+        "freshHTTPStatus": 200,
+        "freshDownloadRecord": "logs/forms-completion/gyeonggi-20261019/team2/documents/verify-page-7ba2edb7e815906ac958.json"
+      },
+      "embeddedVisualReview": {
+        "allEmbeddedImagesReviewed": true,
+        "imageCount": 5,
+        "finding": "빈 의료지원 쿠폰 앞뒤2개와 화살표·더하기 장식3개. 실제 아동정보 없음.",
+        "images": [
+          {
+            "path": "logs/forms-completion/gyeonggi-20261019/team2/rendered/suwon-child-image1.jpg",
+            "sha256": "68275bcb4b28686cb0905796abfdf7486424a7bec6b3aecdaf3f47d0decab0a4"
+          },
+          {
+            "path": "logs/forms-completion/gyeonggi-20261019/team2/rendered/suwon-child-image2.jpg",
+            "sha256": "b93aa9b90ccf9eadb8b31eb24f07e7bcedab6d62a386d9aee2bc1e08256e218c"
+          },
+          {
+            "path": "logs/forms-completion/gyeonggi-20261019/team2/rendered/suwon-child-image3.bmp",
+            "sha256": "15efb4bba34bb865d4ae67899bdf74b63fcd36b6673c55e40f8dab6aa47ebc07"
+          },
+          {
+            "path": "logs/forms-completion/gyeonggi-20261019/team2/rendered/suwon-child-image4.bmp",
+            "sha256": "ac9b025b70aafed8cbcb3508424760016fd15511c40fd383c5269ca4a2f4a941"
+          },
+          {
+            "path": "logs/forms-completion/gyeonggi-20261019/team2/rendered/suwon-child-image5.bmp",
+            "sha256": "eddbcde08c12ca7156ae845884f92d33079afd6ed832f3a2ced297644fd29987"
+          }
+        ]
+      },
+      "excludedParts": [
+        {
+          "number": "붙임1~4,6~10",
+          "title": "의료기관 지정·보안·추진·해지·관리계획·치료추천·비용청구·지정서",
+          "reason": "기관업무단계로주민등록신청과다름"
+        },
+        {
+          "number": "붙임11",
+          "title": "수원시 아동 의료지원 쿠폰(안)",
+          "reason": "기관발급시안으로주민신청서가아님"
+        }
+      ],
+      "sourceIssues": [
+        {
+          "issue": "복지로지원내용일부에등록관리연2회표기가있으나같은페이지신청조건과2026계획은4회이상참여를명시",
+          "resolution": "실제주민등록신청과보호자동의부분만선택하고기관정산양식/기관청구조건을범위에포함하지않음.현재프로그램자격데이터는변경하지않음."
+        }
+      ],
+      "sourcePageClosingNoticeCheck": {
+        "titleAndFullBenefitTextRead": true,
+        "confirmedClosedNotice": false,
+        "checkedAt": "2026-10-19"
+      },
+      "coordinatorReason": "2026추진계획 전체15,463자와내장이미지5개를읽었다.본문은보호자또는기관의아동등록신청/추천과병원의등록비·치료비청구를분리한다.실제붙임5는기관/개인선택,아동·보호자·질환·추천사유·서명및법정대리인동의가있고현재exactWLF00001375도같은등록지원신청서/개인정보동의의보건소방문·우편제출을명시하고이파일을직접배포한다.지급처가의료기관이라는이유로주민신청을제외하지않았으며의료기관1~4/6~10과쿠폰11을선택부분에서제외했다.내장쿠폰은빈시안이며작성된개인정보는없다."
+    }
+  ],
+  "sourceReview": {
+    "coordinatorPlanSHA256": "8cd6226eea4e3f5152b40efd47468efb90169f30ea2705a99a077feeefaeca45",
+    "frozenScopeFile": "pipeline/forms/reviews/agency-originals-scope-round8010.json",
+    "frozenScopeSHA256": "5019cfa6e6bc14cd3b85a7c1c770ecfc5f3735737ea8b2eafecdd302c9811a59"
+  }
+}

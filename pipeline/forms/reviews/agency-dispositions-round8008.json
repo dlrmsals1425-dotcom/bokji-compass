@@ -1,0 +1,1245 @@
+{
+  "schema": 1,
+  "checkedAt": "2026-10-19",
+  "status": "complete",
+  "items": [
+    {
+      "formId": "agency-41360-bok-20260617UUWBM1339220197397350-1",
+      "sha256": "7646c5ae4285b8c9728184cd3ef278060d16203b2576fde338009464755ee0b8",
+      "disposition": "approved",
+      "fullBodyReviewed": true,
+      "reason": "10쪽 전체 본문과 렌더링을 확인했다. 4쪽 제출서류 목록은 붙임1·2와 임대차계약서 부재 시 붙임3을 명시하고 실제6~10쪽에 빈 작성 서식이 있다. 현재 복지로WLF00006419가 정확한 파일을 배포하고 정부24의 남양주 이사비399000000398(2026-09-01 수정)도 같은2026전입·19~39세·중위120%·최대40만원·잡아바 접수를 안내한다.",
+      "evidenceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00006419&wlfareInfoReldBztpCd=02",
+      "checkedAt": "2026-10-19",
+      "relatedProgramIds": [
+        "g41360.gov24-399000000398"
+      ],
+      "reviewedProgramPairs": [
+        {
+          "programId": "g41360.gov24-399000000398",
+          "disposition": "approved"
+        }
+      ],
+      "sourceProposal": "logs/forms-completion/gyeonggi-20261019/root/normalized-round8008.json",
+      "sourceProposalSHA256": "4871bfa1176cd13581a4875f9fc7759460d49377b3e1e40bb5ec1b860a4c56e2",
+      "sourceLawBodySHA256": null,
+      "sourcePageSHA256": "88fdd3f116a2bbb0dbad86a5c0978a2deb3cf4dd461062107f8d8f4d8308a439",
+      "authorityBasis": {
+        "kind": "official-program",
+        "title": "남양주시 청년 이사비 지원사업",
+        "evidenceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00006419&wlfareInfoReldBztpCd=02",
+        "checkedAt": "2026-10-19",
+        "evidenceNote": "10쪽 전체 본문과 렌더링을 확인했다. 4쪽 제출서류 목록은 붙임1·2와 임대차계약서 부재 시 붙임3을 명시하고 실제6~10쪽에 빈 작성 서식이 있다. 현재 복지로WLF00006419가 정확한 파일을 배포하고 정부24의 남양주 이사비399000000398(2026-09-01 수정)도 같은2026전입·19~39세·중위120%·최대40만원·잡아바 접수를 안내한다.",
+        "pageSHA256": "88fdd3f116a2bbb0dbad86a5c0978a2deb3cf4dd461062107f8d8f4d8308a439"
+      },
+      "selectedParts": [
+        {
+          "number": "붙임1 / 6쪽",
+          "title": "남양주시 청년 이사비 지원사업 신청서",
+          "use": "main",
+          "author": "청년 본인"
+        },
+        {
+          "number": "붙임2 / 7~9쪽",
+          "title": "개인정보 수집·이용 및 제3자 제공·조회 동의서",
+          "use": "additional",
+          "author": "청년 본인 및 해당 가구원"
+        },
+        {
+          "number": "붙임3 / 10쪽",
+          "title": "입실확인서",
+          "use": "conditional",
+          "author": "임대인 및 임차인"
+        }
+      ]
+    },
+    {
+      "formId": "agency-41820-bok-20260619UUWBM1546050197820233-1",
+      "sha256": "7d8aaacfed045df6fb011624b872c1de15b9ec0b4437abf2e830f29bc5786d63",
+      "disposition": "approved",
+      "fullBodyReviewed": true,
+      "reason": "5쪽 전체 본문과 렌더링을 확인했다. 3쪽은 신고시 별지1 작성 후 물품 배부를 명시하고4쪽은 전입/혼인/출생을 선택하는 빈 신청서다. 현재 복지로의 정확한 전입세대 환영물품 사업은 이 동일 파일을 직접 배포한다. 5쪽 기관 관리대장을 분리하였다.",
+      "evidenceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00006454&wlfareInfoReldBztpCd=02",
+      "checkedAt": "2026-10-19",
+      "relatedProgramIds": [
+        "g41820.bokjiro-WLF00006454"
+      ],
+      "reviewedProgramPairs": [
+        {
+          "programId": "g41820.bokjiro-WLF00006454",
+          "disposition": "approved"
+        }
+      ],
+      "sourceProposal": "logs/forms-completion/gyeonggi-20261019/root/normalized-round8008.json",
+      "sourceProposalSHA256": "4871bfa1176cd13581a4875f9fc7759460d49377b3e1e40bb5ec1b860a4c56e2",
+      "sourceLawBodySHA256": null,
+      "sourcePageSHA256": "13239f1ace3f449c095603aa02783c9ce226943ad9ddbe16621f1a17e5bdad60",
+      "authorityBasis": {
+        "kind": "official-program",
+        "title": "전입세대 환영물품 지급",
+        "evidenceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00006454&wlfareInfoReldBztpCd=02",
+        "checkedAt": "2026-10-19",
+        "evidenceNote": "5쪽 전체 본문과 렌더링을 확인했다. 3쪽은 신고시 별지1 작성 후 물품 배부를 명시하고4쪽은 전입/혼인/출생을 선택하는 빈 신청서다. 현재 복지로의 정확한 전입세대 환영물품 사업은 이 동일 파일을 직접 배포한다. 5쪽 기관 관리대장을 분리하였다.",
+        "pageSHA256": "13239f1ace3f449c095603aa02783c9ce226943ad9ddbe16621f1a17e5bdad60"
+      },
+      "selectedParts": [
+        {
+          "number": "별지 제1호서식 / 4쪽",
+          "title": "가평군 홍보(축하)물품 신청서 및 개인정보 동의",
+          "use": "main",
+          "author": "전입가구 신청인"
+        }
+      ]
+    },
+    {
+      "formId": "agency-41820-bok-20260619UUWBM1553510197822896-1",
+      "sha256": "7d8aaacfed045df6fb011624b872c1de15b9ec0b4437abf2e830f29bc5786d63",
+      "disposition": "approved",
+      "fullBodyReviewed": true,
+      "reason": "5쪽 원본은 가평 전입사업 첨부와 바이트SHA가 동일하다. 전체 본문·시각 대조에서 혼인/출생 선택란과 신청인 서명·개인정보 동의를 확인했다. 현재 정확한 혼인·출산 축하물품 복지로 사업은 별도의 첨부식별자로 이 동일 원본을 배포하므로 해당 사업 조건으로만 제안한다.",
+      "evidenceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00006455&wlfareInfoReldBztpCd=02",
+      "checkedAt": "2026-10-19",
+      "relatedProgramIds": [
+        "g41820.bokjiro-WLF00006455"
+      ],
+      "reviewedProgramPairs": [
+        {
+          "programId": "g41820.bokjiro-WLF00006455",
+          "disposition": "approved"
+        }
+      ],
+      "sourceProposal": "logs/forms-completion/gyeonggi-20261019/root/normalized-round8008.json",
+      "sourceProposalSHA256": "4871bfa1176cd13581a4875f9fc7759460d49377b3e1e40bb5ec1b860a4c56e2",
+      "sourceLawBodySHA256": null,
+      "sourcePageSHA256": "6f2148338a275d9826862e1aee6115505e02d82b29bbf4fd7e8d8f9b2875b6af",
+      "authorityBasis": {
+        "kind": "official-program",
+        "title": "가평군 혼인, 출산 축하물품 지급",
+        "evidenceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00006455&wlfareInfoReldBztpCd=02",
+        "checkedAt": "2026-10-19",
+        "evidenceNote": "5쪽 원본은 가평 전입사업 첨부와 바이트SHA가 동일하다. 전체 본문·시각 대조에서 혼인/출생 선택란과 신청인 서명·개인정보 동의를 확인했다. 현재 정확한 혼인·출산 축하물품 복지로 사업은 별도의 첨부식별자로 이 동일 원본을 배포하므로 해당 사업 조건으로만 제안한다.",
+        "pageSHA256": "6f2148338a275d9826862e1aee6115505e02d82b29bbf4fd7e8d8f9b2875b6af"
+      },
+      "selectedParts": [
+        {
+          "number": "별지 제1호서식 / 4쪽",
+          "title": "가평군 홍보(축하)물품 신청서 및 개인정보 동의",
+          "use": "main",
+          "author": "혼인·출생가구 신청인"
+        }
+      ]
+    },
+    {
+      "formId": "agency-41480-919-31c66a5c",
+      "sha256": "5741c494cc2f68bb859df9ff21b21279c23578b4595d505312acf4d3c6c02466",
+      "disposition": "approved",
+      "fullBodyReviewed": true,
+      "reason": "시청 민원편람의 정확한 서식919가 이 PDF를 직접 배포한다. 5쪽 전체 본문·렌더링에서 파주시장 수신, 육아휴직기간·중복특례 확인·계좌·본인서명과 별도 동의서를 확인했다. 현재 정부24의 동일 사업은2026휴직·1년거주·월30만원3개월과 온라인 접수를 안내하며 원본에 충돌하는 구금액·구연도가 없다.",
+      "evidenceUrl": "https://www.paju.go.kr/user/complaintsForm/BD_complaintsFormView.do?q_sn=919",
+      "checkedAt": "2026-10-19",
+      "relatedProgramIds": [
+        "g41480.gov24-406000000538"
+      ],
+      "reviewedProgramPairs": [
+        {
+          "programId": "g41480.gov24-406000000538",
+          "disposition": "approved"
+        }
+      ],
+      "sourceProposal": "logs/forms-completion/gyeonggi-20261019/root/normalized-round8008.json",
+      "sourceProposalSHA256": "4871bfa1176cd13581a4875f9fc7759460d49377b3e1e40bb5ec1b860a4c56e2",
+      "sourceLawBodySHA256": null,
+      "sourcePageSHA256": "d99ac37afdf1a1dd8280e33adc1d3e2a90fc2366a916be0ec32e7fc2fb348099",
+      "authorityBasis": {
+        "kind": "official-program",
+        "title": "파주시 아빠 육아휴직 장려금 지원 신청서 및 개인정보 동의서 공식 배포 안내",
+        "evidenceUrl": "https://www.paju.go.kr/user/complaintsForm/BD_complaintsFormView.do?q_sn=919",
+        "checkedAt": "2026-10-19",
+        "evidenceNote": "시청 민원편람의 정확한 서식919가 이 PDF를 직접 배포한다. 5쪽 전체 본문·렌더링에서 파주시장 수신, 육아휴직기간·중복특례 확인·계좌·본인서명과 별도 동의서를 확인했다. 현재 정부24의 동일 사업은2026휴직·1년거주·월30만원3개월과 온라인 접수를 안내하며 원본에 충돌하는 구금액·구연도가 없다.",
+        "pageSHA256": "d99ac37afdf1a1dd8280e33adc1d3e2a90fc2366a916be0ec32e7fc2fb348099"
+      },
+      "selectedParts": [
+        {
+          "number": "무번호 / PDF5쪽, 인쇄7쪽",
+          "title": "아빠 육아휴직 장려금 지원 신청서",
+          "use": "conditional",
+          "author": "신청 남성 육아휴직자"
+        },
+        {
+          "number": "붙임1 / PDF2~3쪽",
+          "title": "개인정보 수집·이용 및 제공동의서",
+          "use": "additional",
+          "author": "본인 및 필요한 법정대리인"
+        },
+        {
+          "number": "붙임2 / PDF4쪽",
+          "title": "개인정보 제3자 제공동의서",
+          "use": "additional",
+          "author": "본인 및 필요한 법정대리인"
+        }
+      ]
+    },
+    {
+      "formId": "agency-41310-162546",
+      "sha256": "7a63c610abd3263a652d872f692c4a67b89bb798d1c0b63f21e604c0e8861173",
+      "disposition": "approved",
+      "fullBodyReviewed": true,
+      "reason": "구리시2026-09-21수정 난임 지원 안내가 사실혼 추가서류로 링크한 공식 모자보건 민원서식 게시물44378에서 직접 다운로드했다. 전체Section0의 1년 이상 실질 혼인관계 확인·지원목적 한정·당사자2명 서명·구리보건소장 수신을 확인했고 구연도/소득180%/거주6개월 제한은 인쇄되어 있지 않다.",
+      "evidenceUrl": "https://www.guri.go.kr/health/selectBbsNttView.do?key=1243&bbsNo=493&nttNo=44378&searchCtgry=&searchCnd=all&searchKrwd=&integrDeptCode=&pageIndex=1",
+      "checkedAt": "2026-10-19",
+      "relatedProgramIds": [
+        "g41310.bokjiro-WLF00005283"
+      ],
+      "reviewedProgramPairs": [
+        {
+          "programId": "g41310.bokjiro-WLF00005283",
+          "disposition": "approved"
+        }
+      ],
+      "sourceProposal": "logs/forms-completion/gyeonggi-20261019/root/normalized-round8008.json",
+      "sourceProposalSHA256": "4871bfa1176cd13581a4875f9fc7759460d49377b3e1e40bb5ec1b860a4c56e2",
+      "sourceLawBodySHA256": null,
+      "sourcePageSHA256": "e09ebdbca5e94c584388fa79f6b47ddedd53928f2f6bb90bd21e70e32644d29a",
+      "authorityBasis": {
+        "kind": "official-program",
+        "title": "사실상 혼인관계 당사자의 보조생식술 동의서 공식 배포 안내",
+        "evidenceUrl": "https://www.guri.go.kr/health/selectBbsNttView.do?key=1243&bbsNo=493&nttNo=44378&searchCtgry=&searchCnd=all&searchKrwd=&integrDeptCode=&pageIndex=1",
+        "checkedAt": "2026-10-19",
+        "evidenceNote": "구리시2026-09-21수정 난임 지원 안내가 사실혼 추가서류로 링크한 공식 모자보건 민원서식 게시물44378에서 직접 다운로드했다. 전체Section0의 1년 이상 실질 혼인관계 확인·지원목적 한정·당사자2명 서명·구리보건소장 수신을 확인했고 구연도/소득180%/거주6개월 제한은 인쇄되어 있지 않다.",
+        "pageSHA256": "e09ebdbca5e94c584388fa79f6b47ddedd53928f2f6bb90bd21e70e32644d29a"
+      },
+      "selectedParts": [
+        {
+          "number": "서식 제10호",
+          "title": "사실상 혼인관계 당사자의 보조생식술 동의서",
+          "use": "conditional",
+          "author": "사실혼 당사자 두 명"
+        }
+      ]
+    },
+    {
+      "formId": "agency-41310-162547",
+      "sha256": "4f2676b98788be4ae329023fafdffe8c6dc79b2e88a94f9a3f63f1b4af1eddb4",
+      "disposition": "approved",
+      "fullBodyReviewed": true,
+      "reason": "현재 구리시보건소 난임 지원 페이지가 직접 연결한 게시물44378의 공식 빈 보증서다. 전체Section0에서 사실혼 당사자2명·동거 시작일·보증인2명 서명·보증인 정보처리 동의·구리보건소장 제출을 확인했다. 현재 안내의 생략 조건과1년 이상 사실혼 관계 확인용도에 맞는다.",
+      "evidenceUrl": "https://www.guri.go.kr/health/selectBbsNttView.do?key=1243&bbsNo=493&nttNo=44378&searchCtgry=&searchCnd=all&searchKrwd=&integrDeptCode=&pageIndex=1",
+      "checkedAt": "2026-10-19",
+      "relatedProgramIds": [
+        "g41310.bokjiro-WLF00005283"
+      ],
+      "reviewedProgramPairs": [
+        {
+          "programId": "g41310.bokjiro-WLF00005283",
+          "disposition": "approved"
+        }
+      ],
+      "sourceProposal": "logs/forms-completion/gyeonggi-20261019/root/normalized-round8008.json",
+      "sourceProposalSHA256": "4871bfa1176cd13581a4875f9fc7759460d49377b3e1e40bb5ec1b860a4c56e2",
+      "sourceLawBodySHA256": null,
+      "sourcePageSHA256": "e09ebdbca5e94c584388fa79f6b47ddedd53928f2f6bb90bd21e70e32644d29a",
+      "authorityBasis": {
+        "kind": "official-program",
+        "title": "사실혼 확인보증서 공식 배포 안내",
+        "evidenceUrl": "https://www.guri.go.kr/health/selectBbsNttView.do?key=1243&bbsNo=493&nttNo=44378&searchCtgry=&searchCnd=all&searchKrwd=&integrDeptCode=&pageIndex=1",
+        "checkedAt": "2026-10-19",
+        "evidenceNote": "현재 구리시보건소 난임 지원 페이지가 직접 연결한 게시물44378의 공식 빈 보증서다. 전체Section0에서 사실혼 당사자2명·동거 시작일·보증인2명 서명·보증인 정보처리 동의·구리보건소장 제출을 확인했다. 현재 안내의 생략 조건과1년 이상 사실혼 관계 확인용도에 맞는다.",
+        "pageSHA256": "e09ebdbca5e94c584388fa79f6b47ddedd53928f2f6bb90bd21e70e32644d29a"
+      },
+      "selectedParts": [
+        {
+          "number": "서식 8",
+          "title": "사실상 혼인관계 확인보증서",
+          "use": "conditional",
+          "author": "사실혼 당사자와 보증인 두 명"
+        }
+      ]
+    },
+    {
+      "formId": "agency-41670-bokjiro-WLF00001564-20260605UUWBM1431470195452020",
+      "sha256": "c5bfcff2f39d6cb121456f09fc329d838070aea6b5aaae028eac4ded1f5ba20c",
+      "disposition": "approved",
+      "fullBodyReviewed": true,
+      "reason": "전체3033자를 읽어 아빠육아휴직 대상자 선정·가구 건강보험료 및 거주 확인·6+6육아휴직 특례 확인을 위한 정보동의와 가구원 자필서명을 확인했다. 현재 정확한 WLF00001564와 수록 정부24 사업은1년 주소·중위소득150% 및6+6특례 제외를 안내하고 해당 동의를 첨부서류로 요구한다. 신청자·정보주체가 작성하는 부속서류이며 기관의 급여청구서가 아니다.",
+      "evidenceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00001564&wlfareInfoReldBztpCd=02",
+      "checkedAt": "2026-10-19",
+      "relatedProgramIds": [
+        "g41670.gov24-570000000104"
+      ],
+      "reviewedProgramPairs": [
+        {
+          "programId": "g41670.gov24-570000000104",
+          "disposition": "approved"
+        }
+      ],
+      "sourceProposal": "logs/forms-completion/gyeonggi-20261019/root/normalized-round8008.json",
+      "sourceProposalSHA256": "4871bfa1176cd13581a4875f9fc7759460d49377b3e1e40bb5ec1b860a4c56e2",
+      "sourceLawBodySHA256": null,
+      "sourcePageSHA256": "52a93d09cfa917a599e74cbcda6989164d972703eff9af12625cb0502cc6d107",
+      "authorityBasis": {
+        "kind": "official-program",
+        "title": "아빠 육아휴직 장려금 지원 사업",
+        "evidenceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00001564&wlfareInfoReldBztpCd=02",
+        "checkedAt": "2026-10-19",
+        "evidenceNote": "전체3033자를 읽어 아빠육아휴직 대상자 선정·가구 건강보험료 및 거주 확인·6+6육아휴직 특례 확인을 위한 정보동의와 가구원 자필서명을 확인했다. 현재 정확한 WLF00001564와 수록 정부24 사업은1년 주소·중위소득150% 및6+6특례 제외를 안내하고 해당 동의를 첨부서류로 요구한다. 신청자·정보주체가 작성하는 부속서류이며 기관의 급여청구서가 아니다.",
+        "pageSHA256": "52a93d09cfa917a599e74cbcda6989164d972703eff9af12625cb0502cc6d107"
+      },
+      "selectedParts": [
+        {
+          "number": "붙임1",
+          "title": "개인정보 수집·이용 및 제공 동의서",
+          "use": "additional",
+          "author": "신청자 및 해당 가구원, 필요한 경우 법정대리인"
+        },
+        {
+          "number": "붙임2",
+          "title": "개인정보 제3자 제공 동의서",
+          "use": "additional",
+          "author": "신청자 및 필요한 경우 법정대리인"
+        }
+      ]
+    },
+    {
+      "formId": "agency-41590-hscity-784039-7728d704-8591-4020-86b2-ea30c02c02a1",
+      "sha256": "4060191cc5cd2d8f2b85b97eb92da9cdb34bb28fff787f24794e8f9b585fd5be",
+      "disposition": "approved",
+      "fullBodyReviewed": true,
+      "reason": "2026-09-29 시청 행정복지센터의 노인보청기 사업 재개 공고와 정확한 공개 첨부를 직접 GET했다. 전체5565자 원본을 읽어 최초 지원선정 신청의 첫 빈 별지1과 뒤 동의가 신청인 작성 서류임을 확인했다. 이 현행 배포본은 옛 복지로 파일의 지정업체3곳 제한을 화성시 소재 장애인 보조기기 등록업소로 고쳤으며 실제 재개 공고와 일치한다. 1년 주소·65세·수급/차상위·난청·5년 중복제한 및 최대117만9천원 지원의 동일 사업이고 현재 WLF00005079 원문과 대상·목적을 대조했다. 작성예시와 후속 청구·공무원확인·위임 부분은 모두 읽었지만 최초 주민신청의 선택부분에는 포함하지 않는다.",
+      "evidenceUrl": "https://www.hscity.go.kr/town/user/bbs/BD_selectBbs.do?q_bbsCode=1049&q_bbscttSn=20260929151107489",
+      "checkedAt": "2026-10-19",
+      "relatedProgramIds": [
+        "g41590.bokjiro-WLF00005079"
+      ],
+      "reviewedProgramPairs": [
+        {
+          "programId": "g41590.bokjiro-WLF00005079",
+          "disposition": "approved"
+        }
+      ],
+      "sourceProposal": "logs/forms-completion/gyeonggi-20261019/root/normalized-round8008.json",
+      "sourceProposalSHA256": "4871bfa1176cd13581a4875f9fc7759460d49377b3e1e40bb5ec1b860a4c56e2",
+      "sourceLawBodySHA256": null,
+      "sourcePageSHA256": "ac9ee5d29d6a580245be02bb7e0294b2f550cc251d3bd39ad059add0c4a42546",
+      "authorityBasis": {
+        "kind": "official-program",
+        "title": "화성시 노인 보청기 구입비 지원 신청서 공식 배포 안내",
+        "evidenceUrl": "https://www.hscity.go.kr/town/user/bbs/BD_selectBbs.do?q_bbsCode=1049&q_bbscttSn=20260929151107489",
+        "checkedAt": "2026-10-19",
+        "evidenceNote": "2026-09-29 시청 행정복지센터의 노인보청기 사업 재개 공고와 정확한 공개 첨부를 직접 GET했다. 전체5565자 원본을 읽어 최초 지원선정 신청의 첫 빈 별지1과 뒤 동의가 신청인 작성 서류임을 확인했다. 이 현행 배포본은 옛 복지로 파일의 지정업체3곳 제한을 화성시 소재 장애인 보조기기 등록업소로 고쳤으며 실제 재개 공고와 일치한다. 1년 주소·65세·수급/차상위·난청·5년 중복제한 및 최대117만9천원 지원의 동일 사업이고 현재 WLF00005079 원문과 대상·목적을 대조했다. 작성예시와 후속 청구·공무원확인·위임 부분은 모두 읽었지만 최초 주민신청의 선택부분에는 포함하지 않는다.",
+        "pageSHA256": "ac9ee5d29d6a580245be02bb7e0294b2f550cc251d3bd39ad059add0c4a42546"
+      },
+      "selectedParts": [
+        {
+          "number": "1",
+          "title": "화성시 노인 보청기 구입비 지원 신청서",
+          "use": "main",
+          "author": "보청기 지원을 신청하는 노인",
+          "selection": "묶음 첫 번째 빈 서식 앞·뒷면(작성 예시와 구분)"
+        }
+      ]
+    },
+    {
+      "formId": "agency-41550-bokjiro-WLF00006699-20260616UUWBM2113570197312184",
+      "sha256": "79e1695b76a487ec75694fc686aea1e953b64dfa3093d1bff4df4e37a63099d2",
+      "disposition": "approved",
+      "fullBodyReviewed": true,
+      "reason": "사업안내(안)라는 파일명이지만 전체4560자 안에2026 시행계획과 주민 작성 서식1 신청·2 동의·3 타인계좌 신청이 실제 포함된다. 앞쪽 III는 읍면동 신청자·서식1/2와 주거급여 병행접수를, IV는 본인 일반계좌가 없는 경우에만 서식3으로 가족·지인 계좌를 사용하는 조건을 명시한다. 현재 정확한 WLF00006699 페이지의 안성 수급탈락 후 긴급생계비 선정6개월 이내 가구, 임차료 기준50% 지급 및 읍면동 접수와 일치하고 그 페이지가 이 원본을 직접 배포한다. 주민 신청과 별도 기관보고를 혼동하지 않았다.",
+      "evidenceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00006699&wlfareInfoReldBztpCd=02",
+      "checkedAt": "2026-10-19",
+      "relatedProgramIds": [
+        "g41550.bokjiro-WLF00006699"
+      ],
+      "reviewedProgramPairs": [
+        {
+          "programId": "g41550.bokjiro-WLF00006699",
+          "disposition": "approved"
+        }
+      ],
+      "sourceProposal": "logs/forms-completion/gyeonggi-20261019/root/normalized-round8008.json",
+      "sourceProposalSHA256": "4871bfa1176cd13581a4875f9fc7759460d49377b3e1e40bb5ec1b860a4c56e2",
+      "sourceLawBodySHA256": null,
+      "sourcePageSHA256": "aee1a0dd026dc1632444e951d8b84c8ea0d03096d76700e9f8d6aad16adf55b2",
+      "authorityBasis": {
+        "kind": "official-program",
+        "title": "안성맞춤 주택바우처",
+        "evidenceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00006699&wlfareInfoReldBztpCd=02",
+        "checkedAt": "2026-10-19",
+        "evidenceNote": "사업안내(안)라는 파일명이지만 전체4560자 안에2026 시행계획과 주민 작성 서식1 신청·2 동의·3 타인계좌 신청이 실제 포함된다. 앞쪽 III는 읍면동 신청자·서식1/2와 주거급여 병행접수를, IV는 본인 일반계좌가 없는 경우에만 서식3으로 가족·지인 계좌를 사용하는 조건을 명시한다. 현재 정확한 WLF00006699 페이지의 안성 수급탈락 후 긴급생계비 선정6개월 이내 가구, 임차료 기준50% 지급 및 읍면동 접수와 일치하고 그 페이지가 이 원본을 직접 배포한다. 주민 신청과 별도 기관보고를 혼동하지 않았다.",
+        "pageSHA256": "aee1a0dd026dc1632444e951d8b84c8ea0d03096d76700e9f8d6aad16adf55b2"
+      },
+      "selectedParts": [
+        {
+          "number": "1",
+          "title": "안성맞춤 주택바우처 (변경)신청서",
+          "use": "main",
+          "author": "지원 대상 가구의 신청인"
+        },
+        {
+          "number": "2",
+          "title": "개인정보 수집 및 이용 동의서",
+          "use": "additional",
+          "author": "신청 정보주체"
+        },
+        {
+          "number": "3",
+          "title": "안성맞춤 주택바우처 타인계좌 입금 신청서",
+          "use": "conditional",
+          "author": "가구주와 계좌 예금주"
+        }
+      ]
+    },
+    {
+      "formId": "agency-41670-bokjiro-WLF00005933-20250604UUWBM1434520140648644",
+      "sha256": "07c5c397f1b18d770867e2afec353fb94b6612e981ec67eb0ff6adb4540689c6",
+      "disposition": "approved",
+      "fullBodyReviewed": true,
+      "reason": "조례문과 뒤의 실제 별지1 앞·뒷면 전체3602자를 읽었다. 제7조는 출생·사산일부터6개월 이내 신청서와 지출증빙을 제출하도록 하고, 원본은 산모·신청인·출생아·사용처·계좌·금액·서명과 개인정보 동의를 받는다. 현재 정확한 WLF00005933이 이 HWPX를 배포하며100만원 본인부담 정산을 안내한다. 같은 수록 정부24 570000000140을 직접 GET하여 신청일 기준6개월 주소,2025년 이후 출생,4개 사용처,산모통장 및신청서·동의 제출을 추가 확인했다. 복지로 요약의 출생일 기준이라는 표현과 상세 선정기준의 신청일 기준 차이는 숨기지 않고, 현재 정부24와 원문 조문의 신청일 기준을 대조 근거로 기록했다.",
+      "evidenceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00005933&wlfareInfoReldBztpCd=02",
+      "checkedAt": "2026-10-19",
+      "relatedProgramIds": [
+        "g41670.gov24-570000000140"
+      ],
+      "reviewedProgramPairs": [
+        {
+          "programId": "g41670.gov24-570000000140",
+          "disposition": "approved"
+        }
+      ],
+      "sourceProposal": "logs/forms-completion/gyeonggi-20261019/root/normalized-round8008.json",
+      "sourceProposalSHA256": "4871bfa1176cd13581a4875f9fc7759460d49377b3e1e40bb5ec1b860a4c56e2",
+      "sourceLawBodySHA256": null,
+      "sourcePageSHA256": "11df456dbf30a73ab7b531af9033f264d1208a274c2dc61d92bdc24b6345955a",
+      "authorityBasis": {
+        "kind": "official-program",
+        "title": "여주시 산후조리비 지원사업",
+        "evidenceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00005933&wlfareInfoReldBztpCd=02",
+        "checkedAt": "2026-10-19",
+        "evidenceNote": "조례문과 뒤의 실제 별지1 앞·뒷면 전체3602자를 읽었다. 제7조는 출생·사산일부터6개월 이내 신청서와 지출증빙을 제출하도록 하고, 원본은 산모·신청인·출생아·사용처·계좌·금액·서명과 개인정보 동의를 받는다. 현재 정확한 WLF00005933이 이 HWPX를 배포하며100만원 본인부담 정산을 안내한다. 같은 수록 정부24 570000000140을 직접 GET하여 신청일 기준6개월 주소,2025년 이후 출생,4개 사용처,산모통장 및신청서·동의 제출을 추가 확인했다. 복지로 요약의 출생일 기준이라는 표현과 상세 선정기준의 신청일 기준 차이는 숨기지 않고, 현재 정부24와 원문 조문의 신청일 기준을 대조 근거로 기록했다.",
+        "pageSHA256": "11df456dbf30a73ab7b531af9033f264d1208a274c2dc61d92bdc24b6345955a"
+      },
+      "selectedParts": [
+        {
+          "number": "1",
+          "title": "여주시 산후조리비 지원 신청서",
+          "use": "main",
+          "author": "산모 또는 배우자, 정당한 위임을 받은 친족"
+        },
+        {
+          "number": "1",
+          "title": "여주시 산후조리비 지원 개인정보 제공 동의서",
+          "use": "additional",
+          "author": "신청 관련 정보주체",
+          "partLocation": "뒷면"
+        }
+      ]
+    },
+    {
+      "formId": "agency-41110-bokjiro-WLF00005426-20260609UUWBM1800140196102714",
+      "sha256": "b91f9b0ee767c31e842301e46e5b10dcbd26d1e4d490efe8b3b549aa7a0aa768",
+      "disposition": "approved",
+      "fullBodyReviewed": true,
+      "reason": "3개 본문 섹션 21,968자 전체를 읽었다. 현재 정확한 수원 WLF00005426가 이 지침을 직접 배포하고 지원액40만원·소득조건 및 각동 방문접수와 일치한다. II 신청접수는 주민 본인/제한된 대리인의 신청서·서약서 제출을 정하며 실제 빈 서식1은 전세보증·납부액·본인계좌·개인정보 동의·신청 서명으로 구성된다. 서식2의 대리권은 같은 지원 신청에만 한정한다. 서식9의2025 고정 날짜 및 기관용 서식3/5/7/8/10은 제외하며 가상 홍길동 예시는 실제 작성된 개인정보로 보지 않지만 선택 부분에 포함하지 않는다.",
+      "evidenceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00005426&wlfareInfoReldBztpCd=02",
+      "checkedAt": "2026-10-19",
+      "relatedProgramIds": [
+        "g41110.bokjiro-WLF00005426"
+      ],
+      "reviewedProgramPairs": [
+        {
+          "programId": "g41110.bokjiro-WLF00005426",
+          "disposition": "approved"
+        }
+      ],
+      "sourceProposal": "logs/forms-completion/gyeonggi-20261019/root/normalized-round8008.json",
+      "sourceProposalSHA256": "4871bfa1176cd13581a4875f9fc7759460d49377b3e1e40bb5ec1b860a4c56e2",
+      "sourceLawBodySHA256": null,
+      "sourcePageSHA256": "04bf97d743a287d8284c8b6502325b45bd7e2996633d7f919f0cc0ab788b1b36",
+      "authorityBasis": {
+        "kind": "official-program",
+        "title": "전세보증금 반환보증 보증료 지원사업",
+        "evidenceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00005426&wlfareInfoReldBztpCd=02",
+        "checkedAt": "2026-10-19",
+        "evidenceNote": "3개 본문 섹션 21,968자 전체를 읽었다. 현재 정확한 수원 WLF00005426가 이 지침을 직접 배포하고 지원액40만원·소득조건 및 각동 방문접수와 일치한다. II 신청접수는 주민 본인/제한된 대리인의 신청서·서약서 제출을 정하며 실제 빈 서식1은 전세보증·납부액·본인계좌·개인정보 동의·신청 서명으로 구성된다. 서식2의 대리권은 같은 지원 신청에만 한정한다. 서식9의2025 고정 날짜 및 기관용 서식3/5/7/8/10은 제외하며 가상 홍길동 예시는 실제 작성된 개인정보로 보지 않지만 선택 부분에 포함하지 않는다.",
+        "pageSHA256": "04bf97d743a287d8284c8b6502325b45bd7e2996633d7f919f0cc0ab788b1b36"
+      },
+      "selectedParts": [
+        {
+          "number": "1",
+          "title": "전세보증금반환보증 보증료 지원 신청서",
+          "use": "main",
+          "author": "보증료 지원 대상 임차인 또는 적법한 대리인"
+        },
+        {
+          "number": "2",
+          "title": "위임장",
+          "use": "conditional",
+          "author": "지원 신청을 위임하는 임차인과 대리인"
+        }
+      ]
+    },
+    {
+      "formId": "agency-41500-bokjiro-WLF00004612-20250530UUWBM0958080140065366",
+      "sha256": "6c9b2985fe03db667df1c3c41740ad339eb67f85d2f2896df0b17ea7475a8603",
+      "disposition": "approved",
+      "fullBodyReviewed": true,
+      "reason": "조례1~12조·부칙·실제별지1/2를포함한PDF5쪽3,606자전체를읽었다.2024개정부칙은2025-01-01시행,제5조는초30만원/중고50만원입학지원,제7조는입학후6개월내1호신청과입학확인/통장자료를지정한다. 현재exactWLF00004612(수록gov24-407000000102의병합출처)가동일PDF를직접배포하며지원대상·금액·6개월기한이일치한다. 입양시지급하던옛장려금이나기관입양알선비용과혼동하지않고,2호는기관대장으로제외했다.",
+      "evidenceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00004612&wlfareInfoReldBztpCd=02",
+      "checkedAt": "2026-10-19",
+      "relatedProgramIds": [
+        "g41500.gov24-407000000102"
+      ],
+      "reviewedProgramPairs": [
+        {
+          "programId": "g41500.gov24-407000000102",
+          "disposition": "approved"
+        }
+      ],
+      "sourceProposal": "logs/forms-completion/gyeonggi-20261019/root/normalized-round8008.json",
+      "sourceProposalSHA256": "4871bfa1176cd13581a4875f9fc7759460d49377b3e1e40bb5ec1b860a4c56e2",
+      "sourceLawBodySHA256": null,
+      "sourcePageSHA256": "6fd78d78f5f1145c59e116ee5a5408c253046a2d3e10a779272ffe084ec58300",
+      "authorityBasis": {
+        "kind": "official-program",
+        "title": "입양아동 입학지원금 지급",
+        "evidenceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00004612&wlfareInfoReldBztpCd=02",
+        "checkedAt": "2026-10-19",
+        "evidenceNote": "조례1~12조·부칙·실제별지1/2를포함한PDF5쪽3,606자전체를읽었다.2024개정부칙은2025-01-01시행,제5조는초30만원/중고50만원입학지원,제7조는입학후6개월내1호신청과입학확인/통장자료를지정한다. 현재exactWLF00004612(수록gov24-407000000102의병합출처)가동일PDF를직접배포하며지원대상·금액·6개월기한이일치한다. 입양시지급하던옛장려금이나기관입양알선비용과혼동하지않고,2호는기관대장으로제외했다.",
+        "pageSHA256": "6fd78d78f5f1145c59e116ee5a5408c253046a2d3e10a779272ffe084ec58300"
+      },
+      "selectedParts": [
+        {
+          "number": "1",
+          "title": "입양아동 입학지원금 지원 신청서",
+          "use": "main",
+          "author": "입학한 입양아동의 입양부모 등 신청인"
+        }
+      ]
+    },
+    {
+      "formId": "agency-41500-bokjiro-WLF00001595-9668GOWF14GOWF149668",
+      "sha256": "0ca6766b7aedb3dc19666bc30679d7bb308a460e61c0cc0af7815275bb9a8a8d",
+      "disposition": "approved",
+      "fullBodyReviewed": true,
+      "reason": "당직조치매뉴얼전체3,526자와내장사진1개를읽었다.귀향여비요청자확인후승차권선지급과수령증작성·신분증사본을구분하고제4항은명시적으로대상자작성,당직실비치라고기재한다. 빈수령증은실제지급사유·금액·수령인서명/이천시장수신으로구성된다. 현재WLF00001595는귀향경제무능력자의교통비실비·결정후즉시버스승차권구입및신청창구를명시하고동일원본을배포한다.제3항경찰인계서와숙박시설정보는주민작성부분에서제외한다.",
+      "evidenceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00001595&wlfareInfoReldBztpCd=02",
+      "checkedAt": "2026-10-19",
+      "relatedProgramIds": [
+        "g41500.bokjiro-WLF00001595"
+      ],
+      "reviewedProgramPairs": [
+        {
+          "programId": "g41500.bokjiro-WLF00001595",
+          "disposition": "approved"
+        }
+      ],
+      "sourceProposal": "logs/forms-completion/gyeonggi-20261019/root/normalized-round8008.json",
+      "sourceProposalSHA256": "4871bfa1176cd13581a4875f9fc7759460d49377b3e1e40bb5ec1b860a4c56e2",
+      "sourceLawBodySHA256": null,
+      "sourcePageSHA256": "cbf5206acdc632ffc16413c03f0fd262af89bd9cfde7af366d3f755a45381d28",
+      "authorityBasis": {
+        "kind": "official-program",
+        "title": "노숙자 구호비 등",
+        "evidenceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00001595&wlfareInfoReldBztpCd=02",
+        "checkedAt": "2026-10-19",
+        "evidenceNote": "당직조치매뉴얼전체3,526자와내장사진1개를읽었다.귀향여비요청자확인후승차권선지급과수령증작성·신분증사본을구분하고제4항은명시적으로대상자작성,당직실비치라고기재한다. 빈수령증은실제지급사유·금액·수령인서명/이천시장수신으로구성된다. 현재WLF00001595는귀향경제무능력자의교통비실비·결정후즉시버스승차권구입및신청창구를명시하고동일원본을배포한다.제3항경찰인계서와숙박시설정보는주민작성부분에서제외한다.",
+        "pageSHA256": "cbf5206acdc632ffc16413c03f0fd262af89bd9cfde7af366d3f755a45381d28"
+      },
+      "selectedParts": [
+        {
+          "number": "인쇄 번호 없음",
+          "partLocation": "매뉴얼 제4항",
+          "title": "행려자(부랑인) 귀향여비 수령증",
+          "use": "conditional",
+          "author": "귀향여비를 실제 수령한 대상자"
+        }
+      ]
+    },
+    {
+      "formId": "agency-41370-bokjiro-WLF00001044-20260616UUWBM1037410197146166",
+      "sha256": "1d9c0b93fdafcccc0588e68f55c740e394c78058f12dc83b05c4873521e0d249",
+      "disposition": "approved",
+      "fullBodyReviewed": true,
+      "reason": "2026계획의2개본문섹션4,184자를모두읽었다.5개한부모사업중안경구입비는매월수시신청,연5만원·18세미만/고교재학기준및증빙을명시하고붙임2는부모/보호자서명·개인정보동의가있는빈신청이다. 현재exactWLF00001044가같은파일을직접배포하고초중고재학생·연5만원·동주민센터신청을명시한다.같은SHA가다른4사업에도배포되지만그사업용신청으로복제승인하지않으며3월마감대학입학금붙임1을제외했다.",
+      "evidenceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00001044&wlfareInfoReldBztpCd=02",
+      "checkedAt": "2026-10-19",
+      "relatedProgramIds": [
+        "g41370.bokjiro-WLF00001044"
+      ],
+      "reviewedProgramPairs": [
+        {
+          "programId": "g41370.bokjiro-WLF00001044",
+          "disposition": "approved"
+        }
+      ],
+      "sourceProposal": "logs/forms-completion/gyeonggi-20261019/root/normalized-round8008.json",
+      "sourceProposalSHA256": "4871bfa1176cd13581a4875f9fc7759460d49377b3e1e40bb5ec1b860a4c56e2",
+      "sourceLawBodySHA256": null,
+      "sourcePageSHA256": "6b29c0a28f0b0c0458d3d0d579fd98339ccabf97d9d58d604cef42ac9a1ed8f1",
+      "authorityBasis": {
+        "kind": "official-program",
+        "title": "저소득 한부모가족 안경 구입비 지원",
+        "evidenceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00001044&wlfareInfoReldBztpCd=02",
+        "checkedAt": "2026-10-19",
+        "evidenceNote": "2026계획의2개본문섹션4,184자를모두읽었다.5개한부모사업중안경구입비는매월수시신청,연5만원·18세미만/고교재학기준및증빙을명시하고붙임2는부모/보호자서명·개인정보동의가있는빈신청이다. 현재exactWLF00001044가같은파일을직접배포하고초중고재학생·연5만원·동주민센터신청을명시한다.같은SHA가다른4사업에도배포되지만그사업용신청으로복제승인하지않으며3월마감대학입학금붙임1을제외했다.",
+        "pageSHA256": "6b29c0a28f0b0c0458d3d0d579fd98339ccabf97d9d58d604cef42ac9a1ed8f1"
+      },
+      "selectedParts": [
+        {
+          "number": "붙임2",
+          "title": "안경구입비 지원신청서",
+          "use": "main",
+          "author": "오산시 한부모가족 재학 아동의 부모 또는 보호자"
+        }
+      ]
+    },
+    {
+      "formId": "agency-41130-bokjiro-WLF00004843-20260730UUWBM1416490202996361",
+      "sha256": "ef3e6deecc1c077e60281ef99a70a2a7daa5bbd53f46732bd7571e901399eb91",
+      "disposition": "approved",
+      "fullBodyReviewed": true,
+      "reason": "2026지침1개본문섹션12,264자와내장그림4개전부를읽었다.현재exactWLF00004843의성남거주/성남현장건설일용노동자·접종후2개월·90%최대45,000원·방문/등기신청과원본이일치한다.실제서식1은노동자의접종·사업장·계좌·서명,위임과뒤동의/확약이며업체지원신청이아니다.서식2의대리수령은지침본문과양식모두압류/계좌개설불가증빙및양측서명을명시하므로그경우로만제한한다.서식3환수통지는기관전용으로제외했다.",
+      "evidenceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00004843&wlfareInfoReldBztpCd=02",
+      "checkedAt": "2026-10-19",
+      "relatedProgramIds": [
+        "g41130.bokjiro-WLF00004843"
+      ],
+      "reviewedProgramPairs": [
+        {
+          "programId": "g41130.bokjiro-WLF00004843",
+          "disposition": "approved"
+        }
+      ],
+      "sourceProposal": "logs/forms-completion/gyeonggi-20261019/root/normalized-round8008.json",
+      "sourceProposalSHA256": "4871bfa1176cd13581a4875f9fc7759460d49377b3e1e40bb5ec1b860a4c56e2",
+      "sourceLawBodySHA256": null,
+      "sourcePageSHA256": "0732765eba8408489917232b73241a0bb0539c2733172ea336b18deaa6d33b32",
+      "authorityBasis": {
+        "kind": "official-program",
+        "title": "성남시 건설일용노동자 파상풍 예방접종비 지원사업",
+        "evidenceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00004843&wlfareInfoReldBztpCd=02",
+        "checkedAt": "2026-10-19",
+        "evidenceNote": "2026지침1개본문섹션12,264자와내장그림4개전부를읽었다.현재exactWLF00004843의성남거주/성남현장건설일용노동자·접종후2개월·90%최대45,000원·방문/등기신청과원본이일치한다.실제서식1은노동자의접종·사업장·계좌·서명,위임과뒤동의/확약이며업체지원신청이아니다.서식2의대리수령은지침본문과양식모두압류/계좌개설불가증빙및양측서명을명시하므로그경우로만제한한다.서식3환수통지는기관전용으로제외했다.",
+        "pageSHA256": "0732765eba8408489917232b73241a0bb0539c2733172ea336b18deaa6d33b32"
+      },
+      "selectedParts": [
+        {
+          "number": "1",
+          "title": "성남시 건설일용노동자 파상풍 예방접종비 지원 신청서",
+          "use": "main",
+          "author": "예방접종을 받은 건설일용노동자 또는 적법한 대리인"
+        },
+        {
+          "number": "1",
+          "partLocation": "앞쪽 대리신청란",
+          "title": "성남시 건설일용노동자 파상풍 예방접종비 지원 신청 위임장",
+          "use": "conditional",
+          "author": "신청을 위임하는 대상 노동자"
+        },
+        {
+          "number": "1",
+          "partLocation": "뒤쪽",
+          "title": "행정정보 공동이용 사전동의서",
+          "use": "conditional",
+          "author": "신청 정보주체"
+        },
+        {
+          "number": "1",
+          "partLocation": "뒤쪽",
+          "title": "개인정보 수집·이용 및 제3자 제공 동의서",
+          "use": "additional",
+          "author": "신청 정보주체"
+        },
+        {
+          "number": "1",
+          "partLocation": "뒤쪽",
+          "title": "부정수급 관련 확약서",
+          "use": "additional",
+          "author": "지원 신청인"
+        },
+        {
+          "number": "2",
+          "title": "건설일용노동자 파상풍 예방접종비 지원 대리수령 신청서",
+          "use": "conditional",
+          "author": "지원 신청인과 대리수령 계좌 명의자"
+        }
+      ]
+    },
+    {
+      "formId": "agency-41460-bokjiro-WLF00006180-20230523UUWBM1336260035790168",
+      "sha256": "d4d873f4a6d5f9738cb15bc0477d83fbc5c2ab0d22d30c7cb769b7ad7889a408",
+      "disposition": "approved",
+      "fullBodyReviewed": true,
+      "reason": "한국어와영어예진표전체6,768자를읽었다.실제성명·건강문진·정보/문자동의·피접종자또는보호자서명과의사기록란이분리되어있다.현재정확한WLF00006180은용인65세이상기초수급자의대상포진접종절차에예진표작성을명시하고이동일HWP를직접배포한다.주민의접종준비부속자료로연결하며현금지급주신청이나의사만작성하는기관서식으로분류하지않는다.문자동의선택과의사예진란의작성주체를유지한다.",
+      "evidenceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00006180&wlfareInfoReldBztpCd=02",
+      "checkedAt": "2026-10-19",
+      "relatedProgramIds": [
+        "g41460.bokjiro-WLF00006180"
+      ],
+      "reviewedProgramPairs": [
+        {
+          "programId": "g41460.bokjiro-WLF00006180",
+          "disposition": "approved"
+        }
+      ],
+      "sourceProposal": "logs/forms-completion/gyeonggi-20261019/root/normalized-round8008.json",
+      "sourceProposalSHA256": "4871bfa1176cd13581a4875f9fc7759460d49377b3e1e40bb5ec1b860a4c56e2",
+      "sourceLawBodySHA256": null,
+      "sourcePageSHA256": "c8827a1edfea1719bf0f5b8023c803bba8a6a66d3355b1d444fda47977ffc557",
+      "authorityBasis": {
+        "kind": "official-program",
+        "title": "용인시 취약계층 어르신 대상포진 무료 예방접종",
+        "evidenceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00006180&wlfareInfoReldBztpCd=02",
+        "checkedAt": "2026-10-19",
+        "evidenceNote": "한국어와영어예진표전체6,768자를읽었다.실제성명·건강문진·정보/문자동의·피접종자또는보호자서명과의사기록란이분리되어있다.현재정확한WLF00006180은용인65세이상기초수급자의대상포진접종절차에예진표작성을명시하고이동일HWP를직접배포한다.주민의접종준비부속자료로연결하며현금지급주신청이나의사만작성하는기관서식으로분류하지않는다.문자동의선택과의사예진란의작성주체를유지한다.",
+        "pageSHA256": "c8827a1edfea1719bf0f5b8023c803bba8a6a66d3355b1d444fda47977ffc557"
+      },
+      "selectedParts": [
+        {
+          "number": "1",
+          "title": "예방접종 예진표",
+          "use": "additional",
+          "author": "피접종자 또는 법정대리인·보호자, 의사예진란은 의사"
+        },
+        {
+          "number": "1",
+          "partLocation": "영문판",
+          "title": "Immunization Screening Questionnaire",
+          "use": "conditional",
+          "author": "영문 작성이 필요한 피접종자 또는 법정대리인·보호자, 의사기록란은 의사"
+        }
+      ]
+    },
+    {
+      "formId": "agency-41270-ansanuc-registration-24597",
+      "sha256": "1043f85d82a20e9286363a950f4496b4df4897fe0a10efa1d6112e25b1d830b3",
+      "disposition": "approved",
+      "fullBodyReviewed": true,
+      "reason": "현재안산도시공사의고객등록안내와등록서식게시물(fileIdx24597)을대조하고PDF4쪽전체를읽었다. 복지로WLF00004704도해당공단공식주소로직접연결한다. 별지1은장애정도·일시보행장애의휠체어/비휠체어를구분하며등록주체는이용자이다. 2026.10.1시행대체수단운영기준전체도별도다운로드해비휠체어중증보행장애·일시장애·임신부와사전등록요건을확인했다. 기존복지로HWP의장기요양·65세/전문병원문구와다른현재공단배포PDF를대체제안한다. 현행2172447의본칙1~16조·13조의2와표시된부칙전체를읽었다. 제8조제3호이용대상심사등록·제10조제5항서면신청·제11조특별교통수단대상·제13조의2비휠체어대체수단을각각대조했다. 2023부칙의기존이용대상경과조치와2026-09-30공포즉시시행도확인했다.",
+      "evidenceUrl": "https://www.ansanuc.net/homenew/12230/20318/bbsDetail.do?bbsIdx=14076",
+      "checkedAt": "2026-10-19",
+      "relatedProgramIds": [
+        "g41270.bokjiro-WLF00004704",
+        "g41270.gov24-O00007400004"
+      ],
+      "reviewedProgramPairs": [
+        {
+          "programId": "g41270.bokjiro-WLF00004704",
+          "disposition": "approved"
+        },
+        {
+          "programId": "g41270.gov24-O00007400004",
+          "disposition": "approved"
+        }
+      ],
+      "sourceProposal": "logs/forms-completion/gyeonggi-20261019/root/normalized-round8008.json",
+      "sourceProposalSHA256": "4871bfa1176cd13581a4875f9fc7759460d49377b3e1e40bb5ec1b860a4c56e2",
+      "sourceLawBodySHA256": null,
+      "sourcePageSHA256": "596fbd9a29f6ff13ca8994c43f4028062149479a550582d1224dc4ef64d4372c",
+      "authorityBasis": {
+        "kind": "official-program",
+        "title": "교통약자 이동지원 이용대상 등록 신청서·동의서 공식 배포 안내",
+        "evidenceUrl": "https://www.ansanuc.net/homenew/12230/20318/bbsDetail.do?bbsIdx=14076",
+        "checkedAt": "2026-10-19",
+        "evidenceNote": "현재안산도시공사의고객등록안내와등록서식게시물(fileIdx24597)을대조하고PDF4쪽전체를읽었다. 복지로WLF00004704도해당공단공식주소로직접연결한다. 별지1은장애정도·일시보행장애의휠체어/비휠체어를구분하며등록주체는이용자이다. 2026.10.1시행대체수단운영기준전체도별도다운로드해비휠체어중증보행장애·일시장애·임신부와사전등록요건을확인했다. 기존복지로HWP의장기요양·65세/전문병원문구와다른현재공단배포PDF를대체제안한다. 현행2172447의본칙1~16조·13조의2와표시된부칙전체를읽었다. 제8조제3호이용대상심사등록·제10조제5항서면신청·제11조특별교통수단대상·제13조의2비휠체어대체수단을각각대조했다. 2023부칙의기존이용대상경과조치와2026-09-30공포즉시시행도확인했다.",
+        "pageSHA256": "596fbd9a29f6ff13ca8994c43f4028062149479a550582d1224dc4ef64d4372c"
+      },
+      "selectedParts": [
+        {
+          "number": "별지제1호·1쪽",
+          "title": "특별교통수단 등 이용대상자 등록 신청서",
+          "use": "main",
+          "author": "이용대상자 본인 또는 대리인"
+        },
+        {
+          "number": "2~3쪽",
+          "title": "개인정보·민감정보 수집·이용·제공·활용 동의서",
+          "use": "additional",
+          "author": "이용대상자 및 보조인, 해당시 법정대리인"
+        },
+        {
+          "number": "4쪽",
+          "title": "보호자 동승 없이 이용을 요청하는 동의서",
+          "use": "conditional",
+          "author": "해당 이용대상자와 보호자"
+        }
+      ]
+    },
+    {
+      "formId": "agency-41270-longevity-02784",
+      "sha256": "ebc658e2244ab0611ff673bb3b6464549db12549bc41e5d259e632c27bf25a8e",
+      "disposition": "approved",
+      "fullBodyReviewed": true,
+      "reason": "현재복지로WLF00002784의전체사업본문과정확첨부목록을읽어안산1년거주85세이상·기초연금제외·월3만원수당·동행정복지센터신청을확인했다. 사이트정부24사업393000000112의같은대상·월수당·신청서/위임장요구와일치한다. 원본전체는급여계좌·서명장수수당신청1호와대리신청위임2호이며기관청구서가아니다. 개정일2014.10.21인쇄는남아있으나날짜·금액·연령을고정해신청자격을잘못제한하지않고현재공식사업페이지가정확원본을계속배포한다.",
+      "evidenceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00002784&wlfareInfoReldBztpCd=02",
+      "checkedAt": "2026-10-19",
+      "relatedProgramIds": [
+        "g41270.gov24-393000000112"
+      ],
+      "reviewedProgramPairs": [
+        {
+          "programId": "g41270.gov24-393000000112",
+          "disposition": "approved"
+        }
+      ],
+      "sourceProposal": "logs/forms-completion/gyeonggi-20261019/root/normalized-round8008.json",
+      "sourceProposalSHA256": "4871bfa1176cd13581a4875f9fc7759460d49377b3e1e40bb5ec1b860a4c56e2",
+      "sourceLawBodySHA256": null,
+      "sourcePageSHA256": "5e36a359d779d7a5b3982cb52d27ebfef92aa25317ee3486f93b65c7abaf3bc0",
+      "authorityBasis": {
+        "kind": "official-program",
+        "title": "장수수당",
+        "evidenceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00002784&wlfareInfoReldBztpCd=02",
+        "checkedAt": "2026-10-19",
+        "evidenceNote": "현재복지로WLF00002784의전체사업본문과정확첨부목록을읽어안산1년거주85세이상·기초연금제외·월3만원수당·동행정복지센터신청을확인했다. 사이트정부24사업393000000112의같은대상·월수당·신청서/위임장요구와일치한다. 원본전체는급여계좌·서명장수수당신청1호와대리신청위임2호이며기관청구서가아니다. 개정일2014.10.21인쇄는남아있으나날짜·금액·연령을고정해신청자격을잘못제한하지않고현재공식사업페이지가정확원본을계속배포한다.",
+        "pageSHA256": "5e36a359d779d7a5b3982cb52d27ebfef92aa25317ee3486f93b65c7abaf3bc0"
+      },
+      "selectedParts": [
+        {
+          "number": "별지 제1호",
+          "title": "안산시 노인장수수당 지급 신청서",
+          "use": "main",
+          "author": "지급대상 노인 또는 신청인"
+        },
+        {
+          "number": "별지 제2호",
+          "title": "안산시 노인장수수당 신청 위임장",
+          "use": "conditional",
+          "author": "대상 노인(위임인)과 대리 신청인"
+        }
+      ]
+    },
+    {
+      "formId": "agency-41430-integrated-birth-03887",
+      "sha256": "5336f50212b20cfc4f4bd4e6e2b74a639583e941785cadea8cfe53ed3c562f81",
+      "disposition": "approved",
+      "fullBodyReviewed": true,
+      "reason": "의왕통합출산원본6921자전체를읽어출산장려금의출생순위·의왕전입일,의왕시산후조리비와경기도산후조리비의별도선택,급여계좌·신청서명·개인정보동의를확인했다. 현재복지로WLF03887과WLF05090이동일atcflId·동일SHA파일을각각출산장려금/의왕시산후조리비신청에직접배포한다. 두공식본문의6개월거주·출산1년이내·온라인또는주민센터방문과각정부24사업을대조했다. 함께배포된조례2024.4.8판5조2항도두급여에통합신청별지2를지정하며3항건강관리사본인부담금은별도서식으로구분한다.",
+      "evidenceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00003887&wlfareInfoReldBztpCd=02",
+      "checkedAt": "2026-10-19",
+      "relatedProgramIds": [
+        "g41430.gov24-403000000105",
+        "g41430.gov24-403000000151"
+      ],
+      "reviewedProgramPairs": [
+        {
+          "programId": "g41430.gov24-403000000105",
+          "disposition": "approved"
+        },
+        {
+          "programId": "g41430.gov24-403000000151",
+          "disposition": "approved"
+        }
+      ],
+      "sourceProposal": "logs/forms-completion/gyeonggi-20261019/root/normalized-round8008.json",
+      "sourceProposalSHA256": "4871bfa1176cd13581a4875f9fc7759460d49377b3e1e40bb5ec1b860a4c56e2",
+      "sourceLawBodySHA256": null,
+      "sourcePageSHA256": "e930033e7a79a1a0a11e3dfb031b7ff178b72fb40f5c0de24781d26a60da99db",
+      "authorityBasis": {
+        "kind": "official-program",
+        "title": "출산장려금 지원",
+        "evidenceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00003887&wlfareInfoReldBztpCd=02",
+        "checkedAt": "2026-10-19",
+        "evidenceNote": "의왕통합출산원본6921자전체를읽어출산장려금의출생순위·의왕전입일,의왕시산후조리비와경기도산후조리비의별도선택,급여계좌·신청서명·개인정보동의를확인했다. 현재복지로WLF03887과WLF05090이동일atcflId·동일SHA파일을각각출산장려금/의왕시산후조리비신청에직접배포한다. 두공식본문의6개월거주·출산1년이내·온라인또는주민센터방문과각정부24사업을대조했다. 함께배포된조례2024.4.8판5조2항도두급여에통합신청별지2를지정하며3항건강관리사본인부담금은별도서식으로구분한다.",
+        "pageSHA256": "e930033e7a79a1a0a11e3dfb031b7ff178b72fb40f5c0de24781d26a60da99db"
+      },
+      "selectedParts": [
+        {
+          "number": "별지제2호 1쪽 지방자치단체서비스",
+          "title": "출산서비스 통합처리 신청서 중 의왕 출산장려금·의왕시 산후조리비 신청",
+          "use": "main",
+          "author": "출생아의 부·모 또는 허용된 대리신청인"
+        },
+        {
+          "number": "2~3쪽",
+          "title": "유의사항 및 관련 정보제공 동의",
+          "use": "additional",
+          "author": "신청인 또는 해당 동의자"
+        }
+      ]
+    },
+    {
+      "formId": "agency-41000-child-meal-2026-00688",
+      "sha256": "542cb83a4f7029de71e42a303bc4920a25787220ce1b577fc9ae29b7fac30c15",
+      "disposition": "approved",
+      "fullBodyReviewed": true,
+      "reason": "2026결식아동급식지원안내전체Section0를읽어사업개요뒤에실제서식1호아동급식신청(추천)서앞뒤가포함됨을확인했다. 신청자·보호자·대상아동2명·결식사유·식사시간/방법·급식카드선택·서명·행정정보동의로구성된다. 현재복지로WLF00000688이정확2026원본을배포하며읍면동신청을명시하고,사이트정부24-641000000171은급식신청서를구비서류로요구한다. 급식기관의보조금청구나행정대장이아니라아동급식이용신청이다.",
+      "evidenceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00000688&wlfareInfoReldBztpCd=02",
+      "checkedAt": "2026-10-19",
+      "relatedProgramIds": [
+        "s41000.gov24-641000000171"
+      ],
+      "reviewedProgramPairs": [
+        {
+          "programId": "s41000.gov24-641000000171",
+          "disposition": "approved"
+        }
+      ],
+      "sourceProposal": "logs/forms-completion/gyeonggi-20261019/root/normalized-round8008.json",
+      "sourceProposalSHA256": "4871bfa1176cd13581a4875f9fc7759460d49377b3e1e40bb5ec1b860a4c56e2",
+      "sourceLawBodySHA256": null,
+      "sourcePageSHA256": "a47677c0ae156b8d609841311372d8638a8b333bdae4032af38df7e2137b40a6",
+      "authorityBasis": {
+        "kind": "official-program",
+        "title": "결식아동 급식지원",
+        "evidenceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00000688&wlfareInfoReldBztpCd=02",
+        "checkedAt": "2026-10-19",
+        "evidenceNote": "2026결식아동급식지원안내전체Section0를읽어사업개요뒤에실제서식1호아동급식신청(추천)서앞뒤가포함됨을확인했다. 신청자·보호자·대상아동2명·결식사유·식사시간/방법·급식카드선택·서명·행정정보동의로구성된다. 현재복지로WLF00000688이정확2026원본을배포하며읍면동신청을명시하고,사이트정부24-641000000171은급식신청서를구비서류로요구한다. 급식기관의보조금청구나행정대장이아니라아동급식이용신청이다.",
+        "pageSHA256": "a47677c0ae156b8d609841311372d8638a8b333bdae4032af38df7e2137b40a6"
+      },
+      "selectedParts": [
+        {
+          "number": "서식1호 앞·뒤",
+          "title": "아동급식 신청(추천)서 및 행정정보 공동이용 동의",
+          "use": "main",
+          "author": "신청 또는 추천인(보호자·관련 추천자 등)"
+        }
+      ]
+    },
+    {
+      "formId": "agency-41410-first-childcare-entry-01640",
+      "sha256": "89647d52a58b95ba429ef0cc7a9b9598ac6d5c3eb79e1ffa84d9a84309091dd0",
+      "disposition": "approved",
+      "fullBodyReviewed": true,
+      "reason": "2026-10-19 현재 복지로 군포시 WLF00001640의 전체 지원내용·선정기준·접수방법과 정확한 신청서 다운로드를 대조했다. 만1세 미만 출생등록부터 거주 예외가 현재 안내와 동반 방침에도 명시돼 있으며 독립 신청서의 부모/아동/관내 어린이집/실납부금/통장/동의/보호자 서명 및 군포시장 수신과 일치한다. 원본 전체 Section0은 날짜가 공란인 빈 신청서이다.",
+      "evidenceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00001640&wlfareInfoReldBztpCd=02",
+      "checkedAt": "2026-10-19",
+      "relatedProgramIds": [
+        "g41410.gov24-402000000110"
+      ],
+      "reviewedProgramPairs": [
+        {
+          "programId": "g41410.gov24-402000000110",
+          "disposition": "approved"
+        }
+      ],
+      "sourceProposal": "logs/forms-completion/gyeonggi-20261019/root/normalized-round8008.json",
+      "sourceProposalSHA256": "4871bfa1176cd13581a4875f9fc7759460d49377b3e1e40bb5ec1b860a4c56e2",
+      "sourceLawBodySHA256": null,
+      "sourcePageSHA256": "2e068837d3caf0b9c427c693964880e83231cdcdbd7abbf2de2224a77c3d6290",
+      "authorityBasis": {
+        "kind": "official-program",
+        "title": "어린이집 생애최초 입학준비금 지원",
+        "evidenceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00001640&wlfareInfoReldBztpCd=02",
+        "checkedAt": "2026-10-19",
+        "evidenceNote": "2026-10-19 현재 복지로 군포시 WLF00001640의 전체 지원내용·선정기준·접수방법과 정확한 신청서 다운로드를 대조했다. 만1세 미만 출생등록부터 거주 예외가 현재 안내와 동반 방침에도 명시돼 있으며 독립 신청서의 부모/아동/관내 어린이집/실납부금/통장/동의/보호자 서명 및 군포시장 수신과 일치한다. 원본 전체 Section0은 날짜가 공란인 빈 신청서이다.",
+        "pageSHA256": "2e068837d3caf0b9c427c693964880e83231cdcdbd7abbf2de2224a77c3d6290"
+      },
+      "selectedParts": [
+        {
+          "number": "무번호",
+          "title": "군포시 어린이집 생애최초 입학준비금 지원 신청서",
+          "use": "main",
+          "author": "대상 아동의 부모 등 보호자"
+        }
+      ]
+    },
+    {
+      "formId": "agency-41170-student-loan-credit-2026-01897",
+      "sha256": "a3a530f2627a8a6ec1fd56d509cff801f41350d3e00327a14b744853a2667544",
+      "disposition": "approved",
+      "fullBodyReviewed": true,
+      "reason": "2026 신청서 전체 Section0과 동반 2026-297호 모집 공고 전체를 대조했다. 서식1의 초입금 지원/성실상환자 조기상환 선택란,1년 거주,한국장학재단 대출 정보 및 서식2 동의서가 정확한 안양 사업과 일치한다. 오늘 복지로 현재 본문과 정확한 첨부 두 개를 확인했고 시 구청 현재 안내도3.3~12.11 모집을 게시한다. 실제 접수는 잡아바 온라인이며 종이 방문 제출을 요구하는 것으로 해석하지 않는다.",
+      "evidenceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00001897&wlfareInfoReldBztpCd=02",
+      "checkedAt": "2026-10-19",
+      "relatedProgramIds": [
+        "g41170.gov24-383000000191"
+      ],
+      "reviewedProgramPairs": [
+        {
+          "programId": "g41170.gov24-383000000191",
+          "disposition": "approved"
+        }
+      ],
+      "sourceProposal": "logs/forms-completion/gyeonggi-20261019/root/normalized-round8008.json",
+      "sourceProposalSHA256": "4871bfa1176cd13581a4875f9fc7759460d49377b3e1e40bb5ec1b860a4c56e2",
+      "sourceLawBodySHA256": null,
+      "sourcePageSHA256": "3d2096a53b80e20ad88d459b5d53183c5d921890afc9d986654b74342d63d1d5",
+      "authorityBasis": {
+        "kind": "official-program",
+        "title": "안양시 청년 학자금 대출 연체자 신용회복 지원사업",
+        "evidenceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00001897&wlfareInfoReldBztpCd=02",
+        "checkedAt": "2026-10-19",
+        "evidenceNote": "2026 신청서 전체 Section0과 동반 2026-297호 모집 공고 전체를 대조했다. 서식1의 초입금 지원/성실상환자 조기상환 선택란,1년 거주,한국장학재단 대출 정보 및 서식2 동의서가 정확한 안양 사업과 일치한다. 오늘 복지로 현재 본문과 정확한 첨부 두 개를 확인했고 시 구청 현재 안내도3.3~12.11 모집을 게시한다. 실제 접수는 잡아바 온라인이며 종이 방문 제출을 요구하는 것으로 해석하지 않는다.",
+        "pageSHA256": "3d2096a53b80e20ad88d459b5d53183c5d921890afc9d986654b74342d63d1d5"
+      },
+      "selectedParts": [
+        {
+          "number": "서식1",
+          "title": "안양시 청년 학자금 대출 연체자 신용회복 지원 신청서",
+          "use": "main",
+          "author": "지원 신청 청년 본인"
+        },
+        {
+          "number": "서식2",
+          "title": "개인정보 수집·이용 및 제3자 제공·조회 동의서",
+          "use": "additional",
+          "author": "지원 신청 청년 본인"
+        }
+      ]
+    },
+    {
+      "formId": "agency-41000-winter-heating-proxy-2026-03678",
+      "sha256": "4dadc77cb36f1f5ffe37ea644a40c872e4c4ee189caa15d7a32f7cac587b0867",
+      "disposition": "approved",
+      "fullBodyReviewed": true,
+      "reason": "현재 복지로의 정확한 경기도 기초생활수급 노인 월동난방비 사업에서 배포하는 2026 운영지침 전체 Section0을 읽었다. 지급방법의 예외지급 절차가 제3자 대리계좌를 허용하고 붙임 급여 대리수령 신청서를 직접 지정한다. 말미 실제 빈 서식의 수급자·대리기간·후견인·대리수령인·계좌·양 당사자 서명과 시장군수 수신을 대조했다. 이는 이미 해당 급여를 받는 사람의 대리수령 절차이며 최초 수급 신청서가 아니다.",
+      "evidenceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00003678&wlfareInfoReldBztpCd=02",
+      "checkedAt": "2026-10-19",
+      "relatedProgramIds": [
+        "s41000.bokjiro-WLF00003678"
+      ],
+      "reviewedProgramPairs": [
+        {
+          "programId": "s41000.bokjiro-WLF00003678",
+          "disposition": "approved"
+        }
+      ],
+      "sourceProposal": "logs/forms-completion/gyeonggi-20261019/root/normalized-round8008.json",
+      "sourceProposalSHA256": "4871bfa1176cd13581a4875f9fc7759460d49377b3e1e40bb5ec1b860a4c56e2",
+      "sourceLawBodySHA256": null,
+      "sourcePageSHA256": "081386f7ea244565cc122f180bc4e1377a1e0f945e7395a83d0c08a8169a7cad",
+      "authorityBasis": {
+        "kind": "official-program",
+        "title": "기초생활수급 노인 월동난방비 지원",
+        "evidenceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00003678&wlfareInfoReldBztpCd=02",
+        "checkedAt": "2026-10-19",
+        "evidenceNote": "현재 복지로의 정확한 경기도 기초생활수급 노인 월동난방비 사업에서 배포하는 2026 운영지침 전체 Section0을 읽었다. 지급방법의 예외지급 절차가 제3자 대리계좌를 허용하고 붙임 급여 대리수령 신청서를 직접 지정한다. 말미 실제 빈 서식의 수급자·대리기간·후견인·대리수령인·계좌·양 당사자 서명과 시장군수 수신을 대조했다. 이는 이미 해당 급여를 받는 사람의 대리수령 절차이며 최초 수급 신청서가 아니다.",
+        "pageSHA256": "081386f7ea244565cc122f180bc4e1377a1e0f945e7395a83d0c08a8169a7cad"
+      },
+      "selectedParts": [
+        {
+          "number": "붙임(무번호)",
+          "title": "급여 대리수령 신청서",
+          "use": "conditional",
+          "author": "월동난방비 수급자(또는 법정 후견인) 및 대리수령인"
+        }
+      ]
+    },
+    {
+      "formId": "agency-41190-activity-existing-renewal-2026-01367",
+      "sha256": "9cee47c5e4e38ab8cb698312130d412203697dbe2bc58864ae80377dae21a9d4",
+      "disposition": "approved",
+      "fullBodyReviewed": true,
+      "reason": "2026 부천 추가지원 계획 전체 Section0과 말미 신규(변경)신청서·개인정보동의서를 모두 읽었다. 현재 복지로 본문도10시간과192시간 모두 신규진입 없음을 명시한다. 계획은 기존10시간 수급자의3년 주기 갱신 및192시간 수급자의2년 범위 재지정을 규정하고 신청서·의사소견서·현장조사서 역할을 구별한다. 따라서 정확한 기존 수급자의 변경·갱신에만 조건부 제안하며 신규 신청용으로 제공하지 않는다.",
+      "evidenceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00001367&wlfareInfoReldBztpCd=02",
+      "checkedAt": "2026-10-19",
+      "relatedProgramIds": [
+        "g41190.bokjiro-WLF00001367"
+      ],
+      "reviewedProgramPairs": [
+        {
+          "programId": "g41190.bokjiro-WLF00001367",
+          "disposition": "approved"
+        }
+      ],
+      "sourceProposal": "logs/forms-completion/gyeonggi-20261019/root/normalized-round8008.json",
+      "sourceProposalSHA256": "4871bfa1176cd13581a4875f9fc7759460d49377b3e1e40bb5ec1b860a4c56e2",
+      "sourceLawBodySHA256": null,
+      "sourcePageSHA256": "5db8f7090cc968fbab23d75e720b54c72acfac7440289ada616677a793f0c461",
+      "authorityBasis": {
+        "kind": "official-program",
+        "title": "장애인활동지원 시추가지원사업",
+        "evidenceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00001367&wlfareInfoReldBztpCd=02",
+        "checkedAt": "2026-10-19",
+        "evidenceNote": "2026 부천 추가지원 계획 전체 Section0과 말미 신규(변경)신청서·개인정보동의서를 모두 읽었다. 현재 복지로 본문도10시간과192시간 모두 신규진입 없음을 명시한다. 계획은 기존10시간 수급자의3년 주기 갱신 및192시간 수급자의2년 범위 재지정을 규정하고 신청서·의사소견서·현장조사서 역할을 구별한다. 따라서 정확한 기존 수급자의 변경·갱신에만 조건부 제안하며 신규 신청용으로 제공하지 않는다.",
+        "pageSHA256": "5db8f7090cc968fbab23d75e720b54c72acfac7440289ada616677a793f0c461"
+      },
+      "selectedParts": [
+        {
+          "number": "무번호(계획 말미)",
+          "title": "장애인활동지원 추가지원사업 신규(변경) 신청서",
+          "use": "conditional",
+          "author": "기존 부천시 추가지원 수급자 또는 적법한 대리신청인"
+        },
+        {
+          "number": "무번호(신청서 다음)",
+          "title": "개인정보 수집, 이용 및 제공 동의서",
+          "use": "additional",
+          "author": "급여 신청자 또는 대리인"
+        }
+      ]
+    },
+    {
+      "formId": "agency-41190-housekeeping-2026-76487",
+      "sha256": "886a560829c0e01752d8738318d2778c166ed5cb6eefb044eed4c67da03e8fa2",
+      "disposition": "approved",
+      "fullBodyReviewed": true,
+      "reason": "부천시여성회관의2026.1~12월 상시모집 공식 안내에서 정확한76487 첨부를 내려받아 전체 Section0의 서식1 신청·2 동의·3 사업주 고용임금확인·4 근로소득신고를 읽었다.2023 구본과 달리 모든 작성연도가2026이며 신청인·맞벌이 배우자·소득증빙의 목적이 두 기존 동일 서비스 사업과 일치한다. 부천시청2026.7.24 사전정보공표의 실제 링크가 bwyf.or.kr/woman으로 연결됨을 원문 GET으로 확인했다.",
+      "evidenceUrl": "https://www.bwyf.or.kr/woman/contents.do?key=2622",
+      "checkedAt": "2026-10-19",
+      "relatedProgramIds": [
+        "g41190.bokjiro-WLF00005135",
+        "g41190.gov24-O00049400003"
+      ],
+      "reviewedProgramPairs": [
+        {
+          "programId": "g41190.bokjiro-WLF00005135",
+          "disposition": "approved"
+        },
+        {
+          "programId": "g41190.gov24-O00049400003",
+          "disposition": "approved"
+        }
+      ],
+      "sourceProposal": "logs/forms-completion/gyeonggi-20261019/root/normalized-round8008.json",
+      "sourceProposalSHA256": "4871bfa1176cd13581a4875f9fc7759460d49377b3e1e40bb5ec1b860a4c56e2",
+      "sourceLawBodySHA256": null,
+      "sourcePageSHA256": "9614ebdf84a411d2f456bdfe58e38a047e157fc69c1e09318617b10e2e6537fa",
+      "authorityBasis": {
+        "kind": "official-program",
+        "title": "2026년 부천 워킹맘(대디) 가사지원 신청서·동의서 공식 배포 안내",
+        "evidenceUrl": "https://www.bwyf.or.kr/woman/contents.do?key=2622",
+        "checkedAt": "2026-10-19",
+        "evidenceNote": "부천시여성회관의2026.1~12월 상시모집 공식 안내에서 정확한76487 첨부를 내려받아 전체 Section0의 서식1 신청·2 동의·3 사업주 고용임금확인·4 근로소득신고를 읽었다.2023 구본과 달리 모든 작성연도가2026이며 신청인·맞벌이 배우자·소득증빙의 목적이 두 기존 동일 서비스 사업과 일치한다. 부천시청2026.7.24 사전정보공표의 실제 링크가 bwyf.or.kr/woman으로 연결됨을 원문 GET으로 확인했다.",
+        "pageSHA256": "9614ebdf84a411d2f456bdfe58e38a047e157fc69c1e09318617b10e2e6537fa"
+      },
+      "selectedParts": [
+        {
+          "number": "서식1",
+          "title": "워킹맘(대디) 가사지원서비스 이용 신청서",
+          "use": "main",
+          "author": "서비스 이용을 신청하는 맞벌이 또는 일하는 한부모"
+        },
+        {
+          "number": "서식2",
+          "title": "개인정보제공동의서",
+          "use": "additional",
+          "author": "신청인"
+        },
+        {
+          "number": "서식3",
+          "title": "고용·임금 확인서",
+          "use": "conditional",
+          "author": "건강보험 납부증명 제출이 어려운 신청인을 고용한 사업주"
+        },
+        {
+          "number": "서식4",
+          "title": "근로활동 및 소득신고서",
+          "use": "conditional",
+          "author": "건강보험 피부양자인 해당 신청인"
+        }
+      ]
+    },
+    {
+      "formId": "agency-41190-housekeeping-agreement-77086",
+      "sha256": "d07830b8767d61709cd36936f4fce4bcb0fb7cf07e4f1d2eb3ae2ac857ec201e",
+      "disposition": "approved",
+      "fullBodyReviewed": true,
+      "reason": "현재 부천시여성회관 서식자료실68141이 이용약정서를 확인 후 서명·제출하도록 직접 안내하고 정확77086 HWP를 배포한다. 전체 Section0의10개 조항과 이용자·가사관리사·제공기관의3자 서명란을 확인했다. 파일명은2025개정이지만 실제 서명연도는2026으로 인쇄돼 있으며 현재2026 연중 서비스와 일치한다. 선정 이후 이용 조건을 합의하는 서류로 최초 신청서와 구분한다.",
+      "evidenceUrl": "https://www.bwyf.or.kr/woman/selectBbsNttView.do?key=2628&bbsNo=56&nttNo=68141",
+      "checkedAt": "2026-10-19",
+      "relatedProgramIds": [
+        "g41190.bokjiro-WLF00005135",
+        "g41190.gov24-O00049400003"
+      ],
+      "reviewedProgramPairs": [
+        {
+          "programId": "g41190.bokjiro-WLF00005135",
+          "disposition": "approved"
+        },
+        {
+          "programId": "g41190.gov24-O00049400003",
+          "disposition": "approved"
+        }
+      ],
+      "sourceProposal": "logs/forms-completion/gyeonggi-20261019/root/normalized-round8008.json",
+      "sourceProposalSHA256": "4871bfa1176cd13581a4875f9fc7759460d49377b3e1e40bb5ec1b860a4c56e2",
+      "sourceLawBodySHA256": null,
+      "sourcePageSHA256": "87711e804754abf45d7ee3e37e83a2437aabfe48a054ed8a918ae9777d2bb243",
+      "authorityBasis": {
+        "kind": "official-program",
+        "title": "부천 워킹맘(대디) 가사지원서비스 이용 약정서 공식 배포 안내",
+        "evidenceUrl": "https://www.bwyf.or.kr/woman/selectBbsNttView.do?key=2628&bbsNo=56&nttNo=68141",
+        "checkedAt": "2026-10-19",
+        "evidenceNote": "현재 부천시여성회관 서식자료실68141이 이용약정서를 확인 후 서명·제출하도록 직접 안내하고 정확77086 HWP를 배포한다. 전체 Section0의10개 조항과 이용자·가사관리사·제공기관의3자 서명란을 확인했다. 파일명은2025개정이지만 실제 서명연도는2026으로 인쇄돼 있으며 현재2026 연중 서비스와 일치한다. 선정 이후 이용 조건을 합의하는 서류로 최초 신청서와 구분한다.",
+        "pageSHA256": "87711e804754abf45d7ee3e37e83a2437aabfe48a054ed8a918ae9777d2bb243"
+      },
+      "selectedParts": [
+        {
+          "number": "무번호",
+          "title": "가사서비스 이용 약정서",
+          "use": "conditional",
+          "author": "서비스 이용자·가사관리사·서비스 제공기관(각자 서명)"
+        }
+      ]
+    },
+    {
+      "formId": "agency-41170-welfare-fund-medical-funeral-2026",
+      "sha256": "93a9443b84c259eba5ad6efb0596d12958397d37df10111eddb92e96f83e21b4",
+      "disposition": "approved",
+      "fullBodyReviewed": true,
+      "reason": "2026 안양 저소득주민지원복지기금 운영계획 전체 Section0과 서식1~5를 읽었다. 첨부 출처의 중고 입학축하금은3~5월 종료지만 같은 파일이 명시하는 의료비·간병비·장제비 지원은2026.1~12월이며 실제 서식1에 각 신청 선택란이 있다. 현재 정부24의 정확한 기존 복합사업383000000119를 별도 GET해 최종수정2026.8.6/상시신청/비급여의료·장제비/관할동 방문을 확인했다. 후보 사업명만 보고 묶지 않고 전체 계획의 해당급여와 현재 별도 사업을 대조했다.",
+      "evidenceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00003113&wlfareInfoReldBztpCd=02",
+      "checkedAt": "2026-10-19",
+      "relatedProgramIds": [
+        "g41170.gov24-383000000119"
+      ],
+      "reviewedProgramPairs": [
+        {
+          "programId": "g41170.gov24-383000000119",
+          "disposition": "approved"
+        }
+      ],
+      "sourceProposal": "logs/forms-completion/gyeonggi-20261019/root/normalized-round8008.json",
+      "sourceProposalSHA256": "4871bfa1176cd13581a4875f9fc7759460d49377b3e1e40bb5ec1b860a4c56e2",
+      "sourceLawBodySHA256": null,
+      "sourcePageSHA256": "499348c0b9bdd66409280b3b7f77500cc918a3c3fccf13ae683961f71f3b9689",
+      "authorityBasis": {
+        "kind": "official-program",
+        "title": "중·고 신입생 입학축하금 지원",
+        "evidenceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00003113&wlfareInfoReldBztpCd=02",
+        "checkedAt": "2026-10-19",
+        "evidenceNote": "2026 안양 저소득주민지원복지기금 운영계획 전체 Section0과 서식1~5를 읽었다. 첨부 출처의 중고 입학축하금은3~5월 종료지만 같은 파일이 명시하는 의료비·간병비·장제비 지원은2026.1~12월이며 실제 서식1에 각 신청 선택란이 있다. 현재 정부24의 정확한 기존 복합사업383000000119를 별도 GET해 최종수정2026.8.6/상시신청/비급여의료·장제비/관할동 방문을 확인했다. 후보 사업명만 보고 묶지 않고 전체 계획의 해당급여와 현재 별도 사업을 대조했다.",
+        "pageSHA256": "499348c0b9bdd66409280b3b7f77500cc918a3c3fccf13ae683961f71f3b9689"
+      },
+      "selectedParts": [
+        {
+          "number": "서식1",
+          "title": "저소득주민지원복지기금 지원사업 신청서(의료비·간병비·장제비)",
+          "use": "main",
+          "author": "지원대상자 또는 실제 신청인"
+        }
+      ]
+    },
+    {
+      "formId": "agency-41190-school-uniform-jpg",
+      "sha256": "8ae64f84823eadcfd2cbe87a917625d34e97fcbc64170a4e2cc987ee3417f395",
+      "disposition": "approved",
+      "fullBodyReviewed": true,
+      "reason": "JPEG원본전체를시각으로읽어참고5교복지원신청서임을확인했다. 학생·보호자·대안교육기관/타시도학교선택·입전학일·주소·교복품목별구입액·중복수혜·정보제공동의·서명란이있고실제개인정보는채워지지않았다. 현재복지로WLF00000001이정확이미지를배포하며부천거주대안교육기관/타시도중고입학생·실구매비상한40만원·부득이한방문신청경로를명시하므로실제신청용도는맞는다. OO시군은작성용빈칸이며과천처럼다른관할이인쇄된서식이아니다.",
+      "evidenceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00000001&wlfareInfoReldBztpCd=02",
+      "checkedAt": "2026-10-19",
+      "relatedProgramIds": [
+        "g41190.bokjiro-WLF00000001"
+      ],
+      "reviewedProgramPairs": [
+        {
+          "programId": "g41190.bokjiro-WLF00000001",
+          "disposition": "approved"
+        }
+      ],
+      "sourceProposal": "logs/forms-completion/gyeonggi-20261019/root/normalized-round8008.json",
+      "sourceProposalSHA256": "4871bfa1176cd13581a4875f9fc7759460d49377b3e1e40bb5ec1b860a4c56e2",
+      "sourceLawBodySHA256": null,
+      "sourcePageSHA256": "0df361b51e0a1ec8e022bef02b9e215b5a9fe99efabc5619df5161d351c27003",
+      "authorityBasis": {
+        "kind": "official-program",
+        "title": "부천시 대안교육기관 등 교복비 지원",
+        "evidenceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00000001&wlfareInfoReldBztpCd=02",
+        "checkedAt": "2026-10-19",
+        "evidenceNote": "JPEG원본전체를시각으로읽어참고5교복지원신청서임을확인했다. 학생·보호자·대안교육기관/타시도학교선택·입전학일·주소·교복품목별구입액·중복수혜·정보제공동의·서명란이있고실제개인정보는채워지지않았다. 현재복지로WLF00000001이정확이미지를배포하며부천거주대안교육기관/타시도중고입학생·실구매비상한40만원·부득이한방문신청경로를명시하므로실제신청용도는맞는다. OO시군은작성용빈칸이며과천처럼다른관할이인쇄된서식이아니다.",
+        "pageSHA256": "0df361b51e0a1ec8e022bef02b9e215b5a9fe99efabc5619df5161d351c27003"
+      },
+      "selectedParts": [
+        {
+          "number": "참고5",
+          "title": "교복 지원 신청서",
+          "use": "main",
+          "author": "대상 학생의 부모 또는 보호자"
+        }
+      ]
+    }
+  ],
+  "scopeFile": "pipeline/forms/reviews/agency-originals-scope-round8008.json",
+  "scopeSHA256": "4d93b9c90467d1c707d6448eb9d1c562eba6ce5d56089b5bb5481c23074eb7b0"
+}

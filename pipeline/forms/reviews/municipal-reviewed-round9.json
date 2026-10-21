@@ -1,0 +1,125 @@
+{
+  "schema": 1,
+  "checkedAt": "2026-10-17",
+  "scope": "Only the two corrected alternatives requested: Gunsan annex21 and Jinan annex3. Verified for the explicitly limited purpose/target in condition.",
+  "rows": [
+    {
+      "sourceKind": "ordin",
+      "lawTitle": "군산시 상수도 급수조례 시행규칙",
+      "lawId": "1985349",
+      "annexId": "20138815",
+      "annexNumber": "002000",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=152628967&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C21%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EC%83%81%EC%88%98%EB%8F%84%EC%82%AC%EC%9A%A9%EB%A3%8C+%EA%B0%90%EB%A9%B4+%EC%8B%A0%EC%B2%AD%EC%84%9C",
+      "officialPdfUrl": null,
+      "dateKind": "effective",
+      "effectiveDate": "2024-11-13",
+      "regionCode": "52130",
+      "regionLabel": "전북특별자치도 군산시",
+      "programIds": [
+        "g52130.gov24-O00029000001"
+      ],
+      "programNames": [
+        "상수도요금 감면"
+      ],
+      "formId": "ordin-20138815",
+      "use": "conditional",
+      "formTitle": "[별지 제21호서식] 상수도사용료 감면 신청서",
+      "sourceMetadataTitle": "[별지 제21호서식] 상수도사용료 감면 신청서",
+      "verifiedDocumentTitle": "상수도사용료 감면 신청서",
+      "evidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1985349",
+      "evidenceNote": "시행규칙 제37조제1항제4호가목은 조례 제34조제1항제4~6호 대상자의 가정용 3㎥ 감면에 별지 제21호 제출을 지정한다. 실제 원본의 제21호·수용가번호·생계의료 수급자/장애인/다자녀 선택·신청인 서명을 확인했다. 별지 제18호 빗물이용시설 서식과 구분했다. 다만 원본은 생계·의료급여 및 3명 이상/19세 미만 자녀라는 과거 문구가 남아 있다. 현행 급수조례 제34조(법규 ID 2112663)는 주거·교육급여까지 포함하므로 원본과 일치하는 생계·의료급여 수급자 또는 심한 장애인 신청 부분에 한정하여 승인한다. 동일 공식 별표키·flSeq 및 실제 HWP 전체 섹션과 SHA256을 재검증했다.",
+      "checkedAt": "2026-10-17",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "sha256": "578afb3c5df18892dd601ae1cfb94b96ebfe54a05619b23ea93241548a860df0",
+      "bytes": 20480,
+      "signature": "d0cf11e0a1b11ae1",
+      "originalFormat": "hwp",
+      "originalTextScope": "all_body_sections_or_pages",
+      "textScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "BodyText/Section0"
+      ],
+      "reviewedParts": [
+        {
+          "number": "21",
+          "title": "상수도사용료 감면 신청서",
+          "use": "conditional",
+          "author": "수도 수용가의 주민 신청인"
+        }
+      ],
+      "condition": "이 파일은 생계·의료급여 수급자 또는 장애의 정도가 심한 장애인의 신규 감면 신청 부분에 한정해 검증함. 주거·교육급여 단독 수급자 및 다자녀 신청자는 현행 대상 기준과 원본 문구가 달라 담당기관의 최신 신청서를 확인해야 함.",
+      "role": "application",
+      "roleBasis": "시행규칙 제37조제1항제4호가목은 조례 제34조제1항제4~6호 대상자의 가정용 3㎥ 감면에 별지 제21호 제출을 지정한다. 실제 원본의 제21호·수용가번호·생계의료 수급자/장애인/다자녀 선택·신청인 서명을 확인했다. 별지 제18호 빗물이용시설 서식과 구분했다. 다만 원본은 생계·의료급여 및 3명 이상/19세 미만 자녀라는 과거 문구가 남아 있다. 현행 급수조례 제34조(법규 ID 2112663)는 주거·교육급여까지 포함하므로 원본과 일치하는 생계·의료급여 수급자 또는 심한 장애인 신청 부분에 한정하여 승인한다.",
+      "roleEvidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1985349",
+      "roleCheckedAt": "2026-10-17",
+      "bodyEvidenceArticle": "제37조제1항제4호가목",
+      "bodyEvidenceText": "4. 조례 제34조제1항제4호에서 제6호까지의 감면대상자는 가구당 월 사용요금에서 가정용 3㎥에 해당하는 요금을 감면하고 다음 각 호의 규정을 따르며 감면된 사용료는 일반회계에서 보전할 수 있다.<신설 2020.05.11.>가. 요금 감면은 신청 다음달 부과분부터 적용하며, 별지 제21호 서식의 감면신청서를 제출하여야 한다.나. 실제 사용량 또는 가구당 평균 사용량이 3㎥미만인 경우에는 실제 사용량에 해당하는 요금을 감면한다.다. 조례 제34조제1항제4호에서 제6호까지 감면대상자의 수도요금은 중복하여 감면받을 수 없다.",
+      "independentBodyReview": true,
+      "correctsRejectedFormId": "ordin-20138809",
+      "additionalEvidenceArticles": [
+        {
+          "lawId": "2112663",
+          "number": "제34조제1항제4호·제5호",
+          "evidenceUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=2112663",
+          "note": "수급자 범위 확대 및 심한 장애인 지원을 현행 조례 전체 캐시에서 확인"
+        }
+      ]
+    },
+    {
+      "sourceKind": "ordin",
+      "lawTitle": "진안군 출산장려 지원 조례",
+      "lawId": "2162705",
+      "annexId": "22409401",
+      "annexNumber": "000400",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=168295549&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C3%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EC%82%B0%EB%AA%A8%E3%86%8D%EC%8B%A0%EC%83%9D%EC%95%84+%EA%B1%B4%EA%B0%95%EA%B4%80%EB%A6%AC%EC%82%AC+%EC%9D%B4%EC%9A%A9%EB%A3%8C+%EC%A7%80%EC%9B%90%EC%8B%A0%EC%B2%AD%EC%84%9C",
+      "officialPdfUrl": null,
+      "dateKind": "effective",
+      "effectiveDate": "2026-08-18",
+      "regionCode": "52720",
+      "regionLabel": "전북특별자치도 진안군",
+      "programIds": [
+        "g52720.gov24-473000000128"
+      ],
+      "programNames": [
+        "산모·신생아 건강관리 서비스"
+      ],
+      "formId": "ordin-22409401",
+      "use": "conditional",
+      "formTitle": "[별지 제3호서식] 산모ㆍ신생아 건강관리사 이용료 지원신청서",
+      "sourceMetadataTitle": "[별지 제3호서식] 산모ㆍ신생아 건강관리사 이용료 지원신청서",
+      "verifiedDocumentTitle": "산모·신생아 건강관리사 이용료 지원신청서",
+      "evidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2162705",
+      "evidenceNote": "진안군 조례 제13조제1항은 군에 신생아와 거주하는 산모를 대상으로 하고, 제14조제1항은 건강관리 서비스 이용비용 지원, 제15조제1항은 서비스 종료일부터 6개월 이내 별지 제3호와 본인부담금 증명서류 제출을 정한다. 실제 원본 제3호에는 산모·신생아·서비스 이용기간·납부 본인부담금·10% 제외액·환급 청구액과 산모와의 관계·서명·영수증이 있다. 건강관리사에게 지급하는 제16조·별지 제5호 교통비와 구분하여 산모 이용료 지원 단계로만 연결한다. 동일 공식 별표키·flSeq 및 실제 HWP 전체 섹션과 SHA256을 재검증했다.",
+      "checkedAt": "2026-10-17",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "sha256": "d45ccd7f6a4eb3ad4b169b00cdb1bd5512fb528ef63f878bb880682b31a2ef1d",
+      "bytes": 49152,
+      "signature": "d0cf11e0a1b11ae1",
+      "originalFormat": "hwp",
+      "originalTextScope": "all_body_sections_or_pages",
+      "textScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "BodyText/Section0"
+      ],
+      "reviewedParts": [
+        {
+          "number": "3",
+          "title": "산모·신생아 건강관리사 이용료 지원신청서",
+          "use": "conditional",
+          "author": "서비스를 이용한 산모 또는 관계 신청인"
+        }
+      ],
+      "condition": "산모가 서비스를 이용한 뒤 본인부담금 지원을 신청할 때 사용하며 서비스 종료일부터 6개월 이내 제출. 출산 전후의 최초 산모·신생아 서비스 이용 신청서나 건강관리사 교통비 청구서가 아님.",
+      "role": "application",
+      "roleBasis": "진안군 조례 제13조제1항은 군에 신생아와 거주하는 산모를 대상으로 하고, 제14조제1항은 건강관리 서비스 이용비용 지원, 제15조제1항은 서비스 종료일부터 6개월 이내 별지 제3호와 본인부담금 증명서류 제출을 정한다. 실제 원본 제3호에는 산모·신생아·서비스 이용기간·납부 본인부담금·10% 제외액·환급 청구액과 산모와의 관계·서명·영수증이 있다. 건강관리사에게 지급하는 제16조·별지 제5호 교통비와 구분하여 산모 이용료 지원 단계로만 연결한다.",
+      "roleEvidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2162705",
+      "roleCheckedAt": "2026-10-17",
+      "bodyEvidenceArticle": "제15조제1항",
+      "bodyEvidenceText": "제15조(산모ㆍ신생아 건강관리 등 신청방법)① 제13조제1항 및 제14조제1항에 따른 건강관리사 이용료 신청은 서비스 종료일부터 6개월 이내에 별지 제3호서식의 지원 신청서와 서비스 이용에 따른 본인부담금 증명 서류를 첨부하여 보건소장에게 신청하여야 한다.",
+      "independentBodyReview": true,
+      "correctsRejectedFormId": "ordin-22409405"
+    }
+  ]
+}

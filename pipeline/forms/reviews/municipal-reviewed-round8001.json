@@ -1,0 +1,79 @@
+{
+  "schema": 1,
+  "checkedAt": "2026-10-19",
+  "rows": [
+    {
+      "programIds": [
+        "g44250.bokjiro-WLF00002098"
+      ],
+      "formId": "agency-44250-36032",
+      "sourceKind": "agency",
+      "sourcePageUrl": "https://gyeryong.go.kr/kr/html/sub01/0102.html?GotoPage=1&mode=V&no=8b4a546e2b7ff4fdc2deabe7d1ec278d",
+      "sourceUrl": "https://gyeryong.go.kr/kr/html/sub01/0102.html?mode=D&no=8b4a546e2b7ff4fdc2deabe7d1ec278d&file_id=36032&category=04",
+      "finalUrl": "https://gyeryong.go.kr/kr/html/sub01/0102.html?mode=D&no=8b4a546e2b7ff4fdc2deabe7d1ec278d&file_id=36032&category=04",
+      "attachmentId": "36032",
+      "agencyName": "계룡시청 가족돌봄과",
+      "authorityEvidenceUrl": "https://gyeryong.go.kr/kr/html/sub01/0102.html?GotoPage=1&mode=V&no=8b4a546e2b7ff4fdc2deabe7d1ec278d",
+      "formTitle": "화장장려금 지원 신청서",
+      "lawId": "1933095",
+      "lawTitle": "계룡시 화장장려금 지원 조례",
+      "lawEvidenceUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=1933095",
+      "lawEffectiveDate": "2024-05-20",
+      "lawCurrentCheckedAt": "2026-10-19",
+      "regionCode": "44250",
+      "regionLabel": "충남 계룡시",
+      "annexId": "",
+      "annexNumber": "",
+      "dateKind": "published",
+      "effectiveDate": "2026-05-12",
+      "publishedAt": "2026-05-12",
+      "checkedAt": "2026-10-19",
+      "programEvidenceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00002098&wlfareInfoReldBztpCd=02",
+      "evidenceUrl": "https://gyeryong.go.kr/kr/html/sub01/0102.html?GotoPage=1&mode=V&no=8b4a546e2b7ff4fdc2deabe7d1ec278d",
+      "evidenceNote": "계룡시청 가족돌봄과가 2026-05-12 게시한 민원사무편람의 공개 첨부 36032를 직접 내려받아 전체 HWP 본문을 읽었다. 현행 조례 제3조의 사망·영아·개장 대상, 제5조의 10만원/5만원 및 실제 비용 한도, 제6조의 연고자 별지 제1호 신청을 현재 복지로 WLF00002098과 대조했다. 실제 인쇄 별지 제1호에는 신청인·사망자/분묘개장·은행·사용료·연고관계·동의·서명이 있고 옛 포털 파일의 1년 이상 거주 확인란은 없다. 포털 원본 17575933과 바이트가 다른 시청 배포 파일이며 포털 별표키/flSeq를 부여하지 않는다.",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "fullBodyReviewed": true,
+      "sha256": "9f4f5da862e27f1db4fe81bef9ef0ec4cf46dbedc7f3405b37c362e3f611aee8",
+      "bytes": 53248,
+      "originalFormat": "hwp",
+      "originalPath": "pipeline/forms/originals/agency-44250-36032.hwp",
+      "textScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "BodyText/Section0"
+      ],
+      "reviewedParts": [
+        {
+          "number": "1",
+          "title": "화장장려금 지원 신청서",
+          "use": "main",
+          "author": "사망자 또는 개장 유골의 연고자"
+        }
+      ],
+      "selectedParts": [
+        {
+          "number": "1",
+          "title": "화장장려금 지원 신청서",
+          "use": "main",
+          "author": "사망자 또는 개장 유골의 연고자"
+        }
+      ],
+      "applicant": "사망자 또는 개장 유골의 연고자",
+      "role": "application",
+      "roleBasis": "민원사무안내의 처리절차는 민원인이 신청서를 작성해 면·동에 제출하는 단계이며, 뒤쪽 별지 제1호는 사망자 또는 개장 유골의 연고자가 작성·서명하여 시장에게 화장장려금을 신청하는 양식이다. 담당 공무원 확인란이 함께 있으나 신청 주체는 연고자이다.",
+      "roleEvidenceUrl": "https://gyeryong.go.kr/kr/html/sub01/0102.html?mode=D&no=8b4a546e2b7ff4fdc2deabe7d1ec278d&file_id=36032&category=04",
+      "roleCheckedAt": "2026-10-19",
+      "use": "main",
+      "condition": "계룡시 화장장려금 신청에 사용하는 시청 배포 별지 제1호입니다. 앞쪽 민원사무 안내와 뒤쪽 신청서를 함께 확인하고, 신청인의 해당 화장·개장 유형과 구비서류에 맞춰 작성합니다.",
+      "verifiedDocumentTitle": "화장장려금 지원 신청서",
+      "supersedesCandidateFormId": "ordin-17575933",
+      "supersedesCandidateSha256": "6dddeb38e5b51571dc10bcef6a4604a08957517a1164bbe5118d448f58ffc91e",
+      "coordinatorReason": "코디네이터가 2026.5.12 계룡시청 가족돌봄과의 공식 민원사무편람 게시물·첨부36032 전체 HWP1497자 및 현행1933095 제1~8조와 부칙, 실제 수록 화장장려금 혜택을 대조했다. 새 원본은 1년 이상 거주 확인란을 제거하고 사망·사산/영아·분묘개장 유형, 본인계좌·관계·서명·공동이용 동의와 10만원/5만원 지급기준·6개월 접수를 담아 현행 조례와 맞는다. 옛 ordin17575933을 덮어쓰지 않고 별도 agency 원본으로 정확히 해당 혜택에 제공한다."
+    }
+  ],
+  "sourceReview": {
+    "coordinatorPlanSHA256": "85a016ce4783e17860d612cf420ab36679aef27844961e544fed5695269d5b68",
+    "frozenScopeFile": "pipeline/forms/reviews/agency-originals-scope-round8001.json",
+    "frozenScopeSHA256": "7a7440146334395618bc90b55e0876c5232bd67d92e80ca33475a4aa867036b4"
+  }
+}

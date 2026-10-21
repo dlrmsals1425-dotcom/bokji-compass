@@ -1,0 +1,53 @@
+{
+  "schema": 1,
+  "checkedAt": "2026-10-19",
+  "formCount": 3,
+  "forms": [
+    {
+      "formId": "agency-41000-grandparent-college-03470",
+      "lawId": "2021175",
+      "lawTitle": "경기도 한부모가족 지원 조례",
+      "title": "조손가족 손자녀 대학 입학(등록)금 지원 신청서",
+      "sourceKind": "agency",
+      "regionCode": "41000",
+      "sourceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twata/CmmFileUtil/getDownload.do?atcflId=20230517UUWBM1053160035011079&atcflSn=1&wlfareInfoId=WLF00003470",
+      "sourcePageUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00003470&wlfareInfoReldBztpCd=02",
+      "attachmentId": "20230517UUWBM1053160035011079",
+      "sha256": "970f759df9735690ff7c032b8f42da595f035d76d7c3a2a823b577c897df8b23",
+      "bytes": 86510,
+      "format": "hwpx",
+      "relativePath": "agency-41000-grandparent-college-03470.hwpx"
+    },
+    {
+      "formId": "agency-41000-ggbaro-insurance-2026-r2",
+      "lawId": "1570181",
+      "lawTitle": "경기도 소상공인 고용보험료 지원 조례",
+      "title": "2026년 경기도 1인 소상공인 고용보험료 지원 2차 공고·신청서",
+      "sourceKind": "agency",
+      "regionCode": "41000",
+      "sourceUrl": "https://ggbaro.kr/biz-file?type=NOTICEFILE&bizType=01&bizId=2026-022-01&seq=2",
+      "sourcePageUrl": "https://ggbaro.kr/apply/biz-announce.do?bizId=2026-022-01&bizType=01",
+      "attachmentId": "2",
+      "sha256": "f20878aabcb02a531915245a1672c134f7e46b651ae6e754a282d1a0415d0d1e",
+      "bytes": 187392,
+      "format": "hwp",
+      "relativePath": "agency-41000-ggbaro-insurance-2026-r2.hwp"
+    },
+    {
+      "formId": "agency-41000-disability-medical-06696",
+      "lawId": "",
+      "lawTitle": "",
+      "title": "저소득장애인 의료비 지급 신청서",
+      "sourceKind": "agency",
+      "regionCode": "41000",
+      "sourceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twata/CmmFileUtil/getDownload.do?atcflId=20260727UUWBM1531460202568975&atcflSn=1&wlfareInfoId=WLF00006696",
+      "sourcePageUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00006696&wlfareInfoReldBztpCd=02",
+      "attachmentId": "20260727UUWBM1531460202568975",
+      "sha256": "b306e25c32bb57994203cde3263d6b1d7f1ca252cd382a1cb971a2bd03e48258",
+      "bytes": 112695,
+      "format": "pdf",
+      "relativePath": "agency-41000-disability-medical-06696.pdf"
+    }
+  ],
+  "note": "Separate municipal/agency official-source originals. Existing portal IDs and immutable scopes are unchanged."
+}
