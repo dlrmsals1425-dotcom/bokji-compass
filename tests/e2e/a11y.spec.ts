@@ -1,3 +1,4 @@
+import { openPrefill } from "./helpers/prefill";
 import fs from "node:fs";
 import AxeBuilder from "@axe-core/playwright";
 import { expect, test } from "@playwright/test";
@@ -30,10 +31,7 @@ test("axe 접근성: 주요 화면 serious/critical 0건 @mobile", async ({ page
   const summary: Record<string, { violations: { id: string; impact: string | null | undefined; nodes: number; help: string }[] }> = {};
   for (const pg of PAGES) {
     if (pg.sentence) {
-      await page.goto("/");
-      await page.getByText("혜택 이름으로 검색", { exact: true }).click();
-      await page.locator("#home-q").fill(pg.sentence);
-      await page.locator("#home-q").press("Enter");
+      await openPrefill(page, pg.sentence);
       await expect(page.getByTestId("prefill-banner")).toBeVisible({ timeout: 20_000 });
     } else if (pg.preset) {
       await page.goto("/");

@@ -39,7 +39,7 @@ test.describe("QA 6차 후속", () => {
     await toResults(page, "고등학생 딸 키우는 엄마 안산");
     await expect(page.getByTestId("pick").first()).toBeVisible({ timeout: 20_000 });
     await expect(page.getByTestId("teen-note")).toHaveCount(0);
-    await expect(page.getByTestId("top-picks")).toContainText("내 상황에");
+    await expect(page.getByTestId("top-picks")).toContainText("추천 혜택");
     await expect(page.getByTestId("top-picks")).toContainText(/자녀/);
     await expect(page.getByTestId("top-picks")).not.toContainText(/학교\s*밖/);
   });

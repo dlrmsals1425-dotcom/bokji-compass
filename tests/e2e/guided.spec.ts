@@ -131,9 +131,9 @@ test.describe("질문 따라 찾기", () => {
       expect(await page.evaluate(() => document.documentElement.scrollWidth <= window.innerWidth)).toBe(true);
       await page.getByTestId("gq-a-children").click();
       await expect(page.getByTestId("gq-question")).toHaveAttribute("data-dim", "children");
-      await expect(page.getByRole("heading", { level: 1 })).toHaveText("가장 어린 자녀는 몇 살인가요?");
-      await expect(page.getByTestId("gq-a-pregnant")).toHaveCount(0);
-      await expect(page.getByTestId("gq-a-none")).toHaveCount(0);
+      await expect(page.getByRole("heading", { level: 1 })).toHaveText("함께 사는 자녀의 나이를 모두 골라 주세요");
+      await expect(page.getByTestId("gq-child-pregnant")).toHaveCount(0);
+      await expect(page.getByTestId("gq-child-none")).toHaveCount(0);
       await page.getByTestId("gq-back").click();
       await expect(page.getByTestId("gq-question")).toHaveAttribute("data-dim", "family");
       await page.getByTestId("gq-a-none").click();
@@ -155,13 +155,15 @@ test.describe("질문 따라 찾기", () => {
       await familyStep(page);
       await page.getByTestId("gq-a-both").click();
       await expect(page.getByTestId("gq-question")).toHaveAttribute("data-dim", "children");
-      await expect(page.getByTestId("gq-a-pregnant")).toHaveCount(0);
-      await page.getByTestId("gq-a-2-5").click();
+      await expect(page.getByTestId("gq-child-pregnant")).toHaveCount(0);
+      await page.getByTestId("gq-child-2-5").check();
+      await page.getByTestId("gq-child-count-1").click();
+      await page.getByTestId("gq-child-ok").click();
       await expect(page.getByTestId("gq-question")).not.toHaveAttribute("data-dim", "children");
       await page.getByTestId("gq-now").click();
       await expect(page).toHaveURL(/\/results$/);
       const children = await page.evaluate(() => JSON.parse(localStorage.getItem("bn.profile.v1") ?? sessionStorage.getItem("bn.profile.v1") ?? "null").children);
-      expect(children).toEqual(["2-5", "pregnant"]);
+      expect(children).toEqual(["pregnant", "2-5"]);
     });
 
     test("해당 여부를 건너뛰면 자녀 나이를 묻거나 없음으로 저장하지 않음", async ({ page }) => {

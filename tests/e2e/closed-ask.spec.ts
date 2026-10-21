@@ -14,7 +14,7 @@ test("결과: 끝난 사업은 따로, '질문에 답하러 가기'로 질문 �
   await expect(page.getByTestId("pick").first()).toBeVisible({ timeout: 20_000 });
   await expect(page.getByTestId("v2-fit")).not.toContainText("경기도 어린이 건강과일 공급");
   const closed = page.getByTestId("v2-closed");
-  await closed.locator("summary").click();
+  await closed.locator(":scope > summary").click();
   await expect(closed).toContainText("경기도 어린이 건강과일 공급");
   await expect(closed.getByTestId("closed-note").first()).toContainText("끝났어요");
   const go = page.getByTestId("v2-ask-go");

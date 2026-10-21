@@ -56,23 +56,22 @@ test.describe("QA 5차", () => {
     await expect(picks).not.toContainText("신청할 때 확인:");
   });
 
-  test("U2: 390px '글자 크게'에서 머리 안내 줄이 한 줄 @mobile", async ({ page }) => {
+  // (2026-10-20 디자인 개편) 머리 안내 줄(.util)과 홈 그림(hero-art)은 지도·나침반 머리글로 바뀌었다 — 같은 뜻을 새 화면에서 확인
+  test("U2: 390px '글자 크게'에서 머리글이 한 줄, 화면 밖으로 넘치지 않음 @mobile", async ({ page }) => {
     await page.goto("/");
-    const util = page.locator(".util");
-    await expect(util).toContainText("로그인 없음");
-    const h0 = (await util.boundingBox())!.height;
+    const header = page.locator("header.site-header");
+    await expect(header).toContainText("복지나침반");
+    const h0 = (await header.boundingBox())!.height;
     await page.getByTestId("large-text").click();
-    await expect.poll(async () => (await util.boundingBox())!.height).toBeLessThan(h0 * 1.3);
-    const note = page.locator(".util-note");
-    const box = (await note.boundingBox())!;
-    expect(box.x + box.width).toBeLessThanOrEqual(390);
+    await expect(page.getByTestId("large-text")).toHaveText("글자 보통");
+    await expect.poll(async () => (await header.boundingBox())!.height).toBeLessThan(h0 * 1.3);
+    expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
   });
 
-  test("H1: 홈 그림에 옛 둥근 나침반 대신 하트 나침반 상징", async ({ page }) => {
+  test("H1: 홈 그림은 지도·나침반, 머리글에 나침반 상징", async ({ page }) => {
     await page.goto("/");
-    const art = page.locator("svg.hero-art");
-    await expect(art).toBeVisible();
-    await expect(art.locator('image[href="/brand/logo-symbol.svg"]')).toHaveCount(1);
+    await expect(page.getByTestId("welfare-map")).toBeVisible();
+    await expect(page.locator('header img.logo-symbol')).toHaveAttribute("src", /\/brand\/logo-symbol\.svg/);
     const ok = await page.evaluate(async () => (await fetch("/brand/logo-symbol.svg")).ok);
     expect(ok).toBe(true);
   });

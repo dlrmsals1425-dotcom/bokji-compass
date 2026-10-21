@@ -3,7 +3,6 @@ import { Icon } from "@/components/Icon";
 import { ResumeBanner } from "@/components/ResumeBanner";
 import { PresetButtons } from "@/components/PresetButtons";
 import { WelfareMap } from "@/components/WelfareMap";
-import { HomeSearch } from "@/components/HomeSearch";
 import { LocationPreload } from "@/components/LocationPreload";
 import { METHOD_ENTRY } from "@/lib/client/mode";
 import styles from "./page.module.css";
@@ -31,10 +30,6 @@ export default function Home() {
         <WelfareMap />
       </section>
       <div className={styles.examples}>
-        <details className={styles.more}>
-          <summary>혜택 이름으로 검색 <Icon name="search" size={18} /></summary>
-          <HomeSearch />
-        </details>
         <details className={styles.more}>
           <summary>가상 예시 보기 <Icon name="chevronDown" size={18} /></summary>
           <PresetButtons />

@@ -574,6 +574,7 @@ const COUNTS = [
 /**
  * 자녀 질문 (2026-10-16 회의): 임신 중 + 자녀 나이를 모두 고르고, 태어난 자녀가 있으면 몇 명인지.
  * 한 개만 고르던 보기로는 '아이 1명 + 임신 중'을 함께 답할 수 없었다.
+ * 앞 질문 '자녀·출산 상황'(2026-10-20 jinwoo)에 답했으면 자녀가 있는 것은 정해졌으니 임신·자녀 없음은 다시 묻지 않는다.
  */
 function ChildrenPick(props: {
   sit: Situation;
@@ -582,11 +583,16 @@ function ChildrenPick(props: {
   onAnswer: (s: Situation | null, label: string) => void;
 }) {
   const { sit, busy, headRef, onAnswer } = props;
+  // 자녀·출산 질문에서 '자녀가 있어요'/'자녀가 있고, 출산 예정' — 임신 여부는 그 답을 따른다
+  const familyKnown = sit.x.family === "children" || sit.x.family === "both";
+  const expecting = sit.x.family === "both";
+  const buckets = familyKnown ? CHILD_BUCKETS.filter((c) => c !== "pregnant") : CHILD_BUCKETS;
   const [on, setOn] = useState<ChildBucket[]>([]);
   const [count, setCount] = useState<1 | 2 | 3 | null>(null);
   const born = on.filter((c) => c !== "pregnant").length;
   const min = Math.min(3, born);
   const ready = on.length > 0 && (born === 0 || (count !== null && count >= min));
+  const withPregnant = (list: ChildBucket[]) => (expecting && !list.includes("pregnant") ? [...list, "pregnant" as const] : list);
   const toggle = (c: ChildBucket) => {
     const next = on.includes(c) ? on.filter((k) => k !== c) : [...on, c];
     setOn(next);
@@ -597,11 +603,11 @@ function ChildrenPick(props: {
   return (
     <>
       <h1 className="h2 gq-q" id="gq-h" tabIndex={-1} ref={headRef}>
-        임신 중이거나 함께 사는 자녀가 있나요?
+        {familyKnown ? "함께 사는 자녀의 나이를 모두 골라 주세요" : "임신 중이거나 함께 사는 자녀가 있나요?"}
       </h1>
-      <p className="small muted">해당하는 것을 모두 골라 주세요. 자녀가 여럿이면 나이대를 모두 골라요.</p>
-      <div className="opts gq-checks" role="group" aria-label="임신·자녀 나이">
-        {CHILD_BUCKETS.map((c) => (
+      <p className="small muted">{familyKnown ? "자녀가 여럿이면 나이대를 모두 골라요." : "해당하는 것을 모두 골라 주세요. 자녀가 여럿이면 나이대를 모두 골라요."}</p>
+      <div className="opts gq-checks" role="group" aria-label={familyKnown ? "자녀 나이" : "임신·자녀 나이"}>
+        {buckets.map((c) => (
           <label className="opt" key={c}>
             <input type="checkbox" checked={on.includes(c)} disabled={busy} onChange={() => toggle(c)} data-testid={`gq-child-${c}`} />
             <span>{c === "pregnant" ? "임신 중 (뱃속 아기)" : CHILD_LABEL[c]}</span>
@@ -637,15 +643,17 @@ function ChildrenPick(props: {
           disabled={busy || !ready}
           onClick={() => {
             const picked = CHILD_BUCKETS.filter((c) => on.includes(c)).map((c) => CHILD_LABEL[c]).join(", ");
-            onAnswer(childrenApply(sit, on, born ? count : 0), born && count ? `${picked} · 자녀 ${COUNTS[count - 1].label}` : picked);
+            onAnswer(childrenApply(sit, withPregnant(on), born ? count : 0), born && count ? `${picked} · 자녀 ${COUNTS[count - 1].label}` : picked);
           }}
           data-testid="gq-child-ok"
         >
           고른 것으로 다음
         </button>
-        <button type="button" className="btn btn-ghost" disabled={busy} onClick={() => onAnswer(childrenApply(sit, [], 0), "자녀 없음")} data-testid="gq-child-none">
-          자녀 없음
-        </button>
+        {!familyKnown && (
+          <button type="button" className="btn btn-ghost" disabled={busy} onClick={() => onAnswer(childrenApply(sit, [], 0), "자녀 없음")} data-testid="gq-child-none">
+            자녀 없음
+          </button>
+        )}
         <button type="button" className={styles.skipAnswer} disabled={busy} onClick={() => onAnswer(null, "건너뛰기")} data-testid="gq-a-unknown">
           건너뛰기
         </button>

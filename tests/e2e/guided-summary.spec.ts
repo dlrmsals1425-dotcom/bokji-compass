@@ -33,7 +33,7 @@ test("끝 화면에 내가 고른 답이 모이고, '고치기'로 그 질문에
   await expect(sum).toContainText("경기 수원시");
   await expect(sum.getByTestId("gq-pick-age")).toContainText("70~79세");
   await expect(sum.locator("[data-testid^=gq-pick-]")).not.toHaveCount(1);
-  await expect(sum).toContainText("잘 모르겠어요");
+  await expect(sum).toContainText("건너뛰기");
 
   await sum.getByTestId("gq-fix-age").click();
   await expect(q).toHaveAttribute("data-dim", "age");
@@ -58,6 +58,6 @@ test("나이 '70~79세'로 답하면 결과와 상황 고치기 화면에 그대
   await expect(page.getByTestId("top-picks")).toBeVisible({ timeout: 20_000 });
   await expect(page.getByTestId("v2-results")).toContainText("만 70~79세");
   await expect(page.getByTestId("top-picks")).toContainText("기초연금");
-  await page.goto("/situation?for=parent");
+  await page.goto("/situation?for=parent&details=1");
   await expect(page.getByLabel("부모님 나이 (만)")).toHaveValue("70-79");
 });

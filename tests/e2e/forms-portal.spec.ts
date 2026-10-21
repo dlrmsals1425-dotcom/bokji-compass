@@ -207,7 +207,6 @@ test("overview reports what the portal scan actually covered @mobile", async ({ 
   await expect(scan).toContainText("법령포털 서식 408,271개를 받아 수록 사업 23,578건까지 맞춰 봤어요");
   await expect(scan).toContainText("전수 확인은 아직 끝나지 않았어요(확인일 2026-10-16)");
   await expect(scan).toContainText("수록 사업 모두에 내려받을 신청서가 있는 것은 아니에요");
-  await page.getByText("수집 현황·출처", { exact: true }).click();
   await expect(page.getByText("법령포털 수집 법령 서식 40,036/40,036 · 자치법규 서식 35,100/283,751 · 행정규칙 서식 100/84,484")).toBeVisible();
   await expect(page.getByText("경기도 고양시 수록 2건 중 현재 조건 2건")).toBeVisible();
   await expect(page.getByText("자동으로 찾은 후보 서식의 적용 여부를 확인 중입니다.")).toBeVisible();
