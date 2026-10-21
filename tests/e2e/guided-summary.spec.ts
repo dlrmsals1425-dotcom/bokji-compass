@@ -28,6 +28,7 @@ test("끝 화면에 내가 고른 답이 모이고, '고치기'로 그 질문에
     await expect(page.locator(`[data-testid="gq-question"][data-dim="${before}"]`)).toHaveCount(0, { timeout: 20_000 });
   }
   const sum = page.getByTestId("gq-summary");
+  await expect(page.getByTestId("gq-property-note")).toContainText("재산");
   await expect(sum).toBeVisible();
   await expect(sum).toContainText("부모님");
   await expect(sum).toContainText("경기 수원시");

@@ -333,6 +333,11 @@ export function ResultsV2({ profile, mode, quick = false }: { profile: Profile; 
             {quick && <QuickSearchNote sit={sit} />}
             {teen && <TeenNote />}
             {data && (
+              <p className="small muted no-print" data-testid="property-note">
+                재산(집·땅·자동차·예금)은 묻지 않고 찾은 결과예요. 재산 기준이 있는 혜택은 신청하는 곳에서 소득과 재산을 함께 보고 정해요.
+              </p>
+            )}
+            {data && (
               <Summary
                 view={view}
                 picks={picks}
@@ -355,7 +360,7 @@ export function ResultsV2({ profile, mode, quick = false }: { profile: Profile; 
                   }}
                   data-testid="sum-sheet-open"
                 >
-                  <Icon name="listChecks" size={18} /> 가져갈 서류 한 장으로 보기
+                  <Icon name="listChecks" size={18} /> 신청 서류 모음 보기
                 </button>
               </p>
             )}
@@ -395,7 +400,8 @@ export function ResultsV2({ profile, mode, quick = false }: { profile: Profile; 
             {sheetItems.length > 0 && (
               <div className="sheet-cta no-print" data-testid="sheet-cta">
                 <p>
-                  담은 혜택 {sheetItems.length}개의 준비서류
+                  <b>신청 서류 모음</b> · 담은 혜택 {sheetItems.length}개
+                  <span className="small muted" data-testid="sheet-explain"> — 담은 혜택을 신청할 때 가져갈 서류를 신청하는 곳별로 한 장에 모아 드려요. 인쇄하거나 가족에게 보낼 수 있어요.</span>
                 </p>
                 <button
                   type="button"
@@ -408,7 +414,7 @@ export function ResultsV2({ profile, mode, quick = false }: { profile: Profile; 
                   }}
                   data-testid="sheet-open"
                 >
-                  <Icon name="listChecks" size={18} /> {sheetOpen ? "준비물 한 장 접기" : "준비물 한 장 보기"}
+                  <Icon name="listChecks" size={18} /> {sheetOpen ? "신청 서류 모음 접기" : "신청 서류 모음 보기"}
                 </button>
               </div>
             )}
@@ -591,7 +597,7 @@ export function ResultsV2({ profile, mode, quick = false }: { profile: Profile; 
                   }}
                   data-testid="sheet-open-2"
                 >
-                  <Icon name="listChecks" size={18} /> 방문처별 준비물 한 장
+                  <Icon name="listChecks" size={18} /> 신청 서류 모음 (곳별로 한 장)
                 </button>
               )}
               <button type="button" className="link-btn" onClick={share} data-testid="share">
@@ -647,7 +653,7 @@ type SheetCtl = { has: (id: string) => boolean; toggle: (id: string, on: boolean
 /** '이미 받고 있어요' — 누르면 먼저 확인할 5가지·목록·준비물 한 장에서 빠지고 아래 '이미 받고 있는 혜택'으로 */
 function ReceivingButton({ name, onClick }: { name: string; onClick: () => void }) {
   return (
-    <button type="button" className="link-btn sheet-toggle no-print" aria-label={`${name} — 이미 받고 있어요 (목록과 준비물 한 장에서 빼기)`} onClick={onClick} data-testid="receiving-toggle">
+    <button type="button" className="link-btn sheet-toggle no-print" aria-label={`${name} — 이미 받고 있어요 (목록과 신청 서류 모음에서 빼기)`} onClick={onClick} data-testid="receiving-toggle">
       <Icon name="check" size={16} /> 이미 받고 있어요
     </button>
   );
@@ -655,8 +661,8 @@ function ReceivingButton({ name, onClick }: { name: string; onClick: () => void 
 
 function SheetToggle({ on, name, onChange }: { on: boolean; name: string; onChange: (on: boolean) => void }) {
   return (
-    <button type="button" className="link-btn sheet-toggle no-print" aria-pressed={on} aria-label={`${name} — 준비물 한 장에 ${on ? "담겨 있음 (누르면 뺌)" : "담기"}`} onClick={() => onChange(!on)} data-testid="sheet-toggle">
-      <Icon name={on ? "check" : "listChecks"} size={16} /> {on ? "준비물 한 장에 담김" : "준비물 한 장에 담기"}
+    <button type="button" className="link-btn sheet-toggle no-print" aria-pressed={on} aria-label={`${name} — 신청 서류 모음에 ${on ? "담겨 있음 (누르면 뺌)" : "담기"}`} onClick={() => onChange(!on)} data-testid="sheet-toggle">
+      <Icon name={on ? "check" : "listChecks"} size={16} /> {on ? "서류 모음에 담김" : "서류 모음에 담기"}
     </button>
   );
 }

@@ -443,6 +443,9 @@ export function GuidedFlow() {
                   {where?.label} 복지 {total.toLocaleString("ko-KR")}개 가운데 해당하지 않는 {cur.st.counts.no.toLocaleString("ko-KR")}개는 이유와 함께 결과 화면 맨 아래에 모아 둬요.
                   {cur.st.counts.ask > 0 && ` 아직 ${cur.st.counts.ask}개는 답에 따라 갈려요.`}
                 </p>
+                <p className="small muted" data-testid="gq-property-note">
+                  재산(집·땅·자동차·예금)은 묻지 않았어요. 먼저 넓게 줄여 보고, 재산 기준이 있는 혜택은 신청하는 곳에서 소득과 재산을 함께 보고 정해요.
+                </p>
                 <div className="gq-summary" data-testid="gq-summary">
                   <h2 className="h3">내가 고른 답</h2>
                   <ul>
