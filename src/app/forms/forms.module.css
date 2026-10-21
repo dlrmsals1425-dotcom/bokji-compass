@@ -2,6 +2,8 @@
 .back { display: inline-block; padding: .6rem 0; margin-bottom: 1.25rem; }
 .header { max-width: 48rem; margin-bottom: 2rem; }
 .summary { border-block: 1px solid #d5deea; padding: 1.5rem 0; }
+.summary > summary { cursor: pointer; min-height: 2.75rem; align-content: center; font-weight: 650; }
+.summary[open] > summary { margin-bottom: 1rem; }
 .summary h2, .browse h2 { font-size: 1.35rem; margin-bottom: 1rem; }
 .counts { display: grid; grid-template-columns: repeat(4,minmax(0,1fr)); margin: 1rem 0 1.4rem; gap: 1rem; }
 .counts dt { font-size: .95rem; color: #495a72; }

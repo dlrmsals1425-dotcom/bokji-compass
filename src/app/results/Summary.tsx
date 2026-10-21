@@ -13,6 +13,7 @@ import { answersFor, needsChildren, teenSelf, type DimId, type Situation, type V
 import type { FindMode } from "@/lib/client/mode";
 import type { Program } from "@/lib/data/types";
 import { IncomeAsk } from "./IncomeAsk";
+import styles from "./results.module.css";
 
 type Q = V2View["questions"][number];
 
@@ -71,13 +72,16 @@ export function Summary({ view, picks, sit, mode, question, onApply, onSkip, now
         {question && (
           <li data-testid="sum-next">
             <p className="sum-k">
-              한 가지만 더 답하시면 <strong>{question.groups.toLocaleString("ko-KR")}개</strong>가 정해져요
+              추가 확인 <strong>{question.groups.toLocaleString("ko-KR")}개</strong>
             </p>
             <p className="small">{question.dim.q(mode, sit)}</p>
             {askMoney.length > 0 && (
-              <p className="small muted" data-testid="sum-next-money">
-                그중 금액이 원문에 있는 것: {askMoney.map((r) => `${r.program.name} ${labelOf(r)}`).join(" · ")}
-              </p>
+              <details className={styles.summaryExamples}>
+                <summary>관련 혜택</summary>
+                <p className="small muted" data-testid="sum-next-money">
+                  {askMoney.map((r) => `${r.program.name} ${labelOf(r)}`).join(" · ")}
+                </p>
+              </details>
             )}
             {question.dim.id === "income" ? (
               <IncomeAsk sit={sit} onApply={onApply} onSkip={() => onSkip("income")} idPrefix="sum" testPrefix="sum" />
@@ -89,7 +93,7 @@ export function Summary({ view, picks, sit, mode, question, onApply, onSkip, now
                   </button>
                 ))}
                 <button type="button" className="btn btn-quiet" onClick={() => onSkip(question.dim.id)} data-testid={`sum-skip-${question.dim.id}`}>
-                  모름
+                  건너뛰기
                 </button>
               </div>
             )}
@@ -109,7 +113,7 @@ export function Summary({ view, picks, sit, mode, question, onApply, onSkip, now
         )}
       </ul>
       <p className="small muted sum-foot">
-        금액은 원문(정부24·복지로)에 적힌 최대 금액이에요. 가구·나이·소득에 따라 달라지고, 함께 받을 수 없는 것도 있어 더하지 않았어요.
+        원문 기준 최대 금액입니다. 실제 금액과 중복 수급 여부는 조건에 따라 달라요.
       </p>
     </section>
   );

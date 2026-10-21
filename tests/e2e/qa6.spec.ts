@@ -1,12 +1,11 @@
+import { openPrefill } from "./helpers/prefill";
 import AxeBuilder from "@axe-core/playwright";
 import { expect, test, type Page } from "@playwright/test";
 
 /** QA 6차 후속: 청소년 본인(학교 밖) · 자녀 둔 부모 문장 · 카드 안내 */
 
 async function toResults(page: Page, sentence: string) {
-  await page.goto("/");
-  await page.locator("#home-q").fill(sentence);
-  await page.locator("#home-q").press("Enter");
+  await openPrefill(page, sentence);
   await expect(page.getByTestId("prefill-banner")).toBeVisible({ timeout: 20_000 });
   await page.getByTestId("prefill-confirm").click();
   await expect(page.getByTestId("v2-results")).toBeVisible({ timeout: 20_000 });
@@ -40,7 +39,7 @@ test.describe("QA 6차 후속", () => {
     await toResults(page, "고등학생 딸 키우는 엄마 안산");
     await expect(page.getByTestId("pick").first()).toBeVisible({ timeout: 20_000 });
     await expect(page.getByTestId("teen-note")).toHaveCount(0);
-    await expect(page.getByTestId("top-picks")).toContainText("내 상황에");
+    await expect(page.getByTestId("top-picks")).toContainText("추천 혜택");
     await expect(page.getByTestId("top-picks")).toContainText(/자녀/);
     await expect(page.getByTestId("top-picks")).not.toContainText(/학교\s*밖/);
   });

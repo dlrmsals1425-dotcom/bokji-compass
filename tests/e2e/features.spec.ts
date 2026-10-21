@@ -1,3 +1,4 @@
+import { openPrefill } from "./helpers/prefill";
 import { readFileSync } from "node:fs";
 import AxeBuilder from "@axe-core/playwright";
 import { expect, test, type Page } from "@playwright/test";
@@ -5,9 +6,7 @@ import { expect, test, type Page } from "@playwright/test";
 /** 기능: 결과 맨 위 '한눈에 보기'(금액·기한 요약) · '방문처별 준비물 한 장'(인쇄·이미지·보내기) */
 
 async function toResults(page: Page, sentence: string) {
-  await page.goto("/");
-  await page.locator("#home-q").fill(sentence);
-  await page.locator("#home-q").press("Enter");
+  await openPrefill(page, sentence);
   await expect(page.getByTestId("prefill-banner")).toBeVisible({ timeout: 20_000 });
   await page.getByTestId("prefill-confirm").click();
   await expect(page.getByTestId("v2-results")).toBeVisible({ timeout: 20_000 });
@@ -31,7 +30,7 @@ test.describe("한눈에 보기 (금액·기한)", () => {
     await expect(sum.getByTestId("sum-fit")).toContainText(/받으실 수 있어요 \d+개/);
     await expect(sum.getByTestId("sum-fit")).toContainText("부모급여");
     await expect(sum.getByTestId("sum-fit")).toContainText("월 최대 100만원");
-    await expect(sum).toContainText("더하지 않았어요");
+    await expect(sum).toContainText("실제 금액과 중복 수급 여부는 조건에 따라 달라요");
     await expect(sum).not.toContainText(/합계|총\s*\d/);
     await expect(sum.getByTestId("sum-due")).toContainText("출생 후 1년 이내");
     expect(page.url()).not.toMatch(/용인|%EC%9A%A9|8개월|엄마|age|income/);
@@ -40,7 +39,7 @@ test.describe("한눈에 보기 (금액·기한)", () => {
   test("한 가지만 더 답하시면 N개가 정해져요 → 그 자리에서 소득을 답하면 결과가 바뀜", async ({ page }) => {
     await toResults(page, DAD);
     const next = page.getByTestId("sum-next");
-    await expect(next).toContainText(/한 가지만 더 답하시면 \d+개가 정해져요/);
+    await expect(next).toContainText(/추가 확인 \d+개/);
     await expect(next).toContainText("소득");
     // 생계급여·긴급복지는 원문이 가구원 수별 표라 큰 가구 금액 대신 '가구원 수에 따라 달라요' (QA 7차 M2)
     await expect(next.getByTestId("sum-next-money")).toContainText(/최대|가구원 수에 따라 달라요/);
@@ -98,9 +97,12 @@ test.describe("방문처별 준비물 한 장", () => {
     await toResults(page, DAD);
     const cta = page.getByTestId("sheet-cta");
     await expect(cta).toContainText("담은 혜택 5개");
+    await page.getByTestId("pick").first().getByTestId("benefit-more").locator("summary").click();
     await page.getByTestId("pick").first().getByTestId("sheet-toggle").click();
     await expect(cta).toContainText("담은 혜택 4개");
-    await page.locator("#v2-fit [data-testid=v2-card]").filter({ has: page.getByRole("button", { name: /준비물 한 장에 담기$/ }) }).first().getByTestId("sheet-toggle").click();
+    const extra = page.locator("#v2-fit [data-testid=v2-card]").filter({ has: page.getByRole("button", { name: /준비물 한 장에 담기$/, includeHidden: true }) }).first();
+    await extra.getByTestId("benefit-more").locator("summary").click();
+    await extra.getByTestId("sheet-toggle").click();
     await expect(cta).toContainText("담은 혜택 5개");
     const stored = await page.evaluate(() => sessionStorage.getItem("bn.sheet.v1"));
     expect(JSON.parse(stored!)).toEqual({ add: [expect.any(String)], remove: [expect.any(String)] });

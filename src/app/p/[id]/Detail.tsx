@@ -7,7 +7,7 @@ import { ApplicationForms } from "@/components/ApplicationForms";
 import { CHANNEL_LABEL, firstLine, howTo } from "@/lib/client/howto";
 import { supportTypes } from "@/lib/client/facets";
 import { loadLocalOps, loadProgram } from "@/lib/client/bundles";
-import { useExtras, useMode, useProfile } from "@/lib/client/storage";
+import { readQuickResults, useExtras, useMode, useProfile } from "@/lib/client/storage";
 import { saveSituation, situationOf } from "@/lib/client/start";
 import { parseManwonInput } from "@/lib/client/incomeInput";
 import { checkPath, type FindMode } from "@/lib/client/mode";
@@ -209,7 +209,7 @@ export function Detail({ id }: { id: string }) {
               </>
             ) : (
               <p className="inset">
-                <Link href="/situation">사는 곳과 상황을 알려주시면</Link> 이 서비스를 받을 수 있는지 이유와 함께 알려 드립니다. 로그인은 필요 없습니다.
+                <Link href="/situation">내 상황으로 지원 조건 확인하기</Link>
               </p>
             )}
             {(p.target || p.criteria) && (
@@ -438,7 +438,6 @@ export function Detail({ id }: { id: string }) {
             </p>
           </section>
           <section className="side-box no-print">
-            <h2>이 페이지로 할 수 있는 일</h2>
             <ul className="link-list">
               <li>
                 <button type="button" className="link-btn" onClick={() => window.print()}>
@@ -469,13 +468,13 @@ function RuleNote({ p }: { p: Program }) {
   let text: string;
   if (r.review === "verified") text = `검수 규칙 · ${r.reviewer ?? "검수자"} ${r.reviewedAt ?? ""}`;
   else if (r.review === "curated")
-    text = "검수 규칙(1차) · 원문 근거 구절과 대조해 작성했고(AI 보조), 최종 사람 검수는 진행 중이에요.";
+    text = "원문 대조 완료 · 최종 검수 중";
   else if (r.review === "structured")
-    text = "API 지원조건 · 공공서비스(혜택) API의 구조화된 지원조건 코드(나이·소득 구간·대상 특성·가구 유형)로 판정했어요. 재산 등 세부 요건과 원문 문구에서 보완한 조건은 신청처에서 확인하세요.";
+    text = "공공서비스 지원조건 기준입니다. 재산 등 세부 요건은 신청처에 확인하세요.";
   else if (r.origin === "gov24_conditions")
-    text = "API 지원조건(시범 지역 외) · 공공서비스(혜택) API 지원조건 코드로 변환했지만, 시범 지역(경기도)·전국 사업이 아니어서 최대 '가능성 있음'까지만 판정해요.";
-  else if (r.origin === "none") text = "아직 구조화된 자격 규칙이 없어요. 원문·신청처에서 확인하세요.";
-  else text = "자동 변환 규칙(검수 전) · 원문 문구·분류 태그에서 자동으로 뽑은 조건이라 최대 '가능성 있음'까지만 판정해요.";
+    text = "지역 지원조건 검수 전 · 가능성만 안내합니다. 신청처 확인이 필요해요.";
+  else if (r.origin === "none") text = "비교할 지원조건이 없어요. 공식 안내나 신청처에서 확인하세요.";
+  else text = "자동 정리한 조건으로 검수 전입니다. 신청처 확인이 필요해요.";
   return (
     <div className="rule-note">
       <p>{text}</p>
@@ -562,7 +561,7 @@ function ExplainBlock({ item, sit, mode }: { item: V2Item; sit: Situation; mode:
   const open = item.bucket === "ask" || item.bucket === "office";
   const rest = open ? dimsFor(item.s.program).filter((id) => dimAvailable(DIM_BY_ID[id], sit) && DIM_BY_ID[id].isUnknown(sit)) : [];
   const dims = [...new Set([...item.dims, ...rest])].filter((d) => !skipped.includes(d)).slice(0, 3);
-  const apply = (next: Situation) => saveSituation(next, mode);
+  const apply = (next: Situation) => saveSituation(next, mode, undefined, readQuickResults());
   const who = mode === "parent" ? "부모님 답" : "내 답";
   const list = (lines: ExplainLine[]) => (
     <ul>
@@ -605,7 +604,7 @@ function ExplainBlock({ item, sit, mode }: { item: V2Item; sit: Situation; mode:
       {dims.length > 0 && (
         <div className="inline-q no-print" data-testid="detail-questions">
           <p>
-            <strong>이것만 답하시면 바로 알려드려요</strong> <span className="small muted">(답은 이 기기에만 저장돼요)</span>
+            <strong>추가 확인</strong>
           </p>
           {dims.map((id) => {
             const d = DIM_BY_ID[id];

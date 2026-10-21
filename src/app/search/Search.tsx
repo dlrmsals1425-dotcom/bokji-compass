@@ -111,9 +111,6 @@ export function Search() {
         </li>
       </ol>
       <h1 className="h1">서비스 찾기</h1>
-      <p className="lead" style={{ marginBottom: "1.5rem" }}>
-        대상과 주제를 고르거나 이름으로 찾습니다. 받을 수 있는지까지 알고 싶다면 <Link href="/situation">맞춤 찾기</Link>가 더 빠릅니다.
-      </p>
 
       <form
         role="search"
@@ -220,8 +217,7 @@ export function Search() {
         )}
       </form>
       <p className="small muted" style={{ marginTop: "0.625rem" }}>
-        검색 범위: {scope} 사업 · 같은 묶음 안에서는 하나라도 해당하면, 묶음끼리는 모두 해당하는 서비스를 보여 줍니다
-        {profile ? " · 입력하신 정보로 판정 결과도 함께 표시" : ""}
+        검색 범위: {scope}
       </p>
 
       {q.trim() && <CrisisHelp text={q} />}
@@ -229,7 +225,7 @@ export function Search() {
         <p className="notice search-hint" data-testid="search-no-region" role="note">
           <Icon name="mapPin" size={18} />
           <span>
-            지금은 <strong>전국 공통</strong> 사업만 찾았어요. 출산지원금처럼 시·군·구마다 다른 지원은 위에서 사는 곳을 고르면 함께 찾아요. 내 상황을 한 번 입력해 두면 그 지역을 기본으로 함께 찾아요.
+            지역 혜택도 찾으려면 시·도를 선택하세요.
           </span>
         </p>
       )}
@@ -237,7 +233,7 @@ export function Search() {
         <p className="notice search-hint" data-testid="search-auto-region" role="note">
           <Icon name="mapPin" size={18} />
           <span>
-            검색어의 지역 낱말로 <strong>{scope.replace(/^전국 공통 \+ /, "")}</strong> 사업까지 함께 찾았어요. 다른 지역은 시·도를 골라 주세요.
+            검색어에서 찾은 지역: <strong>{scope.replace(/^전국 공통 \+ /, "")}</strong>
           </span>
         </p>
       )}
@@ -245,8 +241,8 @@ export function Search() {
         <div className="notice warm search-hint" data-testid="search-situation" role="note">
           <Icon name="info" size={18} />
           <span>
-            상황을 말씀하신 것 같아요: <strong>{understoodLine(parsed)}</strong>
-            {parsed.mode === "parent" ? " · 부모님 대신 찾기" : ""}. 받을 수 있는지까지 보려면{" "}
+            <strong>{understoodLine(parsed)}</strong>
+            {parsed.mode === "parent" ? " · 부모님" : ""}{" "}
             <button
               type="button"
               className="linklike"
@@ -258,7 +254,6 @@ export function Search() {
             >
               이 내용으로 맞춤 찾기
             </button>
-            를 눌러 주세요.
           </span>
         </div>
       )}
@@ -280,19 +275,19 @@ export function Search() {
           </div>
           {partial && (
             <p className="small muted" data-testid="search-partial">
-              모든 낱말이 들어간 서비스가 없어, 낱말 일부가 맞는 서비스를 많이 맞는 순으로 보여 드려요.
+              전체 검색어와 일치하는 결과가 없어 일부 일치한 혜택을 표시했어요.
             </p>
           )}
           {hits.length === 0 ? (
             isGibberish(q) ? (
               <p className="empty" data-testid="search-gibberish">
-                알아볼 수 있는 낱말이 없어요. 예: <Link href="/search?q=기초연금">기초연금</Link>, <Link href="/search?q=출산">출산</Link>, <Link href="/search?q=월세">월세</Link>처럼 찾거나,{" "}
-                <Link href="/situation">상황을 적어서 찾아 보세요</Link>.
+                검색어를 확인해 주세요. 예: <Link href="/search?q=기초연금">기초연금</Link>, <Link href="/search?q=출산">출산</Link>, <Link href="/search?q=월세">월세</Link>.{" "}
+                <Link href="/situation">말로 찾기</Link>
               </p>
             ) : (
               <p className="empty" data-testid="search-empty">
-                조건에 맞는 서비스가 없습니다. 다른 낱말로 찾거나, 위에서 시·도를 골라 지역 사업까지 찾아 보세요. 받을 수 있는 것을 한 번에 보려면{" "}
-                <Link href="/situation">상황으로 찾기</Link>를 이용하세요.
+                검색 결과가 없어요. 검색어나 지역을 바꿔 보세요.{" "}
+                <Link href="/situation">말로 찾기</Link>
               </p>
             )
           ) : (

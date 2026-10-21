@@ -79,11 +79,4 @@
   .guided :global([data-dim="age"] .gq-opts) { grid-template-columns: minmax(0,1fr); }
 }
 
-/* Keep main question controls and handlers intact while using the UI presentation grid. */
-.questionLayout > :global(.gq-q) { grid-column: 1; grid-row: 1 / span 2; }
-.questionLayout > :not(:global(.gq-q)) { grid-column: 2; }
 .guided :global(.gq-counts) { margin-bottom: 1.5rem; }
-@media (max-width: 50rem) {
-  .questionLayout { grid-template-columns: minmax(0, 1fr); }
-  .questionLayout > :global(.gq-q), .questionLayout > :not(:global(.gq-q)) { grid-column: 1; grid-row: auto; }
-}

@@ -1,8 +1,6 @@
-# 복지나침반 (MVP)
+# 복지나침반 · jinwoo-ui
 
-로그인 없이 **내 상황을 먼저 알려주면**(사는 곳만 필수, 나머지는 모름 가능) **중앙정부·청 / 시도 / 시군구 / 공공기관** 복지 서비스를
-**받으실 수 있어요 · 신청할 때 확인 · 답하면 정해져요 · 맞지 않아 뺐어요**로 나눠, 이유와 함께 보여주는 서비스입니다.
-입력값은 서버로 보내지 않고 브라우저 안에서 판정합니다. 예전 3단계 화면은 비교용으로 `/results?v=1`, `/check?v=1`.
+큰 버튼을 눌러 답하거나 말로 상황을 설명하면, 전국 공통·거주 지역의 복지 혜택을 찾아주는 서비스입니다. `jinwoo-ui`는 기존 검색·판정 기능 위에 화면과 사용 흐름을 개편한 브랜치입니다. 음성 전용 작업은 `jinwoo`에서 분리해 관리합니다.
 
 ## UI 미리보기
 
@@ -21,6 +19,84 @@
 - 위 이미지는 2026-10-20 UI 전용 브랜치의 로컬 프로덕션 빌드에서 캡처했습니다. 결과는 실제 개인정보가 아닌 가상 예시입니다.
 - 화면 표현만 변경했으며 기존 판정·데이터·음성 API·키오스크·신청서 작성 기능은 유지합니다.
 
+**[배포된 UI 보기](https://bokji-jinwoo-ui.nutmeg-frog-5006.chatgpt.site)** — 공개 상태이며 링크로 접속할 수 있습니다. 루트는 Next.js 앱, [`sites/bokji-jinwoo-ui`](sites/bokji-jinwoo-ui)는 배포한 Vinext/Cloudflare Worker 앱의 소스입니다. 실행 환경 차이는 [배포 안내](docs/SITES_DEPLOYMENT.md)에 정리했습니다.
+
+## 화면으로 보는 변경사항
+
+왼쪽은 개편 전 저장소에 남아 있는 화면, 오른쪽은 2026-10-20 공개 사이트에서 캡처한 화면입니다. 모두 **1280 × 800**이며, 이미지를 누르면 원본 크기로 볼 수 있습니다. [캡처 출처와 조건](docs/images/ui/SOURCES.md)
+
+### 1. 첫 화면 — 설명보다 시작 버튼을 먼저
+
+| 변경 전 | 변경 후 |
+| --- | --- |
+| [![변경 전 홈: 긴 소개 문구, 검색창, 여러 메뉴와 시작 카드](docs/images/ui/home-before.png)](docs/images/ui/home-before.png) | [![변경 후 홈: 지도와 나침반, 골라서 찾기와 말로 찾기 두 버튼](docs/images/ui/home-after.png)](docs/images/ui/home-after.png) |
+| 상단 메뉴·소개 문구·검색창·시작 카드가 한 화면에 함께 있었습니다. | `골라서 찾기`와 `말로 찾기`를 크게 배치하고, 지도·나침반으로 서비스의 역할을 보여줍니다. |
+
+### 2. 나이 선택 — 가로 공간을 넓게 사용
+
+| 변경 전 | 변경 후 |
+| --- | --- |
+| [![변경 전 나이 입력: 큰 단계 안내 아래 좁은 폼에 배치된 선택지](docs/images/ui/age-before.png)](docs/images/ui/age-before.png) | [![변경 후 나이 선택: 한 질문 아래 화면 너비를 활용한 큰 선택 버튼](docs/images/ui/age-after.png)](docs/images/ui/age-after.png) |
+| 단계 안내가 큰 비중을 차지하고, 나이·가구 입력이 좁은 폼 안에 모여 있었습니다. | 한 질문에 집중하도록 바꾸고, 나이 선택지를 가로로 펼쳤습니다. 선택하면 다음 질문으로 넘어갑니다. |
+
+나이 → 가구원 수 → 자녀·출산 해당 여부 순서로 확인하며, 자녀가 있을 때만 자녀 나이를 묻습니다. 작은 화면에서는 선택지 열 수가 줄어듭니다.
+
+### 3. 결과 — 한 줄에 한 혜택, 상세 설명은 접기
+
+| 변경 전 | 변경 후 |
+| --- | --- |
+| [![변경 전 결과: 큰 판정 박스와 입력 요약, 카드 안에 펼쳐진 조건과 신청 안내](docs/images/ui/results-before.png)](docs/images/ui/results-before.png) | [![변경 후 결과: 작은 상태 탭, 왼쪽 요약과 한 줄에 하나씩 배치한 혜택](docs/images/ui/results-after.png)](docs/images/ui/results-after.png) |
+| 판정 박스와 안내 문구가 크고, 카드마다 판단 이유·신청 안내가 펼쳐져 있었습니다. | 상태 표시는 작게, 혜택 목록은 넓게 배치했습니다. 이름·지원 내용부터 읽고 조건·신청 정보는 펼쳐 봅니다. |
+
+결과 화면은 수원시 어르신 예시입니다. 과거·현재의 데이터와 입력 조건이 완전히 같지는 않으므로 **건수 비교가 아닌 화면 구성 비교**입니다.
+
+### 4. GPS와 음성 입력 — 기능은 유지하고 진입은 단순하게
+
+| 현재 위치 확인 | 현재 말로 찾기 |
+| --- | --- |
+| [![현재 위치를 먼저 조회한 뒤 수원시가 맞는지 확인하는 화면](docs/images/ui/location-after.png)](docs/images/ui/location-after.png) | [![긴 입력 폼 대신 음성 입력 시작 버튼을 먼저 보여주는 화면](docs/images/ui/voice-after.png)](docs/images/ui/voice-after.png) |
+| 홈에서 조회한 지역을 먼저 제시합니다. 맞으면 바로 진행하고, 아니면 시·도/시·군·구를 직접 고릅니다. | `음성 입력 시작` → 실시간 받아쓰기 → 결과로 이어집니다. 직접 입력은 접어 두고, 추가 질문은 결과의 `더 자세히 찾기`에서 이어갑니다. |
+
+## UI를 구성한 방식
+
+설명을 오래 읽기보다 다음 행동이 먼저 보이도록 구성했습니다. 선명한 핀테크 화면을 방향으로 삼아, 넓은 여백·큰 선택 영역·짧은 문구를 공통으로 적용했습니다.
+
+- **색과 글꼴:** 아이보리 바탕 `#fbfcf8`, 짙은 녹색 글자 `#183b25`, 라임색 주요 버튼 `#c7ed68`을 사용합니다. 본문은 로컬 Pretendard이고, 색·글자 크기는 CSS 변수로 관리합니다.
+- **첫 화면:** `골라서 찾기`와 `말로 찾기`를 큰 버튼 두 개로 보여줍니다. 지도 위 복지 아이콘과 나침반 모션으로 서비스의 역할을 표현하고, 가상 예시는 접어 둡니다. 모션이 끝나기 전에도 시작할 수 있습니다.
+- **모션:** 나침반은 도입 회전 후 커서를 따라 가볍게 반동합니다. 움직임이 안정되면 프레임 계산을 멈추며, 터치 환경과 모션 감소 설정에서는 커서 추적을 하지 않습니다.
+- **선택 화면:** 한 화면에 한 질문을 보여줍니다. 나이는 질문 아래 가로 폭을 활용해 배치하고, 작은 화면에서는 열 수를 줄입니다. 답을 생략하는 선택지는 `건너뛰기`로 통일했습니다.
+- **결과 화면:** 한 줄에 혜택 하나씩 표시합니다. 이름·짧은 지원 내용·판정 상태를 먼저 보여주고, 상세 조건·신청 정보·입력 요약은 필요할 때 펼쳐 봅니다.
+- **공통 요소:** 중복 탐색 탭과 홍보 문구를 줄였습니다. 헤더·파비콘·앱 아이콘은 같은 녹색 나침반을 사용하며, 키보드 초점·큰 글씨·모션 감소 설정을 지원합니다.
+
+## 현재 화면 흐름
+
+| 화면 | 사용 흐름 |
+| --- | --- |
+| 홈 `/` | 골라서 찾기 또는 말로 찾기로 바로 진입합니다. 위치 조회도 미리 시작합니다. |
+| 골라서 찾기 `/ask` | 대상 → 거주 지역 확인 → 나이 → 가구원 수 → 해당하는 가족·생활 조건 → 결과 순서입니다. 기본 질문은 위치 확인 뒤 최대 5개이며, 추가 답변은 선택입니다. |
+| 말로 찾기 `/situation` | `음성 입력 시작` → 실시간 받아쓰기 → `말하기 완료 · 바로 찾기`로 결과를 봅니다. 직접 글로 입력할 수도 있습니다. |
+| 결과 `/results` | 혜택을 판정 상태별로 보고 조건을 수정합니다. 빠른 말로 찾기의 `더 자세히 찾기`를 누르면 필요한 질문을 하나씩 이어갑니다. |
+| 상세 `/p/[id]` | 지원 내용·조건·신청처·공식 원문·자료 기준일을 확인합니다. |
+
+**GPS는 한 번 조회해 공유합니다.** 홈과 질문 화면이 같은 탭의 조회 결과를 재사용합니다. 위치 질문에서는 추정 지역이 맞는지 확인하고, 다른 지역이거나 조회에 실패하면 시·도/시·군·구를 직접 고릅니다. 현재 위치를 곧바로 거주지로 확정하지 않습니다.
+
+**관련 있는 질문만 이어갑니다.** 자녀·출산 해당 여부를 확인한 뒤 자녀가 있을 때만 자녀 나이를 묻습니다. 말로 찾기에서도 ‘부모님’이라는 단어만으로 검색 대상을 바꾸지 않고, 대상이 모호하면 한 번 확인합니다. 지역을 말하지 않은 빠른 검색은 전국 공통 혜택부터 보여줍니다.
+
+선택 답변과 복지 조건의 비교는 브라우저에서 처리합니다. `건너뛰기`는 미확인으로 남기며, 불일치가 확인된 후보만 소거합니다. 화면의 판정은 최종 수급 자격 확정이 아닙니다. `/search`와 `/about`은 보조 화면이며, 이전 화면 비교 경로는 `/results?v=1`, `/check?v=1`입니다.
+
+## UI 코드 위치
+
+루트 앱은 Next.js App Router·React·TypeScript를 사용합니다. 공통 디자인 값은 전역 CSS, 화면별 배치는 CSS Modules, 질문 선택·판정 로직은 `src/lib/client`로 나눴습니다.
+
+| 역할 | 파일 |
+| --- | --- |
+| 공통 색·글꼴·접근성 | [`src/app/globals.css`](src/app/globals.css), [`SiteHeader.tsx`](src/components/SiteHeader.tsx), [`Icon.tsx`](src/components/Icon.tsx) |
+| 홈·지도·나침반 | [`src/app/page.tsx`](src/app/page.tsx), [`WelfareMap.tsx`](src/components/WelfareMap.tsx), [`CompassNeedle.tsx`](src/components/CompassNeedle.tsx) |
+| 질문 화면·순서·반응형 배치 | [`GuidedFlow.tsx`](src/app/ask/GuidedFlow.tsx), [`guided.ts`](src/lib/client/guided.ts), [`finder.module.css`](src/app/finder.module.css) |
+| 위치 선조회·재사용 | [`LocationPreload.tsx`](src/components/LocationPreload.tsx), [`locationSuggestion.ts`](src/lib/client/locationSuggestion.ts) |
+| 음성 입력·상황 해석 | [`VoiceSearch.tsx`](src/components/VoiceSearch.tsx), [`quickSituation.ts`](src/lib/client/quickSituation.ts), [`src/lib/voice`](src/lib/voice) |
+| 결과 목록·추가 질문 | [`ResultsV2.tsx`](src/app/results/ResultsV2.tsx), [`QuickRefinement.tsx`](src/app/results/QuickRefinement.tsx), [`results.module.css`](src/app/results/results.module.css) |
+| 공통 브랜드 원본 | [`public/brand/logo-symbol.svg`](public/brand/logo-symbol.svg) — `npm run brand:build`로 아이콘 자산 생성 |
 
 ## 빠르게 실행
 
@@ -47,7 +123,10 @@ npm run dev            # 개발 서버
 | `npx tsx scripts/scenarios.ts` | 예시 상황 4개의 탭별 개수·추천 상위 5개 → `pipeline/out/scenarios.json` |
 | `npx tsx scripts/spotcheck.ts [seed]` | 경기도 무작위 30개 종단 점검(링크 상태·연락처·신청방법) → `pipeline/out/spotcheck-gyeonggi.md` |
 
-## 화면 흐름 (로그인 없음)
+<details>
+<summary>이전 화면 구성 기록 (현재 UI는 위 설명 기준)</summary>
+
+## 이전 화면 흐름
 
 1. **홈** `/` — 시작 버튼, **예시 상황 4개(원클릭, `예시` 표시)**, 키워드 검색, 3단계 설명, 데이터 규모. 로그인은 비활성 `🔒 로그인 준비 중` 버튼만.
    예시 링크: `/results?example=suwon-senior | seongnam-single-parent | goyang-youth | bucheon-disability`.
@@ -74,6 +153,8 @@ npm run dev            # 개발 서버
    출처별 **원문 기준일·수집일**, 신뢰도. `🔒 신청 준비/알림 (준비 중)`.
 5. **검색** `/search`, **데이터·판정 기준** `/about`. 헤더의 `가+ 큰 글씨`는 125% 확대(설정은 기기에 저장).
 
+</details>
+
 ## 구조
 
 ```
@@ -96,9 +177,7 @@ src/app/                  Next.js 16 App Router 화면
 tests/unit, pipeline/tests  Vitest   ·   tests/e2e  Playwright
 ```
 
-**개인정보 흐름**: 브라우저는 `national.json` + 내 `sido` + 내 `sigungu` 번들(정적 파일, GET)만 받습니다. 프로필은 어떤 요청에도
-실리지 않습니다(e2e 에서 모든 요청을 검사). 서버 API·DB·로그인 없음 → Vercel 정적/Edge 배포와 호환(`/p/[id]` 만 on-demand 렌더).
-※ 번들 경로로 **시군구 단위 지역**은 정적 파일 요청에 드러납니다(설계상 허용, 아래 결정 사항 참고).
+**데이터와 음성 처리**: 브라우저는 전국·선택한 시도·시군구의 정적 JSON 번들을 받아 입력 조건과 비교합니다. 선택한 지역은 번들 요청 경로에 드러나며, GPS 좌표를 시군구로 바꾸는 계산은 기기 안에서 합니다. 음성 입력은 OpenAI로 전송해 받아쓰므로 서버 API와 `OPENAI_API_KEY`가 필요합니다. 키는 서버에서만 사용하며, 상세 연결 구조는 [음성 안내](docs/VOICE.md)를 참고합니다.
 
 ### 판정 정책 (설계서 6.1·6.2)
 - 규칙은 조건 트리(all/any) + 3값 논리. `모름`은 U(미확정), 묻지 않는 조건(재산·질병 등)은 항상 U.
@@ -254,26 +333,30 @@ npm run forms:build
 
 | 이름 | 용도 | 필요 시점 |
 |---|---|---|
+| `OPENAI_API_KEY` | 서버에서 음성 전사·실시간 연결에 사용. 로컬 `.env.local` 또는 배포 환경의 비밀값으로 설정 | 음성 입력 시 |
 | `DATA_GO_KR_SERVICE_KEY` | 공공데이터포털 일반 인증키 (정부24는 `Authorization: Infuser` 헤더, 복지로는 `serviceKey` 쿼리. 출력·로그·커밋 금지) | 파이프라인 수집 시만 |
 | `GOV24_DAILY_BUDGET` | 공공서비스 API 일일 호출 예산 (기본 2000, 한도 10,000) | 선택 |
 | `BOKJIRO_CENTRAL_BUDGET` / `BOKJIRO_LOCAL_BUDGET` | 복지로 중앙·지자체 API 일일 예산 (기본 95 / 950, 개발계정 한도 100 / 1,000) | 선택 |
 | `E2E_BASE_URL` / `E2E_PORT` | e2e 대상 서버 | 선택 |
 
-앱 런타임에는 환경 변수가 필요 없습니다. `.env.example` 참고.
+정적 번들 검색에는 데이터 API 키가 필요 없습니다. 음성 입력에는 서버의 `OPENAI_API_KEY`가 필요합니다. `.env.example`과 [팀원 음성 실행 안내](docs/TEAM_VOICE_SETUP.md)를 참고하세요.
 
-## 배포 (Vercel, 아직 배포하지 않음)
+## 배포 참고 (루트 Next.js 앱)
+
+현재 `jinwoo-ui`의 공개 UI는 위 ChatGPT Sites 주소에서 제공합니다. 아래는 루트 앱을 Vercel에서 실행할 때의 참고 설정입니다.
+
 - 프레임워크 기본값(Next.js) 그대로. 번들(약 20MB, 시군구 번들 gzip 평균 ~12KB)은 `public/` 정적 자산으로 함께 배포.
 - 데이터 갱신 = `npm run pipeline` 후 커밋 → 재배포.
 
-> **보안 주의:** Turbopack 로컬 캐시(`.next/cache`)는 빌드 프로세스의 환경변수를 스냅샷합니다. 셸에 `DATA_GO_KR_SERVICE_KEY` 등 비밀값이 있으면 `npm run build:safe` / `npm run start:safe`(최소 환경으로 실행)를 사용하세요. 앱 런타임은 API 키가 필요 없습니다(번들은 정적 JSON).
+수집용 데이터 키와 음성 런타임 키는 용도가 다릅니다. `.env.local`·로컬 캐시·비밀값은 커밋하지 않으며, 음성 기능을 배포할 때는 서버 비밀 설정에 `OPENAI_API_KEY`를 등록합니다.
 
-## 배포 (Vercel)
+### Vercel 설정
 
 - **운영 주소**: https://bokji-compass.vercel.app — 사용자 확인 기준 배포 대상이다. `goyang-welfare.vercel.app`은 다른 사이트다.
 - **작업 저장소**: https://github.com/dlrmsals1425-dotcom/bokji. 이 저장소의 병합과 운영 Vercel 프로젝트 배포는 별도로 확인한다. 운영 프로젝트 관리자가 변경 사항을 가져오는 절차는 [배포 안내](docs/DEPLOYMENT.md)를 참고한다.
 - **데이터 키 불필요**: 앱은 커밋된 `public/bundles/v1/*`(정적 JSON)만 읽고, 판정은 브라우저에서 한다. `DATA_GO_KR_SERVICE_KEY`는
   데이터를 다시 수집할 때(`npm run ingest:*`, 로컬 전용)만 쓰며 **Vercel 환경 변수에 넣지 않는다**. 빌드(`next build`)는 수집·파이프라인을 실행하지 않는다.
-- **설정**: Framework Preset `Next.js` · Build Command `npm run build`(= `next build`) · Output 기본값(`.next`) · Install `npm ci` · Node 20 이상. 환경 변수 없음.
+- **설정**: Framework Preset `Next.js` · Build Command `npm run build`(= `next build`) · Output 기본값(`.next`) · Install `npm ci`. 음성 입력을 쓸 경우 서버 환경변수 `OPENAI_API_KEY` 설정.
 - **업로드 제외**: `.vercelignore`(로그·테스트 결과·파이프라인·스크린샷·`.env*` 제외). 참고 사이트 캡처 `shots/ref-*.png`는 저작권상 저장소에도 커밋하지 않는다.
 - **데이터 갱신**: 로컬에서 `npm run ingest:gov24 && npm run ingest:bokjiro && npm run pipeline` → `public/bundles/v1` 커밋 → 푸시(또는 `vercel --prod`).
 - CLI 배포: `vercel link --yes --project bokji-compass` → `vercel --prod --yes`.

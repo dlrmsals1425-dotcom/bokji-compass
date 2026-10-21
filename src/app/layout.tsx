@@ -8,21 +8,21 @@ import { KioskGuard } from "@/components/KioskGuard";
 
 const SITE = process.env.VERCEL_PROJECT_PRODUCTION_URL ? `https://${process.env.VERCEL_PROJECT_PRODUCTION_URL}` : "https://bokji-compass.vercel.app";
 const DESC =
-  "상황을 한 문장으로 적거나 몇 가지만 답하면 중앙정부·시도·시군구·공공기관 복지 중 받으실 수 있는 혜택, 신청할 때 확인할 혜택, 신청할 곳을 이유와 함께 알려드려요. 로그인 없이, 복지 판정은 이 기기에서 해요.";
+  "내 상황에 맞는 전국 복지 혜택과 신청 방법을 찾아보세요.";
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE),
-  title: { default: "복지나침반 — 로그인 없이 찾는 맞춤 복지", template: "%s · 복지나침반" },
+  title: { default: "복지나침반", template: "%s · 복지나침반" },
   description: DESC,
   openGraph: {
     type: "website",
     locale: "ko_KR",
     siteName: "복지나침반",
-    title: "복지나침반 — 로그인 없이 찾는 맞춤 복지",
-    description: "받으실 수 있는 복지 혜택과 신청할 곳을 이유와 함께. 복지 판정은 이 기기에서 해요.",
-    images: [{ url: "/og.png", width: 1200, height: 630, alt: "복지나침반 — 로그인 없이 찾는 맞춤 복지" }],
+    title: "복지나침반",
+    description: DESC,
+    images: [{ url: "/icons/icon-512.png?v=compass-1", width: 512, height: 512, alt: "복지나침반" }],
   },
-  twitter: { card: "summary_large_image", images: ["/og.png"] },
+  twitter: { card: "summary", images: ["/icons/icon-512.png?v=compass-1"] },
   // 검색 노출 허용 (QA 1차 M5) — 미리보기 환경(preview)은 그대로 막는다
   robots: process.env.VERCEL_ENV && process.env.VERCEL_ENV !== "production" ? { index: false, follow: false } : { index: true, follow: true },
 };

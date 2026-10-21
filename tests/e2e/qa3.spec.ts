@@ -1,11 +1,10 @@
+import { openPrefill } from "./helpers/prefill";
 import { expect, test, type Page } from "@playwright/test";
 
 /** QA 3차 수정 확인 (리뷰 보고서 항목 ID를 제목에 표기, 재현 문장 그대로) */
 
 async function fromHome(page: Page, sentence: string) {
-  await page.goto("/");
-  await page.locator("#home-q").fill(sentence);
-  await page.locator("#home-q").press("Enter");
+  await openPrefill(page, sentence);
   await expect(page.getByTestId("prefill-banner")).toBeVisible({ timeout: 20_000 });
 }
 async function toResults(page: Page, sentence: string) {

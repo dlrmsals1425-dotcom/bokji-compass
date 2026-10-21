@@ -1,3 +1,4 @@
+import { openPrefill } from "./helpers/prefill";
 import { expect, test, type Page, type Request } from "@playwright/test";
 
 /** 입력 상황 값이 네트워크로 나가지 않는지 확인하기 위한 표식 */
@@ -26,14 +27,16 @@ test.describe("로그인 없는 전체 흐름 (상황 먼저 · 기본)", () => 
     page.on("request", (r) => requests.push(r));
 
     await page.goto("/");
-    await expect(page.getByRole("heading", { level: 1 })).toContainText("내 조건");
+    await expect(page.getByRole("heading", { level: 1 })).toContainText("여기서 찾으세요");
     await expect(page.locator("input[type=password]")).toHaveCount(0);
     await expect(page.getByText("로그인 준비 중")).toHaveCount(0); // QA 2차 L3
 
-    // 홈은 찾는 방법 두 갈래 (2026-10-16) — 말로 찾기 → 상황 입력 (처음이면 내 복지)
+    // 홈은 찾는 방법 두 갈래 (2026-10-16) — 말로 찾기는 한 문장 바로 찾기(2026-10-20 jinwoo), 한 화면 입력은 ?details=1
     await expect(page.getByTestId("start-guided")).toBeVisible();
     await page.getByTestId("start-talk").click();
     await expect(page).toHaveURL(/\/situation$/);
+    await expect(page.getByTestId("quick-situation")).toBeVisible();
+    await page.goto("/situation?details=1");
     await expect(page.getByTestId("v2-situation")).toHaveAttribute("data-mode", "self");
     await expect(page.getByText("시험판")).toHaveCount(0);
     await regionsReady(page);
@@ -92,7 +95,7 @@ test.describe("로그인 없는 전체 흐름 (상황 먼저 · 기본)", () => 
   });
 
   test("내 복지(청년·자녀): 자녀 수·나이·임신·한부모·구직을 묻고, 추가 질문은 3개까지 @mobile", async ({ page }) => {
-    await page.goto("/situation?for=self&new=1");
+    await page.goto("/situation?for=self&new=1&details=1");
     await regionsReady(page);
     await page.getByLabel(/^사는 시·도/).selectOption({ label: "경기도 (시범 지역)" });
     await page.getByLabel(/^시·군·구/).selectOption({ label: "성남시" });
@@ -127,7 +130,7 @@ test.describe("로그인 없는 전체 흐름 (상황 먼저 · 기본)", () => 
 
   test("모름만으로도 결과 + 예전 주소(/check, v=2) 호환 + 검색 + 큰 글씨", async ({ page }) => {
     await page.goto("/check");
-    await expect(page).toHaveURL(/\/situation$/);
+    await expect(page).toHaveURL(/\/situation\?details=1$/);
     await regionsReady(page);
     await page.getByLabel(/^사는 시·도/).selectOption({ label: "서울특별시" });
     await page.getByLabel(/^시·군·구/).selectOption({ label: "종로구" });
@@ -180,7 +183,7 @@ test.describe("로그인 없는 전체 흐름 (상황 먼저 · 기본)", () => 
     await expect(page.getByTestId("apply-fallback")).toContainText("행정복지센터");
     await expect(page.getByTestId("apply-fallback")).toContainText("129");
     await expect(page.getByTestId("official-link")).toHaveAttribute("href", /mohw\.go\.kr/);
-    await expect(page.getByRole("link", { name: /사는 곳과 상황을 알려주시면/ })).toHaveAttribute("href", "/situation");
+    await expect(page.getByRole("link", { name: /내 상황으로 지원 조건 확인하기/ })).toHaveAttribute("href", "/situation");
   });
 
   test("홈의 예시 상황: 한 번에 결과 + 예시 안내 + 먼저 확인할 5가지 @mobile", async ({ page }) => {
@@ -194,10 +197,11 @@ test.describe("로그인 없는 전체 흐름 (상황 먼저 · 기본)", () => 
     ];
     for (const [id, region, top] of cases) {
       await page.goto("/");
+      await page.getByText("가상 예시 보기", { exact: true }).click();
       await page.getByTestId(`preset-${id}`).click();
       await expect(page).toHaveURL(id === "parent-care" ? /\/results\?for=parent$/ : /\/results$/);
       await expect(page.getByRole("heading", { level: 1 })).toContainText(region, { timeout: 20_000 });
-      await expect(page.getByTestId("example-banner")).toContainText("예시 상황");
+      await expect(page.getByTestId("example-banner")).toContainText("예시 결과");
       await expect(page.getByTestId("top-picks").locator("ol > li")).toHaveCount(5);
       await expect(page.getByTestId("top-picks")).toContainText(top);
       if (id === "parent-care") {
@@ -206,7 +210,7 @@ test.describe("로그인 없는 전체 흐름 (상황 먼저 · 기본)", () => 
       }
     }
     // 직접 입력(저장)하면 예시 표시가 사라진다
-    await page.goto("/situation");
+    await page.goto("/situation?details=1");
     await regionsReady(page);
     await page.getByTestId("v2-submit").click();
     await expect(page.getByTestId("v2-results")).toBeVisible({ timeout: 20_000 });
@@ -215,6 +219,7 @@ test.describe("로그인 없는 전체 흐름 (상황 먼저 · 기본)", () => 
 
   test("자동으로 받는 혜택: 본문·추천과 분리된 접힌 영역, 개수 = 카드 수 @mobile", async ({ page }) => {
     await page.goto("/");
+    await page.getByText("가상 예시 보기", { exact: true }).click();
     await page.getByTestId("preset-seongnam-single-parent").click();
     await expect(page.getByTestId("top-picks")).toBeVisible({ timeout: 20_000 });
     const sec = page.getByTestId("auto-section");
@@ -241,6 +246,8 @@ test.describe("로그인 없는 전체 흐름 (상황 먼저 · 기본)", () => 
     await expect(page.getByTestId("start-guided")).toBeVisible();
     await page.getByTestId("start-talk").click();
     await expect(page).toHaveURL(/\/situation$/);
+    await expect(page.getByTestId("quick-situation")).toBeVisible();
+    await page.goto("/situation?details=1");
     await page.getByTestId("mode-parent").click();
     await expect(page.getByRole("heading", { level: 1 })).toContainText("부모님 상황");
     await expect(page.getByTestId("mode-parent")).toHaveAttribute("aria-pressed", "true");
@@ -272,9 +279,7 @@ test.describe("로그인 없는 전체 흐름 (상황 먼저 · 기본)", () => 
     const requests: Request[] = [];
     page.on("request", (r) => requests.push(r));
     const sentence = "수원시 소재에 계시고 59년생 부모님 두분이 계신다";
-    await page.goto("/");
-    await page.locator("#home-q").fill(sentence);
-    await page.locator("#home-q").press("Enter");
+    await openPrefill(page, sentence);
     await expect(page).toHaveURL(/\/situation\?for=parent&prefill=1/);
     const box = page.getByTestId("prefill-banner");
     await expect(box).toBeVisible({ timeout: 20_000 });
@@ -293,7 +298,7 @@ test.describe("로그인 없는 전체 흐름 (상황 먼저 · 기본)", () => 
     await expect(page.getByTestId("couple-note")).toContainText("기초연금");
 
     const follow = page.getByTestId("v2-followup");
-    await expect(follow).toContainText("이것만 알려주시면");
+    await expect(follow).toContainText("추가 질문");
     expect(await follow.locator(".v2-q").count()).toBeLessThanOrEqual(3);
     await expect(page.getByTestId("v2-q-income")).toBeVisible();
     const fitBefore = await num(page, "v2-n-fit");
@@ -307,7 +312,7 @@ test.describe("로그인 없는 전체 흐름 (상황 먼저 · 기본)", () => 
     expect(await num(page, "v2-n-no")).toBeGreaterThan(noBefore);
 
     // 상세: '답하면 정해져요' 혜택은 남은 질문을 상세에서 바로 답할 수 있다
-    await page.getByTestId("v2-ask").locator("summary").click();
+    await page.getByTestId("v2-ask").locator(":scope > summary").click();
     await page.getByTestId("v2-ask").getByTestId("v2-card").first().locator("h3 a").click();
     await expect(page).toHaveURL(/\/p\//);
     await expect(page.getByTestId("detail-judge")).toHaveAttribute("data-bucket", "ask");
@@ -324,9 +329,7 @@ test.describe("로그인 없는 전체 흐름 (상황 먼저 · 기본)", () => 
   test("사용자 문장: 용인 86년생 자녀 2명 세후 400 → 소득·가구 채움, 배우자 없이 바꾸기, 다시 묻지 않음", async ({ page }) => {
     const requests: Request[] = [];
     page.on("request", (r) => requests.push(r));
-    await page.goto("/");
-    await page.locator("#home-q").fill("용인시에 사는 86년생이야, 자녀는 2명이 있어. 월급은 세후 400정도되");
-    await page.locator("#home-q").press("Enter");
+    await openPrefill(page, "용인시에 사는 86년생이야, 자녀는 2명이 있어. 월급은 세후 400정도되");
     await expect(page).toHaveURL(/\/situation\?for=self&prefill=1/);
     await expect(page.getByTestId("prefill-banner")).toBeVisible({ timeout: 20_000 });
     const line = page.getByTestId("prefill-line");
@@ -354,9 +357,7 @@ test.describe("로그인 없는 전체 흐름 (상황 먼저 · 기본)", () => 
   });
 
   test("문장 해석 → 아래에서 더 답하기: 해석값이 채워진 채로 한 화면 입력", async ({ page }) => {
-    await page.goto("/");
-    await page.locator("#home-q").fill("분당 사시는 어머니 혼자 사세요 1950년생");
-    await page.locator("#home-q").press("Enter");
+    await openPrefill(page, "분당 사시는 어머니 혼자 사세요 1950년생");
     await expect(page.getByTestId("prefill-banner")).toBeVisible({ timeout: 20_000 });
     await page.getByTestId("prefill-edit").click();
     await expect(page.getByTestId("prefill-banner")).toHaveCount(0);
@@ -367,9 +368,7 @@ test.describe("로그인 없는 전체 흐름 (상황 먼저 · 기본)", () => 
   });
 
   test("검색: 서비스 이름은 그대로 검색, 지역 낱말은 그 지역까지, 상황 문장은 맞춤 찾기 제안", async ({ page }) => {
-    await page.goto("/");
-    await page.locator("#home-q").fill("기초연금");
-    await page.locator("#home-q").press("Enter");
+    await openPrefill(page, "기초연금");
     await expect(page).toHaveURL(/\/search\?q=/);
     await expect(page.getByText(/검색 결과 \d+개/)).toBeVisible({ timeout: 20_000 });
     await page.goto("/search?q=" + encodeURIComponent("수원 어르신 교통비"));

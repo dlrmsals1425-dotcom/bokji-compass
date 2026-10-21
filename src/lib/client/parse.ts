@@ -54,6 +54,8 @@ export interface ParsedSituation {
   regionTerms: string[];
   /** 만 나이 범위 (해석했을 때) */
   ageRange?: [number, number];
+  /** 확인 화면에서 제안할 뿐, 실제로 말한 나이는 아닌 친족·학년 기반 추정. */
+  ageAssumed?: boolean;
   /** 월 소득 (입력 화면의 '한 달 소득' 칸으로) */
   income?: ParsedIncome;
   /** 자녀 수 (실제 수, 0 = 없음) */
@@ -107,6 +109,8 @@ const PREGNANT_STRIP = /(?:임신|임산부|임부)\s*(?:한\s*지\s*)?(?:중\s*
 export interface ParseOptions {
   /** 사용자가 고른 탭 (부모님 복지 탭에서 시작했으면, 분명히 본인 이야기가 아닌 한 부모님 찾기로) */
   hint?: FindMode;
+  /** 빠른 검색에서 문맥 또는 사용자 확인으로 정한 대상. 낱말 추정보다 우선한다. */
+  target?: FindMode;
 }
 
 /* ---------------- 지역 ---------------- */
@@ -733,21 +737,25 @@ export function parseSituation(raw: string, regions: RegionIndex | null, today: 
   let mode: FindMode | null = null;
   if (parentWord && !livesWithParent) {
     mode = "parent";
-    const gp = /(할머니|할매)/.test(parentWord) ? "할머니" : /(할아버지|할배)/.test(parentWord) ? "할아버지" : /조부모/.test(parentWord) ? "조부모" : null;
-    understood.push({ key: "target", label: `${gp ?? "부모님"} 대신 찾기` });
   } else if (SELF_RE.test(text) || livesWithParent || selfHint) {
     mode = "self";
   }
   // 부모님 복지 탭에서 시작했으면, 분명히 본인 이야기('저는·제가'·'…엄마예요'·'부모님 모시고')가 아닌 한 부모님 찾기 (QA 2차 N1)
   const clearlySelf = SELF_RE.test(text) || selfParent || livesWithParent || noParents;
   if (opt.hint === "parent" && mode === "self" && !clearlySelf) mode = "parent";
-  if (mode === "parent" && !understood.some((u) => u.key === "target")) understood.push({ key: "target", label: "부모님 대신 찾기" });
+  if (opt.target) mode = opt.target;
+  if (mode === "parent") {
+    const gp = /(할머니|할매)/.test(parentWord ?? "") ? "할머니" : /(할아버지|할배)/.test(parentWord ?? "") ? "할아버지" : /조부모/.test(parentWord ?? "") ? "조부모" : null;
+    understood.push({ key: "target", label: `${gp ?? "부모님"} 대신 찾기` });
+  }
   if (mode === "self") understood.push({ key: "target", label: "내 복지 찾기" });
 
   // 나이
   let age = parseAge(text, today, mode === "self");
+  let ageAssumed = false;
   // 할아버지·할머니를 대신 찾는데 나이를 말하지 않았으면 만 65세 이상으로 보고 확인 화면에 보여 준다 (QA 3차 R1)
   if (!age && mode === "parent" && parentWord && /(할머니|할아버지|할매|할배|조부모)/.test(parentWord)) {
+    ageAssumed = true;
     age = {
       band: "unknown",
       range: [65, 120],
@@ -763,6 +771,7 @@ export function parseSituation(raw: string, regions: RegionIndex | null, today: 
     const i = g?.index ?? 0;
     if (g && !KIN_NEAR_BEFORE.test(text.slice(Math.max(0, i - 8), i)) && !KIN_NEAR_AFTER.test(text.slice(i + g[0].length))) {
       const { r, word } = gradeAge(g);
+      ageAssumed = true;
       age = { band: "0-18", range: r, label: `만 ${r[0]}~${r[1]}세 (${word})`, notes: [], choices: undefined, other: undefined };
     }
   }
@@ -1012,6 +1021,7 @@ export function parseSituation(raw: string, regions: RegionIndex | null, today: 
     looksLikeSituation: regionFound || !!age || familyWord || !!inc || (signalish && sentence),
     regionTerms,
     ageRange: age?.range,
+    ...(ageAssumed ? { ageAssumed: true } : {}),
     ...(inc ? { income: inc.income } : {}),
     ...(childN !== null && mode !== "parent" ? { childCount: childN } : {}),
     ...(householdAlt ? { householdAlt } : {}),

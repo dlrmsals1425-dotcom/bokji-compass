@@ -11,6 +11,7 @@ import styles from "./results.module.css";
 import { SupportTags } from "@/components/ProgramCard";
 import { ApplyBadge, orgText, ownerText } from "@/components/Badges";
 import { IncomeAsk } from "./IncomeAsk";
+import { QuickRefinement, QuickSearchNote } from "./QuickRefinement";
 import { Summary } from "./Summary";
 import { VisitSheet } from "./VisitSheet";
 import { loadForRegion, loadProgram, loadRegions, type Loaded } from "@/lib/client/bundles";
@@ -41,7 +42,7 @@ const DIM_INFO: Partial<Record<DimId, string>> = {
   housing: "사는 집 형태", activity: "하는 일(학생·구직 등)", illness: "앓는 병", children: "자녀", daycare: "어린이집·유치원 이용",
 };
 
-export function ResultsV2({ profile, mode }: { profile: Profile; mode: FindMode }) {
+export function ResultsV2({ profile, mode, quick = false }: { profile: Profile; mode: FindMode; quick?: boolean }) {
   const extras = useExtras();
   const example = useExample();
   const router = useRouter();
@@ -126,7 +127,7 @@ export function ResultsV2({ profile, mode }: { profile: Profile; mode: FindMode 
   if (!data || extras === undefined) {
     return (
       <div className="wrap page results-root" aria-busy="true" aria-live="polite">
-        <p className="muted">내 지역 서비스를 불러와 이 기기에서 고르고 있어요…</p>
+        <p className="muted">혜택을 불러오는 중…</p>
         <div className="skeleton" aria-hidden="true">
           <div className="sk" />
           <div className="sk" />
@@ -149,9 +150,8 @@ export function ResultsV2({ profile, mode }: { profile: Profile; mode: FindMode 
   };
   const preset = presetById(example);
   const place = data.label.split(" ").pop();
-  const questions = view.questions.filter((q) => !skipped.includes(q.dim.id)).slice(0, 3);
-  const unlock = new Set(questions.flatMap((q) => q.keys)).size;
-  const apply = (next: Situation) => saveSituation(next, mode);
+  const questions = view.questions.filter((q) => !skipped.includes(q.dim.id)).slice(0, quick ? 1 : 3);
+  const apply = (next: Situation) => saveSituation(next, mode, undefined, quick);
   const editHref = checkPath(mode);
   const picked = new Set(picks);
   const couple = coupleNote(mode, profile);
@@ -173,26 +173,25 @@ export function ResultsV2({ profile, mode }: { profile: Profile; mode: FindMode 
   const moreHint =
     picks.length > 0 && picks.length < 5 && !(picks.length < 3 && askFirst)
       ? moreInfo.length
-        ? `먼저 확인할 것이 ${picks.length}개뿐이에요. 이것을 알려 주시면 더 골라 드릴 수 있어요: ${moreInfo.join(", ")}.`
-        : `먼저 확인할 것이 ${picks.length}개뿐이에요. 상황을 조금 더 적어 주시면(하는 일, 함께 사는 사람 등) 더 골라 드릴 수 있어요.`
+        ? `추가 확인: ${moreInfo.join(", ")}`
+        : null
       : null;
   const followUp = (
     <section className="v2-follow no-print" id="v2-followup" aria-labelledby="fq-h" data-testid="v2-followup">
             {questions.length > 0 ? (
               <>
-                <h2 className="h2" id="fq-h">
-                  이것만 알려주시면 {unlock.toLocaleString("ko-KR")}개를 더 정확히 알려드려요
+                <h2 className="h2" id="fq-h" tabIndex={-1}>
+                  추가 질문
                 </h2>
-                <p className="small muted">모르시면 &lsquo;모름&rsquo;을 누르세요. 답하면 아래 목록이 바로 바뀌어요.</p>
                 <ol className="v2-qs">
                   {questions.map((q) => (
                     <li key={q.dim.id} className="v2-q" data-testid={`v2-q-${q.dim.id}`}>
                       <p className="v2-q-t">
-                        <strong>{q.dim.q(mode, sit)}</strong> <span className="small muted">(이 답으로 {q.groups}개가 정해져요)</span>
+                        <strong>{q.dim.q(mode, sit)}</strong>
                       </p>
-                      {q.dim.help && <p className="small muted">{q.dim.help}</p>}
+                      {q.dim.help && <details className="small muted"><summary>선택 도움말</summary><p>{q.dim.help}</p></details>}
                       {q.dim.id === "income" ? (
-                        <IncomeAsk sit={sit} onApply={apply} onSkip={() => setSkipped((s) => [...s, "income"])} />
+                        <IncomeAsk sit={sit} onApply={apply} onSkip={() => setSkipped((s) => [...s, "income"])} skipLabel={quick ? "건너뛰기" : undefined} />
                       ) : (
                         <div className="btn-row v2-answers">
                           {answersFor(q.dim, sit).map((a) => (
@@ -201,7 +200,7 @@ export function ResultsV2({ profile, mode }: { profile: Profile; mode: FindMode 
                             </button>
                           ))}
                           <button type="button" className="btn btn-quiet" onClick={() => setSkipped((s) => [...s, q.dim.id])} data-testid={`v2-skip-${q.dim.id}`}>
-                            모름
+                            {quick ? "건너뛰기" : "모름"}
                           </button>
                         </div>
                       )}
@@ -210,9 +209,9 @@ export function ResultsV2({ profile, mode }: { profile: Profile; mode: FindMode 
                 </ol>
               </>
             ) : (
-              <p className="notice" id="fq-h">
+              <p className="notice" id="fq-h" tabIndex={-1} data-question-focus>
                 <Icon name="check" size={18} />
-                <span>더 여쭤볼 것이 없어요. 아래 목록이 지금 답하신 상황 기준이에요.</span>
+                <span>추가 질문이 없어요.</span>
               </p>
             )}
             {inferredNoRecipient(sit) && (
@@ -264,17 +263,17 @@ export function ResultsV2({ profile, mode }: { profile: Profile; mode: FindMode 
             </li>
           </ol>
           {parent && (
-            <p className="notice warm" data-testid="parent-results-banner" role="note">
+            <p className={styles.note} data-testid="parent-results-banner" role="note">
               <Icon name="heart" size={18} />
               <span>
-                <strong>부모님 복지 찾기</strong> — 부모님 상황을 기준으로 골랐어요.
+                <strong>부모님 기준</strong>
               </span>
             </p>
           )}
           {couple && (
             <details className="notice couple-fold" data-testid="couple-note">
               <summary>
-                <Icon name="info" size={18} /> <strong>부모님 두 분이 함께 사시면</strong> <span className="small muted">(눌러서 보기)</span>
+                <Icon name="info" size={18} /> <strong>부모님 두 분이 함께 사시면</strong>
               </summary>
               <p>{couple}</p>
             </details>
@@ -283,7 +282,7 @@ export function ResultsV2({ profile, mode }: { profile: Profile; mode: FindMode 
             <p className="notice" data-testid="other-parent-note" role="note">
               <Icon name="info" size={18} />
               <span>
-                다른 한 분은 나이대가 달라요 ({other.label}). 나이로 정해지는 혜택이 다를 수 있어요.{" "}
+                다른 한 분: {other.label}{" "}
                 <button type="button" className="btn btn-ghost btn-sm" onClick={showOther} data-testid="other-parent-btn">
                   다른 분 기준으로 보기
                 </button>
@@ -291,33 +290,33 @@ export function ResultsV2({ profile, mode }: { profile: Profile; mode: FindMode 
             </p>
           )}
           {pilotSidos && profile.sido && !pilotSidos.includes(profile.sido) && (
-            <p className="notice" data-testid="non-pilot-note" role="note">
+            <p className={styles.note} data-testid="non-pilot-note" role="note">
               <Icon name="info" size={18} />
               <span>
-                <strong>경기도 밖 지역이에요.</strong> 이 지역 사업도 공공서비스 API 지원조건과 원문 자동 점검으로 판정하지만, 사람이 조건을 하나하나 검수한 곳은 아직 경기도뿐이에요. 신청 전에 원문을 꼭 확인하세요.
+                지역 조건 확인 중 · 신청 전 공식 안내를 확인하세요.
               </span>
             </p>
           )}
           {preset && (
-            <p className="notice warm" data-testid="example-banner" role="note">
-              <Icon name="info" size={18} />
-              <span>
-                <strong>예시 상황으로 보는 중입니다.</strong> {preset.title}({preset.desc})인 경우로 계산했어요. 실제 개인 정보가 아니에요.{" "}
-                <Link href={`${editHref}&new=1`}>{copy.reenterLabel}</Link>
-              </span>
+            <p className={styles.example} data-testid="example-banner" role="note">
+              <span>예시 결과</span>
+              <Link href={`${editHref}&new=1`}>내 상황으로 찾기</Link>
             </p>
           )}
           <h1 className="h1" id="res-h">
-            {place} {parent ? "부모님께 맞는 혜택" : "나에게 맞는 혜택"}
+            {quick ? "검색 결과" : `${place} ${parent ? "부모님께 맞는 혜택" : "나에게 맞는 혜택"}`}
           </h1>
-          <p className="situation" data-testid="v2-chips">
-            <span>
-              <Icon name="mapPin" size={16} className="icon-inline" /> {[data.label, ...situationChips(sit)].join(" · ")}
-            </span>
+          <div className={styles.conditions}>
+            <details className={styles.profile}>
+              <summary>입력한 조건 <Icon name="chevronDown" size={16} /></summary>
+              <p className="situation" data-testid="v2-chips">
+                {[data.label, ...situationChips(sit)].join(" · ")}
+              </p>
+            </details>
             <Link href={editHref} className="no-print" data-testid="edit-situation">
               상황 고치기
             </Link>
-          </p>
+          </div>
           {/* 큰 숫자 타일 대신 한 줄 개수 (QA 1차 H5: 모바일 첫 화면에 할 일이 보이게) */}
           <ul className="v2-counts" aria-label="분류별 개수">
             <Count href="#v2-fit" cls="t-eligible" label="받으실 수 있어요" n={view.fit.length} testId="v2-n-fit" />
@@ -329,294 +328,295 @@ export function ResultsV2({ profile, mode }: { profile: Profile; mode: FindMode 
       </section>
 
       <div className={`wrap page ${styles.frame}`}>
-        <div className={`v2-main ${styles.layout}`}><div className={styles.overview}>
-          {teen && <TeenNote />}
-          {data && (
-            <Summary
-              view={view}
-              picks={picks}
-              sit={sit}
-              mode={mode}
-              question={askFirst ? undefined : questions[0]}
-              onApply={apply}
-              onSkip={(d) => setSkipped((s) => [...s, d])}
-            />
-          )}
-          {/* 한눈에 보기 바로 아래 준비물 한 장 (QA 7차 V2: 모바일에서 기존 버튼이 y≈4,000px 아래) */}
-          {data && sheetItems.length > 0 && !sheetOpen && (
-            <p className="sum-sheet no-print">
-              <button
-                type="button"
-                className="btn btn-ghost btn-sm"
-                onClick={() => {
-                  setSheetOpen(true);
-                  setTimeout(() => document.getElementById("visit-sheet")?.scrollIntoView({ block: "start" }), 50);
-                }}
-                data-testid="sum-sheet-open"
-              >
-                <Icon name="listChecks" size={18} /> 가져갈 서류 한 장으로 보기
-              </button>
-            </p>
-          )}
-          </div><div className={styles.content}>
-          {askFirst && followUp}
-
-          {picks.length > 0 && (
-            <section aria-labelledby="picks-h" data-testid="top-picks" className="v2-sec">
-              <h2 className="h2" id="picks-h">
-                {copy.picksTitle(picks.length)}
-              </h2>
-              <p className="body">
-                {parent ? "부모님 상황에 가까운 순서예요." : "내 상황에 가까운 순서예요."}
-                {picks.some((g) => g[0].bucket === "ask") && " ‘답하면 정해져요’는 위 질문에 답하면 정해져요."}
+        <div className={`v2-main ${styles.layout}`}>
+          <div className={styles.overview} data-testid="results-overview">
+            {quick && <QuickSearchNote sit={sit} />}
+            {teen && <TeenNote />}
+            {data && (
+              <Summary
+                view={view}
+                picks={picks}
+                sit={sit}
+                mode={mode}
+                question={quick || askFirst ? undefined : questions[0]}
+                onApply={apply}
+                onSkip={(d) => setSkipped((s) => [...s, d])}
+              />
+            )}
+            {/* 한눈에 보기 바로 아래 준비물 한 장 (QA 7차 V2: 모바일에서 기존 버튼이 y≈4,000px 아래) */}
+            {data && sheetItems.length > 0 && !sheetOpen && (
+              <p className="sum-sheet no-print">
+                <button
+                  type="button"
+                  className="btn btn-ghost btn-sm"
+                  onClick={() => {
+                    setSheetOpen(true);
+                    setTimeout(() => document.getElementById("visit-sheet")?.scrollIntoView({ block: "start" }), 50);
+                  }}
+                  data-testid="sum-sheet-open"
+                >
+                  <Icon name="listChecks" size={18} /> 가져갈 서류 한 장으로 보기
+                </button>
               </p>
-              {moreHint && (
-                <p className="body muted" data-testid="picks-more-hint">
-                  {moreHint}
+            )}
+          </div>
+          <div className={styles.content} data-testid="results-content">
+            {!quick && askFirst && followUp}
+
+            {picks.length > 0 && (
+              <section aria-labelledby="picks-h" data-testid="top-picks" className="v2-sec">
+                <h2 className="h2" id="picks-h">
+                  추천 혜택 {picks.length}
+                </h2>
+                {moreHint && (
+                  <p className="body muted" data-testid="picks-more-hint">
+                    {moreHint}
+                  </p>
+                )}
+                <ol className="picks">
+                  {picks.map((g, i) => (
+                    <Pick
+                      key={g[0].s.program.id}
+                      item={g[0]}
+                      i={i}
+                      detail={details[g[0].s.program.id]}
+                      loading={!detailsFor.split("|").includes(g[0].s.program.id) && !details[g[0].s.program.id]}
+                      sit={sit}
+                      mode={mode}
+                      inSheet={!marks.remove.includes(g[0].s.program.id)}
+                      onSheet={(on) => setMarks((m) => ({ ...m, remove: on ? m.remove.filter((x) => x !== g[0].s.program.id) : [...m.remove, g[0].s.program.id] }))}
+                      onReceiving={() => markReceiving(g[0].s.group, true)}
+                    />
+                  ))}
+                </ol>
+              </section>
+            )}
+
+            {sheetItems.length > 0 && (
+              <div className="sheet-cta no-print" data-testid="sheet-cta">
+                <p>
+                  담은 혜택 {sheetItems.length}개의 준비서류
                 </p>
-              )}
-              <ol className="picks">
-                {picks.map((g, i) => (
-                  <Pick
-                    key={g[0].s.program.id}
-                    item={g[0]}
-                    i={i}
-                    detail={details[g[0].s.program.id]}
-                    loading={!detailsFor.split("|").includes(g[0].s.program.id) && !details[g[0].s.program.id]}
-                    sit={sit}
-                    mode={mode}
-                    inSheet={!marks.remove.includes(g[0].s.program.id)}
-                    onSheet={(on) => setMarks((m) => ({ ...m, remove: on ? m.remove.filter((x) => x !== g[0].s.program.id) : [...m.remove, g[0].s.program.id] }))}
-                    onReceiving={() => markReceiving(g[0].s.group, true)}
-                  />
-                ))}
-              </ol>
-            </section>
-          )}
-
-          {sheetItems.length > 0 && (
-            <div className="sheet-cta no-print" data-testid="sheet-cta">
-              <p>
-                <strong>방문처별 준비물 한 장</strong> — 담은 혜택 {sheetItems.length}개를 신청하는 곳별로 묶고, 가져갈 것은 한 번씩만 적어 드려요. 인쇄하거나 이미지로 저장해 카카오톡으로 보낼 수 있어요.
-              </p>
-              <button
-                type="button"
-                className="btn btn-tonal btn-sm"
-                aria-expanded={sheetOpen}
-                aria-controls="visit-sheet"
-                onClick={() => {
-                  setSheetOpen((o) => !o);
-                  if (!sheetOpen) setTimeout(() => document.getElementById("visit-sheet")?.scrollIntoView({ block: "start" }), 50);
-                }}
-                data-testid="sheet-open"
-              >
-                <Icon name="listChecks" size={18} /> {sheetOpen ? "준비물 한 장 접기" : "준비물 한 장 보기"}
-              </button>
-            </div>
-          )}
-          {sheetOpen && sheetItems.length > 0 && (
-            <VisitSheet
-              entries={sheetItems.map((i) => ({ program: details[i.s.program.id] ?? i.s.program, bucket: i.bucket }))}
-              region={data.label}
-              sido={profile.sido}
-              loading={!sheetIds.split("|").every((id) => detailsFor.split("|").includes(id) || details[id])}
-              extra={sheetItems.filter((i) => !pickIds.split("|").includes(i.s.program.id)).length}
-              teen={isTeenSelf(sit, mode)}
-              onClose={() => setSheetOpen(false)}
-            />
-          )}
-
-          {/* '장인어른 모시고 삽니다' — 모시는 분께 맞는 혜택은 그분 기준으로 따로 찾아야 정확함 (QA 4차 N3) */}
-          {!parent && sit.x.interests?.includes("eldercare") && (
-            <p className="notice" data-testid="eldercare-note" role="note">
-              <Icon name="info" size={18} />
-              <span>
-                함께 사는 부모님(장인·장모·시부모님 포함)께 맞는 혜택(기초연금·장기요양 등)은 그분 나이·상황으로 찾아야 정확해요.{" "}
-                <Link href="/situation?for=parent&new=1" className="btn btn-ghost btn-sm" data-testid="eldercare-parent-link">
-                  부모님 기준으로 따로 찾기
-                </Link>
-              </span>
-            </p>
-          )}
-          {!parent && sit.x.interests?.includes("eldercare") && data && <CohabitParent programs={data.programs} sit={sit} />}
-
-          {picks.length < 3 && askFirst && (
-            <p className="notice" data-testid="picks-need-age" role="note">
-              <Icon name="info" size={18} />
-              <span>
-                {questions[0]?.dim.id === "children"
-                  ? "자녀 나이를 알려 주시면 먼저 확인할 혜택을 골라 드려요. 아동 혜택은 자녀 나이로 정해져요."
-                  : `${parent ? "부모님 나이" : "나이"}를 알려 주시면 먼저 확인할 혜택을 골라 드려요. 나이로 정해지는 혜택이 많아서, 모르는 채로는 고르지 않았어요.`}
-              </span>
-            </p>
-          )}
-
-          {!askFirst && followUp}
-
-          <BucketList sheet={sheetCtl} id="v2-fit" bucket="fit" title={picks.some((g) => g[0].bucket === "fit") ? `그 밖에 받으실 수 있는 혜택` : "받으실 수 있는 혜택"} lead="답하신 상황으로 공개된 지원 조건이 모두 맞아요." groups={view.fit.filter((g) => !picked.has(g))} sit={sit} mode={mode} />
-          <BucketList
-            sheet={sheetCtl}
-            id="v2-office"
-            bucket="office"
-            title="신청할 때 확인이 필요한 혜택"
-            lead="답하신 상황과 어긋나는 조건은 없어요. 원문에 있는 세부 조건 한두 가지는 신청할 때 확인해요."
-            groups={view.office.filter((g) => !picked.has(g))}
-            top={OFFICE_TOP}
-            sit={sit}
-            mode={mode}
-          />
-          <BucketList
-            id="v2-ask"
-            bucket="ask"
-            title="질문에 답하면 정해지는 혜택"
-            lead="위 '이것만 알려주시면' 질문에 답하시면 '받으실 수 있어요' 또는 '맞지 않아요'로 옮겨요."
-            groups={view.ask.filter((g) => !picked.has(g))}
-            sit={sit}
-            mode={mode}
-            collapsed
-            action={
-              // 질문이 멀리 위에 있어 어디서 답하는지 안 보이던 문제 (운영자 피드백 2026-10-09)
-              questions.length > 0 ? (
-                <a href="#v2-followup" className="btn btn-tonal btn-sm" data-testid="v2-ask-go">
-                  <Icon name="listChecks" size={18} /> 질문에 답하러 가기
-                </a>
-              ) : skipped.length > 0 ? (
                 <button
                   type="button"
                   className="btn btn-tonal btn-sm"
+                  aria-expanded={sheetOpen}
+                  aria-controls="visit-sheet"
                   onClick={() => {
-                    setSkipped([]);
-                    setTimeout(() => document.getElementById("v2-followup")?.scrollIntoView({ block: "start" }), 50);
+                    setSheetOpen((o) => !o);
+                    if (!sheetOpen) setTimeout(() => document.getElementById("visit-sheet")?.scrollIntoView({ block: "start" }), 50);
                   }}
-                  data-testid="v2-ask-go"
+                  data-testid="sheet-open"
                 >
-                  <Icon name="listChecks" size={18} /> &lsquo;모름&rsquo;으로 넘긴 질문 다시 답하기
+                  <Icon name="listChecks" size={18} /> {sheetOpen ? "준비물 한 장 접기" : "준비물 한 장 보기"}
                 </button>
-              ) : null
-            }
-          />
-          <BucketList
-            id="v2-closed"
-            bucket="no"
-            title="신청 기간이 지난 혜택"
-            lead="원문에 적힌 이번 신청 기간이 끝났어요. 해마다 다시 접수하는 사업도 있으니 다음 공고는 문의처에서 확인하세요."
-            groups={view.closed ?? []}
-            sit={sit}
-            mode={mode}
-            collapsed
-          />
-          <BucketList
-            id="v2-no"
-            bucket="no"
-            title="답하신 상황과 맞지 않아 뺀 혜택"
-            lead="나이·가구·소득·수급 등 답하신 내용과 지원 조건이 달라요. 상황이 바뀌면 '상황 고치기'로 다시 보세요."
-            groups={view.no}
-            sit={sit}
-            mode={mode}
-            collapsed
-          />
+              </div>
+            )}
+            {sheetOpen && sheetItems.length > 0 && (
+              <VisitSheet
+                entries={sheetItems.map((i) => ({ program: details[i.s.program.id] ?? i.s.program, bucket: i.bucket }))}
+                region={data.label}
+                sido={profile.sido}
+                loading={!sheetIds.split("|").every((id) => detailsFor.split("|").includes(id) || details[id])}
+                extra={sheetItems.filter((i) => !pickIds.split("|").includes(i.s.program.id)).length}
+                teen={isTeenSelf(sit, mode)}
+                onClose={() => setSheetOpen(false)}
+              />
+            )}
 
-          {receiving.length > 0 && (
-            <section className="v2-sec receiving" aria-labelledby="recv-h" data-testid="receiving-section">
-              <h2 className="h2" id="recv-h">
-                이미 받고 있다고 표시한 혜택 {receiving.length}개
-              </h2>
-              <p className="body">먼저 확인할 서비스와 준비물 한 장에서 뺐어요. 이 기기에만 기억해요. 잘못 눌렀으면 다시 보이게 할 수 있어요.</p>
-              <ul className="recv-list">
-                {receiving.map((g) => (
-                  <li key={g[0].s.group}>
-                    <Link href={`/p/${encodeURIComponent(g[0].s.program.id)}`}>{g[0].s.program.name}</Link>
-                    <button type="button" className="link-btn no-print" onClick={() => markReceiving(g[0].s.group, false)} data-testid="receiving-undo">
-                      다시 보이기
-                    </button>
-                  </li>
-                ))}
-              </ul>
-            </section>
-          )}
-
-          {autos.length > 0 && (
-            <details className="details auto-panel" data-testid="auto-section" open={autoOpen} onToggle={(e) => setAutoOpen((e.currentTarget as HTMLDetailsElement).open)}>
-              <summary data-testid="auto-toggle">
+            {/* '장인어른 모시고 삽니다' — 모시는 분께 맞는 혜택은 그분 기준으로 따로 찾아야 정확함 (QA 4차 N3) */}
+            {!parent && sit.x.interests?.includes("eldercare") && (
+              <p className="notice" data-testid="eldercare-note" role="note">
+                <Icon name="info" size={18} />
                 <span>
-                  신청하지 않아도 받는 혜택 <span className="s">— 조건이 맞으면 기관이 알아서 제공해요</span>
+                  부모님 혜택은 부모님의 나이·상황으로 확인하세요.{" "}
+                  <Link href="/situation?for=parent&new=1" className="btn btn-ghost btn-sm" data-testid="eldercare-parent-link">
+                    부모님 기준으로 따로 찾기
+                  </Link>
                 </span>
-                <span className="c">
-                  <span data-testid="auto-count">{autos.length.toLocaleString("ko-KR")}</span>개 <Icon name="chevronDown" size={18} />
+              </p>
+            )}
+            {!quick && !parent && sit.x.interests?.includes("eldercare") && data && <CohabitParent programs={data.programs} sit={sit} />}
+
+            {!quick && picks.length < 3 && askFirst && (
+              <p className="notice" data-testid="picks-need-age" role="note">
+                <Icon name="info" size={18} />
+                <span>
+                  {questions[0]?.dim.id === "children"
+                    ? "아동 혜택을 찾으려면 자녀 나이를 확인해 주세요."
+                    : `${parent ? "부모님 나이" : "나이"} 미입력으로 연령별 혜택을 아직 고르지 않았어요.`}
                 </span>
-              </summary>
-              {autoOpen && (
-                <div className="details-body">
-                  <p className="body">
-                    대상이 되면 기관이 알아서 지급·연계하거나(공단 명단 통보, 수급자 선정 시 연계, 담당 공무원 직권 처리), 학교·시설·기관이 추천·선정하는 혜택이에요.
-                    해당될 것 같은데 받고 있지 않다면 주민센터나 129에 물어보세요.
-                  </p>
-                  <div className="v2-list">
-                    {autos.slice(0, autoLimit).map((g) => (
-                      <V2Card key={g.key} item={classify(g.lead, sit)} more={g.variants.length} sit={sit} mode={mode} />
-                    ))}
-                  </div>
-                  {autos.length > autoLimit && (
-                    <div className="more-row no-print">
-                      <button type="button" className="btn btn-ghost" onClick={() => setAutoLimit((l) => l + MORE)} data-testid="auto-more">
-                        더 보기 ({(autos.length - autoLimit).toLocaleString("ko-KR")}개 남음)
+              </p>
+            )}
+
+            {quick ? <QuickRefinement sit={sit} onApply={apply} questionKey={questions.map((q) => q.dim.id).join(",")}>
+              {followUp}
+              {!parent && sit.x.interests?.includes("eldercare") && data && <CohabitParent programs={data.programs} sit={sit} />}
+            </QuickRefinement> : !askFirst && followUp}
+
+            <BucketList sheet={sheetCtl} id="v2-fit" bucket="fit" title={picks.some((g) => g[0].bucket === "fit") ? `그 밖에 받으실 수 있는 혜택` : "받으실 수 있는 혜택"} lead="답하신 상황으로 공개된 지원 조건이 모두 맞아요." groups={view.fit.filter((g) => !picked.has(g))} sit={sit} mode={mode} />
+            <BucketList
+              sheet={sheetCtl}
+              id="v2-office"
+              bucket="office"
+              title="신청할 때 확인이 필요한 혜택"
+              lead="입력한 조건은 맞지만, 세부 요건은 신청처 확인이 필요해요."
+              groups={view.office.filter((g) => !picked.has(g))}
+              top={OFFICE_TOP}
+              sit={sit}
+              mode={mode}
+            />
+            <BucketList
+              id="v2-ask"
+              bucket="ask"
+              title="질문에 답하면 정해지는 혜택"
+              lead="아직 답하지 않은 지원 조건이 있어요."
+              groups={view.ask.filter((g) => !picked.has(g))}
+              sit={sit}
+              mode={mode}
+              collapsed
+              action={
+                // 질문이 멀리 위에 있어 어디서 답하는지 안 보이던 문제 (운영자 피드백 2026-10-09)
+                questions.length > 0 ? (
+                  <a href="#v2-followup" className="btn btn-tonal btn-sm" data-testid="v2-ask-go">
+                    <Icon name="listChecks" size={18} /> 질문에 답하러 가기
+                  </a>
+                ) : skipped.length > 0 ? (
+                  <button
+                    type="button"
+                    className="btn btn-tonal btn-sm"
+                    onClick={() => {
+                      setSkipped([]);
+                      setTimeout(() => document.getElementById("v2-followup")?.scrollIntoView({ block: "start" }), 50);
+                    }}
+                    data-testid="v2-ask-go"
+                  >
+                    <Icon name="listChecks" size={18} /> 건너뛴 질문 다시 답하기
+                  </button>
+                ) : null
+              }
+            />
+            <BucketList
+              id="v2-closed"
+              bucket="no"
+              title="신청 기간이 지난 혜택"
+              lead="다음 접수 일정은 담당 기관에 확인하세요."
+              groups={view.closed ?? []}
+              sit={sit}
+              mode={mode}
+              collapsed
+            />
+            <BucketList
+              id="v2-no"
+              bucket="no"
+              title="답하신 상황과 맞지 않아 뺀 혜택"
+              lead="입력한 내용과 지원 조건이 달라요. 달라진 답변은 ‘상황 고치기’에서 수정하세요."
+              groups={view.no}
+              sit={sit}
+              mode={mode}
+              collapsed
+            />
+
+            {receiving.length > 0 && (
+              <section className="v2-sec receiving" aria-labelledby="recv-h" data-testid="receiving-section">
+                <h2 className="h2" id="recv-h">
+                  이미 받고 있다고 표시한 혜택 {receiving.length}개
+                </h2>
+                <p className="body">추천·준비서류 목록에서 제외했어요.</p>
+                <ul className="recv-list">
+                  {receiving.map((g) => (
+                    <li key={g[0].s.group}>
+                      <Link href={`/p/${encodeURIComponent(g[0].s.program.id)}`}>{g[0].s.program.name}</Link>
+                      <button type="button" className="link-btn no-print" onClick={() => markReceiving(g[0].s.group, false)} data-testid="receiving-undo">
+                        다시 보이기
                       </button>
+                    </li>
+                  ))}
+                </ul>
+              </section>
+            )}
+
+            {autos.length > 0 && (
+              <details className="details auto-panel" data-testid="auto-section" open={autoOpen} onToggle={(e) => setAutoOpen((e.currentTarget as HTMLDetailsElement).open)}>
+                <summary data-testid="auto-toggle">
+                  <span>
+                    자동 지급·기관 선정 혜택
+                  </span>
+                  <span className="c">
+                    <span data-testid="auto-count">{autos.length.toLocaleString("ko-KR")}</span>개 <Icon name="chevronDown" size={18} />
+                  </span>
+                </summary>
+                {autoOpen && (
+                  <div className="details-body">
+                    <p className="body">
+                      기관이 대상자를 선정하거나 지급하는 혜택이에요. 해당 여부는 담당 기관에 확인하세요.
+                    </p>
+                    <div className="v2-list">
+                      {autos.slice(0, autoLimit).map((g) => (
+                        <V2Card key={g.key} item={classify(g.lead, sit)} more={g.variants.length} sit={sit} mode={mode} />
+                      ))}
                     </div>
-                  )}
-                </div>
+                    {autos.length > autoLimit && (
+                      <div className="more-row no-print">
+                        <button type="button" className="btn btn-ghost" onClick={() => setAutoLimit((l) => l + MORE)} data-testid="auto-more">
+                          더 보기 ({(autos.length - autoLimit).toLocaleString("ko-KR")}개 남음)
+                        </button>
+                      </div>
+                    )}
+                  </div>
+                )}
+              </details>
+            )}
+
+            {copy.proxyNote && (
+              <p className="notice" data-testid="proxy-apply-note" role="note" style={{ marginTop: "1.5rem" }}>
+                <Icon name="info" size={18} />
+                <span>
+                  <strong>가족이 대신 신청할 때</strong> — {copy.proxyNote}
+                </span>
+              </p>
+            )}
+
+            <div className="v2-actions no-print" role="group" aria-label="이 결과로 할 수 있는 일">
+              <button type="button" className="link-btn" onClick={() => window.print()}>
+                <Icon name="printer" size={18} /> 인쇄하거나 PDF로 저장
+              </button>
+              {sheetItems.length > 0 && (
+                <button
+                  type="button"
+                  className="link-btn"
+                  onClick={() => {
+                    setSheetOpen(true);
+                    setTimeout(() => document.getElementById("visit-sheet")?.scrollIntoView({ block: "start" }), 50);
+                  }}
+                  data-testid="sheet-open-2"
+                >
+                  <Icon name="listChecks" size={18} /> 방문처별 준비물 한 장
+                </button>
               )}
-            </details>
-          )}
-
-          {copy.proxyNote && (
-            <p className="notice" data-testid="proxy-apply-note" role="note" style={{ marginTop: "1.5rem" }}>
-              <Icon name="info" size={18} />
-              <span>
-                <strong>가족이 대신 신청할 때</strong> — {copy.proxyNote}
-              </span>
-            </p>
-          )}
-
-          <div className="v2-actions no-print" role="group" aria-label="이 결과로 할 수 있는 일">
-            <button type="button" className="link-btn" onClick={() => window.print()}>
-              <Icon name="printer" size={18} /> 인쇄하거나 PDF로 저장
-            </button>
-            {sheetItems.length > 0 && (
+              <button type="button" className="link-btn" onClick={share} data-testid="share">
+                <Icon name="share" size={18} /> 가족에게 보내기 (입력값 제외)
+              </button>
               <button
                 type="button"
                 className="link-btn"
                 onClick={() => {
-                  setSheetOpen(true);
-                  setTimeout(() => document.getElementById("visit-sheet")?.scrollIntoView({ block: "start" }), 50);
+                  clearProfile();
+                  router.push("/");
                 }}
-                data-testid="sheet-open-2"
+                data-testid="clear"
               >
-                <Icon name="listChecks" size={18} /> 방문처별 준비물 한 장
+                <Icon name="trash" size={18} /> 이 기기에서 지우기
               </button>
-            )}
-            <button type="button" className="link-btn" onClick={share} data-testid="share">
-              <Icon name="share" size={18} /> 가족에게 보내기 (입력값 제외)
-            </button>
-            <button
-              type="button"
-              className="link-btn"
-              onClick={() => {
-                clearProfile();
-                router.push("/");
-              }}
-              data-testid="clear"
-            >
-              <Icon name="trash" size={18} /> 이 기기에서 지우기
-            </button>
-            <span className="small muted">
-              <Icon name="phone" size={16} /> 상담: 보건복지상담센터 <strong>129</strong> (평일 9~18시)
-            </span>
-          </div>
+              <span className="small muted">
+                <Icon name="phone" size={16} /> 상담: 보건복지상담센터 <strong>129</strong> (평일 9~18시)
+              </span>
+            </div>
 
-          <p className="small muted v2-foot">
-            기준: 2026년 기준 중위소득·기초연금 선정기준액(보건복지부). 숫자 기준이 없는 &lsquo;저소득&rsquo;은 기준 중위소득 {LOW_INCOME_PCT}% 이하로 봤어요. 실제 선정은 재산을
-            포함한 소득인정액으로 신청처에서 정해요. <Link href="/about#v2">판단 기준 자세히 보기</Link>
-          </p>
+            <p className="small muted v2-foot">
+              기준: 2026년 기준 중위소득·기초연금 선정기준액(보건복지부). 숫자 기준이 없는 &lsquo;저소득&rsquo;은 기준 중위소득 {LOW_INCOME_PCT}% 이하로 봤어요. 실제 선정은 재산을
+              포함한 소득인정액으로 신청처에서 정해요. <Link href="/about#v2">판단 기준 자세히 보기</Link>
+            </p>
           </div>
         </div>
       </div>
@@ -641,7 +641,7 @@ function Count({ href, cls, label, n, testId }: { href: string; cls: string; lab
 
 const BUCKET_ICON: Record<Bucket, "check" | "info" | "alert" | "x"> = { fit: "check", office: "info", ask: "alert", no: "x" };
 
-/** 먼저 확인할 카드: 번호 · 지원형태 · 이름 · 판단(쉬운 말) · 신청방법/기관/문의/가져갈 것 */
+/** 혜택 이름·짧은 요약을 먼저 보여주고, 근거와 신청 정보는 펼쳐서 확인한다. */
 type SheetCtl = { has: (id: string) => boolean; toggle: (id: string, on: boolean) => void; receive?: (group: string) => void };
 
 /** '이미 받고 있어요' — 누르면 먼저 확인할 5가지·목록·준비물 한 장에서 빠지고 아래 '이미 받고 있는 혜택'으로 */
@@ -753,7 +753,7 @@ function BucketList({
   if (!groups.length) return null;
   const head = `${title} ${groups.length.toLocaleString("ko-KR")}개`;
   // QA 2차 M1: 수백 개를 한꺼번에 늘어놓지 않고 관련 높은 순 상위 top개를 먼저 보여 준다
-  const topNote = top && groups.length > top ? `관련이 높은 순으로 ${top}개를 먼저 보여 드려요. 나머지 ${(groups.length - top).toLocaleString("ko-KR")}개는 아래 '더 보기'로 볼 수 있어요.` : null;
+  const topNote = top && groups.length > top ? `관련도순 · ${limit}개 표시` : null;
   const body = (
     <>
       <p className="body">{lead}</p>
@@ -856,7 +856,7 @@ function CohabitParent({ programs, sit }: { programs: Program[]; sit: Situation 
       <h2 className="h2" id="cohab-h">
         함께 사시는 부모님께 맞는 혜택
       </h2>
-      <p className="body">장인·장모·시부모님 등 함께 사시는 분의 나이대를 고르시면, 그분 기준으로 먼저 확인할 혜택을 보여 드려요. 이 기기 안에서만 계산해요.</p>
+      <p className="body">함께 사는 부모님의 나이대를 선택하세요.</p>
       <div className="btn-row v2-answers" role="group" aria-label="함께 사시는 분 나이대">
         {COHAB_BANDS.map((b) => (
           <button key={b} type="button" className={`btn btn-sm ${band === b ? "btn-primary" : "btn-ghost"}`} aria-pressed={band === b} onClick={() => setBand(b)} data-testid={`cohab-age-${b}`}>

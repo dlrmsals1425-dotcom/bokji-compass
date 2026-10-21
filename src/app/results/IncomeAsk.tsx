@@ -4,7 +4,7 @@ import { useState } from "react";
 import { incomeExplain, type Situation } from "@/lib/client/v2";
 import { parseManwonInput } from "@/lib/client/incomeInput";
 
-export function IncomeAsk({ sit, onApply, onSkip, idPrefix = "fq", testPrefix = "v2" }: { sit: Situation; onApply: (s: Situation) => void; onSkip: () => void; idPrefix?: string; testPrefix?: string }) {
+export function IncomeAsk({ sit, onApply, onSkip, idPrefix = "fq", testPrefix = "v2", skipLabel = "모름" }: { sit: Situation; onApply: (s: Situation) => void; onSkip: () => void; idPrefix?: string; testPrefix?: string; skipLabel?: string }) {
   const [t, setT] = useState("");
   const size = sit.profile.householdSize === "unknown" ? null : sit.profile.householdSize;
   // 적은 글자를 바꾸지 않고 해석 (QA 8차) — 알아볼 수 없으면 확인 단추를 막고 이유를 보여 준다
@@ -34,7 +34,7 @@ export function IncomeAsk({ sit, onApply, onSkip, idPrefix = "fq", testPrefix = 
           확인
         </button>
         <button type="button" className="btn btn-quiet" onClick={onSkip} data-testid={`${testPrefix}-skip-income`}>
-          모름
+          {skipLabel}
         </button>
       </div>
       {parsed.error && (

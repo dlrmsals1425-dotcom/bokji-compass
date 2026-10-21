@@ -177,7 +177,7 @@ export function VisitSheet({ entries, region, sido, loading, extra, teen, onClos
         방문처별 준비물{places.length > 1 ? ` — ${places.length}곳, 곳마다 한 장` : ""}
       </h2>
       <p className="small muted vs-lead no-print">
-        &lsquo;먼저 확인할 5가지&rsquo;{extra > 0 ? `와 직접 담은 ${extra}개` : ""}를 신청하는 곳별로 한 장씩 나눴어요. 그 곳에 가져갈 한 장만 들고 가서 담당자께 보여 드리면 돼요. 이 기기에서만 만들었고 나이·소득 같은 입력값은 넣지 않았어요.
+        방문처별로 인쇄·저장할 수 있어요.{extra > 0 ? ` 직접 담은 ${extra}개 포함.` : ""} 나이·소득 등 입력값은 포함하지 않습니다.
       </p>
       {/* 10대 본인 (QA 7차 T1) */}
       {teen && (

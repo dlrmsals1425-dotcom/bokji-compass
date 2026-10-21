@@ -16,6 +16,8 @@ const eslintConfig = defineConfig([
     "logs/**",
     ".venv-stt/**",
     ".models/**",
+    // Sites 앱은 자체 의존성과 검사 설정을 사용한다.
+    "sites/**",
   ]),
 ]);
 

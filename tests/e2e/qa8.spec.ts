@@ -3,7 +3,7 @@ import { expect, test } from "@playwright/test";
 /** QA 8차 (2026-10-09 실사용 시나리오 테스트) — 소득 입력·본인/부모님 분리·문장 재입력·질문 의존·검색 판정 말 */
 
 test("월 소득: '100.5'는 그대로, '-100'은 오류를 보여 주고 결과로 넘어가지 않음 @mobile", async ({ page }) => {
-  await page.goto("/situation?for=self&new=1");
+  await page.goto("/situation?for=self&new=1&details=1");
   const inc = page.getByTestId("v2-income");
   await expect(inc).toBeVisible({ timeout: 20_000 });
   await page.locator("#sido").selectOption("41000");
@@ -22,7 +22,7 @@ test("월 소득: '100.5'는 그대로, '-100'은 오류를 보여 주고 결과
 test("내 복지 답이 부모님 복지로 넘어가지 않고, 돌아오면 그대로 @mobile", async ({ page }) => {
   await page.goto("/results?example=goyang-youth");
   await expect(page.getByTestId("v2-results").or(page.locator("main"))).toBeVisible({ timeout: 20_000 });
-  await page.goto("/situation?for=parent");
+  await page.goto("/situation?for=parent&details=1");
   const inc = page.getByTestId("v2-income");
   await expect(inc).toBeVisible({ timeout: 20_000 });
   await expect(inc).toHaveValue("");
@@ -40,7 +40,7 @@ test("내 복지 답이 부모님 복지로 넘어가지 않고, 돌아오면 �
 
 test("부모님 문장 '일하지 않아요' → 하는 일 '아니요', 지난 구직 답이 남지 않음", async ({ page }) => {
   await page.goto("/results?example=goyang-youth");
-  await page.goto("/situation?for=self");
+  await page.goto("/situation?for=self&details=1");
   await expect(page.getByRole("group", { name: /지금 하고 있는 일/ }).getByRole("radio", { name: "일자리를 찾고 있어요" })).toBeChecked({ timeout: 20_000 });
   await page.getByTestId("v2-text").fill("수원시에 사시는 59년생 부모님 두 분, 아버지가 거동이 불편하세요. 두 분 소득은 월 300만원이고 자가에 살아요. 일하지 않아요.");
   await page.getByTestId("v2-fill").click();
@@ -85,7 +85,7 @@ test("검색 지역은 새로고침해도 유지 (주소에는 싣지 않음), �
 });
 
 test("'91년생, 여자아이 2명, 남편외벌이, 월급 400만원' → 자녀 2명, 한부모 '아니요', 하는 일은 직장 아님 @mobile", async ({ page }) => {
-  await page.goto("/situation?for=self&new=1");
+  await page.goto("/situation?for=self&new=1&details=1");
   await expect(page.getByTestId("v2-text")).toBeVisible({ timeout: 20_000 });
   await page.getByTestId("v2-text").fill("91년생, 여자아이 2명, 남편외벌이, 월급 400만원");
   await page.getByTestId("v2-fill").click();
@@ -100,6 +100,7 @@ test.describe("전국 확대 ③ 현재 위치로 내 지역 예시", () => {
     await context.grantPermissions(["geolocation"]);
     await context.setGeolocation({ latitude: 37.2411, longitude: 127.1776 });
     await page.goto("/");
+    await page.getByText("가상 예시 보기", { exact: true }).click();
     await page.getByTestId("locate-btn").click();
     await expect(page.getByTestId("locate-status")).toContainText("경기 용인시 기준", { timeout: 30_000 });
     const fits = await page.getByTestId("preset-fit").allInnerTexts();
@@ -108,10 +109,12 @@ test.describe("전국 확대 ③ 현재 위치로 내 지역 예시", () => {
     expect([...ns].sort((a, b) => b - a)).toEqual(ns);
     await page.getByTestId("preset-suwon-senior").click();
     await expect(page.getByRole("heading", { level: 1 })).toContainText("용인시", { timeout: 20_000 });
-    await expect(page.getByTestId("example-banner")).toContainText("경기 용인시 1인 어르신");
+    await expect(page.getByTestId("example-banner")).toContainText("예시 결과");
+    await expect(page.getByTestId("v2-chips")).toContainText("용인시");
   });
   test("위치 권한이 없으면 지역을 직접 고르기 — 서울 광진구", async ({ page }) => {
     await page.goto("/");
+    await page.getByText("가상 예시 보기", { exact: true }).click();
     await page.getByTestId("locate-btn").click();
     // 예시 칸이 보이면 자동으로 한 번 확인하므로(2026-10-16) 단추를 누른 결과와 자동 확인 결과 중 하나
     await expect(page.getByTestId("locate-status")).toContainText(/위치를 확인하지 못했어요|위치를 쓸 수 없어/, { timeout: 20_000 });

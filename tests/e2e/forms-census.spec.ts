@@ -172,6 +172,7 @@ test("a supporting document alone does not claim the main application is ready",
 test("an application address with a verified changed operator is withheld", async ({page}) => {
   await page.goto('/p/s51000.bokjiro-WLF00001885');
   await expect(page.locator('a[href*="hwandonghae.gangwon.kr"]')).toHaveCount(0);
+  await page.getByTestId("forms-investigation-detail").locator("summary").click();
   await expect(page.getByText(/기존 기관 주소가 현재 복지사업과 무관한 생활 블로그/).first()).toBeVisible();
   await expect(page.getByTestId('official-link')).toHaveAttribute('href',/bokjiro\.go\.kr/);
 });

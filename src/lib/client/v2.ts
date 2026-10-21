@@ -30,6 +30,8 @@ export const FACT_PATTERNS = {
 export type FactId = keyof typeof FACT_PATTERNS;
 
 export interface Extras {
+  /** 골라서 찾기에서 확인한 자녀·출산 상황. 미선택은 미확인이며 가구원 수로 추정하지 않는다. */
+  family?: "children" | "expecting" | "both" | "none";
   /** 자녀 수 (0·1·2·3=3명 이상). 없음 = 모름 — 다자녀 판단·입력 화면 복원용 */
   childCount?: 0 | 1 | 2 | 3 | null;
   /** 수급·자격 항목별 답 (키 없음 = 모름) */
@@ -577,17 +579,20 @@ export const DIMS: Dim[] = [
   {
     id: "children",
     q: (_m, s) =>
+      s?.x.family === "children" || s?.x.family === "both" ? "가장 어린 자녀는 몇 살인가요?" :
       s?.x.childCount ? `자녀${s.x.childCount === 3 ? "(3명 이상)" : ` ${s.x.childCount}명`}의 나이는요? (여럿이면 가장 어린 자녀)` : "함께 사는 자녀가 있나요? (임신 중이면 '임신 중')",
     help: "자녀가 여럿이면 가장 어린 자녀를 고르고, '상황 고치기'에서 모두 고를 수 있어요.",
     isUnknown: (s) => s.profile.children === null,
     avail: childQuestion,
-    hide: (a, s) => a.key === "none" && !!s.x.childCount,
+    hide: (a, s) => (s.x.family === "children" || s.x.family === "both")
+      ? a.key === "none" || a.key === "pregnant"
+      : a.key === "none" && !!s.x.childCount,
     answers: [
       { key: "none", label: "자녀 없음", apply: (s) => withX(withP(s, { children: [] }), { childCount: 0 }) },
       ...(["pregnant", "0-1", "2-5", "6-12", "13-18", "19+"] as const).map((c) => ({
         key: c,
         label: CHILD_LABEL[c],
-        apply: (s: Situation) => withP(s, { children: [c] }),
+        apply: (s: Situation) => withP(s, { children: s.x.family === "both" && c !== "pregnant" ? [c, "pregnant"] : [c] }),
       })),
     ],
   },

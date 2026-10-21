@@ -13,8 +13,8 @@ describe("찾기 모드 (본인 / 부모님)", () => {
   });
 
   it("경로 헬퍼가 for=parent를 붙인다", () => {
-    expect(checkPath("parent")).toBe("/situation?for=parent");
-    expect(checkPath("self")).toBe("/situation?for=self");
+    expect(checkPath("parent")).toBe("/situation?for=parent&details=1");
+    expect(checkPath("self")).toBe("/situation?for=self&details=1");
     expect(withV1("/results?for=parent")).toBe("/results?for=parent&v=1");
     expect(withV1("/check")).toBe("/check?v=1");
     expect(resultsPath("parent")).toBe("/results?for=parent");

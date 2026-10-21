@@ -1,11 +1,10 @@
+import { openPrefill } from "./helpers/prefill";
 import { expect, test, type Page } from "@playwright/test";
 
 /** QA 2차 수정 확인 (리뷰 보고서 항목 ID를 제목에 표기, 재현 문장 그대로) */
 
 async function fromHome(page: Page, sentence: string) {
-  await page.goto("/");
-  await page.locator("#home-q").fill(sentence);
-  await page.locator("#home-q").press("Enter");
+  await openPrefill(page, sentence);
   await expect(page.getByTestId("prefill-banner")).toBeVisible({ timeout: 20_000 });
 }
 
@@ -25,15 +24,13 @@ test.describe("QA 2차", () => {
       await expect(page.getByTestId("prefill-region")).toBeVisible();
     }
     // 서비스 이름은 그대로 검색, 정확히 맞는 이름이 1위
-    await page.goto("/");
-    await page.locator("#home-q").fill("기초연금");
-    await page.locator("#home-q").press("Enter");
+    await openPrefill(page, "기초연금");
     await expect(page).toHaveURL(/\/search\?q=/);
     await expect(page.getByTestId("program-card").first()).toContainText("기초연금", { timeout: 20_000 });
   });
 
   test("N3·H2·M1: 30대 맞벌이 + 돌 안 된 아기 → 부모급여·첫만남이용권, '신청할 때 확인'은 상위 20개 먼저 @mobile", async ({ page }) => {
-    await page.goto("/situation?for=self");
+    await page.goto("/situation?for=self&details=1");
     await expect(page.locator("#sido option")).not.toHaveCount(1, { timeout: 20_000 });
     await page.getByTestId("v2-text").fill("용인 수지 사는 30대 맞벌이 부부고 돌 안 된 아기 하나 있어요");
     await page.getByTestId("v2-fill").click();
@@ -49,7 +46,7 @@ test.describe("QA 2차", () => {
   });
 
   test("M7: 부모님 두 분 나이가 다르면 '다른 분 기준으로 보기'", async ({ page }) => {
-    await page.goto("/situation?for=parent");
+    await page.goto("/situation?for=parent&details=1");
     await expect(page.locator("#sido option")).not.toHaveCount(1, { timeout: 20_000 });
     await page.getByTestId("v2-text").fill("아버지 59년생 어머니 63년생 두 분이 수원 영통에 사세요. 기초연금 받으시는지 모르겠어요");
     await page.getByTestId("v2-fill").click();

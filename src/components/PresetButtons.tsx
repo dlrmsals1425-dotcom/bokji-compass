@@ -5,7 +5,7 @@ import { PRESETS, presetAt, type Preset } from "@/lib/client/presets";
 import { resultsPath } from "@/lib/client/mode";
 import { startPreset, situationOf } from "@/lib/client/start";
 import { loadForRegion, loadRegions } from "@/lib/client/bundles";
-import { currentPosition, loadBoundaries, sigunguAt } from "@/lib/client/locate";
+import { suggestLocation } from "@/lib/client/locationSuggestion";
 import { sidoOptionLabel } from "@/lib/client/regionLabel";
 import { readExampleRegion, saveExampleRegion } from "@/lib/client/storage";
 import { buildView, scoreV2 } from "@/lib/client/v2";
@@ -73,7 +73,7 @@ export function PresetButtons() {
     await openManual();
   };
   const show = async (sigungu: string, my = ++seq.current) => {
-    setStatus({ kind: "busy", text: "이 지역 예시를 계산하고 있어요…" });
+    setStatus({ kind: "busy", text: "예시 불러오는 중…" });
     const rg = regions ?? (await loadRegions().catch(() => null));
     if (!regions && rg) setRegions(rg);
     const r = rg ? await placePresets(rg, sigungu).catch(() => null) : null;
@@ -88,20 +88,19 @@ export function PresetButtons() {
     setStatus({ kind: "busy", text: "현재 위치를 확인하고 있어요…" });
     let sgg: string | null;
     try {
-      // 좌표는 이 기기 안에서만 쓰고 저장하지 않아요 — 시·군·구 경계(약 300KB)를 받아 브라우저에서 계산
-      const [pos, b] = await Promise.all([currentPosition(), loadBoundaries()]);
-      sgg = sigunguAt(b, pos.lat, pos.lng);
+      // 자동 표시에서는 홈의 선조회를 재사용한다. 사용자가 버튼을 눌러 재시도할 때만 새 조회.
+      sgg = (await suggestLocation(!auto))?.sigungu ?? null;
     } catch {
       if (my === seq.current)
         await fail(
           auto
-            ? "위치를 쓸 수 없어 경기도 예시를 보여 드려요. 아래에서 지역을 고르면 그 지역 예시로 바꿔 드려요."
-            : "위치를 확인하지 못했어요(권한을 허용하지 않았거나 기기가 위치를 지원하지 않아요). 아래에서 지역을 골라 주세요.",
+            ? "위치 확인 불가 · 경기도 예시입니다. 지역을 직접 선택하세요."
+            : "위치를 확인하지 못했어요. 지역을 직접 선택하세요.",
         );
       return;
     }
     if (my !== seq.current) return;
-    if (!sgg) return fail(auto ? "국내 시·군·구 안의 위치가 아니라 경기도 예시를 보여 드려요. 아래에서 지역을 고르면 그 지역 예시로 바꿔 드려요." : "국내 시·군·구 안의 위치가 아니에요. 아래에서 지역을 골라 주세요.");
+    if (!sgg) return fail(auto ? "위치 확인 불가 · 경기도 예시입니다. 지역을 직접 선택하세요." : "위치를 확인하지 못했어요. 지역을 직접 선택하세요.");
     await show(sgg, my);
   };
   const reset = () => {
@@ -111,8 +110,8 @@ export function PresetButtons() {
     saveExampleRegion(null);
   };
 
-  // 처음부터 내 위치 기준: 기억한 지역이 있으면 그 지역, 없으면 예시 칸이 화면에 보일 때 한 번 위치 확인
-  // (홈을 열자마자 위치 권한을 묻지 않도록 칸이 보일 때만, 권한을 이미 거절했으면 묻지 않음)
+  // 기억한 예시 지역이 없으면 칸이 보일 때 홈과 공유하는 위치 제안으로 예시를 계산한다.
+  // 예시 영역이 열렸다는 이유만으로 두 번째 위치 요청을 만들지 않는다.
   const boxRef = useRef<HTMLDivElement>(null);
   const started = useRef(false);
   useEffect(() => {
@@ -129,7 +128,7 @@ export function PresetButtons() {
       started.current = true;
       const state = await navigator.permissions?.query({ name: "geolocation" as PermissionName }).then((r) => r.state, () => "prompt");
       if (state === "denied") {
-        setStatus({ kind: "error", text: "위치 권한이 꺼져 있어 경기도 예시를 보여 드려요. 아래에서 지역을 고르면 그 지역 예시로 바꿔 드려요." });
+        setStatus({ kind: "error", text: "위치 권한 꺼짐 · 경기도 예시입니다. 지역을 직접 선택하세요." });
         void openManual();
         return;
       }
@@ -157,7 +156,7 @@ export function PresetButtons() {
     <>
       <div className="preset-locate" data-testid="preset-locate" ref={boxRef}>
         <button type="button" className="btn btn-tonal btn-sm" onClick={() => locate()} disabled={status.kind === "busy"} data-testid="locate-btn">
-          <Icon name="mapPin" size={18} /> 현재 위치로 내 지역 예시 보기
+          <Icon name="mapPin" size={18} /> 현재 위치 사용
         </button>
         {!manual && (
           <button type="button" className="btn btn-quiet btn-sm" onClick={openManual} data-testid="locate-manual">
@@ -173,8 +172,8 @@ export function PresetButtons() {
           {status.kind !== "idle"
             ? status.text
             : placed
-              ? `${placed.label} 기준 예시예요. 상황은 같고 지역만 바꿨어요 — 이 지역에서 '받으실 수 있어요'가 많은 순서예요.`
-              : "위치는 이 기기 안에서만 시·군·구로 바꾸고, 어디에도 보내거나 저장하지 않아요."}
+              ? `${placed.label} 기준 가상 예시`
+              : "가상 예시 · 실제 상황과 다를 수 있어요."}
         </p>
         {manual && (
           <div className="preset-pick">
@@ -225,7 +224,7 @@ export function PresetButtons() {
               <span className="d">{p.desc}</span>
               {fit >= 0 && (
                 <span className="d preset-fit" data-testid="preset-fit">
-                  이 지역에서 받으실 수 있어요 <b>{fit}</b>개
+                  입력 조건 일치 <b>{fit}</b>개
                 </span>
               )}
               <span className="go" aria-hidden="true">

@@ -1,0 +1,80 @@
+.finder { background: var(--paper); }
+.finder :global(.narrow) { width: min(64rem,100% - 3rem); }
+.finder :global(.form-head) { background: transparent; border: 0; padding: 1rem 0 0; }
+.finder :global(.form-body) { padding: .75rem 0 2rem; }
+.finder :global(.form-panel) { padding: 2rem 0; background: transparent; border: 0; box-shadow: none; }
+.finder :global(.crumbs) { font-size: .8125rem; margin-bottom: 0; }
+.routeRow { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: .75rem; }
+.finder :global(.gq-bar) { background: var(--line-2); height: .25rem; border: 0; margin-top: 1rem; }
+.finder :global(.gq-bar i) { background: var(--primary); }
+.guided :global(.gq) { text-align: left; }
+.questionLayout { display: grid; grid-template-columns: 1fr 1.15fr; align-items: start; gap: 1.5rem 4rem; }
+.questionIntro, .questionControls { min-width: 0; }
+.guided :global(.gq-q) { font-family: var(--font); font-weight: 800; font-size: clamp(1.75rem,3vw,2.5rem); line-height: 1.3; letter-spacing: -.045em; margin: 0 0 1rem; max-width: 25em; }
+.guided :global(.gq-opts) { max-width: none; grid-template-columns: 1fr; gap: .875rem; margin-top: 0; }
+.guided :global(.gq-opt) { min-width: 0; min-height: 5.5rem; padding: 1.25rem 1.5rem; border: 1px solid var(--line); border-radius: .875rem; background: #fff; font-size: 1.125rem; line-height: 1.55; justify-content: space-between; text-align: left; }
+.guided :global(.gq-opt > svg) { flex: none; }
+.guided :global(.gq-opt:hover:not(:disabled)) { background: var(--primary-5); border-color: var(--ink); }
+.guided :global([data-phase="who"] .gq-opt), .guided :global([data-phase="where"] .gq-opt) { min-height: 7.5rem; font-size: 1.25rem; }
+.guided :global([data-dim="income"] .gq-opts) { grid-template-columns: repeat(2,minmax(0,1fr)); }
+.guided:has(:global([data-dim="age"])) :global(.narrow) { width: min(88rem, calc(100% - clamp(2rem, 5vw, 6rem))); }
+.guided :global([data-dim="age"]) { grid-template-columns: minmax(0,1fr); gap: 1.5rem; }
+.guided :global([data-dim="age"] .gq-opts) { grid-template-columns: repeat(auto-fit,minmax(min(100%,12rem),1fr)); }
+.guided :global([data-dim="age"]) .questionHelp { margin-inline: 0; }
+.guided :global([data-dim="age"] .gq-opt) { min-height: 5.5rem; }
+.guided :global(.gq-step) { color: var(--muted); font-size: .875rem; font-weight: 500; margin: 0 0 1rem; }
+.guided :global(.gq-pick) { max-width: none; margin: 0; text-align: left; }
+.guided :global(.gq-pick .select) { min-height: 3.5rem; background: #fff; border-radius: .75rem; }
+.guided :global(.gq-pick .select-row) { grid-template-columns: 1fr; }
+.guided :global(.gq-pick .btn-row) { justify-content: flex-start; margin-top: 1.25rem !important; }
+.guided :global(.btn-primary), .talk :global(.btn-primary) { min-height: 3.5rem; padding: 1rem 1.75rem; background: var(--accent); color: var(--accent-ink) !important; border-color: transparent; border-radius: .75rem; }
+.guided :global(.btn-primary:hover:not(:disabled)), .talk :global(.btn-primary:hover:not(:disabled)) { background: var(--accent-hover); }
+.guided :global(.gq-here), .guided :global([data-testid="gq-self"]) { background: var(--accent); border-color: transparent; color: var(--accent-ink); }
+.guided :global(.gq-here:hover:not(:disabled)), .guided :global([data-testid="gq-self"]:hover:not(:disabled)) { background: var(--accent-hover); border-color: var(--ink); }
+.guided :global(.gq-foot) { margin-top: 2rem; text-align: left; }
+.guided :global(.gq-checks) { margin: 1.5rem 0; }
+.guided :global(.gq-checks .opt) { min-height: 5.5rem; padding: 1.25rem; background: #fff; }
+.guided :global(.gq-checks .opt:has(input:checked)) { background: var(--primary-5); }
+.guided :global(.btn-row) { justify-content: flex-start; }
+.skipAnswer { display: block; margin: .75rem 0 0 auto; background: none; border: 0; min-height: 2.75rem; padding: .75rem .25rem; color: var(--muted); text-decoration: underline; text-underline-offset: .3em; cursor: pointer; }
+.locationFoot { grid-column: 1 / -1; margin-top: 1rem; padding-top: 1rem; border-top: 1px solid var(--line-2); display: flex; justify-content: space-between; align-items: center; gap: 1rem; flex-wrap: wrap; font-size: .8125rem; color: var(--muted); }
+.questionHelp { margin: .5rem auto 0; color: var(--muted); font-size: .9375rem; max-width: 36rem; }
+.questionHelp summary { cursor: pointer; min-height: 2.75rem; padding: .625rem 0; }
+.questionHelp p { margin-top: .5rem; }
+.countDetails { margin-top: 2rem; text-align: left; color: var(--muted); }
+.countDetails summary { cursor: pointer; padding: .75rem 0; font-size: .875rem; }
+.countDetails :global(.gq-counts) { margin: .5rem 0; }
+.talk :global(.narrow) { width: min(48rem,100% - 3rem); }
+.talk :global(.form-head) { text-align: left; padding-top: 1rem; }
+.talk :global(.h1) { font-family: var(--font); font-size: clamp(1.5rem,3vw,2rem); font-weight: 650; line-height: 1.4; margin-top: 1rem; }
+.talk :global(.mode-switch) { width: fit-content; margin: 1.25rem 0 0; }
+.talk :global(.form-body) { padding-top: 0; }
+.talk :global(.mode-switch button) { min-height: 3rem; padding-inline: 1.5rem; }
+.talk :global(.v2-block) { margin-bottom: 2rem; padding-bottom: 2rem; }
+.talk :global(.v2-block .h3) { font-size: 1.125rem; font-weight: 600; }
+.talk :global(#sit-text) { min-height: 7rem; font-size: 1rem; background: var(--paper); margin-top: .5rem; resize: vertical; }
+.talk :global(.input), .talk :global(.select) { border-color: var(--line); }
+.talk :global(.hint) { display: block; margin-top: 1.5rem; }
+.talk :global(.v2-block .opts) { gap: .75rem; }
+.talk :global(.opt) { min-height: 3.25rem; }
+.talk :global(.v2-form > .btn-row) { padding-top: 1rem; }
+@media(max-width:50rem) {
+  .questionLayout { grid-template-columns: 1fr; gap: 1.25rem; }
+  .guided :global(.gq-q) { font-size: 1.875rem; }
+  .finder :global(.form-panel) { padding: 1.5rem 0; }
+}
+@media(max-width:40rem) {
+  .finder :global(.narrow) { width: calc(100% - 2rem); }
+  .finder :global(.form-head) { padding-top: 1rem; }
+  .finder :global(.form-body) { padding-bottom: 2.5rem; }
+  .guided :global(.gq-opts) { gap: .75rem; }
+  .guided :global([data-phase="who"] .gq-opts), .guided :global([data-phase="where"] .gq-opts) { grid-template-columns: 1fr; }
+  .guided :global([data-phase="who"] .gq-opt), .guided :global([data-phase="where"] .gq-opt) { min-height: 7.5rem; }
+  .guided :global([data-dim="age"] .gq-opts), .guided :global([data-dim="income"] .gq-opts) { grid-template-columns: repeat(2,minmax(0,1fr)); }
+  .guided :global(.gq-opt) { font-size: 1rem; padding: 1rem .75rem; }
+  .guided :global(.gq-pick .select-row) { grid-template-columns: 1fr; }
+  .talk :global(.form-panel) { padding-top: .75rem; }
+}
+@media(max-width:23rem) {
+  .guided :global([data-dim="age"] .gq-opts) { grid-template-columns: minmax(0,1fr); }
+}

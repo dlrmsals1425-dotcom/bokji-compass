@@ -1,10 +1,9 @@
+import { openPrefill } from "./helpers/prefill";
 import { expect, test, type Page } from "@playwright/test";
 
 /** 6차 프로덕션 검증 후속 (claude-code-fixes) P3 신청 기한 줄 · T1 10대 본인 화면 */
 async function toResults(page: Page, sentence: string) {
-  await page.goto("/");
-  await page.locator("#home-q").fill(sentence);
-  await page.locator("#home-q").press("Enter");
+  await openPrefill(page, sentence);
   await expect(page.getByTestId("prefill-banner")).toBeVisible({ timeout: 20_000 });
   await page.getByTestId("prefill-confirm").click();
   await expect(page.getByTestId("v2-results")).toBeVisible({ timeout: 20_000 });

@@ -16,7 +16,7 @@ test("키오스크 켜기 → 질문 따라 찾기, 지역은 고정(위치 안 
   await expect(page.locator(".site-footer")).toBeHidden();
 
   await page.getByTestId("gq-self").click();
-  await expect(page.getByRole("heading", { level: 1 })).toContainText("경기 수원시에서 복지를 받으시나요?");
+  await expect(page.getByRole("heading", { level: 1 })).toContainText("경기 수원시여기 맞나요?");
   await page.getByTestId("gq-here").click();
   await expect(page.getByTestId("gq-question")).toHaveAttribute("data-dim", "age", { timeout: 30_000 });
 

@@ -23,6 +23,7 @@ const DRAFT_KEY = "bn.drafts.v1";
 const SEARCH_REGION_KEY = "bn.searchRegion.v1";
 /** 이미 받고 있는 혜택 (대상별: 본인 / 부모님, 사업 묶음 이름만) */
 const RECEIVING_KEY = "bn.receiving.v1";
+const QUICK_RECEIVING_KEY = "bn.quickReceiving.v1";
 /** 홈 예시를 옮겨 보여 줄 시·군·구 (현재 위치나 직접 고른 곳, 코드만) */
 const EXAMPLE_REGION_KEY = "bn.exampleRegion.v1";
 
@@ -48,7 +49,7 @@ function emit() {
 function subscribe(cb: () => void) {
   listeners.add(cb);
   const onStorage = (e: StorageEvent) => {
-    if (e.key === PROFILE_KEY || e.key === SETTINGS_KEY || e.key === EXAMPLE_KEY || e.key === MODE_KEY || e.key === FILLER_KEY || e.key === EXTRAS_KEY || e.key === DRAFT_KEY || e.key === SEARCH_REGION_KEY || e.key === RECEIVING_KEY) emit();
+    if (e.key === PROFILE_KEY || e.key === SETTINGS_KEY || e.key === EXAMPLE_KEY || e.key === MODE_KEY || e.key === FILLER_KEY || e.key === EXTRAS_KEY || e.key === DRAFT_KEY || e.key === SEARCH_REGION_KEY || e.key === RECEIVING_KEY || e.key === QUICK_RECEIVING_KEY) emit();
   };
   window.addEventListener("storage", onStorage);
   return () => {
@@ -92,7 +93,7 @@ export function setSettings(patch: Partial<Settings>) {
   if (prev.shared !== next.shared) {
     const from = prev.shared ? sessionStorage : localStorage;
     const to = next.shared ? sessionStorage : localStorage;
-    for (const key of [PROFILE_KEY, EXAMPLE_KEY, MODE_KEY, FILLER_KEY, EXTRAS_KEY, DRAFT_KEY, SEARCH_REGION_KEY, RECEIVING_KEY, EXAMPLE_REGION_KEY]) {
+    for (const key of [PROFILE_KEY, EXAMPLE_KEY, MODE_KEY, FILLER_KEY, EXTRAS_KEY, DRAFT_KEY, SEARCH_REGION_KEY, RECEIVING_KEY, QUICK_RECEIVING_KEY, EXAMPLE_REGION_KEY]) {
       const raw = safeGet(from, key);
       try {
         from.removeItem(key);
@@ -124,7 +125,11 @@ function readProfile(): Profile | null {
     let value: Profile | null = null;
     try {
       const parsed = raw ? JSON.parse(raw) : null;
-      if (parsed && typeof parsed === "object" && parsed.sigungu) value = { ...EMPTY_PROFILE, ...parsed };
+      if (parsed && typeof parsed === "object" && (parsed.sigungu || (parsed.__quick === true && typeof parsed.age === "string"))) {
+        const { __quick, ...fields } = parsed;
+        void __quick;
+        value = { ...EMPTY_PROFILE, ...fields };
+      }
     } catch {}
     profileCache = { raw, value };
   }
@@ -135,9 +140,10 @@ function readProfile(): Profile | null {
  * exampleId: 홈의 '예시 상황'으로 채운 경우 그 id. mode: 본인/부모님 찾기.
  * x: '상황 먼저' 답(항목별 모름·월 소득). 주지 않으면 지난 답을 지운다 — 프로필과 어긋난 답이 남지 않게.
  */
-export function saveProfile(p: Profile, exampleId?: string, mode?: FindMode, x?: Extras) {
+export function saveProfile(p: Profile, exampleId?: string, mode?: FindMode, x?: Extras, quick = false, resetQuickReceiving = false) {
   try {
-    profileStore().setItem(PROFILE_KEY, JSON.stringify(p));
+    profileStore().setItem(PROFILE_KEY, JSON.stringify({ ...p, __quick: quick }));
+    if (resetQuickReceiving) profileStore().removeItem(QUICK_RECEIVING_KEY);
     if (x) profileStore().setItem(EXTRAS_KEY, JSON.stringify(x));
     else {
       localStorage.removeItem(EXTRAS_KEY);
@@ -155,6 +161,15 @@ export function saveProfile(p: Profile, exampleId?: string, mode?: FindMode, x?:
     }
   } catch {}
   emit();
+}
+
+/** Keep optional-question behavior when returning from a detail page or reloading. */
+export function readQuickResults(): boolean {
+  try { return JSON.parse(safeGet(profileStore(), PROFILE_KEY) ?? "null")?.__quick === true; }
+  catch { return false; }
+}
+export function useQuickResults(): boolean | undefined {
+  return useSyncExternalStore(subscribe, readQuickResults, () => undefined);
 }
 
 /* ---------- 서비스 검색 지역 ---------- */
@@ -192,7 +207,7 @@ type Receiving = Record<FindMode, string[]>;
 const EMPTY_RECEIVING: Receiving = { self: [], parent: [] };
 let receivingCache: { raw: string | null; value: Receiving } = { raw: null, value: EMPTY_RECEIVING };
 function readReceiving(): Receiving {
-  const raw = safeGet(profileStore(), RECEIVING_KEY);
+  const raw = safeGet(profileStore(), readQuickResults() ? QUICK_RECEIVING_KEY : RECEIVING_KEY);
   if (raw !== receivingCache.raw) {
     let value = EMPTY_RECEIVING;
     try {
@@ -209,7 +224,7 @@ export function setReceiving(mode: FindMode, key: string, on: boolean) {
   const list = cur[mode].filter((k) => k !== key);
   const next = { ...cur, [mode]: on ? [...list, key] : list };
   try {
-    profileStore().setItem(RECEIVING_KEY, JSON.stringify(next));
+    profileStore().setItem(readQuickResults() ? QUICK_RECEIVING_KEY : RECEIVING_KEY, JSON.stringify(next));
   } catch {}
   emit();
 }
@@ -321,6 +336,7 @@ export function clearProfile() {
       store.removeItem(DRAFT_KEY);
       store.removeItem(SEARCH_REGION_KEY);
       store.removeItem(RECEIVING_KEY);
+      store.removeItem(QUICK_RECEIVING_KEY);
       store.removeItem(EXAMPLE_REGION_KEY);
     }
   } catch {}
