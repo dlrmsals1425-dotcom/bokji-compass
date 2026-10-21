@@ -42,7 +42,7 @@ test("홈 → 쉬운 찾기: 부모님, 예/아니요만 눌러 끝까지 → �
     await page.getByTestId("gq-no").click();
     await expect.poll(async () => (await page.getByTestId("guided").getAttribute("data-phase")) === "done" || (await page.locator("#gq-h").innerText()) !== before, { timeout: 20_000 }).toBe(true);
   }
-  expect(clicks).toBeLessThanOrEqual(30);
+  expect(clicks).toBeLessThanOrEqual(19);
   await expect(page.getByTestId("gq-done")).toBeVisible();
   await expect(page.getByTestId("gq-pick-age")).toBeVisible();
   await page.getByTestId("gq-results").click();

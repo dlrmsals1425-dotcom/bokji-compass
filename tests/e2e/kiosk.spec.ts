@@ -3,13 +3,13 @@ import { expect, test } from "@playwright/test";
 
 test.use({ permissions: [] });
 
-test("키오스크 켜기 → 질문 따라 찾기, 지역은 고정(위치 안 물음), 메뉴 숨김, 큰 글씨 @mobile", async ({ page }) => {
+test("키오스크 켜기 → 쉬운 찾기(예/아니요), 지역은 고정(위치 안 물음), 메뉴 숨김, 큰 글씨 @mobile", async ({ page }) => {
   await page.goto("/kiosk");
   await expect(page.getByTestId("kiosk-sido").locator("option")).not.toHaveCount(1, { timeout: 20_000 });
   await page.getByTestId("kiosk-sido").selectOption("41000");
   await page.getByTestId("kiosk-sigungu").selectOption({ label: "수원시" });
   await page.getByTestId("kiosk-start").click();
-  await expect(page).toHaveURL(/\/ask$/);
+  await expect(page).toHaveURL(/\/easy$/);
   await expect(page.locator("html")).toHaveAttribute("data-kiosk", "1");
   await expect(page.locator("html")).toHaveAttribute("data-large", "1");
   await expect(page.locator(".header-nav")).toBeHidden();
@@ -19,10 +19,12 @@ test("키오스크 켜기 → 질문 따라 찾기, 지역은 고정(위치 안 
   await expect(page.getByRole("heading", { level: 1 })).toContainText("경기 수원시여기 맞나요?");
   await page.getByTestId("gq-here").click();
   await expect(page.getByTestId("gq-question")).toHaveAttribute("data-dim", "age", { timeout: 30_000 });
+  await expect(page.getByTestId("gq-question")).toHaveAttribute("data-easy", "1");
+  await expect(page.getByTestId("gq-yes")).toBeVisible();
 
-  // 홈으로 가도 키오스크 첫 화면(질문 따라 찾기)
+  // 홈으로 가도 키오스크 첫 화면(쉬운 찾기)
   await page.goto("/");
-  await expect(page).toHaveURL(/\/ask$/);
+  await expect(page).toHaveURL(/\/easy$/);
 
   // 다시 켜 둔 기기: 설정 화면에서 끄기
   await page.goto("/kiosk");
@@ -37,7 +39,7 @@ test("손대지 않으면 안내 후 답을 지우고 처음으로, '계속하�
   await page.getByTestId("kiosk-sido").selectOption("41000");
   await page.getByTestId("kiosk-sigungu").selectOption({ label: "수원시" });
   await page.getByTestId("kiosk-start").click();
-  await expect(page).toHaveURL(/\/ask$/);
+  await expect(page).toHaveURL(/\/easy$/);
   await page.getByTestId("gq-self").click();
   await page.getByTestId("gq-here").click();
   await expect(page.getByTestId("gq-question")).toHaveAttribute("data-dim", "age", { timeout: 30_000 });
