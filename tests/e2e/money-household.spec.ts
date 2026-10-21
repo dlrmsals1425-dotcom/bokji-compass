@@ -1,3 +1,4 @@
+import { openPrefill } from "./helpers/prefill";
 import { expect, test } from "@playwright/test";
 
 /** byHh: 가구원 수별 금액 — 원문 표에서 내 가구원 수 칸 */
@@ -9,9 +10,7 @@ test("혼자 사는 어르신 예시: 기초연금은 단독가구 금액 @mobil
 });
 
 test("'안산 사는 73살 혼자 살아요': 생계급여·긴급복지는 1인 가구 금액 @mobile", async ({ page }) => {
-  await page.goto("/");
-  await page.locator("#home-q").fill("안산 사는 73살 혼자 살아요");
-  await page.locator("#home-q").press("Enter");
+  await openPrefill(page, "안산 사는 73살 혼자 살아요");
   await expect(page.getByTestId("prefill-banner")).toBeVisible({ timeout: 20_000 });
   await page.getByTestId("prefill-confirm").click();
   const next = page.getByTestId("sum-next-money");

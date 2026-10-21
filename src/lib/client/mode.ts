@@ -52,15 +52,15 @@ export const MODE_ENTRY = {
 export const METHOD_ENTRY = {
   talk: {
     title: "말로 찾기",
-    desc: "상황을 한두 문장으로 적어 주세요",
+    desc: "상황을 말하면 바로 찾아요. 나·부모님 모두",
     example: "예: 수원에 사시는 75세 어머니, 혼자 사세요",
-    meta: "약 1분 · 나·부모님 모두",
+    meta: "말한 내용으로 먼저 찾고, 필요하면 더 자세히",
     href: "/situation",
     testId: "start-talk",
   },
   guided: {
-    title: "질문 따라 찾기",
-    desc: "버튼만 누르면 돼요",
+    title: "골라서 찾기",
+    desc: "한 화면에 한 질문, 버튼만 누르면 돼요. 사는 곳은 현재 위치로 확인해요",
     example: "누구의 복지를 찾으세요? 나 / 부모님",
     meta: "질문 5개 안팎 · 나·부모님 모두",
     href: "/ask",
@@ -70,7 +70,7 @@ export const METHOD_ENTRY = {
 
 /** 상황 입력 화면 (기본: '상황 먼저' 한 화면 입력) */
 export function checkPath(mode: FindMode): string {
-  return mode === "parent" ? "/situation?for=parent" : "/situation?for=self";
+  return mode === "parent" ? "/situation?for=parent&details=1" : "/situation?for=self&details=1";
 }
 
 /** 예전 단계별 입력·결과(v1)를 비교용으로 열 때 붙이는 숨은 표시 */

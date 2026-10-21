@@ -2,7 +2,7 @@
 import { existsSync, readFileSync } from "node:fs";
 import { describe, expect, it } from "vitest";
 import {
-  FLOW_LIMIT, RARE_DIMS_FLOW, blankSituation, flowAnswers, flowStep, nextQuestion, rareApply, rarePicks, type FlowStep,
+  FLOW_LIMIT, FLOW_DIM_BY_ID, RARE_DIMS_FLOW, blankSituation, flowAnswers, flowStep, nextQuestion, rareApply, rarePicks, type FlowStep, type FlowQuestionId,
 } from "@/lib/client/guided";
 import { DIM_BY_ID, buildView, scoreV2, type DimId, type Situation } from "@/lib/client/v2";
 import { refineProgram } from "@/lib/data/refine";
@@ -17,8 +17,8 @@ const progsFor = (sido: string, sigungu: string) => {
   return cache.get(k)!;
 };
 const SUWON = { sido: "41000", sigungu: "41110" };
-const answer = (s: Situation, id: DimId, key: string) => {
-  const a = flowAnswers(DIM_BY_ID[id], s).find((x) => x.key === key);
+const answer = (s: Situation, id: FlowQuestionId, key: string) => {
+  const a = flowAnswers(FLOW_DIM_BY_ID[id], s).find((x) => x.key === key);
   if (!a) throw new Error(`${id}:${key} 보기 없음`);
   return a.apply(s);
 };
@@ -32,14 +32,14 @@ describe("다음 질문 고르기", () => {
 
   it("보훈·다문화는 하나씩 묻지 않는다 (마지막 '해당하는 것 모두 고르기'로)", () => {
     let s = blankSituation(SUWON.sido, SUWON.sigungu, "self");
-    const asked: DimId[] = [];
+    const asked: FlowQuestionId[] = [];
     const progs = progsFor(SUWON.sido, SUWON.sigungu);
     for (let i = 0; i < 10; i++) {
       const q = nextQuestion(flowStep(progs, s), s, asked);
       if (!q) break;
-      expect(RARE_DIMS_FLOW.has(q.id)).toBe(false);
+      expect(q.id === "family" || !RARE_DIMS_FLOW.has(q.id)).toBe(true);
       asked.push(q.id);
-      s = flowAnswers(DIM_BY_ID[q.id], s)[0].apply(s);
+      s = flowAnswers(FLOW_DIM_BY_ID[q.id], s)[0].apply(s);
     }
     expect(asked.length).toBeGreaterThanOrEqual(FLOW_LIMIT);
   });
@@ -48,16 +48,80 @@ describe("다음 질문 고르기", () => {
     let s = blankSituation(SUWON.sido, SUWON.sigungu, "self");
     s = answer(s, "age", "35-39");
     const progs = progsFor(SUWON.sido, SUWON.sigungu);
-    const asked: DimId[] = ["age"];
+    const asked: FlowQuestionId[] = ["age"];
     for (let i = 0; i < 6; i++) {
       const q = nextQuestion(flowStep(progs, s), s, asked);
       if (!q) break;
       if (q.id === "income") expect(s.profile.householdSize).not.toBe("unknown");
       asked.push(q.id);
-      s = flowAnswers(DIM_BY_ID[q.id], s)[0].apply(s);
+      s = flowAnswers(FLOW_DIM_BY_ID[q.id], s)[0].apply(s);
     }
     expect(asked).toContain("alone");
     expect(asked.indexOf("alone")).toBeLessThan(asked.indexOf("income") === -1 ? 99 : asked.indexOf("income"));
+  });
+});
+
+describe("가구 확인 뒤 자녀 질문 분기", () => {
+  const next = (s: Situation, asked: FlowQuestionId[]) => nextQuestion(flowStep(progsFor(SUWON.sido, SUWON.sigungu), s), s, asked)?.id;
+  const adult = () => answer(blankSituation(SUWON.sido, SUWON.sigungu, "self"), "age", "35-39");
+
+  it("나이 다음은 가구원 수, 이후 해당 여부, 자녀가 있을 때만 나이", () => {
+    let s = adult();
+    expect(next(s, ["age"])).toBe("alone");
+    s = answer(s, "alone", "4");
+    expect(next(s, ["age", "alone"])).toBe("family");
+    s = answer(s, "family", "children");
+    expect(s.x.childCount).toBeUndefined();
+    expect(s.profile.children).toBeNull();
+    expect(next(s, ["age", "alone", "family"])).toBe("children");
+    expect(flowAnswers(DIM_BY_ID.children, s).map((a) => a.key)).toEqual(["0-1", "2-5", "6-12", "13-18", "19+"]);
+  });
+
+  it.each(["none", "expecting", "skip"])("%s: 자녀 나이·보육·한부모 질문을 하지 않는다", (choice) => {
+    let s = answer(adult(), "alone", "yes");
+    if (choice !== "skip") s = answer(s, "family", choice);
+    const asked: FlowQuestionId[] = ["age", "alone", "family"];
+    for (let i = 0; i < 15; i++) {
+      const q = next(s, asked);
+      if (!q) break;
+      expect(["children", "daycare", "singleParent", "family"]).not.toContain(q);
+      asked.push(q);
+    }
+    expect(rarePicks(s).map((r) => r.key)).not.toContain("singleParent");
+    const r = rareApply(s, []);
+    expect(r.profile.children).toEqual(choice === "none" ? [] : choice === "expecting" ? ["pregnant"] : null);
+    if (choice === "skip") {
+      expect(r.x.childCount).toBeUndefined();
+      expect(r.x.family).toBeUndefined();
+      expect(r.x.traits.single_parent).toBeUndefined();
+    }
+  });
+
+  it("혼자 살아도 자녀·임신 유무는 추정하지 않는다", () => {
+    const s = answer(adult(), "alone", "yes");
+    expect(s.profile.children).toBeNull();
+    expect(s.x.childCount).toBeUndefined();
+    expect(next(s, ["age", "alone"])).toBe("family");
+  });
+
+  it("자녀가 있고 출산 예정인 가구는 두 정보를 함께 보존한다", () => {
+    let s = answer(answer(adult(), "alone", "3"), "family", "both");
+    s = answer(s, "children", "2-5");
+    expect(s.profile.children).toEqual(["2-5", "pregnant"]);
+    expect(s.x.childCount).toBeUndefined();
+  });
+
+  it("가구원 수를 건너뛰면 재질문하지 않고 모름을 보존한다", () => {
+    const s = adult();
+    expect(next(s, ["age", "alone"])).toBe("family");
+    expect(s.profile.householdSize).toBe("unknown");
+  });
+
+  it.each(["0-18", "65-69"])("%s 본인에게는 자녀·출산 질문을 내지 않는다", (age) => {
+    let s = answer(blankSituation(SUWON.sido, SUWON.sigungu, "self"), "age", age);
+    expect(next(s, ["age"])).toBe("alone");
+    s = answer(s, "alone", "2");
+    expect(["family", "children", "daycare", "singleParent"]).not.toContain(next(s, ["age", "alone"]));
   });
 });
 

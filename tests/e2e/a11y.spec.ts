@@ -5,6 +5,7 @@ import { expect, test } from "@playwright/test";
 /** 접근성 점검 (axe-core, WCAG 2.1 A/AA): serious·critical 위반 0건이어야 한다 */
 const PAGES: { name: string; path: string; preset?: string; sentence?: string }[] = [
   { name: "홈", path: "/" },
+  { name: "골라서 찾기", path: "/ask" },
   { name: "상황 입력(내 복지)", path: "/situation?for=self&new=1" },
   { name: "결과(예시: 수원 어르신)", path: "/results", preset: "suwon-senior" },
   { name: "상황 입력(부모님)", path: "/situation?for=parent&new=1" },

@@ -47,9 +47,8 @@ export function FormsOverview() {
   return <div className={`wrap page ${styles.page}`}>
     <Link href="/about" className={styles.back}>← 데이터·판정 기준</Link>
     <header className={styles.header}>
-      <p className="eyebrow">공식 서식을 혜택에 연결하고 있어요</p>
-      <h1 className="h1">신청서 연결 현황</h1>
-      <p className="lead">지역별로 어떤 혜택의 신청서가 준비되어 있는지 확인할 수 있어요. 서식을 확보하지 못한 사업도 공식 창구에서 신청할 수 있습니다.</p>
+      <h1 className="h1">신청 서식</h1>
+      <p className="lead">서식이 없는 사업은 담당 기관에서 확인하세요.</p>
     </header>
     {coverage === undefined ? <p role="status">전국 연결 현황을 불러오고 있어요.</p> : coverage === null ? <div role="status"><p>전국 현황을 불러오지 못했어요.</p><button className="btn btn-quiet" onClick={retry}>다시 확인하기</button></div> : <>
       <section className={styles.summary} aria-labelledby="forms-national-title">
@@ -75,7 +74,7 @@ export function FormsOverview() {
         <p className="small muted">등록한 서식 정보 {number(coverage.totalForms)}개 · 원문 연결 확인 {number(coverage.publishedForms)}개 · 현황 생성일 {coverage.generatedAt.slice(0, 10)}</p>
       </section>
       <section className={styles.browse} aria-labelledby="forms-area-title">
-        <h2 id="forms-area-title">지역별 혜택 살펴보기</h2>
+        <h2 id="forms-area-title">서식 찾기</h2>
         <div className={styles.filters}>
           <div><label htmlFor="forms-region">찾을 지역</label><select id="forms-region" value={areaKey} onChange={event => { setAreaKey(event.target.value); setStage("all"); setLimit(20); }}>
             {(["national", "sido", "sigungu"] as const).map(scope => <optgroup key={scope} label={scope === "national" ? "전국 공통" : scope === "sido" ? "시·도 사업" : "시·군·구 사업"}>

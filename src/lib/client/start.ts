@@ -14,8 +14,8 @@ export function situationOf(profile: Profile, x: Extras | null, mode: FindMode):
 }
 
 /** 상황 저장 (프로필은 v1 화면과 같이 쓰는 형태로, 항목별 답은 따로) */
-export function saveSituation(s: Situation, mode: FindMode, exampleId?: string) {
-  saveProfile(profileForStorage(s), exampleId, mode, s.x);
+export function saveSituation(s: Situation, mode: FindMode, exampleId?: string, quick = false, resetQuickReceiving = false) {
+  saveProfile(profileForStorage(s), exampleId, mode, s.x, quick, resetQuickReceiving);
 }
 
 /** 예시 상황으로 시작 */

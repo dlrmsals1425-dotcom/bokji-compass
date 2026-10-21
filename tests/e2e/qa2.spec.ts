@@ -1,11 +1,10 @@
+import { openPrefill } from "./helpers/prefill";
 import { expect, test, type Page } from "@playwright/test";
 
 /** QA 2차 수정 확인 (리뷰 보고서 항목 ID를 제목에 표기, 재현 문장 그대로) */
 
 async function fromHome(page: Page, sentence: string) {
-  await page.goto("/");
-  await page.locator("#home-q").fill(sentence);
-  await page.locator("#home-q").press("Enter");
+  await openPrefill(page, sentence);
   await expect(page.getByTestId("prefill-banner")).toBeVisible({ timeout: 20_000 });
 }
 
@@ -25,9 +24,7 @@ test.describe("QA 2차", () => {
       await expect(page.getByTestId("prefill-region")).toBeVisible();
     }
     // 서비스 이름은 그대로 검색, 정확히 맞는 이름이 1위
-    await page.goto("/");
-    await page.locator("#home-q").fill("기초연금");
-    await page.locator("#home-q").press("Enter");
+    await openPrefill(page, "기초연금");
     await expect(page).toHaveURL(/\/search\?q=/);
     await expect(page.getByTestId("program-card").first()).toContainText("기초연금", { timeout: 20_000 });
   });

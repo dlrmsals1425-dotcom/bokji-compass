@@ -1,0 +1,24 @@
+.panel { margin-top: 1.5rem; border: 1px solid #ccd6e5; border-radius: .75rem; padding: 1.25rem; background: #f8faff; }
+.heading { display: flex; align-items: baseline; flex-wrap: wrap; gap: .6rem 1rem; margin-bottom: .8rem; }
+.heading h3 { font-size: 1.2rem; margin: 0; }
+.status { font-size: .85rem; font-weight: 700; color: #264a8a; }
+.files { list-style: none; padding: 0; margin: 1rem 0; }
+.files li { padding: 1.15rem 0; border-top: 1px solid #d5ddea; }
+.files h4 { margin: .3rem 0 .6rem; font-size: 1.1rem; line-height: 1.55; overflow-wrap: anywhere; }
+.kind { font-size: .85rem; font-weight: 700; color: #43536b; }
+.actions { display: flex; gap: .65rem; flex-wrap: wrap; margin: 1rem 0 .8rem; }
+.actions a { min-height: 3rem; }
+.dates, .source { font-size: .85rem; line-height: 1.7; color: #4b5b72; }
+.source a, .coverage { text-decoration: underline; text-underline-offset: .2em; }
+.portal { margin-top: .9rem; font-size: .9rem; line-height: 1.75; color: #42526a; }
+.candidates { margin-top: .9rem; padding-top: .9rem; border-top: 1px solid #d5ddea; }
+.candidates summary { font-size: .95rem; font-weight: 650; padding: .5rem 0; cursor: pointer; }
+.candidates p { margin: .4rem 0; }
+.candidates .files { margin: .4rem 0 0; }
+.candidates .files h4 { font-size: 1rem; }
+.note { padding: .8rem 0; margin-top: .8rem; border-top: 1px solid #d5ddea; font-size: .95rem; }
+.coverage { display: inline-block; padding: .6rem 0; margin-top: .7rem; font-size: .9rem; font-weight: 600; }
+.empty { margin-bottom: 1rem; }
+.empty a { margin-top: .8rem; }
+@media (max-width: 480px) { .panel { padding: 1rem; } .actions { flex-direction: column; } .actions a { width: 100%; text-align: center; white-space: normal; } }
+@media print { .actions, .coverage { display: none; } .panel { background: white; } }

@@ -32,7 +32,7 @@ test("실제 MediaRecorder와 OpenAI 모델로 합성 한국어 음성 변환", 
   test.setTimeout(150_000);
   const duration = wavDuration(fixture!);
   expect(duration).toBeLessThan(55_000);
-  await page.goto("/situation?for=self&new=1");
+  await page.goto("/situation?for=self&new=1&details=1");
   await page.getByTestId("voice-consent").check();
   await page.getByTestId("voice-start").click();
   await expect(page.getByTestId("voice-stop")).toBeEnabled();

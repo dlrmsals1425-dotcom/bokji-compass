@@ -137,12 +137,11 @@ function SpeechDraft({ value, onApply }: Props) {
         <p className={styles.help} data-testid="voice-status" role="status">이 브라우저는 음성 입력을 지원하지 않아요. 상황 입력칸에 직접 적어 주세요.</p>
       ) : (
         <>
-          <p className={styles.help}>사는 곳과 상황을 말하면 글로 바꿔 드려요. 내용을 확인한 뒤 입력칸에 넣을 수 있어요.</p>
-          <p className={styles.notice}>녹음한 음성을 OpenAI로 보내 글로 바꿔요. 이 앱은 녹음 파일과 인식 문장을 따로 보관하지 않아요. 외부 음성 처리는 <a href="https://developers.openai.com/api/docs/guides/your-data" target="_blank" rel="noopener noreferrer">OpenAI 데이터 정책</a>을 따라요.</p>
+          <p className={styles.notice}>녹음한 음성을 OpenAI로 보내 받아써요. <a href="https://developers.openai.com/api/docs/guides/your-data" target="_blank" rel="noopener noreferrer">음성 처리 안내</a></p>
           <label className={styles.consent} htmlFor={consentId}>
             <input id={consentId} type="checkbox" checked={consent} data-testid="voice-consent"
               onChange={(event) => { setConsent(event.target.checked); if (!event.target.checked) cancel(); }} />
-            음성 처리 안내를 확인했고, 음성 입력을 사용할게요.
+            음성 전송에 동의합니다.
           </label>
           <div className={styles.actions}>
             {!active && <button type="button" className="btn btn-ghost" onClick={start} disabled={!consent} data-testid="voice-start">{phase === "idle" ? "음성 입력 시작" : "다시 말하기"}</button>}
@@ -150,12 +149,12 @@ function SpeechDraft({ value, onApply }: Props) {
               onClick={() => session.current?.stop()}>말하기 완료</button>}
             {(active || phase === "review" || phase === "error") && <button type="button" className="btn-quiet" onClick={cancel} data-testid="voice-cancel">취소</button>}
           </div>
-          <p className={styles.status} role="status" aria-live="polite" data-testid="voice-status">{message || "시작 버튼을 눌렀을 때만 마이크를 사용해요. 완료 버튼을 누를 때까지, 한 번에 최대 60초 동안 녹음해요."}</p>
+          <p className={styles.status} role="status" aria-live="polite" data-testid="voice-status">{message || "최대 60초"}</p>
           {phase === "review" && <div className={styles.confirm}>
-            <label htmlFor={draftId} className="label">인식한 내용 — 틀린 부분은 고칠 수 있어요</label>
+            <label htmlFor={draftId} className="label">받아쓴 내용</label>
             <textarea id={draftId} className="input" rows={3} ref={draftRef} value={transcript} data-testid="voice-transcript"
               onChange={(event) => setTranscript(event.target.value)} />
-            <p className={styles.help}>{value.trim() ? "이미 적은 내용 뒤에 이어 붙여요. " : ""}입력칸에 넣은 뒤 ‘이 문장으로 아래 칸 채우기’를 눌러 주세요.</p>
+            {value.trim() && <p className={styles.help}>기존 글에 이어 붙입니다.</p>}
             {!proposal.ok && <p className="error" role="alert">{proposal.message}</p>}
             <button type="button" className="btn btn-primary" disabled={!proposal.ok} onClick={confirm} data-testid="voice-confirm">입력칸에 넣기</button>
           </div>}

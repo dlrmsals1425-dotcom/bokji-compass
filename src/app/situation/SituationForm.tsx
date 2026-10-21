@@ -16,25 +16,27 @@ import { RadioGroup } from "@/components/Choice";
 import { loadRegions } from "@/lib/client/bundles";
 import { clearPrefill, parseSituation, parsedExtras, readPrefill, understoodLine, type ParsedSituation, type Prefill } from "@/lib/client/parse";
 import { householdLabel, parseFindMode, resultsPath, type FindMode } from "@/lib/client/mode";
-import { readDraft, saveFiller, saveMode, useExtras, useMode, useProfile, type Draft } from "@/lib/client/storage";
+import { readDraft, saveFiller, saveMode, useExtras, useMode, useProfile, useQuickResults, type Draft } from "@/lib/client/storage";
 import { saveSituation } from "@/lib/client/start";
 import { parseManwonInput } from "@/lib/client/incomeInput";
 import { EMPTY_EXTRAS, SUPPORT_LEVELS, extrasFromProfile, incomeExplain, type Extras } from "@/lib/client/v2";
 import type { RegionIndex } from "@/lib/data/types";
 import { ACTIVITY_LABEL, AGE_BANDS, AGE_LABEL, CHILD_BUCKETS, HOUSING_LABEL, CHILD_LABEL, EMPTY_PROFILE, ageRange, type AgeBand, type Benefit, type ChildBucket, type Profile } from "@/lib/engine/profile";
+import styles from "../finder.module.css";
 
 export function SituationForm() {
   const stored = useProfile();
   const storedMode = useMode();
   const storedX = useExtras();
+  const storedQuick = useQuickResults();
   const params = useSearchParams();
   const urlMode = parseFindMode(params.get("for"));
   const fresh = params.get("new") === "1";
   const wantPrefill = params.get("prefill") === "1";
-  if (stored === undefined || storedMode === undefined || storedX === undefined) return <div className="narrow page muted">불러오는 중…</div>;
+  if (stored === undefined || storedMode === undefined || storedX === undefined || storedQuick === undefined) return <div className="narrow page muted">불러오는 중…</div>;
   const mode0 = urlMode ?? storedMode;
   const d0 = fresh ? null : startingAnswers(mode0, storedMode, stored, storedX);
-  return <Form initial={d0?.profile ?? EMPTY_PROFILE} initialX={d0?.x ?? EMPTY_EXTRAS} initialMode={mode0} wantPrefill={wantPrefill} />;
+  return <Form initial={d0?.profile ?? EMPTY_PROFILE} initialX={d0?.x ?? EMPTY_EXTRAS} initialMode={mode0} wantPrefill={wantPrefill} initialQuick={!fresh && !wantPrefill && storedQuick && mode0 === storedMode} />;
 }
 
 /**
@@ -90,7 +92,9 @@ function mergeParsedX(prev: Extras, ps: ParsedSituation): Extras {
   const ex = parsedExtras(ps);
   if (ex.childCount !== undefined && ex.childCount !== 2) traits.multi_child = ex.childCount === 3;
   // 문장에서 읽은 나이 범위·관심 주제·다른 분 나이는 새 문장 기준으로 바꾼다 (지난 문장 것이 남지 않게)
-  return { ...prev, benefits, traits, ...ex, ageSpan: ex.ageSpan ?? null, interests: ex.interests, otherAge: ex.otherAge ?? null };
+  const next = { ...prev, benefits, traits, ...ex, ageSpan: ex.ageSpan ?? null, interests: ex.interests, otherAge: ex.otherAge ?? null };
+  if (ex.childCount != null || q.children?.length) delete next.family;
+  return next;
 }
 
 /** 문장을 다시 읽을 때, 문장에 없어 그대로 남는 지난 답 (사람이 알 수 있게 보여 준다 — QA 8차) */
@@ -217,7 +221,7 @@ function QuickFill({ ps, p, mode, regions, setP }: { ps: ParsedSituation; p: Pro
 
 const CHILD_AGES = CHILD_BUCKETS.filter((c) => c !== "pregnant");
 
-function Form({ initial, initialX, initialMode, wantPrefill }: { initial: Profile; initialX: Extras; initialMode: FindMode; wantPrefill: boolean }) {
+function Form({ initial, initialX, initialMode, wantPrefill, initialQuick }: { initial: Profile; initialX: Extras; initialMode: FindMode; wantPrefill: boolean; initialQuick: boolean }) {
   const router = useRouter();
   // 홈 검색창 문장 해석 (sessionStorage로만 전달). Form은 저장소를 읽은 뒤(클라이언트)에만 그려진다.
   const [prefill, setPrefill] = useState<Prefill | null>(() => (wantPrefill ? readPrefill() : null));
@@ -347,6 +351,7 @@ function Form({ initial, initialX, initialMode, wantPrefill }: { initial: Profil
       if (count === null || count === 2) delete t.multi_child;
       else t.multi_child = count === 3;
       const next: Extras = { ...prev, traits: t };
+      delete next.family;
       if (count === null) delete next.childCount;
       else next.childCount = count;
       return next;
@@ -358,7 +363,7 @@ function Form({ initial, initialX, initialMode, wantPrefill }: { initial: Profil
     saveMode(mode);
     if (parent) saveFiller("child");
     clearPrefill();
-    saveSituation({ profile: p, x, mode }, mode);
+    saveSituation({ profile: p, x, mode }, mode, undefined, initialQuick && mode === initialMode);
     router.push(resultsPath(mode));
   };
   const submit = () => {
@@ -386,9 +391,10 @@ function Form({ initial, initialX, initialMode, wantPrefill }: { initial: Profil
     p.disability === "none" ? "none" : p.disability === "unknown" ? "unknown" : `${p.disability}-${p.disabilitySeverity === "mild" ? "mild" : "severe"}`;
 
   return (
-    <>
+    <div className={`${styles.finder} ${styles.talk}`}>
       <div className="form-head">
         <div className="narrow">
+          <div className={styles.routeRow}>
           <ol className="crumbs" aria-label="현재 위치">
             <li>
               <Link href="/">
@@ -396,15 +402,13 @@ function Form({ initial, initialX, initialMode, wantPrefill }: { initial: Profil
               </Link>
             </li>
             <li>
-              <span aria-current="page">{parent ? "부모님 상황 알려주기" : "내 상황 알려주기"}</span>
+              <span aria-current="page">말로 찾기</span>
             </li>
           </ol>
+          </div>
           <h1 className="h1" style={{ marginBottom: "0.25rem" }}>
-            {parent ? "부모님 상황을 먼저 알려주세요" : "내 상황을 먼저 알려주세요"}
+            {parent ? "부모님 상황" : "내 상황"}
           </h1>
-          <p className="small muted">
-            사는 곳만 꼭 골라 주세요. 나머지는 아는 만큼만 답하고 모르면 &lsquo;모름&rsquo;으로 두세요 — 결과 화면에서 꼭 필요한 것만 다시 물어봐요. 답은 이 기기에만 저장돼요.
-          </p>
           <div className="mode-switch" role="group" aria-label="찾기 대상">
             <button type="button" className={!parent ? "on" : ""} aria-pressed={!parent} onClick={() => switchMode("self")} data-testid="mode-self">
               내 복지
@@ -415,7 +419,6 @@ function Form({ initial, initialX, initialMode, wantPrefill }: { initial: Profil
           </div>
           {carry && carry.draft.profile.sigungu && (
             <p className="small carry-row" data-testid="mode-carry">
-              {parent ? "부모님 복지" : "내 복지"} 답은 따로 저장돼요 (다른 사람의 나이·소득이 섞이지 않게).{" "}
               <button type="button" className="btn btn-ghost btn-sm" onClick={() => carryOver(false)} data-testid="carry-region">
                 {carry.from === "parent" ? "부모님" : "내"} 사는 곳만 가져오기
               </button>{" "}
@@ -454,12 +457,7 @@ function Form({ initial, initialX, initialMode, wantPrefill }: { initial: Profil
                   </ul>
                 )}
                 <QuickFill ps={prefill.parsed} p={p} mode={mode} regions={regions} setP={setP} />
-                <p className="small muted">
-                  {p.sigungu
-                    ? "맞으면 결과 보기를 누르세요. 나머지는 '모름'으로 두고 찾은 뒤, 결과 화면 맨 위에서 꼭 필요한 것만 물어봐요. 아래에서 더 답해도 돼요."
-                    : "사는 곳(시·군·구)을 위에서 고르면 바로 결과를 볼 수 있어요."}{" "}
-                  문장은 이 기기에서만 해석하며 어디에도 보내지 않아요.
-                </p>
+                {!p.sigungu && <p className="small muted">사는 시·군·구를 선택하세요.</p>}
                 <div className="pf-actions">
                   <button type="button" className="btn btn-primary" onClick={go} disabled={!p.sigungu} data-testid="prefill-confirm">
                     맞아요, 결과 보기 <Icon name="arrowRight" size={18} />
@@ -472,19 +470,16 @@ function Form({ initial, initialX, initialMode, wantPrefill }: { initial: Profil
             )}
             {!prefill && (
               <section aria-labelledby="sit-free-h" className="v2-block">
-                <h2 className="h3" id="sit-free-h">
-                  {parent ? "부모님 상황을 적어 주세요" : "내 상황을 적어 주세요"} <span className="small muted">(선택)</span>
-                </h2>
-                <label htmlFor="sit-text" className="hint">
-                  {parent ? "예: 수원시에 사시는 59년생 부모님 두 분, 아버지가 거동이 불편하세요" : "예: 고양시 사는 29살, 혼자 살고 일자리를 찾고 있어요"}
-                </label>
-                <textarea id="sit-text" className="input" rows={2} ref={textRef} value={text} onChange={(e) => setText(e.target.value)} data-testid="v2-text" />
+                <h2 className="sr-only" id="sit-free-h">음성 또는 글로 상황 입력</h2>
                 <VoiceInput contextKey={`${mode}:${voiceRevision}`} value={text} onApply={(nextText) => { setText(nextText); textRef.current?.focus(); }} />
+                <label htmlFor="sit-text" className="hint">
+                  상황 입력
+                </label>
+                <textarea id="sit-text" className="input" rows={3} placeholder={parent ? "예: 수원에 사시는 75세 어머니, 혼자 살고 계세요." : "예: 고양시에 사는 29살, 혼자 살고 일자리를 찾고 있어요."} ref={textRef} value={text} onChange={(e) => setText(e.target.value)} data-testid="v2-text" />
                 <div className="btn-row" style={{ marginTop: "0.5rem" }}>
                   <button type="button" className="btn btn-tonal btn-sm" onClick={fillFromText} disabled={!text.trim()} data-testid="v2-fill">
-                    이 문장으로 아래 칸 채우기
+                    입력 내용 반영
                   </button>
-                  <span className="small muted">문장은 이 기기에서만 읽어요.</span>
                 </div>
                 {understood && (
                   <div className="notice" role="status" style={{ marginTop: "0.75rem" }} data-testid="v2-understood">
@@ -507,7 +502,7 @@ function Form({ initial, initialX, initialMode, wantPrefill }: { initial: Profil
                       )}
                       {kept.length > 0 && (
                         <p className="pf-l small" data-testid="v2-understood-kept">
-                          문장에 없어 전에 고른 답을 그대로 두었어요: {kept.join(", ")}. 맞지 않으면 아래에서 바꿔 주세요.
+                          이전 답변 유지: {kept.join(", ")}. 달라졌다면 수정하세요.
                         </p>
                       )}
                       <QuickFill ps={understood} p={p} mode={mode} regions={regions} setP={setP} />
@@ -560,7 +555,7 @@ function Form({ initial, initialX, initialMode, wantPrefill }: { initial: Profil
                     {parent ? "부모님 나이 (만)" : "나이 (만)"}
                   </label>
                   <select id="age" className="select" value={p.age} onChange={(e) => set("age", e.target.value as Profile["age"])}>
-                    <option value="unknown">모름</option>
+                    <option value="unknown">건너뛰기</option>
                     {(p.age !== "unknown" && !(AGE_BANDS as readonly string[]).includes(p.age) ? [...AGE_BANDS, p.age] : AGE_BANDS).map((a) => (
                       <option key={a} value={a}>
                         {AGE_LABEL[a]}
@@ -578,7 +573,7 @@ function Form({ initial, initialX, initialMode, wantPrefill }: { initial: Profil
                     value={String(p.householdSize)}
                     onChange={(e) => set("householdSize", e.target.value === "unknown" ? "unknown" : (Number(e.target.value) as 1 | 2 | 3 | 4 | 5 | 6))}
                   >
-                    <option value="unknown">모름</option>
+                    <option value="unknown">건너뛰기</option>
                     {[1, 2, 3, 4, 5, 6].map((n) => (
                       <option key={n} value={n}>
                         {householdLabel(mode, n)}
@@ -602,7 +597,7 @@ function Form({ initial, initialX, initialMode, wantPrefill }: { initial: Profil
                   ...SUPPORT_LEVELS.map((l) => ({ value: l.key, label: `${l.label} (${l.plain})` })),
                 ]}
                 value={supportValue(x)}
-                unknownLabel="잘 모르겠어요"
+                unknownLabel="건너뛰기"
                 onChange={(v) => {
                   if (v === "unknown") return setB(Object.fromEntries(RECIPIENTS.map((k) => [k, undefined])));
                   const lv = SUPPORT_LEVELS.find((l) => l.key === v);
@@ -616,7 +611,7 @@ function Form({ initial, initialX, initialMode, wantPrefill }: { initial: Profil
                   hint="만 65세 이상 중 소득·재산이 적은 70%가 받는 연금이에요 (국민연금과 달라요)."
                   options={YN}
                   value={triOf(x.benefits.basic_pension)}
-                  unknownLabel="잘 모르겠어요"
+                  unknownLabel="건너뛰기"
                   onChange={(v) => setB({ basic_pension: boolOf(v) })}
                 />
               )}
@@ -657,7 +652,7 @@ function Form({ initial, initialX, initialMode, wantPrefill }: { initial: Profil
                         setX((prev) => ({ ...prev, incomeManwon: null }));
                       }}
                     />
-                    <span>모름</span>
+                    <span>건너뛰기</span>
                   </label>
                 </div>
                 {incomeError && (
@@ -688,6 +683,7 @@ function Form({ initial, initialX, initialMode, wantPrefill }: { initial: Profil
                     { value: "3", label: "3명 이상" },
                   ]}
                   value={childCount === null ? "unknown" : String(childCount)}
+                  unknownLabel="건너뛰기"
                   onChange={(v) => setChildren(v === "unknown" ? null : (Number(v) as 0 | 1 | 2 | 3), ages)}
                 />
                 <fieldset className="field" data-testid="child-ages">
@@ -706,7 +702,7 @@ function Form({ initial, initialX, initialMode, wantPrefill }: { initial: Profil
                     </p>
                     <label className="opt unknown">
                       <input type="checkbox" name="child-age" checked={ages.length === 0} onChange={() => setChildren(childCount, [])} />
-                      <span>{childCount === 0 ? "아니요 / 모름" : "모름 / 건너뛰기"}</span>
+                      <span>{childCount === 0 ? "아니요 / 건너뛰기" : "건너뛰기"}</span>
                     </label>
                   </div>
                 </fieldset>
@@ -717,7 +713,7 @@ function Form({ initial, initialX, initialMode, wantPrefill }: { initial: Profil
                     hint="이혼·사별·미혼 등으로 혼자 자녀를 키우는 경우예요 (조부모가 손주를 키우는 조손 가구 포함)."
                     options={YN}
                     value={triOf(x.traits.single_parent)}
-                    unknownLabel="잘 모르겠어요"
+                    unknownLabel="건너뛰기"
                     onChange={(v) => setTrait("single_parent", boolOf(v))}
                   />
                 )}
@@ -747,7 +743,7 @@ function Form({ initial, initialX, initialMode, wantPrefill }: { initial: Profil
                       ]
                 }
                 value={parent && disabilityValue.startsWith("member") ? disabilityValue.replace("member", "self") : disabilityValue}
-                unknownLabel="잘 모르겠어요"
+                unknownLabel="건너뛰기"
                 onChange={(v) => {
                   if (v === "unknown" || v === "none") return setP((prev) => ({ ...prev, disability: v, disabilitySeverity: "unknown" }));
                   const [d, s] = v.split("-") as ["self" | "member", "severe" | "mild"];
@@ -760,7 +756,7 @@ function Form({ initial, initialX, initialMode, wantPrefill }: { initial: Profil
                   legend={parent ? "식사·거동·외출에 다른 사람의 도움이 필요하신가요?" : "식사·거동·외출에 다른 사람의 도움이 필요한가요? (본인 또는 돌보는 가족)"}
                   options={YN}
                   value={p.care === null ? "unknown" : p.care.includes("daily") ? "yes" : "no"}
-                  unknownLabel="잘 모르겠어요"
+                  unknownLabel="건너뛰기"
                   onChange={(v) => set("care", v === "unknown" ? null : v === "yes" ? ["daily"] : [])}
                 />
               )}
@@ -768,10 +764,10 @@ function Form({ initial, initialX, initialMode, wantPrefill }: { initial: Profil
                 <RadioGroup
                   name="ltc"
                   legend={parent ? "부모님이 건강보험공단에서 장기요양등급(1~5등급·인지지원등급)을 받으셨나요?" : "건강보험공단에서 장기요양등급(1~5등급·인지지원등급)을 받으셨나요?"}
-                  hint="아직 없으면 '아니요' — 등급 신청 방법은 결과에서 알려드려요."
+                  hint="등급이 없으면 ‘아니요’를 선택하세요."
                   options={YN}
                   value={triOf(x.facts.ltcGrade)}
-                  unknownLabel="잘 모르겠어요"
+                  unknownLabel="건너뛰기"
                   onChange={(v) => setX((prev) => ({ ...prev, facts: { ...prev.facts, ltcGrade: boolOf(v) } }))}
                 />
               )}
@@ -800,7 +796,7 @@ function Form({ initial, initialX, initialMode, wantPrefill }: { initial: Profil
                       ]
                 }
                 value={parent && p.activity === "self_employed" ? "employed" : parent && p.activity === "student" ? "none" : p.activity}
-                unknownLabel="잘 모르겠어요"
+                unknownLabel="건너뛰기"
                 onChange={(v) => set("activity", v as Profile["activity"])}
               />
               <RadioGroup
@@ -813,7 +809,7 @@ function Form({ initial, initialX, initialMode, wantPrefill }: { initial: Profil
                   { value: "public_rental", label: "공공임대" },
                 ]}
                 value={p.housing === "other" ? "unknown" : p.housing}
-                unknownLabel="잘 모르겠어요"
+                unknownLabel="건너뛰기"
                 onChange={(v) => set("housing", v)}
               />
               {/* 드문 신분(보훈·다문화)은 접어 둠 — 입력 화면이 길다는 지적 (결정 5b). 이미 답했으면 펼친 채로 */}
@@ -827,7 +823,7 @@ function Form({ initial, initialX, initialMode, wantPrefill }: { initial: Profil
                   legend={parent ? "부모님이 국가유공자·참전유공자 등 보훈 대상이신가요?" : "국가유공자 등 보훈 대상(또는 그 가족)인가요?"}
                   options={YN}
                   value={triOf(x.traits.veteran)}
-                  unknownLabel="잘 모르겠어요"
+                  unknownLabel="건너뛰기"
                   onChange={(v) => setTrait("veteran", boolOf(v))}
                 />
                 {askFamily && (
@@ -836,7 +832,7 @@ function Form({ initial, initialX, initialMode, wantPrefill }: { initial: Profil
                     legend="다문화 가족(결혼이민)이거나 북한이탈주민인가요?"
                     options={YN}
                     value={triOf(x.traits.multicultural)}
-                    unknownLabel="잘 모르겠어요"
+                    unknownLabel="건너뛰기"
                     onChange={(v) => setTrait("multicultural", boolOf(v))}
                   />
                 )}
@@ -848,11 +844,11 @@ function Form({ initial, initialX, initialMode, wantPrefill }: { initial: Profil
               <button type="button" className="btn btn-primary btn-lg" onClick={submit} data-testid="v2-submit">
                 {parent ? "부모님께 맞는 혜택 보기" : "나에게 맞는 혜택 보기"} <Icon name="arrowRight" size={18} />
               </button>
-              <span className="small muted">모름으로 둔 질문은 결과 화면 맨 위에서 꼭 필요한 것만 다시 물어봐요.</span>
+              <span className="small muted">건너뛴 질문은 결과에서 다시 답할 수 있어요.</span>
             </div>
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 }

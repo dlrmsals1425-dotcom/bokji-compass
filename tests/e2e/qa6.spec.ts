@@ -1,12 +1,11 @@
+import { openPrefill } from "./helpers/prefill";
 import AxeBuilder from "@axe-core/playwright";
 import { expect, test, type Page } from "@playwright/test";
 
 /** QA 6차 후속: 청소년 본인(학교 밖) · 자녀 둔 부모 문장 · 카드 안내 */
 
 async function toResults(page: Page, sentence: string) {
-  await page.goto("/");
-  await page.locator("#home-q").fill(sentence);
-  await page.locator("#home-q").press("Enter");
+  await openPrefill(page, sentence);
   await expect(page.getByTestId("prefill-banner")).toBeVisible({ timeout: 20_000 });
   await page.getByTestId("prefill-confirm").click();
   await expect(page.getByTestId("v2-results")).toBeVisible({ timeout: 20_000 });

@@ -59,7 +59,7 @@ async function openSituation(page: Page, supported = true): Promise<ApiControl> 
     await api.hold;
     await route.fulfill({ status: api.status, json: api.status === 200 ? { text: api.text } : { error: "test_error" } });
   });
-  await page.goto("/situation?for=self&new=1");
+  await page.goto("/situation?for=self&new=1&details=1");
   await expect(page.getByTestId("v2-text")).toBeVisible();
   await expect(page.getByTestId("voice-choice")).toBeVisible();
   return api;
@@ -120,7 +120,7 @@ test.describe("jinwoo 녹음 후 OpenAI STT API", () => {
     await expect(page.getByTestId("v2-text")).toHaveValue("수원시에 사는 만 36세입니다.");
     await expect(page.locator("#age")).toHaveValue(ageBefore);
     await expect(page.getByTestId("v2-understood")).toHaveCount(0);
-    await expect(page).toHaveURL(/\/situation\?for=self&new=1$/);
+    await expect(page).toHaveURL(/\/situation\?for=self&new=1&details=1$/);
   });
   test("기존 문장 뒤 한 번만 추가하고 늦은 이벤트는 무시 @mobile", async ({ page }) => {
     const api = await openSituation(page);

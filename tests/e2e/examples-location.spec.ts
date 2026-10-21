@@ -5,6 +5,7 @@ test.describe("예시는 내 위치 기준", () => {
   test.use({ geolocation: { latitude: 37.2411, longitude: 127.1776 }, permissions: ["geolocation"] });
   test("예시 칸이 보이면 단추를 누르지 않아도 현재 위치(용인) 예시로, 다시 열면 기억한 지역으로 @mobile", async ({ page, context }) => {
     await page.goto("/");
+    await page.getByText("가상 예시 보기", { exact: true }).click();
     await page.getByTestId("preset-locate").scrollIntoViewIfNeeded();
     await expect(page.getByTestId("locate-status")).toContainText("경기 용인시 기준", { timeout: 30_000 });
     await expect(page.getByTestId("preset-fit")).toHaveCount(5);
@@ -14,6 +15,7 @@ test.describe("예시는 내 위치 기준", () => {
     // 위치 권한을 거둬도 다음 방문에는 기억한 지역
     await context.clearPermissions();
     await page.reload();
+    await page.getByText("가상 예시 보기", { exact: true }).click();
     await page.getByTestId("preset-locate").scrollIntoViewIfNeeded();
     await expect(page.getByTestId("locate-status")).toContainText("경기 용인시 기준", { timeout: 30_000 });
     // '처음 예시로'를 누르면 잊는다
@@ -27,8 +29,9 @@ test.describe("위치를 쓸 수 없을 때", () => {
   test.use({ permissions: [] });
   test("경기도 예시 그대로 + 지역 직접 고르기 (고른 지역도 기억)", async ({ page }) => {
     await page.goto("/");
+    await page.getByText("가상 예시 보기", { exact: true }).click();
     await page.getByTestId("preset-locate").scrollIntoViewIfNeeded();
-    await expect(page.getByTestId("locate-status")).toContainText("지역을 고르면", { timeout: 20_000 });
+    await expect(page.getByTestId("locate-status")).toContainText("지역을 직접 선택", { timeout: 20_000 });
     await expect(page.getByTestId("preset-suwon-senior")).toBeVisible();
     await page.locator("#pp-sido").selectOption("11000");
     await page.getByTestId("locate-sigungu").selectOption({ label: "광진구" });

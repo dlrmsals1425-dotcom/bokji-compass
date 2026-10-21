@@ -1,0 +1,209 @@
+.results .frame {
+  width: min(104rem, calc(100% - clamp(2rem, 5vw, 6rem)));
+}
+
+.results .layout {
+  max-width: none;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 1.5rem;
+  align-items: start;
+}
+
+.overview,
+.content {
+  min-width: 0;
+}
+
+.overview:empty {
+  display: none;
+}
+
+.overview > :last-child {
+  margin-bottom: 0;
+}
+
+.content :global(.picks),
+.content :global(.v2-list) {
+  grid-template-columns: minmax(0, 1fr);
+}
+
+.content :global(.pick),
+.content :global(.v2-card) {
+  min-width: 0;
+}
+
+@media (min-width: 75rem) {
+  .results .layout {
+    grid-template-columns: minmax(18rem, 21rem) minmax(0, 1fr);
+    gap: clamp(1.5rem, 2.5vw, 3rem);
+  }
+
+  .results .layout:has(> .overview:empty) {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
+
+.example,
+.note {
+  display: flex;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: .375rem .875rem;
+  margin: 0 0 .75rem;
+  color: var(--muted);
+  font-size: .875rem;
+}
+
+.example > span {
+  padding: .125rem .5rem;
+  border: 1px solid var(--line);
+  border-radius: .375rem;
+}
+
+.conditions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: .25rem 1.5rem;
+  margin-top: .5rem;
+  font-size: .9375rem;
+}
+
+.conditions > a {
+  padding-block: .5rem;
+}
+
+.profile {
+  min-width: 0;
+}
+
+.profile > summary,
+.cardDetails > summary {
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+  min-height: 2.75rem;
+  width: fit-content;
+  cursor: pointer;
+  list-style: none;
+  color: var(--ink-2);
+}
+
+.profile > summary::-webkit-details-marker,
+.cardDetails > summary::-webkit-details-marker {
+  display: none;
+}
+
+.profile[open] > summary > svg,
+.cardDetails[open] > summary > svg {
+  transform: rotate(180deg);
+}
+
+.content .benefit {
+  padding: 1.25rem 1.5rem .75rem;
+}
+
+.benefitMain {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  align-items: center;
+  gap: .75rem 1.5rem;
+}
+
+.benefitText {
+  min-width: 0;
+}
+
+.benefitTitle {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: .5rem .75rem;
+}
+
+.benefitTitle h3 {
+  margin: 0;
+}
+
+.number {
+  color: var(--muted);
+  font-size: .875rem;
+  font-variant-numeric: tabular-nums;
+}
+
+.benefitText :global(.sum) {
+  margin-top: .5rem;
+  max-width: 70ch;
+}
+
+.detailLink {
+  white-space: nowrap;
+}
+
+.cardDetails {
+  margin-top: .375rem;
+  font-size: .875rem;
+}
+
+.cardDetails[open] {
+  border-top: 1px solid var(--line-2);
+  margin-top: .875rem;
+  padding-top: .375rem;
+}
+
+.detailBody {
+  padding-bottom: .5rem;
+  font-size: 1rem;
+}
+
+.summaryExamples {
+  margin-top: .25rem;
+}
+
+.summaryExamples summary {
+  min-height: 2.75rem;
+  padding-block: .5rem;
+  cursor: pointer;
+  font-size: .875rem;
+  color: var(--ink-2);
+}
+
+@media (max-width: 40rem) {
+  .content .benefit {
+    padding: 1rem 1rem .5rem;
+  }
+
+  .benefitMain {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .detailLink {
+    justify-self: start;
+  }
+}
+
+:global(html[data-large="1"]) .results .layout,
+:global(html[data-large="1"]) .content :global(.picks),
+:global(html[data-large="1"]) .content :global(.v2-list) {
+  grid-template-columns: minmax(0, 1fr);
+}
+
+@media print {
+  .results .frame {
+    width: 100%;
+  }
+
+  .results .layout {
+    display: block;
+  }
+
+  .overview {
+    margin-bottom: 1.5rem;
+  }
+
+  .content :global(.picks),
+  .content :global(.v2-list) {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}

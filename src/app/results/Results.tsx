@@ -8,7 +8,7 @@ import { TierBadge, orgText, ownerText } from "@/components/Badges";
 import { Icon } from "@/components/Icon";
 import { CHANNEL_LABEL, TIER_PLAIN, firstLine, howTo, metReasons, toCheck } from "@/lib/client/howto";
 import type { Program } from "@/lib/data/types";
-import { clearProfile, saveMode, useExample, useMode, useProfile } from "@/lib/client/storage";
+import { clearProfile, saveMode, useExample, useMode, useProfile, useQuickResults } from "@/lib/client/storage";
 import { startPreset } from "@/lib/client/start";
 import { loadForRegion, loadProgram, type Loaded } from "@/lib/client/bundles";
 import { applyFilters, autoGroups, eduCount, facetCounts, groupVariants, industryCount, operatorCount, scoreAll, topPicks, type Filters, type Group } from "@/lib/client/results";
@@ -42,9 +42,11 @@ function Skeleton({ label }: { label: string }) {
 export function Results() {
   const profile = useProfile();
   const mode = useMode();
+  const savedQuick = useQuickResults();
   // 기본은 '상황 먼저' 결과. ?v=1 은 예전 결과 화면 (비교용 숨은 표시, 주소 정리 때도 유지)
   const v1 = useSearchParams().get("v") === "1";
-  const keepV1 = (path: string) => (v1 ? withV1(path) : path);
+  const quick = useSearchParams().get("quick") === "1" || savedQuick === true;
+  const keepV1 = (path: string) => v1 ? withV1(path) : quick ? `${path}${path.includes("?") ? "&" : "?"}quick=1` : path;
   // /results?example=<id>&for=parent 링크로 예시·모드를 바로 연다
   useEffect(() => {
     const params = new URLSearchParams(window.location.search);
@@ -64,7 +66,7 @@ export function Results() {
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps -- mount-only URL bootstrap
   }, []);
-  if (profile === undefined || mode === undefined) return <Skeleton label="불러오는 중…" />;
+  if (profile === undefined || mode === undefined || savedQuick === undefined) return <Skeleton label="불러오는 중…" />;
   if (profile === null) {
     const copy = resultsCopy(mode);
     return (
@@ -85,7 +87,7 @@ export function Results() {
     );
   }
   if (v1) return <ResultsInner profile={profile} mode={mode} key={JSON.stringify(profile) + mode} />;
-  return <ResultsV2 profile={profile} mode={mode} />;
+  return <ResultsV2 profile={profile} mode={mode} quick={quick} />;
 }
 
 function ResultsInner({ profile, mode }: { profile: Profile; mode: FindMode }) {

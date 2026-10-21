@@ -1,11 +1,10 @@
+import { openPrefill } from "./helpers/prefill";
 import { expect, test, type Page, type Request } from "@playwright/test";
 
 /** QA 1차 수정 확인 (리뷰 보고서 항목 ID를 제목에 표기) */
 
 async function fromSentence(page: Page, sentence: string) {
-  await page.goto("/");
-  await page.locator("#home-q").fill(sentence);
-  await page.locator("#home-q").press("Enter");
+  await openPrefill(page, sentence);
   await expect(page.getByTestId("prefill-banner")).toBeVisible({ timeout: 20_000 });
 }
 
@@ -63,7 +62,7 @@ test.describe("QA 1차", () => {
 
   test("M5: 공개 메타데이터(설명·OG), 색인 허용, 없는 상세는 404", async ({ page, request }) => {
     await page.goto("/");
-    await expect(page.locator('meta[property="og:image"]')).toHaveAttribute("content", /og\.png/);
+    await expect(page.locator('meta[property="og:image"]')).toHaveAttribute("content", /icons\/icon-512\.png/);
     await expect(page.locator('meta[name="description"]')).toHaveAttribute("content", /상황/);
     expect(await page.locator('meta[name="robots"][content*="noindex"]').count()).toBe(0);
     const r = await request.get("/p/n.gov24-NOPE0000000");
