@@ -25,6 +25,13 @@ export default function Home() {
             );
           })}
           </div>
+          {/* (2026-10-21 인터뷰) 부모님이 직접 쓰기 쉬운 길 — 예/아니요로만 */}
+          <Link href="/easy" className={styles.easy} data-testid="start-easy">
+            <span>
+              <b>쉬운 찾기</b> · 예/아니요로만 답해요
+            </span>
+            <Icon name="arrowRight" size={20} />
+          </Link>
           <div className={styles.resume}><ResumeBanner /></div>
         </div>
         <WelfareMap />

@@ -16,7 +16,7 @@ import { Summary } from "./Summary";
 import { VisitSheet } from "./VisitSheet";
 import { loadForRegion, loadProgram, loadRegions, type Loaded } from "@/lib/client/bundles";
 import { CHANNEL_LABEL, firstLine, howTo } from "@/lib/client/howto";
-import { clearProfile, setReceiving, useExample, useExtras, useReceiving } from "@/lib/client/storage";
+import { clearProfile, setReceiving, useElder, useExample, useExtras, useReceiving } from "@/lib/client/storage";
 import { splitReceiving } from "@/lib/client/receiving";
 import { saveSituation, situationOf } from "@/lib/client/start";
 import { presetById } from "@/lib/client/presets";
@@ -45,6 +45,7 @@ const DIM_INFO: Partial<Record<DimId, string>> = {
 export function ResultsV2({ profile, mode, quick = false }: { profile: Profile; mode: FindMode; quick?: boolean }) {
   const extras = useExtras();
   const example = useExample();
+  const elder = useElder() ?? false;
   const router = useRouter();
   const [data, setData] = useState<Loaded | null>(null);
   const [skipped, setSkipped] = useState<DimId[]>([]);
@@ -266,7 +267,7 @@ export function ResultsV2({ profile, mode, quick = false }: { profile: Profile; 
             <p className={styles.note} data-testid="parent-results-banner" role="note">
               <Icon name="heart" size={18} />
               <span>
-                <strong>부모님 기준</strong>
+                <strong>{elder ? "조부모님·어르신 기준" : "부모님 기준"}</strong>
               </span>
             </p>
           )}

@@ -5,7 +5,7 @@
 import type { Profile } from "../engine/profile";
 import type { FindMode } from "./mode";
 import type { Preset } from "./presets";
-import { saveFiller, saveProfile } from "./storage";
+import { saveFiller, setElder, saveProfile } from "./storage";
 import { extrasFromProfile, profileForStorage, type Extras, type Situation } from "./v2";
 
 /** 저장된 프로필 + 답 → 판정용 상황 (답이 없으면 프로필에서 만든다: 예전 입력·v1 입력과 호환) */
@@ -22,5 +22,6 @@ export function saveSituation(s: Situation, mode: FindMode, exampleId?: string, 
 export function startPreset(p: Preset, modeOverride?: FindMode) {
   const mode = modeOverride ?? p.mode ?? "self";
   saveSituation({ profile: p.profile, x: p.x, mode }, mode, p.id);
+  setElder(false);
   if (mode === "parent") saveFiller("child");
 }
