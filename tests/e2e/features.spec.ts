@@ -100,7 +100,7 @@ test.describe("방문처별 준비물 한 장", () => {
     await page.getByTestId("pick").first().getByTestId("benefit-more").locator("summary").click();
     await page.getByTestId("pick").first().getByTestId("sheet-toggle").click();
     await expect(cta).toContainText("담은 혜택 4개");
-    const extra = page.locator("#v2-fit [data-testid=v2-card]").filter({ has: page.getByRole("button", { name: /준비물 한 장에 담기$/, includeHidden: true }) }).first();
+    const extra = page.locator("#v2-fit [data-testid=v2-card]").filter({ has: page.getByRole("button", { name: /신청 서류 모음에 담기$/, includeHidden: true }) }).first();
     await extra.getByTestId("benefit-more").locator("summary").click();
     await extra.getByTestId("sheet-toggle").click();
     await expect(cta).toContainText("담은 혜택 5개");
@@ -139,7 +139,7 @@ test.describe("방문처별 준비물 한 장", () => {
     await page.emulateMedia({ media: "print" });
     const root = page.locator(".sheet-print-root");
     await expect(root).toBeVisible();
-    await expect(root).toContainText("방문처별 준비물");
+    await expect(root).toContainText("신청 서류 모음");
     await expect(root).toContainText("가까운 보건소");
     await expect(page.getByTestId("v2-results")).toBeHidden();
     await expect(page.locator("header").first()).toBeHidden();

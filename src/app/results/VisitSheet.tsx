@@ -33,7 +33,7 @@ function PlacePage({ pl, i, n, region, date, forPrint, actions }: { pl: SheetPla
   return (
     <article className="vs-place vs-page" data-testid={tid("vs-place")} data-key={pl.key}>
       <p className="vs-meta">
-        복지나침반 · 방문처별 준비물{n > 1 ? ` ${i + 1}/${n}` : ""} · {region} 기준 · {date}
+        복지나침반 · 신청 서류 모음{n > 1 ? ` ${i + 1}/${n}` : ""} · {region} 기준 · {date}
       </p>
       <H className="vs-ptitle">{pageTitle(pl)}</H>
       {visit && (
@@ -166,7 +166,7 @@ export function VisitSheet({ entries, region, sido, loading, extra, teen, onClos
     try {
       const blob = await toPng(i);
       const file = new File([blob], fileOf(i), { type: "image/png" });
-      await navigator.share({ files: [file], title: `방문처별 준비물 — ${places[i].label}` });
+      await navigator.share({ files: [file], title: `신청 서류 모음 — ${places[i].label}` });
     } catch {}
   };
   const printed = printOnly === null ? places.map((pl, i) => ({ pl, i })) : places[printOnly] ? [{ pl: places[printOnly], i: printOnly }] : [];
@@ -174,7 +174,7 @@ export function VisitSheet({ entries, region, sido, loading, extra, teen, onClos
   return (
     <section className="visit-sheet card" id="visit-sheet" aria-labelledby="vs-h" data-testid="visit-sheet" aria-busy={loading}>
       <h2 className="h2" id="vs-h">
-        방문처별 준비물{places.length > 1 ? ` — ${places.length}곳, 곳마다 한 장` : ""}
+        신청 서류 모음{places.length > 1 ? ` — ${places.length}곳, 곳마다 한 장` : ""}
       </h2>
       <p className="small muted vs-lead no-print">
         방문처별로 인쇄·저장할 수 있어요.{extra > 0 ? ` 직접 담은 ${extra}개 포함.` : ""} 나이·소득 등 입력값은 포함하지 않습니다.

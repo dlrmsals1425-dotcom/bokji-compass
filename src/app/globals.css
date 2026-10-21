@@ -548,10 +548,11 @@ html[data-large="1"] .fgrid fieldset + fieldset { border-left: 0; border-top: 1p
 /* v2 기본 결과 · 입력 */
 .req { color: #b3261e; font-size: 0.875rem; font-weight: 700; }
 .v2-badge { display: inline-flex; align-items: center; font-size: 0.8125rem; font-weight: 800; padding: 0.125rem 0.625rem; border-radius: 999px; border: 1px solid var(--line); background: #fff; color: var(--ink-2); }
-.v2-badge.b-fit { background: var(--primary-5); color: var(--primary-70); border-color: var(--primary-20); }
-.v2-badge.b-office { background: var(--surface-2); color: var(--ink); }
-.v2-badge.b-ask { background: var(--warm-5); color: #8a4b00; border-color: #f3d9b1; }
-.v2-badge.b-no { background: var(--surface-2); color: var(--ink-2); }
+/* (2026-10-21 인터뷰) 판정 단계가 한눈에 갈리게: 받으실 수 있어요 = 진한 채움, 나머지는 테두리만 */
+.v2-badge.b-fit { background: #15803d; color: #fff; border-color: #15803d; }
+.v2-badge.b-office { background: #fff; color: var(--ink); border-color: var(--ink-2); border-style: dashed; }
+.v2-badge.b-ask { background: #fff; color: #8a4b00; border-color: #c27a12; border-width: 2px; }
+.v2-badge.b-no { background: var(--surface-2); color: var(--ink-2); border-color: var(--line); }
 .v2-actions { display: flex; flex-wrap: wrap; gap: 0.5rem 1.5rem; align-items: center; margin-top: 2rem; padding-top: 1rem; border-top: 1px solid var(--line-2); }
 .v2-actions .small { display: inline-flex; gap: 0.375rem; align-items: center; }
 .v2-sec .picks { margin-top: 1rem; }
