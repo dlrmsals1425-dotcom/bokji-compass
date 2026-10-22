@@ -5,8 +5,10 @@ import { setSettings, useSettings } from "@/lib/client/storage";
 import { Icon } from "./Icon";
 import styles from "./SiteChrome.module.css";
 
+// (2026-10-22 외부 점검 P2-3) 서비스 검색이 어디에도 연결되지 않던 것 — 홈(지도 랜딩)·찾기 화면 밖의 주 메뉴에
 const NAV = [
   { href: "/results", label: "내 결과" },
+  { href: "/search", label: "서비스 검색" },
 ];
 
 /** 파비콘·앱 아이콘과 같은 원본. 이름은 옆 글자와 홈 링크가 전달한다. */

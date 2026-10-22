@@ -408,7 +408,7 @@ function ResultsInner({ profile, mode }: { profile: Profile; mode: FindMode }) {
                   <p>이 조건에 해당하는 서비스가 없습니다.</p>
                   {f.tier === "eligible" && (
                     <p className="small" style={{ marginTop: "0.375rem" }}>
-                      &lsquo;조건 충족&rsquo;은 검수 규칙·API 지원조건이 있는 서비스만 해당합니다. &lsquo;가능성 있음&rsquo;도 확인해 보세요.
+                      &lsquo;조건 충족&rsquo;은 검수 규칙·정부24 지원조건이 있는 서비스만 해당합니다. &lsquo;가능성 있음&rsquo;도 확인해 보세요.
                     </p>
                   )}
                 </div>

@@ -550,7 +550,7 @@ export function ResultsV2({ profile, mode, quick = false }: { profile: Profile; 
                     자동 지급·기관 선정 혜택
                   </span>
                   <span className="c">
-                    <span data-testid="auto-count">{autos.length.toLocaleString("ko-KR")}</span>개 <Icon name="chevronDown" size={18} />
+                    <span><span data-testid="auto-count">{autos.length.toLocaleString("ko-KR")}</span>개</span> <Icon name="chevronDown" size={18} />
                   </span>
                 </summary>
                 {autoOpen && (

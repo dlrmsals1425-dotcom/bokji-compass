@@ -2,7 +2,7 @@
 /** 번들 로더: 전국 + 시도 + 시군구 번들을 받아 브라우저에서만 판정한다 (프로필은 전송하지 않음). */
 import type { Bundle, LocalOperation, Program, RegionIndex } from "../data/types";
 import { detailBucket } from "../data/bucket";
-import { normalizeDeep } from "../data/text";
+import { normalizeDeep, tidyProgram } from "../data/text";
 import { inLegacyArea } from "../data/legacyArea";
 import { refineProgram } from "../data/refine";
 
@@ -48,7 +48,8 @@ export async function loadForRegion(sido: string | null, sigungu: string | null)
 const refined = new WeakMap<Program, Program>();
 function refineFor(p: Program): Program {
   let r = refined.get(p);
-  if (!r) refined.set(p, (r = refineProgram(p)));
+  // 원문의 빈 자리 표시('조의0'·'/-')는 읽을 때 지운다 (text.ts tidyProgram)
+  if (!r) refined.set(p, (r = refineProgram(tidyProgram(p))));
   return r;
 }
 
@@ -66,7 +67,7 @@ export async function loadProgram(id: string): Promise<Program | null> {
   const shard = await getJSON<Record<string, Program>>(`details/${detailBucket(id)}.json`);
   // 번들은 만들 때 정리되지만, 예전 캐시·새 원문에 남은 엔티티·깨진 글자를 한 번 더 정리 (한 건이라 가벼움)
   const p = shard?.[id];
-  return p ? refineProgram(normalizeDeep(p)) : null;
+  return p ? refineProgram(tidyProgram(normalizeDeep(p))) : null;
 }
 
 export async function loadLocalOps(id: string, sido: string | null, sigungu: string | null): Promise<LocalOperation[]> {
@@ -74,5 +75,5 @@ export async function loadLocalOps(id: string, sido: string | null, sigungu: str
     sido ? getJSON<Bundle>(`sido/${sido}.json`) : Promise.resolve(null),
     sigungu ? getJSON<Bundle>(`sigungu/${sigungu}.json`) : Promise.resolve(null),
   ]);
-  return [...(sg?.localOps?.[id] ?? []), ...(sd?.localOps?.[id] ?? [])];
+  return [...(sg?.localOps?.[id] ?? []), ...(sd?.localOps?.[id] ?? [])].map(tidyProgram);
 }

@@ -90,6 +90,38 @@ export function normalizeDeep<T>(v: T): T {
   return v;
 }
 
+/* ---------------- 원문의 빈 자리 표시 (2026-10-22 외부 점검 P2-5·6) ---------------- */
+
+/**
+ * 법령 조항: 정부24 원문은 비어 있는 '조의'·'항'을 0으로 적는다 ('(제1조의0, 제0항)') — 없는 조항처럼 보이므로 0만 지운다.
+ * 조·항이 모두 0이면 괄호째 지운다. 원문에 있는 번호는 그대로.
+ */
+export function tidyLaw(s: string): string {
+  return s
+    .replace(/(제\d+조)의0(?!\d)/g, "$1")
+    .replace(/,\s*제0항/g, "")
+    .replace(/\s*\(\s*제0조(?:의0)?\s*\)/g, "")
+    .trim();
+}
+
+/** 문의처: 원문의 '/-'(전화번호 없음 표시)를 지운다. 전화번호 안의 '-'는 그대로 */
+export function tidyContact(s: string): string {
+  return s
+    .split("\n")
+    .map((line) => line.replace(/\s*\/\s*-\s*(?=$|\/)/g, "").replace(/^\s*-\s*$/, "").trim())
+    .join("\n")
+    .trim();
+}
+
+type Tidy = { laws?: string[]; contact?: string };
+/** 법령·문의처만 다듬는다 (번들을 만들 때와 읽을 때 같은 결과, 멱등) */
+export function tidyProgram<T extends Tidy>(p: T): T {
+  const out = { ...p };
+  if (Array.isArray(p.laws)) out.laws = p.laws.map(tidyLaw).filter(Boolean);
+  if (typeof p.contact === "string") out.contact = tidyContact(p.contact);
+  return out;
+}
+
 /* ---------------- 화면용: 문단·목록으로 나누기 ---------------- */
 
 export type TextBlock = { kind: "p"; text: string } | { kind: "ul"; items: { marker: string; text: string; level: 1 | 2 }[] };
