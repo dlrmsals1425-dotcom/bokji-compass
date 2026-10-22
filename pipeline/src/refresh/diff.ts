@@ -90,11 +90,12 @@ export function fieldCounts(rows: readonly Record<string, unknown>[]): Record<st
   return c;
 }
 
-/** 어제 행의 1% 넘게 있던 칸이 오늘 통째로 없으면 '사라짐' (원래 드문 칸은 날마다 있다 없다 할 수 있어 뺀다) */
-export function missingFields(prev: Record<string, number> | undefined, now: Record<string, number>): string[] {
+/** 어제 행의 1% 넘게 있던 칸이 오늘 통째로 없으면 '사라짐' (원래 드문 칸은 날마다 있다 없다 할 수 있어 뺀다). ignore = 일부러 저장하지 않는 칸 ('serviceList.조회수'처럼 앞에 묶음 이름이 붙어도) */
+export function missingFields(prev: Record<string, number> | undefined, now: Record<string, number>, ignore: readonly string[] = []): string[] {
   if (!prev) return [];
   const most = Math.max(0, ...Object.values(prev));
-  return Object.keys(prev).filter((k) => prev[k] > most * 0.01 && !now[k]).sort();
+  const skip = (k: string) => ignore.includes(k.split(".").at(-1)!);
+  return Object.keys(prev).filter((k) => prev[k] > most * 0.01 && !now[k] && !skip(k)).sort();
 }
 
 const SAMPLE = 50;

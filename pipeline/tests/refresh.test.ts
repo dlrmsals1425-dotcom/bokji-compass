@@ -1,7 +1,8 @@
 /** (2026-10-22) 매일 변경 감지: 어제·오늘 원천을 비교해 추가·변경·삭제를 세고, 이상하면 경고 (배포 전 점검) */
 import { describe, expect, it } from "vitest";
 import { compareSnapshots, fieldCounts, fingerprint, gateCheck, menuDrift, missingFields, moneyChanges, summarize, type SourceReport } from "../src/refresh/diff";
-import { GOV24_NOISE } from "../src/gov24/ingest";
+import { GOV24_NOISE, stripNoise } from "../src/gov24/ingest";
+import { LIST_NOISE, stripListNoise } from "../src/bokjiro/ingest";
 
 describe("fingerprint: 같은 내용이면 같은 지문, 조회수 같은 잡음은 무시", () => {
   it("키 순서와 무관", () => {
@@ -150,5 +151,20 @@ describe("금액이 바뀐 사업 (보완대책 8): 원문 지원내용에서 �
     const after = new Map([["A", t("바우처", "연 50만원 바우처")], ["B", t("수당", "서비스 연계")], ["Y", t("새 사업", "월 7만원")]]);
     const got = moneyChanges("bokjiro-local", before, after);
     expect(got.map((c) => [c.id, !!c.before, !!c.after])).toEqual([["A", false, true], ["B", true, false]]);
+  });
+});
+
+describe("조회수는 저장하지 않음 (2026-10-22: 매일 모든 사업의 조회수가 바뀌어 data 브랜치가 하루 약 5MB씩 커짐)", () => {
+  it("정부24 행에서 조회수만 뺀다", () => {
+    expect(stripNoise([{ 서비스ID: "1", 서비스명: "가", 조회수: 120 }, { 서비스ID: "2", 서비스명: "나" }])).toEqual([{ 서비스ID: "1", 서비스명: "가" }, { 서비스ID: "2", 서비스명: "나" }]);
+  });
+  it("복지로 목록 XML에서 inqNum만 뺀다", () => {
+    const xml = "<servList><inqNum>2498</inqNum><servId>WLF1</servId><servNm>교복</servNm></servList><servList><inqNum></inqNum><servId>WLF2</servId></servList>";
+    expect(stripListNoise(xml)).toBe("<servList><servId>WLF1</servId><servNm>교복</servNm></servList><servList><servId>WLF2</servId></servList>");
+  });
+  it("칸 사라짐 점검은 일부러 뺀 칸(조회수)을 사라졌다고 하지 않음", () => {
+    const prev = { "serviceList.서비스ID": 100, "serviceList.조회수": 100, inqNum: 100, servNm: 100 };
+    expect(missingFields(prev, { "serviceList.서비스ID": 100, servNm: 100 }, [...GOV24_NOISE, ...LIST_NOISE])).toEqual([]);
+    expect(missingFields(prev, { servNm: 100 }, [...GOV24_NOISE, ...LIST_NOISE])).toEqual(["serviceList.서비스ID"]);
   });
 });

@@ -16,7 +16,7 @@ import fs from "node:fs";
 import path from "node:path";
 import { execFileSync } from "node:child_process";
 import { GOV24_NOISE, readCached, readTotalCount } from "../gov24/ingest";
-import { listFingerprints, listTotalCount, readDetail, readList, type Kind } from "../bokjiro/ingest";
+import { LIST_NOISE, listFingerprints, listTotalCount, readDetail, readList, type Kind } from "../bokjiro/ingest";
 import { parseCsv } from "../sources/icare";
 import { compareSnapshots, fieldCounts, fingerprint, gateCheck, menuDrift, missingFields, moneyChanges, summarize, type SourceReport } from "./diff";
 
@@ -119,7 +119,7 @@ function main() {
     errors.mohwParse = run("pipeline/mohw/parse_menus.py", menuBefore.length ? [`--changed=${[...reparsed].join(",")}`] : []);
   }
   const schema = schemaNow();
-  const lost = (source: string) => missingFields(prevSchema[source], schema[source] ?? {});
+  const lost = (source: string) => missingFields(prevSchema[source], schema[source] ?? {}, [...GOV24_NOISE, ...LIST_NOISE]);
 
   const gov24Status = readJson("gov24/_status.json");
   const bokjiroStatus = readJson("bokjiro/_status.json") ?? {};

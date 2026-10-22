@@ -121,6 +121,8 @@ async function call(kind: Kind, rel: string, key: string): Promise<string> {
 
 /** 목록 한 줄의 지문 — 조회수(inqNum)는 매번 바뀌므로 뺀다 */
 export const LIST_NOISE = ["inqNum"] as const;
+/** 저장 전에 목록 XML에서 조회수(inqNum)를 뺀다 — 사이트에 쓰지 않고, 매일 바뀌어 data 브랜치만 키운다 */
+export const stripListNoise = (xml: string) => xml.replace(/<inqNum>[^<]*<\/inqNum>/g, "");
 export function listFingerprints(kind: Kind): Map<string, string> {
   return new Map(readList(kind).map((r) => [String(r.servId), fingerprint(r, LIST_NOISE)]));
 }
@@ -138,7 +140,7 @@ async function fetchList(kind: Kind, key: string, fresh = false) {
     let xml: string;
     if (fs.existsSync(file)) xml = fs.readFileSync(file, "utf8");
     else {
-      xml = await call(kind, API[kind].list(page, API[kind].perPage), key);
+      xml = stripListNoise(await call(kind, API[kind].list(page, API[kind].perPage), key));
       fs.writeFileSync(file, xml);
       await sleep(300);
     }
