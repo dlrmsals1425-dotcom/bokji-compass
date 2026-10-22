@@ -43,7 +43,8 @@ export function orgWhere(p: Program): string | undefined {
 export function reviewText(p: Program): string | null {
   if (p.rule.review === "verified") return "검수 규칙";
   if (p.rule.review === "curated") return "검수 규칙(1차)";
-  if (p.rule.review === "structured") return "API 지원조건";
+  // (2026-10-22 외부 점검 P3-11) 'API 지원조건'은 뜻이 안 와닿음 → 어디의 조건인지
+  if (p.rule.review === "structured") return "정부24 지원조건 기준";
   return null;
 }
 

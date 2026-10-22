@@ -96,7 +96,7 @@ export function Search() {
     ...HOUSEHOLD.filter((f) => sel.house.includes(f.id)).map((f) => ({ group: "house" as const, id: f.id, label: f.label })),
     ...sel.topic.map((c) => ({ group: "topic" as const, id: c, label: c })),
   ];
-  const scope = `전국 공통${sido ? ` + ${sidoObj?.name ?? ""}` : ""}${sigungu ? ` + ${sidoObj?.sigungus.find((g) => g.code === sigungu)?.name ?? ""}` : ""}`;
+  const scope = `중앙부처 사업${sido ? ` + ${sidoObj?.name ?? ""}` : ""}${sigungu ? ` + ${sidoObj?.sigungus.find((g) => g.code === sigungu)?.name ?? ""}` : ""}`;
 
   return (
     <div className="wrap page">
@@ -168,7 +168,7 @@ export function Search() {
               시·도
             </label>
             <select id="s-sido" className="select" value={chosenSido ?? ""} onChange={(e) => choose({ sido: e.target.value || null, sigungu: null })}>
-              <option value="">전국 공통만</option>
+              <option value="">중앙부처 사업만</option>
               {regions?.sidos.map((s) => (
                 <option key={s.code} value={s.code}>
                   {sidoOptionLabel({ code: s.code, name: s.name })}
@@ -181,7 +181,7 @@ export function Search() {
               시·군·구
             </label>
             <select id="s-sigungu" className="select" value={autoRegion ? "" : (sigungu ?? "")} disabled={!sidoObj || autoRegion} onChange={(e) => choose({ sido, sigungu: e.target.value || null })}>
-              <option value="">{sidoObj ? "시도 사업까지" : "시·도 먼저"}</option>
+              <option value="">{sidoObj ? "시·군·구 고르지 않음" : "시·도 먼저"}</option>
               {sidoObj?.sigungus.map((g) => (
                 <option key={g.code} value={g.code}>
                   {g.name}
@@ -233,7 +233,7 @@ export function Search() {
         <p className="notice search-hint" data-testid="search-auto-region" role="note">
           <Icon name="mapPin" size={18} />
           <span>
-            검색어에서 찾은 지역: <strong>{scope.replace(/^전국 공통 \+ /, "")}</strong>
+            검색어에서 찾은 지역: <strong>{scope.replace(/^중앙부처 사업 \+ /, "")}</strong>
           </span>
         </p>
       )}

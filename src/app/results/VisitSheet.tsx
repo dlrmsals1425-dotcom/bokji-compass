@@ -38,7 +38,7 @@ function PlacePage({ pl, i, n, region, date, forPrint, actions }: { pl: SheetPla
       <H className="vs-ptitle">{pageTitle(pl)}</H>
       {visit && (
         <p className="vs-staff" data-testid={tid("vs-staff")}>
-          <strong>담당자께</strong> 이 분은 아래 {pl.programs.length > 1 ? `${pl.programs.length}가지` : "사업"}을 신청(자격 확인 포함)하러 오셨어요. 사업명·서비스 번호로 정부24·복지로 원문을 찾아보실 수 있어요.
+          <strong>담당자께</strong> 이 분은 아래 {pl.programs.length > 1 ? `${pl.programs.length}가지를` : "사업을"} 신청(자격 확인 포함)하러 오셨어요. 사업명·서비스 번호로 정부24·복지로 원문을 찾아보실 수 있어요.
         </p>
       )}
       <p className="vs-k">{visit ? "신청할 것" : pl.key === "online" ? "신청할 것" : "해당하는 것"}</p>
@@ -157,7 +157,7 @@ export function VisitSheet({ entries, region, sido, loading, extra, teen, onClos
       a.click();
       a.remove();
       setTimeout(() => URL.revokeObjectURL(url), 2000);
-      setMsg(`'${places[i].label}' 한 장을 이미지로 저장했어요. 사진첩이나 다운로드 폴더에서 카카오톡으로 보낼 수 있어요.`);
+      setMsg(`'${places[i].label}' 한 장을 이미지로 저장했어요. 저장된 이미지를 카카오톡이나 문자로 보낼 수 있어요.`);
     } catch {
       setMsg("이미지를 만들지 못했어요. '이 곳 한 장 인쇄'에서 PDF로 저장해 주세요.");
     }

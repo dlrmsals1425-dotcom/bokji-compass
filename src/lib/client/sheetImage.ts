@@ -72,7 +72,7 @@ export async function renderSheetPng(pl: SheetPlace, meta: SheetMeta): Promise<B
     lines.push({ op: { kind: "place", text: title }, y, h: ph });
     y += ph + 16;
     if (visit) {
-      text(`담당자께 — 이 분은 아래 ${pl.programs.length > 1 ? `${pl.programs.length}가지` : "사업"}을 신청(자격 확인 포함)하러 오셨어요. 사업명·서비스 번호로 정부24·복지로 원문을 찾아보실 수 있어요.`, 24, 600, C.ink2);
+      text(`담당자께 — 이 분은 아래 ${pl.programs.length > 1 ? `${pl.programs.length}가지를` : "사업을"} 신청(자격 확인 포함)하러 오셨어요. 사업명·서비스 번호로 정부24·복지로 원문을 찾아보실 수 있어요.`, 24, 600, C.ink2);
       y += 8;
     }
     text("신청할 것", 26, 700, C.blue);
