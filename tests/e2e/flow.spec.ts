@@ -109,7 +109,7 @@ test.describe("로그인 없는 전체 흐름 (상황 먼저 · 기본)", () => 
     await pick(page, "혼자 자녀를 키우는 한부모 가구인가요?", "예");
     await pick(page, "지금 하고 있는 일은요?", "일자리를 찾고 있어요");
     await page.getByTestId("v2-income").fill("200");
-    await expect(page.getByTestId("v2-income-band")).toContainText("2인 가구 기준중위소득");
+    await expect(page.getByTestId("v2-income-band")).toContainText("2인 가구 기준 중위소득");
     // 60세 미만 본인 → 기초연금·장기요양은 묻지 않는다
     await expect(page.getByRole("group", { name: "기초연금을 받고 계신가요?" })).toHaveCount(0);
     await expect(page.getByRole("group", { name: /장기요양등급/ })).toHaveCount(0);

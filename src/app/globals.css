@@ -351,6 +351,8 @@ html[data-large="1"] .tiles { grid-template-columns: minmax(0, 1fr); }
 .pick .sum { color: var(--ink-2); margin-top: 0.25rem; font-size: 1rem; }
 .pick .judge { margin-top: 0.75rem; padding: 0.625rem 0.875rem; background: var(--surface-2); border-radius: var(--radius-sm); font-size: 0.9375rem; color: var(--ink-2); }
 .pick-foot { display: flex; gap: 0.5rem; flex-wrap: wrap; margin-top: 1rem; }
+/* (2026-10-23 외부 재점검) 담기·빼기는 펼치지 않아도 보이게 카드 본문 바로 아래 */
+.pick-actions { margin-top: 0.5rem; align-items: center; }
 @media (max-width: 40rem) { .pick { padding: 1.125rem 1rem; } }
 
 /* 결과: 목록 탭 · 좁히기 */

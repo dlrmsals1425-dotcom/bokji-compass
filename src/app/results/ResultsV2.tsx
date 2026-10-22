@@ -6,6 +6,7 @@
 import { useEffect, useMemo, useState, type ReactNode } from "react";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
+import { readMarks, toggleMark, writeMarks, writePicks, type Marks } from "@/lib/client/sheetMarks";
 import { Icon } from "@/components/Icon";
 import styles from "./results.module.css";
 import { SupportTags } from "@/components/ProgramCard";
@@ -35,7 +36,6 @@ const FIRST = 10;
 const MORE = 20;
 /** QA 2차 M1: '신청할 때 확인'은 상위 20개를 먼저 */
 const OFFICE_TOP = 20;
-const SHEET_KEY = "bn.sheet.v1";
 /** '이것을 알려 주시면' 한 줄용 짧은 이름 (QA 5차 검증 N8) */
 const DIM_INFO: Partial<Record<DimId, string>> = {
   support: "기초생활수급·차상위 여부", basicPension: "기초연금 수급 여부", income: "가구 소득", disability: "장애 여부", care: "돌봄이 필요한지",
@@ -58,21 +58,11 @@ export function ResultsV2({ profile, mode, quick = false }: { profile: Profile; 
   const [autoLimit, setAutoLimit] = useState(FIRST);
   const [pilotSidos, setPilotSidos] = useState<string[] | null>(null);
   /** 준비물 한 장: 먼저 확인할 5가지에서 뺀 것·직접 담은 것 (사업 id만, 이 탭에만) */
-  const [marks, setMarksRaw] = useState<{ add: string[]; remove: string[] }>(() => {
-    if (typeof window === "undefined") return { add: [], remove: [] };
-    try {
-      const v = JSON.parse(window.sessionStorage.getItem(SHEET_KEY) ?? "null");
-      return v && Array.isArray(v.add) && Array.isArray(v.remove) ? v : { add: [], remove: [] };
-    } catch {
-      return { add: [], remove: [] };
-    }
-  });
-  const setMarks = (f: (m: { add: string[]; remove: string[] }) => { add: string[]; remove: string[] }) =>
+  const [marks, setMarksRaw] = useState<Marks>(() => readMarks());
+  const setMarks = (f: (m: Marks) => Marks) =>
     setMarksRaw((m) => {
       const v = f(m);
-      try {
-        window.sessionStorage.setItem(SHEET_KEY, JSON.stringify(v));
-      } catch {}
+      writeMarks(v);
       return v;
     });
   const [sheetOpen, setSheetOpen] = useState(false);
@@ -115,6 +105,10 @@ export function ResultsV2({ profile, mode, quick = false }: { profile: Profile; 
     return [...new Set(ids)].map((id) => itemById.get(id)).filter((x): x is V2Item => !!x);
   }, [picks, marks, itemById, pickIds]);
   const sheetIds = sheetItems.map((i) => i.s.program.id).join("|");
+  // 상세 화면에서도 담김 여부를 알도록 먼저 확인할 5가지를 이 탭에 적어 둔다 (사업 id만)
+  useEffect(() => {
+    if (pickIds) writePicks(pickIds.split("|"));
+  }, [pickIds]);
   const wantIds = sheetOpen ? [...new Set([...pickIds.split("|"), ...sheetIds.split("|")])].filter(Boolean).join("|") : pickIds;
   useEffect(() => {
     if (!wantIds) return;
@@ -150,10 +144,7 @@ export function ResultsV2({ profile, mode, quick = false }: { profile: Profile; 
   const sheetCtl: SheetCtl = {
     receive: (key) => markReceiving(key, true),
     has: (id) => sheetIds.split("|").includes(id),
-    toggle: (id, on) =>
-      setMarks((m) => (pickIds.split("|").includes(id)
-        ? { ...m, remove: on ? m.remove.filter((x) => x !== id) : [...m.remove, id] }
-        : { ...m, add: on ? [...m.add.filter((x) => x !== id), id] : m.add.filter((x) => x !== id) })),
+    toggle: (id, on) => setMarks((m) => toggleMark(m, id, on, pickIds.split("|"))),
   };
   const preset = presetById(example);
   const place = data.label.split(" ").pop();
@@ -710,6 +701,11 @@ function Pick({ item, i, detail, loading, sit, mode, inSheet, onSheet, onReceivi
         </div>
         <Link href={href} className={`btn btn-tonal btn-sm no-print ${styles.detailLink}`}>자세히 보기 <Icon name="chevronRight" size={16} /></Link>
       </div>
+      {/* (2026-10-23 외부 재점검) '빼기'·'이미 받고 있어요'를 접힌 '조건·신청 정보' 밖으로 — 펼치지 않아도 보이게 */}
+      <div className="pick-foot pick-actions no-print">
+        <SheetToggle on={inSheet} name={p.name} onChange={onSheet} />
+        {onReceiving && <ReceivingButton name={p.name} onClick={onReceiving} />}
+      </div>
       <details className={styles.cardDetails} data-testid="benefit-more">
         <summary>조건·신청 정보 <Icon name="chevronDown" size={16} /></summary>
         <div className={styles.detailBody}>
@@ -752,8 +748,6 @@ function Pick({ item, i, detail, loading, sit, mode, inSheet, onSheet, onReceivi
           </ul>
           <div className="pick-foot no-print">
             <Link href={`${href}#sec-apply`} className="btn btn-ghost btn-sm">신청 방법 보기</Link>
-            <SheetToggle on={inSheet} name={p.name} onChange={onSheet} />
-            {onReceiving && <ReceivingButton name={p.name} onClick={onReceiving} />}
           </div>
         </div>
       </details>
@@ -845,6 +839,12 @@ function V2Card({ item, more, sit, mode, sheet }: { item: V2Item; more: number; 
         </div>
         <Link href={`/p/${encodeURIComponent(p.id)}`} className={`btn btn-tonal btn-sm no-print ${styles.detailLink}`}>자세히 보기 <Icon name="chevronRight" size={16} /></Link>
       </div>
+      {sheet && (
+        <div className="pick-foot pick-actions no-print">
+          <SheetToggle on={sheet.has(p.id)} name={p.name} onChange={(on) => sheet.toggle(p.id, on)} />
+          {sheet.receive && <ReceivingButton name={p.name} onClick={() => sheet.receive!(item.s.group)} />}
+        </div>
+      )}
       <details className={styles.cardDetails} data-testid="benefit-more">
         <summary>조건·신청 정보 <Icon name="chevronDown" size={16} /></summary>
         <div className={styles.detailBody}>
@@ -859,10 +859,6 @@ function V2Card({ item, more, sit, mode, sheet }: { item: V2Item; more: number; 
             {!item.reviewed && <span title="원문에서 자동으로 정리한 조건이에요">자동 정리 조건</span>}
             {more > 0 && <span>다른 기관 같은 사업 {more}개</span>}
           </p>
-          <div className="pick-foot no-print">
-            {sheet && <SheetToggle on={sheet.has(p.id)} name={p.name} onChange={(on) => sheet.toggle(p.id, on)} />}
-            {sheet?.receive && <ReceivingButton name={p.name} onClick={() => sheet.receive!(item.s.group)} />}
-          </div>
         </div>
       </details>
     </article>

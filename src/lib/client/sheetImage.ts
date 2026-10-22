@@ -79,7 +79,7 @@ export async function renderSheetPng(pl: SheetPlace, meta: SheetMeta): Promise<B
     pl.programs.forEach((p, k) => {
       text(`${k + 1}. ${p.name}${p.staff.ref ? `  (${p.staff.ref})` : ""}`, 30, 700, C.ink, PAD + 8);
       if (p.staff.what) text(p.staff.what, 24, 500, C.ink2, PAD + 34);
-      if (p.staff.target) text(`대상(원문): ${p.staff.target}`, 24, 500, C.ink2, PAD + 34);
+      if (p.staff.target) text(`대상(원문) — ${p.staff.target}`, 24, 500, C.ink2, PAD + 34);
       if (p.staff.basis) text(p.staff.basis, 24, 500, C.ink2, PAD + 34);
       const sub = [SHEET_STATUS[p.bucket], ...p.also].filter(Boolean).join(" · ");
       if (sub) text(sub, 24, 500, C.muted, PAD + 34);

@@ -1,4 +1,5 @@
 import Link from "next/link";
+import type { ReactNode } from "react";
 import type { Program } from "@/lib/data/types";
 import type { Evaluation } from "@/lib/engine/types";
 import { reasonSentence } from "@/lib/client/howto";
@@ -13,6 +14,11 @@ export interface Variant {
 }
 
 const short = (s: string, n = 40) => (s.length > n ? s.slice(0, n - 1) + "…" : s);
+
+/** 보이는 칸 사이에 읽기용 쉼표 (화면에는 CSS 세로줄만) */
+function withSeparators(items: ReactNode[]): ReactNode[] {
+  return items.filter(Boolean).flatMap((el, i) => (i ? [<span key={`sep${i}`} className="sr-only">, </span>, el] : [el]));
+}
 
 /** 지원형태 라벨 (현금·현물·서비스·이용권 등, 최대 2개) */
 export function SupportTags({ p }: { p: Program }) {
@@ -45,7 +51,9 @@ export function ProgramCard({ p, ev, judge, variants }: { p: Program; ev?: Evalu
       {judge ? (
         // (QA 8차) 맞춤 결과·상세와 같은 판정 말 (받으실 수 있어요·신청할 때 확인·답하면 정해져요·맞지 않아요)
         <p className="why" data-testid="card-judge" data-bucket={judge.bucket}>
-          <span className={`v2-badge b-${judge.bucket}`}>{BUCKET_LABEL[judge.bucket]}</span> {judge.line}
+          <span className={`v2-badge b-${judge.bucket}`}>{BUCKET_LABEL[judge.bucket]}</span>
+          {/* 배지와 사유 사이 — 화면은 배지 모양으로 나뉘지만 읽기 프로그램·글자 추출에서는 붙어 읽혀서 (2026-10-23 외부 재점검) */}
+          <span className="sr-only">:</span> {judge.line}
         </p>
       ) : ev && (
         <p className="why">
@@ -53,14 +61,17 @@ export function ProgramCard({ p, ev, judge, variants }: { p: Program; ev?: Evalu
         </p>
       )}
       <p className="meta">
-        <span>{orgText(p)}</span>
-        {where && <span>{short(where)}</span>}
-        <span>{p.category}</span>
-        <ApplyBadge p={p} long />
-        {sector && <span>{sector}</span>}
-        {isManual(p) && <span title={MANUAL_TITLE} data-testid="manual-badge">수동 보강</span>}
-        {p.orgType === "edu_office" && <span>교육청</span>}
-        {p.deadline && <span>기간: {short(p.deadline)}</span>}
+        {/* 칸 사이 세로줄은 CSS로만 그려져 글자로는 붙어 읽힘 ('전국보건복지부 질병정책과신체건강') — 읽기용 쉼표를 둔다 (2026-10-23 외부 재점검) */}
+        {withSeparators([
+          <span key="org">{orgText(p)}</span>,
+          where && <span key="where">{short(where)}</span>,
+          <span key="cat">{p.category}</span>,
+          p.applyType && p.applyType !== "unknown" && p.applyType !== "self" && <ApplyBadge key="apply" p={p} long />,
+          sector && <span key="sector">{sector}</span>,
+          isManual(p) && <span key="manual" title={MANUAL_TITLE} data-testid="manual-badge">수동 보강</span>,
+          p.orgType === "edu_office" && <span key="edu">교육청</span>,
+          p.deadline && <span key="due">기간: {short(p.deadline)}</span>,
+        ])}
       </p>
       {variants && variants.length > 0 && (
         <details className="variants">
