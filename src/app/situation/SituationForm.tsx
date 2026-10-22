@@ -123,12 +123,13 @@ function UnderstoodLines({ ps, alt, onAlt, suffix }: { ps: ParsedSituation; alt:
           {suffix}
         </p>
       )}
+      {/* 가구 단추 글자는 누르면 바뀔 값 (지금 값은 앞의 굵은 글씨) — 2026-10-22 상태/동작 혼동 점검 */}
       {hh && (
         <p className="pf-l" data-testid="prefill-household">
           <strong>{a && alt ? a.label : hh}</strong>
           {a && (
-            <button type="button" className="btn btn-ghost btn-sm pf-alt" aria-pressed={alt} onClick={() => onAlt(!alt)} data-testid="prefill-hh-alt">
-              {alt ? `배우자 포함 ${a.mainSize}명` : a.button}
+            <button type="button" className="btn btn-ghost btn-sm pf-alt" onClick={() => onAlt(!alt)} data-testid="prefill-hh-alt">
+              {alt ? `배우자 포함 ${a.mainSize}명으로 되돌리기` : `${a.button}으로 바꾸기`}
             </button>
           )}
         </p>

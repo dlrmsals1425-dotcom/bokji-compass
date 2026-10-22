@@ -52,7 +52,7 @@ test("모션 감소·320px 큰 글자에서도 바로 시작 가능 @mobile", as
   await page.addInitScript(() => localStorage.setItem("bn.settings.v1", JSON.stringify({ large: true })));
   await page.goto("/");
   await expect(page.getByTestId("welfare-map")).toBeVisible();
-  await expect(page.getByTestId("large-text")).toHaveText("글자 보통");
+  await expect(page.getByTestId("large-text")).toHaveAttribute("aria-pressed", "true");
   expect(await page.evaluate(() => document.getAnimations().length)).toBe(0);
   expect(await page.evaluate(() => document.documentElement.scrollWidth)).toBeLessThanOrEqual(320);
   for (const id of ["start-guided", "start-talk"]) {
