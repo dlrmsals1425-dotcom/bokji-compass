@@ -37,3 +37,22 @@ test("결과: '받으실 수 있어요'는 진한 채움, 다른 단계와 바�
   await expect(page.getByTestId("sheet-explain")).toContainText("가져갈 서류");
   await expect(page.getByTestId("sheet-open")).toHaveText(/신청 서류 모음 보기/);
 });
+
+test("(2026-10-22 팀 피드백) 서류 모음: 담겨 있으면 '서류 모음에 있음 · 빼기', 빼면 '서류 모음에 담기' @mobile", async ({ page }) => {
+  await page.goto("/");
+  await page.getByText("가상 예시 보기", { exact: true }).click();
+  await page.getByTestId("preset-suwon-senior").click();
+  const first = page.getByTestId("pick").first();
+  await expect(first).toBeVisible({ timeout: 20_000 });
+  await first.getByTestId("benefit-more").locator(":scope > summary").click();
+  const state = first.getByTestId("sheet-state");
+  await expect(state).toHaveAttribute("data-on", "1");
+  await expect(state).toContainText("서류 모음에 있음");
+  await expect(first.getByTestId("sheet-toggle")).toHaveText("빼기");
+  await expect(first.getByTestId("sheet-toggle")).toHaveAccessibleName(/신청 서류 모음에서 빼기$/);
+  await first.getByTestId("sheet-toggle").click();
+  await expect(state).toHaveAttribute("data-on", "0");
+  await expect(state).not.toContainText("서류 모음에 있음");
+  await expect(first.getByTestId("sheet-toggle")).toHaveText(/서류 모음에 담기/);
+  await expect(page.getByTestId("sheet-explain")).toContainText("미리 담아 두었고");
+});
