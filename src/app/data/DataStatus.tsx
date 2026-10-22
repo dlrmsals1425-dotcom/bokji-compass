@@ -22,7 +22,7 @@ const SOURCE: Record<string, { name: string; org: string; how: string }> = {
   "bokjiro-local": { name: "복지로 지자체 복지서비스", org: "한국사회보장정보원", how: "공공데이터포털 OpenAPI · 목록 매일, 바뀐 상세만" },
   mohw: { name: "지방정부 서비스 메뉴판(통합돌봄)", org: "보건복지부", how: "누리집 게시 PDF · 바뀐 파일만 다시 받아 표 읽기" },
 };
-const STATUS: Record<string, string> = { ok: "정상", error: "오류", unavailable: "연결 안 됨", skipped: "건너뜀" };
+const STATUS: Record<string, string> = { ok: "정상", error: "오류", unavailable: "연결 안 됨", skipped: "건너뜀", held: "보류(호출 한도)" };
 const fmtDate = (iso: string) => new Date(iso).toLocaleString("ko-KR", { timeZone: "Asia/Seoul", dateStyle: "medium", timeStyle: "short" });
 const n = (x: number) => x.toLocaleString("ko-KR");
 
@@ -95,7 +95,7 @@ export function DataStatus({ siteGeneratedAt, sitePrograms }: { siteGeneratedAt:
                         {SOURCE[s.source]?.name ?? s.source}
                         <span className="small muted">{SOURCE[s.source]?.org} · {SOURCE[s.source]?.how}</span>
                       </th>
-                      <td className={s.status === "ok" ? "ds-ok" : "ds-bad"}>{STATUS[s.status] ?? s.status}{s.detail ? ` — ${s.detail}` : ""}</td>
+                      <td className={s.status === "ok" ? "ds-ok" : s.status === "held" ? undefined : "ds-bad"}>{STATUS[s.status] ?? s.status}{s.detail ? ` — ${s.detail}` : ""}</td>
                       <td className="num">{n(s.total)}</td>
                       <td className="num">{n(s.added)}</td>
                       <td className="num">{n(s.changed)}</td>
@@ -137,7 +137,8 @@ export function DataStatus({ siteGeneratedAt, sitePrograms }: { siteGeneratedAt:
         <ul className="body">
           <li><b>매일 자동 확인</b>: 사람이 손대지 않고 매일 원천을 다시 받아 어제와 비교해요.</li>
           <li><b>바뀐 것만 갱신</b>: 정부24는 전체를, 복지로는 목록을 다시 받아 내용이 바뀐 사업의 상세만, 메뉴판은 파일이 바뀐 것만 다시 받아요.</li>
-          <li><b>배포 전 점검</b>: 수집이 실패하거나 건수가 하루에 10% 넘게 줄면 경고를 내고 관리자에게 알림이 가요. 사이트에는 점검을 통과한 데이터만 반영해요.</li>
+          <li><b>배포 전 점검</b>: 수집이 실패하거나, 건수가 하루에 10% 넘게 줄거나, 30% 넘게 &lsquo;변경&rsquo;으로 잡히거나, 원천이 알려 준 건수와 받은 건수가 다르거나, 원천의 칸이 사라지면 경고를 내고 관리자에게 알림이 가요. 사이트에는 점검을 통과한 데이터만 반영해요.</li>
+          <li><b>같은 원문은 같은 결과</b>: 메뉴판은 바뀐 PDF만 다시 읽고, 나머지는 어제 결과를 그대로 써요. 복지로 상세는 새로 받기 전까지 어제 것을 지우지 않아요.</li>
           <li><b>기록 공개</b>: 날마다의 수집 결과가 공개 저장소에 커밋으로 남아요. <a href={COMMITS} target="_blank" rel="noopener noreferrer">수집 기록 보기</a></li>
         </ul>
         <p className="small muted">원천의 이용 조건: 정부24·복지로 API는 공공데이터포털 &lsquo;이용허락범위 제한 없음&rsquo;, 메뉴판은 보건복지부 누리집 공표 자료예요. <Link href="/about">출처·판정 기준</Link></p>

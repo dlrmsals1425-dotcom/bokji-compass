@@ -7,7 +7,7 @@ const report = {
   gate: { ok: false, warnings: ["bokjiro-local: 건수가 12% 줄었어요 (4,820 → 4,242)"] },
   sources: [
     { source: "gov24", status: "ok", total: 10972, previous: 10970, added: 3, removed: 1, changed: 7 },
-    { source: "bokjiro-central", status: "ok", total: 461, previous: 461, added: 0, removed: 0, changed: 2 },
+    { source: "bokjiro-central", status: "held", detail: "일일 호출 예산 소진 (central 95)", total: 461, previous: 461, added: 0, removed: 0, changed: 2 },
     { source: "bokjiro-local", status: "ok", total: 4242, previous: 4820, added: 0, removed: 578, changed: 0 },
     { source: "mohw", status: "error", detail: "실행 실패: ingest.ts", total: 230, previous: 230, added: 0, removed: 0, changed: 0 },
   ],
@@ -34,6 +34,8 @@ test("데이터 현황: 원천별 오늘 변경, 점검 경고, 최근 기록, �
   await expect(gov).toContainText("정부24 공공서비스(혜택)");
   await expect(gov).toContainText("10,972");
   await expect(page.getByTestId("ds-src-mohw")).toContainText("오류");
+  // 호출 한도로 못 받은 날은 '오류'가 아니라 '보류'
+  await expect(page.getByTestId("ds-src-bokjiro-central")).toContainText("보류(호출 한도)");
   await expect(page.getByTestId("ds-history")).toContainText("바뀐 사업 591건");
   await expect(page.getByTestId("ds-history")).toContainText("기준 기록");
   // 읽는 것은 공개 원천 기록 두 파일뿐

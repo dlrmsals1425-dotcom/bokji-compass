@@ -10,7 +10,7 @@ import { extractFromText } from "../rules/fromText";
  * 보건복지부 통합돌봄 '지방정부 서비스 메뉴판' (선행 대시보드 수집본 policies.csv, 12,526행, 원문 기준 2026-04 등).
  * 시도 표기는 display_sido(전남광주 통합) 기준. 시군구 칸이 시도명인 행(제주·세종)은 시도/단층 사업.
  */
-function parseCsv(text: string): Record<string, string>[] {
+export function parseCsv(text: string): Record<string, string>[] {
   const rows: string[][] = [];
   let row: string[] = [];
   let field = "";

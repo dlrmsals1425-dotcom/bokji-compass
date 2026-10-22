@@ -109,6 +109,13 @@ async function fetchAll(endpoint: Endpoint, key: string, refresh: boolean): Prom
     if (body.data.length === 0) break;
     page++;
   }
+  // 건수가 줄어 쪽수가 줄면 예전 마지막 쪽 파일이 남아 지난 행이 섞인다 → 이번에 안 받은 뒤쪽 파일은 지운다
+  if (refresh) {
+    for (const f of fs.readdirSync(dir)) {
+      const m = f.match(/^page-(\d+)\.json$/);
+      if (m && Number(m[1]) >= page) fs.rmSync(path.join(dir, f));
+    }
+  }
   return rows;
 }
 
@@ -147,6 +154,15 @@ export function readCachedStatus(): IngestStatus | null {
     return JSON.parse(fs.readFileSync(path.join(RAW, "_status.json"), "utf8"));
   } catch {
     return null;
+  }
+}
+
+/** 원천이 알려 준 전체 건수 (캐시 첫 쪽) */
+export function readTotalCount(endpoint: Endpoint): number | undefined {
+  try {
+    return Number(JSON.parse(fs.readFileSync(path.join(RAW, endpoint, "page-0001.json"), "utf8")).totalCount);
+  } catch {
+    return undefined;
   }
 }
 

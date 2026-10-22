@@ -1,1 +1,9 @@
+# 메뉴판 표 읽기 (parse_menus.py). 함께 설치되는 라이브러리까지 버전을 고정해 어디서 돌려도 같은 결과가 나오게 한다 (2026-10-22).
 pdfplumber==0.11.10
+pdfminer.six==20260107
+pypdfium2==5.14.0
+pillow==13.0.0
+charset-normalizer==3.5.2
+cryptography==50.0.2
+cffi==2.1.1
+pycparser==3.11
