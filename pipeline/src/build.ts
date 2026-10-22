@@ -10,6 +10,7 @@
  */
 import { OWNER_FIX, refineRule } from "../../src/lib/data/refine";
 import applyPlacesJson from "../curated/apply-places.json";
+import menuNationalJson from "../curated/menu-national.json";
 /** 수동 보강 신청처 (id → 창구·방법·문의·출처) */
 const APPLY_PLACES = new Map(applyPlacesJson.items.map((x: { id: string; place: string; applyMethod: string; contact: string; applyUrl?: string; source: string; override?: boolean }) => [x.id, x]));
 import fs from "node:fs";
@@ -17,6 +18,7 @@ import path from "node:path";
 import { RegionIndex, PILOT_SIDO } from "./normalize/regions";
 import { loadWelfare100 } from "./sources/welfare100";
 import { loadIcare } from "./sources/icare";
+import { applyMenuDecisions, type MenuDecisions } from "./menuNational";
 import { loadGov24 } from "./sources/gov24";
 import { loadManual } from "./sources/manual";
 import { applyBokjiroApi } from "./sources/bokjiroApi";
@@ -86,7 +88,9 @@ function main() {
     } catch { return "2026-10-01"; }
   })();
   log(`[icare] 메뉴판 출처: ${useMohw ? "보건복지부 원문 (pipeline/raw/mohw)" : "선행 대시보드 수집본 (ICDASH_DIR)"}`);
-  const icare = loadIcare(useMohw ? mohwCsv : path.join(ICDASH, "policies.csv"), icareFetched, regions, log);
+  // 메뉴판 '전국' 행: 소유자 검토표 결정(같은 사업으로 묶기 · 전국으로 올리기) 반영 (2026-10-22 P1-1)
+  const { records: icare, promoted } = applyMenuDecisions(loadIcare(useMohw ? mohwCsv : path.join(ICDASH, "policies.csv"), icareFetched, regions, log), menuNationalJson as MenuDecisions);
+  log(`[icare] 검토표 결정: 전국으로 올림 ${promoted.length}개 (${promoted.map((p) => p.name).join(", ")}) · 같은 사업으로 묶을 행 ${icare.filter((r) => r.menuTarget && !r.menuTarget.startsWith("icare:")).length}`);
   const g24list = readCached("serviceList");
   const gov24 = g24list.rows.length
     ? loadGov24(g24list.rows, readCached("supportConditions").rows, readCached("serviceDetail").rows,
@@ -408,6 +412,7 @@ function main() {
     `- 통합돌봄 D1 완전 중복 ${stats.d1Exact} · D2 실질 중복 ${stats.d2Substantive}`,
     `- 교차 원천 병합: ${stats.crossMerged.map((x) => `${x.pair} ${x.count}`).join(" / ") || "없음"} · 기관 수준이 달라 병합 차단 ${stats.blockedByLevel}`,
     `- 통합돌봄 '전국' 행 → 전국 사업의 지역 운영 정보로 흡수: ${stats.absorbedAsLocalOps}행 (운영 정보 ${localOpsCount}건)`,
+    `- 검토표 결정: 전국으로 올림 ${promoted.length}개 · 묶을 전국 사업이 이번 데이터에 없어 지역 사업으로 둔 행 ${stats.menuTargetMissing?.length ?? 0}${stats.menuTargetMissing?.length ? ` (${[...new Set(stats.menuTargetMissing.map((x) => x.split(" → ")[1]))].join(", ")})` : ""}`,
     `- 정부24·복지로 시군구 등록분: 전국 사업의 지역 집행분으로 흡수 ${stats.absorbedRegionalCopies ?? 0} · 지역 추가사업으로 별도 유지 ${stats.keptRegionalAddons ?? 0} (pipeline/out/regional-copies.csv)`,
     `- 최종 사업(중복 제거 후): **${uniquePrograms.length}** (시군구 배치 기준 ${programs.length})`,
     `- 기관 유형별: ${Object.entries(byOrg).map(([k, v]) => `${k} ${v}`).join(" / ")}`,

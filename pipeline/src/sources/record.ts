@@ -45,6 +45,8 @@ export interface SourceRecord {
   };
   /** 통합돌봄 원 type (전국/광역/지역특화/미분류) */
   icareType?: string;
+  /** 메뉴판 '전국' 행을 묶을 전국 사업 (원천:ID) — 소유자 검토표 결정 (menuNational.ts) */
+  menuTarget?: string;
   /** 노출 제외 사유 (읍면동 단독 사업, 개인 대상 아님 등) */
   excluded?: string;
   aliases?: string[];

@@ -189,7 +189,20 @@ def header_map(row):
                     break
         if hit is not None:
             m[field] = hit
+    # '사업명' 머리글이 번호 칸과 이름 칸 두 칸에 걸친 표(군산·세종·부안·무주): 바로 뒤 빈 머리글 칸을 이름 후보로
+    nm = m.get("name")
+    if nm is not None and nm + 1 < len(cells) and cells[nm + 1] == "" and nm + 1 not in m.values():
+        m["name_next"] = nm + 1
     return m
+
+
+def row_name(row, hmap):
+    """사업명: 이름 칸이 번호뿐이고 옆(빈 머리글) 칸에 글자가 있으면 그 칸"""
+    v = row[hmap["name"]] or ""
+    nxt = hmap.get("name_next")
+    if nxt is not None and re.fullmatch(r"\s*\d+\s*", v) and nospace(row[nxt]):
+        return row[nxt]
+    return v
 
 
 def norm_category(raw):
@@ -236,7 +249,8 @@ def stable_id(r, name, old_ids, old_by_name, used, stats):
 
 def sigungu_of(title, board_sido):
     t = SIDO_WORDS.sub("", title.strip())
-    m = re.match(r"([가-힣]+(?:시|군|구))(?:\s+([가-힣]+구))?\s", t)
+    # 이름 뒤에 띄어쓰기나 괄호 ('서해구(舊 서구) …' — 2026-07 인천 개편 이름)
+    m = re.match(r"([가-힣]+(?:시|군|구))(?:\s+([가-힣]+구))?[\s(]", t)
     if m and "통합돌봄" not in m.group(1):
         return m.group(1)
     return board_sido
@@ -291,7 +305,7 @@ def main():
                         if not hmap or len(row) <= max(hmap.values()):
                             stats["skipped_rows"] += 1
                             continue
-                        get = lambda f: row[hmap[f]] if f in hmap else ""
+                        get = lambda f: row_name(row, hmap) if f == "name" else (row[hmap[f]] if f in hmap else "")
                         if not nospace(get("name")):
                             # 앞 쪽에서 이어지는 줄 → 앞 행에 붙인다
                             if rows and rows[-1]["_post"] == post["listNo"]:

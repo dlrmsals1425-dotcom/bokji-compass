@@ -15,6 +15,8 @@ export interface DedupStats {
   d2Substantive: number;
   crossMerged: { pair: string; count: number }[];
   absorbedAsLocalOps: number;
+  /** 검토표에서 묶기로 정한 전국 사업이 이번 데이터에 없어 지역 사업으로 둔 메뉴판 행 */
+  menuTargetMissing?: string[];
   blockedByLevel: number;
   /** 정부24·복지로 시군구 등록분 중 전국 사업의 지역 집행분으로 흡수한 수 */
   absorbedRegionalCopies?: number;
@@ -198,66 +200,88 @@ export function mergeAcrossSources(records: SourceRecord[], stats: DedupStats, t
       m.set(code, list);
     }
   };
-  for (const pass of passes) for (const r of pass) {
-    // 통합돌봄 '전국' 행 → 같은 이름의 전국 사업에 지역 운영 정보로 흡수
-    // '미분류' 행도 이름이 전국 사업과 같고 지역 추가사업 표지가 없으면 같은 사업의 지역 운영분으로 본다 (예: 장애인활동지원)
-    if (r.source === "icare" && (r.icareType === "전국" || (r.icareType === "미분류" && !ADDON_NAME_RE.test(r.name)))) {
-      const nat = nationalByKey.get(r.key) ?? nationalByKey.get(mergeKey(r)) ?? nationalByKey.get(regionlessKey(r.name, tokensFor(r)));
-      if (nat && r.sigunguCodes?.length) {
-        if (r.icareType === "미분류") (stats.regionalCopySamples ??= []).push({ decision: "absorb", reason: "통합돌봄 미분류 행: 전국 사업과 이름 일치", sim: 0, nat: nat.name, local: r.name, region: r.regionLabel });
-        addOp(nat, r);
-        stats.absorbedAsLocalOps += 1 + (r.merged?.length ?? 0);
-        continue;
-      }
-    }
-    // 정부24·복지로의 시군구 등록분이 전국 사업의 지역 집행분이면(같은 이름 + 같은 근거 법령) 지역 운영 정보로 흡수
-    if ((r.source === "gov24" || r.source === "bokjiro") && r.scope === "sigungu" && level(r) === "R") {
-      const toks = tokensFor(r);
-      const nat = nationalByKey.get(r.key) ?? nationalByKey.get(regionlessKey(r.name, toks));
-      if (nat) {
-        const chk = regionalCopyCheck(nat, r, toks);
-        if (chk.reason !== "근거 법령 불일치" && chk.reason !== "이름 불일치") {
-          (stats.regionalCopySamples ??= []).push({ decision: chk.ok ? "absorb" : "keep", reason: chk.reason, sim: Math.round(chk.sim * 100) / 100, nat: nat.name, local: r.name, region: r.regionLabel });
-        }
-        if (chk.ok) {
+  // 전국 사업 원천:ID(병합된 원천 포함) → 대표 레코드 — 검토표 결정으로 묶을 때 쓴다 (전국 사업이 다 정해진 뒤 만든다)
+  const natBySource = new Map<string, SourceRecord>();
+  const indexNational = () => {
+    const add = (nat: SourceRecord, m: SourceRecord) => {
+      natBySource.set(`${m.source}:${m.sourceId}`, nat);
+      for (const x of m.merged ?? []) add(nat, x);
+    };
+    for (const r of result) if (r.scope === "national") add(r, r);
+  };
+  for (const [pi, pass] of passes.entries()) {
+    if (pi === 1) indexNational();
+    for (const r of pass) {
+      // 검토표에서 정한 전국 사업으로 묶기 (이름이 달라도)
+      if (r.source === "icare" && r.menuTarget) {
+        const nat = natBySource.get(r.menuTarget);
+        if (!nat) (stats.menuTargetMissing ??= []).push(`${r.name} → ${r.menuTarget}`);
+        else if (r.sigunguCodes?.length) {
           addOp(nat, r);
           stats.absorbedAsLocalOps += 1 + (r.merged?.length ?? 0);
-          stats.absorbedRegionalCopies = (stats.absorbedRegionalCopies ?? 0) + 1;
           continue;
         }
-        if (chk.reason !== "근거 법령 불일치" && chk.reason !== "이름 불일치") stats.keptRegionalAddons = (stats.keptRegionalAddons ?? 0) + 1;
       }
-    }
-    const regional = r.scope !== "national";
-    const mk = regional ? `R|${regionKey(r)}|${level(r)}|${regionlessKey(r.name, tokensFor(r))}` : mergeKey(r);
-    const candidates = byKey.get(mk) ?? [];
-    let merged = false;
-    for (const c of candidates) {
-      // 같은 원천끼리는: 지역 사업의 구(區)·표기 변형만 병합 (전국 사업은 D1·D2 에서 처리)
-      if (c.source === r.source && r.source !== "welfare100") {
-        if (!regional || c.name === r.name || r.source === "icare") continue;
+      // 통합돌봄 '전국' 행 → 같은 이름의 전국 사업에 지역 운영 정보로 흡수
+      // '미분류' 행도 이름이 전국 사업과 같고 지역 추가사업 표지가 없으면 같은 사업의 지역 운영분으로 본다 (예: 장애인활동지원)
+      if (r.source === "icare" && (r.icareType === "전국" || (r.icareType === "미분류" && !ADDON_NAME_RE.test(r.name)))) {
+        const nat = nationalByKey.get(r.key) ?? nationalByKey.get(mergeKey(r)) ?? nationalByKey.get(regionlessKey(r.name, tokensFor(r)));
+        if (nat && r.sigunguCodes?.length) {
+          if (r.icareType === "미분류") (stats.regionalCopySamples ??= []).push({ decision: "absorb", reason: "통합돌봄 미분류 행: 전국 사업과 이름 일치", sim: 0, nat: nat.name, local: r.name, region: r.regionLabel });
+          addOp(nat, r);
+          stats.absorbedAsLocalOps += 1 + (r.merged?.length ?? 0);
+          continue;
+        }
       }
-      if (level(c) !== level(r)) { stats.blockedByLevel++; continue; }
-      if (regionKey(c) !== regionKey(r)) continue;
-      if (level(c) === "N" && c.owner && r.owner && !ownersCompatible(c.owner, r.owner)) continue;
-      mergeInto(c, r);
-      const pair = `${c.source}+${r.source}`;
-      pairCount.set(pair, (pairCount.get(pair) ?? 0) + 1);
-      merged = true;
-      break;
-    }
-    if (merged) continue;
-    // 지역 키가 겹치지 않아도 기존 전체 키로 수준 차단 통계를 낸다
-    if (regional) {
-      const nat = nationalByKey.get(r.key);
-      if (nat && level(nat) !== level(r)) stats.blockedByLevel++;
-    }
-    candidates.push(r);
-    byKey.set(mk, candidates);
-    result.push(r);
-    if (r.scope === "national") {
-      if (!nationalByKey.has(r.key)) nationalByKey.set(r.key, r);
-      nationalByKey.set(mergeKey(r), r);
+      // 정부24·복지로의 시군구 등록분이 전국 사업의 지역 집행분이면(같은 이름 + 같은 근거 법령) 지역 운영 정보로 흡수
+      if ((r.source === "gov24" || r.source === "bokjiro") && r.scope === "sigungu" && level(r) === "R") {
+        const toks = tokensFor(r);
+        const nat = nationalByKey.get(r.key) ?? nationalByKey.get(regionlessKey(r.name, toks));
+        if (nat) {
+          const chk = regionalCopyCheck(nat, r, toks);
+          if (chk.reason !== "근거 법령 불일치" && chk.reason !== "이름 불일치") {
+            (stats.regionalCopySamples ??= []).push({ decision: chk.ok ? "absorb" : "keep", reason: chk.reason, sim: Math.round(chk.sim * 100) / 100, nat: nat.name, local: r.name, region: r.regionLabel });
+          }
+          if (chk.ok) {
+            addOp(nat, r);
+            stats.absorbedAsLocalOps += 1 + (r.merged?.length ?? 0);
+            stats.absorbedRegionalCopies = (stats.absorbedRegionalCopies ?? 0) + 1;
+            continue;
+          }
+          if (chk.reason !== "근거 법령 불일치" && chk.reason !== "이름 불일치") stats.keptRegionalAddons = (stats.keptRegionalAddons ?? 0) + 1;
+        }
+      }
+      const regional = r.scope !== "national";
+      const mk = regional ? `R|${regionKey(r)}|${level(r)}|${regionlessKey(r.name, tokensFor(r))}` : mergeKey(r);
+      const candidates = byKey.get(mk) ?? [];
+      let merged = false;
+      for (const c of candidates) {
+        // 같은 원천끼리는: 지역 사업의 구(區)·표기 변형만 병합 (전국 사업은 D1·D2 에서 처리)
+        if (c.source === r.source && r.source !== "welfare100") {
+          if (!regional || c.name === r.name || r.source === "icare") continue;
+        }
+        if (level(c) !== level(r)) { stats.blockedByLevel++; continue; }
+        if (regionKey(c) !== regionKey(r)) continue;
+        if (level(c) === "N" && c.owner && r.owner && !ownersCompatible(c.owner, r.owner)) continue;
+        mergeInto(c, r);
+        const pair = `${c.source}+${r.source}`;
+        pairCount.set(pair, (pairCount.get(pair) ?? 0) + 1);
+        merged = true;
+        break;
+      }
+      if (merged) continue;
+      // 지역 키가 겹치지 않아도 기존 전체 키로 수준 차단 통계를 낸다
+      if (regional) {
+        const nat = nationalByKey.get(r.key);
+        if (nat && level(nat) !== level(r)) stats.blockedByLevel++;
+      }
+      candidates.push(r);
+      byKey.set(mk, candidates);
+      result.push(r);
+      if (r.scope === "national") {
+        if (!nationalByKey.has(r.key)) nationalByKey.set(r.key, r);
+        nationalByKey.set(mergeKey(r), r);
+      }
     }
   }
   stats.crossMerged = [...pairCount.entries()].map(([pair, count]) => ({ pair, count }));

@@ -40,7 +40,8 @@ describe("이미 받는다고 답한 급여", () => {
     const sit = parent({ livelihood: true, medical: true, housing: true, near_poverty: false, basic_pension: false });
     const view = buildView(scoreV2(progs, sit), sit, 12);
     const got = names(view, autoReceivingKeys(view, sit));
-    expect(got.some((n) => n.startsWith("생계급여"))).toBe(true);
+    // 묶음 대표 이름은 데이터 순서에 따라 '생계급여(맞춤형 급여)'·'국민기초생활보장 생계급여' 등 (2026-10-22 재생성)
+    expect(got.some((n) => n.includes("생계급여"))).toBe(true);
     expect(got).not.toContain("차상위계층 확인");
   });
 });
