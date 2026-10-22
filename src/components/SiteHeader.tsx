@@ -2,6 +2,7 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { setSettings, useSettings } from "@/lib/client/storage";
+import { Icon } from "./Icon";
 import styles from "./SiteChrome.module.css";
 
 const NAV = [
@@ -38,8 +39,9 @@ export function SiteHeader() {
           </Link>
           {!finding && !landing && nav("header-nav")}
           <div className="header-actions">
+            {/* 켜고 끄는 단추: 이름은 늘 '글자 크게', 켜져 있으면 진한 바탕과 ✓ (2026-10-22: 켜진 채 '글자 보통'이 보여 반대로 읽힘) */}
             <button type="button" className="btn btn-sm toggle" aria-pressed={large} onClick={() => setSettings({ large: !large })} data-testid="large-text">
-              {large ? "글자 보통" : "글자 크게"}
+              {large && <Icon name="check" size={14} />} 글자 크게
             </button>
           </div>
         </div>

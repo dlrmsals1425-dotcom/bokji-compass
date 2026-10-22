@@ -63,7 +63,8 @@ test.describe("QA 5차", () => {
     await expect(header).toContainText("복지나침반");
     const h0 = (await header.boundingBox())!.height;
     await page.getByTestId("large-text").click();
-    await expect(page.getByTestId("large-text")).toHaveText("글자 보통");
+    await expect(page.getByTestId("large-text")).toHaveAttribute("aria-pressed", "true");
+    await expect(page.getByTestId("large-text")).toHaveText(/글자 크게/);
     await expect.poll(async () => (await header.boundingBox())!.height).toBeLessThan(h0 * 1.3);
     expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
   });

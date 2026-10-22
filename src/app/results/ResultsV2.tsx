@@ -655,7 +655,7 @@ type SheetCtl = { has: (id: string) => boolean; toggle: (id: string, on: boolean
 function ReceivingButton({ name, onClick }: { name: string; onClick: () => void }) {
   return (
     <button type="button" className="link-btn sheet-toggle no-print" aria-label={`${name} — 이미 받고 있어요 (목록과 신청 서류 모음에서 빼기)`} onClick={onClick} data-testid="receiving-toggle">
-      <Icon name="check" size={16} /> 이미 받고 있어요
+      이미 받고 있어요
     </button>
   );
 }
@@ -672,7 +672,7 @@ function SheetToggle({ on, name, onChange }: { on: boolean; name: string; onChan
           <Icon name="check" size={16} /> 서류 모음에 있음 ·
         </span>
       )}
-      <button type="button" className="link-btn sheet-toggle" aria-pressed={on} aria-label={`${name} — ${on ? "신청 서류 모음에서 빼기" : "신청 서류 모음에 담기"}`} onClick={() => onChange(!on)} data-testid="sheet-toggle">
+      <button type="button" className="link-btn sheet-toggle" aria-label={`${name} — ${on ? "신청 서류 모음에서 빼기" : "신청 서류 모음에 담기"}`} onClick={() => onChange(!on)} data-testid="sheet-toggle">
         {on ? "빼기" : <><Icon name="listChecks" size={16} /> 서류 모음에 담기</>}
       </button>
     </span>
