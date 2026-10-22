@@ -7,13 +7,20 @@
 import { useEffect, useState } from "react";
 import Link from "next/link";
 import { Icon } from "@/components/Icon";
+import { STALE_HOURS, staleHours } from "@/lib/data/freshness";
+import type { Money } from "@/lib/data/types";
 
 const REPO = "yonghwan86/bokji-compass";
 export const DATA_RAW = `https://raw.githubusercontent.com/${REPO}/data`;
 const COMMITS = `https://github.com/${REPO}/commits/data`;
 
 type Src = { source: string; status: string; detail?: string; total: number; previous: number; added: number; removed: number; changed: number };
-type Report = { checkedAt: string; date: string; mode?: "daily" | "baseline"; gate: { ok: boolean; warnings: string[] }; sources: Src[]; bokjiroDetail?: Record<string, { fetched: number; cached: number; remaining: number } | null> };
+type MoneyChange = { source: string; id: string; name: string; before?: Money; after?: Money };
+type Report = {
+  checkedAt: string; date: string; mode?: "daily" | "baseline"; gate: { ok: boolean; warnings: string[] }; sources: Src[];
+  bokjiroDetail?: Record<string, { fetched: number; cached: number; remaining: number } | null>;
+  moneyChanged?: { count: number; items: MoneyChange[] };
+};
 type HistoryLine = { date: string; mode?: string; gateOk: boolean; sources: Omit<Src, "previous" | "detail">[] };
 
 const SOURCE: Record<string, { name: string; org: string; how: string }> = {
@@ -25,6 +32,8 @@ const SOURCE: Record<string, { name: string; org: string; how: string }> = {
 const STATUS: Record<string, string> = { ok: "정상", error: "오류", unavailable: "연결 안 됨", skipped: "건너뜀", held: "보류(호출 한도)" };
 const fmtDate = (iso: string) => new Date(iso).toLocaleString("ko-KR", { timeZone: "Asia/Seoul", dateStyle: "medium", timeStyle: "short" });
 const n = (x: number) => x.toLocaleString("ko-KR");
+const PER: Record<Money["per"], string> = { month: "월", year: "연", once: "1회", max: "최대" };
+const won = (m?: Money) => (m ? `${PER[m.per]} ${n(m.won)}원` : "금액 없음");
 
 export function DataStatus({ siteGeneratedAt, sitePrograms }: { siteGeneratedAt: string; sitePrograms: number }) {
   const [report, setReport] = useState<Report | null>(null);
@@ -78,6 +87,11 @@ export function DataStatus({ siteGeneratedAt, sitePrograms }: { siteGeneratedAt:
                 {report.mode === "baseline" && " (첫 기준 기록 — 매일 비교는 다음 실행부터)"}
               </span>
             </p>
+            {staleHours(report.checkedAt) !== null && (
+              <p className="notice" role="alert" data-testid="ds-stale">
+                확인이 늦어지고 있어요 — 마지막 확인이 {n(staleHours(report.checkedAt)!)}시간 전이에요 ({STALE_HOURS}시간 넘게 새 확인 없음). 매일 확인이 멈췄을 수 있어 관리자가 살펴보고 있어요.
+              </p>
+            )}
             {!report.gate.ok && (
               <ul className="ds-warn">
                 {report.gate.warnings.map((w) => <li key={w}>{w}</li>)}
@@ -114,6 +128,23 @@ export function DataStatus({ siteGeneratedAt, sitePrograms }: { siteGeneratedAt:
         )}
       </section>
 
+      {report?.moneyChanged && report.moneyChanged.count > 0 && (
+        <section aria-labelledby="ds-money-h">
+          <h2 className="h3" id="ds-money-h">금액이 바뀐 사업 {n(report.moneyChanged.count)}건</h2>
+          <p className="small muted">원문 지원내용에서 읽은 금액이 어제와 달라진 사업이에요. 관리자가 원문과 맞춰 본 뒤 사이트에 반영해요.</p>
+          <ul className="ds-money" data-testid="ds-money">
+            {report.moneyChanged.items.map((c) => (
+              <li key={`${c.source}:${c.id}`}>
+                <b>{c.name}</b> <span className="small muted">{SOURCE[c.source]?.name ?? c.source}</span>
+                <span className="num">{won(c.before)} → {won(c.after)}</span>
+                {c.after?.quote && <span className="small muted">원문: &ldquo;{c.after.quote}&rdquo;</span>}
+              </li>
+            ))}
+          </ul>
+          {report.moneyChanged.count > report.moneyChanged.items.length && <p className="small muted">외 {n(report.moneyChanged.count - report.moneyChanged.items.length)}건은 수집 기록에서 볼 수 있어요.</p>}
+        </section>
+      )}
+
       {recent.length > 0 && (
         <section aria-labelledby="ds-hist-h">
           <h2 className="h3" id="ds-hist-h">최근 확인 기록</h2>
@@ -139,6 +170,8 @@ export function DataStatus({ siteGeneratedAt, sitePrograms }: { siteGeneratedAt:
           <li><b>바뀐 것만 갱신</b>: 정부24는 전체를, 복지로는 목록을 다시 받아 내용이 바뀐 사업의 상세만, 메뉴판은 파일이 바뀐 것만 다시 받아요.</li>
           <li><b>배포 전 점검</b>: 수집이 실패하거나, 건수가 하루에 10% 넘게 줄거나, 30% 넘게 &lsquo;변경&rsquo;으로 잡히거나, 원천이 알려 준 건수와 받은 건수가 다르거나, 원천의 칸이 사라지면 경고를 내고 관리자에게 알림이 가요. 사이트에는 점검을 통과한 데이터만 반영해요.</li>
           <li><b>같은 원문은 같은 결과</b>: 메뉴판은 바뀐 PDF만 다시 읽고, 나머지는 어제 결과를 그대로 써요. 복지로 상세는 새로 받기 전까지 어제 것을 지우지 않아요.</li>
+          <li><b>금액 변경 확인</b>: 원문의 지원 금액이 바뀐 사업은 따로 모아 관리자가 원문과 맞춰 본 뒤 반영해요.</li>
+          <li><b>멈춤 감지</b>: {STALE_HOURS}시간 넘게 새 확인이 없으면 이 화면에 &lsquo;확인 지연&rsquo;을 띄우고, 점검 경고는 관리자에게 바로 알려요.</li>
           <li><b>기록 공개</b>: 날마다의 수집 결과가 공개 저장소에 커밋으로 남아요. <a href={COMMITS} target="_blank" rel="noopener noreferrer">수집 기록 보기</a></li>
         </ul>
         <p className="small muted">원천의 이용 조건: 정부24·복지로 API는 공공데이터포털 &lsquo;이용허락범위 제한 없음&rsquo;, 메뉴판은 보건복지부 누리집 공표 자료예요. <Link href="/about">출처·판정 기준</Link></p>

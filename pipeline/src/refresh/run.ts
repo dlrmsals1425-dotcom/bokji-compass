@@ -5,6 +5,7 @@
  *  3. 오늘 지문과 비교 → 추가·변경·삭제, 배포 전 점검(수집 실패·건수 10% 넘게 감소·하루 30% 넘게 변경·원천 건수 불일치·
  *     칸 사라짐·바뀌지 않은 메뉴판 PDF의 결과 흔들림·호출 한도로 이틀 연속 보류)
  *     메뉴판은 바뀐 PDF만 다시 읽고 나머지 글은 어제 표를 그대로 쓴다 (parse_menus.py --changed=…)
+ *     금액이 바뀐 사업(원문 지원내용에서 뽑은 금액이 어제와 다름)은 따로 모아 사람이 원문과 맞춰 보게 한다 (점검 경고는 아님)
  *  4. pipeline/raw/_report.json(오늘) · _history.json(날짜별 한 줄, 최근 400일) — 사이트 '데이터 현황'(/data)이 읽는다
  * 점검에 걸리면 종료 코드 1 → Actions가 실패로 표시하고 저장소 주인에게 알림 메일.
  * 키(DATA_GO_KR_SERVICE_KEY)는 환경변수로만 쓰고 출력하지 않는다.
@@ -15,9 +16,9 @@ import fs from "node:fs";
 import path from "node:path";
 import { execFileSync } from "node:child_process";
 import { GOV24_NOISE, readCached, readTotalCount } from "../gov24/ingest";
-import { listFingerprints, listTotalCount, readList, type Kind } from "../bokjiro/ingest";
+import { listFingerprints, listTotalCount, readDetail, readList, type Kind } from "../bokjiro/ingest";
 import { parseCsv } from "../sources/icare";
-import { compareSnapshots, fieldCounts, fingerprint, gateCheck, menuDrift, missingFields, summarize, type SourceReport } from "./diff";
+import { compareSnapshots, fieldCounts, fingerprint, gateCheck, menuDrift, missingFields, moneyChanges, summarize, type SourceReport } from "./diff";
 
 const ROOT = path.resolve(__dirname, "../../..");
 const RAW = path.join(ROOT, "pipeline/raw");
@@ -42,6 +43,22 @@ function mohwFingerprints(): Map<string, string> {
   const posts = JSON.parse(fs.readFileSync(f, "utf8")).posts as { bid: string; listNo: string; seq: string; sha256?: string; sizeLabel: string; title: string }[];
   return new Map(posts.map((p) => [`${p.bid}:${p.listNo}:${p.seq}`, p.sha256 ?? `${p.sizeLabel}|${p.title}`]));
 }
+
+/** 원문 지원내용 (금액 비교용): 정부24 상세 '지원내용', 복지로 상세 alwServCn */
+type Texts = Map<string, { name: string; text: string }>;
+function gov24Texts(): Texts {
+  return new Map(readCached("serviceDetail").rows.map((r) => [String(r["서비스ID"]), { name: String(r["서비스명"] ?? ""), text: String(r["지원내용"] ?? "") }]));
+}
+function bokjiroTexts(kind: Kind): Texts {
+  const out: Texts = new Map();
+  for (const r of readList(kind)) {
+    const text = readDetail(kind, r.servId)?.alwServCn;
+    if (text) out.set(r.servId, { name: r.servNm ?? "", text: String(text) });
+  }
+  return out;
+}
+/** 한 번에 보여 줄 금액 변경 수 (넘으면 개수만) */
+const MONEY_SAMPLE = 100;
 
 const readMenu = (): Record<string, string>[] => {
   const f = path.join(RAW, "mohw/policies.csv");
@@ -86,6 +103,7 @@ function main() {
   const prevReport = readJson("_report.json");
   const prevSchema: Record<string, Record<string, number>> = prevReport?.schema ?? {};
   const menuBefore = readMenu();
+  const textsBefore = { gov24: gov24Texts(), central: bokjiroTexts("central"), local: bokjiroTexts("local") };
 
   const errors: Record<string, string | null> = {};
   if (!skip) {
@@ -142,15 +160,23 @@ function main() {
   const date = today;
   const detailProgress = Object.fromEntries(kinds.map((k) => [k, bokjiroStatus[k]?.detail ?? null]));
   // mode: daily = 오늘 원천을 실제로 다시 받음 / baseline = 수집 없이 지금 캐시로 만든 기준 보고서
-  const report = { checkedAt, date, mode: skip ? "baseline" : "daily", gate, sources: reports.map(summarize), bokjiroDetail: detailProgress, schema };
+  const money = [
+    ...moneyChanges("gov24", textsBefore.gov24, gov24Texts()),
+    ...kinds.flatMap((k) => moneyChanges(`bokjiro-${k}`, textsBefore[k], bokjiroTexts(k))),
+  ];
+  const report = {
+    checkedAt, date, mode: skip ? "baseline" : "daily", gate, sources: reports.map(summarize), bokjiroDetail: detailProgress,
+    moneyChanged: { count: money.length, items: money.slice(0, MONEY_SAMPLE) }, schema,
+  };
   fs.writeFileSync(path.join(RAW, "_report.json"), JSON.stringify(report, null, 1));
 
   const history = (readJson("_history.json") as unknown[] | null) ?? [];
-  const line = { date, checkedAt, mode: skip ? "baseline" : "daily", gateOk: gate.ok, sources: reports.map((r) => ({ source: r.source, status: r.status, total: r.total, added: r.added.length, removed: r.removed.length, changed: r.changed.length })) };
+  const line = { date, checkedAt, mode: skip ? "baseline" : "daily", gateOk: gate.ok, moneyChanged: money.length, sources: reports.map((r) => ({ source: r.source, status: r.status, total: r.total, added: r.added.length, removed: r.removed.length, changed: r.changed.length })) };
   const kept = (history as { date: string }[]).filter((h) => h.date !== date);
   fs.writeFileSync(path.join(RAW, "_history.json"), JSON.stringify([...kept, line].slice(-400), null, 1));
 
   for (const r of reports) console.log(`[refresh] ${r.source}: ${r.status} · ${r.total}건 (추가 ${r.added.length} · 변경 ${r.changed.length} · 삭제 ${r.removed.length})`);
+  console.log(`[refresh] 금액이 바뀐 사업 ${money.length}건`);
   if (!gate.ok) {
     for (const w of gate.warnings) console.error(`[refresh] 경고: ${w}`);
     process.exitCode = 1;
