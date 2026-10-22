@@ -22,6 +22,11 @@ type Endpoint = "serviceList" | "supportConditions" | "serviceDetail";
 /** 매일 변경 감지에서 뺄 잡음: 조회수는 매일 바뀌어 거의 모든 사업이 '변경'으로 잡힘 (2026-10-22 첫 실행) */
 export const GOV24_NOISE = ["조회수"] as const;
 
+/** 저장 전에 잡음 칸을 뺀다 — 조회수는 사이트에 쓰지 않고, 매일 모든 행이 바뀌어 data 브랜치가 하루 약 5MB씩 커졌다 */
+export function stripNoise(rows: Record<string, unknown>[]): Record<string, unknown>[] {
+  return rows.map((r) => Object.fromEntries(Object.entries(r).filter(([k]) => !(GOV24_NOISE as readonly string[]).includes(k))));
+}
+
 export interface IngestStatus {
   status: "ok" | "unavailable" | "error";
   detail: string;
@@ -101,7 +106,7 @@ async function fetchAll(endpoint: Endpoint, key: string, refresh: boolean): Prom
       body = JSON.parse(fs.readFileSync(file, "utf8"));
     } else {
       body = await call(endpoint, page, key);
-      fs.writeFileSync(file, JSON.stringify({ ...body, fetchedAt: new Date().toISOString() }));
+      fs.writeFileSync(file, JSON.stringify({ ...body, data: stripNoise(body.data), fetchedAt: new Date().toISOString() }));
       await sleep(DELAY_MS);
     }
     total = body.totalCount;
