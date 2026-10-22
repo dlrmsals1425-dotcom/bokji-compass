@@ -317,4 +317,5 @@ v2.ts 1,600 · parse.ts 1,005 · ResultsV2.tsx 783 · visit.ts 502 · VisitSheet
   - 결과: data 브랜치 `_report.json`(오늘)·`_history.json`(날짜별, 최근 400일). `mode: baseline`은 수집 없이 만든 첫 기준 기록
   - 필요: 저장소 Secrets `DATA_GO_KR_SERVICE_KEY`. 이 Actions가 돌기 시작하면 맥의 예약 작업(bokjiro-daily-ingest)은 끈다(같은 키로 하루 한도를 나눠 쓰므로)
 - **데이터 현황 `/data`**: data 브랜치의 두 파일만 raw.githubusercontent.com에서 읽어 원천별 상태·건수·오늘 변경, 점검 결과, 최근 기록, 사이트 데이터 기준일을 보여 줌(이용자 입력은 보내지 않음). 결과 화면 아래 '데이터 기준 … · 데이터 현황', 바닥글 '데이터 현황'
-- 아직: 바뀐 데이터로 사이트 데이터 파일 재생성 → 테스트 → PR 자동화는 복지로 전체 수집(10-24) 뒤 붙인다
+- (보완 #51) 메뉴판은 바뀐 PDF만 다시 읽음, 복지로 바뀐 상세는 지우지 않고 다시 받을 것으로 표시, 점검 보강(30% 변경·건수 불일치·칸 사라짐·메뉴판 흔들림·이틀 연속 보류). 맥 예약 작업은 끔
+- (보완 7~10) **사이트 데이터 다시 만들기 `.github/workflows/data-rebuild.yml`**: 매일 확인이 통과하면 번들 재생성 → 페르소나 상위 5개 전후(`scripts/persona-top5.ts`) · 단위 테스트 → `auto/data-rebuild` PR(`scripts/data-rebuild-summary.ts`가 본문, 테스트 실패·복지로 상세 남음이면 초안). 머지는 사람. 금액이 바뀐 사업은 `/data`에 목록, 36시간 넘게 확인 없으면 '확인 지연', 점검 경고는 '데이터 매일 확인 경고' 이슈. 대응·되돌리기는 `docs/DATA_OPERATIONS.md`

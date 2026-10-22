@@ -3,6 +3,8 @@
  * 수집은 GitHub Actions(.github/workflows/data-refresh.yml)가 매일 자동으로, 결과는 data 브랜치의 _report.json·_history.json.
  */
 import crypto from "node:crypto";
+import { extractMoney } from "../normalize/money";
+import type { Money } from "../../../src/lib/data/types";
 
 export type SourceId = "gov24" | "bokjiro-central" | "bokjiro-local" | "mohw";
 
@@ -130,4 +132,19 @@ export function menuDrift(before: readonly Record<string, string>[], after: read
   const a = byPost(before);
   const b = byPost(after);
   return [...a].filter(([k, rows]) => !reparsed.has(k) && b.has(k) && b.get(k)!.join("\n") !== rows.join("\n")).length;
+}
+
+/** 금액이 바뀐 사업 (보완대책 8) — 원문 지원내용에서 뽑은 금액(주기·원)이 어제와 다르면. 사람이 원문과 맞춰 본다 */
+export interface MoneyChange { source: string; id: string; name: string; before?: Money; after?: Money }
+export function moneyChanges(source: string, before: Map<string, { name: string; text: string }>, after: Map<string, { name: string; text: string }>): MoneyChange[] {
+  const out: MoneyChange[] = [];
+  for (const [id, a] of after) {
+    const b = before.get(id);
+    if (!b || b.text === a.text) continue;
+    const mb = extractMoney({ name: b.name, benefit: b.text });
+    const ma = extractMoney({ name: a.name, benefit: a.text });
+    if (mb?.won === ma?.won && mb?.per === ma?.per) continue;
+    out.push({ source, id, name: a.name, ...(mb ? { before: mb } : {}), ...(ma ? { after: ma } : {}) });
+  }
+  return out;
 }

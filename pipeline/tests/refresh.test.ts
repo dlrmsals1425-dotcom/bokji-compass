@@ -1,6 +1,6 @@
 /** (2026-10-22) 매일 변경 감지: 어제·오늘 원천을 비교해 추가·변경·삭제를 세고, 이상하면 경고 (배포 전 점검) */
 import { describe, expect, it } from "vitest";
-import { compareSnapshots, fieldCounts, fingerprint, gateCheck, menuDrift, missingFields, summarize, type SourceReport } from "../src/refresh/diff";
+import { compareSnapshots, fieldCounts, fingerprint, gateCheck, menuDrift, missingFields, moneyChanges, summarize, type SourceReport } from "../src/refresh/diff";
 import { GOV24_NOISE } from "../src/gov24/ingest";
 
 describe("fingerprint: 같은 내용이면 같은 지문, 조회수 같은 잡음은 무시", () => {
@@ -132,5 +132,23 @@ describe("summarize: 하루 기록 한 줄 (목록은 앞 50개만)", () => {
     const s = summarize(r);
     expect(s).toMatchObject({ source: "bokjiro", total: 5, added: 60, removed: 0, changed: 1 });
     expect(s.sample.added).toHaveLength(50);
+  });
+});
+
+describe("금액이 바뀐 사업 (보완대책 8): 원문 지원내용에서 뽑은 금액이 어제와 다르면", () => {
+  const t = (name: string, text: string) => ({ name, text });
+  it("금액·주기가 바뀐 사업만, 원문 구절과 함께", () => {
+    const before = new Map([["A", t("기초연금", "월 최대 342,510원 지급")], ["B", t("아동수당", "월 10만원")], ["C", t("교복", "1인당 30만원 지원")]]);
+    const after = new Map([["A", t("기초연금", "월 최대 349,700원 지급")], ["B", t("아동수당", "월 10만원을 지급합니다")], ["C", t("교복", "1인당 30만원 지원")]]);
+    const got = moneyChanges("gov24", before, after);
+    expect(got).toHaveLength(1);
+    expect(got[0]).toMatchObject({ source: "gov24", id: "A", name: "기초연금", before: { per: "month", won: 342510 }, after: { per: "month", won: 349700 } });
+    expect(got[0].after?.quote).toContain("349,700원");
+  });
+  it("금액이 새로 생기거나 사라져도 알림, 새로 생긴·없어진 사업은 '변경'이 아님", () => {
+    const before = new Map([["A", t("바우처", "서비스 제공")], ["B", t("수당", "월 20만원")], ["X", t("없어진 사업", "월 5만원")]]);
+    const after = new Map([["A", t("바우처", "연 50만원 바우처")], ["B", t("수당", "서비스 연계")], ["Y", t("새 사업", "월 7만원")]]);
+    const got = moneyChanges("bokjiro-local", before, after);
+    expect(got.map((c) => [c.id, !!c.before, !!c.after])).toEqual([["A", false, true], ["B", true, false]]);
   });
 });

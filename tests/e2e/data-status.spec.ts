@@ -12,6 +12,7 @@ const report = {
     { source: "mohw", status: "error", detail: "실행 실패: ingest.ts", total: 230, previous: 230, added: 0, removed: 0, changed: 0 },
   ],
   bokjiroDetail: { central: { fetched: 2, cached: 459, remaining: 0 }, local: { fetched: 0, cached: 4242, remaining: 0 } },
+  moneyChanged: { count: 1, items: [{ source: "gov24", id: "X1", name: "가상 수당", before: { per: "month", won: 100000, quote: "월 10만원" }, after: { per: "month", won: 120000, quote: "월 12만원 지급" } }] },
 };
 const history = [
   { date: "2026-10-22", mode: "baseline", gateOk: true, sources: [] },
@@ -41,6 +42,27 @@ test("데이터 현황: 원천별 오늘 변경, 점검 경고, 최근 기록, �
   // 읽는 것은 공개 원천 기록 두 파일뿐
   expect(asked.every((u) => /\/_(report|history)\.json$/.test(u))).toBe(true);
   expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
+});
+
+test("데이터 현황: 금액이 바뀐 사업은 전후 금액과 원문 구절, 확인이 36시간 넘게 없으면 '확인 지연' @mobile", async ({ page }) => {
+  const old = { ...report, checkedAt: "2020-01-01T00:00:00Z" };
+  await page.route(`${RAW}/**`, (route) => route.fulfill({ json: route.request().url().endsWith("_report.json") ? old : history }));
+  await page.goto("/data");
+  const money = page.getByTestId("ds-money");
+  await expect(money).toContainText("가상 수당");
+  await expect(money).toContainText("월 100,000원");
+  await expect(money).toContainText("월 120,000원");
+  await expect(money).toContainText("월 12만원 지급");
+  await expect(page.getByTestId("ds-stale")).toContainText("확인이 늦어지고 있어요");
+});
+
+test("데이터 현황: 최근에 확인했으면 '확인 지연' 없음", async ({ page }) => {
+  const fresh = { ...report, checkedAt: new Date().toISOString(), moneyChanged: { count: 0, items: [] } };
+  await page.route(`${RAW}/**`, (route) => route.fulfill({ json: route.request().url().endsWith("_report.json") ? fresh : history }));
+  await page.goto("/data");
+  await expect(page.getByTestId("ds-gate")).toBeVisible();
+  await expect(page.getByTestId("ds-stale")).toHaveCount(0);
+  await expect(page.getByTestId("ds-money")).toHaveCount(0);
 });
 
 test("데이터 현황: 기록을 못 불러오면 안내와 수집 기록 링크", async ({ page }) => {

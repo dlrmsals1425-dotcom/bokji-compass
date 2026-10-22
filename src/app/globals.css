@@ -801,3 +801,5 @@ html[data-kiosk="1"] .crumbs { display: none; }
 .ds-hist { list-style: none; padding: 0; margin: 0; display: grid; gap: 0.25rem; }
 .ds-hist li { display: grid; grid-template-columns: 7rem 1fr auto; gap: 0.75rem; padding: 0.35rem 0; border-bottom: 1px solid var(--line-2); }
 .ds-hist li .num { text-align: left; }
+.ds-money { list-style: none; margin: 0; padding: 0; display: grid; gap: 0.5rem; }
+.ds-money li { display: grid; gap: 0.15rem; padding: 0.6rem 0.75rem; border: 1px solid var(--line-2); border-radius: var(--radius); }
