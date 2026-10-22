@@ -120,7 +120,7 @@ describe("가구 확인 뒤 자녀 질문 분기", () => {
   it.each(["0-18", "65-69"])("%s 본인에게는 자녀·출산 질문을 내지 않는다", (age) => {
     let s = answer(blankSituation(SUWON.sido, SUWON.sigungu, "self"), "age", age);
     expect(next(s, ["age"])).toBe("alone");
-    s = answer(s, "alone", "2");
+    s = answer(s, "alone", "2s");
     expect(["family", "children", "daycare", "singleParent"]).not.toContain(next(s, ["age", "alone"]));
   });
 });
@@ -175,7 +175,7 @@ describe("소거해서 계산한 결과 = 처음부터 전부 계산한 결과",
     { mode: "self", region: SUWON, answers: [["age", "40-49"], ["children", "6-12"], ["alone", "4"], ["income", "60"], ["activity", "employed"]] },
     { mode: "self", region: { sido: "41000", sigungu: "41270" }, answers: [["age", "0-18"], ["alone", "3"], ["income", "50"], ["activity", "none"]] },
     { mode: "parent", region: { sido: "41000", sigungu: "41190" }, answers: [["age", "70-79"], ["alone", "yes"], ["income", "32"], ["disability", "none"], ["ltcGrade", "no"], ["care", "yes"]] },
-    { mode: "parent", region: { sido: "11000", sigungu: "11215" }, answers: [["age", "65-69"], ["alone", "2"], ["income", "100"], ["basicPension", "yes"]] },
+    { mode: "parent", region: { sido: "11000", sigungu: "11215" }, answers: [["age", "65-69"], ["alone", "2s"], ["income", "100"], ["basicPension", "yes"]] },
   ];
   for (const [i, path] of PATHS.entries()) {
     it(`경로 ${i + 1} (${path.mode} ${path.region.sigungu})`, () => {

@@ -41,7 +41,7 @@ export const PRESETS: Preset[] = [
       benefits: [], housing: "own", car: "0", activity: "none", care: ["daily"], disability: "none",
     }),
     // 연금 등 월 300만원(2인 중위소득의 약 71%) → 수급·차상위 아님. 기초연금은 '관심'이라 모름 → 추가 질문
-    x: { benefits: { ...NO_RECIPIENT }, traits: NO_TRAITS, incomeManwon: 300, facts: {}, childCount: null },
+    x: { benefits: { ...NO_RECIPIENT }, traits: NO_TRAITS, incomeManwon: 300, facts: {}, childCount: null, spouse: true },
   },
   {
     id: "seongnam-single-parent",

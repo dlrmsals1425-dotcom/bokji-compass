@@ -67,11 +67,15 @@ export function easyResolve(id: FlowQuestionId, s: Situation, trail: readonly bo
       const i65 = list.findIndex((a) => ageLow(a) === 65);
       return bisect(list, trail, (a) => subj(m, `만 ${ageLow(a)}세 이상인가요?`, `부모님이 만 ${ageLow(a)}세 이상이신가요?`), i65 >= 0 ? i65 : undefined);
     }
-    case "alone":
-      return ladder(list, trail, (a) =>
+    case "alone": {
+      // 쉬운 찾기는 누르는 횟수를 늘리지 않게 '2명'을 하나로 묻는다 (부부인지는 모름으로 둠 — 기초연금은 가능성을 닫지 않음)
+      const two = list.find((x) => x.key === "2s")!;
+      const flat = list.flatMap((x) => (x.key === "2o" ? [] : x.key === "2s" ? [{ key: "2", label: "2명", apply: (q: Situation) => ({ ...two.apply(q), x: { ...q.x } }) }] : [x]));
+      return ladder(flat, trail, (a) =>
         a.key === "yes" ? subj(m, "혼자 사세요?", "부모님이 혼자 사세요?")
           : subj(m, `함께 사는 가족이 본인 포함 ${a.key}명인가요?`, `부모님 댁에 사는 분이 부모님 포함 ${a.key}명인가요?`),
         "소득 기준과 1인 가구 혜택이 이 답으로 정해져요.");
+    }
     case "income": {
       const size = s.profile.householdSize;
       if (size === "unknown") return { kind: "skip" };

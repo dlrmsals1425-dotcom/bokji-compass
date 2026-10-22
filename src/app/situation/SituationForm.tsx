@@ -21,7 +21,7 @@ import { saveSituation } from "@/lib/client/start";
 import { parseManwonInput } from "@/lib/client/incomeInput";
 import { EMPTY_EXTRAS, SUPPORT_LEVELS, extrasFromProfile, incomeExplain, type Extras } from "@/lib/client/v2";
 import type { RegionIndex } from "@/lib/data/types";
-import { ACTIVITY_LABEL, AGE_BANDS, AGE_LABEL, CHILD_BUCKETS, HOUSING_LABEL, CHILD_LABEL, EMPTY_PROFILE, ageRange, type AgeBand, type Benefit, type ChildBucket, type Profile } from "@/lib/engine/profile";
+import { ACTIVITY_LABEL, AGE_BANDS, AGE_LABEL, CHILD_BUCKETS, HOUSING_LABEL, CHILD_LABEL, EMPTY_PROFILE, INCOME_LABEL, ageRange, type AgeBand, type Benefit, type ChildBucket, type Profile } from "@/lib/engine/profile";
 import styles from "../finder.module.css";
 
 export function SituationForm() {
@@ -326,6 +326,8 @@ function Form({ initial, initialX, initialMode, wantPrefill, initialQuick }: { i
     setHhAlt(alt);
     set("householdSize", alt ? a.size : (a.mainSize as Profile["householdSize"]));
     setTrait("single_parent", alt && a.singleParent ? true : undefined);
+    // '배우자 없이'를 고르면 배우자 없음, 되돌리면 모름 (배우자 포함은 가정이었으므로)
+    setX((prev) => ({ ...prev, spouse: alt ? false : undefined }));
   };
 
   const sido = regions?.sidos.find((s) => s.code === p.sido);
@@ -583,6 +585,17 @@ function Form({ initial, initialX, initialMode, wantPrefill, initialQuick }: { i
                   </select>
                 </div>
               </div>
+              {askSenior && p.householdSize !== "unknown" && p.householdSize >= 2 && (
+                <RadioGroup
+                  name="spouse"
+                  legend={parent ? "부모님이 배우자분과 함께 사시나요?" : "배우자와 함께 사세요?"}
+                  hint="기초연금은 본인과 배우자의 소득·재산만 봐요. 함께 사는 자녀 소득은 빼고 생각해요."
+                  options={YN}
+                  value={triOf(x.spouse)}
+                  unknownLabel="건너뛰기"
+                  onChange={(v) => setX((prev) => ({ ...prev, spouse: boolOf(v) }))}
+                />
+              )}
             </section>
 
             <section aria-labelledby="sit-money-h" className="v2-block">
@@ -640,6 +653,8 @@ function Form({ initial, initialX, initialMode, wantPrefill, initialQuick }: { i
                       setIncomeText(t);
                       const r = parseManwonInput(t);
                       setX((prev) => ({ ...prev, incomeManwon: r.value }));
+                      // (2026-10-23 외부 의견) 저장할 때 금액을 소득 구간으로도 남기므로, 칸을 지우거나 고치면 그 구간도 지운다 — 지운 소득이 판정에 남지 않게
+                      set("income", "unknown");
                     }}
                     data-testid="v2-income"
                   />
@@ -647,10 +662,11 @@ function Form({ initial, initialX, initialMode, wantPrefill, initialQuick }: { i
                   <label className="opt unknown v2-inline">
                     <input
                       type="checkbox"
-                      checked={income === null && !incomeText.trim()}
+                      checked={income === null && !incomeText.trim() && p.income === "unknown"}
                       onChange={() => {
                         setIncomeText("");
                         setX((prev) => ({ ...prev, incomeManwon: null }));
+                        set("income", "unknown");
                       }}
                     />
                     <span>건너뛰기</span>
@@ -662,7 +678,13 @@ function Form({ initial, initialX, initialMode, wantPrefill, initialQuick }: { i
                   </p>
                 )}
                 <p className="small" id="inc-band" aria-live="polite" data-testid="v2-income-band">
-                  {explain ? explain.line : income !== null && !size ? "함께 사는 가족 수를 고르면 기준을 계산해 드려요." : ""}
+                  {explain
+                    ? explain.line
+                    : income !== null && !size
+                      ? "함께 사는 가족 수를 고르면 기준을 계산해 드려요."
+                      : income === null && p.income !== "unknown"
+                        ? `지난번에 고른 소득(기준 중위소득 ${INCOME_LABEL[p.income]})으로 찾고 있어요. 바꾸려면 금액을 적거나 건너뛰기를 누르세요.`
+                        : ""}
                 </p>
                 <p className="small muted">재산(집·예금)도 소득으로 환산해 함께 보는 혜택이 많아요. 정확한 계산(소득인정액)은 신청할 때 주민센터에서 해 줘요.</p>
               </fieldset>

@@ -7,7 +7,7 @@
 import type { RegionIndex } from "../data/types";
 import {
   AGE_BANDS, AGE_LABEL, BENEFIT_LABEL, EMPTY_PROFILE, HOUSING_LABEL,
-  ageRange, type AgeBand, type Benefit, type HouseholdTrait, type Housing, type Profile,
+  ageRange, medianWon, type AgeBand, type Benefit, type HouseholdTrait, type Housing, type Profile,
 } from "../engine/profile";
 import type { FindMode } from "./mode";
 import { TOPICS, topicsIn, PREGNANT_RE, type TopicId } from "./topics";
@@ -76,6 +76,8 @@ export interface ParsedSituation {
   childAges?: ChildBucket[];
   /** 부모님 두 분 나이가 다를 때 다른 한 분 (M7: 그분 기준으로 바로 다시 보기) */
   otherAge?: { band: AgeBand; label: string; range: [number, number] };
+  /** 함께 사는 배우자 (2026-10-23 외부 의견: 성인 자녀와 둘이 사는 가구를 부부로 보던 문제) — 기초연금 부부 기준에 쓴다. 없음 = 모름 */
+  spouse?: boolean;
   /** 가구원 수를 모르지만 이보다 적지는 않음 (예: '가장이에요' → 2명 이상) — 확인 화면 선택지에서 1명을 뺀다 */
   minHousehold?: number;
 }
@@ -489,14 +491,28 @@ const NOT_INCOME_KW = /(월세|보증금|전세금?|대출|빚|부채|재산|예
 /** 금액 뒤 낱말 (예: '300 벌어요') */
 const INCOME_AFTER = /^\s*(?:만\s*원|만|원)?\s*(?:정도|쯤|가량|좀|조금|넘게|넘|이상|안팎|남짓|대)?\s*(?:을|를|씩|은|는)?\s*(?:벌|번다|버는|들어와|나와|받아요|받아|받고)/;
 /** 숫자 뒤에 오면 금액이 아님 (나이·연도·사람 수 등) */
-const NOT_AMOUNT_AFTER = /^\s*(?:년|살|세(?!후)|명|인|개월|월(?!급)|일|평|대(?!략)|시|kg|키로|cm|%|퍼센트|등급|번|층|호|동|차|위|째|개|분|시간|주|학년|남|녀|식구)/;
+const NOT_AMOUNT_AFTER = /^\s*(?:년|살|세(?!후)|명|인(?:\s*(?:가구|가족|식구|분)|(?![가-힣]))|개월|월(?!급)|일|평|대(?!략)|시|kg|키로|cm|%|퍼센트|등급|번|층|호|동|차|위|째|개|분|시간|주|학년|남|녀|식구)/;
 const AMOUNT_RE = /(\d{1,3}(?:,\d{3})+|\d+(?:\.\d+)?)\s*(억|천\s*만|천|백\s*만|백|만)?\s*(원)?/g;
 
-function parseIncome(text: string): { income: ParsedIncome; kw: string; notes: string[] } | null {
+/** '소득 없음'과 0이 아닌 금액이 함께 있으면 어느 쪽인지 정하지 않는다 (2026-10-23 외부 의견: 모순된 입력을 조용히 0원으로) */
+export const INCOME_CONFLICT_NOTE = (manwon: number) =>
+  `소득이 없다는 말과 금액(월 ${manwon.toLocaleString("ko-KR")}만원)이 함께 있어요. 어느 쪽인지 아래 소득 칸에 가구 전체 소득을 적어 주세요.`;
+
+function parseIncome(text: string): { income: ParsedIncome | null; kw: string; notes: string[] } | null {
   const notes: string[] = [];
-  if (/(?:소득|수입|벌이|월급)\s*(?:이|은|는|가|도)?\s*(?:전혀|하나도|거의)?\s*(?:없|0\s*원)|무소득/.test(text)) {
-    return { income: { manwon: 0, raw: "소득 없음" }, kw: "소득", notes };
-  }
+  const none = /(?:소득|수입|벌이|월급)\s*(?:이|은|는|가|도)?\s*(?:전혀|하나도|거의)?\s*(?:없|0\s*원)|무소득/.test(text);
+  const found = scanIncome(text);
+  const paid = found.find((f) => f.income.manwon > 0);
+  if (none && paid) return { income: null, kw: "소득", notes: [INCOME_CONFLICT_NOTE(paid.income.manwon)] };
+  if (none) return { income: { manwon: 0, raw: "소득 없음" }, kw: "소득", notes };
+  if (!found.length) return null;
+  const distinct = [...new Set(found.map((f) => f.income.manwon))];
+  if (distinct.length > 1) notes.push(`금액이 여러 개 있어 처음 금액(월 ${found[0].income.manwon.toLocaleString("ko-KR")}만원)으로 봤어요. 가구 전체 소득을 아래 소득 칸에서 고쳐 주세요.`);
+  return { income: found[0].income, kw: found[0].kw, notes };
+}
+
+/** 문장 속 소득 금액 후보 (앞뒤 낱말로 소득인 것만) */
+function scanIncome(text: string): { income: ParsedIncome; kw: string; at: number }[] {
   const kws = [...text.matchAll(INCOME_KW)].map((m) => ({ start: m.index!, end: m.index! + m[0].length, w: m[0].replace(/\s+/g, "") }));
   const found: { income: ParsedIncome; kw: string; at: number }[] = [];
   for (const m of text.matchAll(AMOUNT_RE)) {
@@ -543,10 +559,7 @@ function parseIncome(text: string): { income: ParsedIncome; kw: string; notes: s
     const tail = after.match(/^\s*(?:정도|쯤|가량|안팎|남짓|좀|조금)?/)?.[0] ?? "";
     found.push({ income: { manwon: monthly, ...(annual ? { annual: Math.round(n) } : {}), raw: (text.slice(before && kw === before.w ? before.start : start, end) + tail).trim() }, kw, at: start });
   }
-  if (!found.length) return null;
-  const distinct = [...new Set(found.map((f) => f.income.manwon))];
-  if (distinct.length > 1) notes.push(`금액이 여러 개 있어 처음 금액(월 ${found[0].income.manwon.toLocaleString("ko-KR")}만원)으로 봤어요. 가구 전체 소득을 아래 소득 칸에서 고쳐 주세요.`);
-  return { income: found[0].income, kw: found[0].kw, notes };
+  return found;
 }
 
 /* ---------------- 자녀·배우자·함께 사는 부모님 ---------------- */
@@ -636,7 +649,7 @@ const KID_RAISING_PARENT = /(?:아이|애|애기|아기|자녀|아들|딸|쌍둥
  * 부정·바람·모름 (QA 1차 C2): 낱말 바로 뒤에 이런 말이 오면 '그렇다'로 읽지 않는다.
  *   '기초연금 받고 싶어요', '받으시는지 모르겠어요', '치매는 없으심', '장애는 아니고', '받을 수 있나요'
  */
-const NEG_AFTER = /^[^.,!?\n]{0,6}?(?:없|아니|아냐|않|안\s*(?:받|해|돼|되|계|하)|못\s|싶|모르|몰라|는지|런지|ㄴ지|나요|을까|ㄹ까|까요|수\s*있|궁금|여부|되나|될까|인지|대상인지|가능|신청\s*(?:하고|하려|할))/;
+const NEG_AFTER = /^[^.,!?\n]{0,6}?(?:없|아니|아닙|아님|아냐|않|안\s*(?:받|해|돼|되|계|하)|못\s|싶|모르|몰라|는지|런지|ㄴ지|나요|을까|ㄹ까|까요|수\s*있|궁금|여부|되나|될까|인지|대상인지|가능|신청\s*(?:하고|하려|할))/;
 /** 앞에 붙는 부정 ('안 받아요', '못 받으세요', '기초연금은 안') */
 const NEG_BEFORE = /(?:안|못|않)\s*$/;
 /** 문장에서 re 가 '그렇다'는 뜻으로 한 번이라도 쓰였는지 */
@@ -669,6 +682,10 @@ const HONORIFIC = /(계세요|계시|계셔|받으셨|받으시|받으세요|사
 /** 서술로 끝나는 문장 ('…했어요', '…예요', '…입니다') — 서비스 이름만 쓴 검색어와 구별 */
 const VERB_END = /(?:어요|아요|해요|예요|이에요|에요|습니다|었어|았어|했어|해|돼|나요|까요)[.!?~\s]*$/;
 const SELF_RE = /(?:^|\s)(?:나는|내가|난|저는|제가|본인은|본인이|저희\s*집)(?=\s|$)|저\s*혼자|나\s*혼자/;
+/** 배우자가 아닌 가족과 둘이 ('아들이랑 둘이 사세요', '딸과 둘이') — 부부 2인 가구가 아님 */
+const FAMILY_PAIR_RE = /(?:아들|딸|자녀|자식|손자|손녀|며느리|사위|조카|동생|형|누나|언니|오빠|엄마|아빠|어머니|아버지|어머님|아버님|할머니|할아버지)\s*(?:이랑|랑|하고|와|과|이와)\s*(?:단\s*)?둘이/;
+/** 배우자 없음 ('남편과 사별', '이혼', '아내가 돌아가셨') */
+const NO_SPOUSE_RE = /(사별|이혼|돌싱|(?:남편|아내|와이프|배우자)\s*(?:은|는|이|가|분)?\s*(?:돌아가|떠나|먼저\s*가|없))/;
 const COUPLE_RE = /(두\s*분|부부|내외|양친|두\s*사람|(?<![가-힣])둘이서?(?!\s*(?:세요|에요|예요|이세요|십))|노부모?부부|노부부)/;
 const ALONE_RE = /((?:혼자|홀로)\s*(?:(?:서|월세|전세|자취|원룸|집에서|단칸방|임대|에)\s*)?(?:사|살|계|지내|되|자취)|독거|홀몸|1\s*인\s*가구|자취\s*(?:해|하고|중|생))/;
 
@@ -710,7 +727,9 @@ export function parseSituation(raw: string, regions: RegionIndex | null, today: 
   let kidAges = childAges(kidText);
   // 나이만 말한 자녀 ('돌 안 된 아기 있어요', '첫째 7살 둘째 3살') → 그 수만큼
   if (childN === null && kidAges.length) childN = kidAges.length;
-  const inc = parseIncome(text);
+  const incParsed = parseIncome(text);
+  // 소득 없음과 금액이 함께 있으면 소득은 정하지 않고 확인 안내만 (아래 소득에서)
+  const inc = incParsed?.income ? { ...incParsed, income: incParsed.income } : null;
   const SALARY_RE = /(월급|급여|봉급|실수령|세후|세전|연봉|맞벌이|외벌이)/;
   const lpM = text.match(LIVE_PARENT_RE);
   // 말하는 사람이 엄마·아빠인 표현('…엄마예요', '엄마 혼자 애 키워요')은 부모님 대신 찾기가 아님 (QA 1차 C1)
@@ -851,10 +870,18 @@ export function parseSituation(raw: string, regions: RegionIndex | null, today: 
     const who = [spouse ? "배우자" : "", lpTxt.replace(/^ · /, ""), kidsN ? `자녀 ${kidsN}명` : ""].filter(Boolean).join(" · ");
     understood.push({ key: "household", label: `같이 사는 사람: ${ppl(n)} (${who}${spouse && !SPOUSE_RE.test(text) ? " — 배우자도 함께 산다고 봤어요" : ""})` });
     hhFromKids = true;
+  } else if (FAMILY_PAIR_RE.test(text) && !SPOUSE_PERSON.test(text.replace(NO_SPOUSE_RE, ""))) {
+    p.householdSize = 2;
+    understood.push({ key: "household", label: "가족과 둘이 (2인 가구 · 배우자 아님)" });
   } else if (COUPLE_RE.test(text)) {
     p.householdSize = 2;
     understood.push({ key: "household", label: mode === "parent" ? "부모님 두 분 (부부 2인 가구)" : "부부 2인 가구" });
   }
+  // 함께 사는 배우자 — 기초연금 부부 기준에 쓴다 (모르면 정하지 않음)
+  const spouse: boolean | undefined =
+    NO_SPOUSE_RE.test(text) || p.householdSize === 1 || FAMILY_PAIR_RE.test(text) && !SPOUSE_PERSON.test(text) ? false
+      : affirmed(text, SPOUSE_PERSON) || (lpM && /(장인|장모|시부모|시어머|시아버)/.test(lpM[1])) || COUPLE_RE.test(text) ? true
+        : undefined;
   // '가장이에요' — 부양하는 가족이 있다는 뜻 (QA 4차 S5: 1명으로 보이던 문제). 수는 모르니 2명 이상에서 고르게
   let minHousehold: number | undefined;
   if (p.householdSize === "unknown" && mode !== "parent" && /(?<![가-힣])(?:집안\s*)?가장(?:이에요|이예요|입니다|이고|이라|인데|이에|임|으로|이죠)/.test(text)) {
@@ -887,7 +914,7 @@ export function parseSituation(raw: string, regions: RegionIndex | null, today: 
     if (i.manwon > 0 && SALARY_RE.test(text) && p.householdSize !== 1) {
       notes.push("적어 주신 금액을 가구 전체 소득으로 봤어요. 함께 사는 가족의 다른 소득(배우자 소득 등)이 있으면 아래 소득 칸에서 더해 주세요.");
     }
-  }
+  } else if (incParsed) notes.push(...incParsed.notes);
 
   // 그 밖의 상황 신호
   const care: Profile["care"] = [];
@@ -926,8 +953,17 @@ export function parseSituation(raw: string, regions: RegionIndex | null, today: 
   if (has(/의료\s*급여/)) benefits.push("medical");
   if (has(/주거\s*급여/)) benefits.push("housing");
   if (has(/차상위/)) benefits.push("near_poverty");
-  if (!benefits.some((b) => b !== "basic_pension") && /(?:수급|수급자|기초\s*생활\s*수급)\s*(?:은|는|도|이|가)?\s*(?:아니|아녜|아닙|안\s*받|못\s*받|받지\s*(?:않|못))/.test(text)) {
+  if (!benefits.some((b) => b !== "basic_pension") && /(?:수급|수급자|기초\s*생활\s*수급)\s*(?:은|는|도|이|가)?\s*(?:아니|아녜|아닙|아님|안\s*받|못\s*받|받지\s*(?:않|못))/.test(text)) {
     benefitsNo.push("livelihood", "medical", "housing", "education", "near_poverty");
+  } else {
+    // (2026-10-23 외부 의견) '생계급여 받지 않아요'·'차상위가 아닙니다' — 그 항목만 아님
+    if (!benefits.includes("livelihood") && /생계\s*급여\s*(?:은|는|도|를|을)?\s*(?:안\s*받|못\s*받|받지\s*(?:않|못)|아니|아닙|아님)/.test(text)) benefitsNo.push("livelihood");
+    if (!benefits.includes("near_poverty") && /차상위\s*(?:계층)?\s*(?:은|는|도|이|가)?\s*(?:아니|아녜|아닙|아님)/.test(text)) benefitsNo.push("near_poverty");
+  }
+  // (2026-10-23 외부 의견) 수급자라고 했는데 소득이 수급 기준(중위 50% 이하)보다 크게 읽힘 — 정하지 않고 확인 안내
+  if (inc && inc.income.manwon > 0 && benefits.some((b) => b !== "basic_pension" && b !== "near_poverty") && p.householdSize !== "unknown") {
+    const pct = Math.round((inc.income.manwon * 10000 * 100) / medianWon(100, p.householdSize));
+    if (pct > 50) notes.push(`기초생활수급자라고 하셨는데 소득이 월 ${inc.income.manwon.toLocaleString("ko-KR")}만원(${p.householdSize}명 가구 기준 중위소득의 ${pct}%)으로 읽혔어요. 수급 기준(중위 50% 이하)보다 높아요 — 소득이나 수급 여부를 확인해 주세요.`);
   }
   if (benefits.length) {
     p.benefits = benefits;
@@ -935,7 +971,9 @@ export function parseSituation(raw: string, regions: RegionIndex | null, today: 
   }
   // 아니라고 말한 것도 확인 화면에 보여 준다 (QA 3차 R7: '기초연금 못 받고 계세요' → '알아들은 내용이 없어요'인데 답은 채워지던 문제)
   if (benefitsNo.includes("basic_pension")) signals.push(mode === "parent" ? "기초연금 안 받으심" : "기초연금 안 받음");
-  if (benefitsNo.includes("livelihood")) signals.push("기초생활수급·차상위 아님");
+  if (benefitsNo.includes("livelihood") && benefitsNo.includes("near_poverty")) signals.push("기초생활수급·차상위 아님");
+  else if (benefitsNo.includes("livelihood")) signals.push(mode === "parent" ? "생계급여 안 받으심" : "생계급여 안 받음");
+  else if (benefitsNo.includes("near_poverty")) signals.push("차상위 아님");
 
   let housing: Housing | null = null;
   if (/월세/.test(text)) housing = "monthly";
@@ -1018,7 +1056,7 @@ export function parseSituation(raw: string, regions: RegionIndex | null, today: 
     profile: p,
     understood,
     notes,
-    looksLikeSituation: regionFound || !!age || familyWord || !!inc || (signalish && sentence),
+    looksLikeSituation: regionFound || !!age || familyWord || !!incParsed || (signalish && sentence),
     regionTerms,
     ageRange: age?.range,
     ...(ageAssumed ? { ageAssumed: true } : {}),
@@ -1033,6 +1071,7 @@ export function parseSituation(raw: string, regions: RegionIndex | null, today: 
     ...(kidAges.length && mode !== "parent" ? { childAges: kidAges } : {}),
     ...(age?.other && mode === "parent" ? { otherAge: age.other } : {}),
     ...(minHousehold ? { minHousehold } : {}),
+    ...(spouse !== undefined ? { spouse } : {}),
   };
 }
 
@@ -1045,7 +1084,7 @@ export function understoodLine(ps: ParsedSituation, skip: Understood["key"][] = 
 /** 해석 결과 → 입력 화면의 v2 입력 (소득·자녀 수). 자녀 수 3 = 3명 이상 */
 export function parsedExtras(ps: ParsedSituation): {
   incomeManwon?: number; childCount?: 0 | 1 | 2 | 3; ageSpan?: [number, number]; interests?: TopicId[];
-  otherAge?: { band: AgeBand; label: string };
+  otherAge?: { band: AgeBand; label: string }; spouse?: boolean;
 } {
   return {
     ...(ps.income ? { incomeManwon: ps.income.manwon } : {}),
@@ -1054,6 +1093,7 @@ export function parsedExtras(ps: ParsedSituation): {
     ...((ps.profile.age === "unknown" || (ps.profile.age === "0-18" && ps.ageRange && ps.ageRange[1] <= 18)) && ps.ageRange ? { ageSpan: ps.ageRange } : {}),
     ...(ps.interests?.length ? { interests: ps.interests } : {}),
     ...(ps.otherAge ? { otherAge: { band: ps.otherAge.band, label: ps.otherAge.label } } : {}),
+    ...(ps.spouse !== undefined ? { spouse: ps.spouse } : {}),
   };
 }
 
