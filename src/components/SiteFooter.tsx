@@ -11,6 +11,7 @@ export function SiteFooter() {
             <li><Link href="/about">출처·판정 기준</Link></li>
             <li><Link href="/about#privacy">개인정보</Link></li>
             <li><Link href="/forms">신청 서식</Link></li>
+            <li><Link href="/data">데이터 현황</Link></li>
           </ul>
         </div>
         <details className={styles.footerDetails} open>

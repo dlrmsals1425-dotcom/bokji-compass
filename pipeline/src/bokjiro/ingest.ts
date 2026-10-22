@@ -8,13 +8,17 @@
  * - 일일 호출 예산(개발계정): 중앙 100, 지자체 1,000 → 기본 상한 중앙 95, 지자체 950 (_budget.json)
  * - 상세 우선순위: 지자체 = 경기도 → 정부24에 없는 서비스 → 나머지 / 중앙 = 정부24에 없는 서비스 → 나머지
  *
- * 사용: npx tsx pipeline/src/bokjiro/ingest.ts [--list-only]
+ * - --refresh-lists (매일 변경 감지, 2026-10-22): 목록을 새로 받아(중앙 1 · 지자체 약 10번 호출) 목록 내용이 바뀌었거나 새로 생긴
+ *   서비스의 상세만 다시 받는다. 새 목록을 다 받은 뒤에만 바꿔 넣으므로 중간에 실패하면 어제 목록이 그대로 남는다.
+ *
+ * 사용: npx tsx pipeline/src/bokjiro/ingest.ts [--list-only] [--refresh-lists]
  */
 import fs from "node:fs";
 import path from "node:path";
 import { XMLParser } from "fast-xml-parser";
 import { readCached } from "../gov24/ingest";
 import { nameKey } from "../normalize/names";
+import { fingerprint } from "../refresh/diff";
 
 export const RAW = path.resolve(__dirname, "../../raw/bokjiro");
 const API = {
@@ -80,8 +84,17 @@ async function call(kind: Kind, rel: string, key: string): Promise<string> {
   throw new ApiError(429, "RETRY", "재시도 후에도 실패");
 }
 
-async function fetchList(kind: Kind, key: string) {
-  const dir = path.join(RAW, kind, "list");
+/** 목록 한 줄의 지문 — 조회수(inqNum)는 매번 바뀌므로 뺀다 */
+export const LIST_NOISE = ["inqNum"] as const;
+export function listFingerprints(kind: Kind): Map<string, string> {
+  return new Map(readList(kind).map((r) => [String(r.servId), fingerprint(r, LIST_NOISE)]));
+}
+
+async function fetchList(kind: Kind, key: string, fresh = false) {
+  const final = path.join(RAW, kind, "list");
+  // 새로 받을 때는 옆 폴더에 받고, 다 받은 뒤에 바꿔 넣는다 (중간 실패 시 어제 목록 유지)
+  const dir = fresh ? path.join(RAW, kind, "list.new") : final;
+  if (fresh) fs.rmSync(dir, { recursive: true, force: true });
   fs.mkdirSync(dir, { recursive: true });
   const rows: Record<string, string>[] = [];
   let page = 1, total = Infinity;
@@ -100,6 +113,10 @@ async function fetchList(kind: Kind, key: string) {
     rows.push(...items);
     if (!items.length) break;
     page++;
+  }
+  if (fresh) {
+    fs.rmSync(final, { recursive: true, force: true });
+    fs.renameSync(dir, final);
   }
   return rows;
 }
@@ -143,8 +160,17 @@ async function main() {
   const gov24Keys = new Set(readCached("serviceList").rows.map((r) => nameKey(String(r["서비스명"] ?? ""))));
   for (const kind of ["central", "local"] as Kind[]) {
     try {
-      const list = await fetchList(kind, key);
+      const refresh = process.argv.includes("--refresh-lists");
+      const before = refresh ? listFingerprints(kind) : null;
+      const list = await fetchList(kind, key, refresh);
       const s: Record<string, unknown> = { list: list.length };
+      if (before) {
+        // 목록 내용이 바뀌었거나 새로 생긴 서비스는 상세를 다시 받는다 (캐시를 지우면 아래에서 예산 안에서 다시 받음)
+        const after = listFingerprints(kind);
+        const stale = [...after].filter(([id, fp]) => before.get(id) !== fp).map(([id]) => id);
+        for (const id of stale) fs.rmSync(path.join(RAW, kind, "detail", `${id}.xml`), { force: true });
+        s.refreshed = stale.length;
+      }
       if (!process.argv.includes("--list-only")) {
         const prio = (r: Record<string, string>) =>
           (kind === "local" && String(r.ctpvNm ?? "").startsWith("경기") ? 0 : 2) + (gov24Keys.has(nameKey(r.servNm ?? "")) ? 1 : 0);

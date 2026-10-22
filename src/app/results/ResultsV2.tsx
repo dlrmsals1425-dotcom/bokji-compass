@@ -29,6 +29,7 @@ import { consentUnderAge, parentConsent, youthUpTo24 } from "@/lib/client/cardNo
 import type { Program } from "@/lib/data/types";
 import { dateLabel, periodEnded } from "@/lib/client/period";
 import { AGE_LABEL, ageRange, type Profile } from "@/lib/engine/profile";
+import meta from "../../../public/bundles/v1/meta.json";
 
 const FIRST = 10;
 const MORE = 20;
@@ -632,6 +633,9 @@ export function ResultsV2({ profile, mode, quick = false }: { profile: Profile; 
             <p className="small muted v2-foot">
               기준: 2026년 기준 중위소득·기초연금 선정기준액(보건복지부). 숫자 기준이 없는 &lsquo;저소득&rsquo;은 기준 중위소득 {LOW_INCOME_PCT}% 이하로 봤어요. 실제 선정은 재산을
               포함한 소득인정액으로 신청처에서 정해요. <Link href="/about#v2">판단 기준 자세히 보기</Link>
+            </p>
+            <p className="small muted v2-foot" data-testid="data-asof">
+              데이터 기준 {new Date(meta.generatedAt).toLocaleDateString("ko-KR", { timeZone: "Asia/Seoul" })} · 공식 원천은 매일 자동으로 확인해요. <Link href="/data">데이터 현황</Link>
             </p>
           </div>
         </div>
