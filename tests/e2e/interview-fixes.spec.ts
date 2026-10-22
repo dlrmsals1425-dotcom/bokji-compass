@@ -15,7 +15,6 @@ const contrast = (a: string, b: string) => {
 
 test("결과: '받으실 수 있어요'는 진한 채움, 다른 단계와 바탕색이 확실히 다름 @mobile", async ({ page }) => {
   await page.goto("/");
-  await page.getByText("가상 예시 보기", { exact: true }).click();
   await page.getByTestId("preset-suwon-senior").click();
   await expect(page.getByTestId("top-picks")).toBeVisible({ timeout: 20_000 });
   const fit = page.locator(".v2-badge.b-fit").first();
@@ -40,7 +39,6 @@ test("결과: '받으실 수 있어요'는 진한 채움, 다른 단계와 바�
 
 test("(2026-10-22 팀 피드백) 서류 모음: 담겨 있으면 '서류 모음에 있음 · 빼기', 빼면 '서류 모음에 담기' @mobile", async ({ page }) => {
   await page.goto("/");
-  await page.getByText("가상 예시 보기", { exact: true }).click();
   await page.getByTestId("preset-suwon-senior").click();
   const first = page.getByTestId("pick").first();
   await expect(first).toBeVisible({ timeout: 20_000 });

@@ -37,7 +37,8 @@ export default function Home() {
         <WelfareMap />
       </section>
       <div className={styles.examples}>
-        <details className={styles.more}>
+        {/* (2026-10-22 소유자) 처음부터 펼쳐 둠 */}
+        <details className={styles.more} open>
           <summary>가상 예시 보기 <Icon name="chevronDown" size={18} /></summary>
           <PresetButtons />
         </details>

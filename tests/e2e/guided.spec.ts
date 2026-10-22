@@ -198,7 +198,6 @@ test.describe("질문 따라 찾기", () => {
       await page.goto("/");
       await boundaries;
       await expect.poll(() => page.evaluate(() => (window as Window & { gpsCalls?: number }).gpsCalls)).toBe(1);
-      await page.getByText("가상 예시 보기", { exact: true }).click();
       await page.getByTestId("preset-locate").scrollIntoViewIfNeeded();
       await expect(page.getByTestId("locate-status")).toContainText("경기 수원시 기준", { timeout: 30_000 });
       expect(await page.evaluate(() => (window as Window & { gpsCalls?: number }).gpsCalls)).toBe(1);

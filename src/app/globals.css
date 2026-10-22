@@ -609,7 +609,9 @@ html[data-large="1"] .fgrid fieldset + fieldset { border-left: 0; border-top: 1p
 .sum-k strong { color: var(--primary-60); }
 .sum-money { list-style: none; margin: 0.25rem 0 0; padding: 0; display: grid; gap: 0.25rem; font-size: 0.9375rem; }
 .sum-money li { word-break: keep-all; }
-.sum-amt { font-weight: 700; color: var(--ink); white-space: nowrap; }
+/* (2026-10-22) 좁은 칸에서 '월 최대 단독 …원 · 부부 …원'이 한 줄로 상자 밖까지 나가던 것 → 띄어쓰기에서 줄바꿈 */
+.sum-amt { font-weight: 700; color: var(--ink); word-break: keep-all; overflow-wrap: anywhere; }
+.sum-rows > li { min-width: 0; }
 .v2-summary .v2-answers { margin-top: 0.5rem; }
 .sum-foot { margin-top: 0.625rem; }
 @media (max-width: 40rem) { .v2-summary { padding: 0.875rem 0.875rem; } }

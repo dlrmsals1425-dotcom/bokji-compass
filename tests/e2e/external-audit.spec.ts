@@ -13,7 +13,6 @@ test("P2-3 서비스 검색: 홈 밖 주 메뉴에 '서비스 검색' 링크 (�
 
 test("P2-4·P3-9·P3-12 결과: 서류 모음 '2가지를', 자동 지급 개수에 띄어쓰기 없음, 이미지 저장 안내에 '사진첩' 없음", async ({ page }) => {
   await page.goto("/");
-  await page.getByText("가상 예시 보기", { exact: true }).click();
   await page.getByTestId("preset-suwon-senior").click();
   await expect(page.getByTestId("top-picks")).toBeVisible({ timeout: 20_000 });
   const auto = page.getByTestId("auto-toggle");
@@ -47,7 +46,6 @@ test("P3-7·13 검색 지역 고르기: '중앙부처 사업만'·'시·군·구
 
 test("P3-10·11 상세 판정 줄 띄어쓰기, 신뢰도 줄에 'API 지원조건' 대신 '정부24 지원조건 기준'", async ({ page }) => {
   await page.goto("/");
-  await page.getByText("가상 예시 보기", { exact: true }).click();
   await page.getByTestId("preset-suwon-senior").click();
   await expect(page.getByTestId("top-picks")).toBeVisible({ timeout: 20_000 });
   await page.getByTestId("top-picks").locator("h3 a").first().click();

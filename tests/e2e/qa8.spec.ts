@@ -100,7 +100,6 @@ test.describe("전국 확대 ③ 현재 위치로 내 지역 예시", () => {
     await context.grantPermissions(["geolocation"]);
     await context.setGeolocation({ latitude: 37.2411, longitude: 127.1776 });
     await page.goto("/");
-    await page.getByText("가상 예시 보기", { exact: true }).click();
     await page.getByTestId("locate-btn").click();
     await expect(page.getByTestId("locate-status")).toContainText("경기 용인시 기준", { timeout: 30_000 });
     const fits = await page.getByTestId("preset-fit").allInnerTexts();
@@ -114,10 +113,9 @@ test.describe("전국 확대 ③ 현재 위치로 내 지역 예시", () => {
   });
   test("위치 권한이 없으면 지역을 직접 고르기 — 서울 광진구", async ({ page }) => {
     await page.goto("/");
-    await page.getByText("가상 예시 보기", { exact: true }).click();
     await page.getByTestId("locate-btn").click();
     // 예시 칸이 보이면 자동으로 한 번 확인하므로(2026-10-16) 단추를 누른 결과와 자동 확인 결과 중 하나
-    await expect(page.getByTestId("locate-status")).toContainText(/위치를 확인하지 못했어요|위치를 쓸 수 없어/, { timeout: 20_000 });
+    await expect(page.getByTestId("locate-status")).toContainText(/위치를 확인하지 못했어요|위치를 쓸 수 없어|위치 확인 불가/, { timeout: 20_000 });
     await page.locator("#pp-sido").selectOption("11000");
     await page.getByTestId("locate-sigungu").selectOption({ label: "광진구" });
     await expect(page.getByTestId("locate-status")).toContainText("서울 광진구 기준", { timeout: 30_000 });

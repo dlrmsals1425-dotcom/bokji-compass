@@ -11,6 +11,7 @@ import { Icon } from "@/components/Icon";
 import { loadForRegion, loadProgram, type Loaded } from "@/lib/client/bundles";
 import { CHANNEL_LABEL, firstLine, howTo } from "@/lib/client/howto";
 import { elderText, parseFindMode, resultsPath } from "@/lib/client/mode";
+import { autoReceivingKeys } from "@/lib/client/receiving";
 import { situationOf } from "@/lib/client/start";
 import { useElder, useExtras, useMode, useProfile } from "@/lib/client/storage";
 import { BUCKET_LABEL, buildView, scoreV2 } from "@/lib/client/v2";
@@ -45,7 +46,12 @@ export function EasyResults() {
     const sit = situationOf(profile, extras ?? null, mode);
     return buildView(scoreV2(data.programs, sit), sit, 12);
   }, [data, profile, extras, mode]);
-  const fit = useMemo(() => (view ? view.fit.map((g) => g[0]) : []), [view]);
+  // 이미 받는다고 답한 급여(예: 기초연금 받음)는 빼고 보여 준다 (결과 화면과 같은 규칙)
+  const fit = useMemo(() => {
+    if (!view || !profile) return [];
+    const recv = new Set(autoReceivingKeys(view, situationOf(profile, extras ?? null, mode)));
+    return view.fit.filter((g) => !recv.has(g[0].s.group)).map((g) => g[0]);
+  }, [view, profile, extras, mode]);
   const ids = fit.slice(0, DETAIL_MAX).map((i) => i.s.program.id).join("|");
   useEffect(() => {
     if (!ids) return;
