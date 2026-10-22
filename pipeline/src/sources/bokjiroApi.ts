@@ -2,7 +2,7 @@ import type { SourceRecord } from "./record";
 import { financialBadge, isEupmyeondongLevel } from "./record";
 import { cleanName, cleanOrg, cleanText, nameKey } from "../normalize/names";
 import { asCategory } from "../normalize/categories";
-import type { RegionIndex } from "../normalize/regions";
+import type { RegionIndex, Sido, Sigungu } from "../normalize/regions";
 import { householdCond, lifecycleCond } from "../rules/fromTags";
 import { extractFromText } from "../rules/fromText";
 import { all } from "../rules/helpers";
@@ -34,6 +34,44 @@ export interface BokjiroApiStats {
   enriched: number;
   added: number;
   indexOnly: number;
+}
+
+/**
+ * 담당 부서 이름('경기도 가평군 평생교육사업소')에 든 시군구 — 목록에 시군구(sggNm) 칸이 빈 지자체 사업용 (2026-10-22).
+ * 시·도 다음 낱말이 시·군·구로 끝나고 그 시·도의 시군구일 때만. 시·도 본청 부서('서울특별시 복지실 …')는 빈 배열.
+ */
+export function sigunguFromDept(regions: RegionIndex, sidoName: string, dept: string): Sigungu[] {
+  const sido = regions.sido(sidoName);
+  if (!sido) return [];
+  const toks = dept.trim().split(/\s+/);
+  const rest = regions.sido(toks[0] ?? "")?.code === sido.code ? toks.slice(1) : toks;
+  const [a, b] = rest;
+  if (!a || !/(시|군|구)$/.test(a)) return [];
+  if (b && /구$/.test(b)) {
+    const both = regions.resolveSigungu(sido.name, `${a} ${b}`);
+    if (both.length) return both;
+  }
+  return regions.resolveSigungu(sido.name, a);
+}
+
+/**
+ * 지자체 사업의 지역 범위: 시군구 칸 → (비면) 담당 부서 이름의 시군구 → 시·도 사업.
+ * 시군구 칸에 시·도 교육청처럼 시·도 이름으로 시작하는 기관명이나 '○○교육청'이 오면 시·도 사업, '-'는 빈 칸. 모르는 시군구 이름이면 null.
+ */
+export function localScope(regions: RegionIndex, sido: Sido, sggNm: string, dept: string):
+  { scope: SourceRecord["scope"]; orgType: SourceRecord["orgType"]; sigunguCodes?: string[]; regionLabel: string } | null {
+  const sg = sggNm.trim().replace(/^-+$/, "");
+  const sgg = (list: Sigungu[]) => ({ scope: "sigungu" as const, orgType: "local" as const, sigunguCodes: list.map((s) => s.code), regionLabel: `${sido.short} ${list.map((s) => s.name).join("·")}` });
+  const whole = { scope: "sido" as const, orgType: "metro" as const, regionLabel: sido.name };
+  if (!sg) {
+    if (sido.code === "36000") return { scope: "sigungu", orgType: "metro", sigunguCodes: ["36110"], regionLabel: "세종" };
+    const fromDept = sigunguFromDept(regions, sido.name, dept);
+    return fromDept.length ? sgg(fromDept) : whole;
+  }
+  const sggs = regions.resolveSigungu(sido.name, sg);
+  if (sggs.length) return sgg(sggs);
+  if (sg.startsWith(sido.name) || sg.startsWith(sido.short) || /교육청$/.test(sg)) return whole;
+  return null;
 }
 
 export function applyBokjiroApi(index: SourceRecord[], regions: RegionIndex, log: (m: string) => void): { records: SourceRecord[]; stats: BokjiroApiStats } {
@@ -106,17 +144,9 @@ export function applyBokjiroApi(index: SourceRecord[], regions: RegionIndex, log
         const sido = regions.sido(String(row.ctpvNm ?? ""));
         if (!sido) { log(`[bokjiro-api] 시도 매핑 실패: ${row.ctpvNm} (${id})`); continue; }
         sidoCode = sido.code;
-        const sg = String(row.sggNm ?? "").trim();
-        if (sg) {
-          const sggs = regions.resolveSigungu(sido.name, sg);
-          if (!sggs.length) { log(`[bokjiro-api] 시군구 매핑 실패: ${row.ctpvNm} ${sg} (${id})`); continue; }
-          scope = "sigungu"; orgType = "local"; sigunguCodes = sggs.map((s) => s.code);
-          regionLabel = `${sido.short} ${sggs.map((s) => s.name).join("·")}`;
-        } else if (sido.code === "36000") {
-          scope = "sigungu"; orgType = "metro"; sigunguCodes = ["36110"]; regionLabel = "세종";
-        } else {
-          scope = "sido"; orgType = "metro"; regionLabel = sido.name;
-        }
+        const loc = localScope(regions, sido, String(row.sggNm ?? ""), String(row.bizChrDeptNm ?? ""));
+        if (!loc) { log(`[bokjiro-api] 시군구 매핑 실패: ${row.ctpvNm} ${row.sggNm} (${id})`); continue; }
+        ({ scope, orgType, sigunguCodes, regionLabel } = loc);
       }
       const summary = cleanText(row.servDgst ?? d.wlfareInfoOutlCn) ?? "";
       let draft: SourceRecord["draft"] = { origin: "none", logic: null, unstructured: [], core: false };
