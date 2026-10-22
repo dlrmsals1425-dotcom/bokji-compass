@@ -20,7 +20,6 @@ test("주요 화면의 켜고 끄는 단추 이름에 반대 동작 말이 없�
   await scanPressed(page, "홈");
   await page.getByTestId("large-text").click();
   await scanPressed(page, "홈(글자 크게 켬)");
-  await page.getByText("가상 예시 보기", { exact: true }).click();
   await page.getByTestId("preset-suwon-senior").click();
   await expect(page.getByTestId("top-picks")).toBeVisible({ timeout: 20_000 });
   await page.getByTestId("pick").first().getByTestId("benefit-more").locator(":scope > summary").click();
@@ -48,7 +47,6 @@ test("글자 크게: 이름은 늘 '글자 크게', 켜면 눌림(✓), 다시 �
 
 test("결과 카드: 서류 모음 '빼기'·'이미 받고 있어요'는 동작 단추 (눌림 상태·체크 표시 없음) @mobile", async ({ page }) => {
   await page.goto("/");
-  await page.getByText("가상 예시 보기", { exact: true }).click();
   await page.getByTestId("preset-suwon-senior").click();
   const first = page.getByTestId("pick").first();
   await expect(first).toBeVisible({ timeout: 20_000 });

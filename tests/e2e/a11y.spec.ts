@@ -35,7 +35,6 @@ test("axe 접근성: 주요 화면 serious/critical 0건 @mobile", async ({ page
       await expect(page.getByTestId("prefill-banner")).toBeVisible({ timeout: 20_000 });
     } else if (pg.preset) {
       await page.goto("/");
-      await page.getByText("가상 예시 보기", { exact: false }).click();
       await page.getByTestId(`preset-${pg.preset}`).click();
       await expect(page.getByTestId("top-picks")).toBeVisible({ timeout: 20_000 });
     } else {
@@ -48,7 +47,6 @@ test("axe 접근성: 주요 화면 serious/critical 0건 @mobile", async ({ page
   }
   // 큰 글씨 모드의 결과 화면
   await page.goto("/");
-  await page.getByText("가상 예시 보기", { exact: false }).click();
   await page.getByTestId("preset-bucheon-disability").click();
   await expect(page.getByTestId("top-picks")).toBeVisible({ timeout: 20_000 });
   await page.getByTestId("large-text").click();

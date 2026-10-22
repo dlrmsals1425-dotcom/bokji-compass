@@ -30,7 +30,9 @@ test("'이미 받고 있어요' → 5가지·준비물에서 빠지고 아래에
   await page.reload();
   await expect(page.getByTestId("receiving-section")).toContainText(first, { timeout: 20_000 });
   await page.getByTestId("receiving-undo").first().click();
-  await expect(page.getByTestId("receiving-section")).toHaveCount(0);
+  // 직접 표시한 것만 되돌아감 (답한 상황 '기초연금 받음'으로 빠진 기초연금은 그대로)
+  await expect(page.getByTestId("receiving-undo")).toHaveCount(0);
+  await expect(page.getByTestId("receiving-section")).not.toContainText(first);
   await expect(page.getByTestId("top-picks").locator("h3", { hasText: first })).toHaveCount(1);
 });
 

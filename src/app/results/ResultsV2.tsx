@@ -17,7 +17,7 @@ import { VisitSheet } from "./VisitSheet";
 import { loadForRegion, loadProgram, loadRegions, type Loaded } from "@/lib/client/bundles";
 import { CHANNEL_LABEL, firstLine, howTo } from "@/lib/client/howto";
 import { clearProfile, setReceiving, useElder, useExample, useExtras, useReceiving } from "@/lib/client/storage";
-import { splitReceiving } from "@/lib/client/receiving";
+import { autoReceivingKeys, splitReceiving } from "@/lib/client/receiving";
 import { saveSituation, situationOf } from "@/lib/client/start";
 import { presetById } from "@/lib/client/presets";
 import { checkPath, coupleNote, resultsCopy, type FindMode } from "@/lib/client/mode";
@@ -92,7 +92,12 @@ export function ResultsV2({ profile, mode, quick = false }: { profile: Profile; 
   // 이미 받고 있다고 표시한 혜택은 먼저 확인할 5가지·목록·준비물 한 장에서 빼고 따로 (2026-10-16, 이 기기에만 저장)
   const recvAll = useReceiving();
   const recvKeys = (recvAll?.[mode] ?? []).join("\u0001");
-  const { view, receiving } = useMemo(() => splitReceiving(view0, recvKeys ? recvKeys.split("\u0001") : []), [view0, recvKeys]);
+  // (2026-10-22) '기초연금 받음'처럼 이미 받는다고 답한 급여 자체도 같은 곳으로 (답을 고치면 다시 보임)
+  const autoRecv = useMemo(() => autoReceivingKeys(view0, sit), [view0, sit]);
+  const { view, receiving } = useMemo(
+    () => splitReceiving(view0, [...new Set([...(recvKeys ? recvKeys.split("\u0001") : []), ...autoRecv])]),
+    [view0, recvKeys, autoRecv],
+  );
   const picks = useMemo(() => topPicksV2(view, 5, sit), [view, sit]);
   const autos = useMemo(() => (data ? autoV2(data.programs, sit) : []), [data, sit]);
 
@@ -527,16 +532,20 @@ export function ResultsV2({ profile, mode, quick = false }: { profile: Profile; 
             {receiving.length > 0 && (
               <section className="v2-sec receiving" aria-labelledby="recv-h" data-testid="receiving-section">
                 <h2 className="h2" id="recv-h">
-                  이미 받고 있다고 표시한 혜택 {receiving.length}개
+                  이미 받고 있는 혜택 {receiving.length}개
                 </h2>
-                <p className="body">추천·준비서류 목록에서 제외했어요.</p>
+                <p className="body">추천·신청 서류 모음에서 뺐어요.</p>
                 <ul className="recv-list">
                   {receiving.map((g) => (
                     <li key={g[0].s.group}>
                       <Link href={`/p/${encodeURIComponent(g[0].s.program.id)}`}>{g[0].s.program.name}</Link>
-                      <button type="button" className="link-btn no-print" onClick={() => markReceiving(g[0].s.group, false)} data-testid="receiving-undo">
-                        다시 보이기
-                      </button>
+                      {autoRecv.includes(g[0].s.group) ? (
+                        <span className="small muted" data-testid="receiving-auto">답하신 상황(받고 있음)으로 뺐어요 · <Link href={editHref}>상황 고치기</Link></span>
+                      ) : (
+                        <button type="button" className="link-btn no-print" onClick={() => markReceiving(g[0].s.group, false)} data-testid="receiving-undo">
+                          다시 보이기
+                        </button>
+                      )}
                     </li>
                   ))}
                 </ul>

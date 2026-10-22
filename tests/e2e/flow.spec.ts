@@ -67,12 +67,15 @@ test.describe("로그인 없는 전체 흐름 (상황 먼저 · 기본)", () => 
     expect(await num(page, "v2-n-no")).toBeGreaterThan(0);
     const picks = page.getByTestId("top-picks");
     await expect(picks.locator("ol > li")).toHaveCount(5);
-    await expect(picks.getByRole("link", { name: "기초연금", exact: true })).toBeVisible();
+    // (2026-10-22) '기초연금 받음'으로 답했으니 기초연금은 추천이 아니라 '이미 받고 있는 혜택'에
+    await expect(picks.getByRole("link", { name: "기초연금", exact: true })).toHaveCount(0);
+    const recv = page.getByTestId("receiving-section");
+    await expect(recv.getByRole("link", { name: "기초연금", exact: true })).toBeVisible();
     await expect(picks.locator("[data-bucket=fit]").first()).toBeVisible();
     await expect(page.getByText("시험판")).toHaveCount(0);
 
     // 상세: 결과와 같은 판단 + 내 답과 비교
-    await picks.getByRole("link", { name: "기초연금", exact: true }).click();
+    await recv.getByRole("link", { name: "기초연금", exact: true }).click();
     await expect(page).toHaveURL(/\/p\//);
     await expect(page.getByTestId("detail-judge")).toHaveAttribute("data-bucket", "fit");
     await expect(page.getByTestId("detail-judge")).toContainText("받으실 수 있어요");
@@ -197,7 +200,6 @@ test.describe("로그인 없는 전체 흐름 (상황 먼저 · 기본)", () => 
     ];
     for (const [id, region, top] of cases) {
       await page.goto("/");
-      await page.getByText("가상 예시 보기", { exact: true }).click();
       await page.getByTestId(`preset-${id}`).click();
       await expect(page).toHaveURL(id === "parent-care" ? /\/results\?for=parent$/ : /\/results$/);
       await expect(page.getByRole("heading", { level: 1 })).toContainText(region, { timeout: 20_000 });
@@ -219,7 +221,6 @@ test.describe("로그인 없는 전체 흐름 (상황 먼저 · 기본)", () => 
 
   test("자동으로 받는 혜택: 본문·추천과 분리된 접힌 영역, 개수 = 카드 수 @mobile", async ({ page }) => {
     await page.goto("/");
-    await page.getByText("가상 예시 보기", { exact: true }).click();
     await page.getByTestId("preset-seongnam-single-parent").click();
     await expect(page.getByTestId("top-picks")).toBeVisible({ timeout: 20_000 });
     const sec = page.getByTestId("auto-section");

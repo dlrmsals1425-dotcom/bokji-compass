@@ -88,7 +88,6 @@ test("조부모님·어르신 가족: 질문은 '어르신', 결과에 '조부�
   await expect(page.getByTestId("parent-results-banner")).toContainText("조부모님·어르신 기준", { timeout: 20_000 });
   // 다른 방법으로 새로 찾으면(예시) 어르신 표시는 사라진다
   await page.goto("/");
-  await page.getByText("가상 예시 보기", { exact: true }).click();
   await page.getByTestId("preset-parent-care").click();
   await expect(page.getByTestId("parent-results-banner")).toContainText("부모님 기준", { timeout: 20_000 });
   await expect(page.getByTestId("parent-results-banner")).not.toContainText("어르신");

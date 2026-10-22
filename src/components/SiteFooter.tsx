@@ -13,7 +13,7 @@ export function SiteFooter() {
             <li><Link href="/forms">신청 서식</Link></li>
           </ul>
         </div>
-        <details className={styles.footerDetails}>
+        <details className={styles.footerDetails} open>
           <summary>서비스 안내·상담 연락처</summary>
           <p>정부24·복지로 자료를 활용한 민간 안내 서비스입니다. 최종 지원 여부와 신청 방법은 담당 기관에서 확인하세요.</p>
           <p>보건복지상담센터 <a href="tel:129">129</a> (평일 9시~18시, 긴급 24시간) · 정부민원안내 <a href="tel:110">110</a></p>
