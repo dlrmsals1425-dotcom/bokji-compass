@@ -1,0 +1,80 @@
+# 매일 변경 감지 (2026-10-22): 공식 원천(정부24·복지로 API, 보건복지부 메뉴판)을 매일 자동으로 확인해
+# 바뀐 것만 받아 data 브랜치에 커밋한다. 커밋 기록 = 수집 이력, _report.json·_history.json = 사이트 '데이터 현황'(/data).
+# 점검(수집 실패·건수 10% 넘게 감소)에 걸리면 실패로 표시되고 저장소 주인에게 알림 메일이 간다.
+# 필요한 설정: 저장소 Settings → Secrets and variables → Actions → DATA_GO_KR_SERVICE_KEY (공공데이터포털 디코딩 키)
+name: 데이터 매일 확인
+
+on:
+  schedule:
+    - cron: "10 15 * * *" # 매일 0시 10분 (한국 시간)
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: data-refresh
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - name: 코드 받기 (main)
+        uses: actions/checkout@v4
+
+      - name: 원본 데이터 받기 (data 브랜치 → pipeline/raw)
+        uses: actions/checkout@v4
+        with:
+          ref: data
+          path: pipeline/raw
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: 설치
+        run: |
+          npm ci
+          pip install -r pipeline/mohw/requirements.txt
+
+      - name: 수집하고 어제와 비교
+        id: refresh
+        continue-on-error: true
+        env:
+          DATA_GO_KR_SERVICE_KEY: ${{ secrets.DATA_GO_KR_SERVICE_KEY }}
+        run: npx tsx pipeline/src/refresh/run.ts
+
+      - name: data 브랜치에 저장
+        if: always()
+        working-directory: pipeline/raw
+        run: |
+          git config user.name "bokji-compass-data-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then echo "바뀐 파일 없음"; exit 0; fi
+          git commit -q -m "data: $(TZ=Asia/Seoul date +%F) 수집"
+          git push origin HEAD:data
+
+      - name: 요약
+        if: always()
+        run: |
+          node -e '
+            const r = require("./pipeline/raw/_report.json");
+            const lines = ["## 데이터 매일 확인 " + r.date, "", "| 원천 | 상태 | 건수 | 추가 | 변경 | 삭제 |", "|---|---|---|---|---|---|"];
+            for (const s of r.sources) lines.push(`| ${s.source} | ${s.status} | ${s.total} | ${s.added} | ${s.changed} | ${s.removed} |`);
+            lines.push("", r.gate.ok ? "점검 통과" : "점검 경고:\n- " + r.gate.warnings.join("\n- "));
+            console.log(lines.join("\n"));
+          ' >> "$GITHUB_STEP_SUMMARY"
+
+      - name: 점검 결과
+        if: steps.refresh.outcome != 'success'
+        run: |
+          echo "수집 또는 점검에서 문제가 있어요. 위 요약과 로그를 확인하세요."
+          exit 1
