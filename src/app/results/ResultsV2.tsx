@@ -402,7 +402,7 @@ export function ResultsV2({ profile, mode, quick = false }: { profile: Profile; 
               <div className="sheet-cta no-print" data-testid="sheet-cta">
                 <p>
                   <b>신청 서류 모음</b> · 담은 혜택 {sheetItems.length}개
-                  <span className="small muted" data-testid="sheet-explain"> — 담은 혜택을 신청할 때 가져갈 서류를 신청하는 곳별로 한 장에 모아 드려요. 인쇄하거나 가족에게 보낼 수 있어요.</span>
+                  <span className="small muted" data-testid="sheet-explain"> — 담은 혜택을 신청할 때 가져갈 서류를 신청하는 곳별로 한 장에 모아 드려요. 먼저 확인할 5가지는 미리 담아 두었고, 각 혜택의 ‘빼기’·‘서류 모음에 담기’로 바꿀 수 있어요.</span>
                 </p>
                 <button
                   type="button"
@@ -660,11 +660,22 @@ function ReceivingButton({ name, onClick }: { name: string; onClick: () => void 
   );
 }
 
+/**
+ * 신청 서류 모음 담기/빼기. (2026-10-22 팀 피드백: '담김'을 누를 단추 이름으로 읽어 반대로 보였음)
+ * 단추 글자는 누르면 일어날 일, 지금 상태는 앞에 따로 — 담겨 있으면 '✓ 서류 모음에 있음 · 빼기', 아니면 '서류 모음에 담기'.
+ */
 function SheetToggle({ on, name, onChange }: { on: boolean; name: string; onChange: (on: boolean) => void }) {
   return (
-    <button type="button" className="link-btn sheet-toggle no-print" aria-pressed={on} aria-label={`${name} — 신청 서류 모음에 ${on ? "담겨 있음 (누르면 뺌)" : "담기"}`} onClick={() => onChange(!on)} data-testid="sheet-toggle">
-      <Icon name={on ? "check" : "listChecks"} size={16} /> {on ? "서류 모음에 담김" : "서류 모음에 담기"}
-    </button>
+    <span className="sheet-toggle-wrap no-print" data-testid="sheet-state" data-on={on ? "1" : "0"}>
+      {on && (
+        <span className="sheet-in">
+          <Icon name="check" size={16} /> 서류 모음에 있음 ·
+        </span>
+      )}
+      <button type="button" className="link-btn sheet-toggle" aria-pressed={on} aria-label={`${name} — ${on ? "신청 서류 모음에서 빼기" : "신청 서류 모음에 담기"}`} onClick={() => onChange(!on)} data-testid="sheet-toggle">
+        {on ? "빼기" : <><Icon name="listChecks" size={16} /> 서류 모음에 담기</>}
+      </button>
+    </span>
   );
 }
 

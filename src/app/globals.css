@@ -774,3 +774,7 @@ html[data-kiosk="1"] .crumbs { display: none; }
 .easy-name a { color: var(--ink); }
 .easy-where { display: flex; gap: 0.5rem; align-items: flex-start; font-size: 1.0625rem; margin: 0.25rem 0 0; }
 .easy-actions { display: flex; flex-wrap: wrap; gap: 0.75rem; margin-top: 1.5rem; }
+
+/* (2026-10-22) 서류 모음 담기/빼기 — 상태와 누를 단추를 나눠 보이기 */
+.sheet-toggle-wrap { display: inline-flex; align-items: center; gap: 0.375rem; flex-wrap: wrap; }
+.sheet-in { display: inline-flex; align-items: center; gap: 0.25rem; color: #15803d; font-weight: 700; font-size: 0.9375rem; }
