@@ -1,6 +1,7 @@
 /** (2026-10-22) 매일 변경 감지: 어제·오늘 원천을 비교해 추가·변경·삭제를 세고, 이상하면 경고 (배포 전 점검) */
 import { describe, expect, it } from "vitest";
 import { compareSnapshots, fingerprint, gateCheck, summarize, type SourceReport } from "../src/refresh/diff";
+import { GOV24_NOISE } from "../src/gov24/ingest";
 
 describe("fingerprint: 같은 내용이면 같은 지문, 조회수 같은 잡음은 무시", () => {
   it("키 순서와 무관", () => {
@@ -11,6 +12,17 @@ describe("fingerprint: 같은 내용이면 같은 지문, 조회수 같은 잡�
     const b = { servId: "W1", servNm: "기초연금", inqNum: "999" };
     expect(fingerprint(a, ["inqNum"])).toBe(fingerprint(b, ["inqNum"]));
     expect(fingerprint({ ...a, servNm: "기초연금 지원" }, ["inqNum"])).not.toBe(fingerprint(a, ["inqNum"]));
+  });
+});
+
+describe("정부24 잡음: 조회수만 바뀐 사업은 '변경'이 아님 (2026-10-22 첫 실행에서 10,958건 중 10,955건이 조회수만으로 '변경')", () => {
+  const row = { 서비스ID: "305000000287", 서비스명: "공공 유휴공간 개방", 조회수: 1139, 수정일시: "20260810092846" };
+  it("조회수만 다르면 같은 지문", () => {
+    expect(fingerprint({ ...row, 조회수: 1200 }, GOV24_NOISE)).toBe(fingerprint(row, GOV24_NOISE));
+  });
+  it("수정일시·내용이 바뀌면 다른 지문", () => {
+    expect(fingerprint({ ...row, 수정일시: "20261020100000" }, GOV24_NOISE)).not.toBe(fingerprint(row, GOV24_NOISE));
+    expect(fingerprint({ ...row, 서비스명: "공공 유휴공간 개방 확대" }, GOV24_NOISE)).not.toBe(fingerprint(row, GOV24_NOISE));
   });
 });
 

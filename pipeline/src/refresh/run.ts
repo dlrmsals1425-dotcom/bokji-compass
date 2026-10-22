@@ -12,7 +12,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import { execFileSync } from "node:child_process";
-import { readCached } from "../gov24/ingest";
+import { GOV24_NOISE, readCached } from "../gov24/ingest";
 import { listFingerprints, type Kind } from "../bokjiro/ingest";
 import { compareSnapshots, fingerprint, gateCheck, summarize, type SourceReport } from "./diff";
 
@@ -26,7 +26,7 @@ function gov24Fingerprints(): Map<string, string> {
       const id = String(r["서비스ID"] ?? "");
       if (!id) continue;
       if (!parts.has(id)) parts.set(id, []);
-      parts.get(id)!.push(fingerprint(r));
+      parts.get(id)!.push(fingerprint(r, GOV24_NOISE));
     }
   }
   return new Map([...parts].map(([id, fps]) => [id, fps.join(":")]));

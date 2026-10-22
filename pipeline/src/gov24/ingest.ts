@@ -19,6 +19,9 @@ const DELAY_MS = 400;
 
 type Endpoint = "serviceList" | "supportConditions" | "serviceDetail";
 
+/** 매일 변경 감지에서 뺄 잡음: 조회수는 매일 바뀌어 거의 모든 사업이 '변경'으로 잡힘 (2026-10-22 첫 실행) */
+export const GOV24_NOISE = ["조회수"] as const;
+
 export interface IngestStatus {
   status: "ok" | "unavailable" | "error";
   detail: string;
