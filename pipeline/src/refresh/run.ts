@@ -2,7 +2,9 @@
  * 매일 변경 감지 실행기 (2026-10-22) — GitHub Actions(.github/workflows/data-refresh.yml)가 매일 0시 10분(한국 시간)에 돌린다.
  *  1. 원천별 어제 목록의 지문을 뜬다 (pipeline/raw = data 브랜치)
  *  2. 수집: 정부24 전체 다시 받기(약 33번 호출) · 복지로 목록 새로 받기 + 바뀐 상세만 · 메뉴판 바뀐 PDF만 (+바뀌면 표 다시 읽기)
- *  3. 오늘 지문과 비교 → 추가·변경·삭제, 배포 전 점검(수집 실패·건수 10% 넘게 감소)
+ *  3. 오늘 지문과 비교 → 추가·변경·삭제, 배포 전 점검(수집 실패·건수 10% 넘게 감소·하루 30% 넘게 변경·원천 건수 불일치·
+ *     칸 사라짐·바뀌지 않은 메뉴판 PDF의 결과 흔들림·호출 한도로 이틀 연속 보류)
+ *     메뉴판은 바뀐 PDF만 다시 읽고 나머지 글은 어제 표를 그대로 쓴다 (parse_menus.py --changed=…)
  *  4. pipeline/raw/_report.json(오늘) · _history.json(날짜별 한 줄, 최근 400일) — 사이트 '데이터 현황'(/data)이 읽는다
  * 점검에 걸리면 종료 코드 1 → Actions가 실패로 표시하고 저장소 주인에게 알림 메일.
  * 키(DATA_GO_KR_SERVICE_KEY)는 환경변수로만 쓰고 출력하지 않는다.
@@ -12,16 +14,18 @@
 import fs from "node:fs";
 import path from "node:path";
 import { execFileSync } from "node:child_process";
-import { GOV24_NOISE, readCached } from "../gov24/ingest";
-import { listFingerprints, type Kind } from "../bokjiro/ingest";
-import { compareSnapshots, fingerprint, gateCheck, summarize, type SourceReport } from "./diff";
+import { GOV24_NOISE, readCached, readTotalCount } from "../gov24/ingest";
+import { listFingerprints, listTotalCount, readList, type Kind } from "../bokjiro/ingest";
+import { parseCsv } from "../sources/icare";
+import { compareSnapshots, fieldCounts, fingerprint, gateCheck, menuDrift, missingFields, summarize, type SourceReport } from "./diff";
 
 const ROOT = path.resolve(__dirname, "../../..");
 const RAW = path.join(ROOT, "pipeline/raw");
+const GOV24_ENDPOINTS = ["serviceList", "supportConditions", "serviceDetail"] as const;
 
 function gov24Fingerprints(): Map<string, string> {
   const parts = new Map<string, string[]>();
-  for (const ep of ["serviceList", "supportConditions", "serviceDetail"] as const) {
+  for (const ep of GOV24_ENDPOINTS) {
     for (const r of readCached(ep).rows) {
       const id = String(r["서비스ID"] ?? "");
       if (!id) continue;
@@ -37,6 +41,24 @@ function mohwFingerprints(): Map<string, string> {
   if (!fs.existsSync(f)) return new Map();
   const posts = JSON.parse(fs.readFileSync(f, "utf8")).posts as { bid: string; listNo: string; seq: string; sha256?: string; sizeLabel: string; title: string }[];
   return new Map(posts.map((p) => [`${p.bid}:${p.listNo}:${p.seq}`, p.sha256 ?? `${p.sizeLabel}|${p.title}`]));
+}
+
+const readMenu = (): Record<string, string>[] => {
+  const f = path.join(RAW, "mohw/policies.csv");
+  return fs.existsSync(f) ? parseCsv(fs.readFileSync(f, "utf8")) : [];
+};
+
+/** 원천별 칸 구성 (칸 이름 → 값이 있는 행 수) — 어제와 비교해 사라진 칸을 찾는다 */
+function schemaNow(): Record<string, Record<string, number>> {
+  const gov24: Record<string, number> = {};
+  for (const ep of GOV24_ENDPOINTS) for (const [k, v] of Object.entries(fieldCounts(readCached(ep).rows))) gov24[`${ep}.${k}`] = v;
+  const menu = readMenu();
+  return {
+    gov24,
+    "bokjiro-central": fieldCounts(readList("central")),
+    "bokjiro-local": fieldCounts(readList("local")),
+    mohw: menu.length ? Object.fromEntries(Object.keys(menu[0]).map((k) => [k, menu.length])) : {},
+  };
 }
 
 const readJson = (rel: string) => {
@@ -61,6 +83,10 @@ function main() {
   const kinds: Kind[] = ["central", "local"];
   const before = { gov24: gov24Fingerprints(), central: listFingerprints("central"), local: listFingerprints("local"), mohw: mohwFingerprints() };
 
+  const prevReport = readJson("_report.json");
+  const prevSchema: Record<string, Record<string, number>> = prevReport?.schema ?? {};
+  const menuBefore = readMenu();
+
   const errors: Record<string, string | null> = {};
   if (!skip) {
     errors.gov24 = run("pipeline/src/gov24/ingest.ts", ["--refresh"]);
@@ -69,9 +95,13 @@ function main() {
   }
   const mohwAfter = mohwFingerprints();
   const mohwDiff = compareSnapshots(before.mohw, mohwAfter);
-  if (!skip && (mohwDiff.added.length || mohwDiff.changed.length || !fs.existsSync(path.join(RAW, "mohw/policies.csv")))) {
-    errors.mohwParse = run("pipeline/mohw/parse_menus.py");
+  // 바뀐·새 PDF만 다시 읽고 나머지 글은 어제 표 그대로 (표가 아직 없으면 전부 읽기)
+  const reparsed = new Set([...mohwDiff.added, ...mohwDiff.changed]);
+  if (!skip && (reparsed.size || mohwDiff.removed.length || !menuBefore.length)) {
+    errors.mohwParse = run("pipeline/mohw/parse_menus.py", menuBefore.length ? [`--changed=${[...reparsed].join(",")}`] : []);
   }
+  const schema = schemaNow();
+  const lost = (source: string) => missingFields(prevSchema[source], schema[source] ?? {});
 
   const gov24Status = readJson("gov24/_status.json");
   const bokjiroStatus = readJson("bokjiro/_status.json") ?? {};
@@ -81,6 +111,8 @@ function main() {
       status: errors.gov24 ? "error" : gov24Status?.status ?? "error",
       detail: errors.gov24 ?? (gov24Status?.status !== "ok" ? gov24Status?.detail : undefined),
       ...compareSnapshots(before.gov24, gov24Fingerprints()),
+      expected: readTotalCount("serviceList"),
+      schemaMissing: lost("gov24"),
     },
     ...kinds.map((k): SourceReport => {
       const st = bokjiroStatus[k] ?? {};
@@ -89,16 +121,28 @@ function main() {
         status: errors.bokjiro ? "error" : st.status ?? "error",
         detail: errors.bokjiro ?? (st.status !== "ok" ? st.message ?? st.code : undefined),
         ...compareSnapshots(before[k], listFingerprints(k)),
+        expected: listTotalCount(k),
+        schemaMissing: lost(`bokjiro-${k}`),
       };
     }),
-    { source: "mohw", status: errors.mohw || errors.mohwParse ? "error" : "ok", detail: errors.mohw ?? errors.mohwParse ?? undefined, ...mohwDiff },
+    {
+      source: "mohw",
+      status: errors.mohw || errors.mohwParse ? "error" : "ok",
+      detail: errors.mohw ?? errors.mohwParse ?? undefined,
+      ...mohwDiff,
+      schemaMissing: lost("mohw"),
+      drift: menuBefore.length ? menuDrift(menuBefore, readMenu(), reparsed) : undefined,
+    },
   ];
-  const gate = gateCheck(reports);
+  // 어제 기록(오늘 다시 돌린 것이면 그 전 날)과 비교해 이틀 연속 보류를 본다
+  const today = new Date().toLocaleDateString("sv-SE", { timeZone: "Asia/Seoul" });
+  const history0 = (readJson("_history.json") as { date: string; sources: { source: string; status: string }[] }[] | null) ?? [];
+  const gate = gateCheck(reports, history0.filter((h) => h.date !== today).at(-1)?.sources ?? []);
   const checkedAt = new Date().toISOString();
-  const date = new Date().toLocaleDateString("sv-SE", { timeZone: "Asia/Seoul" });
+  const date = today;
   const detailProgress = Object.fromEntries(kinds.map((k) => [k, bokjiroStatus[k]?.detail ?? null]));
   // mode: daily = 오늘 원천을 실제로 다시 받음 / baseline = 수집 없이 지금 캐시로 만든 기준 보고서
-  const report = { checkedAt, date, mode: skip ? "baseline" : "daily", gate, sources: reports.map(summarize), bokjiroDetail: detailProgress };
+  const report = { checkedAt, date, mode: skip ? "baseline" : "daily", gate, sources: reports.map(summarize), bokjiroDetail: detailProgress, schema };
   fs.writeFileSync(path.join(RAW, "_report.json"), JSON.stringify(report, null, 1));
 
   const history = (readJson("_history.json") as unknown[] | null) ?? [];

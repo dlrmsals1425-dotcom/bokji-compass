@@ -8,7 +8,8 @@ export type SourceId = "gov24" | "bokjiro-central" | "bokjiro-local" | "mohw";
 
 export interface SourceReport {
   source: SourceId | string;
-  status: "ok" | "error" | "unavailable" | "skipped";
+  /** held = 우리 하루 호출 예산이 다 떨어져 오늘은 못 받음 (이틀 연속이면 경고) */
+  status: "ok" | "error" | "unavailable" | "skipped" | "held";
   detail?: string;
   /** 오늘 목록 건수 */
   total: number;
@@ -17,6 +18,12 @@ export interface SourceReport {
   added: string[];
   removed: string[];
   changed: string[];
+  /** 원천이 알려 준 전체 건수 (받은 건수와 다르면 경고) */
+  expected?: number;
+  /** 어제는 있었는데 오늘 통째로 사라진 칸 */
+  schemaMissing?: string[];
+  /** 메뉴판: 바뀌지 않은 PDF인데 표 결과가 달라진 글 수 */
+  drift?: number;
 }
 
 /** 지문: 키 순서와 무관한 내용 해시. ignore 필드(조회수 등 매번 바뀌는 잡음)는 뺀다 */
@@ -42,17 +49,50 @@ export function compareSnapshots(before: Map<string, string>, after: Map<string,
 /** 이만큼 넘게 줄면 원천 오류로 보고 배포를 멈춘다 */
 export const DROP_LIMIT = 0.1;
 
-/** 배포 전 점검: 수집 오류, 건수 급감 */
-export function gateCheck(reports: readonly SourceReport[]): { ok: boolean; warnings: string[] } {
+/** 하루에 이만큼 넘게 '변경'이면 잡음(조회수처럼 매번 바뀌는 칸)이나 원천 이상으로 본다 */
+export const CHANGE_LIMIT = 0.3;
+
+const n = (x: number) => x.toLocaleString("ko-KR");
+
+/** 배포 전 점검: 수집 오류, 건수 급감, 변경 과다, 건수 불일치, 칸 사라짐, 메뉴판 결과 흔들림, 이틀 연속 보류 */
+export function gateCheck(reports: readonly SourceReport[], prev: readonly { source: string; status: string }[] = []): { ok: boolean; warnings: string[] } {
   const warnings: string[] = [];
   for (const r of reports) {
-    if (r.status === "error" || r.status === "unavailable") warnings.push(`${r.source}: 수집 실패 — ${r.detail ?? r.status}`);
-    else if (r.previous > 0 && r.total < r.previous * (1 - DROP_LIMIT)) {
-      const pct = Math.round((1 - r.total / r.previous) * 100);
-      warnings.push(`${r.source}: 건수가 ${pct}% 줄었어요 (${r.previous.toLocaleString("ko-KR")} → ${r.total.toLocaleString("ko-KR")})`);
+    if (r.status === "error" || r.status === "unavailable") {
+      warnings.push(`${r.source}: 수집 실패 — ${r.detail ?? r.status}`);
+      continue;
     }
+    if (r.status === "held") {
+      if (prev.some((p) => p.source === r.source && p.status === "held")) warnings.push(`${r.source}: 이틀 연속 호출 한도 때문에 못 받았어요 — ${r.detail ?? "보류"}`);
+      continue;
+    }
+    if (r.previous > 0 && r.total < r.previous * (1 - DROP_LIMIT)) {
+      const pct = Math.round((1 - r.total / r.previous) * 100);
+      warnings.push(`${r.source}: 건수가 ${pct}% 줄었어요 (${n(r.previous)} → ${n(r.total)})`);
+    }
+    if (r.previous > 0 && r.changed.length > r.previous * CHANGE_LIMIT) {
+      const pct = Math.round((r.changed.length / r.previous) * 100);
+      warnings.push(`${r.source}: 하루에 ${pct}%가 '변경'으로 잡혔어요 (${n(r.changed.length)}건) — 매번 바뀌는 칸이 섞였는지 확인`);
+    }
+    if (r.expected !== undefined && r.expected !== r.total) warnings.push(`${r.source}: 원천이 알려 준 건수(${n(r.expected)})와 받은 건수(${n(r.total)})가 달라요`);
+    if (r.schemaMissing?.length) warnings.push(`${r.source}: 원천에서 칸이 사라졌어요 — ${r.schemaMissing.join(", ")}`);
+    if (r.drift) warnings.push(`${r.source}: 바뀌지 않은 PDF ${n(r.drift)}개의 표 결과가 어제와 달라졌어요`);
   }
   return { ok: warnings.length === 0, warnings };
+}
+
+/** 칸 이름별로 값이 있는 행 수 (원천 구성이 바뀌었는지 보는 데 쓴다) */
+export function fieldCounts(rows: readonly Record<string, unknown>[]): Record<string, number> {
+  const c: Record<string, number> = {};
+  for (const r of rows) for (const k of Object.keys(r)) c[k] = (c[k] ?? 0) + 1;
+  return c;
+}
+
+/** 어제 행의 1% 넘게 있던 칸이 오늘 통째로 없으면 '사라짐' (원래 드문 칸은 날마다 있다 없다 할 수 있어 뺀다) */
+export function missingFields(prev: Record<string, number> | undefined, now: Record<string, number>): string[] {
+  if (!prev) return [];
+  const most = Math.max(0, ...Object.values(prev));
+  return Object.keys(prev).filter((k) => prev[k] > most * 0.01 && !now[k]).sort();
 }
 
 const SAMPLE = 50;
@@ -67,6 +107,27 @@ export function summarize(r: SourceReport) {
     added: r.added.length,
     removed: r.removed.length,
     changed: r.changed.length,
+    ...(r.expected !== undefined ? { expected: r.expected } : {}),
+    ...(r.schemaMissing?.length ? { schemaMissing: r.schemaMissing } : {}),
+    ...(r.drift !== undefined ? { drift: r.drift } : {}),
     sample: { added: r.added.slice(0, SAMPLE), removed: r.removed.slice(0, SAMPLE), changed: r.changed.slice(0, SAMPLE) },
   };
+}
+
+/** 메뉴판 행 → 글 열쇠(게시판:글번호:첨부)별 묶음 */
+const byPost = (rows: readonly Record<string, string>[]) => {
+  const m = new Map<string, string[]>();
+  for (const r of rows) {
+    const k = r.serviceId.split(":").slice(0, 3).join(":");
+    if (!m.has(k)) m.set(k, []);
+    m.get(k)!.push(JSON.stringify(r));
+  }
+  return m;
+};
+
+/** 메뉴판: 다시 읽지 않은 글(바뀌지 않은 PDF)인데 행이 어제와 달라진 글 수 — 0이어야 정상 */
+export function menuDrift(before: readonly Record<string, string>[], after: readonly Record<string, string>[], reparsed: Set<string>): number {
+  const a = byPost(before);
+  const b = byPost(after);
+  return [...a].filter(([k, rows]) => !reparsed.has(k) && b.has(k) && b.get(k)!.join("\n") !== rows.join("\n")).length;
 }

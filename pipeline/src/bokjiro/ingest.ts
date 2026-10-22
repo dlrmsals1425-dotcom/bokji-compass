@@ -10,6 +10,8 @@
  *
  * - --refresh-lists (매일 변경 감지, 2026-10-22): 목록을 새로 받아(중앙 1 · 지자체 약 10번 호출) 목록 내용이 바뀌었거나 새로 생긴
  *   서비스의 상세만 다시 받는다. 새 목록을 다 받은 뒤에만 바꿔 넣으므로 중간에 실패하면 어제 목록이 그대로 남는다.
+ *   (보완) 바뀐 상세는 지우지 않고 <kind>/stale.json 에 '다시 받을 것'으로 적어 두었다가 새로 받으면 바꿔 넣는다 — 예산이 모자라도
+ *   어제 상세는 남는다. 상세는 목록 호출 몫(지난번 목록 쪽수)을 남기고 받는다. 우리 예산이 떨어져 못 받은 날은 '보류'(held).
  *
  * 사용: npx tsx pipeline/src/bokjiro/ingest.ts [--list-only] [--refresh-lists]
  */
@@ -54,8 +56,41 @@ function readBudget(): Budget {
   } catch { /* 없음 */ }
   return { date: today(), central: 0, local: 0 };
 }
-function canSpend(kind: Kind) {
-  return readBudget()[kind] < API[kind].budget;
+function canSpend(kind: Kind, reserve = 0) {
+  return readBudget()[kind] < API[kind].budget - reserve;
+}
+
+/** 상세를 받을 때 남겨 둘 목록 호출 수: 지난번 목록 쪽수 (최소 1) — 같은 날 다시 돌려도 목록은 새로 받을 수 있게 */
+export const listReserve = (pages: number) => Math.max(1, pages);
+
+/** 우리 하루 예산이 떨어진 것은 '보류', 나머지는 '오류' */
+export const errorStatus = (code: string) => (code === "BUDGET" ? "held" : "error");
+
+/** 다시 받을 상세: 목록 내용이 바뀌었고 상세가 이미 있는 것 + 예전 표시 중 아직 목록에 있는 것 (새 서비스는 상세가 없어 어차피 받는다) */
+export function nextStale(before: Map<string, string>, after: Map<string, string>, hasDetail: (id: string) => boolean, prev: Set<string>): Set<string> {
+  const out = new Set([...prev].filter((id) => after.has(id)));
+  for (const [id, fp] of after) if (before.has(id) && before.get(id) !== fp && hasDetail(id)) out.add(id);
+  return out;
+}
+
+/** 받을 상세 순서: 다시 받을 것(바뀐 것) 먼저, 그다음 아직 없는 것 — 목록 순서대로 */
+export function detailQueue(ids: string[], hasDetail: (id: string) => boolean, stale: Set<string>): { queue: string[]; cached: number } {
+  const again = ids.filter((id) => stale.has(id) && hasDetail(id));
+  const missing = ids.filter((id) => !hasDetail(id));
+  return { queue: [...again, ...missing], cached: ids.length - again.length - missing.length };
+}
+
+const stalePath = (kind: Kind) => path.join(RAW, kind, "stale.json");
+function readStale(kind: Kind): Set<string> {
+  try {
+    return new Set(JSON.parse(fs.readFileSync(stalePath(kind), "utf8")));
+  } catch {
+    return new Set();
+  }
+}
+function writeStale(kind: Kind, ids: Set<string>) {
+  fs.mkdirSync(path.dirname(stalePath(kind)), { recursive: true });
+  fs.writeFileSync(stalePath(kind), JSON.stringify([...ids].sort()));
 }
 function spend(kind: Kind) {
   const b = readBudget();
@@ -124,23 +159,37 @@ async function fetchList(kind: Kind, key: string, fresh = false) {
 async function fetchDetails(kind: Kind, ids: string[], key: string) {
   const dir = path.join(RAW, kind, "detail");
   fs.mkdirSync(dir, { recursive: true });
-  let fetched = 0, cached = 0;
-  for (const id of ids) {
-    const file = path.join(dir, `${id}.xml`);
-    if (fs.existsSync(file)) { cached++; continue; }
-    if (!canSpend(kind)) break;
-    const xml = await call(kind, API[kind].detail(id), key);
-    fs.writeFileSync(file, xml);
-    fetched++;
-    await sleep(250);
+  const has = (id: string) => fs.existsSync(path.join(dir, `${id}.xml`));
+  const stale = readStale(kind);
+  const { queue, cached } = detailQueue(ids, has, stale);
+  const reserve = listReserve(fs.existsSync(path.join(RAW, kind, "list")) ? fs.readdirSync(path.join(RAW, kind, "list")).length : 0);
+  let fetched = 0;
+  try {
+    for (const id of queue) {
+      if (!canSpend(kind, reserve)) break;
+      const xml = await call(kind, API[kind].detail(id), key);
+      fs.writeFileSync(path.join(dir, `${id}.xml`), xml);
+      stale.delete(id);
+      fetched++;
+      await sleep(250);
+    }
+  } finally {
+    writeStale(kind, stale);
   }
-  return { fetched, cached, remaining: ids.length - fetched - cached };
+  return { fetched, cached, remaining: queue.length - fetched, stale: stale.size };
 }
 
 export function readList(kind: Kind): Record<string, string>[] {
   const dir = path.join(RAW, kind, "list");
   if (!fs.existsSync(dir)) return [];
   return fs.readdirSync(dir).sort().flatMap((f) => parseXml(fs.readFileSync(path.join(dir, f), "utf8")).wantedList?.servList ?? []);
+}
+/** 원천이 알려 준 목록 전체 건수 (첫 쪽) */
+export function listTotalCount(kind: Kind): number | undefined {
+  const f = path.join(RAW, kind, "list", "page-0001.xml");
+  if (!fs.existsSync(f)) return undefined;
+  const t = parseXml(fs.readFileSync(f, "utf8")).wantedList?.totalCount;
+  return t === undefined ? undefined : Number(t);
 }
 export function readDetail(kind: Kind, id: string): XmlNode | null {
   const f = path.join(RAW, kind, "detail", `${id}.xml`);
@@ -165,11 +214,10 @@ async function main() {
       const list = await fetchList(kind, key, refresh);
       const s: Record<string, unknown> = { list: list.length };
       if (before) {
-        // 목록 내용이 바뀌었거나 새로 생긴 서비스는 상세를 다시 받는다 (캐시를 지우면 아래에서 예산 안에서 다시 받음)
-        const after = listFingerprints(kind);
-        const stale = [...after].filter(([id, fp]) => before.get(id) !== fp).map(([id]) => id);
-        for (const id of stale) fs.rmSync(path.join(RAW, kind, "detail", `${id}.xml`), { force: true });
-        s.refreshed = stale.length;
+        // 목록 내용이 바뀐 서비스는 상세를 다시 받는다 (어제 상세는 지우지 않고 '다시 받을 것'으로 표시 → 아래에서 먼저 받음)
+        const stale = nextStale(before, listFingerprints(kind), (id) => fs.existsSync(path.join(RAW, kind, "detail", `${id}.xml`)), readStale(kind));
+        writeStale(kind, stale);
+        s.refreshed = stale.size;
       }
       if (!process.argv.includes("--list-only")) {
         const prio = (r: Record<string, string>) =>
@@ -180,7 +228,7 @@ async function main() {
       status[kind] = { status: "ok", ...s };
     } catch (e) {
       const err = e as ApiError;
-      status[kind] = { status: "error", httpStatus: err.httpStatus, code: err.code, message: String(err.message).split(key).join("[KEY]") };
+      status[kind] = { status: errorStatus(err.code), httpStatus: err.httpStatus, code: err.code, message: String(err.message).split(key).join("[KEY]") };
     }
   }
   status.budget = readBudget();

@@ -1,6 +1,6 @@
 /** (2026-10-22) 매일 변경 감지: 어제·오늘 원천을 비교해 추가·변경·삭제를 세고, 이상하면 경고 (배포 전 점검) */
 import { describe, expect, it } from "vitest";
-import { compareSnapshots, fingerprint, gateCheck, summarize, type SourceReport } from "../src/refresh/diff";
+import { compareSnapshots, fieldCounts, fingerprint, gateCheck, menuDrift, missingFields, summarize, type SourceReport } from "../src/refresh/diff";
 import { GOV24_NOISE } from "../src/gov24/ingest";
 
 describe("fingerprint: 같은 내용이면 같은 지문, 조회수 같은 잡음은 무시", () => {
@@ -58,6 +58,71 @@ describe("gateCheck: 배포 전 점검", () => {
   });
   it("처음 수집(이전 0건)은 감소로 보지 않음", () => {
     expect(gateCheck([{ ...ok, previous: 0 }]).ok).toBe(true);
+  });
+});
+
+describe("gateCheck 보강 (2026-10-22 첫 실행 뒤 보완)", () => {
+  const ok: SourceReport = { source: "gov24", status: "ok", total: 10_000, previous: 10_000, added: [], removed: [], changed: [] };
+  const many = (n: number) => Array.from({ length: n }, (_, i) => String(i));
+  it("하루에 30% 넘게 '변경'이면 경고 (조회수 같은 잡음을 잡는다)", () => {
+    const g = gateCheck([{ ...ok, changed: many(3_100) }]);
+    expect(g.ok).toBe(false);
+    expect(g.warnings[0]).toContain("31%");
+    expect(gateCheck([{ ...ok, changed: many(2_900) }]).ok).toBe(true);
+  });
+  it("처음 수집(이전 0건)은 변경 비율을 보지 않음", () => {
+    expect(gateCheck([{ ...ok, previous: 0, changed: many(10_000) }]).ok).toBe(true);
+  });
+  it("원천이 알려 준 전체 건수와 받은 건수가 다르면 경고", () => {
+    const g = gateCheck([{ ...ok, expected: 10_012 }]);
+    expect(g.ok).toBe(false);
+    expect(g.warnings[0]).toContain("10,012");
+    expect(gateCheck([{ ...ok, expected: 10_000 }]).ok).toBe(true);
+  });
+  it("원천 칸이 사라지면 경고", () => {
+    const g = gateCheck([{ ...ok, schemaMissing: ["지원내용"] }]);
+    expect(g.ok).toBe(false);
+    expect(g.warnings[0]).toContain("지원내용");
+  });
+  it("메뉴판: 바뀌지 않은 PDF의 표 결과가 달라지면 경고", () => {
+    const g = gateCheck([{ ...ok, source: "mohw", drift: 3 }]);
+    expect(g.ok).toBe(false);
+    expect(g.warnings[0]).toContain("3개");
+    expect(gateCheck([{ ...ok, source: "mohw", drift: 0 }]).ok).toBe(true);
+  });
+  it("호출 한도로 '보류'는 하루는 통과, 이틀 연속이면 경고", () => {
+    const held: SourceReport = { ...ok, source: "bokjiro-local", status: "held", detail: "일일 호출 예산 소진" };
+    expect(gateCheck([held]).ok).toBe(true);
+    expect(gateCheck([held], [{ source: "bokjiro-local", status: "ok" }]).ok).toBe(true);
+    const g = gateCheck([held], [{ source: "bokjiro-local", status: "held" }]);
+    expect(g.ok).toBe(false);
+    expect(g.warnings[0]).toContain("이틀 연속");
+  });
+});
+
+describe("원천 칸 구성 비교", () => {
+  it("칸별 건수", () => {
+    expect(fieldCounts([{ a: 1, b: 2 }, { a: 3 }])).toEqual({ a: 2, b: 1 });
+  });
+  it("전에 1% 넘게 있던 칸이 통째로 없어지면 '사라짐', 드문 칸은 무시", () => {
+    const prev = { servId: 1000, servNm: 1000, lifeArray: 600, rare: 5 };
+    expect(missingFields(prev, { servId: 1000, lifeArray: 590 })).toEqual(["servNm"]);
+    expect(missingFields(prev, { servId: 1000, servNm: 1000, lifeArray: 1 })).toEqual([]);
+    expect(missingFields(undefined, { servId: 1 })).toEqual([]);
+  });
+});
+
+describe("메뉴판 결과 흔들림: 다시 읽지 않은 글의 행이 어제와 다르면 센다", () => {
+  const row = (id: string, name: string) => ({ serviceId: id, name });
+  const before = [row("0075:1:1:1:1", "가"), row("0075:1:1:1:2", "나"), row("0075:2:1:1:1", "다"), row("0080:3:1:1:1", "라")];
+  it("다시 읽은 글(바뀐 PDF)은 빼고, 나머지 글 중 달라진 글 수", () => {
+    const after = [row("0075:1:1:1:1", "가"), row("0075:1:1:1:2", "나 "), row("0075:2:1:1:1", "다2"), row("0080:3:1:1:1", "라")];
+    expect(menuDrift(before, after, new Set(["0075:2:1"]))).toBe(1);
+    expect(menuDrift(before, after, new Set(["0075:1:1", "0075:2:1"]))).toBe(0);
+  });
+  it("목록에서 빠진 글·새 글은 흔들림이 아님", () => {
+    expect(menuDrift(before, before.slice(0, 3), new Set())).toBe(0);
+    expect(menuDrift(before.slice(0, 3), before, new Set())).toBe(0);
   });
 });
 

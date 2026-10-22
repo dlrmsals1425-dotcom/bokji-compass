@@ -1,6 +1,7 @@
 # 매일 변경 감지 (2026-10-22): 공식 원천(정부24·복지로 API, 보건복지부 메뉴판)을 매일 자동으로 확인해
 # 바뀐 것만 받아 data 브랜치에 커밋한다. 커밋 기록 = 수집 이력, _report.json·_history.json = 사이트 '데이터 현황'(/data).
-# 점검(수집 실패·건수 10% 넘게 감소)에 걸리면 실패로 표시되고 저장소 주인에게 알림 메일이 간다.
+# 점검(수집 실패·건수 10% 넘게 감소·하루 30% 넘게 변경·원천 건수 불일치·칸 사라짐·메뉴판 결과 흔들림·이틀 연속 보류)에
+# 걸리면 실패로 표시되고 저장소 주인에게 알림 메일이 간다.
 # 필요한 설정: 저장소 Settings → Secrets and variables → Actions → DATA_GO_KR_SERVICE_KEY (공공데이터포털 디코딩 키)
 name: 데이터 매일 확인
 
@@ -18,7 +19,7 @@ concurrency:
 
 jobs:
   refresh:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04 # 실행 환경 고정 (ubuntu-latest는 2026-10부터 26으로 바뀌는 중)
     timeout-minutes: 120
     steps:
       - name: 코드 받기 (main)
