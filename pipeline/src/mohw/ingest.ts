@@ -38,11 +38,16 @@ const sleep = (ms: number) => new Promise((r) => setTimeout(r, ms));
 const decode = (s: string) => s.replace(/&amp;/g, "&").replace(/&lt;/g, "<").replace(/&gt;/g, ">").replace(/&quot;/g, '"').replace(/&#39;/g, "'");
 const text = (html: string) => decode(html.replace(/<script[\s\S]*?<\/script>/g, " ").replace(/<[^>]+>/g, " ")).replace(/\s+/g, " ").trim();
 
-async function get(url: string): Promise<Response> {
+/** 요청 (세 번까지): 응답 오류뿐 아니라 연결이 끊긴 경우('other side closed', 2026-10-23 매일 확인)도 기다렸다가 다시 시도 */
+export async function get(url: string, f: typeof fetch = fetch, wait: (ms: number) => Promise<unknown> = sleep): Promise<Response> {
   for (let i = 0; i < 3; i++) {
-    const res = await fetch(url, { headers: { "User-Agent": "bokji-compass-pipeline (+https://github.com/yonghwan86/bokji-compass)" } });
-    if (res.ok) return res;
-    await sleep(2000 * (i + 1));
+    try {
+      const res = await f(url, { headers: { "User-Agent": "bokji-compass-pipeline (+https://github.com/yonghwan86/bokji-compass)" } });
+      if (res.ok) return res;
+    } catch {
+      /* 연결 끊김 — 아래에서 기다렸다가 다시 */
+    }
+    await wait(2000 * (i + 1));
   }
   throw new Error(`요청 실패: ${url}`);
 }

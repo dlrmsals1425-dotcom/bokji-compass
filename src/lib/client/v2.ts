@@ -1598,8 +1598,8 @@ export function incomeExplain(manwonValue: number, size: 1 | 2 | 3 | 4 | 5 | 6):
   const marks: [number, string][] = [[32, "생계급여"], [40, "의료급여"], [48, "주거급여"], [50, "차상위·교육급여"]];
   const under = marks.filter(([m]) => pct <= m).map(([, l]) => l);
   const line = under.length
-    ? `${size}인 가구 기준중위소득의 약 ${pct}% — ${under.join("·")} 소득 기준 안이에요.`
-    : `${size}인 가구 기준중위소득의 약 ${pct}% — 기초생활보장·차상위 소득 기준(50%)보다 높아요.`;
+    ? `${size}인 가구 기준 중위소득의 약 ${pct}% — ${under.join("·")} 소득 기준 안이에요.`
+    : `${size}인 가구 기준 중위소득의 약 ${pct}% — 기초생활보장·차상위 소득 기준(50%)보다 높아요.`;
   return { band, pct, line };
 }
 
@@ -1783,8 +1783,8 @@ export function answerText(field: Leaf["field"] | "gate", sit: Situation, leaf?:
   const x = inferExtras(sit);
   const size = sizeOf(p);
   const income = () => {
-    if (sit.x.incomeManwon !== null) return `월 ${sit.x.incomeManwon.toLocaleString("ko-KR")}만원${size ? ` (${size}인 가구 기준중위소득의 약 ${Math.round((sit.x.incomeManwon * 1e6) / medianWon(100, size))}%)` : ""}`;
-    return p.income === "unknown" ? undefined : `기준중위소득 ${p.income}% 이하 구간`;
+    if (sit.x.incomeManwon !== null) return `월 ${sit.x.incomeManwon.toLocaleString("ko-KR")}만원${size ? ` (${size}인 가구 기준 중위소득의 약 ${Math.round((sit.x.incomeManwon * 1e6) / medianWon(100, size))}%)` : ""}`;
+    return p.income === "unknown" ? undefined : `기준 중위소득 ${p.income}% 이하 구간`;
   };
   const support = () => {
     const rec = RECIPIENT_KINDS.filter((k) => x.benefits[k] === true);

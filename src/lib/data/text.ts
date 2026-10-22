@@ -104,12 +104,38 @@ export function tidyLaw(s: string): string {
     .trim();
 }
 
-/** 문의처: 원문의 '/-'(전화번호 없음 표시)를 지운다. 전화번호 안의 '-'는 그대로 */
+/**
+ * 문의처: 원문의 '/-'(전화번호 없음 표시)를 지운다. 전화번호 안의 '-'는 그대로.
+ * 부서명 자리에 같은 번호가 들어가 '1644-6621 ☎ 1644-6621'처럼 겹치면 하나만 (2026-10-23 외부 재점검)
+ */
 export function tidyContact(s: string): string {
   return s
     .split("\n")
-    .map((line) => line.replace(/\s*\/\s*-\s*(?=$|\/)/g, "").replace(/^\s*-\s*$/, "").trim())
+    .map((line) =>
+      line
+        .replace(/\s*\/\s*-\s*(?=$|\/)/g, "")
+        .replace(/^\s*-\s*$/, "")
+        .replace(/^\s*([\d-]{4,})\s*☎\s*\1\s*$/, "☎ $1")
+        .trim(),
+    )
     .join("\n")
+    .trim();
+}
+
+/** 관련 주제: '보육·교육'처럼 묶은 주제가 있으면 그 부분('보육'·'교육')은 다시 쓰지 않는다 (2026-10-23 외부 재점검) */
+export function relatedTags(tags: readonly string[]): string[] {
+  const all = [...new Set(tags.flatMap((x) => x.split("||")).map((x) => x.trim()).filter(Boolean))];
+  const parts = new Set(all.filter((t) => t.includes("·")).flatMap((t) => t.split("·")));
+  return all.filter((t) => t.includes("·") || !parts.has(t));
+}
+
+/** 원문 인용 한 줄: 글머리표('○' 등)를 가운뎃점으로 (맨 앞은 지움) — 원문 낱말은 그대로 (2026-10-23 외부 재점검) */
+export function tidyQuote(s: string): string {
+  return s
+    .replace(/\s*[○●◦❍□■▪◆◇•]\s*/g, " · ")
+    .replace(/:\s*·\s*/g, ": ")
+    .replace(/^\s*·\s*/, "")
+    .replace(/\s{2,}/g, " ")
     .trim();
 }
 

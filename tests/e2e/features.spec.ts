@@ -85,7 +85,7 @@ test.describe("방문처별 준비물 한 장", () => {
     await expect(center.getByTestId("vs-staff")).toContainText("신청(자격 확인 포함)하러 오셨어요");
     // 서비스 번호(정부24·복지로)와 원문 대상·근거가 혜택마다
     await expect(sheet.locator(".vs-ref").filter({ hasText: /(정부24|복지로) 서비스 [A-Z0-9]+/ }).first()).toBeVisible();
-    await expect(sheet.locator(".vs-line").filter({ hasText: /^대상\(원문\): / }).first()).toBeVisible();
+    await expect(sheet.locator(".vs-line").filter({ hasText: /^대상\(원문\) — / }).first()).toBeVisible();
     await expect(sheet.locator(".vs-line").filter({ hasText: /소관 / }).first()).toBeVisible();
     // 다른 곳(보건소)의 혜택은 주민센터 장에 섞이지 않는다
     const health = places.filter({ hasText: "가까운 보건소" });

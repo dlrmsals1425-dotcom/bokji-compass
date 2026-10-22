@@ -35,11 +35,11 @@ test("P2-5·6 상세: 문의처의 '/-'와 법령의 '제0항'·'조의0'을 보
   await expect(page.locator("main")).not.toContainText(/제0항|조의0/);
 });
 
-test("P3-7·13 검색 지역 고르기: '중앙부처 사업만'·'시·군·구 고르지 않음', 범위 안내도 같은 말", async ({ page }) => {
+test("P3-7·13 검색 지역 고르기: '전국 사업만 (중앙부처·공공기관)'·'시·군·구 고르지 않음', 범위 안내도 같은 말 (10-23 재점검 P1: 공공기관 사업도 들어 있어 이름을 맞춤)", async ({ page }) => {
   await page.goto("/search?q=" + encodeURIComponent("국가건강검진"));
   const sido = page.locator("select").first();
-  await expect(sido.locator("option").first()).toHaveText("중앙부처 사업만");
-  await expect(page.getByText(/검색 범위: 중앙부처 사업/)).toBeVisible({ timeout: 20_000 });
+  await expect(sido.locator("option").first()).toHaveText("전국 사업만 (중앙부처·공공기관)");
+  await expect(page.getByText(/검색 범위: 전국 사업/)).toBeVisible({ timeout: 20_000 });
   await sido.selectOption("41000");
   await expect(page.locator("select").nth(1).locator("option").first()).toHaveText("시·군·구 고르지 않음");
 });

@@ -1,6 +1,6 @@
 /** (2026-10-17) 통합돌봄 메뉴판을 보건복지부 원문에서 직접 — 목록 읽기, 복지제도100 고정본 */
 import { describe, expect, it } from "vitest";
-import { parseList } from "../src/mohw/ingest";
+import { get, parseList } from "../src/mohw/ingest";
 import { loadWelfare100 } from "../src/sources/welfare100";
 import { RegionIndex } from "../src/normalize/regions";
 
@@ -31,5 +31,19 @@ describe("복지제도100 고정본", () => {
     expect(recs).toHaveLength(100);
     expect(new Set(recs.map((r) => r.source))).toEqual(new Set(["welfare100"]));
     expect(recs.find((r) => r.name === "보육료 지원")?.scope).toBe("national");
+  });
+});
+
+describe("보건복지부 누리집 요청 다시 시도 (2026-10-23 매일 확인: 'other side closed'로 연결이 끊겨 전체 실패)", () => {
+  const ok = () => new Response("ok", { status: 200 });
+  it("연결이 끊기면(예외) 기다렸다가 다시 시도", async () => {
+    let n = 0;
+    const f = async () => { if (n++ < 2) throw new TypeError("fetch failed"); return ok(); };
+    expect(await (await get("https://www.mohw.go.kr/x", f, async () => {})).text()).toBe("ok");
+    expect(n).toBe(3);
+  });
+  it("세 번 모두 실패하면 오류", async () => {
+    const f = async () => { throw new TypeError("fetch failed"); };
+    await expect(get("https://www.mohw.go.kr/x", f, async () => {})).rejects.toThrow("요청 실패");
   });
 });

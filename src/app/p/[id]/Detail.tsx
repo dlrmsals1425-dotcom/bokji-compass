@@ -14,7 +14,8 @@ import { checkPath, type FindMode } from "@/lib/client/mode";
 import { dateLabel, periodEnded } from "@/lib/client/period";
 import { BUCKET_LABEL, DIM_BY_ID, answersFor, classifyOne, dimAvailable, dimsFor, explainItem, incomeExplain, plainLine, type ExplainLine, type Situation, type V2Item } from "@/lib/client/v2";
 import { SOURCE_LABEL, ORG_TYPE_LABEL, type LocalOperation, type Program } from "@/lib/data/types";
-import { blocksLength, normalizeText, textBlocks, type TextBlock } from "@/lib/data/text";
+import { blocksLength, normalizeText, relatedTags, textBlocks, tidyQuote, type TextBlock } from "@/lib/data/text";
+import { inSheet, readMarks, readPicks, toggleMark, writeMarks, type Marks } from "@/lib/client/sheetMarks";
 import { excludedSourceReason, externalFormUrl } from "@/lib/data/formPublication";
 const SECTIONS = [
   { id: "sec-target", label: "지원대상" },
@@ -59,6 +60,9 @@ export function Detail({ id }: { id: string }) {
   const [program, setProgram] = useState<Program | null | undefined>(undefined);
   const [ops, setOps] = useState<LocalOperation[]>([]);
   const [copied, setCopied] = useState(false);
+  // (2026-10-23 외부 재점검) 상세 화면에서도 신청 서류 모음에 담기·빼기 — 결과 화면과 같은 상태 (이 탭에만, 사업 id만)
+  const [marks, setMarks] = useState<Marks>(() => readMarks());
+  const [picks] = useState<string[] | null>(() => readPicks());
 
   useEffect(() => {
     let alive = true;
@@ -182,7 +186,7 @@ export function Detail({ id }: { id: string }) {
                   : p.applyType === "auto"
                     ? "대상이 되면 따로 신청하지 않아도 자동으로 지급·연계되는 경우가 많습니다. 받고 있지 않다면 문의처나 주민센터에 확인해 보세요."
                     : "기관·학교·시설이 대상자를 추천하거나 선정하는 사업입니다. 해당될 것 같다면 문의처에 확인해 보세요."}
-                {p.applyReason && <span className="muted small"> (근거: {p.applyReason})</span>}
+                {p.applyReason && <span className="muted small"> (근거: {tidyQuote(p.applyReason)})</span>}
               </p>
             )}
           </div>
@@ -260,7 +264,7 @@ export function Detail({ id }: { id: string }) {
               {p.tags?.length ? (
                 <>
                   <dt>관련 주제</dt>
-                  <dd>{[...new Set(p.tags.flatMap((x) => x.split("||")))].join(", ")}</dd>
+                  <dd>{relatedTags(p.tags).join(", ")}</dd>
                 </>
               ) : null}
             </dl>
@@ -439,6 +443,28 @@ export function Detail({ id }: { id: string }) {
           </section>
           <section className="side-box no-print">
             <ul className="link-list">
+              {picks && (
+                <li data-testid="detail-sheet">
+                  {inSheet(p.id, marks, picks) && (
+                    <span className="small">
+                      <Icon name="check" size={16} /> 신청 서류 모음에 있음 ·{" "}
+                    </span>
+                  )}
+                  <button
+                    type="button"
+                    className="link-btn"
+                    aria-label={`${p.name} — ${inSheet(p.id, marks, picks) ? "신청 서류 모음에서 빼기" : "신청 서류 모음에 담기"}`}
+                    onClick={() => {
+                      const next = toggleMark(marks, p.id, !inSheet(p.id, marks, picks), picks);
+                      writeMarks(next);
+                      setMarks(next);
+                    }}
+                    data-testid="detail-sheet-toggle"
+                  >
+                    {inSheet(p.id, marks, picks) ? "빼기" : <><Icon name="listChecks" size={18} /> 신청 서류 모음에 담기</>}
+                  </button>
+                </li>
+              )}
               <li>
                 <button type="button" className="link-btn" onClick={() => window.print()}>
                   <Icon name="printer" size={18} /> 인쇄하거나 PDF로 저장

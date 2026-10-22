@@ -49,3 +49,6 @@ export function closedSince(p: Pick<Program, "due" | "deadline">, now: Date = ne
 
 /** '2026-09-18' → '2026년 9월 18일' */
 export const dateLabel = (d: string) => `${Number(d.slice(0, 4))}년 ${Number(d.slice(5, 7))}월 ${Number(d.slice(8, 10))}일`;
+
+/** 오늘 날짜를 한국 시간으로 ('2026. 10. 23.') — 보는 기기의 시간대와 상관없이 (2026-10-23 외부 재점검: 서류 모음 날짜가 하루 어긋남) */
+export const kstDate = (d: Date = new Date()) => d.toLocaleDateString("ko-KR", { timeZone: "Asia/Seoul" });

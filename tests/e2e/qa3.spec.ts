@@ -65,7 +65,7 @@ test.describe("QA 3차 검색", () => {
     await toResults(page, "용인 수지 사는 30대 맞벌이 부부고 돌 안 된 아기 하나 있어요");
     await page.goto("/search?q=" + encodeURIComponent("출산지원금"));
     await expect(page.getByTestId("search-no-region")).toHaveCount(0);
-    await expect(page.getByText(/검색 범위: 중앙부처 사업 \+ 경기/)).toBeVisible({ timeout: 20_000 });
+    await expect(page.getByText(/검색 범위: 전국 사업 \+ 경기/)).toBeVisible({ timeout: 20_000 });
   });
 });
 

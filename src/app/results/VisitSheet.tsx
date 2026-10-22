@@ -9,6 +9,7 @@ import { createPortal, flushSync } from "react-dom";
 import { Icon } from "@/components/Icon";
 import { buildVisitSheet, SHEET_STATUS, type SheetEntry, type SheetPlace } from "@/lib/client/visit";
 import { renderSheetPng } from "@/lib/client/sheetImage";
+import { kstDate } from "@/lib/client/period";
 
 const fileOf = (i: number) => `복지나침반-준비물-${i + 1}.png`;
 /** 문의 문구에서 전화번호만 ('한부모상담전화 1577-4206' → '15774206'). 번호가 없으면 null */
@@ -48,7 +49,7 @@ function PlacePage({ pl, i, n, region, date, forPrint, actions }: { pl: SheetPla
             <strong>{p.name}</strong>
             {p.staff.ref && <span className="vs-ref"> · {p.staff.ref}</span>}
             {p.staff.what && <span className="vs-line">{p.staff.what}</span>}
-            {p.staff.target && <span className="vs-line">대상(원문): {p.staff.target}</span>}
+            {p.staff.target && <span className="vs-line">대상(원문) — {p.staff.target}</span>}
             {p.staff.basis && <span className="vs-line">{p.staff.basis}</span>}
             <span className="vs-sub">{[SHEET_STATUS[p.bucket], ...p.also].join(" · ")}</span>
           </li>
@@ -108,7 +109,8 @@ function PlacePage({ pl, i, n, region, date, forPrint, actions }: { pl: SheetPla
 
 export function VisitSheet({ entries, region, sido, loading, extra, teen, onClose }: { entries: SheetEntry[]; region: string; sido?: string | null; loading: boolean; extra: number; teen?: boolean; onClose: () => void }) {
   const places = useMemo(() => buildVisitSheet(entries, sido), [entries, sido]);
-  const date = useMemo(() => new Date().toLocaleDateString("ko-KR"), []);
+  // 한국 시간 기준 (보는 기기의 시간대와 상관없이 — 2026-10-23 외부 재점검)
+  const date = useMemo(() => kstDate(), []);
   // 이 컴포넌트는 사용자가 버튼을 눌러야 열리므로(클라이언트에서만 렌더) 초기값에서 바로 확인한다
   const [canShare] = useState(() => {
     try {

@@ -96,7 +96,8 @@ export function Search() {
     ...HOUSEHOLD.filter((f) => sel.house.includes(f.id)).map((f) => ({ group: "house" as const, id: f.id, label: f.label })),
     ...sel.topic.map((c) => ({ group: "topic" as const, id: c, label: c })),
   ];
-  const scope = `중앙부처 사업${sido ? ` + ${sidoObj?.name ?? ""}` : ""}${sigungu ? ` + ${sidoObj?.sigungus.find((g) => g.code === sigungu)?.name ?? ""}` : ""}`;
+  // (2026-10-23 외부 재점검 P1) 지역을 고르지 않으면 전국 사업(중앙부처·공공기관) — '중앙부처'만이라고 하면 공공기관 사업(건설근로자공제회 등)과 어긋남
+  const scope = `전국 사업${sido ? ` + ${sidoObj?.name ?? ""}` : ""}${sigungu ? ` + ${sidoObj?.sigungus.find((g) => g.code === sigungu)?.name ?? ""}` : ""}`;
 
   return (
     <div className="wrap page">
@@ -168,7 +169,7 @@ export function Search() {
               시·도
             </label>
             <select id="s-sido" className="select" value={chosenSido ?? ""} onChange={(e) => choose({ sido: e.target.value || null, sigungu: null })}>
-              <option value="">중앙부처 사업만</option>
+              <option value="">전국 사업만 (중앙부처·공공기관)</option>
               {regions?.sidos.map((s) => (
                 <option key={s.code} value={s.code}>
                   {sidoOptionLabel({ code: s.code, name: s.name })}
@@ -233,7 +234,7 @@ export function Search() {
         <p className="notice search-hint" data-testid="search-auto-region" role="note">
           <Icon name="mapPin" size={18} />
           <span>
-            검색어에서 찾은 지역: <strong>{scope.replace(/^중앙부처 사업 \+ /, "")}</strong>
+            검색어에서 찾은 지역: <strong>{scope.replace(/^전국 사업 \+ /, "")}</strong>
           </span>
         </p>
       )}

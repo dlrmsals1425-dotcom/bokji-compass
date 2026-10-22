@@ -62,6 +62,8 @@ export function GuidedFlow({ easy = false }: { easy?: boolean } = {}) {
   const [where, setWhere] = useState<Where | null>(null);
   const [cur, setCur] = useState<Snap | null>(null);
   const [history, setHistory] = useState<Past[]>([]);
+  /** '이전'으로 돌아온 질문에서 지난번에 고른 답 (2026-10-23 외부 재점검: 돌아가면 고른 답이 표시되지 않음) */
+  const [prevPick, setPrevPick] = useState<string | null>(null);
   // '질문 더 답하기'를 누르면 5개를 넘겨 정해지는 혜택이 남는 동안 계속 묻는다
   const [extra, setExtra] = useState(false);
   const [rareOn, setRareOn] = useState<DimId[]>([]);
@@ -182,6 +184,7 @@ export function GuidedFlow({ easy = false }: { easy?: boolean } = {}) {
     const sit = sit2 ?? cur.sit;
     const st = sit2 ? flowStep(cur.st.pool, sit, cur.st) : cur.st;
     setHistory((h) => [...h, { snap: cur, phase: "ask" }]);
+    setPrevPick(null);
     advance({ sit, st, asked, q: null, picks: [...cur.picks, { q: cur.q, label }], taps: cur.taps + used }, extra);
     setBusy(false);
   };
@@ -193,6 +196,7 @@ export function GuidedFlow({ easy = false }: { easy?: boolean } = {}) {
       return;
     }
     setHistory((h) => h.slice(0, -1));
+    setPrevPick(cur?.picks.findLast((x) => x.q === prev.snap.q)?.label ?? null);
     setCur(prev.snap);
     // 지나온 화면 그대로 — 질문이 없는 단계를 질문 화면으로 열지 않는다
     const ph = prev.phase === "ask" && !prev.snap.q ? (!easy && rarePicks(prev.snap.sit).length ? "rare" : "done") : prev.phase;
@@ -424,7 +428,7 @@ export function GuidedFlow({ easy = false }: { easy?: boolean } = {}) {
               easy ? (
                 <EasyQuestion key={`${cur.q}-${asked}`} id={cur.q} sit={cur.sit} n={asked + 1} extra={extra} busy={busy} headRef={headRef} onAnswer={answer} say={say} />
               ) : (
-                <Question key={`${cur.q}-${asked}`} id={cur.q} sit={cur.sit} mode={mode} n={asked + 1} extra={extra} busy={busy} headRef={headRef} onAnswer={answer} say={say} />
+                <Question key={`${cur.q}-${asked}`} id={cur.q} sit={cur.sit} mode={mode} n={asked + 1} extra={extra} busy={busy} headRef={headRef} onAnswer={answer} say={say} picked={prevPick} />
               )
             )}
 
@@ -545,8 +549,10 @@ function Question(props: {
   headRef: React.RefObject<HTMLHeadingElement | null>;
   onAnswer: (s: Situation | null, label: string) => void;
   say: (t: string) => string;
+  /** 지난번에 고른 답 ('이전'으로 돌아왔을 때) */
+  picked?: string | null;
 }) {
-  const { id, sit, mode, n, extra, busy, headRef, onAnswer, say } = props;
+  const { id, sit, mode, n, extra, busy, headRef, onAnswer, say, picked } = props;
   const d = FLOW_DIM_BY_ID[id];
   const opts = flowAnswers(d, sit);
   return (
@@ -575,7 +581,7 @@ function Question(props: {
           <div className={styles.questionControls}>
             <div className="gq-opts" role="group" aria-label="답">
               {opts.map((a) => (
-                <button type="button" className="gq-opt" key={a.key} disabled={busy} onClick={() => onAnswer(a.apply(sit), a.label)} data-testid={`gq-a-${a.key}`}>
+                <button type="button" className={`gq-opt${picked === a.label ? " on" : ""}`} aria-pressed={picked === a.label} key={a.key} disabled={busy} onClick={() => onAnswer(a.apply(sit), a.label)} data-testid={`gq-a-${a.key}`}>
                   {a.label}
                 </button>
               ))}
