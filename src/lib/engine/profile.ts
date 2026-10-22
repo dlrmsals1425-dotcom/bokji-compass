@@ -48,6 +48,8 @@ export type DisabilitySeverity = (typeof DISABILITY_SEVERITY)[number];
 export type Unknown = "unknown";
 
 export interface Profile {
+  /** 함께 사는 배우자 (판정 화면 문구용, 입력 답에서 옮겨 옴 — 저장하지 않음). 없음 = 모름 */
+  spouse?: boolean;
   /** 1. 거주지 (필수): 시도 코드 + 시군구 코드 */
   sido: string | null;
   sigungu: string | null;

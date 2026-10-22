@@ -45,6 +45,8 @@ export interface Extras {
   ageSpan?: [number, number] | null;
   /** 문장에서 말한 관심 주제 (예: '기초연금 받고 싶어요' → basic_pension) — 순위만 올린다 (QA 2차 H1·N3) */
   interests?: TopicId[];
+  /** 함께 사는 배우자 (2026-10-23 외부 의견) — 기초연금 부부 기준은 이때만. 없음 = 모름 */
+  spouse?: boolean;
   /** 부모님 두 분의 나이대가 다를 때 다른 분 (결과 화면 '다른 분 기준으로 보기' — QA 2차 M7) */
   otherAge?: { band: Exclude<Profile["age"], "unknown">; label: string } | null;
 }
@@ -145,6 +147,7 @@ export function toEval(s: Situation, strict = false): { profile: Profile; opts: 
       income,
       benefits: bKnown.length ? BENEFITS.filter((b) => x.benefits[b] === true) : null,
       traits: tKnown.length ? HOUSEHOLD_TRAITS.filter((t) => traitsMap[t] === true) : null,
+      ...(x.spouse !== undefined ? { spouse: x.spouse } : {}),
     },
     opts: {
       facts, factPatterns: FACT_PATTERNS, withLeaf: true, strictSoft: strict,
@@ -488,8 +491,11 @@ export const DIMS: Dim[] = [
     help: "소득 기준(기준 중위소득)과 1인 가구 혜택이 이 답으로 정해져요.",
     isUnknown: (s) => s.profile.householdSize === "unknown",
     answers: [
-      { key: "yes", label: "1명 (혼자)", apply: (s) => withP(s, { householdSize: 1 }) },
-      ...([2, 3, 4, 5] as const).map((n) => ({ key: String(n), label: `${n}명`, apply: (s: Situation) => withP(s, { householdSize: n }) })),
+      { key: "yes", label: "1명 (혼자)", apply: (s) => withX(withP(s, { householdSize: 1 }), { spouse: false }) },
+      // (2026-10-23 외부 의견) 2명은 부부인지에 따라 기초연금 기준(단독·부부)이 달라 나눠 묻는다
+      { key: "2s", label: "2명 · 부부", apply: (s) => withX(withP(s, { householdSize: 2 }), { spouse: true }) },
+      { key: "2o", label: "2명 · 부부 아님 (자녀 등과)", apply: (s) => withX(withP(s, { householdSize: 2 }), { spouse: false }) },
+      ...([3, 4, 5] as const).map((n) => ({ key: String(n), label: `${n}명`, apply: (s: Situation) => withP(s, { householdSize: n }) })),
       { key: "6", label: "6명 이상", apply: (s) => withP(s, { householdSize: 6 }) },
     ],
   },
@@ -1159,9 +1165,20 @@ export const isBasicPension = (p: Program) => /^기초\s*연금$/.test(p.name.tr
 export function pensionLikely(s: Situation): boolean {
   if (s.profile.age === "unknown" || ageRange(s.profile.age)[0] < 65) return false;
   if (inferExtras(s).benefits.basic_pension === true) return false;
-  if (s.x.incomeManwon === null) return false;
-  const t = s.profile.householdSize === "unknown" || s.profile.householdSize === 1 ? BASIC_PENSION_THRESHOLD_2026.single : BASIC_PENSION_THRESHOLD_2026.couple;
+  const t = pensionBasis(s);
+  if (s.x.incomeManwon === null || t === null) return false;
   return s.x.incomeManwon * 10000 <= t * 0.7;
+}
+/**
+ * 기초연금 선정기준액과 견줄 수 있는 가구 소득인지 (2026-10-23 외부 의견: 성인 자녀와 둘이 사는 가구를 부부로 봄).
+ * 기초연금은 본인과 배우자의 소득·재산만 본다 — 가구 소득에 자녀 등 다른 가족 소득이 섞였으면 견주지 않는다(null).
+ * 혼자(또는 가구원 수 모름) → 단독 기준, 배우자와 둘 → 부부 기준.
+ */
+function pensionBasis(s: Situation): number | null {
+  const size = s.profile.householdSize;
+  if (size === 1 || (size === "unknown" && s.x.spouse !== true)) return BASIC_PENSION_THRESHOLD_2026.single;
+  if (s.x.spouse === true && (size === 2 || size === "unknown")) return BASIC_PENSION_THRESHOLD_2026.couple;
+  return null;
 }
 /**
  * 기초연금을 받으실 수도 있음 (QA 2차 H1): 만 65세 이상, 아직 안 받음(또는 모름), 소득을 모르거나 선정기준액 이하.
@@ -1171,8 +1188,10 @@ export function pensionPossible(s: Situation): boolean {
   const b = ageBoundsOf(s);
   if (!b || b[0] < 65) return false;
   if (inferExtras(s).benefits.basic_pension === true) return false;
+  const t = pensionBasis(s);
+  // 가구 소득에 자녀 등 다른 가족 소득이 섞였으면 소득으로는 가능성을 닫지 않는다
+  if (t === null) return true;
   if (s.x.incomeManwon === null) return s.profile.income === "unknown" || incomeRange(s.profile.income)[0] < 100;
-  const t = s.profile.householdSize === "unknown" || s.profile.householdSize === 1 ? BASIC_PENSION_THRESHOLD_2026.single : BASIC_PENSION_THRESHOLD_2026.couple;
   return s.x.incomeManwon * 10000 <= t;
 }
 /** 기초연금을 말함 ('기초연금 받고 싶어요') + 아직 안 받음 + 65세 미만이 아님 */
@@ -1440,11 +1459,13 @@ export function benefitPlain(any: Benefit[]): string {
 }
 
 /** 2026 기초연금 선정기준액 (소득인정액) */
-export function pensionLine(prof: Profile): string {
+export function pensionLine(prof: Profile, spouse: boolean | undefined = prof.spouse): string {
   const t = BASIC_PENSION_THRESHOLD_2026;
   if (prof.householdSize === 1) return `소득인정액이 월 ${manwon(t.single)} 이하 (혼자 사는 어르신)`;
-  if (prof.householdSize !== "unknown") return `부부 소득인정액이 월 395만 2천원 이하`;
-  return `소득인정액이 월 ${manwon(t.single)}(혼자)·395만 2천원(부부) 이하`;
+  if (spouse === true) return `부부 소득인정액이 월 395만 2천원 이하`;
+  // 기초연금은 본인·배우자 소득만 본다 (2026-10-23 외부 의견)
+  if (spouse === false) return `본인 소득인정액이 월 ${manwon(t.single)} 이하 (함께 사는 자녀 소득은 보지 않아요)`;
+  return `소득인정액이 월 ${manwon(t.single)}(혼자)·395만 2천원(부부) 이하 (함께 사는 자녀 소득은 보지 않아요)`;
 }
 
 function incomeLine(pct: number, prof: Profile): string {
