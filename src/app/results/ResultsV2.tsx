@@ -214,7 +214,7 @@ export function ResultsV2({ profile, mode, quick = false }: { profile: Profile; 
             )}
             {inferredNoRecipient(sit) && (
               <p className="small muted" style={{ marginTop: "0.75rem" }} data-testid="v2-inferred">
-                소득이 기준 중위소득 {LOW_INCOME_PCT}%를 넘어서 기초생활수급(생계·의료·주거·교육급여)·차상위는 아닌 것으로 보고 골랐어요.
+                소득이 {`기준 중위소득 ${LOW_INCOME_PCT}%`}를 넘어서 기초생활수급(생계·의료·주거·교육급여)·차상위는 아닌 것으로 보고 골랐어요.
               </p>
             )}
           </section>
@@ -458,7 +458,7 @@ export function ResultsV2({ profile, mode, quick = false }: { profile: Profile; 
               {!parent && sit.x.interests?.includes("eldercare") && data && <CohabitParent programs={data.programs} sit={sit} />}
             </QuickRefinement> : !askFirst && followUp}
 
-            <BucketList sheet={sheetCtl} id="v2-fit" bucket="fit" title={picks.some((g) => g[0].bucket === "fit") ? `그 밖에 받으실 수 있는 혜택` : "받으실 수 있는 혜택"} lead="답하신 상황으로 공개된 지원 조건이 모두 맞아요." groups={view.fit.filter((g) => !picked.has(g))} sit={sit} mode={mode} />
+            <BucketList sheet={sheetCtl} id="v2-fit" bucket="fit" title={picks.some((g) => g[0].bucket === "fit") ? `그 밖에 받으실 수 있는 혜택` : "받으실 수 있는 혜택"} lead="답하신 상황으로 공개된 지원 조건이 모두 맞아요." groups={view.fit.filter((g) => !picked.has(g))} above={view.fit.length - view.fit.filter((g) => !picked.has(g)).length} sit={sit} mode={mode} />
             <BucketList
               sheet={sheetCtl}
               id="v2-office"
@@ -466,6 +466,7 @@ export function ResultsV2({ profile, mode, quick = false }: { profile: Profile; 
               title="신청할 때 확인이 필요한 혜택"
               lead="입력한 조건은 맞지만, 세부 요건은 신청처 확인이 필요해요."
               groups={view.office.filter((g) => !picked.has(g))}
+              above={view.office.filter((g) => picked.has(g)).length}
               top={OFFICE_TOP}
               sit={sit}
               mode={mode}
@@ -476,6 +477,7 @@ export function ResultsV2({ profile, mode, quick = false }: { profile: Profile; 
               title="질문에 답하면 정해지는 혜택"
               lead="아직 답하지 않은 지원 조건이 있어요."
               groups={view.ask.filter((g) => !picked.has(g))}
+              above={view.ask.filter((g) => picked.has(g)).length}
               sit={sit}
               mode={mode}
               collapsed
@@ -622,11 +624,11 @@ export function ResultsV2({ profile, mode, quick = false }: { profile: Profile; 
             </div>
 
             <p className="small muted v2-foot">
-              기준: 2026년 기준 중위소득·기초연금 선정기준액(보건복지부). 숫자 기준이 없는 &lsquo;저소득&rsquo;은 기준 중위소득 {LOW_INCOME_PCT}% 이하로 봤어요. 실제 선정은 재산을
+              기준: 2026년 기준 중위소득·기초연금 선정기준액(보건복지부). 숫자 기준이 없는 &lsquo;저소득&rsquo;은 {`기준 중위소득 ${LOW_INCOME_PCT}%`} 이하로 봤어요. 실제 선정은 재산을
               포함한 소득인정액으로 신청처에서 정해요. <Link href="/about#v2">판단 기준 자세히 보기</Link>
             </p>
             <p className="small muted v2-foot" data-testid="data-asof">
-              데이터 기준 {new Date(meta.generatedAt).toLocaleDateString("ko-KR", { timeZone: "Asia/Seoul" })} · 공식 원천은 매일 자동으로 확인해요. <Link href="/data">데이터 현황</Link>
+              {`데이터 기준 ${new Date(meta.generatedAt).toLocaleDateString("ko-KR", { timeZone: "Asia/Seoul" })}`} · 공식 원천은 매일 자동으로 확인해요. <Link href="/data">데이터 현황</Link>
             </p>
           </div>
         </div>
@@ -756,9 +758,11 @@ function Pick({ item, i, detail, loading, sit, mode, inSheet, onSheet, onReceivi
 }
 
 function BucketList({
-  id, title, lead, groups, sit, mode, collapsed, top, sheet, action,
+  id, title, lead, groups, sit, mode, collapsed, top, sheet, action, above = 0,
 }: {
   id: string; bucket: Bucket; title: string; lead: string; groups: V2Item[][]; sit: Situation; mode: FindMode; collapsed?: boolean; top?: number; sheet?: SheetCtl; action?: ReactNode;
+  /** 맨 위 추천 혜택으로 올라가 이 목록에서 뺀 개수 — 위쪽 분류별 개수(탭)에는 들어 있다 */
+  above?: number;
 }) {
   // 뒤로 가기로 돌아와도 펼친 '더 보기'를 유지 (QA 3차 M3) — 이 탭 안에서만, 목록 길이만 기억
   const memKey = `bokji-v2-limit-${id}-${groups.length}`;
@@ -777,6 +781,12 @@ function BucketList({
     });
   if (!groups.length) return null;
   const head = `${title} ${groups.length.toLocaleString("ko-KR")}개`;
+  // 탭 개수(164)와 이 목록 개수(163)가 달라 보이던 것 — 맨 위로 올라간 것을 함께 적는다 (2026-10-23 외부 3차 점검)
+  const aboveNote = above > 0 ? (
+    <span className="small muted" data-testid={`${id}-above`}>
+      {" "}· 위 &lsquo;추천 혜택&rsquo;에 {above}개 더
+    </span>
+  ) : null;
   // QA 2차 M1: 수백 개를 한꺼번에 늘어놓지 않고 관련 높은 순 상위 top개를 먼저 보여 준다
   const topNote = top && groups.length > top ? `관련도순 · ${limit}개 표시` : null;
   const body = (
@@ -804,7 +814,7 @@ function BucketList({
       <div className="v2-sec">
         <details className="details" id={id} data-testid={id}>
           <summary>
-            <span className="h3">{head}</span> <Icon name="chevronDown" size={18} />
+            <span className="h3">{head}</span>{aboveNote} <Icon name="chevronDown" size={18} />
           </summary>
           <div className="details-body">{body}</div>
         </details>
@@ -816,6 +826,7 @@ function BucketList({
     <section className="v2-sec" id={id} aria-labelledby={`${id}-h`} data-testid={id}>
       <h2 className="h2" id={`${id}-h`}>
         {head}
+        {aboveNote}
       </h2>
       {body}
     </section>

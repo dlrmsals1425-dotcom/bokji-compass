@@ -8,6 +8,7 @@ export function SiteFooter() {
         <div className={styles.footerTop}>
           <span>복지나침반</span>
           <ul className={styles.footerLinks}>
+            <li><Link href="/search">서비스 검색</Link></li>
             <li><Link href="/about">출처·판정 기준</Link></li>
             <li><Link href="/about#privacy">개인정보</Link></li>
             <li><Link href="/forms">신청 서식</Link></li>

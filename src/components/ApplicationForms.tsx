@@ -114,7 +114,7 @@ export function ApplicationForms({ program, parentMode = false, preferredSigungu
                   {original && <a className={`btn ${preview ? "btn-ghost" : "btn-primary"}`} href={original} target="_blank" rel="noopener noreferrer">법령포털 원본 받기{originalType ? ` (${originalType})` : ""}<span className="sr-only"> (새 창)</span></a>}
                 </div>
                 {writable && <p className="small muted">화면에서 작성하면 원본 서식의 해당 칸에 적은 내용이 들어간 한글 파일을 받을 수 있어요. 서명·날인은 인쇄한 뒤 직접 해야 해요.</p>}
-                <p className={styles.dates}>{basisText(form)} · 연결 확인일 {link.checkedAt}</p>
+                <p className={styles.dates}>{basisText(form)} · {`연결 확인일 ${link.checkedAt}`}</p>
                 <p className={styles.source}><a href={agencySource ?? (original ? lawSource ?? original : externalFormUrl(form.sourceUrl)!)} target="_blank" rel="noopener noreferrer">{original ? "근거 법령 원문" : "공식 서식 원본"}<span className="sr-only"> (새 창)</span></a>{agencySource && lawSource && <> · <a href={lawSource} target="_blank" rel="noopener noreferrer">근거 조례 원문<span className="sr-only"> (새 창)</span></a></>}{agencySource && programGuide && <> · <a href={programGuide} target="_blank" rel="noopener noreferrer">공식 신청 안내<span className="sr-only"> (새 창)</span></a></>}{externalFormUrl(link.evidenceUrl) && <> · <a href={externalFormUrl(link.evidenceUrl)!} target="_blank" rel="noopener noreferrer">신청 근거 확인<span className="sr-only"> (새 창)</span></a></>}</p>
               </li>;
             })}
@@ -140,7 +140,7 @@ export function ApplicationForms({ program, parentMode = false, preferredSigungu
         <p>{INVESTIGATION_NOTE[census.state]}</p>
         {!!attachments.length && <div className={styles.block} data-testid="forms-source-attachments">
           <p className={styles.kind}>공식 안내 페이지에 올라온 자료</p>
-          <p className="small">담당기관이 이 사업 안내 페이지에 올려 둔 자료예요. 원래 제목 그대로 적었어요. 이 사업의 신청서가 맞는지, 다른 서류가 더 필요한지는 확인 중이라 연결을 확인한 신청서로는 올리지 않았어요.</p>
+          <p className="small">담당기관이 이 사업 안내 페이지에 올려 둔 자료예요. 제목은 원래 그대로 적었어요. 이 사업의 신청서가 맞는지, 다른 서류가 더 필요한지 아직 확인하지 못해서 &lsquo;확인한 신청서&rsquo;와 따로 두었어요.</p>
           <ul className={styles.links}>
             {attachments.map(link => <li key={link.url}><a href={publicSourceUrl(link.url)!} target="_blank" rel="noopener noreferrer">{link.title}<span className="sr-only"> (기관 안내 페이지의 자료, 새 창)</span></a>{link.note && <p className="small muted">확인 메모: {link.note}</p>}</li>)}
           </ul>

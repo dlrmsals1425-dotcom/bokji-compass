@@ -10,7 +10,7 @@ import { loadForRegion, loadRegions, type Loaded } from "@/lib/client/bundles";
 import { saveSearchRegion, useExtras, useMode, useProfile, useSearchRegion } from "@/lib/client/storage";
 import { situationOf } from "@/lib/client/start";
 import { classifyOne, plainLine } from "@/lib/client/v2";
-import { evaluateProgram, matchesQuery, nameHitScore, queryHitCount } from "@/lib/client/results";
+import { evaluateProgram, groupByName, matchesQuery, nameHitScore, queryHitCount } from "@/lib/client/results";
 import { isGibberish, queryTokens } from "@/lib/client/query";
 import { CrisisHelp } from "@/components/CrisisHelp";
 import { parseSituation, prefillPath, savePrefill, understoodLine } from "@/lib/client/parse";
@@ -89,6 +89,7 @@ export function Search() {
     const scored = byName(inSel.map((p) => ({ p, n: queryHitCount(p, q, exclude) })).filter((x) => x.n > 0));
     return { hits: scored.map((x) => x.p), partial: scored.length > 0 };
   }, [data, q, sel, active, exclude]);
+  const groups = useMemo(() => groupByName(hits), [hits]);
 
   const sidoObj = regions?.sidos.find((s) => s.code === sido);
   const chosen = [
@@ -270,7 +271,7 @@ export function Search() {
         <>
           <div className="search-count" aria-live="polite">
             <h2>
-              {q.trim() ? <>&lsquo;{q}&rsquo; </> : null}검색 결과 <b>{hits.length.toLocaleString("ko-KR")}</b>개
+              {q.trim() ? <>&lsquo;{q}&rsquo; </> : null}검색 결과 <b>{groups.length.toLocaleString("ko-KR")}</b>개
             </h2>
             <span className="small muted">{scope}</span>
           </div>
@@ -279,7 +280,7 @@ export function Search() {
               전체 검색어와 일치하는 결과가 없어 일부 일치한 혜택을 표시했어요.
             </p>
           )}
-          {hits.length === 0 ? (
+          {groups.length === 0 ? (
             isGibberish(q) ? (
               <p className="empty" data-testid="search-gibberish">
                 검색어를 확인해 주세요. 예: <Link href="/search?q=기초연금">기초연금</Link>, <Link href="/search?q=출산">출산</Link>, <Link href="/search?q=월세">월세</Link>.{" "}
@@ -293,15 +294,21 @@ export function Search() {
             )
           ) : (
             <div className="list">
-              {hits.slice(0, limit).map((p) => (
-                <ProgramCard key={p.id} p={p} judge={sit ? judgeOf(p, sit) : undefined} ev={!sit && profile ? evaluateProgram(p, profile) : undefined} />
+              {groups.slice(0, limit).map(({ lead: p, variants }) => (
+                <ProgramCard
+                  key={p.id}
+                  p={p}
+                  judge={sit ? judgeOf(p, sit) : undefined}
+                  ev={!sit && profile ? evaluateProgram(p, profile) : undefined}
+                  variants={variants.map((v) => ({ p: v }))}
+                />
               ))}
             </div>
           )}
-          {hits.length > limit && (
+          {groups.length > limit && (
             <div className="more-row">
               <button type="button" className="btn btn-ghost" onClick={() => setLimit((l) => l + PAGE)}>
-                더 보기 ({(hits.length - limit).toLocaleString("ko-KR")}개 남음) <Icon name="chevronDown" size={18} />
+                더 보기 ({(groups.length - limit).toLocaleString("ko-KR")}개 남음) <Icon name="chevronDown" size={18} />
               </button>
             </div>
           )}

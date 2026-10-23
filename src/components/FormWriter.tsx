@@ -233,7 +233,7 @@ export function FormWriter({ template, programId }: { template: WritingTemplate;
     <main className={`wrap ${styles.page}`}>
       <Link className={styles.back} href={`/p/${encodeURIComponent(programId!)}`}>← {gate.programName} 상세로 돌아가기</Link>
       <h1 className={styles.title}>{template.title}</h1>
-      <p className={styles.basis}>{gate.programName} · {USE_LABEL[gate.use]} · {template.lawTitle} · 연결 확인일 {gate.checkedAt}</p>
+      <p className={styles.basis}>{gate.programName} · {USE_LABEL[gate.use]} · {template.lawTitle} · {`연결 확인일 ${gate.checkedAt}`}</p>
       {gate.condition && <p className={styles.basis}>{gate.condition}</p>}
       <div className={styles.notice}>
         <p>적은 내용은 이 기기 안에서만 처리하고 외부로 보내지 않아요. 화면을 닫으면 사라지니 작성한 파일을 먼저 내려받아 주세요.</p>
