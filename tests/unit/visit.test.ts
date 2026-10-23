@@ -62,7 +62,7 @@ describe("placeGroup", () => {
     expect(placeGroup("가까운 보건소").key).toBe("health");
     expect(placeGroup("온라인 신청 (한국장학재단)").key).toBe("online");
     expect(placeGroup("따로 신청하지 않아도 돼요").key).toBe("none");
-    expect(placeGroup("담당 기관에 문의 (모르면 ☎129)").key).toBe("agency");
+    expect(placeGroup("담당 기관에 문의 (☎129 안내)").key).toBe("agency");
   });
 });
 

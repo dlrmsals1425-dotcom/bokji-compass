@@ -421,6 +421,26 @@ export function groupVariants(list: Scored[]): Group[] {
   return out;
 }
 
+/**
+ * 검색 목록을 같은 이름(지역 변형·같은 제도 별칭 포함)끼리 접는다. 순서는 그대로, 대표는 먼저 나온 것.
+ * 결과 화면은 묶는데 검색 화면은 정부24·복지로·복지제도100 안내를 따로 늘어놓던 것 (2026-10-23 외부 3차 점검: 햇살론일반 2개 등)
+ */
+export function groupByName(list: readonly Program[]): { lead: Program; variants: Program[] }[] {
+  const map = new Map<string, { lead: Program; variants: Program[] }>();
+  const out: { lead: Program; variants: Program[] }[] = [];
+  for (const p of list) {
+    const key = `${p.scope === "national" ? "n" : "l"}:${variantKey(p.name)}`;
+    const g = map.get(key);
+    if (g) g.variants.push(p);
+    else {
+      const ng = { lead: p, variants: [] };
+      map.set(key, ng);
+      out.push(ng);
+    }
+  }
+  return out;
+}
+
 /** 숨겨진 교육청 서비스 묶음 수 (현재 탭·검색어 기준) */
 export function eduCount(items: Scored[], f: Filters): number {
   return new Set(items.filter((s) => s.program.orgType === "edu_office" && !autoLike(s.program) && s.ev.tier === f.tier && matchesQuery(s.program, f.q) && !industryHidden(s.program, f) && !operatorHidden(s.program, f)).map((s) => s.group)).size;

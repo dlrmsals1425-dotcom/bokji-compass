@@ -122,6 +122,15 @@ export function tidyContact(s: string): string {
     .trim();
 }
 
+/**
+ * 원문 문의처의 보건복지상담센터 번호가 129가 아니면 알린다 (정부24 원문 '보건복지상담센터 /139' — 2026-10-23 외부 3차 점검).
+ * 원문은 고치지 않고 그대로 보여 주고, 옆에 이 문구만 붙인다.
+ */
+export function contactNote(s: string | undefined): string | null {
+  const m = s?.match(/보건복지(?:부)?\s*상담\s*센터\s*[☎/:]?\s*(\d{3,4})(?![\d-])/);
+  return m && m[1] !== "129" ? `보건복지상담센터 번호는 129예요. 원문에는 ${m[1]}번으로 적혀 있어요.` : null;
+}
+
 /** 관련 주제: '보육·교육'처럼 묶은 주제가 있으면 그 부분('보육'·'교육')은 다시 쓰지 않는다 (2026-10-23 외부 재점검) */
 export function relatedTags(tags: readonly string[]): string[] {
   const all = [...new Set(tags.flatMap((x) => x.split("||")).map((x) => x.trim()).filter(Boolean))];
@@ -137,6 +146,34 @@ export function tidyQuote(s: string): string {
     .replace(/^\s*·\s*/, "")
     .replace(/\s{2,}/g, " ")
     .trim();
+}
+
+/**
+ * 긴 원문을 줄여 보일 때 낱말 중간('수도권(서울·경기·인…')에서 끊지 않는다 — 앞쪽 띄어쓰기에서 끊고 '…'.
+ * 띄어쓰기가 너무 앞에만 있으면(n의 2/3보다 앞) 글자 수로 끊는다. 열린 괄호가 남으면 그 앞에서 끊는다 (2026-10-23 외부 3차 점검)
+ */
+export function clipText(s: string, n: number): string {
+  if (s.length <= n) return s;
+  let cut = s.slice(0, n - 1);
+  const sp = cut.lastIndexOf(" ");
+  if (sp >= (n * 2) / 3) cut = cut.slice(0, sp);
+  const open = Math.max(cut.lastIndexOf("("), cut.lastIndexOf("（"));
+  if (open > cut.lastIndexOf(")") && open >= n / 2) cut = cut.slice(0, open);
+  return cut.replace(/[\s,·:]+$/, "") + "…";
+}
+
+/**
+ * 앞뒤를 글자 수로 잘라 '…'을 붙인 원문 인용(파이프라인 money·due의 quote)의 끝을 낱말 단위로 정리한다 (앞쪽은 온전한 낱말인지 알 수 없어 그대로).
+ * 예) '… 수도권(서울·경기·인…' → '… 수도권…' (잘린 낱말·닫히지 않은 괄호를 뺌). 원문 낱말은 바꾸지 않는다.
+ */
+export function quoteEdge(q: string): string {
+  if (!q.endsWith("…")) return q;
+  let body = q.slice(0, -1);
+  const sep = Math.max(body.lastIndexOf(" "), body.lastIndexOf("·"), body.lastIndexOf(","));
+  if (sep > body.length / 2) body = body.slice(0, sep);
+  const open = body.lastIndexOf("(");
+  if (open > body.lastIndexOf(")") && open > body.length / 2) body = body.slice(0, open);
+  return body.replace(/[\s,·:]+$/, "") + "…";
 }
 
 type Tidy = { laws?: string[]; contact?: string };

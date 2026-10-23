@@ -115,8 +115,9 @@ export function EasyResults() {
                 <p className="easy-where" data-testid="easy-where">
                   <Icon name="mapPin" size={18} />
                   <span>
-                    <b>신청: </b>
-                    {how ? <>{how.place}{how.channels.length > 0 && ` (${how.channels.map((c) => CHANNEL_LABEL[c]).join(", ")})`}</> : "자세히 보기에서 확인"}
+                    {/* 글자를 한 덩어리로 ('신청:원문에…'처럼 붙어 읽히지 않게), 창구는 괄호 대신 가운뎃점 ('(문의: …)(전화)' 겹괄호 — 2026-10-23 외부 3차 점검) */}
+                    <b>신청</b>
+                    {how ? `: ${how.place}${how.channels.length > 0 ? ` · ${how.channels.map((c) => CHANNEL_LABEL[c]).join(", ")}` : ""}` : ": 자세히 보기에서 확인"}
                   </span>
                 </p>
               </li>

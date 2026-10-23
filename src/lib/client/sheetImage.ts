@@ -107,7 +107,7 @@ export async function renderSheetPng(pl: SheetPlace, meta: SheetMeta): Promise<B
   y += 24;
   lines.push({ op: { kind: "rule" }, y, h: 2 });
   y += 24;
-  text("원문(정부24·복지로) 기준이에요. 서류는 바뀔 수 있으니 가기 전에 전화로 확인하세요. 보건복지상담센터 129. 최종 자격은 담당 기관이 정해요.", 22, 500, C.muted);
+  text("원문(정부24·복지로) 기준이에요. 서류는 바뀔 수 있으니 가기 전에 전화로 확인하세요. 궁금한 점은 보건복지상담센터(☎129)에 물어보세요. 최종 자격은 담당 기관이 정해요.", 22, 500, C.muted);
   y += PAD - 20;
 
   const scale = 1;
