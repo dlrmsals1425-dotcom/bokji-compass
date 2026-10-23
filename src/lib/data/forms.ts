@@ -96,7 +96,7 @@ export interface FormLink {
   evidenceUrl: string;
   evidenceNote: string;
   checkedAt: string;
-  scopeBasis?: "provincial-law-reference" | "national-law-reference" | "official-application-reference" | "municipal-application-reference";
+  scopeBasis?: "provincial-law-reference" | "national-law-reference" | "official-application-reference" | "municipal-application-reference" | "national-municipal-intake-reference";
   programEvidenceUrl?: string;
   /** Exact official law history reviewed for this benefit; never a global title alias. */
   renamedLawReference?: {
@@ -117,6 +117,29 @@ export interface FormLink {
     checkedAt: string;
     purposeArticleLink: string;
     transitionBasis: string;
+    scopeRestriction: string;
+  };
+  /** 전국 사업의 한 시·군·구가 자기 주민에게 따로 배포하는 선택 접수 서식.
+   *  기관 원본에만 쓰며 관할을 바꾸지 않는다. 그 도시를 고른 사람에게만 보인다. */
+  nationalMunicipalIntakeReference?: {
+    kind: "municipal-intake";
+    programmeId: string;
+    sigungu: string;
+    municipality: string;
+    /** 그 도시의 현행 안내 페이지와 거기서 실제로 내려받는 파일. */
+    municipalPageUrl: string;
+    downloadUrl: string;
+    sourceSHA256: string;
+    municipalPageSHA256: string;
+    httpStatus: number;
+    checkedAt: string;
+    /** 초기 신청만. 환급·정산 단계로 넓히지 않는다. */
+    stage: "initial-application";
+    /** 그 페이지가 같은 서비스의 같은 단계임을 말하는 문장. */
+    sameServiceEvidence: string;
+    /** 그 페이지가 어떤 주민까지 이 서식으로 받는지 말하는 문장. */
+    populationEvidence: string;
+    /** 이 도시 주민의 선택 경로라는 제한. */
     scopeRestriction: string;
   };
   municipalApplicationReference?: {

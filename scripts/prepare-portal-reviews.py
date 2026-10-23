@@ -58,7 +58,7 @@ OVERRIDE_FILE=ROOT/'pipeline/forms/reviews/full-body-role-overrides.json'
 # Each override is bound to the exact original SHA and still passes the gates below.
 FULL_BODY_ROLE_OVERRIDES=json.loads(OVERRIDE_FILE.read_text(encoding='utf-8-sig')).get('forms',{}) if OVERRIDE_FILE.exists() else {}
 VERIFIED_LAW_HISTORIES=json.loads((ROOT/'src/lib/data/verifiedLawHistories.json').read_text(encoding='utf-8-sig'))['histories']
-SCOPE_BASES=frozenset({'provincial-law-reference','national-law-reference','official-application-reference','municipal-application-reference'})
+SCOPE_BASES=frozenset({'provincial-law-reference','national-law-reference','official-application-reference','municipal-application-reference','national-municipal-intake-reference'})
 def read(file):return json.loads(file.read_text(encoding='utf-8-sig'))
 def day(value):
     value=str(value)
@@ -209,10 +209,19 @@ def resolve_role(record):
     metadata=role_metadata(record)
     if metadata:return metadata['role'],metadata
     raise ValueError('Audited form role still needs review; an unidentified supporting form needs roleBasis, roleEvidenceUrl and roleCheckedAt: '+form_id)
+def national_municipal_intake(record,program,form,entry):
+    if form.get('sourceKind')!='agency' or form.get('regionCode')!=entry.get('regionCode'):
+        raise ValueError('National municipal intake source differs from its registry')
+    return agency.validate_national_intake(entry,program,record)
+
+
 def scope_basis(record,program,form):
     """다른 관할 서식이 이 사업에 적용된다는 근거. 검토가 적은 값만 확인하고 없으면 만들지 않는다."""
     if form.get('sourceKind')=='agency':
         entry=agency.validate_form(form)
+        if record.get('nationalMunicipalIntakeReference') is not None or str(record.get('scopeBasis') or '')=='national-municipal-intake-reference':
+            national_municipal_intake(record,program,form,entry)
+            return 'national-municipal-intake-reference'
         agency.validate_program(entry,program,record)
         return None
     region=program.get('region') if isinstance(program.get('region'),dict) else {}
@@ -314,7 +323,7 @@ def build(programs,files):
             for program_id in record['programIds']:
                 program=programs.get(program_id)
                 if not program:raise ValueError('Unknown audited program: '+program_id)
-                link={key:record[key] for key in ['formId','use','condition','evidenceUrl','evidenceNote','checkedAt','displayTitle','programEvidenceUrl','municipalApplicationReference'] if key in record}
+                link={key:record[key] for key in ['formId','use','condition','evidenceUrl','evidenceNote','checkedAt','displayTitle','programEvidenceUrl','municipalApplicationReference','nationalMunicipalIntakeReference'] if key in record}
                 link['programIds']=[program_id]
                 basis=scope_basis(record,program,forms[form_id])
                 if basis:link['scopeBasis']=basis

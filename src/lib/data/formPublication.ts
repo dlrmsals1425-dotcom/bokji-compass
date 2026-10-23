@@ -10,6 +10,7 @@ export type VerifiedAgencyForm = Omit<(typeof verifiedAgencyForms.forms)[keyof t
   authorityBasis?: AgencyAuthorityBasis;
   /** 스캔 원본에만 있다. 사람이 이미지 전체(jpg) 또는 모든 페이지(pdf)를 본 기록이며 다른 형식은 가질 수 없다. */
   visualReview?: AgencyOriginalReview;
+  nationalMunicipalIntakeReference?: NonNullable<FormLink["nationalMunicipalIntakeReference"]>;
 };
 const AGENCY_ID = /^agency-\d{5}-[a-zA-Z0-9][a-zA-Z0-9_-]{0,79}$/;
 const AGENCY_SECRET = /^oc$|api[-_]?key|service[-_]?key|token|secret|password|auth|session|login|email|phone|resident|jumin/i;
@@ -145,6 +146,33 @@ function sameAuthorityBasis(value: unknown, basis: AgencyAuthorityBasis | undefi
   return Object.keys(row).length===BASIS_FIELDS.length && BASIS_FIELDS.every(key=>row[key]===basis[key]);
 }
 
+const NATIONAL_INTAKE_FIELDS = ["kind","programmeId","sigungu","municipality","municipalPageUrl","downloadUrl",
+  "sourceSHA256","municipalPageSHA256","httpStatus","checkedAt","stage","sameServiceEvidence","populationEvidence","scopeRestriction"] as const;
+function sameNationalIntakeReference(value: FormLink["nationalMunicipalIntakeReference"], expected: FormLink["nationalMunicipalIntakeReference"]): boolean {
+  if (value === undefined || expected === undefined) return value === expected;
+  return !!value && Object.keys(value).length === NATIONAL_INTAKE_FIELDS.length
+    && NATIONAL_INTAKE_FIELDS.every(key => value[key] === expected[key]);
+}
+function registeredNationalIntake(e: VerifiedAgencyForm): boolean {
+  const ref=e.nationalMunicipalIntakeReference;
+  if (ref === undefined) return true;
+  if (!ref || Object.keys(ref).length!==NATIONAL_INTAKE_FIELDS.length
+      || !NATIONAL_INTAKE_FIELDS.every(key=>Object.hasOwn(ref,key))
+      || ref.kind!=="municipal-intake" || ref.stage!=="initial-application"
+      || typeof ref.sigungu!=="string" || !/^\d{5}$/.test(ref.sigungu) || ref.sigungu.endsWith("000") || ref.sigungu!==e.regionCode
+      || typeof ref.municipality!=="string" || ref.municipality.trim().length<2 || !e.regionLabel.includes(ref.municipality)
+      || e.use!=="conditional" || !(e.condition??"").includes(ref.municipality)
+      || ref.sourceSHA256!==e.sha256 || ref.checkedAt!==e.checkedAt || ref.httpStatus!==200
+      || e.authorityBasis?.kind!=="official-program" || ref.municipalPageUrl!==e.authorityBasis.evidenceUrl
+      || ref.municipalPageSHA256!==e.authorityBasis.pageSHA256
+      || ref.municipalPageUrl!==e.sourcePageUrl || ref.downloadUrl!==e.sourceUrl
+      || ![ref.municipalPageUrl,ref.downloadUrl].every(url=>!!safeAgencyUrl(url) && /^(gov\.kr|.+\.(go|gov)\.kr)$/.test(new URL(url).hostname))
+      || e.programs.length!==1 || e.programs[0].id!==ref.programmeId) return false;
+  for (const text of [ref.sameServiceEvidence,ref.populationEvidence,ref.scopeRestriction])
+    if (typeof text!=="string" || text.trim().length<30 || !text.includes(ref.municipality)) return false;
+  return /전용|한정|선택/.test(ref.scopeRestriction);
+}
+
 export function registeredAgencyForm(id: string): VerifiedAgencyForm | null {
   const e = (verifiedAgencyForms.forms as Record<string, VerifiedAgencyForm>)[id];
   if (!AGENCY_ID.test(id) || !e || e.id !== id || e.sourceKind !== "agency" || id.split("-")[1] !== e.regionCode) return null;
@@ -173,7 +201,7 @@ export function registeredAgencyForm(id: string): VerifiedAgencyForm | null {
       || e.textScope!==(review?.kind==="whole-original-image"?"all_original_image_frames":"all_body_sections_or_pages")
       || !e.sectionsRead.length || new Set(e.sectionsRead).size!==e.sectionsRead.length
       || !e.applicant || !e.selectedParts.length || e.selectedParts.some(p=>!p.number || !p.title || !p.author || !["main","additional","conditional"].includes(p.use))) return null;
-  return e;
+  return registeredNationalIntake(e) ? e : null;
 }
 
 /**
@@ -214,7 +242,10 @@ export function agencyProgramLinkMatches(id: string, form: ApplicationForm, link
   const p=e.programs.find(p=>p.id===id);
   return !!p && link.formId===e.id && link.programEvidenceUrl===p.url && link.evidenceUrl===e.sourcePageUrl
     && link.checkedAt===e.checkedAt && link.use===e.use && (link.condition??"")===(e.condition??"")
-    && !link.scopeBasis && !link.renamedLawReference && !link.municipalApplicationReference
+    && (e.nationalMunicipalIntakeReference ? link.scopeBasis==="national-municipal-intake-reference"
+      && sameNationalIntakeReference(link.nationalMunicipalIntakeReference,e.nationalMunicipalIntakeReference)
+      : !link.scopeBasis && !link.nationalMunicipalIntakeReference)
+    && !link.renamedLawReference && !link.municipalApplicationReference
     && (link.displayTitle===undefined || link.displayTitle===e.title);
 }
 
@@ -334,6 +365,15 @@ function reviewedMunicipalRoute(program: Program, form: ApplicationForm, link: F
     && [program.url,...(program.sources??[]).map(source=>source.url)].some(url=>externalFormUrl(url)===exact);
 }
 
+function reviewedNationalMunicipalIntake(program: Program, form: ApplicationForm, link: FormLink): boolean {
+  if (link.scopeBasis!=="national-municipal-intake-reference" || !link.nationalMunicipalIntakeReference
+      || form.sourceKind!=="agency" || program.scope!=="national" || program.region!=null) return false;
+  const entry=registeredAgencyForm(form.id), ref=entry?.nationalMunicipalIntakeReference;
+  return !!entry && !!ref && ref.programmeId===program.id
+    && sameNationalIntakeReference(link.nationalMunicipalIntakeReference,ref)
+    && form.agency?.sha256===ref.sourceSHA256 && agencyProgramLinkMatches(program.id,form,link);
+}
+
 export function sameFormJurisdiction(program: Pick<Program, "scope" | "region">, form: ApplicationForm): boolean {
   if (form.regionCode === "national") return program.scope === "national";
   if (program.scope === "sigungu") return form.regionCode === program.region?.sigungu;
@@ -344,9 +384,13 @@ export function sameFormJurisdiction(program: Pick<Program, "scope" | "region">,
 /** Fail a publication build instead of silently accepting an invalid reviewed link. */
 export function validateFormLink(program: Program, form: ApplicationForm | undefined, link: FormLink): void {
   if (!form || form.id !== link.formId) throw new Error("Unknown form in reviewed association");
+  const nationalIntake=reviewedNationalMunicipalIntake(program,form,link);
+  if ((link.nationalMunicipalIntakeReference || link.scopeBasis==="national-municipal-intake-reference") && !nationalIntake)
+    throw new Error("National municipal intake route lacks exact municipal source evidence");
   if (form.sourceKind==="agency" || form.id.startsWith("agency-")) {
     const e=validateAgencyForm(form), p=e.programs.find(p=>p.id===program.id);
-    if (!p || !agencyProgramLinkMatches(program.id,form,link) || !sameFormJurisdiction(program,form)
+    // 이 선택 접수 경로만 전국 사업과 시·군·구 기관 원본의 관할 차이를 허용한다.
+    if (!p || !agencyProgramLinkMatches(program.id,form,link) || (!sameFormJurisdiction(program,form) && !nationalIntake)
         || ![program.url,...(program.sources??[]).map(s=>s.url)].includes(p.url)) throw new Error("Agency program binding mismatch");
   }
   const municipalRoute=reviewedMunicipalRoute(program,form,link);
@@ -356,7 +400,7 @@ export function validateFormLink(program: Program, form: ApplicationForm | undef
   if (!sameFormJurisdiction(program, form)) {
     const sameProvince = link.scopeBasis === "provincial-law-reference" && program.scope === "sigungu" && program.region?.sido === form.regionCode;
     const nationalReference = link.scopeBasis === "national-law-reference" && form.regionCode === "national";
-    if (!municipalRoute && !renamedLaw && !reviewedApplicationReference(program,form,link) && ((!sameProvince && !nationalReference) || !referencedFormLaw(program, form))) throw new Error(`Form jurisdiction does not match program: ${program.id} / ${form.id}`);
+    if (!municipalRoute && !renamedLaw && !nationalIntake && !reviewedApplicationReference(program,form,link) && ((!sameProvince && !nationalReference) || !referencedFormLaw(program, form))) throw new Error(`Form jurisdiction does not match program: ${program.id} / ${form.id}`);
   }
   if (!["application", "consent", "delegation", "supporting"].includes(form.role)) throw new Error("Non-applicant form cannot be published as an application");
   if (!externalFormUrl(link.evidenceUrl) || link.evidenceNote.trim().length < 10 || !/^\d{4}-\d{2}-\d{2}$/.test(link.checkedAt)) throw new Error("Reviewed association needs dated source evidence");
