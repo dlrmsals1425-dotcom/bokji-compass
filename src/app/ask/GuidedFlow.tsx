@@ -40,6 +40,35 @@ function whereOf(regions: RegionIndex, sigungu: string): Where | null {
   return null;
 }
 
+/**
+ * 진행 저장 (2026-10-23 외부 재점검 P3: 새로고침하면 처음으로, 뒤로가기하면 설문을 벗어남).
+ * 이 탭의 sessionStorage에만 — 답(상황)·지역·지나온 질문. 판정 계산(FlowStep)은 다시 불러올 때 지역 사업으로 새로 계산한다.
+ */
+type SnapLite = Omit<Snap, "st">;
+type SavedFlow = { v: 1; mode: FindMode; elder: boolean; where: Where; phase: Phase; extra: boolean; cur: SnapLite; history: { phase: Phase; snap: SnapLite }[] };
+const flowKey = (easy: boolean) => (easy ? "bn.flow.easy.v1" : "bn.flow.ask.v1");
+const lite = (s: Snap): SnapLite => ({ sit: s.sit, asked: s.asked, q: s.q, picks: s.picks, taps: s.taps });
+function readFlow(easy: boolean): SavedFlow | null {
+  try {
+    const v = JSON.parse(window.sessionStorage.getItem(flowKey(easy)) ?? "null");
+    return v && v.v === 1 && v.where && v.cur ? v : null;
+  } catch {
+    return null;
+  }
+}
+function clearFlow(easy: boolean) {
+  try {
+    window.sessionStorage.removeItem(flowKey(easy));
+  } catch {}
+}
+/** 브라우저 뒤로가기를 질문 하나씩으로 — 앞으로 갈 때마다 같은 주소로 기록을 하나 쌓는다 (주소에는 아무것도 싣지 않음) */
+const STEP_MARK = "bnFlowStep";
+function pushStep() {
+  try {
+    window.history.pushState({ ...(window.history.state ?? {}), [STEP_MARK]: true }, "");
+  } catch {}
+}
+
 /** 무거운 계산 전에 '계산 중' 화면이 먼저 그려지게 */
 const nextFrame = () => new Promise<void>((r) => setTimeout(r, 0));
 
@@ -72,6 +101,8 @@ export function GuidedFlow({ easy = false }: { easy?: boolean } = {}) {
   // 끝 화면의 '질문 더 답하기' — 남은 질문이 있는지는 끝 화면에 들어갈 때 한 번만 계산
   const [canMore, setCanMore] = useState(false);
   const seq = useRef(0);
+  /** 저장된 진행을 다시 불러오는 동안은 저장하지 않는다 */
+  const restored = useRef(false);
   // 키오스크(기관 태블릿)는 그 기관이 있는 시·군·구로 묻고 위치는 쓰지 않는다
   const kiosk = useSettings()?.kiosk ?? null;
   const headRef = useRef<HTMLHeadingElement>(null);
@@ -120,6 +151,7 @@ export function GuidedFlow({ easy = false }: { easy?: boolean } = {}) {
   };
 
   const chooseWho = (m: FindMode, old = false) => {
+    clearFlow(easy);
     setMode(m);
     setElderPick(old);
     setPhase("where");
@@ -155,6 +187,7 @@ export function GuidedFlow({ easy = false }: { easy?: boolean } = {}) {
     setHistory([]);
     setExtra(false);
     setRareOn([]);
+    pushStep();
     advance({ sit, st, asked: [], q: null, picks: [], taps: 0 }, false);
   };
 
@@ -185,6 +218,7 @@ export function GuidedFlow({ easy = false }: { easy?: boolean } = {}) {
     const st = sit2 ? flowStep(cur.st.pool, sit, cur.st) : cur.st;
     setHistory((h) => [...h, { snap: cur, phase: "ask" }]);
     setPrevPick(null);
+    pushStep();
     advance({ sit, st, asked, q: null, picks: [...cur.picks, { q: cur.q, label }], taps: cur.taps + used }, extra);
     setBusy(false);
   };
@@ -205,6 +239,64 @@ export function GuidedFlow({ easy = false }: { easy?: boolean } = {}) {
       toDone(prev.snap);
     } else setPhase(ph);
   };
+  /** 화면의 '이전': 앞으로 갈 때 쌓은 기록이 있으면 브라우저 뒤로가기로(→ popstate → back), 없으면 바로 */
+  const goBack = () => {
+    if (typeof window !== "undefined" && window.history.state?.[STEP_MARK]) window.history.back();
+    else back();
+  };
+  // 새로고침·다시 들어옴: 이 탭에 저장된 진행이 있으면 그 화면으로 (지역 사업을 불러온 뒤 판정을 다시 계산)
+  useEffect(() => {
+    const saved = readFlow(easy);
+    if (!saved || !["ask", "rare", "done"].includes(saved.phase)) {
+      restored.current = true;
+      return;
+    }
+    const my = ++seq.current;
+    void (async () => {
+      await nextFrame();
+      if (my !== seq.current) return;
+      setMode(saved.mode);
+      setElderPick(saved.elder);
+      setWhere(saved.where);
+      setPhase("loading");
+      try {
+        const { programs } = await loadForRegion(saved.where.sido, saved.where.sigungu);
+        await nextFrame();
+        if (my !== seq.current) return;
+        const full = (l: SnapLite): Snap => ({ ...l, st: flowStep(programs, l.sit) });
+        const c = full(saved.cur);
+        setTotal(programs.length);
+        setHistory(saved.history.map((h) => ({ phase: h.phase, snap: full(h.snap) })));
+        setExtra(saved.extra);
+        setCur(c);
+        if (saved.phase === "done") toDone(c);
+        else setPhase(saved.phase);
+      } catch {
+        clearFlow(easy);
+        setPhase("who");
+      }
+      restored.current = true;
+    })();
+    // 처음 한 번만
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
+  useEffect(() => {
+    if (!restored.current || !cur || !where || !["ask", "rare", "done"].includes(phase)) return;
+    try {
+      const saved: SavedFlow = { v: 1, mode, elder, where, phase, extra, cur: lite(cur), history: history.map((h) => ({ phase: h.phase, snap: lite(h.snap) })) };
+      window.sessionStorage.setItem(flowKey(easy), JSON.stringify(saved));
+    } catch {}
+  }, [phase, cur, history, extra, where, mode, elder, easy]);
+  // 브라우저 뒤로가기 = '이전' (최신 back을 쓰도록 ref에 둔다)
+  const backRef = useRef<() => void>(() => {});
+  useEffect(() => {
+    backRef.current = back;
+  });
+  useEffect(() => {
+    const on = () => backRef.current();
+    window.addEventListener("popstate", on);
+    return () => window.removeEventListener("popstate", on);
+  }, []);
 
   const finishRare = async (on: DimId[] | null) => {
     if (!cur || busy) return;
@@ -215,6 +307,7 @@ export function GuidedFlow({ easy = false }: { easy?: boolean } = {}) {
     const shown = rarePicks(cur.sit);
     const label = on === null ? "건너뛰기" : on.length ? shown.filter((r) => on.includes(r.key)).map((r) => r.label).join(", ") : "해당 없음";
     setHistory((h) => [...h, { snap: cur, phase: "rare" }]);
+    pushStep();
     setCur({ sit, st, asked: cur.asked, q: null, picks: [...cur.picks, { q: "rare", label }], taps: cur.taps + 1 });
     toDone({ sit, st, asked: cur.asked });
     setBusy(false);
@@ -226,6 +319,7 @@ export function GuidedFlow({ easy = false }: { easy?: boolean } = {}) {
     const q = pickNext(cur.st, cur.sit, cur.asked);
     if (!q) return;
     setHistory((h) => [...h, { snap: cur, phase: "done" }]);
+    pushStep();
     setCur({ ...cur, q });
     setPhase("ask");
   };
@@ -244,6 +338,8 @@ export function GuidedFlow({ easy = false }: { easy?: boolean } = {}) {
 
   const showResults = () => {
     if (!cur) return;
+    // 설문을 마치면 진행 저장은 지운다 — 다음에 들어오면 새로 시작 (답은 결과 화면용으로 따로 저장됨)
+    clearFlow(easy);
     saveSituation(cur.sit, mode);
     if (parent) saveFiller(elder ? "relative" : "child");
     setElder(parent && elder);
@@ -522,7 +618,7 @@ export function GuidedFlow({ easy = false }: { easy?: boolean } = {}) {
 
             {(phase === "ask" || phase === "rare" || phase === "done") && (
               <div className="gq-foot">
-                <button type="button" className="btn-quiet" onClick={back} disabled={busy} data-testid="gq-back">
+                <button type="button" className="btn-quiet" onClick={goBack} disabled={busy} data-testid="gq-back">
                   <Icon name="arrowLeft" size={16} /> 이전
                 </button>
                 {phase !== "done" && (
