@@ -172,7 +172,7 @@ test.describe("로그인 없는 전체 흐름 (상황 먼저 · 기본)", () => 
   test("상세 페이지: API 신청방법·연락처와 출처(정부24·복지로) 표시 @mobile", async ({ page }) => {
     await page.goto("/p/n.gov24-SSE000000170");
     await expect(page.getByRole("heading", { level: 1 })).toHaveText("기초연금");
-    await expect(page.getByText("신청 방법", { exact: true })).toBeVisible();
+    await expect(page.getByRole("heading", { name: "신청 방법", exact: true })).toBeVisible();
     await expect(page.locator("#h-apply").locator("..")).toContainText("129");
     await expect(page.getByTestId("apply-fallback")).toHaveCount(0);
     await expect(page.getByTestId("sources")).toContainText("정부24 공공서비스");

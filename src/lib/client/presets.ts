@@ -100,7 +100,8 @@ export function presetAt(p: Preset, sido: string, sigungu: string, label: string
   return {
     ...p,
     id: placedId(p.id, sigungu, label),
-    title: full && p.title.includes(full) ? p.title.replace(full, label) : `${p.title} (${label})`,
+    // 제목은 모두 '지역 + 상황' 꼴 ('경기 수원시 1인 어르신'·'경기 수원시 부모님 돌보기') — '부모님 돌보기 (경기 수원시)'와 섞이던 것 (2026-10-23 외부 3차 점검)
+    title: full && p.title.includes(full) ? p.title.replace(full, label) : `${label} ${p.title}`,
     desc: short ? p.desc.replace(short, name) : p.desc,
     profile: { ...p.profile, sido, sigungu },
   };

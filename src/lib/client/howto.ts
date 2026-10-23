@@ -119,11 +119,11 @@ export function placeOf(p: Pick<Program, "name" | "applyMethod" | "provider" | "
   if (p.provider && p.provider !== "주민센터" && p.provider.length < 24) return p.provider;
   if (p.provider === "주민센터") return CENTER;
   const contactOrg = (p.contact ?? "").split(/\n/)[0]?.split(/☎/)[0]?.trim();
-  if (apply) return contactOrg && contactOrg.length < 24 ? `원문에 적힌 곳 (문의: ${contactOrg})` : "원문에 적힌 곳 (모르면 ☎129)";
+  if (apply) return contactOrg && contactOrg.length < 24 ? `원문에 적힌 곳 (문의: ${contactOrg})` : "원문에 적힌 곳 (문의 ☎129)";
   const byName = BY_NAME.find(([re]) => re.test(p.name));
   if (byName) return byName[1];
   // 원문에 신청 정보가 전혀 없을 때: 주민센터가 접수하는 공공부조·돌봄·수당 계열만 주민센터, 그 밖에는 담당 기관 (QA 2차 N4)
-  return CENTER_OK.test(p.name) ? CENTER : "담당 기관에 문의 (모르면 ☎129)";
+  return CENTER_OK.test(p.name) ? CENTER : "담당 기관에 문의 (☎129 안내)";
 }
 /** 읍·면·동 주민센터가 신청을 받는 계열 (원문 신청방법이 비어 있을 때만 쓰는 기본값) */
 const CENTER_OK = /((?:생계|의료|주거|교육|해산|장제)\s*급여|수급|차상위|기초\s*생활|기초\s*연금|긴급\s*(?:복지|지원)|자활|희망\s*저축|바우처|수당|돌봄|장애인\s*등록|장애\s*정도|급식|보육료|드림\s*스타트|디딤\s*씨앗|응급\s*안전|고독사|사례\s*관리|찾아가는|요금\s*감면|주간\s*활동|방과\s*후\s*활동|자립\s*수당|정착금|경로당|장례)/;

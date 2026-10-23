@@ -101,7 +101,7 @@ function PlacePage({ pl, i, n, region, date, forPrint, actions }: { pl: SheetPla
           ))}
         </p>
       )}
-      <p className="vs-foot">원문(정부24·복지로) 기준이에요. 서류는 바뀔 수 있으니 가기 전에 전화로 확인하세요. 모르면 보건복지상담센터 129. 최종 자격은 담당 기관이 정해요.</p>
+      <p className="vs-foot">원문(정부24·복지로) 기준이에요. 서류는 바뀔 수 있으니 가기 전에 전화로 확인하세요. 궁금한 점은 보건복지상담센터(☎129)에 물어보세요. 최종 자격은 담당 기관이 정해요.</p>
       {actions}
     </article>
   );

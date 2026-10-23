@@ -1534,6 +1534,16 @@ export function withTopic(t: string): string {
 }
 const short = (t: string, n = 70) => (t.length > n ? t.slice(0, n - 1) + "…" : t);
 
+/**
+ * '답하면 정해져요' 한 줄. 조건 이름 뒤에 '이면'을 그냥 붙이면
+ * "원문의 대상 요건 확인 ('학대' 등)이면 받을 수 있어요"처럼 어색해서 (2026-10-23 외부 3차 점검) 그 꼴은 따로 쓴다.
+ */
+export function askLine(cond: string): string {
+  const m = /^원문의 대상 요건 확인\s*\((.+)\)$/.exec(cond.trim());
+  if (m) return `원문의 대상 요건(${short(m[1], 40)})에 해당하면 받을 수 있어요.`;
+  return `${short(cond)}이면 받을 수 있어요.`;
+}
+
 /** 카드 한 줄: 사용자 말로 */
 export function plainLine(i: V2Item, sit: Situation, mode: FindMode): string {
   const { profile } = toEval(sit);
@@ -1557,7 +1567,7 @@ export function plainLine(i: V2Item, sit: Situation, mode: FindMode): string {
       const unks = ev.reasons.filter((r) => r.kind === "unknown" && r.leaf);
       const unk = unks.find((r) => r.leaf?.field === "unasked" && FACT_PATTERNS.pension70.test(r.leaf.label)) ?? unks[0];
       const cond = g ?? (unk ? reasonPlain(unk, profile) : null);
-      return cond ? `${short(cond)}이면 받을 수 있어요.` : "위 질문에 답하시면 바로 알려드려요.";
+      return cond ? askLine(cond) : "위 질문에 답하시면 바로 알려드려요.";
     }
     case "office": {
       // 개인 대상이 아닌 사업은 '맞은 조건'을 앞에 쓰지 않는다

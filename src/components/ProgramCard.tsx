@@ -1,6 +1,6 @@
 import Link from "next/link";
 import type { ReactNode } from "react";
-import type { Program } from "@/lib/data/types";
+import type { Program, SourceId } from "@/lib/data/types";
 import type { Evaluation } from "@/lib/engine/types";
 import { reasonSentence } from "@/lib/client/howto";
 import { supportTypes } from "@/lib/client/facets";
@@ -10,8 +10,11 @@ import { ApplyBadge, MANUAL_TITLE, TierBadge, isManual, orgText, orgWhere, owner
 
 export interface Variant {
   p: Program;
-  ev: Evaluation;
+  ev?: Evaluation;
 }
+
+/** 같은 사업 묶음에서 어느 곳의 안내인지 (짧게) */
+const SOURCE_SHORT: Record<SourceId, string> = { gov24: "정부24", bokjiro: "복지로", welfare100: "핵심 복지 100선", icare: "통합돌봄 메뉴판", manual: "기관 누리집" };
 
 const short = (s: string, n = 40) => (s.length > n ? s.slice(0, n - 1) + "…" : s);
 
@@ -70,18 +73,22 @@ export function ProgramCard({ p, ev, judge, variants }: { p: Program; ev?: Evalu
           sector && <span key="sector">{sector}</span>,
           isManual(p) && <span key="manual" title={MANUAL_TITLE} data-testid="manual-badge">수동 보강</span>,
           p.orgType === "edu_office" && <span key="edu">교육청</span>,
-          p.deadline && <span key="due">기간: {short(p.deadline)}</span>,
+          p.deadline && <span key="due">{`기간: ${short(p.deadline)}`}</span>,
         ])}
       </p>
       {variants && variants.length > 0 && (
         <details className="variants">
-          <summary data-testid="variants-toggle">같은 이름의 다른 기관 사업 {variants.length}개</summary>
+          <summary data-testid="variants-toggle">
+            {/* 전국 사업끼리는 같은 제도를 정부24·복지로 등이 따로 안내한 것 (2026-10-23 외부 3차 점검) */}
+            {p.scope === "national" && variants.every((v) => v.p.scope === "national") ? "같은 사업의 다른 안내" : "같은 이름의 다른 기관 사업"} {variants.length}개
+          </summary>
           <ul>
             {variants.map((v) => (
               <li key={v.p.id}>
                 <Link href={`/p/${encodeURIComponent(v.p.id)}`}>{v.p.name}</Link>{" "}
                 <span className="muted">
                   · {v.p.scope === "national" ? "전국" : v.p.region?.label} · {v.p.provider || ownerText(v.p) || ""}
+                  {v.p.sources?.[0] && ` · ${SOURCE_SHORT[v.p.sources[0].source]} 안내`}
                 </span>
               </li>
             ))}

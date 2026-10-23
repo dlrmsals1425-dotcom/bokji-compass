@@ -12,6 +12,7 @@ import { loadProgram } from "@/lib/client/bundles";
 import { answersFor, needsChildren, teenSelf, type DimId, type Situation, type V2Item, type V2View } from "@/lib/client/v2";
 import type { FindMode } from "@/lib/client/mode";
 import type { Program } from "@/lib/data/types";
+import { quoteEdge } from "@/lib/data/text";
 import { IncomeAsk } from "./IncomeAsk";
 import styles from "./results.module.css";
 
@@ -61,7 +62,7 @@ export function Summary({ view, picks, sit, mode, question, onApply, onSkip, now
             <ul className="sum-money">
               {fitMoney.map((r) => ({ ...r, label: labelOf(r) })).map(({ program: p, money, label }) => (
                 <li key={p.id}>
-                  <Link href={`/p/${encodeURIComponent(p.id)}`}>{p.name}</Link> <span className="sum-amt" title={`원문: ${money.quote}`}>{label}</span>
+                  <Link href={`/p/${encodeURIComponent(p.id)}`}>{p.name}</Link> <span className="sum-amt" title={`원문: ${quoteEdge(money.quote)}`}>{label}</span>
                 </li>
               ))}
             </ul>

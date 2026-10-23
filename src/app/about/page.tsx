@@ -130,10 +130,10 @@ export default function About() {
             이하)과 그대로 비교합니다.
           </li>
           <li>
-            원문에 숫자 없이 <strong>&lsquo;저소득&rsquo;</strong>이라고만 적힌 혜택은 <strong>기준 중위소득 {LOW_INCOME_PCT}% 이하</strong>로 보고 판단합니다(청년·노인
+            원문에 숫자 없이 <strong>&lsquo;저소득&rsquo;</strong>이라고만 적힌 혜택은 <strong>{`기준 중위소득 ${LOW_INCOME_PCT}%`} 이하</strong>로 보고 판단합니다(청년·노인
             사업에서 흔히 쓰는 기준). 실제 기준은 사업마다 다를 수 있어 카드에 &lsquo;기준이 숫자로 없어 {LOW_INCOME_PCT}%로 봤어요&rsquo;라고 함께 적습니다.
           </li>
-          <li>소득이 기준 중위소득 {LOW_INCOME_PCT}%를 넘으면 기초생활수급(생계·의료·주거·교육급여, 50% 이하)·차상위(50% 이하)는 아닌 것으로 봅니다(직접 답하면 답을 따릅니다).</li>
+          <li>소득이 {`기준 중위소득 ${LOW_INCOME_PCT}%`}를 넘으면 기초생활수급(생계·의료·주거·교육급여, 50% 이하)·차상위(50% 이하)는 아닌 것으로 봅니다(직접 답하면 답을 따릅니다).</li>
           <li>
             기초연금 선정기준액(2026): 혼자 사는 어르신 월 {man(BASIC_PENSION_THRESHOLD_2026.single)}, 부부 월 395만 2천원(소득인정액). 기초연금을 받고 있다고 답하면 &lsquo;소득 하위 70%&rsquo; 조건은
             맞는 것으로 봅니다.

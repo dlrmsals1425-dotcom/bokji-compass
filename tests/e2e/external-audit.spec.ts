@@ -8,7 +8,9 @@ test("P2-3 서비스 검색: 홈 밖 주 메뉴에 '서비스 검색' 링크 (�
   await link.click();
   await expect(page).toHaveURL(/\/search$/);
   await page.goto("/");
-  await expect(page.locator('a[href^="/search"]')).toHaveCount(0);
+  // 홈 지도 랜딩의 머리말·본문에는 검색 메뉴 없음 — 바닥글에만 (2026-10-23 외부 3차 점검)
+  await expect(page.locator('a[href^="/search"]:not(footer a)')).toHaveCount(0);
+  await expect(page.getByRole("contentinfo").locator('a[href="/search"]')).toHaveCount(1);
 });
 
 test("P2-4·P3-9·P3-12 결과: 서류 모음 '2가지를', 자동 지급 개수에 띄어쓰기 없음, 이미지 저장 안내에 '사진첩' 없음", async ({ page }) => {

@@ -46,7 +46,7 @@ describe("신청처 (QA 1차 H3)", () => {
     expect(P("EM 발효액 배부", "방문 신청", { contact: "자원순환과 ☎ 031-000-0000" })).toBe("원문에 적힌 곳 (문의: 자원순환과)");
     expect(placeOf({ name: "노인장기요양보험", applyMethod: "" })).toBe("국민건강보험공단 지사");
     // QA 2차 N4: 신청 정보가 전혀 없으면 공공부조·돌봄·수당 계열만 주민센터, 그 밖에는 담당 기관
-    expect(placeOf({ name: "어떤 사업", applyMethod: "" })).toBe("담당 기관에 문의 (모르면 ☎129)");
+    expect(placeOf({ name: "어떤 사업", applyMethod: "" })).toBe("담당 기관에 문의 (☎129 안내)");
     expect(placeOf({ name: "국민기초생활보장 생계급여", applyMethod: "" })).toBe("주소지 행정복지센터(주민센터)");
     // 수동 보강 창구가 있으면 그대로
     expect(placeOf({ name: "실업급여", applyMethod: "고용24 …", applyPlace: "가까운 고용센터 (고용24에서 구직 등록 후 방문)" })).toContain("고용센터");

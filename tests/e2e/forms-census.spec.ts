@@ -109,7 +109,7 @@ test("official source attachments stay materials, not approved application downl
   const section = panel(page);
   const sources = section.getByTestId("forms-source-attachments");
   await expect(section).toContainText("신청서 찾는 중");
-  await expect(sources).toContainText("연결을 확인한 신청서로는 올리지 않았어요");
+  await expect(sources).toContainText("‘확인한 신청서’와 따로 두었어요");
   await expect(sources.getByRole("link")).toHaveCount(2);
   await expect(sources).toContainText("확인 메모: 이전 연도 양식이므로 최신 모집공고를 확인해 주세요.");
   const material = sources.getByRole("link", { name: /공식 안내자료\.pdf/ });
@@ -133,7 +133,7 @@ test("a confirmed application keeps its approved action separate from census mat
   const materials = section.getByTestId("forms-source-attachments");
   await expect(materials.getByRole("link", { name: /공식 안내자료\.pdf/ })).toHaveAttribute("href", ATTACHMENT);
   await expect(materials.getByRole("link", { name: /원본 받기|서식 보기/ })).toHaveCount(0);
-  await expect(materials).toContainText("다른 서류가 더 필요한지는 확인 중");
+  await expect(materials).toContainText("다른 서류가 더 필요한지 아직 확인하지 못해서");
 });
 
 test("detail distinguishes attempted, unread, and unattempted sources without inventing absence", async ({ page }) => {

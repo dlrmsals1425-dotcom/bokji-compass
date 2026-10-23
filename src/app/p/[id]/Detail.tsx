@@ -14,13 +14,13 @@ import { checkPath, type FindMode } from "@/lib/client/mode";
 import { dateLabel, periodEnded } from "@/lib/client/period";
 import { BUCKET_LABEL, DIM_BY_ID, answersFor, classifyOne, dimAvailable, dimsFor, explainItem, incomeExplain, plainLine, type ExplainLine, type Situation, type V2Item } from "@/lib/client/v2";
 import { SOURCE_LABEL, ORG_TYPE_LABEL, type LocalOperation, type Program } from "@/lib/data/types";
-import { blocksLength, normalizeText, relatedTags, textBlocks, tidyQuote, type TextBlock } from "@/lib/data/text";
+import { blocksLength, clipText, contactNote, normalizeText, relatedTags, textBlocks, tidyQuote, type TextBlock } from "@/lib/data/text";
 import { inSheet, readMarks, readPicks, toggleMark, writeMarks, type Marks } from "@/lib/client/sheetMarks";
 import { excludedSourceReason, externalFormUrl } from "@/lib/data/formPublication";
 const SECTIONS = [
-  { id: "sec-target", label: "지원대상" },
-  { id: "sec-benefit", label: "지원내용" },
-  { id: "sec-apply", label: "신청방법" },
+  { id: "sec-target", label: "지원 대상" },
+  { id: "sec-benefit", label: "지원 내용" },
+  { id: "sec-apply", label: "신청 방법" },
   { id: "sec-contact", label: "문의·출처" },
 ] as const;
 
@@ -121,6 +121,22 @@ export function Detail({ id }: { id: string }) {
   const types = supportTypes(p);
   const kind = types.length ? types.join(", ") : p.provision?.length ? p.provision.join(", ") : null;
   const back = profile ? { href: "/results", label: "내 결과" } : { href: "/search", label: "서비스 찾기" };
+  // 신청 서류 모음 담기·빼기 — 위(제목 아래)와 옆 상자 두 곳 (2026-10-23 외부 3차 점검: 아래에만 있어 찾기 어려움)
+  const sheetToggle = picks && (
+    <button
+      type="button"
+      className="link-btn"
+      aria-label={`${p.name} — ${inSheet(p.id, marks, picks) ? "신청 서류 모음에서 빼기" : "신청 서류 모음에 담기"}`}
+      onClick={() => {
+        const next = toggleMark(marks, p.id, !inSheet(p.id, marks, picks), picks);
+        writeMarks(next);
+        setMarks(next);
+      }}
+      data-testid="detail-sheet-toggle"
+    >
+      {inSheet(p.id, marks, picks) ? "빼기" : <><Icon name="listChecks" size={18} /> 신청 서류 모음에 담기</>}
+    </button>
+  );
 
   return (
     <div className="wrap page">
@@ -158,7 +174,7 @@ export function Detail({ id }: { id: string }) {
             <dd>{kind ?? NOT_IN_SOURCE}</dd>
           </div>
           <div>
-            <dt>신청기간</dt>
+            <dt>신청 기간</dt>
             <dd>{p.deadline ? firstLine(p.deadline, 40) : NOT_IN_SOURCE}</dd>
           </div>
           <div>
@@ -176,7 +192,7 @@ export function Detail({ id }: { id: string }) {
             {item && sit && (
               <p data-testid="detail-judge" data-bucket={item.bucket}>
                 <span className={`v2-badge b-${item.bucket}`}>{BUCKET_LABEL[item.bucket]}</span> {plainLine(item, sit, mode)}{" "}
-                <span className="muted small">({mode === "parent" ? "부모님 상황" : "답하신 상황"} 기준)</span>
+                <span className="muted small">{`(${mode === "parent" ? "부모님 상황" : "답하신 상황"} 기준)`}</span>
               </p>
             )}
             {p.applyType && p.applyType !== "unknown" && (
@@ -186,10 +202,20 @@ export function Detail({ id }: { id: string }) {
                   : p.applyType === "auto"
                     ? "대상이 되면 따로 신청하지 않아도 자동으로 지급·연계되는 경우가 많습니다. 받고 있지 않다면 문의처나 주민센터에 확인해 보세요."
                     : "기관·학교·시설이 대상자를 추천하거나 선정하는 사업입니다. 해당될 것 같다면 문의처에 확인해 보세요."}
-                {p.applyReason && <span className="muted small"> (근거: {tidyQuote(p.applyReason)})</span>}
+                {p.applyReason && <span className="muted small">{` (근거: ${tidyQuote(p.applyReason)})`}</span>}
               </p>
             )}
           </div>
+        )}
+        {picks && (
+          <p className="no-print" data-testid="detail-sheet-top">
+            {inSheet(p.id, marks, picks) && (
+              <span className="small">
+                <Icon name="check" size={16} /> 신청 서류 모음에 있음 ·{" "}
+              </span>
+            )}
+            {sheetToggle}
+          </p>
         )}
       </header>
 
@@ -204,7 +230,7 @@ export function Detail({ id }: { id: string }) {
           </nav>
 
           <section className="dsec" id="sec-target" aria-labelledby="h-target">
-            <h2 id="h-target">지원대상</h2>
+            <h2 id="h-target">지원 대상</h2>
             <h3 className="h3">내 상황과 비교한 결과</h3>
             {item && sit ? (
               <>
@@ -239,7 +265,7 @@ export function Detail({ id }: { id: string }) {
           </section>
 
           <section className="dsec" id="sec-benefit" aria-labelledby="h-benefit">
-            <h2 id="h-benefit">지원내용</h2>
+            <h2 id="h-benefit">지원 내용</h2>
             <dl className="summary">
               {p.benefit && (
                 <>
@@ -280,8 +306,8 @@ export function Detail({ id }: { id: string }) {
                       <strong>{o.name}</strong>
                       {o.provider && <div>운영: {o.provider}</div>}
                       {o.description && <div className="muted">{o.description}</div>}
-                      {o.contact && <div>문의: {o.contact}</div>}
-                      {o.applyMethod && <div style={{ whiteSpace: "pre-line" }}>신청: {shortText(o.applyMethod, 200)}</div>}
+                      {o.contact && <div>{`문의: ${o.contact}`}</div>}
+                      {o.applyMethod && <div style={{ whiteSpace: "pre-line" }}>{`신청: ${shortText(o.applyMethod, 200)}`}</div>}
                       {o.url && (
                         <a href={o.url} target="_blank" rel="noopener noreferrer">
                           원문 (새 창)
@@ -299,7 +325,7 @@ export function Detail({ id }: { id: string }) {
           </section>
 
           <section className="dsec" id="sec-apply" aria-labelledby="h-howto">
-            <h2 id="h-howto">신청방법</h2>
+            <h2 id="h-howto">신청 방법</h2>
             <ol className="howto compact">
               <li>
                 <span className="n" aria-hidden="true">1</span>
@@ -378,7 +404,7 @@ export function Detail({ id }: { id: string }) {
               ))}
             </ul>
             <p className="rule-note">
-              신뢰도 {TRUST_LABEL[p.trust]}
+              {`신뢰도 ${TRUST_LABEL[p.trust]}`}
               {review ? ` · ${review}` : ""}
               {isManual(p) ? " · 수동 보강 (공식 누리집 확인, 최종 사람 검수 대기)" : ""}
               {p.mergedCount && p.mergedCount > 1 ? ` · ${p.mergedCount}개 원천에서 같은 사업으로 합침` : ""}
@@ -403,7 +429,14 @@ export function Detail({ id }: { id: string }) {
               <dt>기관 유형</dt>
               <dd>{ORG_TYPE_LABEL[p.orgType]}</dd>
               <dt>문의</dt>
-              <dd>{p.contact ?? NOT_IN_SOURCE}</dd>
+              <dd>
+                {p.contact ?? NOT_IN_SOURCE}
+                {contactNote(p.contact) && (
+                  <span className="small" data-testid="contact-note" style={{ display: "block" }}>
+                    ※ {contactNote(p.contact)}
+                  </span>
+                )}
+              </dd>
             </dl>
             {!hasApplyInfo && (
               <div className="inset" data-testid="apply-fallback">
@@ -438,7 +471,7 @@ export function Detail({ id }: { id: string }) {
             </div>
             {excludedSourceReason(p.applyUrl) && <p className="small muted">{excludedSourceReason(p.applyUrl)}</p>}
             <p className="small muted" style={{ marginTop: "0.75rem" }}>
-              <Icon name="phone" size={14} className="icon-inline" /> 잘 모르겠으면 보건복지상담센터 129
+              <Icon name="phone" size={14} className="icon-inline" /> 궁금하시면 보건복지상담센터(☎129)에 물어보세요
             </p>
           </section>
           <section className="side-box no-print">
@@ -450,19 +483,7 @@ export function Detail({ id }: { id: string }) {
                       <Icon name="check" size={16} /> 신청 서류 모음에 있음 ·{" "}
                     </span>
                   )}
-                  <button
-                    type="button"
-                    className="link-btn"
-                    aria-label={`${p.name} — ${inSheet(p.id, marks, picks) ? "신청 서류 모음에서 빼기" : "신청 서류 모음에 담기"}`}
-                    onClick={() => {
-                      const next = toggleMark(marks, p.id, !inSheet(p.id, marks, picks), picks);
-                      writeMarks(next);
-                      setMarks(next);
-                    }}
-                    data-testid="detail-sheet-toggle"
-                  >
-                    {inSheet(p.id, marks, picks) ? "빼기" : <><Icon name="listChecks" size={18} /> 신청 서류 모음에 담기</>}
-                  </button>
+                  {sheetToggle}
                 </li>
               )}
               <li>
@@ -506,7 +527,7 @@ function RuleNote({ p }: { p: Program }) {
       <p>{text}</p>
       {r.evidence && (
         <p style={{ marginTop: 4 }}>
-          근거 구절: &ldquo;{r.evidence.length > 160 ? r.evidence.slice(0, 159) + "…" : r.evidence}&rdquo;
+          근거 구절: &ldquo;{clipText(tidyQuote(r.evidence), 160)}&rdquo;
         </p>
       )}
     </div>
