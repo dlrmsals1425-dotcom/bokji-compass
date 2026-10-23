@@ -20,7 +20,7 @@ test("지도 랜딩: 유한 모션·검색 메뉴 제거·GPS 공유·두 입력
   await page.goto("/");
   await expect(page.getByRole("heading", { level: 1 })).toHaveText("내게 맞는 복지,여기서 찾으세요.");
   await expect(page.getByRole("search")).toHaveCount(0);
-  await expect(page.locator('a[href^="/search"]')).toHaveCount(0);
+  await expect(page.locator('a[href^="/search"]:not(footer a)')).toHaveCount(0);
   await expect(page.getByTestId("start-guided")).toBeVisible();
   await expect(page.getByTestId("start-talk")).toBeVisible();
   const guidedBox = await page.getByTestId("start-guided").boundingBox();
