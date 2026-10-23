@@ -2,22 +2,31 @@ import { readFileSync } from "node:fs";
 import { createHash } from "node:crypto";
 import { describe, expect, it } from "vitest";
 import { strFromU8, strToU8, unzipSync, zipSync } from "fflate";
-import { buildIndexSummary, compileForm, validateConversion, type CatalogForm, type Conversion } from "../../scripts/build-paper-writing";
+import { buildIndexSummary, compileForm, readPublishedBaselines, validateConversion, type CatalogForm, type Conversion } from "../../scripts/build-paper-writing";
 import { buildFilledPaper, buildFilledPaperSection, findBoxes, validPaperManifest } from "../../src/lib/client/paperWriting";
 import { indexSection, findParagraph, paragraphInsertionStyle } from "../../src/lib/client/hwpxXml";
 import { measurePaperSourceRange, measurePaperText } from "../../src/lib/client/paperTextMetrics";
-import { paperSlotAtKey, type PaperManifest } from "../../src/lib/data/paperWritingTypes";
+import { paperSlotAtKey, type PaperManifest, type PaperSlot, type PaperWritingScope } from "../../src/lib/data/paperWritingTypes";
+import writingScopes from "../../src/lib/data/paperWritingScopes.json";
 
 const hash = (bytes: Uint8Array) => createHash("sha256").update(bytes).digest("hex");
 const catalog = JSON.parse(readFileSync("public/forms/v1/catalog.json", "utf8")).forms as Record<string, CatalogForm>;
 const conversions = JSON.parse(readFileSync("public/forms/writing/v1/conversions.json", "utf8")).forms as Record<string, Conversion>;
+const reviewedScopes = writingScopes.forms as Record<string, PaperWritingScope>;
 const sampleIds = ["ordin-19969911", "ordin-19969479", "law-17831953",
   "agency-41130-bokjiro-WLF00004843-20260730UUWBM1416490202996361", "agency-43000-cbfc-2026-art-grant", "rule-2305415"];
+const publishedBaselines = readPublishedBaselines(undefined, undefined, new Set([...sampleIds,
+  "agency-47000-bokjiro-wlf00004401-allowance-application", "ordin-20088657",
+  "ordin-15008013", "ordin-16093327", "ordin-17263733", "ordin-21777271", "ordin-22562417",
+  "law-17621759", "ordin-16095225", "ordin-16095227", "ordin-21777513", "ordin-21891611",
+  "ordin-17655269", "agency-41220-bokjiro-WLF00005525-20230109UUWBM1405150016381710",
+]));
 
 function sample(id: string) {
   const form = catalog[id], conversion = conversions[id];
   const bytes = new Uint8Array(readFileSync(`public${conversion.asset.path}`));
-  return { form, conversion, bytes, files: unzipSync(bytes), ...compileForm(id, form, conversion, bytes) };
+  return { form, conversion, bytes, files: unzipSync(bytes),
+    ...compileForm(id, form, conversion, bytes, reviewedScopes[id], publishedBaselines.get(id)) };
 }
 
 const header = `<hh:head xmlns:hh="http://www.hancom.co.kr/hwpml/2011/head" xmlns:hc="http://www.hancom.co.kr/hwpml/2011/core">
@@ -27,16 +36,24 @@ ${[0, 1].map(id => `<hh:charPr id="${id}" height="${id ? 2000 : 1000}" useKernin
 const paragraph = (text = "", style = 0) => `<hp:p paraPrIDRef="0"><hp:run charPrIDRef="${style}"><hp:t>${text}</hp:t></hp:run></hp:p>`;
 const cell = (row: number, col: number, paragraphs: string, ownMargin = true) => `<hp:tc hasMargin="${ownMargin ? 1 : 0}"><hp:subList>${paragraphs}</hp:subList><hp:cellAddr rowAddr="${row}" colAddr="${col}"/><hp:cellSpan rowSpan="1" colSpan="1"/><hp:cellSz width="10000" height="20000"/><hp:cellMargin left="100" right="200" top="0" bottom="0"/></hp:tc>`;
 const section = (cells: string) => `<hs:sec xmlns:hs="http://www.hancom.co.kr/hwpml/2011/section" xmlns:hp="http://www.hancom.co.kr/hwpml/2011/paragraph"><hp:p paraPrIDRef="0"><hp:run charPrIDRef="0"><hp:tbl><hp:inMargin left="0" right="0" top="0" bottom="0"/><hp:tr>${cells}</hp:tr></hp:tbl></hp:run></hp:p></hs:sec>`;
-function synthetic(xml: string, headerXml = header, extraSections: Record<string, Uint8Array> = {}) {
-  const source = sample("ordin-19969911");
+function synthetic(xml: string, headerXml = header, extraSections: Record<string, Uint8Array> = {}, reviewedSlotIds?: string[]) {
+  const source = { form: catalog["ordin-19969911"], conversion: conversions["ordin-19969911"] };
   const bytes = zipSync({ mimetype: [strToU8("application/hwp+zip"), { level: 0 }],
     "Contents/header.xml": strToU8(headerXml), "Contents/section0.xml": strToU8(xml), ...extraSections });
   const sha256 = hash(bytes);
   const conversion: Conversion = { ...source.conversion, metadataSanitized: true,
     asset: { path: `/forms/writing/v1/converted/ordin-19969911-${source.conversion.source.sha256.slice(0, 12)}-${sha256.slice(0, 12)}.hwpx`, bytes: bytes.length, sha256 } };
-  return { bytes, ...compileForm("ordin-19969911", source.form, conversion, bytes) };
+  // Detection tests deliberately use `detected`, never an unreviewed public manifest.
+  // The one synthetic fill test names its reviewed coordinate and binds the new asset bytes.
+  const scope = reviewedSlotIds ? { sourceSHA256: conversion.source.sha256, assetSHA256: sha256,
+    programmes: { "fixture-reviewed-applicant": reviewedSlotIds } } : undefined;
+  return { bytes, ...compileForm("ordin-19969911", source.form, conversion, bytes, scope) };
 }
-function textSlots(manifest: PaperManifest) { return Object.values(manifest.slots).filter(slot => slot.kind === "text"); }
+const sourceOrder = (a: PaperSlot, b: PaperSlot) => a.at.section - b.at.section
+  || (a.at.table ?? -1) - (b.at.table ?? -1) || a.at.row - b.at.row || a.at.col - b.at.col
+  || a.at.p - b.at.p || (a.from ?? 0) - (b.from ?? 0);
+function textSlots(manifest: PaperManifest) { return Object.values(manifest.slots).filter(slot => slot.kind === "text").sort(sourceOrder); }
+function detectedTextSlots(detected: Record<string, PaperSlot>) { return Object.values(detected).filter(slot => slot.kind === "text"); }
 const bareTable = (title = "", nested = "") => `<hp:tbl><hp:inMargin left="0" right="0" top="0" bottom="0"/>
 ${title ? `<hp:tr>${cell(0, 0, paragraph(title)).replace('colSpan="1"', 'colSpan="2"')}</hp:tr>` : ""}
 <hp:tr>${cell(1, 0, paragraph("성명"))}${cell(1, 1, nested ? `<hp:p paraPrIDRef="0"><hp:run charPrIDRef="0">${nested}</hp:run></hp:p>` : paragraph())}</hp:tr></hp:tbl>`;
@@ -52,10 +69,11 @@ describe("paper-writing compiler — actual source semantics", () => {
     "※ 아래의 내용은 서식 작성 시 필요한 사항을 안내하는 부분으로 접수ㆍ보관되지 않습니다.",
     "「성주군 인구정책 조례」 및 동법 시행규칙에 따라 위와 같이 신청합니다. 년 월 일",
   ])("별지 표식·안내문 %s 옆의 여백은 입력란으로 열지 않는다", label => {
-    const { manifest } = synthetic(section(cell(0, 0, paragraph(label)) + cell(0, 1, paragraph())));
-    expect(Object.keys(manifest.slots)).toHaveLength(0);
+    const { detected } = synthetic(section(cell(0, 0, paragraph(label)) + cell(0, 1, paragraph())));
+    expect(Object.keys(detected)).toHaveLength(0);
     const genuine = synthetic(section(cell(0, 0, paragraph("성명")) + cell(0, 1, paragraph())));
-    expect(textSlots(genuine.manifest).map(slot => slot.label)).toEqual(["성명"]);
+    expect(detectedTextSlots(genuine.detected).map(slot => slot.label)).toEqual(["성명"]);
+    expect(genuine.entry.slotCount).toBe(0);
   });
 
   it("경북 실제 신청서의 머리말만 쓸 수 있는 경우 작성 가능으로 표시하지 않는다", () => {
@@ -130,7 +148,7 @@ describe("paper-writing compiler — actual source semantics", () => {
     ("%s: later staff sections are locked and existing supported applicant cells remain open", id => {
       const s = sample(id), slots = Object.values(s.manifest.slots);
       if (id === "ordin-15008013") {
-        expect(slots.filter(slot => slot.at.section === 0 && !slot.locked).map(slot => slot.id))
+        expect(slots.filter(slot => slot.at.section === 0 && !slot.locked).sort(sourceOrder).map(slot => slot.id))
           .toEqual(["0/2/9/0/2#p0", "0/2/9/0/2#i1", "0/2/9/0/2#i6"]);
       }
       if (id === "ordin-21777271") expect(slots.some(slot => slot.at.section === 0 && slot.kind === "text" && !slot.locked)).toBe(true);
@@ -171,51 +189,51 @@ describe("paper-writing compiler — actual source semantics", () => {
 
   it.each(["심사조서", "접수대장", "지급대장", "관리대장", "심사결과표", "예방접종실시대장", "호국보훈수당 지급대상 내역", "지원대상자 명부"])
     ("only the independent full-width agency title %s locks the table", title => {
-      const { manifest } = synthetic(bodySection(hostTable(bareTable(title))));
-      expect(textSlots(manifest)).toHaveLength(1);
-      expect(textSlots(manifest)[0].locked?.kind).toBe("agency");
+      const { detected } = synthetic(bodySection(hostTable(bareTable(title))));
+      expect(detectedTextSlots(detected)).toHaveLength(1);
+      expect(detectedTextSlots(detected)[0].locked?.kind).toBe("agency");
     });
 
   it("body headings affect following tables only, reset at a citizen title and reset at a new section", () => {
     const xml = bodySection(hostTable(bareTable()) + paragraph("지원 검토조서") + hostTable(bareTable())
       + paragraph("개인정보 제공 동의서") + hostTable(bareTable()) + paragraph("지급대장"));
-    const { manifest } = synthetic(xml, header, { "Contents/section1.xml": strToU8(bodySection(hostTable(bareTable()))) });
-    expect(textSlots(manifest).map(slot => [slot.at.section, slot.at.table, slot.locked?.kind ?? "open"]))
+    const { detected } = synthetic(xml, header, { "Contents/section1.xml": strToU8(bodySection(hostTable(bareTable()))) });
+    expect(detectedTextSlots(detected).map(slot => [slot.at.section, slot.at.table, slot.locked?.kind ?? "open"]))
       .toEqual([[0, 0, "open"], [0, 1, "agency"], [0, 2, "open"], [1, 0, "open"]]);
   });
 
   it("a new full-width citizen title ends the preceding agency region for following tables", () => {
-    const { manifest } = synthetic(bodySection(hostTable(bareTable("지급대장"))
+    const { detected } = synthetic(bodySection(hostTable(bareTable("지급대장"))
       + hostTable(bareTable("지원금 신청서")) + hostTable(bareTable())));
-    expect(textSlots(manifest).map(slot => slot.locked?.kind ?? "open")).toEqual(["agency", "open", "open"]);
+    expect(detectedTextSlots(detected).map(slot => slot.locked?.kind ?? "open")).toEqual(["agency", "open", "open"]);
   });
 
   it("nested agency tables inherit their parent's role even if a child has a citizen title", () => {
-    const { manifest } = synthetic(bodySection(hostTable(bareTable("지원금 지급대장", bareTable("신청서")))));
-    const child = textSlots(manifest).filter(slot => slot.at.table === 1);
+    const { detected } = synthetic(bodySection(hostTable(bareTable("지원금 지급대장", bareTable("신청서")))));
+    const child = detectedTextSlots(detected).filter(slot => slot.at.table === 1);
     expect(child).toHaveLength(1); expect(child[0].locked?.kind).toBe("agency");
   });
 
   it("a small staff label does not lock the whole applicant table or a generic family roster", () => {
     const cells = cell(0, 0, paragraph("성명")) + cell(0, 1, paragraph())
       + cell(1, 0, paragraph("담당 공무원 확인")) + cell(1, 1, paragraph());
-    const { manifest } = synthetic(section(cells));
-    expect(textSlots(manifest).map(slot => slot.locked?.kind ?? "open")).toEqual(["open", "agency"]);
-    expect(textSlots(synthetic(bodySection(paragraph("가족 명부") + hostTable(bareTable()))).manifest)[0].locked).toBeUndefined();
+    const { detected } = synthetic(section(cells));
+    expect(detectedTextSlots(detected).map(slot => slot.locked?.kind ?? "open")).toEqual(["open", "agency"]);
+    expect(detectedTextSlots(synthetic(bodySection(paragraph("가족 명부") + hostTable(bareTable()))).detected)[0].locked).toBeUndefined();
   });
 
   it.each(["[   ]동의", "□ 동 의 □ 미동의", "동의 □ 미동의 □", "동의[  ], 미동의[  ]", "개인정보 이용에 동의하십니까? □예 □아니오", "□예 □아니오(미동의 시 제한)"])
     ("explicit consent choices %s are locked without changing the source text", text => {
       const xml = section(cell(0, 0, paragraph(text))).replaceAll('width="10000"', 'width="60000"');
-      const { manifest } = synthetic(xml), choices = Object.values(manifest.slots).filter(slot => slot.kind === "check");
+      const { manifest, detected } = synthetic(xml), choices = Object.values(detected).filter(slot => slot.kind === "check");
       expect(choices.length).toBeGreaterThan(0); expect(choices.every(slot => slot.locked?.kind === "consent")).toBe(true);
       expect(buildFilledPaperSection(manifest, 0, xml, { values: {}, checks: Object.fromEntries(choices.map(slot => [slot.id, true])) })).toBe(xml);
     });
 
   it("bare consent choices do not newly lock a name or unrelated benefit choices in the same paragraph", () => {
     const text = "성명:       / [  ] 출산가정 [  ] 전입가정 / 문자 안내: [  ] 동 의 [  ] 미동의";
-    const { manifest } = synthetic(section(cell(0, 0, paragraph(text))).replaceAll('width="10000"', 'width="80000"'));
-    const slots = Object.values(manifest.slots), name = slots.find(slot => slot.kind === "inline");
+    const { detected } = synthetic(section(cell(0, 0, paragraph(text))).replaceAll('width="10000"', 'width="80000"'));
+    const slots = Object.values(detected), name = slots.find(slot => slot.kind === "inline");
     expect(name?.locked).toBeUndefined(); expect(name).toBeTruthy();
     expect(slots.filter(slot => slot.kind === "check").map(slot => slot.locked?.kind ?? "open"))
       .toEqual(["open", "open", "consent", "consent"]);
@@ -241,8 +259,10 @@ describe("paper-writing compiler — actual source semantics", () => {
     expect(hash(s.bytes)).toBe(s.conversion.asset.sha256);
     expect(s.entry.slotCount).toBeGreaterThan(0);
     expect(hash(readFileSync(`public${s.conversion.source.path}`))).toBe(s.conversion.source.sha256);
+    const sections = new Map(s.manifest.sections.map(({ name }) => [Number(/section(\d+)\.xml$/.exec(name)![1]), strFromU8(s.files[name])]));
+    const indexes = new Map([...sections].map(([section, xml]) => [section, indexSection(xml)]));
     for (const slot of Object.values(s.manifest.slots)) {
-      const idx = indexSection(strFromU8(s.files[`Contents/section${slot.at.section}.xml`]));
+      const idx = indexes.get(slot.at.section)!;
       const p = slot.at.table === null ? idx.body[slot.at.p] : findParagraph(idx, slot.at.table, slot.at.row, slot.at.col, slot.at.p);
       expect(slot.expect).toBe(p.text);
       const box = slot.kind === "check" ? findBoxes(slot.expect).filter(item => item.shape === slot.boxShape)[slot.box!] : null;
@@ -254,9 +274,9 @@ describe("paper-writing compiler — actual source semantics", () => {
       expect(line.runs[0].from).toBe(0);
       expect(line.runs.at(-1)!.to).toBe(p.text.length);
       expect(measurePaperSourceRange(p.text, line)).not.toBeNull();
-      expect(buildFilledPaperSection(s.manifest, slot.at.section, strFromU8(s.files[`Contents/section${slot.at.section}.xml`]), { values: {}, checks: {} }))
-        .toBe(strFromU8(s.files[`Contents/section${slot.at.section}.xml`]));
     }
+    for (const [section, xml] of sections)
+      expect(buildFilledPaperSection(s.manifest, section, xml, { values: {}, checks: {} })).toBe(xml);
   });
 
   it("장수: genuine whole-empty fields are exactly the basic8 and delegation5", () => {
@@ -271,7 +291,7 @@ describe("paper-writing compiler — actual source semantics", () => {
 
   it("장수: 2026/10/23 keeps the printed year/month/day tokens at both actual coordinates", () => {
     const s = sample("ordin-19969911"), xml = strFromU8(s.files["Contents/section0.xml"]);
-    const dates = Object.values(s.manifest.slots).filter(slot => slot.token);
+    const dates = Object.values(s.manifest.slots).filter(slot => slot.token).sort(sourceOrder);
     expect(dates.map(slot => [slot.at.row, slot.at.p, slot.token, slot.kind])).toEqual([
       [4, 2, "년", "prefix"], [4, 2, "월", "inline"], [4, 2, "일", "inline"],
       [15, 0, "년", "prefix"], [15, 0, "월", "inline"], [15, 0, "일", "inline"],
@@ -306,7 +326,7 @@ describe("paper-writing compiler — actual source semantics", () => {
   it("whole-empty multi-paragraph cells open only p0 with a single-line width; mixed legal blanks stay printed", () => {
     const xml = section(cell(0, 0, paragraph("성명")) + cell(0, 1, paragraph() + paragraph() + paragraph())
       + cell(1, 0, paragraph("신청내용")) + cell(1, 1, paragraph("법률에 따른 동의 안내입니다.") + paragraph()));
-    const { manifest } = synthetic(xml), slots = textSlots(manifest);
+    const { manifest } = synthetic(xml, header, {}, ["0/0/0/1/0"]), slots = textSlots(manifest);
     expect(slots).toHaveLength(1); expect(slots[0].at).toMatchObject({ row: 0, col: 1, p: 0 });
     expect(slots[0].width!.available).toBe(9350);
     const result = indexSection(buildFilledPaperSection(manifest, 0, xml, { values: { [slots[0].id]: "김가나" }, checks: {} }));
@@ -315,31 +335,31 @@ describe("paper-writing compiler — actual source semantics", () => {
 
   it.each(["<hp:lineBreak/>", "<hp:tab/>", "<hp:pic/>", "<hp:ctrl/>"])("non-text content %s never becomes an empty input", control => {
     const xml = section(cell(0, 0, paragraph("성명")) + cell(0, 1, paragraph().replace("<hp:t>", `${control}<hp:t>`)));
-    const { manifest } = synthetic(xml);
-    expect(Object.keys(manifest.slots)).toHaveLength(0);
+    const { manifest, detected } = synthetic(xml);
+    expect(Object.keys(detected)).toHaveLength(0);
     expect(manifest.unsupported.some(item => /그림·필드·탭/.test(item.reason))).toBe(true);
   });
 
   it.each([[false, 8750], [true, 9350]] as const)("hasMargin=%s selects the actual inherited/own cell margins", (ownMargin, width) => {
     const xml = section(cell(0, 0, paragraph("성명")) + cell(0, 1, paragraph(), ownMargin))
       .replace('<hp:inMargin left="0" right="0"', '<hp:inMargin left="400" right="500"');
-    const { manifest } = synthetic(xml);
-    const slot = textSlots(manifest)[0];
+    const { manifest, detected } = synthetic(xml);
+    const slot = detectedTextSlots(detected)[0];
     expect(slot.width!.available).toBe(width);
     expect(manifest.lineMetrics![paperSlotAtKey(slot.at)].available).toBe(width);
   });
 
   it.each([['face="함초롬바탕"', 'face="Unknown Declared Family"'], ['isEmbedded="0"', 'isEmbedded="1"'], ['useKerning="0"', 'useKerning="1"']])
     ("unknown/unsupported source font option %s is held without a fallback", (from, to) => {
-      const { manifest } = synthetic(section(cell(0, 0, paragraph("성명")) + cell(0, 1, paragraph())), header.replaceAll(from, to));
-      expect(Object.keys(manifest.slots)).toHaveLength(0);
+      const { manifest, detected } = synthetic(section(cell(0, 0, paragraph("성명")) + cell(0, 1, paragraph())), header.replaceAll(from, to));
+      expect(Object.keys(detected)).toHaveLength(0);
       expect(manifest.unsupported.some(item => /글꼴/.test(item.reason))).toBe(true);
     });
 
   it("mixed run blank uses the right input run's actual font/size/ratio/spacing, not its large label", () => {
     const p = `<hp:p paraPrIDRef="0"><hp:run charPrIDRef="1"><hp:t>성명:</hp:t></hp:run><hp:run charPrIDRef="1"><hp:t/></hp:run><hp:run charPrIDRef="0"><hp:t>       </hp:t></hp:run></hp:p>`;
-    const { manifest } = synthetic(section(cell(0, 0, p)));
-    const slot = Object.values(manifest.slots)[0];
+    const { manifest, detected } = synthetic(section(cell(0, 0, p)));
+    const slot = Object.values(detected)[0];
     expect(slot.width!.charPrIDRef).toBe(0);
     expect(slot.width!.styles.latin).toMatchObject({ family: "함초롬바탕", size: 1000, ratio: 90, relSz: 90, spacing: 1 });
     expect(slot.width!.available).toBe(measurePaperText("       ", slot.width!.styles));
@@ -349,15 +369,15 @@ describe("paper-writing compiler — actual source semantics", () => {
 
   it("non-contiguous section names retain their actual section numbers in source coordinates", () => {
     const xml = section(cell(0, 0, paragraph("성명")) + cell(0, 1, paragraph()));
-    const { manifest } = synthetic(xml, header, { "Contents/section2.xml": strToU8(xml) });
+    const { manifest, detected } = synthetic(xml, header, { "Contents/section2.xml": strToU8(xml) });
     expect(manifest.sections.map(info => info.name)).toEqual(["Contents/section0.xml", "Contents/section2.xml"]);
-    expect(textSlots(manifest).map(slot => slot.at.section)).toEqual([0, 2]);
+    expect(detectedTextSlots(detected).map(slot => slot.at.section)).toEqual([0, 2]);
   });
 
   it("a date prefix at an explicit zero-length run binds that run without deleting printed tokens", () => {
     const p = `<hp:p paraPrIDRef="0"><hp:run charPrIDRef="1"><hp:t/></hp:run><hp:run charPrIDRef="0"><hp:t>년     월     일</hp:t></hp:run></hp:p>`;
-    const { manifest } = synthetic(section(cell(0, 0, p)));
-    const year = Object.values(manifest.slots).find(slot => slot.token === "년")!;
+    const { detected } = synthetic(section(cell(0, 0, p)));
+    const year = Object.values(detected).find(slot => slot.token === "년")!;
     expect(year.kind).toBe("prefix"); expect(year.from).toBe(0); expect(year.to).toBe(0); expect(year.after).toBe("년");
     expect(year.width!.charPrIDRef).toBe(1); expect(year.width!.styles.latin.size).toBe(2000);
   });

@@ -115,12 +115,12 @@ def whole_image_review(entry):
     It records that every frame of these exact bytes was looked at and found to
     be a blank applicant form. The reader only decodes the image; it never
     decides this. Bound to the registered SHA, day and pixel size, so changed
-    bytes or another image cannot inherit the review. Only jpg may carry it —
-    a format whose body text is readable must prove itself by that text.
-    A pdf original carries the page-based review above instead; neither format
-    can claim the other's kind.
+    bytes or another image cannot inherit the review. Only jpg or png may carry
+    it — a format whose body text is readable must prove itself by that text.
+    A pdf original carries the page-based review above instead; neither an
+    image nor a pdf can claim the other's kind.
     """
-    image = entry.get('format') == 'jpg'
+    image = entry.get('format') in ('jpg', 'png')
     if 'visualReview' not in entry:
         if image:raise ValueError('image_original_lacks_whole_image_review')
         return None
@@ -297,7 +297,7 @@ def registry_entry(form_id):
             or (entry.get('publishedAt') is not None and (not valid_day(entry['publishedAt']) or entry['publishedAt'] > entry['checkedAt']))
             or not re.fullmatch(r'[a-f0-9]{64}', str(entry.get('sha256', '')))
             or type(entry.get('bytes')) is not int or entry['bytes'] <= 0
-            or entry.get('format') not in ('hwp', 'hwpx', 'pdf', 'jpg')
+            or entry.get('format') not in ('hwp', 'hwpx', 'pdf', 'jpg', 'png')
             or not entry.get('attachmentId') or not (query_identity or path_identity)
             or not programs or any(not p.get('id') or not safe_url(p.get('url')) for p in programs)
             or len({p['id'] for p in programs}) != len(programs)

@@ -6,9 +6,9 @@ export const FORM_STATUS_LABEL: Record<FormStatus, string> = {
   available: "신청 서류 연결 확인", online: "온라인 신청 안내", review: "연결 검토 중", missing: "신청서 찾는 중",
 };
 export type FormRole = "application" | "consent" | "delegation" | "supporting" | "reference" | "administrative" | "deleted" | "unclassified";
-export type FormFileFormat = "hwp" | "hwpx" | "pdf" | "txt" | "gif" | "jpg";
+export type FormFileFormat = "hwp" | "hwpx" | "pdf" | "txt" | "gif" | "jpg" | "png";
 /**
- * 본문 글자가 없는 이미지 원본(jpg)의 근거 — 사람이 그 이미지 전체를 직접 본 기록이다.
+ * 본문 글자가 없는 이미지 원본(jpg 또는 png)의 근거 — 사람이 그 이미지 전체를 직접 본 기록이다.
  * 기계 판독이 아니라 검토자의 확인이며, 등록된 SHA·확인일·크기에 묶인다.
  * 빈 신청 서식이고 기입된 개인정보가 없다는 확인을 그대로 싣는다.
  */
@@ -76,11 +76,11 @@ export interface ApplicationForm {
   /** Exact reviewed agency source; no Law.go.kr annex identity is implied. */
   agency?: {
     agencyName: string; sourcePageUrl: string; finalUrl: string; attachmentId: string;
-    sha256: string; bytes: number; format: "hwp" | "hwpx" | "pdf" | "jpg";
+    sha256: string; bytes: number; format: "hwp" | "hwpx" | "pdf" | "jpg" | "png";
     checkedAt: string; authorityEvidenceUrl: string;
     /** 공식 신청 안내를 근거로 등록한 경우에만 실린다. */
     authorityBasis?: AgencyAuthorityBasis;
-    /** 스캔 원본(jpg 전체 이미지 / pdf 전체 페이지)에만 실린다. 다른 형식은 이 확인을 주장할 수 없다. */
+    /** 스캔 원본(jpg·png 전체 이미지 / pdf 전체 페이지)에만 실린다. 다른 형식은 이 확인을 주장할 수 없다. */
     visualReview?: AgencyOriginalReview;
   };
   officialPdfUrl?: string;
@@ -156,13 +156,18 @@ export interface FormLink {
     scopeRestriction: string;
   };
   scopeReference?: {
-    kind: "cited-local-law" | "program-documents";
+    /** statutory-chain 은 법이 전국 공통 서식 하나를 그 급여의 신청서로 지정한 경우만이며,
+     *  별도로 선별한 verifiedStatutoryApplications 등록에 referenceId 로 묶인다. */
+    kind: "cited-local-law" | "program-documents" | "statutory-chain";
     referencedLawTitle: string;
     annexNumber: string;
     basis: string;
     sourceLawTitle?: string;
     sourceLawId?: string;
     article?: string;
+    /** statutory-chain 전용 — 등록 항목의 키와 그 원본 바이트의 해시를 그대로 적는다. */
+    referenceId?: string;
+    sourceSHA256?: string;
   };
 }
 export interface ProgramFormEntry {

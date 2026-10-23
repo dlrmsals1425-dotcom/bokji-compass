@@ -46,7 +46,7 @@ describe("source-bound glyph advances", () => {
     expect(width("W", { ...source, bold: true })).toBe(910);
     expect(measureFormGlyphAdvance("가", { family: "돋움", size: 1000, bold: true }))
       .toEqual({ supported: false, reason: "unsupported_style" });
-    expect(measureFormGlyphAdvance("가", { family: "휴먼명조", size: 1000 }))
+    expect(measureFormGlyphAdvance("가", { family: "없는글꼴", size: 1000 }))
       .toEqual({ supported: false, reason: "unknown_font" });
   });
 
@@ -86,8 +86,8 @@ describe("source-bound glyph advances", () => {
   });
 
   it("keeps provenance without file paths, usernames or font binaries in the small table", () => {
-    expect(data.fonts.length).toBe(12);
-    expect(JSON.stringify(data).length).toBeLessThan(16000);
+    expect(data.fonts.length).toBe(15);
+    expect(JSON.stringify(data).length).toBeLessThan(20000);
     for (const font of data.fonts) {
       expect(font.sourceSha256).toMatch(/^[a-f0-9]{64}$/);
       expect(font.collectionIndex).toBeGreaterThanOrEqual(0);

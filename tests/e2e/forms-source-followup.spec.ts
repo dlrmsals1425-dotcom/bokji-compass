@@ -18,7 +18,7 @@ const exactFiles = [
     program: "g47230.bokjiro-WLF00004929", form: "agency-47230-health-kit-080701",
     title: "임신준비 키트 지원 신청서", format: "hwp",
     bytes: 102912, sha256: "f1e5886e5e39ead2ffe928b62b24b32607a52af14a0bf2f5cdafa65966329005",
-    condition: "1가구당 1회", excluded: ["ordin-17542133"], writable: false,
+    condition: "1가구당 1회", excluded: ["ordin-17542133"], writable: true,
   },
   {
     program: "g11215.gov24-304000000233", form: "ordin-22425515",
@@ -72,13 +72,13 @@ const exactFiles = [
     program: "g41130.gov24-378000000137", form: "ordin-20004411",
     title: "성남시 아동의료비 지원금 지급계좌 변경 신청서", format: "hwp",
     bytes: 76288, sha256: "1f6567f2bceb85cd84f1849222f354f32922c1cadf60374455b1daea20cd39e1",
-    condition: "사망·파산·압류 등 부득이한 사유", excluded: [], writable: false,
+    condition: "사망·파산·압류 등 부득이한 사유", excluded: [], writable: true,
   },
   {
     program: "g41130.gov24-378000000137", form: "ordin-20004423",
     title: "성남시 아동의료비 지원금 상속대표 합의 동의서", format: "hwp",
     bytes: 14336, sha256: "13354e643ec9ecac326ca7d29d68fa2bd1919f10e75f4a5552342a404e5ef390",
-    condition: "상속대표", excluded: [], writable: false,
+    condition: "상속대표", excluded: [], writable: true,
   },
   {
     program: "s30000.gov24-630000000660", form: "ordin-22337089",
@@ -132,7 +132,7 @@ const exactFiles = [
     program: "s12000.gov24-629000000179", form: "ordin-19755173",
     title: "5·18 생활지원금 신청서(종전 광주 5개 구)", format: "hwp",
     bytes: 57856, sha256: "82757c4193ccddec079f70bf6af7acb1f6896d95c93cbcb411b3ba8f9289486e",
-    condition: "종전 광주광역시 5개 구", excluded: [], writable: false,
+    condition: "종전 광주광역시 5개 구", excluded: [], writable: true,
   },
   {
     program: "s12000.gov24-646000000234", form: "ordin-22255373",

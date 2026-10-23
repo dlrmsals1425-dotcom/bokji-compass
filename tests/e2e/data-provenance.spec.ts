@@ -15,8 +15,8 @@ test("홈 바닥글에서 자료 출처로 이동하고 건수·한계가 보인
   await expect(sources).toContainText("24,889");
   await expect(sources).toContainText("1,263");
   await expect(sources).toContainText("총 복지 수가 아닙니다");
-  await expect(sources).toContainText("2,835개");
-  await expect(sources).toContainText("2,560건");
+  await expect(sources).toContainText("2,844개");
+  await expect(sources).toContainText("2,564건");
   await expect(sources).toContainText("개별 원문 주소가 비어");
   await expect(sources).toContainText("23,528");
   await expect(sources).toContainText("50건");

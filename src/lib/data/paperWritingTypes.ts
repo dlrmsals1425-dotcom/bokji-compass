@@ -179,6 +179,25 @@ export interface PaperManifest {
   unsupported: PaperUnsupported[];
   /** 파일을 받은 뒤 사람이 직접 해야 하는 것 */
   manual: string[];
+  /** 사업별 검토표가 있는 서식만. 그 사업에서 쓸 수 있는 자리 id 목록이다. */
+  programmeSlots?: Record<string, string[]>;
+  /** programmeSlots 의 사업 목록. 여기 없는 사업에서는 작성을 열지 않는다. */
+  programmeIds?: string[];
+}
+
+/**
+ * 사업별로 검토해 연 입력칸. 그 서식의 원본·변환본 해시와 사업ID에 함께 묶이며,
+ * 승인 불리언이 아니라 실제 존재하는 slotID 목록이다.
+ */
+export interface PaperWritingScope {
+  sourceSHA256: string;
+  assetSHA256: string;
+  programmes: Record<string, string[]>;
+}
+
+export interface PaperWritingScopes {
+  schema: 1;
+  forms: Record<string, PaperWritingScope>;
 }
 
 export interface PaperIndexEntry {
@@ -190,12 +209,40 @@ export interface PaperIndexEntry {
   checkedAt: string;
   slotCount: number;
   lockedCount: number;
+  /** 사업별 검토표가 있는 서식만. 그 사업에서만 화면 작성을 연다. */
+  programmeIds?: string[];
 }
 
 export interface PaperIndexShard {
   schema: 1;
   bucket: string;
   forms: Record<string, PaperIndexEntry>;
+}
+
+/**
+ * 검증된 변환본을 그대로 내려받기 위한 항목. 화면 입력을 지원하지 않는 변환본도 들어간다.
+ * 작성용 manifest 와 달리 원본·변환본의 신원과 그 검증 근거만 싣는다.
+ */
+export interface HwpxDownloadEntry {
+  source: PaperSourceIdentity;
+  asset: PaperFileIdentity;
+  pageCount: number;
+  checkedAt: string;
+  verification: string;
+  metadataSanitized: true;
+}
+
+export interface HwpxDownloadShard {
+  schema: 1;
+  bucket: string;
+  forms: Record<string, HwpxDownloadEntry>;
+}
+
+export interface HwpxDownloadSummary {
+  schema: 1;
+  generatedAt: string;
+  buckets: string[];
+  counts: { conversions: number; downloads: number; rejected: number };
 }
 
 export interface PaperIndexSummary {

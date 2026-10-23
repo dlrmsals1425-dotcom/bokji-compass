@@ -36,7 +36,7 @@ const samples = [
     "heading": "정선군 결혼장려금 지원 이행서약서",
     "conditionFragment": "부부가 모두",
     "municipality": null,
-    "writable": false
+    "writable": true
   },
   {
     "program": "g11215.gov24-304000000236",

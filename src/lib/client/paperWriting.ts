@@ -15,7 +15,7 @@ import { detailBucket } from "../data/bucket";
 import { measurePaperSourceRange, measurePaperText, type PaperGlyphStyles, type PaperLineMetrics } from "./paperTextMetrics";
 import {
   normalizePaperInput, paperSlotAtKey,
-  type PaperAt, type PaperChecks, type PaperIndexEntry, type PaperIndexShard, type PaperManifest, type PaperSlot, type PaperValues,
+  type PaperAt, type PaperChecks, type PaperIndexEntry, type PaperIndexShard, type PaperManifest, type PaperNode, type PaperSlot, type PaperValues,
 } from "../data/paperWritingTypes";
 
 /** `[  ]` 안을 √로 바꿀 때, 원래 폭을 지키려고 공백 두 칸을 √ 한 글자로 바꾼다. */
@@ -288,18 +288,18 @@ export async function buildFilledPaper(manifest: PaperManifest, assetBytes: Uint
 
 /* ── 공개 자료 읽기 ──────────────────────────────────────────────── */
 
-const FORM_ID = /^(?:ordin|law|rule)-\d{1,20}$|^agency-\d{5}-[a-zA-Z0-9][a-zA-Z0-9_-]{0,79}$/;
-const CONVERTED = /^\/forms\/writing\/v1\/converted\/[a-zA-Z0-9][a-zA-Z0-9_-]{0,120}-[a-f0-9]{12}\.hwpx$/;
+export const FORM_ID = /^(?:ordin|law|rule)-\d{1,20}$|^agency-\d{5}-[a-zA-Z0-9][a-zA-Z0-9_-]{0,79}$/;
+export const CONVERTED = /^\/forms\/writing\/v1\/converted\/[a-zA-Z0-9][a-zA-Z0-9_-]{0,120}-[a-f0-9]{12}\.hwpx$/;
 const MANIFEST = /^\/forms\/writing\/v1\/manifest\/[a-zA-Z0-9][a-zA-Z0-9_-]{0,120}\.json$/;
-const hex64 = (value: unknown) => typeof value === "string" && /^[a-f0-9]{64}$/.test(value);
-const positive = (value: unknown) => typeof value === "number" && Number.isSafeInteger(value) && value > 0;
-const convertedPath = (formId: string, sourceSha: string, assetSha: string) =>
+export const hex64 = (value: unknown) => typeof value === "string" && /^[a-f0-9]{64}$/.test(value);
+export const positive = (value: unknown) => typeof value === "number" && Number.isSafeInteger(value) && value > 0;
+export const convertedPath = (formId: string, sourceSha: string, assetSha: string) =>
   `/forms/writing/v1/converted/${formId}-${sourceSha.slice(0, 12)}-${assetSha.slice(0, 12)}.hwpx`;
 
 export const paperFormIdIsValid = (value: string) => FORM_ID.test(value);
 
 const cache = new Map<string, Promise<unknown | null>>();
-async function getJson<T>(path: string): Promise<T | null> {
+export async function getJson<T>(path: string): Promise<T | null> {
   if (!cache.has(path)) {
     const request = fetch(path, { signal: AbortSignal.timeout(15000) })
       .then(response => (response.ok ? response.json() : null))
@@ -343,6 +343,35 @@ export async function loadPaperEntries(formIds: string[]): Promise<Record<string
 }
 
 /** 꼭 필요한 값이 모두 들어 있고 서로 묶여 있는 manifest만 받아들인다. */
+/**
+ * 그 사업에서 쓸 수 있는 자리만 남긴다. 사업별 검토표가 있는 서식은 해당 사업에서만 열리고,
+ * 연결되지 않은 사업이나 다른 사업의 칸은 주소를 직접 넣어도 받지 않는다.
+ */
+export function scopeManifestToProgram(manifest: PaperManifest, programId: string | null): PaperManifest | null {
+  if (!manifest.programmeIds?.length) return manifest;
+  if (!programId || !manifest.programmeIds.includes(programId)) return null;
+  const allowed = new Set(manifest.programmeSlots?.[programId] ?? []);
+  if (!allowed.size) return null;
+  const slots = Object.fromEntries(Object.entries(manifest.slots)
+    .filter(([id, slot]) => slot.locked || allowed.has(id)));
+  // 검토표가 가리킨 자리가 하나라도 실제로 없으면 그 사업의 화면을 열지 않는다.
+  for (const id of allowed) if (!manifest.slots[id] || manifest.slots[id].locked) return null;
+  // 다른 사업의 입력칸을 숨겨도 그 자리에 인쇄된 □·괄호·공백은 남긴다.
+  // 저장 대상은 위에서 제한한 slots뿐이며 원본 양식 보기는 원문을 유지한다.
+  const originalText = (slot: PaperSlot): string => {
+    if (slot.kind === "text") return slot.expect;
+    if (slot.kind === "prefix") return "";
+    if (slot.kind === "inline") return slot.expect.slice(slot.from, slot.to);
+    const box = findBoxes(slot.expect).filter(item => item.shape === slot.boxShape)[slot.box ?? 0];
+    return box ? slot.expect.slice(box.from, box.to) : "";
+  };
+  const printed = (nodes: PaperNode[]): PaperNode[] => nodes.map(node => node.kind === "table"
+    ? { ...node, rows: node.rows.map(row => row.map(cell => ({ ...cell, nodes: printed(cell.nodes) }))) }
+    : { ...node, segments: node.segments.map(segment => segment.kind === "slot" && !slots[segment.id] && manifest.slots[segment.id]
+      ? { kind: "text" as const, text: originalText(manifest.slots[segment.id]) } : segment) });
+  return { ...manifest, slots, blocks: printed(manifest.blocks) };
+}
+
 export function validPaperManifest(value: unknown, formId: string): PaperManifest | null {
   const row = value as PaperManifest | null;
   if (!row || typeof row !== "object" || row.schema !== 1 || row.formId !== formId) return null;
@@ -358,6 +387,14 @@ export function validPaperManifest(value: unknown, formId: string): PaperManifes
     || (row.preview.limit !== null && !positive(row.preview.limit))
     || !Array.isArray(row.preview.dropEntries) || row.preview.dropEntries.some(name => name !== "Preview/PrvImage.png")) return null;
   if (!Array.isArray(row.blocks) || !row.slots || typeof row.slots !== "object" || !row.capacities || !row.lineMetrics) return null;
+  // 사업별 검토표가 실려 있으면 그 모양이 온전해야 한다.
+  if (row.programmeIds !== undefined || row.programmeSlots !== undefined) {
+    const ids = row.programmeIds, map = row.programmeSlots;
+    if (!Array.isArray(ids) || !ids.length || !map || typeof map !== "object") return null;
+    if (ids.some(id => typeof id !== "string" || !id.trim() || !Array.isArray(map[id]) || !map[id].length)) return null;
+    if (Object.keys(map).length !== ids.length) return null;
+    for (const id of ids) if (map[id].some(slotId => typeof slotId !== "string" || !row.slots[slotId])) return null;
+  }
   const sections = new Set(row.sections.map(info => sectionNumber(info.name)));
   for (const [id, slot] of Object.entries(row.slots)) {
     if (slot.id !== id || !sections.has(slot.at.section) || typeof slot.expect !== "string"

@@ -1365,6 +1365,36 @@
       "bytes": 108032,
       "format": "hwp",
       "relativePath": "agency-44210-health-cts2393-initial-voucher.hwp"
+    },
+    {
+      "formId": "agency-27000-daegu-school-entry-2026",
+      "lawId": "",
+      "lawTitle": "",
+      "title": "2026 추가접수 회차자료 · 접수종료(8.24~9.30) — 대구 고등학교 입학축하금 방문 신청서",
+      "sourceKind": "agency",
+      "regionCode": "27000",
+      "sourceUrl": "https://hosan.dge.hs.kr/upload/hosanh/na/bbs_10096532/ntt_41264820/doc_dae2v6e7b=14v9e=48v20=b5v4d=9dd9vb4d4v9eff_v9727.hwpx",
+      "sourcePageUrl": "https://hosan.dge.hs.kr/hosanh/na/ntt/selectNttInfo.do?mi=10096532&nttSn=41264820",
+      "attachmentId": "a97902c8b270c32a0b2d977317d8f1fc",
+      "sha256": "36dd742e2060d64f989ed3f4d4cda54e3da6f76e94d4fe7d3eaffdd86a9cfb2b",
+      "bytes": 84715,
+      "format": "hwpx",
+      "relativePath": "agency-27000-daegu-school-entry-2026.hwpx"
+    },
+    {
+      "formId": "agency-43720-notice1415-current-application",
+      "lawId": "1971921",
+      "lawTitle": "보은군 독립유공자 지원 조례",
+      "title": "독립유공자 보훈명예수당 지급·변경 신청서 — 10쪽 현행 신청서",
+      "sourceKind": "agency",
+      "regionCode": "43720",
+      "sourceUrl": "https://www.elis.go.kr/lgsltntc/attFileDown.do?adFileNm=%EB%B3%B4%EC%9D%80%EA%B5%B0+%EB%8F%85%EB%A6%BD%EC%9C%A0%EA%B3%B5%EC%9E%90+%EC%A7%80%EC%9B%90+%EC%A1%B0%EB%A1%80+%EC%9D%BC%EB%B6%80%EA%B0%9C%EC%A0%95%EC%A1%B0%EB%A1%80%EC%95%88%28%EC%9E%85%EB%B2%95%EC%98%88%EA%B3%A0%29.hwpx&realFileNm=4420000_%EB%B3%B4%EC%9D%80%EA%B5%B0+%EB%8F%85%EB%A6%BD%EC%9C%A0%EA%B3%B5%EC%9E%90+%EC%A7%80%EC%9B%90+%EC%A1%B0%EB%A1%80+%EC%9D%BC%EB%B6%80%EA%B0%9C%EC%A0%95%EC%A1%B0%EB%A1%80%EC%95%88%28%EC%9E%85%EB%B2%95%EC%98%88%EA%B3%A0%29_ofr_ofr_T9ds9GGEEHh6ggC4_20261006180813570_1.hwpx",
+      "sourcePageUrl": "https://www.elis.go.kr/lgsltntc/lgsltNtcDtl?pbancSn=1198&srchCtpvCd=43&srchSggCd=720",
+      "attachmentId": "4420000_보은군 독립유공자 지원 조례 일부개정조례안(입법예고)_ofr_ofr_T9ds9GGEEHh6ggC4_20261006180813570_1.hwpx",
+      "sha256": "fc9f3c06dd962a1c7a41845041b490c4cccba34abac282874068b60c111845fd",
+      "bytes": 58188,
+      "format": "hwpx",
+      "relativePath": "agency-43720-notice1415-current-application.hwpx"
     }
   ],
   "rounds": [
@@ -1447,8 +1477,16 @@
     {
       "file": "agency-originals-scope-round8020.json",
       "sha256": "04a9b9d3ad16b8735d0deaf62af8ffd5dc32c5ef5a09e834ec1e47244f5f3897"
+    },
+    {
+      "file": "agency-originals-scope-round8021.json",
+      "sha256": "ca597cffd3458806feed91be5069a37f03e4d7d81e07697c49d00636c3dc81b8"
+    },
+    {
+      "file": "agency-originals-scope-round8022.json",
+      "sha256": "4cd6b63836f1b8a3cf12975566f7615593150ea9e03d60bd5ae67a46becb1330"
     }
   ],
   "checkedAt": "2026-10-23",
-  "formCount": 91
+  "formCount": 93
 }

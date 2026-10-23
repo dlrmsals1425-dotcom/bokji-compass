@@ -12,7 +12,7 @@ import { useEffect, useMemo, useRef, useState } from "react";
 import Link from "next/link";
 import { loadProgramForms } from "@/lib/client/forms";
 import { formAssetUrl } from "@/lib/data/formPublication";
-import { buildFilledPaper, fetchPaperAsset, loadPaperManifest, paperFieldError } from "@/lib/client/paperWriting";
+import { buildFilledPaper, fetchPaperAsset, loadPaperManifest, paperFieldError, scopeManifestToProgram } from "@/lib/client/paperWriting";
 import {
   normalizePaperInput, openSlots, paperBudgetLabel,
   type PaperManifest, type PaperNode, type PaperSlot,
@@ -93,7 +93,13 @@ function useGate(formId: string, programId: string | undefined): Gate {
         blocked("공개된 원본 서식이 작성용으로 변환해 둔 원본과 달라요. 원본 받기로 내려받아 직접 작성해 주세요.");
         return;
       }
-      setGate({ state: "ready", manifest, programName: data.entry.name, use: link.use, condition: link.condition, checkedAt: link.checkedAt });
+      // 사업별 검토표가 있는 서식은 그 사업이 검토한 칸만 쓴다. 화면과 저장 모두 이 결과를 쓴다.
+      const scoped = scopeManifestToProgram(manifest, programId);
+      if (!scoped) {
+        blocked("이 서비스에서는 아직 화면 작성을 열지 않은 서식이에요. 원본 받기나 HWPX 받기로 내려받아 직접 작성해 주세요.");
+        return;
+      }
+      setGate({ state: "ready", manifest: scoped, programName: data.entry.name, use: link.use, condition: link.condition, checkedAt: link.checkedAt });
     }).catch(() => blocked("서식 정보를 불러오지 못했어요. 잠시 뒤 다시 시도해 주세요."));
     return () => { alive = false; };
   }, [formId, programId]);

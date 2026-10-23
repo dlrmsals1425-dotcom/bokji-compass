@@ -29,8 +29,9 @@ import { findBoxes } from "../src/lib/client/paperWriting";
 import { measurePaperText, measurePaperSourceRange, type PaperGlyphStyles, type PaperLineMetrics } from "../src/lib/client/paperTextMetrics";
 import { estimateHwpTextWidth, type FormGlyphStyle } from "../src/lib/client/formGlyphMetrics";
 import { detailBucket } from "../src/lib/data/bucket";
-import { paperSlotAtKey, type PaperAt, type PaperCellView, type PaperIndexEntry, type PaperLockKind, type PaperManifest, type PaperNode, type PaperSegment, type PaperSlot, type PaperUnsupported } from "../src/lib/data/paperWritingTypes";
+import { paperSlotAtKey, type PaperAt, type PaperCellView, type PaperIndexEntry, type PaperLockKind, type PaperManifest, type PaperNode, type PaperSegment, type PaperSlot, type PaperUnsupported, type PaperWritingScope } from "../src/lib/data/paperWritingTypes";
 import writingHolds from "../pipeline/forms/reviews/paper-writing-holds.json";
+import writingScopes from "../src/lib/data/paperWritingScopes.json";
 
 /* ── 경로와 입력 ──────────────────────────────────────────────────── */
 
@@ -39,11 +40,15 @@ const WRITING = "public/forms/writing/v1";
 const CONVERSIONS = `${WRITING}/conversions.json`;
 const MANIFEST_DIR = `${WRITING}/manifest`;
 const INDEX_DIR = `${WRITING}/index`;
+/** 공개된 혜택–서식 연결. 사업별 검토표가 실존하는 연결만 지목하는지 보는 데 쓴다. */
+const PROGRAMS_DIR = `${PUBLIC}/forms/v1/programs`;
 const UNSUPPORTED = `${WRITING}/unsupported.json`;
 const REPORT_DEFAULT = "logs/hwp-writing/paper-writing-report.json";
 /** 시민이 직접 작성하는 서식만. 지급대장 같은 기관 서류는 작성기에 올리지 않는다. */
 const CITIZEN_ROLES = ["application", "consent", "delegation", "supporting"];
 const WRITING_HOLDS = writingHolds.forms as Record<string, { sourceSHA256: string; reason: string }>;
+/** 사업별로 사람이 검토해 연 자리 목록. 비어 있으면 새로 열리는 자리가 없다. */
+const WRITING_SCOPES = writingScopes as { schema: number; forms: Record<string, PaperWritingScope> };
 const PREVIEW_TEXT = "Preview/PrvText.txt";
 /** 빈 원본 그림 — 완성 파일에 남으면 낡은 미리보기가 된다. 어느 선언 파일에도 들어 있지 않다. */
 const PREVIEW_IMAGE = "Preview/PrvImage.png";
@@ -338,9 +343,75 @@ const inputKind = (label: string): PaperSlot["input"] | undefined => {
 
 /* ── 한 서식 컴파일 ──────────────────────────────────────────────── */
 
-interface Compiled { manifest: PaperManifest; entry: PaperIndexEntry }
+/** `detected`는 원문에서 읽어 낸 후보 자리 전부. 실제로 공개하는 자리는 `manifest.slots`다. */
+interface Compiled { manifest: PaperManifest; entry: PaperIndexEntry; detected: Record<string, PaperSlot> }
 
-export function compileForm(formId: string, form: CatalogForm, conversion: Conversion, assetBytes: Uint8Array): Compiled {
+export interface WritingBaseline {
+  sourceSHA256: string; assetSHA256: string; slotIds: string[];
+  /** 이미 사업별로 나눠 공개한 서식이면 그 사업 목록. 검토표 없이 다시 합치지 않는다. */
+  programmeIds?: string[];
+}
+export interface ScopedSlots { slots: Record<string, PaperSlot>; programmeSlots?: Record<string, string[]>; programmeIds?: string[] }
+
+/**
+ * 어떤 자리를 실제로 열지 정한다. 글꼴이 늘어 더 많은 칸을 읽을 수 있게 되어도,
+ * 사람이 사업별로 검토한 목록이나 이미 검증된 기존 목록 없이는 저절로 열리지 않는다.
+ *
+ * - 검토표(scope)가 있으면 그 사업들이 지목한 자리만 열고 사업별 목록을 함께 싣는다.
+ * - 검토표가 없고 기존 manifest(baseline)가 있으면 그 자리 집합을 그대로 지킨다.
+ * - 둘 다 없으면 아무 자리도 열지 않는다. 그 서식은 화면 작성 미지원으로 남고,
+ *   검증된 변환본 내려받기는 그대로 쓸 수 있다.
+ *
+ * 잠긴 자리는 어느 경로로도 열지 않는다.
+ */
+export function applyWritingScope(formId: string, slots: Record<string, PaperSlot>,
+    source: { sha256: string }, asset: { sha256: string },
+    scope?: PaperWritingScope, baseline?: WritingBaseline): ScopedSlots {
+  const keep = (ids: Iterable<string>) => {
+    const out: Record<string, PaperSlot> = {};
+    for (const id of ids) if (slots[id]) out[id] = slots[id];
+    return out;
+  };
+  const locked = (id: string) => !!slots[id]?.locked;
+  if (scope) {
+    if (scope.sourceSHA256 !== source.sha256 || scope.assetSHA256 !== asset.sha256)
+      throw new Error("Writing scope is bound to different source/asset bytes: " + formId);
+    const programmeIds = Object.keys(scope.programmes).sort();
+    if (!programmeIds.length) throw new Error("Writing scope names no programme: " + formId);
+    const programmeSlots: Record<string, string[]> = {};
+    const union = new Set<string>();
+    for (const programId of programmeIds) {
+      const ids = scope.programmes[programId];
+      if (!Array.isArray(ids) || !ids.length) throw new Error("Writing scope names no slot: " + formId + "/" + programId);
+      for (const id of ids) {
+        if (!slots[id]) throw new Error("Writing scope names a slot that does not exist: " + formId + "/" + id);
+        if (locked(id)) throw new Error("Writing scope names a locked slot: " + formId + "/" + id);
+        union.add(id);
+      }
+      programmeSlots[programId] = [...new Set(ids)].sort();
+    }
+    return { slots: keep(union), programmeSlots, programmeIds };
+  }
+  if (baseline) {
+    if (baseline.sourceSHA256 !== source.sha256 || baseline.assetSHA256 !== asset.sha256)
+      throw new Error("Existing manifest is bound to different source/asset bytes: " + formId);
+    // 사업별로 나눠 공개한 서식은 그 검토표가 있어야 다시 만든다. 기존 산출물을 근거로
+    // 사업 구분을 지우고 합집합을 열면, 다른 사업 화면에 검토하지 않은 칸이 생긴다.
+    if (baseline.programmeIds?.length)
+      throw new Error("Programme-scoped manifest needs its own review table to rebuild: " + formId);
+    // 이미 검증된 자리만 그대로 둔다. 새 글꼴로 더 읽히게 된 자리는 검토표 없이 늘리지 않는다.
+    return { slots: keep(baseline.slotIds.filter(id => !locked(id))) };
+  }
+  return { slots: {} };
+}
+
+/** 원본이 보기로 적어 둔 금액 예시. 이런 글자를 입력칸 이름으로 쓰지 않는다. */
+export function isPlaceholderExample(text: string): boolean {
+  return /^[\s(]*(?:[0O]{2,}|[×xX✕]{2,})\s*(?:억\s*)?원[\s)]*$/.test(text ?? "");
+}
+
+export function compileForm(formId: string, form: CatalogForm, conversion: Conversion, assetBytes: Uint8Array,
+    scope?: PaperWritingScope, baseline?: WritingBaseline): Compiled {
   validateConversion(formId, form, conversion, assetBytes);
   // 다운로드에 승인한 일부와 실제 입력 가능한 부분이 다른 묶음 서식은 자동으로 열지 않는다.
   const writingHold = WRITING_HOLDS[formId];
@@ -362,6 +433,8 @@ export function compileForm(formId: string, form: CatalogForm, conversion: Conve
   const sectionNumbers = sectionNames.map(name => Number(/section(\d+)/.exec(name)![1]));
 
   const slots: Record<string, PaperSlot> = {};
+  /** 각 후보 자리가 덮고 있는 원문 글자. 공개하지 않을 때 그대로 되돌려 놓는 데 쓴다. */
+  const printed = new Map<string, string>();
   const capacities: Record<string, number> = {};
   const held = new Map<string, { reason: string; count: number; at?: PaperAt }>();
   const documentBlocks: PaperNode[] = [];
@@ -443,7 +516,11 @@ export function compileForm(formId: string, form: CatalogForm, conversion: Conve
       hold(reason, at);
     };
 
-    const add = (slot: PaperSlot) => { slots[slot.id] = slot; return { kind: "slot" as const, id: slot.id }; };
+    /** `covered`는 이 자리가 덮고 있는 원문 글자 — 공개하지 않으면 그 글자를 되돌려 놓는다. */
+    const add = (slot: PaperSlot, covered: string) => {
+      slots[slot.id] = slot; printed.set(slot.id, covered);
+      return { kind: "slot" as const, id: slot.id };
+    };
     const lockOf = (kind: PaperLockKind | null) => kind ? { locked: { kind, reason: LOCK_REASON[kind] } } : {};
     const countLock = (kind: PaperLockKind | null) => {
       if (kind === "consent") consentLocked += 1;
@@ -472,7 +549,7 @@ export function compileForm(formId: string, form: CatalogForm, conversion: Conve
           width: { available: metrics.available, styles, charPrIDRef: paragraphInsertionStyle(paragraph, 0, text.length) },
           label, ...(context.hint ? { context: context.hint } : {}),
           ...(inputKind(label) ? { input: inputKind(label) } : {}), ...lockOf(lock),
-        })],
+        }, text)],
       };
     }
 
@@ -509,7 +586,7 @@ export function compileForm(formId: string, form: CatalogForm, conversion: Conve
           ...(blank.prefix ? { after: blank.token } : {}), ...(blank.token ? { token: blank.token } : {}),
           budget: approximateBudget(available, styles), width: { available, styles, charPrIDRef: paragraphInsertionStyle(paragraph, blank.from, blank.to) }, label, context: tidy(text).slice(0, 160),
           ...(inputKind(label) ? { input: inputKind(label) } : {}), ...lockOf(lock),
-        });
+        }, text.slice(blank.from, blank.to));
       } })),
       ...boxes.map((box, position) => ({ ...box, sort: box.from, make: (): PaperSegment => {
         const label = boxLabel(text, boxes, position);
@@ -543,7 +620,7 @@ export function compileForm(formId: string, form: CatalogForm, conversion: Conve
           id: `${key}#c${box.shape[0]}${box.box}`, kind: "check", at, expect: text,
           box: box.box, boxShape: box.shape, budget: 0, width: { available: Math.max(reserved, required), styles, charPrIDRef: paragraphInsertionStyle(paragraph, box.from, box.to) },
           label, context: tidy(text).slice(0, 160), ...lockOf(lock),
-        });
+        }, text.slice(box.from, box.to));
       } })),
     ].sort((a, b) => a.sort - b.sort);
 
@@ -639,8 +716,41 @@ export function compileForm(formId: string, form: CatalogForm, conversion: Conve
   const limit = originalPreview && originalPreview.length < full.length ? originalPreview.length : null;
   const exact = !!files[PREVIEW_TEXT] && buildPaperPreviewText(indexes, limit) === originalPreview;
 
-  const openCount = Object.values(slots).filter(slot => !slot.locked).length;
-  const lockedCount = Object.values(slots).length - openCount;
+  // 검토표/기존 목록이 정하는 자리만 남긴다. 잠긴 자리는 어느 경로로도 열리지 않는다.
+  const scoped = applyWritingScope(formId, slots, conversion.source, conversion.asset, scope, baseline);
+  const lockedSlots = Object.fromEntries(Object.entries(slots).filter(([, slot]) => slot.locked));
+  const published: Record<string, PaperSlot> = { ...lockedSlots, ...scoped.slots };
+
+  // 공개하지 않은 후보 자리는 덮고 있던 원문 글자로 되돌린다. 그러지 않으면 원본에 인쇄된
+  // 빈칸·표시칸이 화면에서 사라져 원문과 다르게 보인다. 셀의 역할도 되돌린 뒤에 다시 센다.
+  const restore = (nodes: PaperNode[]): PaperNode[] => nodes.map(node => {
+    if (node.kind === "table") {
+      return { ...node, rows: node.rows.map(line => line.map(cell => {
+        const restored = restore(cell.nodes);
+        const role = restored.some(child => child.kind === "paragraph" && child.segments
+          .some(segment => segment.kind === "slot" && !published[segment.id]?.locked)) ? "entry" : "printed";
+        return { ...cell, role, nodes: restored } satisfies PaperCellView;
+      })) };
+    }
+    if (!node.segments.some(segment => segment.kind === "slot" && !published[segment.id])) return node;
+    const merged: PaperSegment[] = [];
+    for (const segment of node.segments) {
+      const next: PaperSegment = segment.kind === "slot" && !published[segment.id]
+        ? { kind: "text", text: printed.get(segment.id) ?? "" } : segment;
+      const last = merged[merged.length - 1];
+      if (next.kind === "text" && last?.kind === "text") last.text += next.text;
+      else merged.push({ ...next });
+    }
+    return { ...node, segments: merged };
+  });
+  const blocks = restore(documentBlocks);
+  // 읽을 수는 있었지만 아직 사업별 검토를 마치지 않아 열지 않은 칸도 그대로 알려 준다.
+  for (const slot of Object.values(slots)) {
+    if (!slot.locked && !published[slot.id]) hold("이 사업에서 화면 입력을 제공하지 않는 칸이에요. 원본을 확인하고 필요한 부분은 직접 적어 주세요.", slot.at);
+  }
+
+  const openCount = Object.values(published).filter(slot => !slot.locked).length;
+  const lockedCount = Object.values(published).length - openCount;
   const unsupported: PaperUnsupported[] = [...held.values()].sort((a, b) => b.count - a.count);
   const manual = [
     "인쇄한 뒤 서명란에 직접 서명하거나 도장을 찍어 주세요. 이 화면은 서명을 만들지 않아요.",
@@ -662,18 +772,21 @@ export function compileForm(formId: string, form: CatalogForm, conversion: Conve
     sourceTextSha256: conversion.sourceTextSha256,
     sections: sectionNames.map((name, section) => ({ name, tableCount: indexes[section].tableCount, paragraphCount: indexes[section].paragraphCount })),
     preview: { textEntry: PREVIEW_TEXT, exact, limit, dropEntries: files[PREVIEW_IMAGE] ? [PREVIEW_IMAGE] : [] },
-    blocks: documentBlocks, slots, capacities, lineMetrics, unsupported, manual,
+    blocks, slots: published, capacities, lineMetrics, unsupported, manual,
+    ...(scoped.programmeSlots ? { programmeSlots: scoped.programmeSlots, programmeIds: scoped.programmeIds } : {}),
   };
 
   const text = JSON.stringify(manifest);
   return {
     manifest,
+    detected: slots,
     entry: {
       source: manifest.source, asset: manifest.asset,
       manifest: `/forms/writing/v1/manifest/${formId}.json`,
       manifestSha256: sha256(Buffer.from(text, "utf8")),
       pageCount: manifest.pageCount, checkedAt: manifest.checkedAt,
       slotCount: openCount, lockedCount,
+      ...(scoped.programmeIds ? { programmeIds: scoped.programmeIds } : {}),
     },
   };
 }
@@ -708,6 +821,135 @@ export function buildIndexSummary(buckets: [string, Record<string, PaperIndexEnt
     buckets: buckets.map(([bucket]) => bucket), formIds, counts: { conversions, writable: formIds.length, unsupported } };
 }
 
+/* ── 기존 공개 범위 snapshot · 검토표 확인 ────────────────────────── */
+
+export interface ScopeIssue { formId: string; reason: string }
+
+/**
+ * 이미 공개한 manifest 한 건에서 baseline 을 뽑는다.
+ * 색인에 적힌 해시·신원과 실제 파일이 한 글자라도 다르면 근거로 쓰지 않는다 —
+ * 그때 사람이 확인한 바로 그 산출물만 "이미 검증된 범위"가 될 수 있다.
+ */
+export function baselineFromPublished(formId: string, entry: PaperIndexEntry, manifestText: string): WritingBaseline {
+  if (entry.manifest !== `/forms/writing/v1/manifest/${formId}.json`) throw new Error(`색인의 manifest 주소가 서식과 다릅니다: ${formId}`);
+  if (sha256(Buffer.from(manifestText, "utf8")) !== entry.manifestSha256) throw new Error(`공개된 manifest 가 색인의 SHA-256 과 다릅니다: ${formId}`);
+  const manifest = JSON.parse(manifestText) as PaperManifest;
+  if (manifest.schema !== 1 || manifest.formId !== formId) throw new Error(`공개된 manifest 의 서식 식별자가 다릅니다: ${formId}`);
+  if (manifest.source.sha256 !== entry.source.sha256 || manifest.asset.sha256 !== entry.asset.sha256) {
+    throw new Error(`공개된 manifest 와 색인의 원본·변환본 신원이 다릅니다: ${formId}`);
+  }
+  if (manifest.source.path !== entry.source.path || manifest.source.bytes !== entry.source.bytes
+      || manifest.source.format !== entry.source.format
+      || manifest.asset.path !== entry.asset.path || manifest.asset.bytes !== entry.asset.bytes) {
+    throw new Error(`공개된 manifest 와 색인의 원본·변환본 주소 또는 크기가 다릅니다: ${formId}`);
+  }
+  if (JSON.stringify([...(manifest.programmeIds ?? [])].sort()) !== JSON.stringify([...(entry.programmeIds ?? [])].sort())) {
+    throw new Error(`공개된 manifest 와 색인의 사업별 작성 범위가 다릅니다: ${formId}`);
+  }
+  const slots = Object.values(manifest.slots);
+  const open = slots.filter(slot => !slot.locked);
+  if (open.length !== entry.slotCount || slots.length - open.length !== entry.lockedCount) {
+    throw new Error(`공개된 manifest 의 자리 수가 색인과 다릅니다: ${formId}`);
+  }
+  if (!open.length) throw new Error(`공개된 manifest 에 열린 자리가 없습니다: ${formId}`);
+  return {
+    sourceSHA256: manifest.source.sha256, assetSHA256: manifest.asset.sha256,
+    slotIds: open.map(slot => slot.id).sort(),
+    ...(manifest.programmeIds?.length ? { programmeIds: [...manifest.programmeIds] } : {}),
+  };
+}
+
+/**
+ * 공개된 색인 전체를 훑어 기존 작성 범위를 snapshot 한다. 읽기만 한다.
+ * `only` 를 주면 그 서식의 manifest 만 읽지만, 색인 자체의 중복·버킷 검사는 전부 돌린다.
+ */
+export function readPublishedBaselines(indexDir = INDEX_DIR, publicRoot = PUBLIC, only?: Set<string>): Map<string, WritingBaseline> {
+  const out = new Map<string, WritingBaseline>();
+  if (!existsSync(indexDir)) return out;
+  const seen = new Set<string>();
+  for (const name of readdirSync(indexDir).sort()) {
+    if (!name.endsWith(".json")) continue;
+    const shard = readJson<{ schema: number; bucket: string; forms: Record<string, PaperIndexEntry> }>(join(indexDir, name));
+    if (shard.schema !== 1 || shard.bucket !== name.replace(/\.json$/, "")) throw new Error(`색인 샤드가 올바르지 않습니다: ${name}`);
+    for (const [formId, entry] of Object.entries(shard.forms)) {
+      if (detailBucket(formId) !== shard.bucket) throw new Error(`색인 샤드가 서식의 버킷과 다릅니다: ${formId} (${name})`);
+      if (seen.has(formId)) throw new Error(`같은 서식이 색인 샤드 두 곳에 있습니다: ${formId}`);
+      seen.add(formId);
+      if (only && !only.has(formId)) continue;
+      const path = join(publicRoot, entry.manifest.replace(/^\//, ""));
+      if (!existsSync(path)) throw new Error(`색인이 가리키는 manifest 가 없습니다: ${formId}`);
+      out.set(formId, baselineFromPublished(formId, entry, readFileSync(path, "utf8")));
+    }
+  }
+  return out;
+}
+
+/** 공개된 혜택–서식 연결. 검토표는 실제로 이어진 사업만 지목할 수 있다. */
+export function readProgrammeLinks(dir = PROGRAMS_DIR): Map<string, Set<string>> {
+  const out = new Map<string, Set<string>>();
+  if (!existsSync(dir)) throw new Error(`공개 혜택 연결 자료가 없습니다: ${dir}`);
+  for (const name of readdirSync(dir).sort()) {
+    if (!name.endsWith(".json")) continue;
+    const shard = readJson<{ programs?: { id: string; links?: { formId: string }[] }[] }>(join(dir, name));
+    for (const program of shard.programs ?? []) {
+      for (const link of program.links ?? []) {
+        if (!out.has(link.formId)) out.set(link.formId, new Set());
+        out.get(link.formId)!.add(program.id);
+      }
+    }
+  }
+  return out;
+}
+
+/**
+ * 이 서식의 작성 범위를 무엇으로 정할지 고른다.
+ * 검토표가 있으면 그것이 기준이고, 원본·변환본이 바뀐 기존 범위는 근거로 쓰지 않는다.
+ */
+export function writingBasis(formId: string, conversion: Conversion,
+    registry: Record<string, PaperWritingScope>, baselines: Map<string, WritingBaseline>):
+    { scope?: PaperWritingScope; baseline?: WritingBaseline; rebound: boolean } {
+  const scope = registry[formId];
+  const published = baselines.get(formId);
+  const bound = !!published && published.sourceSHA256 === conversion.source.sha256
+    && published.assetSHA256 === conversion.asset.sha256;
+  return {
+    ...(scope ? { scope } : {}),
+    ...(bound ? { baseline: published } : {}),
+    rebound: !!published && !bound && !scope,
+  };
+}
+
+/**
+ * 검토표를 쓰기 전에 보는 것들. 여기서 걸리면 공개 산출물을 하나도 바꾸지 않고 멈춘다.
+ * 자리 id 가 실제로 있는지·잠겨 있는지는 변환본을 열어야 알 수 있어 컴파일에서 본다.
+ */
+export function scopeRegistryIssues(registry: Record<string, PaperWritingScope>,
+    conversions: Record<string, Conversion>, links: Map<string, Set<string>>): ScopeIssue[] {
+  const issues: ScopeIssue[] = [];
+  const short = (value: string) => (typeof value === "string" ? value.slice(0, 12) : String(value));
+  for (const formId of Object.keys(registry).sort()) {
+    const scope = registry[formId];
+    const conversion = conversions[formId];
+    if (!conversion) { issues.push({ formId, reason: "검토표가 변환 기록에 없는 서식을 지목합니다" }); continue; }
+    if (scope.sourceSHA256 !== conversion.source.sha256) {
+      issues.push({ formId, reason: `검토표의 원본 SHA 가 지금 변환 기록과 다릅니다 (검토표 ${short(scope.sourceSHA256)} / 현재 ${short(conversion.source.sha256)})` });
+    }
+    if (scope.assetSHA256 !== conversion.asset.sha256) {
+      issues.push({ formId, reason: `검토표의 변환본 SHA 가 지금 변환 기록과 다릅니다 (검토표 ${short(scope.assetSHA256)} / 현재 ${short(conversion.asset.sha256)})` });
+    }
+    const programmes = Object.keys(scope.programmes ?? {});
+    if (!programmes.length) { issues.push({ formId, reason: "검토표가 사업을 하나도 지목하지 않았습니다" }); continue; }
+    const linked = links.get(formId) ?? new Set<string>();
+    for (const programId of programmes.sort()) {
+      const ids = scope.programmes[programId];
+      if (!Array.isArray(ids) || !ids.length) issues.push({ formId, reason: `검토표의 ${programId} 에 자리 목록이 없습니다` });
+      else if (ids.some(id => typeof id !== "string" || !id)) issues.push({ formId, reason: `검토표의 ${programId} 에 자리 id 가 아닌 값이 있습니다` });
+      if (!linked.has(programId)) issues.push({ formId, reason: `${programId} 은(는) 이 서식과 연결된 공개 혜택이 아닙니다` });
+    }
+  }
+  return issues;
+}
+
 function main() {
   const catalog = readJson<{ schema: number; forms: Record<string, CatalogForm> }>("public/forms/v1/catalog.json");
   if (catalog.schema !== 1) throw new Error("catalog.json schema가 1이 아닙니다");
@@ -716,10 +958,33 @@ function main() {
 
   const only = argument("ids").split(",").filter(Boolean);
   const ids = (only.length ? only : Object.keys(conversions.forms)).sort();
+
+  // 검토표를 먼저 본다. 여기서 걸리면 공개 산출물을 하나도 바꾸지 않고 멈춘다.
+  if (WRITING_SCOPES.schema !== 1) throw new Error("paperWritingScopes.json schema가 1이 아닙니다");
+  const registry = WRITING_SCOPES.forms;
+  const issues = scopeRegistryIssues(registry, conversions.forms, readProgrammeLinks());
+  if (issues.length) {
+    throw new Error("사업별 검토표를 쓸 수 없습니다 (공개 산출물을 바꾸지 않았습니다):\n"
+      + issues.map(issue => `  ${issue.formId}: ${issue.reason}`).join("\n"));
+  }
+  // 이미 공개한 작성 범위를 먼저 snapshot 한다 — 읽기만 한다.
+  // 글꼴이 늘어 더 많은 칸을 읽게 되어도 이 범위를 넘겨 열지 않는다.
+  if (flag("progress")) process.stderr.write("snapshot published writing scope\n");
+  const baselines = readPublishedBaselines(INDEX_DIR, PUBLIC, only.length ? new Set(only) : undefined);
+  const missingScopes = [...baselines].filter(([formId, baseline]) => baseline.programmeIds?.length && !registry[formId]);
+  if (missingScopes.length) {
+    throw new Error("이미 사업별로 구분한 작성 범위의 검토표가 없습니다 (공개 산출물을 바꾸지 않았습니다): "
+      + missingScopes.map(([formId]) => formId).join(", "));
+  }
+
   const shards = new Map<string, Record<string, PaperIndexEntry>>();
   const written: string[] = [];
   const skipped: { formId: string; sourceSHA256: string | null; sourceRole: string | null; reason: string; lockedCount: number | null; details: PaperUnsupported[] }[] = [];
-  const report: { formId: string; slots: number; locked: number; unsupported: number; previewExact: boolean; sections: number }[] = [];
+  const report: { formId: string; slots: number; locked: number; unsupported: number; previewExact: boolean; sections: number; basis: "scope" | "baseline" }[] = [];
+  /** 기존에 열려 있었지만 원본·변환본이 바뀌어 그 범위를 더 쓸 수 없는 서식 */
+  const rebound: { formId: string; publishedSource: string; currentSource: string; publishedAsset: string; currentAsset: string }[] = [];
+  /** 기존 범위 안에서 이번에 열리지 않은 자리 (늘어난 경우는 오류로 멈춘다) */
+  const drift: { formId: string; publishedBefore: number; openedNow: number; missing: string[] }[] = [];
 
   for (const formId of ids) {
     if (flag("progress")) process.stderr.write(`compile ${formId}\n`);
@@ -735,7 +1000,24 @@ function main() {
       if (!existsSync(assetPath)) throw new Error("변환본 파일이 아직 없습니다");
       const bytes = new Uint8Array(readFileSync(assetPath));
       validateConversion(formId, form, conversion, bytes);
-      const compiled = compileForm(formId, form, conversion, bytes);
+
+      // 검토표가 있으면 그것이 기준이다. 없으면 이미 공개한 범위를 그대로 지킨다.
+      const { scope, baseline, rebound: changed } = writingBasis(formId, conversion, registry, baselines);
+      if (changed) {
+        const published = baselines.get(formId)!;
+        rebound.push({ formId, publishedSource: published.sourceSHA256, currentSource: conversion.source.sha256,
+          publishedAsset: published.assetSHA256, currentAsset: conversion.asset.sha256 });
+        throw new Error("원본·변환본이 바뀌어 이미 검증한 작성 범위를 그대로 쓸 수 없습니다. 사업별 검토표가 필요합니다.");
+      }
+      const compiled = compileForm(formId, form, conversion, bytes, scope, baseline);
+      if (baseline && !scope) {
+        const openIds = Object.values(compiled.manifest.slots).filter(slot => !slot.locked).map(slot => slot.id);
+        const allowed = new Set(baseline.slotIds), openedNow = new Set(openIds);
+        const grown = openIds.filter(id => !allowed.has(id));
+        if (grown.length) throw new Error(`이미 검증한 범위에 없던 자리가 열렸습니다: ${grown.slice(0, 5).join(", ")}`);
+        const missing = baseline.slotIds.filter(id => !openedNow.has(id));
+        if (missing.length) drift.push({ formId, publishedBefore: baseline.slotIds.length, openedNow: openIds.length, missing: missing.slice(0, 20) });
+      }
       if (!compiled.entry.slotCount) {
         details = compiled.manifest.unsupported;
         lockedCount = compiled.entry.lockedCount;
@@ -753,11 +1035,14 @@ function main() {
       report.push({
         formId, slots: compiled.entry.slotCount, locked: compiled.entry.lockedCount,
         unsupported: compiled.manifest.unsupported.length, previewExact: compiled.manifest.preview.exact,
-        sections: compiled.manifest.sections.length,
+        sections: compiled.manifest.sections.length, basis: scope ? "scope" : "baseline",
       });
     } catch (error) {
+      const reason = error instanceof Error ? error.message : String(error);
+      // 검토표가 있는 서식을 조용히 미지원으로 내려보내지 않는다. 색인·미지원 목록을 쓰지 않고 멈춘다.
+      if (registry[formId]) throw new Error(`검토표가 있는 ${formId} 을(를) 컴파일할 수 없습니다: ${reason}`);
       skipped.push({ formId, sourceSHA256: form?.file?.sha256 ?? null, sourceRole: form?.role ?? null,
-        reason: error instanceof Error ? error.message : String(error), lockedCount, details });
+        reason, lockedCount, details });
       const path = join(MANIFEST_DIR, `${formId}.json`);
       if (existsSync(path)) unlinkSync(path);
     }
@@ -805,14 +1090,20 @@ function main() {
     generatedAt: new Date().toISOString(),
     conversions: Object.keys(conversions.forms).length,
     compiled: report.length, rewritten: written.length, skipped: skipped.length,
+    scoped: report.filter(row => row.basis === "scope").length,
+    fromBaseline: report.filter(row => row.basis === "baseline").length,
+    publishedBaselines: baselines.size, registryForms: Object.keys(registry).length,
     previewNotExact: report.filter(row => !row.previewExact).map(row => row.formId),
     multiSection: report.filter(row => row.sections > 1).map(row => row.formId),
-    forms: report, held: skipped,
+    forms: report, held: skipped, rebound, drift,
   };
   writeIfChanged(argument("report", REPORT_DEFAULT), JSON.stringify(summary, null, 2) + "\n");
   console.log(JSON.stringify({
     conversions: summary.conversions, compiled: summary.compiled, rewritten: summary.rewritten,
-    skipped: summary.skipped, previewNotExact: summary.previewNotExact.length, multiSection: summary.multiSection.length,
+    skipped: summary.skipped, scoped: summary.scoped, fromBaseline: summary.fromBaseline,
+    publishedBaselines: summary.publishedBaselines, registryForms: summary.registryForms,
+    rebound: rebound.length, drift: drift.length,
+    previewNotExact: summary.previewNotExact.length, multiSection: summary.multiSection.length,
   }));
 }
 

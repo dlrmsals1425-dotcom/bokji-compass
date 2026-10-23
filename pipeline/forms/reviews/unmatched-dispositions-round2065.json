@@ -2351,15 +2351,18 @@
     {
       "formId": "ordin-22484269",
       "sha256": "c4d28777502093cd37baa083bc1cf02cf71a9500fa08d596d4ce1b7b711c396e",
-      "disposition": "non_applicant",
-      "reason": "운송사업자·조합이 운행구간·요금·보조금과 기관계좌를 청구하는 별지2이다. 실제 사이트 사업은 주민의 바우처카드 이용이며 운송업체 정산신청을 주민신청서에 붙이지 않는다.",
+      "disposition": "approved",
+      "reason": "정확법/원본/프로그램 관할은 강원고성군(51820)이다. 전체2호는 실제운행일·구간·요금·보조금/자부담과 사업자계좌·증빙/공동이용동의다. 현행2165409 제6조의 주민바우처와 제7조1항의 같은서비스 운송사업자 별지2청구를 직접 구분한다. 프로그램icare0083-1489636-1-2-10의 버스미운행지역 희망택시와 동일한 제공단계여서 실제운행한 사업자의 종이청구에만 조건부제안한다. 교통카드 전산정산시 생략가능하고 주민카드신청용이 아니다. 원본을 아카이브에서 다시 읽어 SHA·ZIP CRC·Contents 전체 section XML 및 BinData0개를 재검증했다. 2026-10-23 공식 MCP 현행 검색은 같은법규ID와 시행일을 반환했다. 신청인이 기관이라는 사실은 서식명만으로 추정하지 않고 서명·은행계좌·실제급여단계를 대조했다. 총괄은 정확 원본 SHA와 전체 XML 본문·새 한글 출력 1쪽 전체를 읽고 현행법의 실제 별표키/flSeq 및 해당 사업의 지급·보고 단계를 대조했다. 주민 최초신청으로 분류하지 않고 표시한 제공기관 또는 선정 보조사업자의 조건부 후속 제출에만 한정한다. 원본은 수정하지 않으며 자동작성 범위는 승인하지 않는다.",
       "fullBodyReviewed": true,
       "reviewedProgramPairs": [
         {
           "programId": "g51820.icare-0083-1489636-1-2-10",
-          "programName": "희망택시",
-          "disposition": "not_applicable",
-          "reason": "원본 신청 주체·목적과 이 사업의 지원 범위를 대조했으며 이 연결은 승인하지 않음."
+          "formId": "ordin-22484269",
+          "decision": "matched",
+          "disposition": "approved",
+          "use": "conditional",
+          "condition": "강원특별자치도 고성군 희망택시가 지원대상 주민을 실제 운송한 뒤, 해당 운송사업자·법인·조합이 운행비용을 청구할 때 사용하는 기관작성 부속 서류입니다. 운행일·차량·기점과 종점·운행요금·보조금 및 자부담과 계좌를 운송사업자가 작성하고 운행 증빙자료를 제출합니다. 주민이 희망택시 바우처카드를 처음 신청하는 양식은 별지1로 별도입니다. 교통카드로 신청하는 경우에는 조례 제7조제1항에 따라 전산자료로 처리할 수 있으므로 모든 운송에 이 종이서식 제출이 필수인 것은 아닙니다. 고성군 희망택시의 실제 운행 정산에만 사용합니다.",
+          "reason": "정확법/원본/프로그램 관할은 강원고성군(51820)이다. 전체2호는 실제운행일·구간·요금·보조금/자부담과 사업자계좌·증빙/공동이용동의다. 현행2165409 제6조의 주민바우처와 제7조1항의 같은서비스 운송사업자 별지2청구를 직접 구분한다. 프로그램icare0083-1489636-1-2-10의 버스미운행지역 희망택시와 동일한 제공단계여서 실제운행한 사업자의 종이청구에만 조건부제안한다. 교통카드 전산정산시 생략가능하고 주민카드신청용이 아니다. 원본을 아카이브에서 다시 읽어 SHA·ZIP CRC·Contents 전체 section XML 및 BinData0개를 재검증했다. 2026-10-23 공식 MCP 현행 검색은 같은법규ID와 시행일을 반환했다. 신청인이 기관이라는 사실은 서식명만으로 추정하지 않고 서명·은행계좌·실제급여단계를 대조했다. 총괄은 정확 원본 SHA와 전체 XML 본문·새 한글 출력 1쪽 전체를 읽고 현행법의 실제 별표키/flSeq 및 해당 사업의 지급·보고 단계를 대조했다. 주민 최초신청으로 분류하지 않고 표시한 제공기관 또는 선정 보조사업자의 조건부 후속 제출에만 한정한다. 원본은 수정하지 않으며 자동작성 범위는 승인하지 않는다."
         }
       ],
       "sourceEvidence": {
@@ -2392,7 +2395,43 @@
           "annexBinding": "bound"
         }
       },
-      "checkedAt": "2026-10-19"
+      "checkedAt": "2026-10-23",
+      "priorDispositions": [
+        {
+          "checkedAt": "2026-10-19",
+          "disposition": "non_applicant",
+          "reason": "운송사업자·조합이 운행구간·요금·보조금과 기관계좌를 청구하는 별지2이다. 실제 사이트 사업은 주민의 바우처카드 이용이며 운송업체 정산신청을 주민신청서에 붙이지 않는다.",
+          "relatedProgramIds": null,
+          "reviewedProgramPairs": [
+            {
+              "programId": "g51820.icare-0083-1489636-1-2-10",
+              "programName": "희망택시",
+              "disposition": "not_applicable",
+              "reason": "원본 신청 주체·목적과 이 사업의 지원 범위를 대조했으며 이 연결은 승인하지 않음."
+            }
+          ],
+          "officialFollowup": null
+        }
+      ],
+      "reviewCheckedAt": "2026-10-23",
+      "reviewedBy": "codex-coordinator-with-independent-hwpx-source-review",
+      "relatedProgramIds": [
+        "g51820.icare-0083-1489636-1-2-10"
+      ],
+      "approvedAssociations": [
+        {
+          "programId": "g51820.icare-0083-1489636-1-2-10",
+          "formId": "ordin-22484269",
+          "use": "conditional"
+        }
+      ],
+      "officialFollowup": {
+        "checkedAt": "2026-10-23",
+        "sourceResult": "pipeline/forms/reviews/municipal-reviewed-round8213.json",
+        "sourceResultSHA256": "f0514f99f3a574bf0580fe3cdaabdf6b83f573a50e19d77fa7b037b433329120",
+        "proposedStatus": "approved_exact_followup_not_citizen_main",
+        "allOriginalsMatched": false
+      }
     },
     {
       "formId": "ordin-22484273",
